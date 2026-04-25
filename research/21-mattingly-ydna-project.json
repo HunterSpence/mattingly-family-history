@@ -1,0 +1,523 @@
+{
+  "project": {
+    "name": "Mattingly-Matney Y-DNA Surname Project",
+    "platform": "FamilyTreeDNA",
+    "url": "https://www.familytreedna.com/groups/mattingly/about",
+    "alternate_results_url": "https://www.wikitree.com/wiki/Space:Mattingly/Matney_Surname_DNA_Project",
+    "member_count": 53,
+    "fund_balance_usd": 755.05,
+    "administrators": ["Robert Williams", "Steve Hank"],
+    "last_reviewed": "2023-04-30",
+    "surnames_covered": ["Mattingly", "Mattingley", "Matney", "Matingelege"]
+  },
+
+  "haplogroup": {
+    "designation": "R-Y14084",
+    "isogg_path": "R1b > R-L754 > R-L761 > R-L389 > R-P297 > R-M269 > R-L23 > R-L51 > R-L52 > R-PF6538 > R-L151 > R-P312 > R-DF27 > R-Y32298 > R-FT56526 > R-Y14084",
+    "project_path": "R1b-DF27 > S250 > ZZ12_1 > FGC78762 > ZZ19_1 > Y32298 > FT56526 > Y14084*",
+    "yfull_url": "https://www.yfull.com/tree/R-Y14084/",
+    "yfull_age": {
+      "formed_ybp_estimate": 2400,
+      "formed_ybp_ci95": "3500-1400",
+      "formed_approx_year_bce": 374,
+      "tmrca_ybp_estimate": 350,
+      "tmrca_ybp_ci95": "500-225",
+      "tmrca_approx_year_ce": 1676,
+      "tmrca_note": "Consistent with Thomas Mattingly I arriving Maryland ~1663 as most recent common ancestor of American branch"
+    },
+    "primary_defining_snps": ["Y18575", "Y18580", "Y18578"],
+    "all_defining_snps": ["Y18575", "Y18580", "Y18578", "Y18576", "Y18577", "A23315", "A23316", "Y226158", "Y170844", "FT55233", "Y14084", "Y14085", "Y13607", "Y505272", "Y14081", "A23314", "Y13608", "Y14080", "Y14082", "Y14086", "Y18449", "Y18574", "Y172388", "Y13609", "Y18581", "Y18579"]
+  },
+
+  "yfull_subclades": [
+    {
+      "name": "R-FT61324",
+      "snps": ["FT61324"],
+      "formed_ybp": 350,
+      "tmrca_ybp": 275,
+      "yfull_samples": [
+        {"id": "YF120559", "country": "GBR", "region": "Hampshire"},
+        {"id": "YF063296", "country": "GBR", "region": "Hampshire"}
+      ]
+    },
+    {
+      "name": "R-FTG32794",
+      "snps": ["FTG32794", "FTF67880"],
+      "formed_ybp": 350,
+      "tmrca_ybp": 50,
+      "yfull_samples": [
+        {"id": "YF132743", "country": "ENG", "region": null},
+        {"id": "YF132672", "country": "ENG", "region": null}
+      ]
+    },
+    {
+      "name": "R-Y20214",
+      "snps": ["Y20214", "Y30438"],
+      "formed_ybp": 350,
+      "tmrca_ybp": 275,
+      "project_line": "Leonard Mattingly Jr. descendants (Thomas II branch)",
+      "subclades": [
+        {
+          "name": "R-Y20213",
+          "snps": ["Y20213"],
+          "formed_ybp": 275,
+          "tmrca_ybp": 50,
+          "project_line": "William Taylor Mattingly descendants",
+          "yfull_samples": [
+            {"id": "YF067389", "country": "GBR", "region": "Hampshire"},
+            {"id": "YF067388", "country": "GBR", "region": "Hampshire"}
+          ]
+        }
+      ],
+      "yfull_samples_direct": [
+        {"id": "YF067796", "country": "GBR", "region": "Hampshire"}
+      ]
+    },
+    {
+      "name": "R-Y14083",
+      "snps": ["Y14083"],
+      "formed_ybp": 350,
+      "tmrca_ybp": 350,
+      "project_line": "Cezar Mattingly descendants",
+      "subclades": [
+        {
+          "name": "R-FT154797",
+          "snps": ["FT200025", "FT154797", "FT200024"],
+          "formed_ybp": 350,
+          "tmrca_ybp": 200,
+          "project_line": "Henry Mattingly descendants",
+          "yfull_samples": [
+            {"id": "YF067502", "country": "GBR", "region": "Hampshire"},
+            {"id": "YF066436", "country": "GBR", "region": "Hampshire"}
+          ]
+        },
+        {
+          "name": "R-A39077",
+          "snps": ["A39077", "FTB54645"],
+          "formed_ybp": 350,
+          "tmrca_ybp": 125,
+          "yfull_samples": [
+            {"id": "YF135090", "country": "USA", "region": "Virginia"},
+            {"id": "YF133358", "country": "USA", "region": "Virginia"},
+            {"id": "YF128802", "country": "USA", "region": "Virginia"}
+          ]
+        },
+        {
+          "name": "R-Y200586",
+          "snps": ["FT289103", "FT289090", "FT287774"],
+          "formed_ybp": 350,
+          "tmrca_ybp": 150,
+          "project_line": "James Edward Mattingly descendants",
+          "yfull_samples": [
+            {"id": "YF078573", "country": "GBR", "region": "Hampshire"},
+            {"id": "YF073552", "country": "GBR", "region": "Hampshire"},
+            {"id": "YF073551", "country": "GBR", "region": "Hampshire"}
+          ]
+        },
+        {
+          "name": "R-FT393191",
+          "snps": ["FT393191"],
+          "formed_ybp": 350,
+          "tmrca_ybp": 200,
+          "project_line": "Clement Allen Mattingly/Matney descendants",
+          "subclades": [
+            {
+              "name": "R-BY89336",
+              "snps": ["BY89336"],
+              "formed_ybp": 200,
+              "tmrca_ybp": 125,
+              "yfull_samples": [
+                {"id": "YF066361", "country": "USA", "region": null},
+                {"id": "YF062996", "country": "USA", "region": null}
+              ]
+            },
+            {
+              "name": "R-Y80210",
+              "snps": ["Y80210"],
+              "formed_ybp": 200,
+              "tmrca_ybp": 100,
+              "project_line": "Stephen Matney and Uriah Allen Matney descendants",
+              "yfull_samples": [
+                {"id": "YF087314", "country": "USA", "region": "Colorado"},
+                {"id": "YF078754", "country": "USA", "region": "Kentucky"},
+                {"id": "YF073626", "country": "USA", "region": "Kentucky"}
+              ]
+            }
+          ]
+        }
+      ],
+      "yfull_samples_direct": [
+        {"id": "YF102629", "country": "GBR", "region": "Hampshire"},
+        {"id": "YF073625", "country": "GBR", "region": "Hampshire"},
+        {"id": "YF073544", "country": "GBR", "region": "Hampshire"},
+        {"id": "YF073244", "country": "GBR", "region": "Hampshire"},
+        {"id": "YF072307", "country": "GBR", "region": "Hampshire"}
+      ]
+    },
+    {
+      "name": "R-Y85450",
+      "snps": ["Y85450"],
+      "formed_ybp": 350,
+      "tmrca_ybp": 150,
+      "project_line": "Walter Matney Jr. and Broadwater Matney descendants",
+      "yfull_samples": [
+        {"id": "YF133984", "country": "USA", "region": "Virginia"},
+        {"id": "YF100858", "country": "ENG", "region": null},
+        {"id": "YF095090", "country": "ENG", "region": null},
+        {"id": "YF078640", "country": "USA", "region": "Virginia"},
+        {"id": "YF073628", "country": "USA", "region": "Virginia"},
+        {"id": "YF073627", "country": "USA", "region": "Virginia"}
+      ]
+    },
+    {
+      "name": "R-Y97568",
+      "snps": ["Y97568", "Y81248", "ZS11771"],
+      "formed_ybp": 350,
+      "tmrca_ybp": 200,
+      "subclades": [
+        {
+          "name": "R-FGC22005",
+          "snps": ["FGC22005"],
+          "formed_ybp": 200,
+          "tmrca_ybp": 200,
+          "project_line": "Raymond Mattingly descendants",
+          "subclades": [
+            {
+              "name": "R-FT156058",
+              "snps": ["FT156058"],
+              "formed_ybp": 200,
+              "tmrca_ybp": 200,
+              "project_line": "Charles Elias Mattingly descendants",
+              "yfull_samples": [
+                {"id": "YF074470", "country": "ENG", "region": null},
+                {"id": "YF066943", "country": "ENG", "region": null}
+              ]
+            },
+            {
+              "name": "R-Y220069",
+              "snps": ["Y220069"],
+              "formed_ybp": 200,
+              "tmrca_ybp": 50,
+              "project_line": "Lafayette Joseph Mattingly Sr. descendants",
+              "yfull_samples": [
+                {"id": "YF132990", "country": "ENG", "region": null},
+                {"id": "YF078432", "country": "GBR", "region": "Hampshire"}
+              ]
+            }
+          ],
+          "yfull_samples_direct": [
+            {"id": "YF132986", "country": "ENG", "region": null}
+          ]
+        }
+      ],
+      "yfull_samples_direct": [
+        {"id": "YF133233", "country": "ENG", "region": null}
+      ]
+    }
+  ],
+
+  "common_ancestors": [
+    {
+      "id": "TM1",
+      "name": "Thomas Mattingly I",
+      "born": "England",
+      "died": "24 Jul 1664, Maryland",
+      "emigrated": "~1663",
+      "wikitree_id": null,
+      "haplogroup": "R-Y14084*",
+      "snps_carried": "All 46 project SNPs (founder)",
+      "children_in_lineage": ["Thomas Mattingly II", "Cezar Mattingly"],
+      "note": "All project participants descend from him. YFull TMRCA of 350 ybp is consistent with his c.1620-1640 birth in England."
+    },
+    {
+      "id": "TM2",
+      "name": "Thomas Mattingly II",
+      "born": "~1650, England",
+      "died": "12 Jan 1714, Maryland",
+      "wikitree_id": null,
+      "haplogroup": "R-Y14084* (pre-Y20214)",
+      "line": "Thomas II branch",
+      "children_in_lineage": ["Ignatius Mattingly Sr."],
+      "note": "Settled on 'St. Thomas Place', St. Mary's County. Married Elizabeth (Ely) Mattingly."
+    },
+    {
+      "id": "CM",
+      "name": "Cezar Mattingly",
+      "born": "~1654, England",
+      "died": "1719, Maryland",
+      "wikitree_id": null,
+      "haplogroup": "R-Y14083",
+      "line": "Cezar branch",
+      "note": "All Matney participants confirmed as his descendants via Y14083."
+    },
+    {
+      "id": "IMS",
+      "name": "Ignatius Mattingly Sr.",
+      "born": "abt. 1704, St. Mary's County, Maryland",
+      "died": "April 1789, St. Mary's County, Maryland",
+      "wikitree_id": "Mattingly-60",
+      "wikitree_url": "https://www.wikitree.com/wiki/Mattingly-60",
+      "haplogroup": "R-Y14084* (pre-Y20214)",
+      "father": "Thomas Mattingly II",
+      "spouse": "Sarah Catherine (Fowler) Mattingly",
+      "children_in_lineage": ["Leonard Mattingly Sr.", "William Mattingly", "Lucas Mattingly"],
+      "note": "Son of Thomas II. Will probated 1789, St. Mary's County Will Book JJ1. Project source for Thomas II line."
+    },
+    {
+      "id": "LMS",
+      "name": "Leonard 'Old Leonard' Mattingly Sr.",
+      "born": "1739, Leonardtown, St. Mary's County, Maryland",
+      "died": "abt. 28 September 1829, Leonardtown, Maryland",
+      "wikitree_id": "Mattingly-62",
+      "wikitree_url": "https://www.wikitree.com/wiki/Mattingly-62",
+      "haplogroup": "R-Y14084* (pre-Y20214)",
+      "father": "Ignatius Mattingly Sr.",
+      "spouses": ["Mary (Hayden) Mattingly", "Margaret Monica (Monarch) Mattingly", "Dorothy (Hardesty) Mattingly"],
+      "dna_confirmed_descendants": ["T1", "T2", "T3"],
+      "children_in_lineage": ["Leonard Mattingly Jr.", "John Baptist Mattingly", "Ignatius Mattingly Jr.", "Joseph Mattingly", "Jane Mattingly", "Basil Mattingly"],
+      "note": "Three project participants (T1, T2, T3) descend from him and carry SNPs Y20214 + Y30438."
+    },
+    {
+      "id": "LMJ",
+      "name": "Leonard Mattingly Jr.",
+      "born": "1764, Leonardtown, St. Mary's County, Maryland",
+      "died": "1843, St. Mary's / Marion County, Kentucky",
+      "wikitree_id": null,
+      "haplogroup": "R-Y20214 + R-Y30438",
+      "terminal_snps": ["Y20214", "Y30438"],
+      "father": "Leonard Mattingly Sr.",
+      "spouse": "Ann (Cissell) Mattingly (married 7 Jan 1788, Nelson County, KY)",
+      "dna_confirmed_descendants": ["T1", "T2", "T3"],
+      "migration": "Maryland > Kentucky by 1788",
+      "note": "SNPs Y20214 and Y30438 are unique to his line. Three project participants confirmed. FamilySearch record V5ZD-6SJ documents his 1788 Kentucky marriage."
+    }
+  ],
+
+  "project_participants": {
+    "thomas_ii_line": {
+      "str_gata_a10_value": 14,
+      "terminal_branch_snps": ["Y20213 (William Taylor line)", "Y20214 + Y30438 (Leonard Jr. line)"],
+      "participants": [
+        {"code": "T1", "paternal_line_through": "Leonard 'Old Leonard' Mattingly Sr.", "snps": ["Y20214", "Y30438"]},
+        {"code": "T2", "paternal_line_through": "Leonard 'Old Leonard' Mattingly Sr.", "snps": ["Y20214", "Y30438"]},
+        {"code": "T3", "paternal_line_through": "Leonard 'Old Leonard' Mattingly Sr.", "snps": ["Y20214", "Y30438"]},
+        {"code": "T4", "paternal_line_through": "William 'Constable Billy' Mattingly", "snps": ["Y14084_group"], "note": "Only participant for this branch"},
+        {"code": "T5", "paternal_line_through": "Ignatius Mattingly Jr.", "snps": ["Y20213"], "note": "Son of Ignatius Sr. (1704); grandson of Thomas II"},
+        {"code": "T6", "paternal_line_through": "pending", "snps": [], "note": "DNA tests pending as of last update"}
+      ]
+    },
+    "cezar_line": {
+      "str_gata_a10_value": 13,
+      "branch_snp": "Y14083",
+      "participants": [
+        {"code": "C1", "paternal_line_through": "Richard Mattingly Sr.", "snps": ["Y14084*"], "note": "First-ever tested participant (2014, National Genographic 2.0 then FTDNA Big-Y)"},
+        {"code": "C2", "paternal_line_through": "Richard Mattingly Sr.", "snps": ["Y14084*"], "note": "Uncle of C1; first Big-Y comparison pair"},
+        {"code": "C3", "paternal_line_through": "Richard Mattingly Sr.", "snps": ["Y14084*"]},
+        {"code": "C4", "paternal_line_through": "Richard Mattingly Sr.", "snps": ["Y14084*"]},
+        {"code": "C5", "paternal_line_through": "Richard Mattingly Sr.", "snps": ["Y14084*"]},
+        {"code": "C6", "paternal_line_through": "John Baptist Mattingly Jr.", "snps": ["Y14084*"]},
+        {"code": "C7", "paternal_line_through": "John Baptist Mattingly Jr.", "snps": ["Y14084*"]},
+        {"code": "C8", "paternal_line_through": "John Baptist Mattingly Jr.", "snps": ["Y14084*"]},
+        {"code": "C9", "paternal_line_through": "Richard Mattingly Sr.", "snps": ["Y14084*"]},
+        {"code": "C10", "paternal_line_through": "Richard Mattingly Sr.", "snps": ["Y14084*"]},
+        {"code": "C11", "paternal_line_through": "Richard Mattingly Sr.", "snps": ["Y14084*"]},
+        {"code": "C12", "paternal_line_through": "Richard Mattingly Sr.", "snps": ["Y14084*"]}
+      ]
+    },
+    "matney_line": {
+      "str_gata_a10_value": 13,
+      "branch_snp": "Y14083",
+      "note": "All confirmed Matney participants descend from Cezar Mattingly",
+      "participants": [
+        {"code": "M1", "paternal_line_through": "Walter Matney Jr.", "snps": ["Y85450"]},
+        {"code": "M2", "paternal_line_through": "Broadwater Matney", "snps": ["Y85450"]},
+        {"code": "M3", "paternal_line_through": "Stephen Matney", "snps": ["Y80210"]},
+        {"code": "M4", "paternal_line_through": "Uriah Allen Matney", "snps": ["Y80210_group"]},
+        {"code": "M5", "paternal_line_through": "Broadwater Matney", "snps": ["Y85450"]},
+        {"code": "M6", "paternal_line_through": "Walter Matney Jr.", "snps": ["Y85450"]},
+        {"code": "M7", "paternal_line_through": "Uriah Allen Matney", "snps": ["Y80210"]},
+        {"code": "M8", "paternal_line_through": "Stephen Matney", "snps": ["Y80210"]},
+        {"code": "M9", "paternal_line_through": "Walter Matney Jr.", "snps": ["Y85450"]},
+        {"code": "M10", "paternal_line_through": "Walter Matney Jr.", "snps": ["Y85450"]},
+        {"code": "M11", "paternal_line_through": "William Henry Matney", "snps": ["unassigned"]},
+        {"code": "M12", "paternal_line_through": "unassigned", "snps": []},
+        {"code": "M13", "paternal_line_through": "unassigned", "snps": []},
+        {"code": "M14", "paternal_line_through": null, "snps": [], "note": "STR Y-Gata-A10 not tested"},
+        {"code": "U1", "paternal_line_through": "Uriah Allen Matney", "snps": ["Y80210"]}
+      ]
+    },
+    "blatchford_match": [
+      {
+        "code": "B0",
+        "surname": "Blatchford",
+        "paternal_ancestor": "William Blatchford",
+        "blatchford_emigration": "~1851 to New Zealand",
+        "snps": ["Y14084*"],
+        "str_gata_a10_value": 13,
+        "test_date": "2021-02",
+        "confirmed": true,
+        "note": "Y-STR 37 match with Mattingly members found Dec 2020. SNP Y14084 confirmed Feb 2021. Common ancestor with Thomas Mattingly I pre-dates 1663 Maryland arrival. Likely shares ancestor in England."
+      }
+    ],
+    "outliers": [
+      {
+        "code": "Y2",
+        "note": "Adopted into Matney family. Birth surname unknown. Does NOT carry R-Y14084.",
+        "haplogroup": "R-FTE38986*",
+        "haplogroup_path": "R1b > R-L754 > R-L761 > R-L389 > R-P297 > R-M269 > R-L23 > R-L51 > R-L52 > R-PF6538 > R-L151 > R-P312 > R-S461 > R-L21 > R-S552 > R-DF63 > R-BY711 > R-CTS4665 > R-FGC51563 > R-FTE38986*"
+      }
+    ]
+  },
+
+  "famous_mattinglys": [
+    {
+      "name": "Don Mattingly",
+      "full_name": "Donald Arthur Mattingly",
+      "born": "1961-04-20",
+      "birthplace": "Evansville, Indiana",
+      "father": "Bill Mattingly",
+      "occupation": "MLB first baseman (1982-1995 New York Yankees), manager, coach",
+      "ydna_test": null,
+      "ydna_confirmed": false,
+      "project_participant": false,
+      "connection_to_maryland_line": "unconfirmed",
+      "geographic_note": "Evansville, Indiana is in southwestern Indiana, consistent with the Kentucky > Indiana migration corridor used by Maryland Mattingly descendants in early 1800s. No paper trail connecting him to Thomas Mattingly I has been published.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Don_Mattingly"
+    }
+  ],
+
+  "geographic_distribution": [
+    {
+      "region": "Hampshire, England (village of Mattingley)",
+      "subclades": ["R-Y14084* basal", "R-FT61324", "R-Y14083*", "R-Y200586", "R-Y97568", "R-FT154797", "R-Y85450"],
+      "evidence_source": "YFull haplotree",
+      "significance": "Ancestral homeland. Domesday Book 1086 records 'Matingelege'. Village of Mattingley still exists in Hampshire."
+    },
+    {
+      "region": "England (general)",
+      "subclades": ["R-FTG32794", "R-Y85450", "R-Y97568", "R-FGC22005", "R-FT156058"],
+      "evidence_source": "YFull haplotree"
+    },
+    {
+      "region": "Virginia, USA",
+      "subclades": ["R-A39077", "R-Y85450"],
+      "evidence_source": "YFull haplotree",
+      "significance": "Consistent with colonial Virginia settlement patterns"
+    },
+    {
+      "region": "Kentucky, USA",
+      "subclades": ["R-Y80210 (under R-Y14083)", "R-Y20214 (Thomas II line)"],
+      "evidence_source": "YFull haplotree + FTDNA project",
+      "significance": "Matches documented 1786-1790 Catholic Mattingly migration from Maryland to Kentucky (Nelson/Marion counties)"
+    },
+    {
+      "region": "Colorado, USA",
+      "subclades": ["R-Y80210"],
+      "evidence_source": "YFull haplotree"
+    },
+    {
+      "region": "New Zealand",
+      "subclades": ["R-Y14084* (Blatchford)"],
+      "evidence_source": "FTDNA project (B0 participant)",
+      "significance": "William Blatchford emigrated ~1851; confirms Y14084 extended beyond just Mattingly surname"
+    }
+  ],
+
+  "research_gaps": [
+    {
+      "priority": 1,
+      "gap": "Descendants of Leonard Mattingly Sr. (1739) through sons OTHER than Leonard Jr.",
+      "detail": "T1/T2/T3 all descend from Leonard Jr. No participants yet from Joseph, John Baptist, Ignatius Jr., Basil, or other sons of Leonard Sr.",
+      "action": "Recruit a male-line descendant of any non-Leonard Jr. son of Leonard Sr."
+    },
+    {
+      "priority": 2,
+      "gap": "William 'Constable Billy' Mattingly (son of Thomas II)",
+      "detail": "Zero project participants represent this branch. Explicitly noted in project notice.",
+      "action": "Recruit one male-line descendant"
+    },
+    {
+      "priority": 3,
+      "gap": "Don Mattingly Y-DNA",
+      "detail": "Most famous Mattingly surname bearer has not tested. Evansville, Indiana origin plausible for Kentucky Mattingly descent but unconfirmed.",
+      "action": "No direct path; would require public disclosure or private outreach"
+    },
+    {
+      "priority": 4,
+      "gap": "British Mattingley families",
+      "detail": "YFull shows multiple Hampshire-origin R-Y14084 samples but no surnames are public. Project requests UK Mattingley males to join.",
+      "action": "Outreach to UK Mattingley genealogy societies and BritainsDNA participants"
+    },
+    {
+      "priority": 5,
+      "gap": "Brooks Matney line haplogroup verification",
+      "detail": "Project notice asks whether Brooks Matney descendants carry R1b-DF97* (different from Y14084, suggesting possible separate paternal origin).",
+      "action": "Test a male-line Brooks Matney descendant"
+    },
+    {
+      "priority": 6,
+      "gap": "Ignatius Mattingly Jr. (T5) additional participants",
+      "detail": "Only one participant (T5) currently. Additional T5-line participants needed to identify sub-SNPs.",
+      "action": "Recruit second male-line descendant of Ignatius Mattingly Jr."
+    }
+  ],
+
+  "snp_table": [
+    {"snp": "A23315", "position_hg38": "11856106", "ancestral": "G", "derived": "A", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "A23316", "position_hg38": "13288703", "ancestral": "G", "derived": "A", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "FGC22005", "position_hg38": "15294840", "ancestral": "G", "derived": "A", "scope": "Raymond Mattingly descendants only"},
+    {"snp": "FT154797", "position_hg38": "17168186", "ancestral": "T", "derived": "C", "scope": "Henry Mattingly descendants only"},
+    {"snp": "FT156058", "position_hg38": "5029085", "ancestral": "G", "derived": "A", "scope": "Charles Elias Mattingly descendants only"},
+    {"snp": "FT200024", "position_hg38": "7855937", "ancestral": "T", "derived": "C", "scope": "Henry Mattingly descendants only"},
+    {"snp": "FT200025", "position_hg38": "10198057", "ancestral": "G", "derived": "C", "scope": "Henry Mattingly descendants only"},
+    {"snp": "FT393191", "position_hg38": "11369892", "ancestral": "C", "derived": "T", "scope": "Clement Allen Mattingly/Matney descendants only"},
+    {"snp": "FT55233", "position_hg38": "26516076", "ancestral": "A", "derived": "G", "scope": "All descendants of Thomas Mattingly I", "alias": "Y170844"},
+    {"snp": "FT56526", "position_hg38": "11067431", "ancestral": "G", "derived": "A", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "FTG32794", "position_hg38": "10157530", "ancestral": "T", "derived": "C", "scope": "Richard Vincent Mattingly descendants only"},
+    {"snp": "Y13607", "position_hg38": "19028288", "ancestral": "T", "derived": "C", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y13608", "position_hg38": "16274259", "ancestral": "G", "derived": "T", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y13609", "position_hg38": "10069637", "ancestral": "G", "derived": "A", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y14080", "position_hg38": "04888196", "ancestral": "A", "derived": "C", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y14081", "position_hg38": "08648982", "ancestral": "G", "derived": "A", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y14082", "position_hg38": "14474051", "ancestral": "C", "derived": "A", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y14083", "position_hg38": "20472880", "ancestral": "C", "derived": "T", "scope": "Cezar Mattingly descendants only"},
+    {"snp": "Y14084", "position_hg38": "20950738", "ancestral": "G", "derived": "A", "scope": "All descendants of Thomas Mattingly I", "note": "Haplogroup-defining SNP for entire clade"},
+    {"snp": "Y14085", "position_hg38": "20990070", "ancestral": "G", "derived": "A", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y14086", "position_hg38": "21250312", "ancestral": "A", "derived": "G", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y172388", "position_hg38": "11830467", "ancestral": "C", "derived": "T", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y18449", "position_hg38": "12107425", "ancestral": "G", "derived": "A", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y18574", "position_hg38": "18979116", "ancestral": "A", "derived": "G", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y18575", "position_hg38": "08861863", "ancestral": "A", "derived": "G", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y18576", "position_hg38": "12160973", "ancestral": "T", "derived": "A", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y18577", "position_hg38": "13216251", "ancestral": "T", "derived": "A", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y18578", "position_hg38": "20768805", "ancestral": "T", "derived": "C", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y18579", "position_hg38": "07261494", "ancestral": "C", "derived": "T", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y18580", "position_hg38": "16289003", "ancestral": "G", "derived": "T", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y18581", "position_hg38": "15305783", "ancestral": "G", "derived": "A", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y200586", "position_hg38": "26504322", "ancestral": "G", "derived": "A", "scope": "James Edward Mattingly descendants only"},
+    {"snp": "Y200587", "position_hg38": "7864136", "ancestral": "A", "derived": "T", "scope": "James Edward Mattingly descendants only"},
+    {"snp": "Y200588", "position_hg38": "2791323", "ancestral": "T", "derived": "C", "scope": "James Edward Mattingly descendants only"},
+    {"snp": "Y20213", "position_hg38": "13091226", "ancestral": "C", "derived": "T", "scope": "William Taylor Mattingly descendants only"},
+    {"snp": "Y20214", "position_hg38": "15975373", "ancestral": "G", "derived": "C", "scope": "Leonard Mattingly Jr. descendants only"},
+    {"snp": "Y220069", "position_hg38": "17440536", "ancestral": "G", "derived": "A", "scope": "Lafayette Joseph Mattingly Sr. descendants only"},
+    {"snp": "Y30438", "position_hg38": "13669609", "ancestral": "ATTTTTTTTG", "derived": "ATTTTTTTGT", "scope": "Leonard Mattingly Jr. descendants only"},
+    {"snp": "Y32298", "position_hg38": "12799085", "ancestral": "G", "derived": "A", "scope": "All descendants of Thomas Mattingly I"},
+    {"snp": "Y80210", "position_hg38": "21469823", "ancestral": "C", "derived": "T", "scope": "Stephen Matney and Uriah Allen Matney descendants only"},
+    {"snp": "Y81248", "position_hg38": "2837136", "ancestral": "T", "derived": "A", "scope": "Raymond Mattingly descendants only"},
+    {"snp": "Y85450", "position_hg38": "8081322", "ancestral": "A", "derived": "C", "scope": "Walter Matney Jr. and Broadwater Matney descendants only"},
+    {"snp": "Y97568", "position_hg38": "14760403", "ancestral": "A", "derived": "G", "scope": "Elias Barton 'Ely' Mattingly descendants only"}
+  ],
+
+  "sources": [
+    {"name": "FTDNA Mattingly-Matney project (about)", "url": "https://www.familytreedna.com/groups/mattingly/about", "accessed": "2026-04-25"},
+    {"name": "WikiTree project space", "url": "https://www.wikitree.com/wiki/Space:Mattingly/Matney_Surname_DNA_Project", "accessed": "2026-04-25"},
+    {"name": "WikiTree SNPs page", "url": "https://www.wikitree.com/wiki/Space:Mattingly-Matney_SNPs", "accessed": "2026-04-25"},
+    {"name": "WikiTree STRs page", "url": "https://www.wikitree.com/wiki/Space:Mattingly-Matney_STRs", "accessed": "2026-04-25"},
+    {"name": "WikiTree Blatchford match", "url": "https://www.wikitree.com/wiki/Space:Mattingly-Blatchford_DNA_Match", "accessed": "2026-04-25"},
+    {"name": "WikiTree adoptive outliers", "url": "https://www.wikitree.com/wiki/Space:Mattingly-Matney_Adoptive_Outliers", "accessed": "2026-04-25"},
+    {"name": "WikiTree Ignatius Mattingly Sr.", "url": "https://www.wikitree.com/wiki/Mattingly-60", "accessed": "2026-04-25"},
+    {"name": "WikiTree Leonard Mattingly Sr.", "url": "https://www.wikitree.com/wiki/Mattingly-62", "accessed": "2026-04-25"},
+    {"name": "YFull haplotree R-Y14084", "url": "https://www.yfull.com/tree/R-Y14084/", "accessed": "2026-04-25"},
+    {"name": "Wikipedia: Don Mattingly", "url": "https://en.wikipedia.org/wiki/Don_Mattingly", "accessed": "2026-04-25"}
+  ]
+}

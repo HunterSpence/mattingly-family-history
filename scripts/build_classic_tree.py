@@ -108,24 +108,53 @@ leonard_jr_children = [
 leonard_jr = n("Leonard Mattingly Jr.", "1764–1843 Marion KY", "1785 Catholic migration to KY; Y-DNA project anchor — but COLLATERAL to Hunter, not direct line", "p045", 10, 18, "confirmed",
                leonard_jr_children, spouse="Ann Cissell (m. 7 Jan 1788, Nelson Co KY)")
 
-# Leonard Sr. — 14 children across 3 marriages (only Ignatius Jr. + Leonard Jr. known by name; rest abstracted)
-leonard_sr_other = [
-    n("[+ ~12 other children]", "1760s–1810s", "Leonard Sr. had ~14 children across 3 marriages (names being researched)", None, 10, 18, "probable")
+# Leonard Mattingly Sr (Mattingly-62, 1739-1829) — COLLATERAL, NOT direct line
+# Per WikiTree mass crawl (agent 22): his father is Ignatius Sr (Mattingly-60), making Leonard
+# a SIBLING of Ignatius Jr (Mattingly-141), not parent. 10 named children:
+leonard_sr_children = [
+    n("Joseph Mattingly", "?", "Mattingly-339; son of Leonard Sr.", None, 11, 18, "probable"),
+    n("Jane Mattingly", "b. 1760", "Mattingly-211", None, 11, 18, "probable"),
+    n("John Baptist Mattingly", "b. 1762", "Mattingly-59", None, 11, 18, "probable"),
+    n("Leonard Mattingly Jr.", "1764–1843 Marion KY", "Mattingly-210; 1785 Catholic migrant to KY; Y-DNA project anchor for KY descendants. m. Ann Cissell.", "p045", 11, 18, "confirmed",
+      [
+        n("Mary Alvey Mattingly", "b. 1798", "Eldest of Leonard Jr.'s 4 children", None, 12, 19, "probable"),
+        n("Henry Martin Mattingly Sr.", "1799–1858 Marion KY", "9 children 1828-1844; m. Helen Thompson; collateral KY Y-DNA branch",
+          None, 12, 19, "confirmed",
+          [
+            n("George Thomas Mattingly", "b. 1830 Marion KY", "Mattingly-695; Y-DNA project participant", "p046", 13, 19, "possible"),
+            n("[+8 other children of Henry Martin Sr.]", "1828–1844", "Per agent 16 research", None, 13, 19, "probable"),
+          ],
+          spouse="Helen Thompson (b. ~1800)"),
+        n("William Cissell Mattingly", "b. 1807", "Leonard Jr's third child", None, 12, 19, "probable"),
+        n("Leonard Mattingly III", "1828–1914 Glen Dean KY", "Died KY at 85; ruled out as centenarian", None, 12, 19, "confirmed"),
+      ],
+      spouse="Ann Cissell (m. 7 Jan 1788, Nelson Co KY)"),
+    n("Ignatius Mattingly", "b. 1766", "Mattingly-53; son of Leonard Sr.", None, 11, 18, "probable"),
+    n("Susannah (Mattingly) Ray", "b. 1766", "Mattingly-208; m. Ray", None, 11, 18, "probable"),
+    n("Basil Mattingly", "b. 1772", "Mattingly-207", None, 11, 18, "probable"),
+    n("Susan (Mattingly) Barron", "b. 1775", "Mattingly-78; m. Barron", None, 11, 18, "probable"),
+    n("Mary (Mattingly) Buckman", "b. 1777", "Mattingly-205; m. Buckman", None, 11, 18, "probable"),
+    n("William Mattingly", "b. 1777", "Mattingly-204", None, 11, 18, "probable"),
 ]
-leonard_sr = n("Leonard Mattingly Sr.", "1739–1829 Leonardtown MD", "'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; ~14 children", "p044", 9, 18, "confirmed",
-               [ignatius_jr, leonard_jr] + leonard_sr_other,
-               spouse="m1. Mary Hayden; m2. Margaret Monica Monarch; m3. Dorothy Hardesty")
+leonard_sr = n("Leonard Mattingly Sr.", "1739–1829 Washington Co KY", "Mattingly-62. 'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10 named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)", "p044", 10, 18, "confirmed",
+               leonard_sr_children,
+               spouse="m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty")
 
-# Ignatius (1704) — m. Sarah Catherine Fowler; 7 children total (5 collateral + 2 direct lines)
+# Ignatius Sr (1704) — m. Sarah Catherine Fowler; 7 children
+# Direct line goes through Ignatius Jr (1750), NOT Leonard Sr (1739)
 ignatius_other_children = [
-    n("Lucas Mattingly", "?", "Son of Ignatius (per Sarah Catherine Fowler line)", None, 9, 18, "probable"),
-    n("William Mattingly", "?", "Son of Ignatius", None, 9, 18, "probable"),
-    n("Elizabeth (Mattingly) Thompson", "?", "Daughter of Ignatius; m. Thompson", None, 9, 18, "probable"),
-    n("Sarah (Mattingly) Walker", "?", "Daughter of Ignatius; m. Walker", None, 9, 18, "probable"),
-    n("Susanna Mattingly", "?", "Daughter of Ignatius", None, 9, 18, "probable"),
+    n("Leonard Mattingly Sr.", "(see collateral subtree)", "Mattingly-62 — moved to direct ignatius_jr branch", None, 10, 18, "confirmed", []),  # placeholder, real is leonard_sr below
+    n("William Mattingly", "1741–1817 Washington KY", "Mattingly-213; m1. Mary Catherine Spalding; m2. Nancy Elizabeth Clark", None, 9, 18, "probable"),
+    n("Lucas Mattingly", "1743–1830 KY", "Mattingly-214; m. Sue Ellen Hagan, Elizabeth Eleanor Thompson, Elizabeth Cambron", None, 9, 18, "probable"),
+    n("Elizabeth (Mattingly) Thompson", "b. 1745", "Mattingly-1901; m. Thompson", None, 9, 18, "probable"),
+    n("Sarah Ann (Mattingly) Walker", "b. 1747", "Mattingly-1312; m. Walker", None, 9, 18, "probable"),
+    n("Susanna Mattingly", "b. 1749", "Mattingly-1900", None, 9, 18, "probable"),
 ]
-ignatius = n("Ignatius Mattingly", "1704–1789 St Mary's MD", "Catholic Jesuit naming tradition; 'We're from Ignatius'; m. Sarah Catherine Fowler; 7 children", "p043", 8, 18, "confirmed",
-             [leonard_sr] + ignatius_other_children,
+# Replace first item (placeholder) with actual leonard_sr subtree
+ignatius_other_children[0] = leonard_sr
+
+ignatius = n("Ignatius Mattingly Sr.", "1704–1789 St Mary's MD", "Mattingly-60. Catholic Jesuit naming; 'We're from Ignatius'; m. Sarah Catherine Fowler. 7 children — direct line via Ignatius Jr (1750, Mattingly-141), NOT Leonard Sr.", "p043", 8, 18, "confirmed",
+             [ignatius_jr] + ignatius_other_children,  # ignatius_jr is the direct-line child; rest are collateral
              spouse="Sarah Catherine (Fowler) Mattingly")
 
 # Thomas III's 9 children (per agent 16 — 2 wives Elizabeth Warren + Ruth Cole)

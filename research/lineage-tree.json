@@ -276,9 +276,9 @@
                                           "children": []
                                         },
                                         {
-                                          "name": "Ignatius Mattingly",
+                                          "name": "Ignatius Mattingly Sr.",
                                           "dates": "1704–1789 St Mary's MD",
-                                          "fact": "Catholic Jesuit naming tradition; 'We're from Ignatius'; m. Sarah Catherine Fowler; 7 children",
+                                          "fact": "Mattingly-60. Catholic Jesuit naming; 'We're from Ignatius'; m. Sarah Catherine Fowler. 7 children — direct line via Ignatius Jr (1750, Mattingly-141), NOT Leonard Sr.",
                                           "id": "p043",
                                           "generation": 8,
                                           "century": 18,
@@ -286,63 +286,289 @@
                                           "spouse": "Sarah Catherine (Fowler) Mattingly",
                                           "children": [
                                             {
-                                              "name": "Leonard Mattingly Sr.",
-                                              "dates": "1739–1829 Leonardtown MD",
-                                              "fact": "'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; ~14 children",
-                                              "id": "p044",
-                                              "generation": 9,
+                                              "name": "Ignatius Mattingly Jr.",
+                                              "dates": "b. 1750",
+                                              "fact": "Son of Leonard Sr.; m. Eleanor Shircliffe; direct line via Ignatius (1781) — NOT Leonard Jr.",
+                                              "id": null,
+                                              "generation": 10,
                                               "century": 18,
                                               "confidence": "confirmed",
-                                              "spouse": "m1. Mary Hayden; m2. Margaret Monica Monarch; m3. Dorothy Hardesty",
+                                              "spouse": "Eleanor Shircliffe",
                                               "children": [
                                                 {
-                                                  "name": "Ignatius Mattingly Jr.",
-                                                  "dates": "b. 1750",
-                                                  "fact": "Son of Leonard Sr.; m. Eleanor Shircliffe; direct line via Ignatius (1781) — NOT Leonard Jr.",
+                                                  "name": "George Mattingly",
+                                                  "dates": "?",
+                                                  "fact": "Son of Ignatius Jr. (named on WikiTree)",
                                                   "id": null,
-                                                  "generation": 10,
-                                                  "century": 18,
+                                                  "generation": 11,
+                                                  "century": 19,
+                                                  "confidence": "probable",
+                                                  "spouse": null,
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Zachariah Mattingly Sr.",
+                                                  "dates": "bef. 1771 – abt. 1823",
+                                                  "fact": "WikiTree Mattingly-188. Sibling of Ignatius (1781). Children: Mary, Zachariah Jr.",
+                                                  "id": null,
+                                                  "generation": 11,
+                                                  "century": 19,
                                                   "confidence": "confirmed",
-                                                  "spouse": "Eleanor Shircliffe",
+                                                  "spouse": null,
                                                   "children": [
                                                     {
-                                                      "name": "George Mattingly",
+                                                      "name": "Mary Mattingly",
                                                       "dates": "?",
-                                                      "fact": "Son of Ignatius Jr. (named on WikiTree)",
+                                                      "fact": "Daughter of Zachariah Sr.",
                                                       "id": null,
-                                                      "generation": 11,
+                                                      "generation": 12,
                                                       "century": 19,
                                                       "confidence": "probable",
                                                       "spouse": null,
                                                       "children": []
                                                     },
                                                     {
-                                                      "name": "Zachariah Mattingly Sr.",
-                                                      "dates": "bef. 1771 – abt. 1823",
-                                                      "fact": "WikiTree Mattingly-188. Sibling of Ignatius (1781). Children: Mary, Zachariah Jr.",
+                                                      "name": "Zachariah Mattingly Jr.",
+                                                      "dates": "?",
+                                                      "fact": "Son of Zachariah Sr.",
                                                       "id": null,
-                                                      "generation": 11,
+                                                      "generation": 12,
+                                                      "century": 19,
+                                                      "confidence": "probable",
+                                                      "spouse": null,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Ignatius Mattingly",
+                                                  "dates": "1781 MD – 1833 KY",
+                                                  "fact": "Born Maryland; MD→KY migration; died there 1833. WikiTree Mattingly-140.",
+                                                  "id": null,
+                                                  "generation": 11,
+                                                  "century": 19,
+                                                  "confidence": "confirmed",
+                                                  "spouse": null,
+                                                  "children": [
+                                                    {
+                                                      "name": "Thomas Jefferson Mattingly",
+                                                      "dates": "1828 KY – 1883 MO",
+                                                      "fact": "WikiTree Mattingly-591; m1. Catherine Woodward (2 kids); m2. Elizabeth Christie (6 kids); KY→MO migration",
+                                                      "id": null,
+                                                      "generation": 12,
                                                       "century": 19,
                                                       "confidence": "confirmed",
-                                                      "spouse": null,
+                                                      "spouse": "m1. Catherine Woodward; m2. Elizabeth Christie (b. 2 Dec 1833 Christianburg, Shelby KY)",
                                                       "children": [
                                                         {
-                                                          "name": "Mary Mattingly",
+                                                          "name": "John T. Mattingly",
                                                           "dates": "?",
-                                                          "fact": "Daughter of Zachariah Sr.",
+                                                          "fact": "Half-sibling of Edward Sr. (mother Catherine Woodward)",
                                                           "id": null,
-                                                          "generation": 12,
+                                                          "generation": 13,
                                                           "century": 19,
                                                           "confidence": "probable",
                                                           "spouse": null,
                                                           "children": []
                                                         },
                                                         {
-                                                          "name": "Zachariah Mattingly Jr.",
+                                                          "name": "Sarah Alice (Mattingly) Embree",
                                                           "dates": "?",
-                                                          "fact": "Son of Zachariah Sr.",
+                                                          "fact": "Half-sibling of Edward Sr.; m. Embree",
                                                           "id": null,
-                                                          "generation": 12,
+                                                          "generation": 13,
+                                                          "century": 19,
+                                                          "confidence": "probable",
+                                                          "spouse": null,
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "name": "Anna Bell (Mattingly) Powell",
+                                                          "dates": "?",
+                                                          "fact": "Daughter of TJ + Elizabeth Christie; m. Ezra Doty Powell 1874",
+                                                          "id": null,
+                                                          "generation": 13,
+                                                          "century": 19,
+                                                          "confidence": "probable",
+                                                          "spouse": null,
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "name": "Noble N. Mattingly",
+                                                          "dates": "?",
+                                                          "fact": "Son of TJ + Elizabeth Christie",
+                                                          "id": null,
+                                                          "generation": 13,
+                                                          "century": 19,
+                                                          "confidence": "probable",
+                                                          "spouse": null,
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "name": "Francis Ellsworth 'Frank' Mattingly",
+                                                          "dates": "?",
+                                                          "fact": "Son of TJ + Elizabeth Christie",
+                                                          "id": null,
+                                                          "generation": 13,
+                                                          "century": 19,
+                                                          "confidence": "probable",
+                                                          "spouse": null,
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "name": "Edward Mattingly Sr.",
+                                                          "dates": "1868 MO – 1945 La Grange TX",
+                                                          "fact": "Born Missouri; migrated to TX by 1894; m. May Teichmueller 1 Sept 1894 (May d. 28 Aug 1900); m2. Blanche Schroeder",
+                                                          "id": "p041",
+                                                          "generation": 13,
+                                                          "century": 20,
+                                                          "confidence": "confirmed",
+                                                          "spouse": "m1. May Teichmueller (1894–1900); m2. Blanche D. Schroeder (b. 1886 MO)",
+                                                          "children": [
+                                                            {
+                                                              "name": "Leroy Teichmuller Mattingly",
+                                                              "dates": "31 Aug 1896 – 1968",
+                                                              "fact": "Born La Grange TX; died San Antonio. U Texas engineer; named for German maternal grandfather Hans Teichmueller. m. Ruth Baity 4 Apr 1900–1982. WikiTree Mattingly-1127.",
+                                                              "id": "p002",
+                                                              "generation": 14,
+                                                              "century": 20,
+                                                              "confidence": "confirmed",
+                                                              "spouse": "Ruth (Baity) Mattingly (4 Apr 1900 – 1982 Houston)",
+                                                              "children": [
+                                                                {
+                                                                  "name": "Leroy Baity Mattingly",
+                                                                  "dates": "1922–2013",
+                                                                  "fact": "Born 17 May 1922 San Antonio; died Colorado Springs CO 2013. WikiTree Mattingly-1178. m. Jennive Lepick.",
+                                                                  "id": "p015",
+                                                                  "generation": 15,
+                                                                  "century": 20,
+                                                                  "confidence": "probable",
+                                                                  "spouse": "Jennive Lepick",
+                                                                  "children": [
+                                                                    {
+                                                                      "name": "Sharyn (\"Shari\") Mattingly",
+                                                                      "dates": "b. 1947",
+                                                                      "fact": "Family historian; Santa Monica; oil royalty owner",
+                                                                      "id": "p000",
+                                                                      "generation": 16,
+                                                                      "century": 20,
+                                                                      "confidence": "confirmed",
+                                                                      "spouse": "David (1st husband)",
+                                                                      "children": [
+                                                                        {
+                                                                          "name": "[Hunter's parent]",
+                                                                          "dates": "living",
+                                                                          "fact": "Shari + David's child",
+                                                                          "id": null,
+                                                                          "generation": 17,
+                                                                          "century": 21,
+                                                                          "confidence": "confirmed",
+                                                                          "spouse": null,
+                                                                          "children": [
+                                                                            {
+                                                                              "name": "Hunter Spence",
+                                                                              "dates": "living",
+                                                                              "fact": "Recipient of this family history; recorded grandma's interview",
+                                                                              "id": "p001",
+                                                                              "generation": 18,
+                                                                              "century": 21,
+                                                                              "confidence": "confirmed",
+                                                                              "spouse": null,
+                                                                              "children": []
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "name": "Charmaine",
+                                                                          "dates": "living",
+                                                                          "fact": "Shari + David's daughter; Hunter's aunt",
+                                                                          "id": "p021",
+                                                                          "generation": 17,
+                                                                          "century": 21,
+                                                                          "confidence": "confirmed",
+                                                                          "spouse": null,
+                                                                          "children": []
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "name": "[brother]",
+                                                                      "dates": "living",
+                                                                      "fact": "Got the chair from Pearl's set",
+                                                                      "id": "p022",
+                                                                      "generation": 16,
+                                                                      "century": 20,
+                                                                      "confidence": "confirmed",
+                                                                      "spouse": null,
+                                                                      "children": []
+                                                                    },
+                                                                    {
+                                                                      "name": "[sister]",
+                                                                      "dates": "living",
+                                                                      "fact": "—",
+                                                                      "id": "p023",
+                                                                      "generation": 16,
+                                                                      "century": 20,
+                                                                      "confidence": "confirmed",
+                                                                      "spouse": null,
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "name": "Dr. Claude Mattingly",
+                                                              "dates": "1898–1934",
+                                                              "fact": "Pediatrician; Marine WWI; suicide pact at Texan Hotel Austin Jan 31 1934",
+                                                              "id": "p011",
+                                                              "generation": 14,
+                                                              "century": 20,
+                                                              "confidence": "confirmed",
+                                                              "spouse": null,
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "name": "Aunt Mamie",
+                                                              "dates": "b. ~1900",
+                                                              "fact": "Mother died at her birth",
+                                                              "id": "p013",
+                                                              "generation": 14,
+                                                              "century": 20,
+                                                              "confidence": "confirmed",
+                                                              "spouse": null,
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "name": "Edward Mattingly Jr.",
+                                                              "dates": "b. ~1915 La Grange",
+                                                              "fact": "Half-sibling — son of Edward Sr. + 2nd wife Blanche Schroeder",
+                                                              "id": null,
+                                                              "generation": 14,
+                                                              "century": 20,
+                                                              "confidence": "probable",
+                                                              "spouse": null,
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "Florence Mattingly",
+                                                          "dates": "?",
+                                                          "fact": "Daughter of TJ + Elizabeth Christie",
+                                                          "id": null,
+                                                          "generation": 13,
+                                                          "century": 19,
+                                                          "confidence": "probable",
+                                                          "spouse": null,
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "name": "Ida Mattingly",
+                                                          "dates": "?",
+                                                          "fact": "Daughter of TJ + Elizabeth Christie",
+                                                          "id": null,
+                                                          "generation": 13,
                                                           "century": 19,
                                                           "confidence": "probable",
                                                           "spouse": null,
@@ -352,261 +578,68 @@
                                                     },
                                                     {
                                                       "name": "Ignatius Mattingly",
-                                                      "dates": "1781 MD – 1833 KY",
-                                                      "fact": "Born Maryland; MD→KY migration; died there 1833. WikiTree Mattingly-140.",
+                                                      "dates": "b. 6 Mar 1811",
+                                                      "fact": "Sibling of Thomas Jefferson; m. Rachel F. Barnes (WikiTree Mattingly-139)",
                                                       "id": null,
-                                                      "generation": 11,
+                                                      "generation": 12,
                                                       "century": 19,
-                                                      "confidence": "confirmed",
+                                                      "confidence": "probable",
                                                       "spouse": null,
-                                                      "children": [
-                                                        {
-                                                          "name": "Thomas Jefferson Mattingly",
-                                                          "dates": "1828 KY – 1883 MO",
-                                                          "fact": "WikiTree Mattingly-591; m1. Catherine Woodward (2 kids); m2. Elizabeth Christie (6 kids); KY→MO migration",
-                                                          "id": null,
-                                                          "generation": 12,
-                                                          "century": 19,
-                                                          "confidence": "confirmed",
-                                                          "spouse": "m1. Catherine Woodward; m2. Elizabeth Christie (b. 2 Dec 1833 Christianburg, Shelby KY)",
-                                                          "children": [
-                                                            {
-                                                              "name": "John T. Mattingly",
-                                                              "dates": "?",
-                                                              "fact": "Half-sibling of Edward Sr. (mother Catherine Woodward)",
-                                                              "id": null,
-                                                              "generation": 13,
-                                                              "century": 19,
-                                                              "confidence": "probable",
-                                                              "spouse": null,
-                                                              "children": []
-                                                            },
-                                                            {
-                                                              "name": "Sarah Alice (Mattingly) Embree",
-                                                              "dates": "?",
-                                                              "fact": "Half-sibling of Edward Sr.; m. Embree",
-                                                              "id": null,
-                                                              "generation": 13,
-                                                              "century": 19,
-                                                              "confidence": "probable",
-                                                              "spouse": null,
-                                                              "children": []
-                                                            },
-                                                            {
-                                                              "name": "Anna Bell (Mattingly) Powell",
-                                                              "dates": "?",
-                                                              "fact": "Daughter of TJ + Elizabeth Christie; m. Ezra Doty Powell 1874",
-                                                              "id": null,
-                                                              "generation": 13,
-                                                              "century": 19,
-                                                              "confidence": "probable",
-                                                              "spouse": null,
-                                                              "children": []
-                                                            },
-                                                            {
-                                                              "name": "Noble N. Mattingly",
-                                                              "dates": "?",
-                                                              "fact": "Son of TJ + Elizabeth Christie",
-                                                              "id": null,
-                                                              "generation": 13,
-                                                              "century": 19,
-                                                              "confidence": "probable",
-                                                              "spouse": null,
-                                                              "children": []
-                                                            },
-                                                            {
-                                                              "name": "Francis Ellsworth 'Frank' Mattingly",
-                                                              "dates": "?",
-                                                              "fact": "Son of TJ + Elizabeth Christie",
-                                                              "id": null,
-                                                              "generation": 13,
-                                                              "century": 19,
-                                                              "confidence": "probable",
-                                                              "spouse": null,
-                                                              "children": []
-                                                            },
-                                                            {
-                                                              "name": "Edward Mattingly Sr.",
-                                                              "dates": "1868 MO – 1945 La Grange TX",
-                                                              "fact": "Born Missouri; migrated to TX by 1894; m. May Teichmueller 1 Sept 1894 (May d. 28 Aug 1900); m2. Blanche Schroeder",
-                                                              "id": "p041",
-                                                              "generation": 13,
-                                                              "century": 20,
-                                                              "confidence": "confirmed",
-                                                              "spouse": "m1. May Teichmueller (1894–1900); m2. Blanche D. Schroeder (b. 1886 MO)",
-                                                              "children": [
-                                                                {
-                                                                  "name": "Leroy Teichmuller Mattingly",
-                                                                  "dates": "31 Aug 1896 – 1968",
-                                                                  "fact": "Born La Grange TX; died San Antonio. U Texas engineer; named for German maternal grandfather Hans Teichmueller. m. Ruth Baity 4 Apr 1900–1982. WikiTree Mattingly-1127.",
-                                                                  "id": "p002",
-                                                                  "generation": 14,
-                                                                  "century": 20,
-                                                                  "confidence": "confirmed",
-                                                                  "spouse": "Ruth (Baity) Mattingly (4 Apr 1900 – 1982 Houston)",
-                                                                  "children": [
-                                                                    {
-                                                                      "name": "Leroy Baity Mattingly",
-                                                                      "dates": "1922–2013",
-                                                                      "fact": "Born 17 May 1922 San Antonio; died Colorado Springs CO 2013. WikiTree Mattingly-1178. m. Jennive Lepick.",
-                                                                      "id": "p015",
-                                                                      "generation": 15,
-                                                                      "century": 20,
-                                                                      "confidence": "probable",
-                                                                      "spouse": "Jennive Lepick",
-                                                                      "children": [
-                                                                        {
-                                                                          "name": "Sharyn (\"Shari\") Mattingly",
-                                                                          "dates": "b. 1947",
-                                                                          "fact": "Family historian; Santa Monica; oil royalty owner",
-                                                                          "id": "p000",
-                                                                          "generation": 16,
-                                                                          "century": 20,
-                                                                          "confidence": "confirmed",
-                                                                          "spouse": "David (1st husband)",
-                                                                          "children": [
-                                                                            {
-                                                                              "name": "[Hunter's parent]",
-                                                                              "dates": "living",
-                                                                              "fact": "Shari + David's child",
-                                                                              "id": null,
-                                                                              "generation": 17,
-                                                                              "century": 21,
-                                                                              "confidence": "confirmed",
-                                                                              "spouse": null,
-                                                                              "children": [
-                                                                                {
-                                                                                  "name": "Hunter Spence",
-                                                                                  "dates": "living",
-                                                                                  "fact": "Recipient of this family history; recorded grandma's interview",
-                                                                                  "id": "p001",
-                                                                                  "generation": 18,
-                                                                                  "century": 21,
-                                                                                  "confidence": "confirmed",
-                                                                                  "spouse": null,
-                                                                                  "children": []
-                                                                                }
-                                                                              ]
-                                                                            },
-                                                                            {
-                                                                              "name": "Charmaine",
-                                                                              "dates": "living",
-                                                                              "fact": "Shari + David's daughter; Hunter's aunt",
-                                                                              "id": "p021",
-                                                                              "generation": 17,
-                                                                              "century": 21,
-                                                                              "confidence": "confirmed",
-                                                                              "spouse": null,
-                                                                              "children": []
-                                                                            }
-                                                                          ]
-                                                                        },
-                                                                        {
-                                                                          "name": "[brother]",
-                                                                          "dates": "living",
-                                                                          "fact": "Got the chair from Pearl's set",
-                                                                          "id": "p022",
-                                                                          "generation": 16,
-                                                                          "century": 20,
-                                                                          "confidence": "confirmed",
-                                                                          "spouse": null,
-                                                                          "children": []
-                                                                        },
-                                                                        {
-                                                                          "name": "[sister]",
-                                                                          "dates": "living",
-                                                                          "fact": "—",
-                                                                          "id": "p023",
-                                                                          "generation": 16,
-                                                                          "century": 20,
-                                                                          "confidence": "confirmed",
-                                                                          "spouse": null,
-                                                                          "children": []
-                                                                        }
-                                                                      ]
-                                                                    }
-                                                                  ]
-                                                                },
-                                                                {
-                                                                  "name": "Dr. Claude Mattingly",
-                                                                  "dates": "1898–1934",
-                                                                  "fact": "Pediatrician; Marine WWI; suicide pact at Texan Hotel Austin Jan 31 1934",
-                                                                  "id": "p011",
-                                                                  "generation": 14,
-                                                                  "century": 20,
-                                                                  "confidence": "confirmed",
-                                                                  "spouse": null,
-                                                                  "children": []
-                                                                },
-                                                                {
-                                                                  "name": "Aunt Mamie",
-                                                                  "dates": "b. ~1900",
-                                                                  "fact": "Mother died at her birth",
-                                                                  "id": "p013",
-                                                                  "generation": 14,
-                                                                  "century": 20,
-                                                                  "confidence": "confirmed",
-                                                                  "spouse": null,
-                                                                  "children": []
-                                                                },
-                                                                {
-                                                                  "name": "Edward Mattingly Jr.",
-                                                                  "dates": "b. ~1915 La Grange",
-                                                                  "fact": "Half-sibling — son of Edward Sr. + 2nd wife Blanche Schroeder",
-                                                                  "id": null,
-                                                                  "generation": 14,
-                                                                  "century": 20,
-                                                                  "confidence": "probable",
-                                                                  "spouse": null,
-                                                                  "children": []
-                                                                }
-                                                              ]
-                                                            },
-                                                            {
-                                                              "name": "Florence Mattingly",
-                                                              "dates": "?",
-                                                              "fact": "Daughter of TJ + Elizabeth Christie",
-                                                              "id": null,
-                                                              "generation": 13,
-                                                              "century": 19,
-                                                              "confidence": "probable",
-                                                              "spouse": null,
-                                                              "children": []
-                                                            },
-                                                            {
-                                                              "name": "Ida Mattingly",
-                                                              "dates": "?",
-                                                              "fact": "Daughter of TJ + Elizabeth Christie",
-                                                              "id": null,
-                                                              "generation": 13,
-                                                              "century": 19,
-                                                              "confidence": "probable",
-                                                              "spouse": null,
-                                                              "children": []
-                                                            }
-                                                          ]
-                                                        },
-                                                        {
-                                                          "name": "Ignatius Mattingly",
-                                                          "dates": "b. 6 Mar 1811",
-                                                          "fact": "Sibling of Thomas Jefferson; m. Rachel F. Barnes (WikiTree Mattingly-139)",
-                                                          "id": null,
-                                                          "generation": 12,
-                                                          "century": 19,
-                                                          "confidence": "probable",
-                                                          "spouse": null,
-                                                          "children": []
-                                                        }
-                                                      ]
+                                                      "children": []
                                                     }
                                                   ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Leonard Mattingly Sr.",
+                                              "dates": "1739–1829 Washington Co KY",
+                                              "fact": "Mattingly-62. 'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10 named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)",
+                                              "id": "p044",
+                                              "generation": 10,
+                                              "century": 18,
+                                              "confidence": "confirmed",
+                                              "spouse": "m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty",
+                                              "children": [
+                                                {
+                                                  "name": "Joseph Mattingly",
+                                                  "dates": "?",
+                                                  "fact": "Mattingly-339; son of Leonard Sr.",
+                                                  "id": null,
+                                                  "generation": 11,
+                                                  "century": 18,
+                                                  "confidence": "probable",
+                                                  "spouse": null,
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Jane Mattingly",
+                                                  "dates": "b. 1760",
+                                                  "fact": "Mattingly-211",
+                                                  "id": null,
+                                                  "generation": 11,
+                                                  "century": 18,
+                                                  "confidence": "probable",
+                                                  "spouse": null,
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "John Baptist Mattingly",
+                                                  "dates": "b. 1762",
+                                                  "fact": "Mattingly-59",
+                                                  "id": null,
+                                                  "generation": 11,
+                                                  "century": 18,
+                                                  "confidence": "probable",
+                                                  "spouse": null,
+                                                  "children": []
                                                 },
                                                 {
                                                   "name": "Leonard Mattingly Jr.",
                                                   "dates": "1764–1843 Marion KY",
-                                                  "fact": "1785 Catholic migration to KY; Y-DNA project anchor — but COLLATERAL to Hunter, not direct line",
+                                                  "fact": "Mattingly-210; 1785 Catholic migrant to KY; Y-DNA project anchor for KY descendants. m. Ann Cissell.",
                                                   "id": "p045",
-                                                  "generation": 10,
+                                                  "generation": 11,
                                                   "century": 18,
                                                   "confidence": "confirmed",
                                                   "spouse": "Ann Cissell (m. 7 Jan 1788, Nelson Co KY)",
@@ -616,7 +649,7 @@
                                                       "dates": "b. 1798",
                                                       "fact": "Eldest of Leonard Jr.'s 4 children",
                                                       "id": null,
-                                                      "generation": 11,
+                                                      "generation": 12,
                                                       "century": 19,
                                                       "confidence": "probable",
                                                       "spouse": null,
@@ -625,9 +658,9 @@
                                                     {
                                                       "name": "Henry Martin Mattingly Sr.",
                                                       "dates": "1799–1858 Marion KY",
-                                                      "fact": "9 children 1828-1844; m. Helen Thompson; collateral Mattingly/Y-DNA branch",
+                                                      "fact": "9 children 1828-1844; m. Helen Thompson; collateral KY Y-DNA branch",
                                                       "id": null,
-                                                      "generation": 11,
+                                                      "generation": 12,
                                                       "century": 19,
                                                       "confidence": "confirmed",
                                                       "spouse": "Helen Thompson (b. ~1800)",
@@ -635,9 +668,9 @@
                                                         {
                                                           "name": "George Thomas Mattingly",
                                                           "dates": "b. 1830 Marion KY",
-                                                          "fact": "Y-DNA project participant; not direct Texas-line ancestor",
+                                                          "fact": "Mattingly-695; Y-DNA project participant",
                                                           "id": "p046",
-                                                          "generation": 12,
+                                                          "generation": 13,
                                                           "century": 19,
                                                           "confidence": "possible",
                                                           "spouse": null,
@@ -648,7 +681,7 @@
                                                           "dates": "1828–1844",
                                                           "fact": "Per agent 16 research",
                                                           "id": null,
-                                                          "generation": 12,
+                                                          "generation": 13,
                                                           "century": 19,
                                                           "confidence": "probable",
                                                           "spouse": null,
@@ -661,7 +694,7 @@
                                                       "dates": "b. 1807",
                                                       "fact": "Leonard Jr's third child",
                                                       "id": null,
-                                                      "generation": 11,
+                                                      "generation": 12,
                                                       "century": 19,
                                                       "confidence": "probable",
                                                       "spouse": null,
@@ -672,7 +705,7 @@
                                                       "dates": "1828–1914 Glen Dean KY",
                                                       "fact": "Died KY at 85; ruled out as centenarian",
                                                       "id": null,
-                                                      "generation": 11,
+                                                      "generation": 12,
                                                       "century": 19,
                                                       "confidence": "confirmed",
                                                       "spouse": null,
@@ -681,11 +714,66 @@
                                                   ]
                                                 },
                                                 {
-                                                  "name": "[+ ~12 other children]",
-                                                  "dates": "1760s–1810s",
-                                                  "fact": "Leonard Sr. had ~14 children across 3 marriages (names being researched)",
+                                                  "name": "Ignatius Mattingly",
+                                                  "dates": "b. 1766",
+                                                  "fact": "Mattingly-53; son of Leonard Sr.",
                                                   "id": null,
-                                                  "generation": 10,
+                                                  "generation": 11,
+                                                  "century": 18,
+                                                  "confidence": "probable",
+                                                  "spouse": null,
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Susannah (Mattingly) Ray",
+                                                  "dates": "b. 1766",
+                                                  "fact": "Mattingly-208; m. Ray",
+                                                  "id": null,
+                                                  "generation": 11,
+                                                  "century": 18,
+                                                  "confidence": "probable",
+                                                  "spouse": null,
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Basil Mattingly",
+                                                  "dates": "b. 1772",
+                                                  "fact": "Mattingly-207",
+                                                  "id": null,
+                                                  "generation": 11,
+                                                  "century": 18,
+                                                  "confidence": "probable",
+                                                  "spouse": null,
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Susan (Mattingly) Barron",
+                                                  "dates": "b. 1775",
+                                                  "fact": "Mattingly-78; m. Barron",
+                                                  "id": null,
+                                                  "generation": 11,
+                                                  "century": 18,
+                                                  "confidence": "probable",
+                                                  "spouse": null,
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "Mary (Mattingly) Buckman",
+                                                  "dates": "b. 1777",
+                                                  "fact": "Mattingly-205; m. Buckman",
+                                                  "id": null,
+                                                  "generation": 11,
+                                                  "century": 18,
+                                                  "confidence": "probable",
+                                                  "spouse": null,
+                                                  "children": []
+                                                },
+                                                {
+                                                  "name": "William Mattingly",
+                                                  "dates": "b. 1777",
+                                                  "fact": "Mattingly-204",
+                                                  "id": null,
+                                                  "generation": 11,
                                                   "century": 18,
                                                   "confidence": "probable",
                                                   "spouse": null,
@@ -694,9 +782,9 @@
                                               ]
                                             },
                                             {
-                                              "name": "Lucas Mattingly",
-                                              "dates": "?",
-                                              "fact": "Son of Ignatius (per Sarah Catherine Fowler line)",
+                                              "name": "William Mattingly",
+                                              "dates": "1741–1817 Washington KY",
+                                              "fact": "Mattingly-213; m1. Mary Catherine Spalding; m2. Nancy Elizabeth Clark",
                                               "id": null,
                                               "generation": 9,
                                               "century": 18,
@@ -705,9 +793,9 @@
                                               "children": []
                                             },
                                             {
-                                              "name": "William Mattingly",
-                                              "dates": "?",
-                                              "fact": "Son of Ignatius",
+                                              "name": "Lucas Mattingly",
+                                              "dates": "1743–1830 KY",
+                                              "fact": "Mattingly-214; m. Sue Ellen Hagan, Elizabeth Eleanor Thompson, Elizabeth Cambron",
                                               "id": null,
                                               "generation": 9,
                                               "century": 18,
@@ -717,8 +805,8 @@
                                             },
                                             {
                                               "name": "Elizabeth (Mattingly) Thompson",
-                                              "dates": "?",
-                                              "fact": "Daughter of Ignatius; m. Thompson",
+                                              "dates": "b. 1745",
+                                              "fact": "Mattingly-1901; m. Thompson",
                                               "id": null,
                                               "generation": 9,
                                               "century": 18,
@@ -727,9 +815,9 @@
                                               "children": []
                                             },
                                             {
-                                              "name": "Sarah (Mattingly) Walker",
-                                              "dates": "?",
-                                              "fact": "Daughter of Ignatius; m. Walker",
+                                              "name": "Sarah Ann (Mattingly) Walker",
+                                              "dates": "b. 1747",
+                                              "fact": "Mattingly-1312; m. Walker",
                                               "id": null,
                                               "generation": 9,
                                               "century": 18,
@@ -739,8 +827,8 @@
                                             },
                                             {
                                               "name": "Susanna Mattingly",
-                                              "dates": "?",
-                                              "fact": "Daughter of Ignatius",
+                                              "dates": "b. 1749",
+                                              "fact": "Mattingly-1900",
                                               "id": null,
                                               "generation": 9,
                                               "century": 18,
