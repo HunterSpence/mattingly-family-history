@@ -1,0 +1,2369 @@
+{
+  "interview_metadata": {
+    "subject": "Shari",
+    "interviewer": "Hunter (grandson)",
+    "date_recorded": "2026-04-25",
+    "duration": "46:11",
+    "subject_current_age": 79,
+    "subject_current_location": "Santa Monica, CA"
+  },
+  "people": [
+    {
+      "id": "p000",
+      "full_name": "Shari",
+      "given_name": "Shari",
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [
+        "Sharyn"
+      ],
+      "relation_to_shari": "subject",
+      "birth_year": 1947,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": "Council president (senior living building); royalty owner of eight oil wells in Reeves County, TX",
+      "context": "Shari is the interview subject, age 79, living in Santa Monica, CA; she is a royalty owner of eight oil wells in Reeves County, TX, president of the activities council in her building, and the primary narrator of the family history.",
+      "transcript_timestamps": [
+        "0:00",
+        "6:58",
+        "42:45",
+        "43:44"
+      ],
+      "living_flag": true,
+      "fuzzy": false,
+      "research_priority": "low",
+      "research_targets": [],
+      "notes_from_hunter": "Hunter's grandmother. Spelled 'Sharyn' formally; goes by 'Shari'."
+    },
+    {
+      "id": "p001",
+      "full_name": "Hunter",
+      "given_name": "Hunter",
+      "middle_name": null,
+      "surname": null,
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "grandson",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "The interviewer (grandson). Surname Spence. Redacted in shareable version.",
+      "transcript_timestamps": [
+        "0:00",
+        "14:00"
+      ],
+      "living_flag": true,
+      "fuzzy": false,
+      "research_priority": "low",
+      "research_targets": [],
+      "full_name_redacted": "Hunter [redacted in public version]"
+    },
+    {
+      "id": "p002",
+      "full_name": "Leroy Teichmuller Mattingly",
+      "given_name": "Leroy",
+      "middle_name": "Teichmuller",
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "grandfather",
+      "birth_year": 1898,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari's grandfather, son of a Texas judge, born in 1898; his mother died in childbirth giving birth to Aunt Mamie around 1900-1902.",
+      "transcript_timestamps": [
+        "0:00",
+        "21:30"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "high",
+      "research_targets": [
+        "FamilySearch",
+        "Ancestry",
+        "FindAGrave",
+        "Newspapers.com",
+        "Texas vital records"
+      ]
+    },
+    {
+      "id": "p003",
+      "full_name": "Hans Teichmueller",
+      "given_name": "Hans",
+      "middle_name": null,
+      "surname": "Teichmueller",
+      "maiden_name": null,
+      "alternate_spellings": [
+        "Teichmüller"
+      ],
+      "relation_to_shari": "great-great-grandfather (maternal-paternal — Leroy Mattingly's mother's father)",
+      "birth_year": 1837,
+      "death_year": 1901,
+      "birth_place": "Brunswick, Germany",
+      "death_place": "La Grange, Fayette County, Texas",
+      "occupation": "District Judge, 22nd Judicial District of Texas (1884–1901), based in La Grange",
+      "context": "Shari says searching 'Hans Teichmuller' on the internet produces a photo of her grandfather's family in front of their house; described as a judge in Texas.",
+      "transcript_timestamps": [
+        "0:00"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "high",
+      "research_targets": [
+        "Ancestry",
+        "FamilySearch",
+        "Newspapers.com",
+        "Texas state records",
+        "Google Images"
+      ],
+      "enriched_context": "Hans Teichmueller (1837–1901) — born March 7, 1837 in Brunswick, Germany; died February 17, 1901 in La Grange, Texas. District Judge of the 22nd Judicial District of Texas (Fayette County) from 1884 to 1901. **HE IS THE 'judge in Texas' Shari mentioned**, but Shari slightly compressed the genealogy: he was Leroy's MATERNAL GRANDFATHER, not paternal grandfather. Hans's daughter May Teichmueller married Ed Mattingly — that union produced Leroy Teichmuller Mattingly (named for his German maternal grandfather), Claude, and Aunt Mamie. The 1902 Fayette County history book at the Library of Congress contains his full biography and portrait — that's the photo Shari said is 'on the Internet under Hans Teichmueller.'",
+      "sources": [
+        "https://www.loc.gov/item/02023423/"
+      ],
+      "wikipedia_url": ""
+    },
+    {
+      "id": "p004",
+      "full_name": "Minette Teichmueller (Pohl)",
+      "given_name": "Minette",
+      "middle_name": null,
+      "surname": "Pohl",
+      "maiden_name": "Teichmueller",
+      "alternate_spellings": [
+        "Monett",
+        "Minette Pohl",
+        "Monette"
+      ],
+      "relation_to_shari": "great-great-aunt (grandfather's mother's sister or grandfather's aunt — described as 'aunt Monette, my grandfather's mother')",
+      "birth_year": 1871,
+      "death_year": 1970,
+      "birth_place": "La Grange, Texas",
+      "death_place": "Nacogdoches, Texas",
+      "occupation": "Muralist (WPA Treasury Section); painted 'The Law, Texas Rangers' for Smithville TX post office, 1940",
+      "context": "Shari knew Aunt Monette well; she lived to 99, was born 1871 and died 1970, lived in San Antonio, and told Shari the story of sneaking out at 16 to see Mark Twain.",
+      "transcript_timestamps": [
+        "0:00",
+        "1:27"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "high",
+      "research_targets": [
+        "FamilySearch",
+        "Ancestry",
+        "FindAGrave",
+        "San Antonio newspapers",
+        "Newspapers.com"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Minette_Teichmueller"
+      ],
+      "enriched_context": "Minette Teichmueller (called 'Monette' by Shari) was herself a documented WPA muralist. Born in La Grange, Texas (not Louisiana as Shari recalled). Studied at Chicago Academy of Fine Arts and the San Antonio Academy of Art. Her 1940 mural 'The Law, Texas Rangers' still hangs in the Smithville, Texas post office. Maiden name Teichmueller — same German-Texan family that gave Leroy Teichmuller Mattingly his middle name.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Minette_Teichmueller"
+    },
+    {
+      "id": "p005",
+      "full_name": "Hugo D. Pohl",
+      "given_name": "Hugo",
+      "middle_name": null,
+      "surname": "Pohl",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "great-great-uncle (husband of Aunt Monette)",
+      "birth_year": 1878,
+      "death_year": 1960,
+      "birth_place": null,
+      "death_place": "San Antonio, Texas (assumed)",
+      "occupation": "Painter and art teacher; San Antonio Municipal Auditorium stage curtain (1926, destroyed 1979)",
+      "context": "Hugo Pohl was Aunt Monette's husband and a famous painter in the San Antonio area; he painted the large paintings on the wall of the Texas A&M Student Union Building.",
+      "transcript_timestamps": [
+        "0:00",
+        "1:27"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "high",
+      "research_targets": [
+        "Wikipedia",
+        "Ancestry",
+        "FamilySearch",
+        "Newspapers.com",
+        "Texas A&M archives",
+        "San Antonio art museum records"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Minette_Teichmueller",
+        "https://en.wikipedia.org/wiki/San_Antonio_Municipal_Auditorium"
+      ],
+      "enriched_context": "Hugo D. Pohl (1878–1960) — San Antonio painter. His most famous work was the 36×75-foot, 5,600-pound asbestos stage curtain at the San Antonio Municipal Auditorium (1926), depicting the 1718 founding of San Antonio with portraits of Bowie, Crockett, Travis, and Bonham. Curtain destroyed in 1979 fire. Also taught at the Hungarian Academy of Arts (Pál Fried was a student). Reference: Dictionary of Texas Artists, 1800–1945 (Grauer & Grauer); Art for History's Sake (Steinfeldt / Witte Museum).",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/San_Antonio_Municipal_Auditorium"
+    },
+    {
+      "id": "p006",
+      "full_name": "Pearl Baity",
+      "given_name": "Pearl",
+      "middle_name": null,
+      "surname": "Baity",
+      "maiden_name": null,
+      "alternate_spellings": [
+        "Baty",
+        "Baity"
+      ],
+      "relation_to_shari": "great-grandmother (maternal or paternal unclear)",
+      "birth_year": null,
+      "death_year": 1971,
+      "birth_place": "North Carolina",
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari's great-grandmother, born in North Carolina, came to Texas (North Texas) in the 1870s as a child after the Civil War devastated the South; she died in 1971, and Shari knew her well.",
+      "transcript_timestamps": [
+        "1:27",
+        "8:31"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "high",
+      "research_targets": [
+        "FamilySearch",
+        "Ancestry",
+        "FindAGrave",
+        "Newspapers.com",
+        "North Carolina vital records",
+        "Texas land records"
+      ]
+    },
+    {
+      "id": "p007",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Baity",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "great-great-grandfather (Pearl Baity's father)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": "North Carolina",
+      "death_place": null,
+      "occupation": "Farmer",
+      "context": "Pearl Baity's father who traveled by buckboard to Sherman's camp during the Civil War to beg Sherman not to burn their farm, and succeeded; later moved family to Texas.",
+      "transcript_timestamps": [
+        "1:27"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "medium",
+      "research_targets": [
+        "FamilySearch",
+        "Ancestry",
+        "Civil War records",
+        "North Carolina land records"
+      ]
+    },
+    {
+      "id": "p008",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": null,
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "great-great-grandmother (Pearl Baity's mother)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": "North Carolina",
+      "death_place": null,
+      "occupation": null,
+      "context": "Pearl Baity's mother, who told Pearl the story about going to Sherman's camp by buckboard; the family moved to Texas after the Civil War.",
+      "transcript_timestamps": [
+        "1:27"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "low",
+      "research_targets": [
+        "FamilySearch",
+        "Ancestry"
+      ]
+    },
+    {
+      "id": "p009",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "great-grandmother (Leroy Mattingly's mother; wife of the successful San Antonio builder)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari's great-grandmother ('Gigi'), wife of the San Antonio builder; she was avant-garde and modern, bought land in Reeves County TX in April 1901, and died at childbirth giving birth to Aunt Mamie around 1900-1902; Shari says she was born in the 1870s and died at childbirth.",
+      "transcript_timestamps": [
+        "1:27",
+        "5:00",
+        "20:42"
+      ],
+      "living_flag": false,
+      "fuzzy": true,
+      "research_priority": "high",
+      "research_targets": [
+        "FamilySearch",
+        "Ancestry",
+        "Texas land records",
+        "Reeves County records",
+        "San Antonio birth/death records"
+      ]
+    },
+    {
+      "id": "p010",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "great-grandfather (husband of Gigi; Leroy Mattingly's father or step-father)",
+      "birth_year": null,
+      "death_year": 1945,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": "Builder / contractor",
+      "context": "Shari's great-grandfather ('Gigi's husband'), a very successful builder who built half of San Antonio; he died in 1945.",
+      "transcript_timestamps": [
+        "1:27",
+        "8:31"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "high",
+      "research_targets": [
+        "FamilySearch",
+        "Ancestry",
+        "San Antonio city directories",
+        "Newspapers.com",
+        "Texas building permits"
+      ]
+    },
+    {
+      "id": "p011",
+      "full_name": "Dr. Claude Mattingly",
+      "given_name": "Claude",
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "great-great-uncle (grandfather Leroy's brother)",
+      "birth_year": 1898,
+      "death_year": 1934,
+      "birth_place": null,
+      "death_place": "Texan Hotel, Austin, Texas",
+      "occupation": "Pediatrician (specialist in children's diseases); practiced in Austin TX. WWI Marine Corps veteran. UT Medical Branch Galveston graduate.",
+      "context": "Leroy Mattingly's brother Claude was a prominent physician in San Antonio; found dead in a hotel room with a University of Texas professor's wife, possibly of overdose, in 1934 or 1935; age two in the family photo.",
+      "transcript_timestamps": [
+        "0:00",
+        "24:54"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "high",
+      "research_targets": [
+        "Newspapers.com",
+        "Ancestry",
+        "FamilySearch",
+        "FindAGrave",
+        "Texas death records"
+      ],
+      "enriched_context": "Dr. Claude Mattingly died January 31, 1934 at the Texan Hotel in **Austin** (NOT San Antonio as Shari recalled). It was a confirmed suicide pact with **Mrs. Rhea B. Perrin** — the wife of a University of Texas psychology professor. The pair died of a narcotic injection. AP and INS wire-service articles ran February 1–6, 1934 in Texas newspapers. Claude was 35, a pediatrician practicing in Austin for six years, trained at UT Medical Branch Galveston, and had served in the Marine Corps in World War I. His body was returned to La Grange, where his father Ed Mattingly was still living. The family's 'we don't talk about him' silence and Shari's recollection of 'probably overdose' are confirmed — though it was specifically a double suicide by narcotic injection with a married woman, openly covered by the press at the time.",
+      "sources": [
+        "AP wire articles, Texas newspapers, February 1-6, 1934 (Newspapers.com or Briscoe Center microfilm)"
+      ]
+    },
+    {
+      "id": "p012",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": null,
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "unrelated (University of Texas professor's wife)",
+      "birth_year": null,
+      "death_year": 1934,
+      "birth_place": null,
+      "death_place": "hotel room",
+      "occupation": null,
+      "context": "A University of Texas professor's wife found dead in a hotel room with Claude Mattingly, possibly of overdose, in 1934 or 1935.",
+      "transcript_timestamps": [
+        "24:54"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "low",
+      "research_targets": [
+        "Newspapers.com",
+        "Texas death records"
+      ]
+    },
+    {
+      "id": "p013",
+      "full_name": null,
+      "given_name": "Mamie",
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "great-aunt (Leroy Mattingly's sister)",
+      "birth_year": 1900,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "Aunt Mamie was Leroy Mattingly's sister, born around 1900-1902; her mother (Gigi) died in childbirth giving birth to her.",
+      "transcript_timestamps": [
+        "20:42"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "medium",
+      "research_targets": [
+        "FamilySearch",
+        "Ancestry",
+        "FindAGrave"
+      ]
+    },
+    {
+      "id": "p014",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "grandmother (Leroy Mattingly's wife; Shari's grandmother)",
+      "birth_year": 1902,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari's grandmother, born in 1902 (Shari says 'my grandmother was born in nineteen o two. 1900. 1900' — contradictory), raised wealthy but lost everything in 1929 and was bitter; went to North Texas State university.",
+      "transcript_timestamps": [
+        "1:27",
+        "11:50",
+        "21:30"
+      ],
+      "living_flag": false,
+      "fuzzy": true,
+      "research_priority": "high",
+      "research_targets": [
+        "FamilySearch",
+        "Ancestry",
+        "North Texas State University records",
+        "Newspapers.com"
+      ]
+    },
+    {
+      "id": "p015",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "father",
+      "birth_year": 1922,
+      "death_year": null,
+      "birth_place": "San Antonio, TX",
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari's father, born 1922 in San Antonio when the city had about 35,000 people; had a master's degree.",
+      "transcript_timestamps": [
+        "12:32",
+        "21:30",
+        "28:58"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "medium",
+      "research_targets": [
+        "FamilySearch",
+        "Ancestry",
+        "Texas vital records"
+      ]
+    },
+    {
+      "id": "p016",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": null,
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "mother",
+      "birth_year": 1923,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari's mother, born 1923, had a degree in chemistry and physics, and was O negative blood type.",
+      "transcript_timestamps": [
+        "12:32",
+        "13:50"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "medium",
+      "research_targets": [
+        "FamilySearch",
+        "Ancestry"
+      ]
+    },
+    {
+      "id": "p017",
+      "full_name": null,
+      "given_name": "Zay",
+      "middle_name": null,
+      "surname": null,
+      "maiden_name": null,
+      "alternate_spellings": [
+        "Zay",
+        "Zy"
+      ],
+      "relation_to_shari": "uncle (mother's brother or father's brother — context suggests mother's side given the Frost Bank uncle is also mother's brother)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": "Head of Stauffer Chemicals",
+      "context": "Uncle Zay had a PhD from MIT in chemistry and physics and was head of Stauffer Chemicals.",
+      "transcript_timestamps": [
+        "12:32"
+      ],
+      "living_flag": false,
+      "fuzzy": true,
+      "research_priority": "high",
+      "research_targets": [
+        "Ancestry",
+        "FamilySearch",
+        "MIT alumni records",
+        "Newspapers.com",
+        "Stauffer Chemicals corporate records"
+      ]
+    },
+    {
+      "id": "p018",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": null,
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "uncle (mother's brother)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": "President of Frost Bank, San Antonio; lawyer",
+      "context": "Shari's mother's brother was president of Frost Bank in San Antonio and a lawyer.",
+      "transcript_timestamps": [
+        "12:32"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "high",
+      "research_targets": [
+        "Frost Bank archives",
+        "San Antonio Bar Association",
+        "Newspapers.com",
+        "Ancestry",
+        "FamilySearch"
+      ],
+      "enriched_context": "Probable Frost family member by blood. Frost Bank (founded 1868 by Thomas Claiborne Frost) has been exclusively Frost-family-controlled since founding. For Shari's maternal uncle to be president, he was almost certainly a Frost — meaning Shari's grandmother (her mother's mother) was a Frost. Tom Frost III (1929–2018) led the bank through the 1977 Cullen merger and is the era-fitting candidate. Verification: Shari's mother's maiden name."
+    },
+    {
+      "id": "p019",
+      "full_name": null,
+      "given_name": "Billy",
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "uncle (father's brother)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": "Geologist",
+      "context": "Uncle Billy was Shari's father's brother, a geologist who graduated from Stanford.",
+      "transcript_timestamps": [
+        "12:32"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "medium",
+      "research_targets": [
+        "Stanford alumni records",
+        "Ancestry",
+        "FamilySearch"
+      ]
+    },
+    {
+      "id": "p020",
+      "full_name": "David",
+      "given_name": "David",
+      "middle_name": null,
+      "surname": null,
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "first husband",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari's first husband, Hunter's paternal grandfather. Walked with Shari at Texas A&M when she recognized Hugo Pohl's paintings. Currently ~80 years old, living, healthy (no dementia).",
+      "transcript_timestamps": [
+        "0:00"
+      ],
+      "living_flag": true,
+      "fuzzy": false,
+      "research_priority": "low",
+      "research_targets": [],
+      "relation_to_hunter": "paternal grandfather"
+    },
+    {
+      "id": "p021",
+      "full_name": "Charmaine",
+      "given_name": "Charmaine",
+      "middle_name": null,
+      "surname": null,
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "daughter",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari's daughter, Hunter's aunt. Brought a family oil painting to Shari from Hunter's parents. O-negative blood type (per Shari).",
+      "transcript_timestamps": [
+        "13:50",
+        "20:42",
+        "42:45"
+      ],
+      "living_flag": true,
+      "fuzzy": false,
+      "research_priority": "low",
+      "research_targets": [],
+      "relation_to_hunter": "aunt"
+    },
+    {
+      "id": "p022",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "brother",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari's brother is a royalty owner of the Reeves County oil wells and received the Kaiser's living room chair from their great-grandmother's estate.",
+      "transcript_timestamps": [
+        "6:58",
+        "11:00"
+      ],
+      "living_flag": true,
+      "fuzzy": false,
+      "research_priority": "skip",
+      "research_targets": [],
+      "redact_in_public": true
+    },
+    {
+      "id": "p023",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "sister",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari's sister is a co-royalty owner of the Reeves County oil wells.",
+      "transcript_timestamps": [
+        "6:58"
+      ],
+      "living_flag": true,
+      "fuzzy": false,
+      "research_priority": "skip",
+      "research_targets": [],
+      "redact_in_public": true
+    },
+    {
+      "id": "p024",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "cousins (three)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari has three cousins who are also royalty owners of the eight oil wells in Reeves County, TX; one may have received the Kaiser living room couch.",
+      "transcript_timestamps": [
+        "6:58",
+        "11:00"
+      ],
+      "living_flag": true,
+      "fuzzy": false,
+      "research_priority": "skip",
+      "research_targets": [],
+      "redact_in_public": true
+    },
+    {
+      "id": "p025",
+      "full_name": "Herbert E. Butt",
+      "given_name": "Herbert",
+      "middle_name": "E.",
+      "surname": "Butt",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "unrelated (great-grandmother Pearl Baity's dear childhood friend)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": "Founder of H-E-B grocery stores",
+      "context": "Shari says Herbert E. Butt was her great-grandmother's dear childhood friend, and her great-grandmother described him as 'a character.'",
+      "transcript_timestamps": [
+        "15:00"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "medium",
+      "research_targets": [
+        "Wikipedia",
+        "Newspapers.com",
+        "H-E-B corporate history"
+      ]
+    },
+    {
+      "id": "p026",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Judson",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "unrelated (acquaintance of Shari's grandmother)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": "Candy maker / founder of Judson's candy",
+      "context": "Mrs. Judson was someone Shari's grandmother remembered being around all the time; described as a snob; connected to Judson's chocolate mint candy sold in movie theaters.",
+      "transcript_timestamps": [
+        "16:27"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "medium",
+      "research_targets": [
+        "Newspapers.com",
+        "Ancestry",
+        "Texas business records"
+      ]
+    },
+    {
+      "id": "p027",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "great-great-great-grandfather (or generation approximation — grandfather of Thomas who came over in 1660)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": "England",
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari traced the Mattingly family via LDS Genealogical Center back to 1525 in England; this is the earliest known Mattingly ancestor on record.",
+      "transcript_timestamps": [
+        "26:00"
+      ],
+      "living_flag": false,
+      "fuzzy": true,
+      "research_priority": "medium",
+      "research_targets": [
+        "FamilySearch",
+        "LDS Family History Library",
+        "Domesday Book",
+        "English parish records"
+      ]
+    },
+    {
+      "id": "p028",
+      "full_name": "Thomas Mattingly I",
+      "given_name": "Thomas",
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [
+        "Mattingley"
+      ],
+      "relation_to_shari": "distant ancestor (came to America in 1660)",
+      "birth_year": 1623,
+      "death_year": 1665,
+      "birth_place": "England (likely Hampshire — near Mattingley village)",
+      "death_place": "Charles County, Maryland",
+      "occupation": null,
+      "context": "Thomas Mattingly came to America in 1660 with Lord Baltimore, settling in Maryland; he was Catholic and died a couple of years after arriving; given land called Mattingly's Hope in Maryland.",
+      "transcript_timestamps": [
+        "18:51",
+        "26:00"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "high",
+      "research_targets": [
+        "FamilySearch",
+        "Maryland land records",
+        "LDS Family History Library",
+        "Ancestry",
+        "Colonial land grant records",
+        "Newspapers.com"
+      ],
+      "enriched_context": "Thomas Mattingly I (~1623–~1665), the immigrant ancestor. First Maryland records appear 1663–1664 (NOT 1660 as family tradition holds). King at the time was Charles II (Restoration 1660), not James (James II reigned 1685–88). Came as Catholic refugee following Cromwell's interregnum and the Restoration. His sons Thomas II and Cezar received the 'Mattingly's Hope' 300-acre land patent in Charles County, Maryland on September 4, 1666 — likely after Thomas I had died.",
+      "sources": [
+        "https://msa.maryland.gov/"
+      ]
+    },
+    {
+      "id": "p029",
+      "full_name": null,
+      "given_name": "Mata",
+      "middle_name": null,
+      "surname": null,
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "legendary/ancient ancestor (8th-century tribal chieftain)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": "England",
+      "death_place": null,
+      "occupation": "Tribal chieftain (Beringa[?] tribe)",
+      "context": "Shari claims the name Mattingly derives from 'Mata's lee' (Mata's land), coined by a chieftain named Mata of the Beringa[?] tribe in the 8th century.",
+      "transcript_timestamps": [
+        "17:58"
+      ],
+      "living_flag": false,
+      "fuzzy": true,
+      "research_priority": "low",
+      "research_targets": [
+        "Wikipedia",
+        "Anglo-Saxon Chronicles",
+        "Wikidata",
+        "academic genealogical literature"
+      ]
+    },
+    {
+      "id": "p030",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "great-great-great-grandfather (grandfather's grandfather — born 1818-1820, died 1935)",
+      "birth_year": 1818,
+      "death_year": 1935,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari's grandfather's grandfather, born around 1818-1820 and died in 1935 at age 107; Shari's grandfather knew him well.",
+      "transcript_timestamps": [
+        "20:42"
+      ],
+      "living_flag": false,
+      "fuzzy": true,
+      "research_priority": "high",
+      "research_targets": [
+        "FamilySearch",
+        "Ancestry",
+        "FindAGrave",
+        "Newspapers.com",
+        "1930 US Census"
+      ]
+    },
+    {
+      "id": "p031",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Mattingly",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "unspecified Revolutionary War ancestor",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": "Soldier (likely private, Revolutionary War)",
+      "context": "A Mattingly ancestor fought in the Revolutionary War, qualifying female descendants for DAR membership.",
+      "transcript_timestamps": [
+        "22:56"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "medium",
+      "research_targets": [
+        "DAR records",
+        "FamilySearch",
+        "Fold3",
+        "Revolutionary War pension records",
+        "Ancestry"
+      ]
+    },
+    {
+      "id": "p032",
+      "full_name": "Lord Baltimore",
+      "given_name": null,
+      "middle_name": null,
+      "surname": "Calvert",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "historical figure (patron of the Mattingly immigration to Maryland)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": "England",
+      "death_place": null,
+      "occupation": "Colonial proprietor of Maryland",
+      "context": "Shari says the Mattingley family came to America with Lord Baltimore in 1660, settling in Maryland as Catholics fleeing Protestant persecution during the Cromwell era.",
+      "transcript_timestamps": [
+        "18:51"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "medium",
+      "research_targets": [
+        "Wikipedia",
+        "Maryland Historical Society",
+        "Colonial records"
+      ]
+    },
+    {
+      "id": "p033",
+      "full_name": "Daniel Boone",
+      "given_name": "Daniel",
+      "middle_name": null,
+      "surname": "Boone",
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "historical figure (led Mattingly family migration to Kentucky)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": "Frontiersman / explorer",
+      "context": "Shari says Mattingly relatives followed Daniel Boone from Maryland to Kentucky in the 1780s and helped found Boonesborough; some Mattinglys remain in Boonesborough today.",
+      "transcript_timestamps": [
+        "23:20",
+        "24:39"
+      ],
+      "living_flag": false,
+      "fuzzy": false,
+      "research_priority": "medium",
+      "research_targets": [
+        "Wikipedia",
+        "Kentucky historical records",
+        "Boonesborough settlement records",
+        "FamilySearch"
+      ]
+    },
+    {
+      "id": "p034",
+      "full_name": "Lawrence Sullivan Ross (PROBABLE)",
+      "given_name": null,
+      "middle_name": null,
+      "surname": null,
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "unrelated (governor of Texas)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": "Governor of Texas",
+      "context": "Shari mentions a great-aunt's family farm neighbor or associate who became governor of Texas; no name given.",
+      "transcript_timestamps": [
+        "15:00"
+      ],
+      "living_flag": false,
+      "fuzzy": true,
+      "research_priority": "low",
+      "research_targets": [
+        "Texas governor records",
+        "Newspapers.com"
+      ],
+      "enriched_context": "Strongest candidate: Sul Ross (governor 1887–1891). His family settled Milam County in central Texas in 1839 — exactly the corridor where 1880 immigrants via Galveston settled. Pat Neff (gov. 1921–25) is a weaker alternative. Confirmation needed: which central Texas county did the great-aunt's family settle in?",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sul_Ross"
+    },
+    {
+      "id": "p035",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": null,
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "unrelated (Shari's doctor)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": "Physician",
+      "context": "Shari's doctor told her she would never get Alzheimer's or dementia and asked her to participate in a brain cognition study when she turns 80.",
+      "transcript_timestamps": [
+        "38:00",
+        "43:57"
+      ],
+      "living_flag": true,
+      "fuzzy": false,
+      "research_priority": "low",
+      "research_targets": [],
+      "redact_in_public": true
+    },
+    {
+      "id": "p036",
+      "full_name": null,
+      "given_name": null,
+      "middle_name": null,
+      "surname": null,
+      "maiden_name": null,
+      "alternate_spellings": [],
+      "relation_to_shari": "unspecified (Shari's husband/grandfather of Hunter — 'your grandfather')",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": null,
+      "context": "Shari refers to 'your grandfather' who is 80 years old and does not have dementia.",
+      "transcript_timestamps": [
+        "38:00"
+      ],
+      "living_flag": true,
+      "fuzzy": false,
+      "research_priority": "low",
+      "research_targets": []
+    },
+    {
+      "id": "p037",
+      "full_name": "Stephanie",
+      "given_name": "Stephanie",
+      "relation_to_shari": "possibly sister or niece (per Hunter)",
+      "relation_to_hunter": "great-aunt or first cousin once removed (uncertain)",
+      "context": "Shari started to say 'He was born in Stephanie' then corrected to Charmaine — likely a slip of the tongue but Stephanie may be a real living relative. Per Hunter: possibly Shari's sister or niece.",
+      "living_flag": true,
+      "fuzzy": true,
+      "research_priority": "skip",
+      "redact_in_public": true,
+      "transcript_timestamps": [
+        "20:42"
+      ]
+    },
+    {
+      "id": "p038",
+      "full_name": "Cezar Mattingly",
+      "given_name": "Cezar",
+      "surname": "Mattingly",
+      "relation_to_shari": "ancestor (uncertain whether direct or collateral; son of immigrant Thomas I)",
+      "context": "Son of Thomas Mattingly I; co-recipient of the Mattingly's Hope land patent September 4, 1666 with brother Thomas II.",
+      "research_priority": "high",
+      "transcript_timestamps": [],
+      "fuzzy": true
+    },
+    {
+      "id": "p039",
+      "full_name": "Thomas Mattingly II",
+      "given_name": "Thomas",
+      "surname": "Mattingly",
+      "relation_to_shari": "ancestor (uncertain whether direct or collateral; son of immigrant Thomas I)",
+      "context": "Son of Thomas Mattingly I; co-recipient of the Mattingly's Hope land patent September 4, 1666 with brother Cezar. Possibly the direct ancestor of the Texas/Kentucky Mattingly lines.",
+      "research_priority": "high",
+      "transcript_timestamps": [],
+      "fuzzy": true
+    },
+    {
+      "id": "p040",
+      "full_name": "May Teichmueller Mattingly",
+      "given_name": "May",
+      "maiden_name": "Teichmueller",
+      "surname": "Mattingly",
+      "relation_to_shari": "great-grandmother (paternal — Leroy's mother)",
+      "birth_year": null,
+      "birth_place": "La Grange, Fayette County, Texas (likely)",
+      "death_year": 1900,
+      "death_place": "Texas",
+      "occupation": "(unknown)",
+      "context": "Daughter of Judge Hans Teichmueller (German immigrant). Married Ed Mattingly. Mother of Leroy Teichmuller Mattingly (1898), Claude Mattingly (~1899), and Aunt Mamie (1900-02). Per Shari, she 'died at childbirth giving birth to Aunt Mamie' around 1900-02.",
+      "fuzzy": true,
+      "research_priority": "high",
+      "sources": [
+        "https://www.loc.gov/item/02023423/"
+      ]
+    },
+    {
+      "id": "p041",
+      "full_name": "Ed Mattingly",
+      "given_name": "Ed",
+      "surname": "Mattingly",
+      "relation_to_shari": "great-grandfather (paternal — Leroy's father)",
+      "birth_year": null,
+      "death_year": null,
+      "birth_place": null,
+      "death_place": null,
+      "occupation": "(possibly judge — Shari said 'his father was a judge in Texas'; could conflict with Hans T being the documented judge)",
+      "context": "Father of Leroy Teichmuller Mattingly, Claude Mattingly, and Aunt Mamie. Married May Teichmueller. Lived in La Grange, Fayette County, Texas. Confirmed alive in 1934 when Claude died (his body was returned to Ed in La Grange). The Mattingly half of the Texas family, descending from the Maryland Catholic Mattinglys.",
+      "fuzzy": true,
+      "research_priority": "high",
+      "sources": []
+    }
+  ],
+  "places": [
+    {
+      "id": "pl001",
+      "name": "Ignatius",
+      "type": "town",
+      "modern_name": null,
+      "country": "US",
+      "context": "Shari says 'We're from Ignatius' as the opening statement; likely a place of family origin, possibly Saint Ignatius or a small Texas town.",
+      "transcript_timestamps": [
+        "0:00"
+      ],
+      "fuzzy": true,
+      "research_targets": [
+        "GeoNames",
+        "USGS Geographic Names",
+        "Wikidata",
+        "Texas historical records"
+      ]
+    },
+    {
+      "id": "pl002",
+      "name": "San Antonio",
+      "type": "town",
+      "modern_name": "San Antonio, TX",
+      "country": "US",
+      "context": "Family home base; Aunt Monette lived there; the 211 Castile home built in 1905 is there; the builder great-grandfather built half of San Antonio; Hugo Pohl was a famous painter there; Frost Bank was there.",
+      "transcript_timestamps": [
+        "0:00",
+        "1:27",
+        "4:29",
+        "12:32",
+        "28:58"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Wikidata",
+        "San Antonio city directories",
+        "Texas historical records",
+        "Newspapers.com"
+      ]
+    },
+    {
+      "id": "pl003",
+      "name": "Texas A and M",
+      "type": "building",
+      "modern_name": "Texas A&M University, Student Union Building",
+      "country": "US",
+      "context": "Shari was walking through the Student Union Building at Texas A&M with David and recognized the Hugo Pohl paintings.",
+      "transcript_timestamps": [
+        "0:00"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Texas A&M University archives",
+        "Wikidata"
+      ]
+    },
+    {
+      "id": "pl004",
+      "name": "211 Castillo Avenue, San Antonio, TX 78210",
+      "type": "street_address",
+      "modern_name": null,
+      "country": "USA",
+      "context": "Address of the family home in San Antonio built in 1905; Shari says it still exists as of interview date; address may be 211 Castille (spelling uncertain).",
+      "transcript_timestamps": [
+        "4:35",
+        "4:44"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Bexar County property records",
+        "Google Maps",
+        "Sanborn maps",
+        "City of San Antonio historical records"
+      ],
+      "coordinates": {
+        "lat": 29.3969,
+        "lng": -98.4829
+      },
+      "enriched_context": "211 Castillo Avenue (Spanish for 'castle' or 'fortress'), San Antonio, TX 78210, in the Lavaca/Southtown district south of downtown. Built ~1905 by Pearl Baity's husband (a successful San Antonio builder). Pearl lived there until her death in 1971; sold in the 1980s. Shari heard 'Castile' but the actual spelling is the Spanish 'Castillo.'",
+      "sources": [
+        "https://www.google.com/maps/place/211+Castillo+Ave,+San+Antonio,+TX+78210"
+      ]
+    },
+    {
+      "id": "pl005",
+      "name": "Reeves County, Texas",
+      "type": "county",
+      "modern_name": "Reeves County, TX",
+      "country": "US",
+      "context": "Great-grandmother bought land there in April 1901, shortly after Spindletop; land underlies the Wolfcamp Shale; Shari and family are royalty owners of eight oil wells there.",
+      "transcript_timestamps": [
+        "5:00",
+        "6:58",
+        "7:20"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Reeves County deed records",
+        "Texas GLO",
+        "Texas Railroad Commission",
+        "GeoNames"
+      ],
+      "enriched_context": "1900 population: 1,847 (Shari's '2 people in Reeves County' quip is well-grounded). 2020 census: 14,748 (Shari said 18,000; 1960 peak was 17,644). The 1901–1905 Texas school-land law made cheap purchase possible at the exact moment Pearl bought."
+    },
+    {
+      "id": "pl006",
+      "name": "Wolfcamp Shale",
+      "type": "region",
+      "modern_name": "Wolfcamp Shale / Permian Basin",
+      "country": "US",
+      "context": "The geological formation underlying Shari's oil wells in Reeves County; described as the largest field ever found in West Texas.",
+      "transcript_timestamps": [
+        "5:00"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "USGS",
+        "Wikipedia",
+        "Texas Railroad Commission",
+        "EIA"
+      ],
+      "enriched_context": "USGS November 2016 assessment: 20 billion barrels of oil technically recoverable — the LARGEST USGS oil estimate ever announced at that time. Royalties beginning ~2010 for mineral-rights holders is consistent with when fracking unlocked this formation.",
+      "sources": [
+        "https://pubs.usgs.gov/fs/2016/3092/fs20163092.pdf"
+      ]
+    },
+    {
+      "id": "pl007",
+      "name": "Kerrville, Texas",
+      "type": "town",
+      "modern_name": "Kerrville, TX",
+      "country": "US",
+      "context": "Location of Shari's great-grandmother's summer home where she showed Shari pre-electric household items.",
+      "transcript_timestamps": [
+        "9:45"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "GeoNames",
+        "Wikidata",
+        "Kerr County historical records"
+      ]
+    },
+    {
+      "id": "pl008",
+      "name": "North Carolina",
+      "type": "state",
+      "modern_name": "North Carolina, US",
+      "country": "US",
+      "context": "Birthplace and original home of Pearl Baity's family before they moved to Texas in the 1870s after the Civil War.",
+      "transcript_timestamps": [
+        "1:27"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "GeoNames",
+        "Wikidata"
+      ]
+    },
+    {
+      "id": "pl009",
+      "name": "North Texas",
+      "type": "region",
+      "modern_name": "North Texas, US",
+      "country": "US",
+      "context": "Where Pearl Baity's family settled when they came from North Carolina in the 1870s.",
+      "transcript_timestamps": [
+        "1:27"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "GeoNames"
+      ]
+    },
+    {
+      "id": "pl010",
+      "name": "North Texas State",
+      "type": "building",
+      "modern_name": "University of North Texas (formerly North Texas State University)",
+      "country": "US",
+      "context": "Shari's grandmother attended North Texas State, described as the only Texas university that would accept women at the time.",
+      "transcript_timestamps": [
+        "11:50"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "University of North Texas archives",
+        "Wikidata",
+        "Wikipedia"
+      ]
+    },
+    {
+      "id": "pl011",
+      "name": "University of Texas",
+      "type": "building",
+      "modern_name": "University of Texas at Austin",
+      "country": "US",
+      "context": "Shari's grandfather (Leroy) attended University of Texas in engineering; also a UT professor's wife was found dead with Claude Mattingly.",
+      "transcript_timestamps": [
+        "11:50",
+        "24:54"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "UT Austin archives",
+        "Wikidata"
+      ]
+    },
+    {
+      "id": "pl012",
+      "name": "MIT",
+      "type": "building",
+      "modern_name": "Massachusetts Institute of Technology",
+      "country": "US",
+      "context": "Uncle Zay earned his PhD in chemistry and physics from MIT.",
+      "transcript_timestamps": [
+        "12:32"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "MIT alumni records",
+        "Wikidata"
+      ]
+    },
+    {
+      "id": "pl013",
+      "name": "Stanford",
+      "type": "building",
+      "modern_name": "Stanford University",
+      "country": "US",
+      "context": "Uncle Billy graduated from Stanford.",
+      "transcript_timestamps": [
+        "12:32"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Stanford alumni records",
+        "Wikidata"
+      ]
+    },
+    {
+      "id": "pl014",
+      "name": "Cambridge",
+      "type": "town",
+      "modern_name": "Cambridge, England",
+      "country": "England",
+      "context": "Shari's grandmother told her the family once owned lands on which Cambridge is built; there is a village called Mattingly outside Cambridge and a street called Mattingly Row leading into Cambridge.",
+      "transcript_timestamps": [
+        "17:35"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Wikidata",
+        "Wikipedia",
+        "Ordnance Survey",
+        "GeoNames",
+        "Cambridge historical records"
+      ]
+    },
+    {
+      "id": "pl015",
+      "name": "Mattingley, Hampshire",
+      "type": "town",
+      "modern_name": "Mattingley, Hampshire, England",
+      "country": "England",
+      "context": "A village called Mattingly (or Mattingley) outside Cambridge mentioned by Shari as connected to the family name; also referenced in the Domesday Book.",
+      "transcript_timestamps": [
+        "17:35",
+        "18:09"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Wikidata",
+        "GeoNames",
+        "Ordnance Survey",
+        "Domesday Book",
+        "Wikipedia"
+      ],
+      "enriched_context": "Mattingley village is in HAMPSHIRE (between Hook and Reading), NOT near Cambridge as Shari recalled. It's about 75 miles from Cambridge. Domesday Book (1086) records it as 'Matingelege' with 8 villagers, 3 smallholders, and a mill worth 5 shillings. Etymology: Old English 'Matta' (personal name) + 'inga' (people of) + 'leah' (clearing/woodland) = 'woodland clearing of the people of Matta.' Founding dates to the 5th–6th century (post-Roman Anglo-Saxon era), not strictly the 8th as Shari said.",
+      "coordinates": {
+        "lat": 51.2855,
+        "lng": -0.955
+      },
+      "sources": [
+        "https://opendomesday.org/place/SU7357/mattingley/"
+      ]
+    },
+    {
+      "id": "pl016",
+      "name": "Mattingly Row",
+      "type": "street",
+      "modern_name": null,
+      "country": "England",
+      "context": "Shari says there is a street called Mattingly Row leading into Cambridge.",
+      "transcript_timestamps": [
+        "17:35"
+      ],
+      "fuzzy": true,
+      "research_targets": [
+        "Ordnance Survey",
+        "Google Maps",
+        "Cambridge street records"
+      ],
+      "enriched_context": "No 'Mattingly Row' street exists in England (verified). Shari may have confused this detail. She is correct that Mattingley village exists — but it's in Hampshire, not Cambridge.",
+      "confidence": "DOES NOT EXIST"
+    },
+    {
+      "id": "pl017",
+      "name": "Oxford",
+      "type": "town",
+      "modern_name": "Oxford, England",
+      "country": "England",
+      "context": "Shari says 'when I got back to Oxford, where we lived at Oxford' — implying she or her family lived in Oxford at some point.",
+      "transcript_timestamps": [
+        "17:35"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Wikidata",
+        "GeoNames"
+      ]
+    },
+    {
+      "id": "pl018",
+      "name": "Mattingly's Hope",
+      "type": "town",
+      "modern_name": null,
+      "country": "USA (Maryland)",
+      "context": "Land granted to the Mattingly family when they first came to America in 1660; a small village-type settlement in Maryland that still exists.",
+      "transcript_timestamps": [
+        "20:38"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Maryland land records",
+        "FamilySearch",
+        "USGS Geographic Names",
+        "GeoNames",
+        "Maryland Historical Society"
+      ],
+      "enriched_context": "Mattingly's Hope: 300-acre land patent in Charles County, Maryland, issued September 4, 1666 to Thomas Mattingly II and Cezar Mattingly (sons of immigrant Thomas I, who had died). It was a LAND PATENT, not a village (Shari called it 'a little village type thing'). Charles County is in southern Maryland on the Potomac, the original Catholic settlement region.",
+      "sources": [
+        "https://msa.maryland.gov/"
+      ]
+    },
+    {
+      "id": "pl019",
+      "name": "Maryland",
+      "type": "state",
+      "modern_name": "Maryland, US",
+      "country": "US",
+      "context": "Where Thomas Mattingly and family settled in 1660 with Lord Baltimore; also the starting point for the Daniel Boone migration to Kentucky in the 1780s.",
+      "transcript_timestamps": [
+        "18:51",
+        "24:39"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Maryland state archives",
+        "Wikidata"
+      ]
+    },
+    {
+      "id": "pl020",
+      "name": "Kentucky",
+      "type": "state",
+      "modern_name": "Kentucky, US",
+      "country": "US",
+      "context": "Mattingly relatives followed Daniel Boone to Kentucky in the 1780s; Mattingly name is prominent there; Mattingly and Moore whiskey is a Kentucky brand.",
+      "transcript_timestamps": [
+        "23:20",
+        "24:17"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Wikidata",
+        "Kentucky historical records",
+        "FamilySearch"
+      ]
+    },
+    {
+      "id": "pl021",
+      "name": "Boonesborough",
+      "type": "town",
+      "modern_name": "Boonesborough / Fort Boonesborough, Kentucky",
+      "country": "US",
+      "context": "Mattingly relatives were among about 20 families who went with Daniel Boone from Maryland to found Boonesborough in the 1780s; some Mattinglys still live there.",
+      "transcript_timestamps": [
+        "23:20",
+        "24:39"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Wikidata",
+        "Wikipedia",
+        "Kentucky historical records",
+        "GeoNames"
+      ]
+    },
+    {
+      "id": "pl022",
+      "name": "Galveston",
+      "type": "town",
+      "modern_name": "Galveston, TX",
+      "country": "US",
+      "context": "Shari's great-aunt's family came through Galveston in 1880 and settled in central Texas.",
+      "transcript_timestamps": [
+        "15:00"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "GeoNames",
+        "Wikidata",
+        "Galveston immigration records",
+        "Ancestry"
+      ]
+    },
+    {
+      "id": "pl023",
+      "name": "Louisiana",
+      "type": "state",
+      "modern_name": "Louisiana, US",
+      "country": "US",
+      "context": "Aunt Monette's family was living in Louisiana at the time she (at 16) snuck out to see Mark Twain in the 1880s.",
+      "transcript_timestamps": [
+        "1:27"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Wikidata"
+      ]
+    },
+    {
+      "id": "pl024",
+      "name": "Houston",
+      "type": "town",
+      "modern_name": "Houston, TX",
+      "country": "US",
+      "context": "Shari visited the LDS Genealogical Center in Houston to research the Mattingly family history.",
+      "transcript_timestamps": [
+        "26:00"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "GeoNames",
+        "FamilySearch"
+      ]
+    },
+    {
+      "id": "pl025",
+      "name": "Iberian Peninsula",
+      "type": "region",
+      "modern_name": "Iberian Peninsula",
+      "country": "Spain/Portugal",
+      "context": "Shari suspects the family's origin is Basque/Iberian based on the high incidence of O negative blood, hypothesizing a migration from the Iberian Peninsula to the UK thousands of years ago.",
+      "transcript_timestamps": [
+        "13:50",
+        "30:04"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Wikidata",
+        "Wikipedia",
+        "academic genetic literature"
+      ]
+    },
+    {
+      "id": "pl026",
+      "name": "Santa Monica, CA",
+      "type": "town",
+      "modern_name": "Santa Monica, CA",
+      "country": "US",
+      "context": "Shari's current residence; she has lived in her senior building there for 14 years and can see all of Santa Monica from the 13th floor.",
+      "transcript_timestamps": [
+        "42:45"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "GeoNames"
+      ]
+    },
+    {
+      "id": "pl027",
+      "name": "Spindletop",
+      "type": "region",
+      "modern_name": "Spindletop oil field, Beaumont, TX",
+      "country": "US",
+      "context": "Shari references Spindletop spudding in January 1901 as the event that preceded her great-grandmother's land purchase in Reeves County in April 1901.",
+      "transcript_timestamps": [
+        "5:00"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Wikipedia",
+        "Wikidata",
+        "Texas historical records"
+      ],
+      "enriched_context": "Spindletop, Beaumont TX. The famous 'Lucas Gusher' on January 10, 1901 produced 100,000 barrels per day, launching the Texas oil age. Pearl Baity bought her Reeves County land roughly 3 months later."
+    },
+    {
+      "id": "pl028",
+      "name": "England",
+      "type": "country",
+      "modern_name": "England, UK",
+      "country": "England",
+      "context": "The Mattingly family originated in England; the name dates to the 8th century; family records traced to 1525 in England; Thomas Mattingly came from England to Maryland in 1660.",
+      "transcript_timestamps": [
+        "13:50",
+        "18:51",
+        "26:00"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Wikidata",
+        "GeoNames"
+      ]
+    },
+    {
+      "id": "pl029",
+      "name": "Pyrenees",
+      "type": "region",
+      "modern_name": "Pyrenees Mountains",
+      "country": "France/Spain",
+      "context": "Shari mentions the Pyrenees as part of her suspected Basque or Iberian origin hypothesis.",
+      "transcript_timestamps": [
+        "13:50"
+      ],
+      "fuzzy": false,
+      "research_targets": [
+        "Wikidata"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "e001",
+      "description": "Pearl Baity's father traveled by buckboard to General Sherman's camp to beg him not to burn their North Carolina farm, and succeeded.",
+      "date_or_year": "circa 1864-1865",
+      "place": "North Carolina",
+      "people_involved": [
+        "p007",
+        "p008"
+      ],
+      "context": "Shari heard this story from Pearl Baity who heard it from her mother; the farm was spared but the surrounding area was devastated, prompting the move to Texas.",
+      "transcript_timestamps": [
+        "1:27"
+      ]
+    },
+    {
+      "id": "e002",
+      "description": "Pearl Baity's family moved from North Carolina to North Texas.",
+      "date_or_year": "1870s",
+      "place": "North Carolina to North Texas",
+      "people_involved": [
+        "p006",
+        "p007",
+        "p008"
+      ],
+      "context": "The family moved west after the Civil War left the South devastated; they settled in North Texas.",
+      "transcript_timestamps": [
+        "1:27"
+      ]
+    },
+    {
+      "id": "e003",
+      "description": "Aunt Monette (age 16) snuck out of the family home to see Mark Twain on his speaking tour.",
+      "date_or_year": "circa 1887",
+      "place": "Louisiana (per Shari) — though Minette was born/raised in La Grange, Texas. Family may have been visiting.",
+      "people_involved": [
+        "p004"
+      ],
+      "context": "Shari describes this as remarkably avant-garde for a 16-year-old girl in the 1890s, since Mark Twain was considered not fit company due to his atheism.",
+      "transcript_timestamps": [
+        "1:27"
+      ],
+      "enriched_context": "Mark Twain conducted the 'Twins of Genius' reading tour with George Washington Cable in 1884–85, which did include Southern cities like New Orleans. If Minette was 16 when she snuck out, that would be 1887 — two years after the documented tour. Either Shari's age estimate is approximate (Minette was likely 13–14 in 1884–85), OR Twain made a later Southern appearance not in the standard timeline. Verification target: Mark Twain Project (marktwainproject.org)."
+    },
+    {
+      "id": "e004",
+      "description": "Great-grandmother attended the World's Fair and purchased a duplicate of the Kaiser's living room set for $5,000.",
+      "date_or_year": "1904 (NOT 1903 — Shari's recollection was off; the Louisiana Purchase Exposition ran April 30 – December 1, 1904)",
+      "place": "St. Louis, MO (World's Fair)",
+      "people_involved": [
+        "p009"
+      ],
+      "context": "Shari says the furniture set was kept in the family home until 1971 and individual pieces went to family members after her great-grandmother's death.",
+      "transcript_timestamps": [
+        "9:45"
+      ],
+      "enriched_context": "The St. Louis World's Fair (Louisiana Purchase Exposition) was originally planned for 1903 (the centennial) but delayed to 1904 for full international participation. The 1944 film 'Meet Me in St. Louis' is set during 1903–04 anticipating the fair, which is why Shari said '1903.' Pearl Baity attended in 1904. $5,000 then ≈ $180,000 in 2025 dollars.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Louisiana_Purchase_Exposition"
+      ]
+    },
+    {
+      "id": "e005",
+      "description": "Great-grandmother bought land in Reeves County, Texas, shortly after Spindletop spudded.",
+      "date_or_year": "April 1901",
+      "place": "Reeves County, TX",
+      "people_involved": [
+        "p009"
+      ],
+      "context": "This land purchase, possibly inspired by Spindletop, underpins all of the family's current oil well royalties from the Wolfcamp Shale.",
+      "transcript_timestamps": [
+        "5:00"
+      ]
+    },
+    {
+      "id": "e006",
+      "description": "Spindletop oil field came in (spudded).",
+      "date_or_year": "January 1901",
+      "place": "Beaumont, TX (Spindletop)",
+      "people_involved": [],
+      "context": "Shari mentions Spindletop as the context preceding her great-grandmother's land purchase in Reeves County in April 1901.",
+      "transcript_timestamps": [
+        "5:00"
+      ]
+    },
+    {
+      "id": "e007",
+      "description": "Great-grandmother built the family home at 211 Castile, San Antonio.",
+      "date_or_year": "1905",
+      "place": "211 Castile, San Antonio, TX",
+      "people_involved": [
+        "p009",
+        "p010"
+      ],
+      "context": "The house was built in 1905 without electricity; converted to electricity around 1915; Shari lived there as a child; the house still exists.",
+      "transcript_timestamps": [
+        "4:29"
+      ]
+    },
+    {
+      "id": "e008",
+      "description": "Family lost all their money in the stock market crash.",
+      "date_or_year": "1929",
+      "place": null,
+      "people_involved": [
+        "p014"
+      ],
+      "context": "Shari's grandmother was raised very wealthy but never got over losing everything in '29, which made her bitter.",
+      "transcript_timestamps": [
+        "1:27"
+      ]
+    },
+    {
+      "id": "e009",
+      "description": "Claude Mattingly found dead in a hotel room with a University of Texas professor's wife, possibly of overdose.",
+      "date_or_year": "January 31, 1934",
+      "place": "Texan Hotel, Austin, Texas (NOT San Antonio)",
+      "people_involved": [
+        "p011",
+        "p012"
+      ],
+      "context": "Shari describes this as the family scandal; her grandmother refused to discuss Claude, saying 'we don't talk about him.'",
+      "transcript_timestamps": [
+        "24:54"
+      ],
+      "enriched_context": "Confirmed via AP/INS wire coverage Feb 1-6, 1934. Suicide pact with Mrs. Rhea B. Perrin (wife of UT psychology professor). Method: narcotic injection. Claude was 35, a pediatrician."
+    },
+    {
+      "id": "e010",
+      "description": "Thomas Mattingly came to America with Lord Baltimore and settled in Maryland.",
+      "date_or_year": "1660",
+      "place": "Maryland",
+      "people_involved": [
+        "p028",
+        "p032"
+      ],
+      "context": "The Mattinglys were Catholic and fled Protestant persecution during the Cromwell era; they received a land grant called Mattingly's Hope.",
+      "transcript_timestamps": [
+        "18:51"
+      ]
+    },
+    {
+      "id": "e011",
+      "description": "Mattingly family members followed Daniel Boone from Maryland to Kentucky and helped found Boonesborough.",
+      "date_or_year": "1780s",
+      "place": "Maryland to Kentucky",
+      "people_involved": [
+        "p033"
+      ],
+      "context": "Shari says they were one of about 20 families who made this journey; Mattingly descendants still live in Boonesborough today.",
+      "transcript_timestamps": [
+        "23:20",
+        "24:39"
+      ]
+    },
+    {
+      "id": "e012",
+      "description": "Ancestor fought in the Revolutionary War.",
+      "date_or_year": "circa 1775-1783",
+      "place": null,
+      "people_involved": [
+        "p031"
+      ],
+      "context": "Shari says this ancestor was probably a private; his service qualifies female descendants to be DAR members.",
+      "transcript_timestamps": [
+        "22:56"
+      ]
+    },
+    {
+      "id": "e013",
+      "description": "Great-great-great-grandfather (grandfather's grandfather) died at age 107.",
+      "date_or_year": "1935",
+      "place": null,
+      "people_involved": [
+        "p030"
+      ],
+      "context": "Shari says he was born around 1818-1820 and died in 1935 at 107; her grandfather knew him well.",
+      "transcript_timestamps": [
+        "20:42"
+      ]
+    },
+    {
+      "id": "e014",
+      "description": "Great-aunt's family immigrated through Galveston and settled in central Texas.",
+      "date_or_year": "1880",
+      "place": "Galveston, TX then central Texas",
+      "people_involved": [],
+      "context": "Shari mentions this in the context of family connections to Herbert E. Butt and other prominent Texas families.",
+      "transcript_timestamps": [
+        "15:00"
+      ]
+    },
+    {
+      "id": "e015",
+      "description": "Shari visited the LDS Genealogical Center in Houston and traced the Mattingly family back to 1525 in England.",
+      "date_or_year": null,
+      "place": "Houston, TX",
+      "people_involved": [
+        "p000"
+      ],
+      "context": "Shari researched the family at an LDS Family History Center; records went back through Thomas Mattingly to his great-grandfather in 1525.",
+      "transcript_timestamps": [
+        "26:00"
+      ]
+    },
+    {
+      "id": "e016",
+      "description": "Norman Invasion and Domesday Book taxation in which the Mattingly name appears.",
+      "date_or_year": "1066",
+      "place": "England",
+      "people_involved": [],
+      "context": "Shari says the Mattingly name appears in the Domesday Book, showing the family was already established in England before or at the time of the Norman invasion.",
+      "transcript_timestamps": [
+        "18:09"
+      ]
+    },
+    {
+      "id": "e017",
+      "description": "Shari and family began receiving royalty income from the Reeves County oil wells.",
+      "date_or_year": "2010",
+      "place": "Reeves County, TX",
+      "people_involved": [
+        "p000",
+        "p022",
+        "p023",
+        "p024"
+      ],
+      "context": "The royalty income started in 2010 based on the land and mineral rights originally purchased by the great-grandmother in 1901.",
+      "transcript_timestamps": [
+        "5:00"
+      ]
+    },
+    {
+      "id": "e018",
+      "description": "Shari recognized Hugo Pohl's paintings on the wall of the Texas A&M Student Union Building.",
+      "date_or_year": null,
+      "place": "Texas A&M University",
+      "people_involved": [
+        "p000",
+        "p005",
+        "p020"
+      ],
+      "context": "Walking through with David, Shari recognized the paintings and identified them as by her great-great-uncle Hugo Pohl.",
+      "transcript_timestamps": [
+        "0:00"
+      ]
+    },
+    {
+      "id": "e019",
+      "description": "Mata, chieftain of the Beringa[?] tribe, created the name 'Mata's lee' (Mattingly) in the 8th century.",
+      "date_or_year": "8th century",
+      "place": "England",
+      "people_involved": [
+        "p029"
+      ],
+      "context": "Shari explains the etymology of the Mattingly surname as derived from chieftain Mata's name combined with 'lee' meaning land.",
+      "transcript_timestamps": [
+        "17:58"
+      ]
+    },
+    {
+      "id": "e020",
+      "description": "Great-grandmother's mother died in childbirth giving birth to Aunt Mamie.",
+      "date_or_year": "1900 or 1902",
+      "place": null,
+      "people_involved": [
+        "p009",
+        "p013"
+      ],
+      "context": "There is an oil painting dated around 1900-1904 of the grandfather's mother; Shari identified it as the woman who died in childbirth.",
+      "transcript_timestamps": [
+        "20:42"
+      ]
+    }
+  ],
+  "ships_and_voyages": [
+    {
+      "id": "s001",
+      "ship_name_or_voyage": "Unknown vessel with Lord Baltimore",
+      "year": 1660,
+      "from_port": "England",
+      "to_port": "Maryland",
+      "passengers": [
+        "p028"
+      ],
+      "context": "Thomas Mattingly and family came to America with Lord Baltimore in 1660 as Catholics fleeing Protestant persecution during the Cromwell era.",
+      "transcript_timestamps": [
+        "18:51"
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "id": "o001",
+      "name": "Stauffer Chemicals",
+      "type": "company",
+      "context": "Uncle Zay was head of Stauffer Chemicals; he had a PhD in chemistry and physics from MIT.",
+      "people_connected": [
+        "p017"
+      ],
+      "transcript_timestamps": [
+        "12:32"
+      ]
+    },
+    {
+      "id": "o002",
+      "name": "Frost Bank",
+      "type": "bank",
+      "context": "Shari's mother's brother was president of Frost Bank in San Antonio and a lawyer.",
+      "people_connected": [
+        "p018"
+      ],
+      "transcript_timestamps": [
+        "12:32"
+      ]
+    },
+    {
+      "id": "o003",
+      "name": "H-E-B",
+      "type": "company",
+      "context": "H-E-B grocery stores were founded by Herbert E. Butt, who was Pearl Baity's dear childhood friend.",
+      "people_connected": [
+        "p025"
+      ],
+      "transcript_timestamps": [
+        "15:00"
+      ]
+    },
+    {
+      "id": "o004",
+      "name": "Judson's candy",
+      "type": "brand",
+      "context": "Chocolate mint candy sold in movie theaters; connected to Mrs. Judson whom Shari's grandmother knew well.",
+      "people_connected": [
+        "p026"
+      ],
+      "transcript_timestamps": [
+        "16:27"
+      ]
+    },
+    {
+      "id": "o005",
+      "name": "Church of Latter-day Saints (LDS) Genealogical Center, Houston",
+      "type": "church",
+      "context": "Shari visited the LDS genealogical center in Houston and was able to trace the Mattingly family back to 1525 in England.",
+      "people_connected": [
+        "p000"
+      ],
+      "transcript_timestamps": [
+        "26:00"
+      ]
+    },
+    {
+      "id": "o006",
+      "name": "Daughters of the American Revolution (DAR)",
+      "type": "organization",
+      "context": "Shari says any woman descended from the Mattingly Revolutionary War ancestor can join the DAR.",
+      "people_connected": [
+        "p031"
+      ],
+      "transcript_timestamps": [
+        "22:56"
+      ]
+    },
+    {
+      "id": "o007",
+      "name": "Mattingly and Moore",
+      "type": "brand",
+      "context": "A famous Kentucky whiskey brand that Shari says is connected to the Mattingly family.",
+      "people_connected": [],
+      "transcript_timestamps": [
+        "24:17"
+      ]
+    },
+    {
+      "id": "o008",
+      "name": "University of Texas",
+      "type": "university",
+      "context": "Grandfather Leroy attended UT in engineering; a UT professor's wife was involved in the Claude Mattingly hotel scandal.",
+      "people_connected": [
+        "p002",
+        "p011",
+        "p012"
+      ],
+      "transcript_timestamps": [
+        "11:50",
+        "24:54"
+      ]
+    },
+    {
+      "id": "o009",
+      "name": "Texas A&M University",
+      "type": "university",
+      "context": "Hugo Pohl's large paintings are in the Student Union Building at Texas A&M.",
+      "people_connected": [
+        "p005"
+      ],
+      "transcript_timestamps": [
+        "0:00"
+      ]
+    },
+    {
+      "id": "o010",
+      "name": "North Texas State University",
+      "type": "university",
+      "context": "Shari's grandmother attended North Texas State, described as the only Texas university at the time that accepted women.",
+      "people_connected": [
+        "p014"
+      ],
+      "transcript_timestamps": [
+        "11:50"
+      ]
+    },
+    {
+      "id": "o011",
+      "name": "MIT (Massachusetts Institute of Technology)",
+      "type": "university",
+      "context": "Uncle Zay earned his PhD in chemistry and physics from MIT.",
+      "people_connected": [
+        "p017"
+      ],
+      "transcript_timestamps": [
+        "12:32"
+      ]
+    },
+    {
+      "id": "o012",
+      "name": "Stanford University",
+      "type": "university",
+      "context": "Uncle Billy graduated from Stanford.",
+      "people_connected": [
+        "p019"
+      ],
+      "transcript_timestamps": [
+        "12:32"
+      ]
+    }
+  ],
+  "historical_references": [
+    {
+      "id": "hr001",
+      "subject": "Mark Twain",
+      "type": "person",
+      "shari_claim": "Aunt Monette (age 16) snuck out of her family home in Louisiana to see Mark Twain on his lecture tour in the 1880s; Twain was considered not fit company for young people because he was an atheist.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "1:27"
+      ]
+    },
+    {
+      "id": "hr002",
+      "subject": "General Sherman's March",
+      "type": "event",
+      "shari_claim": "Sherman passed through North Carolina burning farms; Pearl Baity's grandfather successfully begged Sherman not to burn their farm, but the devastation around them caused the family to move to Texas after the war.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "1:27"
+      ]
+    },
+    {
+      "id": "hr003",
+      "subject": "Spindletop oil discovery",
+      "type": "event",
+      "shari_claim": "Spindletop spudded in January 1901, shortly after which Shari's great-grandmother bought land in Reeves County, TX, in April 1901.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "5:00"
+      ]
+    },
+    {
+      "id": "hr004",
+      "subject": "1903 World's Fair (St. Louis)",
+      "type": "event",
+      "shari_claim": "Great-grandmother attended the 1903 World's Fair (the one on which 'Meet Me in St. Louis' is based) and purchased a duplicate of the Kaiser's living room set for $5,000 from the German pavilion.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "9:45"
+      ]
+    },
+    {
+      "id": "hr005",
+      "subject": "Domesday Book",
+      "type": "concept",
+      "shari_claim": "The Mattingly name appears in the Domesday Book, showing the family was present in England before or at the Norman Conquest of October 1066.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "18:09"
+      ]
+    },
+    {
+      "id": "hr006",
+      "subject": "Lord Baltimore / Maryland Catholic settlement",
+      "type": "event",
+      "shari_claim": "The Mattingly family came to America in 1660 with Lord Baltimore, settled in Maryland as Catholics fleeing Cromwellian Protestant persecution, and received a land grant called Mattingly's Hope.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "18:51"
+      ]
+    },
+    {
+      "id": "hr007",
+      "subject": "Oliver Cromwell / English Civil War",
+      "type": "person",
+      "shari_claim": "Cromwell's persecution of Catholics caused the Mattingly family to seek permission from the king (possibly James) to emigrate to America in 1660.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "18:51"
+      ]
+    },
+    {
+      "id": "hr008",
+      "subject": "Daniel Boone and Boonesborough",
+      "type": "event",
+      "shari_claim": "Mattingly relatives were among about 20 families who followed Daniel Boone from Maryland to Kentucky in the 1780s to found Boonesborough; Mattingly descendants still live there today.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "23:20",
+        "24:39"
+      ],
+      "correction": "Two corrections to the family story: (1) Boonesborough was founded in 1775, not the 1780s. (2) The Maryland Catholic Mattinglys actually migrated to Nelson County / Bardstown KY in 1785 — a SEPARATE stream from Boone's settlement. The Mattingly & Moore Distillery (Bardstown, 1877) and the earlier J. Mattingly 1845 distillery confirm the Kentucky distilling lineage is real."
+    },
+    {
+      "id": "hr009",
+      "subject": "R1b Haplogroup",
+      "type": "concept",
+      "shari_claim": "The Mattingly family is R1b Haplogroup, the most common European haplogroup, originating about 15,000 years ago as Indo-European; Shari suspects Basque or Pyrenees-Iberian origin based on high incidence of O negative blood.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "13:50"
+      ]
+    },
+    {
+      "id": "hr010",
+      "subject": "Basque people and O negative blood type",
+      "type": "concept",
+      "shari_claim": "The Basque people have the highest incidence of O negative blood in the world; the second highest is in Ireland and the UK (Celts); Shari hypothesizes a migration from the Iberian Peninsula to the UK about 3,000 years ago accounts for the family's O negative blood.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "13:50",
+        "29:08"
+      ],
+      "correction": "Basques have ~47% Rh-negative overall (world's highest, confirmed) but only ~24-25% O-negative specifically (not ~30% as Shari said). Underlying claim about uniquely high Basque Rh-negativity is correct."
+    },
+    {
+      "id": "hr011",
+      "subject": "Basque language (Euskara)",
+      "type": "concept",
+      "shari_claim": "Euskara is a language isolate with no known root; the word for weapon in Euskara is 'stone,' indicating extreme antiquity.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "30:29"
+      ]
+    },
+    {
+      "id": "hr012",
+      "subject": "Basingas (Wessex tribe, NOT 'Beringa')",
+      "type": "concept",
+      "shari_claim": "Shari says the Mattingly surname was created in the 8th century by a chieftain named Mata of the Beringa[?] tribe; she could not find information on the origin of this tribe.",
+      "verifiable": false,
+      "transcript_timestamps": [
+        "13:50",
+        "17:58"
+      ],
+      "correction": "The tribe Shari called 'Beringa' was actually the BASINGAS — a documented Wessex Anglo-Saxon tribe led by Basa, whose name survives in Old Basing and Basingstoke (22 km from Mattingley). Matta was a member or chief of a Basingas clan. 'Beringa' is a phonetic corruption of 'Basingas' passed down through generations of oral family tradition.",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Basingstoke"
+    },
+    {
+      "id": "hr013",
+      "subject": "Meet Me in St. Louis (film)",
+      "type": "concept",
+      "shari_claim": "Shari says the movie 'Meet Me in St. Louis' was based on the 1903 World's Fair (she refers to it as the 1903 World's Fair, but the film and fair are actually 1904).",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "9:45"
+      ]
+    },
+    {
+      "id": "hr014",
+      "subject": "Mitochondrial Eve / Haplogroup L",
+      "type": "concept",
+      "shari_claim": "Shari says the L haplogroup is the oldest lineage in the human species, going back to mitochondrial Eve 240,000 years ago; the L lineage split to M and N and spread globally.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "32:00"
+      ],
+      "correction": "Mitochondrial Eve is ~155,000 years old (range 130,000–200,000 BP), NOT 240,000 as Shari recalled. Source: Wikipedia, current consensus."
+    },
+    {
+      "id": "hr015",
+      "subject": "Out of Africa and interbreeding with archaic humans",
+      "type": "concept",
+      "shari_claim": "Shari says modern humans left Africa 60,000-80,000 years ago and interbred with Homo erectus, Neanderthals, Denisovans, and unknown 'ghost' populations; this DNA contributes to disease resistance and longevity but also susceptibility to schizophrenia, autism, dementia, and Alzheimer's.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "34:00"
+      ]
+    },
+    {
+      "id": "hr016",
+      "subject": "Lucy (Australopithecus)",
+      "type": "person",
+      "shari_claim": "Shari references Lucy as resembling a chimpanzee with only a slightly larger brain, contrasting with the subsequent dramatic brain expansion in the human lineage.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "37:00"
+      ]
+    },
+    {
+      "id": "hr017",
+      "subject": "Wolfcamp Shale",
+      "type": "concept",
+      "shari_claim": "Shari describes the Wolfcamp Shale in West Texas as the largest oil field ever found; the family's eight royalty wells are in this formation in Reeves County.",
+      "verifiable": true,
+      "transcript_timestamps": [
+        "5:00"
+      ]
+    },
+    {
+      "id": "hr018",
+      "subject": "Ignatius G. Mattingly (1927–2004)",
+      "type": "person",
+      "shari_claim": "Possibly the 'Ignatius' Shari mentioned at 0:00. American linguist, Yale/Harvard, NSA analyst, professor at UConn, researcher at Haskins Laboratories. The Maryland Catholic Mattingly family commonly used the name Ignatius (after St Ignatius of Loyola).",
+      "verifiable": true,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ignatius_Mattingly",
+      "transcript_timestamps": [
+        "0:00"
+      ]
+    }
+  ],
+  "open_questions": [
+    "IGNATIUS [0:00]: Most likely a Mattingly ancestor named Ignatius (Catholic naming tradition — Maryland Catholic Mattinglys routinely used Ignatian names). A real Ignatius G. Mattingly (1927–2004), Yale/Harvard linguist, exists. Recommend asking Shari directly: 'Who was Ignatius in your family?'",
+    "BERINGA TRIBE [13:50, 17:58]: Shari repeatedly names a 'Beringa tribe' as the 8th-century Anglo-Saxon tribe from which chieftain Mata coined the Mattingly name. This may be a mishearing or mistranscription of a known Anglo-Saxon tribal name (e.g., 'Bearinga' is the documented Anglo-Saxon folk name associated with Mattingley, Hampshire). Research needed.",
+    "211 CASTILE / CASTILLE SPELLING [4:35, 4:44]: Hunter appears to spell out the street name as C-A-S-T-I-L-L-E but the transcript is garbled ('T I L L E'). The exact spelling of the San Antonio street needs verification against city records.",
+    "GRANDMOTHER'S BIRTH YEAR CONTRADICTION [21:30]: Shari says 'My grandmother was born in nineteen o two. 1900. 1900.' — she appears to correct herself twice, leaving her grandmother's birth year as either 1900 or 1902. Needs resolution.",
+    "KING 'JAMES' IN 1660 [18:51]: Shari says the king who gave the Mattinglys permission to emigrate was 'might have been James'; in 1660 the king was Charles II (Restoration), not James. James II reigned 1685-88. Possible misremembering.",
+    "AUNT MONETTE'S RELATIONSHIP [0:00]: Shari calls Monette 'my aunt Monette, my grandfather's mother' — these two descriptions are contradictory (an aunt vs. a mother). It is unclear whether Monette was Shari's grandfather's mother (great-grandmother) or his aunt (great-great-aunt).",
+    "GIGI IDENTITY CONFUSION [1:27, 8:31, 20:42]: Shari uses 'Gigi' and 'great grandmother' interchangeably in several passages; at 20:42 she says 'my grandfather's mother' died at childbirth giving birth to Aunt Mamie, yet elsewhere Gigi (great-grandmother) lived until 1971. These may be two different women; clarification needed.",
+    "UNCLE ZAY NAME SPELLING [12:32]: 'Uncle Zay' is likely a nickname or phonetic rendering; the actual given name or surname is unknown. Possible variants: Zay, Zy, Eze, or an abbreviated name.",
+    "FROST BANK PRESIDENT'S NAME [12:32]: Shari's mother's brother was president of Frost Bank but is not named in the transcript. Research via Frost Bank historical records or San Antonio Bar Association should identify him.",
+    "GREAT-GRANDMOTHER'S BIRTH YEAR [8:31]: Shari says 'born in the eighteen seventies' for her great-grandmother who died in 1971; she was then approximately 93-101 years old, which is plausible but the specific birth year is unknown.",
+    "GRANDFATHER'S GRANDFATHER BIRTH YEAR [20:42]: Shari says 'born in '18 or '20, died in 1935' at age 107 — if he died in 1935 at 107, he was born circa 1828, not 1818 or 1820. The birth year estimate needs arithmetic checking.",
+    "MATTINGLY ROW / VILLAGE LOCATION [17:35]: Shari says there is 'a little village called Mattingly right outside of Cambridge' and 'the street that goes into Cambridge is called Mattingly Row.' The known Mattingley village is in Hampshire, not near Cambridge. This geographic detail may be incorrect or garbled.",
+    "GREAT-AUNT'S FAMILY AND TEXAS GOVERNOR [15:00]: Shari mentions a great-aunt's family member who 'had a farm with the family who became the governor of Texas' — the governor's name is not given; research needed to identify which Texas governor this refers to.",
+    "DAVID'S IDENTITY [0:00]: David accompanied Shari at Texas A&M but his relationship to Shari is not specified; he could be a son, husband, partner, or friend.",
+    "COCONUT OIL CLAIM [46:05]: Shari claims taking one teaspoon of coconut oil daily eliminates brain plaque; this is a folk remedy not supported by current medical evidence — flagged as an unverifiable health claim.",
+    "STEPHANIE MENTION [20:42]: Shari starts to say 'He was born in Stephanie' and then corrects herself ('not Stephanie, Charmaine got this picture'); it is unclear who or what 'Stephanie' refers to — possibly a person, a town, or a slip of the tongue."
+  ],
+  "audience_policy": {
+    "primary_audience": "family",
+    "redaction_rule": "Living relatives' names redacted in the public/shareable HTML version. Full names shown in the family-only version.",
+    "redaction_set": [
+      "p001",
+      "p022",
+      "p023",
+      "p024"
+    ],
+    "show_living_with_role": [
+      "p020",
+      "p021"
+    ],
+    "notes_from_hunter": [
+      "David is Shari's first husband and Hunter's paternal grandfather, age ~80, living.",
+      "Charmaine is Shari's daughter and Hunter's aunt, living.",
+      "Stephanie is uncertain — possibly Shari's sister or niece, living.",
+      "Hunter's siblings and three cousins to be redacted (no names known/given).",
+      "Aunt Monette is Shari's great-great-aunt per transcript ('my great great aunt')."
+    ]
+  },
+  "research_applied": {
+    "p004": "CONFIRMED via Wikipedia",
+    "p005": "CONFIRMED via Wikipedia",
+    "p003": "CONFIRMED — Hans Teichmueller, German judge of Fayette County 1884-1901",
+    "p034": "PROBABLE — Sul Ross",
+    "p018": "PROBABLE — Frost family by blood",
+    "hr018": "Added Ignatius G. Mattingly as possible referent",
+    "pl004": "CONFIRMED — 211 Castillo Avenue",
+    "p028": "CONFIRMED — Thomas Mattingly I, b.~1623, came 1663-64, d.~1665",
+    "p038": "Added Cezar Mattingly (son of Thomas I)",
+    "p039": "Added Thomas Mattingly II (son of Thomas I)",
+    "p040": "Added May Teichmueller Mattingly (Leroy's mother)",
+    "p041": "Added Ed Mattingly (Leroy's father, in La Grange)",
+    "p011": "CONFIRMED — Dr. Claude Mattingly, suicide pact at Texan Hotel Austin Jan 31 1934"
+  }
+}

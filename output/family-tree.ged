@@ -1,0 +1,320 @@
+0 HEAD
+1 SOUR HunterSpence-FamilyHistoryProject
+2 VERS 1.0
+2 NAME Grandma Shari Family History
+1 GEDC
+2 VERS 5.5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 DATE 25 APR 2026
+1 SUBM @SUBM1@
+
+0 @SUBM1@ SUBM
+1 NAME Hunter Spence
+
+0 @I0000@ INDI
+1 NAME Shari /Mattingly/
+2 GIVN Shari
+2 SURN Mattingly
+1 BIRT
+2 DATE ABT 1947
+1 OCCU Council president (senior living building); royalty owner of eight oil wells in Reeves County, TX
+1 NOTE Shari is the interview subject, age 79, living in Santa Monica, CA; she is a royalty owner of eight oil wells in Reeves County, TX, president of the activities council in her building, and the primary
+1 RESN locked
+
+0 @I0001@ INDI
+1 NAME Hunter
+2 GIVN Hunter
+1 SEX M
+1 NOTE The interviewer (grandson). Surname Spence. Redacted in shareable version.
+1 RESN locked
+
+0 @I0002@ INDI
+1 NAME Leroy /Mattingly/
+2 GIVN Leroy
+2 SURN Mattingly
+1 SEX M
+1 BIRT
+2 DATE ABT 1898
+1 NOTE Shari's grandfather, son of a Texas judge, born in 1898; his mother died in childbirth giving birth to Aunt Mamie around 1900-1902.
+
+0 @I0003@ INDI
+1 NAME Hans /Teichmuller/
+2 GIVN Hans
+2 SURN Teichmuller
+1 SEX M
+1 OCCU Judge in Texas
+1 NOTE Shari says searching 'Hans Teichmuller' on the internet produces a photo of her grandfather's family in front of their house; described as a judge in Texas.
+
+0 @I0004@ INDI
+1 NAME Monette /Pohl/
+2 GIVN Monette
+2 SURN Pohl
+1 SEX M
+1 BIRT
+2 DATE ABT 1871
+2 PLAC Louisiana (family home at time)
+1 DEAT
+2 DATE ABT 1970
+2 PLAC San Antonio, TX
+1 NOTE Shari knew Aunt Monette well; she lived to 99, was born 1871 and died 1970, lived in San Antonio, and told Shari the story of sneaking out at 16 to see Mark Twain.
+
+0 @I0005@ INDI
+1 NAME Hugo /Pohl/
+2 GIVN Hugo
+2 SURN Pohl
+1 SEX M
+1 OCCU Painter / artist
+1 NOTE Hugo Pohl was Aunt Monette's husband and a famous painter in the San Antonio area; he painted the large paintings on the wall of the Texas A&M Student Union Building.
+
+0 @I0006@ INDI
+1 NAME Pearl /Baity/
+2 GIVN Pearl
+2 SURN Baity
+1 SEX M
+1 DEAT
+2 DATE ABT 1971
+1 NOTE Shari's great-grandmother, born in North Carolina, came to Texas (North Texas) in the 1870s as a child after the Civil War devastated the South; she died in 1971, and Shari knew her well.
+
+0 @I0007@ INDI
+1 NAME (unnamed) /Baity/
+2 GIVN (unnamed)
+2 SURN Baity
+1 SEX M
+1 OCCU Farmer
+1 NOTE Pearl Baity's father who traveled by buckboard to Sherman's camp during the Civil War to beg Sherman not to burn their farm, and succeeded; later moved family to Texas.
+
+0 @I0008@ INDI
+1 NAME (unnamed)
+2 GIVN (unnamed)
+1 SEX F
+1 NOTE Pearl Baity's mother, who told Pearl the story about going to Sherman's camp by buckboard; the family moved to Texas after the Civil War.
+
+0 @I0009@ INDI
+1 NAME (unnamed) /Mattingly/
+2 GIVN (unnamed)
+2 SURN Mattingly
+1 SEX F
+1 NOTE Shari's great-grandmother ('Gigi'), wife of the San Antonio builder; she was avant-garde and modern, bought land in Reeves County TX in April 1901, and died at childbirth giving birth to Aunt Mamie ar
+
+0 @I0010@ INDI
+1 NAME (unnamed) /Mattingly/
+2 GIVN (unnamed)
+2 SURN Mattingly
+1 SEX M
+1 DEAT
+2 DATE ABT 1945
+1 OCCU Builder / contractor
+1 NOTE Shari's great-grandfather ('Gigi's husband'), a very successful builder who built half of San Antonio; he died in 1945.
+
+0 @I0011@ INDI
+1 NAME Claude /Mattingly/
+2 GIVN Claude
+2 SURN Mattingly
+1 SEX M
+1 DEAT
+2 DATE ABT 1934
+2 PLAC hotel room, San Antonio area
+1 OCCU Physician
+1 NOTE Leroy Mattingly's brother Claude was a prominent physician in San Antonio; found dead in a hotel room with a University of Texas professor's wife, possibly of overdose, in 1934 or 1935; age two in the
+
+0 @I0012@ INDI
+1 NAME (unnamed)
+2 GIVN (unnamed)
+1 SEX F
+1 DEAT
+2 DATE ABT 1934
+2 PLAC hotel room
+1 NOTE A University of Texas professor's wife found dead in a hotel room with Claude Mattingly, possibly of overdose, in 1934 or 1935.
+
+0 @I0013@ INDI
+1 NAME Mamie /Mattingly/
+2 GIVN Mamie
+2 SURN Mattingly
+1 SEX F
+1 BIRT
+2 DATE ABT 1900
+1 NOTE Aunt Mamie was Leroy Mattingly's sister, born around 1900-1902; her mother (Gigi) died in childbirth giving birth to her.
+
+0 @I0014@ INDI
+1 NAME (unnamed) /Mattingly/
+2 GIVN (unnamed)
+2 SURN Mattingly
+1 SEX F
+1 BIRT
+2 DATE ABT 1902
+1 NOTE Shari's grandmother, born in 1902 (Shari says 'my grandmother was born in nineteen o two. 1900. 1900' — contradictory), raised wealthy but lost everything in 1929 and was bitter; went to North Texas S
+
+0 @I0015@ INDI
+1 NAME (unnamed) /Mattingly/
+2 GIVN (unnamed)
+2 SURN Mattingly
+1 SEX M
+1 BIRT
+2 DATE ABT 1922
+2 PLAC San Antonio, TX
+1 NOTE Shari's father, born 1922 in San Antonio when the city had about 35,000 people; had a master's degree.
+
+0 @I0016@ INDI
+1 NAME (unnamed)
+2 GIVN (unnamed)
+1 SEX F
+1 BIRT
+2 DATE ABT 1923
+1 NOTE Shari's mother, born 1923, had a degree in chemistry and physics, and was O negative blood type.
+
+0 @I0017@ INDI
+1 NAME Zay
+2 GIVN Zay
+1 SEX M
+1 OCCU Head of Stauffer Chemicals
+1 NOTE Uncle Zay had a PhD from MIT in chemistry and physics and was head of Stauffer Chemicals.
+
+0 @I0018@ INDI
+1 NAME (unnamed)
+2 GIVN (unnamed)
+1 SEX M
+1 OCCU President of Frost Bank, San Antonio; lawyer
+1 NOTE Shari's mother's brother was president of Frost Bank in San Antonio and a lawyer.
+
+0 @I0019@ INDI
+1 NAME Billy /Mattingly/
+2 GIVN Billy
+2 SURN Mattingly
+1 SEX M
+1 OCCU Geologist
+1 NOTE Uncle Billy was Shari's father's brother, a geologist who graduated from Stanford.
+
+0 @I0020@ INDI
+1 NAME David
+2 GIVN David
+1 SEX M
+1 NOTE Shari's first husband, Hunter's paternal grandfather. Walked with Shari at Texas A&M when she recognized Hugo Pohl's paintings. Currently ~80 years old, living, healthy (no dementia).
+1 RESN locked
+
+0 @I0021@ INDI
+1 NAME Charmaine
+2 GIVN Charmaine
+1 SEX F
+1 NOTE Shari's daughter, Hunter's aunt. Brought a family oil painting to Shari from Hunter's parents. O-negative blood type (per Shari).
+1 RESN locked
+
+0 @I0022@ INDI
+1 NAME Private /Mattingly/
+1 SEX M
+1 RESN locked
+
+0 @I0023@ INDI
+1 NAME Private /Mattingly/
+1 SEX F
+1 RESN locked
+
+0 @I0025@ INDI
+1 NAME Herbert /Butt/
+2 GIVN Herbert
+2 SURN Butt
+1 SEX F
+1 OCCU Founder of H-E-B grocery stores
+1 NOTE Shari says Herbert E. Butt was her great-grandmother's dear childhood friend, and her great-grandmother described him as 'a character.'
+
+0 @I0026@ INDI
+1 NAME (unnamed) /Judson/
+2 GIVN (unnamed)
+2 SURN Judson
+1 SEX F
+1 OCCU Candy maker / founder of Judson's candy
+1 NOTE Mrs. Judson was someone Shari's grandmother remembered being around all the time; described as a snob; connected to Judson's chocolate mint candy sold in movie theaters.
+
+0 @I0027@ INDI
+1 NAME (unnamed) /Mattingly/
+2 GIVN (unnamed)
+2 SURN Mattingly
+1 SEX M
+1 NOTE Shari traced the Mattingly family via LDS Genealogical Center back to 1525 in England; this is the earliest known Mattingly ancestor on record.
+
+0 @I0028@ INDI
+1 NAME Thomas /Mattingly/
+2 GIVN Thomas
+2 SURN Mattingly
+1 NOTE Thomas Mattingly came to America in 1660 with Lord Baltimore, settling in Maryland; he was Catholic and died a couple of years after arriving; given land called Mattingly's Hope in Maryland.
+
+0 @I0030@ INDI
+1 NAME (unnamed) /Mattingly/
+2 GIVN (unnamed)
+2 SURN Mattingly
+1 SEX M
+1 BIRT
+2 DATE ABT 1818
+1 DEAT
+2 DATE ABT 1935
+1 NOTE Shari's grandfather's grandfather, born around 1818-1820 and died in 1935 at age 107; Shari's grandfather knew him well.
+
+0 @I0031@ INDI
+1 NAME (unnamed) /Mattingly/
+2 GIVN (unnamed)
+2 SURN Mattingly
+1 OCCU Soldier (likely private, Revolutionary War)
+1 NOTE A Mattingly ancestor fought in the Revolutionary War, qualifying female descendants for DAR membership.
+
+0 @I0034@ INDI
+1 NAME (unnamed)
+2 GIVN (unnamed)
+1 OCCU Governor of Texas
+1 NOTE Shari mentions a great-aunt's family farm neighbor or associate who became governor of Texas; no name given.
+
+0 @I0035@ INDI
+1 NAME [redacted, unrelated (Shari's doctor)]
+1 OCCU Physician
+1 RESN locked
+
+0 @I0036@ INDI
+1 NAME (unnamed)
+2 GIVN (unnamed)
+1 SEX M
+1 NOTE Shari refers to 'your grandfather' who is 80 years old and does not have dementia.
+1 RESN locked
+
+0 @I0037@ INDI
+1 NAME [redacted, possibly sister or niece (per Hunter)]
+1 SEX F
+1 RESN locked
+
+0 @F001@ FAM
+1 HUSB @I0010@
+1 WIFE @I0006@
+1 CHIL @I0009@
+1 NOTE Pearl Baity married a successful San Antonio builder
+
+0 @F002@ FAM
+1 WIFE @I0009@
+1 CHIL @I0002@
+1 CHIL @I0011@
+1 CHIL @I0013@
+1 NOTE Leroy Teichmuller Mattingly + brother Claude + sister Mamie
+
+0 @F003@ FAM
+1 HUSB @I0005@
+1 WIFE @I0004@
+1 NOTE Hugo Pohl (San Antonio painter) + Monette
+
+0 @F004@ FAM
+1 HUSB @I0002@
+1 WIFE @I0014@
+1 CHIL @I0015@
+1 NOTE Leroy Teichmuller Mattingly + Shari's grandmother
+
+0 @F005@ FAM
+1 HUSB @I0015@
+1 WIFE @I0016@
+1 CHIL @I0000@
+1 MARR
+2 DATE ABT 1945
+1 NOTE Shari's parents (born 1922, 1923)
+
+0 @F006@ FAM
+1 HUSB @I0020@
+1 WIFE @I0000@
+1 CHIL @I0021@
+1 NOTE Shari + David (first husband). Charmaine is their daughter.
+
+0 TRLR

@@ -1,0 +1,25 @@
+# Intermediate transcription artifacts (rebuild from final.md)
+transcripts/pass1.json
+transcripts/pass1.txt
+transcripts/pass2.json
+transcripts/pass2.txt
+
+# Intermediate entity extraction artifacts
+research/entities.raw.txt
+research/entities.original.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.python-version
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

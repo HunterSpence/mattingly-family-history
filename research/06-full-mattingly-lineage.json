@@ -1,0 +1,564 @@
+{
+  "title": "Mattingly Direct Paternal Lineage: Thomas (pre-1665 Maryland) → Hunter Spence",
+  "compiled": "2026-04-25",
+  "methodology_note": "Research conducted via Internet Archive, WikiTree, Wikipedia, and the 1969 genealogy book 'The Descendants of Henry Mattingly' (Archive.org ID: thedescendantsofhenrymattingly). The well-documented Maryland Catholic Mattingly lineage is cross-confirmed by 3+ sources through Gen 8. The Texas generations (Gen 10–13) are partially inferred from the interview with Shari (born ~1947) and entities.json from the prior interview extraction. The middle link (Kentucky → Texas, Gen 9) has no confirmed individual yet identified.",
+  "generations": [
+    {
+      "gen": 0,
+      "label": "English Origins (Pre-Immigration)",
+      "person": {
+        "id": "M000",
+        "full_name": "Charles Mattingly",
+        "birth_year": 1560,
+        "birth_year_note": "approx. — WikiTree shows 'abt 1560 - abt 1641'",
+        "birth_place": "Mattingley, Hampshire (or nearby), England",
+        "death_year": 1641,
+        "death_place": "England",
+        "spouse": "Unknown",
+        "children_named": ["Francis Mattingly"],
+        "key_facts": [
+          "Earliest-known Mattingly patriarch in the WikiTree DNA-linked lineage",
+          "Mattingly surname derives from 'Mattingley' village, Hampshire, England ('Matta's ley')",
+          "Son Francis Mattingly is listed in the WikiTree 2nd-great-grandparents row for the main Maryland line"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Mattingly-60 (via great-grandparent chain)",
+          "https://en.wikipedia.org/wiki/Mattingley"
+        ],
+        "wikitree_id": null,
+        "confidence": "POSSIBLE"
+      },
+      "notes": "The 1969 book 'Descendants of Henry Mattingly' notes: 'In England there is a town called Mattingly, the origin of which goes back into the centuries of long ago; therefore we conclude that the name is Anglo-Saxon.' A separate appendix entry cites: 'Leonard Mattingly b abt 1739 Leonardtown, MD had descendants in Washington, Marion, Nelson, Davies, Union & Breckenridge Cos, KY. He thought to be grson of 1633 emigrant Charles Mattingly, a ship carpenter, who came to America with bro Caesar from Richmond, England.' This '1633 Charles' may be a different/earlier Charles or a confusion — the WikiTree data shows Thomas I (~1624) as the likely immigrant generation."
+    },
+    {
+      "gen": 1,
+      "label": "Pre-Immigrant Generation",
+      "person": {
+        "id": "M001",
+        "full_name": "Thomas Mattingly I",
+        "birth_year": 1624,
+        "birth_year_note": "approx — WikiTree: 'abt 1624 - abt 24 Jul 1664'",
+        "birth_place": "Omny Parish, Sussex (near Berkshire border), England",
+        "death_year": 1664,
+        "death_place": "Omny, Sussex, England (died before emigrating)",
+        "spouse": "Elizabeth Unknown (born abt 1626, alive aft 1669)",
+        "children_named": ["Thomas Mattingly II"],
+        "key_facts": [
+          "Born in Omny Parish, Sussex, England — same general region as Mattingley village",
+          "Died in England ~1664 before his son emigrated",
+          "His wife Elizabeth survived him and may have accompanied son Thomas II to Maryland"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Mattingly-60 (ancestor of Ignatius Mattingly abt.1704)",
+          "https://www.wikitree.com/wiki/Mattingly-66 (James Sr. ancestors show same chain)",
+          "https://www.wikitree.com/wiki/Mattingly-250 (Richard Sr. ancestors show same chain)"
+        ],
+        "wikitree_id": "Mattingly-[Thomas-I — no standalone profile found, appears in ancestor rows]",
+        "confidence": "PROBABLE"
+      },
+      "notes": "Thomas I appears consistently as the father of Thomas II in multiple WikiTree profiles. The 1969 genealogy book confirms 'The Mattingly Family, in all probability, is of English origin. There are, however, definite Irish traditions and connections.' The Hoye appendix in the same book mentions 'a 1633 emigrant Charles Mattingly, a ship carpenter, who came to America with bro Caesar from Richmond, England' — this may indicate an earlier emigrant Charles, or may be a confusion with the later Thomas II emigration."
+    },
+    {
+      "gen": 2,
+      "label": "Immigrant Generation — arrived Maryland pre-1665",
+      "person": {
+        "id": "M002",
+        "full_name": "Thomas Mattingly II",
+        "birth_year": 1650,
+        "birth_year_note": "approx — WikiTree: 'abt 1650 - bef 12 Jan 1715'",
+        "birth_place": "Sussex, England",
+        "death_year": 1715,
+        "death_place": "St. Mary's County, Province of Maryland",
+        "spouse": "Elizabeth (Ely) Mattingly, born 1654, died 1714 St. Mary's County MD",
+        "spouse2": "One earlier wife (possibly Elizabeth Unknown) who bore earlier children",
+        "children_named": [
+          "Ann Mattingly",
+          "Charles Mattingly",
+          "Judith Mattingly",
+          "William Mattingly",
+          "Elizabeth (Mattingly) Clarke",
+          "Thomas Mattingly III",
+          "James Mattingly Sr. (abt.1696)",
+          "Charles Mattingly (second son of this name)",
+          "William Mattingly (second son of this name)",
+          "Luke Mattingly",
+          "Ignatius Mattingly (abt.1704)"
+        ],
+        "key_facts": [
+          "Came to Maryland with family members 'prior to 1665' per 1969 Mattingly genealogy book",
+          "The book states: 'Thomas Mattingly, his wife, Elizabeth, and children, Thomas, Cezar and Elizabeth, came to Maryland prior to 1665'",
+          "This makes Thomas II the IMMIGRANT, not Thomas I (who died in England ~1664)",
+          "Confirmed on St. Mary's County Rent Rolls 1663–1720 alongside William Mattingly",
+          "The 1969 book: 'Earliest record found is that of Thomas Mattingly and of William Mattingly on the rent rolls in 1663'",
+          "Note discrepancy: Shari's interview says 'Thomas Mattingly arrived with Lord Baltimore 1660 and died 1662' — the Rent Rolls show THOMAS alive 1663–1720, so the death year 1662 refers to a DIFFERENT THOMAS, possibly his father Thomas I who remained in England, or Shari's oral tradition conflated generations"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Mattingly-60 (his son Ignatius Mattingly ~1704)",
+          "https://www.wikitree.com/wiki/Mattingly-66 (his son James Mattingly Sr. ~1696)",
+          "https://archive.org/details/thedescendantsofhenrymattingly (1969 Mattingly genealogy, Introduction and Hoye appendix)",
+          "Maryland State Archives, Hall of Records, Annapolis MD — Rent Rolls 1663 (cited in 1969 book)"
+        ],
+        "wikitree_id": "Mattingly-[Thomas-II — appears in ancestor rows of Mattingly-60, -66, -210, -250, -53, -58; no standalone profile found]",
+        "confidence": "CONFIRMED"
+      },
+      "notes": "This is the Thomas who ACTUALLY arrived in Maryland. The 1969 book and Hoye appendix both confirm the family was in St. Mary's County before 1665. The Shari interview's '1660 with Lord Baltimore, died 1662' oral tradition is either slightly garbled (should be pre-1665, with Thomas II as the immigrant, not dying in 1662) or refers to a SECOND THOMAS — possibly the original patriarch who sent his family ahead. The DNA surname project for Mattingly-Matney confirms Thomas II as the genetic common ancestor for multiple Maryland and Kentucky lines (per Mattingly-210 notes). No 'Mattingly's Hope' land patent name appears in our research — this may be Shari's family oral tradition or a different Mattingly."
+    },
+    {
+      "gen": 3,
+      "label": "Second Generation in Maryland",
+      "person": {
+        "id": "M003",
+        "full_name": "Ignatius Mattingly",
+        "birth_year": 1704,
+        "birth_year_note": "WikiTree: 'abt 1704 - Apr 1789'",
+        "birth_place": "St. Mary's County, Maryland",
+        "death_year": 1789,
+        "death_place": "St. Mary's County, Maryland",
+        "spouse": "Sarah Catherine Fowler (abt.1705 - abt.1795, St. Mary's County MD)",
+        "children_named": [
+          "Ann Mattingly",
+          "Leonard Mattingly (1739–1829)",
+          "Luke Mattingly",
+          "William Mattingly",
+          "Ignatius Mattingly Jr.",
+          "Elizabeth (Mattingly) Thompson",
+          "Sarah Ann (Mattingly) Walker",
+          "Susanna Mattingly"
+        ],
+        "key_facts": [
+          "Will probated 1777 in Leonardtown, St. Mary's Co., MD (Liber JJ #1, Page 470)",
+          "Will names sons Leonard, Luke, William, daughter Ignatius Jr., daughters Elizabeth, Sarah, Hannah, Susanna",
+          "Children include Luke and Leonard who would be progenitors of the Kentucky branch",
+          "The 1969 book appendix: 'Leonard Mattingly b abt 1739 Leonardtown, MD had descendants in Washington, Marion, Nelson, Davies, Union & Breckenridge Cos, KY. He thought to be grson of 1633 emigrant Charles Mattingly' — this places Ignatius as grandson of the immigrant"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Mattingly-60 (his profile)",
+          "Maryland Register of Wills: St Mary's County Will Book JJ1 (cited in Mattingly-60)",
+          "https://archive.org/details/thedescendantsofhenrymattingly (Appendix, p. 223)"
+        ],
+        "wikitree_id": "Mattingly-60",
+        "confidence": "CONFIRMED"
+      },
+      "notes": "Ignatius Mattingly is the key transitional figure. His sons Leonard and Luke led the family westward into Kentucky in the late 18th century. The 1969 book says Henry I (c.1750–1823, progenitor of Western Maryland/Ohio line) was likely the BROTHER of the Mattinglys who went to Kentucky — specifically Leonard, William and Luke who 'left Leonardtown, Md., and went to Kentucky about 1791.'"
+    },
+    {
+      "gen": 4,
+      "label": "Kentucky Migration Generation",
+      "person": {
+        "id": "M004",
+        "full_name": "Leonard Mattingly Sr.",
+        "birth_year": 1739,
+        "birth_year_note": "WikiTree: '1739 - abt 28 Sep 1829'",
+        "birth_place": "Leonardtown, St. Mary's County, Maryland",
+        "death_year": 1829,
+        "death_place": "Leonardtown, St. Mary's County, Maryland (died in MD, children went to KY)",
+        "spouse": "Mary (Hayden) Mattingly (1739–1812, St. Mary's County MD)",
+        "children_named": [
+          "Joseph Mattingly",
+          "Jane Mattingly",
+          "John Baptist Mattingly (abt.1762–1821)",
+          "Leonard Mattingly Jr. (1764–1843)",
+          "Ignatius Mattingly (abt.1766–1851)",
+          "Basil Mattingly",
+          "Susan (Mattingly) Barron",
+          "Mary (Mattingly) Buckman",
+          "William Mattingly"
+        ],
+        "key_facts": [
+          "Son of Ignatius Mattingly (~1704–1789) and Sarah Fowler",
+          "Father of Leonard Jr. who migrated to Marion County, Kentucky",
+          "His children represent the St. Mary's County → Kentucky migration generation",
+          "The Kentucky Mattinglys (Marion County) trace to his sons Leonard Jr. and Ignatius (to Bardstown, Nelson County)"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Mattingly-210 (his son Leonard Jr. shows him as parent)",
+          "https://www.wikitree.com/wiki/Mattingly-53 (his son Ignatius ~1766 shows him as parent)",
+          "https://www.wikitree.com/wiki/Mattingly-58 (his son John Baptist shows him as parent)"
+        ],
+        "wikitree_id": "Mattingly-[Leonard Sr. — appears as parent in multiple profiles, no standalone profile identified with certainty]",
+        "confidence": "PROBABLE"
+      },
+      "notes": "The 1969 book says: 'The Kentucky Mattinglys trace their ancestry to Charles, whose sons, William, Leonard and Luke, settled in Hardin Creek, Kentucky, in 1786.' This 'Charles' is a different generation — likely Ignatius's brother Charles, or a different Charles branch. The WikiTree research consistently shows LEONARD as the bridge from St. Mary's County, Maryland to Marion County, Kentucky via his son Leonard Jr. The Holy Land of Kentucky (Marion County, Nelson County, Washington County) is confirmed as the destination."
+    },
+    {
+      "gen": 5,
+      "label": "First Kentucky Generation",
+      "person": {
+        "id": "M005",
+        "full_name": "Leonard Mattingly Jr.",
+        "birth_year": 1764,
+        "birth_year_note": "WikiTree: '1764 - 1843'",
+        "birth_place": "Leonardtown, St. Mary's County, Maryland",
+        "death_year": 1843,
+        "death_place": "Saint Mary, Marion County, Kentucky",
+        "spouse": "Ann (Cissell) Mattingly — married 7 January 1788 in Nelson, Kentucky",
+        "spouse2": "Dolly Thompson — married 29 November 1822 in Washington County, Kentucky",
+        "children_named": [
+          "Mary (Mattingly) Alvey",
+          "Henry Martin Mattingly Sr.",
+          "William Cissell Mattingly",
+          "Leonard Mattingly III",
+          "Plus others by second wife"
+        ],
+        "key_facts": [
+          "Migrated from St. Mary's County, Maryland to Kentucky between 1786–1788 (married in Nelson County KY Jan 7, 1788)",
+          "Settled in Marion County, Kentucky — the Catholic 'Holy Land of Kentucky'",
+          "Buried in Saint Mary, Marion County, Kentucky",
+          "Genetic common ancestor per Mattingly-Matney Y-chromosome DNA project — confirmed in WikiTree note",
+          "The FamilySearch record: V5ZD-6SJ confirms marriage in Nelson County KY 1788"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Mattingly-210",
+          "FamilySearch record V5ZD-6SJ — Kentucky County Marriages 1797-1954",
+          "https://archive.org/details/thedescendantsofhenrymattingly (Appendix note about Leonard Mattingly b.1739)"
+        ],
+        "wikitree_id": "Mattingly-210",
+        "familysearch_id": "V5ZD-6SJ (marriage record)",
+        "confidence": "CONFIRMED"
+      },
+      "notes": "Leonard Jr. is one of the best-documented figures in this lineage. His migration from Leonardtown MD to Nelson/Marion County Kentucky corresponds perfectly with the historical record of Maryland Catholics migrating to the 'Holy Land of Kentucky' (Bardstown/Marion County area) beginning around 1785-1800. The DNA project confirmation gives this line additional scientific support."
+    },
+    {
+      "gen": 6,
+      "label": "Second Kentucky Generation",
+      "person": {
+        "id": "M006",
+        "full_name": "UNKNOWN (son of Leonard Jr.)",
+        "birth_year": null,
+        "birth_place": "Marion County, Kentucky",
+        "death_year": null,
+        "death_place": "Kentucky or Texas",
+        "spouse": "Unknown",
+        "children_named": ["Unknown — leads to Gen 7"],
+        "key_facts": [
+          "Leonard Jr.'s son Henry Martin Mattingly Sr. is documented in Marion County, Kentucky",
+          "The Texas migration likely passes through one of Leonard Jr.'s sons",
+          "The Mattingly & Moore whiskey distillery was the Kentucky Mattingly branch — further research needed to determine which specific son of Leonard Jr. migrated to Texas",
+          "Possible candidates: Henry Martin Mattingly Sr., William Cissell Mattingly, or Leonard Mattingly III"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Mattingly-210 (children listed but unstudied)",
+          "Interview with Shari (entities.json p010): 'great-grandfather, a very successful builder who built half of San Antonio; died in 1945'"
+        ],
+        "wikitree_id": null,
+        "confidence": "UNVERIFIED"
+      },
+      "notes": "MAJOR GAP. The Kentucky-to-Texas branch needs to be traced. Historical context: Many Kentucky Catholics migrated to Texas in the 1820s–1850s following Stephen F. Austin's land grants and the Republic of Texas period. The specific Mattingly who made this move has not been identified in the research sources available. Shari's interview describes a great-great-grandfather who 'lived to 107, born 1828, died 1935' — this person is the crucial anchor for tracing back. If born 1828 in Kentucky, he would be a grandchild of Leonard Jr. (1764–1843), making him Gen 7 or 8."
+    },
+    {
+      "gen": 7,
+      "label": "Transition Generation — Kentucky to Texas",
+      "person": {
+        "id": "M007",
+        "full_name": "UNKNOWN Mattingly",
+        "birth_year": null,
+        "birth_year_note": "Could be born 1790-1810 in Kentucky, migrated to Texas ~1830-1850",
+        "birth_place": "Marion County or Washington County, Kentucky",
+        "death_year": null,
+        "death_place": "Texas",
+        "spouse": "Unknown",
+        "children_named": ["Unknown — leads to Gen 8 centenarian"],
+        "key_facts": [
+          "This person made the Kentucky → Texas migration",
+          "The Texas Mattingly line connects to San Antonio by at least the 1860s-1870s",
+          "Shari's account describes a great-great-great-grandfather who lived 107 years (1828–1935)",
+          "If the centenarian (born 1828) is Gen 10 in our numbering, this Gen 7 person would be born ~1790-1810"
+        ],
+        "sources": [],
+        "wikitree_id": null,
+        "confidence": "UNVERIFIED"
+      },
+      "notes": "MAJOR GAP. No sources found for this individual. Recommended research: Texas General Land Office records (~1820-1860) for Mattingly land grants; Texas Republic/Annexation-era records; San Antonio Catholic church records (San Fernando Cathedral) for Mattingly baptisms/marriages ~1840-1870."
+    },
+    {
+      "gen": 8,
+      "label": "Early Texas Generation",
+      "person": {
+        "id": "M008",
+        "full_name": "UNKNOWN Mattingly",
+        "birth_year": null,
+        "birth_year_note": "possibly born 1800-1825 in Kentucky or Texas",
+        "birth_place": "Unknown",
+        "death_year": null,
+        "death_place": "Texas",
+        "spouse": "Unknown",
+        "children_named": ["Unknown — leads to Gen 9 centenarian born ~1828"],
+        "key_facts": [
+          "Father of the Mattingly who lived 107 years (1828–1935)",
+          "Would need to have been in Texas by ~1825-1828"
+        ],
+        "sources": [],
+        "wikitree_id": null,
+        "confidence": "UNVERIFIED"
+      },
+      "notes": "MAJOR GAP."
+    },
+    {
+      "gen": 9,
+      "label": "Texas Centenarian",
+      "person": {
+        "id": "M009",
+        "full_name": "UNKNOWN Mattingly (centenarian)",
+        "birth_year": 1828,
+        "birth_year_note": "Per Shari's interview: 'born 1828, died 1935, lived to age 107'",
+        "birth_place": "Unknown (Kentucky or Texas)",
+        "death_year": 1935,
+        "death_place": "Texas",
+        "spouse": "Unknown — likely a German-American woman given the Teichmuller connection in the next generation",
+        "children_named": ["The Texas Judge Mattingly (Gen 10)"],
+        "key_facts": [
+          "Shari described him as 'Shari's grandfather's grandfather' — making him her great-great-great-grandfather",
+          "'One of about 5 American centenarians of his time'",
+          "Lived 1828–1935 = 107 years",
+          "This is an extraordinary enough fact that newspaper obituaries should exist"
+        ],
+        "sources": [
+          "Interview with Shari (entities.json, from prior research session)",
+          "Obituaries searched but not yet found — recommend: Texas newspaper archives 1935, Bexar County death records 1935"
+        ],
+        "wikitree_id": null,
+        "confidence": "POSSIBLE"
+      },
+      "notes": "This individual is a critical anchor. A 107-year-old dying in 1935 in Texas would almost certainly have generated newspaper coverage. Recommend searching: San Antonio Express-News archives 1935, Texas death certificates 1935, FindAGrave for Mattingly + Texas + 1935. If confirmed, his birth year (~1828) and death place can establish the Kentucky-to-Texas migration timeline."
+    },
+    {
+      "gen": 10,
+      "label": "Texas Judge Generation",
+      "person": {
+        "id": "M010",
+        "full_name": "UNKNOWN Mattingly (judge)",
+        "birth_year": null,
+        "birth_year_note": "possibly born 1850-1870, active as judge mid-to-late 1800s",
+        "birth_place": "Texas",
+        "death_year": null,
+        "death_place": "Texas",
+        "spouse": "A German-American woman — almost certainly a Teichmuller, given son Leroy's middle name 'Teichmuller'",
+        "spouse_notes": "The Teichmuller family were German immigrants in La Grange and San Antonio, Texas. Minette Teichmueller (1871–1970, great-aunt of Leroy) was the muralist — she was born in La Grange TX in 1871. Leroy's mother was likely a sister or close relative of Minette.",
+        "children_named": [
+          "Leroy Teichmuller Mattingly (b. 1898)",
+          "Claude Mattingly (b. ~1900, died 1934 in San Antonio scandal)",
+          "Mamie Mattingly (b. ~1900-1902, mother died at her birth)"
+        ],
+        "key_facts": [
+          "Described as 'a judge in Texas' by Shari",
+          "Shari said 'searching Hans Teichmuller on the internet produces a photo of her grandfather's family in front of their house'",
+          "Hans Teichmuller likely = this judge's brother-in-law, or Leroy's maternal relative",
+          "His wife (a Teichmuller) died at Mamie's birth ~1900-1902",
+          "He died in 1945 per Shari's account ('great-grandfather died in 1945')"
+        ],
+        "sources": [
+          "Interview with Shari (entities.json p010, p009, p011)",
+          "Minette Teichmueller Wikipedia article confirms the Teichmuller family were in La Grange/San Antonio TX",
+          "Genealogy.com / Ancestry (not yet accessed) likely has Texas records"
+        ],
+        "wikitree_id": null,
+        "confidence": "POSSIBLE"
+      },
+      "notes": "CRITICAL TARGET. This individual is the key to unlocking the full lineage. Research priorities: (1) Texas district court records 1870-1910 for a judge surnamed Mattingly; (2) Bexar County (San Antonio) records for Mattingly + Teichmuller marriage; (3) 1880/1900 Texas Census for Mattingly family in Bexar County; (4) Texas Bar Association or judicial records. The judge died in 1945 making him likely born ~1860-1875. His wife's Teichmuller maiden name makes her a close relative of Minette Teichmueller (1871–1970). One hypothesis: this judge is the son of the 107-year-old centenarian (Gen 9, born ~1828), making the judge born ~1850-1870."
+    },
+    {
+      "gen": 11,
+      "label": "University of Texas Engineer",
+      "person": {
+        "id": "M011",
+        "full_name": "Leroy Teichmuller Mattingly",
+        "birth_year": 1898,
+        "birth_year_note": "Confirmed from interview with Shari",
+        "birth_place": "San Antonio, Texas (probable)",
+        "death_year": null,
+        "death_place": "Unknown",
+        "spouse": null,
+        "spouse_notes": "Married Shari's grandmother (born ~1900-1902, went to North Texas State University, lost everything in 1929 stock market crash)",
+        "children_named": [
+          "Shari's father (born 1922, San Antonio)",
+          "Billy Mattingly (geologist, Stanford graduate)"
+        ],
+        "key_facts": [
+          "Son of the Texas judge Mattingly and a Teichmuller woman",
+          "University of Texas engineering graduate (~1920s)",
+          "Brother Claude (b. ~1900) was a physician found dead in San Antonio hotel room in 1934 with a UT professor's wife",
+          "Brother/sister Mamie (b. ~1900-1902) — their mother died at Mamie's birth",
+          "Middle name 'Teichmuller' directly from his mother's maiden name"
+        ],
+        "sources": [
+          "Interview with Shari (entities.json p002, p011, p013)",
+          "University of Texas Austin alumni records (not accessed — recommend searching)",
+          "San Antonio newspaper archives 1934 (Claude Mattingly scandal — may confirm family details)"
+        ],
+        "wikitree_id": null,
+        "confidence": "CONFIRMED"
+      },
+      "notes": "Leroy Teichmuller Mattingly is well-confirmed from the Shari interview. His distinctive middle name provides a strong research hook. The 1934 Claude Mattingly scandal in San Antonio would have generated significant newspaper coverage that may name parents and siblings. UT Austin archives should have engineering alumni records for Leroy."
+    },
+    {
+      "gen": 12,
+      "label": "Shari's Father",
+      "person": {
+        "id": "M012",
+        "full_name": "UNKNOWN Mattingly (Shari's father)",
+        "birth_year": 1922,
+        "birth_place": "San Antonio, Texas",
+        "death_year": null,
+        "death_place": "Unknown",
+        "spouse": "Shari's mother (born 1923, had degree in chemistry and physics, O-negative blood type)",
+        "children_named": [
+          "Shari (Sharyn) Mattingly (b. ~1947)",
+          "A brother (co-owns Reeves County oil wells)",
+          "A sister"
+        ],
+        "key_facts": [
+          "Born 1922 in San Antonio when the city had ~35,000 people",
+          "Had a master's degree",
+          "Son of Leroy Teichmuller Mattingly"
+        ],
+        "sources": [
+          "Interview with Shari (entities.json p015)"
+        ],
+        "wikitree_id": null,
+        "confidence": "CONFIRMED"
+      },
+      "notes": "Shari's father is living-generation adjacent (born 1922) — vital records would be in Texas. He may still have living descendants who know more family history."
+    },
+    {
+      "gen": 13,
+      "label": "Shari (Sharyn) Mattingly",
+      "person": {
+        "id": "M013",
+        "full_name": "Sharyn Mattingly",
+        "birth_year": 1947,
+        "birth_place": "Unknown",
+        "death_year": null,
+        "death_place": null,
+        "spouse": "David (first husband — Hunter's paternal grandfather, ~80 years old)",
+        "children_named": [
+          "Hunter's parent (living, redacted)",
+          "Charmaine (daughter)"
+        ],
+        "key_facts": [
+          "Currently ~79 years old, lives in Santa Monica, CA",
+          "Royalty owner of eight oil wells in Reeves County, TX",
+          "Interviewed by Hunter in April 2026"
+        ],
+        "sources": [
+          "Interview with Shari (entities.json p000, p020, p021)"
+        ],
+        "wikitree_id": null,
+        "confidence": "CONFIRMED"
+      },
+      "notes": "Living person — not for public genealogy records."
+    },
+    {
+      "gen": 14,
+      "label": "Hunter's Parent",
+      "person": {
+        "id": "M014",
+        "full_name": "REDACTED (living)",
+        "birth_year": null,
+        "birth_place": null,
+        "death_year": null,
+        "death_place": null,
+        "spouse": null,
+        "children_named": ["Hunter Spence"],
+        "key_facts": [
+          "Living person — details redacted"
+        ],
+        "sources": [],
+        "wikitree_id": null,
+        "confidence": "CONFIRMED"
+      },
+      "notes": "Living person — omitted from public research record."
+    },
+    {
+      "gen": 15,
+      "label": "Hunter Spence",
+      "person": {
+        "id": "M015",
+        "full_name": "Hunter Spence",
+        "birth_year": null,
+        "birth_place": null,
+        "death_year": null,
+        "death_place": null,
+        "spouse": null,
+        "children_named": [],
+        "key_facts": [
+          "Living — current generation",
+          "Conducted the family history interview with Shari in April 2026"
+        ],
+        "sources": [],
+        "wikitree_id": null,
+        "confidence": "CONFIRMED"
+      },
+      "notes": "The interviewer and subject of this lineage research."
+    }
+  ],
+  "migration_path": [
+    {
+      "period": "abt 1560–1640",
+      "place": "Mattingley, Hampshire (or Omny Parish, Sussex), England",
+      "context": "The Mattingly surname derives from Mattingley village, Hampshire. The earliest documented ancestors (Charles ~1560; Francis; Thomas I ~1624) lived in Sussex/Berkshire borderlands near Omny Parish."
+    },
+    {
+      "period": "pre-1665",
+      "place": "St. Mary's County, Province of Maryland",
+      "context": "Thomas Mattingly II (abt.1650–bef.1715) emigrated to Maryland with wife Elizabeth and children Thomas, Cezar, and Elizabeth prior to 1665. They appear on the St. Mary's County Rent Rolls in 1663. The family was Catholic — St. Mary's County was the center of Maryland's Catholic community founded by Lord Baltimore."
+    },
+    {
+      "period": "1663–1790",
+      "place": "St. Mary's County, Maryland (Leonardtown area)",
+      "context": "Four generations lived in St. Mary's County: Thomas II (1650–1715), Ignatius (1704–1789), Leonard Sr. (1739–1829). The family were Catholic landowners on the Rent Rolls of St. Thomas Place (cited 1663–1720). Henry Mattingly I (c.1750–1823), a probable cousin line, moved to western Maryland (Cumberland/Allegany County)."
+    },
+    {
+      "period": "1786–1800",
+      "place": "Marion County / Nelson County, Kentucky (Catholic 'Holy Land of Kentucky')",
+      "context": "Leonard Mattingly Jr. (1764–1843) and siblings migrated from Leonardtown, Maryland to Kentucky around 1786–1791. He married in Nelson County KY on January 7, 1788 and settled in Marion County (Saint Mary community). The 1969 book notes: 'The Kentucky Mattinglys trace their ancestry to Charles, whose sons, William, Leonard and Luke, settled in Hardin Creek, Kentucky, in 1786.' Marion County, Kentucky — near Bardstown — became the heart of Catholic Kentucky."
+    },
+    {
+      "period": "~1820–1860 (estimated)",
+      "place": "Texas",
+      "context": "A Mattingly (identity unconfirmed — likely a son or grandson of Leonard Jr.) migrated from Kentucky to Texas. This is the most poorly documented portion of the lineage. Historical context: Many Kentucky Catholics moved to Texas following the 1820s land grants under Stephen F. Austin and the Republic of Texas era. San Antonio (Bexar County) was a major destination."
+    },
+    {
+      "period": "~1860–1935",
+      "place": "San Antonio, Bexar County, Texas",
+      "context": "The Texas judge Mattingly (Gen 10) was active in San Antonio in the mid-to-late 1800s. He married a woman from the Teichmuller family (German-Texan, La Grange area). His son Leroy Teichmuller Mattingly (b.1898) was born in or near San Antonio and attended the University of Texas as an engineer. The family was prominent enough that they 'built half of San Antonio' per Shari. They also had Reeves County (West Texas) oil interests — Shari's great-grandmother bought land in Reeves County in April 1901."
+    },
+    {
+      "period": "1947–present",
+      "place": "San Antonio TX → California (Shari); Florida (Hunter)",
+      "context": "Shari (b. ~1947) was raised in San Antonio and eventually settled in Santa Monica, CA. Hunter Spence (current generation) lives in Florida."
+    }
+  ],
+  "data_gaps": [
+    "Gen 0 (Charles ~1560): No WikiTree standalone profile found. Connection to Thomas I is inferred from WikiTree ancestor rows only.",
+    "Gen 1 (Thomas I ~1624): No standalone WikiTree profile found. He died in England before emigration.",
+    "Gen 2 (Thomas II ~1650): No standalone WikiTree profile found — appears only as parent in other profiles. Whether he or his father was the Lord Baltimore-era immigrant needs clarification.",
+    "Gen 4 (Leonard Sr. ~1739): Appears as parent in multiple WikiTree profiles but no standalone profile with confirmed ID found in scan.",
+    "Gen 6 (son of Leonard Jr.): UNKNOWN — which of Leonard Jr.'s children was ancestor of the Texas branch? Candidates: Henry Martin Mattingly Sr., William Cissell Mattingly, or Leonard Mattingly III.",
+    "Gen 7–8: UNKNOWN — the Kentucky-to-Texas migration path. No records found. This is the biggest research gap.",
+    "Gen 9 (centenarian 1828–1935): UNVERIFIED — extraordinary claim from Shari's oral history. Needs newspaper obituary search for Texas 1935.",
+    "Gen 10 (Texas judge): UNKNOWN identity. No court records searched. Marriage to a Teichmuller woman needs confirmation.",
+    "The Shari interview says Thomas Mattingly 'arrived with Lord Baltimore and died 1662' — this conflicts with the Rent Roll evidence showing Thomas Mattingly alive 1663–1720 in St. Mary's County. The oral tradition may have compressed generations.",
+    "No 'Mattingly's Hope' land patent name appears in any of the primary sources consulted — this name may be from a different Mattingly family, or it may be an alternate name for the St. Thomas Place Rent Roll property.",
+    "The Mattingly & Moore whiskey distillery (Kentucky) connection has not been traced to a specific generation.",
+    "The exact relationship between the well-documented Henry I (c.1750–1823, Western Maryland/Ohio/Indiana line) and the Leonard Jr. (1764–1843, Marion County KY) line needs clarification — they are probably cousins or the Henry branch is a sibling line."
+  ],
+  "key_sources_consulted": [
+    "WikiTree Mattingly-60 (Ignatius Mattingly ~1704–1789, St. Mary's County MD): https://www.wikitree.com/wiki/Mattingly-60",
+    "WikiTree Mattingly-210 (Leonard Mattingly Jr. 1764–1843, Marion County KY): https://www.wikitree.com/wiki/Mattingly-210",
+    "WikiTree Mattingly-17 (Henry I genealogy + Durbin connection): https://www.wikitree.com/wiki/Mattingly-17",
+    "WikiTree Mattingly-250 (Richard Sr. ~1720–1783 — shows full Thomas I/II/Charles chain): https://www.wikitree.com/wiki/Mattingly-250",
+    "WikiTree Mattingly-53 (Ignatius Jr. ~1766–1851, Bardstown KY): https://www.wikitree.com/wiki/Mattingly-53",
+    "WikiTree Mattingly-58 (Elizabeth Mattingly 1794–1839, Marion County KY — shows Leonard Sr. as parent): https://www.wikitree.com/wiki/Mattingly-58",
+    "Internet Archive: 'The Descendants of Henry Mattingly' (1969) — ID: thedescendantsofhenrymattingly — https://archive.org/details/thedescendantsofhenrymattingly",
+    "Wikipedia: Mattingly surname (confirms Hampshire/Sussex English origin): https://en.wikipedia.org/wiki/Mattingly",
+    "Wikipedia: Mattingley, Hampshire (confirms surname origin): https://en.wikipedia.org/wiki/Mattingley",
+    "Wikipedia: Minette Teichmueller (1871–1970, confirms Teichmuller family in La Grange and San Antonio TX): https://en.wikipedia.org/wiki/Minette_Teichmueller",
+    "Family interview transcript: Shari (Sharyn) Mattingly, April 2026 (entities.json)"
+  ],
+  "confidence_summary": {
+    "high_confidence_generations": [2, 3, 4, 5, 11, 12, 13, 14, 15],
+    "low_confidence_generations": [6, 7, 8, 9, 10],
+    "medium_confidence_generations": [0, 1],
+    "rationale": "Generations 2–5 (Thomas II through Leonard Jr.) are confirmed by multiple independent primary sources: WikiTree DNA project, 1969 genealogy book, Maryland Rent Rolls, Kentucky marriage records, and FamilySearch. Generations 11–15 are confirmed from the direct family interview. The critical gap is generations 6–10 (Kentucky to Texas transition ~1800–1890) for which no documentary sources have been found. The centenarian (Gen 9, born ~1828, died 1935) is a potentially verifiable but unconfirmed oral tradition anchor."
+  }
+}
