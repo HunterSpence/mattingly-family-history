@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "title": "Mattingley Manor and Village History",
+    "subtitle": "Hampshire, England — Anglo-Saxon Period to 1500 AD",
+    "prepared": "2026-04-26",
+    "researcher": "Clawrence (claude-sonnet-4-6)",
+    "primary_source": "Victoria County History Hampshire vol. 4, pp. 44-51 (BHO)",
+    "source_url": "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51",
+    "accessed": "2026-04-26"
+  },
+  "village": {
+    "name": "Mattingley",
+    "county": "Hampshire",
+    "district": "Hart District",
+    "river": "River Whitewater",
+    "hundred": "Holdshot (royal hundred until 1228)",
+    "parent_parish_medieval": "Heckfield",
+    "became_separate_civil_parish": 1894,
+    "became_district_chapelry": "13 January 1863",
+    "name_variants": [
+      { "spelling": "Matingeleghe", "century": "11th", "source": "Domesday Book 1086" },
+      { "spelling": "Matingele", "century": "13th", "source": "Curia Regis Rolls 1206" },
+      { "spelling": "Madingel'", "century": "13th", "source": "Curia Regis Rolls 1206" },
+      { "spelling": "Martyngle", "century": "15th", "source": "VCH Hampshire vol. 4" }
+    ],
+    "etymology": {
+      "construction": "Matta + -inga- + leah (Old English)",
+      "meaning": "Woodland clearing of Matta's people",
+      "source": "Reaney & Wilson, Dictionary of English Surnames, Routledge 1991",
+      "confidence": "CONFIRMED"
+    }
+  },
+  "domesday_entry": {
+    "year": 1086,
+    "domesday_spelling": "Matingeleghe",
+    "vcf_reference": "VCH Hampshire vol. 1, p. 505a",
+    "hundred": "Holdshot",
+    "note": "Reference i,505a is distinct from Hugh de Port's Heckfield entry at i,483b, suggesting a separate tenant-in-chief",
+    "pre_conquest_holder": {
+      "name": "Alric",
+      "tenure": "alod (free, not feudal)",
+      "overlord": "King Edward the Confessor",
+      "confidence": "CONFIRMED"
+    },
+    "post_conquest_holder_1086": {
+      "name": "Alsi the son of Brixi",
+      "variants": ["Alfsi son of Brictsi"],
+      "overlord_1086": "Probable Crown/royal demesne (Holdshot was royal hundred until 1228)",
+      "confidence": "CONFIRMED for holder; PROBABLE for royal overlordship"
+    },
+    "resources": {
+      "villagers_villani": 8,
+      "smallholders_bordarii": 3,
+      "ploughlands": 3,
+      "mens_plough_teams": 3,
+      "meadow_acres": 4,
+      "mill": { "value_shillings": 5, "location": "River Whitewater" },
+      "fishery_value": "100 eels (mentioned in Holdshot context)",
+      "source": "VCH vol. 4 pp. 44-47, fn. 71, 78"
+    }
+  },
+  "lords": [
+    {
+      "id": "L01",
+      "name": "Matta",
+      "role": "Eponymous Anglo-Saxon founder",
+      "fl_approx": "5th-7th century AD",
+      "notes": "Name inferred from place-name only. Old English personal name Matta documented. No independent historical record of this individual.",
+      "confidence": "UNVERIFIED",
+      "sources": ["Place-name etymology"]
+    },
+    {
+      "id": "L02",
+      "name": "Alric",
+      "role": "TRE holder (pre-Conquest lord)",
+      "fl_approx": "before 1066",
+      "tenure_type": "alod",
+      "overlord": "King Edward the Confessor",
+      "notes": "Free landholder, no feudal superior. No further biographical detail available.",
+      "confidence": "CONFIRMED",
+      "sources": ["Domesday Book 1086", "VCH Hampshire vol. 1, p. 505a"]
+    },
+    {
+      "id": "L03",
+      "name": "Alsi the son of Brixi",
+      "variants": ["Alfsi son of Brictsi"],
+      "role": "TRW holder (Domesday 1086)",
+      "fl_approx": "1086",
+      "overlord_probable": "Crown / royal demesne",
+      "notes": "Domesday tenant 1086. Probably held of the Crown given Holdshot hundred was royal. Relation to Ellis (next holder, 1167) unknown.",
+      "confidence": "CONFIRMED",
+      "sources": ["Domesday Book 1086", "VCH Hampshire vol. 1, p. 505a", "VCH vol. 4, p. 47, fn. 78"]
+    },
+    {
+      "id": "L04",
+      "name": "Ellis",
+      "surname": null,
+      "role": "Lord of Mattingley",
+      "fl": "1167",
+      "notes": "Named only as 'Ellis, the owner in 1167.' No surname or patronymic. No documented feudal superior. The VCH says he was 'apparently succeeded by Revelendus' — probable but not stated as direct succession in the primary source.",
+      "confidence": "CONFIRMED",
+      "sources": ["Pipe Roll 13 Henry II (1167), Pipe Roll Society vol. xi, p. 189 — VCH vol. 4, p. 47, fn. 79"]
+    },
+    {
+      "id": "L05",
+      "name": "Revelendus",
+      "surname": "of Mattingley",
+      "role": "Lord of Mattingley",
+      "fl_approx": "late 12th century (c.1170-c.1200)",
+      "wife": "Rose",
+      "sons": [
+        { "name": "James de Oakley", "id": "A01" },
+        { "name": "Bartholomew de Oakley", "id": "A02" },
+        { "name": "Stephen de Mattingley", "id": "L06" }
+      ],
+      "landholding": "Two knights' fees in Oakley and Mattingley (Rot. de Oblat. et Fin., p. 218)",
+      "notes": "Succeeded Ellis. By wife Rose left three sons among whom his possessions were divided. The Merton Priory cartulary (Cotton MS Cleopatra C. vii) is the primary source. VCH says Ellis 'apparently' preceded him — succession is PROBABLE not CONFIRMED.",
+      "confidence": "CONFIRMED",
+      "sources": ["Cotton MS Cleopatra C. vii, fol. 134d — VCH vol. 4, fn. 80"]
+    },
+    {
+      "id": "A01",
+      "name": "James de Oakley",
+      "relation": "Son of Revelendus, elder brother of Stephen de Mattingley",
+      "role": "Holder of James's share of Mattingley",
+      "fl_approx": "c.1180-c.1210",
+      "child": {
+        "name": "Hugh de Oakley",
+        "id": "A03"
+      },
+      "notes": "Received his share of Revelendus's property. Had a son Hugh who granted his Mattingley property to Merton Priory. James himself probably died without male issue.",
+      "confidence": "CONFIRMED",
+      "sources": ["Cotton MS Cleopatra C. vii, fol. 134d"]
+    },
+    {
+      "id": "A02",
+      "name": "Bartholomew de Oakley",
+      "relation": "Son of Revelendus, elder brother of Stephen de Mattingley",
+      "role": "Holder of Bartholomew's share; transferred to Stephen",
+      "fl_approx": "c.1180-c.1204",
+      "child": {
+        "name": "Rose, daughter of Bartholomew de Oakley",
+        "fl": "1204",
+        "notes": "Paid King John 100 shillings in 1204 for her share of the two knights' fees in Oakley and Mattingley. Did not recover the land.",
+        "source": "Rot. de Oblat. et Fin., p. 218",
+        "confidence": "CONFIRMED"
+      },
+      "notes": "Gave his inheritance in Mattingley to his brother Stephen de Mattingley. Predeceased 1204. Had a daughter Rose.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "Cotton MS Cleopatra C. vii, fol. 135",
+        "Rot. de Oblat. et Fin., p. 218 — VCH vol. 4, fn. 82"
+      ]
+    },
+    {
+      "id": "A03",
+      "name": "Hugh de Oakley",
+      "relation": "Son of James de Oakley; grandson of Revelendus",
+      "role": "Granted his Mattingley property to Merton Priory",
+      "fl_approx": "c.1200-c.1220",
+      "notes": "Granted his property in Mattingley to the Prior and convent of Merton. Probably died without issue. The Merton grant is documented.",
+      "confidence": "CONFIRMED",
+      "sources": ["Cotton MS Cleopatra C. vii, fol. 134 — VCH vol. 4, fn. 81"]
+    },
+    {
+      "id": "L06",
+      "name": "Stephen de Mattingley",
+      "role": "Lord of Mattingley (consolidated inheritance)",
+      "fl": "fl. 1200-c.1220",
+      "earliest_dated_surname_bearer": true,
+      "notes": "Youngest son of Revelendus. Received his own share PLUS Bartholomew's share. In 1206 granted to Walter Prior of Merton: 6 virgates, 30 acres, meadows, 6s. 3d. rent, and a mill. Recorded in Curia Regis Rolls as 'Stephen de Madingel', de Matingel''. Succeeded by son Peter.",
+      "grant_to_merton_1206": {
+        "date": "Trinity Term, 8th year of King John (1206)",
+        "grantee": "Walter, Prior of Merton, and his successors",
+        "in_free_alms": true,
+        "items": ["6 virgates of land", "30 acres of land", "several meadows", "6 shillings 3 pence rent", "a mill on the River Whitewater"],
+        "source": "Feet of Fines, Hampshire, Trinity 8 John (1206), TNA CP 25/1"
+      },
+      "confidence": "CONFIRMED",
+      "sources": [
+        "Feet of Fines, Hampshire, Trinity 8 John (1206) — TNA CP 25/1; VCH vol. 4, fn. 83",
+        "Curia Regis Rolls — cited in Reaney & Wilson, Dict. Eng. Surnames (1991)",
+        "Cotton MS Cleopatra C. vii, fol. 134d"
+      ]
+    },
+    {
+      "id": "L07",
+      "name": "Peter de Mattingley",
+      "variants": ["Peter Mattingeley"],
+      "role": "Lord of Mattingley (last Mattingley-surname lord)",
+      "fl": "fl. c.1220-1249",
+      "notes": "Son and successor of Stephen de Mattingley. Sold all his property to Geoffrey de Arundel. Recorded as 'Peter Mattingeley' in Hampshire source dated 1249 (Reaney & Wilson 1991). This is the last documented Mattingley-surname holder of the manor.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "Cotton MS Cleopatra C. vii, fol. 134d — VCH vol. 4, fn. 84",
+        "Feet of Fines, Hampshire, Michaelmas 21 Hen. III (1236) — VCH vol. 4, fn. 86",
+        "Reaney & Wilson, Dictionary of English Surnames (1991) — 'Peter Mattingeley 1249'"
+      ]
+    },
+    {
+      "id": "L08",
+      "name": "Geoffrey de Arundel",
+      "role": "Lord of Mattingley (purchaser from Peter de Mattingley)",
+      "fl": "fl. 1236-c.1250",
+      "wife": "Emma",
+      "notes": "Bought all of Peter de Mattingley's property. Sought to recover from Merton Priory the land granted by Hugh de Oakley. In Michaelmas 1236 acknowledged Merton's rights and both he and Emma were received into the prayers of Merton church. Subsequently sold his remaining Mattingley land to Merton, completing the absorption into Holdshot. NOT the Earl of Arundel — likely a cadet branch of d'Aubigny family or separate Norman 'de Arundel' line. Post-Mattingley career undocumented.",
+      "merton_agreement_1236": {
+        "date": "Michaelmas, 21st year of Henry III (= Michaelmas 1236)",
+        "instrument": "Feet of Fines",
+        "content": "Geoffrey acknowledged it to be the right of the prior and convent; both Geoffrey and Emma received into benefits and prayers of Merton",
+        "source": "Feet of Fines, Hampshire, Michaelmas 21 Hen. III — VCH vol. 4, fn. 86"
+      },
+      "confidence": "CONFIRMED",
+      "sources": [
+        "Cotton MS Cleopatra C. vii, fol. 134d, fol. 136 — VCH vol. 4, fn. 84, 85, 86",
+        "Feet of Fines, Hampshire, Michaelmas 21 Hen. III (1236) — VCH vol. 4, fn. 86"
+      ]
+    }
+  ],
+  "post_1249_holdshot_tenants": [
+    {
+      "name": "Merton Priory (institution)",
+      "role": "Lord of Holdshot (absorbing Mattingley)",
+      "period": "c.1250-1538",
+      "note": "Entire manor absorbed into Holdshot. Merton Priory had held increasing portions from c.1206 (Stephen's grant) and c.1220 (Hugh de Oakley's grant). Geoffrey de Arundel's sale completed the merger c.1236-1250.",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "name": "Thomas de Kent",
+      "role": "Prior of Merton — granted Holdshot life tenancy",
+      "fl_approx": "c.1340",
+      "source": "Cotton MS Cleopatra C. vii, fol. 62, 62d, 75d",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "name": "Sir James de Woodstock",
+      "role": "Life tenant of Holdshot from Merton Priory",
+      "died": 1340,
+      "wife": "Joan (later married Thomas de Foxley)",
+      "source": "Inq. p.m. 15 Edw. III, 1st nos., no. 18; Close, 15 Edw. III, pt. i, m. 44",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "name": "Thomas de Foxley",
+      "role": "Life tenant of Holdshot (via widow Joan)",
+      "died": 1361,
+      "source": "Inq. p.m. 34 Edw. III, no. 55",
+      "confidence": "CONFIRMED",
+      "note": "Married Joan, widow of Sir James de Woodstock. Separate person from Thomas de Foxley who imparked Bramshill/Hazeley in 1347."
+    },
+    {
+      "name": "Rycher family",
+      "role": "Tenant family seated at Mattingley",
+      "period": "Mid-14th century to at least late 15th century",
+      "placename_preserved": "Rychers (place-name, 15th cent.)",
+      "sources": [
+        "Feet of Fines, Hampshire, Hillary 14 Edw. III (c.1340)",
+        "De Banco R. Mich. 13 Hen. VII, m. 359 (c.1497)"
+      ],
+      "confidence": "CONFIRMED (family); UNVERIFIED (individual names)"
+    }
+  ],
+  "hazeley_portion": {
+    "note": "A portion of Hazeley Heath within modern Mattingley parish belonged to the lords of Bramshill.",
+    "persons": [
+      {
+        "name": "John de Foxley",
+        "died": 1324,
+        "grant": "Free warren in Hazeley, 1317",
+        "seised_at_death": "58 acres and 3 roods in Hazeley Heath",
+        "sources": ["Chart. R. 10 Edw. II, m. 12", "Inq. p.m. 18 Edw. II, no. 38"],
+        "confidence": "CONFIRMED"
+      },
+      {
+        "name": "Thomas de Foxley",
+        "fl": "1347",
+        "note": "Obtained licence to impark 2,500 acres in Bramshill and Hazeley",
+        "source": "Pat. 21 Edw. III, pt. iv, m. 19",
+        "confidence": "CONFIRMED"
+      }
+    ]
+  },
+  "dissolution_and_after": {
+    "merton_priory_dissolved": 1538,
+    "holdshot_to_crown": {
+      "date": "1538",
+      "instrument": "Mins. Accts. Surr. 36 & 37 Hen. VIII, no. 187, m. 9d",
+      "confidence": "CONFIRMED"
+    },
+    "grant_to_paulet": {
+      "grantee": "William Paulet, Lord St. John",
+      "date": "1545",
+      "later_title": "1st Marquess of Winchester (created 12 October 1551)",
+      "source": "Pat. 36 Hen. VIII, pt. xvi, m. 3",
+      "confidence": "CONFIRMED"
+    }
+  },
+  "church": {
+    "dedication": "Unknown",
+    "building_date": "c. 1500 (chancel and nave)",
+    "type": "Timber and brick",
+    "bells": [
+      {
+        "description": "Smaller bell, no inscription, possibly 13th century",
+        "confidence": "PROBABLE (architectural assessment)"
+      },
+      {
+        "description": "Larger bell, 'turquieto' inscription, late 15th century",
+        "confidence": "CONFIRMED (VCH architectural description)"
+      }
+    ],
+    "earliest_document": {
+      "date": 1387,
+      "description": "Wykeham licence to officiate in chapel at Mattingley",
+      "source": "Wykeham's Reg. (Hants Rec. Soc.) ii, 394-395"
+    },
+    "cemetery_licence": {
+      "date": 1425,
+      "grantor": "Pope Martin V",
+      "source": "Cal. of Papal Letters vii, 394"
+    },
+    "plate": {
+      "description": "Silver chalice and paten cover, both 1568",
+      "confidence": "CONFIRMED (VCH)"
+    },
+    "registers": {
+      "begin": 1538,
+      "location": "Held with Heckfield registers",
+      "note": "Begin with first year of compulsory registration under Cromwell's 1538 order",
+      "confidence": "CONFIRMED (VCH vol. 4, pp. 49-50)"
+    }
+  },
+  "open_questions": [
+    {
+      "id": "Q1",
+      "question": "Domesday overlord of Alsi son of Brixi",
+      "archival_path": "VCH Hampshire vol. 1, p. 505a — BHO premium or Hampshire Record Office"
+    },
+    {
+      "id": "Q2",
+      "question": "Geoffrey de Arundel family identification",
+      "archival_path": "Calendar of Close Rolls / Patent Rolls Henry III (TNA or BHO premium)"
+    },
+    {
+      "id": "Q3",
+      "question": "Named Rycher individuals at Mattingley",
+      "archival_path": "Feet of Fines Hillary 14 Edw. III (TNA CP 25/1); De Banco R. Mich. 13 Hen. VII"
+    },
+    {
+      "id": "Q4",
+      "question": "Mattingley/Mattingly surname bearers 1538-1600",
+      "archival_path": "Hampshire Record Office — Heckfield/Mattingley parish registers 1538 onward"
+    },
+    {
+      "id": "Q5",
+      "question": "Any Holdshot/Mattingley entry in Pipe Roll 31 Henry I (1130)",
+      "archival_path": "Pipe Roll Society publications / Exchequer records"
+    }
+  ]
+}

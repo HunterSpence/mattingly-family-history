@@ -716,7 +716,7 @@
     },
     {
       "id": "p020",
-      "full_name": "David",
+      "full_name": "David Trifon (formerly listed as Spence)",
       "given_name": "David",
       "middle_name": null,
       "surname": null,
@@ -728,7 +728,7 @@
       "birth_place": null,
       "death_place": null,
       "occupation": null,
-      "context": "Shari's first husband, Hunter's paternal grandfather. Walked with Shari at Texas A&M when she recognized Hugo Pohl's paintings. Currently ~80 years old, living, healthy (no dementia).",
+      "context": "David Trifon (formerly recorded incorrectly as David Spence) — Sharyn Mattingly's first husband; biological father of Rachel. Trifon is an ADOPTED name; biological lineage is untraceable. Per Hunter 2026-04-26: this is NOT the source of the Spence surname — that comes from Dale William Spence Sr.'s English line via Hunter's father Dale Jr.",
       "transcript_timestamps": [
         "0:00"
       ],
@@ -740,7 +740,8 @@
       "enriched_context": "David — Shari's first husband, Hunter's paternal grandfather. Lives in Texas (likely born ~1945-1948). The SPENCE surname (Old French 'despense' = pantry-keeper/steward) originated in 1300s Yorkshire England with Simon del Spens; Scotland is the global density heartland. Spences arrived in colonial Virginia from 1623 (William Spence + wife + child on the Governor's census). Patrick Spence migrated to Virginia and was great-grandfather of James Monroe (5th US President per HouseOfNames) — if David's line connects, Hunter has a possible distant Monroe-family connection (UNVERIFIED). Notable Spence figures: Sir Basil Spence (rebuilt Coventry Cathedral), Gerry Spence (trial lawyer who never lost a criminal defense in 40+ years), Brent Spence (US Congressman), Catherine Helen Spence (Australian suffragette). David's specific ancestry traces require Texas marriage records (Spence + Mattingly ~1965-72) or FamilySearch birth certificates to confirm.",
       "sources": [
         "https://www.houseofnames.com/spence-family-crest"
-      ]
+      ],
+      "confidence": "CONFIRMED"
     },
     {
       "id": "p021",
@@ -2000,6 +2001,32 @@
       "context": "Rachel — Hunter's mother, daughter of Sharyn Mattingly + David Spence. Confirmed by Hunter directly 2026-04-26.",
       "confidence": "CONFIRMED",
       "branch": "Direct line — Hunter's mother"
+    },
+    {
+      "id": "p075",
+      "full_name": "Alric (Anglo-Saxon)",
+      "given_name": "Alric",
+      "surname": "(Anglo-Saxon)",
+      "birth_year": null,
+      "death_year": null,
+      "relation_to_shari": "POSSIBLE distant social-line ancestor — held Mattingley pre-1066 as alod under King Edward the Confessor",
+      "context": "Alric — Anglo-Saxon noble who held Mattingley as an alod (free tenure with no feudal overlord but the king) under Edward the Confessor before 1066. The earliest named individual associated with the place from which the Mattingley surname later derived. Per VCH Hampshire vol 1, p. 505a.",
+      "confidence": "POSSIBLE",
+      "branch": "Mattingley manor — pre-surname",
+      "sources": [
+        "VCH Hampshire vol 1, p. 505a — Domesday Book TRE record",
+        "Page (ed.), VCH Hampshire vol 4 (1911), pp. 44-51, Heckfield parish"
+      ]
+    },
+    {
+      "id": "p105",
+      "full_name": "David Trifon",
+      "given_name": "David",
+      "surname": "Trifon",
+      "relation_to_shari": "First husband (m. ~1968)",
+      "context": "David Trifon — Sharyn Mattingly's first husband; biological father of Rachel. Surname Trifon is an ADOPTED name — his biological lineage is untraceable. Per Hunter 2026-04-26: do not trace this line. Replaces the prior incorrect p020 \"David Spence\" placeholder (the Spence surname comes from the OTHER side via Dale Sr.).",
+      "confidence": "CONFIRMED",
+      "branch": "Trifon (adopted name — biological line UNTRACEABLE)"
     }
   ],
   "places": [

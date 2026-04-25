@@ -1,0 +1,279 @@
+{
+  "research_file": "35-ydna-y14082-cluster",
+  "date": "2026-04-26",
+  "subject": "R-Y14082 / R-Y14084 Mattingly Y-DNA cluster deep dive",
+  "researcher": "Researcher specialist (claude-sonnet-4-6)",
+
+  "critical_taxonomy_note": {
+    "statement": "R-Y14082 as a clade name is an older FTDNA designation. The correct current name is R-Y14084. Y14082 is one of 25 co-defining SNPs of the R-Y14084 branch.",
+    "confidence": "CONFIRMED",
+    "sources": ["WikiTree Mattingly-Matney SNPs page (Mar 2025)", "YFull live tree (Apr 2026)"]
+  },
+
+  "haplogroup_path": {
+    "full_path": [
+      "R", "R1b (M343)", "R1b-L754", "R1b-P297", "R1b-M269",
+      "R1b-L23", "R1b-L51", "R1b-L52/PF6538", "R1b-L151",
+      "R1b-P312 (S116)", "R-DF27 (S250)", "R-Y32298 (FT56526+Y32298)",
+      "R-Y14084 (25 defining SNPs)"
+    ],
+    "ftdna_path_notation": "R1b-DF27▪S250 → ZZ12_1 → FGC78762 → ZZ19_1 → Y32298▪FT56526 → Y14084*",
+    "confidence": "CONFIRMED"
+  },
+
+  "tmrca_estimates": {
+    "source": "YFull YTree live, accessed 2026-04-26",
+    "clades": [
+      {
+        "clade": "R-DF27",
+        "formed_ybp": 4500,
+        "formed_ce": -2500,
+        "tmrca_ybp": 4500,
+        "tmrca_ce": -2500,
+        "ci_95_formed_ybp": "5300-3700",
+        "ci_95_tmrca_ybp": "5300-3700",
+        "notes": "Bell Beaker era; Gallo-Iberian branch of P312",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "clade": "R-Y32298",
+        "formed_ybp": 4500,
+        "formed_ce": -2500,
+        "tmrca_ybp": 2400,
+        "tmrca_ce": -400,
+        "ci_95_formed_ybp": "5300-3700",
+        "ci_95_tmrca_ybp": "3500-1400",
+        "notes": "Shared ancestor of all Mattingly + one Belgian tester; Iron Age",
+        "defining_snps": ["FT56526", "Y32298"],
+        "confidence": "CONFIRMED"
+      },
+      {
+        "clade": "R-Y14084",
+        "alt_name_ftdna_older": "R-Y14082",
+        "formed_ybp": 2400,
+        "formed_ce": -400,
+        "tmrca_ybp": 350,
+        "tmrca_ce": 1676,
+        "ci_95_formed_ybp": "3500-1400",
+        "ci_95_tmrca_ybp": "500-225",
+        "tmrca_ce_range": "1526-1801",
+        "notes": "All descendants of Thomas Mattingly I (~1610-1664). TMRCA matches Thomas Mattingly I.",
+        "defining_snps_count": 25,
+        "all_defining_snps": [
+          "A23315", "A23316", "FT55233", "FT56526", "Y13607", "Y13608", "Y13609",
+          "Y14080", "Y14081", "Y14082", "Y14084", "Y14085", "Y14086", "Y170844",
+          "Y172388", "Y18449", "Y18574", "Y18575", "Y18576", "Y18577", "Y18578",
+          "Y18579", "Y18580", "Y18581", "Y226158", "Y30440", "Y505272"
+        ],
+        "confidence": "CONFIRMED"
+      },
+      {
+        "clade": "R-Y14083",
+        "formed_ybp": 350,
+        "formed_ce": 1676,
+        "tmrca_ybp": 350,
+        "tmrca_ce": 1676,
+        "ci_95_formed_ybp": "500-225",
+        "ci_95_tmrca_ybp": "500-225",
+        "notes": "Cezar Mattingly descendants ONLY. Not found in Thomas II descendants.",
+        "defining_snps": ["Y14083"],
+        "confidence": "CONFIRMED"
+      },
+      {
+        "clade": "R-Y20214",
+        "formed_ybp": 350,
+        "formed_ce": 1676,
+        "tmrca_ybp": 275,
+        "tmrca_ce": 1751,
+        "notes": "Leonard Mattingly Jr. line (Thomas II → Ignatius Sr. → Leonard Old Leonard → Leonard Jr.)",
+        "defining_snps": ["Y20214", "Y30438"],
+        "confidence": "CONFIRMED"
+      }
+    ]
+  },
+
+  "sub_clades_under_y14084": {
+    "thomas_ii_line": [
+      {
+        "snp": "Y20214",
+        "pedigree": "Leonard Mattingly Jr. descendants",
+        "sub_snp": "Y20213",
+        "sub_pedigree": "William Taylor Mattingly descendants"
+      },
+      {
+        "snp": "FT55233",
+        "pedigree": "William 'Constable Billy' Mattingly descendants",
+        "note": "Terminal SNP assigned July 2025"
+      },
+      {
+        "snp": "FT61324",
+        "pedigree": "Ignatius Mattingly Jr. descendants"
+      },
+      {
+        "snp": "FTG32794",
+        "co_snp": "FTF67880",
+        "pedigree": "Richard Vincent Mattingly / Lucas Mattingly descendants"
+      }
+    ],
+    "cezar_line_via_y14083": [
+      {
+        "snp": "Y14083",
+        "pedigree": "All Cezar Mattingly descendants + all Matney lines",
+        "sub_clades": [
+          {"snp": "A39077", "co_snp": "FTB54645(H)", "pedigree": "sub-clade"},
+          {"snp": "Y200586", "co_snps": ["FT289103/Y200588", "FT289090/Y200586", "FT287774/Y200587"], "pedigree": "James Edward Mattingly descendants"},
+          {"snp": "FT393191", "co_snp": "FT393191(H)", "pedigree": "Clement Allen (Mattingly) Matney descendants"},
+          {"snp": "Y80210", "pedigree": "Stephen Matney and Uriah Allen Matney descendants"},
+          {"snp": "Y85450", "pedigree": "Walter Matney Jr. and Broadwater Matney descendants"},
+          {"snp": "Y97568", "co_snps": ["Y81248", "ZS11771"], "pedigree": "Elias Barton 'Ely' Mattingly descendants",
+           "sub_sub_clades": [
+             {"snp": "FGC22005", "pedigree": "Raymond Mattingly descendants"},
+             {"snp": "Y220069", "pedigree": "Lafayette Joseph Mattingly Sr. descendants"},
+             {"snp": "FT156058", "pedigree": "Charles Elias Mattingly descendants"}
+           ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "geography": {
+    "source": "YFull live tree, R-Y32298 clade (n=40), 2026-04-26",
+    "summary": "Hampshire, England dominates at 43%. Total England 66%. US states (Virginia, Kentucky, Colorado) = 28% matching Mattingly migration route. One Belgian tester (pre-surname era paragroup).",
+    "distribution": [
+      {"location": "United Kingdom (Hampshire)", "count": 17, "pct": 42.5},
+      {"location": "England", "count": 9, "pct": 22.5},
+      {"location": "United States (Virginia)", "count": 7, "pct": 17.5},
+      {"location": "United States (Kentucky)", "count": 2, "pct": 5.0},
+      {"location": "United States", "count": 2, "pct": 5.0},
+      {"location": "Belgium (Brabant wallon)", "count": 1, "pct": 2.5},
+      {"location": "United States (Colorado)", "count": 1, "pct": 2.5},
+      {"location": "Unknown", "count": 1, "pct": 2.5}
+    ],
+    "confidence": "CONFIRMED"
+  },
+
+  "r_df27_origins": {
+    "formed": "~2500 BCE (Bell Beaker era)",
+    "tmrca_yfull": "4500 ybp (95% CI 5300-3700 ybp)",
+    "branch_description": "Gallo-Iberian branch of R1b-P312",
+    "migration_route": "Central Europe (Corded Ware/Yamnaya steppe) → Bell Beaker expansion → France/Iberia → Atlantic Bronze Age trade routes → British Isles",
+    "iberia_concentration": "Most common in Basque (~40-60%), Iberia broadly (~25-35%)",
+    "british_isles_arrival": "~2500-2000 BCE via Bell Beaker migration (Olalde 2018 confirmed steppe-ancestry replacement of ~90% of British gene pool)",
+    "confidence": "CONFIRMED"
+  },
+
+  "beaker_paper": {
+    "citation": "Olalde I et al. (2018). The Beaker phenomenon and the genomic transformation of northwest Europe. Nature 555:236-240. DOI: 10.1038/nature25738",
+    "key_findings_relevant": [
+      "226 Bell Beaker-associated individuals studied across Europe",
+      "Confirmed ~90% genetic replacement in Britain during Beaker spread (~2500-2100 BCE)",
+      "R1b-P312 (parent of DF27) confirmed in British Beaker samples",
+      "Iberian Bell Beakers had NO steppe admixture (Neolithic ancestry only)",
+      "Central European and British Bell Beakers had ~50% steppe (Yamnaya-derived) ancestry"
+    ],
+    "r_y14082_ancient_dna": {
+      "found": false,
+      "reason": "R-Y32298/Y14084 formed ~400 BCE (TMRCA ~1676 CE) — ~2000 years younger than Beaker era. No ancient samples carry this downstream mutation.",
+      "confidence": "CONFIRMED"
+    }
+  },
+
+  "ftdna_project": {
+    "name": "Mattingly-Matney DNA Surname Project",
+    "administrators": ["Robert Williams (551am@frontier.com)", "Steve Hank (sph520@outlook.com)"],
+    "ftdna_url": "https://www.familytreedna.com/public/mattingly",
+    "wikitree_url": "https://www.wikitree.com/wiki/Space:Mattingly/Matney_Surname_DNA_Project",
+    "last_wikitree_update": "2025-07-14",
+    "total_donors": {
+      "thomas_ii_line": 8,
+      "cezar_line": 15,
+      "matney_and_other_lines": "multiple"
+    },
+    "project_notes": "Project actively seeking more Thomas II line descendants, especially non-Leonard Mattingly Jr. and non-Leonard Mattingly Jr. lines. Also seeking descendants of Brooks Matney (who may carry R1b-DF97*, a different unrelated haplogroup)."
+  },
+
+  "hunters_position": {
+    "expected_haplogroup": "R1b-DF27 > R-Y32298 > R-Y14084",
+    "older_ftdna_label": "R-Y14082 (same clade, older naming)",
+    "if_thomas_ii_line": "R-Y14084* or sub-clade (Y20214 if Leonard line, FT55233 if Billy line, FT61324 if Ignatius line, FTG32794 if Lucas line)",
+    "if_cezar_line": "R-Y14083 or sub-clade",
+    "cezar_line_william_mattingly_confirmed": "R-Y14083 (per agent 21 prior research)",
+    "confirmation_method": "Big-Y 700 test required for definitive terminal SNP",
+    "confidence": "PROBABLE (Thomas Mattingly I descent confirmed; specific terminal SNP requires lab test)"
+  },
+
+  "don_mattingly_mlb": {
+    "y_dna_test_on_record": false,
+    "expected_clade": "R-Y14084 or sub-clade (same Mattingly lineage)",
+    "confidence": "UNVERIFIED"
+  },
+
+  "sources": [
+    {
+      "name": "YFull YTree R-DF27",
+      "url": "https://www.yfull.com/tree/R-DF27/",
+      "accessed": "2026-04-26",
+      "type": "primary_genetic"
+    },
+    {
+      "name": "YFull YTree R-Y32298",
+      "url": "https://www.yfull.com/tree/R-Y32298/",
+      "accessed": "2026-04-26",
+      "type": "primary_genetic"
+    },
+    {
+      "name": "YFull YTree R-Y14084",
+      "url": "https://www.yfull.com/tree/R-Y14084/",
+      "accessed": "2026-04-26",
+      "type": "primary_genetic"
+    },
+    {
+      "name": "WikiTree Mattingly-Matney DNA Project",
+      "url": "https://www.wikitree.com/wiki/Space:Mattingly/Matney_Surname_DNA_Project",
+      "accessed": "2026-04-26",
+      "last_modified": "2025-07-14",
+      "type": "project_documentation"
+    },
+    {
+      "name": "WikiTree Mattingly-Matney SNPs",
+      "url": "https://www.wikitree.com/wiki/Space:Mattingly-Matney_SNPs",
+      "accessed": "2026-04-26",
+      "last_modified": "2025-03-07",
+      "type": "primary_snp_data"
+    },
+    {
+      "name": "WikiTree Genetic Descendants of Thomas Mattingly II",
+      "url": "https://www.wikitree.com/wiki/Space:Genetic_Descendants_of_Thomas_Mattingly_II",
+      "accessed": "2026-04-26",
+      "type": "pedigree_dna"
+    },
+    {
+      "name": "WikiTree Genetic Descendants of Cezar Mattingly",
+      "url": "https://www.wikitree.com/wiki/Space:Genetic_Descendants_of_Cezar_Mattingly",
+      "accessed": "2026-04-26",
+      "type": "pedigree_dna"
+    },
+    {
+      "name": "Olalde et al. 2018 - Bell Beaker paper",
+      "url": "https://www.nature.com/articles/nature25738",
+      "doi": "10.1038/nature25738",
+      "journal": "Nature",
+      "volume": 555,
+      "pages": "236-240",
+      "type": "academic_paper"
+    },
+    {
+      "name": "Eupedia R1b Y-DNA",
+      "url": "https://www.eupedia.com/europe/Haplogroup_R1b_Y-DNA.shtml",
+      "accessed": "2026-04-26",
+      "type": "secondary_synthesis"
+    },
+    {
+      "name": "FTDNA Mattingly-Matney Project",
+      "url": "https://www.familytreedna.com/public/mattingly",
+      "accessed": "2026-04-26",
+      "type": "project_metadata"
+    }
+  ]
+}

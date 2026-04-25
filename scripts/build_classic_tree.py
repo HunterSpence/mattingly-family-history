@@ -29,11 +29,12 @@ def n(name, dates="", fact="", id=None, gen=0, century=0, conf="confirmed", chil
 # ── Build the tree from Ellis (1167) → Hunter, with collateral siblings at every known generation ──
 
 # Hunter and his generation (deepest descendants — at the leaves)
-hunter = n("Hunter Spence", "living", "Recipient of this family history; recorded grandma's interview", "p001", 18, 21, "confirmed")
+hunter = n("Hunter Spence", "living", "Recipient of this family history; recorded grandma's interview. Surname Spence inherited via FATHER (Dale William Spence Jr.), NOT via maternal grandfather David Trifon (whose Trifon surname was adopted, biological line untraceable).", "p001", 18, 21, "confirmed")
 
 # Hunter's mother — Rachel (per Hunter, 2026-04-26)
-rachel = n("Rachel", "living", "Hunter's mother; daughter of Shari + David Spence", None, 17, 21, "confirmed", [hunter])
-charmaine = n("Charmaine", "living", "Shari + David's daughter; Hunter's aunt", "p021", 17, 21, "confirmed")
+rachel = n("Rachel (née Trifon→Spence)", "living", "Hunter's mother; daughter of Shari Mattingly + David Trifon (adopted-name Trifon). Married Dale William Spence Jr. — Hunter's surname comes via this marriage line, from Dale Sr's English Spence family.", None, 17, 21, "confirmed", [hunter],
+              spouse="Dale William Spence Jr.")
+charmaine = n("Charmaine", "living", "Shari + David Trifon's daughter; Hunter's aunt (maternal)", "p021", 17, 21, "confirmed")
 
 # Shari + David
 shari = n('Sharyn ("Shari") Mattingly', "b. 1947", "Family historian; Santa Monica; oil royalty owner", "p000", 16, 20, "confirmed",
@@ -262,9 +263,19 @@ stephen = n("Stephen de Mattingley", "fl. 1206", "Earliest dated bearer of the M
 revelendus = n("Revelendus of Mattingley", "fl. late 12th c.", "Succeeded Ellis; had 3 sons including Stephen", "p071", -2, 12, "possible",
                [stephen])
 
-# Ellis — earliest documented Mattingley individual (root)
-ellis = n("Ellis (lord of Mattingley)", "fl. 1167", "First named lord of Mattingley village; recorded in Pipe Roll 13 Henry II", "p073", -3, 12, "possible",
+# Ellis — first MATTINGLEY-named lord (the surname is taken FROM the village)
+ellis = n("Ellis (lord of Mattingley)", "fl. 1167", "First named lord of Mattingley village; recorded in Pipe Roll 13 Henry II (Pipe R. Soc. xi, 189)", "p073", -3, 12, "possible",
          [revelendus])
+
+# Pre-Ellis MATTINGLEY MANOR lords — VCH Hampshire vol 4 + Domesday Book
+# These predated the "de Mattingley" surname tradition: surnames came AFTER 1086.
+# They are POSSIBLE social/cultural ancestors of the de Mattingley family (whose surname
+# came from this place), not provable biological ancestors.
+alsi = n("Alsi son of Brixi", "fl. 1086", "Norman-era Domesday tenant of Mattingley manor (TRW). Held under royal demesne. 8 villagers, 3 smallholders, 3 ploughlands, 1 mill (5s), fishery (100 eels). VCH Hants i, 505a. POSSIBLE social-line ancestor of the de Mattingley family.", "p074", -4, 11, "possible",
+          [ellis])
+
+alric = n("Alric (Anglo-Saxon)", "fl. before 1066", "Held Mattingley as alod (free tenure, no feudal lord but the king) of King Edward the Confessor. Anglo-Saxon noble. VCH Hants i, 505a. The earliest named individual associated with the place from which the Mattingley surname later derived. POSSIBLE distant social-line ancestor.", "p075", -5, 11, "possible",
+          [alsi])
 
 # ── Lepick maternal subtree (agent 25 finding — DEFINITIVE) ───────
 # Per Leroy Baity Mattingly obituary (Gazette, 24 Mar 2013): Shari's mother is Jennive Lepick.
@@ -329,27 +340,47 @@ august = n("August Teichmüller", "fl. 1820–1860 Brunswick", "Officer in the B
 
 teichmueller_root = august
 
-# ── Spence paternal subtree (David Spence, Hunter's paternal grandfather) ─────
-# Surname Spence = small clan; Sir Basil Spence (Coventry Cathedral architect) is POSSIBLE distant cousin
-sir_basil_spence = n("Sir Basil Spence", "1907–1976", "British architect; rebuilt Coventry Cathedral after WWII bombing. POSSIBLE distant Spence relative of David.", "hr024", 16, 20, "possible")
-david_spence = n("David Spence", "Hunter's paternal grandfather", "Shari's first husband; UNVERIFIED specific Spence-line origin. Possible distant connection to James Monroe (5th US President) via Patrick Spence migrant ancestor.", "p020", 16, 20, "confirmed",
-                 [sir_basil_spence])
-spence_root = david_spence
+# ── HUNTER'S ACTUAL PATERNAL SPENCE LINE (confirmed by Hunter 2026-04-26) ──
+# Hunter's surname Spence comes from his FATHER Dale William Spence Jr.,
+# NOT from David Trifon (Shari's first husband — adopted name, biological line untraceable).
+# Dale William Spence Sr. = Rice University professor, English immigrant.
+# Alice (maiden unknown) = Hunter's paternal grandmother. Family lived in Beaumont TX.
+
+hunter_dad = n("Dale William Spence Jr.", "living", "Hunter Spence's father. m. Rachel.", None, 17, 21, "confirmed",
+                [hunter])
+
+aunt_susan = n("Susan (Spence) Clarke", "living", "Hunter's paternal aunt; sister of Dale Jr.; took married name Clarke", None, 17, 21, "confirmed")
+aunt_deanne = n("Deanne (Spence) Patton", "living", "Hunter's paternal aunt; sister of Dale Jr.; took married name Patton", None, 17, 21, "confirmed")
+
+dale_sr = n("Dr. Dale William Spence Sr.", "—", "Hunter's paternal grandfather. Professor at Rice University, Houston. Immigrated from England (per Hunter's family tradition) to Beaumont, Texas. Patriarch of the Spence-Beaumont line.", None, 16, 20, "confirmed",
+            [hunter_dad, aunt_susan, aunt_deanne], spouse="Alice (maiden name unknown)")
+
+alice_spence = n("Alice (?) Spence", "—", "Hunter's paternal grandmother. m. Dale William Spence Sr. Maiden name UNKNOWN — research target. Lived Beaumont TX.", None, 16, 20, "confirmed",
+                 [], spouse="Dr. Dale William Spence Sr.")
+
+# Sir Basil Spence — possible distant collateral via the broader Spence surname
+sir_basil_spence = n("Sir Basil Spence", "1907–1976", "Scottish architect; rebuilt Coventry Cathedral after WWII bombing. POSSIBLE very distant collateral Spence relative.", "hr024", 16, 20, "possible")
+
+spence_root = dale_sr
+
+# David Trifon (Shari's first husband, adopted name; biological line untraceable per Hunter)
+david_trifon = n("David Trifon", "Shari's first husband", "Sharyn Mattingly's first husband (m. ~1968); biological father of Rachel. Surname Trifon is an ADOPTED name — his biological lineage is untraceable. Per Hunter 2026-04-26: 'don't trace that one back.'", "p020", 16, 20, "confirmed")
 
 # Save the main Mattingly tree (Ellis as root)
 OUT.parent.mkdir(parents=True, exist_ok=True)
 output_data = {
     "_root_kind": "multi",
-    "primary": ellis,
+    "primary": alric,
     "secondary_trees": [
-        {"label": "Maternal Lepick line (Shari's mother's family — Jennive Lepick of Floresville TX)", "tree": lepick_root},
+        {"label": "Hunter's paternal SPENCE line (Dale Sr. Rice U professor, England→Beaumont TX)", "tree": spence_root},
+        {"label": "Hunter's maternal grandfather: David Trifon (adopted-name; biological untraceable)", "tree": david_trifon},
+        {"label": "Maternal Lepick line (Shari's mother Jennive Lepick of Floresville TX)", "tree": lepick_root},
         {"label": "Maternal-paternal Teichmüller line (Brunswick → Texas)", "tree": teichmueller_root},
-        {"label": "Paternal Spence clan (David's surname)", "tree": spence_root},
-        {"label": "Frost dynasty (PRIOR THEORY — DISPROVEN per agent 25; Frost Bank 'uncle' is unverified oral tradition)", "tree": frost_root}
+        {"label": "Frost dynasty (PRIOR THEORY — DISPROVEN per agent 25)", "tree": frost_root}
     ]
 }
-# For backward compat, write the primary tree at top-level
-OUT.write_text(json.dumps(ellis, indent=2, ensure_ascii=False), encoding="utf-8")
+# For backward compat, write the primary tree at top-level (root is now Alric, fl. pre-1066)
+OUT.write_text(json.dumps(alric, indent=2, ensure_ascii=False), encoding="utf-8")
 # Write the multi-tree variant alongside
 MULTI_OUT = OUT.parent / "lineage-tree-multi.json"
 MULTI_OUT.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -364,6 +395,6 @@ def depth(node):
     return 1 + max(depth(c) for c in node["children"])
 
 print(f"Wrote {OUT}")
-print(f"Total nodes: {count(ellis)}")
-print(f"Tree depth: {depth(ellis)}")
-print(f"Root: {ellis['name']} ({ellis['dates']})")
+print(f"Total nodes: {count(alric)}")
+print(f"Tree depth: {depth(alric)}")
+print(f"Root: {alric['name']} ({alric['dates']})")
