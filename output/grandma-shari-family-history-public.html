@@ -696,9 +696,15 @@ details.entity-card .entity-body {
 
 /* The tree gets a full-bleed dark background, wider than the text column */
 #lineage-section {
-  margin-left: calc(-1 * var(--sp-lg));
-  margin-right: calc(-1 * var(--sp-lg));
-  padding: 0 var(--sp-lg);
+  /* Break out of the .container max-width so the wide branching tree gets real estate.
+     Span full viewport width using the negative-margin trick. */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 0 max(var(--sp-lg), calc((100vw - 1600px) / 2));
 }
 
 #lineage-tree-container {
@@ -733,6 +739,8 @@ details.entity-card .entity-body {
 #lineage-tree-svg {
   display: block;
   width: 100%;
+  height: auto;
+  min-height: 720px;
   cursor: grab;
   position: relative;
   z-index: 1;
