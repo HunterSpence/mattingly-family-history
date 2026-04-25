@@ -740,10 +740,12 @@ details.entity-card .entity-body {
 
 #lineage-tree-svg:active { cursor: grabbing; }
 
-/* Node animations */
+/* Node animations — animate opacity ONLY because setting CSS `transform`
+   on an SVG element overrides the SVG `transform="translate(x,y)"`
+   attribute, which would slam every node to the same position. */
 @keyframes nodeIn {
-  from { opacity: 0; transform: translateY(-8px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 .tree-node {
@@ -3870,27 +3872,31 @@ header.cover > *:not(.cover-particles):not(.cover-glow) {
 
   <script>
 
-// ── Mattingly Lineage Tree ──────────────────────────────────────
-// Vertical descent layout with generation-spine labels,
-// warm-brown depth gradient, confidence-coded borders,
-// sibling badges, animated entry, zoom+pan.
+// ── Mattingly Lineage Tree v3 ────────────────────────────────────
+// Portrait frames, confidence ? badges, paper-texture,
+// generation-spine labels, animated entry, zoom+pan.
 // ────────────────────────────────────────────────────────────────
 
 const lineageData = JSON.parse(document.getElementById('lineage-tree-data').textContent);
 
-// Canvas dimensions
-const W = 1320;
+// Canvas dimensions — wider cards for portrait integration
+const W = 1380;
 const H = 1800;
-const NW = 210;   // node width
-const NH = 76;    // node height
+const NW = 230;   // node width (wider for portrait)
+const NH = 82;    // node height (taller for portrait)
 const SPINE = 68; // left margin for generation labels
 const M = { top: 56, right: 36, bottom: 72, left: SPINE + 12 };
+
+// Portrait layout constants
+const PORT_R = 26;   // portrait circle radius
+const PORT_X = -NW/2 + PORT_R + 8;  // portrait center x (left side of card)
+const TEXT_X_PORT = PORT_X + PORT_R + 8;  // text start x when portrait present
 
 const svg = d3.select("#lineage-tree-svg")
   .attr("viewBox", `0 0 ${W} ${H}`)
   .attr("preserveAspectRatio", "xMidYMid meet")
   .attr("width", "100%")
-  .attr("height", "1020");
+  .attr("height", "1040");
 
 // ── Defs: gradients, filters ────────────────────────────────────
 const defs = svg.append("defs");
@@ -3900,8 +3906,6 @@ const shadowFilter = defs.append("filter")
   .attr("id", "node-shadow")
   .attr("x", "-35%").attr("y", "-35%")
   .attr("width", "170%").attr("height", "170%");
-// Outer warm glow
-const feMerge = shadowFilter.append("feComposite").attr("in", "SourceGraphic");
 shadowFilter.append("feGaussianBlur")
   .attr("in", "SourceGraphic")
   .attr("stdDeviation", 7)
@@ -3914,9 +3918,40 @@ shadowFilter.append("feComposite")
   .attr("in", "color").attr("in2", "blur")
   .attr("operator", "in")
   .attr("result", "glow");
-const merge = shadowFilter.append("feMerge");
-merge.append("feMergeNode").attr("in", "glow");
-merge.append("feMergeNode").attr("in", "SourceGraphic");
+const shadowMerge = shadowFilter.append("feMerge");
+shadowMerge.append("feMergeNode").attr("in", "glow");
+shadowMerge.append("feMergeNode").attr("in", "SourceGraphic");
+
+// Glow filter for "?" confidence badge — amber glow
+const qFilter = defs.append("filter")
+  .attr("id", "q-badge-glow")
+  .attr("x", "-80%").attr("y", "-80%")
+  .attr("width", "360%").attr("height", "360%");
+qFilter.append("feGaussianBlur")
+  .attr("in", "SourceGraphic")
+  .attr("stdDeviation", 3)
+  .attr("result", "qblur");
+qFilter.append("feFlood")
+  .attr("flood-color", "#d4a458")
+  .attr("flood-opacity", 0.8)
+  .attr("result", "qcolor");
+qFilter.append("feComposite")
+  .attr("in", "qcolor").attr("in2", "qblur")
+  .attr("operator", "in")
+  .attr("result", "qglow");
+const qMerge = qFilter.append("feMerge");
+qMerge.append("feMergeNode").attr("in", "qglow");
+qMerge.append("feMergeNode").attr("in", "SourceGraphic");
+
+// Portrait drop shadow
+const pFilter = defs.append("filter")
+  .attr("id", "portrait-drop")
+  .attr("x", "-30%").attr("y", "-30%")
+  .attr("width", "160%").attr("height", "160%");
+pFilter.append("feDropShadow")
+  .attr("dx", 0).attr("dy", 2)
+  .attr("stdDeviation", 2.5)
+  .attr("flood-color", "rgba(0,0,0,0.6)");
 
 // Gradient for each depth level (will create 14 gradients)
 function makeGradient(id, topColor, botColor) {
@@ -3952,8 +3987,16 @@ gradientPalette.forEach((pair, i) => {
   makeGradient(`ng-${i}`, pair[0], pair[1]);
 });
 
-function nodeFill(depth) {
-  const i = Math.min(depth, gradientPalette.length - 1);
+// Paper texture gradient — for nodes without portraits that are uncertain
+makeGradient('ng-paper', '#1a1510', '#221c14');
+
+function nodeFill(d) {
+  const conf = d.data.confidence;
+  // Uncertain nodes without portraits get a neutral parchment-paper feel
+  if (!d.data.portrait_url && (conf === 'unknown' || conf === 'possible' || conf === 'unverified')) {
+    return 'url(#ng-paper)';
+  }
+  const i = Math.min(d.depth, gradientPalette.length - 1);
   return `url(#ng-${i})`;
 }
 
@@ -3976,15 +4019,22 @@ function nodeFactColor(depth) {
 }
 
 function confidenceStroke(c) {
-  if (c === 'confirmed') return '#d4a458';   // gold for confirmed
-  if (c === 'probable')  return '#b8826a';   // bronze for probable
-  return '#4a4440';                          // dim for unknown
+  if (c === 'confirmed') return '#d4a458';     // gold for confirmed
+  if (c === 'probable')  return '#b8826a';     // bronze for probable
+  if (c === 'possible')  return '#c07060';     // warm red for possible
+  if (c === 'unverified') return '#a05040';    // deep red for unverified
+  return '#4a4440';                            // dim for unknown
 }
 function confidenceStrokeWidth(c) {
-  return c === 'confirmed' ? 2.0 : 1.5;
+  if (c === 'confirmed') return 2.0;
+  if (c === 'possible' || c === 'unverified') return 1.8;
+  return 1.5;
 }
 function confidenceDash(c) {
-  return c === 'unknown' ? '4,3' : 'none';
+  if (c === 'unknown') return '4,3';
+  if (c === 'possible') return '6,3';
+  if (c === 'unverified') return '5,3,2,3';
+  return 'none';
 }
 
 // ── Tree layout ─────────────────────────────────────────────────
@@ -4127,7 +4177,7 @@ cardG.append("rect")
   .attr("x", -NW/2).attr("y", -NH/2)
   .attr("width", NW).attr("height", NH)
   .attr("rx", 7).attr("ry", 7)
-  .attr("fill", d => nodeFill(d.depth))
+  .attr("fill", d => nodeFill(d))
   .attr("stroke", d => confidenceStroke(d.data.confidence))
   .attr("stroke-width", d => confidenceStrokeWidth(d.data.confidence))
   .attr("stroke-dasharray", d => confidenceDash(d.data.confidence));
@@ -4139,38 +4189,178 @@ cardG.append("rect")
   .attr("rx", 1)
   .attr("fill", "rgba(255,255,255,0.12)");
 
+// ── PORTRAIT RENDERING ───────────────────────────────────────────
+// Renders a circular framed portrait on the left side of the card
+// for nodes that have portrait_url; otherwise the card stays text-only.
+nodeGroups.filter(d => d.data.portrait_url)
+  .each(function(d, nodeIdx) {
+    const sg = d3.select(this).select('.node-card');
+    const clipId = 'pc-' + nodeIdx;
+
+    // Register circular clip path in defs
+    defs.append('clipPath')
+      .attr('id', clipId)
+      .append('circle')
+      .attr('cx', PORT_X).attr('cy', 0)
+      .attr('r', PORT_R);
+
+    // Outer glow halo
+    sg.append('circle')
+      .attr('cx', PORT_X).attr('cy', 0)
+      .attr('r', PORT_R + 5)
+      .attr('fill', 'none')
+      .attr('stroke', 'rgba(212,164,88,0.12)')
+      .attr('stroke-width', 2);
+
+    // Gold frame ring
+    sg.append('circle')
+      .attr('cx', PORT_X).attr('cy', 0)
+      .attr('r', PORT_R + 2)
+      .attr('fill', 'none')
+      .attr('stroke', '#d4a458')
+      .attr('stroke-width', 1.8);
+
+    // Portrait image clipped to circle
+    sg.append('image')
+      .attr('href', d.data.portrait_url)
+      .attr('x', PORT_X - PORT_R)
+      .attr('y', -PORT_R)
+      .attr('width', PORT_R * 2)
+      .attr('height', PORT_R * 2)
+      .attr('clip-path', 'url(#' + clipId + ')')
+      .attr('preserveAspectRatio', 'xMidYMid slice')
+      .attr('filter', 'url(#portrait-drop)');
+
+    // Inner shadow ring for depth
+    sg.append('circle')
+      .attr('cx', PORT_X).attr('cy', 0)
+      .attr('r', PORT_R)
+      .attr('fill', 'none')
+      .attr('stroke', 'rgba(0,0,0,0.45)')
+      .attr('stroke-width', 1.5);
+  });
+
+// ── HUGE ? CONFIDENCE BADGES ────────────────────────────────────
+// UNVERIFIED: amber overlay strip + "UNVERIFIED" banner text + large "?"
+nodeGroups.filter(d => d.data.confidence === 'unverified')
+  .each(function(d) {
+    const sg = d3.select(this).select('.node-card');
+
+    // Red-amber full-card tint
+    sg.append('rect')
+      .attr('x', -NW/2).attr('y', -NH/2)
+      .attr('width', NW).attr('height', NH)
+      .attr('rx', 7).attr('ry', 7)
+      .attr('fill', 'rgba(180,60,40,0.09)')
+      .attr('pointer-events', 'none');
+
+    // Top banner strip
+    sg.append('rect')
+      .attr('x', -NW/2).attr('y', -NH/2)
+      .attr('width', NW).attr('height', 18)
+      .attr('rx', 7).attr('ry', 0)
+      .attr('fill', 'rgba(180,60,40,0.32)')
+      .attr('pointer-events', 'none');
+    sg.append('rect')
+      .attr('x', -NW/2).attr('y', -NH/2 + 10)
+      .attr('width', NW).attr('height', 8)
+      .attr('fill', 'rgba(180,60,40,0.32)')
+      .attr('pointer-events', 'none');
+
+    sg.append('text')
+      .attr('x', 0).attr('y', -NH/2 + 13)
+      .attr('text-anchor', 'middle')
+      .attr('font-family', "'Lora', Georgia, serif")
+      .attr('font-size', '8px')
+      .attr('font-weight', '700')
+      .attr('letter-spacing', '0.16em')
+      .attr('fill', '#e09888')
+      .attr('pointer-events', 'none')
+      .text('UNVERIFIED — NEEDS RESEARCH');
+
+    // Large "?" bottom-right — 34px serif, gold glow
+    sg.append('text')
+      .attr('x', NW/2 - 16).attr('y', NH/2 - 5)
+      .attr('text-anchor', 'middle')
+      .attr('font-family', "'Cormorant Garamond', Georgia, serif")
+      .attr('font-size', '34px')
+      .attr('font-weight', '700')
+      .attr('fill', '#d4a458')
+      .attr('filter', 'url(#q-badge-glow)')
+      .attr('opacity', '0.92')
+      .attr('pointer-events', 'none')
+      .text('?');
+
+    sg.append('title')
+      .text('Confidence: UNVERIFIED — genealogical descent not confirmed. Needs primary source research.');
+  });
+
+// POSSIBLE: amber card tint + large gold "?" with glow
+nodeGroups.filter(d => d.data.confidence === 'possible')
+  .each(function(d) {
+    const sg = d3.select(this).select('.node-card');
+
+    // Subtle amber tint
+    sg.append('rect')
+      .attr('x', -NW/2).attr('y', -NH/2)
+      .attr('width', NW).attr('height', NH)
+      .attr('rx', 7).attr('ry', 7)
+      .attr('fill', 'rgba(200,130,40,0.06)')
+      .attr('pointer-events', 'none');
+
+    // Large "?" — 38px, gold, bottom-right, prominent glow
+    sg.append('text')
+      .attr('x', NW/2 - 16).attr('y', NH/2 - 4)
+      .attr('text-anchor', 'middle')
+      .attr('font-family', "'Cormorant Garamond', Georgia, serif")
+      .attr('font-size', '38px')
+      .attr('font-weight', '700')
+      .attr('fill', '#d4a458')
+      .attr('filter', 'url(#q-badge-glow)')
+      .attr('opacity', '0.95')
+      .attr('pointer-events', 'none')
+      .text('?');
+
+    sg.append('title')
+      .text('Confidence: POSSIBLE — one source / circumstantial. Treat as working hypothesis.');
+  });
+
 // ── Node text ────────────────────────────────────────────────────
+// Text shifts right when a portrait is present on the left
 
 // Name line
 cardG.append("text")
-  .attr("y", -16)
-  .attr("text-anchor", "middle")
+  .attr("x", d => d.data.portrait_url ? (TEXT_X_PORT - NW/2 + PORT_R) : 0)
+  .attr("y", -18)
+  .attr("text-anchor", d => d.data.portrait_url ? "start" : "middle")
   .attr("font-family", "'Cormorant Garamond', 'Lora', Georgia, serif")
   .attr("font-weight", "700")
-  .attr("font-size", "13.5px")
+  .attr("font-size", "13px")
   .attr("letter-spacing", "0.01em")
   .attr("fill", d => nodeTextColor(d.depth))
-  .text(d => truncate(d.data.name, 28));
+  .text(d => truncate(d.data.name, d.data.portrait_url ? 21 : 28));
 
 // Dates — monospaced, smaller
 cardG.append("text")
-  .attr("y", -1)
-  .attr("text-anchor", "middle")
+  .attr("x", d => d.data.portrait_url ? (TEXT_X_PORT - NW/2 + PORT_R) : 0)
+  .attr("y", -3)
+  .attr("text-anchor", d => d.data.portrait_url ? "start" : "middle")
   .attr("font-family", "'Source Code Pro', 'Courier New', monospace")
-  .attr("font-size", "10.5px")
+  .attr("font-size", "10px")
   .attr("letter-spacing", "0.02em")
   .attr("fill", d => nodeDateColor(d.depth))
   .text(d => d.data.dates);
 
 // Fact line — italic, smallest
 cardG.append("text")
-  .attr("y", 17)
-  .attr("text-anchor", "middle")
+  .attr("x", d => d.data.portrait_url ? (TEXT_X_PORT - NW/2 + PORT_R) : 0)
+  .attr("y", 15)
+  .attr("text-anchor", d => d.data.portrait_url ? "start" : "middle")
   .attr("font-family", "'Lora', Georgia, serif")
   .attr("font-style", "italic")
-  .attr("font-size", "10px")
+  .attr("font-size", "9.5px")
   .attr("fill", d => nodeFactColor(d.depth))
-  .text(d => truncate(d.data.fact, 34));
+  .text(d => truncate(d.data.fact, d.data.portrait_url ? 26 : 34));
 
 // ── Generation badge (top-left diamond) ─────────────────────────
 const badgeX = -NW/2 + 11;
