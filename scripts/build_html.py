@@ -774,6 +774,106 @@ details.entity-card .entity-body {
 
 #lineage-tree-svg:active { cursor: grabbing; }
 
+/* ── Notable Stories cards ───────────────────────────────────────── */
+
+.story-era-heading {
+  font-family: 'Cormorant Garamond', 'Lora', Georgia, serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.4em;
+  color: var(--gold);
+  margin: 48px 0 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(212, 164, 88, 0.18);
+  letter-spacing: 0.01em;
+}
+
+.story-era-heading:first-of-type { margin-top: 8px; }
+
+.story-card {
+  background: linear-gradient(170deg, rgba(20,16,11,0.55), rgba(15,12,9,0.7));
+  border: 1px solid rgba(212, 164, 88, 0.12);
+  border-left: 3px solid var(--gold);
+  border-radius: 4px;
+  padding: 22px 26px;
+  margin: 18px 0;
+  position: relative;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  transition: border-left-color 0.2s, box-shadow 0.2s;
+}
+
+.story-card:hover {
+  border-left-color: #e8c280;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5), 0 0 24px rgba(212, 164, 88, 0.06);
+}
+
+.story-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px dashed rgba(212, 164, 88, 0.08);
+}
+
+.story-name {
+  font-family: 'Cormorant Garamond', 'Lora', Georgia, serif;
+  font-size: 1.45em;
+  font-weight: 700;
+  color: var(--ink-bright);
+  letter-spacing: 0.01em;
+}
+
+.story-meta {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.78em;
+  color: var(--gold-soft);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.story-headline {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: var(--gold);
+  margin: 6px 0 10px;
+  line-height: 1.4;
+}
+
+.story-body {
+  color: var(--ink);
+  font-size: 1em;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.story-sources {
+  margin-top: 14px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.78em;
+  color: var(--gold-soft);
+  letter-spacing: 0.04em;
+}
+
+.story-sources a {
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--gold-soft);
+}
+
+.story-sources a:hover { border-bottom-style: solid; }
+
+#stories > p {
+  font-style: italic;
+  color: var(--ink-soft);
+  margin-bottom: 32px;
+}
+
 /* Node animations — animate opacity ONLY because setting CSS `transform`
    on an SVG element overrides the SVG `transform="translate(x,y)"`
    attribute, which would slam every node to the same position. */
@@ -1608,6 +1708,88 @@ def load_portraits():
     return portrait_map
 
 
+def render_notable_stories():
+    """Render the Notable Stories section — beautiful narrative cards from
+    research/14-notable-deeds.json. Replaces the verbatim-transcript section.
+    """
+    if not DEEDS_JSON.exists():
+        return '<p><em>Notable stories pending — research/14-notable-deeds.json not found.</em></p>'
+    try:
+        raw = json.loads(DEEDS_JSON.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return '<p><em>Notable stories file is malformed.</em></p>'
+    deeds = raw.get("notable_deeds", []) if isinstance(raw, dict) else raw
+    if not isinstance(deeds, list) or not deeds:
+        return '<p><em>No notable stories found.</em></p>'
+
+    # Group by tag/era for sectioning
+    sections = {
+        "Medieval (1167–1249)": [],
+        "Colonial Maryland (1666–1789)": [],
+        "Kentucky frontier (1785–1843)": [],
+        "Texas era (1837–1945)": [],
+        "Twentieth century": [],
+        "Other": [],
+    }
+    def classify(d):
+        year_str = str(d.get("year", "") or "").strip()
+        try:
+            year = int(year_str[:4]) if year_str else 0
+        except (ValueError, TypeError):
+            year = 0
+        if year and year < 1300: return "Medieval (1167–1249)"
+        if year and year < 1790: return "Colonial Maryland (1666–1789)"
+        if year and year < 1850: return "Kentucky frontier (1785–1843)"
+        if year and year < 1946: return "Texas era (1837–1945)"
+        if year >= 1946: return "Twentieth century"
+        # Fallback: tag-based
+        tag = (d.get("tag") or "").lower()
+        if "medieval" in tag: return "Medieval (1167–1249)"
+        if "civic" in tag and year > 1900: return "Twentieth century"
+        return "Other"
+    for d in deeds:
+        if isinstance(d, dict):
+            sections[classify(d)].append(d)
+
+    cards_html = []
+    for section_title, group in sections.items():
+        if not group:
+            continue
+        cards_html.append(f'<h3 class="story-era-heading">{html.escape(section_title)}</h3>')
+        for deed in group:
+            name = deed.get("person_name") or "—"
+            headline = deed.get("headline") or ""
+            story = deed.get("story") or ""
+            year = deed.get("year") or ""
+            place = deed.get("place") or ""
+            tag = deed.get("tag") or ""
+            verifications = deed.get("verification") or []
+            sources_html = ""
+            if verifications:
+                links = " · ".join(
+                    f'<a href="{html.escape(v)}" target="_blank" rel="noopener">source</a>'
+                    for v in verifications[:3] if isinstance(v, str) and v.startswith("http")
+                )
+                if links:
+                    sources_html = f'<div class="story-sources">{links}</div>'
+            meta = []
+            if year: meta.append(html.escape(str(year)))
+            if place: meta.append(html.escape(str(place)))
+            meta_html = " · ".join(meta)
+            cards_html.append(
+                f'<article class="story-card">'
+                f'<header class="story-header">'
+                f'<div class="story-name">{html.escape(str(name))}</div>'
+                f'{f"<div class=story-meta>{meta_html}</div>" if meta_html else ""}'
+                f'</header>'
+                f'<h4 class="story-headline">{html.escape(headline)}</h4>'
+                f'<p class="story-body">{html.escape(story)}</p>'
+                f'{sources_html}'
+                f'</article>'
+            )
+    return "\n".join(cards_html) if cards_html else '<p><em>No stories rendered.</em></p>'
+
+
 def load_deeds():
     """Load notable deeds map from research/14-notable-deeds.json if present.
     Returns dict: {person_id: [deed_headline_string, ...], ...}
@@ -2168,10 +2350,10 @@ def render_lineage_tree_js():
 const lineageData = JSON.parse(document.getElementById('lineage-tree-data').textContent);
 
 // Canvas dimensions — wider cards for portrait integration
-const W = 2800;
-const H = 2400;
-const NW = 230;   // node width (wider for portrait)
-const NH = 82;    // node height (taller for portrait)
+const W = 3600;
+const H = 3200;
+const NW = 280;   // node width — wider for readable text
+const NH = 110;   // node height — taller for readable text
 const SPINE = 68; // left margin for generation labels
 const M = { top: 56, right: 36, bottom: 72, left: SPINE + 12 };
 
@@ -2619,36 +2801,47 @@ nodeGroups.filter(d => d.data.confidence === 'possible')
 // Name line
 cardG.append("text")
   .attr("x", d => d.data.portrait_url ? (TEXT_X_PORT - NW/2 + PORT_R) : 0)
-  .attr("y", -18)
+  .attr("y", -24)
   .attr("text-anchor", d => d.data.portrait_url ? "start" : "middle")
   .attr("font-family", "'Cormorant Garamond', 'Lora', Georgia, serif")
   .attr("font-weight", "700")
-  .attr("font-size", "13px")
+  .attr("font-size", "17px")
   .attr("letter-spacing", "0.01em")
   .attr("fill", d => nodeTextColor(d.depth))
-  .text(d => truncate(d.data.name, d.data.portrait_url ? 21 : 28));
+  .text(d => truncate(d.data.name, d.data.portrait_url ? 24 : 30));
 
-// Dates — monospaced, smaller
+// Dates — monospaced, more readable
 cardG.append("text")
   .attr("x", d => d.data.portrait_url ? (TEXT_X_PORT - NW/2 + PORT_R) : 0)
-  .attr("y", -3)
+  .attr("y", -4)
   .attr("text-anchor", d => d.data.portrait_url ? "start" : "middle")
   .attr("font-family", "'Source Code Pro', 'Courier New', monospace")
-  .attr("font-size", "10px")
-  .attr("letter-spacing", "0.02em")
+  .attr("font-size", "13px")
+  .attr("letter-spacing", "0.03em")
+  .attr("font-weight", "600")
   .attr("fill", d => nodeDateColor(d.depth))
   .text(d => d.data.dates);
 
-// Fact line — italic, smallest
+// Fact line — italic
 cardG.append("text")
   .attr("x", d => d.data.portrait_url ? (TEXT_X_PORT - NW/2 + PORT_R) : 0)
-  .attr("y", 15)
+  .attr("y", 22)
   .attr("text-anchor", d => d.data.portrait_url ? "start" : "middle")
   .attr("font-family", "'Lora', Georgia, serif")
   .attr("font-style", "italic")
-  .attr("font-size", "9.5px")
+  .attr("font-size", "11.5px")
   .attr("fill", d => nodeFactColor(d.depth))
-  .text(d => truncate(d.data.fact, d.data.portrait_url ? 26 : 34));
+  .text(d => truncate(d.data.fact, d.data.portrait_url ? 32 : 42));
+
+// Spouse line — small, when present
+cardG.filter(d => d.data.spouse).append("text")
+  .attr("x", d => d.data.portrait_url ? (TEXT_X_PORT - NW/2 + PORT_R) : 0)
+  .attr("y", 40)
+  .attr("text-anchor", d => d.data.portrait_url ? "start" : "middle")
+  .attr("font-family", "'Lora', Georgia, serif")
+  .attr("font-size", "10px")
+  .attr("fill", d => nodeFactColor(d.depth))
+  .text(d => "m. " + truncate(d.data.spouse, d.data.portrait_url ? 30 : 40));
 
 // ── Generation badge (top-left diamond) ─────────────────────────
 const badgeX = -NW/2 + 11;
@@ -2814,7 +3007,8 @@ def build_html(family_only=True):
   <ul>{items}</ul>
 </div>"""
 
-    transcript_html = render_transcript(turns, entity_index, redact_set)
+    transcript_html = render_transcript(turns, entity_index, redact_set)  # legacy, unused now
+    notable_stories_html = render_notable_stories()
     lineage_tree_html = render_lineage_tree_section(portrait_map=portrait_map)
     migration_map_html = render_migration_map_section(deeds_map=deeds_map)
 
@@ -2870,7 +3064,7 @@ def build_html(family_only=True):
         <li><a href="#lineage">Family Tree</a></li>
         <li><a href="#timeline">Timeline</a></li>
         <li><a href="#map">Migration Map</a></li>
-        <li><a href="#transcript">The Interview</a></li>
+        <li><a href="#stories">Notable Stories</a></li>
         <li><a href="#cast">People</a></li>
         <li><a href="#places">Places</a></li>
         <li><a href="#events">Events</a></li>
@@ -2888,13 +3082,10 @@ def build_html(family_only=True):
 
     {migration_map_html}
 
-    <section id="transcript">
-      <h2>The Interview</h2>
-      <p><em>Tap or click any underlined name to jump to its entry below.</em></p>
-      <blockquote class="pull-quote">
-        She bought land in Reeves County, Texas in April 1901. That is a source for all the wells that we have now.
-      </blockquote>
-      {transcript_html}
+    <section id="stories">
+      <h2>Notable Stories from the Family</h2>
+      <p>Verifiable accounts of what your ancestors actually did — drawn from primary sources, county histories, newspaper archives, and genealogical records. Each story has at least one source URL you can verify yourself.</p>
+      {notable_stories_html}
     </section>
 
     <section id="cast">
