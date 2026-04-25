@@ -774,6 +774,183 @@ details.entity-card .entity-body {
 
 #lineage-tree-svg:active { cursor: grabbing; }
 
+/* ── Enhanced entity (cast) cards ────────────────────────────────── */
+
+.entity-card {
+  background: linear-gradient(170deg, rgba(20,16,11,0.55), rgba(15,12,9,0.7));
+  border: 1px solid rgba(212, 164, 88, 0.10);
+  border-left: 3px solid var(--gold);
+  border-radius: 4px;
+  margin: 16px 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.entity-card[open] {
+  border-left-color: #e8c280;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.4), 0 0 16px rgba(212, 164, 88, 0.04);
+}
+
+.entity-card summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 14px 22px;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  border-bottom: 1px dashed rgba(212, 164, 88, 0.08);
+}
+.entity-card summary::-webkit-details-marker { display: none; }
+.entity-card[open] summary { border-bottom-color: rgba(212, 164, 88, 0.18); }
+
+.entity-summary-name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  color: var(--ink-bright);
+  letter-spacing: 0.005em;
+  flex-grow: 1;
+}
+.entity-summary-meta {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.78em;
+  color: var(--gold-soft);
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+.entity-summary-sub {
+  width: 100%;
+  font-style: italic;
+  font-size: 0.92em;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.entity-body {
+  padding: 18px 22px 20px;
+  position: relative;
+}
+
+.entity-portrait-wrap {
+  float: right;
+  margin: 0 0 16px 20px;
+  text-align: center;
+  max-width: 180px;
+}
+.entity-portrait {
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 2px solid var(--gold-soft);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5), 0 0 0 1px rgba(0,0,0,0.4);
+  background: #0a0805;
+}
+.portrait-caption {
+  font-size: 0.72em;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin-top: 6px;
+  line-height: 1.3;
+}
+
+table.vital-stats {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 14px;
+  font-size: 0.95em;
+}
+table.vital-stats th {
+  text-align: left;
+  width: 28%;
+  padding: 4px 12px 4px 0;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold-soft);
+  vertical-align: top;
+}
+table.vital-stats td {
+  padding: 4px 0;
+  color: var(--ink);
+  vertical-align: top;
+}
+
+p.entity-bio {
+  line-height: 1.7;
+  margin: 8px 0 12px;
+  color: var(--ink);
+}
+
+.notable-deed-callout {
+  background: linear-gradient(150deg, rgba(212,164,88,0.08), rgba(184,130,106,0.04));
+  border-left: 2px solid var(--gold);
+  border-radius: 0 4px 4px 0;
+  padding: 14px 18px;
+  margin: 16px 0;
+  position: relative;
+  clear: both;
+}
+.notable-deed-label {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.72em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+.notable-deed-headline {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-style: italic;
+  font-size: 1.05em;
+  color: var(--ink-bright);
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+.notable-deed-story {
+  font-size: 0.95em;
+  line-height: 1.65;
+  margin: 0;
+  color: var(--ink);
+}
+
+.entity-links-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+  clear: both;
+  padding-top: 14px;
+  border-top: 1px dashed rgba(212, 164, 88, 0.08);
+}
+.ext-link {
+  display: inline-block;
+  padding: 5px 12px;
+  background: rgba(212, 164, 88, 0.08);
+  border: 1px solid rgba(212, 164, 88, 0.22);
+  border-radius: 14px;
+  color: var(--gold);
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.78em;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.ext-link:hover {
+  background: rgba(212, 164, 88, 0.16);
+  border-color: var(--gold);
+}
+.ext-link.wiki-link { background: rgba(212, 164, 88, 0.14); }
+
+@media (max-width: 600px) {
+  .entity-portrait-wrap { float: none; margin: 0 auto 16px; }
+  .entity-portrait { width: 120px; height: 150px; }
+  table.vital-stats th { width: 36%; font-size: 0.72em; }
+}
+
 /* ── Notable Stories cards ───────────────────────────────────────── */
 
 .story-era-heading {
@@ -1981,13 +2158,28 @@ def render_person_card(p, redact=False, portrait_map=None, deeds_map=None):
     years = f" ({b}–{d})" if b and d else (f" (b. {b})" if b else (f" (d. {d})" if d else ""))
     living = " " + render_confidence("living") if p.get("living_flag") else ""
     occupation = p.get("occupation")
+    enriched = p.get("enriched_context", "")
     context = p.get("context", "")
     bp = p.get("birth_place")
-    notes = p.get("notes") or p.get("notes_from_hunter") or ""
-    timestamps = p.get("transcript_timestamps", []) or []
+    dp = p.get("death_place")
+    spouse = p.get("spouse")
+    education = p.get("education")
+    branch = p.get("branch", "")
     confidence = p.get("confidence", "") or ""
+    sources = p.get("sources") or []
+    wiki_url = p.get("wikipedia_url") or ""
+    portrait_caption = p.get("portrait_caption", "")
 
-    # Build summary confidence decoration
+    # Subtitle for collapsed summary view
+    subtitle_bits = []
+    if relation:
+        subtitle_bits.append(relation)
+    if occupation:
+        subtitle_bits.append(occupation[:60])
+    elif bp:
+        subtitle_bits.append(f"of {bp}")
+    subtitle = " · ".join(subtitle_bits)
+
     conf_upper = confidence.upper()
     summary_badge = ""
     if "UNVERIFIED" in conf_upper:
@@ -1997,61 +2189,127 @@ def render_person_card(p, redact=False, portrait_map=None, deeds_map=None):
 
     body_parts = []
 
-    # Portrait (if available)
-    portrait_url = portrait_map.get(pid)
+    # Portrait (floated)
+    portrait_url = portrait_map.get(pid) or p.get("portrait_url")
     if portrait_url:
+        cap = f'<figcaption class="portrait-caption">{html.escape(portrait_caption)}</figcaption>' if portrait_caption else ''
         body_parts.append(
-            f'<div class="entity-portrait-wrap">'
+            f'<figure class="entity-portrait-wrap">'
             f'<img class="entity-portrait" src="{html.escape(portrait_url)}" '
             f'alt="Portrait of {html.escape(name)}" loading="lazy">'
-            f'</div>'
+            f'{cap}'
+            f'</figure>'
         )
 
+    # Vital stats — clean, scannable
+    vital_rows = []
     if relation:
-        body_parts.append(f'<p class="entity-meta">{html.escape(relation)}{years}{living}</p>')
-    if occupation:
-        body_parts.append(f"<p><strong>Occupation:</strong> {html.escape(occupation)}</p>")
+        vital_rows.append(("Relation", relation + (years if years else "") + living))
+    if b and d:
+        vital_rows.append(("Lifespan", f"{b}–{d} ({d-b} years)"))
+    elif b or d:
+        vital_rows.append(("Born/Died", years.strip().lstrip("(").rstrip(")")))
     if bp:
-        body_parts.append(f"<p><strong>Born:</strong> {html.escape(bp)}</p>")
+        vital_rows.append(("Birthplace", bp))
+    if dp:
+        vital_rows.append(("Died at", dp))
+    if spouse:
+        vital_rows.append(("Spouse", spouse))
+    if occupation:
+        vital_rows.append(("Occupation", occupation))
+    if education:
+        vital_rows.append(("Education", education))
+    if branch:
+        vital_rows.append(("Branch", branch))
+    if vital_rows:
+        rows_html = "\n".join(
+            f'<tr><th>{html.escape(k)}</th><td>{html.escape(v)}</td></tr>'
+            for k, v in vital_rows
+        )
+        body_parts.append(f'<table class="vital-stats">{rows_html}</table>')
 
-    # Confidence note for uncertain persons
+    # Confidence note
     if "UNVERIFIED" in conf_upper:
         body_parts.append(
-            f'<div class="confidence-question-badge">'
-            f'<span class="qmark">?</span>'
-            f' <span>UNVERIFIED — needs primary source research. Genealogical descent not yet confirmed.</span>'
-            f'</div>'
+            '<div class="confidence-question-badge">'
+            '<span class="qmark">?</span>'
+            ' <span>UNVERIFIED — needs primary source research. Genealogical descent not yet confirmed.</span>'
+            '</div>'
         )
     elif "POSSIBLE" in conf_upper:
         body_parts.append(
-            f'<div class="confidence-question-badge">'
-            f'<span class="qmark">?</span>'
-            f' <span>POSSIBLE — only one source / circumstantial evidence. Treat as working hypothesis.</span>'
-            f'</div>'
+            '<div class="confidence-question-badge">'
+            '<span class="qmark">?</span>'
+            ' <span>POSSIBLE — only one source / circumstantial evidence. Treat as working hypothesis.</span>'
+            '</div>'
         )
 
-    if context:
-        body_parts.append(f"<p>{html.escape(context)}</p>")
-    if notes and notes != context:
-        body_parts.append(f"<p><em>{html.escape(notes)}</em></p>")
-    if timestamps:
-        ts_str = ", ".join(timestamps)
-        body_parts.append(f'<p class="entity-meta">Mentioned at: {html.escape(ts_str)}</p>')
+    # Rich biographical narrative (prefer enriched_context)
+    bio = enriched or context
+    if bio:
+        body_parts.append(f'<p class="entity-bio">{html.escape(bio)}</p>')
 
-    # Notable Achievements (from 14-notable-deeds.json)
-    deeds = deeds_map.get(pid)
-    if deeds:
-        deeds_li = "\n".join(f"<li>{html.escape(d)}</li>" for d in deeds)
+    # Notable deed (rich version with story if available in entity.notable_deed)
+    nd = p.get("notable_deed") or {}
+    if isinstance(nd, dict) and nd.get("story"):
+        headline = nd.get("headline", "")
+        story = nd.get("story", "")
         body_parts.append(
-            f'<div class="entity-deeds">'
-            f'<p class="entity-deeds-title">Notable Achievements</p>'
-            f'<ul>{deeds_li}</ul>'
-            f'</div>'
+            f'<aside class="notable-deed-callout">'
+            f'<div class="notable-deed-label">Notable</div>'
+            f'<div class="notable-deed-headline">{html.escape(headline)}</div>'
+            f'<p class="notable-deed-story">{html.escape(story)}</p>'
+            f'</aside>'
         )
+    else:
+        deeds = deeds_map.get(pid)
+        if deeds:
+            deeds_li = "\n".join(f"<li>{html.escape(d)}</li>" for d in deeds)
+            body_parts.append(
+                f'<div class="entity-deeds">'
+                f'<p class="entity-deeds-title">Notable</p>'
+                f'<ul>{deeds_li}</ul>'
+                f'</div>'
+            )
+
+    # External links — Wikipedia, FamilySearch, WikiTree, etc.
+    link_buttons = []
+    if wiki_url:
+        link_buttons.append(f'<a class="ext-link wiki-link" href="{html.escape(wiki_url)}" target="_blank" rel="noopener">📖 Wikipedia</a>')
+    for src in sources:
+        if not isinstance(src, str) or not src.startswith("http"):
+            continue
+        if "wikitree" in src:
+            link_buttons.append(f'<a class="ext-link" href="{html.escape(src)}" target="_blank" rel="noopener">🌳 WikiTree</a>')
+        elif "familysearch" in src:
+            link_buttons.append(f'<a class="ext-link" href="{html.escape(src)}" target="_blank" rel="noopener">🔍 FamilySearch</a>')
+        elif "findagrave" in src:
+            link_buttons.append(f'<a class="ext-link" href="{html.escape(src)}" target="_blank" rel="noopener">🪦 Find a Grave</a>')
+        elif "loc.gov" in src:
+            link_buttons.append(f'<a class="ext-link" href="{html.escape(src)}" target="_blank" rel="noopener">📜 Library of Congress</a>')
+        elif "archive.org" in src:
+            link_buttons.append(f'<a class="ext-link" href="{html.escape(src)}" target="_blank" rel="noopener">📚 Internet Archive</a>')
+        else:
+            link_buttons.append(f'<a class="ext-link" href="{html.escape(src)}" target="_blank" rel="noopener">🔗 Source</a>')
+    if link_buttons:
+        body_parts.append(f'<div class="entity-links-row">{"".join(link_buttons[:6])}</div>')
 
     body = "\n".join(body_parts)
-    return f'''<details class="entity-card" id="{pid}">
-  <summary>{html.escape(name)}{years}{summary_badge}</summary>
+
+    # Direct-line ancestors should be open by default
+    direct_line_ids = {"p070", "p071", "p072", "p073", "p062", "p060", "p028", "p039",
+                      "p043", "p044", "p041", "p002", "p000", "p014", "p011"}
+    open_attr = " open" if pid in direct_line_ids else ""
+
+    summary_html = (
+        f'<div class="entity-summary-name">{html.escape(name)}</div>'
+        f'<div class="entity-summary-meta">{html.escape(years.strip())}{summary_badge}</div>'
+    )
+    if subtitle:
+        summary_html += f'<div class="entity-summary-sub">{html.escape(subtitle)}</div>'
+
+    return f'''<details class="entity-card" id="{pid}"{open_attr}>
+  <summary>{summary_html}</summary>
   <div class="entity-body">
 {body}
   </div>
@@ -2352,8 +2610,8 @@ const lineageData = JSON.parse(document.getElementById('lineage-tree-data').text
 // Canvas dimensions — wider cards for portrait integration
 const W = 3600;
 const H = 3200;
-const NW = 280;   // node width — wider for readable text
-const NH = 110;   // node height — taller for readable text
+const NW = 220;   // node width — compact so more nodes fit
+const NH = 76;    // node height — compact so the tree breathes vertically
 const SPINE = 68; // left margin for generation labels
 const M = { top: 56, right: 36, bottom: 72, left: SPINE + 12 };
 
@@ -2801,47 +3059,46 @@ nodeGroups.filter(d => d.data.confidence === 'possible')
 // Name line
 cardG.append("text")
   .attr("x", d => d.data.portrait_url ? (TEXT_X_PORT - NW/2 + PORT_R) : 0)
-  .attr("y", -24)
+  .attr("y", -16)
   .attr("text-anchor", d => d.data.portrait_url ? "start" : "middle")
   .attr("font-family", "'Cormorant Garamond', 'Lora', Georgia, serif")
   .attr("font-weight", "700")
-  .attr("font-size", "17px")
+  .attr("font-size", "13px")
   .attr("letter-spacing", "0.01em")
   .attr("fill", d => nodeTextColor(d.depth))
-  .text(d => truncate(d.data.name, d.data.portrait_url ? 24 : 30));
+  .text(d => truncate(d.data.name, d.data.portrait_url ? 21 : 28));
 
-// Dates — monospaced, more readable
+// Dates — monospaced
 cardG.append("text")
   .attr("x", d => d.data.portrait_url ? (TEXT_X_PORT - NW/2 + PORT_R) : 0)
-  .attr("y", -4)
+  .attr("y", -1)
   .attr("text-anchor", d => d.data.portrait_url ? "start" : "middle")
   .attr("font-family", "'Source Code Pro', 'Courier New', monospace")
-  .attr("font-size", "13px")
-  .attr("letter-spacing", "0.03em")
-  .attr("font-weight", "600")
+  .attr("font-size", "10.5px")
+  .attr("letter-spacing", "0.02em")
   .attr("fill", d => nodeDateColor(d.depth))
   .text(d => d.data.dates);
 
 // Fact line — italic
 cardG.append("text")
   .attr("x", d => d.data.portrait_url ? (TEXT_X_PORT - NW/2 + PORT_R) : 0)
-  .attr("y", 22)
+  .attr("y", 14)
   .attr("text-anchor", d => d.data.portrait_url ? "start" : "middle")
   .attr("font-family", "'Lora', Georgia, serif")
   .attr("font-style", "italic")
-  .attr("font-size", "11.5px")
+  .attr("font-size", "9.5px")
   .attr("fill", d => nodeFactColor(d.depth))
-  .text(d => truncate(d.data.fact, d.data.portrait_url ? 32 : 42));
+  .text(d => truncate(d.data.fact, d.data.portrait_url ? 28 : 38));
 
-// Spouse line — small, when present
+// Spouse line — when present
 cardG.filter(d => d.data.spouse).append("text")
   .attr("x", d => d.data.portrait_url ? (TEXT_X_PORT - NW/2 + PORT_R) : 0)
-  .attr("y", 40)
+  .attr("y", 28)
   .attr("text-anchor", d => d.data.portrait_url ? "start" : "middle")
   .attr("font-family", "'Lora', Georgia, serif")
-  .attr("font-size", "10px")
+  .attr("font-size", "9px")
   .attr("fill", d => nodeFactColor(d.depth))
-  .text(d => "m. " + truncate(d.data.spouse, d.data.portrait_url ? 30 : 40));
+  .text(d => "m. " + truncate(d.data.spouse, d.data.portrait_url ? 26 : 36));
 
 // ── Generation badge (top-left diamond) ─────────────────────────
 const badgeX = -NW/2 + 11;
