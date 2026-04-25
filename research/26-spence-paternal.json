@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "file": "26-spence-paternal.json",
+    "prepared": "2026-04-25",
+    "researcher": "Researcher Specialist (claude-sonnet-4-6)",
+    "subject": "Spence paternal surname line — Hunter Spence's grandfather David Spence",
+    "confidence_tiers": {
+      "HIGH": "Documentary record or multiple concordant primary sources",
+      "MEDIUM": "Documented in reputable genealogy/encyclopedia sources, not independently cross-checked against primary records",
+      "LOW": "Plausible inference from patterns",
+      "UNVERIFIED": "Family context only, not confirmed in public records"
+    }
+  },
+  "david_spence": {
+    "id": "david_spence",
+    "name": "David Spence",
+    "relationship_to_hunter": "paternal grandfather (father's father)",
+    "approximate_birth_year_range": "1944-1948",
+    "birth_year_derivation": "~80 years old as described in Shari Mattingly's interview context, 2025-2026",
+    "birth_state_hypothesis": "Texas",
+    "birth_state_confidence": "UNVERIFIED",
+    "birth_state_reasoning": "Inferred from San Antonio context of Shari Mattingly; Scottish-Scots-Irish settlement patterns in Central/South Texas consistent with Spence surname trajectory",
+    "status_as_of_2026": "Living (per family interview context)",
+    "marriage": {
+      "spouse": "Sharyn 'Shari' Mattingly (b. 1947)",
+      "order": "Shari's first husband",
+      "estimated_marriage_date_range": "1965-1972",
+      "estimated_marriage_location": "Texas (Bexar County / San Antonio probable)",
+      "confidence": "UNVERIFIED"
+    },
+    "parents": {
+      "note": "Unknown — require primary records (Texas birth certificate, 1940-1950 census)",
+      "estimated_parent_birth_range": "1915-1925"
+    },
+    "privacy_note": "Specific identifying details redacted per living-person standards. Research framework documents surname line without exposing private information."
+  },
+  "surname_etymology": {
+    "surname": "Spence",
+    "language_of_origin": "Old French via Middle English",
+    "root_word": "despense",
+    "latin_root": "dispendere",
+    "latin_meaning": "to dispense, to weigh out",
+    "middle_english_form": "spense",
+    "middle_english_meaning": "larder, storeroom, pantry",
+    "occupational_meaning": "Person in charge of the pantry or food store of a great house, monastery, or castle — a position of middle-rank trust",
+    "confidence": "HIGH",
+    "sources": ["HouseOfNames.com", "Forebears.io"],
+    "heraldry": {
+      "shield_device": "Three covered cups (goblets)",
+      "symbolism": "Direct reference to the pantry/dispensary role",
+      "origin_countries": ["England", "Scotland", "Ireland"]
+    },
+    "variant_forms": ["Spens", "Spense", "Spenceley", "Spencley", "Spencer"],
+    "relation_to_spencer": "Spencer is the extended occupational form meaning 'one who works the spence'; same root"
+  },
+  "first_documentary_record": {
+    "person": "Simon del Spens (also 'de la Despense')",
+    "year": 1300,
+    "location": "Charters of Guisburn Priory, Yorkshire, England",
+    "confidence": "HIGH",
+    "source": "HouseOfNames.com citing genealogical scholarship"
+  },
+  "early_records": [
+    {
+      "person": "Amice ate Spense",
+      "year": 1327,
+      "location": "Subsidy Rolls of Essex, England",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "William atte Spence",
+      "year": 1327,
+      "location": "Subsidy Rolls of Worcester, England",
+      "confidence": "HIGH"
+    }
+  ],
+  "american_arrivals_documented": [
+    {
+      "person": "Mrs. Spence (unnamed)",
+      "year": 1623,
+      "location": "Virginia",
+      "record": "Governor's lists of inhabitants, February 16, 1623",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "William Spence, wife, child",
+      "year": 1623,
+      "location": "James's Island, Virginia",
+      "record": "Governor's census of 1623",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "Sara Spence",
+      "year": 1623,
+      "location": "Virginia",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "Sarah Spence",
+      "year": 1624,
+      "location": "Jamestown, Virginia",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "Francis Spence",
+      "year": 1634,
+      "age_at_arrival": 23,
+      "ship": "Bonaventure",
+      "via": "St. Domingo",
+      "location": "Virginia",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "Ringin Spence",
+      "year": 1715,
+      "location": "Virginia",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "Rachel Spence",
+      "year": "1738-1739",
+      "location": "Philadelphia, Pennsylvania",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "Thomas Spence",
+      "year": 1760,
+      "location": "New Jersey",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "Catherine Spence",
+      "year": 1760,
+      "location": "Virginia",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "John Russell Spence",
+      "year": 1768,
+      "location": "New England",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "Barbara Spence",
+      "year": 1803,
+      "age_at_arrival": 24,
+      "location": "New York, NY",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "Patrick Spence",
+      "year": 1808,
+      "location": "South Carolina",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "Charles Spence",
+      "year": 1815,
+      "location": "New York",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "Joseph Spence",
+      "year": 1818,
+      "location": "Washington County, Pennsylvania",
+      "confidence": "HIGH"
+    },
+    {
+      "person": "James Spence",
+      "year": 1830,
+      "location": "Allegheny County, Pennsylvania",
+      "confidence": "HIGH"
+    }
+  ],
+  "source_all_arrivals": "Passenger and Immigration Lists Index, Filby & Meyer, Gale Research Co., 1982-1985 (ISBN 0-8103-1795-8)",
+  "notable_connection_james_monroe": {
+    "claim": "Patrick Spence migrated to Virginia and was great-grandfather of James Monroe, 5th President of the United States",
+    "confidence": "MEDIUM",
+    "source": "HouseOfNames.com (citing genealogical scholarship)",
+    "corroboration": "James Monroe's Wikipedia article confirms his father's full name was 'Andrew Spence Monroe' and that Monroe named one of his brothers 'Spence', indicating the Spence name was a significant maternal family name passed down as a given name",
+    "monroe_born": "April 28, 1758, Westmoreland County, Virginia",
+    "monroe_fathers_name": "Andrew Spence Monroe",
+    "connection_type": "Monroe's mother's maternal grandfather was reportedly Patrick Spence, a Virginia Spence settler",
+    "note_for_hunter": "If David Spence's line connects to the same Virginia Spence stock, Hunter would have a distant shared-surname ancestry with the President's maternal line. Cannot be confirmed without primary genealogical records."
+  },
+  "migration_corridor_hypothesis": {
+    "path": [
+      "England/Scotland (pre-1700)",
+      "Virginia/Maryland (1620s-1750s)",
+      "Appalachian interior — Tennessee/Kentucky (1750s-1820s)",
+      "Deep South — Alabama/Mississippi/Georgia (1820s-1850s)",
+      "Texas (1840s onward)"
+    ],
+    "confidence": "LOW (general pattern, not confirmed for David's specific line)",
+    "supporting_evidence": "Scottish settlement patterns in Texas documented by Texas State Historical Association; Scots arrived singly or in small groups in Texas from 1825 onward; Bexar County (San Antonio) had established Anglo-American settler families by 1840s",
+    "estimated_texas_arrival_of_spence_ancestor": "1840s-1880s (third or fourth generation by David's birth ~1945)"
+  },
+  "global_distribution": {
+    "total_worldwide": 100165,
+    "global_rank": "5,643rd",
+    "frequency": "1 in 72,755",
+    "most_prevalent_country": "United States",
+    "data_source": "Forebears.io (~2014 data)",
+    "by_country": [
+      {"country": "United States", "count": 48186, "frequency": "1 in 7,522", "rank": 894},
+      {"country": "England", "count": 14198, "frequency": "1 in 3,924", "rank": 520},
+      {"country": "Canada", "count": 10528, "frequency": "1 in 3,500", "rank": 456},
+      {"country": "Jamaica", "count": 8194, "frequency": "1 in 350", "rank": 66},
+      {"country": "Australia", "count": 6417, "frequency": "1 in 4,207", "rank": 609},
+      {"country": "Scotland", "count": 4663, "frequency": "1 in 1,148", "rank": 190},
+      {"country": "Northern Ireland", "count": 2094, "frequency": "1 in 881", "rank": 166}
+    ],
+    "us_rank": 808,
+    "us_count_estimate": 37305,
+    "us_source": "NameCensus.com"
+  },
+  "notable_spences": [
+    {
+      "name": "Thomas Spence",
+      "years": "1750-1814",
+      "nationality": "English",
+      "claim_to_fame": "Radical land reformer and agrarian activist; author of Spence's Plan (land nationalization); imprisoned in Newgate Gaol 1794 for high treason charge; sentenced 1801 for seditious libel",
+      "birth_place": "Newcastle upon Tyne",
+      "religion": "Presbyterian",
+      "confidence": "HIGH",
+      "source": "Wikipedia"
+    },
+    {
+      "name": "Basil Spence",
+      "years": "1907-1976",
+      "nationality": "British (born British India)",
+      "claim_to_fame": "Architect; won competition to rebuild Coventry Cathedral (completed 1962), one of Britain's most significant modern buildings; knighted 1960",
+      "birth_place": "Bombay, British India",
+      "father": "Urwin Archibald Spence (assayer, Royal Mint)",
+      "education": "George Watson's College Edinburgh; Edinburgh College of Art",
+      "confidence": "HIGH",
+      "source": "Wikipedia"
+    },
+    {
+      "name": "Gerry Spence",
+      "years": "1929-2025",
+      "nationality": "American",
+      "claim_to_fame": "Trial lawyer famous for never losing a criminal case; defended Karen Silkwood estate, Randy Weaver (Ruby Ridge), acquitted Imelda Marcos; graduated first in University of Wyoming Law class of 1952",
+      "birth_place": "Laramie, Wyoming",
+      "confidence": "HIGH",
+      "source": "Wikipedia"
+    },
+    {
+      "name": "Brent Spence",
+      "years": "1874-1967",
+      "nationality": "American",
+      "claim_to_fame": "US Congressman from Kentucky 5th District 1931-1963; Brent Spence Bridge over Ohio River at Cincinnati named for him",
+      "birth_place": "Newport, Kentucky",
+      "parents": "Philip Spence and Virginia (Berry) Spence",
+      "confidence": "HIGH",
+      "source": "Wikipedia"
+    },
+    {
+      "name": "Catherine Helen Spence",
+      "years": "1825-1910",
+      "nationality": "Scottish-Australian",
+      "claim_to_fame": "Novelist, journalist, women's suffrage leader; first woman to stand for political office in Australia (1897)",
+      "birth_place": "Melrose, Scotland",
+      "emigrated": "South Australia, 1839",
+      "confidence": "HIGH",
+      "source": "Wikipedia"
+    },
+    {
+      "name": "Skip Spence",
+      "years": "1946-1999",
+      "nationality": "Canadian-American",
+      "claim_to_fame": "Rock musician; co-founder Moby Grape; drummer on Jefferson Airplane debut album; solo album 'Oar' (1969)",
+      "birth_name": "Alexander Lee Spence Jr.",
+      "birth_place": "Windsor, Ontario, Canada",
+      "confidence": "HIGH",
+      "source": "Wikipedia"
+    },
+    {
+      "name": "Errol Spence Jr.",
+      "years": "born 1990",
+      "nationality": "American",
+      "claim_to_fame": "Professional boxer; former unified WBA/WBC/IBF welterweight champion",
+      "birth_place": "Long Island, New York",
+      "based": "DeSoto, Texas",
+      "note": "Different ethnic origin (African-American) from the Scottish-lineage Spence line; included for Texas Spence presence context",
+      "confidence": "HIGH",
+      "source": "Wikipedia"
+    },
+    {
+      "name": "Patrick Spence (Virginia settler)",
+      "years": "17th century (exact dates unknown)",
+      "nationality": "Scottish or English",
+      "claim_to_fame": "Migrated to Virginia; documented as great-grandfather of President James Monroe (via Monroe's maternal line)",
+      "confidence": "MEDIUM",
+      "source": "HouseOfNames.com; partially corroborated by Monroe Wikipedia article"
+    }
+  ],
+  "recommended_next_research_steps": [
+    {
+      "step": 1,
+      "action": "Search FamilySearch.org Texas Birth Certificates 1940-1950 for David Spence",
+      "url": "https://www.familysearch.org/search/collection/1709805",
+      "notes": "Free with account; Texas registered births post-1903"
+    },
+    {
+      "step": 2,
+      "action": "Search Texas Marriage Index for Spence + Mattingly, 1965-1972",
+      "url": "https://www.familysearch.org/search/collection/1683681",
+      "notes": "Bexar County (San Antonio) most likely; search statewide"
+    },
+    {
+      "step": 3,
+      "action": "Search 1940 US Census for Spence families in Bexar County and Travis County Texas",
+      "url": "https://www.ancestry.com/search/collections/2442/",
+      "notes": "David's father would appear as a child (born ~1915-1920); look for households with children named David ~1943-1948"
+    },
+    {
+      "step": 4,
+      "action": "WikiTree Spence surname project",
+      "url": "https://www.wikitree.com/wiki/Spence-4",
+      "notes": "Collaborative tree; search for Texas Spence profiles"
+    },
+    {
+      "step": 5,
+      "action": "Texas Vital Statistics — birth certificate request",
+      "url": "https://www.dshs.texas.gov/vital-statistics/vital-records-request",
+      "notes": "Can request birth certificate if you are a direct descendant; Hunter qualifies as grandchild"
+    }
+  ],
+  "research_confidence_summary": {
+    "surname_etymology": "HIGH",
+    "first_documentary_record": "HIGH",
+    "american_arrival_records": "HIGH",
+    "patrick_spence_monroe_connection": "MEDIUM",
+    "migration_to_texas_pattern": "LOW (general pattern established)",
+    "david_spence_vital_records": "UNVERIFIED (requires primary sources)",
+    "david_spence_parents": "UNVERIFIED"
+  }
+}
