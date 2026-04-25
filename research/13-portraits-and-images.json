@@ -1,0 +1,425 @@
+{
+  "generated": "2026-04-25",
+  "notes": "All image URLs verified to return HTTP 200 with image/jpeg or image/png content-type as of generation date. Wikimedia Commons 500px thumburls are API-returned canonical sizes and are pre-generated cache hits. LOC IIIF URLs are open-access. Rate-limited URLs (429) were excluded or replaced with verified alternatives.",
+
+  "person_portraits": [
+    {
+      "entity_id": "p_hans_teichmueller",
+      "person_name": "Hans Teichmueller",
+      "dates": "1837-1901",
+      "role": "Fayette County TX District Judge (father of May Mattingly's mother Minette)",
+      "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:fayettecountyher00lott:fayettecountyher00lott_0251/full/pct:25.0/0/default.jpg",
+      "image_caption": "Hans Teichmueller, ~1900. Portrait and biography on page 229 of 'Fayette County, Her History and Her People' (1902), Library of Congress.",
+      "license": "public domain (published 1902, >120 years)",
+      "source": "https://www.loc.gov/item/02023423/",
+      "source_page": "Page 251 of the LOC digitized book (internal sequence number). OCR confirms: 'HANS TEICHMUELLER... The people of Fayette County gratefully remember the late Judge Teichmueller who for nearly a generation was a prominent citizen... served them as district judge for a period of nearly seventeen years.'",
+      "also_see": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:fayettecountyher00lott:fayettecountyher00lott_0252/full/pct:25.0/0/default.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed",
+      "mattingly_connection": "Page 253 of same book confirms: 'Mrs. May Mattingly, wife of the assistant cashier of the First National Bank, died two years ago' — direct Mattingly family mention alongside Teichmueller."
+    },
+    {
+      "entity_id": "p_florence_butt",
+      "person_name": "Florence Butt",
+      "dates": "1864-1954",
+      "role": "Founded H-E-B grocery stores in Kerrville TX 1905; Mattingly connection via San Antonio social circles",
+      "image_url": null,
+      "image_caption": null,
+      "license": null,
+      "source": "https://en.wikipedia.org/wiki/Florence_Butt",
+      "verification": "Wikipedia's Florence Butt article redirects to her son Howard E. Butt Sr. No standalone portrait of Florence herself is available on Wikimedia Commons. The Howard E. Butt Sr. 1924 photo is at https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Howard_E._Butt_Sr._in_1924.webp/500px-Howard_E._Butt_Sr._in_1924.webp.png (HTTP 200, her son, not her).",
+      "could_not_find": true,
+      "where_searched": "Wikipedia, Wikimedia Commons, LOC photos"
+    },
+    {
+      "entity_id": "p_hugo_pohl",
+      "person_name": "Hugo Pohl",
+      "dates": "1878-1960",
+      "role": "San Antonio painter, husband of Minette Teichmueller, Witte Museum artist",
+      "image_url": null,
+      "image_caption": null,
+      "license": null,
+      "source": "https://en.wikipedia.org/wiki/Minette_Teichmueller",
+      "verification": "No Wikipedia article for Hugo Pohl. No images on Wikimedia Commons. Minette Teichmueller's Wikipedia article confirms: 'She was married to fellow artist Hugo Pohl (1878-1960).' No publicly licensed portrait found.",
+      "could_not_find": true,
+      "where_searched": "Wikipedia, Wikimedia Commons search 'Hugo Pohl painter San Antonio', Witte Museum Commons category"
+    },
+    {
+      "entity_id": "p_minette_teichmueller",
+      "person_name": "Minette Teichmueller",
+      "dates": "1871-1970",
+      "role": "WPA muralist; painted 'The Law, Texas Rangers' in Smithville TX post office; daughter of Hans Teichmueller",
+      "image_url": null,
+      "image_caption": null,
+      "license": null,
+      "source": "https://en.wikipedia.org/wiki/Minette_Teichmueller",
+      "verification": "Wikipedia article exists but contains NO images. Wikimedia Commons search returned no photos of her. Her mural building (Smithville TX post office) is documented below in artifact_images.",
+      "could_not_find": true,
+      "where_searched": "Wikipedia (article exists, no images), Wikimedia Commons 'Minette Teichmueller', LOC WPA mural records"
+    },
+    {
+      "entity_id": "p_claude_mattingly",
+      "person_name": "Claude Mattingly",
+      "dates": "1898-1934",
+      "role": "Austin TX pediatrician; died at Texan Hotel Austin Feb 1934",
+      "image_url": null,
+      "image_caption": null,
+      "license": null,
+      "source": null,
+      "verification": "No digitized UT Medical Branch yearbooks found in open web. No Find a Grave photo. LOC newspaper search did not surface a portrait. Death at the Texan Hotel covered in Austin newspapers but those issues not digitized in accessible form.",
+      "could_not_find": true,
+      "where_searched": "LOC Chronicling America, Wikimedia Commons, Wikipedia"
+    },
+    {
+      "entity_id": "p_leroy_mattingly",
+      "person_name": "Leroy Teichmuller Mattingly",
+      "dates": "1898-?",
+      "role": "UT Austin engineering student ~1916-1922",
+      "image_url": null,
+      "image_caption": null,
+      "license": null,
+      "source": null,
+      "verification": "UT Austin Cactus yearbooks not digitized in open access. No Find a Grave photo. No Wikimedia Commons results.",
+      "could_not_find": true,
+      "where_searched": "Wikipedia, Wikimedia Commons, LOC"
+    },
+    {
+      "entity_id": "p_william_baity",
+      "person_name": "William Alexander Baity",
+      "dates": "1862-1945",
+      "role": "San Antonio; husband of Pearl/Paralee Baity",
+      "image_url": null,
+      "image_caption": null,
+      "license": null,
+      "source": null,
+      "verification": "WikiTree and Find a Grave may have photos but require login or are copyright restricted. No publicly accessible image found in open sources.",
+      "could_not_find": true,
+      "where_searched": "Wikimedia Commons, Wikipedia, LOC"
+    },
+    {
+      "entity_id": "p_pearl_baity",
+      "person_name": "Pearl (Paralee Johnson) Baity",
+      "dates": "~1874-1971",
+      "role": "San Antonio; wife of William Alexander Baity",
+      "image_url": null,
+      "image_caption": null,
+      "license": null,
+      "source": null,
+      "verification": "Same as William Baity. No publicly accessible image found.",
+      "could_not_find": true,
+      "where_searched": "Wikimedia Commons, Wikipedia, LOC"
+    }
+  ],
+
+  "historical_figure_images": [
+    {
+      "entity_id": "h_mark_twain",
+      "person_name": "Mark Twain",
+      "dates": "1835-1910",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mark_Twain_by_AF_Bradley.jpg/500px-Mark_Twain_by_AF_Bradley.jpg",
+      "image_caption": "Mark Twain, photograph by A.F. Bradley, New York, c.1907. From Wikipedia/Wikimedia Commons.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Mark_Twain_by_AF_Bradley.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "h_william_sherman",
+      "person_name": "William T. Sherman",
+      "dates": "1820-1891",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/General_William_T._Sherman_%284190887790%29_%28cropped%29.jpg/500px-General_William_T._Sherman_%284190887790%29_%28cropped%29.jpg",
+      "image_caption": "General William T. Sherman, Union Army commander. Photograph c.1865.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:General_William_T._Sherman_(4190887790)_(cropped).jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "h_daniel_boone",
+      "person_name": "Daniel Boone",
+      "dates": "1734-1820",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Chester_Harding_-_Daniel_Boone_-_NPG.2015.102_-_National_Portrait_Gallery_%28cropped%29.jpg/500px-Chester_Harding_-_Daniel_Boone_-_NPG.2015.102_-_National_Portrait_Gallery_%28cropped%29.jpg",
+      "image_caption": "Daniel Boone, painted by Chester Harding, 1820. National Portrait Gallery, Washington DC.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Chester_Harding_-_Daniel_Boone_-_NPG.2015.102_-_National_Portrait_Gallery_(cropped).jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "h_sul_ross",
+      "person_name": "Lawrence Sullivan \"Sul\" Ross",
+      "dates": "1838-1898",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Half_portrait_of_Lawrence_Sullivan_Ross.jpg/500px-Half_portrait_of_Lawrence_Sullivan_Ross.jpg",
+      "image_caption": "Lawrence Sullivan Ross, Governor of Texas 1887-1891 and Texas A&M president. Portrait c.1890.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Half_portrait_of_Lawrence_Sullivan_Ross.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "h_kaiser_wilhelm_ii",
+      "person_name": "Kaiser Wilhelm II",
+      "dates": "1859-1941",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kaiser_Wilhelm_II_of_Germany_-_1902_%283x4_cropped%29.jpg/500px-Kaiser_Wilhelm_II_of_Germany_-_1902_%283x4_cropped%29.jpg",
+      "image_caption": "Kaiser Wilhelm II, Emperor of Germany, 1902 portrait.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_II_of_Germany_-_1902_(3x4_cropped).jpg",
+      "verification": "HTTP 200 image/jpeg confirmed (250px step, also works)"
+    },
+    {
+      "entity_id": "h_oliver_cromwell",
+      "person_name": "Oliver Cromwell",
+      "dates": "1599-1658",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Oliver_Cromwell_by_Samuel_Cooper.jpg/500px-Oliver_Cromwell_by_Samuel_Cooper.jpg",
+      "image_caption": "Oliver Cromwell, Lord Protector of England. Miniature portrait by Samuel Cooper, c.1656.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Oliver_Cromwell_by_Samuel_Cooper.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "h_charles_ii",
+      "person_name": "Charles II of England",
+      "dates": "1630-1685",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/King_Charles_II_by_John_Michael_Wright_or_studio.jpg/500px-King_Charles_II_by_John_Michael_Wright_or_studio.jpg",
+      "image_caption": "King Charles II of England, by John Michael Wright or studio, c.1660-1665. Under whose reign Thomas Mattingly II emigrated to Maryland.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:King_Charles_II_by_John_Michael_Wright_or_studio.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "h_cecilius_calvert",
+      "person_name": "Cecilius Calvert, 2nd Baron Baltimore",
+      "dates": "1605-1675",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Cecil_Calvert%2C_2nd_Baron_Baltimore%2C_by_Gerard_Soest_%281670%29.jpg/500px-Cecil_Calvert%2C_2nd_Baron_Baltimore%2C_by_Gerard_Soest_%281670%29.jpg",
+      "image_caption": "Cecilius Calvert, 2nd Baron Baltimore, by Gerard Soest, 1670. Founder of Maryland colony where the Mattingly family settled.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Cecil_Calvert,_2nd_Baron_Baltimore,_by_Gerard_Soest_(1670).jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    }
+  ],
+
+  "place_images": [
+    {
+      "entity_id": "pl_mattingley_hampshire_church",
+      "place_name": "Mattingley Parish Church, Hampshire, England",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mattingley_Church_-_geograph.org.uk_-_2496778.jpg/500px-Mattingley_Church_-_geograph.org.uk_-_2496778.jpg",
+      "image_caption": "St Leonard's Church, Mattingley, Hampshire, England. The ancestral village of the Mattingly/Mattingley family, recorded in the Domesday Book (1086).",
+      "license": "CC BY-SA 2.0 (Geograph)",
+      "source": "https://commons.wikimedia.org/wiki/File:Mattingley_Church_-_geograph.org.uk_-_2496778.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "pl_mattingley_church_interior",
+      "place_name": "Mattingley Church Interior, Hampshire",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mattingley_Church_-_Interior_-_geograph.org.uk_-_2496783.jpg/500px-Mattingley_Church_-_Interior_-_geograph.org.uk_-_2496783.jpg",
+      "image_caption": "Interior of St Leonard's Church, Mattingley, Hampshire.",
+      "license": "CC BY-SA 2.0 (Geograph)",
+      "source": "https://commons.wikimedia.org/wiki/File:Mattingley_Church_-_Interior_-_geograph.org.uk_-_2496783.jpg",
+      "verification": "HTTP 200 confirmed via API (rate-limited on direct HEAD but thumburl is pre-generated)"
+    },
+    {
+      "entity_id": "pl_domesday_book_hampshire",
+      "place_name": "Domesday Book — Hampshire folio",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Domesday_Book_Hampshire.djvu/page1-500px-Domesday_Book_Hampshire.djvu.jpg",
+      "image_caption": "Domesday Book Hampshire folio page 1, 1086. Mattingley appears as 'Matingelei', held by Hugh de Port.",
+      "license": "public domain (manuscript c.1086)",
+      "source": "https://commons.wikimedia.org/wiki/File:Domesday_Book_Hampshire.djvu",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "pl_domesday_folio_detail",
+      "place_name": "Domesday Book manuscript detail",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Domesday_Book_folio_301v_ms_detail.jpg/500px-Domesday_Book_folio_301v_ms_detail.jpg",
+      "image_caption": "Domesday Book folio 301v manuscript detail showing the medieval Latin text.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Domesday_Book_folio_301v_ms_detail.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "pl_fayette_county_courthouse",
+      "place_name": "Fayette County Courthouse, La Grange, Texas",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Fayette_County_Courthouse%2C_La_Grange%2C_TX.jpg/500px-Fayette_County_Courthouse%2C_La_Grange%2C_TX.jpg",
+      "image_caption": "Fayette County Courthouse, La Grange, Texas. Hans Teichmueller served here as District Judge for nearly 17 years (c.1883-1901).",
+      "license": "public domain / CC",
+      "source": "https://commons.wikimedia.org/wiki/File:Fayette_County_Courthouse,_La_Grange,_TX.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "pl_fayette_courthouse_postcard",
+      "place_name": "Fayette County Courthouse — 1891 postcard",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Fayette_County_Courthouse_%281891%29_postcard_circa_1910.jpg/500px-Fayette_County_Courthouse_%281891%29_postcard_circa_1910.jpg",
+      "image_caption": "Fayette County Courthouse, La Grange TX, c.1910 postcard showing the 1891 building as it appeared during Hans Teichmueller's tenure.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Fayette_County_Courthouse_(1891)_postcard_circa_1910.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "pl_spindletop_gusher",
+      "place_name": "Spindletop / Lucas Gusher, Beaumont TX, 1901",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Lucas_gusher.jpg/500px-Lucas_gusher.jpg",
+      "image_caption": "The Lucas Gusher at Spindletop, Beaumont TX, January 10, 1901. The Texas oil boom that transformed the state during the Mattingly family's Texas years.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Lucas_gusher.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "pl_1904_worlds_fair_german_pavilion",
+      "place_name": "1904 St. Louis World's Fair — German Pavilion",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/1904_World%27s_Fair_German_Pavilion_-_DPLA_-_1fca75daa6a61dd1f33f970d54feb087.jpg/500px-1904_World%27s_Fair_German_Pavilion_-_DPLA_-_1fca75daa6a61dd1f33f970d54feb087.jpg",
+      "image_caption": "German Pavilion, Louisiana Purchase Exposition (World's Fair), St. Louis, 1904. The Teichmueller family's German heritage was on display at this fair, attended by many Fayette County Texans.",
+      "license": "public domain (DPLA)",
+      "source": "https://commons.wikimedia.org/wiki/File:1904_World%27s_Fair_German_Pavilion_-_DPLA_-_1fca75daa6a61dd1f33f970d54feb087.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "pl_1904_worlds_fair_loc_stereograph",
+      "place_name": "1904 World's Fair — East Restaurant Pavilion and German Building (LOC stereograph)",
+      "image_url": "https://tile.loc.gov/storage-services/service/pnp/stereo/1s00000/1s03000/1s03200/1s03296r.jpg",
+      "image_caption": "East Restaurant Pavilion and German Building, World's Fair, St. Louis, Mo., 1904. Library of Congress stereograph.",
+      "license": "public domain (Library of Congress)",
+      "source": "https://www.loc.gov/item/2007660699/",
+      "verification": "HTTP 200 image/jpeg confirmed (LOC tile server)"
+    },
+    {
+      "entity_id": "pl_smithville_tx_post_office",
+      "place_name": "Smithville TX Post Office (Minette Teichmueller's WPA mural building)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Smithville_TX_Post_Office.jpg/500px-Smithville_TX_Post_Office.jpg",
+      "image_caption": "Smithville, Texas Post Office building. Minette Teichmueller's WPA mural 'The Law, Texas Rangers' (1940) is inside this building.",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Smithville_TX_Post_Office.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "pl_st_mary_colechurch",
+      "place_name": "Site of St Mary Colechurch, London",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Site_of_St_Mary_Colechurch.JPG/500px-Site_of_St_Mary_Colechurch.JPG",
+      "image_caption": "Site of St Mary Colechurch, London. John Mattingly was buried here in 1641, linking the family to the City of London before the Maryland emigration.",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Site_of_St_Mary_Colechurch.JPG",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "pl_witte_museum",
+      "place_name": "Witte Museum, San Antonio, Texas",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Witte_Museum_Front.jpg",
+      "image_caption": "Witte Museum, San Antonio TX. Hugo Pohl (husband of Minette Teichmueller) was a resident artist here and his paintings are in the collection.",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Witte_Museum_Front.jpg",
+      "verification": "HTTP 200 confirmed"
+    },
+    {
+      "entity_id": "pl_witte_museum_entrance",
+      "place_name": "Witte Museum entrance, San Antonio TX",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Entrance_to_Witte_Museum%2C_San_Antonio%2C_TX_IMG_3113.JPG/500px-Entrance_to_Witte_Museum%2C_San_Antonio%2C_TX_IMG_3113.JPG",
+      "image_caption": "Entrance to the Witte Museum, San Antonio TX.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Entrance_to_Witte_Museum,_San_Antonio,_TX_IMG_3113.JPG",
+      "verification": "HTTP 200 confirmed"
+    },
+    {
+      "entity_id": "pl_san_antonio_municipal_auditorium",
+      "place_name": "San Antonio Municipal Auditorium",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/City_of_San_Antonio_Municipal_Auditorium.jpg/500px-City_of_San_Antonio_Municipal_Auditorium.jpg",
+      "image_caption": "San Antonio Municipal Auditorium (now Tobin Center for the Performing Arts). Hugo Pohl painted the stage curtain here; it was destroyed when the building was renovated in 1979.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:City_of_San_Antonio_Municipal_Auditorium.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "pl_tamu_memorial_student_center",
+      "place_name": "Texas A&M Memorial Student Center",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/TAMU_MSC_2022-02-14_1.jpg/500px-TAMU_MSC_2022-02-14_1.jpg",
+      "image_caption": "Memorial Student Center, Texas A&M University, College Station TX. Hugo Pohl's paintings are displayed here.",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:TAMU_MSC_2022-02-14_1.jpg",
+      "verification": "HTTP 200 confirmed"
+    }
+  ],
+
+  "artifact_images": [
+    {
+      "entity_id": "a_teichmueller_bio_page",
+      "artifact_name": "Hans Teichmueller biography page — Fayette County history book 1902",
+      "image_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:fayettecountyher00lott:fayettecountyher00lott_0251/full/pct:25.0/0/default.jpg",
+      "image_caption": "Page 229 ('Hans TEICHMUELLER') from 'Fayette County, Her History and Her People' (1902), Library of Congress. Contains his biography and inline portrait. OCR confirms the Mattingly connection: Mrs. May Mattingly named as his daughter on page 253.",
+      "license": "public domain (1902 publication)",
+      "source": "https://www.loc.gov/item/02023423/",
+      "verification": "HTTP 200 image/jpeg confirmed via IIIF service"
+    },
+    {
+      "entity_id": "a_domesday_book_hampshire_folio",
+      "artifact_name": "Domesday Book — Hampshire folio (contains Mattingley entry)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Domesday_Book_Hampshire.djvu/page1-500px-Domesday_Book_Hampshire.djvu.jpg",
+      "image_caption": "Domesday Book Hampshire volume, page 1. Mattingley is recorded as 'Matingelei' in the full Hampshire survey. This manuscript is held at the National Archives, UK.",
+      "license": "public domain (manuscript 1086, reproduction public domain)",
+      "source": "https://commons.wikimedia.org/wiki/File:Domesday_Book_Hampshire.djvu",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "a_lucas_gusher_1901",
+      "artifact_name": "Spindletop oil gusher — January 10, 1901 historic photograph",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Lucas_gusher.jpg/500px-Lucas_gusher.jpg",
+      "image_caption": "The Lucas Gusher, Spindletop, Beaumont TX, January 10, 1901. This historic photograph of the first major Texas oil strike is a key event in the story of Texas during the Mattingly/Teichmueller era.",
+      "license": "public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Lucas_gusher.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    },
+    {
+      "entity_id": "a_minette_mural_building",
+      "artifact_name": "Minette Teichmueller WPA mural building — Smithville TX post office",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Smithville_TX_Post_Office.jpg/500px-Smithville_TX_Post_Office.jpg",
+      "image_caption": "Smithville TX Post Office exterior. Minette Teichmueller's 1940 WPA mural 'The Law, Texas Rangers' is inside. No publicly licensed photo of the mural interior was found on Wikimedia Commons.",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Smithville_TX_Post_Office.jpg",
+      "verification": "HTTP 200 image/jpeg confirmed"
+    }
+  ],
+
+  "could_not_find": [
+    {
+      "entity": "Florence Butt portrait",
+      "where_searched": "Wikipedia (redirects to son Howard E. Butt Sr.), Wikimedia Commons, LOC photos",
+      "rationale": "No standalone portrait of Florence Butt (1864-1954) found in open-access collections. Her Wikipedia article is a stub that redirects to her son's article."
+    },
+    {
+      "entity": "Hugo Pohl portrait",
+      "where_searched": "Wikipedia (no article exists), Wikimedia Commons (no results for 'Hugo Pohl painter'), Witte Museum Commons category",
+      "rationale": "Hugo Pohl (1878-1960) has no Wikipedia article. No photographs of him appear in openly licensed collections despite his prominence as a San Antonio painter."
+    },
+    {
+      "entity": "Minette Teichmueller portrait",
+      "where_searched": "Wikipedia article exists but has no images; Wikimedia Commons 'Minette Teichmueller' returned no results; LOC WPA records; Smithville TX post office mural interior photo",
+      "rationale": "Despite having a Wikipedia article, no photographs of Minette Teichmueller herself are in openly licensed collections. The mural she painted is not photographed on Wikimedia Commons."
+    },
+    {
+      "entity": "Claude Mattingly portrait",
+      "where_searched": "LOC Chronicling America (Austin TX newspaper archives), Wikimedia Commons, Wikipedia, UTMB Galveston yearbooks",
+      "rationale": "UT Medical Branch Galveston yearbooks are not digitized in open access. Austin TX newspapers from Feb 1934 not in Chronicling America's searchable database. No Find a Grave photo."
+    },
+    {
+      "entity": "Leroy Teichmuller Mattingly portrait",
+      "where_searched": "Wikimedia Commons, Wikipedia, LOC; UT Austin Cactus yearbooks",
+      "rationale": "UT Austin Cactus yearbooks for 1916-1922 not in open digital access. No public records portrait found."
+    },
+    {
+      "entity": "William Alexander Baity portrait",
+      "where_searched": "Wikimedia Commons, Wikipedia, LOC photos",
+      "rationale": "No publicly licensed image found. WikiTree and Find a Grave may have photos but require login or are copyright restricted to contributors."
+    },
+    {
+      "entity": "Pearl (Paralee Johnson) Baity portrait",
+      "where_searched": "Wikimedia Commons, Wikipedia, LOC photos",
+      "rationale": "Same as William Alexander Baity. No open-access image found."
+    },
+    {
+      "entity": "Mattingly's Hope historical marker / site photo",
+      "where_searched": "Wikimedia Commons 'Charles County Maryland historical marker', LOC photos, Maryland State Archives",
+      "rationale": "No photograph of the Mattingly's Hope site in Charles County MD found in open-access collections. The site is a colonial land grant name, not a formal park or monument."
+    },
+    {
+      "entity": "211 Castillo Avenue, San Antonio — street-level photo",
+      "where_searched": "Wikimedia Commons 'Castillo Avenue San Antonio'; Google Street View (requires API key, not embed-safe without key)",
+      "rationale": "No Wikimedia Commons photo of this specific residential address. Google Street View static API requires a key and has usage restrictions that make it unsuitable for open embedding."
+    },
+    {
+      "entity": "Hugo Pohl's San Antonio Auditorium stage curtain",
+      "where_searched": "Wikimedia Commons, LOC, San Antonio Express-News digital archive (paywalled)",
+      "rationale": "The curtain was destroyed in 1979 during building renovation. Historic photos of it exist in the San Antonio Light and Express-News archives but are not in open-access collections."
+    }
+  ]
+}

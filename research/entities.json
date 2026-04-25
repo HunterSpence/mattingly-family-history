@@ -140,7 +140,11 @@
           "https://archive.org/details/fayettecountyher00lott",
           "https://www.tshaonline.org/handbook/entries/teichmueller-hans"
         ]
-      }
+      },
+      "portrait_url": "https://tile.loc.gov/image-services/iiif/public:gdcmassbookdig:fayettecountyher00lott:fayettecountyher00lott_0251/full/pct:25.0/0/default.jpg",
+      "portrait_caption": "Hans Teichmueller, ~1900. Portrait and biography on page 229 of 'Fayette County, Her History and Her People' (1902), Library of Congress.",
+      "portrait_source": "https://www.loc.gov/item/02023423/",
+      "portrait_license": "public domain (published 1902, >120 years)"
     },
     {
       "id": "p004",
@@ -996,7 +1000,7 @@
       "birth_place": null,
       "death_place": null,
       "occupation": null,
-      "context": "Shari's grandfather's grandfather, born around 1818-1820 and died in 1935 at age 107; Shari's grandfather knew him well.",
+      "context": "Shari's grandfather's grandfather, born around 1818-1820 and died in 1935 at age 107; Shari's grandfather knew him well. — Agent 10 ruled out the strongest birth-year-matching candidate: Leonard Mattingly III (b. Nov 15 1828) died Sep 5 1914 in Glen Dean, Breckinridge County, KY at age 85, NOT 107 in Texas. The centenarian (1828-1935, age 107) remains UNVERIFIED. Briscoe Center microfilm of Texas newspapers 1935 is the recommended next step.",
       "transcript_timestamps": [
         "20:42"
       ],
@@ -1075,7 +1079,11 @@
         "Wikipedia",
         "Maryland Historical Society",
         "Colonial records"
-      ]
+      ],
+      "portrait_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Cecil_Calvert%2C_2nd_Baron_Baltimore%2C_by_Gerard_Soest_%281670%29.jpg/500px-Cecil_Calvert%2C_2nd_Baron_Baltimore%2C_by_Gerard_Soest_%281670%29.jpg",
+      "portrait_caption": "Cecilius Calvert, 2nd Baron Baltimore, by Gerard Soest, 1670. Founder of Maryland colony where the Mattingly family settled.",
+      "portrait_source": "https://commons.wikimedia.org/wiki/File:Cecil_Calvert,_2nd_Baron_Baltimore,_by_Gerard_Soest_(1670).jpg",
+      "portrait_license": "public domain"
     },
     {
       "id": "p033",
@@ -1132,7 +1140,11 @@
         "Newspapers.com"
       ],
       "enriched_context": "Strongest candidate: Sul Ross (governor 1887–1891). His family settled Milam County in central Texas in 1839 — exactly the corridor where 1880 immigrants via Galveston settled. Pat Neff (gov. 1921–25) is a weaker alternative. Confirmation needed: which central Texas county did the great-aunt's family settle in?",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Sul_Ross"
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sul_Ross",
+      "portrait_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Half_portrait_of_Lawrence_Sullivan_Ross.jpg/500px-Half_portrait_of_Lawrence_Sullivan_Ross.jpg",
+      "portrait_caption": "Lawrence Sullivan Ross, Governor of Texas 1887-1891 and Texas A&M president. Portrait c.1890.",
+      "portrait_source": "https://commons.wikimedia.org/wiki/File:Half_portrait_of_Lawrence_Sullivan_Ross.jpg",
+      "portrait_license": "public domain"
     },
     {
       "id": "p035",
@@ -1811,7 +1823,30 @@
           "https://www.wikitree.com/wiki/Mattingly-210",
           "https://www.jstor.org/stable/23377364"
         ]
-      }
+      },
+      "children_named": [
+        "Mary Alvey Mattingly (b. 1798)",
+        "Henry Martin Mattingly Sr. (b. 1799)",
+        "William Cissell Mattingly (b. 1807)",
+        "Leonard Mattingly III (b. 1828)"
+      ],
+      "enriched_context": "Leonard Mattingly Jr. (1764-1843). Born Leonardtown MD; by January 7, 1788 was marrying Ann Cissell in Nelson County, Kentucky — having traveled west in the 1785 Catholic migration. Settled in Marion County KY in the community of Saint Mary. He is the earliest CONFIRMED genetic ancestor in the Mattingly-Matney Y-chromosome DNA Surname Project, with multiple participants tracing direct paternal descent to him. — Per Agent 10 KY-TX research: had exactly 4 children. Henry Martin Sr. had 9 children born 1828-1844 in Marion/Washington County, KY. Of Leonard Jr.'s grandchildren, **George Thomas Mattingly** (b. 1830 Marion KY, WikiTree-695) is the only one with NO Kentucky death record — strongest POSSIBLE candidate for the Texas-migrant ancestor who bridged to Edward Mattingly Sr."
+    },
+    {
+      "id": "p046",
+      "full_name": "George Thomas Mattingly",
+      "given_name": "George",
+      "surname": "Mattingly",
+      "birth_year": 1830,
+      "birth_place": "Marion County, Kentucky",
+      "relation_to_shari": "POSSIBLE 4th-great-grandfather (Leonard Jr.'s grandson via Henry Martin Sr.; only sibling with no Kentucky death record — strongest Texas-migrant candidate)",
+      "context": "George Thomas Mattingly (b. 1830 Marion County KY). Per Agent 10 KY-TX research: the ONLY one of Leonard Jr.'s ~13 grandchildren with no documented Kentucky death record. All siblings died in KY. Strongest POSSIBLE Texas-migrant candidate. WikiTree Mattingly-695. If confirmed, he is the bridge between Leonard Jr. (1843 KY) and Edward Mattingly Sr. (TX 1934).",
+      "fuzzy": true,
+      "confidence": "POSSIBLE",
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-695"
+      ],
+      "branch": "Mattingly paternal — KY→TX bridge candidate"
     }
   ],
   "places": [
@@ -2795,7 +2830,11 @@
       "verifiable": true,
       "transcript_timestamps": [
         "1:27"
-      ]
+      ],
+      "portrait_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mark_Twain_by_AF_Bradley.jpg/500px-Mark_Twain_by_AF_Bradley.jpg",
+      "portrait_caption": "Mark Twain, photograph by A.F. Bradley, New York, c.1907. From Wikipedia/Wikimedia Commons.",
+      "portrait_source": "https://commons.wikimedia.org/wiki/File:Mark_Twain_by_AF_Bradley.jpg",
+      "portrait_license": "public domain"
     },
     {
       "id": "hr002",
@@ -2805,7 +2844,11 @@
       "verifiable": true,
       "transcript_timestamps": [
         "1:27"
-      ]
+      ],
+      "portrait_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/General_William_T._Sherman_%284190887790%29_%28cropped%29.jpg/500px-General_William_T._Sherman_%284190887790%29_%28cropped%29.jpg",
+      "portrait_caption": "General William T. Sherman, Union Army commander. Photograph c.1865.",
+      "portrait_source": "https://commons.wikimedia.org/wiki/File:General_William_T._Sherman_(4190887790)_(cropped).jpg",
+      "portrait_license": "public domain"
     },
     {
       "id": "hr003",
@@ -2855,7 +2898,11 @@
       "verifiable": true,
       "transcript_timestamps": [
         "18:51"
-      ]
+      ],
+      "portrait_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Oliver_Cromwell_by_Samuel_Cooper.jpg/500px-Oliver_Cromwell_by_Samuel_Cooper.jpg",
+      "portrait_caption": "Oliver Cromwell, Lord Protector of England. Miniature portrait by Samuel Cooper, c.1656.",
+      "portrait_source": "https://commons.wikimedia.org/wiki/File:Oliver_Cromwell_by_Samuel_Cooper.jpg",
+      "portrait_license": "public domain"
     },
     {
       "id": "hr008",
@@ -2867,7 +2914,11 @@
         "23:20",
         "24:39"
       ],
-      "correction": "Two corrections to the family story: (1) Boonesborough was founded in 1775, not the 1780s. (2) The Maryland Catholic Mattinglys actually migrated to Nelson County / Bardstown KY in 1785 — a SEPARATE stream from Boone's settlement. The Mattingly & Moore Distillery (Bardstown, 1877) and the earlier J. Mattingly 1845 distillery confirm the Kentucky distilling lineage is real."
+      "correction": "Two corrections to the family story: (1) Boonesborough was founded in 1775, not the 1780s. (2) The Maryland Catholic Mattinglys actually migrated to Nelson County / Bardstown KY in 1785 — a SEPARATE stream from Boone's settlement. The Mattingly & Moore Distillery (Bardstown, 1877) and the earlier J. Mattingly 1845 distillery confirm the Kentucky distilling lineage is real.",
+      "portrait_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Chester_Harding_-_Daniel_Boone_-_NPG.2015.102_-_National_Portrait_Gallery_%28cropped%29.jpg/500px-Chester_Harding_-_Daniel_Boone_-_NPG.2015.102_-_National_Portrait_Gallery_%28cropped%29.jpg",
+      "portrait_caption": "Daniel Boone, painted by Chester Harding, 1820. National Portrait Gallery, Washington DC.",
+      "portrait_source": "https://commons.wikimedia.org/wiki/File:Chester_Harding_-_Daniel_Boone_-_NPG.2015.102_-_National_Portrait_Gallery_(cropped).jpg",
+      "portrait_license": "public domain"
     },
     {
       "id": "hr009",
