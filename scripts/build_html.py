@@ -3379,8 +3379,10 @@ def build_html(family_only=True):
 
   </div>
 
-  <!-- D3 for the lineage tree -->
+  <!-- D3 for the lineage tree and geo map -->
   <script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
+  <!-- TopoJSON for world-atlas land shapes -->
+  <script src="https://unpkg.com/topojson-client@3/dist/topojson-client.min.js"></script>
 
   <!-- vis-timeline for the timeline -->
   <link rel="stylesheet" href="https://unpkg.com/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
@@ -3448,218 +3450,493 @@ if (timelineContainer && window.vis) {{
 
 
 def render_migration_map_section(deeds_map=None):
-    """Render the cinematic full-bleed SVG migration map — vintage cartographic style.
-    Uses a custom SVG projection (approximate Mercator) for the key locations.
+    """Render the cinematic migration map — D3-geo NaturalEarth projection with real
+    world-atlas TopoJSON coastlines. Waypoints placed via actual lat/lon.
     deeds_map: {person_id: [deed,...]} — used for popup enrichment (future).
     """
     deeds_map = deeds_map or {}
 
-    # Migration waypoints — each has SVG x,y coords (900x540 viewBox, US-centred)
-    # England is off the left edge, shown in an inset panel
-    # US coordinates mapped to approximate Mercator (hand-tuned for aesthetics)
-    locations = [
+    # Waypoints: real geographic lat/lon coordinates
+    # Order defines the US migration path polyline
+    locations_data = [
         {
             "id": "hampshire",
             "name": "Mattingley, Hampshire",
             "country": "England",
             "year": "pre-1660",
-            "x": 68, "y": 82,  # England inset
-            "inset": True,
+            "lat": 51.27, "lon": -1.03,
+            "atlantic_origin": True,  # departure point for ocean crossing arc
             "story": "The ancestral village. The Mattingley name derives from this Hampshire settlement, documented since 1167 AD. Thomas and his family departed for the New World c. 1663.",
+            "label_anchor": "start",
+            "label_dx": 8, "label_dy": -4,
         },
         {
             "id": "maryland",
             "name": "St. Mary's County, Maryland",
             "country": "Colony of Maryland",
             "year": "1663–1780s",
-            "x": 672, "y": 198,
-            "story": "Thomas Mattingly II arrived with the Catholic colonists under Lord Baltimore. The family received the 'Mattingly's Hope' 300-acre land patent on September 4, 1666. They farmed Charles and St. Mary's Counties for over a century.",
+            "lat": 38.20, "lon": -76.65,
+            "story": "Thomas Mattingly II arrived with the Catholic colonists under Lord Baltimore. The family received the ‘Mattingly’s Hope’ 300-acre land patent on September 4, 1666. They farmed Charles and St. Mary’s Counties for over a century.",
+            "label_anchor": "end",
+            "label_dx": -9, "label_dy": -6,
         },
         {
             "id": "kentucky",
             "name": "Bardstown, Kentucky",
             "country": "Kentucky Territory",
             "year": "1780s",
-            "x": 614, "y": 220,
-            "story": "With Daniel Boone's trailblazers, Catholic Maryland families migrated south-west into the fertile Kentucky territory. Bardstown became a hub of Catholic settlement — the 'Holy Land of the West.' The Mattinglys were among dozens of Catholic families who made this journey.",
+            "lat": 37.81, "lon": -85.47,
+            "story": "With Daniel Boone’s trailblazers, Catholic Maryland families migrated south-west into the fertile Kentucky territory. Bardstown became a hub of Catholic settlement — the ‘Holy Land of the West.’ The Mattinglys were among dozens of Catholic families who made this journey.",
+            "label_anchor": "start",
+            "label_dx": 8, "label_dy": -5,
         },
         {
             "id": "northcarolina",
             "name": "North Carolina",
             "country": "North Carolina",
             "year": "1810–1875",
-            "x": 650, "y": 238,
-            "story": "Pearl Baity's branch — the Johnson-Baity family — was rooted in North Carolina before the westward push to Texas. Pearl was born here circa 1860 before her family joined the post-Civil War migration.",
-        },
-        {
-            "id": "sanantonio",
-            "name": "San Antonio, Texas",
-            "country": "Texas",
-            "year": "1875–present",
-            "x": 527, "y": 303,
-            "story": "The Mattingly and Baity families converged in San Antonio. Ed Mattingly married into the Texas gentry. The Baity family built their 211 Castile home here, the gathering place for generations of family. Leroy Mattingly was born here in 1898.",
-        },
-        {
-            "id": "kerrville",
-            "name": "Kerrville, Texas",
-            "country": "Texas Hill Country",
-            "year": "1900s",
-            "x": 510, "y": 295,
-            "story": "Pearl Baity's summer retreat in the Hill Country. A cooler escape from San Antonio's heat, where the family gathered and rested. Pearl maintained a beloved summer home here.",
-        },
-        {
-            "id": "reeves",
-            "name": "Reeves County, Texas",
-            "country": "West Texas",
-            "year": "1901–present",
-            "x": 468, "y": 290,
-            "story": "In April 1901 — the same year as Spindletop — Pearl Baity purchased land in Reeves County. That act of prescient land acquisition is the foundation of all subsequent oil royalties the family still receives today, over 120 years later.",
+            "lat": 35.50, "lon": -79.50,
+            "story": "Pearl Baity’s branch — the Johnson-Baity family — was rooted in North Carolina before the westward push to Texas. Pearl was born here circa 1860 before her family joined the post-Civil War migration.",
+            "label_anchor": "start",
+            "label_dx": 8, "label_dy": -4,
         },
         {
             "id": "stlouis",
             "name": "St. Louis, Missouri",
             "country": "Missouri",
             "year": "1904",
-            "x": 578, "y": 213,
-            "story": "The 1904 Louisiana Purchase Exposition (World's Fair). Pearl attended and purchased the Kaiser salon furniture set — matching chairs, table, fainting couch — that remain family heirlooms today.",
+            "lat": 38.63, "lon": -90.20,
+            "story": "The 1904 Louisiana Purchase Exposition (World’s Fair). Pearl attended and purchased the Kaiser salon furniture set — matching chairs, table, fainting couch — that remain family heirlooms today.",
+            "label_anchor": "end",
+            "label_dx": -9, "label_dy": -6,
+        },
+        {
+            "id": "sanantonio",
+            "name": "San Antonio, Texas",
+            "country": "Texas",
+            "year": "1875–present",
+            "lat": 29.42, "lon": -98.49,
+            "story": "The Mattingly and Baity families converged in San Antonio. Ed Mattingly married into the Texas gentry. The Baity family built their 211 Castile home here, the gathering place for generations of family. Leroy Mattingly was born here in 1898.",
+            "label_anchor": "start",
+            "label_dx": 9, "label_dy": -6,
+        },
+        {
+            "id": "kerrville",
+            "name": "Kerrville, Texas",
+            "country": "Texas Hill Country",
+            "year": "1900s",
+            "lat": 30.05, "lon": -99.14,
+            "story": "Pearl Baity’s summer retreat in the Hill Country. A cooler escape from San Antonio’s heat, where the family gathered and rested. Pearl maintained a beloved summer home here.",
+            "label_anchor": "start",
+            "label_dx": 8, "label_dy": 12,
+        },
+        {
+            "id": "reeves",
+            "name": "Reeves County, Texas",
+            "country": "West Texas",
+            "year": "1901–present",
+            "lat": 31.40, "lon": -103.50,
+            "story": "In April 1901 — the same year as Spindletop — Pearl Baity purchased land in Reeves County. That act of prescient land acquisition is the foundation of all subsequent oil royalties the family still receives today, over 120 years later.",
+            "label_anchor": "start",
+            "label_dx": 9, "label_dy": -6,
         },
         {
             "id": "santamonica",
             "name": "Santa Monica, California",
             "country": "California",
             "year": "2026",
-            "x": 360, "y": 230,
+            "lat": 34.02, "lon": -118.49,
             "story": "Where Shari lives today, age 79. The end of the migration arc — from Hampshire, England across five centuries and the entire American continent. She still owns the oil rights Pearl purchased in 1901.",
+            "label_anchor": "end",
+            "label_dx": -9, "label_dy": -8,
         },
     ]
 
-    # Build polyline path (excluding England inset — it connects via a dashed Atlantic line)
-    us_locs = [l for l in locations if not l.get("inset")]
-    polyline_points = " ".join(f"{l['x']},{l['y']}" for l in us_locs)
+    # Marker size per location id
+    marker_sizes = {
+        "sanantonio": 7, "reeves": 7, "santamonica": 9,
+        "maryland": 7, "kentucky": 6, "hampshire": 5,
+    }
 
-    # England → Maryland dashed "Atlantic crossing" line
-    england_loc = next(l for l in locations if l.get("inset"))
-    maryland_loc = next(l for l in locations if l["id"] == "maryland")
-
-    # Build location elements
-    location_elements = []
-    for i, loc in enumerate(locations):
-        is_inset = loc.get("inset", False)
-        story_escaped = html.escape(loc["story"])
-        name_escaped = html.escape(loc["name"])
-        year_escaped = html.escape(loc["year"])
-        country_escaped = html.escape(loc["country"])
-
-        # Marker size — England smaller (inset), San Antonio + Reeves larger (major)
-        r = 5
-        if loc["id"] in ("sanantonio", "reeves", "santamonica", "maryland"):
-            r = 7
-        elif loc["id"] == "hampshire":
-            r = 4
-
-        # Special style for current location (Santa Monica)
-        extra_circle = ""
-        if loc["id"] == "santamonica":
-            extra_circle = f'<circle class="map-marker-pulse" cx="{loc["x"]}" cy="{loc["y"]}" r="{r + 8}" fill="none" stroke="#d4a458" stroke-width="1.5"/>'
-
-        location_elements.append(f"""
-  <g class="map-location" data-id="{loc['id']}"
-     data-name="{name_escaped}"
-     data-year="{year_escaped}"
-     data-country="{country_escaped}"
-     data-story="{story_escaped}">
-    {extra_circle}
-    <circle class="map-marker-pulse" cx="{loc['x']}" cy="{loc['y']}" r="{r + 5}" fill="none" stroke="#d4a458" stroke-width="1"/>
-    <circle cx="{loc['x']}" cy="{loc['y']}" r="{r}" fill="#d4a458" stroke="#7a5010" stroke-width="1.5" opacity="0.9"/>
-    <circle cx="{loc['x']}" cy="{loc['y']}" r="{r - 2}" fill="#f0c878" opacity="0.6"/>
-  </g>""")
-
-    locations_html = "\n".join(location_elements)
-
-    # Location labels (only the major ones to avoid clutter)
-    label_elements = []
-    label_locs = [l for l in locations if l["id"] in ("hampshire", "maryland", "sanantonio", "reeves", "santamonica", "kentucky", "stlouis")]
-    for loc in label_locs:
-        name = loc["name"].split(",")[0]  # first part of name
-        # Adjust label position to avoid overlap with marker
-        lx = loc["x"] + 9
-        ly = loc["y"] - 2
-        if loc["id"] == "hampshire":
-            lx, ly = loc["x"] + 6, loc["y"] - 7
-        elif loc["id"] == "santamonica":
-            lx, ly = loc["x"] - 6, loc["y"] - 9
-            anchor = "end"
-        else:
-            anchor = "start"
-        anchor = "end" if loc["id"] == "santamonica" else "start"
-        label_elements.append(
-            f'<text x="{lx}" y="{ly}" text-anchor="{anchor}" '
-            f'font-family="\'Cormorant Garamond\', Georgia, serif" '
-            f'font-size="7.5" font-style="italic" fill="#c8a870" opacity="0.85">'
-            f'{html.escape(name)}</text>'
+    # Build JSON-safe location data for the inline JS
+    locations_json_parts = []
+    for loc in locations_data:
+        escaped_story = loc["story"].replace('"', '\\"').replace("'", "\\'")
+        escaped_name = loc["name"].replace('"', '\\"')
+        locations_json_parts.append(
+            f'{{"id":"{loc["id"]}",'
+            f'"name":"{escaped_name}",'
+            f'"country":"{loc["country"]}",'
+            f'"year":"{loc["year"]}",'
+            f'"lat":{loc["lat"]},'
+            f'"lon":{loc["lon"]},'
+            f'"r":{marker_sizes.get(loc["id"], 5)},'
+            f'"atlantic":{str(loc.get("atlantic_origin", False)).lower()},'
+            f'"labelAnchor":"{loc.get("label_anchor","start")}",'
+            f'"labelDx":{loc.get("label_dx", 8)},'
+            f'"labelDy":{loc.get("label_dy", -4)},'
+            f'"story":"{escaped_story}"}}'
         )
-    labels_html = "\n".join(label_elements)
+    locations_json = "[" + ",\n".join(locations_json_parts) + "]"
 
-    # Year labels for key waypoints
-    year_label_locs = [l for l in locations if l["id"] in ("maryland", "reeves", "santamonica")]
-    year_labels_html = "\n".join(
-        f'<text x="{l["x"]}" y="{l["y"] + 14}" text-anchor="middle" '
-        f'font-family="\'Source Code Pro\', monospace" '
-        f'font-size="6" fill="#806040" opacity="0.7">{html.escape(l["year"])}</text>'
-        for l in year_label_locs
-    )
-
-    # The JS for tooltip interactions
-    tooltip_js = """
+    map_js = """
 (function() {
-  const container = document.getElementById('migration-map-container');
-  if (!container) return;
-  const tooltip = document.getElementById('map-tooltip');
-  if (!tooltip) return;
-  const tName = document.getElementById('map-tt-name');
-  const tYear = document.getElementById('map-tt-year');
-  const tBody = document.getElementById('map-tt-body');
+  /* -------------------------------------------------------
+     D3-geo NaturalEarth1 migration map
+     Fetches world-atlas 110m TopoJSON from CDN, renders real
+     coastlines, then places waypoints via lat/lon projection.
+     ------------------------------------------------------- */
 
-  const locations = container.querySelectorAll('.map-location');
-  locations.forEach(function(loc) {
-    loc.addEventListener('mouseenter', function(e) {
-      tName.textContent = loc.dataset.name + ' — ' + loc.dataset.country;
-      tYear.textContent = loc.dataset.year;
-      tBody.textContent = loc.dataset.story;
-      tooltip.classList.add('visible');
-      positionTooltip(e);
-    });
-    loc.addEventListener('mousemove', positionTooltip);
-    loc.addEventListener('mouseleave', function() {
-      tooltip.classList.remove('visible');
-    });
-    // Touch support
-    loc.addEventListener('click', function(e) {
-      tName.textContent = loc.dataset.name + ' — ' + loc.dataset.country;
-      tYear.textContent = loc.dataset.year;
-      tBody.textContent = loc.dataset.story;
-      tooltip.classList.add('visible');
-      positionTooltip(e);
-      e.stopPropagation();
-    });
-  });
+  const SVG_W = 900, SVG_H = 480;
 
-  document.addEventListener('click', function() {
-    tooltip.classList.remove('visible');
-  });
+  const LOCATIONS = """ + locations_json + """;
 
-  function positionTooltip(e) {
-    const rect = container.getBoundingClientRect();
-    let x = e.clientX - rect.left + 14;
-    let y = e.clientY - rect.top - 10;
-    const tw = tooltip.offsetWidth || 240;
-    const th = tooltip.offsetHeight || 120;
-    if (x + tw > rect.width - 10) x = e.clientX - rect.left - tw - 14;
-    if (y + th > rect.height - 10) y = e.clientY - rect.top - th - 10;
-    if (y < 8) y = 8;
-    tooltip.style.left = x + 'px';
-    tooltip.style.top  = y + 'px';
+  // Migration path order (US legs only, excluding england)
+  const PATH_ORDER = ["maryland","kentucky","northcarolina","stlouis","sanantonio","kerrville","reeves","santamonica"];
+
+  // Label visibility (major stops only)
+  const SHOW_LABEL = new Set(["hampshire","maryland","kentucky","stlouis","sanantonio","reeves","santamonica"]);
+
+  // Year label visibility
+  const SHOW_YEAR = new Set(["maryland","reeves","santamonica"]);
+
+  const svg = d3.select("#migration-map-svg");
+  if (svg.empty()) return;
+
+  // ── Projection — Natural Earth 1, fitted to our viewport ──
+  // We want to show: western Europe + all of North America
+  // Manually tuned center and scale for a cinematic North Atlantic framing.
+  const projection = d3.geoNaturalEarth1()
+    .center([-40, 38])      // center lon/lat for North Atlantic
+    .scale(520)             // zoom level — covers England to California
+    .translate([SVG_W / 2, SVG_H / 2]);
+
+  const pathGen = d3.geoPath().projection(projection);
+
+  // Helper: project a lon/lat → [svgX, svgY]
+  function project(lon, lat) {
+    return projection([lon, lat]);
   }
+
+  // ── Fetch TopoJSON world atlas ──
+  d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
+    .then(function(world) {
+      const land = topojson.feature(world, world.objects.land);
+      const countries = topojson.feature(world, world.objects.countries);
+      const borders = topojson.mesh(world, world.objects.countries, (a, b) => a !== b);
+
+      // -- Ocean background (already set by rect in SVG markup) --
+
+      // -- Graticule (faint grid) --
+      const graticule = d3.geoGraticule()();
+      svg.select("#map-graticule-group").remove();
+      const gGroup = svg.insert("g", "#map-geo-land")
+        .attr("id","map-graticule-group")
+        .attr("opacity","0.055")
+        .attr("pointer-events","none");
+      gGroup.append("path")
+        .datum(graticule)
+        .attr("d", pathGen)
+        .attr("fill","none")
+        .attr("stroke","#d4a458")
+        .attr("stroke-width","0.45");
+
+      // -- Land fill (before land group inserted, remove old one) --
+      svg.select("#map-geo-land").remove();
+      const landGroup = svg.insert("g", "#map-overlay-group")
+        .attr("id","map-geo-land")
+        .attr("pointer-events","none");
+
+      // Ocean accent: subtle country fills
+      landGroup.selectAll("path.country")
+        .data(countries.features)
+        .join("path")
+        .attr("class","country")
+        .attr("d", pathGen)
+        .attr("fill","#231d14")
+        .attr("stroke","none");
+
+      // Main land silhouette on top — warmer tone
+      landGroup.append("path")
+        .datum(land)
+        .attr("d", pathGen)
+        .attr("fill","#2c2316")
+        .attr("stroke","#4a3c28")
+        .attr("stroke-width","0.7");
+
+      // Country borders — very subtle
+      landGroup.append("path")
+        .datum(borders)
+        .attr("d", pathGen)
+        .attr("fill","none")
+        .attr("stroke","#352a1a")
+        .attr("stroke-width","0.45")
+        .attr("opacity","0.7");
+
+      // -- Insert ocean labels into overlay group, project their positions --
+      // Atlantic Ocean label
+      const atlPt = project(-30, 35);
+      if (atlPt) {
+        const atlG = svg.select("#map-overlay-group").append("g")
+          .attr("pointer-events","none");
+        atlG.append("text")
+          .attr("x", atlPt[0]).attr("y", atlPt[1] - 6)
+          .attr("text-anchor","middle")
+          .attr("font-family","'Cormorant Garamond', Georgia, serif")
+          .attr("font-size","10").attr("font-style","italic")
+          .attr("fill","#4a3820").attr("opacity","0.55")
+          .attr("letter-spacing","0.15em")
+          .text("ATLANTIC");
+        atlG.append("text")
+          .attr("x", atlPt[0]).attr("y", atlPt[1] + 7)
+          .attr("text-anchor","middle")
+          .attr("font-family","'Cormorant Garamond', Georgia, serif")
+          .attr("font-size","10").attr("font-style","italic")
+          .attr("fill","#4a3820").attr("opacity","0.55")
+          .attr("letter-spacing","0.15em")
+          .text("OCEAN");
+      }
+
+      // Pacific Ocean label
+      const pacPt = project(-140, 40);
+      if (pacPt) {
+        const pacG = svg.select("#map-overlay-group").append("g")
+          .attr("pointer-events","none");
+        pacG.append("text")
+          .attr("x", pacPt[0]).attr("y", pacPt[1] - 6)
+          .attr("text-anchor","middle")
+          .attr("font-family","'Cormorant Garamond', Georgia, serif")
+          .attr("font-size","10").attr("font-style","italic")
+          .attr("fill","#4a3820").attr("opacity","0.45")
+          .attr("letter-spacing","0.15em")
+          .text("PACIFIC");
+        pacG.append("text")
+          .attr("x", pacPt[0]).attr("y", pacPt[1] + 7)
+          .attr("text-anchor","middle")
+          .attr("font-family","'Cormorant Garamond', Georgia, serif")
+          .attr("font-size","10").attr("font-style","italic")
+          .attr("fill","#4a3820").attr("opacity","0.45")
+          .attr("letter-spacing","0.15em")
+          .text("OCEAN");
+      }
+
+      // -- Project all waypoints --
+      const projected = {};
+      LOCATIONS.forEach(function(loc) {
+        const pt = project(loc.lon, loc.lat);
+        projected[loc.id] = pt;
+      });
+
+      const englandPt = projected["hampshire"];
+      const marylandPt = projected["maryland"];
+
+      // -- Atlantic crossing arc (dashed great-circle-like curve) --
+      if (englandPt && marylandPt) {
+        // Use d3 geoPath with a LineString for true great-circle arc
+        const atlanticArc = {
+          "type": "LineString",
+          "coordinates": [
+            [-1.03, 51.27],   // Hampshire
+            [-76.65, 38.20]   // Maryland
+          ]
+        };
+        const arcPathGen = d3.geoPath().projection(projection).pointRadius(0);
+        svg.select("#map-overlay-group").append("path")
+          .datum(atlanticArc)
+          .attr("d", arcPathGen)
+          .attr("fill","none")
+          .attr("stroke","#d4a458")
+          .attr("stroke-width","1.4")
+          .attr("stroke-dasharray","5,7")
+          .attr("opacity","0.38")
+          .attr("pointer-events","none");
+
+        // Arrowhead at Maryland end
+        const arrowLen = 8;
+        const dx = marylandPt[0] - englandPt[0];
+        const dy = marylandPt[1] - englandPt[1];
+        const angle = Math.atan2(dy, dx);
+        const ax = marylandPt[0] - arrowLen * Math.cos(angle - 0.35);
+        const ay = marylandPt[1] - arrowLen * Math.sin(angle - 0.35);
+        const bx = marylandPt[0] - arrowLen * Math.cos(angle + 0.35);
+        const by = marylandPt[1] - arrowLen * Math.sin(angle + 0.35);
+        svg.select("#map-overlay-group").append("path")
+          .attr("d", `M${ax},${ay} L${marylandPt[0]},${marylandPt[1]} L${bx},${by}`)
+          .attr("fill","none")
+          .attr("stroke","#d4a458")
+          .attr("stroke-width","1.2")
+          .attr("opacity","0.5")
+          .attr("pointer-events","none");
+      }
+
+      // -- US migration polyline (projected) --
+      const pathPts = PATH_ORDER
+        .map(id => projected[id])
+        .filter(Boolean);
+
+      if (pathPts.length > 1) {
+        const lineStr = pathPts.map(p => p.join(",")).join(" ");
+        // Update the existing animated polyline with real projected coords
+        const migPath = svg.select("#migration-path");
+        migPath.attr("points", lineStr);
+        // Reset dash animation length to match actual path length
+        const pathNode = migPath.node();
+        if (pathNode && pathNode.getTotalLength) {
+          const len = pathNode.getTotalLength();
+          migPath
+            .attr("stroke-dasharray", len)
+            .attr("stroke-dashoffset", len)
+            .style("animation", `drawPath 3.5s ease-out 0.8s forwards`);
+          // Update the keyframe dynamically
+          const styleEl = document.getElementById("migration-path-style");
+          if (styleEl) {
+            styleEl.textContent = `@keyframes drawPath { to { stroke-dashoffset: 0; } } #migration-path { stroke-dasharray: ${len}; stroke-dashoffset: ${len}; animation: drawPath 3.5s ease-out 0.8s forwards; }`;
+          }
+        }
+      }
+
+      // -- Location markers --
+      svg.select("#map-markers-group").remove();
+      const markerGroup = svg.select("#map-overlay-group").append("g")
+        .attr("id","map-markers-group");
+
+      LOCATIONS.forEach(function(loc) {
+        const pt = projected[loc.id];
+        if (!pt || pt[0] < -10 || pt[0] > SVG_W + 10) return; // off-canvas skip
+        const r = loc.r;
+        const cx = pt[0], cy = pt[1];
+        const isSantaMonica = loc.id === "santamonica";
+
+        const g = markerGroup.append("g")
+          .attr("class","map-location")
+          .attr("data-id", loc.id)
+          .attr("data-name", loc.name)
+          .attr("data-year", loc.year)
+          .attr("data-country", loc.country)
+          .attr("data-story", loc.story);
+
+        // Extra outer pulse ring for Santa Monica
+        if (isSantaMonica) {
+          g.append("circle")
+            .attr("class","map-marker-pulse")
+            .attr("cx",cx).attr("cy",cy)
+            .attr("r", r + 12)
+            .attr("fill","none")
+            .attr("stroke","#d4a458")
+            .attr("stroke-width","1.5");
+        }
+
+        // Pulse ring
+        g.append("circle")
+          .attr("class","map-marker-pulse")
+          .attr("cx",cx).attr("cy",cy)
+          .attr("r", r + 6)
+          .attr("fill","none")
+          .attr("stroke","#d4a458")
+          .attr("stroke-width","1");
+
+        // Marker fill
+        g.append("circle")
+          .attr("cx",cx).attr("cy",cy)
+          .attr("r", r)
+          .attr("fill", isSantaMonica ? "#e8c070" : "#d4a458")
+          .attr("stroke","#7a5010")
+          .attr("stroke-width","1.5")
+          .attr("opacity","0.92");
+
+        // Inner highlight
+        g.append("circle")
+          .attr("cx",cx).attr("cy",cy)
+          .attr("r", Math.max(1, r - 2))
+          .attr("fill","#f0c878")
+          .attr("opacity","0.6");
+
+        // Location label
+        if (SHOW_LABEL.has(loc.id)) {
+          const labelName = loc.name.split(",")[0];
+          g.append("text")
+            .attr("x", cx + loc.labelDx)
+            .attr("y", cy + loc.labelDy)
+            .attr("text-anchor", loc.labelAnchor)
+            .attr("font-family","'Cormorant Garamond', Georgia, serif")
+            .attr("font-size","8")
+            .attr("font-style","italic")
+            .attr("fill","#c8a870")
+            .attr("opacity","0.88")
+            .attr("pointer-events","none")
+            .text(labelName);
+        }
+
+        // Year label
+        if (SHOW_YEAR.has(loc.id)) {
+          g.append("text")
+            .attr("x", cx)
+            .attr("y", cy + r + 11)
+            .attr("text-anchor","middle")
+            .attr("font-family","'Source Code Pro', monospace")
+            .attr("font-size","6.5")
+            .attr("fill","#806040")
+            .attr("opacity","0.72")
+            .attr("pointer-events","none")
+            .text(loc.year);
+        }
+      });
+
+      // ── Tooltip interaction ──
+      const container = document.getElementById("migration-map-container");
+      const tooltip  = document.getElementById("map-tooltip");
+      const tName    = document.getElementById("map-tt-name");
+      const tYear    = document.getElementById("map-tt-year");
+      const tBody    = document.getElementById("map-tt-body");
+      if (!container || !tooltip) return;
+
+      function showTip(loc, e) {
+        tName.textContent = loc.dataset.name + " — " + loc.dataset.country;
+        tYear.textContent = loc.dataset.year;
+        tBody.textContent = loc.dataset.story;
+        tooltip.classList.add("visible");
+        positionTooltip(e);
+      }
+
+      function positionTooltip(e) {
+        const rect = container.getBoundingClientRect();
+        let x = e.clientX - rect.left + 14;
+        let y = e.clientY - rect.top - 10;
+        const tw = tooltip.offsetWidth || 240;
+        const th = tooltip.offsetHeight || 120;
+        if (x + tw > rect.width - 10) x = e.clientX - rect.left - tw - 14;
+        if (y + th > rect.height - 10) y = e.clientY - rect.top - th - 10;
+        if (y < 8) y = 8;
+        tooltip.style.left = x + "px";
+        tooltip.style.top  = y + "px";
+      }
+
+      markerGroup.selectAll(".map-location").each(function() {
+        const node = this;
+        node.addEventListener("mouseenter", function(e) { showTip(node, e); });
+        node.addEventListener("mousemove",  positionTooltip);
+        node.addEventListener("mouseleave", function() { tooltip.classList.remove("visible"); });
+        node.addEventListener("click", function(e) {
+          showTip(node, e);
+          e.stopPropagation();
+        });
+      });
+
+      document.addEventListener("click", function() {
+        tooltip.classList.remove("visible");
+      });
+    })
+    .catch(function(err) {
+      // If CDN fails, the map simply shows the fallback placeholder text
+      console.warn("Migration map: could not load world atlas:", err);
+      svg.append("text")
+        .attr("x", SVG_W/2).attr("y", SVG_H/2)
+        .attr("text-anchor","middle")
+        .attr("fill","#806040")
+        .attr("font-family","'Lora', Georgia, serif")
+        .attr("font-size","13")
+        .text("Map requires network access to load geographic data.");
+    });
 })();
 """
 
@@ -3670,182 +3947,87 @@ def render_migration_map_section(deeds_map=None):
 
   <div id="migration-map-container" role="img" aria-label="Migration map showing Mattingly family movement from England to California">
 
+    <!-- Dynamic path style override (updated by JS once path length is known) -->
+    <style id="migration-path-style">
+      #migration-path {{
+        stroke-dasharray: 4000;
+        stroke-dashoffset: 4000;
+        animation: drawPath 3.5s ease-out 0.8s forwards;
+      }}
+    </style>
+
     <svg id="migration-map-svg" viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg"
          preserveAspectRatio="xMidYMid meet">
       <defs>
-        <!-- Sepia/vintage map filter -->
-        <filter id="map-vintage" x="0%" y="0%" width="100%" height="100%">
-          <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="4" result="noise"/>
-          <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" result="warped"/>
-          <feColorMatrix type="matrix"
-            values="0.6 0.4 0.1 0 0.02
-                    0.3 0.5 0.1 0 0.01
-                    0.1 0.2 0.3 0 0
-                    0   0   0   1 0"
-            in="warped"/>
-        </filter>
         <!-- Vignette gradient -->
         <radialGradient id="map-vignette" cx="50%" cy="50%" r="70%">
           <stop offset="50%" stop-color="transparent"/>
-          <stop offset="100%" stop-color="rgba(8,6,4,0.65)"/>
+          <stop offset="100%" stop-color="rgba(8,6,4,0.72)"/>
         </radialGradient>
-        <!-- England inset frame -->
-        <clipPath id="england-clip">
-          <rect x="20" y="40" width="120" height="90" rx="4"/>
-        </clipPath>
+        <!-- Vintage paper grain filter for land -->
+        <filter id="map-land-grain" x="-5%" y="-5%" width="110%" height="110%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3"
+            seed="4" stitchTiles="stitch" result="noise"/>
+          <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
+          <feBlend in="SourceGraphic" in2="grayNoise" mode="multiply" result="blended"/>
+          <feComponentTransfer in="blended">
+            <feFuncA type="linear" slope="1"/>
+          </feComponentTransfer>
+        </filter>
       </defs>
 
-      <!-- ── Base map background ── -->
-      <!-- Deep dark ocean -->
-      <rect width="900" height="480" fill="#0a0805"/>
+      <!-- ── Ocean background ── -->
+      <rect width="900" height="480" fill="#090706"/>
 
-      <!-- Faint grid lines — antique chart feel -->
-      <g opacity="0.06" stroke="#d4a458" stroke-width="0.5">
-        <line x1="0" y1="96" x2="900" y2="96"/>
-        <line x1="0" y1="192" x2="900" y2="192"/>
-        <line x1="0" y1="288" x2="900" y2="288"/>
-        <line x1="0" y1="384" x2="900" y2="384"/>
-        <line x1="150" y1="0" x2="150" y2="480"/>
-        <line x1="300" y1="0" x2="300" y2="480"/>
-        <line x1="450" y1="0" x2="450" y2="480"/>
-        <line x1="600" y1="0" x2="600" y2="480"/>
-        <line x1="750" y1="0" x2="750" y2="480"/>
+      <!-- Ocean texture — very faint warm ripple -->
+      <rect width="900" height="480" fill="none"
+        stroke="#1e1810" stroke-width="0"
+        style="background:repeating-linear-gradient(0deg,transparent,transparent 23px,rgba(212,164,88,0.012) 24px)"/>
+
+      <!-- D3 inserts geo groups here (land before markers) -->
+      <!-- geo land group placeholder — D3 inserts before this -->
+      <g id="map-overlay-group">
+        <!-- Atlantic arc and ocean labels inserted by D3 -->
       </g>
 
-      <!-- North America silhouette — simplified hand-drawn polygons -->
-      <!-- Continental US approximate outline, very stylized -->
-      <g opacity="0.9">
-        <!-- Main continental landmass — sepia parchment tone -->
-        <polygon
-          points="340,120 380,105 430,95 490,90 550,88 610,90 650,95 690,105 730,120 760,140 780,160 790,180 785,200 775,215 760,225 740,230 720,238 700,245 690,260 680,275 665,290 650,305 630,310 610,308 590,305 570,300 550,295 530,295 510,298 490,300 470,300 450,298 430,300 410,302 390,300 375,295 360,290 345,285 330,275 320,260 315,250 310,238 308,225 310,210 315,195 320,180 325,165 330,148"
-          fill="#2a2010" stroke="#4a3820" stroke-width="0.8"/>
-        <!-- Florida peninsula -->
-        <polygon
-          points="630,295 640,305 645,320 640,335 630,345 618,340 615,330 618,318 622,308"
-          fill="#2a2010" stroke="#4a3820" stroke-width="0.8"/>
-        <!-- Texas additional shape -->
-        <polygon
-          points="460,280 490,275 520,275 540,280 545,300 535,315 520,320 500,318 480,315 465,305 455,290"
-          fill="#2a2010" stroke="#4a3820" stroke-width="0.8"/>
-        <!-- California coast -->
-        <polygon
-          points="320,180 338,185 352,200 358,220 355,242 348,260 340,275 328,280 318,270 312,250 310,230 312,210 315,195"
-          fill="#2a2010" stroke="#4a3820" stroke-width="0.8"/>
-        <!-- Great Lakes region subtle -->
-        <ellipse cx="600" cy="170" rx="35" ry="12" fill="#0e0c0a" opacity="0.7"/>
-        <ellipse cx="636" cy="165" rx="18" ry="8" fill="#0e0c0a" opacity="0.7"/>
-      </g>
-
-      <!-- Mexico/Central America rough suggestion -->
-      <polygon
-        points="450,310 465,318 480,325 490,335 485,355 470,365 450,368 430,360 420,345 422,328 435,318"
-        fill="#1e1a10" stroke="#3a3020" stroke-width="0.6" opacity="0.6"/>
-
-      <!-- Atlantic Ocean label -->
-      <text x="780" y="260" text-anchor="middle"
-        font-family="'Cormorant Garamond', Georgia, serif"
-        font-size="9" font-style="italic" fill="#4a3820" opacity="0.6"
-        letter-spacing="0.15em">ATLANTIC</text>
-      <text x="780" y="272" text-anchor="middle"
-        font-family="'Cormorant Garamond', Georgia, serif"
-        font-size="9" font-style="italic" fill="#4a3820" opacity="0.6"
-        letter-spacing="0.15em">OCEAN</text>
-
-      <!-- Pacific Ocean label -->
-      <text x="220" y="290" text-anchor="middle"
-        font-family="'Cormorant Garamond', Georgia, serif"
-        font-size="9" font-style="italic" fill="#4a3820" opacity="0.6"
-        letter-spacing="0.15em">PACIFIC</text>
-      <text x="220" y="302" text-anchor="middle"
-        font-family="'Cormorant Garamond', Georgia, serif"
-        font-size="9" font-style="italic" fill="#4a3820" opacity="0.6"
-        letter-spacing="0.15em">OCEAN</text>
-
-      <!-- ENGLAND INSET PANEL — top-left -->
-      <rect x="18" y="38" width="124" height="94" rx="5"
-        fill="#181410" stroke="rgba(212,164,88,0.4)" stroke-width="1"/>
-      <rect x="22" y="42" width="116" height="86" rx="3"
-        fill="#1c1810" stroke="rgba(212,164,88,0.15)" stroke-width="0.5"/>
-      <!-- England label -->
-      <text x="80" y="56" text-anchor="middle"
-        font-family="'Cormorant Garamond', Georgia, serif"
-        font-size="7" font-style="italic" letter-spacing="0.12em"
-        fill="#a07840" opacity="0.9">ENGLAND</text>
-      <!-- Simplified England shape -->
-      <polygon
-        points="68,62 74,60 80,61 85,64 88,70 86,77 82,82 76,84 70,82 66,77 65,71 66,66"
-        fill="#2a2010" stroke="#4a3820" stroke-width="0.7"/>
-      <!-- Hampshire dot -->
-      <circle cx="68" cy="82" r="3.5" fill="#d4a458" stroke="#7a5010" stroke-width="1.2" opacity="0.9"/>
-      <circle cx="68" cy="82" r="1.5" fill="#f0c878" opacity="0.7"/>
-      <text x="74" y="86" font-family="'Cormorant Garamond', Georgia, serif"
-        font-size="6.5" font-style="italic" fill="#c8a870" opacity="0.85">Hampshire</text>
-      <!-- Inset title -->
-      <text x="80" y="120" text-anchor="middle"
-        font-family="'Lora', Georgia, serif"
-        font-size="6" fill="#806040" opacity="0.6" font-style="italic">origin, pre-1660</text>
-
-      <!-- ATLANTIC CROSSING — dashed arc from England to Maryland -->
-      <path d="M 142,82 C 300,60 480,90 {maryland_loc['x']},{maryland_loc['y']}"
-        fill="none" stroke="#d4a458" stroke-width="1.2"
-        stroke-dasharray="4,6" opacity="0.35"/>
-      <!-- Arrow tip at Maryland end -->
-      <path d="M {maryland_loc['x'] - 8},{maryland_loc['y'] - 4} L {maryland_loc['x']},{maryland_loc['y']} L {maryland_loc['x'] - 6},{maryland_loc['y'] + 5}"
-        fill="none" stroke="#d4a458" stroke-width="1.2" opacity="0.5"/>
-
-      <!-- MIGRATION POLYLINE — animated draw on load -->
+      <!-- MIGRATION POLYLINE — animated draw on load (coords updated by D3) -->
       <polyline id="migration-path"
-        points="{polyline_points}"
+        points="0,0"
         fill="none"
         stroke="#d4a458"
-        stroke-width="1.8"
+        stroke-width="2"
         stroke-dasharray="8,5"
-        opacity="0.6"
-        stroke-linejoin="round"/>
-
-      <!-- Directional arrow markers along path — at key transitions -->
-      <!-- Maryland → Kentucky -->
-      <path d="M 650,205 L 642,210 L 638,204"
-        fill="none" stroke="#d4a458" stroke-width="1.2" opacity="0.4"/>
-      <!-- Kentucky → San Antonio -->
-      <path d="M 570,255 L 562,260 L 565,252"
-        fill="none" stroke="#d4a458" stroke-width="1.2" opacity="0.4"/>
-      <!-- San Antonio → Santa Monica -->
-      <path d="M 430,262 L 422,268 L 418,260"
-        fill="none" stroke="#d4a458" stroke-width="1.2" opacity="0.4"/>
-
-      <!-- LOCATION MARKERS -->
-{locations_html}
-
-      <!-- LOCATION LABELS -->
-{labels_html}
-{year_labels_html}
+        opacity="0.65"
+        stroke-linejoin="round"
+        pointer-events="none"/>
 
       <!-- MAP TITLE — engraved serif -->
-      <text x="450" y="30" text-anchor="middle"
+      <text x="450" y="28" text-anchor="middle"
         font-family="'Cormorant Garamond', Georgia, serif"
-        font-size="14" font-weight="700" letter-spacing="0.25em"
-        fill="#c8a060" opacity="0.75">THE MATTINGLY MIGRATION</text>
-      <line x1="260" y1="34" x2="640" y2="34"
-        stroke="#d4a458" stroke-width="0.5" opacity="0.25"/>
+        font-size="14" font-weight="700" letter-spacing="0.28em"
+        fill="#c8a060" opacity="0.78">THE MATTINGLY MIGRATION</text>
+      <line x1="270" y1="33" x2="630" y2="33"
+        stroke="#d4a458" stroke-width="0.5" opacity="0.28"/>
 
       <!-- Compass rose — bottom right -->
-      <g transform="translate(855, 430)" opacity="0.35">
-        <line x1="0" y1="-18" x2="0" y2="18" stroke="#d4a458" stroke-width="1"/>
-        <line x1="-18" y1="0" x2="18" y2="0" stroke="#d4a458" stroke-width="1"/>
-        <line x1="-12" y1="-12" x2="12" y2="12" stroke="#d4a458" stroke-width="0.5"/>
-        <line x1="12" y1="-12" x2="-12" y2="12" stroke="#d4a458" stroke-width="0.5"/>
-        <polygon points="0,-18 4,-8 -4,-8" fill="#d4a458"/>
-        <text x="0" y="-22" text-anchor="middle"
+      <g transform="translate(858, 435)" opacity="0.38">
+        <circle cx="0" cy="0" r="20" fill="none" stroke="#d4a458" stroke-width="0.5"/>
+        <line x1="0" y1="-19" x2="0" y2="19" stroke="#d4a458" stroke-width="1"/>
+        <line x1="-19" y1="0" x2="19" y2="0" stroke="#d4a458" stroke-width="1"/>
+        <line x1="-12" y1="-12" x2="12" y2="12" stroke="#d4a458" stroke-width="0.4"/>
+        <line x1="12" y1="-12" x2="-12" y2="12" stroke="#d4a458" stroke-width="0.4"/>
+        <polygon points="0,-19 3.5,-9 -3.5,-9" fill="#d4a458"/>
+        <polygon points="0,19 3.5,9 -3.5,9" fill="#d4a458" opacity="0.4"/>
+        <text x="0" y="-24" text-anchor="middle"
           font-family="'Cormorant Garamond', Georgia, serif"
           font-size="8" font-weight="700" fill="#d4a458">N</text>
       </g>
 
       <!-- Scale note -->
-      <text x="30" y="468"
+      <text x="30" y="470"
         font-family="'Lora', Georgia, serif"
-        font-size="6.5" font-style="italic" fill="#504030" opacity="0.7">
-        Stylized cartographic illustration — not to scale
+        font-size="6.5" font-style="italic" fill="#504030" opacity="0.65">
+        Natural Earth projection · World Atlas 110m coastlines
       </text>
 
       <!-- Vignette overlay -->
@@ -3862,10 +4044,9 @@ def render_migration_map_section(deeds_map=None):
     <!-- Map legend -->
     <div class="map-legend">
       <strong>Legend</strong>
-      <span>&#9632; Major settlement</span><br>
-      <span>&#9679; Location marker</span><br>
-      <span>&#8230;&#8230; Migration route</span><br>
-      <span>- - - Atlantic crossing</span>
+      <span>&#9679; Settlement waypoint</span><br>
+      <span>&#8212;&#8212; Migration route</span><br>
+      <span>- - - Atlantic crossing (1663)</span>
     </div>
 
   </div>
@@ -3873,7 +4054,7 @@ def render_migration_map_section(deeds_map=None):
 </section>
 
 <script>
-{tooltip_js}
+{map_js}
 </script>"""
 
 
