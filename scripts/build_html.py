@@ -1562,12 +1562,25 @@ def load_portraits():
     if PORTRAITS_JSON.exists():
         try:
             data = json.loads(PORTRAITS_JSON.read_text(encoding="utf-8"))
-            for item in data:
-                pid = item.get("id") or item.get("person_id")
-                url = item.get("portrait_url") or item.get("url")
-                if pid and url:
-                    portrait_map[pid] = url
-        except (json.JSONDecodeError, KeyError):
+            # Agent 13 schema: top-level keys with arrays of {entity_id, image_url, ...}
+            arrays = []
+            if isinstance(data, dict):
+                for k in ("person_portraits", "historical_figure_images",
+                          "place_images", "artifact_images"):
+                    v = data.get(k)
+                    if isinstance(v, list):
+                        arrays.append(v)
+            elif isinstance(data, list):
+                arrays.append(data)
+            for arr in arrays:
+                for item in arr:
+                    if not isinstance(item, dict):
+                        continue
+                    pid = item.get("entity_id") or item.get("id") or item.get("person_id")
+                    url = item.get("image_url") or item.get("portrait_url") or item.get("url")
+                    if pid and url:
+                        portrait_map[pid] = url
+        except (json.JSONDecodeError, KeyError, AttributeError, TypeError):
             pass
     # Also pick up portrait_url embedded directly on person objects (future-proof)
     entities_data = json.loads(ENTITIES.read_text(encoding="utf-8"))
