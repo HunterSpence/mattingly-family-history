@@ -440,12 +440,12 @@
                                                                   {
                                                                     "name": "Leroy Baity Mattingly",
                                                                     "dates": "1922–2013",
-                                                                    "fact": "Born 17 May 1922 San Antonio; died Colorado Springs CO 2013. WikiTree Mattingly-1178. m. Jennive Lepick.",
+                                                                    "fact": "Born 17 May 1922 San Antonio; died Colorado Springs CO 2013. WikiTree Mattingly-1178. m. Jennive Imogene Lepick (1923-2008) at Fort Sill OK on 18 Dec 1943.",
                                                                     "id": "p015",
                                                                     "generation": 15,
                                                                     "century": 20,
-                                                                    "confidence": "probable",
-                                                                    "spouse": "Jennive Lepick",
+                                                                    "confidence": "confirmed",
+                                                                    "spouse": "Jennive Imogene Lepick (2 Feb 1923 Floresville TX – 2008 Colorado Springs)",
                                                                     "children": [
                                                                       {
                                                                         "name": "Sharyn (\"Shari\") Mattingly",
@@ -1044,69 +1044,45 @@
   },
   "secondary_trees": [
     {
-      "label": "Maternal Frost line (Shari's mother's family)",
+      "label": "Maternal Lepick line (Shari's mother's family — Jennive Lepick of Floresville TX)",
       "tree": {
-        "name": "Thomas Claiborne Frost I",
-        "dates": "1833–1903",
-        "fact": "FOUNDER of Frost Bank San Antonio (1868). Former Confederate Army Lt Col. Bank still Frost-controlled today.",
+        "name": "Frederick Lepick",
+        "dates": "?",
+        "fact": "Jennive's father. Lepick family of Wilson County TX.",
         "id": null,
-        "generation": 12,
-        "century": 19,
+        "generation": 14,
+        "century": 20,
         "confidence": "confirmed",
-        "spouse": null,
+        "spouse": "Hilda Boehme",
         "children": [
           {
-            "name": "T.C. Frost II",
-            "dates": "?",
-            "fact": "Son of bank founder T.C. Frost I; Frost Bank president gen 2.",
+            "name": "Jennive Imogene Lepick",
+            "dates": "2 Feb 1923 Floresville TX – 2008 Colorado Springs",
+            "fact": "Shari's mother. m. Leroy Baity Mattingly 18 Dec 1943 at Fort Sill OK. Dietician degree from Our Lady of the Lake College, San Antonio. Find a Grave 36080759.",
             "id": null,
-            "generation": 13,
+            "generation": 15,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": "Leroy Baity Mattingly",
+            "children": []
+          },
+          {
+            "name": "Gertrude (Lepick) Hurlburt",
+            "dates": "1920–2000",
+            "fact": "Jennive's older sister",
+            "id": null,
+            "generation": 15,
             "century": 20,
             "confidence": "confirmed",
             "spouse": null,
-            "children": [
-              {
-                "name": "Thomas Claiborne Frost III",
-                "dates": "1903–1971",
-                "fact": "Grandson of bank founder. m. Florence Ilse Herff (1906-1984)",
-                "id": null,
-                "generation": 14,
-                "century": 20,
-                "confidence": "confirmed",
-                "spouse": "Florence Ilse Herff (1906-1984)",
-                "children": [
-                  {
-                    "name": "Tom Frost Jr.",
-                    "dates": "1927–2018",
-                    "fact": "Frost Bank president 1963-1997. Probable 'Shari's uncle' from Hunter's interview.",
-                    "id": null,
-                    "generation": 15,
-                    "century": 20,
-                    "confidence": "probable",
-                    "spouse": null,
-                    "children": []
-                  },
-                  {
-                    "name": "Ilse 'Ita' Herff Frost McNeel",
-                    "dates": "b. 1930",
-                    "fact": "Daughter of T.C. Frost III + Florence Herff",
-                    "id": null,
-                    "generation": 15,
-                    "century": 20,
-                    "confidence": "probable",
-                    "spouse": null,
-                    "children": []
-                  }
-                ]
-              }
-            ]
+            "children": []
           },
           {
-            "name": "Joseph H. Frost",
-            "dates": "1881–1956",
-            "fact": "Brother of T.C. Frost II; ran Frost Bank. Confirmed Frost-family lineage.",
+            "name": "Fred Charles Lepick Jr.",
+            "dates": "1925–2016",
+            "fact": "Jennive's younger brother. Naval Aviator (NOT a banker — Frost Bank 'uncle' oral tradition is debunked).",
             "id": null,
-            "generation": 13,
+            "generation": 15,
             "century": 20,
             "confidence": "confirmed",
             "spouse": null,
@@ -1218,6 +1194,78 @@
             "generation": 16,
             "century": 20,
             "confidence": "possible",
+            "spouse": null,
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "Frost dynasty (PRIOR THEORY — DISPROVEN per agent 25; Frost Bank 'uncle' is unverified oral tradition)",
+      "tree": {
+        "name": "Thomas Claiborne Frost I",
+        "dates": "1833–1903",
+        "fact": "FOUNDER of Frost Bank San Antonio (1868). Former Confederate Army Lt Col. Bank still Frost-controlled today.",
+        "id": null,
+        "generation": 12,
+        "century": 19,
+        "confidence": "confirmed",
+        "spouse": null,
+        "children": [
+          {
+            "name": "T.C. Frost II",
+            "dates": "?",
+            "fact": "Son of bank founder T.C. Frost I; Frost Bank president gen 2.",
+            "id": null,
+            "generation": 13,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": null,
+            "children": [
+              {
+                "name": "Thomas Claiborne Frost III",
+                "dates": "1903–1971",
+                "fact": "Grandson of bank founder. m. Florence Ilse Herff (1906-1984)",
+                "id": null,
+                "generation": 14,
+                "century": 20,
+                "confidence": "confirmed",
+                "spouse": "Florence Ilse Herff (1906-1984)",
+                "children": [
+                  {
+                    "name": "Tom Frost Jr.",
+                    "dates": "1927–2018",
+                    "fact": "Frost Bank president 1963-1997. Probable 'Shari's uncle' from Hunter's interview.",
+                    "id": null,
+                    "generation": 15,
+                    "century": 20,
+                    "confidence": "probable",
+                    "spouse": null,
+                    "children": []
+                  },
+                  {
+                    "name": "Ilse 'Ita' Herff Frost McNeel",
+                    "dates": "b. 1930",
+                    "fact": "Daughter of T.C. Frost III + Florence Herff",
+                    "id": null,
+                    "generation": 15,
+                    "century": 20,
+                    "confidence": "probable",
+                    "spouse": null,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Joseph H. Frost",
+            "dates": "1881–1956",
+            "fact": "Brother of T.C. Frost II; ran Frost Bank. Confirmed Frost-family lineage.",
+            "id": null,
+            "generation": 13,
+            "century": 20,
+            "confidence": "confirmed",
             "spouse": null,
             "children": []
           }

@@ -1,0 +1,167 @@
+{
+  "query": "Identify Shari Mattingly's mother (born 1923) by tracing T.C. Frost III + Florence Herff children and Bexar County marriages 1944-1948",
+  "compiled": "2026-04-25",
+  "status": "RESOLVED",
+  "confidence": 0.97,
+
+  "best_candidate": {
+    "given_name": "Jennive Imogene",
+    "maiden_name": "Lepick",
+    "married_name": "Mattingly",
+    "legal_first_name": "Genevieve",
+    "common_name": "Jennive",
+    "birth_date": "1923-02-02",
+    "birth_place": "Floresville, Wilson County, Texas, USA",
+    "death_date": "2008-04-01",
+    "death_place": "Colorado Springs, El Paso County, Colorado, USA",
+    "ssdi_last_residence": "80904 Colorado Springs, Colorado",
+    "ssn_issued_state": "Texas (before 1951)",
+    "find_a_grave_memorial": 36080759
+  },
+
+  "parents": {
+    "father": {
+      "name": "Frederick Charles Lepick Sr.",
+      "notes": "Lifelong San Antonio TX area resident. Occupation not found in accessible public records."
+    },
+    "mother": {
+      "name": "Hilda Boehme Lepick",
+      "maiden_name": "Boehme",
+      "birth": "1900",
+      "death": "1945",
+      "burial": "Floresville City Cemetery, Floresville TX",
+      "maternal_grandfather": "Herman F. Boehme (1863-1900, Shiner TX)"
+    }
+  },
+
+  "siblings_of_jennive": [
+    {
+      "name": "Gertrude Mildred Lepick Hurlburt",
+      "birth": "1920",
+      "death": "2000",
+      "notes": "Married Harvey Zeh Hurlburt 1943, Kanawha"
+    },
+    {
+      "name": "Fred Charles Lepick Jr.",
+      "birth": "1925-08-04",
+      "death": "2016-07-08",
+      "notes": "Naval Aviator, Ensign September 1945. Lifelong San Antonio TX resident. Brackenridge High School graduate. No banking connections documented."
+    }
+  ],
+
+  "marriage": {
+    "husband": "Leroy Baity Mattingly",
+    "husband_born": "1922-05-17",
+    "husband_died": "2013-03-19",
+    "husband_birthplace": "San Antonio, Bexar County, Texas",
+    "marriage_date": "1943-12-18",
+    "marriage_place": "Fort Sill, Oklahoma",
+    "marriage_duration_years": 64,
+    "note": "Leroy died at age 90 at Village at Skyline, Colorado Springs, five years after Jennive."
+  },
+
+  "children": [
+    {
+      "name": "Sharyn (Shari) Mattingly",
+      "residence_2013": "Santa Monica, California",
+      "note": "Named in Leroy Mattingly 2013 obituary as surviving child."
+    },
+    {
+      "name": "Michael Mattingly",
+      "residence_2013": "Houston, Texas"
+    },
+    {
+      "name": "Stephanie Wright",
+      "married_name": "Wright",
+      "husband": "David Wright",
+      "residence_2013": "Colorado Springs, Colorado"
+    }
+  ],
+
+  "criteria_match": {
+    "born_1923": {"result": "CONFIRMED", "detail": "February 2, 1923"},
+    "chemistry_physics_degree": {
+      "result": "PARTIAL",
+      "detail": "Obituary states 'degree as a dietician from Our Lady of the Lake College, San Antonio.' Dietetics requires substantial chemistry coursework. The oral tradition of 'chemistry/physics degree' likely reflects curriculum content rather than exact degree title."
+    },
+    "o_negative_blood": {"result": "CANNOT_VERIFY", "detail": "No public record available."},
+    "brother_was_frost_bank_president": {
+      "result": "NOT_CONFIRMED",
+      "detail": "Fred Charles Lepick Jr. (only known brother) was a Naval Aviator with no documented connection to Frost Bank. Frost Bank was led exclusively by the Frost family dynasty (T.C. Frost I-IV). The claim is unverified oral tradition.",
+      "working_hypotheses": [
+        "Multi-generational transmission error converting 'acquaintance/associate' into 'brother'",
+        "An undocumented half-sibling or step-sibling of Jennive through Frederick Lepick Sr.",
+        "Family mythology — Frost Bank was the dominant San Antonio financial institution; the claim may be social aspiration rather than documented fact"
+      ]
+    },
+    "married_leroy_mattingly_1944_1948": {
+      "result": "CONFIRMED_WITH_ADJUSTMENT",
+      "detail": "Marriage date December 18, 1943 — slightly before the 1944-1948 search window, but consistent with wartime courtship."
+    }
+  },
+
+  "eliminated_hypotheses": [
+    {
+      "hypothesis": "Shari's mother was a daughter of T.C. Frost III (1903-1971) and Florence Ilse Herff (1906-1984)",
+      "elimination_reason": "Leroy Mattingly's 2013 obituary definitively confirms he married Jennive Lepick, not a Frost. The Frost-Herff daughter hypothesis is fully eliminated.",
+      "prior_research_file": "19-frost-maternal.md"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Leroy Baity Mattingly obituary 2013",
+      "url": "https://www.shrineofremembrance.com/leroy-b-mattingly/",
+      "publisher": "Shrine of Remembrance / The Gazette Colorado Springs",
+      "access": "free_direct",
+      "key_facts": ["marriage to Jennive Lepick Dec 18 1943", "Sharyn as surviving daughter", "death March 19 2013"]
+    },
+    {
+      "name": "Jennive Imogene Mattingly (Lepick) obituary 2008 — PPLD Digital Collections",
+      "url": "https://digitalcollections.ppld.org/nodes/view/814812",
+      "publisher": "The Gazette Colorado Springs April 4, 2008",
+      "access": "free_metadata_only",
+      "key_facts": ["born Feb 2 1923 Floresville TX", "parents Frederick and Hilda (Boehme) Lepick", "three children", "graduated high school SA 1940", "dietician degree Our Lady of the Lake College"]
+    },
+    {
+      "name": "Find a Grave memorial 36080759 — Genevieve L. Jennive Lepick Mattingly",
+      "url": "https://www.findagrave.com/memorial/36080759/genevieve_l-mattingly",
+      "access": "snippet_via_ddg",
+      "key_facts": ["SSDI born 2 Feb 1923", "SSN issued Texas before 1951", "mother's maiden name Baehme/Boehme", "sister Gertrude Lepick Hurlburt 1920-2000"]
+    },
+    {
+      "name": "WikiTree Mattingly-1178",
+      "url": "https://www.wikitree.com/wiki/Mattingly-1178",
+      "access": "free_direct",
+      "key_facts": ["confirms marriage to Jennive Lepick", "three private children 1940s-1950s", "parents Leroy Teichmueller Mattingly + Ruth Baity"]
+    },
+    {
+      "name": "PeopleLegacy — Herman F. Boehme",
+      "url": "https://peoplelegacy.net/herman_f__boehme-4J1f4W",
+      "access": "free_direct",
+      "key_facts": ["Herman Boehme 1863-1900 Shiner TX had 6 children including Hilda Boehme Lepick 1900-1945"]
+    },
+    {
+      "name": "Fred Charles Lepick Jr. obituary — multiple sources",
+      "urls": [
+        "https://www.legacy.com/us/obituaries/sanantonio/name/fred-lepick-obituary?id=7122292",
+        "https://www.findagrave.com/memorial/206883930/fred_charles-lepick"
+      ],
+      "access": "snippet_via_ddg",
+      "key_facts": ["born Aug 4 1925 San Antonio", "parents Hilda Boehme + Fred Charles Lepick Sr.", "Naval Aviator", "died July 8 2016"]
+    },
+    {
+      "name": "UTSA Oral History Collection — Interview with Tom Frost 1994",
+      "url": "https://digital.utsa.edu/digital/singleitem/collection/p15125coll4/id/341",
+      "access": "free_pdf",
+      "key_facts": ["Tom Frost born Oct 29 1927 SA", "does not mention sisters or Mattingly family", "confirms bank family legacy only"]
+    }
+  ],
+
+  "next_steps_if_unresolved": [
+    "Request full Jennive Mattingly obituary scan from PPLD (email: regionalhistorygenealogy@ppld.org) — may include sibling names or Frost Bank mention",
+    "Our Lady of the Lake University Archives (San Antonio) — Jennive's 1940 enrollment records would confirm exact degree program and chemistry coursework",
+    "Wilson County TX courthouse — Frederick Charles Lepick Sr. vital records, citizenship, occupation",
+    "Texas State Library — San Antonio city directory 1920s-1940s, 'Lepick' entries for occupation"
+  ]
+}

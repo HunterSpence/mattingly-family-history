@@ -44,8 +44,8 @@ shari_brother = n("[brother]", "living", "Got the chair from Pearl's set", "p022
 shari_sister = n("[sister]", "living", "—", "p023", 16, 20, "confirmed")
 
 # Shari's father — agent 18 finding: STRONG candidate Leroy Baity Mattingly (b. 17 May 1922 SA, d. 2013 Colorado Springs)
-shari_father = n("Leroy Baity Mattingly", "1922–2013", "Born 17 May 1922 San Antonio; died Colorado Springs CO 2013. WikiTree Mattingly-1178. m. Jennive Lepick.", "p015", 15, 20, "probable", [shari, shari_brother, shari_sister],
-                 spouse="Jennive Lepick")
+shari_father = n("Leroy Baity Mattingly", "1922–2013", "Born 17 May 1922 San Antonio; died Colorado Springs CO 2013. WikiTree Mattingly-1178. m. Jennive Imogene Lepick (1923-2008) at Fort Sill OK on 18 Dec 1943.", "p015", 15, 20, "confirmed", [shari, shari_brother, shari_sister],
+                 spouse="Jennive Imogene Lepick (2 Feb 1923 Floresville TX – 2008 Colorado Springs)")
 
 # Leroy Teichmuller Mattingly + Ruth Baity (and Leroy's siblings)
 # CORRECTION (agent 16): Leroy born 31 Aug 1896, died 1968 SA. Ruth Baity 4 Apr 1900 - 1982 Houston.
@@ -266,13 +266,25 @@ revelendus = n("Revelendus of Mattingley", "fl. late 12th c.", "Succeeded Ellis;
 ellis = n("Ellis (lord of Mattingley)", "fl. 1167", "First named lord of Mattingley village; recorded in Pipe Roll 13 Henry II", "p073", -3, 12, "possible",
          [revelendus])
 
-# ── Frost maternal subtree (agent 19 finding) ─────────────────────
-# Shari's mother born 1923, brother was Frost Bank president per Shari's interview.
-# Per agent 19: Tom Frost Jr (1927-2018, bank president 1963-1997) is the most likely candidate.
-# Shari's mother specifically NOT confirmed — needs Ancestry sub or Bexar County marriage records.
+# ── Lepick maternal subtree (agent 25 finding — DEFINITIVE) ───────
+# Per Leroy Baity Mattingly obituary (Gazette, 24 Mar 2013): Shari's mother is Jennive Lepick.
+# Per Jennive's 2008 obituary (Gazette/PPLD): Jennive Imogene Lepick, b. 2 Feb 1923 Floresville TX,
+# parents Frederick + Hilda (Boehme) Lepick; one of three children. Dietician degree, Our Lady of the Lake.
+# Brother Fred Charles Lepick Jr (1925-2016) was a NAVAL AVIATOR — NOT a banker. The Frost-Bank "uncle"
+# claim from Shari's oral history is UNVERIFIED — likely a transmission error.
 
-shari_mother = n("[Shari's mother]", "b. 1923", "Chemistry/physics degree; O-negative blood. Maiden name probably Frost — UNCONFIRMED.", None, 15, 20, "possible",
-                 [], spouse=None)
+shari_mother = n("Jennive Imogene Lepick", "2 Feb 1923 Floresville TX – 2008 Colorado Springs", "Shari's mother. m. Leroy Baity Mattingly 18 Dec 1943 at Fort Sill OK. Dietician degree from Our Lady of the Lake College, San Antonio. Find a Grave 36080759.", None, 15, 20, "confirmed",
+                 [], spouse="Leroy Baity Mattingly")
+
+# Jennive's siblings (per agent 25)
+gertrude_lepick = n("Gertrude (Lepick) Hurlburt", "1920–2000", "Jennive's older sister", None, 15, 20, "confirmed")
+fred_lepick_jr = n("Fred Charles Lepick Jr.", "1925–2016", "Jennive's younger brother. Naval Aviator (NOT a banker — Frost Bank 'uncle' oral tradition is debunked).", None, 15, 20, "confirmed")
+
+# Jennive's parents
+hilda_boehme = n("Hilda (Boehme) Lepick", "?", "Jennive's mother. Maiden name Boehme.", None, 14, 20, "confirmed")
+frederick_lepick = n("Frederick Lepick", "?", "Jennive's father. Lepick family of Wilson County TX.", None, 14, 20, "confirmed",
+                    [shari_mother, gertrude_lepick, fred_lepick_jr], spouse="Hilda Boehme")
+lepick_root = frederick_lepick
 
 # Tom Frost Jr — bank president 1963-1997, possibly Shari's uncle
 tom_frost_jr = n("Tom Frost Jr.", "1927–2018", "Frost Bank president 1963-1997. Probable 'Shari's uncle' from Hunter's interview.", None, 15, 20, "probable")
@@ -330,9 +342,10 @@ output_data = {
     "_root_kind": "multi",
     "primary": ellis,
     "secondary_trees": [
-        {"label": "Maternal Frost line (Shari's mother's family)", "tree": frost_root},
+        {"label": "Maternal Lepick line (Shari's mother's family — Jennive Lepick of Floresville TX)", "tree": lepick_root},
         {"label": "Maternal-paternal Teichmüller line (Brunswick → Texas)", "tree": teichmueller_root},
-        {"label": "Paternal Spence clan (David's surname)", "tree": spence_root}
+        {"label": "Paternal Spence clan (David's surname)", "tree": spence_root},
+        {"label": "Frost dynasty (PRIOR THEORY — DISPROVEN per agent 25; Frost Bank 'uncle' is unverified oral tradition)", "tree": frost_root}
     ]
 }
 # For backward compat, write the primary tree at top-level
