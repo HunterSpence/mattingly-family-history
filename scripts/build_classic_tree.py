@@ -73,43 +73,54 @@ ignatius_jr = n("Ignatius Mattingly Jr.", "b. 1750", "Son of Leonard Sr.; the ac
 # Leonard Jr. (now COLLATERAL — Y-DNA project anchor for KY descendants)
 leonard_jr_children = [
     n("Mary Alvey Mattingly", "b. 1798", "Eldest of Leonard Jr.'s 4 children", None, 11, 19, "probable"),
-    n("Henry Martin Mattingly Sr.", "1799–1858", "Had 9 children 1828-1844 in Marion/Washington Co KY; m. Helen Thompson", None, 11, 19, "confirmed",
-      [n("George Thomas Mattingly", "b. 1830 Marion KY", "Y-DNA project participant; cousin of the Texas line", "p046", 12, 19, "possible")]),
+    n("Henry Martin Mattingly Sr.", "1799–1858 Marion KY", "9 children 1828-1844; m. Helen Thompson; collateral Mattingly/Y-DNA branch", None, 11, 19, "confirmed",
+      [
+        n("George Thomas Mattingly", "b. 1830 Marion KY", "Y-DNA project participant; not direct Texas-line ancestor", "p046", 12, 19, "possible"),
+        n("[+8 other children of Henry Martin Sr.]", "1828–1844", "Per agent 16 research", None, 12, 19, "probable"),
+      ],
+      spouse="Helen Thompson (b. ~1800)"),
     n("William Cissell Mattingly", "b. 1807", "Leonard Jr's third child", None, 11, 19, "probable"),
     n("Leonard Mattingly III", "1828–1914 Glen Dean KY", "Died KY at 85; ruled out as centenarian", None, 11, 19, "confirmed"),
 ]
 leonard_jr = n("Leonard Mattingly Jr.", "1764–1843 Marion KY", "1785 Catholic migration to KY; Y-DNA project anchor — but COLLATERAL to Hunter, not direct line", "p045", 10, 18, "confirmed",
                leonard_jr_children, spouse="Ann Cissell (m. 7 Jan 1788, Nelson Co KY)")
 
-# Leonard Sr. — CORRECTED: 14 children via 3 marriages
+# Leonard Sr. — 14 children across 3 marriages (only Ignatius Jr. + Leonard Jr. known by name; rest abstracted)
 leonard_sr_other = [
-    n("[+12 other children of Leonard Sr.]", "1760s-1810s", "Leonard Sr. had ~14 children across 3 marriages", None, 10, 18, "probable")
+    n("[+ ~12 other children]", "1760s–1810s", "Leonard Sr. had ~14 children across 3 marriages (names being researched)", None, 10, 18, "probable")
 ]
 leonard_sr = n("Leonard Mattingly Sr.", "1739–1829 Leonardtown MD", "'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; ~14 children", "p044", 9, 18, "confirmed",
                [ignatius_jr, leonard_jr] + leonard_sr_other,
                spouse="m1. Mary Hayden; m2. Margaret Monica Monarch; m3. Dorothy Hardesty")
 
-# Ignatius (1704) — CORRECTED: m. Sarah Catherine Fowler; 7 children
+# Ignatius (1704) — m. Sarah Catherine Fowler; 7 children total (5 collateral + 2 direct lines)
 ignatius_other_children = [
     n("Lucas Mattingly", "?", "Son of Ignatius (per Sarah Catherine Fowler line)", None, 9, 18, "probable"),
     n("William Mattingly", "?", "Son of Ignatius", None, 9, 18, "probable"),
-    n("Elizabeth (Mattingly) Thompson", "?", "Daughter of Ignatius", None, 9, 18, "probable"),
-    n("Sarah (Mattingly) Walker", "?", "Daughter of Ignatius", None, 9, 18, "probable"),
+    n("Elizabeth (Mattingly) Thompson", "?", "Daughter of Ignatius; m. Thompson", None, 9, 18, "probable"),
+    n("Sarah (Mattingly) Walker", "?", "Daughter of Ignatius; m. Walker", None, 9, 18, "probable"),
     n("Susanna Mattingly", "?", "Daughter of Ignatius", None, 9, 18, "probable"),
 ]
 ignatius = n("Ignatius Mattingly", "1704–1789 St Mary's MD", "Catholic Jesuit naming tradition; 'We're from Ignatius'; m. Sarah Catherine Fowler; 7 children", "p043", 8, 18, "confirmed",
              [leonard_sr] + ignatius_other_children,
              spouse="Sarah Catherine (Fowler) Mattingly")
 
-# Thomas III's other named sons (Edward, John Baptist, Clement)
-thomas_iii_son_leonard = n("Leonard (son of Thomas III)", "?", "Named in 1774 will of Thomas III", None, 7, 18, "probable")
-thomas_iii_son_edward = n("Edward (son of Thomas III)", "?", "Named in 1774 will of Thomas III", None, 7, 18, "probable")
-thomas_iii_son_jbaptist = n("John Baptist Mattingly", "?", "Named in 1774 will of Thomas III", None, 7, 18, "probable")
-thomas_iii_son_clement = n("Clement Mattingly", "?", "Named in 1774 will of Thomas III", None, 7, 18, "probable")
+# Thomas III's 9 children (per agent 16 — 2 wives Elizabeth Warren + Ruth Cole)
+thomas_iii_children = [
+    n("Edward Mattingly", "~1710", "Son of Thomas III + Elizabeth Warren", None, 7, 18, "probable"),
+    n("Clement Mattingly", "~1715", "Son of Thomas III", None, 7, 18, "probable"),
+    n("Thomas Mattingly IV", "~1716", "Son of Thomas III", None, 7, 18, "probable"),
+    n("Mary (Mattingly) Millard", "~1719", "Daughter of Thomas III", None, 7, 18, "probable"),
+    n("James Mattingly", "~1725", "Son of Thomas III", None, 7, 18, "probable"),
+    n("Elizabeth (Mattingly) Ford", "~1726", "Daughter of Thomas III", None, 7, 18, "probable"),
+    n("John Baptist Mattingly", "~1736", "Son of Thomas III + Ruth Cole; named in 1774 will", None, 7, 18, "confirmed"),
+    n("Clement Matney Mattingly", "~1740", "Son of Thomas III + Ruth Cole", None, 7, 18, "probable"),
+    n("Dorothy Mattingly", "~1740", "Daughter of Thomas III", None, 7, 18, "probable"),
+]
 
-# Thomas III (Mount Misery plantation; will primary source)
-thomas_iii = n("Thomas Mattingly III", "1688–1774", "Inherited Mount Misery plantation; will April 1774", "p090", 6, 18, "confirmed",
-               [thomas_iii_son_leonard, thomas_iii_son_edward, thomas_iii_son_jbaptist, thomas_iii_son_clement])
+# Thomas III (Mount Misery plantation; will primary source; 2 wives, 9 children)
+thomas_iii = n("Thomas Mattingly III", "1688–1774", "Inherited Mount Misery plantation; will April 1774; m1. Elizabeth Warren, m2. Ruth Cole; 9 children", "p090", 6, 18, "confirmed",
+               thomas_iii_children, spouse="m1. Elizabeth Warren; m2. Ruth Cole")
 
 # Thomas II's other 8 children (per 1714 will)
 thomas_ii_elizabeth = n("Elizabeth Mattingly", "b. 1681", "Thomas II's first daughter", None, 6, 17, "confirmed")
