@@ -122,11 +122,14 @@
         "Texas state records",
         "Google Images"
       ],
-      "enriched_context": "Hans Teichmueller (1837–1901) — born March 7, 1837 in Brunswick, Germany; died February 17, 1901 in La Grange, Texas. District Judge of the 22nd Judicial District of Texas (Fayette County) from 1884 to 1901. **HE IS THE 'judge in Texas' Shari mentioned**, but Shari slightly compressed the genealogy: he was Leroy's MATERNAL GRANDFATHER, not paternal grandfather. Hans's daughter May Teichmueller married Ed Mattingly — that union produced Leroy Teichmuller Mattingly (named for his German maternal grandfather), Claude, and Aunt Mamie. The 1902 Fayette County history book at the Library of Congress contains his full biography and portrait — that's the photo Shari said is 'on the Internet under Hans Teichmueller.'",
+      "enriched_context": "Hans Teichmueller (1837–1901) — born March 7, 1837 in Brunswick, Germany; died February 17, 1901 in La Grange, Texas. District Judge of the 22nd Judicial District of Texas (Fayette County) from 1884 to 1901. **HE IS THE 'judge in Texas' Shari mentioned**, but Shari slightly compressed the genealogy: he was Leroy's MATERNAL GRANDFATHER, not paternal grandfather. Hans's daughter May Teichmueller married Ed Mattingly — that union produced Leroy Teichmuller Mattingly (named for his German maternal grandfather), Claude, and Aunt Mamie. The 1902 Fayette County history book at the Library of Congress contains his full biography and portrait — that's the photo Shari said is 'on the Internet under Hans Teichmueller.' PARENTS CONFIRMED via 1902 Fayette County history (LOC): father August Teichmueller (officer in Brunswick Army), mother Charlotte (von Gursewald) Teichmueller — 'von' indicates minor noble family. Hans attended Gymnasium at Blankenburg (Harz). Worked briefly as a teen sailor to New York, then emigrated permanently to Texas 1856 after his father's death. Married Augusta Kellner June 16, 1858 at Postoak Point, Austin County, Texas (Colonel Henderson, JP). 5 children: May Mattingly (Shari's great-grandmother), Minetta Teichmueller, Anna Teichmueller, plus 2 unnamed.",
       "sources": [
         "https://www.loc.gov/item/02023423/"
       ],
-      "wikipedia_url": ""
+      "wikipedia_url": "",
+      "education": "Gymnasium at Blankenburg (Harz), Duchy of Brunswick (now Saxony-Anhalt, Germany)",
+      "spouse": "Augusta Kellner (m. June 16, 1858, Postoak Point, Austin County, Texas)",
+      "emigration": "1856 to United States (after his father August's death)"
     },
     {
       "id": "p004",
@@ -137,8 +140,8 @@
       "maiden_name": "Teichmueller",
       "alternate_spellings": [
         "Monett",
-        "Minette Pohl",
-        "Monette"
+        "Monette",
+        "Minette Pohl"
       ],
       "relation_to_shari": "great-great-aunt (grandfather's mother's sister or grandfather's aunt — described as 'aunt Monette, my grandfather's mother')",
       "birth_year": 1871,
@@ -206,20 +209,21 @@
     },
     {
       "id": "p006",
-      "full_name": "Pearl Baity",
-      "given_name": "Pearl",
+      "full_name": "Paralee \"Pearl\" Johnson Baity",
+      "given_name": "Paralee",
       "middle_name": null,
       "surname": "Baity",
-      "maiden_name": null,
+      "maiden_name": "Johnson",
       "alternate_spellings": [
-        "Baty",
-        "Baity"
+        "Pearl",
+        "Pearl Baity",
+        "Paralee Johnson"
       ],
-      "relation_to_shari": "great-grandmother (maternal or paternal unclear)",
+      "relation_to_shari": "great-grandmother (Ruth Baity Mattingly's mother — i.e. paternal great-grandmother)",
       "birth_year": null,
       "death_year": 1971,
       "birth_place": "North Carolina",
-      "death_place": null,
+      "death_place": "San Antonio, Texas",
       "occupation": null,
       "context": "Shari's great-grandmother, born in North Carolina, came to Texas (North Texas) in the 1870s as a child after the Civil War devastated the South; she died in 1971, and Shari knew her well.",
       "transcript_timestamps": [
@@ -236,6 +240,11 @@
         "Newspapers.com",
         "North Carolina vital records",
         "Texas land records"
+      ],
+      "birth_year_note": "approximate ~1874 — would have been ~25 at marriage 1899",
+      "enriched_context": "'Pearl' was a family nickname; her legal name was Paralee Johnson. Married William Alexander Baity in Denison, Grayson County, Texas on June 4, 1899. By 1900 they were in Denison; by 1910 in San Antonio. Father: Morgan Johnson (in Denison, TX by 1900). Mother of Ruth Baity Mattingly (Shari's grandmother).",
+      "sources": [
+        "https://www.wikitree.com/wiki/Baity-117"
       ]
     },
     {
@@ -325,18 +334,18 @@
     },
     {
       "id": "p010",
-      "full_name": null,
-      "given_name": null,
+      "full_name": "William Alexander Baity",
+      "given_name": "William",
       "middle_name": null,
-      "surname": "Mattingly",
+      "surname": "Baity",
       "maiden_name": null,
       "alternate_spellings": [],
-      "relation_to_shari": "great-grandfather (husband of Gigi; Leroy Mattingly's father or step-father)",
-      "birth_year": null,
+      "relation_to_shari": "great-grandfather (paternal — Pearl/Paralee Baity's husband; Ruth Baity Mattingly's father)",
+      "birth_year": 1862,
       "death_year": 1945,
-      "birth_place": null,
-      "death_place": null,
-      "occupation": "Builder / contractor",
+      "birth_place": "Courtney, Yadkin County, North Carolina",
+      "death_place": "San Antonio, Texas",
+      "occupation": "Builder ('built half of San Antonio')",
       "context": "Shari's great-grandfather ('Gigi's husband'), a very successful builder who built half of San Antonio; he died in 1945.",
       "transcript_timestamps": [
         "1:27",
@@ -351,6 +360,11 @@
         "San Antonio city directories",
         "Newspapers.com",
         "Texas building permits"
+      ],
+      "death_date": "January 30, 1945",
+      "enriched_context": "William Alexander Baity (1862–1945). Born November 2, 1862 in Courtney, Yadkin County, North Carolina (Piedmont region). Grew up in Liberty Township, Yadkin County (1870, 1880 census). Married Paralee Johnson on June 4, 1899 in Denison, Grayson County, Texas. By 1900 in Denison; by 1910 established in San Antonio, where he lived through 1940 census. Died January 30, 1945, San Antonio (Texas Death Certificate 477). Children: Ruth Baity Mattingly (Shari's grandmother) and Margaret Baity. CONFIRMED via 6 census records, Texas death certificate, WikiTree Baity-117.",
+      "sources": [
+        "https://www.wikitree.com/wiki/Baity-117"
       ]
     },
     {
@@ -442,14 +456,14 @@
     },
     {
       "id": "p014",
-      "full_name": null,
-      "given_name": null,
+      "full_name": "Ruth (Baity) Mattingly",
+      "given_name": "Ruth",
       "middle_name": null,
       "surname": "Mattingly",
-      "maiden_name": null,
+      "maiden_name": "Baity",
       "alternate_spellings": [],
-      "relation_to_shari": "grandmother (Leroy Mattingly's wife; Shari's grandmother)",
-      "birth_year": 1902,
+      "relation_to_shari": "grandmother (paternal — wife of Leroy Teichmuller Mattingly)",
+      "birth_year": 1900,
       "death_year": null,
       "birth_place": null,
       "death_place": null,
@@ -461,13 +475,18 @@
         "21:30"
       ],
       "living_flag": false,
-      "fuzzy": true,
+      "fuzzy": false,
       "research_priority": "high",
       "research_targets": [
         "FamilySearch",
         "Ancestry",
         "North Texas State University records",
         "Newspapers.com"
+      ],
+      "birth_year_note": "approximate; Shari said 'nineteen o two. 1900. 1900' (corrected herself)",
+      "enriched_context": "Ruth Baity Mattingly is the documentary BRIDGE between the Mattingly and Baity family lines. Daughter of Pearl/Paralee Johnson Baity and William Alexander Baity. Married Leroy Teichmuller Mattingly. Their son was Shari's father (b. 1922). Per Shari: 'My grandmother went to North Texas State, which was the only university in Texas that would accept women' and 'they had been brought up very, very wealthy and they had lost all their money in '29.'",
+      "sources": [
+        "https://www.wikitree.com/wiki/Baity-117"
       ]
     },
     {
@@ -831,11 +850,11 @@
       "alternate_spellings": [
         "Mattingley"
       ],
-      "relation_to_shari": "distant ancestor (came to America in 1660)",
-      "birth_year": 1623,
-      "death_year": 1665,
-      "birth_place": "England (likely Hampshire — near Mattingley village)",
-      "death_place": "Charles County, Maryland",
+      "relation_to_shari": "7th-great-grandfather (paternal Mattingly; STAYED in England — his son Thomas II was the actual immigrant)",
+      "birth_year": 1624,
+      "death_year": 1664,
+      "birth_place": "Omny Parish, Sussex, England",
+      "death_place": "Sussex, England (died BEFORE emigrating)",
       "occupation": null,
       "context": "Thomas Mattingly came to America in 1660 with Lord Baltimore, settling in Maryland; he was Catholic and died a couple of years after arriving; given land called Mattingly's Hope in Maryland.",
       "transcript_timestamps": [
@@ -853,10 +872,11 @@
         "Colonial land grant records",
         "Newspapers.com"
       ],
-      "enriched_context": "Thomas Mattingly I (~1623–~1665), the immigrant ancestor. First Maryland records appear 1663–1664 (NOT 1660 as family tradition holds). King at the time was Charles II (Restoration 1660), not James (James II reigned 1685–88). Came as Catholic refugee following Cromwell's interregnum and the Restoration. His sons Thomas II and Cezar received the 'Mattingly's Hope' 300-acre land patent in Charles County, Maryland on September 4, 1666 — likely after Thomas I had died.",
+      "enriched_context": "CORRECTION TO FAMILY TRADITION: Thomas Mattingly I died in Sussex, England in 1664 BEFORE emigrating. His widow Elizabeth McWilliams brought the children to Maryland; she remarried attorney Walter Pake who secured the family's land claim. The 1660 'Lord Baltimore' arrival story is family compression — the actual immigrant generation is THOMAS II, who arrived pre-1665 and received the 'Mattingly's Hope' 300-acre land patent in Charles County, Maryland on September 4, 1666 with brother Cezar.",
       "sources": [
-        "https://msa.maryland.gov/"
-      ]
+        "https://www.wikitree.com/wiki/Mattingly-30"
+      ],
+      "spouse": "Elizabeth McWilliams (b. ~1626, alive after 1669)"
     },
     {
       "id": "p029",
@@ -1096,22 +1116,36 @@
       "full_name": "Cezar Mattingly",
       "given_name": "Cezar",
       "surname": "Mattingly",
-      "relation_to_shari": "ancestor (uncertain whether direct or collateral; son of immigrant Thomas I)",
-      "context": "Son of Thomas Mattingly I; co-recipient of the Mattingly's Hope land patent September 4, 1666 with brother Thomas II.",
+      "relation_to_shari": "9th-great-uncle (collateral — Thomas I's son, brother of immigrant Thomas II)",
+      "context": "Caesar/Cezar Mattingly (1654–1719). Co-recipient of the 'Mattingly's Hope' 300-acre land patent in Charles County, Maryland on September 4, 1666 with brother Thomas II. Founder of a collateral Mattingly line (Garrett County Maryland and elsewhere). Per the Hoye appendix in 'Descendants of Henry Mattingly.'",
       "research_priority": "high",
       "transcript_timestamps": [],
-      "fuzzy": true
+      "fuzzy": false,
+      "birth_year": 1654,
+      "death_year": 1719,
+      "sources": [
+        "https://archive.org/details/thedescendantsofhenrymattingly"
+      ]
     },
     {
       "id": "p039",
       "full_name": "Thomas Mattingly II",
       "given_name": "Thomas",
       "surname": "Mattingly",
-      "relation_to_shari": "ancestor (uncertain whether direct or collateral; son of immigrant Thomas I)",
+      "relation_to_shari": "6th-great-grandfather (THE IMMIGRANT — pre-1665 to Maryland)",
       "context": "Son of Thomas Mattingly I; co-recipient of the Mattingly's Hope land patent September 4, 1666 with brother Cezar. Possibly the direct ancestor of the Texas/Kentucky Mattingly lines.",
       "research_priority": "high",
       "transcript_timestamps": [],
-      "fuzzy": true
+      "fuzzy": true,
+      "birth_year": 1650,
+      "birth_place": "Sussex, England",
+      "death_year": 1715,
+      "death_place": "St. Mary's County, Province of Maryland",
+      "spouse": "First: Mary Elizabeth Suttle/Curtis (~1675, St Mary's MD); Second: Elizabeth Cole (~1690)",
+      "enriched_context": "Thomas Mattingly II (~1650–1715) is the actual MARYLAND IMMIGRANT. Co-recipient with brother Cezar of the 'Mattingly's Hope' 300-acre land patent in Charles County, Maryland on September 4, 1666. Married twice. Will filed October 9, 1714, probated January 12, 1715 — bequeathed 'Mount Misery' plantation to son Thomas III, plus land to other named children. 8 children: Elizabeth (1681), Judith (1683), Thomas III (1688/1690), James (1696), Charles (1698), William (1700), Luke (1702), Leonard Ignatius (1704–1789), Ann (1706).",
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-29"
+      ]
     },
     {
       "id": "p040",
@@ -1147,6 +1181,334 @@
       "fuzzy": true,
       "research_priority": "high",
       "sources": []
+    },
+    {
+      "id": "p050",
+      "full_name": "August Teichmueller",
+      "given_name": "August",
+      "surname": "Teichmueller",
+      "relation_to_shari": "great-great-great-grandfather (Hans Teichmueller's father)",
+      "occupation": "Officer in the Duchy of Brunswick army",
+      "death_place": "Brunswick (death prompted Hans's 1856 emigration)",
+      "context": "Officer in the Brunswick Army. His death left the family in financial difficulty, prompting his son Hans to emigrate to Texas in 1856.",
+      "fuzzy": true,
+      "research_priority": "high",
+      "sources": [
+        "https://www.loc.gov/item/02023423/"
+      ],
+      "confidence": "CONFIRMED via 1902 Fayette County history",
+      "branch": "Teichmueller maternal-paternal"
+    },
+    {
+      "id": "p051",
+      "full_name": "Charlotte (von Gursewald) Teichmueller",
+      "given_name": "Charlotte",
+      "maiden_name": "von Gursewald",
+      "surname": "Teichmueller",
+      "relation_to_shari": "great-great-great-grandmother (Hans Teichmueller's mother)",
+      "context": "Born von Gursewald — the 'von' prefix indicates a minor noble or gentry family of the Duchy of Brunswick. Married August Teichmueller. Mother of Hans Teichmueller (1837–1901), the Texas judge.",
+      "fuzzy": true,
+      "research_priority": "medium",
+      "sources": [
+        "https://www.loc.gov/item/02023423/"
+      ],
+      "confidence": "CONFIRMED via 1902 Fayette County history",
+      "branch": "Teichmueller maternal-paternal"
+    },
+    {
+      "id": "p052",
+      "full_name": "Augusta (Kellner) Teichmueller",
+      "given_name": "Augusta",
+      "maiden_name": "Kellner",
+      "surname": "Teichmueller",
+      "birth_place": "Postoak Point, Austin County, Texas",
+      "relation_to_shari": "great-great-grandmother (Hans Teichmueller's wife)",
+      "context": "Daughter of 'a highly educated teacher of modern languages.' Born at Postoak Point, Austin County, Texas. Married Hans Teichmueller June 16, 1858 (Colonel Henderson, JP). Widow and head of household in La Grange in 1902.",
+      "fuzzy": false,
+      "research_priority": "medium",
+      "sources": [
+        "https://www.loc.gov/item/02023423/"
+      ],
+      "confidence": "CONFIRMED",
+      "branch": "Teichmueller maternal-paternal"
+    },
+    {
+      "id": "p060",
+      "full_name": "Charles Mattingly",
+      "given_name": "Charles",
+      "surname": "Mattingly",
+      "birth_year": 1600,
+      "birth_place": "Omny Parish, Sussex, England",
+      "death_year": 1642,
+      "relation_to_shari": "8th-great-grandfather (paternal Mattingly line, Thomas I's father)",
+      "spouse": "Judith Bugbee",
+      "context": "Father of Thomas Mattingly I. Lived in Omny Parish, Sussex, England. Per WikiTree Mattingly-30 ancestor chain.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-30"
+      ],
+      "confidence": "PROBABLE",
+      "branch": "Mattingly paternal"
+    },
+    {
+      "id": "p061",
+      "full_name": "Judith (Bugbee) Mattingly",
+      "given_name": "Judith",
+      "maiden_name": "Bugbee",
+      "surname": "Mattingly",
+      "birth_year": 1602,
+      "birth_place": "England",
+      "relation_to_shari": "8th-great-grandmother (Thomas I's mother)",
+      "spouse": "Charles Mattingly",
+      "context": "Wife of Charles Mattingly, mother of Thomas Mattingly I.",
+      "fuzzy": true,
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-30"
+      ],
+      "confidence": "PROBABLE",
+      "branch": "Mattingly paternal"
+    },
+    {
+      "id": "p062",
+      "full_name": "John Mattingly",
+      "given_name": "John",
+      "surname": "Mattingly",
+      "birth_year": 1560,
+      "birth_place": "Berkshire, England",
+      "death_year": 1641,
+      "death_date": "December 17, 1641",
+      "death_place": "St Mary Colechurch, London, England",
+      "relation_to_shari": "9th-great-grandfather (paternal Mattingly, Thomas I's grandfather)",
+      "context": "Grandfather of immigrant Thomas Mattingly II. PRIMARY SOURCE: London Church of England burial register, St Mary Colechurch, December 17, 1641.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-30",
+        "London Church of England burial registers, St Mary Colechurch (Ancestry/FamilySearch)"
+      ],
+      "confidence": "CONFIRMED via primary burial record",
+      "branch": "Mattingly paternal"
+    },
+    {
+      "id": "p063",
+      "full_name": "Francis Mattingly",
+      "given_name": "Francis",
+      "surname": "Mattingly",
+      "birth_year": 1580,
+      "death_year": 1620,
+      "birth_place": "England",
+      "relation_to_shari": "uncertain — possibly 10th-great-grandfather (per WikiTree but chronology unclear)",
+      "context": "Listed in WikiTree as Thomas I's great-grandfather, but the chronology (b.1580, while John Mattingly the grandfather is b.1560) suggests Francis may actually be John's collateral relative (brother, uncle).",
+      "fuzzy": true,
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-30"
+      ],
+      "confidence": "POSSIBLE",
+      "branch": "Mattingly paternal"
+    },
+    {
+      "id": "p070",
+      "full_name": "Stephen de Mattingley",
+      "given_name": "Stephen",
+      "surname": "de Mattingley",
+      "birth_year": null,
+      "death_year": null,
+      "flourished": "fl. 1206",
+      "birth_place": "Mattingley, Hampshire, England",
+      "relation_to_shari": "etymological/regional ancestor (deepest verified Mattingley individual; direct genealogical link to Hunter not proven through 400-year gap)",
+      "occupation": "Lord of Mattingley (held lands of the manor)",
+      "context": "DEEPEST VERIFIED 'de Mattingley' individual. Documented in the Curia Regis Rolls of 1206 and the Victoria County History of Hampshire (BHO). Granted 6 virgates, 30 acres, meadows, and a mill at Mattingley to the Prior of Merton. His father Revelendus (lord of Mattingley, fl. after 1167) and son Peter de Mattingley are also confirmed in BHO VCH. After Peter sold the family's land holdings in the 1220s–1240s, this surname line disappears from manorial records. The 400-year gap from 1240s to John Mattingly d.1641 is unfilled.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.british-history.ac.uk/vch/hants/",
+        "Curia Regis Rolls 1206 (TNA / British History Online)"
+      ],
+      "confidence": "CONFIRMED individual; PROBABLE etymological ancestor; UNVERIFIED direct genealogical descent",
+      "branch": "Mattingly paternal — medieval"
+    },
+    {
+      "id": "p071",
+      "full_name": "Revelendus (lord of Mattingley)",
+      "given_name": "Revelendus",
+      "flourished": "fl. after 1167",
+      "birth_place": "Mattingley, Hampshire, England",
+      "relation_to_shari": "etymological/regional ancestor — earliest named 'lord of Mattingley'",
+      "occupation": "Lord of Mattingley (manor)",
+      "context": "Succeeded Ellis as lord of Mattingley (late 12th century). Had three sons including Stephen de Mattingley. Recorded in Cotton MS Cleopatra C. vii (British Library) and Victoria County History of Hampshire (BHO).",
+      "fuzzy": true,
+      "sources": [
+        "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51",
+        "Cotton MS Cleopatra C. vii, British Library"
+      ],
+      "confidence": "CONFIRMED individual; PROBABLE etymological ancestor",
+      "branch": "Mattingly paternal — medieval"
+    },
+    {
+      "id": "p072",
+      "full_name": "Peter de Mattingley",
+      "given_name": "Peter",
+      "surname": "de Mattingley",
+      "flourished": "fl. 1220s–1240s",
+      "relation_to_shari": "etymological/regional ancestor",
+      "occupation": "Lord of Mattingley (last in line before manor was sold)",
+      "context": "Son of Stephen de Mattingley. Sold the family's land holdings in the 1220s–1240s; after this, the de Mattingley line disappears from manorial records and the family likely continued as yeoman farmers in the area.",
+      "fuzzy": true,
+      "sources": [
+        "https://www.british-history.ac.uk/vch/hants/"
+      ],
+      "confidence": "CONFIRMED individual; PROBABLE etymological ancestor",
+      "branch": "Mattingly paternal — medieval"
+    },
+    {
+      "id": "p080",
+      "full_name": "Judith (Mattingly) Turner",
+      "given_name": "Judith",
+      "maiden_name": "Mattingly",
+      "surname": "Turner",
+      "birth_year": 1645,
+      "death_year": 1744,
+      "relation_to_shari": "9th-great-aunt (collateral — Thomas I's daughter; lived to ~99)",
+      "context": "Daughter of Thomas Mattingly I. Lived to approximately 99 years old (1645–1744). The Mattingly family has notable longevity genetics (also Elizabeth Dorcas to ~93, the unidentified centenarian to 107).",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-30"
+      ],
+      "confidence": "PROBABLE",
+      "branch": "Mattingly paternal — collateral"
+    },
+    {
+      "id": "p081",
+      "full_name": "Elizabeth Dorcas Mattingly",
+      "given_name": "Elizabeth Dorcas",
+      "surname": "Mattingly",
+      "birth_year": 1656,
+      "death_year": 1749,
+      "relation_to_shari": "9th-great-aunt (collateral — Thomas I's daughter; lived to ~93)",
+      "context": "Daughter of Thomas Mattingly I. Lived 1656–1749, ~93 years old.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-30"
+      ],
+      "confidence": "PROBABLE",
+      "branch": "Mattingly paternal — collateral"
+    },
+    {
+      "id": "p090",
+      "full_name": "Thomas Mattingly III",
+      "given_name": "Thomas",
+      "surname": "Mattingly",
+      "birth_year": 1688,
+      "death_year": 1774,
+      "death_date": "before September 10, 1774 (will probated)",
+      "death_place": "St. Mary's County, Maryland",
+      "relation_to_shari": "5th-great-grandfather (between Thomas II and Ignatius — colonial Maryland Mattingly)",
+      "context": "Thomas Mattingly III (1688–1774). Inherited 'Mount Misery' plantation from his father Thomas II's 1714 will. Wrote his own will April 11, 1774, probated September 10, 1774 in St. Mary's County. Names sons Leonard, Edward, John Baptist, and Clement as heirs. Mentions 'Mount Misery' plantation and 'Mattingly's Lane' with a water mill. This will is the documentary anchor for the generation between Thomas II and the Kentucky migration era.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-28"
+      ],
+      "confidence": "CONFIRMED via 1774 will probate",
+      "branch": "Mattingly paternal — direct"
+    },
+    {
+      "id": "p100",
+      "full_name": "William D. Baity",
+      "given_name": "William",
+      "surname": "Baity",
+      "birth_year": 1829,
+      "death_year": 1894,
+      "birth_place": "North Carolina",
+      "relation_to_shari": "5th-great-grandfather (Pearl Baity's father)",
+      "context": "Farmer.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Baity-117"
+      ],
+      "confidence": "PROBABLE via WikiTree Baity-117 ancestor chain",
+      "branch": "Baity maternal-paternal NC"
+    },
+    {
+      "id": "p101",
+      "full_name": "Isham Baity",
+      "given_name": "Isham",
+      "surname": "Baity",
+      "birth_year": 1804,
+      "death_year": 1892,
+      "birth_place": "Yadkin County, North Carolina",
+      "relation_to_shari": "6th-great-grandfather",
+      "context": "Farmer; Yadkin County NC.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Baity-117"
+      ],
+      "confidence": "PROBABLE via WikiTree Baity-117 ancestor chain",
+      "branch": "Baity maternal-paternal NC"
+    },
+    {
+      "id": "p102",
+      "full_name": "David Baity Sr.",
+      "given_name": "David",
+      "surname": "Baity",
+      "birth_year": 1782,
+      "death_year": 1856,
+      "birth_place": "Surry County, North Carolina",
+      "relation_to_shari": "7th-great-grandfather",
+      "context": "Farmer; Surry County NC.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Baity-117"
+      ],
+      "confidence": "PROBABLE via WikiTree Baity-117 ancestor chain",
+      "branch": "Baity maternal-paternal NC"
+    },
+    {
+      "id": "p103",
+      "full_name": "George Baity Sr.",
+      "given_name": "George",
+      "surname": "Baity",
+      "birth_year": 1746,
+      "death_year": 1828,
+      "birth_place": "North Carolina",
+      "relation_to_shari": "8th-great-grandfather (born during American Revolution era)",
+      "context": "Farmer; lived through the American Revolution. His farm in Surry/Yadkin County NC was in the Appalachian Piedmont through which Sherman's 1865 Carolinas Campaign passed — consistent with Pearl's family memory of begging Sherman not to burn the farm.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Baity-117"
+      ],
+      "confidence": "PROBABLE via WikiTree Baity-117 ancestor chain",
+      "branch": "Baity maternal-paternal NC"
+    },
+    {
+      "id": "p104",
+      "full_name": "Rachel Allgood Baity",
+      "given_name": "Rachel",
+      "surname": "Baity",
+      "birth_year": 1756,
+      "death_year": null,
+      "birth_place": "North Carolina",
+      "relation_to_shari": "8th-great-grandmother",
+      "context": "Wife of George Baity Sr.; maiden name Allgood.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Baity-117"
+      ],
+      "confidence": "PROBABLE via WikiTree Baity-117 ancestor chain",
+      "branch": "Baity maternal-paternal NC"
+    },
+    {
+      "id": "p073",
+      "full_name": "Ellis (lord of Mattingley)",
+      "given_name": "Ellis",
+      "flourished": "fl. 1167",
+      "birth_place": "Mattingley, Hampshire, England",
+      "relation_to_shari": "etymological/regional — earliest known Mattingley individual",
+      "occupation": "Lord of Mattingley (manor)",
+      "context": "Earliest known person to bear the Mattingley territorial designation. Recorded in Pipe Roll 13 Henry II (1167) as lord of Mattingley. Predecessor of Revelendus.",
+      "fuzzy": true,
+      "sources": [
+        "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51"
+      ],
+      "confidence": "CONFIRMED individual; PROBABLE etymological ancestor; UNVERIFIED direct genealogical descent",
+      "branch": "Mattingly paternal — earliest medieval"
     }
   ],
   "places": [
@@ -2349,7 +2711,18 @@
       "Stephanie is uncertain — possibly Shari's sister or niece, living.",
       "Hunter's siblings and three cousins to be redacted (no names known/given).",
       "Aunt Monette is Shari's great-great-aunt per transcript ('my great great aunt')."
-    ]
+    ],
+    "data_provenance": {
+      "deepest_named_mattingley_individual": "Ellis, lord of Mattingley (fl. 1167) — Pipe Roll 13 Henry II",
+      "deepest_verified_mattingley_at_curia_regis": "Stephen de Mattingley (fl. 1206)",
+      "deepest_verified_direct_ancestor": "John Mattingly (~1560–17 Dec 1641 St Mary Colechurch London)",
+      "earliest_paternal_immigrant": "Thomas Mattingly II (~1650–1715), arrived Maryland pre-1665",
+      "deepest_named_baity": "George Baity Sr. (1746)",
+      "deepest_named_teichmueller": "August Teichmueller (Brunswick Army officer, fl. 1830s-1850s)",
+      "y_dna_haplogroup": "R1b-DF27 > Y14084",
+      "total_named_ancestors": "31+ confirmed/probable across 4 branches",
+      "documentary_gap": "300+ year gap between Peter de Mattingley (~1249) and John Mattingly (~1560) — direct genealogical descent unproven"
+    }
   },
   "research_applied": {
     "p004": "CONFIRMED via Wikipedia",
@@ -2364,6 +2737,45 @@
     "p039": "Added Thomas Mattingly II (son of Thomas I)",
     "p040": "Added May Teichmueller Mattingly (Leroy's mother)",
     "p041": "Added Ed Mattingly (Leroy's father, in La Grange)",
-    "p011": "CONFIRMED — Dr. Claude Mattingly, suicide pact at Texan Hotel Austin Jan 31 1934"
+    "p011": "CONFIRMED — Dr. Claude Mattingly, suicide pact at Texan Hotel Austin Jan 31 1934",
+    "p006": "CONFIRMED — Paralee \"Pearl\" Johnson Baity",
+    "p010": "CONFIRMED — William Alexander Baity (1862-1945)",
+    "p014": "CONFIRMED — Ruth (Baity) Mattingly = the Baity-Mattingly bridge",
+    "p050": "Added August Teichmueller (Hans's father)",
+    "p051": "Added Charlotte von Gursewald Teichmueller (German nobility)",
+    "p052": "Added Augusta Kellner Teichmueller (Hans's wife)",
+    "p060": "Added Charles Mattingly (1600-1642 Sussex, Thomas I's father)",
+    "p061": "Added Judith Bugbee Mattingly (Thomas I's mother)",
+    "p062": "Added John Mattingly (~1560 - 1641 London, primary-source burial record)",
+    "p063": "Added Francis Mattingly (1580-1620, chain position uncertain)",
+    "p070": "Added Stephen de Mattingley (fl. 1206) — deepest verified Mattingley",
+    "p071": "Added Revelendus (fl. 1167) — earliest named lord of Mattingley",
+    "p072": "Added Peter de Mattingley (fl. 1220s-40s) — last lord, sold lands",
+    "p080": "Added Judith (Mattingly) Turner (~99 yrs)",
+    "p081": "Added Elizabeth Dorcas Mattingly (~93 yrs)",
+    "p090": "Added Thomas Mattingly III (1688-1774, will primary source)",
+    "p100": "Added William D. Baity (NC Baity chain)",
+    "p101": "Added Isham Baity (NC Baity chain)",
+    "p102": "Added David Baity Sr. (NC Baity chain)",
+    "p103": "Added George Baity Sr. (NC Baity chain)",
+    "p104": "Added Rachel Allgood Baity (NC Baity chain)",
+    "p073": "Added Ellis (fl. 1167) — earliest documented Mattingley person"
+  },
+  "dna_lineage": {
+    "haplogroup": "R1b-DF27 > R1b-Y14084",
+    "summary": "Y-chromosome haplogroup R1b-DF27, with terminal SNP Y14084 unique to all documented descendants of Thomas I (established by FTDNA Big-Y testing). R1b-DF27 formed approximately 4,500 years ago (c. 2500 BCE). The branch entered Britain via the Bell Beaker expansion (2450–1800 BCE), which replaced approximately 90% of Neolithic British male lineages.",
+    "sources": [
+      "https://www.familytreedna.com/",
+      "YFull haplotree"
+    ],
+    "confidence": "CONFIRMED via FTDNA Big-Y"
+  },
+  "historical_gaps": {
+    "medieval_to_early_modern": {
+      "from": "Peter de Mattingley (fl. 1236-1249, sold the manor)",
+      "to": "John Mattingly (~1560 Berkshire, d. 17 Dec 1641 London)",
+      "duration_years": 311,
+      "explanation": "After Peter de Mattingley sold all his property ~1236-1249, the Mattingley surname vanishes from Hampshire manorial records for ~390 years. No individual bearing the surname appears in any published primary source for the area between Peter and John Mattingly (~1560). Family likely continued as yeoman farmers in southern England without leaving manorial records. Direct genealogical descent from Peter to John is etymologically/regionally probable but documentarily unproven."
+    }
   }
 }

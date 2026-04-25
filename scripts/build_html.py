@@ -31,33 +31,35 @@ AUDIO_REL = "../audio/source.m4a"
 
 CSS = """
 /* =========================================================
-   MATTINGLY FAMILY HISTORY — Design System
-   Heritage editorial: warm cream, espresso, bottle green
+   MATTINGLY FAMILY HISTORY — Dark Archive Design System
+   Mood: nighttime archive room, brass lamp warmth
    Typography: Cormorant Garamond (display) + Lora (body)
    ========================================================= */
 
 :root {
-  /* Palette */
-  --bg:           #f7f3ec;
-  --bg-warm:      #f0ead8;
-  --paper:        #fffdf8;
-  --ink:          #1e1a16;
-  --ink-mid:      #3d3529;
-  --ink-soft:     #6b5f51;
-  --ink-ghost:    #9c8e7e;
-  --accent:       #6b2d0e;        /* deep mahogany — used sparingly */
-  --accent-warm:  #9b5e2e;        /* mid-brown for links */
-  --accent-gold:  #b8934a;        /* gold for rules & deco */
-  --accent-gold-light: #d4b06a;
-  --green:        #3a5c3a;        /* bottle green — confirmed */
-  --rule:         #ddd3c0;
-  --rule-light:   #ede6d6;
-  --shari-color:  #3d1f0d;
-  --hunter-color: #4a5568;
-  --confirmed:    #2d5a2d;
-  --probable:     #7a5a00;
-  --possible:     #8b2020;
-  --living:       #3d4d5e;
+  /* Palette — dark archive */
+  --bg:           #0d0a08;         /* deep warm black — the floor */
+  --bg-warm:      #110e0b;         /* slightly lighter warm black */
+  --paper:        #161210;         /* card surface — warm charcoal */
+  --paper-raised: #1e1916;         /* elevated surface (TOC, research) */
+  --ink:          #e2d5c3;         /* warm parchment — primary text */
+  --ink-mid:      #c8b89e;         /* mid-tone text */
+  --ink-soft:     #9a8a78;         /* muted secondary text */
+  --ink-ghost:    #665a4e;         /* barely-there metadata */
+  --accent:       #d4a458;         /* antique gold — primary accent */
+  --accent-warm:  #c8945a;         /* burnished copper — links */
+  --accent-gold:  #d4a458;         /* gold for rules & decoration */
+  --accent-gold-light: #a07840;    /* deeper gold for subtle rules */
+  --accent-bronze: #b8826a;        /* warm bronze — secondary */
+  --green:        #4a8a5a;         /* sage green — confirmed */
+  --rule:         #2a2420;         /* near-invisible border */
+  --rule-light:   #221e1a;         /* even quieter divider */
+  --shari-color:  #e8c88a;         /* warm amber for Shari's label */
+  --hunter-color: #8a9db5;         /* muted steel for Hunter's label */
+  --confirmed:    #6aaa7a;         /* confirmed badge text */
+  --probable:     #c8a050;         /* probable badge text */
+  --possible:     #c87060;         /* possible badge text */
+  --living:       #7a9ab8;         /* living badge text */
 
   /* Spacing scale */
   --sp-xs: 4px;
@@ -94,13 +96,14 @@ body {
   font-family: 'Lora', Georgia, 'Times New Roman', serif;
   font-size: 18px;
   line-height: 1.75;
+  font-weight: 400;
   color: var(--ink);
   background-color: var(--bg);
   margin: 0;
   padding: 0;
-  /* Subtle paper grain via SVG noise filter (CSS-only, no external image) */
+  /* Subtle warm grain — dark version: lower opacity, sepia noise */
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
 }
 
 /* ---- Layout ---- */
@@ -118,36 +121,43 @@ header.cover {
   text-align: center;
   padding: var(--sp-2xl) var(--sp-lg) var(--sp-xl);
   margin: 0 calc(-1 * var(--sp-lg)) var(--sp-xl);
-  /* Linen-toned background for the cover block */
-  background: linear-gradient(180deg,
-    #f0e8d4 0%,
-    #ede3cc 40%,
-    #e8dcc0 100%);
+  /* Dark leather-bound book foreword — warm black with vignette */
+  background: radial-gradient(
+    ellipse 80% 90% at 50% 40%,
+    #1c1510 0%,
+    #130f0c 45%,
+    #0a0806 100%
+  );
   border-bottom: 1px solid var(--rule);
-  /* Inset shadow bottom */
-  box-shadow: inset 0 -8px 20px rgba(61, 31, 13, 0.06);
+  /* Brass lamp vignette — warmth pulls toward center */
+  box-shadow:
+    inset 0 -12px 40px rgba(5, 3, 2, 0.7),
+    inset 0 60px 120px rgba(212, 164, 88, 0.04);
   overflow: hidden;
 }
 
-/* Decorative arc behind the cover */
+/* Top gold rule — brass trim */
 header.cover::before {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0;
-  height: 6px;
+  height: 3px;
   background: linear-gradient(90deg,
-    transparent 0%, var(--accent-gold) 20%,
-    var(--accent) 50%,
-    var(--accent-gold) 80%, transparent 100%);
+    transparent 0%,
+    #a07840 15%,
+    var(--accent-gold) 40%,
+    #e8c070 50%,
+    var(--accent-gold) 60%,
+    #a07840 85%,
+    transparent 100%);
 }
 
-/* Corner ornaments — CSS-only decorative corners */
+/* Inset frame — aged gilt border */
 header.cover::after {
   content: '';
   position: absolute;
-  inset: 24px;
-  border: 1px solid var(--accent-gold-light);
-  opacity: 0.35;
+  inset: 28px;
+  border: 1px solid rgba(212, 164, 88, 0.18);
   pointer-events: none;
 }
 
@@ -155,10 +165,11 @@ header.cover::after {
   font-family: 'Lora', Georgia, serif;
   font-size: var(--fs-sm);
   font-style: italic;
-  letter-spacing: 0.12em;
-  color: var(--accent-warm);
+  letter-spacing: 0.18em;
+  color: var(--ink-soft);
   text-transform: uppercase;
   margin: 0 0 var(--sp-md);
+  opacity: 0.8;
 }
 
 header.cover h1 {
@@ -167,15 +178,16 @@ header.cover h1 {
   font-size: var(--fs-hero);
   line-height: 1.05;
   margin: 0 0 var(--sp-md);
-  color: var(--ink);
+  color: #f0e6d2;
   letter-spacing: -0.02em;
-  /* optical centering for the long title */
   text-wrap: balance;
+  /* Subtle text glow — brass lamp light on the title */
+  text-shadow: 0 0 60px rgba(212, 164, 88, 0.2), 0 2px 4px rgba(0,0,0,0.6);
 }
 
 header.cover h1 em {
   font-style: italic;
-  color: var(--accent);
+  color: var(--accent-gold);
 }
 
 .cover-ornament {
@@ -184,8 +196,8 @@ header.cover h1 em {
   font-size: 1.5em;
   color: var(--accent-gold);
   margin: var(--sp-md) 0;
-  letter-spacing: 0.3em;
-  opacity: 0.7;
+  letter-spacing: 0.4em;
+  opacity: 0.5;
   user-select: none;
 }
 
@@ -196,42 +208,55 @@ header.cover .subtitle {
   font-size: var(--fs-xl);
   margin: 0 0 var(--sp-md);
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 header.cover .cover-rule {
   width: 80px;
-  height: 2px;
+  height: 1px;
   background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
   margin: var(--sp-md) auto;
   border: none;
+  opacity: 0.6;
 }
 
 header.cover .meta {
-  color: var(--ink-soft);
+  color: var(--ink-ghost);
   font-size: var(--fs-sm);
-  line-height: 1.8;
+  line-height: 1.9;
   margin-top: var(--sp-md);
+  letter-spacing: 0.01em;
 }
 
 header.cover .meta strong {
-  color: var(--ink-mid);
+  color: var(--ink-soft);
 }
 
-/* Audio player — styled wrapper */
+/* Audio player — brass-trimmed tape control */
 .audio-wrapper {
   margin: var(--sp-xl) auto 0;
   max-width: 520px;
-  background: rgba(255,255,255,0.6);
-  border: 1px solid var(--rule);
-  border-radius: 40px;
-  padding: var(--sp-sm) var(--sp-md);
-  backdrop-filter: blur(4px);
+  /* Warm metallic casing */
+  background: linear-gradient(180deg,
+    rgba(40, 32, 22, 0.92) 0%,
+    rgba(28, 22, 14, 0.95) 100%
+  );
+  border: 1px solid rgba(180, 130, 70, 0.35);
+  border-top: 1px solid rgba(212, 164, 88, 0.5);
+  border-radius: 8px;
+  padding: 10px 14px;
+  box-shadow:
+    0 4px 20px rgba(0,0,0,0.5),
+    inset 0 1px 0 rgba(212, 164, 88, 0.15),
+    inset 0 -1px 0 rgba(0,0,0,0.3);
 }
 
 audio {
   width: 100%;
   display: block;
   height: 40px;
+  /* Tint the native controls to work on dark */
+  filter: invert(0.85) sepia(0.3) hue-rotate(10deg) brightness(0.95);
 }
 
 /* Remove default audio styling where we can */
@@ -242,19 +267,20 @@ audio::-webkit-media-controls-panel {
 /* ---- Table of Contents ---- */
 
 nav.toc {
-  background: var(--paper);
+  background: var(--paper-raised);
   border: 1px solid var(--rule);
-  border-top: 3px solid var(--accent-gold);
+  border-top: 2px solid var(--accent-gold-light);
   border-radius: 0 0 6px 6px;
   padding: var(--sp-md) var(--sp-lg);
   margin-bottom: var(--sp-xl);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.35);
 }
 
 nav.toc strong {
   display: block;
   margin-bottom: var(--sp-sm);
   font-size: var(--fs-xs);
-  letter-spacing: 0.12em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-ghost);
   font-family: 'Lora', Georgia, serif;
@@ -275,25 +301,25 @@ nav.toc li {
 
 nav.toc a {
   font-size: var(--fs-sm);
-  color: var(--accent-warm);
+  color: var(--ink-soft);
   text-decoration: none;
-  border-bottom: 1px dotted var(--accent-gold-light);
-  transition: color 0.1s, border-bottom-color 0.1s;
+  border-bottom: 1px dotted var(--rule);
+  transition: color 0.15s, border-bottom-color 0.15s;
 }
 
 nav.toc a:hover {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
+  color: var(--accent-gold);
+  border-bottom-color: var(--accent-gold);
 }
 
 /* ---- Section headings ---- */
 
 h2 {
   font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: var(--fs-3xl);
   margin: var(--sp-2xl) 0 var(--sp-lg);
-  color: var(--ink);
+  color: #f0e6d2;
   letter-spacing: -0.01em;
   line-height: 1.1;
   position: relative;
@@ -305,9 +331,9 @@ h2::after {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 56px;
-  height: 2px;
-  background: var(--accent-gold);
+  width: 48px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--accent-gold), transparent);
 }
 
 h3 {
@@ -325,7 +351,7 @@ p { margin: 0 0 1em; }
 
 #transcript > p {
   font-style: italic;
-  color: var(--ink-soft);
+  color: var(--ink-ghost);
   font-size: var(--fs-sm);
   margin-bottom: var(--sp-xl);
 }
@@ -333,7 +359,7 @@ p { margin: 0 0 1em; }
 .transcript-turn {
   margin: 0;
   padding: var(--sp-md) 0;
-  border-bottom: 1px solid var(--rule-light);
+  border-bottom: 1px solid var(--rule);
   position: relative;
 }
 
@@ -349,9 +375,9 @@ p { margin: 0 0 1em; }
 .transcript-turn .speaker-shari {
   font-family: 'Lora', Georgia, serif;
   color: var(--shari-color);
-  font-weight: 700;
+  font-weight: 600;
   font-size: var(--fs-xs);
-  letter-spacing: 0.12em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
@@ -360,7 +386,7 @@ p { margin: 0 0 1em; }
   color: var(--hunter-color);
   font-weight: 600;
   font-size: var(--fs-xs);
-  letter-spacing: 0.10em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
 }
 
@@ -368,16 +394,16 @@ p { margin: 0 0 1em; }
   color: var(--ink-ghost);
   font-size: var(--fs-xs);
   font-family: 'Source Code Pro', 'Courier New', monospace;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .transcript-turn .text {
   color: var(--ink);
   font-size: var(--fs-md);
-  line-height: 1.8;
+  line-height: 1.85;
 }
 
-/* Drop cap on the very first transcript paragraph */
+/* Drop cap — illuminated manuscript style, gold on dark */
 .transcript-turn:first-child .text p:first-child::first-letter {
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: 4.2em;
@@ -385,12 +411,13 @@ p { margin: 0 0 1em; }
   float: left;
   line-height: 0.78;
   margin: 0.04em var(--sp-sm) 0 -0.04em;
-  color: var(--accent);
+  color: var(--accent-gold);
+  text-shadow: 0 0 20px rgba(212, 164, 88, 0.4);
 }
 
-/* Hunter's short turns get slightly muted treatment */
+/* Hunter's turns — recessed into background, interjection feel */
 .transcript-turn-hunter {
-  background: rgba(235, 228, 215, 0.35);
+  background: rgba(255, 255, 255, 0.015);
   padding-left: var(--sp-md);
   border-left: 2px solid var(--rule);
   border-bottom: 1px solid transparent;
@@ -402,30 +429,33 @@ p { margin: 0 0 1em; }
   font-style: italic;
 }
 
-/* Pull-quote — can be added manually or via class on notable turns */
+/* Pull-quote — the memorable moment glowing on dark */
 .pull-quote {
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-style: italic;
   font-size: var(--fs-2xl);
-  line-height: 1.3;
-  color: var(--accent);
+  line-height: 1.35;
+  color: var(--accent-gold);
   text-align: center;
   padding: var(--sp-xl) var(--sp-lg);
   margin: var(--sp-xl) 0;
-  border-top: 1px solid var(--accent-gold-light);
-  border-bottom: 1px solid var(--accent-gold-light);
+  border-top: 1px solid rgba(212, 164, 88, 0.2);
+  border-bottom: 1px solid rgba(212, 164, 88, 0.2);
   position: relative;
+  /* Subtle warm glow around the pull-quote block */
+  text-shadow: 0 0 40px rgba(212, 164, 88, 0.15);
 }
 
 .pull-quote::before {
-  content: '“';
+  content: '\201C';
   position: absolute;
-  top: -0.25em;
+  top: -0.15em;
   left: var(--sp-md);
   font-size: 4em;
   color: var(--accent-gold-light);
   line-height: 1;
   font-family: 'Cormorant Garamond', Georgia, serif;
+  opacity: 0.4;
 }
 
 /* ---- Entity links & cards ---- */
@@ -433,16 +463,15 @@ p { margin: 0 0 1em; }
 .entity-link {
   color: var(--accent-warm);
   text-decoration: none;
-  border-bottom: 1px dotted var(--accent-gold);
+  border-bottom: 1px solid rgba(180, 120, 60, 0.4);
   cursor: help;
   white-space: nowrap;
-  transition: background 0.1s, border-bottom-color 0.1s;
+  transition: color 0.15s, border-bottom-color 0.15s;
 }
 
 .entity-link:hover {
-  background: rgba(184, 147, 74, 0.12);
-  border-bottom-color: var(--accent-warm);
-  border-bottom-style: solid;
+  color: var(--accent-gold);
+  border-bottom-color: var(--accent-gold);
 }
 
 details.entity-card {
@@ -452,11 +481,12 @@ details.entity-card {
   border-radius: 0 4px 4px 0;
   padding: var(--sp-md) var(--sp-lg);
   margin: var(--sp-sm) 0;
-  transition: border-left-color 0.15s;
+  transition: border-left-color 0.2s, box-shadow 0.2s;
 }
 
 details.entity-card[open] {
-  border-left-color: var(--accent);
+  border-left-color: var(--accent-gold);
+  box-shadow: -3px 0 12px rgba(212, 164, 88, 0.08), 0 4px 16px rgba(0,0,0,0.3);
 }
 
 details.entity-card summary {
@@ -480,13 +510,14 @@ details.entity-card summary::before {
   height: 0;
   border-style: solid;
   border-width: 5px 0 5px 8px;
-  border-color: transparent transparent transparent var(--accent-gold);
+  border-color: transparent transparent transparent var(--accent-gold-light);
   flex-shrink: 0;
   transition: transform 0.15s;
 }
 
 details.entity-card[open] summary::before {
   transform: rotate(90deg);
+  border-color: transparent transparent transparent var(--accent-gold);
 }
 
 details.entity-card .entity-meta {
@@ -501,23 +532,23 @@ details.entity-card .entity-body {
   font-size: 0.95em;
 }
 
-/* Confidence badges */
+/* Confidence badges — dark mode versions */
 .confidence {
   display: inline-block;
   font-size: var(--fs-xs);
   padding: 2px 7px;
   border-radius: 3px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   font-family: 'Lora', Georgia, serif;
   margin-left: var(--sp-sm);
 }
 
-.confidence-confirmed { background: #dff0e0; color: var(--confirmed); }
-.confidence-probable  { background: #fef3cd; color: var(--probable); }
-.confidence-possible  { background: #fce8e8; color: var(--possible); }
-.confidence-living    { background: #e8edf2; color: var(--living); }
+.confidence-confirmed { background: rgba(74, 138, 90, 0.15); color: var(--confirmed); border: 1px solid rgba(74, 138, 90, 0.3); }
+.confidence-probable  { background: rgba(200, 160, 80, 0.15); color: var(--probable); border: 1px solid rgba(200, 160, 80, 0.3); }
+.confidence-possible  { background: rgba(200, 112, 96, 0.15); color: var(--possible); border: 1px solid rgba(200, 112, 96, 0.3); }
+.confidence-living    { background: rgba(122, 154, 184, 0.15); color: var(--living); border: 1px solid rgba(122, 154, 184, 0.3); }
 
 .entity-links {
   margin-top: var(--sp-sm);
@@ -528,34 +559,38 @@ details.entity-card .entity-body {
   color: var(--accent-warm);
   margin-right: var(--sp-md);
   text-decoration: none;
-  border-bottom: 1px solid var(--accent-gold-light);
+  border-bottom: 1px solid rgba(160, 100, 60, 0.35);
 }
 
-.entity-links a:hover { border-bottom-color: var(--accent-warm); }
+.entity-links a:hover {
+  color: var(--accent-gold);
+  border-bottom-color: var(--accent-gold);
+}
 
 /* ---- Callout / open questions ---- */
 
 .callout {
-  background: #fdf6e3;
-  border-left: 4px solid var(--accent-gold);
+  background: rgba(212, 164, 88, 0.06);
+  border-left: 3px solid var(--accent-gold-light);
   padding: var(--sp-md) var(--sp-lg);
   margin: var(--sp-lg) 0;
   border-radius: 0 4px 4px 0;
 }
 
-.callout strong { color: var(--accent); }
+.callout strong { color: var(--accent-gold); }
 .callout ul { margin: var(--sp-sm) 0 0; padding-left: var(--sp-lg); }
-.callout li { margin-bottom: var(--sp-xs); }
+.callout li { margin-bottom: var(--sp-xs); color: var(--ink-soft); }
 
 /* ---- Research sections ---- */
 
 .research-section {
-  background: var(--paper);
+  background: var(--paper-raised);
   border: 1px solid var(--rule);
-  border-top: 2px solid var(--rule);
+  border-top: 1px solid rgba(212, 164, 88, 0.2);
   border-radius: 4px;
   padding: var(--sp-lg) var(--sp-xl);
   margin: var(--sp-lg) 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
 }
 
 .research-section h3 { margin-top: 0; }
@@ -571,20 +606,111 @@ details.entity-card .entity-body {
   border-radius: 4px;
   margin: var(--sp-lg) 0;
   overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+/* vis-timeline dark overrides */
+#timeline-container .vis-timeline {
+  background: var(--paper);
+  border-color: var(--rule);
+}
+
+#timeline-container .vis-panel.vis-center,
+#timeline-container .vis-panel.vis-left,
+#timeline-container .vis-panel.vis-right,
+#timeline-container .vis-panel.vis-top,
+#timeline-container .vis-panel.vis-bottom {
+  border-color: var(--rule);
+}
+
+#timeline-container .vis-time-axis .vis-text {
+  color: var(--ink-ghost);
+  font-family: 'Source Code Pro', monospace;
+  font-size: 11px;
+}
+
+#timeline-container .vis-time-axis .vis-grid.vis-minor,
+#timeline-container .vis-time-axis .vis-grid.vis-major {
+  border-color: rgba(255,255,255,0.04);
+}
+
+#timeline-container .vis-label {
+  background: var(--paper-raised);
+  color: var(--ink-soft);
+  font-size: 11px;
+  border-color: var(--rule);
+}
+
+#timeline-container .vis-item {
+  background: rgba(212, 164, 88, 0.18);
+  border-color: var(--accent-gold-light);
+  color: var(--ink);
+  font-size: 11px;
+  font-family: 'Lora', Georgia, serif;
+  border-radius: 2px;
+}
+
+#timeline-container .vis-item.vis-selected {
+  background: rgba(212, 164, 88, 0.35);
+  border-color: var(--accent-gold);
+}
+
+#timeline-container .vis-current-time {
+  background: var(--accent-gold);
+  opacity: 0.4;
 }
 
 #map-container {
   height: 440px;
-  background: var(--paper);
+  background: #1a1814;
   border: 1px solid var(--rule);
   border-radius: 4px;
   margin: var(--sp-lg) 0;
   overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+/* Leaflet dark popup */
+#map-container .leaflet-popup-content-wrapper {
+  background: var(--paper-raised);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+#map-container .leaflet-popup-tip {
+  background: var(--paper-raised);
+}
+
+#map-container .leaflet-popup-content strong {
+  color: var(--accent-gold);
+}
+
+#map-container .leaflet-control-zoom a {
+  background: var(--paper-raised);
+  color: var(--ink);
+  border-color: var(--rule);
+}
+
+#map-container .leaflet-control-zoom a:hover {
+  background: var(--paper);
+  color: var(--accent-gold);
+}
+
+#map-container .leaflet-control-attribution {
+  background: rgba(13, 10, 8, 0.8);
+  color: var(--ink-ghost);
+  font-size: 10px;
+}
+
+#map-container .leaflet-control-attribution a {
+  color: var(--ink-ghost);
 }
 
 /* ---- D3 LINEAGE TREE ---- */
 
-/* The tree gets a full-bleed warm background, wider than the text column */
+/* The tree gets a full-bleed dark background, wider than the text column */
 #lineage-section {
   margin-left: calc(-1 * var(--sp-lg));
   margin-right: calc(-1 * var(--sp-lg));
@@ -593,25 +719,28 @@ details.entity-card .entity-body {
 
 #lineage-tree-container {
   position: relative;
-  background: linear-gradient(175deg, #fdf8ef 0%, #f5ebd6 55%, #ece1c4 100%);
+  /* Dark starfield-like background — deep space for the family constellation */
+  background:
+    radial-gradient(ellipse 60% 40% at 50% 10%, rgba(212,164,88,0.04) 0%, transparent 70%),
+    linear-gradient(175deg, #0f0c09 0%, #0c0a07 55%, #090705 100%);
   border: 1px solid var(--rule);
+  border-top: 1px solid rgba(212, 164, 88, 0.15);
   border-radius: 6px;
   margin: var(--sp-lg) 0;
   overflow: hidden;
   box-shadow:
-    0 1px 3px rgba(61,21,4,0.06),
-    0 6px 24px rgba(61,21,4,0.04),
-    inset 0 1px 0 rgba(255,255,255,0.6);
+    0 8px 40px rgba(0,0,0,0.6),
+    inset 0 1px 0 rgba(212, 164, 88, 0.08);
 }
 
-/* Subtle grid-paper lines inside the tree container */
+/* Faint horizontal grid lines — archival ledger feel */
 #lineage-tree-container::before {
   content: '';
   position: absolute;
   inset: 0;
   background-image: repeating-linear-gradient(
     0deg, transparent, transparent 59px,
-    rgba(180,160,120,0.12) 60px
+    rgba(212, 164, 88, 0.04) 60px
   );
   pointer-events: none;
   z-index: 0;
@@ -656,12 +785,14 @@ details.entity-card .entity-body {
 .tree-node text { user-select: none; pointer-events: none; }
 
 .tree-node .node-card {
-  transition: filter 0.15s, transform 0.15s;
+  transition: filter 0.2s, transform 0.2s;
   transform-origin: center;
 }
 
 .tree-node:hover .node-card {
-  filter: drop-shadow(0 4px 12px rgba(107,45,14,0.22));
+  /* Gold halo on dark — the node illuminates */
+  filter: drop-shadow(0 0 8px rgba(212, 164, 88, 0.35)) drop-shadow(0 4px 16px rgba(0,0,0,0.6));
+  transform: scale(1.025);
 }
 
 .tree-node:focus-within .node-card,
@@ -688,22 +819,22 @@ details.entity-card .entity-body {
 }
 
 .tree-toolbar button {
-  background: var(--paper);
-  color: var(--ink-mid);
+  background: var(--paper-raised);
+  color: var(--ink-soft);
   border: none;
   padding: 7px 14px;
   font-family: 'Lora', Georgia, serif;
   font-size: var(--fs-sm);
   cursor: pointer;
-  transition: background 0.1s, color 0.1s;
+  transition: background 0.15s, color 0.15s;
   line-height: 1;
   min-width: 40px;
   min-height: 36px;
 }
 
 .tree-toolbar button:hover {
-  background: var(--accent);
-  color: #fff;
+  background: rgba(212, 164, 88, 0.2);
+  color: var(--accent-gold);
 }
 
 .tree-toolbar button:first-child { border-radius: 5px 0 0 5px; }
@@ -715,7 +846,7 @@ details.entity-card .entity-body {
   gap: var(--sp-md);
   margin-left: auto;
   font-size: var(--fs-xs);
-  color: var(--ink-soft);
+  color: var(--ink-ghost);
   align-items: center;
 }
 
@@ -733,9 +864,9 @@ details.entity-card .entity-body {
   border: 1.5px solid;
 }
 
-.tree-toolbar .swatch.confirmed { background: #c9a268; border-color: #6b2d0e; }
-.tree-toolbar .swatch.probable  { background: #d6b98a; border-color: #9b5e2e; }
-.tree-toolbar .swatch.unknown   { background: #e8d9bc; border-color: #a89070; border-style: dashed; }
+.tree-toolbar .swatch.confirmed { background: rgba(180, 130, 60, 0.4); border-color: var(--accent-gold); }
+.tree-toolbar .swatch.probable  { background: rgba(160, 100, 60, 0.3); border-color: var(--accent-bronze); }
+.tree-toolbar .swatch.unknown   { background: rgba(80, 70, 60, 0.3); border-color: var(--ink-ghost); border-style: dashed; }
 
 .tree-hint {
   font-size: var(--fs-xs);
@@ -743,6 +874,7 @@ details.entity-card .entity-body {
   font-style: italic;
   text-align: center;
   margin-top: var(--sp-sm);
+  opacity: 0.7;
 }
 
 /* Respects prefers-reduced-motion */
@@ -760,21 +892,24 @@ footer.colophon {
   color: var(--ink-ghost);
   text-align: center;
   line-height: 1.9;
+  opacity: 0.7;
 }
 
 footer.colophon code {
   font-family: 'Source Code Pro', 'Courier New', monospace;
   font-size: 0.95em;
-  background: var(--rule-light);
+  background: var(--paper);
+  color: var(--ink-soft);
   padding: 1px 5px;
   border-radius: 3px;
+  border: 1px solid var(--rule);
 }
 
 /* ---- Utility ---- */
 
 .redacted {
-  background: var(--ink);
-  color: var(--ink);
+  background: var(--ink-ghost);
+  color: var(--ink-ghost);
   border-radius: 2px;
   user-select: none;
 }
@@ -835,15 +970,24 @@ footer.colophon code {
    ========================================================= */
 
 @media print {
+  /* Print = clean light mode — dark ink on white paper, no waste */
   :root {
-    --bg: #ffffff;
-    --paper: #ffffff;
-    --ink: #000000;
-    --ink-soft: #333333;
-    --ink-ghost: #555555;
-    --accent: #3d1f0d;
-    --accent-gold: #7a5a1a;
-    --rule: #cccccc;
+    --bg: #ffffff !important;
+    --bg-warm: #ffffff !important;
+    --paper: #ffffff !important;
+    --paper-raised: #f8f6f2 !important;
+    --ink: #1a1614 !important;
+    --ink-mid: #3a3028 !important;
+    --ink-soft: #5a5048 !important;
+    --ink-ghost: #7a7068 !important;
+    --accent: #6b3010 !important;
+    --accent-warm: #8b5030 !important;
+    --accent-gold: #8a6a20 !important;
+    --accent-gold-light: #a88030 !important;
+    --rule: #d0c8bc !important;
+    --rule-light: #e0d8cc !important;
+    --shari-color: #4a2010 !important;
+    --hunter-color: #3a4858 !important;
   }
 
   * { animation: none !important; transition: none !important; }
@@ -851,6 +995,7 @@ footer.colophon code {
   body {
     background: white !important;
     background-image: none !important;
+    color: #1a1614 !important;
     font-size: 10.5pt;
     line-height: 1.55;
   }
@@ -865,7 +1010,16 @@ footer.colophon code {
     padding: 1.5cm 0;
     background: none !important;
     box-shadow: none;
-    border-bottom: 2pt solid #3d1f0d;
+    border-bottom: 2pt solid #6b3010;
+  }
+
+  header.cover h1 {
+    color: #1a1614 !important;
+    text-shadow: none !important;
+  }
+
+  header.cover h1 em {
+    color: #6b3010 !important;
   }
 
   header.cover::before,
@@ -883,6 +1037,7 @@ footer.colophon code {
 
   nav.toc {
     border: 1pt solid #ccc;
+    background: #f8f6f2 !important;
     break-inside: avoid;
     page-break-after: always;
   }
@@ -891,11 +1046,14 @@ footer.colophon code {
 
   h2 {
     font-size: 18pt;
+    color: #1a1614 !important;
     page-break-after: avoid;
     margin-top: 1.5cm;
   }
 
-  h2::after { display: none; }
+  h2::after {
+    background: #8a6a20 !important;
+  }
 
   h3 { font-size: 13pt; page-break-after: avoid; }
 
@@ -913,6 +1071,7 @@ footer.colophon code {
   #lineage-tree-container::before { display: none; }
 
   details.entity-card {
+    background: white !important;
     break-inside: avoid;
     border-left-width: 2pt;
     margin: 4pt 0;
@@ -924,29 +1083,60 @@ footer.colophon code {
   /* Force all entity cards open for print */
   details.entity-card .entity-body { display: block !important; }
 
+  .confidence-confirmed { background: #dff0e0 !important; color: #2d5a2d !important; border-color: #2d5a2d !important; }
+  .confidence-probable  { background: #fef3cd !important; color: #7a5a00 !important; border-color: #7a5a00 !important; }
+  .confidence-possible  { background: #fce8e8 !important; color: #8b2020 !important; border-color: #8b2020 !important; }
+  .confidence-living    { background: #e8edf2 !important; color: #3d4d5e !important; border-color: #3d4d5e !important; }
+
   .research-section {
+    background: #f8f6f2 !important;
     border: 1pt solid #ccc;
     break-inside: avoid;
     padding: 12pt;
     margin: 8pt 0;
+    box-shadow: none !important;
   }
 
   .callout {
-    border-left: 3pt solid #b8934a;
-    background: none;
+    border-left: 3pt solid #8a6a20;
+    background: #fffdf4 !important;
     break-inside: avoid;
   }
 
   .pull-quote {
     font-size: 14pt;
+    color: #6b3010 !important;
+    text-shadow: none !important;
     break-inside: avoid;
     padding: 12pt 0;
+    border-color: #c0a070 !important;
+  }
+
+  .pull-quote::before {
+    color: #c0a070 !important;
+  }
+
+  .transcript-turn:first-child .text p:first-child::first-letter {
+    color: #6b3010 !important;
+    text-shadow: none !important;
+  }
+
+  .transcript-turn-hunter {
+    background: #f4f0ec !important;
+    border-left-color: #d0c8bc !important;
   }
 
   footer.colophon {
     margin-top: 1cm;
     font-size: 8pt;
     border-top: 1pt solid #ccc;
+    opacity: 1 !important;
+  }
+
+  footer.colophon code {
+    background: #f0ece8 !important;
+    color: #5a5048 !important;
+    border-color: #d0c8bc !important;
   }
 
   a { color: inherit; text-decoration: none; }
@@ -1407,16 +1597,28 @@ const svg = d3.select("#lineage-tree-svg")
 // ── Defs: gradients, filters ────────────────────────────────────
 const defs = svg.append("defs");
 
-// Drop-shadow filter for hovered nodes
+// Glow filter for hovered nodes — gold halo on dark
 const shadowFilter = defs.append("filter")
   .attr("id", "node-shadow")
-  .attr("x", "-20%").attr("y", "-20%")
-  .attr("width", "140%").attr("height", "140%");
-shadowFilter.append("feDropShadow")
-  .attr("dx", 0).attr("dy", 3)
-  .attr("stdDeviation", 5)
-  .attr("flood-color", "#6b2d0e")
-  .attr("flood-opacity", 0.25);
+  .attr("x", "-35%").attr("y", "-35%")
+  .attr("width", "170%").attr("height", "170%");
+// Outer warm glow
+const feMerge = shadowFilter.append("feComposite").attr("in", "SourceGraphic");
+shadowFilter.append("feGaussianBlur")
+  .attr("in", "SourceGraphic")
+  .attr("stdDeviation", 7)
+  .attr("result", "blur");
+shadowFilter.append("feFlood")
+  .attr("flood-color", "#d4a458")
+  .attr("flood-opacity", 0.5)
+  .attr("result", "color");
+shadowFilter.append("feComposite")
+  .attr("in", "color").attr("in2", "blur")
+  .attr("operator", "in")
+  .attr("result", "glow");
+const merge = shadowFilter.append("feMerge");
+merge.append("feMergeNode").attr("in", "glow");
+merge.append("feMergeNode").attr("in", "SourceGraphic");
 
 // Gradient for each depth level (will create 14 gradients)
 function makeGradient(id, topColor, botColor) {
@@ -1429,22 +1631,23 @@ function makeGradient(id, topColor, botColor) {
   return id;
 }
 
-// Deep warm palette: generation 0 (oldest) = darkest espresso, gen 13 = cream
+// Dark mode tree gradient: G1 (oldest) = deep amber-brown, G14 (newest) = pale silver-rose
+// Direction: ancient warmth → modern coolness, all on dark backgrounds
 const gradientPalette = [
-  ['#3d1f0d', '#4e2912'],   // G1
-  ['#5a2e14', '#6e3a1c'],   // G2
-  ['#7a4323', '#8f5530'],   // G3
-  ['#9b5e2e', '#ae7040'],   // G4
-  ['#b8793a', '#c98b50'],   // G5
-  ['#cfa060', '#d9b07a'],   // G6
-  ['#d9b87a', '#e0c698'],   // G7
-  ['#e0cc98', '#e8d8ae'],   // G8  — midpoint
-  ['#e8dab0', '#eee4c4'],   // G9
-  ['#ece4c4', '#f2ecda'],   // G10
-  ['#f0eada', '#f6f0e8'],   // G11
-  ['#f4eee2', '#f9f4ec'],   // G12
-  ['#f8f2ea', '#fdf8f2'],   // G13 (Hunter's parent)
-  ['#fdf9f4', '#fffef9'],   // G14 (Hunter)
+  ['#4a2c0a', '#3a2208'],   // G1  — deep amber-brown (1620s England)
+  ['#5e3810', '#4e2e0c'],   // G2
+  ['#744618', '#603a14'],   // G3
+  ['#8a5820', '#784c1c'],   // G4
+  ['#a06c2a', '#8e5e24'],   // G5
+  ['#b48035', '#a0722e'],   // G6  — warm gold midpoint
+  ['#c09040', '#b0823a'],   // G7
+  ['#b89858', '#a88a4e'],   // G8  — transition zone
+  ['#a89070', '#988264'],   // G9  — cooling down
+  ['#8a8878', '#7c7a6c'],   // G10 — muted warm-grey
+  ['#787c80', '#6c7074'],   // G11 — silver-grey
+  ['#6a7480', '#5e6872'],   // G12 — cool silver
+  ['#607080', '#545e6e'],   // G13 (Hunter's parent)
+  ['#586878', '#4c5c6a'],   // G14 (Hunter) — silver-blue
 ];
 
 gradientPalette.forEach((pair, i) => {
@@ -1456,26 +1659,34 @@ function nodeFill(depth) {
   return `url(#ng-${i})`;
 }
 
+// On dark cards, all text needs to be warm-light; earlier gens get warmer gold tones
 function nodeTextColor(depth) {
-  return depth < 7 ? '#f5ece0' : '#1e1a16';
+  // All cards are dark; earlier gens (amber) get cream text, later (grey-blue) get pale silver
+  if (depth < 5) return '#f0e0c0';   // warm cream on amber-brown
+  if (depth < 9) return '#ede0cc';   // warm off-white on gold-grey
+  return '#d8dde4';                  // cool silver-white on slate
 }
 function nodeDateColor(depth) {
-  return depth < 7 ? '#d4c0a0' : '#6b5f51';
+  if (depth < 5) return '#d4a040';   // gold dates on amber cards
+  if (depth < 9) return '#b89858';   // muted gold on transition
+  return '#8090a0';                  // cool grey on slate cards
 }
 function nodeFactColor(depth) {
-  return depth < 7 ? '#c8ae90' : '#7a6d5e';
+  if (depth < 5) return '#b07030';   // burnished bronze on amber
+  if (depth < 9) return '#9a8060';   // warm taupe on transition
+  return '#6878a0';                  // steel-blue on slate
 }
 
 function confidenceStroke(c) {
-  if (c === 'confirmed') return '#6b2d0e';
-  if (c === 'probable')  return '#9b5e2e';
-  return '#b89c80';
+  if (c === 'confirmed') return '#d4a458';   // gold for confirmed
+  if (c === 'probable')  return '#b8826a';   // bronze for probable
+  return '#4a4440';                          // dim for unknown
 }
 function confidenceStrokeWidth(c) {
-  return c === 'confirmed' ? 2.5 : 1.5;
+  return c === 'confirmed' ? 2.0 : 1.5;
 }
 function confidenceDash(c) {
-  return c === 'unknown' ? '5,3' : 'none';
+  return c === 'unknown' ? '4,3' : 'none';
 }
 
 // ── Tree layout ─────────────────────────────────────────────────
@@ -1501,18 +1712,18 @@ const spineG = svg.append("g")
   .attr("class", "gen-spine")
   .attr("transform", `translate(${M.left},${M.top})`);
 
-// Horizontal separator lines across full width
+// Horizontal separator lines — dark gold rules
 root.each(d => {
   if (!genYmap.has(d.depth)) return; // deduped — only first time
   const y = genYmap.get(d.depth);
-  // faint rule at each generation band
+  // faint gold rule at each generation band
   spineG.append("line")
     .attr("x1", -M.left + SPINE).attr("x2", W - M.left - M.right)
     .attr("y1", y).attr("y2", y)
-    .attr("stroke", "#d8cdb5")
-    .attr("stroke-width", 0.5)
-    .attr("stroke-dasharray", "3,6")
-    .attr("opacity", 0.6);
+    .attr("stroke", "#d4a458")
+    .attr("stroke-width", 0.4)
+    .attr("stroke-dasharray", "3,8")
+    .attr("opacity", 0.2);
   genYmap.set(d.depth, null); // mark used
 });
 
@@ -1523,16 +1734,18 @@ root.each(d => {
 });
 
 genYlabel.forEach((y, depth) => {
-  // Small "Gn" badge on the left spine
+  // Generation spine labels — gold italic serif on dark
   spineG.append("text")
     .attr("x", -M.left + SPINE - 8)
     .attr("y", y + 4)
     .attr("text-anchor", "end")
-    .attr("font-family", "'Lora', Georgia, serif")
-    .attr("font-size", "10px")
+    .attr("font-family", "'Cormorant Garamond', Georgia, serif")
+    .attr("font-size", "11px")
     .attr("font-weight", "600")
-    .attr("letter-spacing", "0.04em")
-    .attr("fill", "#9c8e7e")
+    .attr("font-style", "italic")
+    .attr("letter-spacing", "0.02em")
+    .attr("fill", "#a07840")
+    .attr("opacity", "0.8")
     .text(`G${depth + 1}`);
 });
 
@@ -1547,14 +1760,15 @@ g.append("g")
   .append("path")
   .attr("fill", "none")
   .attr("stroke", d => {
-    // Slightly darken the link colour for deeper (older) nodes
+    // Connection lines — warm gold for old gens, cooling to silver-blue for modern
     const depth = d.source.depth;
-    if (depth < 4) return '#c9a060';
-    if (depth < 8) return '#c4a870';
-    return '#bfb090';
+    if (depth < 4) return '#b08030';   // rich gold — ancient lineage
+    if (depth < 8) return '#906820';   // darker gold — middle generations
+    if (depth < 11) return '#705860';  // bronze-mauve — transition
+    return '#506070';                  // steel — modern
   })
-  .attr("stroke-width", d => d.source.depth < 5 ? 1.8 : 1.4)
-  .attr("stroke-opacity", 0.65)
+  .attr("stroke-width", d => d.source.depth < 5 ? 1.6 : 1.2)
+  .attr("stroke-opacity", 0.45)
   .attr("d", d => {
     const sx = d.source.x, sy = d.source.y + NH/2;
     const tx = d.target.x, ty = d.target.y - NH/2;
@@ -1581,9 +1795,13 @@ const nodeGroups = g.append("g")
     if (!el) return;
     if (el.tagName === 'DETAILS') el.open = true;
     el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    el.style.transition = 'background-color 0.4s ease';
-    el.style.backgroundColor = '#fef3cd';
-    setTimeout(() => { el.style.backgroundColor = ''; }, 1800);
+    el.style.transition = 'background-color 0.4s ease, box-shadow 0.4s ease';
+    el.style.backgroundColor = 'rgba(212, 164, 88, 0.12)';
+    el.style.boxShadow = '-3px 0 16px rgba(212, 164, 88, 0.15)';
+    setTimeout(() => {
+      el.style.backgroundColor = '';
+      el.style.boxShadow = '';
+    }, 1800);
   })
   .on("keydown", (event, d) => {
     if (event.key === 'Enter' || event.key === ' ') {
@@ -1599,12 +1817,12 @@ const nodeGroups = g.append("g")
 // Group everything inside for the hover filter
 const cardG = nodeGroups.append("g").attr("class", "node-card");
 
-// Shadow rect (slightly offset, blurred — gives depth)
+// Shadow rect — deep drop shadow for dark cards (lift effect)
 cardG.append("rect")
-  .attr("x", -NW/2 + 2).attr("y", -NH/2 + 2)
+  .attr("x", -NW/2 + 3).attr("y", -NH/2 + 4)
   .attr("width", NW).attr("height", NH)
   .attr("rx", 7).attr("ry", 7)
-  .attr("fill", "rgba(61,21,4,0.12)");
+  .attr("fill", "rgba(0,0,0,0.5)");
 
 // Main card rect with gradient fill
 cardG.append("rect")
@@ -1616,12 +1834,12 @@ cardG.append("rect")
   .attr("stroke-width", d => confidenceStrokeWidth(d.data.confidence))
   .attr("stroke-dasharray", d => confidenceDash(d.data.confidence));
 
-// Thin highlight line at top edge (glass effect)
+// Thin highlight line at top edge — gives dimension on dark surface
 cardG.append("rect")
   .attr("x", -NW/2 + 2).attr("y", -NH/2 + 1)
-  .attr("width", NW - 4).attr("height", 2)
+  .attr("width", NW - 4).attr("height", 1)
   .attr("rx", 1)
-  .attr("fill", "rgba(255,255,255,0.35)");
+  .attr("fill", "rgba(255,255,255,0.12)");
 
 // ── Node text ────────────────────────────────────────────────────
 
@@ -1660,21 +1878,21 @@ cardG.append("text")
 const badgeX = -NW/2 + 11;
 const badgeY = -NH/2 + 11;
 
-// Diamond shape
+// Diamond shape — gold on dark
 const DIAMOND = `M${badgeX},${badgeY - 9} L${badgeX + 9},${badgeY} L${badgeX},${badgeY + 9} L${badgeX - 9},${badgeY} Z`;
 cardG.append("path")
   .attr("d", DIAMOND)
-  .attr("fill", d => d.depth < 7 ? "rgba(0,0,0,0.25)" : "rgba(107,45,14,0.12)")
-  .attr("stroke", d => d.depth < 7 ? "rgba(245,236,224,0.4)" : "rgba(107,45,14,0.3)")
-  .attr("stroke-width", 0.8);
+  .attr("fill", "rgba(0,0,0,0.4)")
+  .attr("stroke", d => d.depth < 7 ? "rgba(212,164,88,0.5)" : "rgba(180,180,200,0.3)")
+  .attr("stroke-width", 1.0);
 
 cardG.append("text")
   .attr("x", badgeX).attr("y", badgeY + 3.5)
   .attr("text-anchor", "middle")
-  .attr("font-family", "'Lora', Georgia, serif")
+  .attr("font-family", "'Cormorant Garamond', Georgia, serif")
   .attr("font-size", "9px")
-  .attr("font-weight", "700")
-  .attr("fill", d => d.depth < 7 ? '#f0e4cc' : '#6b2d0e')
+  .attr("font-weight", "600")
+  .attr("fill", d => d.depth < 7 ? '#d4a458' : '#9aacbc')
   .text(d => (d.data.generation || d.depth + 1));
 
 // ── Sibling badge (top-right) ────────────────────────────────────
@@ -1687,30 +1905,32 @@ nodeGroups.filter(d => d.data.siblings && d.data.siblings.length > 0)
     sg.append("circle")
       .attr("cx", bx).attr("cy", by)
       .attr("r", 10)
-      .attr("fill", "#b8934a")
-      .attr("stroke", "#6b2d0e")
-      .attr("stroke-width", 1.2);
+      .attr("fill", "rgba(212,164,88,0.25)")
+      .attr("stroke", "#d4a458")
+      .attr("stroke-width", 1.0);
 
     sg.append("text")
       .attr("x", bx).attr("y", by + 3.5)
       .attr("text-anchor", "middle")
-      .attr("font-family", "'Lora', Georgia, serif")
+      .attr("font-family", "'Cormorant Garamond', Georgia, serif")
       .attr("font-size", "9.5px")
       .attr("font-weight", "700")
-      .attr("fill", "#faf0e0")
+      .attr("fill", "#e8c878")
       .text("+" + d.data.siblings.length);
 
     sg.append("title")
       .text("Siblings: " + d.data.siblings.map(s => `${s.name} (${s.dates})`).join(", "));
   });
 
-// ── Hover glow on cards ──────────────────────────────────────────
+// ── Hover: gold glow + scale ─────────────────────────────────────
 nodeGroups.on("mouseenter", function(event, d) {
   d3.select(this).select(".node-card")
-    .style("filter", "url(#node-shadow)");
+    .style("filter", "url(#node-shadow)")
+    .attr("transform", "scale(1.04)");
 }).on("mouseleave", function() {
   d3.select(this).select(".node-card")
-    .style("filter", null);
+    .style("filter", null)
+    .attr("transform", null);
 });
 
 // ── Utility ─────────────────────────────────────────────────────
@@ -1974,8 +2194,8 @@ def render_timeline_js():
     return f"""
 const timelineItems = new vis.DataSet({items_json});
 const timelineGroups = new vis.DataSet([
-  {{id: 'family', content: 'Family', style: 'background-color: #f5e8d4;'}},
-  {{id: 'history', content: 'History', style: 'background-color: #e8e0e8;'}},
+  {{id: 'family', content: 'Family', style: 'background-color: #161210; color: #e2d5c3;'}},
+  {{id: 'history', content: 'History', style: 'background-color: #111010; color: #9a8a78;'}},
 ]);
 const timelineContainer = document.getElementById('timeline-container');
 if (timelineContainer && window.vis) {{
@@ -2010,16 +2230,33 @@ def render_map_js():
 const mapContainer = document.getElementById('map-container');
 if (mapContainer && window.L) {{
   const map = L.map('map-container').setView([39.5, -90], 3);
-  L.tileLayer('https://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    maxZoom: 18,
+  // CartoDB Dark Matter — dark base tiles that match the archive aesthetic
+  L.tileLayer('https://{{s}}.basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}{{r}}.png', {{
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" style="color:#665a4e">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions" style="color:#665a4e">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 19,
   }}).addTo(map);
   const points = {points_json};
   const route = points.map(p => [p.lat, p.lng]);
-  L.polyline(route, {{color: '#8b5a3c', weight: 2, dashArray: '5, 8', opacity: 0.7}}).addTo(map);
+  // Gold migration route — illuminated manuscript line
+  L.polyline(route, {{
+    color: '#d4a458',
+    weight: 2,
+    dashArray: '6, 10',
+    opacity: 0.65
+  }}).addTo(map);
   points.forEach((p, i) => {{
-    const m = L.circleMarker([p.lat, p.lng], {{radius: 7, fillColor: '#8b5a3c', color: '#5d3a1f', fillOpacity: 0.85, weight: 2}}).addTo(map);
-    m.bindPopup(`<strong>${{p.name}}</strong><br><em>${{p.year}}</em>`);
+    const m = L.circleMarker([p.lat, p.lng], {{
+      radius: 7,
+      fillColor: '#d4a458',
+      color: '#a07030',
+      fillOpacity: 0.8,
+      weight: 2
+    }}).addTo(map);
+    m.bindPopup(
+      `<strong style="color:#d4a458">${{p.name}}</strong><br><em style="color:#9a8a78">${{p.year}}</em>`,
+      {{className: 'dark-popup'}}
+    );
   }});
   map.fitBounds(L.polyline(route).getBounds().pad(0.15));
 }}

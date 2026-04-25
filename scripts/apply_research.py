@@ -430,6 +430,515 @@ for e in data.get("events", []):
             "(wife of UT psychology professor). Method: narcotic injection. Claude was 35, a pediatrician."
         )
 
+# --- Findings from 07-collateral-branches.md (HUGE) ---
+
+# Pearl Baity → Paralee Johnson Baity (married William Alexander Baity)
+for p in data["people"]:
+    if p.get("id") == "p006":  # Pearl Baity
+        p["full_name"] = "Paralee \"Pearl\" Johnson Baity"
+        p["given_name"] = "Paralee"
+        p["alternate_spellings"] = ["Pearl", "Pearl Baity", "Paralee Johnson"]
+        p["maiden_name"] = "Johnson"
+        p["surname"] = "Baity"
+        p["relation_to_shari"] = "great-grandmother (Ruth Baity Mattingly's mother — i.e. paternal great-grandmother)"
+        p["birth_year"] = None
+        p["birth_year_note"] = "approximate ~1874 — would have been ~25 at marriage 1899"
+        p["death_year"] = 1971
+        p["death_place"] = "San Antonio, Texas"
+        p["enriched_context"] = (
+            "'Pearl' was a family nickname; her legal name was Paralee Johnson. Married William Alexander Baity "
+            "in Denison, Grayson County, Texas on June 4, 1899. By 1900 they were in Denison; by 1910 in San Antonio. "
+            "Father: Morgan Johnson (in Denison, TX by 1900). Mother of Ruth Baity Mattingly (Shari's grandmother)."
+        )
+        p["sources"] = ["https://www.wikitree.com/wiki/Baity-117"]
+        p["fuzzy"] = False
+        confirmed_research["p006"] = "CONFIRMED — Paralee \"Pearl\" Johnson Baity"
+
+# William Alexander Baity (Pearl's husband, the builder)
+for p in data["people"]:
+    if p.get("id") == "p010":  # Pearl's husband (the builder)
+        p["full_name"] = "William Alexander Baity"
+        p["given_name"] = "William"
+        p["surname"] = "Baity"
+        p["birth_year"] = 1862
+        p["birth_place"] = "Courtney, Yadkin County, North Carolina"
+        p["death_year"] = 1945
+        p["death_date"] = "January 30, 1945"
+        p["death_place"] = "San Antonio, Texas"
+        p["occupation"] = "Builder ('built half of San Antonio')"
+        p["fuzzy"] = False
+        p["relation_to_shari"] = "great-grandfather (paternal — Pearl/Paralee Baity's husband; Ruth Baity Mattingly's father)"
+        p["enriched_context"] = (
+            "William Alexander Baity (1862–1945). Born November 2, 1862 in Courtney, Yadkin County, North "
+            "Carolina (Piedmont region). Grew up in Liberty Township, Yadkin County (1870, 1880 census). "
+            "Married Paralee Johnson on June 4, 1899 in Denison, Grayson County, Texas. By 1900 in Denison; "
+            "by 1910 established in San Antonio, where he lived through 1940 census. Died January 30, 1945, "
+            "San Antonio (Texas Death Certificate 477). Children: Ruth Baity Mattingly (Shari's grandmother) "
+            "and Margaret Baity. CONFIRMED via 6 census records, Texas death certificate, WikiTree Baity-117."
+        )
+        p["sources"] = ["https://www.wikitree.com/wiki/Baity-117"]
+        confirmed_research["p010"] = "CONFIRMED — William Alexander Baity (1862-1945)"
+
+# Shari's grandmother → Ruth Baity Mattingly (the BRIDGE)
+for p in data["people"]:
+    if p.get("id") == "p014":  # Shari's grandmother (Leroy's wife)
+        p["full_name"] = "Ruth (Baity) Mattingly"
+        p["given_name"] = "Ruth"
+        p["maiden_name"] = "Baity"
+        p["surname"] = "Mattingly"
+        p["birth_year"] = 1900
+        p["birth_year_note"] = "approximate; Shari said 'nineteen o two. 1900. 1900' (corrected herself)"
+        p["fuzzy"] = False
+        p["relation_to_shari"] = "grandmother (paternal — wife of Leroy Teichmuller Mattingly)"
+        p["enriched_context"] = (
+            "Ruth Baity Mattingly is the documentary BRIDGE between the Mattingly and Baity family lines. "
+            "Daughter of Pearl/Paralee Johnson Baity and William Alexander Baity. Married Leroy Teichmuller "
+            "Mattingly. Their son was Shari's father (b. 1922). Per Shari: 'My grandmother went to North "
+            "Texas State, which was the only university in Texas that would accept women' and 'they had been "
+            "brought up very, very wealthy and they had lost all their money in '29.'"
+        )
+        p["sources"] = ["https://www.wikitree.com/wiki/Baity-117"]
+        confirmed_research["p014"] = "CONFIRMED — Ruth (Baity) Mattingly = the Baity-Mattingly bridge"
+
+# Hans Teichmueller — add parents + wife + Gymnasium
+for p in data["people"]:
+    if p.get("id") == "p003":  # Hans Teichmueller
+        p["education"] = "Gymnasium at Blankenburg (Harz), Duchy of Brunswick (now Saxony-Anhalt, Germany)"
+        p["spouse"] = "Augusta Kellner (m. June 16, 1858, Postoak Point, Austin County, Texas)"
+        p["emigration"] = "1856 to United States (after his father August's death)"
+        p["enriched_context"] = (
+            p.get("enriched_context", "") + " "
+            "PARENTS CONFIRMED via 1902 Fayette County history (LOC): father August Teichmueller (officer in "
+            "Brunswick Army), mother Charlotte (von Gursewald) Teichmueller — 'von' indicates minor noble family. "
+            "Hans attended Gymnasium at Blankenburg (Harz). Worked briefly as a teen sailor to New York, then "
+            "emigrated permanently to Texas 1856 after his father's death. Married Augusta Kellner June 16, 1858 "
+            "at Postoak Point, Austin County, Texas (Colonel Henderson, JP). 5 children: May Mattingly (Shari's "
+            "great-grandmother), Minetta Teichmueller, Anna Teichmueller, plus 2 unnamed."
+        )
+
+# Add August Teichmueller (Hans's father)
+if not any(p.get("id") == "p050" for p in data["people"]):
+    data["people"].append({
+        "id": "p050",
+        "full_name": "August Teichmueller",
+        "given_name": "August",
+        "surname": "Teichmueller",
+        "relation_to_shari": "great-great-great-grandfather (Hans Teichmueller's father)",
+        "occupation": "Officer in the Duchy of Brunswick army",
+        "death_place": "Brunswick (death prompted Hans's 1856 emigration)",
+        "context": "Officer in the Brunswick Army. His death left the family in financial difficulty, prompting his son Hans to emigrate to Texas in 1856.",
+        "fuzzy": True,
+        "research_priority": "high",
+        "sources": ["https://www.loc.gov/item/02023423/"],
+        "confidence": "CONFIRMED via 1902 Fayette County history",
+        "branch": "Teichmueller maternal-paternal"
+    })
+    confirmed_research["p050"] = "Added August Teichmueller (Hans's father)"
+
+# Add Charlotte von Gursewald (Hans's mother)
+if not any(p.get("id") == "p051" for p in data["people"]):
+    data["people"].append({
+        "id": "p051",
+        "full_name": "Charlotte (von Gursewald) Teichmueller",
+        "given_name": "Charlotte",
+        "maiden_name": "von Gursewald",
+        "surname": "Teichmueller",
+        "relation_to_shari": "great-great-great-grandmother (Hans Teichmueller's mother)",
+        "context": "Born von Gursewald — the 'von' prefix indicates a minor noble or gentry family of the Duchy of Brunswick. Married August Teichmueller. Mother of Hans Teichmueller (1837–1901), the Texas judge.",
+        "fuzzy": True,
+        "research_priority": "medium",
+        "sources": ["https://www.loc.gov/item/02023423/"],
+        "confidence": "CONFIRMED via 1902 Fayette County history",
+        "branch": "Teichmueller maternal-paternal"
+    })
+    confirmed_research["p051"] = "Added Charlotte von Gursewald Teichmueller (German nobility)"
+
+# Add Augusta Kellner (Hans's wife)
+if not any(p.get("id") == "p052" for p in data["people"]):
+    data["people"].append({
+        "id": "p052",
+        "full_name": "Augusta (Kellner) Teichmueller",
+        "given_name": "Augusta",
+        "maiden_name": "Kellner",
+        "surname": "Teichmueller",
+        "birth_place": "Postoak Point, Austin County, Texas",
+        "relation_to_shari": "great-great-grandmother (Hans Teichmueller's wife)",
+        "context": "Daughter of 'a highly educated teacher of modern languages.' Born at Postoak Point, Austin County, Texas. Married Hans Teichmueller June 16, 1858 (Colonel Henderson, JP). Widow and head of household in La Grange in 1902.",
+        "fuzzy": False,
+        "research_priority": "medium",
+        "sources": ["https://www.loc.gov/item/02023423/"],
+        "confidence": "CONFIRMED",
+        "branch": "Teichmueller maternal-paternal"
+    })
+    confirmed_research["p052"] = "Added Augusta Kellner Teichmueller (Hans's wife)"
+
+# --- Mattingly chain extension (from agent 07 WikiTree Mattingly-30) ---
+# Charles Mattingly (1600 Sussex) — Thomas I's father
+if not any(p.get("id") == "p060" for p in data["people"]):
+    data["people"].append({
+        "id": "p060",
+        "full_name": "Charles Mattingly",
+        "given_name": "Charles",
+        "surname": "Mattingly",
+        "birth_year": 1600,
+        "birth_place": "Omny Parish, Sussex, England",
+        "death_year": 1642,
+        "relation_to_shari": "8th-great-grandfather (paternal Mattingly line, Thomas I's father)",
+        "spouse": "Judith Bugbee",
+        "context": "Father of Thomas Mattingly I. Lived in Omny Parish, Sussex, England. Per WikiTree Mattingly-30 ancestor chain.",
+        "fuzzy": False,
+        "sources": ["https://www.wikitree.com/wiki/Mattingly-30"],
+        "confidence": "PROBABLE",
+        "branch": "Mattingly paternal"
+    })
+    confirmed_research["p060"] = "Added Charles Mattingly (1600-1642 Sussex, Thomas I's father)"
+
+# Judith Bugbee (Thomas I's mother)
+if not any(p.get("id") == "p061" for p in data["people"]):
+    data["people"].append({
+        "id": "p061",
+        "full_name": "Judith (Bugbee) Mattingly",
+        "given_name": "Judith",
+        "maiden_name": "Bugbee",
+        "surname": "Mattingly",
+        "birth_year": 1602,
+        "birth_place": "England",
+        "relation_to_shari": "8th-great-grandmother (Thomas I's mother)",
+        "spouse": "Charles Mattingly",
+        "context": "Wife of Charles Mattingly, mother of Thomas Mattingly I.",
+        "fuzzy": True,
+        "sources": ["https://www.wikitree.com/wiki/Mattingly-30"],
+        "confidence": "PROBABLE",
+        "branch": "Mattingly paternal"
+    })
+    confirmed_research["p061"] = "Added Judith Bugbee Mattingly (Thomas I's mother)"
+
+# John Mattingly (~1560 - 1641 London)
+if not any(p.get("id") == "p062" for p in data["people"]):
+    data["people"].append({
+        "id": "p062",
+        "full_name": "John Mattingly",
+        "given_name": "John",
+        "surname": "Mattingly",
+        "birth_year": 1560,
+        "birth_place": "Berkshire, England",
+        "death_year": 1641,
+        "death_date": "December 17, 1641",
+        "death_place": "St Mary Colechurch, London, England",
+        "relation_to_shari": "9th-great-grandfather (paternal Mattingly, Thomas I's grandfather)",
+        "context": "Grandfather of immigrant Thomas Mattingly II. PRIMARY SOURCE: London Church of England burial register, St Mary Colechurch, December 17, 1641.",
+        "fuzzy": False,
+        "sources": [
+            "https://www.wikitree.com/wiki/Mattingly-30",
+            "London Church of England burial registers, St Mary Colechurch (Ancestry/FamilySearch)"
+        ],
+        "confidence": "CONFIRMED via primary burial record",
+        "branch": "Mattingly paternal"
+    })
+    confirmed_research["p062"] = "Added John Mattingly (~1560 - 1641 London, primary-source burial record)"
+
+# Francis Mattingly (1580-1620) — possibly collateral, may be uncle not great-grandfather
+if not any(p.get("id") == "p063" for p in data["people"]):
+    data["people"].append({
+        "id": "p063",
+        "full_name": "Francis Mattingly",
+        "given_name": "Francis",
+        "surname": "Mattingly",
+        "birth_year": 1580,
+        "death_year": 1620,
+        "birth_place": "England",
+        "relation_to_shari": "uncertain — possibly 10th-great-grandfather (per WikiTree but chronology unclear)",
+        "context": "Listed in WikiTree as Thomas I's great-grandfather, but the chronology (b.1580, while John Mattingly the grandfather is b.1560) suggests Francis may actually be John's collateral relative (brother, uncle).",
+        "fuzzy": True,
+        "sources": ["https://www.wikitree.com/wiki/Mattingly-30"],
+        "confidence": "POSSIBLE",
+        "branch": "Mattingly paternal"
+    })
+    confirmed_research["p063"] = "Added Francis Mattingly (1580-1620, chain position uncertain)"
+
+# Stephen de Mattingley (fl. 1206) — DEEPEST VERIFIED
+if not any(p.get("id") == "p070" for p in data["people"]):
+    data["people"].append({
+        "id": "p070",
+        "full_name": "Stephen de Mattingley",
+        "given_name": "Stephen",
+        "surname": "de Mattingley",
+        "birth_year": None,
+        "death_year": None,
+        "flourished": "fl. 1206",
+        "birth_place": "Mattingley, Hampshire, England",
+        "relation_to_shari": "etymological/regional ancestor (deepest verified Mattingley individual; direct genealogical link to Hunter not proven through 400-year gap)",
+        "occupation": "Lord of Mattingley (held lands of the manor)",
+        "context": (
+            "DEEPEST VERIFIED 'de Mattingley' individual. Documented in the Curia Regis Rolls of 1206 and "
+            "the Victoria County History of Hampshire (BHO). Granted 6 virgates, 30 acres, meadows, and a "
+            "mill at Mattingley to the Prior of Merton. His father Revelendus (lord of Mattingley, fl. after "
+            "1167) and son Peter de Mattingley are also confirmed in BHO VCH. After Peter sold the family's "
+            "land holdings in the 1220s–1240s, this surname line disappears from manorial records. The 400-year "
+            "gap from 1240s to John Mattingly d.1641 is unfilled."
+        ),
+        "fuzzy": False,
+        "sources": [
+            "https://www.british-history.ac.uk/vch/hants/",
+            "Curia Regis Rolls 1206 (TNA / British History Online)"
+        ],
+        "confidence": "CONFIRMED individual; PROBABLE etymological ancestor; UNVERIFIED direct genealogical descent",
+        "branch": "Mattingly paternal — medieval"
+    })
+    confirmed_research["p070"] = "Added Stephen de Mattingley (fl. 1206) — deepest verified Mattingley"
+
+# Revelendus (Stephen's father, fl. 1167)
+if not any(p.get("id") == "p071" for p in data["people"]):
+    data["people"].append({
+        "id": "p071",
+        "full_name": "Revelendus (lord of Mattingley)",
+        "given_name": "Revelendus",
+        "flourished": "fl. after 1167",
+        "birth_place": "Mattingley, Hampshire, England",
+        "relation_to_shari": "etymological/regional ancestor — earliest named 'lord of Mattingley'",
+        "occupation": "Lord of Mattingley (manor)",
+        "context": "Father of Stephen de Mattingley. Documented in Victoria County History of Hampshire as 'lord of Mattingley' after 1167.",
+        "fuzzy": True,
+        "sources": ["https://www.british-history.ac.uk/vch/hants/"],
+        "confidence": "CONFIRMED individual; PROBABLE etymological ancestor",
+        "branch": "Mattingly paternal — medieval"
+    })
+    confirmed_research["p071"] = "Added Revelendus (fl. 1167) — earliest named lord of Mattingley"
+
+# Peter de Mattingley (Stephen's son)
+if not any(p.get("id") == "p072" for p in data["people"]):
+    data["people"].append({
+        "id": "p072",
+        "full_name": "Peter de Mattingley",
+        "given_name": "Peter",
+        "surname": "de Mattingley",
+        "flourished": "fl. 1220s–1240s",
+        "relation_to_shari": "etymological/regional ancestor",
+        "occupation": "Lord of Mattingley (last in line before manor was sold)",
+        "context": "Son of Stephen de Mattingley. Sold the family's land holdings in the 1220s–1240s; after this, the de Mattingley line disappears from manorial records and the family likely continued as yeoman farmers in the area.",
+        "fuzzy": True,
+        "sources": ["https://www.british-history.ac.uk/vch/hants/"],
+        "confidence": "CONFIRMED individual; PROBABLE etymological ancestor",
+        "branch": "Mattingly paternal — medieval"
+    })
+    confirmed_research["p072"] = "Added Peter de Mattingley (fl. 1220s-40s) — last lord, sold lands"
+
+# --- Mattingly siblings (collateral) ---
+# Cezar (Caesar) Mattingly (1654-1719), Thomas I's son, co-recipient of Mattingly's Hope
+for p in data["people"]:
+    if p.get("id") == "p038":  # Cezar Mattingly (already added earlier)
+        p["birth_year"] = 1654
+        p["death_year"] = 1719
+        p["relation_to_shari"] = "9th-great-uncle (collateral — Thomas I's son, brother of immigrant Thomas II)"
+        p["context"] = (
+            "Caesar/Cezar Mattingly (1654–1719). Co-recipient of the 'Mattingly's Hope' 300-acre land patent "
+            "in Charles County, Maryland on September 4, 1666 with brother Thomas II. Founder of a collateral "
+            "Mattingly line (Garrett County Maryland and elsewhere). Per the Hoye appendix in 'Descendants of Henry Mattingly.'"
+        )
+        p["sources"] = ["https://archive.org/details/thedescendantsofhenrymattingly"]
+        p["fuzzy"] = False
+
+# Add Judith Turner (Mattingly), Thomas I's daughter, lived to ~99
+if not any(p.get("id") == "p080" for p in data["people"]):
+    data["people"].append({
+        "id": "p080",
+        "full_name": "Judith (Mattingly) Turner",
+        "given_name": "Judith",
+        "maiden_name": "Mattingly",
+        "surname": "Turner",
+        "birth_year": 1645,
+        "death_year": 1744,
+        "relation_to_shari": "9th-great-aunt (collateral — Thomas I's daughter; lived to ~99)",
+        "context": "Daughter of Thomas Mattingly I. Lived to approximately 99 years old (1645–1744). The Mattingly family has notable longevity genetics (also Elizabeth Dorcas to ~93, the unidentified centenarian to 107).",
+        "fuzzy": False,
+        "sources": ["https://www.wikitree.com/wiki/Mattingly-30"],
+        "confidence": "PROBABLE",
+        "branch": "Mattingly paternal — collateral"
+    })
+    confirmed_research["p080"] = "Added Judith (Mattingly) Turner (~99 yrs)"
+
+# Elizabeth Dorcas Mattingly (1656-1749)
+if not any(p.get("id") == "p081" for p in data["people"]):
+    data["people"].append({
+        "id": "p081",
+        "full_name": "Elizabeth Dorcas Mattingly",
+        "given_name": "Elizabeth Dorcas",
+        "surname": "Mattingly",
+        "birth_year": 1656,
+        "death_year": 1749,
+        "relation_to_shari": "9th-great-aunt (collateral — Thomas I's daughter; lived to ~93)",
+        "context": "Daughter of Thomas Mattingly I. Lived 1656–1749, ~93 years old.",
+        "fuzzy": False,
+        "sources": ["https://www.wikitree.com/wiki/Mattingly-30"],
+        "confidence": "PROBABLE",
+        "branch": "Mattingly paternal — collateral"
+    })
+    confirmed_research["p081"] = "Added Elizabeth Dorcas Mattingly (~93 yrs)"
+
+# Update Thomas I (p028) and Thomas II (p039) with corrected info
+for p in data["people"]:
+    if p.get("id") == "p028":  # Thomas Mattingly I
+        p["full_name"] = "Thomas Mattingly I"
+        p["birth_year"] = 1624
+        p["birth_place"] = "Omny Parish, Sussex, England"
+        p["death_year"] = 1664
+        p["death_place"] = "Sussex, England (died BEFORE emigrating)"
+        p["spouse"] = "Elizabeth McWilliams (b. ~1626, alive after 1669)"
+        p["relation_to_shari"] = "7th-great-grandfather (paternal Mattingly; STAYED in England — his son Thomas II was the actual immigrant)"
+        p["enriched_context"] = (
+            "CORRECTION TO FAMILY TRADITION: Thomas Mattingly I died in Sussex, England in 1664 BEFORE emigrating. "
+            "His widow Elizabeth McWilliams brought the children to Maryland; she remarried attorney Walter Pake "
+            "who secured the family's land claim. The 1660 'Lord Baltimore' arrival story is family compression — "
+            "the actual immigrant generation is THOMAS II, who arrived pre-1665 and received the 'Mattingly's Hope' "
+            "300-acre land patent in Charles County, Maryland on September 4, 1666 with brother Cezar."
+        )
+        p["sources"] = ["https://www.wikitree.com/wiki/Mattingly-30"]
+
+    elif p.get("id") == "p039":  # Thomas Mattingly II
+        p["full_name"] = "Thomas Mattingly II"
+        p["birth_year"] = 1650
+        p["birth_place"] = "Sussex, England"
+        p["death_year"] = 1715
+        p["death_place"] = "St. Mary's County, Province of Maryland"
+        p["spouse"] = "First: Mary Elizabeth Suttle/Curtis (~1675, St Mary's MD); Second: Elizabeth Cole (~1690)"
+        p["relation_to_shari"] = "6th-great-grandfather (THE IMMIGRANT — pre-1665 to Maryland)"
+        p["enriched_context"] = (
+            "Thomas Mattingly II (~1650–1715) is the actual MARYLAND IMMIGRANT. Co-recipient with brother Cezar of "
+            "the 'Mattingly's Hope' 300-acre land patent in Charles County, Maryland on September 4, 1666. Married "
+            "twice. Will filed October 9, 1714, probated January 12, 1715 — bequeathed 'Mount Misery' plantation to "
+            "son Thomas III, plus land to other named children. 8 children: Elizabeth (1681), Judith (1683), "
+            "Thomas III (1688/1690), James (1696), Charles (1698), William (1700), Luke (1702), Leonard Ignatius "
+            "(1704–1789), Ann (1706)."
+        )
+        p["sources"] = ["https://www.wikitree.com/wiki/Mattingly-29"]
+
+# Add Thomas Mattingly III (between Thomas II and Ignatius — direct line)
+if not any(p.get("id") == "p090" for p in data["people"]):
+    data["people"].append({
+        "id": "p090",
+        "full_name": "Thomas Mattingly III",
+        "given_name": "Thomas",
+        "surname": "Mattingly",
+        "birth_year": 1688,
+        "death_year": 1774,
+        "death_date": "before September 10, 1774 (will probated)",
+        "death_place": "St. Mary's County, Maryland",
+        "relation_to_shari": "5th-great-grandfather (between Thomas II and Ignatius — colonial Maryland Mattingly)",
+        "context": (
+            "Thomas Mattingly III (1688–1774). Inherited 'Mount Misery' plantation from his father Thomas II's "
+            "1714 will. Wrote his own will April 11, 1774, probated September 10, 1774 in St. Mary's County. "
+            "Names sons Leonard, Edward, John Baptist, and Clement as heirs. Mentions 'Mount Misery' plantation "
+            "and 'Mattingly's Lane' with a water mill. This will is the documentary anchor for the generation "
+            "between Thomas II and the Kentucky migration era."
+        ),
+        "fuzzy": False,
+        "sources": ["https://www.wikitree.com/wiki/Mattingly-28"],
+        "confidence": "CONFIRMED via 1774 will probate",
+        "branch": "Mattingly paternal — direct"
+    })
+    confirmed_research["p090"] = "Added Thomas Mattingly III (1688-1774, will primary source)"
+
+# --- Baity NC chain ---
+baity_chain = [
+    ("p100", "William D. Baity", "William", "Baity", 1829, 1894, "North Carolina", "5th-great-grandfather (Pearl Baity's father)", "Farmer."),
+    ("p101", "Isham Baity", "Isham", "Baity", 1804, 1892, "Yadkin County, North Carolina", "6th-great-grandfather", "Farmer; Yadkin County NC."),
+    ("p102", "David Baity Sr.", "David", "Baity", 1782, 1856, "Surry County, North Carolina", "7th-great-grandfather", "Farmer; Surry County NC."),
+    ("p103", "George Baity Sr.", "George", "Baity", 1746, 1828, "North Carolina", "8th-great-grandfather (born during American Revolution era)", "Farmer; lived through the American Revolution. His farm in Surry/Yadkin County NC was in the Appalachian Piedmont through which Sherman's 1865 Carolinas Campaign passed — consistent with Pearl's family memory of begging Sherman not to burn the farm."),
+    ("p104", "Rachel Allgood Baity", "Rachel", "Baity", 1756, None, "North Carolina", "8th-great-grandmother", "Wife of George Baity Sr.; maiden name Allgood."),
+]
+for pid, fname, given, surname, byear, dyear, bplace, rel, ctx in baity_chain:
+    if not any(p.get("id") == pid for p in data["people"]):
+        data["people"].append({
+            "id": pid,
+            "full_name": fname,
+            "given_name": given,
+            "surname": surname,
+            "birth_year": byear,
+            "death_year": dyear,
+            "birth_place": bplace,
+            "relation_to_shari": rel,
+            "context": ctx,
+            "fuzzy": False,
+            "sources": ["https://www.wikitree.com/wiki/Baity-117"],
+            "confidence": "PROBABLE via WikiTree Baity-117 ancestor chain",
+            "branch": "Baity maternal-paternal NC"
+        })
+        confirmed_research[pid] = f"Added {fname} (NC Baity chain)"
+
+# --- DNA finding ---
+data.setdefault("dna_lineage", {
+    "haplogroup": "R1b-DF27 > R1b-Y14084",
+    "summary": (
+        "Y-chromosome haplogroup R1b-DF27, with terminal SNP Y14084 unique to all documented descendants of "
+        "Thomas I (established by FTDNA Big-Y testing). R1b-DF27 formed approximately 4,500 years ago "
+        "(c. 2500 BCE). The branch entered Britain via the Bell Beaker expansion (2450–1800 BCE), which "
+        "replaced approximately 90% of Neolithic British male lineages."
+    ),
+    "sources": ["https://www.familytreedna.com/", "YFull haplotree"],
+    "confidence": "CONFIRMED via FTDNA Big-Y"
+})
+
+# Update audience_policy with full audit
+data["audience_policy"]["data_provenance"] = {
+    "deepest_named_mattingley_individual": "Ellis, lord of Mattingley (fl. 1167) — Pipe Roll 13 Henry II",
+    "deepest_verified_mattingley_at_curia_regis": "Stephen de Mattingley (fl. 1206)",
+    "deepest_verified_direct_ancestor": "John Mattingly (~1560–17 Dec 1641 St Mary Colechurch London)",
+    "earliest_paternal_immigrant": "Thomas Mattingly II (~1650–1715), arrived Maryland pre-1665",
+    "deepest_named_baity": "George Baity Sr. (1746)",
+    "deepest_named_teichmueller": "August Teichmueller (Brunswick Army officer, fl. 1830s-1850s)",
+    "y_dna_haplogroup": "R1b-DF27 > Y14084",
+    "total_named_ancestors": "31+ confirmed/probable across 4 branches",
+    "documentary_gap": "300+ year gap between Peter de Mattingley (~1249) and John Mattingly (~1560) — direct genealogical descent unproven"
+}
+
+# --- Findings from 09-medieval-mattingly.md ---
+# Add Ellis (fl. 1167) — earliest known Mattingley person
+if not any(p.get("id") == "p073" for p in data["people"]):
+    data["people"].append({
+        "id": "p073",
+        "full_name": "Ellis (lord of Mattingley)",
+        "given_name": "Ellis",
+        "flourished": "fl. 1167",
+        "birth_place": "Mattingley, Hampshire, England",
+        "relation_to_shari": "etymological/regional — earliest known Mattingley individual",
+        "occupation": "Lord of Mattingley (manor)",
+        "context": "Earliest known person to bear the Mattingley territorial designation. Recorded in Pipe Roll 13 Henry II (1167) as lord of Mattingley. Predecessor of Revelendus.",
+        "fuzzy": True,
+        "sources": ["https://www.british-history.ac.uk/vch/hants/vol4/pp44-51"],
+        "confidence": "CONFIRMED individual; PROBABLE etymological ancestor; UNVERIFIED direct genealogical descent",
+        "branch": "Mattingly paternal — earliest medieval"
+    })
+    confirmed_research["p073"] = "Added Ellis (fl. 1167) — earliest documented Mattingley person"
+
+# Update Revelendus with proper sequence (succeeded Ellis)
+for p in data["people"]:
+    if p.get("id") == "p071":
+        p["context"] = (
+            "Succeeded Ellis as lord of Mattingley (late 12th century). Had three sons including Stephen de "
+            "Mattingley. Recorded in Cotton MS Cleopatra C. vii (British Library) and Victoria County History "
+            "of Hampshire (BHO)."
+        )
+        p["sources"] = [
+            "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51",
+            "Cotton MS Cleopatra C. vii, British Library"
+        ]
+
+# Mark the 300-year gap explicitly in entity meta
+data["historical_gaps"] = {
+    "medieval_to_early_modern": {
+        "from": "Peter de Mattingley (fl. 1236-1249, sold the manor)",
+        "to": "John Mattingly (~1560 Berkshire, d. 17 Dec 1641 London)",
+        "duration_years": 311,
+        "explanation": (
+            "After Peter de Mattingley sold all his property ~1236-1249, the Mattingley surname vanishes from "
+            "Hampshire manorial records for ~390 years. No individual bearing the surname appears in any "
+            "published primary source for the area between Peter and John Mattingly (~1560). Family likely "
+            "continued as yeoman farmers in southern England without leaving manorial records. Direct "
+            "genealogical descent from Peter to John is etymologically/regionally probable but documentarily unproven."
+        )
+    }
+}
+
 # Audit log for what's been applied
 data.setdefault("research_applied", {})
 for k, v in confirmed_research.items():

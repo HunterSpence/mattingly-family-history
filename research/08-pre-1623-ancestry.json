@@ -1,0 +1,295 @@
+{
+  "depth_summary": {
+    "earliest_named_ancestor": "Stephen de Mattingley",
+    "earliest_named_ancestor_year": 1175,
+    "generations_before_thomas_i": 15,
+    "deepest_verifiable_genealogical_link": "John Mattingly (abt. 1560–1641, Berkshire/London) — grandfather of Thomas I — documented in WikiTree via MyHeritage and a London burial record (St. Mary Colechurch, 17 Dec 1641). His parents are listed as John Mattingly and Elizabeth Elinor Folliot but this extends only from Ancestry.com family trees, not primary source verification.",
+    "deepest_primary_source_verified_link": "Stephen de Mattingley (fl. 1206) — documented in Curia Regis Rolls (1206) and the Victoria County History of Hampshire (British History Online). He granted 6 virgates, 30 acres, several meadows, and a mill in Mattingley to the Prior of Merton in 1206.",
+    "note_on_shari_1525_claim": "The LDS/Houston claim of a 1525 ancestor is plausible and structurally consistent with the WikiTree data showing John Mattingly (b. abt. 1560) as grandfather of Thomas I. A great-great-grandfather born ~1490-1530 would be the generation Shari described. No named individual dated specifically to 1525 has been independently confirmed in open sources during this research. The claim requires verification against the Hampshire Record Office parish registers (which start 1538 for Heckfield/Mattingley per BHO) or the Herman R. Mattingly book (1975)."
+  },
+  "ancestral_generations": [
+    {
+      "label": "Generation 0 — The Immigrant",
+      "person": {
+        "id": "GEN000",
+        "full_name": "Thomas Mattingly I",
+        "birth_year": 1623,
+        "birth_year_range": "1623–1624",
+        "birth_place": "Omny Parish, Sussex / Berkshire, England (exact location uncertain)",
+        "death_year": 1664,
+        "death_place": "St. Mary's County, Province of Maryland",
+        "spouse": "Elizabeth (maiden name unknown)",
+        "children": ["Thomas Mattingly II (b. 1650)", "Cezar Mattingly (b. 1654)", "Judith Mattingly", "Elizabeth Mattingly (b. 1655)"],
+        "key_facts": [
+          "Arrived Maryland late 1663 or early 1664",
+          "Died 24 July 1664 before land patent issued",
+          "Sons received 'Mattingly's Hope' land patent September 4, 1666 (300 acres, Charles County MD)",
+          "Catholic; emigrated under patronage of Lord Baltimore (Cecilius Calvert)",
+          "WikiTree profile: Mattingly-30",
+          "Y-DNA haplogroup: R1b-DF27 > R1b-Y14084 (Mattingly-specific terminal SNP)"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Mattingly-30",
+          "https://www.geni.com/people/Thomas-Mattingly-I/6000000004575975176",
+          "https://www.wikitree.com/wiki/Space:Mattingly/Matney_Surname_DNA_Project",
+          "https://www.familysearch.org/en/search/catalog/570053"
+        ],
+        "confidence": "CONFIRMED"
+      }
+    },
+    {
+      "label": "Generation -1 — Father of Thomas I",
+      "person": {
+        "id": "GEN001",
+        "full_name": "Charles Mattingly",
+        "birth_year": 1600,
+        "birth_year_note": "circa 1600",
+        "birth_place": "Omny Parish, Sussex, England",
+        "death_year": 1642,
+        "death_place": "St. Mary's, Maryland (if same Charles recorded there, or England prior to emigration)",
+        "spouse": "Judith Bugbee (married in England)",
+        "key_facts": [
+          "Father of Thomas Mattingly I",
+          "WikiTree Mattingly-368",
+          "Death place listed as Maryland on WikiTree but this is uncertain — Thomas I emigrated 1663 and his father dying in Maryland by 1642 is an anomaly requiring verification",
+          "Sources for this profile are MyHeritage/Ancestry.com family trees, not primary documents",
+          "Judith Bugbee's father listed as Francis Mattingly (b. 1580) on WikiTree Mattingly-378 — creating an unusual same-surname marriage that may indicate data error"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Mattingly-368"
+        ],
+        "confidence": "POSSIBLE",
+        "confidence_note": "Single source (WikiTree Mattingly-368) which itself cites only Ancestry.com family tree. The Maryland death place in 1642 is inconsistent with Thomas I emigrating in 1663 — this needs primary source verification."
+      }
+    },
+    {
+      "label": "Generation -2 — Grandfather of Thomas I",
+      "person": {
+        "id": "GEN002",
+        "full_name": "John Mattingly",
+        "birth_year": 1560,
+        "birth_year_note": "circa 1560",
+        "birth_place": "Berkshire, England",
+        "death_year": 1641,
+        "death_date": "December 17, 1641",
+        "death_place": "London, Middlesex, England",
+        "spouse": "Mary Winch (married circa 1599 in England)",
+        "spouse_detail": "Mary Winch (b. abt. 1575, daughter of John Winche and Mary; d. abt. October 1635, Kent, England)",
+        "parents_per_myheritage": "Son of John Mattingly and Elizabeth Elinor Folliot (per MyHeritage — not primary source verified)",
+        "children": ["Charles Mattingly (b. 1600, listed as 'John Mattingly b 1600' in some records)"],
+        "key_facts": [
+          "WikiTree Mattingly-377",
+          "Burial record: London, England, Church of England Baptisms, Marriages and Burials, 1538–1812, St. Mary Colechurch: 1641, page 38: 'John Mattingly was buried the 17 of December 1641 in the church' — this is a documentable primary source",
+          "Birth in Berkshire (near the Hampshire border) is consistent with proximity to Mattingley village",
+          "Parents listed as John Mattingly and Elizabeth Elinor Folliot per MyHeritage data — not independently primary-source verified"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Mattingly-377",
+          "London, England, Church of England Baptisms, Marriages and Burials 1538–1812 (via Ancestry/FamilySearch): St. Mary Colechurch, 1641, p. 38"
+        ],
+        "confidence": "PROBABLE",
+        "confidence_note": "The burial record at St. Mary Colechurch is a primary source. The link to Charles (father of Thomas I) relies on MyHeritage aggregated data and should be verified against the Heckfield/Mattingley parish registers (which begin 1538 per BHO)."
+      }
+    },
+    {
+      "label": "Generation -3 — Great-Grandfather of Thomas I (the approximate '1525 ancestor')",
+      "person": {
+        "id": "GEN003",
+        "full_name": "John Mattingly (senior)",
+        "birth_year": 1525,
+        "birth_year_note": "circa 1490–1530 — the 1525 figure from Shari's LDS account lands squarely in this range for great-great-grandfather of Thomas I",
+        "birth_place": "Hampshire or Berkshire, England (Mattingley area presumed)",
+        "death_year": null,
+        "spouse": "Elizabeth Elinor Folliot (per MyHeritage)",
+        "key_facts": [
+          "This is the generation that Shari's oral history identifies as the '1525 ancestor' traced by the LDS Genealogical Center, Houston",
+          "A great-great-grandfather of Thomas I (b. ~1623) would be born approximately 1490–1530, consistent with the 1525 claim",
+          "If the parish registers of Heckfield/Mattingley (beginning 1538 per BHO Victoria County History) were searched, a John Mattingly with children in the 1550s–1560s would appear in those records IF this generation is correct",
+          "The Hampshire Record Office at Winchester holds these registers",
+          "The Heckfield register gap of 1554–1559 (noted: 'Sir Granger omytted the kepyng of thys book for iij whole yeres') could obscure a birth in that decade"
+        ],
+        "sources": [
+          "WikiTree comment on Mattingly-377 citing MyHeritage",
+          "Shari Spence oral history (reported 2024) citing LDS Genealogical Center, Houston",
+          "Herman R. Mattingly, The Mattingly Family in Early America (1975) — cited as the likely LDS source; FamilySearch catalog: https://www.familysearch.org/en/search/catalog/570053"
+        ],
+        "confidence": "UNVERIFIED",
+        "confidence_note": "This individual is plausible and structurally consistent but no independent primary source has been verified in this research session. The claim originates from Shari's oral account of LDS research and Ancestry.com aggregated trees. To confirm: search Hampshire Record Office Winchester for Heckfield/Mattingley baptism registers from 1538 onward."
+      }
+    },
+    {
+      "label": "Generation -4 — 2nd-Great-Grandfather of Thomas I",
+      "person": {
+        "id": "GEN004",
+        "full_name": "Unknown Mattingly",
+        "birth_year": 1490,
+        "birth_year_note": "circa 1490–1510",
+        "birth_place": "Hampshire, England (Mattingley area)",
+        "death_year": null,
+        "key_facts": [
+          "This generation would predate the Heckfield/Mattingley parish registers (which begin 1538)",
+          "Would fall in the pre-Reformation period — records would be manorial court rolls, wills in ecclesiastical courts (Winchester diocese), or subsidy rolls",
+          "The Tudor lay subsidies of 1524–25 (Henry VIII) are a potential source: these list taxable individuals by county and hundred",
+          "Hampshire subsidy rolls of 1524–25 are held at TNA (E 179 series) and may list a Mattingly householder in Holdshott hundred"
+        ],
+        "sources": [
+          "The National Archives, TNA E 179 (subsidy rolls): https://discovery.nationalarchives.gov.uk/ — search E 179 Hampshire Holdshott hundred",
+          "Hampshire Record Office, Winchester — manorial records for Heckfield manor"
+        ],
+        "confidence": "TRADITION",
+        "confidence_note": "No named individual at this depth. The documentary gap is real: parish registers begin 1538, and records before that date require manorial or diocesan sources not yet searched."
+      }
+    },
+    {
+      "label": "Medieval Mattingley Manor Lords — Village Residents with the Surname (NOT direct lineage confirmed)",
+      "notes": "The following individuals held or used the name 'de Mattingley' and lived in or held land at Mattingley. They are documented in primary sources. Whether they are direct male ancestors of Thomas I cannot be established with certainty — the surname became hereditary as a locative (from the village), so multiple unrelated families may have used it.",
+      "persons": [
+        {
+          "id": "MED001",
+          "full_name": "Revelendus (lord of Mattingley)",
+          "birth_year": null,
+          "birth_year_note": "fl. late 12th century — after 1167",
+          "death_year": null,
+          "death_year_note": "before 1206",
+          "spouse": "Rose",
+          "children": ["James de Oakley", "Bartholomew de Oakley", "Stephen de Mattingley"],
+          "key_facts": [
+            "Lord of Mattingley; succeeded the Ellis recorded in 1167",
+            "His three sons divided his possessions",
+            "Documented in VCH Hampshire Vol. 4, pp. 44-51 (British History Online)"
+          ],
+          "sources": [
+            "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51"
+          ],
+          "confidence": "CONFIRMED"
+        },
+        {
+          "id": "MED002",
+          "full_name": "Stephen de Mattingley",
+          "birth_year": null,
+          "birth_year_note": "fl. 1206",
+          "death_year": null,
+          "birth_place": "Mattingley, Hampshire, England",
+          "key_facts": [
+            "Son of Revelendus by Rose",
+            "In 1206 granted to Walter Prior of Merton and his successors in free alms: 6 virgates, 30 acres of land, several meadows, 6s. 3d. rent, and a mill in Mattingley",
+            "Also recorded in Curia Regis Rolls (1206) as 'Stephen de Madingel', de Matingel' — the earliest named individual with the Mattingley surname in surname-dictionary sources",
+            "He received his brother Bartholomew's share of Revelendus's estate"
+          ],
+          "sources": [
+            "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51",
+            "Reaney, P.H. and R.M. Wilson, A Dictionary of English Surnames (Routledge, 1991) — cited by houseofnames.com: https://www.houseofnames.com/matingley-family-crest"
+          ],
+          "confidence": "CONFIRMED"
+        },
+        {
+          "id": "MED003",
+          "full_name": "Peter de Mattingley",
+          "birth_year": null,
+          "birth_year_note": "fl. 1220s–1240s",
+          "death_year": null,
+          "key_facts": [
+            "Son of Stephen de Mattingley",
+            "Sold all his property to Geoffrey de Arundel",
+            "After this sale, the Mattingley surname disappears from the manor records as landholders — the family may have continued as tenant farmers or yeomanry"
+          ],
+          "sources": [
+            "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51"
+          ],
+          "confidence": "CONFIRMED",
+          "lineage_note": "After Peter sold, the 'de Mattingley' family no longer appears in manorial records as major landholders. The surname as used by Thomas I's ancestors likely represents continued residence in the parish as non-gentry farmers."
+        }
+      ]
+    },
+    {
+      "label": "Domesday-Era Landholder — Pre-Surname (1086)",
+      "person": {
+        "id": "DOM001",
+        "full_name": "Alric (pre-Conquest holder of Mattingley)",
+        "birth_year": null,
+        "birth_year_note": "fl. mid-11th century, before 1066",
+        "death_year": null,
+        "death_year_note": "likely after 1066 (fate unknown)",
+        "key_facts": [
+          "Held Mattingley of King Edward (the Confessor) as an alod — free of feudal obligations",
+          "After the Norman Conquest (1066), the holding passed to Alsi the son of Brixi (Alfsi son of Brictsi) who held it in 1086 under Hugh de Port",
+          "Per BHO VCH Hampshire: 'Mattingley, which Alric had held of King Edward as an alod, belonged to Alsi the son of Brixi in 1086'",
+          "Alric is an Anglo-Saxon name (Old English Aelric). He would have been a local thane or free farmer before the Conquest",
+          "This is a VILLAGE-LEVEL ancestor — not a proven direct personal ancestor, but as the free holder of the Mattingley lands, he represents the Anglo-Saxon community from which the surname later derived"
+        ],
+        "sources": [
+          "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51 (p. 12: 'MATTINGLEY... which Alric had held of King Edward as an alod, belonged to Alsi the son of Brixi in 1086')",
+          "Williams, Ann and G.H. Martin, eds., Domesday Book: A Complete Translation (Penguin, 1992) — cited via houseofnames.com"
+        ],
+        "confidence": "CONFIRMED",
+        "confidence_note": "CONFIRMED that this individual held the land. UNVERIFIED whether he is a direct ancestor of later Mattingley families — the surname came from the place, not this specific person."
+      }
+    }
+  ],
+  "deep_time_context": {
+    "village_founding": "Mattingley (Old English: Matingelege) was founded in the 5th–6th century by a Basingas clan under a leader named Matta (or Mætta). The etymology is Matta + -inga- + leah: 'woodland clearing of the followers of Matta.' The Basingas tribe settled eastern Basingstoke concurrent with the Frankish conquest of Alamannia in the early 6th century (per Wikipedia Basingas article, citing Yorke, Wessex in the Early Middle Ages, 1995, p. 40). The tribe's name survives in Old Basing and Basingstoke, 22 km west-southwest of Mattingley.",
+    "matta_the_founder": "Matta is an inferred Old English personal name from the place name. No independent documentary source names him apart from the etymology. His existence as a real person is PROBABLE (the naming convention of -ingas settlements requires a real eponymous leader) but UNVERIFIED in any surviving document.",
+    "anglo_saxon_period": "The Basingas territory formed a regio of the early Kingdom of Wessex. Their territory (Basengum) is mentioned in the Anglo-Saxon Chronicle as the site of the Battle of Basing in 871 AD, when a Danish army defeated Ethelred of Wessex. The Basingas had been subsumed into Wessex well before this date, which is why they do not appear in the Tribal Hidage as a distinct tribe.",
+    "norman_conquest_impact": "After 1066, Mattingley's lands passed from Anglo-Saxon free-holder Alric to Norman lord Alsi son of Brixi under Hugh de Port (Domesday 1086). The de Port family controlled the area. By the early 12th century, they granted Heckfield (parent manor of Mattingley) to the St. Manefeo family before 1166. The Mattingley family line — by then using 'de Mattingley' as a locative surname — held their own portion until Peter de Mattingley sold to Geoffrey de Arundel in the 1220s–1240s.",
+    "reformation_recusancy": "The Mattinglys were Catholic when Thomas I emigrated in 1663. During the English Reformation (1530s onward), Hampshire Catholics became recusants — legally liable to fines for non-attendance at Church of England services. Catholic recusants were recorded in Recusant Rolls maintained by the Exchequer (TNA series E 376, E 377). Hampshire was a county with significant Catholic gentry presence. The Mattingley chapel at Heckfield had a silver chalice and paten from 1568 (confirmed in BHO), suggesting ongoing parish life; Catholic families would have had private masses. Thomas I's Catholic faith strongly implies his family remained recusant through the late 16th and early 17th century.",
+    "domesday_entry": {
+      "year": 1086,
+      "domesday_book_spelling": "Matingeleghe",
+      "curia_regis_spelling_1206": "Matingele",
+      "vch_spelling_15th_cent": "Martyngle",
+      "details": "Mattingley recorded in Domesday Book as part of the hundred of Holdshott. Pre-Conquest holder: Alric, who held it of King Edward as an alod (freehold). 1086 holder: Alsi the son of Brixi (Alfsi son of Brictsi), under Hugh de Port. The mill worth 5 shillings mentioned in the Domesday entry was later granted to the Prior of Merton by Stephen de Mattingley in 1206. Mattingley remained a chapelry of Heckfield parish until 1894, when it became its own civil parish.",
+      "source_url": "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51",
+      "backup_source": "Williams, Ann and G.H. Martin, eds., Domesday Book: A Complete Translation (Penguin, 1992)"
+    },
+    "parish_registers": {
+      "start_date": "1538",
+      "note": "The Heckfield parish registers — including the Mattingley chapelry — begin in 1538 (the year Henry VIII mandated parish registers). The first book covers 1538–1575. There is a gap from approximately 1554–1559 when the incumbent 'omytted the kepyng of thys book.' This gap coincides precisely with the Marian Restoration of Catholicism, which likely explains the absence. A second book covers 1575–1605; a third covers 1605–1663. The Hampshire Record Office, Winchester holds these registers.",
+      "implication": "Anyone born after 1538 in Mattingley parish should appear in these registers if their baptism was recorded. The 1554–1559 gap is the key risk period. The 1525 ancestor Shari references would predate register coverage and would require wills or manorial records.",
+      "hro_contact": "https://www.hants.gov.uk/librariesandarchives/archives"
+    }
+  },
+  "haplogroup_deep_history": {
+    "haplogroup": "R1b > R1b-M269 > R1b-P312 > R1b-DF27 > R1b-Y14084",
+    "y14084_significance": "SNP Y14084 is the terminal SNP unique to all documented descendants of Thomas Mattingly I. It defines the Mattingly sub-clade within the broader R1b-DF27 haplogroup. This was discovered by the Mattingly-Matney Surname DNA Project via Family Tree DNA Big-Y testing.",
+    "r1b_df27_formation": {
+      "formed_ybp": 4500,
+      "confidence_interval": "5300 to 3700 ybp (95%)",
+      "date_bce": "approximately 2500 BCE",
+      "source": "YFull tree R-DF27: https://www.yfull.com/tree/R-DF27/ (TMRCA 4500 ybp, CI 95% 5300-3700 ybp)"
+    },
+    "r1b_m269_context": "R1b-M269 is the dominant paternal lineage in Western Europe, carried by approximately 50-80% of men in Britain, Ireland, France, and Iberia. It expanded across Europe via the Bell Beaker culture (circa 2800–1800 BCE), which arrived in Britain approximately 2450–1800 BCE and replaced approximately 90% of the male lineage of Neolithic Britain.",
+    "bell_beaker_in_britain": "Bell Beaker culture reached Britain c. 2450 BCE. The culture was associated with steppe-ancestry populations carrying R1b-M269 who largely displaced the earlier Neolithic male lineages. This is the population event that brought the Mattingly Y-chromosome line to Britain.",
+    "r1b_df27_context": "R1b-DF27 is the Gallo-Iberian branch of R1b-P312. It is especially common in Iberia (where it likely originated) and Atlantic-facing regions including western England. Formation circa 2500 BCE, TMRCA circa 2500 BCE. The Mattingly line (R1b-Y14084) diverged from this broader trunk at some point in the last 2000–4000 years.",
+    "pre_beaker_origins": "Before the Bell Beaker expansion, the R1b lineage originated on the Pontic-Caspian Steppe. R1b itself formed approximately 22,000 ybp; R1b-M269 formed approximately 6,500 ybp. The earliest R1b-M269 carriers were Yamnaya-culture herders from the steppe who entered Europe from approximately 3000 BCE onward.",
+    "verifiable_lineage_horizon": "Genetically: R1b-Y14084 uniquely marks descendants of Thomas Mattingly I — verified by FTDNA Big-Y testing. Genealogically: John Mattingly (buried London 1641) is the deepest generation with a primary source document. Named documentary evidence of individuals with the Mattingley surname extends to Stephen de Mattingley (1206) in primary sources. The village itself is documented to 1086. The eponymous founder Matta dates to the 5th–6th century by place-name etymology but is not attested in any surviving document."
+  },
+  "data_gaps": [
+    "The generation born circa 1490–1530 (the putative '1525 ancestor') is the critical gap. No named individual has been confirmed at this depth in open sources during this research.",
+    "The Heckfield/Mattingley parish registers (beginning 1538, held at Hampshire Record Office Winchester) have not been searched directly — these would be the primary source for any Mattingley baptisms 1538–1623.",
+    "The Tudor lay subsidy rolls of 1524–25 (TNA E 179 series, Hampshire) may list a Mattingly householder in Holdshott hundred — this has not been searched.",
+    "The Recusant Rolls (TNA E 376, E 377) from the late 16th century may contain Mattingly entries from Hampshire — not yet searched.",
+    "The Charles Mattingly death place listed as 'Maryland 1642' on WikiTree is anomalous given Thomas I emigrated in 1663 — this needs clarification against primary records.",
+    "The 'Omny Parish, Sussex' birth location for Thomas I and Charles I is unidentified — 'Omny' does not correspond to a known English place name, and may be a data entry error in the Ancestry.com tree that propagated to WikiTree.",
+    "Francis Mattingly (WikiTree Mattingly-378, b. 1580) is listed as the father of Judith Bugbee — making Judith both a Bugbee and a Mattingly by birth, and then marrying Charles Mattingly (also a Mattingly). This could be a data error or reflect a cousin marriage, and needs verification.",
+    "The connection between the medieval Stephen/Peter de Mattingley line (documented 1206) and the early modern Thomas I line (documented 1663) is a gap of approximately 450 years with no named individual bridging it in primary sources — the surname continuity is plausible but unproven.",
+    "The Herman R. Mattingly book (The Mattingly Family in Early America, 1975) is the key genealogical source but was not directly accessible during this research — the FamilySearch catalog entry exists but the full text would require a library or interlibrary loan request."
+  ],
+  "key_sources": [
+    "British History Online, VCH Hampshire Vol. 4, pp. 44-51 (Heckfield/Mattingley): https://www.british-history.ac.uk/vch/hants/vol4/pp44-51",
+    "WikiTree Mattingly-30 (Thomas Mattingly I): https://www.wikitree.com/wiki/Mattingly-30",
+    "WikiTree Mattingly-368 (Charles Mattingly): https://www.wikitree.com/wiki/Mattingly-368",
+    "WikiTree Mattingly-377 (John Mattingly d. 1641): https://www.wikitree.com/wiki/Mattingly-377",
+    "WikiTree Mattingly-Matney Surname DNA Project: https://www.wikitree.com/wiki/Space:Mattingly/Matney_Surname_DNA_Project",
+    "WikiTree Mattingly-Matney SNPs: https://www.wikitree.com/wiki/Space:Mattingly-Matney_SNPs",
+    "FamilySearch catalog, Herman R. Mattingly, The Mattingly Family in Early America (1975): https://www.familysearch.org/en/search/catalog/570053",
+    "Reaney, P.H. and R.M. Wilson, A Dictionary of English Surnames (Routledge, 1991) — via houseofnames.com: https://www.houseofnames.com/matingley-family-crest",
+    "Mills, A.D., Dictionary of English Place-Names (OUP, 1991) — via houseofnames.com",
+    "Williams, Ann and G.H. Martin, eds., Domesday Book: A Complete Translation (Penguin, 1992)",
+    "Wikipedia, Basingas: https://en.wikipedia.org/wiki/Basingas",
+    "Yorke, Barbara, Wessex in the Early Middle Ages (Leicester University Press, 1995), p. 40",
+    "YFull tree R-DF27 (4500 ybp formation): https://www.yfull.com/tree/R-DF27/",
+    "London, England, Church of England Baptisms, Marriages and Burials 1538-1812: St. Mary Colechurch 1641 p. 38 — John Mattingly burial record (via Ancestry/FamilySearch)",
+    "Hampshire Record Office, Winchester (holds Heckfield/Mattingley parish registers beginning 1538): https://www.hants.gov.uk/librariesandarchives/archives",
+    "The National Archives Discovery (recusant rolls, subsidy rolls): https://discovery.nationalarchives.gov.uk/"
+  ]
+}
