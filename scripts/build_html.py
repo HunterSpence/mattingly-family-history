@@ -32,7 +32,7 @@ PORTRAITS_JSON = WORKSPACE / "research" / "13-portraits-and-images.json"
 DEEDS_JSON = WORKSPACE / "research" / "14-notable-deeds.json"
 OUT_FAMILY = WORKSPACE / "output" / "grandma-shari-family-history.html"
 OUT_PUBLIC = WORKSPACE / "output" / "grandma-shari-family-history-public.html"
-AUDIO_REL = "../audio/source.m4a"
+AUDIO_REL = "audio/source.m4a"
 
 CSS = """
 /* =========================================================
@@ -2495,17 +2495,20 @@ window.treeZoomOut   = () => svg.transition().duration(280).call(zoomBehavior.sc
 window.treeZoomReset = () => svg.transition().duration(420).call(zoomBehavior.transform, d3.zoomIdentity);
 
 // ── Auto-fit on load ─────────────────────────────────────────────
+// Compute fit-scale in VIEWBOX coordinates (the SVG's preserveAspectRatio
+// already handles the viewBox→screen mapping; the zoom transform multiplies
+// on top of that, so we need to think in viewBox units here).
 function autoFitTree() {
   const bbox = g.node().getBBox();
-  const containerW = svg.node().getBoundingClientRect().width || W;
-  const containerH = parseFloat(svg.attr("height")) || 1040;
-  const scaleX = containerW / (bbox.width + M.left + M.right + 40);
-  const scaleY = containerH / (bbox.height + M.top + M.bottom + 40);
-  const scale = Math.min(scaleX, scaleY, 0.95);
-  const tx = (containerW - (bbox.width + 40) * scale) / 2 - bbox.x * scale + 20 * scale;
-  const ty = M.top;
+  const padding = 40;
+  const scaleX = (W - 2 * padding) / bbox.width;
+  const scaleY = (H - 2 * padding) / bbox.height;
+  const scale = Math.min(scaleX, scaleY, 1.0);  // never zoom in past 1.0
+  // Center the tree inside the viewBox
+  const tx = (W - bbox.width * scale) / 2 - bbox.x * scale - M.left;
+  const ty = (H - bbox.height * scale) / 2 - bbox.y * scale - M.top;
   svg.call(zoomBehavior.transform,
-    d3.zoomIdentity.translate(tx - M.left * scale, ty - M.top * scale).scale(scale));
+    d3.zoomIdentity.translate(tx, ty).scale(scale));
 }
 
 window.addEventListener('load', () => setTimeout(autoFitTree, 120));
