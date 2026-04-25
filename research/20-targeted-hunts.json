@@ -1,0 +1,36 @@
+{
+  "compiled": "2026-04-25",
+  "researcher": "Claude Sonnet 4.6 (Researcher specialist)",
+  "centenarian_resolution": {
+    "best_candidate": "NO CANDIDATE FOUND",
+    "evidence": "Thomas Jefferson Mattingly (WikiTree Mattingly-591) was born 1828 in Kentucky and died 1883 in Pattonsburg, Daviess, Missouri at approximately age 54. He is the only documented Mattingly born ~1828 in the ancestral line. His birth year matches the oral tradition, but his death year and age do not. Exhaustive search of all accessible digitized Texas newspapers (San Antonio Light 1934-1936, Brownsville Herald 1934-1936) via Library of Congress Chronicling America returned 0 hits for 'centenarian', '107 years old', or 'Mattingly' in the 1934-1936 window. No Missouri, Kentucky, or Texas death records confirm a Mattingly born 1828 surviving to 1935. No other Mattingly born ~1828 appears in the accessible WikiTree/FamilySearch record for the family. The Baity, Teichmueller, and Johnson collateral lines have no confirmed member born ~1828 who survived to 1935.",
+    "sources": [
+      "WikiTree Mattingly-591 (Thomas Jefferson Mattingly, 1828-1883): https://www.wikitree.com/wiki/Mattingly-591",
+      "LOC Chronicling America San Antonio Light 1934-1936: https://www.loc.gov/item/sn85060004/",
+      "LOC Chronicling America Brownsville Herald 1934-1936: https://www.loc.gov/item/sn86063730/",
+      "LOC full-text search newspapers 1934-1936 for 'Mattingly centenarian': 0 hits",
+      "LOC full-text search newspapers 1935 for '107 years old': 0 hits",
+      "WikiTree Baity-119 (William D. Baity, 1829-1894, age 65): https://www.wikitree.com/wiki/Baity-119",
+      "WikiTree Mattingly-596 (Edward Sr. chain confirming Thomas Jefferson as great-grandfather): https://www.wikitree.com/wiki/Mattingly-596"
+    ],
+    "confidence": "CLAIM UNSUPPORTED — no primary source evidence; family oral tradition only",
+    "alternative_explanation": "The oral tradition almost certainly conflates two separate family facts: (1) Thomas Jefferson Mattingly WAS born in 1828 — his birth year is verifiable and would have been known within the family. (2) A separate claim about longevity ('someone lived to 107') appears elsewhere in family memory. These two facts, separated by at least two generations of oral transmission, fused into a single person. Thomas Jefferson Mattingly died in 1883 at age ~54. His son Edward Sr. was born in 1868, Leroy in 1896 — making the chain of transmission long enough to explain compressional distortion. A secondary possibility: the reference is to a collateral ancestor on the maternal (Teichmueller, Baity, or Johnson) side, but no person on those lines was born ~1828 and lived to 1935 in accessible records. The Briscoe Center for American History (lib-briscoe@utlists.utexas.edu) and Texas State Library (Austin) hold non-digitized La Grange Journal microfilm from 1928-1936 that would be the definitive negative confirmation if Hunter wishes to close this completely."
+  },
+  "hans_teichmueller_5th_child": {
+    "name": "NOT IDENTIFIED",
+    "dates": "unknown — born between 1858 and ~1880; died before 1902",
+    "sex": "unknown — most likely female based on Lotto 1902 phrasing pattern; male not excluded",
+    "evidence": "Lotto 1902 (primary source, p.231) states explicitly 'To this union were born five children.' It then names: Mrs. May Mattingly (deceased by 1902), Misses Minetta and Anna (living at home with mother). Louisa Teichmueller (WikiTree Teichmueller-2, b. abt. Sep 1862, d. abt. 1870) is confirmed via separate census records. That accounts for four children (Louisa, May, Minette, Anna). The fifth is unnamed in all accessible digitized sources: Lotto 1902 (full text searched), TSHA handbook entry for Hans Teichmueller, WikiTree Teichmueller-3 (lists only 4 children), Wikipedia article on Minette Teichmueller, and every other free online genealogy source checked. The 1880 US Census for Fayette County TX (which would show any child alive in June 1880) and the 1900 US Census (which would show any surviving child still in the household) are not freely accessible without a subscription to FamilySearch/Ancestry. The 'Hans Teichmueller Biographical Sketch' (Austin: Von Boeckmann-Jones, 1908) — the one non-Lotto primary source that might name additional family members — is not digitized and is held at UT Austin Briscoe Center. Texas vital records did not begin statewide recording until 1903; if the 5th child died before then, there would be no state death certificate.",
+    "sources": [
+      "Lotto 1902 (primary, full text): https://archive.org/download/fayettecountyher00lott/fayettecountyher00lott_djvu.txt — lines 11174-11181 (key passage)",
+      "TSHA handbook — Hans Teichmueller: https://www.tshaonline.org/handbook/entries/teichmueller-hans ('five children' confirmed)",
+      "WikiTree Teichmueller-3 (Hans): https://www.wikitree.com/wiki/Teichmueller-3 (lists only 4 children)",
+      "WikiTree Teichmueller-2 (Louisa): https://www.wikitree.com/wiki/Teichmueller-2 (siblings: Mary, Minette, Anna only)",
+      "Wikipedia — Minette Teichmueller: https://en.wikipedia.org/wiki/Minette_Teichmueller (no additional sibling named)",
+      "FamilySearch 1880 census (collection 1417683): access blocked without login — definitive record would be Film M9-1291 Fayette County TX, ED 57-65 (La Grange enumeration district)",
+      "FamilySearch 1900 census ARK M3GQ-SRC (Hans Teichmueller household): access requires login"
+    ],
+    "confidence": "UNRESOLVED — 4 of 5 children are confirmed; 5th is documented to exist (Lotto 1902 primary source) but unidentified in all accessible free databases",
+    "next_steps": "Two sources can definitively resolve this: (1) FamilySearch 1880 census record for Hans Teichmueller household in La Grange, Fayette County TX (Film M9-1291, ED 57-65) — requires free FamilySearch account login; (2) The 1908 'Hans Teichmueller Biographical Sketch' (Von Boeckmann-Jones, Austin) held at UT Austin Briscoe Center — email lib-briscoe@utlists.utexas.edu. The most likely explanation for the missing child: born between 1858 and 1862 (before Louisa) or between 1862 and 1867 (between Louisa and May), died in infancy before the 1870 census, and therefore invisible in all available records. A child born after Anna (1874) and appearing in the 1880 census is also possible but would require the FamilySearch login to confirm or deny."
+  }
+}

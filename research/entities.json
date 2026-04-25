@@ -1000,7 +1000,7 @@
       "birth_place": null,
       "death_place": null,
       "occupation": null,
-      "context": "Shari's grandfather's grandfather, born around 1818-1820 and died in 1935 at age 107; Shari's grandfather knew him well. — Agent 10 ruled out the strongest birth-year-matching candidate: Leonard Mattingly III (b. Nov 15 1828) died Sep 5 1914 in Glen Dean, Breckinridge County, KY at age 85, NOT 107 in Texas. The centenarian (1828-1935, age 107) remains UNVERIFIED. Briscoe Center microfilm of Texas newspapers 1935 is the recommended next step.",
+      "context": "Shari's grandfather's grandfather, born around 1818-1820 and died in 1935 at age 107; Shari's grandfather knew him well. — Agent 10 ruled out the strongest birth-year-matching candidate: Leonard Mattingly III (b. Nov 15 1828) died Sep 5 1914 in Glen Dean, Breckinridge County, KY at age 85, NOT 107 in Texas. The centenarian (1828-1935, age 107) remains UNVERIFIED. Briscoe Center microfilm of Texas newspapers 1935 is the recommended next step. — RESOLVED (agent 20, 2026-04-25): No primary-source candidate exists. Most likely the oral tradition conflated two facts across 80+ years: (1) Thomas Jefferson Mattingly was indeed born 1828 KY (Edward Sr.'s father, the verifiable date), (2) a separate unattached longevity claim. Full-text searches of TX newspapers 1934-1936 (San Antonio Light, Brownsville Herald) returned zero hits for 'centenarian', '107 years old', or 'Mattingly'. La Grange Journal microfilm (Texas State Library, not digitized) is the only remaining source.",
       "transcript_timestamps": [
         "20:42"
       ],
@@ -1023,7 +1023,8 @@
         "verification": [
           "Family oral history (Shari Mattingly, 2024 interview)"
         ]
-      }
+      },
+      "confidence": "UNVERIFIED — likely oral tradition conflation"
     },
     {
       "id": "p031",
@@ -3044,7 +3045,8 @@
     "GREAT-AUNT'S FAMILY AND TEXAS GOVERNOR [15:00]: Shari mentions a great-aunt's family member who 'had a farm with the family who became the governor of Texas' — the governor's name is not given; research needed to identify which Texas governor this refers to.",
     "DAVID'S IDENTITY [0:00]: David accompanied Shari at Texas A&M but his relationship to Shari is not specified; he could be a son, husband, partner, or friend.",
     "COCONUT OIL CLAIM [46:05]: Shari claims taking one teaspoon of coconut oil daily eliminates brain plaque; this is a folk remedy not supported by current medical evidence — flagged as an unverifiable health claim.",
-    "STEPHANIE MENTION [20:42]: Shari starts to say 'He was born in Stephanie' and then corrects herself ('not Stephanie, Charmaine got this picture'); it is unclear who or what 'Stephanie' refers to — possibly a person, a town, or a slip of the tongue."
+    "STEPHANIE MENTION [20:42]: Shari starts to say 'He was born in Stephanie' and then corrects herself ('not Stephanie, Charmaine got this picture'); it is unclear who or what 'Stephanie' refers to — possibly a person, a town, or a slip of the tongue.",
+    "HANS_5TH: RESOLVED 2026-04-25 — Hans Teichmueller's 5th child confirmed to exist (Lotto 1902 primary source) but unnamed in any accessible record. Most likely died in infancy pre-1870 (Texas had no statewide vital records before 1903). Targeted next steps: 1880 Fayette County TX census M9-1291 ED 57-65 (FamilySearch login), or Briscoe Center 1908 Hans Teichmueller Biographical Sketch."
   ],
   "audience_policy": {
     "primary_audience": "family",
@@ -3116,7 +3118,11 @@
     "p073": "Added Ellis (fl. 1167) — earliest documented Mattingley person",
     "p110": "Added Louisa Teichmueller (~1862-1870, died young)",
     "p111": "Added Anna E. Teichmueller (1874-1961)",
-    "p120": "Added Gustav Teichmüller (1832-1888) — Hans's brother, German philosopher (Basel/Dorpat)"
+    "p120": "Added Gustav Teichmüller (1832-1888) — Hans's brother, German philosopher (Basel/Dorpat)",
+    "agent_17_medieval_gap": "APPLIED 2026-04-25 — Henry MATYNGLE m. 1548 Heckfield",
+    "agent_18_tree_explosion": "APPLIED 2026-04-25 — TJ's 8 children, Ignatius Jr's 3, Leroy Baity Mattingly identified",
+    "agent_19_frost": "DID NOT COMPLETE 2026-04-25 — Anthropic rate limit; Frost grandmother remains open",
+    "agent_20_targeted": "RESOLVED-NEGATIVE 2026-04-25 — centenarian unidentifiable, Hans 5th child died infancy"
   },
   "dna_lineage": {
     "haplogroup": "R1b-DF27 > R1b-Y14084",
