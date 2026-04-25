@@ -1927,10 +1927,24 @@ def render_confidence(level):
 
 def build_lineage_tree_data(portrait_map=None):
     """Return nested dict for D3 tree.
-    Reads research/06-full-mattingly-lineage.json if present, otherwise falls back to a
-    structured placeholder showing known generations + 'unknown' middle generations.
+    Preference order:
+    1. research/lineage-tree.json — pre-shaped branching tree (CLASSIC family-tree structure)
+    2. research/06-full-mattingly-lineage.json — linear generations array
+    3. _placeholder_lineage_tree() — hardcoded fallback
     """
     portrait_map = portrait_map or {}
+
+    # Prefer the classic branching tree if it exists
+    classic_path = WORKSPACE / "research" / "lineage-tree.json"
+    if classic_path.exists():
+        try:
+            tree = json.loads(classic_path.read_text(encoding="utf-8"))
+            # Already in {name, dates, fact, id, children, ...} shape — just inject portraits
+            _inject_portraits(tree, portrait_map)
+            return tree
+        except (json.JSONDecodeError, KeyError, ValueError):
+            pass
+
     lineage_path = WORKSPACE / "research" / "06-full-mattingly-lineage.json"
     if lineage_path.exists():
         try:
@@ -1939,6 +1953,16 @@ def build_lineage_tree_data(portrait_map=None):
         except (json.JSONDecodeError, KeyError, ValueError):
             pass
     return _placeholder_lineage_tree(portrait_map)
+
+
+def _inject_portraits(node, portrait_map):
+    """Recursively walk a tree and add portrait_url where ID matches."""
+    if isinstance(node, dict):
+        nid = node.get("id")
+        if nid and nid in portrait_map:
+            node["portrait_url"] = portrait_map[nid]
+        for child in node.get("children", []) or []:
+            _inject_portraits(child, portrait_map)
 
 
 def convert_lineage_research_to_tree(lineage_data, portrait_map=None):
@@ -2136,8 +2160,8 @@ def render_lineage_tree_js():
 const lineageData = JSON.parse(document.getElementById('lineage-tree-data').textContent);
 
 // Canvas dimensions — wider cards for portrait integration
-const W = 1380;
-const H = 1800;
+const W = 2800;
+const H = 2400;
 const NW = 230;   // node width (wider for portrait)
 const NH = 82;    // node height (taller for portrait)
 const SPINE = 68; // left margin for generation labels
