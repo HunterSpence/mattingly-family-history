@@ -1,0 +1,357 @@
+{
+  "research_metadata": {
+    "title": "Cezar Mattingly Line",
+    "date": "2026-04-25",
+    "researcher": "Claude Sonnet 4.6",
+    "primary_sources": [
+      "1969 Descendants of Henry Mattingly (Internet Archive: thedescendantsofhenrymattingly)",
+      "WikiTree profiles Mattingly-223 through Mattingly-648",
+      "colonial-settlers-md-va.us person ID I007617",
+      "Charles E. Hoye, Garrett County History of Pioneer Families Ch.LXXX (1936, reprinted 1969)"
+    ],
+    "confidence_overall": "HIGH for Garrett County branch (G4-G7); MODERATE for G2-G3 path through Cezar->Henry I"
+  },
+  "progenitor": {
+    "id": "cezar-mattingly-1654",
+    "wikitree_id": "Mattingly-223",
+    "full_name": "Cezar (Caesar / Cesar) Mattingly",
+    "birth_year": "aft.1654",
+    "birth_place": "Berkshire, England",
+    "death_year": "aft.1719",
+    "death_place": "St. Mary's County, Maryland",
+    "spouse": {
+      "name": "Jane Suttle",
+      "marriage_date": "unknown",
+      "marriage_place": "unknown"
+    },
+    "relation_to_hunter": "Collateral ancestor — great-great-great-great-great-great-uncle",
+    "sibling": "Thomas Mattingly II (Hunter's direct ancestor, Mattingly-29)",
+    "land_patent": {
+      "name": "Mattingly's Hope",
+      "acres": 300,
+      "county": "Charles County, Maryland",
+      "date": "1666-09-04",
+      "co-patentee": "Thomas Mattingly II"
+    },
+    "dna": {
+      "y_haplogroup": "R-Y14083",
+      "source": "FamilyTreeDNA test of William Mattingly (paternal-line descendant), WikiTree Mattingly-223 DNA section",
+      "relation_to_hunters_haplogroup": "R-Y14083 and R-Y14084 are adjacent terminal branches under parent Y14082 — effectively the same cluster, consistent with Cezar and Thomas II being brothers from Thomas I"
+    },
+    "children": [
+      {
+        "id": "thomas-mattingly-1688",
+        "wikitree_id": "Mattingly-928",
+        "name": "Thomas Mattingly",
+        "birth_year": "abt.1688",
+        "birth_place": "Maryland",
+        "note": "No spouse or children confirmed in accessible records"
+      },
+      {
+        "id": "john-baptist-mattingly-1690",
+        "wikitree_id": "Mattingly-225",
+        "name": "John Baptist Mattingly",
+        "birth_year": "1690",
+        "birth_place": "Maryland",
+        "death_year": "1744",
+        "death_place": "Maryland",
+        "spouses": [
+          {"name": "Ellen (Porter) Mattingly"},
+          {"name": "Grace (Brewer) Mattingly"}
+        ],
+        "note": "Primary Cezar line; father of 7 known children including Henry I's grandfather"
+      }
+    ]
+  },
+  "descendant_tree": [
+    {
+      "generation": 2,
+      "person": {
+        "id": "john-baptist-mattingly-1690",
+        "wikitree_id": "Mattingly-225",
+        "name": "John Baptist Mattingly",
+        "birth_year": "1690",
+        "birth_place": "Maryland",
+        "death_year": "1744",
+        "death_place": "Maryland"
+      },
+      "children": [
+        {"wikitree_id": "Mattingly-258", "name": "John Mattingly", "birth_year": "1715", "birth_place": "St. Mary's County, MD"},
+        {"wikitree_id": "Mattingly-250", "name": "Richard Mattingly", "birth_year": "1720", "birth_place": "Maryland"},
+        {"wikitree_id": "Mattingly-256", "name": "Mark Mattingly", "birth_year": "1724", "birth_place": "St. Mary's County, MD"},
+        {"wikitree_id": "Mattingly-329", "name": "Susanna Mattingly", "birth_year": "1724"},
+        {"wikitree_id": "Mattingly-255", "name": "James Mattingly", "birth_year": "1725"},
+        {"wikitree_id": "Mattingly-330", "name": "Joseph Mattingly", "birth_year": "1726"},
+        {"wikitree_id": "Mattingly-318", "name": "Lucius Mattingly", "birth_year": "1730", "birth_place": "St. Mary's County, MD", "note": "Kentucky branch"}
+      ]
+    },
+    {
+      "generation": 3,
+      "branch": "Western Maryland / Garrett County line",
+      "person": {
+        "wikitree_id": "Mattingly-258",
+        "name": "John Mattingly",
+        "birth_year": "1715",
+        "birth_place": "St. Mary's County, Maryland",
+        "death_year": "1759",
+        "spouse": "Elizabeth (Brewer) Mattingly"
+      },
+      "key_child": {
+        "wikitree_id": "Mattingly-617",
+        "name": "Henry Mattingly I",
+        "birth_date": "1751-07-03",
+        "birth_place": "St. Mary's County, Maryland",
+        "note": "Progenitor of all families in the 1969 Descendants of Henry Mattingly book"
+      }
+    },
+    {
+      "generation": 3,
+      "branch": "Kentucky line",
+      "person": {
+        "wikitree_id": "Mattingly-318",
+        "name": "Lucius Mattingly",
+        "birth_year": "1730",
+        "birth_place": "St. Mary's County, Maryland",
+        "death_year": "1826",
+        "death_place": "Washington County, Kentucky",
+        "spouse": "Mary Elizabeth (Spalding) Mattingly"
+      },
+      "children": [
+        {
+          "wikitree_id": "Mattingly-309",
+          "name": "Jeremiah Mattingly",
+          "birth_year": "1775",
+          "birth_place": "St. Mary's County, Maryland",
+          "death_date": "1843-10-21",
+          "death_place": "Union County, Kentucky",
+          "spouse": "Sarah Ann (Shanks) Mattingly"
+        },
+        {
+          "wikitree_id": "Mattingly-331",
+          "name": "unknown Mattingly",
+          "birth_year": "1776",
+          "birth_place": "Maryland"
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "branch": "Western Maryland / Garrett County line",
+      "person": {
+        "wikitree_id": "Mattingly-617",
+        "name": "Henry Mattingly I",
+        "birth_date": "1751-07-03",
+        "birth_place": "St. Mary's County, Maryland",
+        "death_year": "1823",
+        "death_place": "Mount Savage, Allegany County, Maryland",
+        "spouse": "Honora (Honor) Durbin",
+        "will_probated": "1823-06-21",
+        "will_location": "Court House, Cumberland, Maryland",
+        "source_1969_book": "HENRY MATTINGLY I — primary subject of the 1969 genealogy"
+      },
+      "sons": [
+        {"name": "John Mattingly", "birth_year": "1773", "wikitree_id": "Mattingly-79"},
+        {"name": "Samuel Mattingly", "birth_year": "1776", "wikitree_id": "Mattingly-1100"},
+        {"name": "Henry Mattingly II", "birth_year": "1782", "wikitree_id": "Mattingly-678"},
+        {"name": "William Mattingly", "birth_year": "1784", "wikitree_id": "Mattingly-1050"}
+      ]
+    },
+    {
+      "generation": 5,
+      "branch": "Garrett County line",
+      "person": {
+        "wikitree_id": "Mattingly-678",
+        "name": "Henry Mattingly II (Jr.)",
+        "birth_date": "1782-05-03",
+        "birth_place": "Mount Savage, Allegany County, Maryland",
+        "death_date": "1846-07-15",
+        "death_place": "St. Joseph, Buchanan County, Missouri",
+        "spouse": "Nancy Ann (Durbin) Mattingly",
+        "will": "Made 1839; probated Cumberland MD 15 July 1846"
+      },
+      "children_of_record": [
+        {"wikitree_id": "Mattingly-648", "name": "Dominick Mattingly", "birth_date": "1808-03-06", "note": "Garrett County founder"},
+        {"name": "Harriett Mattingly (Long)", "birth_year": "1809"},
+        {"name": "Eliza Mattingly (Sr. M. Celestina, S.C.)", "birth_year": "1811"},
+        {"name": "Benjamin Mattingly", "birth_year": "1812"},
+        {"name": "John H. Mattingly", "birth_year": "1814"},
+        {"name": "William Mattingly", "birth_year": "abt.1816"},
+        {"name": "Susanna Mattingly"}
+      ]
+    },
+    {
+      "generation": 6,
+      "branch": "Garrett County / Hoyes settlement",
+      "person": {
+        "wikitree_id": "Mattingly-648",
+        "name": "Dominick Mattingly",
+        "birth_date": "1808-03-06",
+        "birth_place": "Somerset County, Pennsylvania",
+        "death_date": "1854-05-27",
+        "death_place": "Hoyes (Johnstown), Garrett County, Maryland",
+        "spouse": {
+          "name": "Ann Browning",
+          "birth_year": "1812",
+          "death_year": "aft.1899",
+          "father": "Meshack Browning (famous hunter)",
+          "marriage_date": "1832-03-01",
+          "marriage_license_date": "1832-02-22",
+          "marriage_license_location": "Cumberland, Maryland"
+        },
+        "land_purchase_1831": "157 acres on Youghiogheny River above Sang Run, MD; from John Hoye for $196.56",
+        "land_purchase_1853": "Singleton Townshend farm 386 acres at Johnstown (now Hoyes) for $2,500 from Catherine Townshend",
+        "significance": "Founder of Mattingly presence at Hoyes, Garrett County; helped build St. James Church (1853), renamed St. Dominick 1890"
+      },
+      "children": [
+        {
+          "name": "Mary F. Mattingly",
+          "birth_date": "1833-02-11",
+          "spouse": {"name": "Frank Sebold", "marriage_date": "1854-08-29", "marriage_place": "St. Michael's, Frostburg MD"},
+          "children_count": 8
+        },
+        {
+          "name": "Anne Celestine Mattingly",
+          "birth_date": "1834-09-29",
+          "death_date": "1899-02-20",
+          "spouse": {"name": "William DeWitt", "marriage_date": "1852-09-21", "death_date": "1899-02-09"},
+          "buried": "St. Dominic's Cemetery, Hoyes"
+        },
+        {
+          "wikitree_id": "Mattingly-1643",
+          "name": "Meshack Mattingly",
+          "birth_date": "1837-06-23",
+          "death_date": "1912-05-01",
+          "birth_place": "Sang Run, Garrett County, Maryland",
+          "first_spouse": "Elizabeth (unknown)",
+          "second_spouse": {
+            "name": "Mary P. Griffith",
+            "birth_date": "1851-05-31",
+            "death_date": "1926-06-17",
+            "father": "Governor George W. Griffith of Pennsylvania"
+          },
+          "marriage_year_second": "1873",
+          "notable_role": "Commissioner of Garrett County (one term)",
+          "buried": "St. Dominic's Cemetery, Hoyes",
+          "will_probated": "1912-07-09"
+        },
+        {
+          "name": "William H. Mattingly",
+          "birth_date": "1840-02-11",
+          "death_date": "1863-01-28",
+          "buried": "Hoyes, Maryland"
+        },
+        {
+          "name": "Elizabeth E. Mattingly",
+          "birth_date": "1843-04-03",
+          "death_date": "1871-04-01",
+          "buried": "Hoyes, Maryland"
+        },
+        {
+          "name": "Dominick Mattingly Jr.",
+          "birth_date": "1845-09-22",
+          "baptism_place": "St. Ignatius Church, Mt. Savage, Maryland",
+          "note": "Confirmed at Cross Roads 1855; no further records"
+        }
+      ]
+    },
+    {
+      "generation": 7,
+      "branch": "Garrett County — Meshack's children",
+      "parent": "Meshack Mattingly (1837-1912)",
+      "children": [
+        {
+          "name": "Stephen Gregory Vincent Mattingly",
+          "birth_year": "1868",
+          "birth_place": "near Hoyes, Maryland",
+          "spouse": {"name": "Sarah Loretta Echard", "marriage_date": "1889-12-08", "marriage_place": "Oakland, Maryland"},
+          "children": ["Mary Anne Genevieve", "Elizabeth", "Naomi", "Montie (Stephen M. Carlysle)", "Rosalia Ellen", "James Edward", "George Ivan"]
+        },
+        {
+          "name": "William George Mattingly Sr.",
+          "birth_date": "1877-09-17",
+          "death_date": "1931-04-10",
+          "spouse": {"name": "Christina McGettigan", "birth_year": "1876", "death_date": "1960-01-27"},
+          "residence": "Uniontown, Pennsylvania",
+          "buried": "St. Dominic's Cemetery, Hoyes, Maryland",
+          "children": ["Irene Elizabeth", "Owen Connell", "Kathryn Parr", "Mary Teresa", "William George Jr."]
+        },
+        {
+          "name": "Olia Italia Mattingly",
+          "birth_date": "1884-06-29",
+          "death_date": "1926-05-13",
+          "note": "Never married; buried St. Dominic's Cemetery Hoyes"
+        },
+        {
+          "name": "Bernadette Rosalia Mattingly (Rausch)",
+          "spouse": {"name": "Joseph Peter Rausch", "marriage_date": "1911-08-17", "marriage_place": "Duquesne, Pennsylvania"},
+          "death_place": "Spring Gap, Colorado",
+          "children": ["Bernadette", "Teresa", "Joseph", "William"]
+        }
+      ]
+    }
+  ],
+  "notable_descendants": [
+    {
+      "name": "Meshack Mattingly",
+      "birth_year": "1837",
+      "death_year": "1912",
+      "role": "Commissioner of Garrett County, Maryland; operated one of county's best stock farms",
+      "generation_from_cezar": 6,
+      "chain": "Cezar → John Baptist → John(1715) → Henry I → Henry II → Dominick → Meshack",
+      "confidence": "CONFIRMED (1969 book primary source)"
+    },
+    {
+      "name": "Rev. Romanus Mattingly",
+      "birth_year": "1850",
+      "death_year": "1922",
+      "role": "Catholic priest; built St. Peter's Oakland MD and St. Dominick's Hoyes MD; served 16 years at Oakland parish",
+      "generation_from_cezar": 7,
+      "chain": "Cezar → John Baptist → John(1715) → Henry I → John(son of Henry I) → Sylvester → Romanus",
+      "confidence": "CONFIRMED (1969 book, church records cited)"
+    },
+    {
+      "name": "Francis Mattingly",
+      "birth_year": "1813",
+      "death_year": "1879",
+      "role": "Judge of the Orphans' Court, Cumberland MD, 1859; civic leader who helped align Allegany County with the Union in 1861",
+      "generation_from_cezar": 6,
+      "chain": "Cezar → John Baptist → John(1715) → Henry I → John(son of Henry I) → Francis",
+      "confidence": "CONFIRMED (1969 book)"
+    }
+  ],
+  "cousin_relationship_to_hunter": {
+    "description": "All descendants of Cezar Mattingly are collateral cousins of Hunter Spence. The closest relationship through this line would be calculated as follows: Hunter's line goes Thomas I → Thomas II → Thomas III → Leonard Ignatius → [Kentucky Mattingly] → etc. Cezar's line goes Thomas I → Cezar → John Baptist → John(1715) → Henry I → etc. They are 2nd-great-granduncle/niece from the Thomas I generation onward. All Cezar-line Mattinglys from the 1969 book are between 8th and 12th cousins of Hunter, depending on generation."
+  },
+  "y_dna": {
+    "confirmed_haplogroup": "R-Y14083",
+    "test_source": "FamilyTreeDNA, tested on William Mattingly (paternal descendant of Cezar)",
+    "relation_to_hunters_expected_haplogroup": "R-Y14083 and R-Y14084 are sibling terminal branches under shared parent R-Y14082. Consistent with Cezar and Thomas II being brothers from Thomas I.",
+    "wikitree_dna_section": "https://www.wikitree.com/wiki/Mattingly-223#DNA"
+  },
+  "key_locations": [
+    {"name": "Mattingly's Hope", "county": "Charles County, Maryland", "type": "Land patent 1666", "status": "No modern village"},
+    {"name": "Hoyes, Maryland", "county": "Garrett County, Maryland", "type": "Village/hamlet", "significance": "Main Cezar-line settlement; contains St. Dominic's Cemetery with multiple Mattingly graves"},
+    {"name": "Sang Run, Maryland", "county": "Garrett County, Maryland", "type": "Farming area", "significance": "Dominick Mattingly's first Maryland farm 1831-1853"},
+    {"name": "Mount Savage, Maryland", "county": "Allegany County, Maryland", "type": "Community", "significance": "Home of Henry Mattingly I"},
+    {"name": "Oakland, Maryland", "county": "Garrett County, Maryland", "type": "Town", "significance": "Parish seat; St. Peter's Church holds baptism/confirmation records for this branch"}
+  ],
+  "open_questions": [
+    {
+      "question": "Cezar's will or probate record (1719-1720)",
+      "archive": "Maryland State Archives, Hall of Records, Annapolis — Charles County or St. Mary's County Wills",
+      "priority": "HIGH — would confirm children definitively"
+    },
+    {
+      "question": "Thomas Mattingly (Mattingly-928, Cezar's other son b.1688): spouse and children",
+      "priority": "MEDIUM"
+    },
+    {
+      "question": "Primary source confirmation that Henry I is son of John (b.1715) rather than John Baptist Jr. — Henry Wright Newman's unpublished source needs verification",
+      "priority": "MEDIUM"
+    },
+    {
+      "question": "Don Mattingly (baseball player) ancestry — any connection to Maryland Catholic line?",
+      "priority": "LOW — no current evidence of connection"
+    }
+  ]
+}

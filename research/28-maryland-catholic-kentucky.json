@@ -1,0 +1,418 @@
+{
+  "metadata": {
+    "compiled": "2026-04-25",
+    "scope": "Maryland Catholic families in Kentucky 1785-1900, focusing on Mattingly family",
+    "primary_sources": [
+      {
+        "author": "Webb, Benedict Joseph",
+        "title": "The Centenary of Catholicity in Kentucky",
+        "year": 1884,
+        "publisher": "Charles A. Rogers, Louisville",
+        "internet_archive_id": "TheCentenaryOfCatholicityKY",
+        "format_accessed": "DjVuTXT",
+        "confidence": "primary"
+      },
+      {
+        "author": "Spalding, M.J. (Martin John)",
+        "title": "Sketches of the Early Catholic Missions of Kentucky",
+        "year": 1844,
+        "publisher": "B.J. Webb, Louisville",
+        "internet_archive_id": "sketchesofearlyc00spal_0",
+        "format_accessed": "DjVuTXT",
+        "confidence": "primary"
+      }
+    ]
+  },
+  "migration_event": {
+    "year_league_formed": 1785,
+    "origin": "St. Mary's County, Maryland (also Charles County, Prince George's County)",
+    "total_families_in_league": 60,
+    "first_wave_size": 25,
+    "first_wave_year": 1785,
+    "first_wave_season": "spring",
+    "route": "Overland to Pittsburgh, then flatboats down Ohio River to Maysville (Limestone), KY, then inland to Goodwin's Station, Boston, Nelson County",
+    "destination": "Pottinger's Creek, Washington County, KY (10-15 miles from Bardstown)",
+    "source_quote": "In the year 1785, a league of sixty families was formed in Maryland — all Catholics, and mostly residents of St. Mary's county — each one of whom was pledged to emigrate to Kentucky within a specified time. Of the sixty families subscribing to the compact, twenty-five left Maryland early in 1785, and reached Kentucky before the end of spring of the same year.",
+    "source": "Webb 1884, pp. 28-29",
+    "subsequent_waves": [
+      {"year": 1786, "leader": "Captain James Rapier", "notes": "Larger than 1785 wave"},
+      {"year": 1787, "leader": "Philip Miles and Thomas Hill"},
+      {"year": 1788, "leader": "Robert Abell"},
+      {"year": 1790, "leader": "Benedict Spalding (St. Mary's County MD)"},
+      {"year": 1791, "leader": "Leonard Hamilton"}
+    ]
+  },
+  "pottingers_creek_families_1785_to_1800": {
+    "notes": "Webb states these names are 'reasonably certain' for Pottinger's Creek up to 1800; the first names are 'thought to be, in part, those of the twenty-five families of the Maryland league'",
+    "families": [
+      "Hayden (Basil) - leader",
+      "Lee (Philip)",
+      "Bald (William)",
+      "Cissell (Bernard)",
+      "Payne (Charles)",
+      "Brewer (William)",
+      "Johnson (Leonard)",
+      "McAtee (Henry)",
+      "Clark (Joseph)",
+      "Elliott (Stephen)",
+      "Mollihorne (James)",
+      "Norris (Henry)",
+      "Cissell (Ignatius)",
+      "Byrne (Ignatius)",
+      "Hagan (Randal)",
+      "Hagan (Ignatius)",
+      "Brown (Jeremiah)",
+      "Cissell (Robert)",
+      "Bowles (Ignatius)",
+      "Luckett (Hezekiah)",
+      "Melton (Stanislaus)",
+      "Bowlin (Thomas)",
+      "Dant (John Baptist)",
+      "Miles (Philip)",
+      "Hill (Harry)",
+      "Hutchins (John)",
+      "Thawles (Isaac)",
+      "Spalding (John)",
+      "Mahony (William)",
+      "Lucas (Henry)",
+      "Bowles (William)",
+      "Bowles (John)",
+      "Queen (James)",
+      "Nally (Bernard)",
+      "Stevens (James)",
+      "French (Ignatius)",
+      "Boone (Washington)",
+      "Bryan (Francis)",
+      "Wathen (Jeremiah)",
+      "Mudd (Thomas)",
+      "Mudd (Raphael R.)",
+      "Burch (Walter)",
+      "Mattingly (Philip)",
+      "Spalding (Joseph)",
+      "Dant (James)",
+      "Dant (Joseph)",
+      "Speaks (Urban)",
+      "Edelin (Joseph)",
+      "Howe (Joseph)",
+      "Mills (Joseph)",
+      "Miles (Harry)",
+      "Hagan (Monica)",
+      "Norris (Rodolphus)",
+      "Peak (Francis)"
+    ]
+  },
+  "mattingly_individuals_documented": [
+    {
+      "name": "Philip Mattingly",
+      "county": "Washington County, KY",
+      "arrival_wave": "1785 (PROBABLE)",
+      "settlement": "Pottinger's Creek",
+      "notes": "Listed in Webb's Pottinger's Creek family roster; separately identified as Washington County Mattingly branch",
+      "confidence": "PROBABLE",
+      "source": "Webb 1884, pp. 29-30, 47fn"
+    },
+    {
+      "name": "William Mattingly",
+      "born": "Maryland (St. Mary's County)",
+      "arrival": "early 1786",
+      "county": "Marion County (Hardin's Creek), KY",
+      "settlement": "Hardin's Creek",
+      "notes": "First of three brothers to arrive. First wife: Miss Spalding (MD); 3 sons James, Edward, Richard. Second wife: Elizabeth Clark; 10 children: William, Mary, Benjamin, Felix, Ignatius, Julia, George, Susan, Catherine, John",
+      "children_second_wife": [
+        {"name": "William Mattingly (son)", "notes": ""},
+        {"name": "Mary Mattingly", "notes": ""},
+        {"name": "Benjamin Mattingly", "notes": ""},
+        {"name": "Felix Mattingly", "notes": "Living 1879, St. Charles congregation"},
+        {"name": "Ignatius Mattingly", "notes": "Living 1879, Bardstown resident"},
+        {"name": "Julia Mattingly", "notes": "Sister Theresa of Loretto Sisterhood"},
+        {"name": "George Mattingly", "notes": "daughter Sister Mary Charles of Loretto (deceased 1879)"},
+        {"name": "Susan Mattingly", "notes": ""},
+        {"name": "Catherine Mattingly", "notes": ""},
+        {"name": "John Mattingly", "notes": "Living 1879, St. Charles congregation; daughter in Sisterhood of St. Francis, Shelbyville KY"}
+      ],
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, pp. 46-47fn"
+    },
+    {
+      "name": "Leonard Mattingly Sr.",
+      "born": "Maryland (St. Mary's County), before ~1745 (past middle life at 1786 arrival)",
+      "died": 1827,
+      "died_location": "Marion County, KY",
+      "arrival": "early 1786",
+      "county": "Marion County (Hardin's Creek), KY",
+      "settlement": "Hardin's Creek",
+      "notes": "Patriarch of KY Mattingly family. All 10 children born in Maryland. ~300 living descendants at death in 1827",
+      "children": [
+        {"name": "Leonard Mattingly Jr.", "born_approx": "before 1786 (Maryland)", "married": "a sister of Mathew Cissell", "notes": "Eldest son; direct ancestor in Spence lineage"},
+        {"name": "Basil Mattingly", "married_first": "Monica Miles (sister of Harry Miles)", "married_second": "Polly Hagan", "notes": "Children with Polly: Mahala (married Washington Mattingly), Edward H., Nancy (married A.J. Mudd), Mary Jane (married Joseph Spalding), Henry (married Susan Jane Spalding), Burrilla M. (married J.W. Montgomery)"},
+        {"name": "John Mattingly", "married": "Polly Fenwick", "notes": "Son Benjamin F. Mattingly had distillery interests Louisville 1879"},
+        {"name": "William Mattingly", "married": "Henrietta Buckman", "notes": "Son: Dr. C.P. Mattingly of Bardstown"},
+        {"name": "Joseph Mattingly", "married": "Mary Hayden", "notes": "Mary was sister of Rev. George Hayden who died in Texas ~1840s"},
+        {"name": "Ignatius Mattingly", "married": "Miss Fowler", "notes": ""},
+        {"name": "Jane Mattingly", "married": "Charles Russell", "notes": "Progenitor of all Russells at St. Charles; grandfather of Rev. David Russell, Diocese of Louisville"},
+        {"name": "Margaret Mattingly", "notes": "Founding member of Sisterhood of Loretto (1812)"},
+        {"name": "Nancy Mattingly", "notes": "Invalid; wore Loretto habit at home"},
+        {"name": "Susan Mattingly", "married": "John Thomas", "notes": ""},
+        {"name": "Elizabeth Mattingly", "married": "John Miles", "notes": ""},
+        {"name": "Polly Mattingly", "married": "Basil Payne", "notes": ""}
+      ],
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, pp. 46-47fn, 51"
+    },
+    {
+      "name": "Lucas Mattingly",
+      "born": "Maryland (St. Mary's County)",
+      "arrival": "early 1786",
+      "county": "Washington County, KY (area of Manton/Holy Rosary)",
+      "settlement": "Hardin's Creek area",
+      "notes": "Third brother; Webb states he learned 'absolutely nothing' about Lucas beyond that descendant John G. Mattingly lived near Manton, Washington County",
+      "known_descendants": [
+        {"name": "John G. Mattingly", "location": "Manton, Washington County, KY", "parish": "Holy Rosary Church", "notes": "Living 'a few years ago' before 1884"}
+      ],
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 47"
+    },
+    {
+      "name": "Richard Mattingly",
+      "born_year": 1756,
+      "born_location": "Maryland",
+      "arrived_KY": 1791,
+      "county": "Breckinridge County, KY (Long Lick)",
+      "notes": "Separate branch from the three Hardin's Creek brothers. Not part of the 1785 cohort. House served as church station until ~1818.",
+      "children": [
+        {"name": "John Mattingly", "notes": "First marriage certified by Catholic clergy in Breckinridge County records; married Sarah Wheatley, Feb 18, 1805 by Father Badin"},
+        {"name": "Margaret Mattingly", "married": "Elias Rhodes, June 1, 1807 (by Father Badin)", "notes": ""},
+        {"name": "Zachariah Mattingly", "notes": "First resident Catholic of Hardinsburg; likely donated land for St. Romuald church"},
+        {"name": "Edward Mattingly", "notes": ""},
+        {"name": "William Mattingly", "notes": ""},
+        {"name": "Thomas Mattingly", "notes": ""},
+        {"name": "Mary Mattingly", "notes": ""},
+        {"name": "Elizabeth Mattingly", "notes": ""},
+        {"name": "Sarah Mattingly", "notes": ""}
+      ],
+      "descendants_1884": "Twenty families of Richard Mattingly's posterity in lower Breckinridge County as of 1884",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, pp. 141-142"
+    },
+    {
+      "name": "Barton Mattingly",
+      "born_location": "Maryland",
+      "arrived_KY": 1795,
+      "county": "Breckinridge County (Long Lick)",
+      "notes": "Came from Maryland with Elias Rhodes in 1795; separate from both the 1785/1786 cohort and Richard Mattingly",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 142"
+    },
+    {
+      "name": "Ignatius Mattingly",
+      "county": "Nelson County (Bardstown town)",
+      "notes": "Listed as town resident of Bardstown ~1836; likely son of William Mattingly (first of three brothers) and second wife Elizabeth Clark, still living in Bardstown 1879",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 255"
+    },
+    {
+      "name": "Ignatius Mattingly (Breckinridge)",
+      "county": "Breckinridge County (Long Lick)",
+      "notes": "Assisted building first log chapel at Hardinsburg 1810; got out heavy timbers and hand-sawed planks for flooring",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 143"
+    },
+    {
+      "name": "Joseph Mattingly (Breckinridge)",
+      "county": "Breckinridge County (Long Lick)",
+      "notes": "Assisted building first log chapel at Hardinsburg 1810 alongside Ignatius Mattingly",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 143"
+    },
+    {
+      "name": "Joseph Mattingly (Washington County)",
+      "county": "Washington County, KY",
+      "notes": "Listed in founding congregation of St. Rose / St. Ann church, Washington County",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 390 area"
+    },
+    {
+      "name": "Generose Mattingly (Sister)",
+      "notes": "Mother Superior, Sisterhood of Loretto, 1842-43. Birth name not given. Daughter of Basil Mattingly and Monica Miles (child: Martha = Sister Generose per Webb footnote p.47)",
+      "parish_connection": "Loretto Motherhouse, Marion County, KY",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 240 (Loretto mothers list)"
+    },
+    {
+      "name": "Ann Joseph Mattingly (Sister)",
+      "notes": "Mother Superior, Sisterhood of Loretto, 1882",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 240"
+    },
+    {
+      "name": "Margaret Mattingly (Sister, founding Loretto)",
+      "notes": "Daughter of Leonard Mattingly Sr. One of the founding band of Christian maidens from which grew the Sisterhood of Loretto (1812). Described by Webb as 'of the band of Christian maidens out of which grew the now well-known Sisterhood of Loretto'",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, pp. 47fn, 51"
+    },
+    {
+      "name": "Edward H. Mattingly",
+      "parents": "Basil Mattingly and Polly (Hagan) Mattingly",
+      "county": "Marion County, KY",
+      "notes": "'An intelligent and highly respected farmer, still living in the neighborhood of his mother's former residence' as of Webb's writing (~1884). Married Alethair, daughter of Thomas Spalding (uncle of Archbishop Spalding of Baltimore). Source of the Father Badin anecdote about visiting the Hagan homestead.",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, pp. 51-52fn"
+    },
+    {
+      "name": "John G. Mattingly",
+      "parents": "Benjamin F. Mattingly and Susan Mary Graves (grandson of Leonard Sr. via John)",
+      "notes": "Living 1879 near St. Charles Church; large distillery interests in Louisville",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 47fn"
+    },
+    {
+      "name": "Benjamin F. Mattingly Jr.",
+      "parents": "Benjamin F. Mattingly and Susan Mary Graves (grandson of Leonard Sr. via John)",
+      "notes": "Living 1879 near St. Charles Church; large distillery interests in Louisville. Consistent with founding of Mattingly & Moore Distillery in Bardstown 1877.",
+      "distillery_connection": "PROBABLE — consistent with Webb 1884 description of distillery interests; 1877 founding date and B.F. Mattingly founder name match; confirmation from primary corporate record not found in this research session",
+      "confidence": "CONFIRMED for distillery interests; PROBABLE for Mattingly & Moore 1877 specifically",
+      "source": "Webb 1884, p. 47fn"
+    },
+    {
+      "name": "Austin Mattingly",
+      "parents": "Basil Mattingly and Monica Miles",
+      "destination": "Mississippi",
+      "notes": "Only confirmed out-of-state migrant among the children of Leonard Sr.'s sons",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 47fn"
+    },
+    {
+      "name": "George Mattingly",
+      "parents": "Basil Mattingly and Monica Miles",
+      "destination": "Daviess County, Kentucky",
+      "notes": "Moved within KY but away from Marion County",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 47fn"
+    },
+    {
+      "name": "John J. Mattingly (married into)",
+      "county": "Florissant, Missouri",
+      "notes": "Married Mary (daughter of Clement Hill). Living at Florissant, Missouri 1879 with large family. This is a Mattingly marrying into the Hill family, not a descendant of Leonard Sr.'s direct line.",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 329 area"
+    },
+    {
+      "name": "Washington Mattingly",
+      "notes": "Married Mahala Mattingly (daughter of Basil and Polly). A Mattingly marrying a Mattingly within the community.",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 52fn"
+    },
+    {
+      "name": "Dr. C.P. Mattingly",
+      "county": "Bardstown, Nelson County, KY",
+      "parents": "William Mattingly (son of Leonard Sr.) and Henrietta Buckman",
+      "notes": "Physician in Bardstown as of 1884",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 47fn"
+    },
+    {
+      "name": "Dr. Ernest Mattingly",
+      "county": "Lebanon, KY (Marion County)",
+      "parents": "grandson of Basil and Polly (Hagan) Mattingly",
+      "notes": "Well-known physician of Lebanon, Kentucky as of ~1884",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 52fn"
+    },
+    {
+      "name": "Leonard Mattingly Jr.",
+      "born_year_approx": "before 1786 (Maryland)",
+      "died": 1843,
+      "died_location": "Marion County, KY",
+      "parents": "Leonard Mattingly Sr. (patriarch)",
+      "married": "a sister of Mathew Cissell",
+      "notes": "Webb cites 'a great-grandson of Leonard Mattingly' as informant for family details, and confirms Leonard Jr. married a Cissell. This is the direct ancestor in the Spence family tree. Per prior research (WikiTree-210), his confirmed birth year is 1764 (Maryland) and he had four confirmed Kentucky-born children.",
+      "confidence": "CONFIRMED",
+      "source": "Webb 1884, p. 46fn; prior research docs 01, 10"
+    }
+  ],
+  "parishes": [
+    {
+      "name": "Holy Cross",
+      "location": "Pottinger's Creek, Washington County, KY",
+      "founded": 1792,
+      "notes": "First Catholic church built in Kentucky. Ground deeded by Basil Hayden May 1, 1798 to trustees Bald, Cissell, Payne, Brewer.",
+      "mattingly_connection": "Philip Mattingly in founding cohort (PROBABLE)"
+    },
+    {
+      "name": "St. Charles",
+      "location": "Hardin's Creek, Marion County, KY",
+      "founded": 1806,
+      "builder": "Father Charles Nerinckx",
+      "notes": "Hundreds of Mattingly family descendants in this congregation by 1884 (Webb). The Mattingly heartland.",
+      "mattingly_connection": "William, Leonard, Lucas Mattingly founding families (CONFIRMED)"
+    },
+    {
+      "name": "Holy Rosary",
+      "location": "Manton, Washington County, KY",
+      "mattingly_connection": "John G. Mattingly (Lucas Mattingly branch, CONFIRMED)"
+    },
+    {
+      "name": "St. Romuald",
+      "location": "Hardinsburg, Breckinridge County, KY",
+      "founded": "Log chapel 1810-1816; present church 1841",
+      "mattingly_connection": "Richard Mattingly family; Zachariah Mattingly donated land; Ignatius and Joseph Mattingly built timbers (CONFIRMED)"
+    },
+    {
+      "name": "St. Joseph",
+      "location": "Bardstown, Nelson County, KY",
+      "notes": "Cathedral (first cathedral west of the Alleghenies) dedicated 1816. Ignatius Mattingly resident of Bardstown.",
+      "mattingly_connection": "Ignatius Mattingly; Ann Joseph Mattingly (Mother Superior Loretto 1882) (CONFIRMED)"
+    },
+    {
+      "name": "St. Rose / St. Ann",
+      "location": "Washington County, KY",
+      "mattingly_connection": "Joseph Mattingly in founding congregation (CONFIRMED)"
+    }
+  ],
+  "notable_descendants_and_connections": [
+    {
+      "name": "Sister Margaret Mattingly / founding Loretto",
+      "significance": "Daughter of Leonard Sr.; one of the founding band of the Sisters of Loretto (1812), the first religious order of women founded west of the Alleghenies"
+    },
+    {
+      "name": "Sister Generose Mattingly (Martha)",
+      "significance": "Daughter of Basil and Monica Miles Mattingly; Mother Superior of Loretto 1842-43"
+    },
+    {
+      "name": "Sister Ann Joseph Mattingly",
+      "significance": "Mother Superior of Loretto 1882"
+    },
+    {
+      "name": "B.F. Mattingly Jr.",
+      "significance": "Founded (PROBABLE) Mattingly & Moore Distillery, Bardstown, 1877; distillery interests in Louisville 1879 per Webb"
+    },
+    {
+      "name": "Dr. Ernest Mattingly",
+      "significance": "Prominent physician, Lebanon, KY; grandson of Basil and Polly Hagan Mattingly"
+    },
+    {
+      "name": "Dr. C.P. Mattingly",
+      "significance": "Physician in Bardstown; son of William (Leonard Sr.'s son) and Henrietta Buckman"
+    },
+    {
+      "name": "Rev. David Russell",
+      "significance": "Priest of Diocese of Louisville; great-grandson of Leonard Mattingly Sr. via daughter Jane and her husband Charles Russell"
+    }
+  ],
+  "corrections_to_task_brief": [
+    {
+      "claim_in_brief": "1785 Catholic migration (25 families)",
+      "finding": "The 1785 migration was indeed approximately 25 families (Webb says 'twenty-five left Maryland early in 1785'). Confirmed.",
+      "note": "The Mattingly brothers specifically arrived 'early in 1786' in Hardin's Creek, not with the 1785 Pottinger's Creek cohort, though they were part of the broader 60-family league"
+    },
+    {
+      "claim_in_brief": "Leonard Mattingly Jr (1764-1843) was part of the 1785 cohort",
+      "finding": "Leonard Jr. came with his father Leonard Sr. who arrived 'early in 1786' in Hardin's Creek. Leonard Jr. was born 1764 in Maryland, so he was ~22 when the family arrived in 1786. He was NOT in the 1785 Pottinger's Creek cohort.",
+      "note": "He is part of the broader 1785 league/migration, but his personal arrival year is 1786"
+    },
+    {
+      "claim_in_brief": "Holy Land of Kentucky",
+      "finding": "Neither Webb (1884) nor Spalding (1844) use this phrase. It is a modern popular designation for the Marion/Washington/Nelson County Catholic settlement area."
+    }
+  ]
+}

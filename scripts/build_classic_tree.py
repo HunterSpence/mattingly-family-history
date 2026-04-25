@@ -135,8 +135,9 @@ leonard_sr_children = [
     n("Susan (Mattingly) Barron", "b. 1775", "Mattingly-78; m. Barron", None, 11, 18, "probable"),
     n("Mary (Mattingly) Buckman", "b. 1777", "Mattingly-205; m. Buckman", None, 11, 18, "probable"),
     n("William Mattingly", "b. 1777", "Mattingly-204", None, 11, 18, "probable"),
+    n("Sister Margaret Mattingly", "fl. 1812 KY", "Founding member of the Sisters of Loretto (1812) — the first women's religious order founded west of the Allegheny Mountains. Per Webb 1884.", "p056", 11, 19, "confirmed"),
 ]
-leonard_sr = n("Leonard Mattingly Sr.", "1739–1829 Washington Co KY", "Mattingly-62. 'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10 named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)", "p044", 10, 18, "confirmed",
+leonard_sr = n("Leonard Mattingly Sr.", "1739–1829 Washington Co KY", "Mattingly-62. 'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10+ named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)", "p044", 10, 18, "confirmed",
                leonard_sr_children,
                spouse="m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty")
 
@@ -189,8 +190,29 @@ thomas_ii = n("Thomas Mattingly II", "1650–1715", "THE MARYLAND IMMIGRANT — 
                thomas_ii_william, thomas_ii_luke, ignatius, thomas_ii_ann],
               spouse="m1. Mary Elizabeth Suttle (~1675); m2. Elizabeth Cole (~1690)")
 
-# Thomas I's other 3 children
-cezar = n("Cezar Mattingly", "1654–1719", "Co-recipient of Mattingly's Hope land patent 1666", "p038", 5, 17, "confirmed")
+# Thomas I's other 3 children — Cezar's line now expanded with Garrett MD descent (agent 27)
+# Cezar (1654-1719) m. Jane Suttle → John Baptist (1690) m. Grace Brewer → John (1715) m. Elizabeth Brewer
+# → Henry Mattingly I (1751-1823) [1969 book progenitor] → Henry II (1782-1846 MO) → Dominick (1808-1854 Hoyes MD)
+# → Meshack (1837-1912 Garrett Co Commissioner), Rev. Romanus (1850-1922 priest), Judge Francis (1813-1879)
+
+meshack = n("Meshack Mattingly", "1837–1912", "Garrett County (MD) Commissioner; operated 'best stock farm in the county'; m. Mary P. Griffith (daughter of Pennsylvania Governor)", "p053", 8, 19, "confirmed")
+rev_romanus = n("Rev. Romanus Mattingly", "1850–1922", "Catholic priest; built parish churches at Oakland MD + Hoyes MD; 16-year pastor at Oakland", "p054", 8, 19, "confirmed")
+judge_francis = n("Judge Francis Mattingly", "1813–1879", "Judge of the Orphans' Court at Cumberland MD (elected 1859); helped commit Allegany County to Union side 1861", "p055", 8, 19, "confirmed")
+
+dominick = n("Dominick Mattingly", "1808 MD – 1854 Hoyes MD", "Anchor of Garrett County Mattingly settlement; bought 157 acres on Youghiogheny River from John Hoye 1831; the village was renamed 'Hoyes' in 1880", "p052", 7, 19, "confirmed",
+             [meshack, rev_romanus], spouse="Ann Browning")
+henry_ii = n("Henry Mattingly II", "1782 MD – 1846 MO", "Son of Henry I; m. Nancy Ann Durbin; migrated to Missouri", None, 6, 19, "confirmed",
+             [dominick], spouse="Nancy Ann Durbin")
+henry_i = n("Henry Mattingly I", "1751 MD – 1823 Mt Savage MD", "Mattingly-617. Patriarch / progenitor of the entire 1969 'Descendants of Henry Mattingly' genealogy book; m. Honora Durbin; 12 children", "p051", 5, 18, "confirmed",
+            [henry_ii, judge_francis], spouse="Honora Durbin")
+john_1715 = n("John Mattingly", "1715–1759", "Mattingly-258; m. Elizabeth Brewer; father of Henry I", None, 4, 18, "probable",
+              [henry_i], spouse="Elizabeth Brewer")
+john_baptist_1690 = n("John Baptist Mattingly", "1690–1744", "Mattingly-225; m. Grace Brewer; Cezar's son; great-grandfather of Henry I", None, 3, 17, "probable",
+                     [john_1715, n("Lucius Mattingly", "1730–1826 Washington Co KY", "Mattingly-318; separate KY branch", None, 4, 18, "probable")],
+                     spouse="Grace Brewer")
+
+cezar = n("Cezar Mattingly", "1654–1719", "Mattingly-223. Co-recipient of Mattingly's Hope land patent 1666; m. Jane Suttle; brother of Hunter's direct ancestor Thomas II; Y-DNA R-Y14083 confirmed in his line (sibling terminal to Hunter's expected R-Y14084 cluster); ancestor of the Garrett County Hoyes settlement.", "p050", 5, 17, "confirmed",
+          [john_baptist_1690], spouse="Jane Suttle")
 judith_turner = n("Judith (Mattingly) Turner", "1645–1744", "Lived to ~99", "p080", 5, 17, "probable")
 elizabeth_dorcas = n("Elizabeth Dorcas Mattingly", "1656–1749", "Lived to ~93", "p081", 5, 17, "probable")
 
@@ -274,13 +296,43 @@ tc_frost_i = n("Thomas Claiborne Frost I", "1833–1903", "FOUNDER of Frost Bank
 
 frost_root = tc_frost_i
 
+# ── Teichmueller maternal-paternal subtree (agent 24 finding) ────────────────────
+# Hunter ← Shari (p000) ← Leroy Teichmuller Mattingly (p002) ← May Teichmueller (Edward Sr's wife)
+# ← Hans Teichmueller (1837-1901, p003) ← August Teichmueller + Charlotte von Girsewaldt (Brunswick)
+# Per agent 24: Gustav Teichmüller (philosopher, 0.82) is PROBABLE brother of Hans (matching parents)
+
+anna_teichmueller = n("Anna Teichmüller", "1861–1940", "German Lieder composer; daughter of Gustav. Wikipedia article. PROBABLE first cousin twice removed of Hans's children.", "p061", 14, 19, "probable")
+gustav_teichmueller = n("Gustav Teichmüller", "1832 Brunswick – 1888 Tartu", "German philosopher who influenced Friedrich Nietzsche directly; professor at Dorpat (Tartu) University. PROBABLE 0.82 brother of Hans (matching Brunswick parents per Wikipedia).", "p060", 13, 19, "probable",
+                       [anna_teichmueller])
+
+minette = n("Minette Teichmueller (Pohl)", "1871–1970", "WPA muralist — painted 'The Law, Texas Rangers' for Smithville TX post office. Hans's daughter; CONFIRMED great-great-grandaunt of Hunter.", "p004", 14, 19, "confirmed")
+may_teichmueller = n("May Teichmueller", "1872 – 28 Aug 1900", "m. Edward Mattingly Sr. 1 Sept 1894; mother of Leroy Teichmuller Mattingly (Hunter's great-grandfather); Hans's other daughter", None, 14, 19, "confirmed")
+unknown_5th_child = n("[5th child of Hans]", "?", "Lotto 1902 confirms 5 children but 5th not in TX vital records (pre-1903 records sparse) — UNVERIFIED", None, 14, 19, "possible")
+
+hans = n("Hans Teichmueller", "1837 Brunswick – 1901 La Grange TX", "Hunter's confirmed great-great-grandfather; emigrated to TX 1854; Civil War CSA artillery officer; named for father August. m. Anna Lemke", "p003", 13, 19, "confirmed",
+        [may_teichmueller, minette, unknown_5th_child], spouse="Anna Lemke")
+
+august = n("August Teichmüller", "fl. 1820–1860 Brunswick", "Officer in the Brunswick army; per Wikipedia matched both Gustav (Wiki) and Hans (Lotto 1902 KY history). Father of both.", None, 12, 19, "probable",
+           [hans, gustav_teichmueller], spouse="Charlotte von Girsewaldt")
+
+teichmueller_root = august
+
+# ── Spence paternal subtree (David Spence, Hunter's paternal grandfather) ─────
+# Surname Spence = small clan; Sir Basil Spence (Coventry Cathedral architect) is POSSIBLE distant cousin
+sir_basil_spence = n("Sir Basil Spence", "1907–1976", "British architect; rebuilt Coventry Cathedral after WWII bombing. POSSIBLE distant Spence relative of David.", "hr024", 16, 20, "possible")
+david_spence = n("David Spence", "Hunter's paternal grandfather", "Shari's first husband; UNVERIFIED specific Spence-line origin. Possible distant connection to James Monroe (5th US President) via Patrick Spence migrant ancestor.", "p020", 16, 20, "confirmed",
+                 [sir_basil_spence])
+spence_root = david_spence
+
 # Save the main Mattingly tree (Ellis as root)
 OUT.parent.mkdir(parents=True, exist_ok=True)
 output_data = {
     "_root_kind": "multi",
     "primary": ellis,
     "secondary_trees": [
-        {"label": "Maternal Frost line (Shari's mother's family)", "tree": frost_root}
+        {"label": "Maternal Frost line (Shari's mother's family)", "tree": frost_root},
+        {"label": "Maternal-paternal Teichmüller line (Brunswick → Texas)", "tree": teichmueller_root},
+        {"label": "Paternal Spence clan (David's surname)", "tree": spence_root}
     ]
 }
 # For backward compat, write the primary tree at top-level

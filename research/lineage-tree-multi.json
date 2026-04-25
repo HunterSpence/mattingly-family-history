@@ -596,7 +596,7 @@
                                               {
                                                 "name": "Leonard Mattingly Sr.",
                                                 "dates": "1739–1829 Washington Co KY",
-                                                "fact": "Mattingly-62. 'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10 named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)",
+                                                "fact": "Mattingly-62. 'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10+ named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)",
                                                 "id": "p044",
                                                 "generation": 10,
                                                 "century": 18,
@@ -780,6 +780,17 @@
                                                     "confidence": "probable",
                                                     "spouse": null,
                                                     "children": []
+                                                  },
+                                                  {
+                                                    "name": "Sister Margaret Mattingly",
+                                                    "dates": "fl. 1812 KY",
+                                                    "fact": "Founding member of the Sisters of Loretto (1812) — the first women's religious order founded west of the Allegheny Mountains. Per Webb 1884.",
+                                                    "id": "p056",
+                                                    "generation": 11,
+                                                    "century": 19,
+                                                    "confidence": "confirmed",
+                                                    "spouse": null,
+                                                    "children": []
                                                   }
                                                 ]
                                               },
@@ -856,13 +867,118 @@
                                       {
                                         "name": "Cezar Mattingly",
                                         "dates": "1654–1719",
-                                        "fact": "Co-recipient of Mattingly's Hope land patent 1666",
-                                        "id": "p038",
+                                        "fact": "Mattingly-223. Co-recipient of Mattingly's Hope land patent 1666; m. Jane Suttle; brother of Hunter's direct ancestor Thomas II; Y-DNA R-Y14083 confirmed in his line (sibling terminal to Hunter's expected R-Y14084 cluster); ancestor of the Garrett County Hoyes settlement.",
+                                        "id": "p050",
                                         "generation": 5,
                                         "century": 17,
                                         "confidence": "confirmed",
-                                        "spouse": null,
-                                        "children": []
+                                        "spouse": "Jane Suttle",
+                                        "children": [
+                                          {
+                                            "name": "John Baptist Mattingly",
+                                            "dates": "1690–1744",
+                                            "fact": "Mattingly-225; m. Grace Brewer; Cezar's son; great-grandfather of Henry I",
+                                            "id": null,
+                                            "generation": 3,
+                                            "century": 17,
+                                            "confidence": "probable",
+                                            "spouse": "Grace Brewer",
+                                            "children": [
+                                              {
+                                                "name": "John Mattingly",
+                                                "dates": "1715–1759",
+                                                "fact": "Mattingly-258; m. Elizabeth Brewer; father of Henry I",
+                                                "id": null,
+                                                "generation": 4,
+                                                "century": 18,
+                                                "confidence": "probable",
+                                                "spouse": "Elizabeth Brewer",
+                                                "children": [
+                                                  {
+                                                    "name": "Henry Mattingly I",
+                                                    "dates": "1751 MD – 1823 Mt Savage MD",
+                                                    "fact": "Mattingly-617. Patriarch / progenitor of the entire 1969 'Descendants of Henry Mattingly' genealogy book; m. Honora Durbin; 12 children",
+                                                    "id": "p051",
+                                                    "generation": 5,
+                                                    "century": 18,
+                                                    "confidence": "confirmed",
+                                                    "spouse": "Honora Durbin",
+                                                    "children": [
+                                                      {
+                                                        "name": "Henry Mattingly II",
+                                                        "dates": "1782 MD – 1846 MO",
+                                                        "fact": "Son of Henry I; m. Nancy Ann Durbin; migrated to Missouri",
+                                                        "id": null,
+                                                        "generation": 6,
+                                                        "century": 19,
+                                                        "confidence": "confirmed",
+                                                        "spouse": "Nancy Ann Durbin",
+                                                        "children": [
+                                                          {
+                                                            "name": "Dominick Mattingly",
+                                                            "dates": "1808 MD – 1854 Hoyes MD",
+                                                            "fact": "Anchor of Garrett County Mattingly settlement; bought 157 acres on Youghiogheny River from John Hoye 1831; the village was renamed 'Hoyes' in 1880",
+                                                            "id": "p052",
+                                                            "generation": 7,
+                                                            "century": 19,
+                                                            "confidence": "confirmed",
+                                                            "spouse": "Ann Browning",
+                                                            "children": [
+                                                              {
+                                                                "name": "Meshack Mattingly",
+                                                                "dates": "1837–1912",
+                                                                "fact": "Garrett County (MD) Commissioner; operated 'best stock farm in the county'; m. Mary P. Griffith (daughter of Pennsylvania Governor)",
+                                                                "id": "p053",
+                                                                "generation": 8,
+                                                                "century": 19,
+                                                                "confidence": "confirmed",
+                                                                "spouse": null,
+                                                                "children": []
+                                                              },
+                                                              {
+                                                                "name": "Rev. Romanus Mattingly",
+                                                                "dates": "1850–1922",
+                                                                "fact": "Catholic priest; built parish churches at Oakland MD + Hoyes MD; 16-year pastor at Oakland",
+                                                                "id": "p054",
+                                                                "generation": 8,
+                                                                "century": 19,
+                                                                "confidence": "confirmed",
+                                                                "spouse": null,
+                                                                "children": []
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "Judge Francis Mattingly",
+                                                        "dates": "1813–1879",
+                                                        "fact": "Judge of the Orphans' Court at Cumberland MD (elected 1859); helped commit Allegany County to Union side 1861",
+                                                        "id": "p055",
+                                                        "generation": 8,
+                                                        "century": 19,
+                                                        "confidence": "confirmed",
+                                                        "spouse": null,
+                                                        "children": []
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "name": "Lucius Mattingly",
+                                                "dates": "1730–1826 Washington Co KY",
+                                                "fact": "Mattingly-318; separate KY branch",
+                                                "id": null,
+                                                "generation": 4,
+                                                "century": 18,
+                                                "confidence": "probable",
+                                                "spouse": null,
+                                                "children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
                                       },
                                       {
                                         "name": "Judith (Mattingly) Turner",
@@ -993,6 +1109,115 @@
             "generation": 13,
             "century": 20,
             "confidence": "confirmed",
+            "spouse": null,
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "Maternal-paternal Teichmüller line (Brunswick → Texas)",
+      "tree": {
+        "name": "August Teichmüller",
+        "dates": "fl. 1820–1860 Brunswick",
+        "fact": "Officer in the Brunswick army; per Wikipedia matched both Gustav (Wiki) and Hans (Lotto 1902 KY history). Father of both.",
+        "id": null,
+        "generation": 12,
+        "century": 19,
+        "confidence": "probable",
+        "spouse": "Charlotte von Girsewaldt",
+        "children": [
+          {
+            "name": "Hans Teichmueller",
+            "dates": "1837 Brunswick – 1901 La Grange TX",
+            "fact": "Hunter's confirmed great-great-grandfather; emigrated to TX 1854; Civil War CSA artillery officer; named for father August. m. Anna Lemke",
+            "id": "p003",
+            "generation": 13,
+            "century": 19,
+            "confidence": "confirmed",
+            "spouse": "Anna Lemke",
+            "children": [
+              {
+                "name": "May Teichmueller",
+                "dates": "1872 – 28 Aug 1900",
+                "fact": "m. Edward Mattingly Sr. 1 Sept 1894; mother of Leroy Teichmuller Mattingly (Hunter's great-grandfather); Hans's other daughter",
+                "id": null,
+                "generation": 14,
+                "century": 19,
+                "confidence": "confirmed",
+                "spouse": null,
+                "children": []
+              },
+              {
+                "name": "Minette Teichmueller (Pohl)",
+                "dates": "1871–1970",
+                "fact": "WPA muralist — painted 'The Law, Texas Rangers' for Smithville TX post office. Hans's daughter; CONFIRMED great-great-grandaunt of Hunter.",
+                "id": "p004",
+                "generation": 14,
+                "century": 19,
+                "confidence": "confirmed",
+                "spouse": null,
+                "children": []
+              },
+              {
+                "name": "[5th child of Hans]",
+                "dates": "?",
+                "fact": "Lotto 1902 confirms 5 children but 5th not in TX vital records (pre-1903 records sparse) — UNVERIFIED",
+                "id": null,
+                "generation": 14,
+                "century": 19,
+                "confidence": "possible",
+                "spouse": null,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Gustav Teichmüller",
+            "dates": "1832 Brunswick – 1888 Tartu",
+            "fact": "German philosopher who influenced Friedrich Nietzsche directly; professor at Dorpat (Tartu) University. PROBABLE 0.82 brother of Hans (matching Brunswick parents per Wikipedia).",
+            "id": "p060",
+            "generation": 13,
+            "century": 19,
+            "confidence": "probable",
+            "spouse": null,
+            "children": [
+              {
+                "name": "Anna Teichmüller",
+                "dates": "1861–1940",
+                "fact": "German Lieder composer; daughter of Gustav. Wikipedia article. PROBABLE first cousin twice removed of Hans's children.",
+                "id": "p061",
+                "generation": 14,
+                "century": 19,
+                "confidence": "probable",
+                "spouse": null,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "Paternal Spence clan (David's surname)",
+      "tree": {
+        "name": "David Spence",
+        "dates": "Hunter's paternal grandfather",
+        "fact": "Shari's first husband; UNVERIFIED specific Spence-line origin. Possible distant connection to James Monroe (5th US President) via Patrick Spence migrant ancestor.",
+        "id": "p020",
+        "generation": 16,
+        "century": 20,
+        "confidence": "confirmed",
+        "spouse": null,
+        "children": [
+          {
+            "name": "Sir Basil Spence",
+            "dates": "1907–1976",
+            "fact": "British architect; rebuilt Coventry Cathedral after WWII bombing. POSSIBLE distant Spence relative of David.",
+            "id": "hr024",
+            "generation": 16,
+            "century": 20,
+            "confidence": "possible",
             "spouse": null,
             "children": []
           }
