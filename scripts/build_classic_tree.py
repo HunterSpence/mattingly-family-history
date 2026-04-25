@@ -43,12 +43,13 @@ shari = n('Sharyn ("Shari") Mattingly', "b. 1947", "Family historian; Santa Moni
 shari_brother = n("[brother]", "living", "Got the chair from Pearl's set", "p022", 16, 20, "confirmed")
 shari_sister = n("[sister]", "living", "—", "p023", 16, 20, "confirmed")
 
-# Shari's father generation (Leroy + Ruth's children)
-shari_father = n("[Shari's father]", "b. 1922", "Master's degree", "p015", 15, 20, "confirmed", [shari, shari_brother, shari_sister])
+# Shari's father — agent 18 finding: STRONG candidate Leroy Baity Mattingly (b. 17 May 1922 SA, d. 2013 Colorado Springs)
+shari_father = n("Leroy Baity Mattingly", "1922–2013", "Born 17 May 1922 San Antonio; died Colorado Springs CO 2013. WikiTree Mattingly-1178. m. Jennive Lepick.", "p015", 15, 20, "probable", [shari, shari_brother, shari_sister],
+                 spouse="Jennive Lepick")
 
 # Leroy Teichmuller Mattingly + Ruth Baity (and Leroy's siblings)
 # CORRECTION (agent 16): Leroy born 31 Aug 1896, died 1968 SA. Ruth Baity 4 Apr 1900 - 1982 Houston.
-leroy = n("Leroy Teichmuller Mattingly", "1896–1968", "Born La Grange TX; died San Antonio. U Texas engineer; named for German maternal grandfather Hans", "p002", 14, 20, "confirmed",
+leroy = n("Leroy Teichmuller Mattingly", "31 Aug 1896 – 1968", "Born La Grange TX; died San Antonio. U Texas engineer; named for German maternal grandfather Hans Teichmueller. m. Ruth Baity 4 Apr 1900–1982. WikiTree Mattingly-1127.", "p002", 14, 20, "confirmed",
           [shari_father], spouse="Ruth (Baity) Mattingly (4 Apr 1900 – 1982 Houston)")
 claude = n("Dr. Claude Mattingly", "1898–1934", "Pediatrician; Marine WWI; suicide pact at Texan Hotel Austin Jan 31 1934", "p011", 14, 20, "confirmed")
 mamie = n("Aunt Mamie", "b. ~1900", "Mother died at her birth", "p013", 14, 20, "confirmed")
@@ -58,17 +59,39 @@ edward_jr = n("Edward Mattingly Jr.", "b. ~1915 La Grange", "Half-sibling — so
 edward_sr = n("Edward Mattingly Sr.", "1868 MO – 1945 La Grange TX", "Born Missouri; migrated to TX by 1894; m. May Teichmueller 1 Sept 1894 (May d. 28 Aug 1900); m2. Blanche Schroeder", "p041", 13, 20, "confirmed",
               [leroy, claude, mamie, edward_jr], spouse="m1. May Teichmueller (1894–1900); m2. Blanche D. Schroeder (b. 1886 MO)")
 
-# Thomas Jefferson Mattingly — Edward Sr's father, born KY 1828, died Pattonsburg MO 1883
-thomas_jefferson = n("Thomas Jefferson Mattingly", "1828 KY – 1883 MO", "Born Kentucky; family moved to Missouri (Pattonsburg, Daviess Co) before death", None, 12, 19, "confirmed",
-                     [edward_sr], spouse="Elizabeth Christie (b. 2 Dec 1833 Christianburg, Shelby KY)")
+# Thomas Jefferson Mattingly — Edward Sr's father; agent 18: 8 children across 2 wives
+# m1. Catherine Woodward: John T. Mattingly + Sarah Alice Embree
+# m2. Elizabeth Christie (1833-): Anna Bell, Noble N., Francis Ellsworth (Frank), Edward Sr., Florence, Ida
+tj_children = [
+    n("John T. Mattingly", "?", "Half-sibling of Edward Sr. (mother Catherine Woodward)", None, 13, 19, "probable"),
+    n("Sarah Alice (Mattingly) Embree", "?", "Half-sibling of Edward Sr.; m. Embree", None, 13, 19, "probable"),
+    n("Anna Bell (Mattingly) Powell", "?", "Daughter of TJ + Elizabeth Christie; m. Ezra Doty Powell 1874", None, 13, 19, "probable"),
+    n("Noble N. Mattingly", "?", "Son of TJ + Elizabeth Christie", None, 13, 19, "probable"),
+    n("Francis Ellsworth 'Frank' Mattingly", "?", "Son of TJ + Elizabeth Christie", None, 13, 19, "probable"),
+    edward_sr,  # Direct line — already defined
+    n("Florence Mattingly", "?", "Daughter of TJ + Elizabeth Christie", None, 13, 19, "probable"),
+    n("Ida Mattingly", "?", "Daughter of TJ + Elizabeth Christie", None, 13, 19, "probable"),
+]
+thomas_jefferson = n("Thomas Jefferson Mattingly", "1828 KY – 1883 MO", "WikiTree Mattingly-591; m1. Catherine Woodward (2 kids); m2. Elizabeth Christie (6 kids); KY→MO migration", None, 12, 19, "confirmed",
+                     tj_children, spouse="m1. Catherine Woodward; m2. Elizabeth Christie (b. 2 Dec 1833 Christianburg, Shelby KY)")
 
-# Ignatius Mattingly (b. 1781 MD, d. 1833 KY) — the KY-migration generation
-ignatius_1781 = n("Ignatius Mattingly", "1781 MD – 1833 KY", "Born Maryland; family moved to Kentucky (Marion/Washington Co); died there 1833", None, 11, 19, "confirmed",
-                  [thomas_jefferson])
+# Ignatius Mattingly (b. 1781 MD, d. 1833 KY) — agent 18: had 2 confirmed sons
+# Sibling of TJ: Ignatius Mattingly (b. 6 Mar 1811) m. Rachel F. Barnes
+ignatius_1811 = n("Ignatius Mattingly", "b. 6 Mar 1811", "Sibling of Thomas Jefferson; m. Rachel F. Barnes (WikiTree Mattingly-139)", None, 12, 19, "probable")
 
-# Ignatius Jr. (b. 1750) — the NEW intermediate generation (per agent 16)
-ignatius_jr = n("Ignatius Mattingly Jr.", "b. 1750", "Son of Leonard Sr.; the actual direct ancestor (NOT Leonard Jr. who is collateral)", None, 10, 18, "confirmed",
-                [ignatius_1781])
+ignatius_1781 = n("Ignatius Mattingly", "1781 MD – 1833 KY", "Born Maryland; MD→KY migration; died there 1833. WikiTree Mattingly-140.", None, 11, 19, "confirmed",
+                  [thomas_jefferson, ignatius_1811])
+
+# Ignatius Jr. (b. 1750) m. Eleanor Shircliffe; 3 confirmed children
+# Children: George, Zachariah Sr (bef.1771-abt.1823), Ignatius (1781) [half-line]
+zachariah_sr = n("Zachariah Mattingly Sr.", "bef. 1771 – abt. 1823", "WikiTree Mattingly-188. Sibling of Ignatius (1781). Children: Mary, Zachariah Jr.", None, 11, 19, "confirmed",
+                 [n("Mary Mattingly", "?", "Daughter of Zachariah Sr.", None, 12, 19, "probable"),
+                  n("Zachariah Mattingly Jr.", "?", "Son of Zachariah Sr.", None, 12, 19, "probable")])
+george_son_ig_jr = n("George Mattingly", "?", "Son of Ignatius Jr. (named on WikiTree)", None, 11, 19, "probable")
+
+ignatius_jr = n("Ignatius Mattingly Jr.", "b. 1750", "Son of Leonard Sr.; m. Eleanor Shircliffe; direct line via Ignatius (1781) — NOT Leonard Jr.", None, 10, 18, "confirmed",
+                [george_son_ig_jr, zachariah_sr, ignatius_1781],
+                spouse="Eleanor Shircliffe")
 
 # Leonard Jr. (now COLLATERAL — Y-DNA project anchor for KY descendants)
 leonard_jr_children = [

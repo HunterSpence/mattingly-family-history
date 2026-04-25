@@ -298,17 +298,62 @@
                                                 {
                                                   "name": "Ignatius Mattingly Jr.",
                                                   "dates": "b. 1750",
-                                                  "fact": "Son of Leonard Sr.; the actual direct ancestor (NOT Leonard Jr. who is collateral)",
+                                                  "fact": "Son of Leonard Sr.; m. Eleanor Shircliffe; direct line via Ignatius (1781) — NOT Leonard Jr.",
                                                   "id": null,
                                                   "generation": 10,
                                                   "century": 18,
                                                   "confidence": "confirmed",
-                                                  "spouse": null,
+                                                  "spouse": "Eleanor Shircliffe",
                                                   "children": [
+                                                    {
+                                                      "name": "George Mattingly",
+                                                      "dates": "?",
+                                                      "fact": "Son of Ignatius Jr. (named on WikiTree)",
+                                                      "id": null,
+                                                      "generation": 11,
+                                                      "century": 19,
+                                                      "confidence": "probable",
+                                                      "spouse": null,
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "name": "Zachariah Mattingly Sr.",
+                                                      "dates": "bef. 1771 – abt. 1823",
+                                                      "fact": "WikiTree Mattingly-188. Sibling of Ignatius (1781). Children: Mary, Zachariah Jr.",
+                                                      "id": null,
+                                                      "generation": 11,
+                                                      "century": 19,
+                                                      "confidence": "confirmed",
+                                                      "spouse": null,
+                                                      "children": [
+                                                        {
+                                                          "name": "Mary Mattingly",
+                                                          "dates": "?",
+                                                          "fact": "Daughter of Zachariah Sr.",
+                                                          "id": null,
+                                                          "generation": 12,
+                                                          "century": 19,
+                                                          "confidence": "probable",
+                                                          "spouse": null,
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "name": "Zachariah Mattingly Jr.",
+                                                          "dates": "?",
+                                                          "fact": "Son of Zachariah Sr.",
+                                                          "id": null,
+                                                          "generation": 12,
+                                                          "century": 19,
+                                                          "confidence": "probable",
+                                                          "spouse": null,
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
                                                     {
                                                       "name": "Ignatius Mattingly",
                                                       "dates": "1781 MD – 1833 KY",
-                                                      "fact": "Born Maryland; family moved to Kentucky (Marion/Washington Co); died there 1833",
+                                                      "fact": "Born Maryland; MD→KY migration; died there 1833. WikiTree Mattingly-140.",
                                                       "id": null,
                                                       "generation": 11,
                                                       "century": 19,
@@ -318,13 +363,68 @@
                                                         {
                                                           "name": "Thomas Jefferson Mattingly",
                                                           "dates": "1828 KY – 1883 MO",
-                                                          "fact": "Born Kentucky; family moved to Missouri (Pattonsburg, Daviess Co) before death",
+                                                          "fact": "WikiTree Mattingly-591; m1. Catherine Woodward (2 kids); m2. Elizabeth Christie (6 kids); KY→MO migration",
                                                           "id": null,
                                                           "generation": 12,
                                                           "century": 19,
                                                           "confidence": "confirmed",
-                                                          "spouse": "Elizabeth Christie (b. 2 Dec 1833 Christianburg, Shelby KY)",
+                                                          "spouse": "m1. Catherine Woodward; m2. Elizabeth Christie (b. 2 Dec 1833 Christianburg, Shelby KY)",
                                                           "children": [
+                                                            {
+                                                              "name": "John T. Mattingly",
+                                                              "dates": "?",
+                                                              "fact": "Half-sibling of Edward Sr. (mother Catherine Woodward)",
+                                                              "id": null,
+                                                              "generation": 13,
+                                                              "century": 19,
+                                                              "confidence": "probable",
+                                                              "spouse": null,
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "name": "Sarah Alice (Mattingly) Embree",
+                                                              "dates": "?",
+                                                              "fact": "Half-sibling of Edward Sr.; m. Embree",
+                                                              "id": null,
+                                                              "generation": 13,
+                                                              "century": 19,
+                                                              "confidence": "probable",
+                                                              "spouse": null,
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "name": "Anna Bell (Mattingly) Powell",
+                                                              "dates": "?",
+                                                              "fact": "Daughter of TJ + Elizabeth Christie; m. Ezra Doty Powell 1874",
+                                                              "id": null,
+                                                              "generation": 13,
+                                                              "century": 19,
+                                                              "confidence": "probable",
+                                                              "spouse": null,
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "name": "Noble N. Mattingly",
+                                                              "dates": "?",
+                                                              "fact": "Son of TJ + Elizabeth Christie",
+                                                              "id": null,
+                                                              "generation": 13,
+                                                              "century": 19,
+                                                              "confidence": "probable",
+                                                              "spouse": null,
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "name": "Francis Ellsworth 'Frank' Mattingly",
+                                                              "dates": "?",
+                                                              "fact": "Son of TJ + Elizabeth Christie",
+                                                              "id": null,
+                                                              "generation": 13,
+                                                              "century": 19,
+                                                              "confidence": "probable",
+                                                              "spouse": null,
+                                                              "children": []
+                                                            },
                                                             {
                                                               "name": "Edward Mattingly Sr.",
                                                               "dates": "1868 MO – 1945 La Grange TX",
@@ -337,8 +437,8 @@
                                                               "children": [
                                                                 {
                                                                   "name": "Leroy Teichmuller Mattingly",
-                                                                  "dates": "1896–1968",
-                                                                  "fact": "Born La Grange TX; died San Antonio. U Texas engineer; named for German maternal grandfather Hans",
+                                                                  "dates": "31 Aug 1896 – 1968",
+                                                                  "fact": "Born La Grange TX; died San Antonio. U Texas engineer; named for German maternal grandfather Hans Teichmueller. m. Ruth Baity 4 Apr 1900–1982. WikiTree Mattingly-1127.",
                                                                   "id": "p002",
                                                                   "generation": 14,
                                                                   "century": 20,
@@ -346,14 +446,14 @@
                                                                   "spouse": "Ruth (Baity) Mattingly (4 Apr 1900 – 1982 Houston)",
                                                                   "children": [
                                                                     {
-                                                                      "name": "[Shari's father]",
-                                                                      "dates": "b. 1922",
-                                                                      "fact": "Master's degree",
+                                                                      "name": "Leroy Baity Mattingly",
+                                                                      "dates": "1922–2013",
+                                                                      "fact": "Born 17 May 1922 San Antonio; died Colorado Springs CO 2013. WikiTree Mattingly-1178. m. Jennive Lepick.",
                                                                       "id": "p015",
                                                                       "generation": 15,
                                                                       "century": 20,
-                                                                      "confidence": "confirmed",
-                                                                      "spouse": null,
+                                                                      "confidence": "probable",
+                                                                      "spouse": "Jennive Lepick",
                                                                       "children": [
                                                                         {
                                                                           "name": "Sharyn (\"Shari\") Mattingly",
@@ -461,8 +561,41 @@
                                                                   "children": []
                                                                 }
                                                               ]
+                                                            },
+                                                            {
+                                                              "name": "Florence Mattingly",
+                                                              "dates": "?",
+                                                              "fact": "Daughter of TJ + Elizabeth Christie",
+                                                              "id": null,
+                                                              "generation": 13,
+                                                              "century": 19,
+                                                              "confidence": "probable",
+                                                              "spouse": null,
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "name": "Ida Mattingly",
+                                                              "dates": "?",
+                                                              "fact": "Daughter of TJ + Elizabeth Christie",
+                                                              "id": null,
+                                                              "generation": 13,
+                                                              "century": 19,
+                                                              "confidence": "probable",
+                                                              "spouse": null,
+                                                              "children": []
                                                             }
                                                           ]
+                                                        },
+                                                        {
+                                                          "name": "Ignatius Mattingly",
+                                                          "dates": "b. 6 Mar 1811",
+                                                          "fact": "Sibling of Thomas Jefferson; m. Rachel F. Barnes (WikiTree Mattingly-139)",
+                                                          "id": null,
+                                                          "generation": 12,
+                                                          "century": 19,
+                                                          "confidence": "probable",
+                                                          "spouse": null,
+                                                          "children": []
                                                         }
                                                       ]
                                                     }
