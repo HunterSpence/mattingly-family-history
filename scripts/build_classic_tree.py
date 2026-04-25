@@ -31,13 +31,13 @@ def n(name, dates="", fact="", id=None, gen=0, century=0, conf="confirmed", chil
 # Hunter and his generation (deepest descendants — at the leaves)
 hunter = n("Hunter Spence", "living", "Recipient of this family history; recorded grandma's interview", "p001", 18, 21, "confirmed")
 
-# Hunter's parent + Charmaine (Shari's children)
-hunters_parent = n("[Hunter's parent]", "living", "Shari + David's child", None, 17, 21, "confirmed", [hunter])
+# Hunter's mother — Rachel (per Hunter, 2026-04-26)
+rachel = n("Rachel", "living", "Hunter's mother; daughter of Shari + David Spence", None, 17, 21, "confirmed", [hunter])
 charmaine = n("Charmaine", "living", "Shari + David's daughter; Hunter's aunt", "p021", 17, 21, "confirmed")
 
 # Shari + David
 shari = n('Sharyn ("Shari") Mattingly', "b. 1947", "Family historian; Santa Monica; oil royalty owner", "p000", 16, 20, "confirmed",
-          [hunters_parent, charmaine], spouse="David (1st husband)")
+          [rachel, charmaine], spouse="David Spence (1st husband)")
 
 # Shari's siblings (redacted) + her father
 shari_brother = n("[brother]", "living", "Got the chair from Pearl's set", "p022", 16, 20, "confirmed")

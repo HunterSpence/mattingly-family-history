@@ -1990,6 +1990,16 @@
       "confidence": "CONFIRMED",
       "branch": "Lepick maternal",
       "notable": true
+    },
+    {
+      "id": "p999",
+      "full_name": "Rachel (Spence)",
+      "given_name": "Rachel",
+      "surname": "Spence",
+      "relation_to_shari": "Daughter (Hunter Spence's mother)",
+      "context": "Rachel — Hunter's mother, daughter of Sharyn Mattingly + David Spence. Confirmed by Hunter directly 2026-04-26.",
+      "confidence": "CONFIRMED",
+      "branch": "Direct line — Hunter's mother"
     }
   ],
   "places": [

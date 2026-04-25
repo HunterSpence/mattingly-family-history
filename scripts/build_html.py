@@ -2692,23 +2692,24 @@ function makeGradient(id, topColor, botColor) {
   return id;
 }
 
-// Dark mode tree gradient: G1 (oldest) = deep amber-brown, G14 (newest) = pale silver-rose
-// Direction: ancient warmth → modern coolness, all on dark backgrounds
+// Dark-on-dark tree gradient: ALL backgrounds are deep so white/cream text always reads.
+// Earlier gens lean amber, later gens lean indigo — but luminance stays low everywhere
+// so contrast against light text passes WCAG AA across all 14 generations.
 const gradientPalette = [
-  ['#4a2c0a', '#3a2208'],   // G1  — deep amber-brown (1620s England)
-  ['#5e3810', '#4e2e0c'],   // G2
-  ['#744618', '#603a14'],   // G3
-  ['#8a5820', '#784c1c'],   // G4
-  ['#a06c2a', '#8e5e24'],   // G5
-  ['#b48035', '#a0722e'],   // G6  — warm gold midpoint
-  ['#c09040', '#b0823a'],   // G7
-  ['#b89858', '#a88a4e'],   // G8  — transition zone
-  ['#a89070', '#988264'],   // G9  — cooling down
-  ['#8a8878', '#7c7a6c'],   // G10 — muted warm-grey
-  ['#787c80', '#6c7074'],   // G11 — silver-grey
-  ['#6a7480', '#5e6872'],   // G12 — cool silver
-  ['#607080', '#545e6e'],   // G13 (Hunter's parent)
-  ['#586878', '#4c5c6a'],   // G14 (Hunter) — silver-blue
+  ['#3a2208', '#2a1804'],   // G1  — deep amber-black (1620s England)
+  ['#46280a', '#341e06'],   // G2
+  ['#52300e', '#3e2408'],   // G3
+  ['#5e3810', '#48280a'],   // G4
+  ['#6a4014', '#522e0e'],   // G5
+  ['#724618', '#5a3412'],   // G6  — warm midpoint
+  ['#6e4a20', '#583a18'],   // G7
+  ['#5a4628', '#48381e'],   // G8  — transition zone
+  ['#3e3a3a', '#2e2c30'],   // G9  — neutral charcoal
+  ['#2e3242', '#222632'],   // G10 — dark slate
+  ['#283044', '#1c2434'],   // G11 — deep navy-slate
+  ['#243248', '#182238'],   // G12 — deep navy
+  ['#1f3050', '#142042'],   // G13 (Hunter's parent) — rich indigo
+  ['#1a2c54', '#0e1c44'],   // G14 (Hunter) — deepest indigo
 ];
 
 gradientPalette.forEach((pair, i) => {
@@ -2728,22 +2729,22 @@ function nodeFill(d) {
   return `url(#ng-${i})`;
 }
 
-// On dark cards, all text needs to be warm-light; earlier gens get warmer gold tones
+// All cards are dark — text is bright cream/gold across the board for max readability
 function nodeTextColor(depth) {
-  // All cards are dark; earlier gens (amber) get cream text, later (grey-blue) get pale silver
-  if (depth < 5) return '#f0e0c0';   // warm cream on amber-brown
-  if (depth < 9) return '#ede0cc';   // warm off-white on gold-grey
-  return '#d8dde4';                  // cool silver-white on slate
+  // Bright cream/white at AA-AAA contrast against the new deep gradient palette
+  if (depth < 5) return '#fff3d8';   // bright warm cream on deep amber
+  if (depth < 9) return '#fbeacc';   // creamy ivory on warm-mid
+  return '#f5f7fc';                  // bright cool white on indigo (was #d8dde4 — too dim)
 }
 function nodeDateColor(depth) {
-  if (depth < 5) return '#d4a040';   // gold dates on amber cards
-  if (depth < 9) return '#b89858';   // muted gold on transition
-  return '#8090a0';                  // cool grey on slate cards
+  if (depth < 5) return '#f0c060';   // bright gold dates on amber cards
+  if (depth < 9) return '#e0b060';   // golden bronze on transition
+  return '#a8c0e0';                  // bright cool blue on indigo cards
 }
 function nodeFactColor(depth) {
-  if (depth < 5) return '#b07030';   // burnished bronze on amber
-  if (depth < 9) return '#9a8060';   // warm taupe on transition
-  return '#6878a0';                  // steel-blue on slate
+  if (depth < 5) return '#d89860';   // bright bronze on amber
+  if (depth < 9) return '#c8a878';   // soft tan on transition
+  return '#9aa8c8';                  // soft steel-blue on indigo (was #6878a0 — too dark)
 }
 
 function confidenceStroke(c) {
