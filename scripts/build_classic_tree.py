@@ -215,9 +215,50 @@ revelendus = n("Revelendus of Mattingley", "fl. late 12th c.", "Succeeded Ellis;
 ellis = n("Ellis (lord of Mattingley)", "fl. 1167", "First named lord of Mattingley village; recorded in Pipe Roll 13 Henry II", "p073", -3, 12, "possible",
          [revelendus])
 
-# Save
+# ── Frost maternal subtree (agent 19 finding) ─────────────────────
+# Shari's mother born 1923, brother was Frost Bank president per Shari's interview.
+# Per agent 19: Tom Frost Jr (1927-2018, bank president 1963-1997) is the most likely candidate.
+# Shari's mother specifically NOT confirmed — needs Ancestry sub or Bexar County marriage records.
+
+shari_mother = n("[Shari's mother]", "b. 1923", "Chemistry/physics degree; O-negative blood. Maiden name probably Frost — UNCONFIRMED.", None, 15, 20, "possible",
+                 [], spouse=None)
+
+# Tom Frost Jr — bank president 1963-1997, possibly Shari's uncle
+tom_frost_jr = n("Tom Frost Jr.", "1927–2018", "Frost Bank president 1963-1997. Probable 'Shari's uncle' from Hunter's interview.", None, 15, 20, "probable")
+ita_frost = n("Ilse 'Ita' Herff Frost McNeel", "b. 1930", "Daughter of T.C. Frost III + Florence Herff", None, 15, 20, "probable")
+
+tc_frost_iii = n("Thomas Claiborne Frost III", "1903–1971", "Grandson of bank founder. m. Florence Ilse Herff (1906-1984)", None, 14, 20, "confirmed",
+                 [tom_frost_jr, ita_frost], spouse="Florence Ilse Herff (1906-1984)")
+
+joseph_h_frost = n("Joseph H. Frost", "1881–1956", "Brother of T.C. Frost II; ran Frost Bank. Confirmed Frost-family lineage.", None, 13, 20, "confirmed")
+tc_frost_ii = n("T.C. Frost II", "?", "Son of bank founder T.C. Frost I; Frost Bank president gen 2.", None, 13, 20, "confirmed",
+                [tc_frost_iii])
+
+tc_frost_i = n("Thomas Claiborne Frost I", "1833–1903", "FOUNDER of Frost Bank San Antonio (1868). Former Confederate Army Lt Col. Bank still Frost-controlled today.", None, 12, 19, "confirmed",
+               [tc_frost_ii, joseph_h_frost])
+
+# Attach Frost subtree as a SECOND ROOT — render alongside Mattingly tree as collateral marriage line
+# (since lineage-tree.json is single-rooted, embed as a child of Hunter's parent placeholder for now —
+# the visualization will show it as one of the maternal-side branches)
+# Better approach: nest under shari_mother who is a sibling of shari (in-law to Mattingly direct line)
+# Simplest for now: render as separate top-level "Maternal Frost line" — store as alt-root
+
+frost_root = tc_frost_i
+
+# Save the main Mattingly tree (Ellis as root)
 OUT.parent.mkdir(parents=True, exist_ok=True)
+output_data = {
+    "_root_kind": "multi",
+    "primary": ellis,
+    "secondary_trees": [
+        {"label": "Maternal Frost line (Shari's mother's family)", "tree": frost_root}
+    ]
+}
+# For backward compat, write the primary tree at top-level
 OUT.write_text(json.dumps(ellis, indent=2, ensure_ascii=False), encoding="utf-8")
+# Write the multi-tree variant alongside
+MULTI_OUT = OUT.parent / "lineage-tree-multi.json"
+MULTI_OUT.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 # Tree stats
 def count(node):

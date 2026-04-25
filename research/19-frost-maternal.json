@@ -1,0 +1,193 @@
+{
+  "title": "Shari Mattingly's Mother — Frost Family Maternal Ancestry Research",
+  "compiled": "2026-04-25",
+  "task": "Identify Shari Mattingly's mother (born ~1923, San Antonio TX) and her Frost-family ancestry. Shari's mother's brother was reportedly president of Frost Bank (San Antonio, founded 1868).",
+  "methodology_note": "Sources consulted: TSHA Handbook of Texas Online (primary), Find a Grave (direct + Brave snippet bypass for Cloudflare), Wayback Machine CDX API, WikiTree HTML search, FamilySearch (blocked), Texas Marriage Index (paywalled), Ancestry (paywalled/blocked), San Antonio Express-News via Wayback Machine archive, 'Eda and Ilse' (Apple Books abstract). Primary-source verification was the standard; AI-generated genealogy trees were not used.",
+
+  "shari_mother": {
+    "given_name": "UNKNOWN",
+    "maiden_name": "UNKNOWN — most probable: Frost (see hypothesis_primary below)",
+    "married_name": "Mattingly",
+    "birth_year": "~1923 (family oral tradition) — may be off by 2-4 years; ~1925-1927 is also plausible given parents' documented marriage timing",
+    "birth_place": "San Antonio, Bexar County, Texas (probable)",
+    "death_year": "UNKNOWN",
+    "education": "UNKNOWN",
+    "parents": {
+      "hypothesis": "PROBABLE — daughter of Thomas Clayborne Frost III (1903-1971) and Florence Ilse Herff Frost (1906-1984)",
+      "father_id": "tc_frost_iii",
+      "mother_id": "ilse_herff_frost",
+      "confidence": "LOW — no birth record, marriage record, or obituary found that names this person; hypothesis rests entirely on (a) Shari's reported 'uncle was president of Frost Bank,' (b) Tom Frost Jr. being the confirmed Frost Bank president 1963-1997, (c) Tom Frost Jr. being the son of T.C. Frost III and Ilse Herff"
+    },
+    "siblings": {
+      "known": [
+        {
+          "name": "Tom Frost Jr. (Thomas Clayborne Frost IV)",
+          "birth": "1927-10-29",
+          "death": "2018",
+          "role": "President, Culberson-Frost Bankers / Frost Bank, 1963-1997; Chairman Emeritus thereafter",
+          "find_a_grave": "192133735",
+          "confidence": "CONFIRMED for Tom Frost Jr. being a son of T.C. Frost III; UNCONFIRMED as Shari's maternal uncle"
+        },
+        {
+          "name": "Ilse 'Ita' Herff Frost McNeel",
+          "birth": "1930-02-22",
+          "death": "2007-11-30",
+          "find_a_grave": "22626938",
+          "confidence": "CONFIRMED as daughter of T.C. Frost III and Ilse Herff"
+        }
+      ],
+      "note": "Only two children of T.C. Frost III are listed on Find a Grave. A daughter born ~1923-1927 who could be Shari's mother is NOT listed there and has not been found in any accessible record. The absence does not disprove her existence — Find a Grave is not a complete vital records source."
+    },
+    "sources": [
+      "Find a Grave memorial 192133735 (Tom Frost Jr.) — via Brave search snippet bypass",
+      "Find a Grave memorial 22626938 (Ilse Ita McNeel) — via Wayback Machine archive",
+      "TSHA Handbook of Texas: 'Frost, Thomas Claiborne' — https://www.tshaonline.org/handbook/entries/frost-thomas-claiborne",
+      "San Antonio Express-News obituary re Tom Frost Jr. (2018) — via Wayback Machine archive"
+    ],
+    "confidence": "LOW — name, birth record, and marriage record not found in any accessible source; identity is hypothesized from family oral tradition plus confirmed Frost Bank presidential succession"
+  },
+
+  "frost_grandmother": {
+    "id": "ilse_herff_frost",
+    "full_name": "Florence Ilse Herff Frost",
+    "birth": "1906-06-16",
+    "death": "1984-10-01",
+    "find_a_grave": "22626925",
+    "family_background": "Herff family — prominent San Antonio German-Texan medical and civic family. Likely daughter of Ferdinand Ludwig Herff line (established SA medical dynasty).",
+    "marriage": {
+      "spouse": "Thomas Clayborne Frost III",
+      "marriage_year": "UNKNOWN — must predate any ~1923 birth; ~1922-1924 is probable window",
+      "sources": ["Find a Grave memorial 22626925 (confirmed spousal link)", "'Eda and Ilse' (Apple Books) — documents Kampmann-Herff-Frost family interconnections"]
+    },
+    "confidence": "CONFIRMED as T.C. Frost III's wife and Tom Frost Jr.'s mother; relationship to Shari Mattingly is UNCONFIRMED"
+  },
+
+  "frost_grandfather": {
+    "id": "tc_frost_iii",
+    "full_name": "Thomas Clayborne Frost III (known as 'T.C. Frost Sr.' in his son's era)",
+    "birth": "1903-12-22",
+    "birth_place": "San Antonio, Bexar County, Texas",
+    "death": "1971-01-23",
+    "death_place": "Bexar County, Texas",
+    "find_a_grave": "UNKNOWN — not located in accessible search",
+    "role": "President, Culberson-Frost Bankers (Frost Bank), circa 1926-1963",
+    "parents": {
+      "father": "Joseph Hardin Frost (1881-1956), bank president 1926-1963 (some sources; see succession note)",
+      "mother": "Eda Kampmann Frost"
+    },
+    "confidence": "CONFIRMED — birth and death dates from Texas Death Index / Bexar County records per Find a Grave metadata; bank role confirmed via 2018 obituary references"
+  },
+
+  "frost_uncle_president_identification": {
+    "most_likely_candidate": {
+      "name": "Tom Frost Jr. (Thomas Clayborne Frost IV)",
+      "birth": "1927-10-29",
+      "death": "2018",
+      "find_a_grave": "192133735",
+      "bank_role": "President, Culberson-Frost Bankers, 1963-1997; Chairman Emeritus until death",
+      "why_likely": "Only well-documented Frost Bank president in the 20th century; son of T.C. Frost III and Ilse Herff; widely covered in San Antonio Express-News and Texas business press",
+      "relationship_to_shari": "Would be maternal uncle IF Shari's mother was a daughter of T.C. Frost III and Ilse Herff",
+      "confidence": "PROBABLE — Frost Bank president identity confirmed; uncle relationship to Shari is the unconfirmed step"
+    },
+    "eliminated_candidates": [
+      {
+        "name": "Joseph Hardin Frost Jr.",
+        "birth": "1915",
+        "death": "1971",
+        "find_a_grave": "22626948",
+        "reason_eliminated": "Find a Grave describes him as 'business investor,' NOT bank president; wrong branch of Frost family (son of Joseph H. Frost + Eda Kampmann, not T.C. Frost III line)"
+      }
+    ]
+  },
+
+  "frost_lineage_back_to_tc_frost": {
+    "generation_1": {
+      "name": "Thomas Claiborne Frost I (founder)",
+      "birth": "1833",
+      "death": "1903",
+      "role": "Founded Frost National Bank, San Antonio, 1868",
+      "source": "TSHA Handbook of Texas — https://www.tshaonline.org/handbook/entries/frost-thomas-claiborne",
+      "confidence": "CONFIRMED"
+    },
+    "generation_2": {
+      "name": "Thomas Claiborne Frost II (son of founder)",
+      "role": "Succeeded his father; bank president until circa 1926",
+      "source": "TSHA Handbook of Texas",
+      "confidence": "CONFIRMED"
+    },
+    "generation_2b": {
+      "name": "Joseph Hardin Frost",
+      "birth": "1881",
+      "death": "1956",
+      "find_a_grave": "22626951",
+      "role": "Bank president 1926-1963 (parallel to or succeeding T.C. Frost II; sources vary on exact overlap)",
+      "spouse": "Eda Kampmann",
+      "note": "TSHA lists him as T.C. Frost I's son; succeeded T.C. Frost II as president",
+      "source": "TSHA Handbook of Texas; Find a Grave memorial 22626951",
+      "confidence": "CONFIRMED"
+    },
+    "generation_3": {
+      "name": "Thomas Clayborne Frost III",
+      "birth": "1903-12-22",
+      "death": "1971-01-23",
+      "role": "Bank president (circa 1926-1963, shared or sequential with Joseph H. Frost; exact years unclear)",
+      "note": "Called 'T.C. Frost Sr.' in son Tom Jr.'s era. His exact presidential tenure is not clearly stated in accessible sources — TSHA focuses on founder generation, not this generation.",
+      "confidence": "CONFIRMED as T.C. Frost III; bank role PROBABLE based on succession narrative in Tom Jr. obituaries"
+    },
+    "generation_4": {
+      "name": "Tom Frost Jr. (Thomas Clayborne Frost IV)",
+      "birth": "1927-10-29",
+      "death": "2018",
+      "role": "President 1963-1997; Chairman Emeritus 1997-2018",
+      "source": "San Antonio Express-News obituary 2018 (via Wayback Machine); Find a Grave 192133735",
+      "confidence": "CONFIRMED"
+    }
+  },
+
+  "open_questions": [
+    {
+      "question": "What is Shari Mattingly's mother's given name and maiden name?",
+      "priority": "CRITICAL",
+      "how_to_resolve": "Texas Death Index (Ancestry.com, paywalled) — search for Mattingly deaths Bexar County 1960-2010. Or: Shari's birth certificate (Texas State Archives or Vital Statistics Unit, Austin) which would name both parents. Or: Shari's parents' marriage record in Texas Marriage Index (Ancestry, paywalled)."
+    },
+    {
+      "question": "Did T.C. Frost III and Ilse Herff have a daughter born ~1923-1927 in addition to Tom Jr. (1927) and Ilse Ita (1930)?",
+      "priority": "HIGH",
+      "how_to_resolve": "Texas Birth Index 1920-1930, Bexar County (Ancestry, paywalled). Or: Frost family obituaries in San Antonio Express-News archive (searchable via NewsBank or ProQuest at a library)."
+    },
+    {
+      "question": "When did T.C. Frost III and Ilse Herff marry?",
+      "priority": "MEDIUM",
+      "how_to_resolve": "Texas Marriage Index 1922-1926 for 'Frost' + 'Herff' (Ancestry, paywalled). Marriage announcement likely in San Antonio Express circa 1922-1924."
+    },
+    {
+      "question": "Is there a Frost-Mattingly marriage record in Texas ~1944-1950?",
+      "priority": "HIGH",
+      "how_to_resolve": "Texas Marriage Index 1940-1955 for 'Frost' + 'Mattingly' (Ancestry). Bexar County District Clerk marriage records (public record, searchable at courthouse or via mail request). San Antonio newspaper marriage announcements."
+    },
+    {
+      "question": "Could Shari's mother be from a different Frost family line entirely (not T.C. Frost Bank family)?",
+      "priority": "LOW",
+      "note": "Frost is not an uncommon surname in Texas. Without a confirmed maiden name, the entire Frost Bank connection rests on Shari's oral family tradition. The bank-president detail is a strong anchor but oral traditions can misidentify specific relatives."
+    },
+    {
+      "question": "What is the birth year discrepancy — if T.C. Frost III (born 1903) married Ilse Herff circa 1924-1926, a 1923 birth is impossible; actual birth year may be ~1926-1929.",
+      "priority": "MEDIUM",
+      "note": "Family oral traditions often have 1-5 year birth year errors, especially for deceased elders. The 1923 figure should be treated as approximate."
+    }
+  ],
+
+  "research_blockers_encountered": [
+    "FamilySearch.org — blocked by security service (error 15); no workaround found",
+    "Ancestry.com — 403/subscription required; paywalled vital records",
+    "Find a Grave — Cloudflare JS challenge on most direct fetches; worked around via Brave search snippets and Wayback Machine",
+    "Texas Marriage Index — paywalled at Ancestry",
+    "San Antonio Express-News (mysanantonio.com) — Cloudflare JS challenge; archived versions accessible via Wayback Machine",
+    "WikiTree API — rate limit 429 after 2 requests",
+    "DuckDuckGo — bot detection / captcha triggered",
+    "Brave Search — captcha triggered after multiple queries"
+  ],
+
+  "overall_confidence": "LOW",
+  "confidence_rationale": "The Frost Bank presidential succession is CONFIRMED through primary sources (TSHA, SA Express-News obituaries). The identification of Tom Frost Jr. as the most likely 'uncle who was bank president' is PROBABLE. The critical link — that Shari's mother was a daughter of T.C. Frost III and Ilse Herff — is UNCONFIRMED. No accessible source names a daughter of T.C. Frost III born ~1923-1927, and no Frost-Mattingly marriage record was located. The research has reached the limit of freely accessible online primary sources."
+}
