@@ -382,16 +382,21 @@ p { margin: 0 0 1em; }
   line-height: 1.85;
 }
 
-/* Drop cap — illuminated manuscript style, gold on dark */
+/* Drop cap — illuminated manuscript style, gold on dark — v3: enlarged & more dramatic */
 .transcript-turn:first-child .text p:first-child::first-letter {
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 4.2em;
+  font-size: 5.8em;
   font-weight: 700;
   float: left;
-  line-height: 0.78;
-  margin: 0.04em var(--sp-sm) 0 -0.04em;
+  line-height: 0.72;
+  margin: 0.04em 0.12em 0 -0.06em;
   color: var(--accent-gold);
-  text-shadow: 0 0 20px rgba(212, 164, 88, 0.4);
+  text-shadow:
+    0 0 30px rgba(212, 164, 88, 0.55),
+    0 0 60px rgba(212, 164, 88, 0.2),
+    2px 3px 8px rgba(0,0,0,0.7);
+  /* Faint inner gold border effect via filter */
+  filter: drop-shadow(0 0 2px rgba(212, 164, 88, 0.6));
 }
 
 /* Hunter's turns — recessed into background, interjection feel */
@@ -894,6 +899,342 @@ footer.colophon code {
 }
 
 /* =========================================================
+   HERO CINEMATIC PARTICLES  (v3)
+   Floating dust motes — CSS animation only, no JS
+   ========================================================= */
+
+.cover-particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.cover-particles span {
+  position: absolute;
+  display: block;
+  background: rgba(212, 164, 88, 0.55);
+  border-radius: 50%;
+  animation: particleDrift linear infinite;
+}
+
+/* 16 particles with staggered sizes, positions, durations */
+.cover-particles span:nth-child(1)  { width: 2px; height: 2px; left: 10%; animation-duration: 18s; animation-delay:  0s; }
+.cover-particles span:nth-child(2)  { width: 3px; height: 3px; left: 22%; animation-duration: 24s; animation-delay: -7s; opacity: 0.4; }
+.cover-particles span:nth-child(3)  { width: 2px; height: 2px; left: 35%; animation-duration: 20s; animation-delay: -3s; opacity: 0.6; }
+.cover-particles span:nth-child(4)  { width: 1px; height: 1px; left: 48%; animation-duration: 16s; animation-delay: -12s; }
+.cover-particles span:nth-child(5)  { width: 3px; height: 3px; left: 58%; animation-duration: 22s; animation-delay:  -5s; opacity: 0.35; }
+.cover-particles span:nth-child(6)  { width: 2px; height: 2px; left: 70%; animation-duration: 19s; animation-delay: -9s; }
+.cover-particles span:nth-child(7)  { width: 1px; height: 1px; left: 82%; animation-duration: 25s; animation-delay: -2s; opacity: 0.5; }
+.cover-particles span:nth-child(8)  { width: 4px; height: 4px; left: 92%; animation-duration: 28s; animation-delay: -14s; opacity: 0.25; }
+.cover-particles span:nth-child(9)  { width: 2px; height: 2px; left: 15%; animation-duration: 21s; animation-delay: -6s; opacity: 0.7; }
+.cover-particles span:nth-child(10) { width: 1px; height: 1px; left: 42%; animation-duration: 17s; animation-delay: -10s; }
+.cover-particles span:nth-child(11) { width: 3px; height: 3px; left: 63%; animation-duration: 23s; animation-delay: -4s; opacity: 0.45; }
+.cover-particles span:nth-child(12) { width: 2px; height: 2px; left: 77%; animation-duration: 20s; animation-delay: -8s; opacity: 0.6; }
+.cover-particles span:nth-child(13) { width: 1px; height: 1px; left: 88%; animation-duration: 15s; animation-delay: -1s; }
+.cover-particles span:nth-child(14) { width: 2px; height: 2px; left:  5%; animation-duration: 26s; animation-delay: -15s; opacity: 0.4; }
+.cover-particles span:nth-child(15) { width: 3px; height: 3px; left: 30%; animation-duration: 30s; animation-delay: -11s; opacity: 0.3; }
+.cover-particles span:nth-child(16) { width: 1px; height: 1px; left: 55%; animation-duration: 18s; animation-delay: -16s; opacity: 0.65; }
+
+@keyframes particleDrift {
+  0%   { transform: translateY(120%) translateX(0) scale(0.8); opacity: 0; }
+  10%  { opacity: 1; }
+  50%  { transform: translateY(40%) translateX(15px) scale(1); }
+  90%  { opacity: 0.8; }
+  100% { transform: translateY(-20%) translateX(-10px) scale(1.1); opacity: 0; }
+}
+
+/* Animated gradient shimmer behind the hero title */
+@keyframes heroGlow {
+  0%, 100% { opacity: 0.04; }
+  50%       { opacity: 0.10; }
+}
+
+header.cover .cover-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 55% 60% at 50% 55%, #d4a458 0%, transparent 70%);
+  animation: heroGlow 6s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+header.cover > *:not(.cover-particles):not(.cover-glow) {
+  position: relative;
+  z-index: 1;
+}
+
+/* =========================================================
+   PORTRAIT CARDS IN ENTITY DETAILS  (v3)
+   ========================================================= */
+
+.entity-portrait-wrap {
+  float: right;
+  margin: 0 0 var(--sp-md) var(--sp-md);
+  clear: right;
+}
+
+.entity-portrait {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 2px solid var(--accent-gold);
+  box-shadow:
+    0 0 0 4px rgba(212, 164, 88, 0.12),
+    0 4px 20px rgba(0,0,0,0.6),
+    inset 0 0 8px rgba(0,0,0,0.4);
+  object-fit: cover;
+  overflow: hidden;
+  background: var(--paper-raised);
+}
+
+.entity-portrait-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 1px dashed rgba(212, 164, 88, 0.25);
+  background: var(--paper-raised);
+  color: var(--ink-ghost);
+  font-size: 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+/* Notable Achievements sub-section in entity cards */
+.entity-deeds {
+  margin-top: var(--sp-md);
+  padding-top: var(--sp-sm);
+  border-top: 1px solid var(--rule);
+}
+
+.entity-deeds-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: var(--fs-sm);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-gold-light);
+  margin: 0 0 var(--sp-sm);
+}
+
+.entity-deeds ul {
+  margin: 0;
+  padding-left: var(--sp-lg);
+  font-size: 0.9em;
+}
+
+.entity-deeds li {
+  color: var(--ink-soft);
+  margin-bottom: var(--sp-xs);
+}
+
+/* =========================================================
+   CONFIDENCE BADGE "?" — POSSIBLE / UNVERIFIED  (v3)
+   Visually impossible to miss
+   ========================================================= */
+
+/* Used in entity detail cards */
+.confidence-question-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(200, 112, 96, 0.12);
+  border: 1px solid rgba(200, 112, 96, 0.35);
+  border-radius: 4px;
+  padding: 4px 10px;
+  margin: var(--sp-sm) 0;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: var(--fs-sm);
+  color: #d07868;
+}
+
+.confidence-question-badge .qmark {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: var(--accent-gold);
+  text-shadow: 0 0 8px rgba(212, 164, 88, 0.5);
+}
+
+/* The UNVERIFIED banner that goes across entity summary */
+.unverified-banner {
+  display: inline-block;
+  font-family: 'Lora', Georgia, serif;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: rgba(200, 112, 96, 0.2);
+  color: #e08a7a;
+  border: 1px solid rgba(200, 112, 96, 0.4);
+  border-radius: 3px;
+  padding: 2px 8px;
+  margin-left: var(--sp-sm);
+  vertical-align: middle;
+}
+
+/* =========================================================
+   CINEMATIC MIGRATION MAP  (v3)
+   Full-bleed, 600px tall, custom SVG vintage cartography
+   ========================================================= */
+
+#map-section {
+  margin-left: calc(-1 * var(--sp-lg));
+  margin-right: calc(-1 * var(--sp-lg));
+}
+
+#map-section h2 {
+  margin-left: var(--sp-lg);
+  margin-right: var(--sp-lg);
+}
+
+#map-section > p {
+  margin-left: var(--sp-lg);
+  margin-right: var(--sp-lg);
+}
+
+#migration-map-container {
+  position: relative;
+  background: #0e0b08;
+  border-top: 1px solid rgba(212, 164, 88, 0.18);
+  border-bottom: 1px solid rgba(212, 164, 88, 0.18);
+  overflow: hidden;
+  /* No fixed height — the SVG viewBox drives height via aspect ratio */
+}
+
+#migration-map-svg {
+  display: block;
+  width: 100%;
+  /* SVG viewBox 900x600 — 3:2 ratio; lets it scale responsively */
+}
+
+/* Map tooltip / hover card */
+.map-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--paper-raised);
+  border: 1px solid rgba(212, 164, 88, 0.5);
+  border-top: 2px solid var(--accent-gold);
+  border-radius: 0 6px 6px 6px;
+  padding: 12px 16px;
+  min-width: 220px;
+  max-width: 300px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.7), 0 0 0 1px rgba(212,164,88,0.08);
+  z-index: 20;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.map-tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.map-tooltip-name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+  margin-bottom: 3px;
+}
+
+.map-tooltip-year {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.7rem;
+  color: var(--ink-ghost);
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+
+.map-tooltip-body {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
+
+/* Map animation — the polyline draws itself on load */
+#migration-path {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: drawPath 3.5s ease-out 0.6s forwards;
+}
+
+@keyframes drawPath {
+  to { stroke-dashoffset: 0; }
+}
+
+/* Location markers pulse on hover */
+.map-location {
+  cursor: pointer;
+}
+
+.map-marker-pulse {
+  transform-origin: center;
+  animation: markerPulse 2.8s ease-in-out infinite;
+}
+
+@keyframes markerPulse {
+  0%, 100% { opacity: 0.15; transform: scale(1); }
+  50%       { opacity: 0.4;  transform: scale(1.6); }
+}
+
+/* Stagger each location's pulse */
+.map-location:nth-child(1)  .map-marker-pulse { animation-delay: 0.0s; }
+.map-location:nth-child(2)  .map-marker-pulse { animation-delay: 0.3s; }
+.map-location:nth-child(3)  .map-marker-pulse { animation-delay: 0.6s; }
+.map-location:nth-child(4)  .map-marker-pulse { animation-delay: 0.9s; }
+.map-location:nth-child(5)  .map-marker-pulse { animation-delay: 1.2s; }
+.map-location:nth-child(6)  .map-marker-pulse { animation-delay: 1.5s; }
+.map-location:nth-child(7)  .map-marker-pulse { animation-delay: 1.8s; }
+.map-location:nth-child(8)  .map-marker-pulse { animation-delay: 2.1s; }
+.map-location:nth-child(9)  .map-marker-pulse { animation-delay: 2.4s; }
+.map-location:nth-child(10) .map-marker-pulse { animation-delay: 2.7s; }
+
+/* Map legend */
+.map-legend {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  background: rgba(14, 11, 8, 0.85);
+  border: 1px solid rgba(212, 164, 88, 0.2);
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 0.7rem;
+  font-family: 'Lora', Georgia, serif;
+  color: var(--ink-ghost);
+  line-height: 1.8;
+  backdrop-filter: blur(4px);
+}
+
+.map-legend strong {
+  color: var(--accent-gold);
+  display: block;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  margin-bottom: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #migration-path { animation: none; stroke-dashoffset: 0; }
+  .map-marker-pulse { animation: none; opacity: 0.2; }
+  .cover-particles { display: none; }
+  .cover-glow { animation: none; }
+}
+
+/* Print: hide the cinematic map entirely (too complex), keep simple text */
+@media print {
+  #migration-map-container { display: none !important; }
+  .cover-particles { display: none !important; }
+  .cover-glow { display: none !important; }
+  .entity-portrait { display: none !important; }
+  .entity-portrait-placeholder { display: none !important; }
+}
+
+/* =========================================================
    RESPONSIVE
    ========================================================= */
 
@@ -927,6 +1268,23 @@ footer.colophon code {
     padding: 0 var(--sp-md);
   }
 
+  #map-section {
+    margin-left: calc(-1 * var(--sp-md));
+    margin-right: calc(-1 * var(--sp-md));
+  }
+
+  #map-section h2,
+  #map-section > p {
+    margin-left: var(--sp-md);
+    margin-right: var(--sp-md);
+  }
+
+  .map-tooltip {
+    min-width: 180px;
+    max-width: 240px;
+    padding: 8px 12px;
+  }
+
   .tree-toolbar .tree-legend { display: none; }
 
   .pull-quote {
@@ -935,6 +1293,13 @@ footer.colophon code {
   }
 
   .research-section { padding: var(--sp-md); }
+
+  .entity-portrait-wrap {
+    float: none;
+    margin: 0 0 var(--sp-md) 0;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1134,6 +1499,16 @@ footer.colophon code {
   <div class="container">
 
     <header class="cover">
+      <!-- Cinematic dust particles — CSS animation, no JS -->
+      <div class="cover-particles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <!-- Animated hero glow -->
+      <div class="cover-glow" aria-hidden="true"></div>
+
       <p class="cover-eyebrow">The Mattingly Family History</p>
       <h1><em>Grandma Shari</em></h1>
       <span class="cover-ornament" aria-hidden="true">&#10022; &nbsp; &#10022; &nbsp; &#10022;</span>
@@ -1178,6 +1553,7 @@ footer.colophon code {
       <span class="legend-item"><span class="swatch confirmed" aria-hidden="true"></span>Confirmed</span>
       <span class="legend-item"><span class="swatch probable" aria-hidden="true"></span>Probable</span>
       <span class="legend-item"><span class="swatch unknown" aria-hidden="true"></span>Research pending</span>
+      <span class="legend-item"><span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:1.15em;font-weight:700;color:#d4a458;text-shadow:0 0 5px rgba(212,164,88,0.5)" aria-hidden="true">?</span>&#8201;Uncertain</span>
     </div>
   </div>
 
@@ -1188,7 +1564,7 @@ footer.colophon code {
   <p class="tree-hint">Scroll or pinch to zoom &nbsp;&middot;&nbsp; Drag to pan &nbsp;&middot;&nbsp; Click a named node to open its detail card below</p>
 </div>
 
-<script id="lineage-tree-data" type="application/json">{"name": "Ellis (lord of Mattingley)", "dates": "\u2014", "fact": "Earliest known person to bear the Mattingley territorial designation", "id": "p073", "generation": -4, "century": 0, "confidence": "possible", "children": [{"name": "Revelendus of Mattingley", "dates": "\u2014", "fact": "Succeeded Ellis as lord of Mattingley", "id": "p071", "generation": -3, "century": 0, "confidence": "possible", "children": [{"name": "Stephen de Mattingley", "dates": "\u2014", "fact": "DEEPEST VERIFIED 'de Mattingley' individual", "id": "p070", "generation": -2, "century": 0, "confidence": "possible", "children": [{"name": "Peter de Mattingley", "dates": "\u2014", "fact": "Son of Stephen de Mattingley", "id": "p072", "generation": -1, "century": 0, "confidence": "possible", "children": [{"name": "John Mattingly", "dates": "1560\u20131641", "fact": "Grandfather of immigrant Thomas Mattingly II", "id": "p062", "generation": 1, "century": 16, "confidence": "confirmed", "children": [{"name": "Charles Mattingly", "dates": "1600\u20131642", "fact": "Father of Thomas Mattingly I", "id": "p060", "generation": 2, "century": 17, "confidence": "probable", "children": [{"name": "Thomas Mattingly I", "dates": "1624\u20131664", "fact": "Died in Sussex, England 1664 BEFORE emigrating to America", "id": "p028", "generation": 3, "century": 17, "confidence": "probable", "children": [{"name": "Thomas Mattingly II", "dates": "1650\u20131715", "fact": "THE MARYLAND IMMIGRANT \u2014 arrived Maryland pre-1665", "id": "p039", "generation": 4, "century": 17, "confidence": "confirmed", "children": [{"name": "Thomas Mattingly III", "dates": "1688\u20131774", "fact": "Inherited 'Mount Misery' plantation from his father Thomas II", "id": "p090", "generation": 5, "century": 17, "confidence": "confirmed", "children": [{"name": "Ignatius Mattingly", "dates": "1704\u20131789", "fact": "Named for St. Ignatius of Loyola (Jesuit founder) \u2014 strong Maryland Catholic tradition", "id": "p043", "generation": 6, "century": 18, "confidence": "confirmed", "children": [{"name": "Leonard Mattingly Sr.", "dates": "1739\u20131829", "fact": "Mattingly progenitor of the Maryland-to-Kentucky migration line", "id": "p044", "generation": 7, "century": 18, "confidence": "probable", "children": [{"name": "Leonard Mattingly Jr.", "dates": "1764\u20131843", "fact": "Migrated Maryland \u2192 Kentucky in the 1785 Catholic Holy Land migration", "id": "p045", "generation": 8, "century": 18, "confidence": "confirmed", "children": [{"name": "[Unknown \u2014 son of Leonard Jr.]", "dates": "\u2014", "fact": "One of Leonard Jr.'s sons whose descendants migrated to Texas", "id": "M009", "generation": 9, "century": 0, "confidence": "unverified", "children": [{"name": "[Unknown Mattingly]", "dates": "\u2014", "fact": "Generation that physically migrated from Kentucky to Texas (likely 1840s\u20131860s)", "id": "M010", "generation": 10, "century": 0, "confidence": "unverified", "children": [{"name": "[Unknown Mattingly \u2014 the centenarian]", "dates": "1828\u20131935", "fact": "Lived to age 107 \u2014 one of approximately 5 American centenarians of his era", "id": "p030", "generation": 11, "century": 19, "confidence": "possible", "children": [{"name": "Ed Mattingly", "dates": "\u2014", "fact": "Assistant cashier of the First National Bank of La Grange (per 1902 Fayette County history)", "id": "p041", "generation": 12, "century": 0, "confidence": "confirmed", "children": [{"name": "Leroy Teichmuller Mattingly", "dates": "b. 1898", "fact": "Named for his German maternal grandfather Judge Hans Teichmueller", "id": "p002", "generation": 13, "century": 19, "confidence": "confirmed", "children": [{"name": "[Shari's father]", "dates": "b. 1922", "fact": "Master's degree (per Shari)", "id": "p015", "generation": 14, "century": 20, "confidence": "confirmed", "children": [{"name": "Sharyn (\"Shari\") Mattingly", "dates": "b. 1947", "fact": "Family historian; recorded the 46-minute interview that produced this archive", "id": "p000", "generation": 15, "century": 20, "confidence": "confirmed", "children": [{"name": "[redacted, living]", "dates": "\u2014", "fact": "Shari + David's child", "id": "p_redacted_parent", "generation": 16, "century": 0, "confidence": "confirmed", "children": [{"name": "Hunter Spence", "dates": "\u2014", "fact": "Recipient of this family history", "id": "p001", "generation": 17, "century": 0, "confidence": "confirmed", "children": []}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}</script>
+<script id="lineage-tree-data" type="application/json">{"name": "Ellis (lord of Mattingley)", "dates": "\u2014", "fact": "Earliest known person to bear the Mattingley territorial designation", "id": "p073", "generation": -4, "century": 0, "confidence": "possible", "portrait_url": "", "children": [{"name": "Revelendus of Mattingley", "dates": "\u2014", "fact": "Succeeded Ellis as lord of Mattingley", "id": "p071", "generation": -3, "century": 0, "confidence": "possible", "portrait_url": "", "children": [{"name": "Stephen de Mattingley", "dates": "\u2014", "fact": "DEEPEST VERIFIED 'de Mattingley' individual", "id": "p070", "generation": -2, "century": 0, "confidence": "possible", "portrait_url": "", "children": [{"name": "Peter de Mattingley", "dates": "\u2014", "fact": "Son of Stephen de Mattingley", "id": "p072", "generation": -1, "century": 0, "confidence": "possible", "portrait_url": "", "children": [{"name": "John Mattingly", "dates": "1560\u20131641", "fact": "Grandfather of immigrant Thomas Mattingly II", "id": "p062", "generation": 1, "century": 16, "confidence": "confirmed", "portrait_url": "", "children": [{"name": "Charles Mattingly", "dates": "1600\u20131642", "fact": "Father of Thomas Mattingly I", "id": "p060", "generation": 2, "century": 17, "confidence": "probable", "portrait_url": "", "children": [{"name": "Thomas Mattingly I", "dates": "1624\u20131664", "fact": "Died in Sussex, England 1664 BEFORE emigrating to America", "id": "p028", "generation": 3, "century": 17, "confidence": "probable", "portrait_url": "", "children": [{"name": "Thomas Mattingly II", "dates": "1650\u20131715", "fact": "THE MARYLAND IMMIGRANT \u2014 arrived Maryland pre-1665", "id": "p039", "generation": 4, "century": 17, "confidence": "confirmed", "portrait_url": "", "children": [{"name": "Thomas Mattingly III", "dates": "1688\u20131774", "fact": "Inherited 'Mount Misery' plantation from his father Thomas II", "id": "p090", "generation": 5, "century": 17, "confidence": "confirmed", "portrait_url": "", "children": [{"name": "Ignatius Mattingly", "dates": "1704\u20131789", "fact": "Named for St. Ignatius of Loyola (Jesuit founder) \u2014 strong Maryland Catholic tradition", "id": "p043", "generation": 6, "century": 18, "confidence": "confirmed", "portrait_url": "", "children": [{"name": "Leonard Mattingly Sr.", "dates": "1739\u20131829", "fact": "Mattingly progenitor of the Maryland-to-Kentucky migration line", "id": "p044", "generation": 7, "century": 18, "confidence": "probable", "portrait_url": "", "children": [{"name": "Leonard Mattingly Jr.", "dates": "1764\u20131843", "fact": "Migrated Maryland \u2192 Kentucky in the 1785 Catholic Holy Land migration", "id": "p045", "generation": 8, "century": 18, "confidence": "confirmed", "portrait_url": "", "children": [{"name": "[Unknown \u2014 son of Leonard Jr.]", "dates": "\u2014", "fact": "One of Leonard Jr.'s sons whose descendants migrated to Texas", "id": "M009", "generation": 9, "century": 0, "confidence": "unverified", "portrait_url": "", "children": [{"name": "[Unknown Mattingly]", "dates": "\u2014", "fact": "Generation that physically migrated from Kentucky to Texas (likely 1840s\u20131860s)", "id": "M010", "generation": 10, "century": 0, "confidence": "unverified", "portrait_url": "", "children": [{"name": "[Unknown Mattingly \u2014 the centenarian]", "dates": "1828\u20131935", "fact": "Lived to age 107 \u2014 one of approximately 5 American centenarians of his era", "id": "p030", "generation": 11, "century": 19, "confidence": "possible", "portrait_url": "", "children": [{"name": "Edward Mattingly Sr.", "dates": "\u2014", "fact": "Married May Teichmueller September 1, 1894 \u2014 daughter of German-immigrant Judge Hans Teichmueller (1837 Brunswick \u2192 1901 La Grange)", "id": "p041", "generation": 12, "century": 0, "confidence": "confirmed", "portrait_url": "", "children": [{"name": "Leroy Teichmuller Mattingly", "dates": "b. 1898", "fact": "Named for his German maternal grandfather Judge Hans Teichmueller", "id": "p002", "generation": 13, "century": 19, "confidence": "confirmed", "portrait_url": "", "children": [{"name": "[Shari's father]", "dates": "b. 1922", "fact": "Master's degree (per Shari)", "id": "p015", "generation": 14, "century": 20, "confidence": "confirmed", "portrait_url": "", "children": [{"name": "Sharyn (\"Shari\") Mattingly", "dates": "b. 1947", "fact": "Family historian; recorded the 46-minute interview that produced this archive", "id": "p000", "generation": 15, "century": 20, "confidence": "confirmed", "portrait_url": "", "children": [{"name": "[redacted, living]", "dates": "\u2014", "fact": "Shari + David's child", "id": "p_redacted_parent", "generation": 16, "century": 0, "confidence": "confirmed", "portrait_url": "", "children": [{"name": "Hunter Spence", "dates": "\u2014", "fact": "Recipient of this family history", "id": "p001", "generation": 17, "century": 0, "confidence": "confirmed", "portrait_url": "", "children": []}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}</script>
 </section>
 
     <section id="timeline">
@@ -1197,11 +1573,375 @@ footer.colophon code {
       <div id="timeline-container"></div>
     </section>
 
-    <section id="map">
-      <h2>Migration Map</h2>
-      <p>England to Maryland (1663) &rarr; Kentucky (1780s) &rarr; North Carolina &rarr; Texas (1870s) &rarr; California. A family in constant, purposeful motion.</p>
-      <div id="map-container"></div>
-    </section>
+    <section id="map" aria-labelledby="map-heading">
+<div id="map-section">
+  <h2 id="map-heading">The Migration</h2>
+  <p>Four centuries of purposeful motion. From <strong>Hampshire, England</strong> (1663) across the Atlantic to Maryland &mdash; south to Kentucky &mdash; through the Carolinas &mdash; into Texas &mdash; and finally to California. <em>Hover any marker to read what happened there.</em></p>
+
+  <div id="migration-map-container" role="img" aria-label="Migration map showing Mattingly family movement from England to California">
+
+    <svg id="migration-map-svg" viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg"
+         preserveAspectRatio="xMidYMid meet">
+      <defs>
+        <!-- Sepia/vintage map filter -->
+        <filter id="map-vintage" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="4" result="noise"/>
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" result="warped"/>
+          <feColorMatrix type="matrix"
+            values="0.6 0.4 0.1 0 0.02
+                    0.3 0.5 0.1 0 0.01
+                    0.1 0.2 0.3 0 0
+                    0   0   0   1 0"
+            in="warped"/>
+        </filter>
+        <!-- Vignette gradient -->
+        <radialGradient id="map-vignette" cx="50%" cy="50%" r="70%">
+          <stop offset="50%" stop-color="transparent"/>
+          <stop offset="100%" stop-color="rgba(8,6,4,0.65)"/>
+        </radialGradient>
+        <!-- England inset frame -->
+        <clipPath id="england-clip">
+          <rect x="20" y="40" width="120" height="90" rx="4"/>
+        </clipPath>
+      </defs>
+
+      <!-- ── Base map background ── -->
+      <!-- Deep dark ocean -->
+      <rect width="900" height="480" fill="#0a0805"/>
+
+      <!-- Faint grid lines — antique chart feel -->
+      <g opacity="0.06" stroke="#d4a458" stroke-width="0.5">
+        <line x1="0" y1="96" x2="900" y2="96"/>
+        <line x1="0" y1="192" x2="900" y2="192"/>
+        <line x1="0" y1="288" x2="900" y2="288"/>
+        <line x1="0" y1="384" x2="900" y2="384"/>
+        <line x1="150" y1="0" x2="150" y2="480"/>
+        <line x1="300" y1="0" x2="300" y2="480"/>
+        <line x1="450" y1="0" x2="450" y2="480"/>
+        <line x1="600" y1="0" x2="600" y2="480"/>
+        <line x1="750" y1="0" x2="750" y2="480"/>
+      </g>
+
+      <!-- North America silhouette — simplified hand-drawn polygons -->
+      <!-- Continental US approximate outline, very stylized -->
+      <g opacity="0.9">
+        <!-- Main continental landmass — sepia parchment tone -->
+        <polygon
+          points="340,120 380,105 430,95 490,90 550,88 610,90 650,95 690,105 730,120 760,140 780,160 790,180 785,200 775,215 760,225 740,230 720,238 700,245 690,260 680,275 665,290 650,305 630,310 610,308 590,305 570,300 550,295 530,295 510,298 490,300 470,300 450,298 430,300 410,302 390,300 375,295 360,290 345,285 330,275 320,260 315,250 310,238 308,225 310,210 315,195 320,180 325,165 330,148"
+          fill="#2a2010" stroke="#4a3820" stroke-width="0.8"/>
+        <!-- Florida peninsula -->
+        <polygon
+          points="630,295 640,305 645,320 640,335 630,345 618,340 615,330 618,318 622,308"
+          fill="#2a2010" stroke="#4a3820" stroke-width="0.8"/>
+        <!-- Texas additional shape -->
+        <polygon
+          points="460,280 490,275 520,275 540,280 545,300 535,315 520,320 500,318 480,315 465,305 455,290"
+          fill="#2a2010" stroke="#4a3820" stroke-width="0.8"/>
+        <!-- California coast -->
+        <polygon
+          points="320,180 338,185 352,200 358,220 355,242 348,260 340,275 328,280 318,270 312,250 310,230 312,210 315,195"
+          fill="#2a2010" stroke="#4a3820" stroke-width="0.8"/>
+        <!-- Great Lakes region subtle -->
+        <ellipse cx="600" cy="170" rx="35" ry="12" fill="#0e0c0a" opacity="0.7"/>
+        <ellipse cx="636" cy="165" rx="18" ry="8" fill="#0e0c0a" opacity="0.7"/>
+      </g>
+
+      <!-- Mexico/Central America rough suggestion -->
+      <polygon
+        points="450,310 465,318 480,325 490,335 485,355 470,365 450,368 430,360 420,345 422,328 435,318"
+        fill="#1e1a10" stroke="#3a3020" stroke-width="0.6" opacity="0.6"/>
+
+      <!-- Atlantic Ocean label -->
+      <text x="780" y="260" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="9" font-style="italic" fill="#4a3820" opacity="0.6"
+        letter-spacing="0.15em">ATLANTIC</text>
+      <text x="780" y="272" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="9" font-style="italic" fill="#4a3820" opacity="0.6"
+        letter-spacing="0.15em">OCEAN</text>
+
+      <!-- Pacific Ocean label -->
+      <text x="220" y="290" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="9" font-style="italic" fill="#4a3820" opacity="0.6"
+        letter-spacing="0.15em">PACIFIC</text>
+      <text x="220" y="302" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="9" font-style="italic" fill="#4a3820" opacity="0.6"
+        letter-spacing="0.15em">OCEAN</text>
+
+      <!-- ENGLAND INSET PANEL — top-left -->
+      <rect x="18" y="38" width="124" height="94" rx="5"
+        fill="#181410" stroke="rgba(212,164,88,0.4)" stroke-width="1"/>
+      <rect x="22" y="42" width="116" height="86" rx="3"
+        fill="#1c1810" stroke="rgba(212,164,88,0.15)" stroke-width="0.5"/>
+      <!-- England label -->
+      <text x="80" y="56" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="7" font-style="italic" letter-spacing="0.12em"
+        fill="#a07840" opacity="0.9">ENGLAND</text>
+      <!-- Simplified England shape -->
+      <polygon
+        points="68,62 74,60 80,61 85,64 88,70 86,77 82,82 76,84 70,82 66,77 65,71 66,66"
+        fill="#2a2010" stroke="#4a3820" stroke-width="0.7"/>
+      <!-- Hampshire dot -->
+      <circle cx="68" cy="82" r="3.5" fill="#d4a458" stroke="#7a5010" stroke-width="1.2" opacity="0.9"/>
+      <circle cx="68" cy="82" r="1.5" fill="#f0c878" opacity="0.7"/>
+      <text x="74" y="86" font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="6.5" font-style="italic" fill="#c8a870" opacity="0.85">Hampshire</text>
+      <!-- Inset title -->
+      <text x="80" y="120" text-anchor="middle"
+        font-family="'Lora', Georgia, serif"
+        font-size="6" fill="#806040" opacity="0.6" font-style="italic">origin, pre-1660</text>
+
+      <!-- ATLANTIC CROSSING — dashed arc from England to Maryland -->
+      <path d="M 142,82 C 300,60 480,90 672,198"
+        fill="none" stroke="#d4a458" stroke-width="1.2"
+        stroke-dasharray="4,6" opacity="0.35"/>
+      <!-- Arrow tip at Maryland end -->
+      <path d="M 664,194 L 672,198 L 666,203"
+        fill="none" stroke="#d4a458" stroke-width="1.2" opacity="0.5"/>
+
+      <!-- MIGRATION POLYLINE — animated draw on load -->
+      <polyline id="migration-path"
+        points="672,198 614,220 650,238 527,303 510,295 468,290 578,213 360,230"
+        fill="none"
+        stroke="#d4a458"
+        stroke-width="1.8"
+        stroke-dasharray="8,5"
+        opacity="0.6"
+        stroke-linejoin="round"/>
+
+      <!-- Directional arrow markers along path — at key transitions -->
+      <!-- Maryland → Kentucky -->
+      <path d="M 650,205 L 642,210 L 638,204"
+        fill="none" stroke="#d4a458" stroke-width="1.2" opacity="0.4"/>
+      <!-- Kentucky → San Antonio -->
+      <path d="M 570,255 L 562,260 L 565,252"
+        fill="none" stroke="#d4a458" stroke-width="1.2" opacity="0.4"/>
+      <!-- San Antonio → Santa Monica -->
+      <path d="M 430,262 L 422,268 L 418,260"
+        fill="none" stroke="#d4a458" stroke-width="1.2" opacity="0.4"/>
+
+      <!-- LOCATION MARKERS -->
+
+  <g class="map-location" data-id="hampshire"
+     data-name="Mattingley, Hampshire"
+     data-year="pre-1660"
+     data-country="England"
+     data-story="The ancestral village. The Mattingley name derives from this Hampshire settlement, documented since 1167 AD. Thomas and his family departed for the New World c. 1663.">
+    
+    <circle class="map-marker-pulse" cx="68" cy="82" r="9" fill="none" stroke="#d4a458" stroke-width="1"/>
+    <circle cx="68" cy="82" r="4" fill="#d4a458" stroke="#7a5010" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="68" cy="82" r="2" fill="#f0c878" opacity="0.6"/>
+  </g>
+
+  <g class="map-location" data-id="maryland"
+     data-name="St. Mary&#x27;s County, Maryland"
+     data-year="1663–1780s"
+     data-country="Colony of Maryland"
+     data-story="Thomas Mattingly II arrived with the Catholic colonists under Lord Baltimore. The family received the &#x27;Mattingly&#x27;s Hope&#x27; 300-acre land patent on September 4, 1666. They farmed Charles and St. Mary&#x27;s Counties for over a century.">
+    
+    <circle class="map-marker-pulse" cx="672" cy="198" r="12" fill="none" stroke="#d4a458" stroke-width="1"/>
+    <circle cx="672" cy="198" r="7" fill="#d4a458" stroke="#7a5010" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="672" cy="198" r="5" fill="#f0c878" opacity="0.6"/>
+  </g>
+
+  <g class="map-location" data-id="kentucky"
+     data-name="Bardstown, Kentucky"
+     data-year="1780s"
+     data-country="Kentucky Territory"
+     data-story="With Daniel Boone&#x27;s trailblazers, Catholic Maryland families migrated south-west into the fertile Kentucky territory. Bardstown became a hub of Catholic settlement — the &#x27;Holy Land of the West.&#x27; The Mattinglys were among dozens of Catholic families who made this journey.">
+    
+    <circle class="map-marker-pulse" cx="614" cy="220" r="10" fill="none" stroke="#d4a458" stroke-width="1"/>
+    <circle cx="614" cy="220" r="5" fill="#d4a458" stroke="#7a5010" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="614" cy="220" r="3" fill="#f0c878" opacity="0.6"/>
+  </g>
+
+  <g class="map-location" data-id="northcarolina"
+     data-name="North Carolina"
+     data-year="1810–1875"
+     data-country="North Carolina"
+     data-story="Pearl Baity&#x27;s branch — the Johnson-Baity family — was rooted in North Carolina before the westward push to Texas. Pearl was born here circa 1860 before her family joined the post-Civil War migration.">
+    
+    <circle class="map-marker-pulse" cx="650" cy="238" r="10" fill="none" stroke="#d4a458" stroke-width="1"/>
+    <circle cx="650" cy="238" r="5" fill="#d4a458" stroke="#7a5010" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="650" cy="238" r="3" fill="#f0c878" opacity="0.6"/>
+  </g>
+
+  <g class="map-location" data-id="sanantonio"
+     data-name="San Antonio, Texas"
+     data-year="1875–present"
+     data-country="Texas"
+     data-story="The Mattingly and Baity families converged in San Antonio. Ed Mattingly married into the Texas gentry. The Baity family built their 211 Castile home here, the gathering place for generations of family. Leroy Mattingly was born here in 1898.">
+    
+    <circle class="map-marker-pulse" cx="527" cy="303" r="12" fill="none" stroke="#d4a458" stroke-width="1"/>
+    <circle cx="527" cy="303" r="7" fill="#d4a458" stroke="#7a5010" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="527" cy="303" r="5" fill="#f0c878" opacity="0.6"/>
+  </g>
+
+  <g class="map-location" data-id="kerrville"
+     data-name="Kerrville, Texas"
+     data-year="1900s"
+     data-country="Texas Hill Country"
+     data-story="Pearl Baity&#x27;s summer retreat in the Hill Country. A cooler escape from San Antonio&#x27;s heat, where the family gathered and rested. Pearl maintained a beloved summer home here.">
+    
+    <circle class="map-marker-pulse" cx="510" cy="295" r="10" fill="none" stroke="#d4a458" stroke-width="1"/>
+    <circle cx="510" cy="295" r="5" fill="#d4a458" stroke="#7a5010" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="510" cy="295" r="3" fill="#f0c878" opacity="0.6"/>
+  </g>
+
+  <g class="map-location" data-id="reeves"
+     data-name="Reeves County, Texas"
+     data-year="1901–present"
+     data-country="West Texas"
+     data-story="In April 1901 — the same year as Spindletop — Pearl Baity purchased land in Reeves County. That act of prescient land acquisition is the foundation of all subsequent oil royalties the family still receives today, over 120 years later.">
+    
+    <circle class="map-marker-pulse" cx="468" cy="290" r="12" fill="none" stroke="#d4a458" stroke-width="1"/>
+    <circle cx="468" cy="290" r="7" fill="#d4a458" stroke="#7a5010" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="468" cy="290" r="5" fill="#f0c878" opacity="0.6"/>
+  </g>
+
+  <g class="map-location" data-id="stlouis"
+     data-name="St. Louis, Missouri"
+     data-year="1904"
+     data-country="Missouri"
+     data-story="The 1904 Louisiana Purchase Exposition (World&#x27;s Fair). Pearl attended and purchased the Kaiser salon furniture set — matching chairs, table, fainting couch — that remain family heirlooms today.">
+    
+    <circle class="map-marker-pulse" cx="578" cy="213" r="10" fill="none" stroke="#d4a458" stroke-width="1"/>
+    <circle cx="578" cy="213" r="5" fill="#d4a458" stroke="#7a5010" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="578" cy="213" r="3" fill="#f0c878" opacity="0.6"/>
+  </g>
+
+  <g class="map-location" data-id="santamonica"
+     data-name="Santa Monica, California"
+     data-year="2026"
+     data-country="California"
+     data-story="Where Shari lives today, age 79. The end of the migration arc — from Hampshire, England across five centuries and the entire American continent. She still owns the oil rights Pearl purchased in 1901.">
+    <circle class="map-marker-pulse" cx="360" cy="230" r="15" fill="none" stroke="#d4a458" stroke-width="1.5"/>
+    <circle class="map-marker-pulse" cx="360" cy="230" r="12" fill="none" stroke="#d4a458" stroke-width="1"/>
+    <circle cx="360" cy="230" r="7" fill="#d4a458" stroke="#7a5010" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="360" cy="230" r="5" fill="#f0c878" opacity="0.6"/>
+  </g>
+
+      <!-- LOCATION LABELS -->
+<text x="74" y="75" text-anchor="start" font-family="'Cormorant Garamond', Georgia, serif" font-size="7.5" font-style="italic" fill="#c8a870" opacity="0.85">Mattingley</text>
+<text x="681" y="196" text-anchor="start" font-family="'Cormorant Garamond', Georgia, serif" font-size="7.5" font-style="italic" fill="#c8a870" opacity="0.85">St. Mary&#x27;s County</text>
+<text x="623" y="218" text-anchor="start" font-family="'Cormorant Garamond', Georgia, serif" font-size="7.5" font-style="italic" fill="#c8a870" opacity="0.85">Bardstown</text>
+<text x="536" y="301" text-anchor="start" font-family="'Cormorant Garamond', Georgia, serif" font-size="7.5" font-style="italic" fill="#c8a870" opacity="0.85">San Antonio</text>
+<text x="477" y="288" text-anchor="start" font-family="'Cormorant Garamond', Georgia, serif" font-size="7.5" font-style="italic" fill="#c8a870" opacity="0.85">Reeves County</text>
+<text x="587" y="211" text-anchor="start" font-family="'Cormorant Garamond', Georgia, serif" font-size="7.5" font-style="italic" fill="#c8a870" opacity="0.85">St. Louis</text>
+<text x="354" y="221" text-anchor="end" font-family="'Cormorant Garamond', Georgia, serif" font-size="7.5" font-style="italic" fill="#c8a870" opacity="0.85">Santa Monica</text>
+<text x="672" y="212" text-anchor="middle" font-family="'Source Code Pro', monospace" font-size="6" fill="#806040" opacity="0.7">1663–1780s</text>
+<text x="468" y="304" text-anchor="middle" font-family="'Source Code Pro', monospace" font-size="6" fill="#806040" opacity="0.7">1901–present</text>
+<text x="360" y="244" text-anchor="middle" font-family="'Source Code Pro', monospace" font-size="6" fill="#806040" opacity="0.7">2026</text>
+
+      <!-- MAP TITLE — engraved serif -->
+      <text x="450" y="30" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="14" font-weight="700" letter-spacing="0.25em"
+        fill="#c8a060" opacity="0.75">THE MATTINGLY MIGRATION</text>
+      <line x1="260" y1="34" x2="640" y2="34"
+        stroke="#d4a458" stroke-width="0.5" opacity="0.25"/>
+
+      <!-- Compass rose — bottom right -->
+      <g transform="translate(855, 430)" opacity="0.35">
+        <line x1="0" y1="-18" x2="0" y2="18" stroke="#d4a458" stroke-width="1"/>
+        <line x1="-18" y1="0" x2="18" y2="0" stroke="#d4a458" stroke-width="1"/>
+        <line x1="-12" y1="-12" x2="12" y2="12" stroke="#d4a458" stroke-width="0.5"/>
+        <line x1="12" y1="-12" x2="-12" y2="12" stroke="#d4a458" stroke-width="0.5"/>
+        <polygon points="0,-18 4,-8 -4,-8" fill="#d4a458"/>
+        <text x="0" y="-22" text-anchor="middle"
+          font-family="'Cormorant Garamond', Georgia, serif"
+          font-size="8" font-weight="700" fill="#d4a458">N</text>
+      </g>
+
+      <!-- Scale note -->
+      <text x="30" y="468"
+        font-family="'Lora', Georgia, serif"
+        font-size="6.5" font-style="italic" fill="#504030" opacity="0.7">
+        Stylized cartographic illustration — not to scale
+      </text>
+
+      <!-- Vignette overlay -->
+      <rect width="900" height="480" fill="url(#map-vignette)" pointer-events="none"/>
+    </svg>
+
+    <!-- Hover tooltip -->
+    <div class="map-tooltip" id="map-tooltip" role="tooltip" aria-live="polite">
+      <div class="map-tooltip-name" id="map-tt-name"></div>
+      <div class="map-tooltip-year" id="map-tt-year"></div>
+      <div class="map-tooltip-body" id="map-tt-body"></div>
+    </div>
+
+    <!-- Map legend -->
+    <div class="map-legend">
+      <strong>Legend</strong>
+      <span>&#9632; Major settlement</span><br>
+      <span>&#9679; Location marker</span><br>
+      <span>&#8230;&#8230; Migration route</span><br>
+      <span>- - - Atlantic crossing</span>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<script>
+
+(function() {
+  const container = document.getElementById('migration-map-container');
+  if (!container) return;
+  const tooltip = document.getElementById('map-tooltip');
+  if (!tooltip) return;
+  const tName = document.getElementById('map-tt-name');
+  const tYear = document.getElementById('map-tt-year');
+  const tBody = document.getElementById('map-tt-body');
+
+  const locations = container.querySelectorAll('.map-location');
+  locations.forEach(function(loc) {
+    loc.addEventListener('mouseenter', function(e) {
+      tName.textContent = loc.dataset.name + ' — ' + loc.dataset.country;
+      tYear.textContent = loc.dataset.year;
+      tBody.textContent = loc.dataset.story;
+      tooltip.classList.add('visible');
+      positionTooltip(e);
+    });
+    loc.addEventListener('mousemove', positionTooltip);
+    loc.addEventListener('mouseleave', function() {
+      tooltip.classList.remove('visible');
+    });
+    // Touch support
+    loc.addEventListener('click', function(e) {
+      tName.textContent = loc.dataset.name + ' — ' + loc.dataset.country;
+      tYear.textContent = loc.dataset.year;
+      tBody.textContent = loc.dataset.story;
+      tooltip.classList.add('visible');
+      positionTooltip(e);
+      e.stopPropagation();
+    });
+  });
+
+  document.addEventListener('click', function() {
+    tooltip.classList.remove('visible');
+  });
+
+  function positionTooltip(e) {
+    const rect = container.getBoundingClientRect();
+    let x = e.clientX - rect.left + 14;
+    let y = e.clientY - rect.top - 10;
+    const tw = tooltip.offsetWidth || 240;
+    const th = tooltip.offsetHeight || 120;
+    if (x + tw > rect.width - 10) x = e.clientX - rect.left - tw - 14;
+    if (y + th > rect.height - 10) y = e.clientY - rect.top - th - 10;
+    if (y < 8) y = 8;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top  = y + 'px';
+  }
+})();
+
+</script>
 
     <section id="transcript">
       <h2>The Interview</h2>
@@ -1209,7 +1949,7 @@ footer.colophon code {
       <blockquote class="pull-quote">
         She bought land in Reeves County, Texas in April 1901. That is a source for all the wells that we have now.
       </blockquote>
-      <div class="transcript-turn"><div class="speaker-line"><span class="speaker-shari">Shari</span><span class="timestamp">0:00</span></div><div class="text"><p>We&#x27;re from <a href="#pl001" class="entity-link entity-place">Ignatius</a>. Mhmm. Now my grandfather was named <a href="#p002" class="entity-link entity-person">Leroy Teichmuller Mattingly</a>. His father was a judge in Texas. There&#x27;s a picture on the Internet showing them in front of their house. If you go under <a href="#p003" class="entity-link entity-person">Hans</a> <a href="#p002" class="entity-link entity-person">Teichmuller</a>, you&#x27;ll find this picture. Okay. It has my aunt <a href="#p004" class="entity-link entity-person">Monette</a>, my grandfather&#x27;s mother, and her and father, and his brother <a href="#p011" class="entity-link entity-person">Claude</a> was two. They&#x27;re all sitting out there. I knew aunt <a href="#p004" class="entity-link entity-person">Monette</a> very well, And she lived to be 99. Wow. She was born in 1871, died in 1970. That was impressively long for that age. And she she lived in <a href="#pl002" class="entity-link entity-place">San Antonio</a>. Mhmm. Her her husband was named <a href="#p005" class="entity-link entity-person">Hugo</a> <a href="#p004" class="entity-link entity-person">Pohl</a>, p o h l. I was walking down the Student Union Building in in <a href="#pl003" class="entity-link entity-place">Texas A and M</a> Mhmm. With <a href="#p020" class="entity-link entity-person">David</a>. Mhmm. I said, my god. <a href="#p020" class="entity-link entity-person">David</a>, I know these pictures. I know them. Mhmm. And he said, how do you know them? I said, I&#x27;ve seen them. And went up to him, it was <a href="#p005" class="entity-link entity-person">Hugo</a> <a href="#p004" class="entity-link entity-person">Pohl</a>. So that&#x27;s my great great uncle.</p></div></div>
+      <div class="transcript-turn"><div class="speaker-line"><span class="speaker-shari">Shari</span><span class="timestamp">0:00</span></div><div class="text"><p>We&#x27;re from <a href="#p043" class="entity-link entity-person">Ignatius</a>. Mhmm. Now my grandfather was named <a href="#p002" class="entity-link entity-person">Leroy Teichmuller Mattingly</a>. His father was a judge in Texas. There&#x27;s a picture on the Internet showing them in front of their house. If you go under <a href="#p003" class="entity-link entity-person">Hans</a> <a href="#p002" class="entity-link entity-person">Teichmuller</a>, you&#x27;ll find this picture. Okay. It has my aunt <a href="#p004" class="entity-link entity-person">Monette</a>, my grandfather&#x27;s mother, and her and father, and his brother <a href="#p011" class="entity-link entity-person">Claude</a> was two. They&#x27;re all sitting out there. I knew aunt <a href="#p004" class="entity-link entity-person">Monette</a> very well, And she lived to be 99. Wow. She was born in 1871, died in 1970. That was impressively long for that age. And she she lived in <a href="#pl002" class="entity-link entity-place">San Antonio</a>. Mhmm. Her her husband was named <a href="#p005" class="entity-link entity-person">Hugo</a> <a href="#p004" class="entity-link entity-person">Pohl</a>, p o h l. I was walking down the Student Union Building in in <a href="#pl003" class="entity-link entity-place">Texas A and M</a> Mhmm. With <a href="#p020" class="entity-link entity-person">David</a>. Mhmm. I said, my god. <a href="#p020" class="entity-link entity-person">David</a>, I know these pictures. I know them. Mhmm. And he said, how do you know them? I said, I&#x27;ve seen them. And went up to him, it was <a href="#p005" class="entity-link entity-person">Hugo</a> <a href="#p004" class="entity-link entity-person">Pohl</a>. So that&#x27;s my great great uncle.</p></div></div>
 <div class="transcript-turn transcript-turn-hunter"><div class="speaker-line"><span class="speaker-hunter">Hunter</span><span class="timestamp">1:27</span></div><div class="text"><p>Wow.</p></div></div>
 <div class="transcript-turn"><div class="speaker-line"><span class="speaker-shari">Shari</span><span class="timestamp">1:27</span></div><div class="text"><p>He painted them. The big huge paintings on the wall at Student Union, he did it. Wow. And he was a famous painter in the <a href="#pl002" class="entity-link entity-place">San Antonio</a> area And, my great great aunt told me a story when I was visiting her and she said, I snuck out of my family home, actually they were in <a href="#pl023" class="entity-link entity-place">Louisiana</a> at the time. And she was with a friend. At 16 she snuck out of the house and I said, Oh my God, that was really unusual in the eighteen nineties that a 16 year old girl would sneak out. But they went to see <a href="#hr001" class="entity-link entity-historical">Mark Twain</a>. Oh, wow. Who was touring the country. Cool. Doing doing all kinds of talks. Now he was considered not fit company for young people because she was an atheist. And so it was really avant garde for her to do that, you know. But she she told me that story and I&#x27;ve always remembered it. My great grandmother came over, her name was <a href="#p006" class="entity-link entity-person">Pearl Baity</a>, b a i t y. She came over from <a href="#pl008" class="entity-link entity-place">North Carolina</a> in the eighteen seventies Mhmm. When she was a child, and settled in, I think, <a href="#pl009" class="entity-link entity-place">North Texas</a>. Was there any reason for that, that she came? No. She I know when I when I talked to her, she said, no. They decided that they&#x27;ve been devastated by the South and by the by the war. Mhmm. And so they decided to move west. Okay. And they were living in <a href="#pl008" class="entity-link entity-place">North Carolina</a>. Of course, Sherman went through and destroyed everything. But she told me a story that her mother had told her. That during the civil war, she had gone on a buckboard with her father to Sherman&#x27;s camp Mhmm. And had his her father had begged Sherman not to burn their farm when he was coming through and he did not. But because everything was devastated around them after the war, they moved to Texas. Lucky. They were living in <a href="#pl002" class="entity-link entity-place">San Antonio</a> in 1900 and I asked my grandmother one time, I said, When was the first time you remember getting a car? And she says, we always had one because we were very wealthy. And Gigi&#x27;s husband, that&#x27;s my great grandmother&#x27;s husband, had been a very successful builder And he built half of San Antonio. Oh, wow. So I lived in a big, big, huge home, and I used to live there as a child all the time, and it still exists.</p></div></div>
 <div class="transcript-turn transcript-turn-hunter"><div class="speaker-line"><span class="speaker-hunter">Hunter</span><span class="timestamp">4:29</span></div><div class="text"><p>Have you seen it recently or sometime in the last</p></div></div>
@@ -1288,7 +2028,7 @@ footer.colophon code {
 
     <section id="cast">
       <h2>People (Cast of Characters)</h2>
-      <h3>Ancestors & Historical Family</h3><details class="entity-card" id="p062">
+      <h3>Ancestors &amp; Historical Family</h3><details class="entity-card" id="p062">
   <summary>John Mattingly (1560–1641)</summary>
   <div class="entity-body">
 <p class="entity-meta">9th-great-grandfather (paternal Mattingly, Thomas I&#x27;s grandfather) (1560–1641)</p>
@@ -1296,10 +2036,11 @@ footer.colophon code {
 <p>Grandfather of immigrant Thomas Mattingly II. PRIMARY SOURCE: London Church of England burial register, St Mary Colechurch, December 17, 1641.</p>
   </div>
 </details><details class="entity-card" id="p063">
-  <summary>Francis Mattingly (1580–1620)</summary>
+  <summary>Francis Mattingly (1580–1620) <span class="unverified-banner">? POSSIBLE</span></summary>
   <div class="entity-body">
 <p class="entity-meta">uncertain — possibly 10th-great-grandfather (per WikiTree but chronology unclear) (1580–1620)</p>
 <p><strong>Born:</strong> England</p>
+<div class="confidence-question-badge"><span class="qmark">?</span> <span>POSSIBLE — only one source / circumstantial evidence. Treat as working hypothesis.</span></div>
 <p>Listed in WikiTree as Thomas I&#x27;s great-grandfather, but the chronology (b.1580, while John Mattingly the grandfather is b.1560) suggests Francis may actually be John&#x27;s collateral relative (brother, uncle).</p>
   </div>
 </details><details class="entity-card" id="p060">
@@ -1355,6 +2096,20 @@ footer.colophon code {
 <p class="entity-meta">5th-great-grandfather (between Thomas II and Ignatius — colonial Maryland Mattingly) (1688–1774)</p>
 <p>Thomas Mattingly III (1688–1774). Inherited &#x27;Mount Misery&#x27; plantation from his father Thomas II&#x27;s 1714 will. Wrote his own will April 11, 1774, probated September 10, 1774 in St. Mary&#x27;s County. Names sons Leonard, Edward, John Baptist, and Clement as heirs. Mentions &#x27;Mount Misery&#x27; plantation and &#x27;Mattingly&#x27;s Lane&#x27; with a water mill. This will is the documentary anchor for the generation between Thomas II and the Kentucky migration era.</p>
   </div>
+</details><details class="entity-card" id="p043">
+  <summary>Ignatius Mattingly (1704–1789)</summary>
+  <div class="entity-body">
+<p class="entity-meta">5th-great-grandfather (Maryland Catholic patriarch; &#x27;We&#x27;re from Ignatius&#x27;) (1704–1789)</p>
+<p><strong>Born:</strong> St. Mary&#x27;s County, Maryland</p>
+<p>Ignatius Mattingly (1704-1789), son of Thomas Mattingly II. Will probated April 1789 in St. Mary&#x27;s County Will Book JJ1, named sons Leonard, Luke, and William. The name Ignatius reflects strong Maryland Catholic Jesuit tradition (St. Ignatius of Loyola). His sons Leonard and Luke were among ~25 Maryland Catholic families who migrated to Nelson County KY in 1785 — the &#x27;Holy Land of Kentucky.&#x27; Most likely the &#x27;Ignatius&#x27; Shari named at the start of her recording.</p>
+  </div>
+</details><details class="entity-card" id="p044">
+  <summary>Leonard Mattingly Sr. (1739–1829)</summary>
+  <div class="entity-body">
+<p class="entity-meta">4th-great-grandfather (bridges colonial Maryland and 1785 Kentucky migration) (1739–1829)</p>
+<p><strong>Born:</strong> Leonardtown, St. Mary&#x27;s County, Maryland</p>
+<p>Leonard Mattingly Sr. (1739-1829). Per the 1969 &#x27;Descendants of Henry Mattingly&#x27; book, Leonard had descendants in Washington, Marion, Nelson, Daviess, Union &amp; Breckinridge Counties, Kentucky. Father of Leonard Mattingly Jr. who led the 1785 Catholic migration to Kentucky.</p>
+  </div>
 </details><details class="entity-card" id="p103">
   <summary>George Baity Sr. (1746–1828)</summary>
   <div class="entity-body">
@@ -1368,6 +2123,13 @@ footer.colophon code {
 <p class="entity-meta">8th-great-grandmother (b. 1756)</p>
 <p><strong>Born:</strong> North Carolina</p>
 <p>Wife of George Baity Sr.; maiden name Allgood.</p>
+  </div>
+</details><details class="entity-card" id="p045">
+  <summary>Leonard Mattingly Jr. (1764–1843)</summary>
+  <div class="entity-body">
+<p class="entity-meta">3rd-great-grandfather (Kentucky pioneer; Y-DNA anchor) (1764–1843)</p>
+<p><strong>Born:</strong> Leonardtown, St. Mary&#x27;s County, Maryland</p>
+<p>Leonard Mattingly Jr. (1764-1843). Born Leonardtown MD; by January 7, 1788 was marrying Ann Cissell in Nelson County, Kentucky — having traveled west in the 1785 Catholic migration. Settled in Marion County KY in the community of Saint Mary. He is the earliest CONFIRMED genetic ancestor in the Mattingly-Matney Y-chromosome DNA Surname Project, with multiple participants tracing direct paternal descent to him.</p>
   </div>
 </details><details class="entity-card" id="p102">
   <summary>David Baity Sr. (1782–1856)</summary>
@@ -1397,6 +2159,14 @@ footer.colophon code {
 <p><strong>Born:</strong> North Carolina</p>
 <p>Farmer.</p>
   </div>
+</details><details class="entity-card" id="p120">
+  <summary>Gustav Teichmüller (1832–1888)</summary>
+  <div class="entity-body">
+<p class="entity-meta">great-great-great-uncle (Hans Teichmueller&#x27;s older brother) (1832–1888)</p>
+<p><strong>Occupation:</strong> Philosopher and university professor (University of Basel; Imperial University of Dorpat)</p>
+<p><strong>Born:</strong> Brunswick (Braunschweig), Duchy of Brunswick</p>
+<p>Gustav Teichmüller (1832–1888) was a documented German philosopher with English and German Wikipedia entries. Brother of Judge Hans Teichmueller of La Grange, Texas. Both brothers abandoned university plans after their father August Teichmüller&#x27;s death — Hans emigrated to Texas in 1856; Gustav stayed in Europe and became a professor at the University of Basel and the Imperial University of Dorpat (Tartu, Estonia). He is the most prominent academic in the documented Spence/Mattingly/Teichmueller ancestry.</p>
+  </div>
 </details><details class="entity-card" id="p003">
   <summary>Hans Teichmueller (1837–1901)</summary>
   <div class="entity-body">
@@ -1405,6 +2175,14 @@ footer.colophon code {
 <p><strong>Born:</strong> Brunswick, Germany</p>
 <p>Shari says searching &#x27;Hans Teichmuller&#x27; on the internet produces a photo of her grandfather&#x27;s family in front of their house; described as a judge in Texas.</p>
 <p class="entity-meta">Mentioned at: 0:00</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>Last lord of Mattingley to bear the name — sold the manor and ended the family&#x27;s territorial connection</li></ul></div>
+  </div>
+</details><details class="entity-card" id="p052">
+  <summary>Augusta Dorthea Elizabeth (Kellner) Teichmüller (1843–1915)</summary>
+  <div class="entity-body">
+<p class="entity-meta">great-great-grandmother (Hans Teichmueller&#x27;s wife) (1843–1915)</p>
+<p><strong>Born:</strong> Postoak Point, Austin County, Texas</p>
+<p>Augusta Dorthea Elizabeth Kellner (25 Mar 1843 – 9 Jul 1915). Born at Postoak Point, Austin County, Texas. Daughter of an unnamed modern-languages teacher who taught Hans English when Hans first arrived in Texas. Married Hans Teichmueller June 10, 1858 (NOT June 16 as TSHA states — Lotto 1902 primary text gives June 10; TSHA has a transcription error).</p>
   </div>
 </details><details class="entity-card" id="p010">
   <summary>William Alexander Baity (1862–1945)</summary>
@@ -1414,6 +2192,21 @@ footer.colophon code {
 <p><strong>Born:</strong> Courtney, Yadkin County, North Carolina</p>
 <p>Shari&#x27;s great-grandfather (&#x27;Gigi&#x27;s husband&#x27;), a very successful builder who built half of San Antonio; he died in 1945.</p>
 <p class="entity-meta">Mentioned at: 1:27, 8:31</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>WPA muralist; painted &#x27;The Law, Texas Rangers&#x27; for the Smithville post office in 1940 — lived to 99</li></ul></div>
+  </div>
+</details><details class="entity-card" id="p110">
+  <summary>Louisa Teichmueller (1862–1870)</summary>
+  <div class="entity-body">
+<p class="entity-meta">great-great-aunt (Hans Teichmueller&#x27;s daughter; died in childhood, age ~7-8) (1862–1870)</p>
+<p>First child of Hans Teichmueller and Augusta Kellner. Died in childhood, approximately age 7-8.</p>
+  </div>
+</details><details class="entity-card" id="p040">
+  <summary>Mary &quot;May&quot; (Teichmueller) Mattingly (1867–1900)</summary>
+  <div class="entity-body">
+<p class="entity-meta">great-grandmother (paternal — Leroy&#x27;s mother) (1867–1900)</p>
+<p><strong>Occupation:</strong> (unknown)</p>
+<p><strong>Born:</strong> La Grange, Fayette County, Texas</p>
+<p>Mary &#x27;May&#x27; Teichmueller Mattingly (16 Dec 1867 – 28 Aug 1900). Daughter of Hans Teichmueller and Augusta Kellner. Married Edward Mattingly Sr. on September 1, 1894. Mother of Dr. Claude Mattingly, Leroy Teichmuller Mattingly (1898), and &#x27;Aunt Mamie&#x27; (b. ~1900). Died August 28, 1900 — consistent with Shari&#x27;s account that &#x27;his [Leroy&#x27;s] mother died at childbirth giving birth to Aunt Mamie.&#x27; She was 32 years old.</p>
   </div>
 </details><details class="entity-card" id="p004">
   <summary>Minette Teichmueller (Pohl) (1871–1970)</summary>
@@ -1423,6 +2216,13 @@ footer.colophon code {
 <p><strong>Born:</strong> La Grange, Texas</p>
 <p>Shari knew Aunt Monette well; she lived to 99, was born 1871 and died 1970, lived in San Antonio, and told Shari the story of sneaking out at 16 to see Mark Twain.</p>
 <p class="entity-meta">Mentioned at: 0:00, 1:27</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>Secured &#x27;Mattingly&#x27;s Hope&#x27; — 300 acres in Maryland under the patent of September 4, 1666</li></ul></div>
+  </div>
+</details><details class="entity-card" id="p111">
+  <summary>Anna E. Teichmueller (1874–1961)</summary>
+  <div class="entity-body">
+<p class="entity-meta">great-great-aunt (Hans Teichmueller&#x27;s daughter; never married) (1874–1961)</p>
+<p>Fourth child of Hans Teichmueller and Augusta Kellner. Never married. Died in San Antonio age 86. CONFIRMED via FamilySearch Texas Deaths 1890-1976 K34B-HSQ.</p>
   </div>
 </details><details class="entity-card" id="p005">
   <summary>Hugo D. Pohl (1878–1960)</summary>
@@ -1431,6 +2231,7 @@ footer.colophon code {
 <p><strong>Occupation:</strong> Painter and art teacher; San Antonio Municipal Auditorium stage curtain (1926, destroyed 1979)</p>
 <p>Hugo Pohl was Aunt Monette&#x27;s husband and a famous painter in the San Antonio area; he painted the large paintings on the wall of the Texas A&amp;M Student Union Building.</p>
 <p class="entity-meta">Mentioned at: 0:00, 1:27</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>Co-patentee of &#x27;Mattingly&#x27;s Hope&#x27; — co-founder of the Maryland Catholic line</li></ul></div>
   </div>
 </details><details class="entity-card" id="p002">
   <summary>Leroy Teichmuller Mattingly (b. 1898)</summary>
@@ -1438,6 +2239,7 @@ footer.colophon code {
 <p class="entity-meta">grandfather (b. 1898)</p>
 <p>Shari&#x27;s grandfather, son of a Texas judge, born in 1898; his mother died in childbirth giving birth to Aunt Mamie around 1900-1902.</p>
 <p class="entity-meta">Mentioned at: 0:00, 21:30</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>Earliest dated bearer of the Mattingley surname — granted 6 virgates and a mill to the Prior of Merton</li></ul></div>
   </div>
 </details><details class="entity-card" id="p011">
   <summary>Dr. Claude Mattingly (1898–1934)</summary>
@@ -1446,6 +2248,7 @@ footer.colophon code {
 <p><strong>Occupation:</strong> Pediatrician (specialist in children&#x27;s diseases); practiced in Austin TX. WWI Marine Corps veteran. UT Medical Branch Galveston graduate.</p>
 <p>Leroy Mattingly&#x27;s brother Claude was a prominent physician in San Antonio; found dead in a hotel room with a University of Texas professor&#x27;s wife, possibly of overdose, in 1934 or 1935; age two in the family photo.</p>
 <p class="entity-meta">Mentioned at: 0:00, 24:54</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>Painted a 36x75-foot stage curtain for San Antonio Municipal Auditorium — destroyed in the 1979 fire</li></ul></div>
   </div>
 </details><details class="entity-card" id="p013">
   <summary>Mamie (b. 1900)</summary>
@@ -1453,6 +2256,7 @@ footer.colophon code {
 <p class="entity-meta">great-aunt (Leroy Mattingly&#x27;s sister) (b. 1900)</p>
 <p>Aunt Mamie was Leroy Mattingly&#x27;s sister, born around 1900-1902; her mother (Gigi) died in childbirth giving birth to her.</p>
 <p class="entity-meta">Mentioned at: 20:42</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>Builder credited with constructing a substantial portion of early twentieth-century San Antonio</li></ul></div>
   </div>
 </details><details class="entity-card" id="p014">
   <summary>Ruth (Baity) Mattingly (b. 1900)</summary>
@@ -1460,6 +2264,7 @@ footer.colophon code {
 <p class="entity-meta">grandmother (paternal — wife of Leroy Teichmuller Mattingly) (b. 1900)</p>
 <p>Shari&#x27;s grandmother, born in 1902 (Shari says &#x27;my grandmother was born in nineteen o two. 1900. 1900&#x27; — contradictory), raised wealthy but lost everything in 1929 and was bitter; went to North Texas State university.</p>
 <p class="entity-meta">Mentioned at: 1:27, 11:50, 21:30</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>Prominent Austin pediatrician; death at the Texan Hotel, January 31, 1934 — covered by AP wire across Texas</li></ul></div>
   </div>
 </details><details class="entity-card" id="p015">
   <summary>(unnamed) (b. 1922)</summary>
@@ -1468,6 +2273,7 @@ footer.colophon code {
 <p><strong>Born:</strong> San Antonio, TX</p>
 <p>Shari&#x27;s father, born 1922 in San Antonio when the city had about 35,000 people; had a master&#x27;s degree.</p>
 <p class="entity-meta">Mentioned at: 12:32, 21:30, 28:58</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>Lived to approximately 107 — one of perhaps five documented American centenarians of his era</li></ul></div>
   </div>
 </details><details class="entity-card" id="p016">
   <summary>(unnamed) (b. 1923)</summary>
@@ -1475,6 +2281,7 @@ footer.colophon code {
 <p class="entity-meta">mother (b. 1923)</p>
 <p>Shari&#x27;s mother, born 1923, had a degree in chemistry and physics, and was O negative blood type.</p>
 <p class="entity-meta">Mentioned at: 12:32, 13:50</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>President of Frost Bank from 1926 — San Antonio institution founded 1868</li></ul></div>
   </div>
 </details><details class="entity-card" id="p006">
   <summary>Paralee &quot;Pearl&quot; Johnson Baity (d. 1971)</summary>
@@ -1483,6 +2290,7 @@ footer.colophon code {
 <p><strong>Born:</strong> North Carolina</p>
 <p>Shari&#x27;s great-grandmother, born in North Carolina, came to Texas (North Texas) in the 1870s as a child after the Civil War devastated the South; she died in 1971, and Shari knew her well.</p>
 <p class="entity-meta">Mentioned at: 1:27, 8:31</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>Patriarch of the Kentucky migration — his sons carried the Catholic Maryland line westward in 1785</li></ul></div>
   </div>
 </details><details class="entity-card" id="p007">
   <summary>(unnamed)</summary>
@@ -1492,6 +2300,7 @@ footer.colophon code {
 <p><strong>Born:</strong> North Carolina</p>
 <p>Pearl Baity&#x27;s father who traveled by buckboard to Sherman&#x27;s camp during the Civil War to beg Sherman not to burn their farm, and succeeded; later moved family to Texas.</p>
 <p class="entity-meta">Mentioned at: 1:27</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>Led the 1785 Catholic Maryland migration to Kentucky; confirmed genetic ancestor of the DNA surname project</li></ul></div>
   </div>
 </details><details class="entity-card" id="p008">
   <summary>(unnamed)</summary>
@@ -1500,6 +2309,7 @@ footer.colophon code {
 <p><strong>Born:</strong> North Carolina</p>
 <p>Pearl Baity&#x27;s mother, who told Pearl the story about going to Sherman&#x27;s camp by buckboard; the family moved to Texas after the Civil War.</p>
 <p class="entity-meta">Mentioned at: 1:27</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>Bardstown, Kentucky distillery founded by a descendant of the 1785 Catholic migration</li></ul></div>
   </div>
 </details><details class="entity-card" id="p009">
   <summary>(unnamed)</summary>
@@ -1507,6 +2317,7 @@ footer.colophon code {
 <p class="entity-meta">great-grandmother (Leroy Mattingly&#x27;s mother; wife of the successful San Antonio builder)</p>
 <p>Shari&#x27;s great-grandmother (&#x27;Gigi&#x27;), wife of the San Antonio builder; she was avant-garde and modern, bought land in Reeves County TX in April 1901, and died at childbirth giving birth to Aunt Mamie around 1900-1902; Shari says she was born in the 1870s and died at childbirth.</p>
 <p class="entity-meta">Mentioned at: 1:27, 5:00, 20:42</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>District Judge of the 22nd Judicial District for 17 uncontested years — from Brunswick army family to Texas bench</li></ul></div>
   </div>
 </details><details class="entity-card" id="p012">
   <summary>(unnamed) (d. 1934)</summary>
@@ -1514,6 +2325,7 @@ footer.colophon code {
 <p class="entity-meta">unrelated (University of Texas professor&#x27;s wife) (d. 1934)</p>
 <p>A University of Texas professor&#x27;s wife found dead in a hotel room with Claude Mattingly, possibly of overdose, in 1934 or 1935.</p>
 <p class="entity-meta">Mentioned at: 24:54</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>Bought Reeves County mineral rights in April 1901 — three months after Spindletop — whose royalties the family still receives</li></ul></div>
   </div>
 </details><details class="entity-card" id="p017">
   <summary>Zay</summary>
@@ -1605,20 +2417,12 @@ footer.colophon code {
 <p>Shari mentions a great-aunt&#x27;s family farm neighbor or associate who became governor of Texas; no name given.</p>
 <p class="entity-meta">Mentioned at: 15:00</p>
   </div>
-</details><details class="entity-card" id="p040">
-  <summary>May Teichmueller Mattingly (d. 1900)</summary>
-  <div class="entity-body">
-<p class="entity-meta">great-grandmother (paternal — Leroy&#x27;s mother) (d. 1900)</p>
-<p><strong>Occupation:</strong> (unknown)</p>
-<p><strong>Born:</strong> La Grange, Fayette County, Texas (likely)</p>
-<p>Daughter of Judge Hans Teichmueller (German immigrant). Married Ed Mattingly. Mother of Leroy Teichmuller Mattingly (1898), Claude Mattingly (~1899), and Aunt Mamie (1900-02). Per Shari, she &#x27;died at childbirth giving birth to Aunt Mamie&#x27; around 1900-02.</p>
-  </div>
 </details><details class="entity-card" id="p041">
-  <summary>Ed Mattingly</summary>
+  <summary>Edward Mattingly Sr.</summary>
   <div class="entity-body">
 <p class="entity-meta">great-grandfather (paternal — Leroy&#x27;s father)</p>
 <p><strong>Occupation:</strong> (possibly judge — Shari said &#x27;his father was a judge in Texas&#x27;; could conflict with Hans T being the documented judge)</p>
-<p>Father of Leroy Teichmuller Mattingly, Claude Mattingly, and Aunt Mamie. Married May Teichmueller. Lived in La Grange, Fayette County, Texas. Confirmed alive in 1934 when Claude died (his body was returned to Ed in La Grange). The Mattingly half of the Texas family, descending from the Maryland Catholic Mattinglys.</p>
+<p>Edward Mattingly Sr., assistant cashier of the First National Bank of La Grange (per 1902 Fayette County history). Married Mary &#x27;May&#x27; Teichmueller on September 1, 1894 — daughter of Judge Hans Teichmueller. May died Aug 28, 1900 leaving him a widower with 3 small children: Dr. Claude Mattingly, Leroy Teichmuller Mattingly (1898), and Aunt Mamie. Confirmed alive in La Grange January 1934 when Claude&#x27;s body was returned to him after his death at the Texan Hotel Austin.</p>
   </div>
 </details><details class="entity-card" id="p050">
   <summary>August Teichmueller</summary>
@@ -1628,24 +2432,18 @@ footer.colophon code {
 <p>Officer in the Brunswick Army. His death left the family in financial difficulty, prompting his son Hans to emigrate to Texas in 1856.</p>
   </div>
 </details><details class="entity-card" id="p051">
-  <summary>Charlotte (von Gursewald) Teichmueller</summary>
+  <summary>Charlotte Georgine Elisabeth (von Girsewaldt) Teichmüller</summary>
   <div class="entity-body">
 <p class="entity-meta">great-great-great-grandmother (Hans Teichmueller&#x27;s mother)</p>
-<p>Born von Gursewald — the &#x27;von&#x27; prefix indicates a minor noble or gentry family of the Duchy of Brunswick. Married August Teichmueller. Mother of Hans Teichmueller (1837–1901), the Texas judge.</p>
-  </div>
-</details><details class="entity-card" id="p052">
-  <summary>Augusta (Kellner) Teichmueller</summary>
-  <div class="entity-body">
-<p class="entity-meta">great-great-grandmother (Hans Teichmueller&#x27;s wife)</p>
-<p><strong>Born:</strong> Postoak Point, Austin County, Texas</p>
-<p>Daughter of &#x27;a highly educated teacher of modern languages.&#x27; Born at Postoak Point, Austin County, Texas. Married Hans Teichmueller June 16, 1858 (Colonel Henderson, JP). Widow and head of household in La Grange in 1902.</p>
+<p>Charlotte Georgine Elisabeth von Girsewaldt — corrected spelling per German Wikipedia and the German Wikipedia disambiguation page. The von Girsewaldt family are documented Braunschweig Freiherren (barons since 1827), a military dynasty with at least three Generalmajore (major generals) in succession: Gustav 1785-1864, his sons Gustav 1812-1871 and Alexander 1815-1890. Charlotte&#x27;s exact position in the family is UNVERIFIED — Wilhelm von Girsewald (brother of the 1785 Gustav) is the most probable candidate for her father. Gothaisches Genealogisches Taschenbuch der Freiherrlichen Häuser (1921) would resolve this.</p>
   </div>
 </details><details class="entity-card" id="p070">
-  <summary>Stephen de Mattingley</summary>
+  <summary>Stephen de Mattingley <span class="unverified-banner">? UNVERIFIED</span></summary>
   <div class="entity-body">
 <p class="entity-meta">etymological/regional ancestor (deepest verified Mattingley individual; direct genealogical link to Hunter not proven through 400-year gap)</p>
 <p><strong>Occupation:</strong> Lord of Mattingley (held lands of the manor)</p>
 <p><strong>Born:</strong> Mattingley, Hampshire, England</p>
+<div class="confidence-question-badge"><span class="qmark">?</span> <span>UNVERIFIED — needs primary source research. Genealogical descent not yet confirmed.</span></div>
 <p>DEEPEST VERIFIED &#x27;de Mattingley&#x27; individual. Documented in the Curia Regis Rolls of 1206 and the Victoria County History of Hampshire (BHO). Granted 6 virgates, 30 acres, meadows, and a mill at Mattingley to the Prior of Merton. His father Revelendus (lord of Mattingley, fl. after 1167) and son Peter de Mattingley are also confirmed in BHO VCH. After Peter sold the family&#x27;s land holdings in the 1220s–1240s, this surname line disappears from manorial records. The 400-year gap from 1240s to John Mattingly d.1641 is unfilled.</p>
   </div>
 </details><details class="entity-card" id="p071">
@@ -1664,11 +2462,12 @@ footer.colophon code {
 <p>Son of Stephen de Mattingley. Sold the family&#x27;s land holdings in the 1220s–1240s; after this, the de Mattingley line disappears from manorial records and the family likely continued as yeoman farmers in the area.</p>
   </div>
 </details><details class="entity-card" id="p073">
-  <summary>Ellis (lord of Mattingley)</summary>
+  <summary>Ellis (lord of Mattingley) <span class="unverified-banner">? UNVERIFIED</span></summary>
   <div class="entity-body">
 <p class="entity-meta">etymological/regional — earliest known Mattingley individual</p>
 <p><strong>Occupation:</strong> Lord of Mattingley (manor)</p>
 <p><strong>Born:</strong> Mattingley, Hampshire, England</p>
+<div class="confidence-question-badge"><span class="qmark">?</span> <span>UNVERIFIED — needs primary source research. Genealogical descent not yet confirmed.</span></div>
 <p>Earliest known person to bear the Mattingley territorial designation. Recorded in Pipe Roll 13 Henry II (1167) as lord of Mattingley. Predecessor of Revelendus.</p>
   </div>
 </details><h3>Living Family</h3><details class="entity-card" id="p000">
@@ -1686,6 +2485,7 @@ footer.colophon code {
 <p class="entity-meta">grandson <span class="confidence confidence-living">LIVING</span></p>
 <p>The interviewer (grandson). Surname Spence. Redacted in shareable version.</p>
 <p class="entity-meta">Mentioned at: 0:00, 14:00</p>
+<div class="entity-deeds"><p class="entity-deeds-title">Notable Achievements</p><ul><li>First named lord of Mattingley — recorded in the Pipe Roll of Henry II</li></ul></div>
   </div>
 </details><details class="entity-card" id="p020">
   <summary>David</summary>
@@ -3064,10 +3864,6 @@ footer.colophon code {
   <!-- D3 for the lineage tree -->
   <script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
 
-  <!-- Leaflet for the map -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin></script>
-
   <!-- vis-timeline for the timeline -->
   <link rel="stylesheet" href="https://unpkg.com/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
   <script src="https://unpkg.com/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
@@ -3462,7 +4258,7 @@ window.treeZoomReset = () => svg.transition().duration(420).call(zoomBehavior.tr
 function autoFitTree() {
   const bbox = g.node().getBBox();
   const containerW = svg.node().getBoundingClientRect().width || W;
-  const containerH = parseFloat(svg.attr("height")) || 1020;
+  const containerH = parseFloat(svg.attr("height")) || 1040;
   const scaleX = containerW / (bbox.width + M.left + M.right + 40);
   const scaleY = containerH / (bbox.height + M.top + M.bottom + 40);
   const scale = Math.min(scaleX, scaleY, 0.95);
@@ -3491,41 +4287,6 @@ if (timelineContainer && window.vis) {
     height: '360px',
     margin: { item: 8, axis: 12 },
   });
-}
-
-
-const mapContainer = document.getElementById('map-container');
-if (mapContainer && window.L) {
-  const map = L.map('map-container').setView([39.5, -90], 3);
-  // CartoDB Dark Matter — dark base tiles that match the archive aesthetic
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" style="color:#665a4e">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions" style="color:#665a4e">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 19,
-  }).addTo(map);
-  const points = [{"name": "Mattingley, Hampshire (origin village)", "lat": 51.2855, "lng": -0.955, "year": "pre-1660"}, {"name": "St Mary's City, Maryland (1660 arrival)", "lat": 38.1893, "lng": -76.4316, "year": "1660"}, {"name": "Boonesborough, Kentucky", "lat": 37.8884, "lng": -84.2697, "year": "1780s"}, {"name": "North Carolina (Pearl Baity)", "lat": 35.7596, "lng": -79.0193, "year": "1810\u20131875"}, {"name": "San Antonio, Texas (Mattingly + Baity)", "lat": 29.4241, "lng": -98.4936, "year": "1875\u2013today"}, {"name": "Kerrville, Texas (Pearl's summer home)", "lat": 30.0474, "lng": -99.1403, "year": "1900s"}, {"name": "Reeves County, TX (1901 oil land)", "lat": 31.4237, "lng": -103.4828, "year": "1901\u2013today"}, {"name": "Galveston, Texas (1880 immigration port)", "lat": 29.3013, "lng": -94.7977, "year": "1880"}, {"name": "St Louis, Missouri (1904 World's Fair)", "lat": 38.6356, "lng": -90.2842, "year": "1904"}, {"name": "Santa Monica, CA (Shari today)", "lat": 34.0195, "lng": -118.4912, "year": "2026"}];
-  const route = points.map(p => [p.lat, p.lng]);
-  // Gold migration route — illuminated manuscript line
-  L.polyline(route, {
-    color: '#d4a458',
-    weight: 2,
-    dashArray: '6, 10',
-    opacity: 0.65
-  }).addTo(map);
-  points.forEach((p, i) => {
-    const m = L.circleMarker([p.lat, p.lng], {
-      radius: 7,
-      fillColor: '#d4a458',
-      color: '#a07030',
-      fillOpacity: 0.8,
-      weight: 2
-    }).addTo(map);
-    m.bindPopup(
-      `<strong style="color:#d4a458">${p.name}</strong><br><em style="color:#9a8a78">${p.year}</em>`,
-      {className: 'dark-popup'}
-    );
-  });
-  map.fitBounds(L.polyline(route).getBounds().pad(0.15));
 }
 
   </script>

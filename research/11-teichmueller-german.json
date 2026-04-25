@@ -1,0 +1,348 @@
+{
+  "research_metadata": {
+    "date": "2026-04-25",
+    "researcher": "Claude Sonnet 4.6 (Researcher specialist)",
+    "primary_source": "Frank Lotto, Fayette County: Her History and Her People (Schulenburg: Sticker Steam Press, 1902; rpt. Austin: University of Texas Press, 1981) — digitized at https://archive.org/details/fayettecountyher00lott",
+    "secondary_sources": [
+      "Texas State Historical Association Handbook of Texas Online — 'Teichmueller, Hans' by Rudolph L. Biesele (1952, updated 2019): https://www.tshaonline.org/handbook/entries/teichmueller-hans",
+      "English Wikipedia — 'Gustav Teichmüller': https://en.wikipedia.org/wiki/Gustav_Teichm%C3%BCller",
+      "German Wikipedia — 'Gustav Teichmüller (Philosoph)': https://de.wikipedia.org/wiki/Gustav_Teichm%C3%BCller_(Philosoph)",
+      "WikiTree Teichmueller surname page: https://www.wikitree.com/genealogy/Teichmueller",
+      "WikiTree Hans Teichmueller (Teichmueller-3): https://www.wikitree.com/wiki/Teichmueller-3",
+      "WikiTree Mary Teichmueller Mattingly (Teichmueller-1): https://www.wikitree.com/wiki/Teichmueller-1",
+      "WikiTree Minette Pohl née Teichmueller (Teichmueller-4): https://www.wikitree.com/wiki/Teichmueller-4",
+      "WikiTree Louisa Teichmueller (Teichmueller-2): https://www.wikitree.com/wiki/Teichmueller-2",
+      "WikiTree Anna E. Teichmueller (Teichmueller-5): https://www.wikitree.com/wiki/Teichmueller-5",
+      "Wikipedia — 'Minette Teichmueller': https://en.wikipedia.org/wiki/Minette_Teichmueller",
+      "German Wikipedia disambiguation 'Girsewald': https://de.wikipedia.org/wiki/Girsewald",
+      "German Wikipedia — 'Gustav von Girsewald (Generalmajor, 1785)': https://de.wikipedia.org/wiki/Gustav_von_Girsewald_(Generalmajor,_1785)",
+      "German Wikipedia — 'Gustav von Girsewald (Generalmajor, 1812)': https://de.wikipedia.org/wiki/Gustav_von_Girsewald_(Generalmajor,_1812)",
+      "Basel University archived page on Gustav Teichmüller (2011): https://web.archive.org/web/20111127170425/http://www.unigeschichte.unibas.ch:80/fakultaeten-und-faecher/phil.hist.-fakultaet/zur-geschichte-der-phil.hist.-fakultaet/gustav-teichmueller.html",
+      "FamilySearch — Texas Deaths 1890-1976, Minette T Pohl: https://familysearch.org/ark:/61903/1:1:K36Z-VYY",
+      "FamilySearch — Texas Deaths 1890-1976, Annie Elizabeth Teichmueller: https://familysearch.org/ark:/61903/1:1:K34B-HSQ",
+      "Find A Grave — Hans Teichmueller (La Grange Cemetery): https://familysearch.org/ark:/61903/1:1:QVP9-MRD2",
+      "Find A Grave — Mary Teichmueller Mattingly (Memorial #57057870)",
+      "Hans Teichmueller, Biographical Sketch (Austin: Von Boeckmann-Jones, 1908) — cited in TSHA but not yet digitized online"
+    ]
+  },
+
+  "hans_teichmueller_full_profile": {
+    "given_name": "Hans",
+    "surname_variants": ["Teichmüller", "Teichmueller", "Teichmuller"],
+    "birth": {
+      "date": "1837-03-07",
+      "place": "Brunswick (Braunschweig), Duchy of Brunswick, German Confederation"
+    },
+    "death": {
+      "date": "1901-02-17",
+      "place": "La Grange, Fayette County, Texas, USA"
+    },
+    "burial": "La Grange Cemetery, La Grange, Fayette County, Texas",
+    "birth_order": "Third son (TSHA: 'the third son of an army officer')",
+    "education": [
+      "Public schools of Brunswick (Braunschweig)",
+      "Gymnasium of Blankenburg (in the Harz Mountains, now Saxony-Anhalt, ~40 km southeast of Brunswick) — graduated"
+    ],
+    "parents": {
+      "father": {
+        "name": "August Teichmüller",
+        "occupation": "Officer in the Brunswick army (Duchy of Brunswick military; Lotto 1902 says 'officer in the Brunswick army'; English Wikipedia for son Gustav says 'lieutenant in the Prussian army' — the Lotto 1902 is the nearer primary source; Basel Univ. archive says 'pensionierter Soldat' / retired soldier)",
+        "death_note": "Died before 1856, causing financial hardship that prompted both sons (Gustav and Hans) to abandon planned university careers. Gustav turned to tutoring; Hans emigrated to Texas.",
+        "confidence": "CONFIRMED — named in Lotto 1902 (primary), confirmed by Wikipedia article on son Gustav Teichmüller"
+      },
+      "mother": {
+        "name": "Charlotte Georgine Elisabeth Teichmüller, née von Girsewaldt / von Girsewald / von Gursewald",
+        "maiden_name_variants": ["von Girsewaldt (Wikipedia)", "von Girsewald (German sources)", "von Gursewald (Lotto 1902 OCR artifact)"],
+        "family_background": "From a Braunschweig officer/noble family. The von Girsewald family are documented Braunschweig nobles: Freiherren elevated 1827. Notable members include Generalmajor Gustav von Girsewald (1785-1864) and his sons Generalmajor Gustav (1812-1871) and Generalmajor Alexander (1815-1890). Charlotte's exact relationship within the von Girsewald family is unconfirmed in accessible online sources — she is not listed as a daughter of either documented Generalmajor. She may be from a different branch or a sister-line not covered in Wikipedia articles.",
+        "english_wiki_note": "English Wikipedia (Gustav Teichmüller article) names her 'Charlotte Georgine Elisabeth Teichmüller, née von Girsewaldt' — this detail traces to the now-404 Basel University source (2011 Wayback snapshot says only 'seine Mutter stammte aus einer Offiziersfamilie' / 'his mother came from an officer's family').",
+        "confidence": "PROBABLE — maiden name von Girsewald confirmed by two independent Wikipedia articles; full forenames 'Charlotte Georgine Elisabeth' from English Wikipedia citing Basel source; the specific branch of the von Girsewald family is UNVERIFIED"
+      }
+    },
+    "siblings": [
+      {
+        "name": "Gustav Teichmüller",
+        "birth": "1832-11-19",
+        "birth_place": "Braunschweig, Duchy of Brunswick",
+        "death": "1888-05-22",
+        "death_place": "Dorpat (Tartu), Livonia, Russian Empire (now Estonia)",
+        "occupation": "Professor of Philosophy; taught at University of Basel (1868-1871) and Imperial University of Dorpat (1871-1888). His works influenced Friedrich Nietzsche's perspectivism.",
+        "relationship": "Older brother — born 5 years before Hans; both orphaned by father's death and forced to abandon planned careers",
+        "confidence": "CONFIRMED — named in same parental line by both English and German Wikipedia; Lotto 1902 birth narrative matches Gustav's German Wikipedia article exactly"
+      },
+      {
+        "name": "At least one additional older brother (unnamed)",
+        "note": "TSHA says Hans was 'the third son' — Gustav is one older brother; at least one more older brother existed between Gustav (b.1832) and Hans (b.1837).",
+        "confidence": "POSSIBLE — based solely on TSHA phrasing; no name in any accessible source"
+      }
+    ],
+    "emigration": {
+      "year": 1856,
+      "reason": "Father August's death left family in financial straits; Hans abandoned plan to study theology and emigrated to Texas",
+      "first_contact_in_Texas": "Old man Fordtrau of Industry (Austin County, Texas) — gave him advice about conditions in the country",
+      "cousin_in_Texas": "Arthur Meerscheidt, who lived on a farm in Fayette County — Hans came specifically to join him (TSHA). Meerscheidt later became Hans's law partner.",
+      "route": "Brunswick → New York (briefly as cabin boy/sailor, age ~14-15, then returned to Germany) → emigrated permanently 1856, landing in Texas via New York or Galveston. First settled at Shelby, then Postoak Point, then High Hill (1861)",
+      "confidence": "CONFIRMED — Lotto 1902 and TSHA agree on year and circumstances"
+    },
+    "spouse": {
+      "name": "Augusta Dorthea Elizabeth Kellner",
+      "birth": "1843-03-25",
+      "birth_place": "Germany (WikiTree; the TSHA says she was born at Postoak Point, Austin County, Texas — discrepancy: WikiTree may be recording the father's origin, not Augusta's)",
+      "death": "1915-07-09",
+      "death_place": "Unknown (she was widowed in La Grange from 1901; Texas death record)",
+      "father": "Unknown name; described in Lotto 1902 as 'a highly educated teacher of modern languages.' TSHA adds that this teacher taught Hans English when Hans first arrived in Fayette County — the marriage was thus partly a student-teacher family connection.",
+      "marriage_date": "1858-06-10",
+      "marriage_date_note": "Lotto 1902 primary text (digitized) clearly reads 'June 10, 1858.' TSHA (1952, Biesele) says 'June 16, 1858' — this appears to be a transcription error in the TSHA article.",
+      "marriage_place": "Postoak Point, Austin County, Texas",
+      "officiant": "Colonel Henderson, then justice of the peace",
+      "confidence": "CONFIRMED — name, marriage date/place from Lotto 1902 (primary); birth date from WikiTree citing Texas death records"
+    },
+    "career": [
+      "1856-1861: Farmed at Postoak Point / High Hill area, Fayette County — unsuccessful",
+      "1861-1866: Taught school during Civil War at New Ulm; read law simultaneously; served briefly as secretary of a militia at Brenham",
+      "1866-05-16: Passed bar examination; entered law firm of L. Lindsey (Judge) and B.D. Shropshire (Judge)",
+      "1869-1870: County Judge of Fayette County — filled unexpired term of Reinhardt Hillebrandt; deposed by military order in 1870 (Reconstruction era)",
+      "1870s: Law partnerships with Major Phelps, then Major Dunn, then Dunn + Meerscheidt",
+      "1884-1901: Elected District Judge, 22nd Judicial District of Texas — continuously without opposition; held until death",
+      "Legal writing: Two papers before Bar Association of Texas; articles on trusts, economic freedom, constitutional expansion, American jurisprudence, bankruptcy; planned a book on homestead law"
+    ],
+    "children": [
+      {
+        "name": "Louisa Teichmueller",
+        "birth": "abt. Sep 1862",
+        "birth_place": "Texas",
+        "death": "abt. Aug 1870",
+        "death_note": "Died before age 8; appeared in 1870 census as age 7, then disappeared. Mother's account (per WikiTree) says she died 'shy of her eighth birthday.'",
+        "confidence": "CONFIRMED — FamilySearch 1870 census; WikiTree profile Teichmueller-2"
+      },
+      {
+        "name": "Mary (May) Teichmueller Mattingly",
+        "birth": "1867-12-16",
+        "birth_place": "Texas",
+        "death": "1900-08-28",
+        "death_place": "La Grange, Fayette County, Texas",
+        "burial": "La Grange Cemetery",
+        "marriage": "Edward Mattingly Sr., married 1 Sep 1894, La Grange, Fayette County, Texas",
+        "marriage_note": "Lotto 1902 says she died 'two years ago' (relative to 1902 publication), confirming ~1900 death. Ed Mattingly was assistant cashier of the First National Bank of La Grange.",
+        "children_of_marriage": [
+          "Claude Mattingly",
+          "Leroy Teichmueller Mattingly (b. 1898) — named for maternal grandfather Hans",
+          "Mamie Mattingly"
+        ],
+        "confidence": "CONFIRMED — Lotto 1902, Find A Grave #57057870, WikiTree Teichmueller-1, multiple census records"
+      },
+      {
+        "name": "Minette (Minnetta) Teichmueller Pohl",
+        "birth": "1871-01-27",
+        "birth_place": "La Grange, Texas",
+        "death": "1970-08-28",
+        "death_place": "Nacogdoches, Nacogdoches County, Texas",
+        "lifespan_note": "Lived to age 99",
+        "marriage_1": "E. R. (Earl P.) Richardson, 22 Jan 1913, Bexar County, Texas",
+        "marriage_2_note": "Death certificate surname is 'Pohl' — she later married Hugo Pohl",
+        "occupation": "Muralist; WPA Federal Art Project artist. Known for 'The Law, Texas Rangers' mural at Smithville, Texas post office.",
+        "confidence": "CONFIRMED — Wikipedia, Texas death certificate (FamilySearch ark:/61903/1:1:K36Z-VYY), WikiTree Teichmueller-4"
+      },
+      {
+        "name": "Anna E. (Annie Elizabeth) Teichmueller",
+        "birth": "1874-11-28",
+        "birth_place": "La Grange, Texas",
+        "death": "1961-01-13",
+        "death_place": "San Antonio, Bexar County, Texas",
+        "marital_status": "Single (never married per death certificate)",
+        "later_life": "Lived with sister Minette in San Antonio after 1920; died in San Antonio at age 86",
+        "confidence": "CONFIRMED — Texas death certificate (FamilySearch ark:/61903/1:1:K34B-HSQ), WikiTree Teichmueller-5"
+      },
+      {
+        "name": "Fifth child (unnamed in all accessible sources)",
+        "note": "Lotto 1902 says 'five children' total. Four are named above (Louisa, Mary, Minette, Anna). The fifth is not named in Lotto 1902 biography (which only names the three surviving daughters at time of writing), nor in any WikiTree profile. No further record found.",
+        "confidence": "POSSIBLE — Lotto 1902 states 'five children' without naming all five"
+      }
+    ],
+    "sources": [
+      "Lotto 1902 (primary, digitized): https://archive.org/details/fayettecountyher00lott",
+      "TSHA Handbook entry: https://www.tshaonline.org/handbook/entries/teichmueller-hans",
+      "WikiTree Teichmueller-3: https://www.wikitree.com/wiki/Teichmueller-3",
+      "Wikipedia Gustav Teichmüller: https://en.wikipedia.org/wiki/Gustav_Teichm%C3%BCller"
+    ],
+    "confidence": "CONFIRMED (Hans's Texas life and family); PROBABLE (German parents' identities); POSSIBLE (von Girsewald branch affiliation)"
+  },
+
+  "ancestral_chain_germany": [
+    {
+      "generation_offset": -1,
+      "relationship_to_hans": "Father",
+      "full_name": "August Teichmüller",
+      "birth": {
+        "year": null,
+        "place": "Duchy of Brunswick (presumed)"
+      },
+      "death": {
+        "year_range": "before 1856 (likely ~1850-1855)",
+        "place": "Brunswick, Duchy of Brunswick (presumed)"
+      },
+      "occupation": "Officer, Duchy of Brunswick army (Lotto 1902: 'officer in the Brunswick army'); described as 'pensionierter Soldat' (retired soldier) in Basel University source",
+      "spouse": "Charlotte Georgine Elisabeth von Girsewaldt",
+      "children_known": ["Gustav Teichmüller (b. 1832)", "at least one unnamed son (second son)", "Hans Teichmüller (b. 1837, third son)"],
+      "sources": ["Lotto 1902 p.230 (primary)", "Wikipedia: Gustav Teichmüller"],
+      "confidence": "CONFIRMED (name, military status, death timing); UNVERIFIED (birth year, death date, rank)"
+    },
+    {
+      "generation_offset": -1,
+      "relationship_to_hans": "Mother",
+      "full_name": "Charlotte Georgine Elisabeth von Girsewaldt (married: Teichmüller)",
+      "maiden_name": "von Girsewaldt / von Girsewald",
+      "birth": {
+        "year_estimate": "~1800-1815",
+        "place": "Duchy of Brunswick (presumed — von Girsewald family is documented in Braunschweig)"
+      },
+      "death": {
+        "year": null,
+        "place": "Unknown"
+      },
+      "family_background": "From a soldier/officer family (Basel source); the von Girsewald family of Braunschweig were elevated to Freiherren (barons) in 1827",
+      "sources": [
+        "Lotto 1902 p.230 (gives maiden name as 'von Gursewald' — OCR artifact)",
+        "English Wikipedia — Gustav Teichmüller (gives full name as 'Charlotte Georgine Elisabeth née von Girsewaldt')",
+        "Basel University archived page 2011 (says 'seine Mutter stammte aus einer Offiziersfamilie')"
+      ],
+      "confidence": "PROBABLE (maiden name von Girsewald); POSSIBLE (full forenames Charlotte Georgine Elisabeth — from one Wikipedia article citing a now-404 source)"
+    },
+    {
+      "generation_offset": -2,
+      "relationship_to_hans": "Maternal grandfather (Charlotte's father)",
+      "full_name": "Unknown — member of the von Girsewald family of Braunschweig",
+      "note": "The von Girsewald disambiguation article (de.Wikipedia) lists three notable members: Gustav (1785-1864), Gustav (1812-1871), and Alexander (1815-1890). Charlotte was born ~1800-1815. The 1785 Gustav's only documented children are sons Gustav (b.1812) and Alexander (b.1815) — no daughters listed. The Gothaisches Genealogisches Taschenbuch der Freiherrlichen Häuser (1921, p.298) covers the full family tree but is not digitized online. There may be a 'Wilhelm von Girsewald' branch — the 1785 Gustav article mentions a brother Wilhelm who joined the 1809 Dörnberg uprising with him.",
+      "sources": ["German Wikipedia Girsewald disambiguation", "German Wikipedia Gustav von Girsewald 1785 article", "Gothaisches Taschenbuch 1921 (cited but inaccessible)"],
+      "confidence": "UNVERIFIED — family identified, specific individual within family not confirmed"
+    },
+    {
+      "generation_offset": -2,
+      "relationship_to_hans": "Paternal grandfather",
+      "full_name": "Unknown Teichmüller",
+      "note": "No accessible source names August's parents. The Teichmüller surname is documented in Braunschweig area but no pre-August genealogical records were found in accessible digitized archives.",
+      "sources": [],
+      "confidence": "UNVERIFIED"
+    }
+  ],
+
+  "maternal_von_girsewald_family": {
+    "note": "The von Girsewald family are documented Braunschweig nobles. Charlotte's exact position within this family is unconfirmed. Below are the confirmed family members from Wikipedia.",
+    "confirmed_members": [
+      {
+        "name": "Conrad Alexander Gustav von Girsewald (Freiherr since 1827)",
+        "birth": "1785-06-06, Braunschweig",
+        "death": "1864-01-23, Braunschweig",
+        "rank": "Generalmajor, Oberstallmeister (Master of the Horse), Kammerherr (Chamberlain) of the Duchy of Brunswick",
+        "wife": "Katharina Raines (1787-1857)",
+        "children": ["Gustav Wilhelm Heinrich Ernst von Girsewald (1812-1871)", "Alexander von Girsewald (1815-1890)"],
+        "note": "Fought in the Napoleonic Wars with the Schwarze Schar (Black Corps) of Duke Friedrich Wilhelm of Brunswick. Elevated to Freiherr (baron) 1827.",
+        "sources": ["German Wikipedia: https://de.wikipedia.org/wiki/Gustav_von_Girsewald_(Generalmajor,_1785)"]
+      },
+      {
+        "name": "Gustav Wilhelm Heinrich Ernst Freiherr von Girsewald",
+        "birth": "1812-12-20, York, Ireland (born during family's British service)",
+        "death": "1871-07-09, Braunschweig",
+        "rank": "Generalmajor, Brunswick Infantry Regiment",
+        "wife": "Charlotte von Bülow (1819-1876), married 1843",
+        "children": ["Brunhilde (b.1845, married Hugo Löbbecke 1867)", "Katharina (1858-1922, married Generalleutnant Hans von Pawel 1879)"],
+        "note": "Charlotte von Bülow's daughters were born 1845 and 1858 — too young to be Hans Teichmüller's mother",
+        "sources": ["German Wikipedia: https://de.wikipedia.org/wiki/Gustav_von_Girsewald_(Generalmajor,_1812)"]
+      },
+      {
+        "name": "Alexander von Girsewald",
+        "birth": "1815",
+        "death": "1890",
+        "rank": "Generalmajor, Oberstallmeister (Master of the Horse)",
+        "note": "Younger brother of 1812 Gustav; no Wikipedia article exists for him",
+        "sources": ["Mentioned in 1785 Gustav and 1812 Gustav Wikipedia articles"]
+      },
+      {
+        "name": "Wilhelm von Girsewald",
+        "note": "Brother of the 1785 Gustav (mentioned in Dörnberg uprising). Appears in Braunschweigisches Biographisches Lexikon (vol. I, p.211). No Wikipedia article found. This branch may be Charlotte's line.",
+        "sources": ["Braunschweigisches Biographisches Lexikon register (German Wikipedia)"]
+      }
+    ]
+  },
+
+  "siblings_with_descendants": [
+    {
+      "name": "Gustav Teichmüller",
+      "birth": "1832-11-19",
+      "birth_place": "Braunschweig",
+      "death": "1888-05-22",
+      "death_place": "Dorpat (now Tartu), Estonia",
+      "fate": "Distinguished philosopher; Professor at Basel (1868-1871) and Dorpat (1871-1888). His work influenced Nietzsche. Died of stomach cancer.",
+      "marriages": [
+        "Anna Cramer (daughter of Estonian landowner), married 1858; she died ~1862 after birth of second daughter",
+        "Lina Cramer (Anna's sister, his sister-in-law), second marriage; had 8 more children with her"
+      ],
+      "children": [
+        "Anna Teichmüller (b.1861, first wife Anna Cramer)",
+        "Lina Teichmüller (b.~1862, first wife; mother died at birth)",
+        "8 more children with Lina Cramer (names not documented in accessible online sources)"
+      ],
+      "sources": ["English Wikipedia", "German Wikipedia", "Basel University 2011 archive"]
+    },
+    {
+      "name": "Second son (Hans's unnamed older brother)",
+      "note": "TSHA says Hans was 'the third son' — a second son between Gustav (b.1832) and Hans (b.1837) is implied but unnamed in all accessible sources.",
+      "confidence": "POSSIBLE"
+    }
+  ],
+
+  "kellner_family": {
+    "note": "Augusta Kellner's family is documented only as 'a highly educated teacher of modern languages' at Postoak Point, Austin County, Texas. He taught Hans English when Hans first arrived. No first name for the father is given in any accessible source. WikiTree records Augusta's birthplace as 'Germany' suggesting the Kellner family also emigrated from Germany. The connection between the Kellner language teacher and Hans was educational before it was familial.",
+    "augusta_profile": {
+      "full_name": "Augusta Dorthea Elizabeth Kellner",
+      "birth": "1843-03-25",
+      "birth_place": "Germany (WikiTree); or Postoak Point, Austin County, Texas (TSHA implies Texas-born)",
+      "death": "1915-07-09",
+      "father_occupation": "Highly educated teacher of modern languages, Postoak Point, Austin County, Texas",
+      "note_on_birthplace_discrepancy": "WikiTree says 'Germany' for birthplace; TSHA implies she was born at Postoak Point. If born 25 Mar 1843 in Texas, the family emigrated before 1843. If born in Germany, they emigrated when Augusta was a young child. Either is plausible for German Texans of that era."
+    }
+  },
+
+  "emigration_context": {
+    "timing": "Hans emigrated in 1856, after his father August's death. This is post-1848 but the 1902 book does not frame Hans as a political refugee — the cause was economic (father's death, family poverty).",
+    "brunswick_to_texas_corridor": "The Duchy of Brunswick was a significant source of Texas German immigrants. The Adelsverein (Society for Protection of German Immigrants in Texas) 1844-1853 focused on central Texas counties including Fayette and Austin counties — exactly where Hans landed. By 1856 the Adelsverein had dissolved but the German community in these counties was well established.",
+    "first_contact": "Hans's first contact in Texas was 'old man Fordtrau of Industry' — Industry (Austin County) was one of Texas's earliest German settlements, founded by Friedrich Ernst in 1831.",
+    "cousin_connection": "Arthur Meerscheidt in Fayette County was Hans's cousin — this is a family chain migration pattern, not a political exodus.",
+    "naturalization_note": "Hans must have naturalized to serve as county judge (1869) and district judge (1884-1901). Fayette County or Travis County naturalization records would confirm year, but were not accessed. The 1900 census record (Hans is enumerated as head of household at La Grange) would record his immigration year, but the FamilySearch page is blocked. WikiTree cites the 1900 census as: FamilySearch ark:/61903/1:1:M3GQ-SRC."
+  },
+
+  "open_questions": [
+    "Exact birth and death dates/place for August Teichmüller — NOT in any accessible digitized source; Niedersächsisches Landesarchiv (Braunschweig) holds civil and church records",
+    "Charlotte von Girsewald's exact parentage — which branch of the von Girsewald family? The Gothaisches Genealogisches Taschenbuch der Freiherrlichen Häuser (1921, p.298) covers the Girsewald Freiherren but is not digitized; requires archive access",
+    "The 'second son' between Gustav (1832) and Hans (1837) — unnamed in all sources; TSHA says Hans was 'the third son'",
+    "Identity of the fifth Teichmueller child in Texas (Lotto 1902 says 'five children'; only four are named in accessible records)",
+    "Augusta Kellner's father's full name — unnamed in all sources; Austin County Texas records from the 1850s-1860s may help",
+    "Hans's immigration year recorded in 1900 census — FamilySearch ark:/61903/1:1:M3GQ-SRC (blocked but accessible with account)",
+    "Naturalization record for Hans — would confirm exact year and county",
+    "The 1908 biographical sketch 'Hans Teichmueller, Biographical Sketch' (Austin: Von Boeckmann-Jones, 1908) — cited in TSHA bibliography; not digitized online; UT Austin or Texas State Library may hold a copy",
+    "Kellner family origins in Germany — if Augusta was born in Germany (WikiTree), their emigration records would be in German sources"
+  ],
+
+  "deepest_verifiable_german_ancestor": {
+    "name": "August Teichmüller (paternal line) / von Girsewald family (maternal line)",
+    "paternal_deepest": {
+      "name": "August Teichmüller",
+      "generation": "Hans's father (one generation back)",
+      "year_active": "~1800-1856",
+      "source": "Lotto 1902 (primary) and Wikipedia (via son Gustav)"
+    },
+    "maternal_deepest_confirmed": {
+      "name": "Conrad Alexander Gustav von Girsewald (Freiherr)",
+      "generation": "Likely Hans's maternal great-uncle or in-law generation; exact relationship to Charlotte unconfirmed",
+      "birth_year": 1785,
+      "death_year": 1864,
+      "source": "German Wikipedia: https://de.wikipedia.org/wiki/Gustav_von_Girsewald_(Generalmajor,_1785)"
+    },
+    "maternal_deepest_possible_for_charlotte": {
+      "name": "Wilhelm von Girsewald (brother of the 1785 Gustav)",
+      "generation": "Charlotte's probable father if from the Wilhelm branch",
+      "year_active": "~1785-1830s",
+      "source": "Referenced in 1809 Dörnberg uprising accounts; listed in Braunschweigisches Biographisches Lexikon vol. I p.211 — not accessible online",
+      "confidence": "UNVERIFIED"
+    }
+  }
+}

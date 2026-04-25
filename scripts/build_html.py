@@ -8,12 +8,15 @@ Inputs:
   research/03-pohl-monette-art.md (if present)
   research/04-english-origins.md (if present)
   research/05-scandal-and-loose-ends.md (if present)
+  research/13-portraits-and-images.json (if present — portrait URLs per person id)
+  research/14-notable-deeds.json (if present — notable deeds per person/place)
 
 Outputs:
   output/grandma-shari-family-history.html  (full version, family-only)
   output/grandma-shari-family-history-public.html  (redacted version, shareable)
 
-The HTML is one file with inline CSS and inline JS. Uses CDN for Leaflet + vis-timeline.
+The HTML is one file with inline CSS and inline JS. Uses CDN for D3 + vis-timeline.
+Leaflet replaced with a custom cinematic SVG migration map (v3).
 """
 import html
 import json
@@ -25,6 +28,8 @@ WORKSPACE = Path(r"C:\Users\hspen\.openclaw\workspace\family-history")
 TRANSCRIPT = WORKSPACE / "transcripts" / "final.md"
 ENTITIES = WORKSPACE / "research" / "entities.json"
 RESEARCH_DIR = WORKSPACE / "research"
+PORTRAITS_JSON = WORKSPACE / "research" / "13-portraits-and-images.json"
+DEEDS_JSON = WORKSPACE / "research" / "14-notable-deeds.json"
 OUT_FAMILY = WORKSPACE / "output" / "grandma-shari-family-history.html"
 OUT_PUBLIC = WORKSPACE / "output" / "grandma-shari-family-history-public.html"
 AUDIO_REL = "../audio/source.m4a"
@@ -403,16 +408,21 @@ p { margin: 0 0 1em; }
   line-height: 1.85;
 }
 
-/* Drop cap — illuminated manuscript style, gold on dark */
+/* Drop cap — illuminated manuscript style, gold on dark — v3: enlarged & more dramatic */
 .transcript-turn:first-child .text p:first-child::first-letter {
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 4.2em;
+  font-size: 5.8em;
   font-weight: 700;
   float: left;
-  line-height: 0.78;
-  margin: 0.04em var(--sp-sm) 0 -0.04em;
+  line-height: 0.72;
+  margin: 0.04em 0.12em 0 -0.06em;
   color: var(--accent-gold);
-  text-shadow: 0 0 20px rgba(212, 164, 88, 0.4);
+  text-shadow:
+    0 0 30px rgba(212, 164, 88, 0.55),
+    0 0 60px rgba(212, 164, 88, 0.2),
+    2px 3px 8px rgba(0,0,0,0.7);
+  /* Faint inner gold border effect via filter */
+  filter: drop-shadow(0 0 2px rgba(212, 164, 88, 0.6));
 }
 
 /* Hunter's turns — recessed into background, interjection feel */
@@ -915,6 +925,342 @@ footer.colophon code {
 }
 
 /* =========================================================
+   HERO CINEMATIC PARTICLES  (v3)
+   Floating dust motes — CSS animation only, no JS
+   ========================================================= */
+
+.cover-particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.cover-particles span {
+  position: absolute;
+  display: block;
+  background: rgba(212, 164, 88, 0.55);
+  border-radius: 50%;
+  animation: particleDrift linear infinite;
+}
+
+/* 16 particles with staggered sizes, positions, durations */
+.cover-particles span:nth-child(1)  { width: 2px; height: 2px; left: 10%; animation-duration: 18s; animation-delay:  0s; }
+.cover-particles span:nth-child(2)  { width: 3px; height: 3px; left: 22%; animation-duration: 24s; animation-delay: -7s; opacity: 0.4; }
+.cover-particles span:nth-child(3)  { width: 2px; height: 2px; left: 35%; animation-duration: 20s; animation-delay: -3s; opacity: 0.6; }
+.cover-particles span:nth-child(4)  { width: 1px; height: 1px; left: 48%; animation-duration: 16s; animation-delay: -12s; }
+.cover-particles span:nth-child(5)  { width: 3px; height: 3px; left: 58%; animation-duration: 22s; animation-delay:  -5s; opacity: 0.35; }
+.cover-particles span:nth-child(6)  { width: 2px; height: 2px; left: 70%; animation-duration: 19s; animation-delay: -9s; }
+.cover-particles span:nth-child(7)  { width: 1px; height: 1px; left: 82%; animation-duration: 25s; animation-delay: -2s; opacity: 0.5; }
+.cover-particles span:nth-child(8)  { width: 4px; height: 4px; left: 92%; animation-duration: 28s; animation-delay: -14s; opacity: 0.25; }
+.cover-particles span:nth-child(9)  { width: 2px; height: 2px; left: 15%; animation-duration: 21s; animation-delay: -6s; opacity: 0.7; }
+.cover-particles span:nth-child(10) { width: 1px; height: 1px; left: 42%; animation-duration: 17s; animation-delay: -10s; }
+.cover-particles span:nth-child(11) { width: 3px; height: 3px; left: 63%; animation-duration: 23s; animation-delay: -4s; opacity: 0.45; }
+.cover-particles span:nth-child(12) { width: 2px; height: 2px; left: 77%; animation-duration: 20s; animation-delay: -8s; opacity: 0.6; }
+.cover-particles span:nth-child(13) { width: 1px; height: 1px; left: 88%; animation-duration: 15s; animation-delay: -1s; }
+.cover-particles span:nth-child(14) { width: 2px; height: 2px; left:  5%; animation-duration: 26s; animation-delay: -15s; opacity: 0.4; }
+.cover-particles span:nth-child(15) { width: 3px; height: 3px; left: 30%; animation-duration: 30s; animation-delay: -11s; opacity: 0.3; }
+.cover-particles span:nth-child(16) { width: 1px; height: 1px; left: 55%; animation-duration: 18s; animation-delay: -16s; opacity: 0.65; }
+
+@keyframes particleDrift {
+  0%   { transform: translateY(120%) translateX(0) scale(0.8); opacity: 0; }
+  10%  { opacity: 1; }
+  50%  { transform: translateY(40%) translateX(15px) scale(1); }
+  90%  { opacity: 0.8; }
+  100% { transform: translateY(-20%) translateX(-10px) scale(1.1); opacity: 0; }
+}
+
+/* Animated gradient shimmer behind the hero title */
+@keyframes heroGlow {
+  0%, 100% { opacity: 0.04; }
+  50%       { opacity: 0.10; }
+}
+
+header.cover .cover-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 55% 60% at 50% 55%, #d4a458 0%, transparent 70%);
+  animation: heroGlow 6s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+header.cover > *:not(.cover-particles):not(.cover-glow) {
+  position: relative;
+  z-index: 1;
+}
+
+/* =========================================================
+   PORTRAIT CARDS IN ENTITY DETAILS  (v3)
+   ========================================================= */
+
+.entity-portrait-wrap {
+  float: right;
+  margin: 0 0 var(--sp-md) var(--sp-md);
+  clear: right;
+}
+
+.entity-portrait {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 2px solid var(--accent-gold);
+  box-shadow:
+    0 0 0 4px rgba(212, 164, 88, 0.12),
+    0 4px 20px rgba(0,0,0,0.6),
+    inset 0 0 8px rgba(0,0,0,0.4);
+  object-fit: cover;
+  overflow: hidden;
+  background: var(--paper-raised);
+}
+
+.entity-portrait-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 1px dashed rgba(212, 164, 88, 0.25);
+  background: var(--paper-raised);
+  color: var(--ink-ghost);
+  font-size: 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+/* Notable Achievements sub-section in entity cards */
+.entity-deeds {
+  margin-top: var(--sp-md);
+  padding-top: var(--sp-sm);
+  border-top: 1px solid var(--rule);
+}
+
+.entity-deeds-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: var(--fs-sm);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-gold-light);
+  margin: 0 0 var(--sp-sm);
+}
+
+.entity-deeds ul {
+  margin: 0;
+  padding-left: var(--sp-lg);
+  font-size: 0.9em;
+}
+
+.entity-deeds li {
+  color: var(--ink-soft);
+  margin-bottom: var(--sp-xs);
+}
+
+/* =========================================================
+   CONFIDENCE BADGE "?" — POSSIBLE / UNVERIFIED  (v3)
+   Visually impossible to miss
+   ========================================================= */
+
+/* Used in entity detail cards */
+.confidence-question-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(200, 112, 96, 0.12);
+  border: 1px solid rgba(200, 112, 96, 0.35);
+  border-radius: 4px;
+  padding: 4px 10px;
+  margin: var(--sp-sm) 0;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: var(--fs-sm);
+  color: #d07868;
+}
+
+.confidence-question-badge .qmark {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: var(--accent-gold);
+  text-shadow: 0 0 8px rgba(212, 164, 88, 0.5);
+}
+
+/* The UNVERIFIED banner that goes across entity summary */
+.unverified-banner {
+  display: inline-block;
+  font-family: 'Lora', Georgia, serif;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: rgba(200, 112, 96, 0.2);
+  color: #e08a7a;
+  border: 1px solid rgba(200, 112, 96, 0.4);
+  border-radius: 3px;
+  padding: 2px 8px;
+  margin-left: var(--sp-sm);
+  vertical-align: middle;
+}
+
+/* =========================================================
+   CINEMATIC MIGRATION MAP  (v3)
+   Full-bleed, 600px tall, custom SVG vintage cartography
+   ========================================================= */
+
+#map-section {
+  margin-left: calc(-1 * var(--sp-lg));
+  margin-right: calc(-1 * var(--sp-lg));
+}
+
+#map-section h2 {
+  margin-left: var(--sp-lg);
+  margin-right: var(--sp-lg);
+}
+
+#map-section > p {
+  margin-left: var(--sp-lg);
+  margin-right: var(--sp-lg);
+}
+
+#migration-map-container {
+  position: relative;
+  background: #0e0b08;
+  border-top: 1px solid rgba(212, 164, 88, 0.18);
+  border-bottom: 1px solid rgba(212, 164, 88, 0.18);
+  overflow: hidden;
+  /* No fixed height — the SVG viewBox drives height via aspect ratio */
+}
+
+#migration-map-svg {
+  display: block;
+  width: 100%;
+  /* SVG viewBox 900x600 — 3:2 ratio; lets it scale responsively */
+}
+
+/* Map tooltip / hover card */
+.map-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--paper-raised);
+  border: 1px solid rgba(212, 164, 88, 0.5);
+  border-top: 2px solid var(--accent-gold);
+  border-radius: 0 6px 6px 6px;
+  padding: 12px 16px;
+  min-width: 220px;
+  max-width: 300px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.7), 0 0 0 1px rgba(212,164,88,0.08);
+  z-index: 20;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.map-tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.map-tooltip-name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+  margin-bottom: 3px;
+}
+
+.map-tooltip-year {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.7rem;
+  color: var(--ink-ghost);
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+
+.map-tooltip-body {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
+
+/* Map animation — the polyline draws itself on load */
+#migration-path {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: drawPath 3.5s ease-out 0.6s forwards;
+}
+
+@keyframes drawPath {
+  to { stroke-dashoffset: 0; }
+}
+
+/* Location markers pulse on hover */
+.map-location {
+  cursor: pointer;
+}
+
+.map-marker-pulse {
+  transform-origin: center;
+  animation: markerPulse 2.8s ease-in-out infinite;
+}
+
+@keyframes markerPulse {
+  0%, 100% { opacity: 0.15; transform: scale(1); }
+  50%       { opacity: 0.4;  transform: scale(1.6); }
+}
+
+/* Stagger each location's pulse */
+.map-location:nth-child(1)  .map-marker-pulse { animation-delay: 0.0s; }
+.map-location:nth-child(2)  .map-marker-pulse { animation-delay: 0.3s; }
+.map-location:nth-child(3)  .map-marker-pulse { animation-delay: 0.6s; }
+.map-location:nth-child(4)  .map-marker-pulse { animation-delay: 0.9s; }
+.map-location:nth-child(5)  .map-marker-pulse { animation-delay: 1.2s; }
+.map-location:nth-child(6)  .map-marker-pulse { animation-delay: 1.5s; }
+.map-location:nth-child(7)  .map-marker-pulse { animation-delay: 1.8s; }
+.map-location:nth-child(8)  .map-marker-pulse { animation-delay: 2.1s; }
+.map-location:nth-child(9)  .map-marker-pulse { animation-delay: 2.4s; }
+.map-location:nth-child(10) .map-marker-pulse { animation-delay: 2.7s; }
+
+/* Map legend */
+.map-legend {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  background: rgba(14, 11, 8, 0.85);
+  border: 1px solid rgba(212, 164, 88, 0.2);
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 0.7rem;
+  font-family: 'Lora', Georgia, serif;
+  color: var(--ink-ghost);
+  line-height: 1.8;
+  backdrop-filter: blur(4px);
+}
+
+.map-legend strong {
+  color: var(--accent-gold);
+  display: block;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  margin-bottom: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #migration-path { animation: none; stroke-dashoffset: 0; }
+  .map-marker-pulse { animation: none; opacity: 0.2; }
+  .cover-particles { display: none; }
+  .cover-glow { animation: none; }
+}
+
+/* Print: hide the cinematic map entirely (too complex), keep simple text */
+@media print {
+  #migration-map-container { display: none !important; }
+  .cover-particles { display: none !important; }
+  .cover-glow { display: none !important; }
+  .entity-portrait { display: none !important; }
+  .entity-portrait-placeholder { display: none !important; }
+}
+
+/* =========================================================
    RESPONSIVE
    ========================================================= */
 
@@ -948,6 +1294,23 @@ footer.colophon code {
     padding: 0 var(--sp-md);
   }
 
+  #map-section {
+    margin-left: calc(-1 * var(--sp-md));
+    margin-right: calc(-1 * var(--sp-md));
+  }
+
+  #map-section h2,
+  #map-section > p {
+    margin-left: var(--sp-md);
+    margin-right: var(--sp-md);
+  }
+
+  .map-tooltip {
+    min-width: 180px;
+    max-width: 240px;
+    padding: 8px 12px;
+  }
+
   .tree-toolbar .tree-legend { display: none; }
 
   .pull-quote {
@@ -956,6 +1319,13 @@ footer.colophon code {
   }
 
   .research-section { padding: var(--sp-md); }
+
+  .entity-portrait-wrap {
+    float: none;
+    margin: 0 0 var(--sp-md) 0;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1181,6 +1551,100 @@ def load_research():
     return findings
 
 
+def load_portraits():
+    """Load portrait URL map from research/13-portraits-and-images.json if present.
+    Returns dict: {person_id: portrait_url, ...}
+    Also merges portrait_url from entities.json and lineage.json persons directly.
+    """
+    portrait_map = {}
+    if PORTRAITS_JSON.exists():
+        try:
+            data = json.loads(PORTRAITS_JSON.read_text(encoding="utf-8"))
+            for item in data:
+                pid = item.get("id") or item.get("person_id")
+                url = item.get("portrait_url") or item.get("url")
+                if pid and url:
+                    portrait_map[pid] = url
+        except (json.JSONDecodeError, KeyError):
+            pass
+    # Also pick up portrait_url embedded directly on person objects (future-proof)
+    entities_data = json.loads(ENTITIES.read_text(encoding="utf-8"))
+    for p in entities_data.get("people", []):
+        if p.get("portrait_url") and p.get("id"):
+            portrait_map[p["id"]] = p["portrait_url"]
+    lineage_path = WORKSPACE / "research" / "06-full-mattingly-lineage.json"
+    if lineage_path.exists():
+        try:
+            lineage_data = json.loads(lineage_path.read_text(encoding="utf-8"))
+            for g in lineage_data.get("generations", []):
+                per = g.get("person", {}) or {}
+                if per.get("portrait_url") and per.get("id"):
+                    portrait_map[per["id"]] = per["portrait_url"]
+        except (json.JSONDecodeError, KeyError):
+            pass
+    return portrait_map
+
+
+def load_deeds():
+    """Load notable deeds map from research/14-notable-deeds.json if present.
+    Returns dict: {person_id: [deed_headline_string, ...], ...}
+    Handles multiple schema variants:
+      - List of {entity_id, headline, story, ...}
+      - List of {id/person_id, deeds/notable_deeds, ...}
+      - Dict with 'notable_deeds' key (list)
+    """
+    if not DEEDS_JSON.exists():
+        return {}
+    try:
+        raw = json.loads(DEEDS_JSON.read_text(encoding="utf-8"))
+        # Unwrap dict container if needed
+        if isinstance(raw, dict):
+            # Try common wrapper keys
+            for key in ("notable_deeds", "deeds", "people", "entries"):
+                if isinstance(raw.get(key), list):
+                    raw = raw[key]
+                    break
+            else:
+                # Flat dict keyed by person_id?
+                result = {}
+                for pid, val in raw.items():
+                    if isinstance(val, list):
+                        result[pid] = [str(x) for x in val[:5]]
+                    elif isinstance(val, str):
+                        result[pid] = [val]
+                return result
+
+        deeds = {}
+        for item in raw:
+            if not isinstance(item, dict):
+                continue
+            # Support 'entity_id', 'id', 'person_id' as the key field
+            pid = item.get("entity_id") or item.get("id") or item.get("person_id")
+            # Support 'headline', 'title', 'deed' as a single deed string
+            headline = item.get("headline") or item.get("title") or item.get("deed")
+            # Support 'deeds', 'notable_deeds', 'achievements' as a list of deeds
+            deed_list = item.get("deeds") or item.get("notable_deeds") or item.get("achievements") or []
+            if pid:
+                entries = []
+                if headline:
+                    entries.append(str(headline))
+                for d in deed_list[:4]:
+                    if isinstance(d, dict):
+                        s = d.get("headline") or d.get("text") or d.get("description") or ""
+                    else:
+                        s = str(d)
+                    if s:
+                        entries.append(s)
+                if entries:
+                    if pid in deeds:
+                        deeds[pid].extend(entries[:3])
+                    else:
+                        deeds[pid] = entries[:4]
+        return deeds
+    except (json.JSONDecodeError, KeyError, TypeError):
+        return {}
+
+
 def md_to_html(md: str) -> str:
     """Tiny markdown-to-HTML for research files (handles headings, lists, links, bold, italic)."""
     out = []
@@ -1297,7 +1761,9 @@ def render_transcript(turns, entity_index, redact_set):
     return "\n".join(out)
 
 
-def render_person_card(p, redact=False):
+def render_person_card(p, redact=False, portrait_map=None, deeds_map=None):
+    portrait_map = portrait_map or {}
+    deeds_map = deeds_map or {}
     if p.get("redact_in_public") and redact:
         return ""
     name = p.get("full_name") or p.get("given_name") or "(unnamed)"
@@ -1314,13 +1780,51 @@ def render_person_card(p, redact=False):
     bp = p.get("birth_place")
     notes = p.get("notes") or p.get("notes_from_hunter") or ""
     timestamps = p.get("transcript_timestamps", []) or []
+    confidence = p.get("confidence", "") or ""
+
+    # Build summary confidence decoration
+    conf_upper = confidence.upper()
+    summary_badge = ""
+    if "UNVERIFIED" in conf_upper:
+        summary_badge = ' <span class="unverified-banner">? UNVERIFIED</span>'
+    elif "POSSIBLE" in conf_upper:
+        summary_badge = ' <span class="unverified-banner">? POSSIBLE</span>'
+
     body_parts = []
+
+    # Portrait (if available)
+    portrait_url = portrait_map.get(pid)
+    if portrait_url:
+        body_parts.append(
+            f'<div class="entity-portrait-wrap">'
+            f'<img class="entity-portrait" src="{html.escape(portrait_url)}" '
+            f'alt="Portrait of {html.escape(name)}" loading="lazy">'
+            f'</div>'
+        )
+
     if relation:
         body_parts.append(f'<p class="entity-meta">{html.escape(relation)}{years}{living}</p>')
     if occupation:
         body_parts.append(f"<p><strong>Occupation:</strong> {html.escape(occupation)}</p>")
     if bp:
         body_parts.append(f"<p><strong>Born:</strong> {html.escape(bp)}</p>")
+
+    # Confidence note for uncertain persons
+    if "UNVERIFIED" in conf_upper:
+        body_parts.append(
+            f'<div class="confidence-question-badge">'
+            f'<span class="qmark">?</span>'
+            f' <span>UNVERIFIED — needs primary source research. Genealogical descent not yet confirmed.</span>'
+            f'</div>'
+        )
+    elif "POSSIBLE" in conf_upper:
+        body_parts.append(
+            f'<div class="confidence-question-badge">'
+            f'<span class="qmark">?</span>'
+            f' <span>POSSIBLE — only one source / circumstantial evidence. Treat as working hypothesis.</span>'
+            f'</div>'
+        )
+
     if context:
         body_parts.append(f"<p>{html.escape(context)}</p>")
     if notes and notes != context:
@@ -1328,9 +1832,21 @@ def render_person_card(p, redact=False):
     if timestamps:
         ts_str = ", ".join(timestamps)
         body_parts.append(f'<p class="entity-meta">Mentioned at: {html.escape(ts_str)}</p>')
+
+    # Notable Achievements (from 14-notable-deeds.json)
+    deeds = deeds_map.get(pid)
+    if deeds:
+        deeds_li = "\n".join(f"<li>{html.escape(d)}</li>" for d in deeds)
+        body_parts.append(
+            f'<div class="entity-deeds">'
+            f'<p class="entity-deeds-title">Notable Achievements</p>'
+            f'<ul>{deeds_li}</ul>'
+            f'</div>'
+        )
+
     body = "\n".join(body_parts)
     return f'''<details class="entity-card" id="{pid}">
-  <summary>{html.escape(name)}{years}</summary>
+  <summary>{html.escape(name)}{years}{summary_badge}</summary>
   <div class="entity-body">
 {body}
   </div>
@@ -1394,41 +1910,58 @@ def render_confidence(level):
 
 # ---------- D3 lineage tree ----------
 
-def build_lineage_tree_data():
+def build_lineage_tree_data(portrait_map=None):
     """Return nested dict for D3 tree.
     Reads research/06-full-mattingly-lineage.json if present, otherwise falls back to a
     structured placeholder showing known generations + 'unknown' middle generations.
     """
+    portrait_map = portrait_map or {}
     lineage_path = WORKSPACE / "research" / "06-full-mattingly-lineage.json"
     if lineage_path.exists():
         try:
             data = json.loads(lineage_path.read_text(encoding="utf-8"))
-            return convert_lineage_research_to_tree(data)
+            return convert_lineage_research_to_tree(data, portrait_map)
         except (json.JSONDecodeError, KeyError, ValueError):
             pass
-    return _placeholder_lineage_tree()
+    return _placeholder_lineage_tree(portrait_map)
 
 
-def convert_lineage_research_to_tree(lineage_data):
+def convert_lineage_research_to_tree(lineage_data, portrait_map=None):
     """Convert the lineage agent's generations array to a nested tree."""
+    portrait_map = portrait_map or {}
     gens = lineage_data.get("generations", [])
     if not gens:
-        return _placeholder_lineage_tree()
+        return _placeholder_lineage_tree(portrait_map)
     # Build linearly (one main descendant per generation; collateral siblings as branches)
     nodes = []
     for g in gens:
         p = g.get("person", {}) or {}
+        pid = p.get("id") or None
+        raw_conf = (p.get("confidence") or "unknown")
+        conf_lower = raw_conf.lower()
+        # Normalize: anything with POSSIBLE or UNVERIFIED gets flagged
+        if "unverified" in conf_lower:
+            conf_normalized = "unverified"
+        elif "possible" in conf_lower:
+            conf_normalized = "possible"
+        elif "probable" in conf_lower:
+            conf_normalized = "probable"
+        elif "confirmed" in conf_lower:
+            conf_normalized = "confirmed"
+        else:
+            conf_normalized = "unknown"
         nodes.append({
             "name": p.get("full_name") or g.get("label") or f"Generation {g.get('gen')}",
             "dates": _format_dates(p.get("birth_year"), p.get("death_year")),
             "fact": (p.get("key_facts") or [g.get("label", "")])[0] if p.get("key_facts") else g.get("label", ""),
-            "id": p.get("id") or None,
+            "id": pid,
             "generation": g.get("gen", 0),
             "century": _century_for_year(p.get("birth_year") or p.get("death_year")),
-            "confidence": (p.get("confidence") or "unknown").lower(),
+            "confidence": conf_normalized,
+            "portrait_url": portrait_map.get(pid, "") if pid else "",
         })
     if not nodes:
-        return _placeholder_lineage_tree()
+        return _placeholder_lineage_tree(portrait_map)
     # Convert flat list to nested tree
     root = nodes[0]
     cursor = root
@@ -1469,13 +2002,16 @@ def _century_for_year(year):
         return 0
 
 
-def _placeholder_lineage_tree():
+def _placeholder_lineage_tree(portrait_map=None):
     """Fallback tree using only confirmed-from-interview anchors."""
+    portrait_map = portrait_map or {}
+
     def gen(name, dates, fact, eid, generation, century, confidence, children=None, siblings=None):
         node = {
             "name": name, "dates": dates, "fact": fact, "id": eid,
             "generation": generation, "century": century, "confidence": confidence,
             "children": children or [],
+            "portrait_url": portrait_map.get(eid, "") if eid else "",
         }
         if siblings:
             node["siblings"] = siblings
@@ -1527,9 +2063,10 @@ def _placeholder_lineage_tree():
     ])
 
 
-def render_lineage_tree_section():
+def render_lineage_tree_section(portrait_map=None):
     """Generate the HTML+SVG+JS for the D3 family tree."""
-    tree_data = build_lineage_tree_data()
+    portrait_map = portrait_map or {}
+    tree_data = build_lineage_tree_data(portrait_map)
     tree_data_json = json.dumps(tree_data)
 
     # Use lineage research file presence to decide caption
@@ -1555,6 +2092,7 @@ def render_lineage_tree_section():
       <span class="legend-item"><span class="swatch confirmed" aria-hidden="true"></span>Confirmed</span>
       <span class="legend-item"><span class="swatch probable" aria-hidden="true"></span>Probable</span>
       <span class="legend-item"><span class="swatch unknown" aria-hidden="true"></span>Research pending</span>
+      <span class="legend-item"><span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:1.15em;font-weight:700;color:#d4a458;text-shadow:0 0 5px rgba(212,164,88,0.5)" aria-hidden="true">?</span>&#8201;Uncertain</span>
     </div>
   </div>
 
@@ -1960,7 +2498,7 @@ window.treeZoomReset = () => svg.transition().duration(420).call(zoomBehavior.tr
 function autoFitTree() {
   const bbox = g.node().getBBox();
   const containerW = svg.node().getBoundingClientRect().width || W;
-  const containerH = parseFloat(svg.attr("height")) || 1020;
+  const containerH = parseFloat(svg.attr("height")) || 1040;
   const scaleX = containerW / (bbox.width + M.left + M.right + 40);
   const scaleY = containerH / (bbox.height + M.top + M.bottom + 40);
   const scale = Math.min(scaleX, scaleY, 0.95);
@@ -1978,6 +2516,8 @@ def build_html(family_only=True):
     turns = load_transcript()
     entities = load_entities()
     research = load_research()
+    portrait_map = load_portraits()
+    deeds_map = load_deeds()
 
     redact_set = set() if family_only else set(entities.get("audience_policy", {}).get("redaction_set", []))
     redact_living_names = not family_only
@@ -1991,13 +2531,17 @@ def build_html(family_only=True):
 
     people_html = []
     if deceased:
-        people_html.append("<h3>Ancestors & Historical Family</h3>")
+        people_html.append("<h3>Ancestors &amp; Historical Family</h3>")
         for p in sorted(deceased, key=lambda x: x.get("birth_year") or 9999):
-            people_html.append(render_person_card(p, redact=redact_living_names))
+            people_html.append(render_person_card(p, redact=redact_living_names,
+                                                   portrait_map=portrait_map,
+                                                   deeds_map=deeds_map))
     if living and family_only:
         people_html.append("<h3>Living Family</h3>")
         for p in living:
-            people_html.append(render_person_card(p, redact=False))
+            people_html.append(render_person_card(p, redact=False,
+                                                   portrait_map=portrait_map,
+                                                   deeds_map=deeds_map))
 
     places_html = "\n".join(render_place_card(pl) for pl in entities.get("places", []))
     events_html = "\n".join(render_event_card(e) for e in sorted(
@@ -2030,7 +2574,8 @@ def build_html(family_only=True):
 </div>"""
 
     transcript_html = render_transcript(turns, entity_index, redact_set)
-    lineage_tree_html = render_lineage_tree_section()
+    lineage_tree_html = render_lineage_tree_section(portrait_map=portrait_map)
+    migration_map_html = render_migration_map_section(deeds_map=deeds_map)
 
     title = "Grandma Shari — The Mattingly Family History"
     if not family_only:
@@ -2053,6 +2598,16 @@ def build_html(family_only=True):
   <div class="container">
 
     <header class="cover">
+      <!-- Cinematic dust particles — CSS animation, no JS -->
+      <div class="cover-particles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <!-- Animated hero glow -->
+      <div class="cover-glow" aria-hidden="true"></div>
+
       <p class="cover-eyebrow">The Mattingly Family History</p>
       <h1><em>Grandma Shari</em></h1>
       <span class="cover-ornament" aria-hidden="true">&#10022; &nbsp; &#10022; &nbsp; &#10022;</span>
@@ -2090,11 +2645,7 @@ def build_html(family_only=True):
       <div id="timeline-container"></div>
     </section>
 
-    <section id="map">
-      <h2>Migration Map</h2>
-      <p>England to Maryland (1663) &rarr; Kentucky (1780s) &rarr; North Carolina &rarr; Texas (1870s) &rarr; California. A family in constant, purposeful motion.</p>
-      <div id="map-container"></div>
-    </section>
+    {migration_map_html}
 
     <section id="transcript">
       <h2>The Interview</h2>
@@ -2142,10 +2693,6 @@ def build_html(family_only=True):
   <!-- D3 for the lineage tree -->
   <script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
 
-  <!-- Leaflet for the map -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin></script>
-
   <!-- vis-timeline for the timeline -->
   <link rel="stylesheet" href="https://unpkg.com/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
   <script src="https://unpkg.com/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
@@ -2153,7 +2700,6 @@ def build_html(family_only=True):
   <script>
 {render_lineage_tree_js()}
 {render_timeline_js()}
-{render_map_js()}
   </script>
 </body>
 </html>"""
@@ -2212,55 +2758,434 @@ if (timelineContainer && window.vis) {{
 """
 
 
-def render_map_js():
-    points = [
-        {"name": "Mattingley, Hampshire (origin village)", "lat": 51.2855, "lng": -0.9550, "year": "pre-1660"},
-        {"name": "St Mary's City, Maryland (1660 arrival)", "lat": 38.1893, "lng": -76.4316, "year": "1660"},
-        {"name": "Boonesborough, Kentucky", "lat": 37.8884, "lng": -84.2697, "year": "1780s"},
-        {"name": "North Carolina (Pearl Baity)", "lat": 35.7596, "lng": -79.0193, "year": "1810–1875"},
-        {"name": "San Antonio, Texas (Mattingly + Baity)", "lat": 29.4241, "lng": -98.4936, "year": "1875–today"},
-        {"name": "Kerrville, Texas (Pearl's summer home)", "lat": 30.0474, "lng": -99.1403, "year": "1900s"},
-        {"name": "Reeves County, TX (1901 oil land)", "lat": 31.4237, "lng": -103.4828, "year": "1901–today"},
-        {"name": "Galveston, Texas (1880 immigration port)", "lat": 29.3013, "lng": -94.7977, "year": "1880"},
-        {"name": "St Louis, Missouri (1904 World's Fair)", "lat": 38.6356, "lng": -90.2842, "year": "1904"},
-        {"name": "Santa Monica, CA (Shari today)", "lat": 34.0195, "lng": -118.4912, "year": "2026"},
+def render_migration_map_section(deeds_map=None):
+    """Render the cinematic full-bleed SVG migration map — vintage cartographic style.
+    Uses a custom SVG projection (approximate Mercator) for the key locations.
+    deeds_map: {person_id: [deed,...]} — used for popup enrichment (future).
+    """
+    deeds_map = deeds_map or {}
+
+    # Migration waypoints — each has SVG x,y coords (900x540 viewBox, US-centred)
+    # England is off the left edge, shown in an inset panel
+    # US coordinates mapped to approximate Mercator (hand-tuned for aesthetics)
+    locations = [
+        {
+            "id": "hampshire",
+            "name": "Mattingley, Hampshire",
+            "country": "England",
+            "year": "pre-1660",
+            "x": 68, "y": 82,  # England inset
+            "inset": True,
+            "story": "The ancestral village. The Mattingley name derives from this Hampshire settlement, documented since 1167 AD. Thomas and his family departed for the New World c. 1663.",
+        },
+        {
+            "id": "maryland",
+            "name": "St. Mary's County, Maryland",
+            "country": "Colony of Maryland",
+            "year": "1663–1780s",
+            "x": 672, "y": 198,
+            "story": "Thomas Mattingly II arrived with the Catholic colonists under Lord Baltimore. The family received the 'Mattingly's Hope' 300-acre land patent on September 4, 1666. They farmed Charles and St. Mary's Counties for over a century.",
+        },
+        {
+            "id": "kentucky",
+            "name": "Bardstown, Kentucky",
+            "country": "Kentucky Territory",
+            "year": "1780s",
+            "x": 614, "y": 220,
+            "story": "With Daniel Boone's trailblazers, Catholic Maryland families migrated south-west into the fertile Kentucky territory. Bardstown became a hub of Catholic settlement — the 'Holy Land of the West.' The Mattinglys were among dozens of Catholic families who made this journey.",
+        },
+        {
+            "id": "northcarolina",
+            "name": "North Carolina",
+            "country": "North Carolina",
+            "year": "1810–1875",
+            "x": 650, "y": 238,
+            "story": "Pearl Baity's branch — the Johnson-Baity family — was rooted in North Carolina before the westward push to Texas. Pearl was born here circa 1860 before her family joined the post-Civil War migration.",
+        },
+        {
+            "id": "sanantonio",
+            "name": "San Antonio, Texas",
+            "country": "Texas",
+            "year": "1875–present",
+            "x": 527, "y": 303,
+            "story": "The Mattingly and Baity families converged in San Antonio. Ed Mattingly married into the Texas gentry. The Baity family built their 211 Castile home here, the gathering place for generations of family. Leroy Mattingly was born here in 1898.",
+        },
+        {
+            "id": "kerrville",
+            "name": "Kerrville, Texas",
+            "country": "Texas Hill Country",
+            "year": "1900s",
+            "x": 510, "y": 295,
+            "story": "Pearl Baity's summer retreat in the Hill Country. A cooler escape from San Antonio's heat, where the family gathered and rested. Pearl maintained a beloved summer home here.",
+        },
+        {
+            "id": "reeves",
+            "name": "Reeves County, Texas",
+            "country": "West Texas",
+            "year": "1901–present",
+            "x": 468, "y": 290,
+            "story": "In April 1901 — the same year as Spindletop — Pearl Baity purchased land in Reeves County. That act of prescient land acquisition is the foundation of all subsequent oil royalties the family still receives today, over 120 years later.",
+        },
+        {
+            "id": "stlouis",
+            "name": "St. Louis, Missouri",
+            "country": "Missouri",
+            "year": "1904",
+            "x": 578, "y": 213,
+            "story": "The 1904 Louisiana Purchase Exposition (World's Fair). Pearl attended and purchased the Kaiser salon furniture set — matching chairs, table, fainting couch — that remain family heirlooms today.",
+        },
+        {
+            "id": "santamonica",
+            "name": "Santa Monica, California",
+            "country": "California",
+            "year": "2026",
+            "x": 360, "y": 230,
+            "story": "Where Shari lives today, age 79. The end of the migration arc — from Hampshire, England across five centuries and the entire American continent. She still owns the oil rights Pearl purchased in 1901.",
+        },
     ]
-    points_json = json.dumps(points)
-    return f"""
-const mapContainer = document.getElementById('map-container');
-if (mapContainer && window.L) {{
-  const map = L.map('map-container').setView([39.5, -90], 3);
-  // CartoDB Dark Matter — dark base tiles that match the archive aesthetic
-  L.tileLayer('https://{{s}}.basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}{{r}}.png', {{
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" style="color:#665a4e">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions" style="color:#665a4e">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 19,
-  }}).addTo(map);
-  const points = {points_json};
-  const route = points.map(p => [p.lat, p.lng]);
-  // Gold migration route — illuminated manuscript line
-  L.polyline(route, {{
-    color: '#d4a458',
-    weight: 2,
-    dashArray: '6, 10',
-    opacity: 0.65
-  }}).addTo(map);
-  points.forEach((p, i) => {{
-    const m = L.circleMarker([p.lat, p.lng], {{
-      radius: 7,
-      fillColor: '#d4a458',
-      color: '#a07030',
-      fillOpacity: 0.8,
-      weight: 2
-    }}).addTo(map);
-    m.bindPopup(
-      `<strong style="color:#d4a458">${{p.name}}</strong><br><em style="color:#9a8a78">${{p.year}}</em>`,
-      {{className: 'dark-popup'}}
-    );
-  }});
-  map.fitBounds(L.polyline(route).getBounds().pad(0.15));
-}}
+
+    # Build polyline path (excluding England inset — it connects via a dashed Atlantic line)
+    us_locs = [l for l in locations if not l.get("inset")]
+    polyline_points = " ".join(f"{l['x']},{l['y']}" for l in us_locs)
+
+    # England → Maryland dashed "Atlantic crossing" line
+    england_loc = next(l for l in locations if l.get("inset"))
+    maryland_loc = next(l for l in locations if l["id"] == "maryland")
+
+    # Build location elements
+    location_elements = []
+    for i, loc in enumerate(locations):
+        is_inset = loc.get("inset", False)
+        story_escaped = html.escape(loc["story"])
+        name_escaped = html.escape(loc["name"])
+        year_escaped = html.escape(loc["year"])
+        country_escaped = html.escape(loc["country"])
+
+        # Marker size — England smaller (inset), San Antonio + Reeves larger (major)
+        r = 5
+        if loc["id"] in ("sanantonio", "reeves", "santamonica", "maryland"):
+            r = 7
+        elif loc["id"] == "hampshire":
+            r = 4
+
+        # Special style for current location (Santa Monica)
+        extra_circle = ""
+        if loc["id"] == "santamonica":
+            extra_circle = f'<circle class="map-marker-pulse" cx="{loc["x"]}" cy="{loc["y"]}" r="{r + 8}" fill="none" stroke="#d4a458" stroke-width="1.5"/>'
+
+        location_elements.append(f"""
+  <g class="map-location" data-id="{loc['id']}"
+     data-name="{name_escaped}"
+     data-year="{year_escaped}"
+     data-country="{country_escaped}"
+     data-story="{story_escaped}">
+    {extra_circle}
+    <circle class="map-marker-pulse" cx="{loc['x']}" cy="{loc['y']}" r="{r + 5}" fill="none" stroke="#d4a458" stroke-width="1"/>
+    <circle cx="{loc['x']}" cy="{loc['y']}" r="{r}" fill="#d4a458" stroke="#7a5010" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="{loc['x']}" cy="{loc['y']}" r="{r - 2}" fill="#f0c878" opacity="0.6"/>
+  </g>""")
+
+    locations_html = "\n".join(location_elements)
+
+    # Location labels (only the major ones to avoid clutter)
+    label_elements = []
+    label_locs = [l for l in locations if l["id"] in ("hampshire", "maryland", "sanantonio", "reeves", "santamonica", "kentucky", "stlouis")]
+    for loc in label_locs:
+        name = loc["name"].split(",")[0]  # first part of name
+        # Adjust label position to avoid overlap with marker
+        lx = loc["x"] + 9
+        ly = loc["y"] - 2
+        if loc["id"] == "hampshire":
+            lx, ly = loc["x"] + 6, loc["y"] - 7
+        elif loc["id"] == "santamonica":
+            lx, ly = loc["x"] - 6, loc["y"] - 9
+            anchor = "end"
+        else:
+            anchor = "start"
+        anchor = "end" if loc["id"] == "santamonica" else "start"
+        label_elements.append(
+            f'<text x="{lx}" y="{ly}" text-anchor="{anchor}" '
+            f'font-family="\'Cormorant Garamond\', Georgia, serif" '
+            f'font-size="7.5" font-style="italic" fill="#c8a870" opacity="0.85">'
+            f'{html.escape(name)}</text>'
+        )
+    labels_html = "\n".join(label_elements)
+
+    # Year labels for key waypoints
+    year_label_locs = [l for l in locations if l["id"] in ("maryland", "reeves", "santamonica")]
+    year_labels_html = "\n".join(
+        f'<text x="{l["x"]}" y="{l["y"] + 14}" text-anchor="middle" '
+        f'font-family="\'Source Code Pro\', monospace" '
+        f'font-size="6" fill="#806040" opacity="0.7">{html.escape(l["year"])}</text>'
+        for l in year_label_locs
+    )
+
+    # The JS for tooltip interactions
+    tooltip_js = """
+(function() {
+  const container = document.getElementById('migration-map-container');
+  if (!container) return;
+  const tooltip = document.getElementById('map-tooltip');
+  if (!tooltip) return;
+  const tName = document.getElementById('map-tt-name');
+  const tYear = document.getElementById('map-tt-year');
+  const tBody = document.getElementById('map-tt-body');
+
+  const locations = container.querySelectorAll('.map-location');
+  locations.forEach(function(loc) {
+    loc.addEventListener('mouseenter', function(e) {
+      tName.textContent = loc.dataset.name + ' — ' + loc.dataset.country;
+      tYear.textContent = loc.dataset.year;
+      tBody.textContent = loc.dataset.story;
+      tooltip.classList.add('visible');
+      positionTooltip(e);
+    });
+    loc.addEventListener('mousemove', positionTooltip);
+    loc.addEventListener('mouseleave', function() {
+      tooltip.classList.remove('visible');
+    });
+    // Touch support
+    loc.addEventListener('click', function(e) {
+      tName.textContent = loc.dataset.name + ' — ' + loc.dataset.country;
+      tYear.textContent = loc.dataset.year;
+      tBody.textContent = loc.dataset.story;
+      tooltip.classList.add('visible');
+      positionTooltip(e);
+      e.stopPropagation();
+    });
+  });
+
+  document.addEventListener('click', function() {
+    tooltip.classList.remove('visible');
+  });
+
+  function positionTooltip(e) {
+    const rect = container.getBoundingClientRect();
+    let x = e.clientX - rect.left + 14;
+    let y = e.clientY - rect.top - 10;
+    const tw = tooltip.offsetWidth || 240;
+    const th = tooltip.offsetHeight || 120;
+    if (x + tw > rect.width - 10) x = e.clientX - rect.left - tw - 14;
+    if (y + th > rect.height - 10) y = e.clientY - rect.top - th - 10;
+    if (y < 8) y = 8;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top  = y + 'px';
+  }
+})();
 """
+
+    return f"""<section id="map" aria-labelledby="map-heading">
+<div id="map-section">
+  <h2 id="map-heading">The Migration</h2>
+  <p>Four centuries of purposeful motion. From <strong>Hampshire, England</strong> (1663) across the Atlantic to Maryland &mdash; south to Kentucky &mdash; through the Carolinas &mdash; into Texas &mdash; and finally to California. <em>Hover any marker to read what happened there.</em></p>
+
+  <div id="migration-map-container" role="img" aria-label="Migration map showing Mattingly family movement from England to California">
+
+    <svg id="migration-map-svg" viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg"
+         preserveAspectRatio="xMidYMid meet">
+      <defs>
+        <!-- Sepia/vintage map filter -->
+        <filter id="map-vintage" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="4" result="noise"/>
+          <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" result="warped"/>
+          <feColorMatrix type="matrix"
+            values="0.6 0.4 0.1 0 0.02
+                    0.3 0.5 0.1 0 0.01
+                    0.1 0.2 0.3 0 0
+                    0   0   0   1 0"
+            in="warped"/>
+        </filter>
+        <!-- Vignette gradient -->
+        <radialGradient id="map-vignette" cx="50%" cy="50%" r="70%">
+          <stop offset="50%" stop-color="transparent"/>
+          <stop offset="100%" stop-color="rgba(8,6,4,0.65)"/>
+        </radialGradient>
+        <!-- England inset frame -->
+        <clipPath id="england-clip">
+          <rect x="20" y="40" width="120" height="90" rx="4"/>
+        </clipPath>
+      </defs>
+
+      <!-- ── Base map background ── -->
+      <!-- Deep dark ocean -->
+      <rect width="900" height="480" fill="#0a0805"/>
+
+      <!-- Faint grid lines — antique chart feel -->
+      <g opacity="0.06" stroke="#d4a458" stroke-width="0.5">
+        <line x1="0" y1="96" x2="900" y2="96"/>
+        <line x1="0" y1="192" x2="900" y2="192"/>
+        <line x1="0" y1="288" x2="900" y2="288"/>
+        <line x1="0" y1="384" x2="900" y2="384"/>
+        <line x1="150" y1="0" x2="150" y2="480"/>
+        <line x1="300" y1="0" x2="300" y2="480"/>
+        <line x1="450" y1="0" x2="450" y2="480"/>
+        <line x1="600" y1="0" x2="600" y2="480"/>
+        <line x1="750" y1="0" x2="750" y2="480"/>
+      </g>
+
+      <!-- North America silhouette — simplified hand-drawn polygons -->
+      <!-- Continental US approximate outline, very stylized -->
+      <g opacity="0.9">
+        <!-- Main continental landmass — sepia parchment tone -->
+        <polygon
+          points="340,120 380,105 430,95 490,90 550,88 610,90 650,95 690,105 730,120 760,140 780,160 790,180 785,200 775,215 760,225 740,230 720,238 700,245 690,260 680,275 665,290 650,305 630,310 610,308 590,305 570,300 550,295 530,295 510,298 490,300 470,300 450,298 430,300 410,302 390,300 375,295 360,290 345,285 330,275 320,260 315,250 310,238 308,225 310,210 315,195 320,180 325,165 330,148"
+          fill="#2a2010" stroke="#4a3820" stroke-width="0.8"/>
+        <!-- Florida peninsula -->
+        <polygon
+          points="630,295 640,305 645,320 640,335 630,345 618,340 615,330 618,318 622,308"
+          fill="#2a2010" stroke="#4a3820" stroke-width="0.8"/>
+        <!-- Texas additional shape -->
+        <polygon
+          points="460,280 490,275 520,275 540,280 545,300 535,315 520,320 500,318 480,315 465,305 455,290"
+          fill="#2a2010" stroke="#4a3820" stroke-width="0.8"/>
+        <!-- California coast -->
+        <polygon
+          points="320,180 338,185 352,200 358,220 355,242 348,260 340,275 328,280 318,270 312,250 310,230 312,210 315,195"
+          fill="#2a2010" stroke="#4a3820" stroke-width="0.8"/>
+        <!-- Great Lakes region subtle -->
+        <ellipse cx="600" cy="170" rx="35" ry="12" fill="#0e0c0a" opacity="0.7"/>
+        <ellipse cx="636" cy="165" rx="18" ry="8" fill="#0e0c0a" opacity="0.7"/>
+      </g>
+
+      <!-- Mexico/Central America rough suggestion -->
+      <polygon
+        points="450,310 465,318 480,325 490,335 485,355 470,365 450,368 430,360 420,345 422,328 435,318"
+        fill="#1e1a10" stroke="#3a3020" stroke-width="0.6" opacity="0.6"/>
+
+      <!-- Atlantic Ocean label -->
+      <text x="780" y="260" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="9" font-style="italic" fill="#4a3820" opacity="0.6"
+        letter-spacing="0.15em">ATLANTIC</text>
+      <text x="780" y="272" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="9" font-style="italic" fill="#4a3820" opacity="0.6"
+        letter-spacing="0.15em">OCEAN</text>
+
+      <!-- Pacific Ocean label -->
+      <text x="220" y="290" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="9" font-style="italic" fill="#4a3820" opacity="0.6"
+        letter-spacing="0.15em">PACIFIC</text>
+      <text x="220" y="302" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="9" font-style="italic" fill="#4a3820" opacity="0.6"
+        letter-spacing="0.15em">OCEAN</text>
+
+      <!-- ENGLAND INSET PANEL — top-left -->
+      <rect x="18" y="38" width="124" height="94" rx="5"
+        fill="#181410" stroke="rgba(212,164,88,0.4)" stroke-width="1"/>
+      <rect x="22" y="42" width="116" height="86" rx="3"
+        fill="#1c1810" stroke="rgba(212,164,88,0.15)" stroke-width="0.5"/>
+      <!-- England label -->
+      <text x="80" y="56" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="7" font-style="italic" letter-spacing="0.12em"
+        fill="#a07840" opacity="0.9">ENGLAND</text>
+      <!-- Simplified England shape -->
+      <polygon
+        points="68,62 74,60 80,61 85,64 88,70 86,77 82,82 76,84 70,82 66,77 65,71 66,66"
+        fill="#2a2010" stroke="#4a3820" stroke-width="0.7"/>
+      <!-- Hampshire dot -->
+      <circle cx="68" cy="82" r="3.5" fill="#d4a458" stroke="#7a5010" stroke-width="1.2" opacity="0.9"/>
+      <circle cx="68" cy="82" r="1.5" fill="#f0c878" opacity="0.7"/>
+      <text x="74" y="86" font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="6.5" font-style="italic" fill="#c8a870" opacity="0.85">Hampshire</text>
+      <!-- Inset title -->
+      <text x="80" y="120" text-anchor="middle"
+        font-family="'Lora', Georgia, serif"
+        font-size="6" fill="#806040" opacity="0.6" font-style="italic">origin, pre-1660</text>
+
+      <!-- ATLANTIC CROSSING — dashed arc from England to Maryland -->
+      <path d="M 142,82 C 300,60 480,90 {maryland_loc['x']},{maryland_loc['y']}"
+        fill="none" stroke="#d4a458" stroke-width="1.2"
+        stroke-dasharray="4,6" opacity="0.35"/>
+      <!-- Arrow tip at Maryland end -->
+      <path d="M {maryland_loc['x'] - 8},{maryland_loc['y'] - 4} L {maryland_loc['x']},{maryland_loc['y']} L {maryland_loc['x'] - 6},{maryland_loc['y'] + 5}"
+        fill="none" stroke="#d4a458" stroke-width="1.2" opacity="0.5"/>
+
+      <!-- MIGRATION POLYLINE — animated draw on load -->
+      <polyline id="migration-path"
+        points="{polyline_points}"
+        fill="none"
+        stroke="#d4a458"
+        stroke-width="1.8"
+        stroke-dasharray="8,5"
+        opacity="0.6"
+        stroke-linejoin="round"/>
+
+      <!-- Directional arrow markers along path — at key transitions -->
+      <!-- Maryland → Kentucky -->
+      <path d="M 650,205 L 642,210 L 638,204"
+        fill="none" stroke="#d4a458" stroke-width="1.2" opacity="0.4"/>
+      <!-- Kentucky → San Antonio -->
+      <path d="M 570,255 L 562,260 L 565,252"
+        fill="none" stroke="#d4a458" stroke-width="1.2" opacity="0.4"/>
+      <!-- San Antonio → Santa Monica -->
+      <path d="M 430,262 L 422,268 L 418,260"
+        fill="none" stroke="#d4a458" stroke-width="1.2" opacity="0.4"/>
+
+      <!-- LOCATION MARKERS -->
+{locations_html}
+
+      <!-- LOCATION LABELS -->
+{labels_html}
+{year_labels_html}
+
+      <!-- MAP TITLE — engraved serif -->
+      <text x="450" y="30" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="14" font-weight="700" letter-spacing="0.25em"
+        fill="#c8a060" opacity="0.75">THE MATTINGLY MIGRATION</text>
+      <line x1="260" y1="34" x2="640" y2="34"
+        stroke="#d4a458" stroke-width="0.5" opacity="0.25"/>
+
+      <!-- Compass rose — bottom right -->
+      <g transform="translate(855, 430)" opacity="0.35">
+        <line x1="0" y1="-18" x2="0" y2="18" stroke="#d4a458" stroke-width="1"/>
+        <line x1="-18" y1="0" x2="18" y2="0" stroke="#d4a458" stroke-width="1"/>
+        <line x1="-12" y1="-12" x2="12" y2="12" stroke="#d4a458" stroke-width="0.5"/>
+        <line x1="12" y1="-12" x2="-12" y2="12" stroke="#d4a458" stroke-width="0.5"/>
+        <polygon points="0,-18 4,-8 -4,-8" fill="#d4a458"/>
+        <text x="0" y="-22" text-anchor="middle"
+          font-family="'Cormorant Garamond', Georgia, serif"
+          font-size="8" font-weight="700" fill="#d4a458">N</text>
+      </g>
+
+      <!-- Scale note -->
+      <text x="30" y="468"
+        font-family="'Lora', Georgia, serif"
+        font-size="6.5" font-style="italic" fill="#504030" opacity="0.7">
+        Stylized cartographic illustration — not to scale
+      </text>
+
+      <!-- Vignette overlay -->
+      <rect width="900" height="480" fill="url(#map-vignette)" pointer-events="none"/>
+    </svg>
+
+    <!-- Hover tooltip -->
+    <div class="map-tooltip" id="map-tooltip" role="tooltip" aria-live="polite">
+      <div class="map-tooltip-name" id="map-tt-name"></div>
+      <div class="map-tooltip-year" id="map-tt-year"></div>
+      <div class="map-tooltip-body" id="map-tt-body"></div>
+    </div>
+
+    <!-- Map legend -->
+    <div class="map-legend">
+      <strong>Legend</strong>
+      <span>&#9632; Major settlement</span><br>
+      <span>&#9679; Location marker</span><br>
+      <span>&#8230;&#8230; Migration route</span><br>
+      <span>- - - Atlantic crossing</span>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<script>
+{tooltip_js}
+</script>"""
 
 
 def main():

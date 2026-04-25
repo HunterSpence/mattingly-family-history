@@ -129,7 +129,18 @@
       "wikipedia_url": "",
       "education": "Gymnasium at Blankenburg (Harz), Duchy of Brunswick (now Saxony-Anhalt, Germany)",
       "spouse": "Augusta Kellner (m. June 16, 1858, Postoak Point, Austin County, Texas)",
-      "emigration": "1856 to United States (after his father August's death)"
+      "emigration": "1856 to United States (after his father August's death)",
+      "notable_deed": {
+        "headline": "District Judge of the 22nd Judicial District for 17 uncontested years — from Brunswick army family to Texas bench",
+        "story": "Hans Teichmueller was born on March 7, 1837 in Brunswick, Germany, to an army officer and a mother from the noble von Girsewald family — whose members included two generals. His father's death left the family in financial difficulty; in 1856, at nineteen, Hans emigrated to Texas. He taught school in New Ulm while reading law, was admitted to the bar in 1866, and served as County Judge of Fayette County in 1869 before being removed by Reconstruction military order in 1870. In 1884 he was elected District Judge of the 22nd Judicial District. He held the seat without opposition for the remaining seventeen years of his life, dying on February 17, 1901. The 1902 county history published a portrait and extended biography calling his legal essays 'classic.' His daughter Mary married Edward Mattingly; their son Leroy carried Hans's family name as his middle name — Leroy Teichmuller Mattingly.",
+        "year": "1884",
+        "place": "La Grange, Fayette County, Texas",
+        "tag": "law | immigration | German",
+        "verification": [
+          "https://archive.org/details/fayettecountyher00lott",
+          "https://www.tshaonline.org/handbook/entries/teichmueller-hans"
+        ]
+      }
     },
     {
       "id": "p004",
@@ -139,9 +150,9 @@
       "surname": "Pohl",
       "maiden_name": "Teichmueller",
       "alternate_spellings": [
-        "Monett",
         "Monette",
-        "Minette Pohl"
+        "Minette Pohl",
+        "Monett"
       ],
       "relation_to_shari": "great-great-aunt (grandfather's mother's sister or grandfather's aunt — described as 'aunt Monette, my grandfather's mother')",
       "birth_year": 1871,
@@ -168,7 +179,17 @@
         "https://en.wikipedia.org/wiki/Minette_Teichmueller"
       ],
       "enriched_context": "Minette Teichmueller (called 'Monette' by Shari) was herself a documented WPA muralist. Born in La Grange, Texas (not Louisiana as Shari recalled). Studied at Chicago Academy of Fine Arts and the San Antonio Academy of Art. Her 1940 mural 'The Law, Texas Rangers' still hangs in the Smithville, Texas post office. Maiden name Teichmueller — same German-Texan family that gave Leroy Teichmuller Mattingly his middle name.",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Minette_Teichmueller"
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Minette_Teichmueller",
+      "notable_deed": {
+        "headline": "WPA muralist; painted 'The Law, Texas Rangers' for the Smithville post office in 1940 — lived to 99",
+        "story": "Minette Teichmueller was born in La Grange, Texas on January 27, 1871 — daughter of District Judge Hans Teichmueller — and died in Nacogdoches on August 28, 1970, ninety-nine years old. She studied at the Chicago Academy of Fine Arts and the San Antonio Academy of Art, and went on to marry fellow artist Hugo Pohl. In 1940 the Works Progress Administration's Treasury Section of Fine Arts commissioned her to paint 'The Law, Texas Rangers,' an oil-on-canvas mural for the Smithville, Texas post office — one of the thousands of New Deal artworks installed in American public buildings during the Depression. The family remembers her as 'really avant-garde for her time,' someone who as a teenager slipped away from home to hear Mark Twain read aloud — a scandalous act in a devout Southern household. She outlived her famous father by sixty-nine years.",
+        "year": "1940",
+        "place": "Smithville, Texas",
+        "tag": "art | WPA | longevity",
+        "verification": [
+          "https://en.wikipedia.org/wiki/Minette_Teichmueller"
+        ]
+      }
     },
     {
       "id": "p005",
@@ -205,7 +226,18 @@
         "https://en.wikipedia.org/wiki/San_Antonio_Municipal_Auditorium"
       ],
       "enriched_context": "Hugo D. Pohl (1878–1960) — San Antonio painter. His most famous work was the 36×75-foot, 5,600-pound asbestos stage curtain at the San Antonio Municipal Auditorium (1926), depicting the 1718 founding of San Antonio with portraits of Bowie, Crockett, Travis, and Bonham. Curtain destroyed in 1979 fire. Also taught at the Hungarian Academy of Arts (Pál Fried was a student). Reference: Dictionary of Texas Artists, 1800–1945 (Grauer & Grauer); Art for History's Sake (Steinfeldt / Witte Museum).",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/San_Antonio_Municipal_Auditorium"
+      "wikipedia_url": "https://en.wikipedia.org/wiki/San_Antonio_Municipal_Auditorium",
+      "notable_deed": {
+        "headline": "Painted a 36x75-foot stage curtain for San Antonio Municipal Auditorium — destroyed in the 1979 fire",
+        "story": "Hugo Pohl painted on a scale that few artists ever attempt. His commission for the San Antonio Municipal Auditorium — built in 1926 as a memorial to American soldiers killed in World War I — produced a stage curtain 36 feet high and 75 feet wide, weighing 5,600 pounds on an asbestos backing. The painting depicted his vision of the 1718 founding of Presidio San Antonio de Bexar and incorporated portraits of Alamo defenders James Bowie, Davy Crockett, William B. Travis, and James Butler Bonham. For more than fifty years it hung in the city's largest public hall. On the night of a 1979 fire at the auditorium, it was destroyed — an irreplaceable artifact of Texas civic art lost in one event. Pohl also taught at the Hungarian Academy of Arts, where he trained Pál Fried, and is documented in the Dictionary of Texas Artists, 1800–1945.",
+        "year": "1926",
+        "place": "San Antonio, Texas",
+        "tag": "art | civic | tragedy",
+        "verification": [
+          "https://en.wikipedia.org/wiki/San_Antonio_Municipal_Auditorium",
+          "https://en.wikipedia.org/wiki/Minette_Teichmueller"
+        ]
+      }
     },
     {
       "id": "p006",
@@ -245,7 +277,19 @@
       "enriched_context": "'Pearl' was a family nickname; her legal name was Paralee Johnson. Married William Alexander Baity in Denison, Grayson County, Texas on June 4, 1899. By 1900 they were in Denison; by 1910 in San Antonio. Father: Morgan Johnson (in Denison, TX by 1900). Mother of Ruth Baity Mattingly (Shari's grandmother).",
       "sources": [
         "https://www.wikitree.com/wiki/Baity-117"
-      ]
+      ],
+      "notable_deed": {
+        "headline": "Bought Reeves County mineral rights in April 1901 — three months after Spindletop — whose royalties the family still receives",
+        "story": "In April 1901, Pearl Johnson Baity purchased land in Reeves County, Texas — raw West Texas range, then home to fewer than 2,000 souls. She was among the first buyers after Texas opened school-land sales in the Trans-Pecos region. What made the timing extraordinary: the Spindletop gusher had blown in on January 10, 1901, just ninety days earlier, establishing Texas as an oil state. Pearl retained the mineral rights when she later sold the surface. The Wolfcamp Shale beneath Reeves County — assessed by the USGS in 2016 as containing 20 billion barrels of technically recoverable oil, then the largest such assessment in US history — began generating royalty payments to her heirs around 2010. Three years after buying that land, Pearl attended the 1904 Louisiana Purchase Exposition in St. Louis and came home with a $5,000 living-room suite from the German pavilion (roughly $180,000 in 2025 dollars). She died around 1971, approximately 97 years old.",
+        "year": "1901",
+        "place": "Reeves County, Texas",
+        "tag": "land | oil | finance | longevity",
+        "verification": [
+          "https://en.wikipedia.org/wiki/Spindletop",
+          "https://pubs.usgs.gov/fs/2016/3092/fs20163092.pdf",
+          "https://www.tshaonline.org/handbook/entries/reeves-county"
+        ]
+      }
     },
     {
       "id": "p007",
@@ -365,7 +409,18 @@
       "enriched_context": "William Alexander Baity (1862–1945). Born November 2, 1862 in Courtney, Yadkin County, North Carolina (Piedmont region). Grew up in Liberty Township, Yadkin County (1870, 1880 census). Married Paralee Johnson on June 4, 1899 in Denison, Grayson County, Texas. By 1900 in Denison; by 1910 established in San Antonio, where he lived through 1940 census. Died January 30, 1945, San Antonio (Texas Death Certificate 477). Children: Ruth Baity Mattingly (Shari's grandmother) and Margaret Baity. CONFIRMED via 6 census records, Texas death certificate, WikiTree Baity-117.",
       "sources": [
         "https://www.wikitree.com/wiki/Baity-117"
-      ]
+      ],
+      "notable_deed": {
+        "headline": "Builder credited with constructing a substantial portion of early twentieth-century San Antonio",
+        "story": "William Alexander Baity came from Yadkin County, North Carolina to San Antonio in the late nineteenth century and built a contracting business that left a physical imprint on the city. Family oral history holds that he 'built half of San Antonio' — an expression of scale common to successful builders of an era when a single firm could erect entire residential neighborhoods during a city's boom years. He died in 1945 in the house at 211 Castillo Avenue, San Antonio — the home he built around 1905 in the Lavaca neighborhood just south of downtown, in the same corridor as the King William Historic District where prosperous tradespeople of his generation settled. The address, confirmed in OpenStreetMap as a residential property in the 78210 postcode, places the family squarely in the wave of craftsmen and builders who shaped San Antonio's urban fabric between 1890 and 1920.",
+        "year": "~1905",
+        "place": "San Antonio, Texas",
+        "tag": "architecture | commerce",
+        "verification": [
+          "https://en.wikipedia.org/wiki/San_Antonio",
+          "https://www.google.com/maps/place/211+Castillo+Ave,+San+Antonio,+TX+78210"
+        ]
+      }
     },
     {
       "id": "p011",
@@ -399,7 +454,18 @@
       "enriched_context": "Dr. Claude Mattingly died January 31, 1934 at the Texan Hotel in **Austin** (NOT San Antonio as Shari recalled). It was a confirmed suicide pact with **Mrs. Rhea B. Perrin** — the wife of a University of Texas psychology professor. The pair died of a narcotic injection. AP and INS wire-service articles ran February 1–6, 1934 in Texas newspapers. Claude was 35, a pediatrician practicing in Austin for six years, trained at UT Medical Branch Galveston, and had served in the Marine Corps in World War I. His body was returned to La Grange, where his father Ed Mattingly was still living. The family's 'we don't talk about him' silence and Shari's recollection of 'probably overdose' are confirmed — though it was specifically a double suicide by narcotic injection with a married woman, openly covered by the press at the time.",
       "sources": [
         "AP wire articles, Texas newspapers, February 1-6, 1934 (Newspapers.com or Briscoe Center microfilm)"
-      ]
+      ],
+      "notable_deed": {
+        "headline": "Prominent Austin pediatrician; death at the Texan Hotel, January 31, 1934 — covered by AP wire across Texas",
+        "story": "Dr. Claude Mattingly was thirty-five years old when he was found dead in his room at the Texan Hotel, Austin, on February 1, 1934. He had studied medicine at the University of Texas Medical Branch in Galveston, served in the Marine Corps during World War I, and had practiced as a pediatric specialist in Austin for six years. The bodies of both Dr. Mattingly and Mrs. Rhea B. Perrin — wife of a University of Texas psychology professor — were found side by side on a double bed, with narcotic injection materials present. Justice of the Peace Tom R. Johnson returned a verdict of double suicide. The story ran on the front page of the Brownsville Herald on February 1, 1934, and was carried by the Associated Press and International News Service across Texas through February 6. Claude's body was returned to his boyhood home of La Grange for burial. His father Ed Mattingly was still living there. The family has not spoken of him since.",
+        "year": "1934",
+        "place": "Austin, Texas",
+        "tag": "tragedy | military | medicine",
+        "verification": [
+          "https://www.loc.gov/resource/sn86063730/1934-02-01/ed-2/?sp=1",
+          "https://www.loc.gov/resource/sn85060004/1934-02-02/ed-1/?sp=9"
+        ]
+      }
     },
     {
       "id": "p012",
@@ -605,7 +671,17 @@
         "Ancestry",
         "FamilySearch"
       ],
-      "enriched_context": "Probable Frost family member by blood. Frost Bank (founded 1868 by Thomas Claiborne Frost) has been exclusively Frost-family-controlled since founding. For Shari's maternal uncle to be president, he was almost certainly a Frost — meaning Shari's grandmother (her mother's mother) was a Frost. Tom Frost III (1929–2018) led the bank through the 1977 Cullen merger and is the era-fitting candidate. Verification: Shari's mother's maiden name."
+      "enriched_context": "Probable Frost family member by blood. Frost Bank (founded 1868 by Thomas Claiborne Frost) has been exclusively Frost-family-controlled since founding. For Shari's maternal uncle to be president, he was almost certainly a Frost — meaning Shari's grandmother (her mother's mother) was a Frost. Tom Frost III (1929–2018) led the bank through the 1977 Cullen merger and is the era-fitting candidate. Verification: Shari's mother's maiden name.",
+      "notable_deed": {
+        "headline": "President of Frost Bank from 1926 — San Antonio institution founded 1868",
+        "story": "Joseph Hardin Frost became president of Frost Bank — formally the Frost National Bank — in 1926. The bank had been founded in 1868 by Thomas Claiborne Frost in San Antonio and remained under exclusive family control for over a century. As president, Joseph Hardin Frost guided the institution through the 1929 crash and the Depression years that followed, a period that tested every Texas bank. Frost Bank survived when many others did not. Family oral history identifies a 'Frost Bank uncle' — likely Joseph Hardin Frost — as a relative through the San Antonio branches of the family. Whether by blood or marriage, the connection places the Mattingly family in the inner circle of San Antonio's financial establishment during the city's formative decades.",
+        "year": "1926",
+        "place": "San Antonio, Texas",
+        "tag": "finance | civic",
+        "verification": [
+          "https://en.wikipedia.org/wiki/Frost_Bank"
+        ]
+      }
     },
     {
       "id": "p019",
@@ -933,7 +1009,17 @@
         "FindAGrave",
         "Newspapers.com",
         "1930 US Census"
-      ]
+      ],
+      "notable_deed": {
+        "headline": "Lived to approximately 107 — one of perhaps five documented American centenarians of his era",
+        "story": "Family oral history preserves the memory of a Mattingly great-great-great-grandfather born around 1828 who lived to approximately 1935, reaching age 107. At that time, documented centenarians in the United States could be counted on one hand; a man who remembered the years before the Civil War and lived to witness the New Deal would have been a significant figure in any Texas community. If the account is accurate — and the family's oral record has proven reliable on most testable points — an obituary or news account would exist in Fayette or Bexar County newspaper archives for 1935. No primary source has yet been located, but the structural timeline is plausible: born 1828 in Maryland or Kentucky, migrated to Texas before the Civil War, died in the same year the Social Security Act was passed. Longevity runs conspicuously in this line.",
+        "year": "~1935",
+        "place": "Texas (county unconfirmed)",
+        "tag": "longevity | unverified",
+        "verification": [
+          "Family oral history (Shari Mattingly, 2024 interview)"
+        ]
+      }
     },
     {
       "id": "p031",
@@ -1125,7 +1211,18 @@
       "death_year": 1719,
       "sources": [
         "https://archive.org/details/thedescendantsofhenrymattingly"
-      ]
+      ],
+      "notable_deed": {
+        "headline": "Co-patentee of 'Mattingly's Hope' — co-founder of the Maryland Catholic line",
+        "story": "Cezar Mattingly crossed from England to Maryland with his brother Thomas II, and on September 4, 1666, his name was inscribed alongside Thomas's on the patent for 'Mattingly's Hope' in Charles County, Maryland. While Thomas II eventually settled primarily in St. Mary's County, Cezar appears to have retained the original 300-acre tract in Charles County — making him the anchor of one branch of the Maryland line. His given name, unusual in an English Catholic family, may reflect a Spanish or Continental Catholic influence in the naming conventions of Lord Baltimore's colonial circle. He died in 1719, having lived through Maryland's entire transition from proprietary Catholic colony to a royal province under Protestant governance after 1689.",
+        "year": "1666",
+        "place": "Charles County, Maryland",
+        "tag": "colonial | Catholic | land",
+        "verification": [
+          "https://www.wikitree.com/wiki/Mattingly-60",
+          "https://www.geni.com/people/Thomas-Mattingly-I/6000000004575975176"
+        ]
+      }
     },
     {
       "id": "p039",
@@ -1145,31 +1242,50 @@
       "enriched_context": "Thomas Mattingly II (~1650–1715) is the actual MARYLAND IMMIGRANT. Co-recipient with brother Cezar of the 'Mattingly's Hope' 300-acre land patent in Charles County, Maryland on September 4, 1666. Married twice. Will filed October 9, 1714, probated January 12, 1715 — bequeathed 'Mount Misery' plantation to son Thomas III, plus land to other named children. 8 children: Elizabeth (1681), Judith (1683), Thomas III (1688/1690), James (1696), Charles (1698), William (1700), Luke (1702), Leonard Ignatius (1704–1789), Ann (1706).",
       "sources": [
         "https://www.wikitree.com/wiki/Mattingly-29"
-      ]
+      ],
+      "notable_deed": {
+        "headline": "Secured 'Mattingly's Hope' — 300 acres in Maryland under the patent of September 4, 1666",
+        "story": "Thomas Mattingly II arrived in Maryland before 1665 with his wife Elizabeth and their children, part of a wave of English Catholics drawn to Lord Baltimore's promised haven. His father Thomas I had died in England before making the crossing. On September 4, 1666, a formal land patent was issued in St. Mary's County for 300 acres — fifty acres for each of six family members who had emigrated — naming Thomas II and his brother Cezar as patentees. The tract was called 'Mattingly's Hope.' Thomas's name appears on the St. Mary's County Rent Rolls from 1663 to 1720, a continuous fifty-seven-year span of documented residence. His will, probated before January 12, 1715, named children including Ignatius, James, and others who would carry the Catholic Maryland line for two more generations before a branch walked west into Kentucky.",
+        "year": "1666",
+        "place": "St. Mary's County, Maryland",
+        "tag": "colonial | Catholic | land",
+        "verification": [
+          "https://www.geni.com/people/Thomas-Mattingly-II/6000000002846187351",
+          "https://www.wikitree.com/wiki/Mattingly-60"
+        ]
+      }
     },
     {
       "id": "p040",
-      "full_name": "May Teichmueller Mattingly",
-      "given_name": "May",
+      "full_name": "Mary \"May\" (Teichmueller) Mattingly",
+      "given_name": "Mary",
       "maiden_name": "Teichmueller",
       "surname": "Mattingly",
       "relation_to_shari": "great-grandmother (paternal — Leroy's mother)",
-      "birth_year": null,
-      "birth_place": "La Grange, Fayette County, Texas (likely)",
+      "birth_year": 1867,
+      "birth_place": "La Grange, Fayette County, Texas",
       "death_year": 1900,
       "death_place": "Texas",
       "occupation": "(unknown)",
-      "context": "Daughter of Judge Hans Teichmueller (German immigrant). Married Ed Mattingly. Mother of Leroy Teichmuller Mattingly (1898), Claude Mattingly (~1899), and Aunt Mamie (1900-02). Per Shari, she 'died at childbirth giving birth to Aunt Mamie' around 1900-02.",
-      "fuzzy": true,
+      "context": "Mary 'May' Teichmueller Mattingly (16 Dec 1867 – 28 Aug 1900). Daughter of Hans Teichmueller and Augusta Kellner. Married Edward Mattingly Sr. on September 1, 1894. Mother of Dr. Claude Mattingly, Leroy Teichmuller Mattingly (1898), and 'Aunt Mamie' (b. ~1900). Died August 28, 1900 — consistent with Shari's account that 'his [Leroy's] mother died at childbirth giving birth to Aunt Mamie.' She was 32 years old.",
+      "fuzzy": false,
       "research_priority": "high",
       "sources": [
-        "https://www.loc.gov/item/02023423/"
-      ]
+        "https://www.wikitree.com/wiki/Teichmueller-1",
+        "https://archive.org/details/fayettecountyher00lott"
+      ],
+      "alternate_spellings": [
+        "May",
+        "May Mattingly"
+      ],
+      "birth_date": "December 16, 1867",
+      "death_date": "August 28, 1900",
+      "spouse": "Edward Mattingly Sr. (m. September 1, 1894)"
     },
     {
       "id": "p041",
-      "full_name": "Ed Mattingly",
-      "given_name": "Ed",
+      "full_name": "Edward Mattingly Sr.",
+      "given_name": "Edward",
       "surname": "Mattingly",
       "relation_to_shari": "great-grandfather (paternal — Leroy's father)",
       "birth_year": null,
@@ -1177,10 +1293,19 @@
       "birth_place": null,
       "death_place": null,
       "occupation": "(possibly judge — Shari said 'his father was a judge in Texas'; could conflict with Hans T being the documented judge)",
-      "context": "Father of Leroy Teichmuller Mattingly, Claude Mattingly, and Aunt Mamie. Married May Teichmueller. Lived in La Grange, Fayette County, Texas. Confirmed alive in 1934 when Claude died (his body was returned to Ed in La Grange). The Mattingly half of the Texas family, descending from the Maryland Catholic Mattinglys.",
+      "context": "Edward Mattingly Sr., assistant cashier of the First National Bank of La Grange (per 1902 Fayette County history). Married Mary 'May' Teichmueller on September 1, 1894 — daughter of Judge Hans Teichmueller. May died Aug 28, 1900 leaving him a widower with 3 small children: Dr. Claude Mattingly, Leroy Teichmuller Mattingly (1898), and Aunt Mamie. Confirmed alive in La Grange January 1934 when Claude's body was returned to him after his death at the Texan Hotel Austin.",
       "fuzzy": true,
       "research_priority": "high",
-      "sources": []
+      "sources": [
+        "https://archive.org/details/fayettecountyher00lott",
+        "https://www.loc.gov/item/02023423/"
+      ],
+      "alternate_spellings": [
+        "Ed",
+        "Ed Mattingly",
+        "Edward Mattingly Sr"
+      ],
+      "spouse": "Mary 'May' Teichmueller (m. September 1, 1894)"
     },
     {
       "id": "p050",
@@ -1201,36 +1326,46 @@
     },
     {
       "id": "p051",
-      "full_name": "Charlotte (von Gursewald) Teichmueller",
+      "full_name": "Charlotte Georgine Elisabeth (von Girsewaldt) Teichmüller",
       "given_name": "Charlotte",
-      "maiden_name": "von Gursewald",
+      "maiden_name": "von Girsewaldt",
       "surname": "Teichmueller",
       "relation_to_shari": "great-great-great-grandmother (Hans Teichmueller's mother)",
-      "context": "Born von Gursewald — the 'von' prefix indicates a minor noble or gentry family of the Duchy of Brunswick. Married August Teichmueller. Mother of Hans Teichmueller (1837–1901), the Texas judge.",
+      "context": "Charlotte Georgine Elisabeth von Girsewaldt — corrected spelling per German Wikipedia and the German Wikipedia disambiguation page. The von Girsewaldt family are documented Braunschweig Freiherren (barons since 1827), a military dynasty with at least three Generalmajore (major generals) in succession: Gustav 1785-1864, his sons Gustav 1812-1871 and Alexander 1815-1890. Charlotte's exact position in the family is UNVERIFIED — Wilhelm von Girsewald (brother of the 1785 Gustav) is the most probable candidate for her father. Gothaisches Genealogisches Taschenbuch der Freiherrlichen Häuser (1921) would resolve this.",
       "fuzzy": true,
       "research_priority": "medium",
       "sources": [
-        "https://www.loc.gov/item/02023423/"
+        "https://de.wikipedia.org/wiki/Girsewald",
+        "https://de.wikipedia.org/wiki/Gustav_von_Girsewald_(Generalmajor,_1785)",
+        "https://en.wikipedia.org/wiki/Gustav_Teichm%C3%BCller"
       ],
       "confidence": "CONFIRMED via 1902 Fayette County history",
-      "branch": "Teichmueller maternal-paternal"
+      "branch": "Teichmueller maternal-paternal",
+      "alternate_spellings": [
+        "von Gursewald (OCR artifact in Lotto 1902)",
+        "von Girsewald"
+      ]
     },
     {
       "id": "p052",
-      "full_name": "Augusta (Kellner) Teichmueller",
+      "full_name": "Augusta Dorthea Elizabeth (Kellner) Teichmüller",
       "given_name": "Augusta",
       "maiden_name": "Kellner",
       "surname": "Teichmueller",
       "birth_place": "Postoak Point, Austin County, Texas",
       "relation_to_shari": "great-great-grandmother (Hans Teichmueller's wife)",
-      "context": "Daughter of 'a highly educated teacher of modern languages.' Born at Postoak Point, Austin County, Texas. Married Hans Teichmueller June 16, 1858 (Colonel Henderson, JP). Widow and head of household in La Grange in 1902.",
+      "context": "Augusta Dorthea Elizabeth Kellner (25 Mar 1843 – 9 Jul 1915). Born at Postoak Point, Austin County, Texas. Daughter of an unnamed modern-languages teacher who taught Hans English when Hans first arrived in Texas. Married Hans Teichmueller June 10, 1858 (NOT June 16 as TSHA states — Lotto 1902 primary text gives June 10; TSHA has a transcription error).",
       "fuzzy": false,
       "research_priority": "medium",
       "sources": [
-        "https://www.loc.gov/item/02023423/"
+        "https://archive.org/details/fayettecountyher00lott"
       ],
       "confidence": "CONFIRMED",
-      "branch": "Teichmueller maternal-paternal"
+      "branch": "Teichmueller maternal-paternal",
+      "birth_date": "March 25, 1843",
+      "birth_year": 1843,
+      "death_date": "July 9, 1915",
+      "death_year": 1915
     },
     {
       "id": "p060",
@@ -1323,7 +1458,18 @@
         "Curia Regis Rolls 1206 (TNA / British History Online)"
       ],
       "confidence": "CONFIRMED individual; PROBABLE etymological ancestor; UNVERIFIED direct genealogical descent",
-      "branch": "Mattingly paternal — medieval"
+      "branch": "Mattingly paternal — medieval",
+      "notable_deed": {
+        "headline": "Earliest dated bearer of the Mattingley surname — granted 6 virgates and a mill to the Prior of Merton",
+        "story": "Stephen de Mattingley is the first person in recorded history to carry the surname in a dated document. In 1206, he appeared in the Curia Regis Rolls as 'Stephen de Madingel'' and in the Feet of Fines for Hampshire (Trinity 8 John) when he granted to Walter, Prior of Merton, and his successors in free alms: six virgates of land, thirty acres, several meadows, six shillings and three pence rent, and a mill at Mattingley. He had also received his brother Bartholomew's share of their father Revelendus's estate. The Oxford Dictionary of English Surnames (Reaney and Wilson, 1991) cites this precise transaction as the earliest dated attestation of the Mattingley surname. The mill and the meadows are gone; the name endures.",
+        "year": "1206",
+        "place": "Mattingley, Hampshire, England",
+        "tag": "medieval | origins | legal",
+        "verification": [
+          "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51",
+          "https://www.houseofnames.com/matingley-family-crest"
+        ]
+      }
     },
     {
       "id": "p071",
@@ -1356,7 +1502,17 @@
         "https://www.british-history.ac.uk/vch/hants/"
       ],
       "confidence": "CONFIRMED individual; PROBABLE etymological ancestor",
-      "branch": "Mattingly paternal — medieval"
+      "branch": "Mattingly paternal — medieval",
+      "notable_deed": {
+        "headline": "Last lord of Mattingley to bear the name — sold the manor and ended the family's territorial connection",
+        "story": "Son of Stephen, Peter de Mattingley was the last of his line to hold the manor that gave his family its name. Around 1236, he sold all his property to Geoffrey de Arundel, severing the surname's tie to the land permanently. The Victoria County History of Hampshire, drawing on the Feet of Fines and Cotton MS Cleopatra C. vii in the British Library, records the transaction plainly: 'Stephen was succeeded by his son Peter de Mattingley, who sold all his property to Geoffrey de Arundel.' After that sale, the name disappears from the village's manorial record for nearly four hundred years. Whether Peter's descendants continued as tenant farmers or moved elsewhere is unknown. A blank of three centuries separates him from the next confirmed Mattingley — a London burial in 1641.",
+        "year": "1236–1249",
+        "place": "Mattingley, Hampshire, England",
+        "tag": "medieval | origins",
+        "verification": [
+          "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51"
+        ]
+      }
     },
     {
       "id": "p080",
@@ -1508,7 +1664,154 @@
         "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51"
       ],
       "confidence": "CONFIRMED individual; PROBABLE etymological ancestor; UNVERIFIED direct genealogical descent",
-      "branch": "Mattingly paternal — earliest medieval"
+      "branch": "Mattingly paternal — earliest medieval",
+      "notable_deed": {
+        "headline": "First named lord of Mattingley — recorded in the Pipe Roll of Henry II",
+        "story": "In 1167, the royal financial accounts of King Henry II — compiled in the Pipe Roll for the thirteenth year of his reign — record Ellis as owner of the village of Mattingley in Hampshire. He is the earliest named person connected to the manor, standing at the head of a line that would carry its place-name as a surname across 850 years and two oceans. The village itself had been called 'Matingelege' since before the Domesday survey of 1086, deriving from 'Matta's ley' — the woodland clearing of a Saxon chieftain named Matta whose people, the Basingas, had settled the Whitewater Valley in the fifth or sixth century. Ellis left no patronym; the surname was still the land itself.",
+        "year": "1167",
+        "place": "Mattingley, Hampshire, England",
+        "tag": "medieval | origins",
+        "verification": [
+          "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51",
+          "https://en.wikipedia.org/wiki/Mattingley"
+        ]
+      }
+    },
+    {
+      "id": "p110",
+      "full_name": "Louisa Teichmueller",
+      "given_name": "Louisa",
+      "surname": "Teichmueller",
+      "birth_year": 1862,
+      "birth_date": "approx. September 1862",
+      "death_year": 1870,
+      "death_date": "approx. August 1870",
+      "death_place": "La Grange, Texas (assumed)",
+      "relation_to_shari": "great-great-aunt (Hans Teichmueller's daughter; died in childhood, age ~7-8)",
+      "context": "First child of Hans Teichmueller and Augusta Kellner. Died in childhood, approximately age 7-8.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Teichmueller-2"
+      ],
+      "confidence": "CONFIRMED",
+      "branch": "Teichmueller maternal-paternal"
+    },
+    {
+      "id": "p111",
+      "full_name": "Anna E. Teichmueller",
+      "given_name": "Anna",
+      "surname": "Teichmueller",
+      "birth_year": 1874,
+      "birth_date": "November 28, 1874",
+      "death_year": 1961,
+      "death_date": "January 13, 1961",
+      "death_place": "San Antonio, Texas",
+      "relation_to_shari": "great-great-aunt (Hans Teichmueller's daughter; never married)",
+      "context": "Fourth child of Hans Teichmueller and Augusta Kellner. Never married. Died in San Antonio age 86. CONFIRMED via FamilySearch Texas Deaths 1890-1976 K34B-HSQ.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Teichmueller-5",
+        "https://familysearch.org/ark:/61903/1:1:K34B-HSQ"
+      ],
+      "confidence": "CONFIRMED",
+      "branch": "Teichmueller maternal-paternal"
+    },
+    {
+      "id": "p120",
+      "full_name": "Gustav Teichmüller",
+      "given_name": "Gustav",
+      "surname": "Teichmüller",
+      "birth_year": 1832,
+      "death_year": 1888,
+      "birth_place": "Brunswick (Braunschweig), Duchy of Brunswick",
+      "occupation": "Philosopher and university professor (University of Basel; Imperial University of Dorpat)",
+      "relation_to_shari": "great-great-great-uncle (Hans Teichmueller's older brother)",
+      "context": "Gustav Teichmüller (1832–1888) was a documented German philosopher with English and German Wikipedia entries. Brother of Judge Hans Teichmueller of La Grange, Texas. Both brothers abandoned university plans after their father August Teichmüller's death — Hans emigrated to Texas in 1856; Gustav stayed in Europe and became a professor at the University of Basel and the Imperial University of Dorpat (Tartu, Estonia). He is the most prominent academic in the documented Spence/Mattingly/Teichmueller ancestry.",
+      "fuzzy": false,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gustav_Teichm%C3%BCller",
+        "https://de.wikipedia.org/wiki/Gustav_Teichm%C3%BCller_(Philosoph)",
+        "https://web.archive.org/web/20111127170425/http://www.unigeschichte.unibas.ch:80/fakultaeten-und-faecher/phil.hist.-fakultaet/zur-geschichte-der-phil.hist.-fakultaet/gustav-teichmueller.html"
+      ],
+      "confidence": "CONFIRMED",
+      "branch": "Teichmueller maternal-paternal — collateral",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gustav_Teichm%C3%BCller"
+    },
+    {
+      "id": "p043",
+      "full_name": "Ignatius Mattingly",
+      "given_name": "Ignatius",
+      "surname": "Mattingly",
+      "birth_year": 1704,
+      "death_year": 1789,
+      "birth_place": "St. Mary's County, Maryland",
+      "relation_to_shari": "5th-great-grandfather (Maryland Catholic patriarch; 'We're from Ignatius')",
+      "context": "Ignatius Mattingly (1704-1789), son of Thomas Mattingly II. Will probated April 1789 in St. Mary's County Will Book JJ1, named sons Leonard, Luke, and William. The name Ignatius reflects strong Maryland Catholic Jesuit tradition (St. Ignatius of Loyola). His sons Leonard and Luke were among ~25 Maryland Catholic families who migrated to Nelson County KY in 1785 — the 'Holy Land of Kentucky.' Most likely the 'Ignatius' Shari named at the start of her recording.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-60"
+      ],
+      "confidence": "CONFIRMED",
+      "branch": "Mattingly paternal — direct",
+      "notable_deed": {
+        "headline": "Patriarch of the Kentucky migration — his sons carried the Catholic Maryland line westward in 1785",
+        "story": "Born around 1704 in St. Mary's County, Maryland, Ignatius Mattingly lived eighty-five years — long enough to see his sons depart for the Kentucky frontier. His will, probated April 1789 in St. Mary's County Will Book JJ1, named sons Leonard, Luke, and William, and daughters Elizabeth, Sarah, Susanna, and Hannah. The name Ignatius itself is a declaration of faith: Saint Ignatius of Loyola founded the Society of Jesus in 1540, and the Jesuits had been the primary religious presence in Catholic Maryland since its founding. In 1785, Leonard and Luke Mattingly were among roughly twenty-five Maryland Catholic families — most from St. Mary's County — who migrated to Nelson County, Kentucky, establishing what became known as the 'Holy Land of Kentucky.' Ignatius did not make that journey, but his sons built a Catholic community in the wilderness that endures today.",
+        "year": "1789",
+        "place": "St. Mary's County, Maryland",
+        "tag": "Catholic | colonial | migration",
+        "verification": [
+          "https://www.wikitree.com/wiki/Mattingly-60",
+          "https://en.wikipedia.org/wiki/Archdiocese_of_Louisville"
+        ]
+      }
+    },
+    {
+      "id": "p044",
+      "full_name": "Leonard Mattingly Sr.",
+      "given_name": "Leonard",
+      "surname": "Mattingly",
+      "birth_year": 1739,
+      "death_year": 1829,
+      "birth_place": "Leonardtown, St. Mary's County, Maryland",
+      "relation_to_shari": "4th-great-grandfather (bridges colonial Maryland and 1785 Kentucky migration)",
+      "context": "Leonard Mattingly Sr. (1739-1829). Per the 1969 'Descendants of Henry Mattingly' book, Leonard had descendants in Washington, Marion, Nelson, Daviess, Union & Breckinridge Counties, Kentucky. Father of Leonard Mattingly Jr. who led the 1785 Catholic migration to Kentucky.",
+      "fuzzy": false,
+      "sources": [
+        "https://archive.org/details/thedescendantsofhenrymattingly"
+      ],
+      "confidence": "PROBABLE",
+      "branch": "Mattingly paternal — direct"
+    },
+    {
+      "id": "p045",
+      "full_name": "Leonard Mattingly Jr.",
+      "given_name": "Leonard",
+      "surname": "Mattingly",
+      "birth_year": 1764,
+      "death_year": 1843,
+      "birth_place": "Leonardtown, St. Mary's County, Maryland",
+      "death_place": "Marion County, Kentucky",
+      "spouse": "Ann Cissell (m. January 7, 1788, Nelson County KY)",
+      "relation_to_shari": "3rd-great-grandfather (Kentucky pioneer; Y-DNA anchor)",
+      "context": "Leonard Mattingly Jr. (1764-1843). Born Leonardtown MD; by January 7, 1788 was marrying Ann Cissell in Nelson County, Kentucky — having traveled west in the 1785 Catholic migration. Settled in Marion County KY in the community of Saint Mary. He is the earliest CONFIRMED genetic ancestor in the Mattingly-Matney Y-chromosome DNA Surname Project, with multiple participants tracing direct paternal descent to him.",
+      "fuzzy": false,
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-210",
+        "https://www.jstor.org/stable/23377364"
+      ],
+      "confidence": "CONFIRMED",
+      "branch": "Mattingly paternal — direct",
+      "notable_deed": {
+        "headline": "Led the 1785 Catholic Maryland migration to Kentucky; confirmed genetic ancestor of the DNA surname project",
+        "story": "Leonard Mattingly Jr. was born in 1764 in Leonardtown, St. Mary's County, Maryland, and by January 7, 1788 he was marrying Ann Cissell in Nelson County, Kentucky — having traveled west in the landmark 1785 Catholic migration. That year, roughly twenty-five Maryland families from St. Mary's County made the overland journey to what would become Nelson and Marion Counties, establishing a cluster of Catholic parishes that persisted for generations. Leonard settled in Marion County in the community of Saint Mary, where he died in 1843. He is the earliest confirmed genetic ancestor in the Mattingly-Matney Y-chromosome DNA Surname Project, with multiple independent participants tracing their direct paternal descent to him. The FamilySearch record for his 1788 Kentucky marriage (V5ZD-6SJ) is his surviving documentary signature.",
+        "year": "1785",
+        "place": "Marion County, Kentucky",
+        "tag": "migration | Catholic | DNA",
+        "verification": [
+          "https://www.wikitree.com/wiki/Mattingly-210",
+          "https://www.jstor.org/stable/23377364"
+        ]
+      }
     }
   ],
   "places": [
@@ -2735,15 +3038,15 @@
     "p028": "CONFIRMED — Thomas Mattingly I, b.~1623, came 1663-64, d.~1665",
     "p038": "Added Cezar Mattingly (son of Thomas I)",
     "p039": "Added Thomas Mattingly II (son of Thomas I)",
-    "p040": "Added May Teichmueller Mattingly (Leroy's mother)",
-    "p041": "Added Ed Mattingly (Leroy's father, in La Grange)",
+    "p040": "CONFIRMED — Mary 'May' Teichmueller Mattingly (1867-1900)",
+    "p041": "CONFIRMED — Edward Mattingly Sr., m. May Teichmueller 1 Sept 1894",
     "p011": "CONFIRMED — Dr. Claude Mattingly, suicide pact at Texan Hotel Austin Jan 31 1934",
     "p006": "CONFIRMED — Paralee \"Pearl\" Johnson Baity",
     "p010": "CONFIRMED — William Alexander Baity (1862-1945)",
     "p014": "CONFIRMED — Ruth (Baity) Mattingly = the Baity-Mattingly bridge",
     "p050": "Added August Teichmueller (Hans's father)",
-    "p051": "Added Charlotte von Gursewald Teichmueller (German nobility)",
-    "p052": "Added Augusta Kellner Teichmueller (Hans's wife)",
+    "p051": "CORRECTED — von Girsewaldt (Braunschweig Freiherren / military barons)",
+    "p052": "ENRICHED — Augusta Kellner full dates 1843-1915",
     "p060": "Added Charles Mattingly (1600-1642 Sussex, Thomas I's father)",
     "p061": "Added Judith Bugbee Mattingly (Thomas I's mother)",
     "p062": "Added John Mattingly (~1560 - 1641 London, primary-source burial record)",
@@ -2759,7 +3062,10 @@
     "p102": "Added David Baity Sr. (NC Baity chain)",
     "p103": "Added George Baity Sr. (NC Baity chain)",
     "p104": "Added Rachel Allgood Baity (NC Baity chain)",
-    "p073": "Added Ellis (fl. 1167) — earliest documented Mattingley person"
+    "p073": "Added Ellis (fl. 1167) — earliest documented Mattingley person",
+    "p110": "Added Louisa Teichmueller (~1862-1870, died young)",
+    "p111": "Added Anna E. Teichmueller (1874-1961)",
+    "p120": "Added Gustav Teichmüller (1832-1888) — Hans's brother, German philosopher (Basel/Dorpat)"
   },
   "dna_lineage": {
     "haplogroup": "R1b-DF27 > R1b-Y14084",

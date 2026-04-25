@@ -324,25 +324,27 @@
       "label": "Texas Mattingly Patriarch (La Grange)",
       "person": {
         "id": "p041",
-        "full_name": "Ed Mattingly",
+        "full_name": "Edward Mattingly Sr.",
         "birth_year": null,
         "birth_year_note": "approximate 1860s",
         "birth_place": "Kentucky or Texas",
         "death_year": null,
         "death_place": "La Grange, Fayette County, Texas (alive 1934)",
-        "spouse": "May Teichmueller (daughter of Judge Hans Teichmueller)",
+        "spouse": "Mary 'May' Teichmueller (m. September 1, 1894; d. August 28, 1900)",
         "key_facts": [
+          "Married May Teichmueller September 1, 1894 — daughter of German-immigrant Judge Hans Teichmueller (1837 Brunswick → 1901 La Grange)",
           "Assistant cashier of the First National Bank of La Grange (per 1902 Fayette County history)",
-          "Married May Teichmueller — daughter of German immigrant Judge Hans Teichmueller (1837 Brunswick → 1901 La Grange)",
-          "Father of Leroy Teichmuller Mattingly (1898), Dr. Claude Mattingly (~1899–1934 suicide pact), and Aunt Mamie",
+          "Widowed August 28, 1900 when May died — left with three small children",
+          "Father of Dr. Claude Mattingly (1898–1934 suicide pact), Leroy Teichmuller Mattingly (1898), and Aunt Mamie (~1900)",
           "Confirmed alive in La Grange January 1934 when Claude's body was returned to him"
         ],
         "sources": [
-          "https://www.loc.gov/item/02023423/"
+          "https://www.loc.gov/item/02023423/",
+          "https://archive.org/details/fayettecountyher00lott"
         ],
         "confidence": "CONFIRMED"
       },
-      "notes": "La Grange branch — German-Texan + Maryland Catholic Mattingly union."
+      "notes": "La Grange branch — German-Texan (via maternal Teichmueller line) + Maryland Catholic Mattingly union. Hans Teichmueller (1837 Brunswick Germany → 1901 La Grange TX) was the actual 'judge in Texas' Shari mentioned — but he is on the MATERNAL side, not the direct Mattingly paternal line. Hans's brother Gustav Teichmüller (1832-1888) was a documented German philosopher who taught at University of Basel and Imperial University of Dorpat."
     },
     {
       "gen": 13,

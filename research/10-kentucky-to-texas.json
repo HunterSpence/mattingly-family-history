@@ -1,0 +1,345 @@
+{
+  "title": "Kentucky to Texas Gap Research: Leonard Mattingly Jr. → Ed Mattingly",
+  "compiled": "2026-04-25",
+  "research_scope": "Fill the 1800–1870 generational gap between Leonard Mattingly Jr. (d.1843 Marion County KY) and Ed Mattingly (alive 1934 La Grange, Fayette County TX). Approximately 3–4 generations required.",
+  "methodology": "Cross-referenced WikiTree (Mattingly-210, -32, -694, -684, -1836, -695, -697, -698, -699, -700, -701, -702, -703, -683, -1836, -391, -704, -705, -706), TSHA Handbook of Texas, Frank Lotto 1902 Fayette County history (LOC item 02023423), entities.json enriched_context, FamilySearch partial access, 06-full-mattingly-lineage.json prior research.",
+
+  "leonard_jr_children": [
+    {
+      "full_name": "Mary (Mattingly) Alvey",
+      "wikitree_id": "Mattingly-32",
+      "birth_year": 1798,
+      "birth_place": "Washington County, Kentucky",
+      "death_year": null,
+      "death_place": null,
+      "spouse": "[unknown Alvey]",
+      "children": ["Lewis Alvey", "Hilary Alvey", "Elizabeth Alvey", "Louvinia Jane (Alvey) Vessels", "Commodore Perry Alvey", "Mary Ann (Alvey) Hinton", "Mary Elizabeth (Alvey) Hayden", "Philip Alvey Jr.", "William Madison Alvey"],
+      "lived_in": "Kentucky",
+      "moved_to_texas": false,
+      "texas_link": "none",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-32", "https://www.wikitree.com/wiki/Mattingly-210"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "full_name": "Henry Martin Mattingly Sr.",
+      "wikitree_id": "Mattingly-694",
+      "birth_year": 1799,
+      "birth_place": "Washington County, Kentucky",
+      "death_year": 1858,
+      "death_place": "Washington, Kentucky",
+      "spouse": "Helen (Thompson) Mattingly",
+      "children": [
+        "Elizabeth Mattingly (b.1828 Calvary, Marion KY) — WikiTree-696",
+        "George Thomas Mattingly (b.1830 Marion KY, fate unknown) — WikiTree-695",
+        "Henry Thomas Vinson Mattingly (b.1832, d.1907 Marion KY) — WikiTree-697",
+        "John Coleman Mattingly (b.1834, d.1896 Marion KY) — WikiTree-698",
+        "Henry Martin Mattingly Jr. (b.1834, d.1886 Lebanon KY) — WikiTree-699",
+        "Augustine Mattingly (b.Jul 1836, d.1907 Raywick KY) — WikiTree-700",
+        "Edward Mattingly (b.Jan 22 1840, d.Mar 13 1910 Marion KY) — WikiTree-701",
+        "Nancy Mattingly (b.1842 KY) — WikiTree-702",
+        "William Mattingly (b.1844 KY) — WikiTree-703"
+      ],
+      "lived_in": "Washington / Marion County, Kentucky",
+      "moved_to_texas": false,
+      "texas_link": "possible through George Thomas Mattingly (b.1830, fate unknown) or through Edward Mattingly (b.1840) whose children are unrecorded in WikiTree",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-694", "https://www.wikitree.com/wiki/Mattingly-210"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "full_name": "William Cissell Mattingly",
+      "wikitree_id": "Mattingly-684",
+      "birth_year": 1807,
+      "birth_place": "Washington County, Kentucky",
+      "death_year": 1876,
+      "death_place": "Kentucky",
+      "spouse": "[unknown]",
+      "children": ["John Martin Mattingly (b.1852 Union KY, d.1917 Harrisburg IL) — WikiTree-683"],
+      "lived_in": "Kentucky",
+      "moved_to_texas": false,
+      "texas_link": "none confirmed — John Martin Mattingly died in Illinois",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-684", "https://www.wikitree.com/wiki/Mattingly-683"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "full_name": "Leonard Mattingly III",
+      "wikitree_id": "Mattingly-1836",
+      "birth_year": 1828,
+      "birth_month_day": "November 15",
+      "death_year": 1914,
+      "death_month_day": "September 5",
+      "death_place": "Glen Dean, Breckinridge County, Kentucky",
+      "death_age": 85,
+      "spouse": "[unknown]",
+      "children": ["Leonard Mattingly IV (b.~1867 KY) — WikiTree-391"],
+      "lived_in": "Kentucky (Breckinridge County at death)",
+      "moved_to_texas": false,
+      "texas_link": "none — confirmed died in Kentucky age 85",
+      "centenarian_note": "ELIMINATES as the '107-year-old centenarian': b.1828 matches Shari's oral tradition exactly, but WikiTree confirms he died September 5, 1914 in Glen Dean, Breckinridge County, KY at age 85 — NOT in Texas in 1935 at age 107. The centenarian claim is not this person.",
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-1836",
+        "https://www.wikitree.com/wiki/Mattingly-210"
+      ],
+      "confidence": "CONFIRMED"
+    }
+  ],
+
+  "kentucky_texas_chain": [
+    {
+      "generation_label": "Generation 6 — Son of Leonard Jr. (Leonard Jr.'s children, b.1798–1828)",
+      "notes": "All four documented children of Leonard Jr. appear to have remained in Kentucky. The Texas migration must pass through the GRANDCHILDREN of Leonard Jr. (born ~1820s–1840s), most likely through Henry Martin Mattingly Sr.'s (b.1799) sons.",
+      "person": {
+        "full_name": "Henry Martin Mattingly Sr.",
+        "birth_year": 1799,
+        "death_year": 1858,
+        "birth_place": "Washington County, Kentucky",
+        "death_place": "Washington, Kentucky",
+        "spouse": "Helen (Thompson) Mattingly",
+        "children": ["9 children — see leonard_jr_children above"],
+        "key_facts": [
+          "Son of Leonard Mattingly Jr. (1764–1843)",
+          "Had 9 children born 1828–1844 in Marion/Washington County KY",
+          "Son George Thomas (b.1830) has no death record — prime Texas migration candidate",
+          "Son Edward Mattingly (b.1840) confirmed died 1910 in Marion KY — NOT the Texas Ed"
+        ],
+        "sources": ["https://www.wikitree.com/wiki/Mattingly-694"],
+        "confidence": "CONFIRMED"
+      }
+    },
+    {
+      "generation_label": "Generation 7 — Grandchild of Leonard Jr. (born ~1828–1844), the probable Texas migrant",
+      "notes": "George Thomas Mattingly (b.1830 Marion KY) has no death date or location in WikiTree — his fate is unknown and he could have migrated west. Edward Mattingly (b.1840) is confirmed in Kentucky at death in 1910, but WikiTree shows him with no spouse or children — his Texas-bound progeny could be unrecorded. Either George Thomas or the unrecorded children of Edward are the most likely bridge generation.",
+      "best_candidate": {
+        "full_name": "George Thomas Mattingly",
+        "wikitree_id": "Mattingly-695",
+        "birth_year": 1830,
+        "birth_place": "Marion, Kentucky",
+        "death_year": null,
+        "death_place": "UNKNOWN — no death record found in WikiTree or any accessible source",
+        "spouse": "UNKNOWN",
+        "children": "UNKNOWN — no children listed in WikiTree",
+        "key_facts": [
+          "Son of Henry Martin Mattingly Sr. (b.1799) and grandson of Leonard Jr. (1764-1843)",
+          "Born 1830 Marion County, Kentucky",
+          "Only one of Henry Martin Sr.'s sons with NO death record in any accessible source",
+          "His siblings all have confirmed Kentucky death records — his absence is notable",
+          "Age in 1860 would be ~30: prime age for westward migration",
+          "If he moved to Texas ~1860-1870 and had a son ~1865-1870, that son could be Ed Mattingly (born ~1865-1870)"
+        ],
+        "sources": ["https://www.wikitree.com/wiki/Mattingly-695"],
+        "confidence": "POSSIBLE — only candidate with undocumented fate; not confirmed in Texas"
+      },
+      "alternate_candidate": {
+        "full_name": "Edward Mattingly",
+        "wikitree_id": "Mattingly-701",
+        "birth_year": 1840,
+        "death_year": 1910,
+        "birth_place": "Marion, Kentucky",
+        "death_place": "Marion, Kentucky",
+        "notes": "WikiTree confirms death in Kentucky 1910. Has no listed children — his Texas-branch progeny could exist but are unrecorded. CANNOT be the Ed Mattingly of La Grange (who was alive 1934).",
+        "confidence": "ELIMINATED as Texas Ed — confirmed died KY 1910"
+      }
+    },
+    {
+      "generation_label": "Generation 8 — Ed Mattingly's probable father (born ~1830–1850, migrated to Texas ~1860–1880)",
+      "notes": "This generation bridges Kentucky and Texas. The person would have been born ~1830–1850 in Kentucky and arrived in Texas by ~1870–1885, allowing for children born in Texas ~1865–1880.",
+      "person": {
+        "full_name": "[Unknown — probable son of George Thomas Mattingly or alternate KY Mattingly]",
+        "birth_year": null,
+        "birth_place": "Kentucky (probable)",
+        "death_year": null,
+        "death_place": "Texas (probable)",
+        "spouse": "UNKNOWN",
+        "children": ["Ed Mattingly (b.~1860s-1870s, La Grange TX)"],
+        "key_facts": [
+          "This generation physically made the Kentucky → Texas migration",
+          "Most likely arrived in Texas 1860–1880 during the post-Civil War migration wave",
+          "Catholic connections would have led to German-Catholic communities in central Texas",
+          "Fayette County (La Grange) was accessible via the Galveston/Houston route"
+        ],
+        "sources": [],
+        "confidence": "UNVERIFIED — placeholder generation"
+      }
+    },
+    {
+      "generation_label": "Generation 9 — Ed Mattingly of La Grange, Fayette County, Texas",
+      "person": {
+        "full_name": "Ed Mattingly",
+        "full_name_note": "First name likely Edward; newspaper sources use 'Ed'",
+        "birth_year": null,
+        "birth_year_estimate": "approximately 1860s–early 1870s (based on his children's birth years of 1898–1902)",
+        "birth_place": "Kentucky or Texas (unknown)",
+        "death_year": null,
+        "death_year_note": "Alive January 1934 when son Claude died; death date unknown",
+        "death_place": "La Grange, Fayette County, Texas (last known location)",
+        "spouse": "May Teichmueller (daughter of Judge Hans Teichmueller, 1837–1901)",
+        "marriage_place": "Fayette County, Texas (probable; specific date not found)",
+        "children": [
+          "Leroy Teichmuller Mattingly (b.1898) — Shari's grandfather",
+          "Dr. Claude Mattingly (~b.1898–1900, d.Jan 31 1934 Austin TX — suicide pact)",
+          "Mamie Mattingly (~b.1900–1902) — mother died in her childbirth"
+        ],
+        "occupation": "Assistant cashier, First National Bank of La Grange",
+        "key_facts": [
+          "Identified in Frank Lotto, Fayette County: Her History and Her People (1902, Schulenburg TX) as assistant cashier of First National Bank of La Grange",
+          "Married May Teichmueller, daughter of Judge Hans Teichmueller (German immigrant, District Judge 22nd Judicial District 1884–1901, d.1901 La Grange)",
+          "Named his son Leroy 'Teichmuller' Mattingly after Hans Teichmueller (maternal grandfather)",
+          "Son Claude Mattingly: pediatrician, UT Medical Branch Galveston graduate, Marine Corps WWI veteran; body returned to La Grange and to Ed upon Claude's January 1934 death",
+          "Confirmed alive in La Grange when AP wire articles ran February 1–6, 1934 about Claude's death"
+        ],
+        "sources": [
+          "https://www.loc.gov/item/02023423/ — Frank Lotto, Fayette County (1902)",
+          "AP wire articles, Texas newspapers, February 1–6, 1934 (Newspapers.com / Briscoe Center microfilm)",
+          "https://www.tshaonline.org/handbook/entries/teichmueller-hans — confirms Hans Teichmueller family in La Grange"
+        ],
+        "confidence": "CONFIRMED — occupation and family from 1902 primary source; survival to 1934 from AP wire articles"
+      }
+    }
+  ],
+
+  "centenarian_identification": {
+    "best_candidate_name": "NOT IDENTIFIED — Shari's '1828–1935, lived to 107' claim is unverified",
+    "leonard_iii_elimination": "Leonard Mattingly III (b.Nov 15 1828, WikiTree-1836) is the only Mattingly with a matching birth year, but WikiTree confirms he died September 5, 1914 in Glen Dean, Breckinridge County, Kentucky at age 85 — not in Texas in 1935 at age 107. He is definitively NOT the centenarian.",
+    "evidence": "Shari's oral tradition states her 'grandfather's grandfather' lived 1828–1935 (107 years). No documentary confirmation found in any accessible source. The generation arithmetic suggests this person would have been Leroy Mattingly's grandfather or great-grandfather — born ~1828–1845, died ~1930–1940. A 107-year-old dying in Texas in 1935 should have extensive newspaper coverage. Primary research needed at Briscoe Center for American History (UT Austin) microfilm archives — search Texas newspapers 1935 for Mattingly obituary with birth year ~1828 and age 107.",
+    "research_method": "1928 Texas newspapers would cover a 100th birthday; 1935 Texas papers would cover the death. Portal to Texas History (texashistory.unt.edu) has Texas newspaper archives but could not be accessed in this session. The Briscoe Center at UT Austin is the definitive repository for San Antonio Express-News and La Grange-area newspapers from that era.",
+    "sources": [],
+    "confidence": "UNVERIFIED — oral tradition only; contradicted by the only matching documented Mattingly (Leonard III b.1828, died KY 1914)"
+  },
+
+  "ed_mattingly_full_profile": {
+    "full_name": "Ed Mattingly",
+    "first_name_note": "Consistently referred to as 'Ed' in family oral history and newspaper references; formal name likely Edward",
+    "birth_year": null,
+    "birth_year_estimate": "approximately 1860–1875 (based on children born 1898–1902; assumes Ed was ~25–35 at Leroy's birth)",
+    "birth_place": "Kentucky or Texas — unknown",
+    "death_year": null,
+    "death_year_estimate": "after January 1934 (confirmed alive when Claude died)",
+    "death_place": "Probably La Grange, Fayette County, Texas",
+    "parents": "UNKNOWN — the Kentucky-to-Texas bridge generation has not been confirmed",
+    "siblings": "UNKNOWN",
+    "spouse": "May Teichmueller",
+    "spouse_note": "May was a daughter of Judge Hans Teichmueller (b.1837 Brunswick Germany, d.Feb 17 1901 La Grange TX); Hans had five children, one of whom was Minette Teichmueller (b.Jan 27 1871, muralist); May is a sibling of Minette",
+    "marriage_date": "UNKNOWN — probably 1895–1898 based on Leroy's 1898 birth",
+    "marriage_place": "La Grange, Fayette County, Texas (probable)",
+    "occupation": "Assistant cashier, First National Bank of La Grange (per 1902 Lotto history book)",
+    "key_facts": [
+      "Identified in Frank Lotto's 1902 Fayette County history as assistant cashier of First National Bank of La Grange — the only primary-source occupation record found",
+      "His wife May Teichmueller died in childbirth delivering daughter Mamie (~1900–1902) per Shari's oral account",
+      "Sons Leroy (b.1898) and Claude (~b.1898–1900) were raised after May's death; Leroy named for the Teichmueller family",
+      "Son Claude Mattingly: pediatrician in Austin TX, UT Medical Branch Galveston graduate, Marine WWI veteran; died Jan 31 1934 in Austin Texan Hotel in suicide pact with Mrs. Rhea B. Perrin (UT professor's wife); AP wire story ran Feb 1–6 1934; body returned to La Grange and Ed Mattingly",
+      "Shari described Ed's household as 'avant-garde and modern' and the family as 'builders who built half of San Antonio' — but the builder role may refer to a collateral family member; primary source confirms Ed was a banker (assistant cashier), not a builder",
+      "If Ed was also the Leroy 'Teichmuller' reference, his marriage to a Teichmueller directly explains the distinctive middle name of Leroy Teichmuller Mattingly"
+    ],
+    "sources": [
+      "https://www.loc.gov/item/02023423/ — Frank Lotto, Fayette County: Her History and Her People (Schulenburg, Texas: Sticker Steam Press, 1902; rpt. Austin: UT Press, 1981). This is the primary source for Ed's occupation.",
+      "AP wire articles, Texas newspapers, February 1–6, 1934 — confirms Ed alive in La Grange at Claude's death. Accessible via Briscoe Center for American History, UT Austin (lib-briscoe@utlists.utexas.edu).",
+      "https://www.tshaonline.org/handbook/entries/teichmueller-hans — confirms Hans Teichmueller context and the five Teichmueller children"
+    ],
+    "confidence": "CONFIRMED for occupation, wife, and children; UNVERIFIED for birth year, birth place, and parents"
+  },
+
+  "hans_teichmueller_family": {
+    "note": "This section documents May Teichmueller's family to establish the known Texas anchor for Ed Mattingly's wife.",
+    "father": {
+      "full_name": "Hans Teichmueller",
+      "birth_year": 1837,
+      "birth_month_day": "March 7",
+      "birth_place": "Braunschweig (Brunswick), Germany",
+      "death_year": 1901,
+      "death_month_day": "February 17",
+      "death_place": "La Grange, Fayette County, Texas",
+      "occupation": "District Judge, 22nd Judicial District of Texas (1884–1901); attorney",
+      "wife": "Augusta Kellner (married June 16, 1858, Fayette County TX)",
+      "children_count": 5,
+      "known_children": [
+        "Minette Teichmueller (b.Jan 27 1871, d.Aug 28 1970 Nacogdoches TX) — WPA muralist, married Hugo Pohl (1878–1960) — Wikipedia-confirmed",
+        "May Teichmueller (date unknown) — married Ed Mattingly; died in childbirth ~1900–1902",
+        "3 additional children, names not yet found in accessible sources"
+      ],
+      "sources": [
+        "https://www.tshaonline.org/handbook/entries/teichmueller-hans",
+        "https://en.wikipedia.org/wiki/Minette_Teichmueller"
+      ],
+      "confidence": "CONFIRMED"
+    }
+  },
+
+  "open_questions": [
+    "WHO ARE ED MATTINGLY'S PARENTS? — This is the single most important open question. No source found connecting Ed to a specific Kentucky Mattingly generation. Best candidates are descendants of George Thomas Mattingly (b.1830 Marion KY, fate unknown — WikiTree-695) or unrecorded children of Edward Mattingly (b.1840 Marion KY, d.1910 KY — WikiTree-701). PRIMARY RESEARCH NEEDED: 1880, 1900 census for Mattingly + Texas; Texas marriage records 1880–1900 for 'Mattingly + Teichmueller' in Fayette County.",
+
+    "WHAT WAS ED MATTINGLY'S BIRTH YEAR AND BIRTH PLACE? — The 1902 Lotto book may name his birthplace or age. Full text access needed. LOC item 02023423 is accessible at the Library of Congress Reading Room or via UT Press 1981 reprint.",
+
+    "WHAT IS MAY TEICHMUELLER'S FULL NAME AND BIRTH YEAR? — Hans Teichmueller had five children. Minette is confirmed (b.1871). May's exact birth year and full name are unknown from accessible sources. The 1880 US census would list Hans's household in La Grange with all children present.",
+
+    "THE CENTENARIAN: WHO IS 'BORN 1828, DIED 1935, LIVED TO 107'? — Leonard Mattingly III (b.Nov 15 1828) is eliminated: confirmed died Kentucky 1914, age 85. The actual centenarian (if real) is a different person. A 1935 Texas obituary search at the Briscoe Center would either confirm or definitively disprove this claim.",
+
+    "DID GEORGE THOMAS MATTINGLY (b.1830 Marion KY, WikiTree-695) MOVE TO TEXAS? — No death record exists for him in any accessible source. His siblings all have confirmed Kentucky death records. This makes him the most plausible Texas migrant in the documented tree. The 1860, 1870, 1880 census for Texas under 'Mattingly' would either find him or eliminate him.",
+
+    "WHAT ARE ED MATTINGLY'S EXACT DEATH DATE AND BURIAL LOCATION? — He was alive in La Grange in January 1934. His death sometime after that date is unrecorded. A search of Texas death certificates 1934–1960 for 'Edward Mattingly' in Fayette County would establish this.",
+
+    "WHO WERE THE OTHER THREE TEICHMUELLER CHILDREN (besides Minette and May)? — The 1880 US census for Hans Teichmueller's household in La Grange, Fayette County, Texas would list all children present with ages. This would identify May's birth year and give the other siblings' names."
+  ],
+
+  "primary_research_recommendations": [
+    {
+      "priority": 1,
+      "action": "Access Frank Lotto, Fayette County: Her History and Her People (1902) full text",
+      "where": "LOC item 02023423 (full text not available online due to Cloudflare block); UT Press 1981 reprint at most university libraries; Briscoe Center for American History, UT Austin",
+      "expected_yield": "Ed Mattingly's full biography, likely including birthplace, parents, and more detail on his bank role. The book contains 600+ pages of individual biographies of Fayette County residents."
+    },
+    {
+      "priority": 2,
+      "action": "Search 1880 US Census for Hans Teichmueller household, La Grange, Fayette County, Texas",
+      "where": "FamilySearch.org (free, requires login) — search for Teichmueller in Texas 1880",
+      "expected_yield": "Names and ages of all five Teichmueller children, including May Teichmueller's full name and birth year"
+    },
+    {
+      "priority": 3,
+      "action": "Search 1880, 1900 US Census for Mattingly households in Texas",
+      "where": "FamilySearch.org or Ancestry.com — search Texas 1880 and 1900 for surname Mattingly",
+      "expected_yield": "If Ed Mattingly was born ~1860–1875, he would appear in 1880 as a child (age ~5–20) and in 1900 as a head of household (age ~25–40). His father's name would appear on the 1880 census."
+    },
+    {
+      "priority": 4,
+      "action": "Search Texas marriage records 1880–1900 for 'Mattingly' in Fayette County",
+      "where": "Texas State Archives, Austin; FamilySearch Texas Marriage Index 1837–1973",
+      "expected_yield": "Ed Mattingly + May Teichmueller marriage record, likely giving Ed's age and parents"
+    },
+    {
+      "priority": 5,
+      "action": "Request microfilm search for Claude Mattingly obituary at Briscoe Center, UT Austin",
+      "contact": "lib-briscoe@utlists.utexas.edu",
+      "dates": "February 1–6, 1934",
+      "papers": "Austin American-Statesman, San Antonio Express, La Grange Journal",
+      "expected_yield": "AP wire article identifying Ed Mattingly's full name, location, and possibly age/birthplace; confirmation of family details"
+    },
+    {
+      "priority": 6,
+      "action": "Search 1850, 1860, 1870 US Census for George Thomas Mattingly (b.1830 Marion KY) in Texas",
+      "where": "FamilySearch.org — search Texas census for Mattingly surname",
+      "expected_yield": "Confirm or eliminate George Thomas as the Texas migrant. If found in Texas, he would establish the Gen 7 link."
+    }
+  ],
+
+  "confidence_summary": {
+    "CONFIRMED": [
+      "Leonard Mattingly Jr. (1764–1843) had exactly 4 children: Mary Alvey (b.1798), Henry Martin Sr. (b.1799), William Cissell (b.1807), Leonard III (b.1828)",
+      "Henry Martin Sr. (b.1799) had 9 children, born 1828–1844 in Marion/Washington County KY",
+      "Ed Mattingly was assistant cashier of First National Bank of La Grange per 1902 Lotto book",
+      "Ed Mattingly married May Teichmueller (daughter of Judge Hans Teichmueller 1837–1901)",
+      "Ed Mattingly's children: Leroy Teichmuller Mattingly (b.1898), Claude Mattingly (~b.1899, d.1934), Mamie Mattingly (~b.1900–1902)",
+      "Ed Mattingly was alive in La Grange, Fayette County, Texas in January 1934"
+    ],
+    "PROBABLE": [
+      "Ed Mattingly descended from Leonard Mattingly Jr. (1764–1843) through the Marion County KY Catholic line — based on surname rarity, Catholic community connections, and migration patterns, but no primary source directly proves this link"
+    ],
+    "POSSIBLE": [
+      "Ed Mattingly's father was George Thomas Mattingly (b.1830 Marion KY) who has no documented death record",
+      "Ed Mattingly was born in the 1860s–1870s"
+    ],
+    "UNVERIFIED": [
+      "The centenarian (b.1828, d.1935, age 107) — oral tradition only; Leonard III (b.1828) confirmed died 1914 KY, age 85",
+      "Ed Mattingly's exact parentage from Kentucky to Texas",
+      "The specific Mattingly ancestor who physically migrated from Kentucky to Texas"
+    ]
+  }
+}

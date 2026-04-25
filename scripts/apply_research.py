@@ -923,6 +923,172 @@ for p in data["people"]:
             "Cotton MS Cleopatra C. vii, British Library"
         ]
 
+# --- Findings from 11-teichmueller-german.md ---
+# Charlotte's correct surname: von Girsewaldt (not Gursewald — that was OCR artifact)
+for p in data["people"]:
+    if p.get("id") == "p051":  # Charlotte Teichmueller
+        p["full_name"] = "Charlotte Georgine Elisabeth (von Girsewaldt) Teichmüller"
+        p["maiden_name"] = "von Girsewaldt"
+        p["alternate_spellings"] = ["von Gursewald (OCR artifact in Lotto 1902)", "von Girsewald"]
+        p["context"] = (
+            "Charlotte Georgine Elisabeth von Girsewaldt — corrected spelling per German Wikipedia "
+            "and the German Wikipedia disambiguation page. The von Girsewaldt family are documented "
+            "Braunschweig Freiherren (barons since 1827), a military dynasty with at least three "
+            "Generalmajore (major generals) in succession: Gustav 1785-1864, his sons Gustav 1812-1871 "
+            "and Alexander 1815-1890. Charlotte's exact position in the family is UNVERIFIED — "
+            "Wilhelm von Girsewald (brother of the 1785 Gustav) is the most probable candidate for "
+            "her father. Gothaisches Genealogisches Taschenbuch der Freiherrlichen Häuser (1921) "
+            "would resolve this."
+        )
+        p["sources"] = [
+            "https://de.wikipedia.org/wiki/Girsewald",
+            "https://de.wikipedia.org/wiki/Gustav_von_Girsewald_(Generalmajor,_1785)",
+            "https://en.wikipedia.org/wiki/Gustav_Teichm%C3%BCller"
+        ]
+        confirmed_research["p051"] = "CORRECTED — von Girsewaldt (Braunschweig Freiherren / military barons)"
+
+# Update Augusta Kellner with full dates
+for p in data["people"]:
+    if p.get("id") == "p052":  # Augusta Kellner
+        p["full_name"] = "Augusta Dorthea Elizabeth (Kellner) Teichmüller"
+        p["birth_date"] = "March 25, 1843"
+        p["birth_year"] = 1843
+        p["death_date"] = "July 9, 1915"
+        p["death_year"] = 1915
+        p["context"] = (
+            "Augusta Dorthea Elizabeth Kellner (25 Mar 1843 – 9 Jul 1915). Born at Postoak Point, "
+            "Austin County, Texas. Daughter of an unnamed modern-languages teacher who taught Hans "
+            "English when Hans first arrived in Texas. Married Hans Teichmueller June 10, 1858 (NOT "
+            "June 16 as TSHA states — Lotto 1902 primary text gives June 10; TSHA has a transcription error)."
+        )
+        p["sources"] = ["https://archive.org/details/fayettecountyher00lott"]
+        confirmed_research["p052"] = "ENRICHED — Augusta Kellner full dates 1843-1915"
+
+# Hans's children — add the 4 confirmed (May, Minette already exist)
+# Add Louisa (died young 1862-1870)
+if not any(p.get("id") == "p110" for p in data["people"]):
+    data["people"].append({
+        "id": "p110",
+        "full_name": "Louisa Teichmueller",
+        "given_name": "Louisa",
+        "surname": "Teichmueller",
+        "birth_year": 1862,
+        "birth_date": "approx. September 1862",
+        "death_year": 1870,
+        "death_date": "approx. August 1870",
+        "death_place": "La Grange, Texas (assumed)",
+        "relation_to_shari": "great-great-aunt (Hans Teichmueller's daughter; died in childhood, age ~7-8)",
+        "context": "First child of Hans Teichmueller and Augusta Kellner. Died in childhood, approximately age 7-8.",
+        "fuzzy": False,
+        "sources": ["https://www.wikitree.com/wiki/Teichmueller-2"],
+        "confidence": "CONFIRMED",
+        "branch": "Teichmueller maternal-paternal"
+    })
+    confirmed_research["p110"] = "Added Louisa Teichmueller (~1862-1870, died young)"
+
+# Add Anna E. Teichmueller
+if not any(p.get("id") == "p111" for p in data["people"]):
+    data["people"].append({
+        "id": "p111",
+        "full_name": "Anna E. Teichmueller",
+        "given_name": "Anna",
+        "surname": "Teichmueller",
+        "birth_year": 1874,
+        "birth_date": "November 28, 1874",
+        "death_year": 1961,
+        "death_date": "January 13, 1961",
+        "death_place": "San Antonio, Texas",
+        "relation_to_shari": "great-great-aunt (Hans Teichmueller's daughter; never married)",
+        "context": "Fourth child of Hans Teichmueller and Augusta Kellner. Never married. Died in San Antonio age 86. CONFIRMED via FamilySearch Texas Deaths 1890-1976 K34B-HSQ.",
+        "fuzzy": False,
+        "sources": [
+            "https://www.wikitree.com/wiki/Teichmueller-5",
+            "https://familysearch.org/ark:/61903/1:1:K34B-HSQ"
+        ],
+        "confidence": "CONFIRMED",
+        "branch": "Teichmueller maternal-paternal"
+    })
+    confirmed_research["p111"] = "Added Anna E. Teichmueller (1874-1961)"
+
+# Update May (Mary) Mattingly with confirmed dates
+for p in data["people"]:
+    if p.get("id") == "p040":  # May Teichmueller Mattingly (Leroy's mother)
+        p["full_name"] = "Mary \"May\" (Teichmueller) Mattingly"
+        p["given_name"] = "Mary"
+        p["alternate_spellings"] = ["May", "May Mattingly"]
+        p["birth_year"] = 1867
+        p["birth_date"] = "December 16, 1867"
+        p["birth_place"] = "La Grange, Fayette County, Texas"
+        p["death_year"] = 1900
+        p["death_date"] = "August 28, 1900"
+        p["spouse"] = "Edward Mattingly Sr. (m. September 1, 1894)"
+        p["context"] = (
+            "Mary 'May' Teichmueller Mattingly (16 Dec 1867 – 28 Aug 1900). Daughter of Hans Teichmueller "
+            "and Augusta Kellner. Married Edward Mattingly Sr. on September 1, 1894. Mother of Dr. Claude "
+            "Mattingly, Leroy Teichmuller Mattingly (1898), and 'Aunt Mamie' (b. ~1900). Died August 28, 1900 — "
+            "consistent with Shari's account that 'his [Leroy's] mother died at childbirth giving birth to "
+            "Aunt Mamie.' She was 32 years old."
+        )
+        p["sources"] = [
+            "https://www.wikitree.com/wiki/Teichmueller-1",
+            "https://archive.org/details/fayettecountyher00lott"
+        ]
+        p["fuzzy"] = False
+        confirmed_research["p040"] = "CONFIRMED — Mary 'May' Teichmueller Mattingly (1867-1900)"
+
+# Update Ed Mattingly to "Edward Mattingly Sr." with marriage detail
+for p in data["people"]:
+    if p.get("id") == "p041":  # Ed Mattingly
+        p["full_name"] = "Edward Mattingly Sr."
+        p["given_name"] = "Edward"
+        p["alternate_spellings"] = ["Ed", "Ed Mattingly", "Edward Mattingly Sr"]
+        p["surname"] = "Mattingly"
+        p["spouse"] = "Mary 'May' Teichmueller (m. September 1, 1894)"
+        p["context"] = (
+            "Edward Mattingly Sr., assistant cashier of the First National Bank of La Grange (per 1902 "
+            "Fayette County history). Married Mary 'May' Teichmueller on September 1, 1894 — daughter of "
+            "Judge Hans Teichmueller. May died Aug 28, 1900 leaving him a widower with 3 small children: "
+            "Dr. Claude Mattingly, Leroy Teichmuller Mattingly (1898), and Aunt Mamie. Confirmed alive in "
+            "La Grange January 1934 when Claude's body was returned to him after his death at the Texan Hotel Austin."
+        )
+        p["sources"] = [
+            "https://archive.org/details/fayettecountyher00lott",
+            "https://www.loc.gov/item/02023423/"
+        ]
+        confirmed_research["p041"] = "CONFIRMED — Edward Mattingly Sr., m. May Teichmueller 1 Sept 1894"
+
+# Add Gustav Teichmüller — Hans's brother, famous philosopher
+if not any(p.get("id") == "p120" for p in data["people"]):
+    data["people"].append({
+        "id": "p120",
+        "full_name": "Gustav Teichmüller",
+        "given_name": "Gustav",
+        "surname": "Teichmüller",
+        "birth_year": 1832,
+        "death_year": 1888,
+        "birth_place": "Brunswick (Braunschweig), Duchy of Brunswick",
+        "occupation": "Philosopher and university professor (University of Basel; Imperial University of Dorpat)",
+        "relation_to_shari": "great-great-great-uncle (Hans Teichmueller's older brother)",
+        "context": (
+            "Gustav Teichmüller (1832–1888) was a documented German philosopher with English and German "
+            "Wikipedia entries. Brother of Judge Hans Teichmueller of La Grange, Texas. Both brothers "
+            "abandoned university plans after their father August Teichmüller's death — Hans emigrated "
+            "to Texas in 1856; Gustav stayed in Europe and became a professor at the University of Basel "
+            "and the Imperial University of Dorpat (Tartu, Estonia). He is the most prominent academic "
+            "in the documented Spence/Mattingly/Teichmueller ancestry."
+        ),
+        "fuzzy": False,
+        "sources": [
+            "https://en.wikipedia.org/wiki/Gustav_Teichm%C3%BCller",
+            "https://de.wikipedia.org/wiki/Gustav_Teichm%C3%BCller_(Philosoph)",
+            "https://web.archive.org/web/20111127170425/http://www.unigeschichte.unibas.ch:80/fakultaeten-und-faecher/phil.hist.-fakultaet/zur-geschichte-der-phil.hist.-fakultaet/gustav-teichmueller.html"
+        ],
+        "confidence": "CONFIRMED",
+        "branch": "Teichmueller maternal-paternal — collateral",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gustav_Teichm%C3%BCller"
+    })
+    confirmed_research["p120"] = "Added Gustav Teichmüller (1832-1888) — Hans's brother, German philosopher (Basel/Dorpat)"
+
 # Mark the 300-year gap explicitly in entity meta
 data["historical_gaps"] = {
     "medieval_to_early_modern": {
