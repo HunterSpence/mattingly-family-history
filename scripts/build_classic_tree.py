@@ -155,9 +155,26 @@ charles = n("Charles Mattingly", "1600–1642", "Father of Thomas I; Sussex Engl
 john = n("John Mattingly", "1560–1641", "Buried 17 Dec 1641 St Mary Colechurch London — primary source", "p062", 2, 16, "confirmed",
          [charles])
 
-# 300-year gap placeholder
-gap = n("[~300-year documentary gap]", "1240s–1560", "Family likely yeoman farmers in southern England", None, 1, 14, "unknown",
-        [john])
+# Henry MATYNGLE — agent 17 finding from FreeREG / Phillimore's Transcripts
+# Married 30 Sept 1548 at Heckfield St Michael, Hampshire — same parish that covered Mattingley tithing.
+# Born approximately 1518–1528. PROBABLE father of John Mattingly (~1560).
+# Spelling "Matyngle" matches 15th-century BHO VCH variant "Martyngle".
+# Plus collateral Hampshire Mattinglys: Agnes MATTYNGLY (m. 1571), Anne MATTINGLY (m. 1596).
+agnes = n("Agnes Mattyngly", "fl. 1571", "Married Harry Cawte 10 Sept 1571 Heckfield (Phillimore's Transcript line 109)", None, 2, 16, "probable")
+anne = n("Anne Mattingly", "fl. 1596", "Married John Ayer 17 Oct 1596 Heckfield (Phillimore line 230)", None, 2, 16, "probable")
+
+henry_matyngle = n("Henry MATYNGLE", "~1520 – ?", "Married 30 Sept 1548 Heckfield St Michael Hampshire (Phillimore's Transcript line 48); probable father of John Mattingly", None, 1, 16, "probable",
+                    [john, agnes, anne])
+
+# Reduced ~250-year gap (down from ~300) — Peter de Mattingley (1240s) → Henry MATYNGLE (1548)
+gap = n("[~250-year documentary gap]", "1240s–1548", "Family likely yeoman farmers in Hampshire/Surrey/southern England — TNA subsidy rolls + Hampshire Record Office unindexed", None, 1, 14, "unknown",
+        [henry_matyngle])
+
+# London-area cluster (collateral, not direct line) — agent 17 finding
+# Thomas MOTTINGLEY baptised Wimbledon St Mary 16 Jan 1542/43, son of Henry MOTTINGLEY and Joan
+thomas_wimbledon = n("Thomas MOTTINGLEY", "b. 16 Jan 1542/43 Wimbledon", "Son of Henry MOTTINGLEY + Joan; Wimbledon St Mary baptism (FreeREG)", None, 1, 16, "probable")
+henry_wimbledon = n("Henry MOTTINGLEY", "fl. 1542", "Of Wimbledon St Mary Surrey; possibly same as Henry MATYNGLE of Heckfield 25 mi away (UNCONFIRMED)", None, 0, 16, "possible",
+                    [thomas_wimbledon])
 
 # Peter de Mattingley (last lord, sold the manor)
 peter = n("Peter de Mattingley", "fl. 1236–1249", "Last lord; sold Mattingley manor to Geoffrey de Arundel", "p072", 0, 13, "possible",

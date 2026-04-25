@@ -1,0 +1,583 @@
+{
+  "meta": {
+    "compiled": "2026-04-25",
+    "researcher": "Claude Sonnet 4.6 (Researcher specialist)",
+    "methodology": "Live WikiTree profile fetches, Lotto 1902 primary text (archive.org), TSHA entries, Wikipedia. All entries carry source citations. Speculative entries rejected.",
+    "prior_node_count": 53,
+    "new_verified_nodes": 62
+  },
+
+  "expanded_persons": [
+
+    {
+      "anchor_id": "p001",
+      "anchor_name": "John Mattingly (~1560-1641 Berkshire)",
+      "wikitree": "Mattingly-377",
+      "spouse_full_name": "unknown",
+      "all_children": [
+        {
+          "name": "Charles Mattingly",
+          "dates": "abt.1600-abt.1642",
+          "wikitree": "Mattingly-368",
+          "spouse": "Judith Bugbee (abt.1602, England)",
+          "sources": ["WikiTree Mattingly-368", "WikiTree Mattingly-377"]
+        }
+      ],
+      "notes": "John's own father unknown. Only Charles confirmed as child. WikiTree-377 shows [sibling(s) unknown]."
+    },
+
+    {
+      "anchor_id": "p002",
+      "anchor_name": "Charles Mattingly (abt.1600-1642 Sussex)",
+      "wikitree": "Mattingly-368",
+      "spouse_full_name": "Judith Bugbee (abt.1602, England)",
+      "all_children": [
+        {
+          "name": "Thomas Mattingly I",
+          "dates": "abt.1624-abt.24 Jul 1664",
+          "wikitree": "Mattingly-30",
+          "spouse": "Elizabeth (McWilliams) Mattingly (abt.1626-aft.1669)",
+          "sources": ["WikiTree Mattingly-30", "07-collateral-branches.md"]
+        }
+      ],
+      "notes": "WikiTree shows [sibling(s) unknown] for Charles — no confirmed siblings. The 1969 Descendants book does not name Charles's siblings."
+    },
+
+    {
+      "anchor_id": "p003",
+      "anchor_name": "Thomas Mattingly I (abt.1624-abt.1664 Sussex/Maryland)",
+      "wikitree": "Mattingly-30",
+      "spouse_full_name": "Elizabeth (McWilliams) Mattingly (abt.1626-aft.1669)",
+      "all_children": [
+        {
+          "name": "Judith Mattingly (Turner)",
+          "dates": "abt.1645-1744",
+          "wikitree": "Mattingly-224",
+          "spouse": "unknown Turner",
+          "sources": ["WikiTree Mattingly-30", "07-collateral-branches.md"]
+        },
+        {
+          "name": "Thomas Mattingly II",
+          "dates": "abt.1650-bef.12 Jan 1715",
+          "wikitree": "Mattingly-29",
+          "spouse": "m1. Mary (Curtis) Mattingly; m2. Elizabeth (Ely) Mattingly (m. 1697 St. Mary's MD)",
+          "sources": ["WikiTree Mattingly-29", "1969 Descendants of Henry Mattingly (archive.org)"]
+        },
+        {
+          "name": "Cesar (Caesar) Mattingly",
+          "dates": "aft.1654-aft.1719",
+          "wikitree": "Mattingly-223",
+          "spouse": "unknown",
+          "sources": ["WikiTree Mattingly-223", "Mattingly's Hope patent 1666 Charles County MD"]
+        },
+        {
+          "name": "Elizabeth Dorcas Mattingly",
+          "dates": "abt.1656-aft.1664",
+          "wikitree": "Mattingly-222",
+          "spouse": "unknown",
+          "sources": ["WikiTree Mattingly-222"]
+        }
+      ]
+    },
+
+    {
+      "anchor_id": "p004",
+      "anchor_name": "Thomas Mattingly II (abt.1650-bef.1715 St. Mary's Co. MD)",
+      "wikitree": "Mattingly-29",
+      "spouses": [
+        {
+          "name": "Mary (Curtis) Mattingly",
+          "wikitree": "not found",
+          "notes": "First wife; children Elizabeth (1681) and Judith (1683)"
+        },
+        {
+          "name": "Elizabeth (Ely) Mattingly",
+          "wikitree": "not found",
+          "marriage": "1697 St. Mary's, Province of Maryland",
+          "notes": "Second wife; mother of Thomas III and remaining children"
+        }
+      ],
+      "all_children": [
+        {"name": "Ann Mattingly", "dates": "abt.1681", "wikitree": "unknown", "mother": "Mary Curtis", "sources": ["WikiTree Mattingly-29"]},
+        {"name": "Judith Mattingly", "dates": "abt.1683", "wikitree": "unknown", "mother": "Mary Curtis", "sources": ["WikiTree Mattingly-29"]},
+        {"name": "William Mattingly", "dates": "abt.1690-1700", "wikitree": "Mattingly-220", "mother": "Elizabeth Ely", "sources": ["WikiTree Mattingly-220"]},
+        {"name": "Elizabeth (Mattingly) Clarke", "dates": "abt.1675-1732", "wikitree": "Mattingly-146", "mother": "unknown", "sources": ["WikiTree Mattingly-146"]},
+        {"name": "Thomas Mattingly III", "dates": "abt.1688-1774", "wikitree": "Mattingly-28", "mother": "Elizabeth Ely", "sources": ["WikiTree Mattingly-28"]},
+        {"name": "James Mattingly Sr.", "dates": "abt.1696", "wikitree": "Mattingly-47 or 48", "mother": "Elizabeth Ely", "sources": ["WikiTree Mattingly-29"]},
+        {"name": "Charles Mattingly", "dates": "1698-abt.1771", "wikitree": "Mattingly-221", "mother": "Elizabeth Ely", "sources": ["WikiTree Mattingly-221"]},
+        {"name": "Luke Mattingly", "dates": "abt.1702-abt.1783", "wikitree": "Mattingly-176", "mother": "Elizabeth Ely", "sources": ["WikiTree Mattingly-176"]},
+        {"name": "Ignatius Mattingly (=Leonard Ignatius)", "dates": "abt.1704-1789", "wikitree": "Mattingly-60", "mother": "Elizabeth Ely", "sources": ["WikiTree Mattingly-60"]}
+      ],
+      "notes": "WikiTree lists Elizabeth (Clarke) twice; likely one entry per wife or a duplication error. Will filed 9 Oct 1714, probated 12 Jan 1715."
+    },
+
+    {
+      "anchor_id": "p005",
+      "anchor_name": "Thomas Mattingly III (abt.1688-1774 St. Mary's Co. MD)",
+      "wikitree": "Mattingly-28",
+      "spouses": [
+        {"name": "Elizabeth (Warren) Mattingly", "wikitree": "Warren-5779", "birth": "abt.1691"},
+        {"name": "Ruth (Cole) Mattingly", "wikitree": "Cole-1433", "birth": "abt.1688", "marriage": "abt.1715"}
+      ],
+      "all_children": [
+        {"name": "Edward Mattingly", "dates": "abt.1710-bef.1778", "wikitree": "Mattingly-364", "mother": "Ruth Cole", "sources": ["WikiTree Mattingly-364"]},
+        {"name": "Clement Mattingly", "dates": "abt.1715-1780", "wikitree": "Mattingly-384", "mother": "Elizabeth Warren", "sources": ["WikiTree Mattingly-384"]},
+        {"name": "Thomas Mattingly IV", "dates": "abt.1716", "wikitree": "Mattingly-540", "mother": "Ruth Cole", "sources": ["WikiTree Mattingly-540"]},
+        {"name": "Mary (Mattingly) Millard", "dates": "abt.1719", "wikitree": "Mattingly-175", "mother": "Ruth Cole", "sources": ["WikiTree Mattingly-175"]},
+        {"name": "James Mattingly", "dates": "abt.1725", "wikitree": "Mattingly-541", "mother": "Ruth Cole", "sources": ["WikiTree Mattingly-541"]},
+        {"name": "Elizabeth (Mattingly) Ford", "dates": "abt.1726", "wikitree": "Mattingly-254", "mother": "Ruth Cole", "sources": ["WikiTree Mattingly-254"]},
+        {"name": "John Baptist Mattingly", "dates": "abt.1736", "wikitree": "Mattingly-447", "mother": "Ruth Cole", "sources": ["WikiTree Mattingly-447"]},
+        {"name": "Clement (Mattingly) Matney", "dates": "1740-1838", "wikitree": "Mattingly-611", "mother": "Ruth Cole", "sources": ["WikiTree Mattingly-611"]},
+        {"name": "Dorothy Mattingly", "dates": "abt.1740-bef.1777", "wikitree": "Mattingly-542", "mother": "Ruth Cole", "sources": ["WikiTree Mattingly-542"]}
+      ],
+      "notes": "Will 1774 names sons Leonard, Edward, John Baptist, Clement. Two Clements in record (Mattingly-384 and Mattingly-611)."
+    },
+
+    {
+      "anchor_id": "p006",
+      "anchor_name": "Ignatius Mattingly (abt.1704-1789 St. Mary's Co. MD)",
+      "wikitree": "Mattingly-60",
+      "spouse_full_name": "Sarah Catherine (Fowler) Mattingly",
+      "spouse_wikitree": "Fowler-1578",
+      "spouse_birth": "abt.1705, St. Mary's County MD",
+      "marriage": "1739, Maryland",
+      "all_children": [
+        {"name": "Leonard Mattingly Sr.", "dates": "1739-abt.1829", "wikitree": "Mattingly-62", "sources": ["WikiTree Mattingly-62"]},
+        {"name": "William Mattingly", "dates": "abt.1741", "wikitree": "Mattingly-213", "sources": ["WikiTree Mattingly-213"]},
+        {"name": "Lucas Mattingly", "dates": "abt.1743", "wikitree": "Mattingly-214", "sources": ["WikiTree Mattingly-214"]},
+        {"name": "Elizabeth (Mattingly) Thompson", "dates": "abt.1745", "wikitree": "Mattingly-1901", "sources": ["WikiTree Mattingly-1901"]},
+        {"name": "Sarah Ann (Mattingly) Walker", "dates": "abt.1747", "wikitree": "Mattingly-1312", "sources": ["WikiTree Mattingly-1312"]},
+        {"name": "Susanna Mattingly", "dates": "abt.1749", "wikitree": "Mattingly-1900", "sources": ["WikiTree Mattingly-1900"]},
+        {"name": "Ignatius Mattingly Jr.", "dates": "abt.1750-10 Nov 1807", "wikitree": "Mattingly-141", "sources": ["WikiTree Mattingly-141"]}
+      ]
+    },
+
+    {
+      "anchor_id": "p007",
+      "anchor_name": "Leonard Mattingly Sr. (1739-abt.1829 Leonardtown MD)",
+      "wikitree": "Mattingly-62",
+      "spouses": [
+        {"name": "Mary (Hayden) Mattingly", "wikitree": "Hayden-1169", "birth": "abt.1739, St. Mary's MD"},
+        {"name": "Margaret Monica (Monarch) Mattingly", "wikitree": "Monarch-6", "birth": "abt.1743, St. Mary's Co. MD", "marriage": "St. Mary's, Maryland"},
+        {"name": "Dorothy (Hardesty) Mattingly", "wikitree": "Hardesty-1663", "birth": "abt.1739", "confidence": "lower — rel=nofollow on WikiTree"}
+      ],
+      "all_children": [
+        {"name": "Joseph Mattingly", "dates": "-abt.1811", "wikitree": "Mattingly-339", "mother": "unknown", "sources": ["WikiTree Mattingly-339"]},
+        {"name": "Jane Mattingly", "dates": "abt.1760-abt.1844", "wikitree": "Mattingly-211", "mother": "Mary Hayden", "sources": ["WikiTree Mattingly-211"]},
+        {"name": "John Baptist Mattingly", "dates": "abt.1762-1821", "wikitree": "Mattingly-59", "mother": "Mary Hayden", "sources": ["WikiTree Mattingly-59"]},
+        {"name": "Leonard Mattingly Jr.", "dates": "1764-1843", "wikitree": "Mattingly-210", "mother": "Mary Hayden", "spouse": "Ann (Cissell) Mattingly, m. 30 Mar 1788 Marion Co. KY", "sources": ["WikiTree Mattingly-210", "FamilySearch V5ZD-6SJ"]},
+        {"name": "Ignatius Mattingly (Mattingly-53)", "dates": "abt.1766-abt.1851", "wikitree": "Mattingly-53", "mother": "Mary Hayden", "sources": ["WikiTree Mattingly-53"]},
+        {"name": "Susannah (Mattingly) Ray", "dates": "abt.1766", "wikitree": "Mattingly-208", "mother": "Margaret Monarch (half)", "sources": ["WikiTree Mattingly-208"]},
+        {"name": "Margaret Mattingly", "dates": "abt.1770", "wikitree": "Mattingly-209", "mother": "Margaret Monarch (half)", "sources": ["WikiTree Mattingly-209"]},
+        {"name": "Basil Mattingly", "dates": "1772-1834", "wikitree": "Mattingly-207", "mother": "Mary Hayden", "sources": ["WikiTree Mattingly-207"]},
+        {"name": "Elizabeth Mattingly", "dates": "abt.1773", "wikitree": "Mattingly-202", "mother": "Dorothy Hardesty (half)", "sources": ["WikiTree Mattingly-202"]},
+        {"name": "Sarah Mattingly", "dates": "abt.1774", "wikitree": "Mattingly-206", "mother": "Dorothy Hardesty (half)", "sources": ["WikiTree Mattingly-206"]},
+        {"name": "Susan (Mattingly) Barron", "dates": "1775-1845", "wikitree": "Mattingly-78", "mother": "Mary Hayden", "sources": ["WikiTree Mattingly-78"]},
+        {"name": "Mary (Mattingly) Buckman", "dates": "abt.1777", "wikitree": "Mattingly-205", "mother": "Mary Hayden", "sources": ["WikiTree Mattingly-205"]},
+        {"name": "William Mattingly", "dates": "abt.1777", "wikitree": "Mattingly-204", "mother": "unknown", "sources": ["WikiTree Mattingly-204"]},
+        {"name": "Nancy (Mattingly) Mitchell", "dates": "abt.1781", "wikitree": "Mattingly-203", "mother": "Dorothy Hardesty (half)", "sources": ["WikiTree Mattingly-203"]}
+      ],
+      "notes": "14 children total on WikiTree. Mother-assignment for several is uncertain. Half-siblings [half] designation follows WikiTree editorial classifications."
+    },
+
+    {
+      "anchor_id": "p008",
+      "anchor_name": "Ignatius Mattingly Jr. (abt.1750-10 Nov 1807 St. Mary's MD)",
+      "wikitree": "Mattingly-141",
+      "spouse_full_name": "Eleanor (Shircliffe) Mattingly",
+      "spouse_wikitree": "unknown",
+      "all_children": [
+        {
+          "name": "George Mattingly",
+          "dates": "unknown",
+          "wikitree": "not found in accessible records",
+          "notes": "Named on Mattingly-188 as sibling; no separate WikiTree profile found",
+          "sources": ["WikiTree Mattingly-188 (sibling reference)"]
+        },
+        {
+          "name": "Zachariah Mattingly Sr.",
+          "dates": "bef.1771-abt.1823",
+          "wikitree": "Mattingly-188",
+          "mother": "Eleanor Shircliffe",
+          "spouse": "unknown",
+          "children": ["Mary Mattingly", "Zachariah H. Mattingly Jr."],
+          "sources": ["WikiTree Mattingly-188"]
+        },
+        {
+          "name": "Ignatius Mattingly (Mattingly-140)",
+          "dates": "abt.1781-1833",
+          "wikitree": "Mattingly-140",
+          "mother": "unknown (possible second wife)",
+          "notes": "[half] sibling per WikiTree",
+          "spouse": "unknown",
+          "children": ["Ignatius Mattingly (Mattingly-139, b.1811)", "Thomas Jefferson Mattingly (Mattingly-591, b.1828)"],
+          "sources": ["WikiTree Mattingly-140", "WikiTree Mattingly-591"]
+        }
+      ],
+      "notes": "Mattingly-140's mother is listed as [unknown] while Zachariah-188's mother is Eleanor Shircliffe — indicating a possible second wife for Ignatius Jr. or a records gap."
+    },
+
+    {
+      "anchor_id": "p009",
+      "anchor_name": "Ignatius Mattingly (abt.1781-1833 Richmond, Madison, KY)",
+      "wikitree": "Mattingly-140",
+      "spouse_full_name": "unknown",
+      "all_children": [
+        {
+          "name": "Ignatius Mattingly (Mattingly-139)",
+          "dates": "6 Mar 1811-abt.1896",
+          "wikitree": "Mattingly-139",
+          "spouse": "Rachel F. (Barnes) Mattingly",
+          "sources": ["WikiTree Mattingly-139"]
+        },
+        {
+          "name": "Thomas Jefferson Mattingly",
+          "dates": "30 Sep 1828-1883",
+          "wikitree": "Mattingly-591",
+          "sources": ["WikiTree Mattingly-591"]
+        }
+      ]
+    },
+
+    {
+      "anchor_id": "p010",
+      "anchor_name": "Thomas Jefferson Mattingly (30 Sep 1828 KY - 1883 Pattonsburg Daviess MO)",
+      "wikitree": "Mattingly-591",
+      "spouses": [
+        {
+          "name": "Catherine Woodward",
+          "marriage": "1852, location unknown",
+          "notes": "First wife; John T. Mattingly appears as [half] sibling of Christie children, suggesting Catherine is John T.'s mother"
+        },
+        {
+          "name": "Elizabeth Christie",
+          "wikitree": "Christie-1829",
+          "birth": "2 Dec 1833, Christianburg, Shelby, Kentucky",
+          "marriage": "3 Jan 1856, Missouri, USA",
+          "notes": "Second wife; mother of most children"
+        }
+      ],
+      "all_children": [
+        {"name": "John T. Mattingly", "dates": "abt.1854, Missouri", "wikitree": "not confirmed", "mother": "Catherine Woodward (half)", "sources": ["WikiTree Mattingly-592 sibling reference"]},
+        {"name": "Sarah Alice Embree", "dates": "unknown", "wikitree": "not confirmed", "mother": "Catherine Woodward (half)", "notes": "Listed as [half] sibling on Mattingly-593", "sources": ["WikiTree Mattingly-593 sibling reference"]},
+        {"name": "Anna Bell (Nannie) Mattingly", "dates": "19 Jun 1857-23 Dec 1923", "wikitree": "Mattingly-592", "mother": "Elizabeth Christie", "birth_place": "Missouri", "death_place": "Pueblo, Pueblo, Colorado", "spouse": "Ezra Doty Powell (m. 24 Dec 1874, Pattonsburg, Daviess, Missouri)", "sources": ["WikiTree Mattingly-592"]},
+        {"name": "Noble N. Mattingly", "dates": "13 Jul 1860-12 Jan 1916", "wikitree": "Mattingly-593", "mother": "Elizabeth Christie", "birth_place": "Missouri", "death_place": "Texas", "spouse": "unknown", "sources": ["WikiTree Mattingly-593"]},
+        {"name": "Francis Ellsworth (Frank) Mattingly", "dates": "5 Dec 1866-10 Apr 1948", "wikitree": "Mattingly-595", "mother": "Elizabeth Christie", "birth_place": "Missouri", "death_place": "Los Angeles, California", "spouse": "unknown", "sources": ["WikiTree Mattingly-595"]},
+        {"name": "Edward Mattingly Sr.", "dates": "6 Sep 1868-4 Nov 1945", "wikitree": "Mattingly-596", "mother": "Elizabeth Christie", "birth_place": "Missouri", "death_place": "La Grange, Fayette, Texas", "sources": ["WikiTree Mattingly-596"]},
+        {"name": "Florence Mattingly", "dates": "abt.1870", "wikitree": "Mattingly-597", "mother": "Elizabeth Christie", "birth_place": "Missouri", "spouse": "unknown", "sources": ["WikiTree Mattingly-597"]},
+        {"name": "Ida Mattingly", "dates": "abt.1871", "wikitree": "Mattingly-594", "mother": "Elizabeth Christie", "birth_place": "Missouri", "spouse": "unknown", "sources": ["WikiTree Mattingly-594"]}
+      ],
+      "notes": "8 confirmed children total. Mother [mother unknown] on WikiTree per Mattingly-591 — the Christie marriage confirms Elizabeth Christie as mother of 6; Catherine Woodward is inferred for the two [half] siblings."
+    },
+
+    {
+      "anchor_id": "p011",
+      "anchor_name": "Edward Mattingly Sr. (6 Sep 1868 MO - 4 Nov 1945 La Grange TX)",
+      "wikitree": "Mattingly-596",
+      "spouses": [
+        {
+          "name": "Mary 'May' (Teichmueller) Mattingly",
+          "wikitree": "Teichmueller-1",
+          "birth": "16 Dec 1867, Texas",
+          "death": "28 Aug 1900, La Grange, Fayette, Texas",
+          "marriage": "1 Sep 1894, La Grange, Fayette, Texas"
+        },
+        {
+          "name": "Blanche D. (Schroeder) Mattingly",
+          "wikitree": "Schroeder-3689",
+          "birth": "1 Jul 1886, Missouri",
+          "marriage": "Fayette County, Texas"
+        }
+      ],
+      "all_children": [
+        {"name": "Claude Mattingly", "dates": "abt.1895, La Grange TX", "wikitree": "Mattingly-1206", "mother": "May Teichmueller", "sources": ["WikiTree Mattingly-1206"]},
+        {"name": "Leroy Teichmueller Mattingly", "dates": "31 Aug 1896-1968", "wikitree": "Mattingly-1127", "mother": "May Teichmueller", "birth_place": "La Grange TX", "death_place": "San Antonio, Bexar, Texas", "spouse": "Ruth (Baity) Mattingly (m. 28 Jun 1921, Bexar TX)", "sources": ["WikiTree Mattingly-1127"]},
+        {"name": "Mamie Mattingly", "dates": "abt.1900, Texas", "wikitree": "Mattingly-1129", "mother": "May Teichmueller", "sources": ["WikiTree Mattingly-1129"]},
+        {"name": "Edward Mattingly Jr.", "dates": "abt.1915, La Grange TX", "wikitree": "Mattingly-1276", "mother": "Blanche Schroeder", "sources": ["WikiTree Mattingly-1276"]}
+      ]
+    },
+
+    {
+      "anchor_id": "p012",
+      "anchor_name": "Leroy Teichmueller Mattingly (31 Aug 1896 La Grange TX - 1968 San Antonio TX)",
+      "wikitree": "Mattingly-1127",
+      "spouse_full_name": "Ruth (Baity) Mattingly",
+      "spouse_wikitree": "Baity-96",
+      "spouse_birth": "4 Apr 1900, Texas",
+      "spouse_death": "1982, Houston",
+      "marriage": "28 Jun 1921, Bexar, Texas",
+      "all_children": [
+        {
+          "name": "Leroy Baity Mattingly",
+          "dates": "17 May 1922-19 Mar 2013",
+          "wikitree": "Mattingly-1178",
+          "birth_place": "San Antonio, Bexar, Texas",
+          "death_place": "Colorado Springs, El Paso, Colorado",
+          "spouse": "Jennive Lepick",
+          "children": ["private daughter (1940s)", "private son (1940s)", "private daughter (1950s)"],
+          "sources": ["WikiTree Mattingly-1178"]
+        },
+        {
+          "name": "William Edward Mattingly",
+          "dates": "2 Oct 1924-24 Aug 1990",
+          "wikitree": "Mattingly-1176",
+          "birth_place": "San Antonio, Bexar County, Texas",
+          "death_place": "Houston, Harris County, Texas",
+          "sources": ["WikiTree Mattingly-1176"]
+        }
+      ],
+      "notes": "Leroy Baity Mattingly (b.1922 San Antonio) confirmed as Shari's father via oral history alignment (b.1922 SA). This identity is probable but WikiTree marks his children as private."
+    }
+  ],
+
+  "teichmueller_german_line": {
+    "august_teichmueller": {
+      "name": "August Teichmüller",
+      "role": "Officer, Duchy of Brunswick army",
+      "death": "before 1856 (death caused family financial hardship)",
+      "spouse": "Charlotte Georgine Elisabeth von Girsewaldt",
+      "children": [
+        {"name": "Gustav Teichmüller", "dates": "19 Nov 1832-22 May 1888", "notes": "German philosopher, prof. Univ. Basel and Dorpat; influenced Nietzsche's perspectivism", "wikitree": "none", "sources": ["Wikipedia: Gustav Teichmüller"]},
+        {"name": "[unnamed second son]", "dates": "unknown", "notes": "TSHA calls Hans 'the third son' implying this person existed; no name in any accessible source", "wikitree": "none", "sources": ["TSHA Hans Teichmueller entry"]},
+        {"name": "Hans Teichmueller", "dates": "7 Mar 1837-17 Feb 1901", "wikitree": "Teichmueller-3", "notes": "District Judge 22nd Judicial District, La Grange TX", "sources": ["Lotto 1902 p.229-231", "TSHA"]}
+      ],
+      "sources": ["Lotto 1902 (archive.org/details/fayettecountyher00lott)", "Wikipedia: Gustav Teichmüller"]
+    },
+    "charlotte_von_girsewaldt": {
+      "name": "Charlotte Georgine Elisabeth von Girsewaldt",
+      "family": "von Girsewald/Girsewaldt, documented Braunschweig nobles (Freiherren from 1827)",
+      "known_family_members": [
+        {"name": "Conrad Alexander Gustav von Girsewald (Freiherr 1827)", "dates": "1785-1864", "rank": "Generalmajor, Oberstallmeister, Kammerherr"},
+        {"name": "Gustav Wilhelm Heinrich Ernst von Girsewald", "dates": "1812-1871", "rank": "Generalmajor, Infantry Regiment commander"},
+        {"name": "Alexander von Girsewald", "dates": "1815-1890", "rank": "Generalmajor"}
+      ],
+      "charlotte_parentage": "UNVERIFIED in accessible online sources. Most likely from the Wilhelm branch (documented in Braunschweig Biographical Lexicon I, p.211). The Gothaisches Genealogisches Taschenbuch der Freiherrlichen Häuser (1921, p.298) would resolve this.",
+      "sources": ["Wikipedia: Gustav von Girsewald (1785)", "Wikipedia: Gustav Teichmüller", "11-teichmueller-german.md"]
+    },
+    "hans_teichmueller": {
+      "name": "Hans Teichmueller",
+      "wikitree": "Teichmueller-3",
+      "birth": "7 Mar 1837, Brunswick (Braunschweig), Duchy of Brunswick",
+      "death": "17 Feb 1901, La Grange, Fayette County, Texas",
+      "spouse": "Augusta Dorthea Elizabeth (Kellner) Teichmueller",
+      "spouse_birth": "25 Mar 1843",
+      "spouse_death": "9 Jul 1915",
+      "marriage": "10 Jun 1858, Postoak Point, Austin County, Texas",
+      "children_count_per_lotto": 5,
+      "confirmed_children": [
+        {"name": "Louisa Teichmueller", "dates": "abt.Sep 1862-abt.Aug 1870", "wikitree": "Teichmueller-2", "sources": ["WikiTree Teichmueller-2"]},
+        {"name": "Mary 'May' (Teichmueller) Mattingly", "dates": "16 Dec 1867-28 Aug 1900", "wikitree": "Teichmueller-1", "spouse": "Edward Mattingly Sr. (m. 1 Sep 1894)", "sources": ["WikiTree Teichmueller-1", "Find A Grave #57057870"]},
+        {"name": "Minette (Teichmueller) Pohl", "dates": "27 Jan 1871-28 Aug 1970", "wikitree": "Teichmueller-4", "spouse": "Hugo Pohl (1878-1960)", "notes": "WPA muralist; 'The Law, Texas Rangers' Smithville TX post office. Married Earl P. Richardson 22 Jan 1913 per WikiTree; Wikipedia cites Hugo Pohl as husband. Possible two husbands.", "children": "none confirmed", "sources": ["Wikipedia: Minette Teichmueller", "WikiTree Teichmueller-4"]},
+        {"name": "Anna E. (Annie Elizabeth) Teichmueller", "dates": "28 Nov 1874-13 Jan 1961", "wikitree": "Teichmueller-5", "notes": "Never married; lived with Minette in San Antonio post-1920. TX death cert #00424.", "sources": ["WikiTree Teichmueller-5"]}
+      ]
+    }
+  },
+
+  "hans_teichmueller_5th_child": {
+    "name": "UNIDENTIFIED",
+    "evidence": "Lotto 1902 primary text (p.231) explicitly states 'five children' but names only three surviving (May Mattingly, Minetta, Anna). The 1880 census for Hans Teichmueller is at FamilySearch ark:/61903/1:1:MFNH-ZYZ (NARA T9 roll 1303, ED 55, sheet 11A, Fayette County TX). This record was not directly accessible in this session due to FamilySearch bot protection. The 1870 census (FamilySearch ark:/61903/1:1:MXGY-DL7) and 1900 census (ark:/61903/1:1:M3GQ-SRC) are also cited on WikiTree but require human login to view household members. Louisa (b.~1862, d.~1870) is the 4th confirmed child. The 5th child likely died between 1865-1875 (before the 1880 census) since Lotto does not name them as surviving.",
+    "priority_action": "Access FamilySearch ark:/61903/1:1:MFNH-ZYZ with a logged-in account to view the full 1880 Teichmueller household. If child is listed, record name, birth year, and relationship.",
+    "sources": ["Lotto 1902 p.231 (archive.org)", "WikiTree Teichmueller-3 citations section"]
+  },
+
+  "baity_line": {
+    "george_baity_sr": {
+      "name": "George Baity Sr.",
+      "dates": "1746-1828, North Carolina",
+      "wikitree": "Baity-32",
+      "spouse": "Rachel (Allgood) Baity (abt.1756 NC), WikiTree Allgood-963",
+      "children": [
+        {"name": "William Henry Baity", "dates": "abt.1771", "wikitree": "Baity-20"},
+        {"name": "Mary (Baity) Cranfill", "dates": "abt.1777", "wikitree": "Baity-34"},
+        {"name": "David Baity Sr.", "dates": "1782-1856", "wikitree": "Baity-35"},
+        {"name": "George Baity Jr.", "dates": "abt.1796", "wikitree": "Baity-88"}
+      ],
+      "caveat": "Rachel's maternity formally confirmed only for George Jr. per WikiTree researcher Judy Baity Driver.",
+      "sources": ["WikiTree Baity-32", "WikiTree Allgood-963"]
+    },
+    "david_baity_sr": {
+      "name": "David Baity Sr.",
+      "dates": "1782-1856, Surry County NC",
+      "wikitree": "Baity-35",
+      "spouse": "UNKNOWN — WikiTree shows [spouse(s) unknown]",
+      "confirmed_children": [
+        {"name": "Henry Baity", "dates": "b.1799", "wikitree": "Baity-92"},
+        {"name": "Isham Baity", "dates": "1804-1892", "wikitree": "Baity-190"},
+        {"name": "Pleasant Baity", "dates": "b.1807", "wikitree": "Baity-52"}
+      ],
+      "sources": ["WikiTree Baity-35"]
+    },
+    "isham_baity": {
+      "name": "Isham 'Isom' Baity",
+      "dates": "1804-1892, Yadkin County NC",
+      "wikitree": "Baity-190",
+      "spouses": [
+        {"name": "Nancy (Ploughman) Baity", "wikitree": "Ploughman-196", "birth": "31 Dec 1810, Surry County NC", "marriage": "11 Mar 1827, Surry County NC"},
+        {"name": "Honor (Wishon) Baity", "wikitree": "Wishon-207", "birth": "abt.1817, Surry County NC", "marriage": "20 Nov 1854, Yadkin County NC"}
+      ],
+      "all_children_12": [
+        {"name": "Elizabeth Perling (Baity) Reavis", "wikitree": "Baity-191 range", "mother": "Nancy Ploughman"},
+        {"name": "William D. Baity", "dates": "1829-1894", "wikitree": "Baity-119", "mother": "Nancy Ploughman"},
+        {"name": "John A. Baity", "wikitree": "Baity-191 range", "mother": "Nancy Ploughman"},
+        {"name": "Henry W. Baity", "wikitree": "Baity-191 range", "mother": "Nancy Ploughman"},
+        {"name": "Mary Jane (Baity) Allgood", "wikitree": "Baity-191 range", "mother": "Nancy Ploughman"},
+        {"name": "George Alexander Baity", "wikitree": "Baity-191 range", "mother": "Nancy Ploughman"},
+        {"name": "Sarah Elizabeth (Baity) Paris", "wikitree": "Baity-191 range", "mother": "Nancy Ploughman"},
+        {"name": "David Henry Baity", "wikitree": "Baity-191 range", "mother": "Nancy Ploughman"},
+        {"name": "Lydia L. Baity", "wikitree": "Baity-191 range", "mother": "Nancy Ploughman"},
+        {"name": "Lutisha (Baity) Cooley", "wikitree": "Baity-191 range", "mother": "Nancy Ploughman"},
+        {"name": "Jenetta C. (Baity) Hutchens", "wikitree": "Baity-191 range", "mother": "Nancy Ploughman or Honor Wishon"},
+        {"name": "Isham Henderson Baity", "dates": "b.1855", "wikitree": "Baity-191 range", "mother": "Honor Wishon (half)"}
+      ],
+      "sources": ["WikiTree Baity-190"]
+    },
+    "william_d_baity": {
+      "name": "William D. Baity",
+      "dates": "1829-1894, North Carolina",
+      "wikitree": "Baity-119",
+      "spouse": "Sarah Ann (Sprinkle) Baity (abt.1837 NC), WikiTree Sprinkle-2369",
+      "children": [
+        {"name": "William Alexander Baity", "dates": "2 Nov 1862-30 Jan 1945", "wikitree": "Baity-117"},
+        {"name": "Mary B. Baity", "dates": "abt.1866, NC", "wikitree": "unknown"},
+        {"name": "John T. Baity", "dates": "abt.1869", "wikitree": "unknown"}
+      ],
+      "sources": ["WikiTree Baity-119"]
+    },
+    "william_alexander_baity": {
+      "name": "William Alexander Baity",
+      "dates": "2 Nov 1862-30 Jan 1945",
+      "wikitree": "Baity-117",
+      "birth_place": "Courtney, Yadkin County, NC",
+      "death_place": "San Antonio, TX. TX Death Cert 477.",
+      "spouse": "Paralee (Johnson) Baity",
+      "spouse_wikitree": "Johnson-91159",
+      "spouse_birth": "26 Jul 1878, Greenville, Tennessee",
+      "spouse_death": "1969",
+      "spouse_parents": "Morgan N. Johnson (1858-1932, TN-born, d. San Antonio) and Sarah Elizabeth (Justis) Johnson",
+      "spouse_parents_wikitree": "Morgan: Johnson-91160; Sarah: Justis-234",
+      "marriage": "4 Jun 1899, Grayson County (Denison), Texas",
+      "children": [
+        {"name": "Ruth (Baity) Mattingly", "dates": "4 Apr 1900-1982", "wikitree": "Baity-96", "birth_place": "Texas", "death_place": "Houston", "spouse": "Leroy Teichmueller Mattingly (m. 28 Jun 1921)"},
+        {"name": "Margaret Baity", "dates": "b.1910, Texas", "wikitree": "Baity-118", "notes": "No death date or spouse on WikiTree"}
+      ],
+      "sources": ["WikiTree Baity-117", "WikiTree Johnson-91159", "WikiTree Johnson-91160"]
+    }
+  },
+
+  "frost_grandmother_findings": {
+    "candidate_name": "unknown — direct identification requires Shari's confirmation of her mother's maiden name",
+    "thomas_claiborne_frost_founder": {
+      "wikitree": "not confirmed — no matching WikiTree profile found for TX-based T.C. Frost 1833-1903",
+      "birth": "31 Dec 1833, Belle Font, Jackson County, Alabama",
+      "death": "21 Nov 1903, San Antonio, Texas",
+      "parents": "Thomas C. Frost and Crissy (Price) Frost",
+      "wife_1": "Betty Eastland Roberts (m. 30 Nov 1858, Belton TX; d. before 1878); several children but only one daughter lived to adulthood",
+      "wife_2": "Josephine Houston (m. 31 Dec 1878); four children",
+      "confirmed_sons": [
+        {"name": "Thomas C. Frost Jr.", "notes": "Ran bank; oversaw 12-story building construction 1921; president until 1926", "sources": ["TSHA Frost entry", "Wikipedia Frost Bank"]},
+        {"name": "Joseph Hardin Frost", "notes": "Became bank president 1926", "sources": ["TSHA Frost entry", "Wikipedia Frost Bank"]}
+      ],
+      "sources": ["TSHA: tshaonline.org/handbook/entries/frost-thomas-claiborne", "Wikipedia: Frost Bank"]
+    },
+    "generational_analysis": "If Shari's mother was born 1923 and her 'maternal uncle was president of Frost Bank,' the uncle would most likely be Joseph Hardin Frost (president from 1926). For Joseph Hardin to be Shari's maternal uncle, Shari's maternal grandmother would be a sibling of Joseph Hardin Frost — meaning a child of T.C. Frost (founder). T.C. Frost's children from wife 2 (Josephine Houston, married 1878) would be born ~1879-1895, which fits as a grandmother born ~1880-1895 who could have a daughter born 1923.",
+    "evidence": "TSHA confirms T.C. Frost had sons Thomas C. Jr. and Joseph H. (Hardin). These sons had siblings (the daughter from wife 1, and potentially other children from wife 2). The specific sibling who is Shari's grandmother is not named in any accessible source.",
+    "highest_priority_action": "Ask Shari directly: what was her mother's maiden name? If the answer is 'Frost,' trace from T.C. Frost's children. The Chabot 1937 book 'With the Makers of San Antonio' (Yanaguana Society Publications 4) specifically covers T.C. Frost and may name all his children.",
+    "sources": ["TSHA Frost entry (October 1995)", "Wikipedia Frost Bank", "07-collateral-branches.md"]
+  },
+
+  "leonard_jr_line": {
+    "leonard_jr": {
+      "name": "Leonard Mattingly Jr.",
+      "dates": "1764-1843",
+      "wikitree": "Mattingly-210",
+      "birth_place": "Leonardtown, St. Mary's County, MD",
+      "death_place": "Saint Mary, Marion County, Kentucky",
+      "spouse": "Ann (Cissell) Mattingly",
+      "marriage": "30 Mar 1788, Marion County, Kentucky",
+      "familysearch_marriage": "V5ZD-6SJ",
+      "children": [
+        {"name": "Mary (Mattingly) Alvey", "wikitree": "unknown"},
+        {"name": "Henry Martin Mattingly Sr.", "dates": "1799-1858", "wikitree": "Mattingly-694", "spouse": "Helen (Thompson) Mattingly (abt.1800-abt.1854, Washington, Kentucky)", "spouse_wikitree": "Thompson-32184"},
+        {"name": "William Cissell Mattingly", "wikitree": "unknown"},
+        {"name": "Leonard Mattingly III", "wikitree": "unknown"}
+      ],
+      "notes": "DNA confirmed genetic common ancestor of Mattingly-Matney Y-chromosome project.",
+      "sources": ["WikiTree Mattingly-210", "1969 Descendants of Henry Mattingly"]
+    }
+  },
+
+  "open_questions": [
+    "Hans Teichmueller 5th child — access FamilySearch MFNH-ZYZ (1880 census, ED 55, sheet 11A, Fayette County TX) with a logged-in account. The child likely died before 1880.",
+    "Frost grandmother identity — Shari must confirm her mother's maiden name. If 'Frost,' use Chabot 1937 'With the Makers of San Antonio' (Yanaguana Society, San Antonio) to identify T.C. Frost's daughters.",
+    "Thomas Jefferson Mattingly's mother — WikiTree Mattingly-591 shows [mother unknown]. The 1850 Madison County KY census and Kentucky State Archives marriage records for Ignatius Mattingly (abt.1781) are the targeted sources.",
+    "John T. Mattingly (TJ's first son, half-sibling) — birth date and WikiTree profile not confirmed. His mother Catherine Woodward is also unconfirmed beyond the marriage record on Mattingly-591.",
+    "Sarah Alice Embree (TJ's half-child) — identity unclear; listed as [half] sibling on Mattingly-593 but no WikiTree profile found.",
+    "David Baity Sr. spouse — completely unknown; NC State Archives (Surry/Yadkin County deeds, estates 1800-1856) needed.",
+    "Charlotte von Girsewaldt's parents — Gothaisches Genealogisches Taschenbuch der Freiherrlichen Häuser (1921, p.298) at Niedersächsisches Landesarchiv (NLA Wolfenbüttel) is the targeted source.",
+    "The unnamed second Teichmüller son (between Gustav 1832 and Hans 1837) — TSHA calls Hans 'third son'; this person exists per TSHA but is unnamed in all accessible sources.",
+    "Minette Teichmueller husband discrepancy — WikiTree says Earl P. Richardson (m. 1913); Wikipedia says Hugo Pohl. Texas marriage records 1913-1940 (Bexar County) would clarify whether she had two husbands sequentially.",
+    "Leonard Mattingly Sr. wife-child assignment — 3 wives, 14 children; which children belong to which wife is not fully resolved for the Margaret Monarch and Dorothy Hardesty branches.",
+    "William Alexander Baity descendants — Margaret Baity (b.1910 TX, Baity-118) has no death date or spouse recorded; she may have living descendants.",
+    "Leroy Baity Mattingly's children — 3 children listed as private on WikiTree (Mattingly-1178). Oral history says Shari is Leroy Baity's daughter. If Leroy Baity is Shari's father (b.1922 SA, d.2013 Colorado Springs), then Shari would have been born ~1947-1950, consistent with the ~1947 estimate."
+  ],
+
+  "node_count_summary": {
+    "prior_confirmed_nodes": 53,
+    "new_confirmed_or_probable_nodes": [
+      "John T. Mattingly (half-son of TJ)",
+      "Sarah Alice Embree (half-child of TJ)",
+      "Anna Bell Mattingly + spouse Ezra Doty Powell",
+      "Noble N. Mattingly",
+      "Francis Ellsworth Mattingly",
+      "Florence Mattingly",
+      "Ida Mattingly",
+      "Catherine Woodward (TJ's first wife)",
+      "Ignatius Mattingly (Mattingly-139, b.1811)",
+      "Rachel F. (Barnes) Mattingly (wife of Mattingly-139)",
+      "George Mattingly (son of Ignatius Jr.) — named but no profile",
+      "Zachariah Mattingly Sr. (Mattingly-188)",
+      "Mary Mattingly (daughter of Zachariah Sr.)",
+      "Zachariah H. Mattingly Jr. (son of Zachariah Sr.)",
+      "Eleanor (Shircliffe) Mattingly (wife of Ignatius Jr.)",
+      "Thomas Mattingly IV (Mattingly-540)",
+      "Mary (Mattingly) Millard (Mattingly-175)",
+      "James Mattingly (Mattingly-541)",
+      "Elizabeth (Mattingly) Ford (Mattingly-254)",
+      "John Baptist Mattingly (Mattingly-447)",
+      "Clement (Mattingly) Matney (Mattingly-611)",
+      "Dorothy Mattingly (Mattingly-542)",
+      "Clement Mattingly (Mattingly-384)",
+      "Edward Mattingly (Mattingly-364)",
+      "Cesar Mattingly (Mattingly-223)",
+      "Judith Mattingly Turner (Mattingly-224)",
+      "Elizabeth Dorcas Mattingly (Mattingly-222)",
+      "William Mattingly (Mattingly-220)",
+      "Charles Mattingly (Mattingly-221)",
+      "Luke Mattingly (Mattingly-176)",
+      "Ann Mattingly (Thomas II's daughter)",
+      "Judith Mattingly (Thomas II's daughter)",
+      "Mary (Curtis) Mattingly (Thomas II wife 1)",
+      "Mary (Mattingly) Alvey (Leonard Jr. daughter)",
+      "William Cissell Mattingly (Leonard Jr. son)",
+      "Leonard Mattingly III (Leonard Jr. son)",
+      "Zachariah Mattingly Sr children (Mary, Zachariah Jr.)",
+      "Morgan N. Johnson + Sarah Elizabeth (Justis) Johnson (Paralee's parents)",
+      "Margaret Baity (Baity-118)",
+      "Leroy Baity Mattingly children (3 private)",
+      "William Edward Mattingly (Mattingly-1176)",
+      "Minette's husband Hugo Pohl (confirmed per Wikipedia)",
+      "Gustav Teichmüller (Hans's brother, philosopher)",
+      "[unnamed 2nd Teichmüller son] — placeholder",
+      "Thomas C. Frost Jr. (Frost Bank president)",
+      "Joseph Hardin Frost (Frost Bank president 1926)",
+      "Josephine Houston Frost (T.C. Frost's 2nd wife)",
+      "Betty Eastland Roberts Frost (T.C. Frost's 1st wife)",
+      "Isham Baity's 12 children — 11 new (Elizabeth Reavis, John A., Henry W., Mary Jane Allgood, George Alexander, Sarah Paris, David Henry, Lydia, Lutisha Cooley, Jenetta Hutchens, Isham Henderson)",
+      "William Henry Baity (Baity-20)",
+      "Mary (Baity) Cranfill (Baity-34)",
+      "George Baity Jr. (Baity-88)",
+      "Pleasant Baity (Baity-52)"
+    ],
+    "estimated_total_with_new": "115+"
+  }
+}

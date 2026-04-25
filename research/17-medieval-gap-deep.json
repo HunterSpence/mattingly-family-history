@@ -1,0 +1,230 @@
+{
+  "research_date": "2026-04-25",
+  "researcher_model": "claude-sonnet-4-6",
+  "gap_bridge_attempts": [
+    {
+      "candidate_name": "Henry MATYNGLE / MATYNGLE",
+      "birth_year_or_flourished": "fl. 1548 (born est. 1518-1528)",
+      "death_year": "unknown",
+      "evidence": "Married at Heckfield St Michael, Hampshire, 30 September 1548. The Heckfield registers (which include the tithings of Mattingley and Hazeley) began in 1538 per BHO VCH Hampshire vol. 4. Bride name not captured in the Phillimore transcript. Henry is the EARLIEST confirmed Mattingly surname bearer in the Heckfield/Mattingley registers. Heckfield St Michael was the mother church for the chapelry of Mattingley (which became a separate parish only in 1894). His name spelling 'Matyngle' matches the BHO VCH's 15th-century place-name variant 'Martyngle' — strongly indicating a surname derived directly from the village.",
+      "primary_source": "Phillimore's Transcript of Heckfield St Michael parish register, Hampshire. Transcribed by Ken Greenslade, file line number 48. Available via FreeREG: https://www.freereg.org.uk/search_records/683737608655749cd6443497/-henry-matyngle-marriage-hampshire-heckfield-1548-09-30",
+      "confidence": "CONFIRMED",
+      "rejection_reason_if_rejected": null,
+      "notes": "This is the MOST SIGNIFICANT gap-bridging find. Henry MATYNGLE married in the Heckfield register that covers Mattingley itself. Estimated birth ~1518-1528 makes him a plausible parent of John Mattingly (~1560). He predates the next Heckfield Mattingly record by 23 years."
+    },
+    {
+      "candidate_name": "Agnes MATTYNGLY",
+      "birth_year_or_flourished": "fl. 1571 (born est. 1545-1551)",
+      "death_year": "unknown",
+      "evidence": "Married Harry CAWTE at Heckfield St Michael, Hampshire, 10 September 1571. Phillimore's Transcript of the Heckfield register. Agnes could be a daughter of Henry MATYNGLE (married 1548), which would place her birth ~1549-1555 — consistent. Her surname matches the known Hampshire Mattingly community in this register.",
+      "primary_source": "Phillimore's Transcript of Heckfield St Michael parish register, Hampshire. Transcribed by Ken Greenslade, file line number 109. FreeREG: https://www.freereg.org.uk/search_records/683737658655749cd644359f/agnes-mattyngly-harry-cawte-marriage-hampshire-heckfield-1571-09-10",
+      "confidence": "CONFIRMED",
+      "rejection_reason_if_rejected": null,
+      "notes": "Second confirmed Heckfield Mattingly person. Relationship to Henry (1548) unproven from this source alone but chronologically consistent with being his daughter."
+    },
+    {
+      "candidate_name": "Anne MATTINGLY",
+      "birth_year_or_flourished": "fl. 1596 (born est. 1570-1576)",
+      "death_year": "unknown",
+      "evidence": "Married John AYER at Heckfield St Michael, Hampshire, 17 October 1596. Phillimore's Transcript. Third generation Heckfield Mattingly in the same register series. Her age at marriage is consistent with being a granddaughter of Henry (1548) or daughter of Agnes (1571).",
+      "primary_source": "Phillimore's Transcript of Heckfield St Michael parish register, Hampshire. Transcribed by Ken Greenslade, file line number 230. FreeREG: https://www.freereg.org.uk/search_records/6837376b8655749cd64437a0/anne-mattingly-john-ayer-marriage-hampshire-heckfield-1596-10-17",
+      "confidence": "CONFIRMED",
+      "rejection_reason_if_rejected": null
+    },
+    {
+      "candidate_name": "Henry MOTTINGLEY (Wimbledon)",
+      "birth_year_or_flourished": "fl. 1543 (born est. 1510-1525)",
+      "death_year": "unknown",
+      "evidence": "Father of Thomas MOTTINGLEY, baptised 16 January 1542/43 at St Mary Wimbledon, Surrey. Wife named Joan. Source is 'Other Transcript' in FreeREG — not the original parish register or Phillimore's, so transcription basis is uncertain. Wimbledon is in Surrey, approximately 25 miles northeast of Heckfield, Hampshire. The name 'Mottingley' is a clear phonetic variant of 'Mattingley.' Henry could theoretically be the same individual as Henry MATYNGLE (married Heckfield 1548) — both named Henry, both approximately the same generation, in adjacent counties — but this is speculative without corroborating documents.",
+      "primary_source": "FreeREG Other Transcript (transcriber: Sandra Gould Seenan, file line 40). St Mary Wimbledon, Surrey. https://www.freereg.org.uk/search_records/6858301c865574d283029a69/thomas-mottingley-baptism-surrey-wimbledon-1543-01-16",
+      "confidence": "POSSIBLE",
+      "rejection_reason_if_rejected": null,
+      "notes": "The 'Other Transcript' source type in FreeREG means this is not a Phillimore's or official county society transcription. The underlying original register should be verified at Surrey History Centre. Henry cannot be confirmed as the same person as Henry MATYNGLE (Heckfield 1548) without additional evidence."
+    },
+    {
+      "candidate_name": "Thomas MOTTINGLEY (Wimbledon)",
+      "birth_year_or_flourished": "b. 16 January 1542/43, Wimbledon St Mary, Surrey",
+      "death_year": "unknown",
+      "evidence": "Baptised at Wimbledon St Mary, Surrey, 16 Jan 1542/43. Son of Henry MOTTINGLEY and Joan. Later appears as the FATHER of Elizabeth MOTTINGLEY, baptised 20 January 1565/66 at the same church — confirming him as an adult by 1565. Thomas is not geographically close to John Mattingly (~1560) who was buried at St Mary Colechurch London, nor to the Heckfield Hampshire community. Connection to John unproven.",
+      "primary_source": "FreeREG Other Transcript (transcriber: Sandra Gould Seenan). St Mary Wimbledon, Surrey. Baptism 1543: https://www.freereg.org.uk/search_records/6858301c865574d283029a69/thomas-mottingley-baptism-surrey-wimbledon-1543-01-16 . Daughter Elizabeth 1566: https://www.freereg.org.uk/search_records/68583023865574d283029d44/elizabeth-mottingley-baptism-surrey-wimbledon-1566-01-20",
+      "confidence": "CONFIRMED",
+      "rejection_reason_if_rejected": null,
+      "notes": "Thomas is a real 16th-century Mottingley — born 1543, with a named father and a child baptised 1566. His connection to the John Mattingly (~1560) line is not established."
+    },
+    {
+      "candidate_name": "Roger MATTINGLEY / MATHINGLEY (Westminster)",
+      "birth_year_or_flourished": "fl. 1580-1591 (born est. 1545-1560)",
+      "death_year": "unknown",
+      "evidence": "Father of multiple children baptised at Westminster St Margaret, Middlesex: Fraunces (27 Mar 1580), Robert (3 Sep 1581), Richard (5 Dec 1582), Ester (8 Apr 1588). Also: Robert MATTINGLEY married Jone HARRIAT at Westminster St Margaret 16 Jun 1591 — likely the same Robert baptised 1581. Source is 'Other Transcript' for all Westminster records (transcriber: Judy Brett). Roger's approximate birth ~1545-1560 makes him a contemporary of John Mattingly (~1560). They could be brothers, cousins, or unrelated. No document connects Roger to the Heckfield Hampshire community specifically.",
+      "primary_source": "FreeREG Other Transcript (transcriber: Judy Brett). Westminster St Margaret. Fraunces 1580: https://www.freereg.org.uk/search_records/6844b45b865574648da0e70e/fraunces-mathingley-baptism-middlesex-westminster-1580-03-27 . Richard 1582: https://www.freereg.org.uk/search_records/6844b475865574648da0f35b/richard-mattingley-baptism-middlesex-westminster-1582-12-05",
+      "confidence": "CONFIRMED",
+      "rejection_reason_if_rejected": null,
+      "notes": "Roger MATTINGLEY is a real 16th-century London person but is NOT confirmed as a relative of John Mattingly (~1560). They are contemporaries using similar name variants in the London area."
+    },
+    {
+      "candidate_name": "Robert MATTINGLEY (Clerkenwell)",
+      "birth_year_or_flourished": "fl. 1574 (born est. 1545-1555)",
+      "death_year": "unknown",
+      "evidence": "Married Susan PAYNTER at Clerkenwell, Middlesex, 23 May 1574. Source: Other Transcript (transcriber: Jean Oakes, file line 228). A man of this name and era, in the London area, near the Westminster St Margaret cluster. Relationship to Roger MATTINGLEY (Westminster) and John Mattingly (~1560) is unknown.",
+      "primary_source": "FreeREG Other Transcript. Clerkenwell, Middlesex. https://www.freereg.org.uk/search_records/68443154865574648d71523d/susan-paynter-robert-mattingley-marriage-middlesex-clerkenwell-1574-05-23",
+      "confidence": "CONFIRMED",
+      "rejection_reason_if_rejected": null,
+      "notes": "Real person, 16th-century London. No established connection to John Mattingly line."
+    },
+    {
+      "candidate_name": "Any Mattingly in TNA E179 Lay Subsidy Rolls, Hampshire 1290-1524",
+      "birth_year_or_flourished": "n/a",
+      "death_year": "n/a",
+      "evidence": "TNA E 179 database was queried for Holdshott hundred (the administrative unit covering Heckfield and Mattingley). The database returned no results for Holdshott by name; the E179 interface has changed and places-level results for specific Hampshire hundreds could not be confirmed as absent — only as not found in the online search tool. The E179 database notes that individual taxpayer names are not indexed, only place headings. No published transcription of the Hampshire 1524-25 lay subsidy specifically for Holdshott hundred was found in open-access sources.",
+      "primary_source": "TNA E 179 database: https://www.nationalarchives.gov.uk/e179/",
+      "confidence": "REJECTED",
+      "rejection_reason_if_rejected": "Not rejected as a source — this avenue is NOT YET SEARCHED in primary documents. The E179 records for Hampshire Holdshott hundred are in physical TNA documents at Kew and have not been indexed by name. An in-person or institutional-access search of E 179/241/368 (Hampshire 1524) and adjacent pieces remains a viable unworked lead."
+    },
+    {
+      "candidate_name": "Any Mattingly in PCC wills (PROB 11), 1383-1560",
+      "birth_year_or_flourished": "n/a",
+      "death_year": "n/a",
+      "evidence": "TNA Discovery catalog API search for 'Mattingly' in the PROB 11 (Prerogative Court of Canterbury wills) series returned no relevant results in open catalog metadata. Catalog-level metadata does not index individual testator names in PROB 11 — those require searching the will registers directly. No published index of PCC wills 1383-1560 mentioning Mattingly was found in open-access sources.",
+      "primary_source": "TNA Discovery: https://discovery.nationalarchives.gov.uk",
+      "confidence": "REJECTED",
+      "rejection_reason_if_rejected": "Rejected as found — not rejected as an avenue. PCC wills are searchable via TNA DocumentsOnline (paywalled for images, but indexes exist). This remains an unworked lead requiring institutional access."
+    },
+    {
+      "candidate_name": "Mattingly in medieval Patent/Close Rolls (BHO), 1250-1400",
+      "birth_year_or_flourished": "n/a",
+      "death_year": "n/a",
+      "evidence": "BHO Calendar of Patent Rolls and Calendar of Close Rolls (Henry III through Richard II) are behind the BHO premium paywall and could not be searched in full text. The VCH Hampshire vol. 4 footnotes (the only free BHO text directly covering Mattingley manor) do not cite any additional de Mattingley persons beyond Peter (~1249). The Rycher family — NOT Mattingley — is documented as seated at Mattingley by the mid-14th century (Feet of Fines Hants Hil. 14 Edw. III, ~1340).",
+      "primary_source": "BHO VCH Hampshire vol 4 pp44-51: https://www.british-history.ac.uk/vch/hants/vol4/pp44-51 ; BHO Calendar series (premium): https://www.british-history.ac.uk",
+      "confidence": "REJECTED",
+      "rejection_reason_if_rejected": "Rejected as found via open access. Full-text of Patent Rolls and Close Rolls 1250-1400 requires BHO subscription or in-person search of published volumes."
+    },
+    {
+      "candidate_name": "Mattingly in FreeREG Hampshire baptisms 1538-1640",
+      "birth_year_or_flourished": "n/a",
+      "death_year": "n/a",
+      "evidence": "FreeREG was searched (exact and fuzzy) for Mattingly baptisms in Hampshire. ZERO results were returned. This means either: (a) the Heckfield/Mattingley baptism registers for this period have not yet been indexed in FreeREG, or (b) no Mattingly baptisms were recorded. BHO notes a 3-year gap in the Heckfield registers around 1554-1557 ('Sir Granger omytted the kepyng of thys book'). The FreeREG marriage records DO appear for Heckfield, suggesting the marriage pages were transcribed into Phillimore's but the baptism transcription may be incomplete.",
+      "primary_source": "FreeREG: https://www.freereg.org.uk ; BHO VCH Hampshire vol 4 p.49 (register description)",
+      "confidence": "REJECTED",
+      "rejection_reason_if_rejected": "Not rejected as impossible — the baptism registers exist (beginning 1538 per BHO) but are not fully indexed in open databases. Hampshire Record Office at Winchester holds the originals."
+    }
+  ],
+  "rejected_speculative_candidates": [
+    {
+      "claimed_name": "John Mattingly and Elizabeth Elinor Folliot (parents of John ~1560)",
+      "where_found": "MyHeritage aggregated trees, some WikiTree biography notes",
+      "rejection_reason": "No primary source cited anywhere. WikiTree Mattingly-368 shows entirely blank grandparent slots. This name pair is unverified speculation with no document backing."
+    },
+    {
+      "claimed_name": "Continuous gentry descent from Stephen/Peter de Mattingley through named individuals to 16th century",
+      "where_found": "Various uncited public trees on Geni.com, MyHeritage, RootsWeb",
+      "rejection_reason": "BHO VCH Hampshire explicitly states the surname disappears from manorial records after Peter (~1236). No named individual bearing the Mattingley/Mattingly surname appears in any published primary source between ~1236 and 1548. These trees fabricate the descent."
+    },
+    {
+      "claimed_name": "Any unnamed 'LDS 1525 ancestor'",
+      "where_found": "Family oral tradition referenced in prior research; possibly Herman R. Mattingly 'Mattingly Family in Early America' (1975)",
+      "rejection_reason": "No document produced. A birth ~1490-1530 is structurally plausible but no named person has been confirmed from any open-access primary source. FamilySearch catalog entry 570053 exists but the book requires interlibrary loan or microfilm access."
+    }
+  ],
+  "earliest_post_gap_mattingly": {
+    "full_name": "Henry MATYNGLE",
+    "earliest_record_date": "30 September 1548",
+    "record_type": "Marriage",
+    "location": "Heckfield St Michael, Hampshire (covers Mattingley tithing)",
+    "primary_source": "Phillimore's Transcript of Heckfield register; FreeREG https://www.freereg.org.uk/search_records/683737608655749cd6443497/-henry-matyngle-marriage-hampshire-heckfield-1548-09-30"
+  },
+  "second_post_gap_mattingly": {
+    "full_name": "Thomas MOTTINGLEY (bap. Wimbledon Surrey 1543)",
+    "note": "Earlier in absolute date (1543 vs 1548) but geographically outside Hampshire and from an 'Other Transcript' source of less certain provenance than Phillimore's. Henry Matyngle (1548) is more directly relevant to the Heckfield/Mattingley community."
+  },
+  "latest_pre_gap_mattingley": "Peter de Mattingley fl. ~1215-1236, Hampshire (sold all property to Geoffrey de Arundel before 1236 when Geoffrey acknowledged Prior's rights; Reaney & Wilson also cite 'Peter Mattingeley 1249 Hampshire' which may be a separate document or a later date for the same person)",
+  "domesday_context": {
+    "year": 1086,
+    "spelling": "Matingeleghe",
+    "pre_conquest_holder": "Alric — held Mattingley of King Edward the Confessor as an alod (free tenure)",
+    "post_conquest_holder": "Alsi the son of Brixi (Alfsi son of Brictsi), holding under Hugh de Port",
+    "source": "VCH Hants vol. 1, p. 505a (cited as footnote 78 in BHO VCH Hampshire vol 4 pp44-51)",
+    "note": "8 villagers, 3 smallholders, 3 ploughlands, 3 men's plough teams, 4 acres of meadow, 1 mill worth 5s. Alric was an Anglo-Saxon thane/free farmer. Neither Alric nor Alsi son of Brixi is a proven genealogical ancestor of any later Mattingly family — they are village-level historical figures establishing pre-Conquest settlement."
+  },
+  "pre_1167_context": {
+    "domesday_to_1167_gap": "1086 to 1167 = 81 years with no named Mattingley-connected lord documented",
+    "interpretation": "After the Norman Conquest, Mattingley became a dependent tithing of the royal manor of Heckfield in Holdshot Hundred (a royal hundred). The post-Conquest holder Alsi son of Brixi is not documented beyond Domesday. The next documented lord is Ellis (fl. 1167, Pipe Roll 13 Henry II). The intervening period ~1086-1167 has no named persons identified in published sources.",
+    "village_etymology": "Mattingley = 'Matta's leah' — Old English: clearing of the people (followers) of a man called Matta. The -inga- element indicates a group or followers. Source: Dictionary of English Place-Names (Oxford, 1991) via House of Names.",
+    "alric_note": "Alric held Mattingley as alod under Edward the Confessor — meaning full heritable free ownership, not feudal tenure. After Conquest this was replaced by feudal holding under Hugh de Port (a major Norman baron in Hampshire). Alric may have been a local Anglo-Saxon thane displaced or absorbed into the new regime.",
+    "basingas_tribe": "The Basingas (people of Basing, Hampshire) were an Anglo-Saxon tribal group documented in the area from the 5th-9th centuries. The regional settlement pattern, including Mattingley, reflects their territory. No specific genealogical connection between Alric and any post-Conquest family can be established from available sources."
+  },
+  "medieval_confirmed_line": {
+    "note": "These persons are confirmed in primary sources with the Mattingley surname at or near the village. They are NOT proven direct ancestors of John Mattingly (~1560). They establish the surname's origin and continuity through ~1236.",
+    "persons": [
+      {
+        "name": "Ellis",
+        "fl": "1167",
+        "role": "Owner/lord of Mattingley",
+        "source": "Pipe Roll 13 Henry II (Pipe Roll Society, xi, 189)",
+        "note": "No surname given — identified only as 'Ellis, the owner in 1167' in BHO VCH Hants vol 4"
+      },
+      {
+        "name": "Revelendus of Mattingley",
+        "fl": "late 12th century",
+        "role": "Lord of Mattingley, succeeded Ellis",
+        "wife": "Rose",
+        "children": ["James de Oakley", "Bartholomew de Oakley", "Stephen de Mattingley"],
+        "source": "Cotton MS Cleopatra C. vii, fol. 134d (British Library) — charter of Merton Priory",
+        "note": "First person confirmed with 'of Mattingley' in his title"
+      },
+      {
+        "name": "Stephen de Mattingley",
+        "fl": "1206",
+        "role": "Lord of Mattingley; son of Revelendus",
+        "action": "Granted 6 virgates, 30 acres, several meadows, 6s. 3d. rent, and a mill to Walter Prior of Merton in free alms",
+        "sources": ["Feet of Fines Hampshire Trinity 8 John (1206) — TNA CP 25/1", "Curia Regis Rolls ('Stephen de Madingel', de Matingel'')", "BHO VCH Hampshire vol 4 pp44-51"],
+        "confidence": "CONFIRMED — earliest DATED individual with the Mattingley surname (Reaney & Wilson, 1991)"
+      },
+      {
+        "name": "Peter de Mattingley",
+        "fl": "~1215-1249",
+        "role": "Lord of Mattingley; son of Stephen",
+        "action": "Sold all his property to Geoffrey de Arundel. After this sale the surname disappears from Mattingley manorial records.",
+        "sources": ["Cotton MS Cleopatra C. vii fol. 134d", "Feet of Fines Hampshire Michaelmas 21 Henry III (1236) — Geoffrey's acknowledgment of Prior's rights", "Reaney & Wilson (1991): 'Peter Mattingeley 1249 Hampshire'"],
+        "wife_of_arundel": "Emma (received into Merton Priory prayer benefits with Geoffrey in 1236)",
+        "confidence": "CONFIRMED"
+      }
+    ]
+  },
+  "freereg_findings_summary": {
+    "source": "FreeREG (https://www.freereg.org.uk) — free transcriptions of UK parish registers",
+    "search_date": "2026-04-25",
+    "hampshire_baptisms_mattingly": "ZERO results — Heckfield/Mattingley baptism pages not yet indexed in FreeREG (or no entries exist)",
+    "hampshire_marriages_confirmed": [
+      "Henry MATYNGLE, marriage 30 Sep 1548, Heckfield St Michael Hampshire (Phillimore's Transcript, line 48)",
+      "Agnes MATTYNGLY, marriage 10 Sep 1571, Heckfield St Michael Hampshire (Phillimore's Transcript, line 109)",
+      "Anne MATTINGLY, marriage 17 Oct 1596, Heckfield St Michael Hampshire (Phillimore's Transcript, line 230)"
+    ],
+    "surrey_baptisms": [
+      "Thomas MOTTINGLEY bap. 16 Jan 1542/43, Wimbledon St Mary, Surrey; father Henry MOTTINGLEY, mother Joan (Other Transcript, line 40)",
+      "Elizabeth MOTTINGLEY bap. 20 Jan 1565/66, Wimbledon St Mary, Surrey; father Thomas MOTTINGLEY (Other Transcript, line 226)"
+    ],
+    "middlesex_westminster_baptisms": [
+      "Fraunces MATHINGLEY bap. 27 Mar 1580, Westminster St Margaret; father Roger MATHINGLEY",
+      "Robert MATTINGLEY bap. 3 Sep 1581, Westminster St Margaret; father Roger MATTINGLEY",
+      "Richard MATTINGLEY bap. 5 Dec 1582, Westminster St Margaret; father Roger MATTINGLEY",
+      "Anne MATTINGLEIGH bap. 8 Dec 1582, Westminster St Margaret; father Robert MATTINGLEIGH",
+      "Ester MOTTINGLEY bap. 8 Apr 1588, Westminster St Margaret; father Roger MOTTINGLEY",
+      "Jane MATTINGLEY bap. 11 May 1589, Westminster St Margaret; father Wylliam MATTINGLEY"
+    ],
+    "middlesex_marriages": [
+      "Robert MATTINGLEY married Susan PAYNTER, 23 May 1574, Clerkenwell Middlesex (Other Transcript)",
+      "Jone HARRIAT married Robert MATTINGLEY, 16 Jun 1591, Westminster St Margaret (Other Transcript)"
+    ],
+    "london_city_marriages": [
+      "Anne MATTINGLY married Edward PRESCOTT, 8 Jul 1596, St Thomas the Apostle Vintry London (Other Transcript)"
+    ]
+  },
+  "gap_duration_revised": {
+    "last_confirmed_pre_gap_person": "Peter de Mattingley, last active before 1236 (Feet of Fines Hants Mich. 21 Hen. III = Geoffrey's acknowledgment)",
+    "first_confirmed_post_gap_person_in_heckfield_registers": "Henry MATYNGLE, marriage 30 Sep 1548",
+    "earliest_post_gap_person_anywhere": "Thomas MOTTINGLEY, baptised 16 Jan 1542/43, Wimbledon Surrey",
+    "minimum_gap_duration_years": "~307 years (1236 to 1543)",
+    "gap_status": "PARTIALLY BRIDGED — the gap now ends at 1543 (Wimbledon) or 1548 (Heckfield) rather than ~1560 (John Mattingly). The gap between ~1236 and 1543 remains without any named Mattingly individual in primary sources."
+  },
+  "honest_assessment": "The gap has been partially bridged at the NEAR END. Henry MATYNGLE (married Heckfield 1548) is almost certainly a native of the Mattingley/Heckfield area — his name variant 'Matyngle' closely matches the 15th-century BHO place-name spelling 'Martyngle', confirming local surname derivation. He predates John Mattingly (~1560) by approximately a generation and is in exactly the right location (Heckfield, the mother parish for Mattingley). Henry MATYNGLE (born est. 1518-1528) is a very plausible parent of John Mattingly (~1560), but this cannot be confirmed without finding a baptism record for John in the Heckfield registers. The Thomas MOTTINGLEY baptism at Wimbledon 1543 shows the surname was in active use in adjacent Surrey by the 1540s. The CORE GAP — between Peter de Mattingley (~1236) and Henry Matyngle (~1548) — remains UNBRIDGED: no named person bearing this surname has been found in any published primary source for this 312-year period. The most promising unworked leads are: (1) the Hampshire Record Office Heckfield register originals for 1538-1570 (baptism pages not in FreeREG), (2) TNA E 179 lay subsidy rolls for Holdshott hundred (individual names not indexed online), and (3) the Herman R. Mattingly genealogical book (1975) via FamilySearch microfilm."
+}
