@@ -1,0 +1,714 @@
+{
+  "title": "Spouses and Missing Children for Mattingly Family Tree Branching",
+  "compiled": "2026-04-25",
+  "methodology": "All entries sourced directly from WikiTree profiles via live HTTP fetch. WikiTree profile IDs cited as primary reference. Confidence tiers: CONFIRMED (profile exists with cited sources), PROBABLE (profile exists, no inline citations but consistent with other records), POSSIBLE (indirect inference from sibling/parent records only).",
+
+  "spouses": [
+    {
+      "person_id": "Mattingly-28",
+      "person_name": "Thomas Mattingly III",
+      "spouse_1_full_name": "Elizabeth (Warren) Mattingly",
+      "spouse_1_birth": "abt. 1691",
+      "spouse_1_birth_place": "",
+      "spouse_1_death": "unknown",
+      "spouse_2_full_name": "Ruth (Cole) Mattingly",
+      "spouse_2_birth": "abt. 1688",
+      "spouse_2_birth_place": "St. Mary's County, Province of Maryland",
+      "spouse_2_death": "unknown",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-28", "https://www.wikitree.com/wiki/Warren-5779", "https://www.wikitree.com/wiki/Cole-1433"],
+      "confidence": "CONFIRMED",
+      "notes": "Thomas III married twice. Will 1774 names sons Leonard, Edward, John Baptist, Clement — all by Ruth Cole. Children by Elizabeth Warren not individually confirmed in will."
+    },
+    {
+      "person_id": "Mattingly-60",
+      "person_name": "Ignatius Mattingly (1704-1789)",
+      "spouse_full_name": "Sarah Catherine (Fowler) Mattingly",
+      "spouse_birth": "abt. 1705",
+      "spouse_birth_place": "St. Mary's County, Maryland",
+      "spouse_death": "unknown",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-60", "https://www.wikitree.com/wiki/Fowler-1578"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "person_id": "Mattingly-62",
+      "person_name": "Leonard Mattingly Sr. ('Old Leonard', 1739-abt.1829)",
+      "spouse_1_full_name": "Mary (Hayden) Mattingly",
+      "spouse_1_birth": "abt. 1739",
+      "spouse_1_birth_place": "St Marys, St Mary's, Maryland",
+      "spouse_1_death": "unknown",
+      "spouse_2_full_name": "Margaret Monica (Monarch) Mattingly",
+      "spouse_2_birth": "abt. 1743",
+      "spouse_2_birth_place": "St. Mary's County, Maryland",
+      "spouse_2_death": "unknown",
+      "spouse_3_full_name": "Dorothy (Hardesty) Mattingly",
+      "spouse_3_birth": "abt. 1739",
+      "spouse_3_birth_place": "",
+      "spouse_3_death": "unknown",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-62", "https://www.wikitree.com/wiki/Hayden-1169", "https://www.wikitree.com/wiki/Monarch-6"],
+      "confidence": "CONFIRMED",
+      "notes": "Three marriages documented on WikiTree. Marriage to Margaret Monarch in St. Mary's, Maryland confirmed with location."
+    },
+    {
+      "person_id": "Mattingly-694",
+      "person_name": "Henry Martin Mattingly Sr. (1799-1858)",
+      "spouse_full_name": "Helen (Thompson) Mattingly",
+      "spouse_birth": "abt. 1800",
+      "spouse_birth_place": "Washington, Kentucky, United States",
+      "spouse_death": "abt. 1854",
+      "spouse_death_place": "Marion, Kentucky, United States",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-694", "https://www.wikitree.com/wiki/Thompson-32184"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "person_id": "Mattingly-596",
+      "person_name": "Edward Mattingly Sr. (1868-1945)",
+      "spouse_1_full_name": "Mary 'May' (Teichmueller) Mattingly",
+      "marriage_1_date": "1894-09-01",
+      "marriage_1_place": "La Grange, Fayette, Texas, United States",
+      "spouse_1_birth": "1867-12-16",
+      "spouse_1_birth_place": "Texas, United States",
+      "spouse_1_death": "1900",
+      "spouse_1_death_place": "La Grange, Fayette, Texas, United States",
+      "spouse_2_full_name": "Blanche D. (Schroeder) Mattingly",
+      "spouse_2_birth": "1886-07-01",
+      "spouse_2_birth_place": "Missouri, United States",
+      "marriage_2_place": "Fayette, Texas, United States",
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-596",
+        "https://www.wikitree.com/wiki/Teichmueller-1",
+        "https://www.wikitree.com/wiki/Schroeder-3689",
+        "https://archive.org/details/fayettecountyher00lott"
+      ],
+      "confidence": "CONFIRMED",
+      "notes": "Edward born 6 Sep 1868 Missouri per WikiTree. Died 1945 La Grange TX. Second wife Blanche Schroeder (b. 1 Jul 1886 Missouri) mother of Edward Mattingly Jr. (b. 1915)."
+    },
+    {
+      "person_id": "Mattingly-1127",
+      "person_name": "Leroy Teichmueller Mattingly (1896-1968)",
+      "spouse_full_name": "Ruth (Baity) Mattingly",
+      "spouse_birth": "1900-04-04",
+      "spouse_birth_place": "Texas, United States",
+      "spouse_death": "1982",
+      "spouse_death_place": "Houston, Harris, Texas, United States",
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-1127",
+        "https://www.wikitree.com/wiki/Baity-96"
+      ],
+      "confidence": "CONFIRMED",
+      "notes": "Leroy born 31 Aug 1896 La Grange (WikiTree Mattingly-1127). Died 1968 San Antonio. Ruth born 4 Apr 1900 Texas, died 1982 Houston."
+    },
+    {
+      "person_id": "Baity-117",
+      "person_name": "William Alexander Baity (1862-1945)",
+      "spouse_full_name": "Paralee (Johnson) Baity",
+      "spouse_birth": "1878-07-26",
+      "spouse_birth_place": "Greenville, Tennessee, United States",
+      "marriage_date": "1899-06-04",
+      "marriage_place": "Grayson, Texas, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-117", "https://www.wikitree.com/wiki/Johnson-91159"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "person_id": "Baity-190",
+      "person_name": "Isham Baity (1804-1892)",
+      "spouse_1_full_name": "Nancy (Ploughman) Baity",
+      "spouse_1_birth": "1810-12-31",
+      "spouse_1_birth_place": "Surry County, North Carolina, United States",
+      "spouse_2_full_name": "Honor (Wishon) Baity",
+      "spouse_2_birth": "abt. 1817",
+      "spouse_2_birth_place": "Surry County, North Carolina, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-190", "https://www.wikitree.com/wiki/Ploughman-196", "https://www.wikitree.com/wiki/Wishon-207"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "person_id": "Baity-35",
+      "person_name": "David Baity Sr. (1782-1856)",
+      "spouse_full_name": "unknown",
+      "sources": ["https://www.wikitree.com/wiki/Baity-35"],
+      "confidence": "UNVERIFIED",
+      "notes": "WikiTree Baity-35 lists [spouse(s) unknown]. Mother is confirmed as Rachel (Allgood) Baity. Siblings: William Henry Baity (b.1771), Mary (Baity) Cranfill (b.1777), George Baity Jr. (b.1796)."
+    },
+    {
+      "person_id": "Baity-32",
+      "person_name": "George Baity Sr. (1746-1828)",
+      "spouse_full_name": "Rachel (Allgood) Baity",
+      "spouse_birth": "abt. 1756",
+      "spouse_birth_place": "North Carolina",
+      "sources": ["https://www.wikitree.com/wiki/Baity-32", "https://www.wikitree.com/wiki/Allgood-963"],
+      "confidence": "CONFIRMED",
+      "notes": "WikiTree Baity-32 profile text: 'George married Rachel Baity (born about 1756 in North Carolina).' WikiTree note by Judy Baity Driver: 'we are NOT able to document that Rachel is the mother of any of George Sr.'s children except George Jr.' Partial confidence on which children she mothered."
+    }
+  ],
+
+  "additional_children": [
+    {
+      "parent_id": "Mattingly-28",
+      "parent_name": "Thomas Mattingly III (abt. 1690-1774)",
+      "child_name": "Edward Mattingly",
+      "child_wikitree": "Mattingly-364",
+      "child_dates": "abt. 1710 - 1778",
+      "child_birth_place": "St Mary's, Province of Maryland",
+      "child_death_place": "St. Mary's, Maryland",
+      "mother": "Ruth (Cole) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-364"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-28",
+      "parent_name": "Thomas Mattingly III (abt. 1690-1774)",
+      "child_name": "Clement Mattingly",
+      "child_wikitree": "Mattingly-384",
+      "child_dates": "abt. 1715",
+      "child_birth_place": "Province of Maryland",
+      "mother": "Elizabeth (Warren) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-364"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-28",
+      "parent_name": "Thomas Mattingly III (abt. 1690-1774)",
+      "child_name": "Thomas Mattingly IV",
+      "child_wikitree": "Mattingly-540",
+      "child_dates": "abt. 1716",
+      "child_birth_place": "St Mary's County, Maryland",
+      "mother": "Ruth (Cole) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-364", "https://www.wikitree.com/wiki/Mattingly-28"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-28",
+      "parent_name": "Thomas Mattingly III (abt. 1690-1774)",
+      "child_name": "Mary (Mattingly) Millard",
+      "child_wikitree": "Mattingly-175",
+      "child_dates": "abt. 1719",
+      "child_birth_place": "St. Mary's, Maryland",
+      "mother": "Ruth (Cole) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-28"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-28",
+      "parent_name": "Thomas Mattingly III (abt. 1690-1774)",
+      "child_name": "James Mattingly",
+      "child_wikitree": "Mattingly-541",
+      "child_dates": "abt. 1725",
+      "mother": "Ruth (Cole) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-28"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-28",
+      "parent_name": "Thomas Mattingly III (abt. 1690-1774)",
+      "child_name": "Elizabeth (Mattingly) Ford",
+      "child_wikitree": "Mattingly-254",
+      "child_dates": "abt. 1726",
+      "child_birth_place": "St. Mary's, Maryland",
+      "mother": "Ruth (Cole) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-28"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-28",
+      "parent_name": "Thomas Mattingly III (abt. 1690-1774)",
+      "child_name": "John Baptist Mattingly",
+      "child_wikitree": "Mattingly-447",
+      "child_dates": "abt. 1736",
+      "mother": "Ruth (Cole) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-28"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-28",
+      "parent_name": "Thomas Mattingly III (abt. 1690-1774)",
+      "child_name": "Clement (Mattingly) Matney",
+      "child_wikitree": "Mattingly-611",
+      "child_dates": "abt. 1740",
+      "child_birth_place": "Saint Mary's County, Province of Maryland",
+      "mother": "Ruth (Cole) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-28"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-28",
+      "parent_name": "Thomas Mattingly III (abt. 1690-1774)",
+      "child_name": "Dorothy Mattingly",
+      "child_wikitree": "Mattingly-542",
+      "child_dates": "abt. 1740",
+      "mother": "Ruth (Cole) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-28"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-60",
+      "parent_name": "Ignatius Mattingly (1704-1789)",
+      "child_name": "Leonard Mattingly Sr. ('Old Leonard')",
+      "child_wikitree": "Mattingly-62",
+      "child_dates": "1739 - abt. 1829",
+      "child_birth_place": "Leonardtown, St. Mary's, Maryland",
+      "child_death_place": "Washington County, Kentucky",
+      "mother": "Sarah Catherine (Fowler) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-62", "https://www.wikitree.com/wiki/Mattingly-60"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-60",
+      "parent_name": "Ignatius Mattingly (1704-1789)",
+      "child_name": "William Mattingly",
+      "child_wikitree": "Mattingly-213",
+      "child_dates": "abt. 1741",
+      "child_birth_place": "St. Mary's County, Province of Maryland",
+      "mother": "Sarah Catherine (Fowler) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-60"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-60",
+      "parent_name": "Ignatius Mattingly (1704-1789)",
+      "child_name": "Lucas Mattingly",
+      "child_wikitree": "Mattingly-214",
+      "child_dates": "abt. 1743",
+      "child_birth_place": "St. Mary's County, Maryland",
+      "mother": "Sarah Catherine (Fowler) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-60"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-60",
+      "parent_name": "Ignatius Mattingly (1704-1789)",
+      "child_name": "Elizabeth (Mattingly) Thompson",
+      "child_wikitree": "Mattingly-1901",
+      "child_dates": "abt. 1745",
+      "child_birth_place": "St. Mary's, Maryland",
+      "mother": "Sarah Catherine (Fowler) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-60"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-60",
+      "parent_name": "Ignatius Mattingly (1704-1789)",
+      "child_name": "Sarah Ann (Mattingly) Walker",
+      "child_wikitree": "Mattingly-1312",
+      "child_dates": "abt. 1747",
+      "mother": "Sarah Catherine (Fowler) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-60"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-60",
+      "parent_name": "Ignatius Mattingly (1704-1789)",
+      "child_name": "Susanna Mattingly",
+      "child_wikitree": "Mattingly-1900",
+      "child_dates": "abt. 1749",
+      "child_birth_place": "Leonardtown, St. Mary's, Maryland",
+      "mother": "Sarah Catherine (Fowler) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-60"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-60",
+      "parent_name": "Ignatius Mattingly (1704-1789)",
+      "child_name": "Ignatius Mattingly Jr.",
+      "child_wikitree": "Mattingly-141",
+      "child_dates": "abt. 1750",
+      "child_birth_place": "St. Mary's County, Colony of Maryland",
+      "mother": "Sarah Catherine (Fowler) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-60"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-62",
+      "parent_name": "Leonard Mattingly Sr. (1739-abt.1829)",
+      "child_name": "Joseph Mattingly",
+      "child_wikitree": "Mattingly-339",
+      "child_dates": "unknown",
+      "child_birth_place": "Maryland, United States",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-62"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-62",
+      "parent_name": "Leonard Mattingly Sr. (1739-abt.1829)",
+      "child_name": "Jane Mattingly",
+      "child_wikitree": "Mattingly-211",
+      "child_dates": "abt. 1760",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-62"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-62",
+      "parent_name": "Leonard Mattingly Sr. (1739-abt.1829)",
+      "child_name": "John Baptist Mattingly",
+      "child_wikitree": "Mattingly-59",
+      "child_dates": "abt. 1762",
+      "child_birth_place": "Maryland",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-62"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-62",
+      "parent_name": "Leonard Mattingly Sr. (1739-abt.1829)",
+      "child_name": "Ignatius Mattingly",
+      "child_wikitree": "Mattingly-53",
+      "child_dates": "abt. 1766",
+      "child_birth_place": "Leonardtown, St. Mary's, Maryland",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-62"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-62",
+      "parent_name": "Leonard Mattingly Sr. (1739-abt.1829)",
+      "child_name": "Basil Mattingly",
+      "child_wikitree": "Mattingly-207",
+      "child_dates": "abt. 1772",
+      "child_birth_place": "Leonardtown, Maryland",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-62"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-62",
+      "parent_name": "Leonard Mattingly Sr. (1739-abt.1829)",
+      "child_name": "Susan (Mattingly) Barron",
+      "child_wikitree": "Mattingly-78",
+      "child_dates": "abt. 1775",
+      "child_birth_place": "St. Mary's, Province of Maryland",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-62"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-62",
+      "parent_name": "Leonard Mattingly Sr. (1739-abt.1829)",
+      "child_name": "Mary (Mattingly) Buckman",
+      "child_wikitree": "Mattingly-205",
+      "child_dates": "abt. 1777",
+      "child_birth_place": "St. Mary's, Maryland, United States",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-62"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-62",
+      "parent_name": "Leonard Mattingly Sr. (1739-abt.1829)",
+      "child_name": "William Mattingly",
+      "child_wikitree": "Mattingly-204",
+      "child_dates": "abt. 1777",
+      "child_birth_place": "Leonardtown, St. Mary's, Maryland, United States",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-62"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-596",
+      "parent_name": "Edward Mattingly Sr. (1868-1945)",
+      "child_name": "Claude Mattingly",
+      "child_wikitree": "Mattingly-1206",
+      "child_dates": "abt. 1895 - 1934-01-31",
+      "child_birth_place": "La Grange, Fayette, Texas, United States",
+      "child_death_place": "Austin, Texas (Texan Hotel suicide)",
+      "mother": "Mary (Teichmueller) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-596", "https://www.wikitree.com/wiki/Mattingly-1206"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-596",
+      "parent_name": "Edward Mattingly Sr. (1868-1945)",
+      "child_name": "Mamie Mattingly",
+      "child_wikitree": "Mattingly-1129",
+      "child_dates": "abt. 1900",
+      "child_birth_place": "Texas, United States",
+      "mother": "Mary (Teichmueller) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-596"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Mattingly-596",
+      "parent_name": "Edward Mattingly Sr. (1868-1945)",
+      "child_name": "Edward Mattingly Jr.",
+      "child_wikitree": "Mattingly-1276",
+      "child_dates": "abt. 1915",
+      "child_birth_place": "La Grange, Fayette, Texas, United States",
+      "mother": "Blanche D. (Schroeder) Mattingly",
+      "sources": ["https://www.wikitree.com/wiki/Mattingly-596", "https://www.wikitree.com/wiki/Mattingly-1127"],
+      "confidence": "CONFIRMED",
+      "notes": "Half-sibling of Leroy and Claude. Different mother (Blanche Schroeder)."
+    },
+    {
+      "parent_id": "Baity-117",
+      "parent_name": "William Alexander Baity (1862-1945)",
+      "child_name": "Ruth (Baity) Mattingly",
+      "child_wikitree": "Baity-96",
+      "child_dates": "1900-04-04 - 1982",
+      "child_birth_place": "Texas, United States",
+      "child_death_place": "Houston, Harris, Texas, United States",
+      "mother": "Paralee (Johnson) Baity",
+      "sources": ["https://www.wikitree.com/wiki/Baity-96"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-117",
+      "parent_name": "William Alexander Baity (1862-1945)",
+      "child_name": "Margaret Baity",
+      "child_wikitree": "Baity-118",
+      "child_dates": "1910 - unknown",
+      "child_birth_place": "Texas",
+      "mother": "Paralee (Johnson) Baity",
+      "sources": ["https://www.wikitree.com/wiki/Baity-118"],
+      "confidence": "CONFIRMED",
+      "notes": "WikiTree shows born 1910 Texas. No death date or spouse recorded."
+    },
+    {
+      "parent_id": "Baity-119",
+      "parent_name": "William D. Baity (1829-1894)",
+      "child_name": "William Alexander Baity",
+      "child_wikitree": "Baity-117",
+      "child_dates": "1862-11-02 - 1945-01-30",
+      "mother": "Sarah Ann (Sprinkle) Baity",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-119",
+      "parent_name": "William D. Baity (1829-1894)",
+      "child_name": "Mary B. Baity",
+      "child_wikitree": "Baity-120",
+      "child_dates": "abt. 1866",
+      "child_birth_place": "North Carolina, United States",
+      "mother": "Sarah Ann (Sprinkle) Baity",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-119",
+      "parent_name": "William D. Baity (1829-1894)",
+      "child_name": "John T. Baity",
+      "child_wikitree": "Baity-121",
+      "child_dates": "abt. 1869",
+      "mother": "Sarah Ann (Sprinkle) Baity",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-190",
+      "parent_name": "Isham Baity (1804-1892)",
+      "child_name": "Elizabeth Perling (Baity) Reavis",
+      "child_wikitree": "Baity-191",
+      "child_dates": "abt. 1827",
+      "child_birth_place": "Surry, North Carolina, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-190",
+      "parent_name": "Isham Baity (1804-1892)",
+      "child_name": "John A. Baity",
+      "child_wikitree": "Baity-192",
+      "child_dates": "abt. 1831",
+      "child_birth_place": "Surry County, North Carolina, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-190",
+      "parent_name": "Isham Baity (1804-1892)",
+      "child_name": "Henry W Baity",
+      "child_wikitree": "Baity-189",
+      "child_dates": "abt. 1833",
+      "child_birth_place": "Yadkin, North Carolina, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-190",
+      "parent_name": "Isham Baity (1804-1892)",
+      "child_name": "Mary Jane (Baity) Allgood",
+      "child_wikitree": "Baity-198",
+      "child_dates": "abt. 1834",
+      "child_birth_place": "Yadkin County, North Carolina, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-190",
+      "parent_name": "Isham Baity (1804-1892)",
+      "child_name": "George Alexander Baity",
+      "child_wikitree": "Baity-194",
+      "child_dates": "abt. 1837",
+      "child_birth_place": "Surry, North Carolina, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-190",
+      "parent_name": "Isham Baity (1804-1892)",
+      "child_name": "Sarah Elizabeth (Baity) Paris",
+      "child_wikitree": "Baity-193",
+      "child_dates": "abt. 1840",
+      "child_birth_place": "Courtney, Yadkin County, North Carolina, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-190",
+      "parent_name": "Isham Baity (1804-1892)",
+      "child_name": "David Henry Baity",
+      "child_wikitree": "Baity-195",
+      "child_dates": "abt. 1842",
+      "child_birth_place": "Surry, North Carolina, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-190",
+      "parent_name": "Isham Baity (1804-1892)",
+      "child_name": "Lydia L. Baity",
+      "child_wikitree": "Baity-199",
+      "child_dates": "abt. 1848",
+      "child_birth_place": "Surry, North Carolina, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-190",
+      "parent_name": "Isham Baity (1804-1892)",
+      "child_name": "Lutisha (Baity) Cooley",
+      "child_wikitree": "Baity-196",
+      "child_dates": "abt. 1849",
+      "child_birth_place": "Surry, North Carolina, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-190",
+      "parent_name": "Isham Baity (1804-1892)",
+      "child_name": "Jenetta C. (Baity) Hutchens",
+      "child_wikitree": "Baity-197",
+      "child_dates": "abt. 1852",
+      "child_birth_place": "Yadkin, North Carolina, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-190",
+      "parent_name": "Isham Baity (1804-1892)",
+      "child_name": "William D. Baity",
+      "child_wikitree": "Baity-119",
+      "child_dates": "1829-07-19 - 1894-02-06",
+      "child_birth_place": "North Carolina, United States",
+      "sources": ["https://www.wikitree.com/wiki/Baity-119", "https://www.wikitree.com/wiki/Baity-190"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-32",
+      "parent_name": "George Baity Sr. (1746-1828)",
+      "child_name": "William Henry Baity",
+      "child_wikitree": "Baity-20",
+      "child_dates": "abt. 1771",
+      "child_birth_place": "Rowan County, North Carolina",
+      "mother": "Rachel (Allgood) Baity",
+      "sources": ["https://www.wikitree.com/wiki/Baity-35"],
+      "confidence": "PROBABLE",
+      "notes": "Per WikiTree researcher note: maternal attribution to Rachel Allgood uncertain for children other than George Jr."
+    },
+    {
+      "parent_id": "Baity-32",
+      "parent_name": "George Baity Sr. (1746-1828)",
+      "child_name": "Mary (Baity) Cranfill",
+      "child_wikitree": "Baity-34",
+      "child_dates": "abt. 1777",
+      "child_birth_place": "Rowan, North Carolina",
+      "sources": ["https://www.wikitree.com/wiki/Baity-35"],
+      "confidence": "PROBABLE"
+    },
+    {
+      "parent_id": "Baity-32",
+      "parent_name": "George Baity Sr. (1746-1828)",
+      "child_name": "David Baity Sr.",
+      "child_wikitree": "Baity-35",
+      "child_dates": "1782 - 1856",
+      "child_birth_place": "Surry, North Carolina, United States",
+      "mother": "Rachel (Allgood) Baity",
+      "sources": ["https://www.wikitree.com/wiki/Baity-35"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Baity-32",
+      "parent_name": "George Baity Sr. (1746-1828)",
+      "child_name": "George Baity Jr.",
+      "child_wikitree": "Baity-88",
+      "child_dates": "abt. 1796",
+      "child_birth_place": "Rowan, North Carolina, United States",
+      "mother": "Rachel (Allgood) Baity",
+      "sources": ["https://www.wikitree.com/wiki/Baity-35"],
+      "confidence": "CONFIRMED"
+    },
+    {
+      "parent_id": "Teichmueller-3",
+      "parent_name": "Hans Teichmueller (1837-1901)",
+      "child_name": "unnamed fifth child",
+      "child_wikitree": null,
+      "child_dates": "unknown — died before 1902",
+      "notes": "Lotto 1902 (primary source) states 'five children.' WikiTree lists only four (Louisa, May, Minette, Anna). The fifth child does not appear in any accessible digitized record. Possibly died in infancy between 1862 and 1874 or before Hans died in 1901. 1880 US Census for Hans household (FamilySearch) would resolve this.",
+      "sources": ["https://archive.org/details/fayettecountyher00lott"],
+      "confidence": "POSSIBLE"
+    }
+  ],
+
+  "edward_mattingly_sr_parents": {
+    "father_name": "Thomas Jefferson Mattingly",
+    "father_wikitree": "Mattingly-591",
+    "father_birth": "1828",
+    "father_birth_place": "Kentucky, United States",
+    "father_death": "1883",
+    "father_death_place": "Pattonsburg, Daviess, Missouri, United States",
+    "mother_name": "Elizabeth Christie",
+    "mother_wikitree": "Christie-1829",
+    "mother_birth": "1833-12-02",
+    "mother_birth_place": "Christianburg, Shelby, Kentucky, USA",
+    "edward_birth": "1868-09-06",
+    "edward_birth_place": "Missouri, United States",
+    "edward_death": "1945",
+    "edward_death_place": "La Grange, Fayette, Texas, United States",
+    "thomas_jefferson_father": "Ignatius Mattingly (Mattingly-140, abt. 1781 St. Mary's MD - 1833 Richmond, Madison, KY)",
+    "thomas_jefferson_grandfather": "Ignatius Mattingly Jr. (Mattingly-141, abt. 1750 St. Mary's County, Colony of Maryland)",
+    "thomas_jefferson_great_grandfather": "Leonard Mattingly Sr. (Mattingly-62, 1739-abt.1829)",
+    "thomas_jefferson_great_great_grandfather": "Ignatius Mattingly (Mattingly-60, abt. 1704-1789)",
+    "full_chain": "Ignatius Mattingly (1704) → Leonard Sr. (1739) → Ignatius Jr. (1750) → Ignatius (1781) → Thomas Jefferson (1828 KY) → Edward Sr. (1868 MO) → Leroy (1896 TX)",
+    "evidence": "WikiTree Mattingly-596 profile page directly names Thomas Jefferson Mattingly (Mattingly-591) as Edward's father and Elizabeth Christie (Christie-1829) as mother. WikiTree Mattingly-591 profile confirms: born 1828 Kentucky, died 1883 Pattonsburg Daviess MO, father Ignatius Mattingly (Mattingly-140). This is the KY-TX bridge: the family left Kentucky for Missouri after Ignatius Sr. died 1833, Thomas Jefferson was raised in Missouri, and his son Edward Mattingly Sr. migrated to Texas by 1894.",
+    "centenarian_note": "Thomas Jefferson Mattingly born 1828 Kentucky died 1883 Missouri at age ~54. He is NOT the centenarian (died before 1883). His father Ignatius Mattingly (Mattingly-140) born ~1781 died 1833 Richmond KY, also not a centenarian. The oral tradition centenarian born 1828 remains unidentified in WikiTree records.",
+    "sources": [
+      "https://www.wikitree.com/wiki/Mattingly-596",
+      "https://www.wikitree.com/wiki/Mattingly-591",
+      "https://www.wikitree.com/wiki/Mattingly-140",
+      "https://www.wikitree.com/wiki/Christie-1829"
+    ],
+    "confidence": "CONFIRMED"
+  },
+
+  "leroy_mattingly_confirmation": {
+    "full_name": "Leroy Teichmueller Mattingly",
+    "wikitree": "Mattingly-1127",
+    "birth": "1896-08-31",
+    "birth_place": "La Grange, Fayette, Texas, United States",
+    "death": "1968",
+    "death_place": "San Antonio, Bexar, Texas, United States",
+    "wife": "Ruth (Baity) Mattingly",
+    "wife_wikitree": "Baity-96",
+    "wife_birth": "1900-04-04",
+    "wife_death": "1982",
+    "wife_death_place": "Houston, Harris, Texas",
+    "children": [
+      {"name": "Leroy Baity Mattingly", "wikitree": "Mattingly-1178"},
+      {"name": "William Edward Mattingly", "wikitree": "Mattingly-1176"}
+    ],
+    "sources": ["https://www.wikitree.com/wiki/Mattingly-1127", "https://www.wikitree.com/wiki/Baity-96"],
+    "confidence": "CONFIRMED"
+  },
+
+  "open_questions": [
+    "Thomas Mattingly III (1688-1774): Will names sons Leonard, Edward, John Baptist, Clement. WikiTree lists 9 children across 2 wives. The distribution by wife (Warren vs Cole) is partially uncertain — only Edward Mattingly (b.1710) is confirmed as Ruth Cole's child via WikiTree-364 siblings list. Need Maryland State Archives will transcript to confirm all 9 assignments.",
+    "Leonard Mattingly Sr. (Mattingly-62): Three wives listed; which children belong to which wife is not fully disambiguated on WikiTree. Dorothy Hardesty marriage has 'rel=nofollow' suggesting less-confirmed status.",
+    "Teichmueller 5th child: Lotto 1902 says five children; only four appear in any digitized record. The 1880 US Census for Hans Teichmueller household in La Grange (FamilySearch) would resolve this — FamilySearch image for 1880 Fayette Co TX census is searchable at familysearch.org.",
+    "David Baity Sr. (Baity-35) spouse: WikiTree shows [spouse(s) unknown]. His children Henry, Isham, and Pleasant are listed but no mother named. Surry/Yadkin County NC deed and estate records 1800-1860 at NC State Archives would identify her.",
+    "George Baity Sr. (Baity-32) child-mother attribution: WikiTree researcher note explicitly states Rachel Allgood's maternity is only confirmed for George Jr. The other three children's mother is undocumented. NC Rowan County records needed.",
+    "Isham Henderson Baity (Baity-201, b.1855) is listed as a half-sibling of William D. Baity — different mother (Honor Wishon). Confirm whether this affects the direct line to William Alexander.",
+    "Thomas Jefferson Mattingly (1828 KY): WikiTree-591 lists mother as [unknown]. His father Ignatius Mattingly (Mattingly-140) also has [spouse(s) unknown]. The 1850 Madison County KY census and Kentucky marriage records at the KY State Archives would identify Thomas's mother.",
+    "The centenarian born 1828 claimed in Mattingly oral tradition remains unidentified. Thomas Jefferson Mattingly born 1828 KY died 1883 MO at age ~54. No other Mattingly born 1828 is documented in accessible sources. This may be a conflated oral memory of Thomas Jefferson's birth year with a different ancestor's longevity."
+  ]
+}

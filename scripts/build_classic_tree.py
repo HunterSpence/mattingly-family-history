@@ -47,39 +47,59 @@ shari_sister = n("[sister]", "living", "—", "p023", 16, 20, "confirmed")
 shari_father = n("[Shari's father]", "b. 1922", "Master's degree", "p015", 15, 20, "confirmed", [shari, shari_brother, shari_sister])
 
 # Leroy Teichmuller Mattingly + Ruth Baity (and Leroy's siblings)
-leroy = n("Leroy Teichmuller Mattingly", "b. 1898", "U Texas engineer; named for German maternal grandfather Hans", "p002", 14, 20, "confirmed",
-          [shari_father], spouse="Ruth (Baity) Mattingly (b. ~1900)")
+# CORRECTION (agent 16): Leroy born 31 Aug 1896, died 1968 SA. Ruth Baity 4 Apr 1900 - 1982 Houston.
+leroy = n("Leroy Teichmuller Mattingly", "1896–1968", "Born La Grange TX; died San Antonio. U Texas engineer; named for German maternal grandfather Hans", "p002", 14, 20, "confirmed",
+          [shari_father], spouse="Ruth (Baity) Mattingly (4 Apr 1900 – 1982 Houston)")
 claude = n("Dr. Claude Mattingly", "1898–1934", "Pediatrician; Marine WWI; suicide pact at Texan Hotel Austin Jan 31 1934", "p011", 14, 20, "confirmed")
 mamie = n("Aunt Mamie", "b. ~1900", "Mother died at her birth", "p013", 14, 20, "confirmed")
+edward_jr = n("Edward Mattingly Jr.", "b. ~1915 La Grange", "Half-sibling — son of Edward Sr. + 2nd wife Blanche Schroeder", None, 14, 20, "probable")
 
-# Edward Mattingly Sr + May Teichmueller — the modern Texas anchor
-edward_sr = n("Edward Mattingly Sr.", "~1860s–post-1934", "Assistant cashier First National Bank La Grange; widowed 1900", "p041", 13, 20, "confirmed",
-              [leroy, claude, mamie], spouse="May Teichmueller (m. 1 Sept 1894; d. 28 Aug 1900)")
+# Edward Mattingly Sr + May Teichmueller — CORRECTED: born 1868 Missouri, died 1945 La Grange
+edward_sr = n("Edward Mattingly Sr.", "1868 MO – 1945 La Grange TX", "Born Missouri; migrated to TX by 1894; m. May Teichmueller 1 Sept 1894 (May d. 28 Aug 1900); m2. Blanche Schroeder", "p041", 13, 20, "confirmed",
+              [leroy, claude, mamie, edward_jr], spouse="m1. May Teichmueller (1894–1900); m2. Blanche D. Schroeder (b. 1886 MO)")
 
-# The 4-generation Kentucky→Texas gap
-kytx_unknown = n("[unknown — 1850s-1860s TX migrant]", "?", "Edward Mattingly Sr's father — KY→TX bridge", None, 12, 19, "unknown", [edward_sr])
-george_thomas = n("George Thomas Mattingly", "b. 1830 Marion KY", "POSSIBLE Texas migrant; only Leonard Jr grandchild with no KY death record", "p046", 11, 19, "possible", [kytx_unknown])
+# Thomas Jefferson Mattingly — Edward Sr's father, born KY 1828, died Pattonsburg MO 1883
+thomas_jefferson = n("Thomas Jefferson Mattingly", "1828 KY – 1883 MO", "Born Kentucky; family moved to Missouri (Pattonsburg, Daviess Co) before death", None, 12, 19, "confirmed",
+                     [edward_sr], spouse="Elizabeth Christie (b. 2 Dec 1833 Christianburg, Shelby KY)")
 
-# Henry Martin Mattingly Sr (Leonard Jr's son, George Thomas's father)
-henry_martin = n("Henry Martin Mattingly Sr.", "b. 1799", "Had 9 children 1828-1844 in Marion/Washington Co KY", None, 10, 19, "probable", [george_thomas])
+# Ignatius Mattingly (b. 1781 MD, d. 1833 KY) — the KY-migration generation
+ignatius_1781 = n("Ignatius Mattingly", "1781 MD – 1833 KY", "Born Maryland; family moved to Kentucky (Marion/Washington Co); died there 1833", None, 11, 19, "confirmed",
+                  [thomas_jefferson])
 
-# Leonard Jr's other 3 children (Mary Alvey, William Cissell, Leonard III)
-mary_alvey = n("Mary Alvey Mattingly", "b. 1798", "Eldest of Leonard Jr.'s 4 children", None, 10, 19, "probable")
-william_cissell = n("William Cissell Mattingly", "b. 1807", "Leonard Jr's third child", None, 10, 19, "probable")
-leonard_iii = n("Leonard Mattingly III", "1828–1914", "Died Glen Dean KY at 85 — RULED OUT as the centenarian", None, 10, 19, "confirmed")
+# Ignatius Jr. (b. 1750) — the NEW intermediate generation (per agent 16)
+ignatius_jr = n("Ignatius Mattingly Jr.", "b. 1750", "Son of Leonard Sr.; the actual direct ancestor (NOT Leonard Jr. who is collateral)", None, 10, 18, "confirmed",
+                [ignatius_1781])
 
-# Leonard Jr (the KY pioneer)
-leonard_jr = n("Leonard Mattingly Jr.", "1764–1843", "Migrated to Marion County KY in 1785 Catholic migration; Y-DNA anchor", "p045", 9, 18, "confirmed",
-               [mary_alvey, henry_martin, william_cissell, leonard_iii], spouse="Ann Cissell (m. 7 Jan 1788, Nelson Co KY)")
+# Leonard Jr. (now COLLATERAL — Y-DNA project anchor for KY descendants)
+leonard_jr_children = [
+    n("Mary Alvey Mattingly", "b. 1798", "Eldest of Leonard Jr.'s 4 children", None, 11, 19, "probable"),
+    n("Henry Martin Mattingly Sr.", "1799–1858", "Had 9 children 1828-1844 in Marion/Washington Co KY; m. Helen Thompson", None, 11, 19, "confirmed",
+      [n("George Thomas Mattingly", "b. 1830 Marion KY", "Y-DNA project participant; cousin of the Texas line", "p046", 12, 19, "possible")]),
+    n("William Cissell Mattingly", "b. 1807", "Leonard Jr's third child", None, 11, 19, "probable"),
+    n("Leonard Mattingly III", "1828–1914 Glen Dean KY", "Died KY at 85; ruled out as centenarian", None, 11, 19, "confirmed"),
+]
+leonard_jr = n("Leonard Mattingly Jr.", "1764–1843 Marion KY", "1785 Catholic migration to KY; Y-DNA project anchor — but COLLATERAL to Hunter, not direct line", "p045", 10, 18, "confirmed",
+               leonard_jr_children, spouse="Ann Cissell (m. 7 Jan 1788, Nelson Co KY)")
 
-# Leonard Sr
-leonard_sr = n("Leonard Mattingly Sr.", "1739–1829", "Leonardtown MD; descendants in 6 KY counties", "p044", 8, 18, "probable", [leonard_jr])
+# Leonard Sr. — CORRECTED: 14 children via 3 marriages
+leonard_sr_other = [
+    n("[+12 other children of Leonard Sr.]", "1760s-1810s", "Leonard Sr. had ~14 children across 3 marriages", None, 10, 18, "probable")
+]
+leonard_sr = n("Leonard Mattingly Sr.", "1739–1829 Leonardtown MD", "'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; ~14 children", "p044", 9, 18, "confirmed",
+               [ignatius_jr, leonard_jr] + leonard_sr_other,
+               spouse="m1. Mary Hayden; m2. Margaret Monica Monarch; m3. Dorothy Hardesty")
 
-# Ignatius — the "We're from Ignatius" ancestor + his brothers Luke and William
-ignatius = n("Ignatius Mattingly", "1704–1789", "St Mary's County MD; Catholic Jesuit naming; 'We're from Ignatius'", "p043", 7, 18, "confirmed", [leonard_sr])
-luke_son_of_ignatius = n("Luke Mattingly", "?", "Son of Ignatius (per will)", None, 8, 18, "probable")
-william_son_of_ignatius = n("William Mattingly", "?", "Son of Ignatius (per will)", None, 8, 18, "probable")
-ignatius["children"].extend([luke_son_of_ignatius, william_son_of_ignatius])
+# Ignatius (1704) — CORRECTED: m. Sarah Catherine Fowler; 7 children
+ignatius_other_children = [
+    n("Lucas Mattingly", "?", "Son of Ignatius (per Sarah Catherine Fowler line)", None, 9, 18, "probable"),
+    n("William Mattingly", "?", "Son of Ignatius", None, 9, 18, "probable"),
+    n("Elizabeth (Mattingly) Thompson", "?", "Daughter of Ignatius", None, 9, 18, "probable"),
+    n("Sarah (Mattingly) Walker", "?", "Daughter of Ignatius", None, 9, 18, "probable"),
+    n("Susanna Mattingly", "?", "Daughter of Ignatius", None, 9, 18, "probable"),
+]
+ignatius = n("Ignatius Mattingly", "1704–1789 St Mary's MD", "Catholic Jesuit naming tradition; 'We're from Ignatius'; m. Sarah Catherine Fowler; 7 children", "p043", 8, 18, "confirmed",
+             [leonard_sr] + ignatius_other_children,
+             spouse="Sarah Catherine (Fowler) Mattingly")
 
 # Thomas III's other named sons (Edward, John Baptist, Clement)
 thomas_iii_son_leonard = n("Leonard (son of Thomas III)", "?", "Named in 1774 will of Thomas III", None, 7, 18, "probable")
