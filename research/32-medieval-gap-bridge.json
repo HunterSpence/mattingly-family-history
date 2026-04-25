@@ -1,0 +1,192 @@
+{
+  "research_file": "32-medieval-gap-bridge",
+  "date": "2026-04-26",
+  "task": "Bridge the 307-year gap in Mattingly paternal line (1249-1548)",
+  "gap_status": "UNBRIDGED",
+  "gap_window": {
+    "start_year": 1249,
+    "end_year": 1548,
+    "duration_years": 299,
+    "last_confirmed_before_gap": {
+      "name": "Peter de Mattingley",
+      "role": "property holder",
+      "dates": "fl. 1236-1249",
+      "status": "POSSIBLE ancestor",
+      "sources": [
+        "TNA CP 25/1 (Feet of Fines, Hampshire, Michaelmas 21 Henry III)",
+        "BHO VCH Hampshire vol 4, pp44-51"
+      ]
+    },
+    "first_confirmed_after_gap": {
+      "name": "Henry MATYNGLE",
+      "event": "marriage",
+      "date": "1548-09-30",
+      "location": "Heckfield St Michael, Hampshire",
+      "status": "PROBABLE ancestor",
+      "sources": ["Heckfield parish register (HRO original)"]
+    }
+  },
+  "confirmed_chain": [
+    {
+      "name": "Peter de Mattingley",
+      "dates": "fl. 1236-1249",
+      "status": "POSSIBLE",
+      "notes": "Conveyed Mattingley holding to Geoffrey de Arundel ~1236"
+    },
+    {
+      "name": "[307-year gap — no named individual found]",
+      "status": "UNBRIDGED"
+    },
+    {
+      "name": "Henry MATYNGLE",
+      "dates": "married 1548",
+      "status": "PROBABLE"
+    },
+    {
+      "name": "Thomas MOTTINGLEY",
+      "dates": "baptised 1543",
+      "status": "POSSIBLE",
+      "notes": "Father: Henry MOTTINGLEY; Wimbledon, Surrey. Not proven = same family as Hampshire Mattinglys"
+    },
+    {
+      "name": "John Mattingly",
+      "dates": "buried 17 Dec 1641",
+      "location": "St Mary Colechurch, London",
+      "status": "CONFIRMED"
+    }
+  ],
+  "sources_searched": [
+    {
+      "source": "Hampshire Heralds Visitation 1530/1575/1622/1634",
+      "reference": "Harleian Society vol 64 (1913); Harleian MS 1544, fos. 152-153",
+      "archive_org_id": "pedigreesfromvis64beno",
+      "access_method": "DJVU text download (473,137 chars), full text read",
+      "finding": "MATTINGLEY does not appear in Index Nominum. Surname appears only in Index Locorum (places) at pp.174, 175, 213, 214. Variant: Madingley=Mattingley confirmed.",
+      "significance": "CONFIRMS no armigerous Mattingley family in Hampshire; family were commoners"
+    },
+    {
+      "source": "VCH Hampshire vol 4 — Mattingley manor",
+      "url": "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51",
+      "finding": "Peter de Mattingley conveyed to Geoffrey de Arundel ~1236. Land absorbed into Holdshot manor under Merton Priory. Rycher family at Mattingley by ~1340. No Mattingley surname in narrative 1236-1538.",
+      "tna_ref": "CP 25/1 (Feet of Fines, Hampshire, Hillary 14 Edward III — Rycher)"
+    },
+    {
+      "source": "BHO Inquisitions Post Mortem vols 2-4",
+      "finding": "Index sections are document concordances (TNA roll numbers), not personal name indexes. Content pages for Hampshire sections checked — no Mattingley found.",
+      "status": "INCOMPLETE — full IPM name index requires in-person TNA research"
+    },
+    {
+      "source": "Reaney & Wilson, Dictionary of English Surnames (Routledge 1991)",
+      "earliest_bearers": [
+        {"name": "Stephen de Madingel", "year": 1206, "source": "Feet of Fines"},
+        {"name": "Peter Mattingeley", "year": 1249, "source": "Feet of Fines"}
+      ]
+    }
+  ],
+  "gentry_families_at_mattingley_location": [
+    {
+      "family": "DEANE",
+      "origin": "Wallingford, Berkshire",
+      "person": "John Deane of Mattingley, son of John Deane of Wallingford",
+      "dates": "fl. ~1575-1622",
+      "status": "CONFIRMED",
+      "authority": "William Camden, Clarenceux King of Arms (office held 1597-1623)",
+      "source_pages": [174, 175],
+      "source_ref": "Harleian Society vol 64"
+    },
+    {
+      "family": "TUTT",
+      "persons": [
+        {"name": "John Tutt of Madingley", "born": "~1615", "died": "1680-03-09", "age_at_death": 65},
+        {"name": "Thomas Tutt of Mattingly", "born": "~1650", "age_at_visitation": 36, "year": 1686, "note": "signed his pedigree"}
+      ],
+      "status": "CONFIRMED",
+      "source_pages": [213, 214],
+      "source_ref": "Harleian Society vol 64"
+    }
+  ],
+  "five_questions": {
+    "Q1_lay_subsidy_1327_1334_1377": {
+      "status": "UNRESOLVED",
+      "reason": "E179 Hampshire/Holdshott hundred not indexed online",
+      "lead": "TNA Kew: E 179/173/xx (exact piece to confirm via Discovery)"
+    },
+    "Q2_wars_of_roses_1430s_1480s": {
+      "status": "NOTHING FOUND",
+      "reason": "No Mattingley surname in any open-access source for this period"
+    },
+    "Q3_hearth_tax_1662": {
+      "status": "UNRESOLVED",
+      "reason": "HRO CloudFlare blocked; TNA E179/176/565 not online",
+      "contextual_note": "Tutt family held gentry status at Mattingley ~1680; commoner Mattingley households would be in non-exempt list"
+    },
+    "Q4_pcc_wills_pre_1548": {
+      "status": "UNRESOLVED",
+      "reason": "TNA PROB 11 requires Ancestry/Findmypast subscription or in-person TNA",
+      "search_variants": ["MATTINGLEY", "MATTINGLY", "MATYNGLEY", "MATYNGLE", "MOTTINGLEY", "MOTYNGLE", "MADINGLEY"],
+      "date_range": "1380-1560",
+      "counties": ["Hampshire", "Surrey", "Berkshire", "London", "Middlesex"]
+    },
+    "Q5_heralds_visitations": {
+      "status": "CONFIRMED — definitively answered",
+      "finding": "No Mattingley in Hampshire Visitation 1530, 1575, 1622, 1634. Family were commoners, not gentry."
+    }
+  },
+  "archival_leads_priority": [
+    {
+      "rank": 1,
+      "lead": "E 179 Hampshire lay subsidies 1524-25 (Holdshott hundred)",
+      "archive": "TNA Kew",
+      "ref": "E 179/173/xx",
+      "value": "Predates Henry MATYNGLE marriage by 24 years; may name his father/grandfather",
+      "access": "In-person or TNA document delivery service"
+    },
+    {
+      "rank": 2,
+      "lead": "E 179 Hampshire lay subsidies 1327, 1334, 1377 (Holdshott hundred)",
+      "archive": "TNA Kew",
+      "ref": "E 179/173/xx",
+      "value": "Names every taxable tenant; would place/exclude Mattingley surname in 14th century",
+      "access": "In-person or TNA document delivery service"
+    },
+    {
+      "rank": 3,
+      "lead": "Heckfield parish register 1538-1575 (original)",
+      "archive": "Hampshire Record Office, Winchester",
+      "ref": "21M65 (Heckfield St Michael)",
+      "value": "Henry MATYNGLE baptism and parents if births survive",
+      "access": "In-person Winchester"
+    },
+    {
+      "rank": 4,
+      "lead": "PCC wills PROB 11, Mattingley variants 1380-1560",
+      "archive": "TNA Kew / Ancestry / Findmypast",
+      "ref": "PROB 11",
+      "value": "Any testator would give family structure and location",
+      "access": "Subscription (Ancestry/Findmypast) or in-person"
+    },
+    {
+      "rank": 5,
+      "lead": "Holdshot manor court rolls (Merton Priory)",
+      "archive": "TNA Kew",
+      "ref": "SC 2 series",
+      "value": "Would name Mattingley-surname tenants in manorial proceedings",
+      "access": "In-person"
+    }
+  ],
+  "surname_variants": [
+    "MATTINGLEY", "MATTINGLY", "MATYNGLEY", "MATYNGLE", "MOTTINGLEY",
+    "MOTYNGLE", "MARTYNGLE", "MATHINGLEY", "MADINGLEY", "MATINGELY"
+  ],
+  "conclusion": {
+    "gap_bridged": false,
+    "new_named_individuals_found": 0,
+    "significant_findings": [
+      "Hampshire Heralds Visitation definitively confirms no armigerous Mattingley family — answers Q5",
+      "Deane family (Wallingford/Berkshire) seated at Mattingley ~1575-1622 — gentry context for commoner surname-bearers",
+      "Tutt family at Mattingley 1680-1686 — Hearth Tax era context",
+      "E179 lay subsidies identified as highest-value unworked lead"
+    ],
+    "next_best_action": "Request TNA document delivery for E 179/173 (Hampshire, Holdshott hundred) 1524-25 subsidy"
+  }
+}

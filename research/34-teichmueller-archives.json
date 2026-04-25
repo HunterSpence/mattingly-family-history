@@ -1,0 +1,295 @@
+{
+  "research_date": "2026-04-26",
+  "researcher": "Claude Sonnet 4.6",
+  "topic": "Teichmüller family — German parish and biographical archive research",
+  "primary_source": "Neue Deutsche Biographie (NDB), vol. 26 (2016), p. 6*–7*, Teichmüller, Gustav",
+  "primary_source_url": "https://www.deutsche-biographie.de/gnd118801554.html",
+
+  "status_change": {
+    "previous_confidence": "PROBABLE_0.82",
+    "new_confidence": "CONFIRMED",
+    "finding": "Hans–Gustav sibling relationship confirmed by NDB 2016 peer-reviewed genealogy section"
+  },
+
+  "key_persons": {
+    "hans_teichmueller": {
+      "id": "hans_teichmueller",
+      "status": "CONFIRMED",
+      "full_name": "Hans Teichmüller",
+      "birth_date": "1837-03-07",
+      "birth_place": "Braunschweig, Duchy of Brunswick",
+      "death_date": "1901-02-17",
+      "death_place": "La Grange, Fayette County, Texas",
+      "occupation": "Jurist, Officer, Justice of the Peace / District Judge (22nd Judicial District)",
+      "spouse": "Augusta Dorothea Elizabeth Kellner (1843–1915)",
+      "marriage_date": "1858-06-10",
+      "marriage_place": "Postoak Point, Austin County, Texas",
+      "father": "august_wilhelm_teichmueller",
+      "mother": "charlotte_von_girsewald",
+      "siblings": ["wilhelmina_teichmueller_sister", "unnamed_sister_died_young", "gustav_teichmueller", "wilhelm_teichmueller_brother"],
+      "wikidata": "Q94855622",
+      "gnd": "124984444",
+      "ndb_url": "https://www.deutsche-biographie.de/gnd124984444.html",
+      "hunter_relationship": "great-great-grandfather",
+      "notes": "Third son per TSHA. NDB confirms brothers: Gustav (1832) and Wilhelm (1834) were older. Emigrated to Texas 1856 after father's death."
+    },
+
+    "august_wilhelm_teichmueller": {
+      "id": "august_wilhelm_teichmueller",
+      "status": "CONFIRMED",
+      "full_name": "August Wilhelm Teichmüller",
+      "birth_date": "1795",
+      "birth_place": "Braunschweig",
+      "death_date": "1855",
+      "death_cause": "Unknown; death caused family financial hardship",
+      "occupation": "Seconde-Lieutenant (Zweiter Leutnant), Schwarzen Corps des Majors Olfermann, Brunswick army",
+      "father": "wilhelm_ernst_conrad_teichmueller",
+      "mother": "henriette_schorkopf",
+      "wikidata": null,
+      "gnd": "1089914733",
+      "ndb_url": "https://www.deutsche-biographie.de/gnd1089914733.html",
+      "source": "NDB 26 (2016) p. 6*, genealogy section of Gustav Teichmüller article",
+      "note_on_rank": "Lotto 1902 says 'officer in the Brunswick army'; English Wikipedia says 'lieutenant in the Prussian army'; NDB 2016 gives the most precise: Seconde-Lieutenant in the Schwarzen Corps. Brunswick army is correct; Prussian is an error."
+    },
+
+    "charlotte_von_girsewald": {
+      "id": "charlotte_von_girsewald",
+      "status": "CONFIRMED",
+      "full_name": "Charlotte Georgine Elisabeth von Girsewald (married: Teichmüller)",
+      "birth_date": "1799",
+      "death_date": "1860",
+      "maiden_name": "von Girsewald",
+      "father": "georg_von_girsewald",
+      "mother": "christine_elisabeth_boyer",
+      "marriage": "August Wilhelm Teichmüller",
+      "source": "NDB 26 (2016) p. 6*",
+      "notes": "NDB gives full name Charlotte Georgine Elisabeth. Prior research had 'von Gursewald' (OCR artifact of Lotto 1902). Correct spelling: von Girsewald."
+    },
+
+    "georg_von_girsewald": {
+      "id": "georg_von_girsewald",
+      "status": "CONFIRMED",
+      "full_name": "Georg von Girsewald",
+      "birth_date": "1735",
+      "death_date": "1816",
+      "occupation": "Oberstallmeister (Master of the Horse), Hauptmann (Captain), Brunswick court",
+      "spouse": "Christine Elisabeth Boyer",
+      "children_named": ["charlotte_von_girsewald"],
+      "wikidata": null,
+      "gnd": "1154326691",
+      "ndb_url": "https://www.deutsche-biographie.de/gnd1154326691.html",
+      "source": "NDB 26 (2016) p. 6*",
+      "notes": "Father of Charlotte (Hunter's ancestor). NOT the same as the well-documented Freiherr Conrad Alexander Gustav von Girsewald (1785-1864), who was likely Georg's son or nephew. Both held the title Oberstallmeister across generations."
+    },
+
+    "wilhelm_ernst_conrad_teichmueller": {
+      "id": "wilhelm_ernst_conrad_teichmueller",
+      "status": "CONFIRMED",
+      "full_name": "Wilhelm Ernst Conrad Teichmüller",
+      "birth_date": "1758",
+      "birth_place": "Braunschweig",
+      "death_date": "1835",
+      "death_place": "Likely Delligsen area, Leinebergland",
+      "occupation": "Oberhütteninspekteur (chief smelting works inspector) at Karlshütte near Delligsen, Leinebergland",
+      "spouse": "Henriette Christiane Helene Schorkopf (1763–1818), from Uslar",
+      "children_named": ["august_wilhelm_teichmueller"],
+      "wikidata": null,
+      "gnd": "1154326616",
+      "ndb_url": "https://www.deutsche-biographie.de/gnd1154326616.html",
+      "source": "NDB 26 (2016) p. 6*",
+      "notes": "Karlshütte = ironworks/smelting works. Delligsen is in the Leinebergland (southern Lower Saxony), consistent with the family's historic Harz mining region connections. WikiTree profile for 'Conrad Teichmuller (d. 1835 Holzminden)' and 'Henriette Caroline Luise Teichmuller (b. 1793 Carlshutte)' may be related (Holzminden is near Delligsen; Carlshutte = Karlshütte)."
+    },
+
+    "joachim_andreas_teichmueller": {
+      "id": "joachim_andreas_teichmueller",
+      "status": "CONFIRMED",
+      "full_name": "Joachim Andreas Teichmüller",
+      "birth_date": "1705",
+      "death_date": "1778",
+      "occupation": "Oberfaktor (chief factor/commercial agent) in Goslar",
+      "role_in_family": "Great-great-grandfather of philosopher Gustav; great-grandfather of August Wilhelm (Hunter's ancestor line)",
+      "wikidata": null,
+      "gnd": "1154326802",
+      "ndb_url": "https://www.deutsche-biographie.de/gnd1154326802.html",
+      "source": "NDB 26 (2016) p. 6* and p. 7*",
+      "notes": "Goslar is at the foot of the Harz mountains — consistent with the family origin 'southern Harz' documented back to miller Hans (~1580-1638). An Oberfaktor in Goslar in this era was almost certainly employed in the Harz mining industry (Goslar = historically one of Germany's most important mining centers, home of the Rammelsberg silver mine)."
+    },
+
+    "hans_miller_1580": {
+      "id": "hans_miller_1580",
+      "status": "CONFIRMED (NDB citation)",
+      "full_name": "Hans (or Johann) Teichmüller",
+      "birth_date": "c.1580",
+      "death_date": "c.1638",
+      "occupation": "Mühlenmeister (master miller)",
+      "location": "Southern Harz mountains region",
+      "source": "NDB 26 (2016) p. 6* — 'Aus seit Ende d. 16. Jh. mit d. Mühlenmeister Han(n)s (um 1580–1638) im südl. Harz nachweisbarer Fam.'",
+      "notes": "Earliest documented Teichmüller ancestor per the NDB. 'Teichmüller' = pond miller (Teich = pond + Müller = miller). Family is documented in the southern Harz from the end of the 16th century. The surname is occupational."
+    },
+
+    "gustav_teichmueller_philosopher": {
+      "id": "gustav_teichmueller_philosopher",
+      "status": "CONFIRMED",
+      "full_name": "Gustav Teichmüller",
+      "birth_date": "1832-11-19",
+      "birth_place": "Braunschweig, Duchy of Brunswick",
+      "death_date": "1888-05-22",
+      "death_place": "Dorpat (now Tartu, Estonia)",
+      "buried": "Alter Johannisfriedhof, Dorpat",
+      "occupation": "Philosopher, professor at University of Basel (1868–1871) and Imperial University of Dorpat (1871–1888)",
+      "notable_for": "Philosophy of perspectivism influenced Friedrich Nietzsche; founder of Russian personalism; neo-Leibnizianism",
+      "spouses": [
+        {"name": "Anna Cramer (1842–1862)", "married": "1860 Braunschweig", "children_count": 2},
+        {"name": "Lina Cramer (1844–1894)", "married": "1866 Joala (Estonia)", "children_count": 8}
+      ],
+      "children": [
+        {"name": "Anna Teichmüller", "birth": "1861-05-11", "death": "1940-09-06", "notes": "Composer, pianist"},
+        {"name": "Lina Teichmüller", "birth": "1862", "death": "1929", "spouse": "Guido (Guy) Klerk (1848–1920), art dealer"},
+        {"name": "Georg", "birth": "1867", "death": "1890"},
+        {"name": "Hans", "birth": "1868", "death": "1898", "spouse": "Alwine v. Keller (1878–1965)"},
+        {"name": "Wilhelm", "birth": "1871", "death": "1937", "spouse": "Lisbeth Hoffmann (1877–1950)", "notes": "Physician, estate owner"},
+        {"name": "Olga", "birth": "1874", "death": "1968", "spouse": "Edmund Hentschel (1875–1925), farmer in Mexico"},
+        {"name": "Sophie Luise", "birth": "1875-09-18", "death": "1947", "spouse": "Albert Hentschel (1870–1928)"},
+        {"name": "[unnamed, died young]", "notes": "NDB: '1 früh †' among second marriage daughters"},
+        {"name": "Hertha", "birth": "1881", "death": "1949", "spouse": "Arthur Brückner (1877–1975), ophthalmology professor at Basel"}
+      ],
+      "siblings": ["hans_teichmueller", "wilhelm_teichmueller_brother", "wilhelmina_teichmueller_sister", "unnamed_sister_died_young"],
+      "wikidata": "Q78129",
+      "gnd": "118801554",
+      "ndb_url": "https://www.deutsche-biographie.de/gnd118801554.html",
+      "hunter_relationship": "great-great-granduncle",
+      "braunschweig_street": "Teichmüllerstraße, named 1975"
+    },
+
+    "wilhelmina_teichmueller_sister": {
+      "id": "wilhelmina_teichmueller_sister",
+      "status": "CONFIRMED (NDB)",
+      "full_name": "Wilhelmina (Minette) Teichmüller",
+      "birth_date": "1829",
+      "death_date": "1886",
+      "spouse": "Karl Mollenhauer (1818–1864), Protestant pastor and Superintendent at Bockenem/Ambergau",
+      "source": "NDB 26 (2016) p. 6*",
+      "notes": "NEWLY IDENTIFIED in this research. Sister of Gustav and Hans. Not in prior research file 11-teichmueller-german.md. NOTE: Do not confuse with Minette Teichmueller Pohl (1871–1970), who was Hans's DAUGHTER (also nicknamed Minette). Karl Mollenhauer's NDB entry: https://www.deutsche-biographie.de/gnd1154326888.html",
+      "hunter_relationship": "great-great-great-aunt"
+    },
+
+    "wilhelm_teichmueller_brother": {
+      "id": "wilhelm_teichmueller_brother",
+      "status": "CONFIRMED (NDB)",
+      "full_name": "Wilhelm Teichmüller",
+      "birth_date": "1834",
+      "death_date": "1869",
+      "occupation": "Premier-Lieutenant (military officer), writer (Schriftsteller)",
+      "spouse": "Bertha Kuntzen (NDB) / 'Teichmüller-Specht, Bertha von' (GND index — may be same person with variant name)",
+      "possible_son": "Robert Teichmüller (1863–1939), pianist — POSSIBLE but unconfirmed",
+      "gnd": "108990469X",
+      "ndb_url": "https://www.deutsche-biographie.de/gnd108990469X.html",
+      "source": "NDB 26 (2016) p. 6*",
+      "hunter_relationship": "great-great-granduncle"
+    },
+
+    "anna_teichmueller_composer": {
+      "id": "anna_teichmueller_composer",
+      "status": "CONFIRMED as Gustav's daughter",
+      "full_name": "Anna Teichmüller",
+      "birth_date": "1861-05-11",
+      "birth_place": "Göttingen",
+      "death_date": "1940-09-06",
+      "occupation": "Composer, pianist, music teacher",
+      "father": "gustav_teichmueller_philosopher",
+      "mother": "Anna Cramer (1842–1862)",
+      "lived_at": "Schreiberhau artist colony (Riesengebirge; now Szklarska Poręba, Poland)",
+      "associated_with": "Carl Hauptmann; composed for over 40 poets",
+      "wikidata": "Q21031895",
+      "wikipedia": "https://en.wikipedia.org/wiki/Anna_Teichm%C3%BCller",
+      "hunter_relationship": "1st cousin 4x removed (via Gustav, Hans's brother)"
+    },
+
+    "robert_teichmueller_pianist": {
+      "id": "robert_teichmueller_pianist",
+      "status": "POSSIBLE connection to Hans/Gustav family",
+      "full_name": "Robert Teichmüller",
+      "birth_date": "1863-05-04",
+      "birth_place": "Braunschweig",
+      "death_date": "1939-05-06",
+      "death_place": "Leipzig",
+      "occupation": "Concert pianist, Leipzig Conservatory professor",
+      "probable_father": "Wilhelm Teichmüller (1834–1869) — POSSIBLE, based on timing and location",
+      "wikidata": "Q75451",
+      "gnd": "11927213X",
+      "source_for_parentage": "Braunschweigisches Biographisches Lexikon (1996) p. 606 — NOT digitized",
+      "hunter_relationship_if_confirmed": "1st cousin 3x removed (if son of Wilhelm, Hans's brother)",
+      "confidence": "POSSIBLE"
+    }
+  },
+
+  "notable_collateral_branch": {
+    "description": "Cousin branch sharing ancestor Joachim Andreas (1705-78) via different son Christian Andreas (1734-1809)",
+    "joachim_teichmueller_electrotechnician": {
+      "full_name": "Joachim Julius Friedrich Heinrich Teichmüller",
+      "birth": "1866-03-04",
+      "birth_place": "Bernburg (Saale)",
+      "death": "1938-06-17",
+      "death_place": "Marburg/Lahn",
+      "occupation": "Electrical engineer, Karlsruhe TH professor (from 1899), pioneer of Lichtarchitektur (light architecture)",
+      "founded": "Lichttechnisches Institut Karlsruhe (1922) — first such institute in Germany",
+      "wikidata": "Q101258223",
+      "gnd": "101258223X",
+      "ndb_26_2016": "p. 7*",
+      "relationship_to_hunter": "4th cousin 3x removed (via shared ancestor Joachim Andreas 1705-78)"
+    }
+  },
+
+  "confirmed_lineage_hunter": [
+    {"generation": -6, "name": "Hans/Johann Teichmüller", "dates": "c.1580–1638", "role": "Mühlenmeister, southern Harz", "confidence": "CONFIRMED (NDB)"},
+    {"generation": -5, "name": "[unnamed, ~2 generations]", "dates": "1640–1700", "confidence": "UNVERIFIED"},
+    {"generation": -4, "name": "Joachim Andreas Teichmüller", "dates": "1705–1778", "role": "Oberfaktor, Goslar", "confidence": "CONFIRMED (NDB)"},
+    {"generation": -3, "name": "[unnamed son of Joachim Andreas]", "dates": "c.1730–1775", "confidence": "UNVERIFIED"},
+    {"generation": -2, "name": "Wilhelm Ernst Conrad Teichmüller", "dates": "1758–1835", "role": "Oberhütteninspekteur, Karlshütte/Delligsen", "confidence": "CONFIRMED (NDB)"},
+    {"generation": -1, "name": "August Wilhelm Teichmüller", "dates": "1795–1855", "role": "Seconde-Lieutenant, Brunswick army", "confidence": "CONFIRMED (NDB)"},
+    {"generation": 0, "name": "Hans Teichmüller", "dates": "1837–1901", "role": "District Judge, La Grange TX", "confidence": "CONFIRMED"},
+    {"generation": 1, "name": "Mary (May) Teichmueller Mattingly", "dates": "1867–1900", "confidence": "CONFIRMED"},
+    {"generation": 2, "name": "Leroy Teichmueller Mattingly", "dates": "b. 1898", "confidence": "CONFIRMED"},
+    {"generation": "...", "name": "...", "notes": "continuation of Mattingly line to Hunter Spence"}
+  ],
+
+  "archive_access": {
+    "baptism_records_braunschweig": {
+      "repository": "Niedersächsisches Landesarchiv (NLA), Wolfenbüttel branch",
+      "records_sought": [
+        "August Wilhelm Teichmüller baptism (~1795, Braunschweig)",
+        "Gustav Teichmüller baptism (19 Nov 1832, Braunschweig)",
+        "Wilhelm Teichmüller baptism (1834, Braunschweig)",
+        "Hans Teichmüller baptism (7 Mar 1837, Braunschweig)"
+      ],
+      "parishes_to_check": ["St. Martin", "St. Andreas", "Dom", "St. Michaelis", "St. Katharinen", "St. Aegidien"],
+      "digitized_online": false,
+      "website": "https://www.arcinsys.niedersachsen.de"
+    },
+    "parish_records_online": {
+      "archion": {"url": "https://www.archion.de", "notes": "Subscription required; holds Braunschweig Lutheran records; free index browsing"},
+      "familysearch": {"url": "https://www.familysearch.org", "notes": "Some Brunswick microfilms digitized; free account required"}
+    },
+    "von_girsewald_source": {
+      "title": "Gothaisches Genealogisches Taschenbuch der Freiherrlichen Häuser (1921), p. 298",
+      "status": "Not digitized",
+      "available_at": "Stadtbibliothek Braunschweig; Niedersächsische Landesbibliothek Hannover",
+      "notes": "Resolves Charlotte's exact position in the von Girsewald family"
+    },
+    "robert_teichmueller_source": {
+      "title": "Braunschweigisches Biographisches Lexikon, 19. und 20. Jahrhundert (1996), p. 606",
+      "status": "Not digitized",
+      "notes": "Cited by German Wikipedia for Robert Teichmüller; would confirm parentage"
+    }
+  },
+
+  "unresolved_questions": [
+    "Original parish baptism images not retrieved — NDB dates and parents are confirmed but imaging requires NLA visit",
+    "Unnamed generation between Joachim Andreas (1705) and Wilhelm Ernst Conrad (1758)",
+    "Joachim Andreas's parents (would extend line to ~1680 or earlier)",
+    "Charlotte von Girsewald's exact relationship to the documented Freiherrliche von Girsewald family",
+    "Robert Teichmüller (1863) parentage — probable but not confirmed",
+    "The unnamed Teichmüller sibling who died young (NDB: '1 früh †')",
+    "Wilhelm Teichmüller (1834-69) wife discrepancy: 'Bertha Kuntzen' (NDB) vs. 'Teichmüller-Specht, Bertha von' (GND)"
+  ]
+}

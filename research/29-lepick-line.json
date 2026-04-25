@@ -1,0 +1,432 @@
+{
+  "lineage": "Lepick Paternal Line",
+  "subject": "Jennive Lepick (maternal grandmother of Hunter Spence)",
+  "compiled": "2026-04-26",
+  "researcher": "Researcher agent (Sonnet 4.6)",
+  "people": [
+    {
+      "id": "jennive-lepick",
+      "wikitree_id": "Lepick-1",
+      "name": "Jennive Lepick (Genevieve L. Lepick)",
+      "born_date": "1923-02-02",
+      "born_place": "Wilson County, Texas, United States",
+      "died_date": "~2008-04-01",
+      "died_place": "Colorado Springs, El Paso County, Colorado, United States",
+      "buried": "Fort Logan National Cemetery, Denver, Colorado",
+      "gender": "F",
+      "parents": ["fred-lepick-sr", "hilda-boehme"],
+      "spouses": ["leroy-baity-mattingly"],
+      "confidence": "CONFIRMED",
+      "sources": [
+        {
+          "type": "wikitree_profile",
+          "id": "Lepick-1",
+          "url": "https://www.wikitree.com/wiki/Lepick-1",
+          "notes": "Profile created 12 May 2019 by Mark Mattingly (grandson)"
+        },
+        {
+          "type": "census",
+          "year": 1930,
+          "collection": "US Federal Census 1930",
+          "ark": "https://www.familysearch.org/ark:/61903/3:1:33SQ-GRCQ-9WW",
+          "image_group": "004953946",
+          "place": "Wilson County, Texas"
+        },
+        {
+          "type": "census",
+          "year": 1940,
+          "collection": "US Federal Census 1940",
+          "ark": "https://www.familysearch.org/ark:/61903/3:1:3QS7-89MY-XWJP",
+          "image_group": "005458122",
+          "place": "Bexar County, Texas"
+        },
+        {
+          "type": "grave",
+          "memorial_id": "36080759",
+          "url": "https://www.findagrave.com/memorial/36080759/genevieve_l-mattingly"
+        }
+      ]
+    },
+    {
+      "id": "leroy-baity-mattingly",
+      "wikitree_id": "Mattingly-1178",
+      "name": "Leroy Baity Mattingly",
+      "born_date": "1922-05-17",
+      "born_place": "San Antonio, Bexar County, Texas, United States",
+      "died_date": "2013-03-19",
+      "died_place": "Colorado Springs, El Paso County, Colorado, United States",
+      "gender": "M",
+      "notes": "US Army Colonel, ret.; WWII 92nd Bombardment Group; Korea veteran",
+      "confidence": "CONFIRMED",
+      "sources": [
+        {
+          "type": "wikitree_profile",
+          "id": "Mattingly-1178",
+          "url": "https://www.wikitree.com/wiki/Mattingly-1178"
+        }
+      ]
+    },
+    {
+      "id": "fred-lepick-sr",
+      "wikitree_id": "Lepick-2",
+      "name": "Fred Charles Lepick Sr.",
+      "born_date": "1894-03-08",
+      "born_place": "Kansas, United States (likely Brown County)",
+      "died_date": "1954-12-18",
+      "died_place": "Texas, United States (unconfirmed)",
+      "buried": "Floresville City Cemetery, Floresville, Wilson County, Texas",
+      "gender": "M",
+      "parents": ["frank-lepik", "mary-mikeska"],
+      "spouses": ["hilda-boehme"],
+      "children": ["gertrude-lepick-hurlburt", "jennive-lepick", "fred-lepick-jr"],
+      "confidence": "CONFIRMED",
+      "sources": [
+        {
+          "type": "wikitree_profile",
+          "id": "Lepick-2",
+          "url": "https://www.wikitree.com/wiki/Lepick-2"
+        },
+        {
+          "type": "census",
+          "year": 1895,
+          "collection": "Kansas State Census 1895",
+          "ark": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3B-RSJ8-H",
+          "image_group": "007839002",
+          "place": "Washington Township, Brown County, Kansas"
+        },
+        {
+          "type": "census",
+          "year": 1910,
+          "collection": "US Federal Census 1910",
+          "ark": "https://www.familysearch.org/ark:/61903/3:1:33S7-9RVL-147",
+          "image_group": "004970239",
+          "place": "Arkansas"
+        },
+        {
+          "type": "grave",
+          "memorial_id": "55217353",
+          "url": "https://www.findagrave.com/memorial/55217353/fred_charles-lepick",
+          "place": "Floresville City Cemetery"
+        }
+      ]
+    },
+    {
+      "id": "hilda-boehme",
+      "familysearch_pid": "LKM6-W7J",
+      "name": "Hilda Boehme (married: Hilda Lepick)",
+      "born_date": "~1900",
+      "born_place": "Texas, United States (probable — German-Texan community)",
+      "died_date": "~1945",
+      "died_place": "Texas, United States (unconfirmed)",
+      "gender": "F",
+      "parents_note": "UNVERIFIED — FamilySearch tree PID LKM6-W7J exists but requires login; no public primary source found for Hilda's parents",
+      "spouses": ["fred-lepick-sr"],
+      "ethnicity_notes": "German-Texan. Boehme is a German surname meaning 'Bohemian.' Family likely part of Wilson County German Lutheran Waldheim community (founded 1899, 4 miles south of Floresville on US-181).",
+      "confidence": "PROBABLE",
+      "sources": [
+        {
+          "type": "familysearch_tree",
+          "pid": "LKM6-W7J",
+          "url": "https://ancestors.familysearch.org/en/LKM6-W7J/hilda-boehme-1900-1945",
+          "notes": "Public tree entry showing 1900-1945; requires login to view parents"
+        },
+        {
+          "type": "obituary",
+          "subject": "Fred Charles Lepick Jr.",
+          "url": "https://www.legacy.com/us/obituaries/legacyremembers/fred-lepick-obituary?pid=180605817",
+          "quote": "born to Hilda Boehme and Fred Charles Lepick Sr."
+        },
+        {
+          "type": "obituary",
+          "subject": "Fred Charles Lepick Jr.",
+          "url": "https://www.dignitymemorial.com/obituaries/san-antonio-tx/fred-lepick-12178840",
+          "quote": "born to Hilda Boehme and Fred Charles Lepick Sr. on August 4, 1925"
+        },
+        {
+          "type": "community_context",
+          "url": "https://www.wilsoncountyhistory.org/talk-waldheim",
+          "notes": "German Lutheran Waldheim community, Wilson County — primary German settlement 4 miles south of Floresville"
+        }
+      ]
+    },
+    {
+      "id": "gertrude-lepick-hurlburt",
+      "name": "Gertrude Mildred Lepick (Hurlburt)",
+      "also_known_as": "Molly",
+      "born_date": "~1920",
+      "born_place": "Wilson County, Texas, United States (probable)",
+      "died_date": "~2000",
+      "died_place": "UNVERIFIED",
+      "gender": "F",
+      "parents": ["fred-lepick-sr", "hilda-boehme"],
+      "spouses": ["harvey-zeh-hurlburt"],
+      "confidence": "PROBABLE",
+      "sources": [
+        {
+          "type": "public_records_database",
+          "url": "https://sortedbyname.com/letter_l/lepick.html",
+          "quote": "LEPICK, Gertrude Mildred married in 1943 in Kanawha a groom named Harvey Zeh Hurlburt"
+        },
+        {
+          "type": "wikitree_profile",
+          "id": "Lepick-2",
+          "notes": "WikiTree Lepick-2 biography mentions 'Gertrude Molly, born in 1920'"
+        }
+      ]
+    },
+    {
+      "id": "fred-lepick-jr",
+      "name": "Fred Charles Lepick Jr.",
+      "born_date": "1925-08-04",
+      "born_place": "San Antonio, Texas, United States",
+      "died_date": "2016-07-08",
+      "died_place": "San Antonio, Texas, United States",
+      "gender": "M",
+      "parents": ["fred-lepick-sr", "hilda-boehme"],
+      "spouses": ["morgia-shropshire-howard-lepick"],
+      "children_note": "Mark Lepick; Courtney Lepick Dampf (grandchildren: Morgia Holmes, Ben Dampf, Jack Dampf)",
+      "military": "US Naval Aviator, commissioned Ensign September 1945",
+      "education": "Brackenridge High School, San Antonio; University of Texas Law School (JD 1950)",
+      "career": "Attorney; President, Frost National Bank, San Antonio 1981-1988",
+      "religion": "Episcopal — St. David's Episcopal Church, San Antonio (60+ years)",
+      "confidence": "CONFIRMED",
+      "sources": [
+        {
+          "type": "obituary",
+          "url": "https://www.legacy.com/us/obituaries/legacyremembers/fred-lepick-obituary?pid=180605817",
+          "publisher": "Legacy.com / Legacy Remembers",
+          "date": "2016-07-08",
+          "notes": "Primary source — names parents as Hilda Boehme and Fred Charles Lepick Sr."
+        },
+        {
+          "type": "obituary",
+          "url": "https://www.dignitymemorial.com/obituaries/san-antonio-tx/fred-lepick-12178840",
+          "publisher": "Porter Loring Mortuary / Dignity Memorial",
+          "notes": "Confirms birth date, parentage, and career details"
+        },
+        {
+          "type": "grave",
+          "memorial_id": "206883930",
+          "url": "https://www.findagrave.com/memorial/206883930/fred_charles-lepick",
+          "notes": "Cited by WikiTree Lepick-1 as sibling reference source"
+        }
+      ]
+    },
+    {
+      "id": "frank-lepik",
+      "wikitree_id": "Lepik-8",
+      "name": "Frank Lepik (also spelled Frank Lepick)",
+      "born_date": "~1862",
+      "born_place": "Bohemia, Austria (Austria-Hungary)",
+      "died_date": "~1939",
+      "died_place": "Kansas, United States",
+      "buried": "Kennekuk Cemetery, Horton, Brown County, Kansas",
+      "gender": "M",
+      "immigration_year": 1881,
+      "immigration_origin": "Bohemia, Austria-Hungary",
+      "immigration_destination": "Brown County, Kansas, USA",
+      "parents_note": "UNVERIFIED — WikiTree Lepik-8 does not list parents. Ship manifest for 1881 immigration not yet located.",
+      "spouses": ["mary-mikeska"],
+      "children_count": 9,
+      "occupation": "Shoemaker/boot maker, Horton, Kansas",
+      "organizations": "I.O.O.F. Horton Lodge No. 331",
+      "confidence": "CONFIRMED",
+      "sources": [
+        {
+          "type": "wikitree_profile",
+          "id": "Lepik-8",
+          "url": "https://www.wikitree.com/wiki/Lepik-8"
+        },
+        {
+          "type": "census",
+          "year": 1895,
+          "collection": "Kansas State Census 1895",
+          "ark": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3B-RSJ8-H",
+          "place": "Washington Township, Brown County, Kansas"
+        },
+        {
+          "type": "census",
+          "year": 1900,
+          "collection": "US Federal Census 1900",
+          "ark": "https://www.familysearch.org/ark:/61903/3:1:S3HT-6LD4-QVJ",
+          "image_group": "004120135",
+          "place": "Brown County, Kansas",
+          "notes": "Immigration year recorded as 1881"
+        },
+        {
+          "type": "newspaper",
+          "publication": "Atchison Daily Patriot",
+          "date": "1884-04-29",
+          "url": "https://kansashistoricalopencontent.newspapers.com/article/atchison-daily-patriot-frank-lepik/195138170/",
+          "quote": "an enterprising young mechanic"
+        },
+        {
+          "type": "newspaper",
+          "publication": "Everest Reflector (Everest, Kansas)",
+          "date": "1885-01-15",
+          "url": "https://kansashistoricalopencontent.newspapers.com/article/everest-reflector-marriage-of-lepik-m/194999465/",
+          "notes": "Marriage announcement: Frank Lepik + Mary Mikeska, 13 Jan 1885, St. Joseph Catholic Church, Everest, KS"
+        },
+        {
+          "type": "marriage_record",
+          "collection": "Kansas County Marriages, 1855-1911",
+          "ark": "https://familysearch.org/ark:/61903/3:1:939J-TCSZ-CM?cc=1851040&wc=QZPV-R3Y:166159401,166191501",
+          "notes": "Brown County, Book D, image 59; marriage license 1884-1888"
+        },
+        {
+          "type": "grave",
+          "memorial_id": "140131220",
+          "url": "https://www.findagrave.com/memorial/140131220/frank-lepick",
+          "place": "Kennekuk Cemetery, Horton, Brown County, Kansas"
+        }
+      ]
+    },
+    {
+      "id": "mary-mikeska",
+      "wikitree_id": "Mikeska-78",
+      "name": "Mary Mikeska (married: Mary Lepick)",
+      "born_date": "~1863",
+      "born_place": "Bohemia, Austria (Austria-Hungary)",
+      "died_date": "~1951",
+      "died_place": "Kansas, United States",
+      "buried": "Kennekuk Cemetery, Horton, Brown County, Kansas",
+      "gender": "F",
+      "immigration_year": 1871,
+      "immigration_notes": "Came to USA with family (Josef Mikeska household) in 1871",
+      "parents": ["josef-mikeska", "johana-unknown-mikeska"],
+      "spouses": ["frank-lepik"],
+      "confidence": "CONFIRMED",
+      "sources": [
+        {
+          "type": "wikitree_profile",
+          "id": "Mikeska-78",
+          "url": "https://www.wikitree.com/wiki/Mikeska-78"
+        },
+        {
+          "type": "census",
+          "year": 1880,
+          "collection": "US Federal Census 1880",
+          "ark": "https://www.familysearch.org/ark:/61903/3:1:33SQ-GYBH-T2X",
+          "image_group": "005160635",
+          "place": "Brown County, Kansas",
+          "notes": "Mary (age ~17) recorded as servant in T.W. and Catherine Price household"
+        },
+        {
+          "type": "grave",
+          "memorial_id": "140131016",
+          "url": "https://www.findagrave.com/memorial/140131016"
+        }
+      ]
+    },
+    {
+      "id": "josef-mikeska",
+      "wikitree_id": "Mikeska-77",
+      "name": "Josef Mikeska",
+      "born_date": "1830-01-30",
+      "born_place": "Moravia (possibly Bohemia), Austria",
+      "died_date": "1902-11-28",
+      "died_place": "Horton, Brown County, Kansas, United States",
+      "buried": "Kennekuk Cemetery, Horton, Brown County, Kansas",
+      "gender": "M",
+      "immigration_year": 1871,
+      "immigration_origin": "Bohemia/Moravia, Austria-Hungary",
+      "immigration_destination": "Brown County, Kansas, USA",
+      "parents_note": "UNVERIFIED — no further generation researched",
+      "spouses": ["johana-unknown-mikeska"],
+      "children": [
+        {"name": "Frank Mikeska", "born": "~1861", "born_place": "Bohemia"},
+        {"name": "Mary Mikeska", "born": "~1863", "born_place": "Bohemia"},
+        {"name": "Vincent Mikeska", "born": "~1867", "born_place": "Bohemia"}
+      ],
+      "confidence": "CONFIRMED",
+      "sources": [
+        {
+          "type": "wikitree_profile",
+          "id": "Mikeska-77",
+          "url": "https://www.wikitree.com/wiki/Mikeska-77"
+        },
+        {
+          "type": "newspaper",
+          "publication": "Everest Enterprise (Everest, Kansas)",
+          "date": "1908-06-26",
+          "url": "https://kansashistoricalopencontent.newspapers.com/article/everest-enterprise-obituary-for-johana-m/195149300/",
+          "notes": "Obituary of Johana Mikeska (Josef's wife); names children"
+        },
+        {
+          "type": "newspaper",
+          "publication": "The Kansas Democrat (Hiawatha, Kansas)",
+          "date": "1902-12-11",
+          "url": "https://kansashistoricalopencontent.newspapers.com/article/the-kansas-democrat/195265760/"
+        },
+        {
+          "type": "grave",
+          "memorial_id": "140130956",
+          "url": "https://www.findagrave.com/memorial/140130956/josef-mikeska"
+        }
+      ]
+    },
+    {
+      "id": "johana-unknown-mikeska",
+      "name": "Johana Mikeska (maiden surname unknown)",
+      "born_date": "~1832",
+      "born_place": "Bohemia, Austria (probable)",
+      "died_date": "~1908",
+      "died_place": "Everest, Brown County, Kansas",
+      "buried": "unknown",
+      "gender": "F",
+      "parents_note": "UNVERIFIED — maiden surname unknown",
+      "confidence": "PROBABLE",
+      "sources": [
+        {
+          "type": "newspaper",
+          "publication": "Everest Enterprise (Everest, Kansas)",
+          "date": "1908-06-26",
+          "url": "https://kansashistoricalopencontent.newspapers.com/article/everest-enterprise-obituary-for-johana-m/195149300/",
+          "notes": "Obituary names her marriage to Josef Mikeska in 1859 and 3 children"
+        },
+        {
+          "type": "grave",
+          "memorial_id": "140130966",
+          "url": "https://www.findagrave.com/memorial/140130966/johana-mikeska"
+        }
+      ]
+    }
+  ],
+  "immigration_summary": {
+    "lepick_czech_bohemian_line": {
+      "origin": "Bohemia, Austria-Hungary",
+      "immigrants": ["frank-lepik (arr. USA 1881)", "mary-mikeska-family (arr. USA 1871)", "josef-mikeska-family (arr. USA 1871)"],
+      "route": "Bohemia → Hamburg/Bremen → New York/Baltimore → Kansas by rail",
+      "settlement": "Brown County, Kansas (Everest, Horton) → Hazen, Arkansas (1901) → Wilson County, Texas (~1920) → San Antonio, Texas (~1930s)",
+      "religion": "Catholic (married at St. Joseph Catholic Church, Everest, Kansas)"
+    },
+    "boehme_german_line": {
+      "origin": "Germany (exact region unverified)",
+      "immigrants": "Hilda Boehme's parents — UNVERIFIED",
+      "likely_settlement": "Wilson County, Texas — German Lutheran Waldheim community",
+      "religion": "Lutheran (probable — community was German Lutheran)"
+    }
+  },
+  "research_gaps": [
+    {
+      "gap": "Hilda Boehme's parents",
+      "recommendation": "Texas Death Certificate for Hilda Boehme Lepick, ~1945, Bexar County — contact Texas DSHS Vital Statistics Unit or check Ancestry.com Texas Death Index 1940-1946",
+      "priority": "HIGH"
+    },
+    {
+      "gap": "Frank Lepik's parents in Bohemia",
+      "recommendation": "Hamburg emigration lists 1880-1882 for 'Frank Lepík' or 'František Lepík'; village of origin not yet identified",
+      "priority": "MEDIUM"
+    },
+    {
+      "gap": "Josef Mikeska's parents in Bohemia/Moravia",
+      "recommendation": "Czech state archives, Brno (Moravian branch) — birth records 1820-1835 for 'Josef Mikeška'",
+      "priority": "LOW"
+    },
+    {
+      "gap": "Fred Lepick Sr. + Hilda Boehme marriage certificate 1920",
+      "recommendation": "Wilson County courthouse marriage records or Texas vital statistics 1920",
+      "priority": "MEDIUM"
+    }
+  ]
+}

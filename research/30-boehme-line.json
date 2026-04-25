@@ -1,0 +1,268 @@
+{
+  "research_file": "30-boehme-line",
+  "subject": "Boehme / Böhme family line",
+  "commissioned": "2026-04-26",
+  "connection_to_hunter": "Hilda Boehme → Jennive Imogene Lepick → Shari Mattingly → Hunter Spence",
+  "primary_source_anchor": {
+    "text": "Jennive Imogene Lepick was born on February 2, 1923 in Floresville, Texas to Frederick and Hilda (Boehme) Lepick",
+    "source_type": "obituary",
+    "confidence": "CONFIRMED",
+    "note": "2008 obituary of Jennive Lepick"
+  },
+  "individuals": [
+    {
+      "id": "boehme_hilda",
+      "name": "Hilda Boehme Lepick",
+      "generation_from_hunter": 4,
+      "role": "maternal great-grandmother",
+      "birth": {
+        "year": "c.1900",
+        "place": "Texas, likely Lavaca County",
+        "confidence": "PROBABLE",
+        "note": "Inferred from sibling sequence; all siblings born TX; Herman (father) died in Shiner 1900"
+      },
+      "death": {
+        "year": "1945",
+        "age": "~45",
+        "confidence": "CONFIRMED",
+        "source": "PeopleLegacy: https://peoplelegacy.net/herman_f__boehme-4J1f4W"
+      },
+      "burial": {
+        "place": "Floresville City Cemetery",
+        "county": "Wilson County",
+        "state": "TX",
+        "confidence": "CONFIRMED",
+        "source": "PeopleLegacy"
+      },
+      "father": "boehme_herman",
+      "mother": {
+        "id": "boehme_hilda_mother",
+        "name": "Unknown",
+        "confidence": "UNVERIFIED"
+      },
+      "spouse": {
+        "id": "lepick_frederick",
+        "name": "Frederick Charles Lepick Sr.",
+        "confidence": "CONFIRMED",
+        "source": "Jennive 2008 obituary"
+      },
+      "children": [
+        {
+          "id": "lepick_jennive",
+          "name": "Jennive Imogene Lepick",
+          "born": "1923-02-02",
+          "born_place": "Floresville, Wilson County, TX",
+          "died": "2008",
+          "confidence": "CONFIRMED"
+        }
+      ]
+    },
+    {
+      "id": "boehme_herman",
+      "name": "Herman F. Boehme",
+      "generation_from_hunter": 5,
+      "role": "maternal great-great-grandfather",
+      "birth": {
+        "date": "1863-06-09",
+        "place": "Texas",
+        "confidence": "CONFIRMED",
+        "source": "PeopleLegacy: https://peoplelegacy.net/herman_f__boehme-4J1f4W"
+      },
+      "death": {
+        "date": "1900-06-18",
+        "age": 37,
+        "confidence": "CONFIRMED",
+        "source": "PeopleLegacy"
+      },
+      "burial": {
+        "place": "Shiner Sons of Herman Cemetery",
+        "city": "Shiner",
+        "county": "Lavaca County",
+        "state": "TX",
+        "confidence": "CONFIRMED",
+        "source": "PeopleLegacy"
+      },
+      "father": {
+        "id": "boehme_g6_father",
+        "name": "Unknown German immigrant",
+        "confidence": "UNVERIFIED",
+        "note": "Primary research gap. Estimated arrival ~1855-1862 via Galveston or Indianola. 1870/1880 Lavaca County census records are recommended next step."
+      },
+      "mother": {
+        "id": "boehme_g6_mother",
+        "name": "Unknown",
+        "confidence": "UNVERIFIED"
+      },
+      "spouse": {
+        "id": "boehme_herman_wife",
+        "name": "Unknown",
+        "confidence": "UNVERIFIED"
+      },
+      "religion": {
+        "affiliation": "Lutheran",
+        "confidence": "PROBABLE",
+        "evidence": [
+          "Buried at Sons of Hermann Cemetery (German Protestant fraternal organization, founded San Antonio 1861)",
+          "Child Frieda Boehme buried at Saint Johns Lutheran Cemetery, Poth, Wilson County TX"
+        ]
+      },
+      "children": [
+        {
+          "name": "Frieda Boehme",
+          "born": "1888",
+          "born_place": "TX",
+          "died": "1963",
+          "burial": "Saint Johns Lutheran Cemetery, Poth, Wilson County TX",
+          "confidence": "CONFIRMED",
+          "source": "PeopleLegacy"
+        },
+        {
+          "name": "Edgar Charles Boehme",
+          "born": "1889",
+          "born_place": "TX",
+          "died": "1967",
+          "burial": "Shiner Catholic Cemetery, Shiner, Lavaca County TX",
+          "confidence": "CONFIRMED",
+          "source": "PeopleLegacy",
+          "note": "Catholic burial anomalous vs. Lutheran family pattern; possibly converted via marriage"
+        },
+        {
+          "name": "Dora Boehme",
+          "born": "1892",
+          "born_place": "TX",
+          "died": "1969",
+          "burial": "Floresville City Cemetery, Wilson County TX",
+          "confidence": "CONFIRMED",
+          "source": "PeopleLegacy"
+        },
+        {
+          "name": "Walter John Boehme",
+          "born": "1894",
+          "born_place": "TX",
+          "died": "1972",
+          "burial": "Shiner Sons of Herman Cemetery, Lavaca County TX",
+          "confidence": "CONFIRMED",
+          "source": "PeopleLegacy"
+        },
+        {
+          "name": "Annie Henrietta Boehme",
+          "born": "1896",
+          "born_place": "TX",
+          "died": "1963",
+          "burial": "Floresville City Cemetery, Wilson County TX",
+          "confidence": "CONFIRMED",
+          "source": "PeopleLegacy"
+        },
+        {
+          "name": "Hilda Boehme (Lepick)",
+          "born": "c.1900",
+          "born_place": "TX",
+          "died": "1945",
+          "burial": "Floresville City Cemetery, Wilson County TX",
+          "confidence": "CONFIRMED",
+          "source": "PeopleLegacy"
+        }
+      ]
+    }
+  ],
+  "research_questions": {
+    "Q1_hilda_birth_parents_immigration": {
+      "birth_date": { "value": "c.1900", "confidence": "PROBABLE" },
+      "birth_place": { "value": "Texas, likely Lavaca County", "confidence": "PROBABLE" },
+      "father": { "value": "Herman F. Boehme (1863-1900)", "confidence": "CONFIRMED" },
+      "mother": { "value": "Unknown", "confidence": "UNVERIFIED" },
+      "immigration": { "value": "Hilda was native-born Texas; immigrant generation was Herman's parents (G6), ~1855-1862", "confidence": "PROBABLE" }
+    },
+    "Q2_settlement_region": {
+      "region": "Lavaca County / Wilson County, South Texas German Belt",
+      "not_adelsverein": "Confirmed — Adelsverein settlements were Hill Country (Gillespie/Kendall/Comal counties). Lavaca/Wilson County is a distinct immigration corridor.",
+      "key_towns": ["Shiner (Lavaca County)", "Floresville (Wilson County)", "Poth (Wilson County)"],
+      "confidence": "CONFIRMED",
+      "sources": [
+        "https://www.tshaonline.org/handbook/entries/shiner",
+        "https://www.tshaonline.org/handbook/entries/wilson-county",
+        "https://www.tshaonline.org/handbook/entries/yorktown"
+      ]
+    },
+    "Q3_immigration_wave": {
+      "assessment": "Post-1848 wave, approximately 1855-1862",
+      "confidence": "PROBABLE",
+      "reasoning": "Herman born 1863 TX; Lavaca County not an Adelsverein settlement zone; entry via Galveston or Indianola consistent with 1850s-1860s German migration corridor to South Texas",
+      "source": "https://www.tshaonline.org/handbook/entries/adelsverein"
+    },
+    "Q4_notable_boehmes": {
+      "assessment": "No notable Boehme figures identified in Lavaca/Wilson County records or TSHA Handbook",
+      "confidence": "UNVERIFIED",
+      "note": "Working-class/small-farming immigrant family consistent with Sons of Hermann demographic"
+    },
+    "Q5_church_affiliation": {
+      "affiliation": "Lutheran",
+      "confidence": "PROBABLE",
+      "evidence": [
+        "Herman buried Sons of Hermann Cemetery (German Protestant fraternal)",
+        "Frieda Boehme (Herman's child) buried Saint Johns Lutheran Cemetery, Poth TX"
+      ],
+      "anomaly": "Edgar Boehme (sibling) buried Shiner Catholic Cemetery — individual divergence, does not negate family Lutheran pattern",
+      "source": "https://www.tshaonline.org/handbook/entries/sons-of-hermann"
+    }
+  },
+  "research_gaps": [
+    {
+      "gap": "Herman F. Boehme's parents (G6) are unidentified",
+      "priority": "HIGH",
+      "next_steps": [
+        "1870 US Federal Census, Lavaca County TX (Herman age ~7; NARA M593, roll 1595)",
+        "1880 US Federal Census, Lavaca County TX (Herman age ~17; NARA T9 Texas schedules)",
+        "Texas Death Certificate for Herman 1900 — note: TX statewide registration began 1903; county-level records at Lavaca County Courthouse",
+        "St. Paul Lutheran Church records, Shiner TX",
+        "Sons of Hermann lodge membership records, Grand Lodge of Texas, San Antonio",
+        "German immigration manifests, Galveston/Indianola 1855-1862 (Genealogy.net Galveston lists)"
+      ]
+    },
+    {
+      "gap": "Hilda Boehme's mother is unidentified",
+      "priority": "MEDIUM",
+      "next_steps": [
+        "Herman F. Boehme wife may appear in 1900 census (died same year as Herman — possibly together or shortly after)",
+        "Lavaca County probate/estate records 1900",
+        "Wilson County marriage records for Frederick Lepick + Hilda Boehme"
+      ]
+    }
+  ],
+  "settlement_context": {
+    "region": "South Texas German Belt",
+    "counties": ["Lavaca", "Wilson", "DeWitt", "Gonzales"],
+    "entry_port": "Galveston or Indianola",
+    "migration_period": "c.1855-1862",
+    "contrast": "NOT Hill Country Adelsverein zone (Fredericksburg/New Braunfels)",
+    "fraternal": "Sons of Hermann (Söhne Hermanns), founded San Antonio 1861",
+    "religion": "Lutheran (dominant German Protestant tradition in this corridor)"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "type": "obituary",
+      "subject": "Jennive Imogene Lepick",
+      "year": 2008,
+      "confidence": "CONFIRMED"
+    },
+    {
+      "id": "S2",
+      "type": "aggregate_genealogy",
+      "site": "PeopleLegacy",
+      "url": "https://peoplelegacy.net/herman_f__boehme-4J1f4W",
+      "accessed": "2026-04-26",
+      "access_method": "Wayback Machine archived copy",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "id": "S3",
+      "type": "reference",
+      "site": "TSHA Handbook of Texas",
+      "entries": ["shiner", "wilson-county", "yorktown", "adelsverein", "sons-of-hermann"],
+      "base_url": "https://www.tshaonline.org/handbook/entries/",
+      "accessed": "2026-04-26",
+      "confidence": "CONFIRMED"
+    }
+  ]
+}

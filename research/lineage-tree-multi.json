@@ -1068,34 +1068,375 @@
   },
   "secondary_trees": [
     {
-      "label": "Hunter's paternal SPENCE line (Dale Sr. Rice U professor, England→Beaumont TX)",
+      "label": "PATERNAL — Spence line (Dale Sr. Rice U professor, English immigrant → Beaumont TX)",
       "tree": {
-        "name": "Dr. Dale William Spence Sr.",
+        "name": "Dovie (?) Spence",
         "dates": "—",
-        "fact": "Hunter's paternal grandfather. Professor at Rice University, Houston. Immigrated from England (per Hunter's family tradition) to Beaumont, Texas. Patriarch of the Spence-Beaumont line.",
+        "fact": "Hunter's paternal great-grandmother; mother of Dr. Dale William Spence Sr. Maiden name UNKNOWN — research target.",
         "id": null,
-        "generation": 16,
+        "generation": 15,
         "century": 20,
         "confidence": "confirmed",
-        "spouse": "Alice (maiden name unknown)",
+        "spouse": null,
         "children": [
           {
-            "name": "Dale William Spence Jr.",
-            "dates": "living",
-            "fact": "Hunter Spence's father. m. Rachel.",
+            "name": "Dr. Dale William Spence Sr.",
+            "dates": "—",
+            "fact": "Hunter's paternal grandfather. Professor at Rice University, Houston. Immigrated from England (per Hunter's family tradition) to Beaumont, Texas. Patriarch of the Spence-Beaumont line. m. Alice Henslee.",
             "id": null,
-            "generation": 17,
-            "century": 21,
+            "generation": 16,
+            "century": 20,
             "confidence": "confirmed",
+            "spouse": "Alice (Henslee) Spence",
+            "children": [
+              {
+                "name": "Dale William Spence Jr.",
+                "dates": "living",
+                "fact": "Hunter Spence's father. m. Rachel.",
+                "id": null,
+                "generation": 17,
+                "century": 21,
+                "confidence": "confirmed",
+                "spouse": null,
+                "children": [
+                  {
+                    "name": "Hunter Spence",
+                    "dates": "living",
+                    "fact": "Recipient of this family history; recorded grandma's interview. Surname Spence inherited via FATHER (Dale William Spence Jr.), NOT via maternal grandfather David Trifon (whose Trifon surname was adopted, biological line untraceable).",
+                    "id": "p001",
+                    "generation": 18,
+                    "century": 21,
+                    "confidence": "confirmed",
+                    "spouse": null,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Susan (Spence) Clarke",
+                "dates": "living",
+                "fact": "Hunter's paternal aunt; sister of Dale Jr.; took married name Clarke",
+                "id": null,
+                "generation": 17,
+                "century": 21,
+                "confidence": "confirmed",
+                "spouse": null,
+                "children": []
+              },
+              {
+                "name": "Deanne (Spence) Patton",
+                "dates": "living",
+                "fact": "Hunter's paternal aunt; sister of Dale Jr.; took married name Patton",
+                "id": null,
+                "generation": 17,
+                "century": 21,
+                "confidence": "confirmed",
+                "spouse": null,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "PATERNAL — Henslee line (Frances + Lee Stuart Henslee, Beaumont/Nederland TX)",
+      "tree": {
+        "name": "Lee Stuart + Frances Henslee",
+        "dates": "fl. 1948–2008",
+        "fact": "Hunter's paternal great-grandparents (Alice Marie Spence's parents). Both born ~1918; lived Beaumont/Nederland TX. Catholic. Earlier Henslee + Frances's-maiden-name lines: TBD.",
+        "id": null,
+        "generation": 14,
+        "century": 20,
+        "confidence": "confirmed",
+        "spouse": null,
+        "children": [
+          {
+            "name": "Lee Stuart Henslee",
+            "dates": "—",
+            "fact": "Hunter's paternal great-grandfather. m. Frances Henslee (60 years). Predeceased her (before 2008). Children: Alice Marie Spence + Don Henslee. Per Broussard's Mortuary obituary 2008.",
+            "id": null,
+            "generation": 15,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": "Frances Henslee",
+            "children": [
+              {
+                "name": "Alice Marie (Henslee) Spence",
+                "dates": "d. before 2008",
+                "fact": "Hunter's paternal grandmother. m. Dr. Dale William Spence Sr. (Rice U professor, Beaumont TX). Maiden name HENSLEE. Daughter of Lee Stuart Henslee + Frances Henslee. Predeceased her mother Frances. Per Frances Henslee obituary, Broussard's Mortuary 2008.",
+                "id": null,
+                "generation": 16,
+                "century": 20,
+                "confidence": "confirmed",
+                "spouse": "Dr. Dale William Spence Sr.",
+                "children": []
+              },
+              {
+                "name": "Don Henslee",
+                "dates": "living",
+                "fact": "Frances + Lee Stuart Henslee's son; Hunter's paternal grand-uncle. Lives in Nederland TX. m. Jo Ann.",
+                "id": null,
+                "generation": 16,
+                "century": 20,
+                "confidence": "confirmed",
+                "spouse": "Jo Ann",
+                "children": [
+                  {
+                    "name": "Chad Henslee",
+                    "dates": "living",
+                    "fact": "Hunter's first cousin once removed (Don's son)",
+                    "id": null,
+                    "generation": 17,
+                    "century": 21,
+                    "confidence": "confirmed",
+                    "spouse": null,
+                    "children": []
+                  },
+                  {
+                    "name": "Stacy (Henslee) George",
+                    "dates": "living",
+                    "fact": "Hunter's first cousin once removed (Don's daughter, m. George)",
+                    "id": null,
+                    "generation": 17,
+                    "century": 21,
+                    "confidence": "confirmed",
+                    "spouse": null,
+                    "children": []
+                  },
+                  {
+                    "name": "Jennifer (Henslee) Tyler",
+                    "dates": "living",
+                    "fact": "Hunter's first cousin once removed (Don's daughter, m. Tyler)",
+                    "id": null,
+                    "generation": 17,
+                    "century": 21,
+                    "confidence": "confirmed",
+                    "spouse": null,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rosalie (Henslee) Stephens",
+            "dates": "living (2008)",
+            "fact": "Frances's sister; Hunter's paternal great-grand-aunt. Lives in Allen TX. m. Steve Stephens. Per Frances obituary.",
+            "id": null,
+            "generation": 15,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": "Steve Stephens",
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "MATERNAL-PATERNAL — Teichmüller line (Hans/Johann ~1580 Harz miller → Brunswick → La Grange TX, 6 gens NDB-confirmed)",
+      "tree": {
+        "name": "Hans / Johann Teichmüller",
+        "dates": "~1580–1638",
+        "fact": "EARLIEST documented Teichmüller patrilineal ancestor. Master miller (Mühlenmeister) in the southern Harz mountains. Surname Teichmüller is occupational: 'pond miller'. Per NDB 2016.",
+        "id": null,
+        "generation": 8,
+        "century": 16,
+        "confidence": "confirmed",
+        "spouse": null,
+        "children": [
+          {
+            "name": "[~2 unnamed Teichmüller generations]",
+            "dates": "fl. 1640–1700",
+            "fact": "NDB notes a gap between earliest Hans/Johann (~1580) and Joachim Andreas (1705). Likely millers / minor Harz officials.",
+            "id": null,
+            "generation": 9,
+            "century": 17,
+            "confidence": "unknown",
             "spouse": null,
             "children": [
               {
-                "name": "Hunter Spence",
-                "dates": "living",
-                "fact": "Recipient of this family history; recorded grandma's interview. Surname Spence inherited via FATHER (Dale William Spence Jr.), NOT via maternal grandfather David Trifon (whose Trifon surname was adopted, biological line untraceable).",
-                "id": "p001",
-                "generation": 18,
-                "century": 21,
+                "name": "Joachim Andreas Teichmüller",
+                "dates": "1705–1778",
+                "fact": "Oberfaktor (chief commercial agent) in Goslar at the foot of the Harz mountains. GND 1154326802. Earliest documented patrilineal Teichmüller before mining-clan generations.",
+                "id": null,
+                "generation": 10,
+                "century": 18,
+                "confidence": "confirmed",
+                "spouse": null,
+                "children": [
+                  {
+                    "name": "Wilhelm Ernst Conrad Teichmüller",
+                    "dates": "1758–1835",
+                    "fact": "Oberhütteninspekteur (chief smelting works inspector) at Karlshütte near Delligsen, Leinebergland. m. Henriette Christiane Helene Schorkopf (1763-1818) of Uslar. GND 1154326616. August's father.",
+                    "id": null,
+                    "generation": 11,
+                    "century": 18,
+                    "confidence": "confirmed",
+                    "spouse": "Henriette Christiane Helene Schorkopf (1763–1818)",
+                    "children": [
+                      {
+                        "name": "August Wilhelm Teichmüller",
+                        "dates": "1795–1855",
+                        "fact": "Seconde-Lieutenant in Schwarzen Corps des Majors Olfermann, Brunswick (NOT Prussian) army. m. Charlotte Georgine Elisabeth von Girsewald (1799-1860). 5 children: Wilhelmina, Wilhelm, Hans, Gustav, +1 died young. Per NDB 2016.",
+                        "id": null,
+                        "generation": 12,
+                        "century": 19,
+                        "confidence": "confirmed",
+                        "spouse": "Charlotte Georgine Elisabeth von Girsewald (1799–1860)",
+                        "children": [
+                          {
+                            "name": "Wilhelmina (Minette) Teichmüller",
+                            "dates": "1829–1886",
+                            "fact": "Hans/Gustav's surviving sister (NOT to be confused with Hans's daughter Minette 1871). m. Karl Mollenhauer (Protestant pastor + Superintendent at Bockenem). Per NDB 2016.",
+                            "id": null,
+                            "generation": 13,
+                            "century": 19,
+                            "confidence": "confirmed",
+                            "spouse": "Karl Mollenhauer",
+                            "children": []
+                          },
+                          {
+                            "name": "Wilhelm Teichmüller",
+                            "dates": "1834–1869",
+                            "fact": "Hans/Gustav's brother. Premier-Lieutenant + Schriftsteller (writer). m. Bertha Kuntzen. Per NDB 2016. POSSIBLE father of pianist Robert Teichmüller (1863-1939).",
+                            "id": null,
+                            "generation": 13,
+                            "century": 19,
+                            "confidence": "confirmed",
+                            "spouse": null,
+                            "children": []
+                          },
+                          {
+                            "name": "Hans Teichmueller",
+                            "dates": "1837 Brunswick – 1901 La Grange TX",
+                            "fact": "Hunter's CONFIRMED great-great-grandfather (Hans-Gustav siblings now CONFIRMED via NDB 2016 vol 26 p.6). Emigrated to TX 1854; Civil War CSA artillery officer; jurist + justice of the peace. m. Auguste Kellner (NDB) / sometimes spelled 'Anna Lemke' in TX records.",
+                            "id": "p003",
+                            "generation": 13,
+                            "century": 19,
+                            "confidence": "confirmed",
+                            "spouse": "Auguste Kellner",
+                            "children": [
+                              {
+                                "name": "May Teichmueller",
+                                "dates": "1872 – 28 Aug 1900",
+                                "fact": "m. Edward Mattingly Sr. 1 Sept 1894; mother of Leroy Teichmuller Mattingly (Hunter's great-grandfather); Hans's other daughter",
+                                "id": null,
+                                "generation": 14,
+                                "century": 19,
+                                "confidence": "confirmed",
+                                "spouse": null,
+                                "children": []
+                              },
+                              {
+                                "name": "Minette Teichmueller (Pohl)",
+                                "dates": "1871–1970",
+                                "fact": "WPA muralist — painted 'The Law, Texas Rangers' for Smithville TX post office. Hans's daughter; CONFIRMED great-great-grandaunt of Hunter.",
+                                "id": "p004",
+                                "generation": 14,
+                                "century": 19,
+                                "confidence": "confirmed",
+                                "spouse": null,
+                                "children": []
+                              },
+                              {
+                                "name": "[5th child of Hans]",
+                                "dates": "?",
+                                "fact": "Lotto 1902 confirms 5 children but 5th not in TX vital records (pre-1903 records sparse) — UNVERIFIED",
+                                "id": null,
+                                "generation": 14,
+                                "century": 19,
+                                "confidence": "possible",
+                                "spouse": null,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Gustav Teichmüller",
+                            "dates": "1832 Brunswick – 1888 Tartu",
+                            "fact": "German philosopher who influenced Friedrich Nietzsche directly; professor at Dorpat (Tartu) University. PROBABLE 0.82 brother of Hans (matching Brunswick parents per Wikipedia).",
+                            "id": "p060",
+                            "generation": 13,
+                            "century": 19,
+                            "confidence": "probable",
+                            "spouse": null,
+                            "children": [
+                              {
+                                "name": "Anna Teichmüller",
+                                "dates": "1861–1940",
+                                "fact": "German Lieder composer; daughter of Gustav. Wikipedia article. PROBABLE first cousin twice removed of Hans's children.",
+                                "id": "p061",
+                                "generation": 14,
+                                "century": 19,
+                                "confidence": "probable",
+                                "spouse": null,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "MATERNAL — Lepik / Lepick / Mikeska line (Bohemia 1862 → Kansas 1881 → Floresville TX)",
+      "tree": {
+        "name": "Frank Lepik (later 'Lepick')",
+        "dates": "~1862 Bohemia (Austria-Hungary) – ?",
+        "fact": "Hunter's maternal 2x-great-grandfather. EMIGRATED 1881 from Bohemia to Brown County Kansas. Surname 'Lepik' Czech/Bohemian; Americanized to 'Lepick' by next generation. m. Mary Mikeska. 9 children (most stayed Kansas/Arkansas; only Fred Sr went to Texas). WikiTree Lepik-8.",
+        "id": null,
+        "generation": 13,
+        "century": 19,
+        "confidence": "confirmed",
+        "spouse": "Mary Mikeska",
+        "children": [
+          {
+            "name": "Fred Charles Lepick Sr.",
+            "dates": "8 Mar 1894 Brown Co KS – ?",
+            "fact": "Jennive's father. Born Brown County, Kansas to Bohemian immigrant Frank Lepik + Mary Mikeska. Moved to Wilson Co TX 1910-1920; m. Hilda Boehme ~1920. Lived San Antonio late 1930s+. Buried Floresville City Cemetery (Find a Grave 55217353). WikiTree Lepick-2.",
+            "id": null,
+            "generation": 14,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": "Hilda Boehme",
+            "children": [
+              {
+                "name": "Jennive Imogene Lepick",
+                "dates": "2 Feb 1923 Floresville TX – 2008 Colorado Springs",
+                "fact": "Shari's mother (Hunter's maternal great-grandmother). m. Leroy Baity Mattingly 18 Dec 1943 at Fort Sill OK. Dietician degree from Our Lady of the Lake College, San Antonio. Find a Grave 36080759. WikiTree Lepick-1.",
+                "id": null,
+                "generation": 15,
+                "century": 20,
+                "confidence": "confirmed",
+                "spouse": "Leroy Baity Mattingly",
+                "children": []
+              },
+              {
+                "name": "Gertrude (Lepick) Hurlburt",
+                "dates": "1920–2000",
+                "fact": "Jennive's older sister",
+                "id": null,
+                "generation": 15,
+                "century": 20,
+                "confidence": "confirmed",
+                "spouse": null,
+                "children": []
+              },
+              {
+                "name": "Fred Charles Lepick Jr.",
+                "dates": "1925–2016",
+                "fact": "Jennive's younger brother. Naval Aviator (NOT a banker — Frost Bank 'uncle' oral tradition is debunked).",
+                "id": null,
+                "generation": 15,
+                "century": 20,
                 "confidence": "confirmed",
                 "spouse": null,
                 "children": []
@@ -1103,23 +1444,89 @@
             ]
           },
           {
-            "name": "Susan (Spence) Clarke",
-            "dates": "living",
-            "fact": "Hunter's paternal aunt; sister of Dale Jr.; took married name Clarke",
+            "name": "Mary A. (Lepick) Blacketer",
+            "dates": "fl. 1908 KS",
+            "fact": "Fred Sr.'s sister; m. Blacketer 1908 Kansas",
             "id": null,
-            "generation": 17,
-            "century": 21,
+            "generation": 14,
+            "century": 20,
             "confidence": "confirmed",
             "spouse": null,
             "children": []
           },
           {
-            "name": "Deanne (Spence) Patton",
-            "dates": "living",
-            "fact": "Hunter's paternal aunt; sister of Dale Jr.; took married name Patton",
+            "name": "Frank T. Lepick",
+            "dates": "?",
+            "fact": "Fred Sr.'s sibling (Kansas/Arkansas)",
             "id": null,
-            "generation": 17,
-            "century": 21,
+            "generation": 14,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": null,
+            "children": []
+          },
+          {
+            "name": "Tilford Anthony Lepick",
+            "dates": "?",
+            "fact": "Fred Sr.'s sibling",
+            "id": null,
+            "generation": 14,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": null,
+            "children": []
+          },
+          {
+            "name": "Edward Lepick",
+            "dates": "?",
+            "fact": "Fred Sr.'s sibling",
+            "id": null,
+            "generation": 14,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": null,
+            "children": []
+          },
+          {
+            "name": "William Henry Lepick",
+            "dates": "?",
+            "fact": "Fred Sr.'s sibling",
+            "id": null,
+            "generation": 14,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": null,
+            "children": []
+          },
+          {
+            "name": "Joseph Lepick",
+            "dates": "?",
+            "fact": "Fred Sr.'s sibling",
+            "id": null,
+            "generation": 14,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": null,
+            "children": []
+          },
+          {
+            "name": "Jennie Lepick",
+            "dates": "?",
+            "fact": "Fred Sr.'s sibling",
+            "id": null,
+            "generation": 14,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": null,
+            "children": []
+          },
+          {
+            "name": "Katherine 'Kate' Lepick",
+            "dates": "?",
+            "fact": "Fred Sr.'s sibling",
+            "id": null,
+            "generation": 14,
+            "century": 20,
             "confidence": "confirmed",
             "spouse": null,
             "children": []
@@ -1128,7 +1535,21 @@
       }
     },
     {
-      "label": "Hunter's maternal grandfather: David Trifon (adopted-name; biological untraceable)",
+      "label": "MATERNAL — Boehme line (Herman F. Boehme b. 1863 Lavaca Co TX, Lutheran German-Texan)",
+      "tree": {
+        "name": "Herman F. Boehme",
+        "dates": "9 Jun 1863 TX – 18 Jun 1900 Shiner, Lavaca Co TX",
+        "fact": "Hilda Boehme's father (Hunter's maternal 2x-great-grandfather). Lutheran. Buried Sons of Hermann Cemetery. German-Texan family, Lavaca/Wilson County. Hilda's mother UNVERIFIED. Per agent 30 research; PeopleLegacy.",
+        "id": null,
+        "generation": 13,
+        "century": 19,
+        "confidence": "confirmed",
+        "spouse": null,
+        "children": []
+      }
+    },
+    {
+      "label": "MATERNAL grandfather — David Trifon (adopted-name; biological line untraceable per Hunter)",
       "tree": {
         "name": "David Trifon",
         "dates": "Shari's first husband",
@@ -1142,138 +1563,7 @@
       }
     },
     {
-      "label": "Maternal Lepick line (Shari's mother Jennive Lepick of Floresville TX)",
-      "tree": {
-        "name": "Frederick Lepick",
-        "dates": "?",
-        "fact": "Jennive's father. Lepick family of Wilson County TX.",
-        "id": null,
-        "generation": 14,
-        "century": 20,
-        "confidence": "confirmed",
-        "spouse": "Hilda Boehme",
-        "children": [
-          {
-            "name": "Jennive Imogene Lepick",
-            "dates": "2 Feb 1923 Floresville TX – 2008 Colorado Springs",
-            "fact": "Shari's mother. m. Leroy Baity Mattingly 18 Dec 1943 at Fort Sill OK. Dietician degree from Our Lady of the Lake College, San Antonio. Find a Grave 36080759.",
-            "id": null,
-            "generation": 15,
-            "century": 20,
-            "confidence": "confirmed",
-            "spouse": "Leroy Baity Mattingly",
-            "children": []
-          },
-          {
-            "name": "Gertrude (Lepick) Hurlburt",
-            "dates": "1920–2000",
-            "fact": "Jennive's older sister",
-            "id": null,
-            "generation": 15,
-            "century": 20,
-            "confidence": "confirmed",
-            "spouse": null,
-            "children": []
-          },
-          {
-            "name": "Fred Charles Lepick Jr.",
-            "dates": "1925–2016",
-            "fact": "Jennive's younger brother. Naval Aviator (NOT a banker — Frost Bank 'uncle' oral tradition is debunked).",
-            "id": null,
-            "generation": 15,
-            "century": 20,
-            "confidence": "confirmed",
-            "spouse": null,
-            "children": []
-          }
-        ]
-      }
-    },
-    {
-      "label": "Maternal-paternal Teichmüller line (Brunswick → Texas)",
-      "tree": {
-        "name": "August Teichmüller",
-        "dates": "fl. 1820–1860 Brunswick",
-        "fact": "Officer in the Brunswick army; per Wikipedia matched both Gustav (Wiki) and Hans (Lotto 1902 KY history). Father of both.",
-        "id": null,
-        "generation": 12,
-        "century": 19,
-        "confidence": "probable",
-        "spouse": "Charlotte von Girsewaldt",
-        "children": [
-          {
-            "name": "Hans Teichmueller",
-            "dates": "1837 Brunswick – 1901 La Grange TX",
-            "fact": "Hunter's confirmed great-great-grandfather; emigrated to TX 1854; Civil War CSA artillery officer; named for father August. m. Anna Lemke",
-            "id": "p003",
-            "generation": 13,
-            "century": 19,
-            "confidence": "confirmed",
-            "spouse": "Anna Lemke",
-            "children": [
-              {
-                "name": "May Teichmueller",
-                "dates": "1872 – 28 Aug 1900",
-                "fact": "m. Edward Mattingly Sr. 1 Sept 1894; mother of Leroy Teichmuller Mattingly (Hunter's great-grandfather); Hans's other daughter",
-                "id": null,
-                "generation": 14,
-                "century": 19,
-                "confidence": "confirmed",
-                "spouse": null,
-                "children": []
-              },
-              {
-                "name": "Minette Teichmueller (Pohl)",
-                "dates": "1871–1970",
-                "fact": "WPA muralist — painted 'The Law, Texas Rangers' for Smithville TX post office. Hans's daughter; CONFIRMED great-great-grandaunt of Hunter.",
-                "id": "p004",
-                "generation": 14,
-                "century": 19,
-                "confidence": "confirmed",
-                "spouse": null,
-                "children": []
-              },
-              {
-                "name": "[5th child of Hans]",
-                "dates": "?",
-                "fact": "Lotto 1902 confirms 5 children but 5th not in TX vital records (pre-1903 records sparse) — UNVERIFIED",
-                "id": null,
-                "generation": 14,
-                "century": 19,
-                "confidence": "possible",
-                "spouse": null,
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Gustav Teichmüller",
-            "dates": "1832 Brunswick – 1888 Tartu",
-            "fact": "German philosopher who influenced Friedrich Nietzsche directly; professor at Dorpat (Tartu) University. PROBABLE 0.82 brother of Hans (matching Brunswick parents per Wikipedia).",
-            "id": "p060",
-            "generation": 13,
-            "century": 19,
-            "confidence": "probable",
-            "spouse": null,
-            "children": [
-              {
-                "name": "Anna Teichmüller",
-                "dates": "1861–1940",
-                "fact": "German Lieder composer; daughter of Gustav. Wikipedia article. PROBABLE first cousin twice removed of Hans's children.",
-                "id": "p061",
-                "generation": 14,
-                "century": 19,
-                "confidence": "probable",
-                "spouse": null,
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "label": "Frost dynasty (PRIOR THEORY — DISPROVEN per agent 25)",
+      "label": "DEBUNKED — Frost dynasty (was UNVERIFIED, agent 25 confirmed Lepick line is the actual maternal line)",
       "tree": {
         "name": "Thomas Claiborne Frost I",
         "dates": "1833–1903",

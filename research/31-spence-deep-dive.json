@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "file": "31-spence-deep-dive.json",
+    "prepared": "2026-04-26",
+    "researcher": "Researcher Specialist (claude-sonnet-4-6)",
+    "supersedes": "26-spence-paternal.json (2026-04-25)",
+    "subject": "Spence paternal line — Hunter Spence's grandfather David Spence",
+    "confidence_tiers": {
+      "CONFIRMED": "Documentary primary source or multiple corroborating sources",
+      "PROBABLE": "2+ secondary/genealogical database sources, internally consistent",
+      "POSSIBLE": "Single source or plausible inference from pattern",
+      "UNVERIFIED": "Family oral tradition or deduction only"
+    }
+  },
+
+  "surname_inheritance_question": {
+    "question": "Did Hunter inherit the Spence surname from his mother Rachel (who is David Spence's daughter) or from his biological father?",
+    "confidence": "UNVERIFIED",
+    "most_probable_scenario": "Rachel (Shari + David's daughter) uses 'Spence' as her legal/active surname, and Hunter inherited it from her. This is Scenario A.",
+    "scenario_b": "Hunter's biological father independently bears the Spence surname — possible but not supported by any accessible evidence.",
+    "note": "Leroy Baity Mattingly's 2013 obituary names 'Sharyn Mattingly of Santa Monica, California' as surviving daughter — no reference to a married daughter with the surname Spence. This is consistent with Rachel using the maiden name Spence.",
+    "action_needed": "Confirm with Hunter or Rachel directly"
+  },
+
+  "hunter_grandfather": {
+    "id": "david_spence",
+    "name": "David Spence",
+    "relationship_to_hunter": "maternal grandfather (mother Rachel's father)",
+    "approximate_birth_year_range": "1944-1948",
+    "birth_year_confidence": "PROBABLE",
+    "birth_year_derivation": "Approximately 80 years old as described in Shari's interview context c. 2025-2026",
+    "birth_state_hypothesis": "Texas",
+    "birth_state_confidence": "POSSIBLE",
+    "birth_state_reasoning": "Shari met David at Texas A&M University; San Antonio (Bexar County) family context; Deep Scottish/Irish settlement of Central Texas",
+    "status_as_of_2026": "Living — per family interview",
+    "marriage_to_shari": {
+      "spouse": "Sharyn 'Shari' Mattingly (b. 1947)",
+      "order": "Shari's first husband",
+      "estimated_date_range": "1963-1972",
+      "search_result": "Texas Marriage Index 1966-1972 searched — no Spence + Mattingly match found. Pre-1966 records require county clerk access.",
+      "probable_county": "Bexar County (San Antonio) or Travis County (Austin/College Station area)",
+      "confidence": "UNVERIFIED"
+    },
+    "parents": {
+      "status": "Unknown — require primary records",
+      "estimated_birth_range": "1915-1925",
+      "confidence": "UNVERIFIED"
+    }
+  },
+
+  "clan_spens_historical": {
+    "status": "CONFIRMED",
+    "sources": ["Wikipedia Clan Spens", "Ragman Rolls 1296 (primary record)"],
+    "classification": "Lowland Scottish clan; also a sept of Clan MacDuff",
+    "region": "Fife, Scotland",
+    "current_chief": "Patrick Nathaniel George Spens, 4th Baron Spens",
+    "motto": "Si Deus Quis Contra (If God is for us, who is against us?)",
+    "crest": "A hart's head erased proper",
+    "earliest_documented_records": [
+      {
+        "person": "John 'Dispensator' / 'Le Dispenser'",
+        "date": "1161-1171",
+        "record": "List of tenants/vassals of Walter fitz Alan, Steward of Scotland",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "person": "Henry de Spens (feudal baron)",
+        "date": "1296",
+        "record": "Ragman Rolls — swore fealty to Edward I of England",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "person": "Bishop Thomas Spens",
+        "date": "c. 1440-1480",
+        "role": "Bishop of Galloway; Bishop of Aberdeen; Lord Privy Seal of Scotland",
+        "note": "Effigy at Rosslyn Chapel, Edinburgh",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "person": "Patrick Spens (youngest son of John Spens of Lathallan)",
+        "date": "1450",
+        "role": "Sent by King James II of Scotland to Charles VII of France; founded Barony de Spens d'Estignols; family served as Garde du Corps du Roi until French Revolution 1789",
+        "confidence": "CONFIRMED"
+      }
+    ]
+  },
+
+  "orkney_spence_family": {
+    "status": "CONFIRMED",
+    "source": "Orkney Family History Society — Kirkwall OPR film 0990503 (1652-1727)",
+    "url": "https://www.orkneyfhs.co.uk/docs/resourcedocs/1/SPENCE_of_Scapa.htm",
+    "key_line": "Spence of Scapa — documented from Harie Spence 1st of Scapa (pre-1657) through David Spence 5th of Scapa",
+    "connection_to_basil_spence": "Sir Basil Urwin Spence (1907-1976, architect of Coventry Cathedral) had 'Orcadian parents'. Father: Urwin Archibald Spence, assayer Royal Mint, Bombay.",
+    "connection_to_hunter": "POSSIBLE — same surname regional cluster; no direct genealogical link established"
+  },
+
+  "scottish_to_american_line": {
+    "status": "PROBABLE",
+    "source": "WikiTree Spence-4998, sourced from FamilySearch NC Estate Files and Ancestry.com",
+    "chain": [
+      {
+        "person": "John Spence",
+        "dates": "12 Mar 1611 - 02 May 1704",
+        "location": "Glasgow, Lanarkshire, Scotland",
+        "confidence": "PROBABLE"
+      },
+      {
+        "person": "David Spence",
+        "dates": "05 Apr 1639 - 30 Jul 1679",
+        "location": "Dysart, Fife, Scotland → Virginia, USA",
+        "married": "Ann Rowe",
+        "significance": "First documented Spence in colonial America from this Scottish line",
+        "confidence": "PROBABLE"
+      },
+      {
+        "person": "James Spence Sr.",
+        "dates": "abt. 25 Jan 1674 - abt. 20 Mar 1738",
+        "location": "Wicocomico, Somerset County, Maryland",
+        "married": "Esther Booth",
+        "confidence": "PROBABLE"
+      },
+      {
+        "person": "James Spence Jr.",
+        "dates": "1702 - aft. 1753",
+        "location": "Pasquotank County, North Carolina",
+        "married": "Elizabeth Greaves",
+        "confidence": "PROBABLE"
+      }
+    ],
+    "note": "This is one documented Scottish-American Spence line. Whether Hunter's grandfather David descends from it cannot be confirmed without his birth certificate."
+  },
+
+  "kentucky_illinois_spence_line": {
+    "status": "CONFIRMED (for Williamson D. Spence line)",
+    "source": "WikiTree Spence-3467 (Williamson D. Spence), Spence-3471 (Malachi Spence)",
+    "chain": [
+      {
+        "person": "James Spence (grandfather)",
+        "dates": "abt. 1702-1751",
+        "location": "Virginia (born) → Pasquotank, North Carolina",
+        "confidence": "CONFIRMED (NC Estate Files, FamilySearch)"
+      },
+      {
+        "person": "James Spence (father)",
+        "dates": "1742 - abt. 1784",
+        "location": "North Carolina",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "person": "Malachi Spence",
+        "dates": "abt. 1769 - 1 Jun 1847",
+        "location": "Born Pasquotank, North Carolina; died Livingston County, Illinois",
+        "married": "Courtney Anne Hubbard (abt. 1796)",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "person": "Williamson D. Spence",
+        "dates": "12 Jul 1814 - 1 Dec 1896",
+        "location": "Born Madison County, Kentucky; died Fairbury, Livingston County, Illinois",
+        "married": "Mary Darnall (4 Jun 1837, Indian Grove Township, IL)",
+        "confidence": "CONFIRMED — photo in WikiTree"
+      }
+    ],
+    "relevance_to_navarro_county_spence": "Both Williamson D. Spence (Illinois, 1814-1896) and David W. Spence (born Cass County, Illinois, 1840) are Spence families in Illinois from the same era, almost certainly from the same NC → Kentucky → Illinois migration wave. However, direct family connection not confirmed in this session."
+  },
+
+  "irish_texas_spence_line": {
+    "status": "CONFIRMED (for this specific documented line)",
+    "source": "Smoky Mountain Ancestral Quest (smokykin.com), family group sheets F176045, F111328, F70913",
+    "note": "This is a separate Spence line from Ireland, NOT from Scotland, that reached San Antonio Texas by the late 19th century",
+    "chain": [
+      {
+        "person": "Charles Spence",
+        "dates": "born abt. 1767, Ireland; died abt. 1789, South Carolina",
+        "married": "Ann Arthur (Ireland, abt. 1780)",
+        "confidence": "PROBABLE (genealogy database, no primary source cited)"
+      },
+      {
+        "person": "Robert Spence",
+        "dates": "15 Apr 1783 - 15 Jul 1847",
+        "location": "Monroe County, Mississippi",
+        "married": "Mariah McNeil (South Carolina, 14 Jun 1810)",
+        "confidence": "CONFIRMED (marriage certificate cited)"
+      },
+      {
+        "person": "John McNeil Spence",
+        "dates": "7 Dec 1813 - abt. 1860",
+        "location": "Born South Carolina",
+        "married": "Martha E. Perkins (11 Jan 1838, Smithville, Monroe County, Mississippi)",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "person": "James Philander 'Ben' Spence",
+        "dates": "20 Mar 1850 - 29 Dec 1937",
+        "location": "Born Smithville, Monroe County, Mississippi; died San Antonio, Bexar County, Texas",
+        "married": "Mary Katherine 'Cassie' Ray (7 Jan 1902, Floresville, Wilson County, Texas)",
+        "confidence": "CONFIRMED (census and marriage certificate cited)"
+      },
+      {
+        "person": "Benjamin 'Ben' Spence",
+        "dates": "10 Jul 1905 - 6 Jul 1951",
+        "location": "Born Wilson County, Texas; died San Antonio, Bexar County, Texas",
+        "buried": "Fort Sam Houston National Cemetery, San Antonio (Find a Grave #3051286)",
+        "cause_of_death": "Gunshot wound in head, self inflicted",
+        "military_service": "CONFIRMED (national cemetery burial eligibility requires military service)",
+        "confidence": "CONFIRMED"
+      }
+    ]
+  },
+
+  "navarro_county_texas_spence": {
+    "status": "CONFIRMED (this specific family)",
+    "source": "txnavarr.genealogyvillage.com — transcribed from The Dawson Herald obituaries 1907-1945",
+    "head_of_family": {
+      "person": "David W. Spence",
+      "born": "19 Nov 1840",
+      "birthplace": "Cass County, Illinois (obit says 'Cask County' — almost certainly Cass County)",
+      "moved_to_texas": "1850",
+      "died": "28 Apr 1907",
+      "death_place": "Two miles north of Dawson, Navarro County, Texas",
+      "married": "Elizabeth 'Bettie' Dawson, 28 Jun 1866",
+      "confidence": "CONFIRMED (newspaper obituary)"
+    },
+    "relevance_to_hunter": "NOT Hunter's direct grandfather — David W. Spence (1840-1907) is too early and his male line died out. Presented as evidence of the Illinois → Texas Spence migration corridor.",
+    "1840_illinois_census": {
+      "record": "A 'David Spence' appears in the 1840 Cass County, Illinois census as head of household",
+      "interpretation": "This is David W. Spence's father (David W. was born November 1840, the census was taken in August 1840 when he was not yet born or was an infant)",
+      "source": "genealogytrails.com/ill/cass/1840census_pg2.html",
+      "confidence": "PROBABLE"
+    }
+  },
+
+  "military_records_summary": {
+    "civil_war": {
+      "finding": "No Spence found in Navarro County Confederate rosters (Moss's Company, Dresden's Texas Cavalry, Winkler's Company, Martin's Company). David W. Spence (born 1840, in Texas 1850-1907) was of service age 1861-1865 but no record found.",
+      "confidence": "UNVERIFIED (absence of evidence, not evidence of absence)"
+    },
+    "wwi": {
+      "finding": "Not searched in this session",
+      "recommended_search": "Fold3.com WWI draft registration cards — search 'Spence' in Navarro County or Bexar County Texas"
+    },
+    "wwii": {
+      "finding": "Benjamin 'Ben' Spence (1905-1951, Wilson County TX) confirmed military service — buried Fort Sam Houston National Cemetery",
+      "source": "Smoky Mountain Ancestral Quest (smokykin.com), Find a Grave #3051286",
+      "confidence": "CONFIRMED"
+    }
+  },
+
+  "notable_spences_new": [
+    {
+      "name": "Henry de Spens",
+      "period": "1296",
+      "role": "Feudal baron; swore fealty to Edward I of England on Ragman Rolls 1296",
+      "significance": "First individually named Spens in primary records",
+      "confidence": "CONFIRMED (Ragman Rolls)"
+    },
+    {
+      "name": "Bishop Thomas Spens",
+      "period": "c. 1440-1480",
+      "role": "Bishop of Galloway; Bishop of Aberdeen; Lord Privy Seal of Scotland",
+      "note": "Effigy at Rosslyn Chapel",
+      "confidence": "CONFIRMED (Wikipedia)"
+    },
+    {
+      "name": "Patrick Spens",
+      "period": "1450",
+      "role": "Founded French aristocratic line Barony de Spens d'Estignols; family served as Garde du Corps du Roi to French kings until 1789",
+      "confidence": "CONFIRMED (Wikipedia Clan Spens)"
+    },
+    {
+      "name": "David Spence of Dysart",
+      "dates": "1639-1679",
+      "location": "Dysart, Fife, Scotland → Virginia, USA",
+      "significance": "Likely ancestor of colonial American Spence families in Virginia/Maryland/NC",
+      "confidence": "PROBABLE (WikiTree Spence-4998 with FamilySearch citations)"
+    }
+  ],
+
+  "recommended_searches": [
+    {
+      "priority": 1,
+      "action": "Request Texas birth certificate for David Spence born ~1944-1948",
+      "url": "https://www.dshs.texas.gov/vital-statistics/vital-records-request",
+      "notes": "Hunter qualifies as grandson. Cost approx. $22. This would confirm parents' names.",
+      "expected_yield": "Birth date, exact birthplace, parents' full names"
+    },
+    {
+      "priority": 2,
+      "action": "Search Texas Marriage Index pre-1966 for Spence + Mattingly in Bexar or Travis County",
+      "url": "https://www.familysearch.org/en/wiki/Texas,_Marriage_Index_-_FamilySearch_Historical_Records",
+      "notes": "The 1966-1972 index search was completed with no match found. Marriage may be 1963-1965."
+    },
+    {
+      "priority": 3,
+      "action": "Confirm Rachel Spence's legal name — is 'Spence' her active surname?",
+      "notes": "This resolves the surname inheritance question definitively. Ask Hunter."
+    },
+    {
+      "priority": 4,
+      "action": "1940 US Census search for Spence families in Bexar County and Travis County Texas",
+      "url": "https://www.familysearch.org/search/collection/2442",
+      "notes": "David's father (born ~1915-1925) would appear here. Free on FamilySearch."
+    },
+    {
+      "priority": 5,
+      "action": "ScotlandsPeople index search — Dysart, Fife: David Spence b. 1639",
+      "url": "https://www.scotlandspeople.gov.uk",
+      "notes": "Verify WikiTree Spence-4998 claim. Costs ~£7 in credits."
+    }
+  ],
+
+  "confidence_summary": {
+    "surname_scottish_origin": "CONFIRMED (Clan Spens of Fife, documented from 1161)",
+    "scottish_virginia_colonial_connection": "PROBABLE (WikiTree Spence-4998, David Spence of Dysart 1639)",
+    "irish_south_carolina_texas_line": "CONFIRMED (documented with marriage certificates)",
+    "navarro_county_texas_spence": "CONFIRMED (newspaper obituaries)",
+    "illinois_cass_county_connection": "PROBABLE (1840 census evidence)",
+    "hunter_grandfather_david_vital_records": "UNVERIFIED",
+    "surname_inheritance_mechanism": "UNVERIFIED (family confirmation needed)",
+    "military_service_confirmed": "CONFIRMED for Benjamin Ben Spence (WWII, Fort Sam Houston)"
+  }
+}

@@ -1099,6 +1099,74 @@ p.entity-bio {
 }
 
 /* Tree toolbar */
+/* Secondary family-line trees rendered as nested lists */
+#secondary-trees {
+  margin-top: var(--sp-xl);
+}
+.subtree-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: var(--sp-md);
+  margin-top: var(--sp-md);
+}
+.subtree-card {
+  background: linear-gradient(180deg, #1a1610 0%, #14110c 100%);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent-gold);
+  border-radius: 5px;
+  padding: var(--sp-md);
+  font-family: 'Lora', Georgia, serif;
+  font-size: var(--fs-sm);
+  color: #f0e6d2;
+  line-height: 1.55;
+  overflow-x: auto;
+}
+.subtree-card h3 {
+  margin: 0 0 var(--sp-sm);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  color: var(--accent-gold);
+  border-bottom: 1px solid rgba(212,164,88,0.2);
+  padding-bottom: 6px;
+}
+.subtree-tree, .subtree-tree ul {
+  list-style: none;
+  padding-left: var(--sp-md);
+  margin: 0;
+}
+.subtree-tree {
+  padding-left: 0;
+}
+.subtree-li {
+  margin: 4px 0;
+  padding-left: 12px;
+  border-left: 1px dotted rgba(212,164,88,0.18);
+}
+.subtree-li .subtree-name {
+  color: #fff3d8;
+  font-weight: 600;
+}
+.subtree-li.conf-confirmed .subtree-name { color: #ffe9b8; }
+.subtree-li.conf-probable .subtree-name { color: #d8c898; }
+.subtree-li.conf-possible .subtree-name { color: #b89878; font-style: italic; }
+.subtree-li.conf-unknown .subtree-name { color: #98886c; font-style: italic; opacity: 0.75; }
+.subtree-dates {
+  color: #c8a060;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.85rem;
+}
+.subtree-spouse, .subtree-fact {
+  color: #b8a888;
+  font-size: 0.88rem;
+}
+.subtree-fact {
+  display: block;
+  margin-left: 6px;
+  margin-top: 2px;
+  color: #a89878;
+  font-style: italic;
+}
+
 .tree-toolbar {
   display: flex;
   align-items: center;
@@ -2550,6 +2618,60 @@ def _placeholder_lineage_tree(portrait_map=None):
     ])
 
 
+def _render_subtree_ul(node, depth=0):
+    """Recursively render a tree node as nested HTML <ul>."""
+    name = html.escape(node.get("name", "?"))
+    dates = html.escape(node.get("dates", "") or "")
+    fact = html.escape(node.get("fact", "") or "")
+    spouse = html.escape(node.get("spouse", "") or "")
+    conf = node.get("confidence", "unknown")
+    children = node.get("children", []) or []
+
+    spouse_html = f' <span class="subtree-spouse">m. {spouse}</span>' if spouse else ""
+    dates_html = f' <span class="subtree-dates">({dates})</span>' if dates else ""
+    fact_html = f' <span class="subtree-fact">— {fact}</span>' if fact else ""
+
+    item = f'<li class="subtree-li conf-{conf}"><span class="subtree-name">{name}</span>{dates_html}{spouse_html}{fact_html}'
+    if children:
+        item += "<ul>" + "".join(_render_subtree_ul(c, depth+1) for c in children) + "</ul>"
+    item += "</li>"
+    return item
+
+
+def render_secondary_trees_section():
+    """Render each secondary lineage tree as a nested HTML list section."""
+    multi_path = WORKSPACE / "research" / "lineage-tree-multi.json"
+    if not multi_path.exists():
+        return ""
+    try:
+        data = json.loads(multi_path.read_text(encoding="utf-8"))
+    except Exception:
+        return ""
+    secondaries = data.get("secondary_trees", []) or []
+    if not secondaries:
+        return ""
+    sections = []
+    for st in secondaries:
+        label = html.escape(st.get("label", "Family line"))
+        tree = st.get("tree")
+        if not tree:
+            continue
+        list_html = _render_subtree_ul(tree)
+        sections.append(f"""<article class="subtree-card">
+  <h3>{label}</h3>
+  <ul class="subtree-tree">{list_html}</ul>
+</article>""")
+    if not sections:
+        return ""
+    return f"""<section id="secondary-trees" aria-labelledby="secondary-heading">
+  <h2 id="secondary-heading">Additional Family Lines</h2>
+  <p>The Mattingly tree above traces Hunter's matrilineal-Mattingly line back to Anglo-Saxon Hampshire. The branches below are <em>each separate family lineages</em> that connect to Hunter through marriage at various generations — paternal Spence, paternal Henslee, maternal Lepik, maternal Boehme, maternal-paternal Teichmüller, and others. Click any name's card below for full bio.</p>
+  <div class="subtree-grid">
+    {"".join(sections)}
+  </div>
+</section>"""
+
+
 def render_lineage_tree_section(portrait_map=None):
     """Generate the HTML+SVG+JS for the D3 family tree."""
     portrait_map = portrait_map or {}
@@ -3268,6 +3390,7 @@ def build_html(family_only=True):
     transcript_html = render_transcript(turns, entity_index, redact_set)  # legacy, unused now
     notable_stories_html = render_notable_stories()
     lineage_tree_html = render_lineage_tree_section(portrait_map=portrait_map)
+    secondary_trees_html = render_secondary_trees_section()
     migration_map_html = render_migration_map_section(deeds_map=deeds_map)
 
     title = "Grandma Shari — The Mattingly Family History"
@@ -3331,6 +3454,8 @@ def build_html(family_only=True):
     </nav>
 
     {lineage_tree_html}
+
+    {secondary_trees_html}
 
     <section id="timeline">
       <h2>Timeline</h2>

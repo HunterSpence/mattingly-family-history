@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "file": "38-hunter-paternal.json",
+    "prepared": "2026-04-26",
+    "researcher": "Researcher Specialist (claude-sonnet-4-6)",
+    "subject": "Hunter Spence — immediate paternal line, surname origin, biological father identity",
+    "supersedes": "26-spence-paternal.md",
+    "confidence_tiers": {
+      "CONFIRMED": "Stated directly by Hunter Spence 2026-04-26",
+      "PROBABLE": "Corroborated by 2+ sources or strong inference from confirmed facts",
+      "POSSIBLE": "Plausible inference; single source or indirect evidence",
+      "UNVERIFIED": "Noted but not confirmed in any source"
+    },
+    "key_correction": "Prior research (26-spence-paternal.md) incorrectly assumed Shari's first husband was 'David Spence'. Confirmed by Hunter 2026-04-26: his name is David Trifon (adopted surname; biological line untraceable). The Spence surname comes from Hunter's FATHER Dale William Spence Jr., whose father Dr. Dale William Spence Sr. was an English immigrant."
+  },
+  "hunter_spence": {
+    "id": "p001",
+    "full_name": "Hunter Spence",
+    "status": "living",
+    "location": "Florida, USA",
+    "citizenship": ["US", "UK"],
+    "occupation": "Accenture Infrastructure Transformation CL-9; AWS Certified Cloud Practitioner",
+    "surname_source": "Paternal line — Dale William Spence Jr. (father) → Dr. Dale William Spence Sr. (English immigrant, Rice University professor)",
+    "uk_passport_explanation": "Probable UK citizenship by descent through father's line: Dale Jr. born to English immigrant Dale Sr. If Dale Sr. was a British national, Dale Jr. would be British by descent, and could pass that to Hunter",
+    "confidence": "CONFIRMED"
+  },
+  "biological_father": {
+    "full_name": "Dale William Spence Jr.",
+    "status": "living",
+    "relationship_to_hunter": "biological father",
+    "marriage": {
+      "spouse": "Rachel (née Trifon)",
+      "notes": "Rachel took the Spence surname from this marriage"
+    },
+    "siblings": [
+      {
+        "name": "Susan Spence",
+        "married_name": "Clarke",
+        "relationship_to_hunter": "paternal aunt",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "name": "Deanne Spence",
+        "married_name": "Patton",
+        "relationship_to_hunter": "paternal aunt",
+        "confidence": "CONFIRMED"
+      }
+    ],
+    "confidence": "CONFIRMED",
+    "source": "Hunter Spence 2026-04-26"
+  },
+  "mother": {
+    "id": "p999",
+    "full_name": "Rachel Spence",
+    "name_at_birth": "Rachel Trifon (birth surname from Shari's first husband David Trifon)",
+    "name_used": "Rachel Spence (took Spence from marriage to Dale William Spence Jr.)",
+    "status": "living",
+    "relationship_to_hunter": "biological mother",
+    "parents": {
+      "mother": "Sharyn ('Shari') Mattingly (b. ~1947, Texas; now Santa Monica CA)",
+      "father": "David Trifon (Shari's first husband; adopted surname; biological line untraceable)"
+    },
+    "birth_year_estimate": "~1968-1980",
+    "birth_year_confidence": "UNVERIFIED",
+    "confirmation": "Confirmed by Hunter directly 2026-04-26",
+    "confidence": "CONFIRMED"
+  },
+  "paternal_grandfather": {
+    "full_name": "Dr. Dale William Spence Sr.",
+    "status": "living or recently deceased (unknown)",
+    "relationship_to_hunter": "paternal grandfather",
+    "occupation": "Professor at Rice University, Houston, Texas",
+    "origin": "England (English immigrant)",
+    "us_settlement": "Beaumont, Texas",
+    "spouse": {
+      "name": "Alice Spence",
+      "maiden_name": "UNKNOWN — research target (agent 40)",
+      "confidence": "CONFIRMED first name only"
+    },
+    "children": [
+      "Dale William Spence Jr. (Hunter's father)",
+      "Susan (Spence) Clarke",
+      "Deanne (Spence) Patton"
+    ],
+    "confidence": "CONFIRMED",
+    "source": "Hunter Spence 2026-04-26",
+    "research_gaps": [
+      "English birthplace and parish of origin",
+      "Birth year (estimated 1920s-1940s based on being Rice University professor with adult children in ~2000s)",
+      "UK immigration date and visa record",
+      "Parents' names (Hunter's English great-grandparents)"
+    ],
+    "open_research_agents": [
+      "Agent 39 — Rice University + English immigration records",
+      "Agent 41 — English parish register search post-1837"
+    ]
+  },
+  "paternal_grandmother": {
+    "first_name": "Alice",
+    "surname_married": "Spence",
+    "maiden_name": "UNKNOWN",
+    "status": "unknown",
+    "relationship_to_hunter": "paternal grandmother",
+    "residence": "Beaumont, Texas (family home)",
+    "confidence": "CONFIRMED (first name only)",
+    "research_gap": "Maiden name needed to trace maternal line of paternal grandmother",
+    "open_research_agent": "Agent 40"
+  },
+  "corrected_prior_record": {
+    "prior_id": "p020",
+    "prior_assumption": "Shari's first husband was 'David Spence' — source of Hunter's Spence surname",
+    "correction": "Shari's first husband is David Trifon. 'Trifon' is an adopted surname. His biological lineage is untraceable per Hunter's instruction. The Spence surname comes from the paternal Dale Sr. English line, not from this record.",
+    "confirmed_by": "Hunter Spence 2026-04-26",
+    "instruction": "Do not trace the Trifon biological line"
+  },
+  "david_trifon": {
+    "id": "p105",
+    "full_name": "David Trifon",
+    "given_name": "David",
+    "surname": "Trifon",
+    "relation_to_shari": "First husband (m. ~1968)",
+    "context": "David Trifon — Sharyn Mattingly's first husband; biological father of Rachel. Surname 'Trifon' is an ADOPTED name — his biological lineage is untraceable. Per Hunter 2026-04-26: do not trace this line.",
+    "confidence": "CONFIRMED",
+    "branch": "Trifon (adopted name — biological line UNTRACEABLE)"
+  },
+  "uk_citizenship_analysis": {
+    "confirmed_fact": "Hunter holds UK passport (US + UK dual citizenship)",
+    "most_probable_pathway": "Citizenship by descent through paternal grandfather Dr. Dale William Spence Sr., an English immigrant",
+    "mechanism": "British Nationality Act 1981 s.2(1)(a): child of British citizen is British. If Dale Sr. was British at Dale Jr.'s birth → Dale Jr. is British by descent. If Dale Jr. was British at Hunter's birth → Hunter is British by descent.",
+    "alternative_pathway": "If Rachel was born in the UK (possible during Shari's Oxford residence period), Rachel would be British by birth and could pass it to Hunter. However this is speculative — Shari's 'Oxford period' timing is unknown.",
+    "confidence": "PROBABLE (from confirmed English-immigrant grandfather); mechanism details UNVERIFIED"
+  },
+  "spence_surname_origin": {
+    "via_paternal_line": "Dr. Dale William Spence Sr. — English immigrant to Beaumont TX",
+    "surname_geography": "Spence/Spens surname is primarily of English and Scottish origin; first documented Yorkshire 1300 (Simon del Spens); Clan Spens of Fife documented from 1161 AD",
+    "english_origin_note": "If Dale Sr. is from England (not Scotland), his Spence line likely traces to the English Spence families (Yorkshire, Midlands) rather than the Scottish Clan Spens line. Both are possible.",
+    "research_target": "Determine Dale Sr.'s specific English county of origin to identify which Spence lineage he carries"
+  },
+  "open_questions": [
+    {
+      "question": "What is Rachel's birth year and birth state?",
+      "confidence": "UNVERIFIED",
+      "notes": "Estimated ~1968-1980 from context. No primary record found."
+    },
+    {
+      "question": "Where in England did Dr. Dale William Spence Sr. come from?",
+      "confidence": "UNVERIFIED — known only as 'English immigrant'",
+      "notes": "Rice University faculty records and UK GRO birth index searches may resolve this. Agents 39/41 active."
+    },
+    {
+      "question": "What is Alice Spence's maiden name?",
+      "confidence": "UNVERIFIED",
+      "notes": "First name confirmed by Hunter. Maiden name needed for grandmother's maternal line research. Agent 40 active."
+    },
+    {
+      "question": "Did Dale Sr. naturalize as a US citizen, and when?",
+      "confidence": "UNVERIFIED",
+      "notes": "Relevant to whether Dale Jr. and Hunter can hold dual UK citizenship."
+    }
+  ],
+  "research_confidence_summary": {
+    "dale_jr_as_father": "CONFIRMED",
+    "dale_sr_as_grandfather": "CONFIRMED",
+    "dale_sr_english_origin": "CONFIRMED",
+    "dale_sr_rice_university": "CONFIRMED",
+    "dale_sr_beaumont_tx": "CONFIRMED",
+    "alice_first_name": "CONFIRMED",
+    "alice_maiden_name": "UNVERIFIED",
+    "rachel_birth_year": "UNVERIFIED",
+    "uk_passport_pathway": "PROBABLE",
+    "dale_sr_english_county": "UNVERIFIED"
+  }
+}

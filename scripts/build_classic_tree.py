@@ -277,25 +277,51 @@ alsi = n("Alsi son of Brixi", "fl. 1086", "Norman-era Domesday tenant of Matting
 alric = n("Alric (Anglo-Saxon)", "fl. before 1066", "Held Mattingley as alod (free tenure, no feudal lord but the king) of King Edward the Confessor. Anglo-Saxon noble. VCH Hants i, 505a. The earliest named individual associated with the place from which the Mattingley surname later derived. POSSIBLE distant social-line ancestor.", "p075", -5, 11, "possible",
           [alsi])
 
-# ── Lepick maternal subtree (agent 25 finding — DEFINITIVE) ───────
-# Per Leroy Baity Mattingly obituary (Gazette, 24 Mar 2013): Shari's mother is Jennive Lepick.
-# Per Jennive's 2008 obituary (Gazette/PPLD): Jennive Imogene Lepick, b. 2 Feb 1923 Floresville TX,
-# parents Frederick + Hilda (Boehme) Lepick; one of three children. Dietician degree, Our Lady of the Lake.
-# Brother Fred Charles Lepick Jr (1925-2016) was a NAVAL AVIATOR — NOT a banker. The Frost-Bank "uncle"
-# claim from Shari's oral history is UNVERIFIED — likely a transmission error.
+# ── Lepick / LEPIK / Mikeska maternal subtree — agents 25 + 29 + 30 confirmed ──
+# Bohemian-Czech immigrant chain: Frank LEPIK (b. ~1862 Bohemia, immigrated 1881 to Brown Co Kansas)
+# m. Mary Mikeska (b. ~1863 Bohemia/Moravia, Mikeska family arrived 1871). 9 children, all in Kansas
+# or Arkansas except Fred Sr who went to Texas. Migration: Bohemia → Brown Co KS (1881) → Hazen AR
+# (1901-1920) → Wilson County TX (~1920s) → San Antonio (~1930s).
 
-shari_mother = n("Jennive Imogene Lepick", "2 Feb 1923 Floresville TX – 2008 Colorado Springs", "Shari's mother. m. Leroy Baity Mattingly 18 Dec 1943 at Fort Sill OK. Dietician degree from Our Lady of the Lake College, San Antonio. Find a Grave 36080759.", None, 15, 20, "confirmed",
+# Boehme line (Hilda's father per agent 30): Herman F. Boehme (b. 9 Jun 1863 TX, d. 18 Jun 1900 Shiner,
+# Lavaca County TX). Lutheran. Buried Sons of Hermann Cemetery. Hilda's mother UNVERIFIED.
+
+shari_mother = n("Jennive Imogene Lepick", "2 Feb 1923 Floresville TX – 2008 Colorado Springs", "Shari's mother (Hunter's maternal great-grandmother). m. Leroy Baity Mattingly 18 Dec 1943 at Fort Sill OK. Dietician degree from Our Lady of the Lake College, San Antonio. Find a Grave 36080759. WikiTree Lepick-1.", None, 15, 20, "confirmed",
                  [], spouse="Leroy Baity Mattingly")
 
-# Jennive's siblings (per agent 25)
+# Jennive's siblings
 gertrude_lepick = n("Gertrude (Lepick) Hurlburt", "1920–2000", "Jennive's older sister", None, 15, 20, "confirmed")
 fred_lepick_jr = n("Fred Charles Lepick Jr.", "1925–2016", "Jennive's younger brother. Naval Aviator (NOT a banker — Frost Bank 'uncle' oral tradition is debunked).", None, 15, 20, "confirmed")
 
-# Jennive's parents
-hilda_boehme = n("Hilda (Boehme) Lepick", "?", "Jennive's mother. Maiden name Boehme.", None, 14, 20, "confirmed")
-frederick_lepick = n("Frederick Lepick", "?", "Jennive's father. Lepick family of Wilson County TX.", None, 14, 20, "confirmed",
+# Jennive's mother — Hilda (Boehme) Lepick
+herman_boehme = n("Herman F. Boehme", "9 Jun 1863 TX – 18 Jun 1900 Shiner, Lavaca Co TX", "Hilda Boehme's father (Hunter's maternal 2x-great-grandfather). Lutheran. Buried Sons of Hermann Cemetery. German-Texan family, Lavaca/Wilson County. Hilda's mother UNVERIFIED. Per agent 30 research; PeopleLegacy.", None, 13, 19, "confirmed")
+boehme_root = herman_boehme
+
+hilda_boehme = n("Hilda (Boehme) Lepick", "~1900 TX – ~1945", "Jennive's mother. Maiden name Boehme. Daughter of Herman F. Boehme (1863-1900). Texas-born; German-Lutheran community. FamilySearch PID LKM6-W7J.", None, 14, 20, "confirmed", spouse="Fred Charles Lepick Sr.")
+
+# Fred Charles Lepick Sr. — CORRECTED from "Frederick" (per agent 29)
+fred_lepick_sr = n("Fred Charles Lepick Sr.", "8 Mar 1894 Brown Co KS – ?", "Jennive's father. Born Brown County, Kansas to Bohemian immigrant Frank Lepik + Mary Mikeska. Moved to Wilson Co TX 1910-1920; m. Hilda Boehme ~1920. Lived San Antonio late 1930s+. Buried Floresville City Cemetery (Find a Grave 55217353). WikiTree Lepick-2.", None, 14, 20, "confirmed",
                     [shari_mother, gertrude_lepick, fred_lepick_jr], spouse="Hilda Boehme")
-lepick_root = frederick_lepick
+
+# Fred Sr's siblings (Frank Lepik + Mary Mikeska's other 8 children — agent 29)
+fred_siblings = [
+    n("Mary A. (Lepick) Blacketer", "fl. 1908 KS", "Fred Sr.'s sister; m. Blacketer 1908 Kansas", None, 14, 20, "confirmed"),
+    n("Frank T. Lepick", "?", "Fred Sr.'s sibling (Kansas/Arkansas)", None, 14, 20, "confirmed"),
+    n("Tilford Anthony Lepick", "?", "Fred Sr.'s sibling", None, 14, 20, "confirmed"),
+    n("Edward Lepick", "?", "Fred Sr.'s sibling", None, 14, 20, "confirmed"),
+    n("William Henry Lepick", "?", "Fred Sr.'s sibling", None, 14, 20, "confirmed"),
+    n("Joseph Lepick", "?", "Fred Sr.'s sibling", None, 14, 20, "confirmed"),
+    n("Jennie Lepick", "?", "Fred Sr.'s sibling", None, 14, 20, "confirmed"),
+    n("Katherine 'Kate' Lepick", "?", "Fred Sr.'s sibling", None, 14, 20, "confirmed"),
+]
+
+# Frank LEPIK (Bohemian immigrant 1881) + Mary Mikeska
+mary_mikeska = n("Mary (Mikeska) Lepik", "~1863 Bohemia/Moravia – ?", "Hunter's maternal 2x-great-grandmother. Czech/Moravian. Mikeska family arrived 1871 northeastern Kansas Czech corridor. WikiTree Mikeska-77 or 78.", None, 13, 19, "confirmed", spouse="Frank Lepik")
+
+frank_lepik = n("Frank Lepik (later 'Lepick')", "~1862 Bohemia (Austria-Hungary) – ?", "Hunter's maternal 2x-great-grandfather. EMIGRATED 1881 from Bohemia to Brown County Kansas. Surname 'Lepik' Czech/Bohemian; Americanized to 'Lepick' by next generation. m. Mary Mikeska. 9 children (most stayed Kansas/Arkansas; only Fred Sr went to Texas). WikiTree Lepik-8.", None, 13, 19, "confirmed",
+                 [fred_lepick_sr] + fred_siblings, spouse="Mary Mikeska")
+
+lepick_root = frank_lepik
 
 # Tom Frost Jr — bank president 1963-1997, possibly Shari's uncle
 tom_frost_jr = n("Tom Frost Jr.", "1927–2018", "Frost Bank president 1963-1997. Probable 'Shari's uncle' from Hunter's interview.", None, 15, 20, "probable")
@@ -332,13 +358,36 @@ minette = n("Minette Teichmueller (Pohl)", "1871–1970", "WPA muralist — pain
 may_teichmueller = n("May Teichmueller", "1872 – 28 Aug 1900", "m. Edward Mattingly Sr. 1 Sept 1894; mother of Leroy Teichmuller Mattingly (Hunter's great-grandfather); Hans's other daughter", None, 14, 19, "confirmed")
 unknown_5th_child = n("[5th child of Hans]", "?", "Lotto 1902 confirms 5 children but 5th not in TX vital records (pre-1903 records sparse) — UNVERIFIED", None, 14, 19, "possible")
 
-hans = n("Hans Teichmueller", "1837 Brunswick – 1901 La Grange TX", "Hunter's confirmed great-great-grandfather; emigrated to TX 1854; Civil War CSA artillery officer; named for father August. m. Anna Lemke", "p003", 13, 19, "confirmed",
-        [may_teichmueller, minette, unknown_5th_child], spouse="Anna Lemke")
+# Hans's other CONFIRMED siblings (per agent 34 NDB 2016 vol 26 p.6):
+wilhelm_teichmueller = n("Wilhelm Teichmüller", "1834–1869", "Hans/Gustav's brother. Premier-Lieutenant + Schriftsteller (writer). m. Bertha Kuntzen. Per NDB 2016. POSSIBLE father of pianist Robert Teichmüller (1863-1939).", None, 13, 19, "confirmed")
+wilhelmina_teichmueller = n("Wilhelmina (Minette) Teichmüller", "1829–1886", "Hans/Gustav's surviving sister (NOT to be confused with Hans's daughter Minette 1871). m. Karl Mollenhauer (Protestant pastor + Superintendent at Bockenem). Per NDB 2016.", None, 13, 19, "confirmed", spouse="Karl Mollenhauer")
 
-august = n("August Teichmüller", "fl. 1820–1860 Brunswick", "Officer in the Brunswick army; per Wikipedia matched both Gustav (Wiki) and Hans (Lotto 1902 KY history). Father of both.", None, 12, 19, "probable",
-           [hans, gustav_teichmueller], spouse="Charlotte von Girsewaldt")
+hans = n("Hans Teichmueller", "1837 Brunswick – 1901 La Grange TX", "Hunter's CONFIRMED great-great-grandfather (Hans-Gustav siblings now CONFIRMED via NDB 2016 vol 26 p.6). Emigrated to TX 1854; Civil War CSA artillery officer; jurist + justice of the peace. m. Auguste Kellner (NDB) / sometimes spelled 'Anna Lemke' in TX records.", "p003", 13, 19, "confirmed",
+        [may_teichmueller, minette, unknown_5th_child], spouse="Auguste Kellner")
 
-teichmueller_root = august
+# August Wilhelm Teichmüller — CONFIRMED via NDB (corrected dates)
+august = n("August Wilhelm Teichmüller", "1795–1855", "Seconde-Lieutenant in Schwarzen Corps des Majors Olfermann, Brunswick (NOT Prussian) army. m. Charlotte Georgine Elisabeth von Girsewald (1799-1860). 5 children: Wilhelmina, Wilhelm, Hans, Gustav, +1 died young. Per NDB 2016.", None, 12, 19, "confirmed",
+           [wilhelmina_teichmueller, wilhelm_teichmueller, hans, gustav_teichmueller],
+           spouse="Charlotte Georgine Elisabeth von Girsewald (1799–1860)")
+
+# Charlotte's parents (per NDB)
+charlotte_parents = n("Georg von Girsewald + Christine Elisabeth Boyer", "Georg b. 1735 – 1816", "Charlotte's parents. Georg = Oberstallmeister and Hauptmann in Brunswick. Per NDB 2016.", None, 11, 19, "confirmed", [august])
+
+# 6-generation Teichmüller patrilineal chain per NDB 2016
+wilhelm_ernst = n("Wilhelm Ernst Conrad Teichmüller", "1758–1835", "Oberhütteninspekteur (chief smelting works inspector) at Karlshütte near Delligsen, Leinebergland. m. Henriette Christiane Helene Schorkopf (1763-1818) of Uslar. GND 1154326616. August's father.",
+                  None, 11, 18, "confirmed", [august], spouse="Henriette Christiane Helene Schorkopf (1763–1818)")
+
+joachim_andreas = n("Joachim Andreas Teichmüller", "1705–1778", "Oberfaktor (chief commercial agent) in Goslar at the foot of the Harz mountains. GND 1154326802. Earliest documented patrilineal Teichmüller before mining-clan generations.",
+                    None, 10, 18, "confirmed", [wilhelm_ernst])
+
+# Pre-Joachim gap (~1640-1700, ~2 unnamed generations per NDB)
+gap_pre_joachim = n("[~2 unnamed Teichmüller generations]", "fl. 1640–1700", "NDB notes a gap between earliest Hans/Johann (~1580) and Joachim Andreas (1705). Likely millers / minor Harz officials.",
+                    None, 9, 17, "unknown", [joachim_andreas])
+
+hans_johann = n("Hans / Johann Teichmüller", "~1580–1638", "EARLIEST documented Teichmüller patrilineal ancestor. Master miller (Mühlenmeister) in the southern Harz mountains. Surname Teichmüller is occupational: 'pond miller'. Per NDB 2016.",
+                None, 8, 16, "confirmed", [gap_pre_joachim])
+
+teichmueller_root = hans_johann
 
 # ── HUNTER'S ACTUAL PATERNAL SPENCE LINE (confirmed by Hunter 2026-04-26) ──
 # Hunter's surname Spence comes from his FATHER Dale William Spence Jr.,
@@ -352,16 +401,48 @@ hunter_dad = n("Dale William Spence Jr.", "living", "Hunter Spence's father. m. 
 aunt_susan = n("Susan (Spence) Clarke", "living", "Hunter's paternal aunt; sister of Dale Jr.; took married name Clarke", None, 17, 21, "confirmed")
 aunt_deanne = n("Deanne (Spence) Patton", "living", "Hunter's paternal aunt; sister of Dale Jr.; took married name Patton", None, 17, 21, "confirmed")
 
-dale_sr = n("Dr. Dale William Spence Sr.", "—", "Hunter's paternal grandfather. Professor at Rice University, Houston. Immigrated from England (per Hunter's family tradition) to Beaumont, Texas. Patriarch of the Spence-Beaumont line.", None, 16, 20, "confirmed",
-            [hunter_dad, aunt_susan, aunt_deanne], spouse="Alice (maiden name unknown)")
+dale_sr = n("Dr. Dale William Spence Sr.", "—", "Hunter's paternal grandfather. Professor at Rice University, Houston. Immigrated from England (per Hunter's family tradition) to Beaumont, Texas. Patriarch of the Spence-Beaumont line. m. Alice Henslee.", None, 16, 20, "confirmed",
+            [hunter_dad, aunt_susan, aunt_deanne], spouse="Alice (Henslee) Spence")
 
-alice_spence = n("Alice (?) Spence", "—", "Hunter's paternal grandmother. m. Dale William Spence Sr. Maiden name UNKNOWN — research target. Lived Beaumont TX.", None, 16, 20, "confirmed",
-                 [], spouse="Dr. Dale William Spence Sr.")
+# Dovie Spence — Dale Sr's mother (Hunter's paternal great-grandmother) — confirmed by Hunter 2026-04-26
+dovie_spence = n("Dovie (?) Spence", "—", "Hunter's paternal great-grandmother; mother of Dr. Dale William Spence Sr. Maiden name UNKNOWN — research target.", None, 15, 20, "confirmed",
+                 [dale_sr])
+spence_root = dovie_spence
+
+# ── HENSLEE branch — primary-source confirmed via Frances Henslee obituary (Broussard's, 2008) ──
+# Frances Henslee (~1918 Dallas TX – 19 Dec 2008 Port Arthur TX, age 90), m. Lee Stuart Henslee (60 yrs),
+# St. Charles Borromeo Catholic Church Nederland. Buried Forest Lawn Memorial Park Beaumont.
+
+# Alice's full name now CONFIRMED via obituary: Alice MARIE (Henslee) Spence
+alice_henslee = n("Alice Marie (Henslee) Spence", "d. before 2008", "Hunter's paternal grandmother. m. Dr. Dale William Spence Sr. (Rice U professor, Beaumont TX). Maiden name HENSLEE. Daughter of Lee Stuart Henslee + Frances Henslee. Predeceased her mother Frances. Per Frances Henslee obituary, Broussard's Mortuary 2008.", None, 16, 20, "confirmed",
+                  [], spouse="Dr. Dale William Spence Sr.")
+
+# Don Henslee (Frances's son, Hunter's paternal grand-uncle)
+chad_henslee = n("Chad Henslee", "living", "Hunter's first cousin once removed (Don's son)", None, 17, 21, "confirmed")
+stacy_george = n("Stacy (Henslee) George", "living", "Hunter's first cousin once removed (Don's daughter, m. George)", None, 17, 21, "confirmed")
+jennifer_tyler = n("Jennifer (Henslee) Tyler", "living", "Hunter's first cousin once removed (Don's daughter, m. Tyler)", None, 17, 21, "confirmed")
+
+don_henslee = n("Don Henslee", "living", "Frances + Lee Stuart Henslee's son; Hunter's paternal grand-uncle. Lives in Nederland TX. m. Jo Ann.",
+                None, 16, 20, "confirmed",
+                [chad_henslee, stacy_george, jennifer_tyler], spouse="Jo Ann")
+
+frances_henslee = n("Frances Henslee", "~1918 Dallas TX – 19 Dec 2008 Port Arthur TX", "Hunter's paternal great-grandmother (age 90 at death). Native of Dallas; lived Beaumont 55 years (1938-1993) then Nederland TX. Member St. Charles Borromeo Catholic Church Nederland. Buried Forest Lawn Memorial Park, Beaumont. m. Lee Stuart Henslee (60-year marriage, ~1948-2008). Predeceased by daughter Alice Marie Spence. CONFIRMED via Broussard's Mortuary obituary, Dec 2008.",
+                    None, 15, 20, "confirmed",
+                    [alice_henslee, don_henslee], spouse="Lee Stuart Henslee")
+
+rosalie_stephens = n("Rosalie (Henslee) Stephens", "living (2008)", "Frances's sister; Hunter's paternal great-grand-aunt. Lives in Allen TX. m. Steve Stephens. Per Frances obituary.",
+                     None, 15, 20, "confirmed", spouse="Steve Stephens")
+
+lee_stuart_henslee = n("Lee Stuart Henslee", "—", "Hunter's paternal great-grandfather. m. Frances Henslee (60 years). Predeceased her (before 2008). Children: Alice Marie Spence + Don Henslee. Per Broussard's Mortuary obituary 2008.",
+                       None, 15, 20, "confirmed",
+                       [alice_henslee, don_henslee], spouse="Frances Henslee")
+
+# Henslee root anchored at Lee Stuart + Frances generation (parents of Alice + Don).
+henslee_root = n("Lee Stuart + Frances Henslee", "fl. 1948–2008", "Hunter's paternal great-grandparents (Alice Marie Spence's parents). Both born ~1918; lived Beaumont/Nederland TX. Catholic. Earlier Henslee + Frances's-maiden-name lines: TBD.", None, 14, 20, "confirmed",
+                 [lee_stuart_henslee, rosalie_stephens])
 
 # Sir Basil Spence — possible distant collateral via the broader Spence surname
 sir_basil_spence = n("Sir Basil Spence", "1907–1976", "Scottish architect; rebuilt Coventry Cathedral after WWII bombing. POSSIBLE very distant collateral Spence relative.", "hr024", 16, 20, "possible")
-
-spence_root = dale_sr
 
 # David Trifon (Shari's first husband, adopted name; biological line untraceable per Hunter)
 david_trifon = n("David Trifon", "Shari's first husband", "Sharyn Mattingly's first husband (m. ~1968); biological father of Rachel. Surname Trifon is an ADOPTED name — his biological lineage is untraceable. Per Hunter 2026-04-26: 'don't trace that one back.'", "p020", 16, 20, "confirmed")
@@ -372,11 +453,13 @@ output_data = {
     "_root_kind": "multi",
     "primary": alric,
     "secondary_trees": [
-        {"label": "Hunter's paternal SPENCE line (Dale Sr. Rice U professor, England→Beaumont TX)", "tree": spence_root},
-        {"label": "Hunter's maternal grandfather: David Trifon (adopted-name; biological untraceable)", "tree": david_trifon},
-        {"label": "Maternal Lepick line (Shari's mother Jennive Lepick of Floresville TX)", "tree": lepick_root},
-        {"label": "Maternal-paternal Teichmüller line (Brunswick → Texas)", "tree": teichmueller_root},
-        {"label": "Frost dynasty (PRIOR THEORY — DISPROVEN per agent 25)", "tree": frost_root}
+        {"label": "PATERNAL — Spence line (Dale Sr. Rice U professor, English immigrant → Beaumont TX)", "tree": spence_root},
+        {"label": "PATERNAL — Henslee line (Frances + Lee Stuart Henslee, Beaumont/Nederland TX)", "tree": henslee_root},
+        {"label": "MATERNAL-PATERNAL — Teichmüller line (Hans/Johann ~1580 Harz miller → Brunswick → La Grange TX, 6 gens NDB-confirmed)", "tree": teichmueller_root},
+        {"label": "MATERNAL — Lepik / Lepick / Mikeska line (Bohemia 1862 → Kansas 1881 → Floresville TX)", "tree": lepick_root},
+        {"label": "MATERNAL — Boehme line (Herman F. Boehme b. 1863 Lavaca Co TX, Lutheran German-Texan)", "tree": boehme_root},
+        {"label": "MATERNAL grandfather — David Trifon (adopted-name; biological line untraceable per Hunter)", "tree": david_trifon},
+        {"label": "DEBUNKED — Frost dynasty (was UNVERIFIED, agent 25 confirmed Lepick line is the actual maternal line)", "tree": frost_root}
     ]
 }
 # For backward compat, write the primary tree at top-level (root is now Alric, fl. pre-1066)

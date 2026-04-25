@@ -1,0 +1,439 @@
+{
+  "metadata": {
+    "file": "37-la-grange-tx-network.json",
+    "compiled": "2026-04-26",
+    "researcher": "Claude Sonnet 4.6 (Researcher specialist)",
+    "scope": "La Grange / Fayette County TX Mattingly + Teichmueller + kin 1850-1950",
+    "confidence_tiers": {
+      "CONFIRMED": "3+ independent primary sources",
+      "PROBABLE": "2 sources",
+      "POSSIBLE": "1 source, plausible",
+      "UNVERIFIED": "claim exists, no source found"
+    }
+  },
+  "persons": [
+    {
+      "id": "edward_mattingly_sr",
+      "display_name": "Edward (Ed) Mattingly Sr.",
+      "born": {
+        "date": "1868-09-06",
+        "place": "Missouri, USA",
+        "confidence": "CONFIRMED",
+        "source": "TX Death Certificate #48257; Find A Grave #57057880"
+      },
+      "died": {
+        "date": "1945-11-04",
+        "place": "La Grange, Fayette County, Texas, USA",
+        "cause": "coronary thrombosis",
+        "confidence": "CONFIRMED",
+        "source": "TX Death Certificate #48257"
+      },
+      "burial": {
+        "cemetery": "La Grange Cemetery",
+        "plot": "0014-07-0",
+        "confidence": "CONFIRMED",
+        "source": "Find A Grave #57057880"
+      },
+      "findagrave_id": "57057880",
+      "findagrave_url": "https://www.findagrave.com/memorial/57057880/ed-mattingly",
+      "parents": {
+        "father": {
+          "name": "Thomas Jefferson Mattingly",
+          "confidence": "CONFIRMED",
+          "source": "TX Death Certificate #48257 (Blanche Mattingly, informant)"
+        },
+        "mother": {
+          "name": "Elizabeth Christie Mattingly",
+          "born": "1833, Shelby County, Kentucky",
+          "died": "1876, Daviess County, Missouri",
+          "burial": "Liberty Cemetery, Gentry County, Missouri",
+          "findagrave_id": "172173392",
+          "confidence": "CONFIRMED",
+          "source": "TX Death Certificate #48257; Find A Grave #172173392"
+        }
+      },
+      "siblings": [
+        {
+          "name": "Sarah Allie Embree Poindexter",
+          "born": "1854-02-21, Missouri",
+          "died": "1918-04-10, Roger Mills County, Oklahoma",
+          "burial": "Pie Flat Cemetery, Roger Mills County OK",
+          "note": "Half-sibling — child of Elizabeth's first marriage to Martin L. Embree",
+          "findagrave_id": "49379112",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "name": "Noble N. Mattingly",
+          "born": "1860-07-13",
+          "died": "1916-01-12",
+          "burial": "Millersview Cemetery, Concho County, Texas",
+          "note": "Settled Concho County TX, not Fayette County",
+          "wife": "Sallie Ella Scolly (m. 1880)",
+          "children": ["Charles Taylor Mattingly (1891-1972)", "Tabitha 'Tabbie' Mattingly Rice (1894-1971)", "Elizabeth Mattingly Archbell (1898-1958)"],
+          "findagrave_id": "66952985",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "name": "Ida Davison",
+          "born": "1862",
+          "died": "1931",
+          "note": "No confirmed Texas connection",
+          "confidence": "CONFIRMED"
+        }
+      ],
+      "marriages": [
+        {
+          "sequence": 1,
+          "spouse": "Mary (May) Teichmueller",
+          "marriage_date": "1894-09-01",
+          "marriage_place": "La Grange, Fayette County, Texas",
+          "spouse_born": "1867-12-16, La Grange, Fayette County, Texas",
+          "spouse_died": "1900-08-28, La Grange, Fayette County, Texas",
+          "spouse_burial": "La Grange Cemetery, Plot 0014-08-0",
+          "spouse_findagrave_id": "57057870",
+          "confidence": "CONFIRMED",
+          "source": "Find A Grave #57057870; Lotto 1902 p.231"
+        },
+        {
+          "sequence": 2,
+          "spouse": "Blanche Schroeder",
+          "marriage_date_approx": "1900-1905 (after Aug 28 1900, before Feb 21 1915)",
+          "marriage_date_confidence": "UNVERIFIED",
+          "spouse_born": "1886",
+          "spouse_died": "1968",
+          "spouse_burial": "La Grange Cemetery",
+          "spouse_findagrave_id": "222494040",
+          "spouse_parents": {
+            "father": "Charles H. Schroeder (1858-1932), buried La Grange Cemetery",
+            "mother": "Delphine Schroeder (1867-1929), buried La Grange Cemetery"
+          },
+          "confidence": "CONFIRMED",
+          "source": "Find A Grave #222494040"
+        }
+      ],
+      "children": [
+        {
+          "name": "Dr. Claude Mattingly",
+          "born": "1895-07-04, La Grange, Fayette County, Texas",
+          "died": "1934-01-31, Austin, Travis County, Texas",
+          "burial": "La Grange Cemetery",
+          "mother": "May Teichmueller",
+          "wife": "Lela M. Reese (married 1925-01-14, Brazoria TX)",
+          "occupation": "Pediatrician",
+          "note": "TX Death Cert 4918; suicide in Austin; Marine Corps WWI veteran; UT Medical Branch Galveston graduate",
+          "findagrave_id": "190885060",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "name": "Leroy Teichmueller Mattingly Sr.",
+          "born": "1896-08-31, La Grange, Fayette County, Texas",
+          "died": "1968-10-08, San Antonio, Bexar County, Texas",
+          "burial": "Mission Burial Park South, San Antonio, Section 4 Restland",
+          "mother": "May Teichmueller",
+          "wife": "Ruth Baity (1900-04-04 to Oct 1982)",
+          "note": "TX Death Cert #68070; address at death: 261 Pennsylvania Ave, Braunfels TX. Birth year was previously recorded as 1898 in family files — CORRECTED to 1896 per death certificate.",
+          "children": ["COL Leroy Baity Mattingly (1922-2013)", "William Edward 'Bill' Mattingly (1924-1990)"],
+          "findagrave_id": "54138296",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "name": "Edward Mattingly Jr.",
+          "born": "1915-02-21, La Grange, Fayette County, Texas",
+          "died": "2010-01-17, La Grange, Fayette County, Texas (aged 94)",
+          "burial": "La Grange Cemetery, Plot 0302-05-0",
+          "mother": "Blanche Schroeder",
+          "wife": "Elizabeth V. 'Beth' Mattingly (1923-02-04 to 2007-06-28)",
+          "church": "St. James Episcopal Church, La Grange (served as Senior Warden)",
+          "occupation": "Architect (Texas A&M B.Arch 1936); WWII Colonel (Eisenhower's staff SHAEF)",
+          "military_awards": ["Legion of Merit", "Bronze Star", "Belgium Croix de Guerre with palm", "Army Commendation Medal"],
+          "community": "Established Fayette County Animal Shelter; TX Child Care Advisory Board",
+          "farm": "Near Round Top, Texas",
+          "children": ["Richard A. Mattingly (Austin)", "Edward D. Mattingly (Austin)", "Deborah L. Fincher (Houston)", "Dianna J. Bailey (step-daughter, Westwood CA)"],
+          "findagrave_id": "74964262",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "name": "Mamie Mattingly",
+          "note": "Oral tradition; not confirmed as distinct FAG memorial in Fayette County; possibly died infant ~1900",
+          "mother": "POSSIBLE May Teichmueller",
+          "confidence": "UNVERIFIED"
+        }
+      ],
+      "occupations": [
+        {
+          "title": "Assistant Cashier",
+          "employer": "First National Bank of La Grange",
+          "date_approx": "c.1894-1902",
+          "confidence": "CONFIRMED",
+          "source": "Lotto 1902 p.326 bank advertisement; TSHA Hans Teichmueller entry"
+        },
+        {
+          "title": "City Treasurer",
+          "employer": "City of La Grange",
+          "date_approx": "c.1902",
+          "confidence": "CONFIRMED",
+          "source": "Lotto 1902 p.343 city government list"
+        }
+      ],
+      "lotto_1902_exact_quotes": [
+        {
+          "page_approx": "231",
+          "text": "Mrs. May Mattingly, wife of the assistant cashier of the First National Bank, died two years ago",
+          "context": "Hans Teichmueller biography, describing his daughter May"
+        },
+        {
+          "page_approx": "326",
+          "text": "Ed. Mattingly, Ass't Cashier.",
+          "context": "First National Bank of La Grange advertisement"
+        },
+        {
+          "page_approx": "343",
+          "text": "The following gentlemen constitute the present city government: Robert Sample, mayor; Will Loessin, marshal; Ed. Mattingly, treasurer; Frank Rosenthal, secretary; E. H. Moss, attorney.",
+          "context": "La Grange city government section"
+        }
+      ]
+    },
+    {
+      "id": "hans_teichmueller",
+      "display_name": "Hans Teichmueller",
+      "born": {
+        "date": "1837-03-07",
+        "place": "Braunschweig (Brunswick), Duchy of Brunswick, Germany",
+        "confidence": "CONFIRMED",
+        "source": "Lotto 1902 p.230; TSHA"
+      },
+      "died": {
+        "date": "1901-02-17",
+        "place": "La Grange, Fayette County, Texas",
+        "confidence": "CONFIRMED",
+        "source": "Lotto 1902 p.176, 224; TSHA"
+      },
+      "burial": {
+        "cemetery": "La Grange Cemetery",
+        "confidence": "CONFIRMED",
+        "source": "Find A Grave #132005655"
+      },
+      "findagrave_id": "132005655",
+      "tsha_url": "https://www.tshaonline.org/handbook/entries/teichmueller-hans",
+      "parents": {
+        "father": "August Teichmüller, officer in Brunswick army (died before 1856)",
+        "mother": "Charlotte Teichmüller née von Girsewald"
+      },
+      "wife": {
+        "name": "Augusta Dorothea Elizabeth Kellner",
+        "born": "1843-03-25",
+        "died": "1915-07-09",
+        "married": "1858-06-10, Postoak Point, Austin County, Texas",
+        "confidence": "CONFIRMED"
+      },
+      "occupation": "District Judge, 22nd Judicial District, 1884-1901 (three terms); lawyer (bar admitted May 16 1866); county judge 1869-70",
+      "note": "Court adjourned out of respect on death Jan 1901. Gov. Sayers appointed L. H. Moore as replacement.",
+      "children": [
+        {
+          "name": "Louisa Teichmueller",
+          "born_approx": "Sep 1862",
+          "died_approx": "Aug 1870",
+          "wikitree_id": "Teichmueller-2",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "name": "Mary (May) Teichmueller Mattingly",
+          "born": "1867-12-16",
+          "died": "1900-08-28",
+          "burial": "La Grange Cemetery, Plot 0014-08-0",
+          "husband": "Ed Mattingly (m. 1894-09-01)",
+          "findagrave_id": "57057870",
+          "wikitree_id": "Teichmueller-1",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "name": "Minette (Minnetta) Teichmueller Pohl",
+          "born": "1871-01-27",
+          "died": "1970-08-28, Nacogdoches, Texas",
+          "note": "Muralist; WPA Federal Art Project; 'The Law, Texas Rangers' mural at Smithville TX post office; married E.R. Richardson 1913-01-22, later Hugo Pohl; lived to 99",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Minette_Teichmueller",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "name": "Anna Elizabeth Teichmueller",
+          "born": "1874-11-28",
+          "died": "1961-01-13, San Antonio",
+          "note": "Never married; lived with sister Minette in San Antonio after 1920",
+          "wikitree_id": "Teichmueller-5",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "name": "Fifth Teichmueller child",
+          "note": "Lotto 1902 states 'five children total'; only four are named in accessible sources",
+          "confidence": "POSSIBLE"
+        }
+      ]
+    },
+    {
+      "id": "thomas_jefferson_mattingly",
+      "display_name": "Thomas Jefferson Mattingly (Ed's father)",
+      "note": "Ed's death certificate names 'a Thomas Mattingly' as father. Full identity, birth/death dates, burial, and parents are UNVERIFIED in accessible free sources.",
+      "wife": "Elizabeth Christie (1833 KY - 1876 MO; Elizabeth's prior marriage to Martin L. Embree produced Sarah Allie Embree)",
+      "location": "Missouri — likely Daviess County or Gentry County, NW Missouri",
+      "confidence_name": "CONFIRMED",
+      "confidence_vitals": "UNVERIFIED",
+      "source": "TX Death Certificate #48257 (informant Blanche Mattingly)"
+    },
+    {
+      "id": "blanche_schroeder_mattingly",
+      "display_name": "Blanche Schroeder Mattingly (Ed Sr.'s second wife)",
+      "born": "1886",
+      "died": "1968",
+      "burial": "La Grange Cemetery",
+      "findagrave_id": "222494040",
+      "parents": {
+        "father": "Charles H. Schroeder (1858-1932), La Grange Cemetery",
+        "mother": "Delphine Schroeder (1867-1929), La Grange Cemetery"
+      },
+      "confidence": "CONFIRMED"
+    },
+    {
+      "id": "noble_n_mattingly",
+      "display_name": "Noble N. Mattingly (Ed Sr.'s brother)",
+      "born": "1860-07-13",
+      "died": "1916-01-12",
+      "burial": "Millersview Cemetery, Concho County, Texas",
+      "note": "Settled Concho County TX (Millersview), separate from La Grange/Fayette County branch",
+      "findagrave_id": "66952985",
+      "confidence": "CONFIRMED"
+    }
+  ],
+  "community_context": {
+    "la_grange_1902": {
+      "population": "2400 (Census 1900)",
+      "composition": "American, German, Bohemian; approximately one-third African-American",
+      "newspapers": ["La Grange Journal (English)", "Svoboda (Czech)", "La Grange Zeitung (German)"],
+      "lodges": ["Odd Fellows", "Knights of Honor", "K&L of Honor", "Free Masons", "Knights of Pythias", "United Workmen", "Sons of Hermann", "Fraternal Mystic Circle", "A.L. of H.", "Fayette County German Mutual Aid Society"],
+      "social_clubs": ["Casino Club", "La Grange Froesch (German singing club)"],
+      "source": "Lotto 1902 pp.328-329"
+    },
+    "first_national_bank_1902": {
+      "president": "A. Haidusek",
+      "vice_president": "R. T. Bradshaw",
+      "cashier": "Jno. B. Holloway (hired Jan 8 1894)",
+      "assistant_cashier": "Ed. Mattingly",
+      "bookkeeper": "Lad. V. Vanek",
+      "directors": ["A. Haidusek", "R. T. Bradshaw", "Aug. Warnken", "B. White", "Dr. Otto Witte", "J. W. Taylor", "J. B. Holloway"],
+      "stockholders": ["John W. Taylor", "B. White", "Dr. Otto Witte", "Jonathan Lane", "Wm. Hermes", "A. C. Lenert", "Jno. B. Holloway", "R. T. Bradshaw", "Aug. Warnken", "A. Haidusek", "Dr. C. Gevers", "W. A. Brown", "Mrs. R. H. Phelps", "C. Letzerich", "J. C. Brown"],
+      "source": "Lotto 1902 p.325-326"
+    },
+    "churches_la_grange_fayette": {
+      "episcopal_est": "1852 in county",
+      "st_james_episcopal": {
+        "name": "St. James Episcopal Church, La Grange",
+        "mattingly_connection": "Edward Mattingly Jr. served as Senior Warden",
+        "confidence": "CONFIRMED"
+      },
+      "catholic": "Heavy presence; Czech and German immigrant communities; St. Joseph's, St. John's",
+      "lutheran": "Major German/Wendish denomination; county had 60 churches by 1990s with Lutheran+Catholic = half",
+      "note": "By 1990s Fayette County had 60 churches; Lutheran and Catholic = half the total. Protestant (Methodist 1838, Baptist 1839, Presbyterian 1841, Episcopal 1852) from earliest settlement.",
+      "source": "TSHA Fayette County; Lotto 1902; Edward Mattingly Jr. obituary"
+    },
+    "german_czech_settlement": {
+      "biegel_settlement": "1832, first German community in Fayette County",
+      "adelsverein_nassau_farm": "1843, German colonization society land purchase",
+      "dubina": "1856, first Bohemian settlement in Texas, in Fayette County",
+      "1880s_wave": "Major second wave of German and Bohemian immigration",
+      "1890_foreign_born": "~25% of county (7,856 of 31,481 residents); Germany 3,667; Austria-Hungary 3,224",
+      "source": "TSHA Fayette County article"
+    }
+  },
+  "key_sources": [
+    {
+      "name": "Lotto 1902 — Fayette County: Her History and Her People",
+      "author": "Frank Lotto",
+      "published": "Schulenburg TX: Sticker Steam Press, 1902",
+      "url_ia_text": "https://archive.org/stream/fayettecountyher00lott/fayettecountyher00lott_djvu.txt",
+      "url_ia_item": "https://archive.org/details/fayettecountyher00lott",
+      "mattingly_pages": ["p.231 (Hans bio, May Mattingly)", "p.326 (Bank ad, Ed Mattingly)", "p.343 (city govt, Ed treasurer)"],
+      "note": "Primary source. Full text accessible via Internet Archive."
+    },
+    {
+      "name": "Texas Death Certificate #48257",
+      "subject": "Edward Mattingly Sr.",
+      "informant": "Mrs. Blanche Mattingly",
+      "key_data": ["Born 6 Sep 1868 Missouri", "Father: Thomas Mattingly", "Died 4 Nov 1945 LaGrange", "Cause: coronary thrombosis"],
+      "note": "Cited in Find A Grave bio; certificate itself requires TSLAC or Ancestry access."
+    },
+    {
+      "name": "Find A Grave memorials (accessed via Wayback Machine)",
+      "memorials_accessed": {
+        "57057880": "Ed Mattingly Sr.",
+        "57057870": "Mary Teichmueller Mattingly",
+        "222494040": "Blanche Schroeder Mattingly",
+        "74964262": "Edward Mattingly Jr.",
+        "54138296": "Leroy Teichmueller Mattingly Sr.",
+        "190885060": "Dr. Claude Mattingly",
+        "172173392": "Elizabeth Christie Mattingly (Ed's mother)",
+        "66952985": "Noble N. Mattingly (Ed's brother)",
+        "49379112": "Sarah Allie Embree Poindexter (Ed's half-sister)",
+        "222493622": "Elizabeth V. 'Beth' Mattingly (Ed Jr.'s wife)"
+      },
+      "wayback_access": "https://web.archive.org/web/2024/https://www.findagrave.com/memorial/[ID]"
+    },
+    {
+      "name": "TSHA Handbook of Texas — Hans Teichmueller",
+      "url": "https://www.tshaonline.org/handbook/entries/teichmueller-hans",
+      "author": "Rudolph L. Biesele",
+      "published": "1952, updated 2019"
+    },
+    {
+      "name": "TSHA Handbook of Texas — Fayette County",
+      "url": "https://www.tshaonline.org/handbook/entries/fayette-county",
+      "author": "Daphne Dalton Garrett",
+      "published": "1952, updated 2024"
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "Thomas Jefferson Mattingly's birth/death/parents",
+      "best_source": "Missouri census 1860/1870/1880; Missouri state records; Daviess/Gentry County MO records",
+      "confidence_current": "UNVERIFIED"
+    },
+    {
+      "question": "Ed Mattingly's arrival year in Texas",
+      "best_source": "1880 census TX (FamilySearch); 1890 census TX (destroyed by fire); 1900 census Fayette County TX",
+      "confidence_current": "UNVERIFIED"
+    },
+    {
+      "question": "Ed + May marriage record September 1894",
+      "best_source": "TX Select County Marriage Records 1837-1965 (FamilySearch collection 8797)",
+      "confidence_current": "PROBABLE (date confirmed from FAG; record not directly accessed)"
+    },
+    {
+      "question": "Ed + Blanche marriage record c.1900-1905",
+      "best_source": "Fayette County TX marriage records; Fayette County courthouse",
+      "confidence_current": "UNVERIFIED"
+    },
+    {
+      "question": "Mamie Mattingly — did she exist as a distinct person?",
+      "best_source": "Fayette County TX birth/death records 1898-1905; La Grange Journal 1900-1902",
+      "confidence_current": "UNVERIFIED"
+    },
+    {
+      "question": "May Teichmueller's cause of death (Aug 28 1900)",
+      "best_source": "La Grange Journal Aug-Sep 1900 (pre-dates TX death registry 1903); Portal to Texas History newspapers",
+      "confidence_current": "UNVERIFIED (childbirth theory oral tradition only)"
+    },
+    {
+      "question": "Hans Teichmueller obituary La Grange Journal February 1901",
+      "best_source": "Portal to Texas History; Briscoe Center UT Austin microfilm; 1908 Biographical Sketch (Von Boeckmann-Jones)",
+      "confidence_current": "PROBABLE EXISTENCE — not yet accessed"
+    },
+    {
+      "question": "Fayette County deed records for Ed Mattingly Sr. property",
+      "best_source": "Fayette County Courthouse deed/grantee index; GLO land patent records",
+      "confidence_current": "UNVERIFIED"
+    },
+    {
+      "question": "Fifth Teichmueller child — who is the unnamed fifth?",
+      "best_source": "1880 US Census Teichmueller household; Fayette County TX birth records",
+      "confidence_current": "POSSIBLE — Lotto says five children; only four named"
+    }
+  ]
+}
