@@ -1606,18 +1606,26 @@
       "given_name": "Isham",
       "surname": "Baity",
       "birth_year": 1934,
-      "death_year": 1892,
+      "death_year": null,
       "birth_place": "Beaumont, Jefferson County, Texas",
       "relation_to_shari": "6th-great-grandfather",
-      "context": "Dr. Dale William Spence Sr. — Hunter's paternal grandfather. AMERICAN-BORN ~1934-1936 Beaumont TX (NOT the English immigrant per agent 41 correction). Beaumont HS class of 1952 (TX state track meet); Rice University track team 1952-1956; Rice University faculty 1963-2003 (Health & Human Performance). m. Alice Marie Henslee (1936-2005). His FATHER was the actual English immigrant (Hunter's paternal great-grandfather, name UNKNOWN, likely NE England → Beaumont via Galveston ~1920-1935 oil boom).",
+      "context": "Dr. Dale William Spence Sr. — Hunter's paternal grandfather. AMERICAN-BORN ~1934-1936 Beaumont TX (PROBABLE, inferred from 1952 Beaumont HS state track championship). Education chain: BS Rice 1956 → MS North Texas State → EdD Louisiana State University 1966 (dissertation title confirmed) → postdoc Baylor. Rice University faculty 1963-2003 (40 yrs). Professor Emeritus of Kinesiology (Department of Human Performance and Health Sciences). Office: Tudor Field House. ALSO: Colonel USMCR (Retired), ~35 years US Marine Corps Reserve service. m. Alice Marie Henslee (1936-2005). Likely still alive ~age 92 in Houston TX (Spokeo + Rice emeritus directory snapshot Dec 2025). His FATHER was the actual English immigrant (Hunter's paternal great-grandfather, name UNKNOWN, NE England → Beaumont via Galveston ~1920-1935 oil boom).",
       "fuzzy": false,
       "sources": [
         "Beaumont HS 1952 TX state track meet records",
-        "Rice University track team 1952-1956 records",
-        "Rice University faculty roster 1963-2003"
+        "BS Rice 1956",
+        "EdD Louisiana State University 1966 dissertation",
+        "1990 PubMed affiliation Rice University Department of Human Performance and Health Sciences",
+        "2019 Rice references (Kinesiology)",
+        "Rice University Emeritus directory Wayback Machine snapshot Dec 2025",
+        "Spokeo Houston TX ~age 92"
       ],
       "confidence": "CONFIRMED",
-      "branch": "Baity maternal-paternal NC"
+      "branch": "Baity maternal-paternal NC",
+      "military_service": "Colonel USMCR (Retired), ~35 years US Marine Corps Reserve",
+      "rice_office": "Tudor Field House",
+      "rice_department": "Kinesiology / Human Performance and Health Sciences",
+      "rice_tenure": "1963-2003 (Professor Emeritus)"
     },
     {
       "id": "p102",

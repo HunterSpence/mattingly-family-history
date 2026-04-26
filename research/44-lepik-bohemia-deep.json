@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "subject": "Frank Lepik",
+    "wikitree_id": "Lepik-8",
+    "relation_to_hunter_spence": "maternal 2x-great-grandfather",
+    "lineage": "Frank Lepik → Fred Charles Lepick Sr. → Jennive Lepick Mattingly → Leroy Mattingly Jr. → Hunter Spence (maternal line)",
+    "research_scope": "Exact Bohemian/Moravian village of origin; parents; patrilineal line through Czech parish records",
+    "compiled": "2026-04-26",
+    "compiled_by": "Researcher agent (Claude Sonnet 4.6)",
+    "confidence_schema": ["CONFIRMED", "PROBABLE", "POSSIBLE", "UNVERIFIED", "NOT YET ATTEMPTED"]
+  },
+
+  "biography": {
+    "full_name": "Frank Lepik",
+    "surname_variants": ["Lepick", "Lepik", "Lepík"],
+    "birth_year": "~1862",
+    "birth_place_us_census": "Bohemia, Austria",
+    "birth_place_confidence": "CONFIRMED",
+    "birth_place_note": "US census label 'Bohemia' was generic for all Czech lands including Moravia and Czech Silesia; does not exclude Frýdek-Místek / Moravian-Silesian origin",
+    "death_year": 1939,
+    "death_place": "Brown County, Kansas",
+    "buried": "Kennekuk Cemetery, Horton, Brown County, Kansas",
+    "findagrave_id": 140131220,
+    "immigration_year": 1881,
+    "immigration_year_confidence": "CONFIRMED",
+    "immigration_note": "Arrived alone; wife Mary Mikeska arrived 1871 with her parents",
+    "settlement": "Brown County, Kansas",
+    "occupation": "shoemaker / boot and shoe maker",
+    "occupation_confidence": "CONFIRMED",
+    "religion": "Roman Catholic",
+    "religion_confidence": "CONFIRMED",
+    "religion_source": "Married at St. Joseph Catholic Church, Everest KS, 13 Jan 1885",
+    "fraternal": "I.O.O.F. Lodge No. 331, Horton, Kansas",
+    "marriage": {
+      "spouse": "Mary Mikeska",
+      "date": "1885-01-13",
+      "place": "St. Joseph Catholic Church, Everest, Kansas",
+      "officiant": "Father Ferdinand Wolf",
+      "familysearch_ark": "ark:/61903/3:1:939J-TCSZ-CM",
+      "familysearch_citation": "Brown County marriage Book D, image 59",
+      "confidence": "CONFIRMED"
+    }
+  },
+
+  "parents": {
+    "father_name": null,
+    "father_confidence": "UNVERIFIED",
+    "mother_name": null,
+    "mother_confidence": "UNVERIFIED",
+    "note": "WikiTree Lepik-8 explicitly states [father unknown] and [mother unknown]. No US or Czech record in this research pass names Frank's parents.",
+    "inference": "Frank was ~19 at emigration (1881). Occupation as shoemaker throughout Kansas career suggests possible family trade in Bohemia/Moravia. Emigrated without family members."
+  },
+
+  "grandparents": {
+    "status": "UNVERIFIED",
+    "note": "No Czech parish records accessed in this research pass. Requires primary record access at Zemský archiv v Opavě or Czech digitized archives."
+  },
+
+  "children": [
+    {
+      "name": "Tilford Anthony Lepick",
+      "birth_year": 1885,
+      "findagrave_id": 140130997,
+      "confidence": "CONFIRMED"
+    },
+    {
+      "name": "Mary A. Lepick",
+      "birth_year": "~1887",
+      "married_name": "Mary A. Blacketer",
+      "spouse": "James W. Blacketer",
+      "findagrave_id": 53066184,
+      "confidence": "CONFIRMED"
+    },
+    {
+      "name": "Frank T. Lepick",
+      "birth_year": 1889,
+      "findagrave_id": 140131213,
+      "confidence": "CONFIRMED"
+    },
+    {
+      "name": "Katherine Lepick",
+      "nickname": "Kate",
+      "birth_year": "~1893",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "name": "Fred Charles Lepick Sr.",
+      "nickname": "Frederick",
+      "birth_date": "1894-03-08",
+      "findagrave_id": 55217353,
+      "note": "Hunter Spence's direct ancestor (great-grandfather)",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "name": "Edward Lepick",
+      "birth_date": "1897-10-22",
+      "findagrave_id": 140130988,
+      "confidence": "CONFIRMED"
+    },
+    {
+      "name": "William Henry Lepick",
+      "birth_year": 1900,
+      "findagrave_id": 92767240,
+      "confidence": "CONFIRMED"
+    },
+    {
+      "name": "Joseph Lepick",
+      "birth_year": 1903,
+      "findagrave_id": 140131002,
+      "confidence": "CONFIRMED"
+    },
+    {
+      "name": "Jennie Lepick",
+      "birth_year": 1908,
+      "confidence": "CONFIRMED"
+    }
+  ],
+
+  "village_of_origin": {
+    "status": "UNVERIFIED",
+    "working_hypothesis": "Frýdek-Místek area, Moravia-Silesia (modern Czech Republic)",
+    "working_hypothesis_confidence": "POSSIBLE",
+    "working_hypothesis_note": "Circumstantial, well-supported by two independent lines of evidence; requires primary record to confirm",
+    "evidence": [
+      {
+        "type": "surname_geography",
+        "confidence": "PROBABLE",
+        "description": "Czech surname database KdeJsme.cz (2016 population data) shows 88 total Czech Lepík bearers; Frýdek-Místek municipality holds 48 (54.5%), Frýdlant nad Ostravicí 11 (12.5%), Ostrava 13 (14.8%), all others 16 (18%). Frýdek-Místek area accounts for ~81% of all Czech Lepík bearers — extreme clustering indicating surname originated in that district.",
+        "source_url": "https://www.kdejsme.cz/prijmeni/Lep%C3%ADk/hustota/"
+      },
+      {
+        "type": "chain_migration_co-location",
+        "confidence": "PROBABLE",
+        "description": "Frank's wife Mary Mikeska came from a documented Moravian family. WikiTree Mikeska-77 (Josef Mikeska, 1830-1902) states origin 'Moravia, Austria.' WikiTree Mikeska-20 (Petr Mikeska, 1793–1864, miller) documents Zádveřice, Holešov, Moravia as family origin. WikiTree Mikeska-62 documents Alžběta (Mikeska) Hruska born 11 Feb 1852, Jablunce, Moravia. Both Lepík and Mikeska surnames cluster in the Moravian-Silesian Region on KdeJsme.cz. Chain migration pattern: same township → same Catholic church → suggests same or neighboring origin villages.",
+        "mikeska_surname_geographic_data": {
+          "total_czech_bearers": 626,
+          "top_concentrations": [
+            {"city": "Ostrava", "count": 96},
+            {"city": "Frenštát pod Radhoštěm", "count": 41},
+            {"city": "Zlín", "count": 27},
+            {"city": "Frýdlant nad Ostravicí", "count": 13},
+            {"city": "Frýdek-Místek", "count": 9}
+          ],
+          "region": "Moravian-Silesian / SE Moravia",
+          "source_url": "https://www.kdejsme.cz/prijmeni/Mikeska/hustota/"
+        }
+      },
+      {
+        "type": "census_label_interpretation",
+        "confidence": "CONFIRMED",
+        "description": "US census 'Bohemia' = generic label for all Czech-speaking lands (Bohemia, Moravia, Czech Silesia) per Wikipedia Czech Americans article and standard genealogical interpretation. Frank's census birthplace 'Bohemia, Austria' does not exclude Moravia or Czech Silesia.",
+        "source_url": "https://en.wikipedia.org/wiki/Czech_American"
+      }
+    ],
+    "candidate_villages": [
+      {
+        "village": "Frýdek-Místek",
+        "district": "Frýdek-Místek District",
+        "region": "Moravian-Silesian Region",
+        "note": "Largest concentration of Lepík surname in Czech Republic (54.5% of all bearers)",
+        "historical_context": "Historically split between Moravia (Místek) and Czech Silesia (Frýdek) at the Ostravice River; part of Austrian Empire Margraviate of Moravia and Duchy of Silesia as of 1862"
+      },
+      {
+        "village": "Frýdlant nad Ostravicí",
+        "district": "Frýdek-Místek District",
+        "region": "Moravian-Silesian Region",
+        "note": "8 km south of Frýdek-Místek; 12.5% of Czech Lepík bearers"
+      },
+      {
+        "village": "Jablunkov",
+        "district": "Frýdek-Místek District",
+        "region": "Moravian-Silesian Region",
+        "note": "Corroborating location: WikiTree Mikeska-62 documents Alžběta Mikeska born in 'Jablunce, Moravia' — may be Jablunkov (Frýdek-Místek District)"
+      }
+    ]
+  },
+
+  "siblings_in_bohemia_moravia": {
+    "status": "UNVERIFIED",
+    "note": "Frank emigrated alone in 1881. No other Lepik/Lepick household found in Brown County KS 1895/1900 censuses. No newspaper reference to relatives arriving from Bohemia. Current Czech Republic has 88 Lepík bearers in Frýdek-Místek area who may descend from relatives who stayed.",
+    "research_suggestion": "Contact Czech genealogy forum Genealogie.cz or Czech Genealogical Society International to find living Lepík families in Frýdek-Místek area"
+  },
+
+  "czech_patrilineal_trace": {
+    "status": "NOT YET ATTEMPTED",
+    "potential_depth": "Czech Catholic parish records in Frýdek-Místek area run from ~1630. At four generations per century, records may trace Lepík line back to approximately 1630–1700. Practical limit typically 1680s–1700s before records become incomplete.",
+    "generational_projection": [
+      {"generation": 1, "person": "Frank Lepík", "birth_approx": "~1862", "record_type": "US records"},
+      {"generation": 2, "person": "Frank's father (unknown)", "birth_approx": "~1825–1840", "record_type": "Czech parish records 1840s–1850s"},
+      {"generation": 3, "person": "Frank's paternal grandfather (unknown)", "birth_approx": "~1800–1820", "record_type": "Czech parish records 1820s"},
+      {"generation": 4, "person": "Frank's paternal great-grandfather (unknown)", "birth_approx": "~1770–1790", "record_type": "Czech parish records late 18th century"},
+      {"generation": 5, "person": "Frank's paternal 2x-great-grandfather (unknown)", "birth_approx": "~1740–1760", "record_type": "Czech parish records mid-18th century"},
+      {"generation": 6, "person": "Frank's paternal 3x-great-grandfather (unknown)", "birth_approx": "~1710–1730", "record_type": "Czech parish records early 18th century (may be incomplete)"}
+    ]
+  },
+
+  "surname_etymology": {
+    "czech_root": "lep- (Czech: 'lepiti' = to glue/stick; 'lepidlo' = glue)",
+    "occupational_meaning": "maker of sticky birdcatching traps or craftsman working with adhesive substances",
+    "connection_to_frank": "Consistent with Frank's lifelong occupation as shoemaker (cobbling requires glue/wax application)",
+    "geographic_origin_type": "Localized family surname — extreme geographic concentration suggests single-family origin in Frýdek-Místek district within last 400–500 years, not a widely distributed occupational surname"
+  },
+
+  "related_wikitree_profiles": [
+    {
+      "wikitree_id": "Lepik-8",
+      "name": "Frank Lepik",
+      "birth_year": "~1862",
+      "birthplace": "Bohemia, Austria (census)",
+      "relevance": "Subject of this research"
+    },
+    {
+      "wikitree_id": "Mikeska-78",
+      "name": "Mary (Mikeska) Lepick",
+      "birth_year": "~1863",
+      "birthplace": "Bohemia, Austria (census)",
+      "relevance": "Frank's wife"
+    },
+    {
+      "wikitree_id": "Mikeska-77",
+      "name": "Josef Mikeska",
+      "birth_year": "~1830",
+      "death_year": 1902,
+      "birthplace": "Moravia, Austria",
+      "relevance": "Mary's father; confirms Moravian origin for Mikeska family"
+    },
+    {
+      "wikitree_id": "Mikeska-20",
+      "name": "Petr Mikeska",
+      "birth_year": 1793,
+      "death_year": 1864,
+      "birthplace": "Zádveřice, Holešov, Moravia",
+      "occupation": "miller",
+      "relevance": "Possible paternal grandfather of Josef Mikeska; Explore More includes Mary (Mikeska) Lepick (1863–1951)"
+    },
+    {
+      "wikitree_id": "Mikeska-62",
+      "name": "Alžběta (Mikeska) Hruska",
+      "birth_date": "1852-02-11",
+      "birthplace": "Jablunce, Moravia",
+      "parents": {
+        "father": "Johann Mikeska",
+        "mother": "Johanna Balcar"
+      },
+      "relevance": "Different Mikeska branch; Jablunce = possibly Jablůnka (Vsetín District) or Jablunkov (Frýdek-Místek District) in Moravian-Silesian corridor"
+    },
+    {
+      "wikitree_id": "Mikeska-6",
+      "name": "Anna (Mikeska) Kovar",
+      "birth_year": 1851,
+      "death_year": 1928,
+      "birthplace": "Zádveřice (listed Böhmen, Österreich on profile)",
+      "relevance": "Same Zádveřice-origin Mikeska cluster; census 'Böhmen' label applied to Moravian village confirms generic label issue"
+    }
+  ],
+
+  "archive_roadmap": {
+    "priority_order": [
+      {
+        "priority": 1,
+        "record": "Frank Lepick 1939 Kansas death certificate",
+        "location": "Kansas State Archives, Topeka, Kansas",
+        "access": "In person or mail request, ~$15 fee",
+        "what_it_proves": "Frank's parents' names and exact village/town of birth",
+        "notes": "Kansas State Archives vital records holdings: 1911–1944"
+      },
+      {
+        "priority": 2,
+        "record": "Brown County District Court naturalization papers, 1881–1905",
+        "location": "Kansas State Historical Society (KSHS), 6425 SW 6th Ave., Topeka, KS 66615; also FamilySearch microfilm",
+        "access": "Free at FHL/FamilySearch; KSHS in-person or request",
+        "what_it_proves": "Declaration of Intent typically asks 'last place of residence in home country' — would name village",
+        "familysearch_catalog_search": "Kansas, Brown County, naturalization"
+      },
+      {
+        "priority": 3,
+        "record": "Hamburg or Bremen emigration lists, 1880–1882",
+        "location": "Ancestry.com — Germany, Hamburg Emigration Lists collection",
+        "access": "Ancestry.com paid subscription required",
+        "search_terms": ["Lepik", "Lepick"],
+        "search_years": "1880–1882",
+        "what_it_proves": "Ship name, departure port, origin city/village"
+      },
+      {
+        "priority": 4,
+        "record": "Czech parish records — Frýdek-Místek area parishes",
+        "location": "Zemský archiv v Opavě (Opava State Archive), Sněmovní 1, 746 22 Opava, Czech Republic",
+        "email": "podatelna@zao.mza.cz",
+        "access": "In-person; or online via digi.archives.cz (when accessible)",
+        "what_to_request": "Parish registers (matriky) for Místek, Frýdek, Frýdlant nad Ostravicí, Jablunkov — Catholic baptismal records 1855–1870 for Lepík surname",
+        "relevant_parishes": [
+          {"parish": "Místek", "record_start": "~1630"},
+          {"parish": "Frýdek", "record_start": "~1630"},
+          {"parish": "Frýdlant nad Ostravicí", "record_start": "~1695"},
+          {"parish": "Jablunkov", "record_start": "~1676"}
+        ]
+      },
+      {
+        "priority": 5,
+        "record": "FamilySearch Czech/Moravian parish records (online)",
+        "location": "FamilySearch.org (free with login)",
+        "collection": "Czech Republic, Roman Catholic Church Records, 1579–1910",
+        "search_terms": ["Lepík", "Lepik"],
+        "what_it_proves": "Birth record naming parents; links to earlier generations"
+      }
+    ],
+    "additional_archives": [
+      {
+        "archive": "Moravský zemský archiv v Brně (MZA Brno)",
+        "url": "https://www.mza.cz/",
+        "relevance": "Covers Moravian records; only needed if Frank's village is in Moravia proper rather than Silesia"
+      },
+      {
+        "archive": "Czech digitized archive portal",
+        "url": "https://digi.archives.cz",
+        "relevance": "Online index search for Lepík surname in indexed parish records"
+      },
+      {
+        "archive": "Acta Publica (MZA Brno digitized)",
+        "url": "https://www.mza.cz/actapublica/",
+        "relevance": "Searchable baptismal/marriage/death indexes for Moravia"
+      }
+    ]
+  },
+
+  "census_records": [
+    {
+      "year": 1895,
+      "type": "Kansas State Census",
+      "birthplace_recorded": "Bohemia",
+      "immigration_year_recorded": null,
+      "familysearch_ark": "ark:/61903/3:1:3Q9M-CS3B-RSJ8-H",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "year": 1900,
+      "type": "US Federal Census",
+      "birthplace_recorded": "Bohemia",
+      "immigration_year_recorded": 1881,
+      "familysearch_ark": "ark:/61903/3:1:S3HT-6LD4-QVJ",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "year": 1910,
+      "type": "US Federal Census (Arkansas)",
+      "familysearch_ark": "ark:/61903/3:1:33S7-9RVL-147",
+      "note": "Family had moved to Hazen, Arkansas ~1900–1901",
+      "confidence": "CONFIRMED"
+    }
+  ],
+
+  "newspaper_sources": [
+    {
+      "publication": "Atchison Daily Patriot",
+      "date": "1884-04-29",
+      "description": "Frank Lepik described as 'an enterprising young mechanic' in Brown County",
+      "url": "https://kansashistoricalopencontent.newspapers.com/article/atchison-daily-patriot-frank-lepik/195138170/"
+    },
+    {
+      "publication": "Everest Reflector",
+      "date": "1885-01-15",
+      "description": "Marriage of Frank Lepik and Mary Mikeska",
+      "url": "https://kansashistoricalopencontent.newspapers.com/article/everest-reflector-marriage-of-lepik-m/194999465/"
+    },
+    {
+      "publication": "Horton Headlight",
+      "date": "1889-02-08",
+      "description": "Frank Lepik boot and shoe maker",
+      "url": "https://kansashistoricalopencontent.newspapers.com/article/horton-headlight-frank-lepik-boot-sho/195139238/"
+    },
+    {
+      "publication": "Horton Commercial",
+      "date": "1895-01-17",
+      "description": "List of I.O.O.F. Lodge No. 331 members including Frank Lepik",
+      "url": "https://kansashistoricalopencontent.newspapers.com/article/horton-commercial-list-of-odd-fellows-h/195140053/"
+    },
+    {
+      "publication": "Horton Commercial",
+      "date": "1898-06-23",
+      "description": "Frank Lepik occupation shoemaker",
+      "url": null
+    },
+    {
+      "publication": "Everest Enterprise",
+      "date": "1900-08-30",
+      "description": "Family moving to Hazen, Arkansas",
+      "url": null
+    },
+    {
+      "publication": "Horton Leader",
+      "date": "1901-05-23",
+      "description": "Family return from Arkansas",
+      "url": null
+    },
+    {
+      "publication": "Horton Commercial",
+      "date": "1901-11-07",
+      "description": "Family return from Arkansas",
+      "url": null
+    }
+  ],
+
+  "confidence_assessment": [
+    {"research_goal": "Frank Lepik born ~1862 Bohemia", "status": "CONFIRMED", "confidence_level": "HIGH"},
+    {"research_goal": "Frank emigrated 1881", "status": "CONFIRMED", "confidence_level": "HIGH"},
+    {"research_goal": "Specific village of origin", "status": "UNVERIFIED", "confidence_level": null},
+    {"research_goal": "Regional origin = Frýdek-Místek area Moravia-Silesia", "status": "POSSIBLE (circumstantial)", "confidence_level": "MODERATE"},
+    {"research_goal": "Frank's parents' names", "status": "UNVERIFIED", "confidence_level": null},
+    {"research_goal": "Frank's religion = Roman Catholic", "status": "CONFIRMED", "confidence_level": "HIGH"},
+    {"research_goal": "Frank's occupation = shoemaker", "status": "CONFIRMED", "confidence_level": "HIGH"},
+    {"research_goal": "Frank's siblings who stayed in Bohemia/Moravia", "status": "UNVERIFIED", "confidence_level": null},
+    {"research_goal": "Czech patrilineal line traced via parish records", "status": "NOT YET ATTEMPTED", "confidence_level": null}
+  ],
+
+  "research_blockers": [
+    {
+      "resource": "FamilySearch.org",
+      "status": "IP-BLOCKED (403 / Incapsula)",
+      "workaround": "Used FamilySearch ARK citations documented in WikiTree profiles; priority records identified for manual access"
+    },
+    {
+      "resource": "FindAGrave.com",
+      "status": "CLOUDFLARE-BLOCKED",
+      "workaround": "Relied on memorial IDs and data documented in prior research files (29-lepick-line.md)"
+    },
+    {
+      "resource": "Newspapers.com / Kansas Historical Open Content",
+      "status": "CLOUDFLARE-BLOCKED",
+      "workaround": "Relied on article descriptions quoted in WikiTree Lepik-8 biography"
+    },
+    {
+      "resource": "Ancestry.com (Hamburg emigration lists)",
+      "status": "ACCESS DENIED (paid subscription required)",
+      "workaround": "None — manual search required with Ancestry subscription"
+    },
+    {
+      "resource": "Czech archives (Acta Publica / digi.archives.cz / PortAM)",
+      "status": "403/CLOUDFLARE-BLOCKED",
+      "workaround": "Documented as priority next-step archives in archive_roadmap"
+    }
+  ],
+
+  "sources": [
+    {"id": 1, "title": "WikiTree Lepik-8", "url": "https://www.wikitree.com/wiki/Lepik-8"},
+    {"id": 2, "title": "WikiTree Mikeska-78", "url": "https://www.wikitree.com/wiki/Mikeska-78"},
+    {"id": 3, "title": "WikiTree Mikeska-77", "url": "https://www.wikitree.com/wiki/Mikeska-77"},
+    {"id": 4, "title": "WikiTree Mikeska-20", "url": "https://www.wikitree.com/wiki/Mikeska-20"},
+    {"id": 5, "title": "WikiTree Mikeska-62", "url": "https://www.wikitree.com/wiki/Mikeska-62"},
+    {"id": 6, "title": "WikiTree Mikeska-6", "url": "https://www.wikitree.com/wiki/Mikeska-6"},
+    {"id": 7, "title": "KdeJsme.cz — Lepík surname distribution", "url": "https://www.kdejsme.cz/prijmeni/Lep%C3%ADk/hustota/"},
+    {"id": 8, "title": "KdeJsme.cz — Mikeska surname distribution", "url": "https://www.kdejsme.cz/prijmeni/Mikeska/hustota/"},
+    {"id": 9, "title": "Wikipedia: Czech Americans (census labeling)", "url": "https://en.wikipedia.org/wiki/Czech_American"},
+    {"id": 10, "title": "Wikipedia: Czech lands (Bohemia/Moravia/Silesia)", "url": "https://en.wikipedia.org/wiki/Czech_lands"},
+    {"id": 11, "title": "Wikipedia: Frýdek-Místek", "url": "https://en.wikipedia.org/wiki/Fr%C3%BDdek-M%C3%ADstek"},
+    {"id": 12, "title": "Wikipedia: Frýdlant nad Ostravicí", "url": "https://en.wikipedia.org/wiki/Fr%C3%BDdlant_nad_Ostravic%C3%AD"},
+    {"id": 13, "title": "Wikipedia: Jablunkov", "url": "https://en.wikipedia.org/wiki/Jablunkov"},
+    {"id": 14, "title": "Czech Wikipedia: Zádveřice", "url": "https://cs.wikipedia.org/wiki/Z%C3%A1dve%C5%99ice"},
+    {"id": 15, "title": "Wikipedia: Frenštát pod Radhoštěm", "url": "https://en.wikipedia.org/wiki/Fren%C5%A1t%C3%A1t_pod_Radho%C5%A1t%C4%9Bm"},
+    {"id": 16, "title": "Czech Genealogical Society International", "url": "https://www.cgsi.org/"},
+    {"id": 17, "title": "FamilySearch: 1895 Kansas State Census", "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3B-RSJ8-H"},
+    {"id": 18, "title": "FamilySearch: 1900 US Census", "url": "https://www.familysearch.org/ark:/61903/3:1:S3HT-6LD4-QVJ"},
+    {"id": 19, "title": "FamilySearch: Brown County KS marriage Book D image 59", "url": "https://familysearch.org/ark:/61903/3:1:939J-TCSZ-CM"},
+    {"id": 20, "title": "Atchison Daily Patriot, 29 Apr 1884", "url": "https://kansashistoricalopencontent.newspapers.com/article/atchison-daily-patriot-frank-lepik/195138170/"},
+    {"id": 21, "title": "Everest Reflector, 15 Jan 1885", "url": "https://kansashistoricalopencontent.newspapers.com/article/everest-reflector-marriage-of-lepik-m/194999465/"},
+    {"id": 22, "title": "Horton Headlight, 8 Feb 1889", "url": "https://kansashistoricalopencontent.newspapers.com/article/horton-headlight-frank-lepik-boot-sho/195139238/"},
+    {"id": 23, "title": "Horton Commercial, 17 Jan 1895 (IOOF)", "url": "https://kansashistoricalopencontent.newspapers.com/article/horton-commercial-list-of-odd-fellows-h/195140053/"},
+    {"id": 24, "title": "Find a Grave: Frank Lepick, Kennekuk Cemetery", "url": "https://www.findagrave.com/memorial/140131220/frank-lepick"},
+    {"id": 25, "title": "Legends of Kansas: Everest, Kansas", "url": "https://legendsofkansas.com/everest-kansas/"},
+    {"id": 26, "title": "Wikipedia: Valašsko (Wallachia/Moravia)", "url": "https://en.wikipedia.org/wiki/Vala%C5%A1sko"}
+  ]
+}
