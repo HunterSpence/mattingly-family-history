@@ -1,0 +1,3747 @@
+{
+  "_meta": {
+    "generated": "2026-04-26",
+    "gedcom_dir": "C:\\Users\\hspen\\OneDrive\\Desktop\\Ancestry Gedcoms",
+    "description": "MRCA audit linking each cousin GEDCOM to Hunter's known direct line"
+  },
+  "summary": {
+    "total_files_processed": 26,
+    "duplicates_skipped": 1,
+    "verified_links": 17,
+    "unverified_links": 9,
+    "paternal_side": 14,
+    "maternal_side": 12,
+    "unknown_side": 0,
+    "confidence_confirmed": 15,
+    "confidence_probable": 2,
+    "confidence_conflicting": 0,
+    "confidence_unverified": 9,
+    "total_unique_people_across_gedcoms": 8737,
+    "new_ancestors_total": 326
+  },
+  "cousins": [
+    {
+      "cousin_file": "4scherff-3rd cousin 1x removed or half 3rd cousin maternal side.ged",
+      "cousin_name": "4scherff",
+      "claimed_relationship": "3rd cousin 1x removed or half 3rd cousin maternal side",
+      "individuals_in_gedcom": 1521,
+      "families_in_gedcom": 783,
+      "surname_lines_found": [
+        "Byrd",
+        "Herron",
+        "Rau",
+        "Stuart",
+        "Westerfield"
+      ],
+      "verified_link": true,
+      "side": "maternal",
+      "mrca_with_hunter": {
+        "name": "Jesse Dayton Herron",
+        "birth_year": 1918,
+        "death_year": 1989,
+        "birth_place": "Oden, Montgomery County, Arkansas, USA",
+        "surname_line": "Stuart",
+        "anchor_id": "anchor_jesse_dayton_herron",
+        "notes": "Jesse Dayton Herron b.1918 is a confirmed shared ancestor for 4scherff, Burton, Gary Burton. His connection to Hunter's line is via the William Woodville Herron family. The Herron cluster appears to connect to Hunter's paternal line via Alabama/Texas Stuart cousins, but the exact MRCA between Herron and Hunter's direct line is not yet document-confirmed."
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "Pansy Ilene Herron (b.1951)",
+        "Jesse Dayton Herron (b.1918)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "Jesse Dayton Herron",
+          "anchor_id": "anchor_jesse_dayton_herron",
+          "depth": 2,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "William Woodville Herron",
+          "anchor_id": "anchor_william_woodville_herron",
+          "depth": 3,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "William Wood",
+          "anchor_id": "anchor_william_woodville_herron",
+          "depth": 10,
+          "surname_line": "Stuart",
+          "partial_match": true
+        },
+        {
+          "name": "Mary Wallace Stuart",
+          "anchor_id": "anchor_mary_alice_stuart",
+          "depth": 12,
+          "surname_line": "Stuart",
+          "partial_match": true
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'Jesse Dayton Herron' found at depth 2 above cousin in GEDCOM. Matches Hunter anchor 'Jesse Dayton Herron' (b.1918) on paternal side via Stuart line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Henry Briggs (Developer of base 10 logarithms)",
+          "birth_year": 1561,
+          "birth_place": "Daisy Bank, Warley Wood, Yorkshire, England",
+          "death_year": 1630,
+          "death_place": "Oxford, Oxfordshire, England",
+          "surname": "Briggs (Developer of base 10 logarithms)"
+        },
+        {
+          "name": "Mary Butler",
+          "birth_year": 1565,
+          "birth_place": "England",
+          "death_year": 1615,
+          "death_place": "Warley Wood, Yorkshire, England",
+          "surname": "Butler"
+        },
+        {
+          "name": "Hamon (Hamond Hamonde) Wilson Wilsone Willson Wylson",
+          "birth_year": 1565,
+          "birth_place": "Normanby Le Wold, Lincolnshire, England",
+          "death_year": 1635,
+          "death_place": "England",
+          "surname": "Wilson Wilsone Willson Wylson"
+        },
+        {
+          "name": "Hamon (Hamond Hamonde) Wilson Wilsone Willson Wylson",
+          "birth_year": 1565,
+          "birth_place": "Normanby Le Wold, Lincolnshire, England",
+          "death_year": 1635,
+          "death_place": "England",
+          "surname": "Wilson Wilsone Willson Wylson"
+        },
+        {
+          "name": "Thomas Busby",
+          "birth_year": 1574,
+          "birth_place": "Stokesley, Yorkshire, England",
+          "death_year": 1631,
+          "death_place": "Yorkshire, England",
+          "surname": "Busby"
+        },
+        {
+          "name": "John Finley",
+          "birth_year": 1579,
+          "birth_place": "Saint Andrews, Fife, Scotland",
+          "death_year": 1670,
+          "death_place": "Fife, Scotland",
+          "surname": "Finley"
+        },
+        {
+          "name": "Lady Elizabeth Culpepper",
+          "birth_year": 1584,
+          "birth_place": "Wakehurst, Ardingly, Sussex, England",
+          "death_year": 1624,
+          "death_place": "Mortlake, Surrey, England",
+          "surname": "Culpepper"
+        },
+        {
+          "name": "John Richardes",
+          "birth_year": 1588,
+          "birth_place": "Taynton Gloucestershire, England",
+          "death_year": 1634,
+          "death_place": "Westbury on Severn, Gloucestershire, England",
+          "surname": "Richardes"
+        },
+        {
+          "name": "Hans Stadermann",
+          "birth_year": 1589,
+          "birth_place": "Tiefengruben, Weimarer Land, Thüringen, Deutschland",
+          "death_year": 1667,
+          "death_place": "Tiefengruben, Weimarer Land, Thueringen, Germany",
+          "surname": "Stadermann"
+        },
+        {
+          "name": "James HUNTER",
+          "birth_year": 1590,
+          "birth_place": "Auychterbgurne Cambusnethan, Stirling, Scotland",
+          "death_year": 1667,
+          "death_place": "Auchinhamperis Monimvsk Vester Foulis Monimusk Monimvsk Loquhell Ester Loquhel, Aberdeenshire, Scotland",
+          "surname": "HUNTER"
+        },
+        {
+          "name": "Margaret Love",
+          "birth_year": 1590,
+          "birth_place": "Buccleuch, Scotland",
+          "death_year": 1657,
+          "death_place": "Kingston upon Hull, Yorkshire, England",
+          "surname": "Love"
+        },
+        {
+          "name": "Mary Elizabeth Edward Rawlings",
+          "birth_year": 1590,
+          "birth_place": "Gatwick, Surrey, England",
+          "death_year": 1655,
+          "death_place": "Surry County, Virginia, British Colonies",
+          "surname": "Rawlings"
+        },
+        {
+          "name": "Anne Lamborne",
+          "birth_year": 1590,
+          "birth_place": "Gloucester, Gloucestershire, , England",
+          "death_year": 1657,
+          "death_place": "Gloucestershire, England",
+          "surname": "Lamborne"
+        },
+        {
+          "name": "Colonel John Flood",
+          "birth_year": 1592,
+          "birth_place": "Canterbury, Kent, England",
+          "death_year": 1658,
+          "death_place": "Surry, Surry, Virginia, USA",
+          "surname": "Flood"
+        },
+        {
+          "name": "Richard Radford",
+          "birth_year": 1592,
+          "birth_place": "Oakford, Devonshire, England",
+          "death_year": 1654,
+          "death_place": "Oakford, Devon, England",
+          "surname": "Radford"
+        },
+        {
+          "name": "Richard Washington of Sulgrave",
+          "birth_year": 1592,
+          "birth_place": "Brington, Northamptonshire, England",
+          "death_year": 1642,
+          "death_place": "Thrapston, Northamptonshire, England",
+          "surname": "Washington of Sulgrave"
+        },
+        {
+          "name": "Colonel John Flood",
+          "birth_year": 1592,
+          "birth_place": "Canterbury, Kent, England",
+          "death_year": 1658,
+          "death_place": "Surry, Surry, Virginia, USA",
+          "surname": "Flood"
+        },
+        {
+          "name": "William Denty",
+          "birth_year": 1592,
+          "birth_place": "Beaminster, Dorset, England",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Denty"
+        },
+        {
+          "name": "Archibald Campbell of Corringmore",
+          "birth_year": 1592,
+          "birth_place": "Corringmore, Craignish, Argyllshire, Scotland",
+          "death_year": 1652,
+          "death_place": "Barrichibean, Scotland",
+          "surname": "Campbell of Corringmore"
+        },
+        {
+          "name": "Elizabeth Cowper",
+          "birth_year": 1592,
+          "birth_place": "Aslackby, Lincolnshire, England",
+          "death_year": 1627,
+          "death_place": "England",
+          "surname": "Cowper"
+        }
+      ],
+      "side_note": "Filename labels maternal side but Herron/Stuart connection suggests paternal or mixed. Jesse Dayton Herron b.1918 is confirmed MRCA in GEDCOM."
+    },
+    {
+      "cousin_file": "Al wood - not sure name but its a man -3rd cousin 1x removed or half 3rd cousin - maternal side.ged",
+      "cousin_name": "Al wood",
+      "claimed_relationship": "not sure name but its a man -3rd cousin 1x removed or half 3rd cousin - maternal side",
+      "individuals_in_gedcom": 370,
+      "families_in_gedcom": 191,
+      "surname_lines_found": [
+        "Westerfield"
+      ],
+      "verified_link": false,
+      "side": "maternal",
+      "mrca_with_hunter": null,
+      "path_from_cousin_to_hunter": [],
+      "all_mrca_candidates": [],
+      "confidence": "unverified",
+      "evidence": "Westerfield surname in GEDCOM (Oliver Cleveland Westerfield b.1884 KY). Westerfield appears in Walls Doris GEDCOM too (Iris June Westerfield b.1919 AR). Deep ancestors include Welsh/Norman nobility lines via Boswell and Welton. No Hunter surname anchor traceable. Possible match via a pre-1800 colonial collateral line not yet in entities.json. Requires manual DNA cluster analysis.",
+      "new_ancestors_unlocked": [],
+      "side_note": "GEDCOM labeled maternal; no surname corroboration. Side unconfirmed."
+    },
+    {
+      "cousin_file": "B.G. - 2nnd cousin 2x removed or half 1st cousin 3x removed - unassigned.ged",
+      "cousin_name": "B.G.",
+      "claimed_relationship": "2nnd cousin 2x removed or half 1st cousin 3x removed - unassigned",
+      "individuals_in_gedcom": 79,
+      "families_in_gedcom": 40,
+      "surname_lines_found": [
+        "Byrd",
+        "Gillespie",
+        "Spence"
+      ],
+      "verified_link": true,
+      "side": "paternal",
+      "mrca_with_hunter": {
+        "name": "Richard Lecurgis Byrd",
+        "birth_year": 1860,
+        "death_year": 1939,
+        "birth_place": "Franklin, Alabama, United States",
+        "surname_line": "Byrd",
+        "anchor_id": "anchor_richard_lecurgis_byrd"
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "Lillie Lodusky Byrd Gillespie (b.1901)",
+        "Richard Lecurgis Byrd (b.1860)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "Richard Lecurgis Byrd",
+          "anchor_id": "anchor_richard_lecurgis_byrd",
+          "depth": 2,
+          "surname_line": "Byrd",
+          "partial_match": false
+        },
+        {
+          "name": "William Leander Byrd",
+          "anchor_id": "anchor_william_leander_byrd",
+          "depth": 3,
+          "surname_line": "Byrd",
+          "partial_match": false
+        },
+        {
+          "name": "Margarett Rhetta Perrydore Byrd",
+          "anchor_id": "anchor_margarete_byrd",
+          "depth": 3,
+          "surname_line": "Byrd",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'Richard Lecurgis Byrd' found at depth 2 above cousin in GEDCOM. Matches Hunter anchor 'Richard Lecurgis Byrd' (b.1860) on paternal side via Byrd line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Maria Broucard",
+          "birth_year": 1670,
+          "birth_place": "Mannheim, Baden Wurtenburg, Germany",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Broucard"
+        },
+        {
+          "name": "Andrew Byrd Sr",
+          "birth_year": 1673,
+          "birth_place": "",
+          "death_year": 1723,
+          "death_place": "Raritan, Somerset, NJ, USA",
+          "surname": "Byrd Sr"
+        },
+        {
+          "name": "Thomas Gillespie",
+          "birth_year": 1688,
+          "birth_place": "Scotland",
+          "death_year": 1712,
+          "death_place": "Scotland",
+          "surname": "Gillespie"
+        },
+        {
+          "name": "Andrew Lt Byrd Sr",
+          "birth_year": 1695,
+          "birth_place": "Philadelphia County, Pennsylvania, USA",
+          "death_year": 1750,
+          "death_place": "Smith's Creek, Shenandoah, Page, Virginia",
+          "surname": "Byrd Sr"
+        },
+        {
+          "name": "George Gillespie",
+          "birth_year": 1700,
+          "birth_place": "Ayrshire, Scotland",
+          "death_year": 1760,
+          "death_place": "Tennessee, United States",
+          "surname": "Gillespie"
+        },
+        {
+          "name": "Sarah Elizabeth Duval",
+          "birth_year": 1700,
+          "birth_place": "Scotland",
+          "death_year": 1740,
+          "death_place": "Georgia, United States",
+          "surname": "Duval"
+        },
+        {
+          "name": "Magdelena Jones Jonasson",
+          "birth_year": 1703,
+          "birth_place": "Pennsylvania, United States",
+          "death_year": 1749,
+          "death_place": "Virginia, United States",
+          "surname": "Jonasson"
+        },
+        {
+          "name": "James Heaslet",
+          "birth_year": 1720,
+          "birth_place": "Coleraine, Londonderry, Ireland",
+          "death_year": 1760,
+          "death_place": "York, York, Pennsylvania, United States",
+          "surname": "Heaslet"
+        },
+        {
+          "name": "Col. William Edmondson",
+          "birth_year": 1732,
+          "birth_place": "Glade Springs, VA",
+          "death_year": 1822,
+          "death_place": ",Washington,Virginia,USA",
+          "surname": "Edmondson"
+        },
+        {
+          "name": "Col. George Gillespie",
+          "birth_year": 1735,
+          "birth_place": "Ireland",
+          "death_year": 1820,
+          "death_place": "Limestone, Washington, Tennessee, United States",
+          "surname": "Gillespie"
+        },
+        {
+          "name": "Capt. Amos Byrd",
+          "birth_year": 1737,
+          "birth_place": "Shenandoah, VA",
+          "death_year": 1818,
+          "death_place": "Byrd Farm, Byrd Twp Cape Giradeau Co, MO",
+          "surname": "Byrd"
+        },
+        {
+          "name": "Elizabeth Ruddell",
+          "birth_year": 1741,
+          "birth_place": "",
+          "death_year": 1818,
+          "death_place": "",
+          "surname": "Ruddell"
+        },
+        {
+          "name": "Margaret Montgomery",
+          "birth_year": 1742,
+          "birth_place": "Lancaster,,Pennsylvania,USA",
+          "death_year": 1778,
+          "death_place": "Glade Springs,Washington,Virginia,USA",
+          "surname": "Montgomery"
+        },
+        {
+          "name": "Martha Ann Anna Elizabeth Allen Gillespie",
+          "birth_year": 1748,
+          "birth_place": "Virginia, United States",
+          "death_year": 1766,
+          "death_place": "Tennessee, United States",
+          "surname": "Gillespie"
+        },
+        {
+          "name": "William Marion Heaslet",
+          "birth_year": 1750,
+          "birth_place": "Shippensburg, Cumberland County, Pennsylvania, USA",
+          "death_year": 1819,
+          "death_place": "Knox County, Tennessee, USA",
+          "surname": "Heaslet"
+        },
+        {
+          "name": "Mary Clark Heaslet",
+          "birth_year": 1750,
+          "birth_place": "Pennsylvania, Somerset, Pennsylvania, United States",
+          "death_year": 1828,
+          "death_place": "Knox County, Tennessee, USA",
+          "surname": "Clark Heaslet"
+        },
+        {
+          "name": "William Gillespie",
+          "birth_year": 1753,
+          "birth_place": "Amherst, Amherst, Virginia, United States",
+          "death_year": 1794,
+          "death_place": "Paint Lick, Garrard, Kentucky, United States",
+          "surname": "Gillespie"
+        },
+        {
+          "name": "Griffin Wright",
+          "birth_year": 1755,
+          "birth_place": "Essex Co., VA",
+          "death_year": 1816,
+          "death_place": "North Carolina, USA",
+          "surname": "Wright"
+        },
+        {
+          "name": "Delphia Glenn",
+          "birth_year": 1755,
+          "birth_place": "VA",
+          "death_year": 1816,
+          "death_place": "",
+          "surname": "Glenn"
+        },
+        {
+          "name": "Nancy Ann Hudson",
+          "birth_year": 1755,
+          "birth_place": "Amherst, Amherst, Virginia, United States",
+          "death_year": 1838,
+          "death_place": "Richmond, Madison, Kentucky, United States",
+          "surname": "Hudson"
+        }
+      ]
+    },
+    {
+      "cousin_file": "Burton (not sure first name) - 3rd cousin 1x removed or half 3rd cousin - maternal side.ged",
+      "cousin_name": "Burton (not sure first name)",
+      "claimed_relationship": "3rd cousin 1x removed or half 3rd cousin - maternal side",
+      "individuals_in_gedcom": 2191,
+      "families_in_gedcom": 1316,
+      "surname_lines_found": [
+        "Herron",
+        "Spence",
+        "Vincent"
+      ],
+      "verified_link": true,
+      "side": "maternal",
+      "mrca_with_hunter": {
+        "name": "Jesse Dayton Herron",
+        "birth_year": 1918,
+        "death_year": 1989,
+        "birth_place": "Oden, Montgomery, Arkansas, USA",
+        "surname_line": "Stuart",
+        "anchor_id": "anchor_jesse_dayton_herron",
+        "notes": "Jesse Dayton Herron b.1918 is a confirmed shared ancestor for 4scherff, Burton, Gary Burton. His connection to Hunter's line is via the William Woodville Herron family. The Herron cluster appears to connect to Hunter's paternal line via Alabama/Texas Stuart cousins, but the exact MRCA between Herron and Hunter's direct line is not yet document-confirmed."
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "//",
+        "Wanda Louise Herron (b.1948)",
+        "Jesse Dayton Herron (b.1918)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "Jesse Dayton Herron",
+          "anchor_id": "anchor_jesse_dayton_herron",
+          "depth": 3,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "William Woodville Herron",
+          "anchor_id": "anchor_william_woodville_herron",
+          "depth": 4,
+          "surname_line": "Stuart",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'Jesse Dayton Herron' found at depth 3 above cousin in GEDCOM. Matches Hunter anchor 'Jesse Dayton Herron' (b.1918) on paternal side via Stuart line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Oliver Thornton (12th GGF)",
+          "birth_year": 1500,
+          "birth_place": "Yorkshire, England.",
+          "death_year": 1558,
+          "death_place": "Soham, Suffolk, England.",
+          "surname": "Thornton (12th GGF)"
+        },
+        {
+          "name": "Sir Hugh Paulet",
+          "birth_year": 1500,
+          "birth_place": "Somerset, England",
+          "death_year": 1573,
+          "death_place": "Hinton-St. George, Somersetshire",
+          "surname": "Paulet"
+        },
+        {
+          "name": "John ap Hywel",
+          "birth_year": 1500,
+          "birth_place": "Cwmteuddwr, Radnorshire, Wales",
+          "death_year": 1547,
+          "death_place": "Wales",
+          "surname": "Hywel"
+        },
+        {
+          "name": "Edmund Lord Cleburne Hall Cleyburne",
+          "birth_year": 1501,
+          "birth_place": "Cleburne Hall, Westmoreland, England",
+          "death_year": 1540,
+          "death_place": "Kent Cleburne Hall, Westmoreland, England",
+          "surname": "Cleyburne"
+        },
+        {
+          "name": "Sir George Reveley (Royal Blood)",
+          "birth_year": 1501,
+          "birth_place": "Kings Lynn, Norfolk, England",
+          "death_year": 1574,
+          "death_place": "St Margarets, Kings Lynn, Norfolk, England",
+          "surname": "Reveley (Royal Blood)"
+        },
+        {
+          "name": "Lord Willem   William Crichton Keith 4th Earl Marischal Baron of Keith (Queen Mary's Guardian)",
+          "birth_year": 1506,
+          "birth_place": "Dunottar Castle, Kincardineshire, Scotland",
+          "death_year": 1581,
+          "death_place": "Dunottar Castle, Kincardineshire, Scotland",
+          "surname": "Crichton Keith 4th Earl Marischal Baron of Keith (Queen Mary's Guardian)"
+        },
+        {
+          "name": "Sir John Gorm Campbell, Lord of Lochowe",
+          "birth_year": 1510,
+          "birth_place": "Castle Lochnell, Argyll, Scotland",
+          "death_year": 1568,
+          "death_place": "Battle of Langside, Aberdeenshire, Scotland",
+          "surname": "Campbell, Lord of Lochowe"
+        },
+        {
+          "name": "Pernell Bugge",
+          "birth_year": 1510,
+          "birth_place": "Cambridgeshire, England.",
+          "death_year": 1563,
+          "death_place": "England",
+          "surname": "Bugge"
+        },
+        {
+          "name": "Lady Margaret Elizabeth Inverugie",
+          "birth_year": 1511,
+          "birth_place": "Inverugie Castle, Aberdeenshire, Schotland",
+          "death_year": 1556,
+          "death_place": "Dunottar Castle, Kincardineshire, Scotland",
+          "surname": "Inverugie"
+        },
+        {
+          "name": "viscount thomas de elmhom of Welles of strouton",
+          "birth_year": 1512,
+          "birth_place": "Whichford, Stratford-on-Avon District, Warwickshire, England",
+          "death_year": 1558,
+          "death_place": "Whichford, Stratford-on-Avon District, Warwickshire, England",
+          "surname": "Welles of strouton"
+        },
+        {
+          "name": "Joan Lady (Cleyborne Cleburn) Sanford Sandford",
+          "birth_year": 1512,
+          "birth_place": "Askham Castle, Westmoreland, England",
+          "death_year": 1609,
+          "death_place": "Over, Cambridgeshire, England",
+          "surname": "Sanford Sandford"
+        },
+        {
+          "name": "Lady Margaret Barfield",
+          "birth_year": 1515,
+          "birth_place": "Sheffield, South Yorkshire, England",
+          "death_year": 1588,
+          "death_place": "Bishops Stortford, East Hertfordshire, England",
+          "surname": "Barfield"
+        },
+        {
+          "name": "Lord William Harris ,knight, high Sheriff of Crixie",
+          "birth_year": 1516,
+          "birth_place": "Willingale, Epping Forest District, Essex, England",
+          "death_year": 1574,
+          "death_place": "Maldon, Essex, England",
+          "surname": "Harris ,knight, high Sheriff of Crixie"
+        },
+        {
+          "name": "Lady Elizabeth Alice Bryan Governess to Queen Elizabeth I",
+          "birth_year": 1516,
+          "birth_place": "Stourton, Stratford-on-Avon District, Warwickshire, England",
+          "death_year": 1620,
+          "death_place": "Whichford, Warwickshire, England",
+          "surname": "Bryan Governess to Queen Elizabeth I"
+        },
+        {
+          "name": "Rev. John William Eliott",
+          "birth_year": 1516,
+          "birth_place": "Bishops Stortford, Hertfordshire, England",
+          "death_year": 1557,
+          "death_place": "Bishops Stortford, Hertfordshire, England (Holy Trinity The Less, London, England--Burial)",
+          "surname": "Eliott"
+        },
+        {
+          "name": "John Kingsley",
+          "birth_year": 1520,
+          "birth_place": "Braylesford, Derbyshire, England",
+          "death_year": 1575,
+          "death_place": "Finedon, Northamptonshire, England",
+          "surname": "Kingsley"
+        },
+        {
+          "name": "John Thomas Bond",
+          "birth_year": 1520,
+          "birth_place": "Icomb, Gloucestershire, England",
+          "death_year": 1598,
+          "death_place": "Icoomb, Gloucestershire, England",
+          "surname": "Bond"
+        },
+        {
+          "name": "Jane Phelps",
+          "birth_year": 1520,
+          "birth_place": "Scotland",
+          "death_year": 1580,
+          "death_place": "Busby, Lanarkshire, Scotland",
+          "surname": "Phelps"
+        },
+        {
+          "name": "Katherine Porter SmithDisneyThorogood",
+          "birth_year": 1520,
+          "birth_place": "Benington, Boston Borough, Lincolnshire, England",
+          "death_year": 1606,
+          "death_place": "Honington, Lincolnshire, England",
+          "surname": "Porter Smith"
+        },
+        {
+          "name": "Mary Wilson",
+          "birth_year": 1520,
+          "birth_place": "Butterworth, Lancashire, England",
+          "death_year": 1590,
+          "death_place": "",
+          "surname": "Wilson"
+        }
+      ]
+    },
+    {
+      "cousin_file": "Cathy Bradford - 2nd cousin 1x removed or half 1st cousin 2x removed Maternal side.ged",
+      "cousin_name": "Cathy Bradford",
+      "claimed_relationship": "2nd cousin 1x removed or half 1st cousin 2x removed Maternal side",
+      "individuals_in_gedcom": 507,
+      "families_in_gedcom": 263,
+      "surname_lines_found": [],
+      "verified_link": false,
+      "side": "maternal",
+      "mrca_with_hunter": null,
+      "path_from_cousin_to_hunter": [],
+      "all_mrca_candidates": [],
+      "confidence": "unverified",
+      "evidence": "No Hunter surname anchors found. Ancestors concentrated in Montgomery/Polk/Scott counties, Arkansas. One Ballentine match (Oda Elizabeth Ballentine b.1897 AR) — Ballentine appears in the Herron cluster (David Wyle Ballentine b.1856 in Reba VPJ), suggesting possible shared Ballentine line. Labeled maternal side. Requires DNA cluster analysis to confirm which of Hunter's lines this connects to.",
+      "new_ancestors_unlocked": [],
+      "side_note": "Possible Herron/Ballentine collateral — maternal side labeled but unconfirmed."
+    },
+    {
+      "cousin_file": "Chance Mattingly-1st Cousin 1x removed - maternal side.ged",
+      "cousin_name": "Chance Mattingly",
+      "claimed_relationship": "1st Cousin 1x removed - maternal side",
+      "individuals_in_gedcom": 216,
+      "families_in_gedcom": 119,
+      "surname_lines_found": [
+        "Baity",
+        "Boehme",
+        "Jarisch",
+        "Lepick",
+        "Mattingly",
+        "Noble",
+        "Teichmueller"
+      ],
+      "verified_link": true,
+      "side": "maternal",
+      "mrca_with_hunter": {
+        "name": "Jennive Lepick",
+        "birth_year": 1923,
+        "death_year": 2008,
+        "birth_place": "Wilson County, Texas, USA",
+        "surname_line": "Lepick",
+        "anchor_id": "anchor_jennive_lepick"
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "//",
+        "Jennive Lepick (b.1923)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "Jennive Lepick",
+          "anchor_id": "anchor_jennive_lepick",
+          "depth": 2,
+          "surname_line": "Lepick",
+          "partial_match": false
+        },
+        {
+          "name": "Leroy Teichmueller Mattingly",
+          "anchor_id": "anchor_leroy_mattingly",
+          "depth": 3,
+          "surname_line": "Mattingly",
+          "partial_match": false
+        },
+        {
+          "name": "Ruth A Baity",
+          "anchor_id": "anchor_ruth_baity_mattingly",
+          "depth": 3,
+          "surname_line": "Baity",
+          "partial_match": true
+        },
+        {
+          "name": "Fred Charles Lepick",
+          "anchor_id": "anchor_fred_lepick_sr",
+          "depth": 3,
+          "surname_line": "Lepick",
+          "partial_match": true
+        },
+        {
+          "name": "William Alexander BAITY",
+          "anchor_id": "anchor_william_baity",
+          "depth": 4,
+          "surname_line": "Baity",
+          "partial_match": false
+        },
+        {
+          "name": "Hans Teichmueller",
+          "anchor_id": "anchor_hans_teichmueller",
+          "depth": 5,
+          "surname_line": "Teichmueller",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'Jennive Lepick' found at depth 2 above cousin in GEDCOM. Matches Hunter anchor 'Jennive Lepick Mattingly' (b.1923) on maternal side via Lepick line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Robert Felton",
+          "birth_year": 1508,
+          "birth_place": "Great Yarmouth, Norfolk, England",
+          "death_year": 1559,
+          "death_place": "Great Yarmouth, Norfolk, England",
+          "surname": "Felton"
+        },
+        {
+          "name": "Margaret Gross",
+          "birth_year": 1512,
+          "birth_place": "Great Yarmouth, Norfolkshire, England",
+          "death_year": 1567,
+          "death_place": "Great Yarmouth, Norfolk, England",
+          "surname": "Gross"
+        },
+        {
+          "name": "John Felton",
+          "birth_year": 1534,
+          "birth_place": "Gr Yarmouth, Norfolk, England",
+          "death_year": 1601,
+          "death_place": "Gr. Yarmouth, Norfolk, England",
+          "surname": "Felton"
+        },
+        {
+          "name": "Margery Fulkerd",
+          "birth_year": 1538,
+          "birth_place": "Great Yarmouth, Norfolk, England",
+          "death_year": 1594,
+          "death_place": "Great Yarmouth, Norfolk, England",
+          "surname": "Fulkerd"
+        },
+        {
+          "name": "Mary Judd",
+          "birth_year": 1543,
+          "birth_place": "Cranbrook, Kent, England",
+          "death_year": 1600,
+          "death_place": "Burwash, Sussex, England",
+          "surname": "Judd"
+        },
+        {
+          "name": "Margaret NN",
+          "birth_year": 1550,
+          "birth_place": "",
+          "death_year": 1639,
+          "death_place": "",
+          "surname": "NN"
+        },
+        {
+          "name": "Catherine (Kathrine) (Katherine) ? Mattingly",
+          "birth_year": 1557,
+          "birth_place": "England",
+          "death_year": 1640,
+          "death_place": "England",
+          "surname": "Mattingly"
+        },
+        {
+          "name": "John Mattingly",
+          "birth_year": 1558,
+          "birth_place": "England",
+          "death_year": 1612,
+          "death_place": "England",
+          "surname": "Mattingly"
+        },
+        {
+          "name": "Thomas McWilliams",
+          "birth_year": 1560,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "Heinsberg, North Rhine-Westphalia, Germany",
+          "surname": "McWilliams"
+        },
+        {
+          "name": "Wyllyam Morice",
+          "birth_year": 1573,
+          "birth_place": "Cranbrook, Kent, England",
+          "death_year": 1618,
+          "death_place": "Cranbrook, Kent, England",
+          "surname": "Morice"
+        },
+        {
+          "name": "John Mattingly",
+          "birth_year": 1575,
+          "birth_place": "Berkshire, England",
+          "death_year": 1641,
+          "death_place": "St Mary Colechurch, London, England",
+          "surname": "Mattingly"
+        },
+        {
+          "name": "Mary Winch",
+          "birth_year": 1575,
+          "birth_place": "England",
+          "death_year": 1635,
+          "death_place": "England",
+          "surname": "Winch"
+        },
+        {
+          "name": "Judith Felton",
+          "birth_year": 1582,
+          "birth_place": "Great Yarmouth, Norfolk, England",
+          "death_year": 1682,
+          "death_place": "Cambridge, Middlesex County, Massachusetts, USA",
+          "surname": "Felton"
+        },
+        {
+          "name": "John Ticehurst",
+          "birth_year": 1584,
+          "birth_place": "Ashburnham, Sussex, England",
+          "death_year": 1649,
+          "death_place": "Ashburnham, Sussex, England",
+          "surname": "Ticehurst"
+        },
+        {
+          "name": "Richard Bugbee",
+          "birth_year": 1586,
+          "birth_place": "Hackney, Middlesex, England",
+          "death_year": 1635,
+          "death_place": "Roxbury, Suffolk, Massachusetts, British Colonies",
+          "surname": "Bugbee"
+        },
+        {
+          "name": "Richarde Morice Morris",
+          "birth_year": 1595,
+          "birth_place": "Horsemonden, Kent, England",
+          "death_year": 1660,
+          "death_place": "Horsemonden, Kent, England",
+          "surname": "Morice Morris"
+        },
+        {
+          "name": "Charles Mattingly",
+          "birth_year": 1600,
+          "birth_place": "Omny Parish, Sussex, England",
+          "death_year": 1642,
+          "death_place": "St Marys, St Mary's, Maryland, United States",
+          "surname": "Mattingly"
+        },
+        {
+          "name": "Thomas Mathew McWilliams",
+          "birth_year": 1600,
+          "birth_place": "Sussex, England",
+          "death_year": null,
+          "death_place": "End, Heinsberg, Nordrhein-Westfalen, Germany",
+          "surname": "McWilliams"
+        },
+        {
+          "name": "Mary Mcwilliams",
+          "birth_year": 1600,
+          "birth_place": "Sussex, England",
+          "death_year": null,
+          "death_place": "Sussex, England",
+          "surname": "Mcwilliams"
+        },
+        {
+          "name": "Judith Bugbee",
+          "birth_year": 1602,
+          "birth_place": "Hackney, Middlesex, England",
+          "death_year": 1682,
+          "death_place": "Cambridge, Middlesex, Massachusetts, United States",
+          "surname": "Bugbee"
+        }
+      ]
+    },
+    {
+      "cousin_file": "Diane Matava - 3rd cousin 1x removed or half 2nd cousin 2x removed - paternal side.ged",
+      "cousin_name": "Diane Matava",
+      "claimed_relationship": "3rd cousin 1x removed or half 2nd cousin 2x removed - paternal side",
+      "individuals_in_gedcom": 182,
+      "families_in_gedcom": 91,
+      "surname_lines_found": [
+        "Chewning",
+        "Rau"
+      ],
+      "verified_link": false,
+      "side": "paternal",
+      "mrca_with_hunter": null,
+      "path_from_cousin_to_hunter": [],
+      "all_mrca_candidates": [],
+      "confidence": "unverified",
+      "evidence": "Chewning line from Mecklenburg/Fluvanna Virginia. 'Rau' surname appears in ancestors (Rhoda Perrault b.1745 — French Perrault, not German Rau). 'Spence' not found in GEDCOM despite filename labeling paternal side. No Henslee, Stuart, Byrd, or other Hunter anchors found. Paternal side labeling may be incorrect. The Rau surname in Hunter's line (Frances Virginia Rau b.1918) is distinct from the French Perrault/Perault line here. Cannot verify without additional DNA evidence.",
+      "new_ancestors_unlocked": [],
+      "side_note": "Labeled paternal but no paternal Hunter anchors confirmed. Possibly misassigned or very distant."
+    },
+    {
+      "cousin_file": "Donald Henslee-Granduncle-or-half uncle-paternal-side.ged",
+      "cousin_name": "Donald Henslee",
+      "claimed_relationship": "Granduncle-or-half uncle-paternal-side",
+      "individuals_in_gedcom": 35,
+      "families_in_gedcom": 17,
+      "surname_lines_found": [
+        "Henslee",
+        "Rau",
+        "Stuart"
+      ],
+      "verified_link": true,
+      "side": "paternal",
+      "mrca_with_hunter": {
+        "name": "Lee Stuart Henslee",
+        "birth_year": 1908,
+        "death_year": 1994,
+        "birth_place": "",
+        "surname_line": "Henslee",
+        "anchor_id": "anchor_lee_henslee"
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "Lee Stuart Henslee (b.1908)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "Lee Stuart Henslee",
+          "anchor_id": "anchor_lee_henslee",
+          "depth": 1,
+          "surname_line": "Henslee",
+          "partial_match": false
+        },
+        {
+          "name": "Frances Virginia Rau",
+          "anchor_id": "anchor_frances_rau",
+          "depth": 1,
+          "surname_line": "Rau",
+          "partial_match": false
+        },
+        {
+          "name": "James Ernest (Pappy) Henslee",
+          "anchor_id": "anchor_james_henslee",
+          "depth": 2,
+          "surname_line": "Henslee",
+          "partial_match": false
+        },
+        {
+          "name": "Mary Alice Stuart",
+          "anchor_id": "anchor_mary_alice_stuart",
+          "depth": 2,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "Miles Reed Henslee",
+          "anchor_id": "anchor_miles_henslee",
+          "depth": 3,
+          "surname_line": "Henslee",
+          "partial_match": false
+        },
+        {
+          "name": "Lewis Lunsford Stuart",
+          "anchor_id": "anchor_lewis_lunsford_stuart",
+          "depth": 3,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "Nora Corrigan Sale",
+          "anchor_id": "anchor_nora_sale",
+          "depth": 3,
+          "surname_line": "Stuart",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'Lee Stuart Henslee' found at depth 1 above cousin in GEDCOM. Matches Hunter anchor 'Lee Stuart Henslee' (b.1908) on paternal side via Henslee line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Maria Josefa Theisen",
+          "birth_year": 1789,
+          "birth_place": "Zeltingen, Rheinland-Pfalz, Germany",
+          "death_year": 1859,
+          "death_place": "Zeltingen, Bernkastel, Rhein, Preußen, Deutschland",
+          "surname": "Theisen"
+        },
+        {
+          "name": "James Goodwin Stewart or Stuart",
+          "birth_year": 1798,
+          "birth_place": "Caroline County, Virginia, USA",
+          "death_year": 1836,
+          "death_place": "Leon County, Florida, USA",
+          "surname": "Stewart or Stuart"
+        },
+        {
+          "name": "Johann Josef Rau",
+          "birth_year": 1799,
+          "birth_place": "Zeltingen-Rachtig, Bernkastel-Wittlich, Rhineland-Palatinate, Germany",
+          "death_year": 1867,
+          "death_place": "Zeltingen-Rachtig, Bernkastel-Wittlich, Rhineland-Palatinate, Germany",
+          "surname": "Rau"
+        },
+        {
+          "name": "Coley Robinson Chiles",
+          "birth_year": 1800,
+          "birth_place": "Caroline County, Virginia, USA",
+          "death_year": 1876,
+          "death_place": "Bainbridge, Decatur, Georgia, USA",
+          "surname": "Chiles"
+        },
+        {
+          "name": "Anna Katharina Rau",
+          "birth_year": 1804,
+          "birth_place": "Zeltingen, Bernkastel, Rheinprovinz, Preußen, Deutschland",
+          "death_year": 1887,
+          "death_place": "Mishicot, Manitowoc, Wisconsin, USA",
+          "surname": "Rau"
+        },
+        {
+          "name": "Nicholas Scheuer",
+          "birth_year": 1809,
+          "birth_place": "Kinheim, Bernkastel-Wittlich, Rhineland-Palatinate, Germany",
+          "death_year": 1877,
+          "death_place": "Manitowoc County, Wisconsin, USA",
+          "surname": "Scheuer"
+        },
+        {
+          "name": "Mary Eleanor Mason",
+          "birth_year": 1820,
+          "birth_place": "Virginia, United States",
+          "death_year": 1905,
+          "death_place": "Burleson, Texas, United States",
+          "surname": "Mason"
+        },
+        {
+          "name": "Thomas R. Sale",
+          "birth_year": 1822,
+          "birth_place": "Caroline, Virginia, United States",
+          "death_year": 1851,
+          "death_place": "",
+          "surname": "Sale"
+        },
+        {
+          "name": "David Charles Reece",
+          "birth_year": 1826,
+          "birth_place": "Ohio",
+          "death_year": 1900,
+          "death_place": "Colchester, Mc Donough, Illinois, United States",
+          "surname": "Reece"
+        },
+        {
+          "name": "Petrus \"Peter\" Rau",
+          "birth_year": 1832,
+          "birth_place": "Zeltingen, Rheinland, Preußen, Germany",
+          "death_year": 1895,
+          "death_place": "Two Rivers, Manitowoc, Wisconsin, USA",
+          "surname": "Rau"
+        },
+        {
+          "name": "Sarah Jane Hudson",
+          "birth_year": 1833,
+          "birth_place": "Cass Co., Georgia",
+          "death_year": 1917,
+          "death_place": "Burleson Co., Texas",
+          "surname": "Hudson"
+        },
+        {
+          "name": "Andrew Jackson Norville",
+          "birth_year": 1833,
+          "birth_place": "Bedford, Bedford, Tennessee, United States",
+          "death_year": 1905,
+          "death_place": "Caldwell, Burleson County, Texas, United States of America",
+          "surname": "Norville"
+        },
+        {
+          "name": "Martha Jane \"Mary\" Fuqua",
+          "birth_year": 1838,
+          "birth_place": "Gibson, Gibson, Tennessee, USA",
+          "death_year": 1905,
+          "death_place": "Caldwell, Burleson, Texas, USA",
+          "surname": "Fuqua"
+        },
+        {
+          "name": "Mary Evaline Proctor",
+          "birth_year": 1842,
+          "birth_place": "Crab Orchard, Lincoln, KY",
+          "death_year": 1924,
+          "death_place": "Colchester, IL",
+          "surname": "Proctor"
+        },
+        {
+          "name": "Catharine Scheuer",
+          "birth_year": 1843,
+          "birth_place": "Kinheim, Bernkastel-Wittlich, Rhineland-Palatinate, Germany",
+          "death_year": 1907,
+          "death_place": "Two Rivers, Manitowoc, Wisconsin, USA",
+          "surname": "Scheuer"
+        },
+        {
+          "name": "Lawrence Jemery (Jean Marie)",
+          "birth_year": 1846,
+          "birth_place": "Canada",
+          "death_year": 1931,
+          "death_place": "Dallas, Dallas, Texas, USA",
+          "surname": "Jemery (Jean Marie)"
+        },
+        {
+          "name": "William Robert James",
+          "birth_year": 1849,
+          "birth_place": "Colchester, McDonough County, Illinois, United States of America",
+          "death_year": 1920,
+          "death_place": "Kewanee, Henry County, Illinois, United States of America",
+          "surname": "James"
+        },
+        {
+          "name": "Martha Belle Moon",
+          "birth_year": 1859,
+          "birth_place": "Tennessee, McDonough County, Illinois, USA",
+          "death_year": 1899,
+          "death_place": "Colchester, McDonough, Illinois, USA",
+          "surname": "Moon"
+        },
+        {
+          "name": "Nettie (Mary inez) Burt",
+          "birth_year": 1860,
+          "birth_place": "White Hall NY",
+          "death_year": null,
+          "death_place": "Dallas, Dallas, Texas, USA",
+          "surname": "Burt"
+        },
+        {
+          "name": "Lula Jane Norville",
+          "birth_year": 1861,
+          "birth_place": "Washington, Texas, United States",
+          "death_year": 1930,
+          "death_place": "Caldwell, Burleson, Texas, United States",
+          "surname": "Norville"
+        }
+      ]
+    },
+    {
+      "cousin_file": "Frances Padgett - 3rd cousin 1x removed or half 2nd cousin 2x removed - maternal side.ged",
+      "cousin_name": "Frances Padgett",
+      "claimed_relationship": "3rd cousin 1x removed or half 2nd cousin 2x removed - maternal side",
+      "individuals_in_gedcom": 344,
+      "families_in_gedcom": 187,
+      "surname_lines_found": [
+        "Byrd",
+        "Padgett"
+      ],
+      "verified_link": false,
+      "side": "maternal",
+      "mrca_with_hunter": null,
+      "path_from_cousin_to_hunter": [],
+      "all_mrca_candidates": [],
+      "confidence": "unverified",
+      "evidence": "Byrd surname present — ancestors include Martha Ann Byrd b.1665 and Walter Chiles b.1607-1630 (colonial Virginia), who appear as deep ancestors in other verified cousins' trees (Grace Chewning). However Frances Padgett's NEAR ancestors (d=1-3) are in Arkansas/Indiana with no Henslee/Stuart/Byrd match in Hunter's known line. Connection if any is likely via a colonial Virginia colonial ancestor 5+ generations removed. Cannot confirm MRCA without more research.",
+      "new_ancestors_unlocked": [],
+      "side_note": "Labeled maternal. Possible distant Byrd/Chiles colonial connection — needs research."
+    },
+    {
+      "cousin_file": "G.S.-Half 2nd cousin 1x removed or 2nd cousin 2x removed - maternal side.ged",
+      "cousin_name": "G.S.",
+      "claimed_relationship": "Half 2nd cousin 1x removed or 2nd cousin 2x removed - maternal side",
+      "individuals_in_gedcom": 206,
+      "families_in_gedcom": 108,
+      "surname_lines_found": [
+        "Herron",
+        "Vincent"
+      ],
+      "verified_link": true,
+      "side": "maternal",
+      "mrca_with_hunter": {
+        "name": "William Woodville Herron",
+        "birth_year": 1886,
+        "death_year": 1970,
+        "birth_place": "Alabama",
+        "surname_line": "Stuart",
+        "anchor_id": "anchor_william_woodville_herron",
+        "notes": "b.1885 Union Grove Marshall Alabama. Shared ancestor confirmed via multiple cousin GEDCOMs. Probable connection to Hunter via a shared pre-Civil-War ancestor in the Herron/Stuart/Weed network of Burleson County TX / Alabama families. The exact generational link between William Woodville Herron and Hunter's direct Stuart line (Mary Alice Stuart b.1887 Caldwell Burleson TX) requires further research — they may share Lewis Lunsford Stuart b.1830 or an earlier common ancestor."
+      },
+      "path_from_cousin_to_hunter": [
+        "Greg Allen Sullavan (b.1957)",
+        "Marietta Vincent (b.1936)",
+        "Katie Lee Herron (b.1914)",
+        "William Woodville \"Woody\" Herron (b.1886)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "William Woodville \"Woody\" Herron",
+          "anchor_id": "anchor_william_woodville_herron",
+          "depth": 3,
+          "surname_line": "Stuart",
+          "partial_match": true
+        }
+      ],
+      "confidence": "probable",
+      "evidence": "'William Woodville \"Woody\" Herron' found at depth 3 above cousin in GEDCOM. Matches Hunter anchor 'William Woodville Herron' (b.1885) on paternal side via Stuart line. [Partial name match — verify manually.]",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Arthur Jordan",
+          "birth_year": 1626,
+          "birth_place": "England",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Jordan"
+        },
+        {
+          "name": "Capt. Henry Briggs",
+          "birth_year": 1635,
+          "birth_place": "",
+          "death_year": 1686,
+          "death_place": "Surry County, Virginia, United States of America",
+          "surname": "Briggs"
+        },
+        {
+          "name": "Mary Flood",
+          "birth_year": 1635,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Flood"
+        },
+        {
+          "name": "Thomas Cox",
+          "birth_year": 1640,
+          "birth_place": "of Hereford, England",
+          "death_year": 1681,
+          "death_place": "of Middletown, Orange, New Jersey, USA",
+          "surname": "Cox"
+        },
+        {
+          "name": "Elizabeth Blashford",
+          "birth_year": 1640,
+          "birth_place": "of Long Island, New York, USA",
+          "death_year": 1690,
+          "death_place": "of Middletown, Orange, New Jersey, USA",
+          "surname": "Blashford"
+        },
+        {
+          "name": "Richard Washington",
+          "birth_year": 1660,
+          "birth_place": "Surry County, VA",
+          "death_year": 1725,
+          "death_place": "Southwark Parish, Surry Co, VA",
+          "surname": "Washington"
+        },
+        {
+          "name": "Henry Briggs",
+          "birth_year": 1662,
+          "birth_place": "Surry County, Virginia, USA",
+          "death_year": 1739,
+          "death_place": "Surry County, Virginia, USA",
+          "surname": "Briggs"
+        },
+        {
+          "name": "Elizabeth Jordan",
+          "birth_year": 1662,
+          "birth_place": "Southwark Parish, Surry, VA",
+          "death_year": null,
+          "death_place": "Surry, VA",
+          "surname": "Jordan"
+        },
+        {
+          "name": "Jacob Flournoy",
+          "birth_year": 1663,
+          "birth_place": "Genève, Genève, Zwitserland",
+          "death_year": 1725,
+          "death_place": "Henrico County, Virginia, USA",
+          "surname": "Flournoy"
+        },
+        {
+          "name": "Martha Morel",
+          "birth_year": 1663,
+          "birth_place": "Genève, Genève, Zwitserland",
+          "death_year": 1695,
+          "death_place": "Berlincourt, Bern, Zwitserland",
+          "surname": "Morel"
+        },
+        {
+          "name": "Elizabeth Lucas",
+          "birth_year": 1665,
+          "birth_place": "Surry, Surry, Virginia, USA",
+          "death_year": 1739,
+          "death_place": "Surry, Surry, Virginia, USA",
+          "surname": "Lucas"
+        },
+        {
+          "name": "Larrance Cypert",
+          "birth_year": 1680,
+          "birth_place": "Palatinate, Germany",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Cypert"
+        },
+        {
+          "name": "Margaret Mary Koerth?",
+          "birth_year": 1680,
+          "birth_place": "Palatinate, Germany",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Koerth?"
+        },
+        {
+          "name": "Peter Stocker",
+          "birth_year": 1682,
+          "birth_place": "Switzerland",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Stocker"
+        },
+        {
+          "name": "Anna E.",
+          "birth_year": 1684,
+          "birth_place": "Switzerland",
+          "death_year": null,
+          "death_place": "",
+          "surname": "//"
+        },
+        {
+          "name": "Andrew Morris",
+          "birth_year": 1685,
+          "birth_place": "Liverpool, Lancashire, England",
+          "death_year": 1728,
+          "death_place": "St Peter's, Liverpool, Lancashire, England",
+          "surname": "Morris"
+        },
+        {
+          "name": "Francis (Francois) Flournoy",
+          "birth_year": 1686,
+          "birth_place": "Geneva, Geneve, Switzerland",
+          "death_year": 1773,
+          "death_place": "Midlothian, Chesterfield County, Virginia, United States of America",
+          "surname": "Flournoy"
+        },
+        {
+          "name": "Josiah Barker",
+          "birth_year": 1686,
+          "birth_place": "Surry County, Virginia, United States of America",
+          "death_year": 1761,
+          "death_place": "Surry County, Virginia, United States of America",
+          "surname": "Barker"
+        },
+        {
+          "name": "Magdalan Simpson",
+          "birth_year": 1689,
+          "birth_place": "Liverpool, Lancashire, England",
+          "death_year": 1729,
+          "death_place": "St Peter's, Liverpool, Lancashire, England",
+          "surname": "Simpson"
+        },
+        {
+          "name": "Heinrich Stentz",
+          "birth_year": 1690,
+          "birth_place": "Insheim, Impflingen, Pfatz, Germany",
+          "death_year": 1758,
+          "death_place": "York, York, Pennsylvania, USA",
+          "surname": "Stentz"
+        }
+      ]
+    },
+    {
+      "cousin_file": "Gary Burton - 3rd cousin 1x removed or half 3rd cousin - maternal side.ged",
+      "cousin_name": "Gary Burton",
+      "claimed_relationship": "3rd cousin 1x removed or half 3rd cousin - maternal side",
+      "individuals_in_gedcom": 1900,
+      "families_in_gedcom": 1139,
+      "surname_lines_found": [
+        "Herron"
+      ],
+      "verified_link": true,
+      "side": "maternal",
+      "mrca_with_hunter": {
+        "name": "Jesse Dayton Herron",
+        "birth_year": 1918,
+        "death_year": 1989,
+        "birth_place": "Oden, Montgomery, Arkansas, USA",
+        "surname_line": "Stuart",
+        "anchor_id": "anchor_jesse_dayton_herron",
+        "notes": "Jesse Dayton Herron b.1918 is a confirmed shared ancestor for 4scherff, Burton, Gary Burton. His connection to Hunter's line is via the William Woodville Herron family. The Herron cluster appears to connect to Hunter's paternal line via Alabama/Texas Stuart cousins, but the exact MRCA between Herron and Hunter's direct line is not yet document-confirmed."
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "Wanda Louise Herron (b.1948)",
+        "Jesse Dayton Herron (b.1918)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "Jesse Dayton Herron",
+          "anchor_id": "anchor_jesse_dayton_herron",
+          "depth": 2,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "William Woodville Herron",
+          "anchor_id": "anchor_william_woodville_herron",
+          "depth": 3,
+          "surname_line": "Stuart",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'Jesse Dayton Herron' found at depth 2 above cousin in GEDCOM. Matches Hunter anchor 'Jesse Dayton Herron' (b.1918) on paternal side via Stuart line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Thomas Barfield",
+          "birth_year": 1475,
+          "birth_place": "Shefield, Essex, England",
+          "death_year": 1530,
+          "death_place": "Essex, England",
+          "surname": "Barfield"
+        },
+        {
+          "name": "Isabella Strooibant",
+          "birth_year": 1499,
+          "birth_place": "Sint-Niklaas, Oost-Vlaanderen, Belgium",
+          "death_year": 1580,
+          "death_place": "Sint-Niklaas, Oost-Vlaanderen, Belgium",
+          "surname": "Strooibant"
+        },
+        {
+          "name": "Oliver Thornton (12th GGF)",
+          "birth_year": 1500,
+          "birth_place": "Yorkshire, England.",
+          "death_year": 1558,
+          "death_place": "Soham, Suffolk, England.",
+          "surname": "Thornton (12th GGF)"
+        },
+        {
+          "name": "Robert Kingsley",
+          "birth_year": 1500,
+          "birth_place": "Broxton, Cheshire, England",
+          "death_year": 1534,
+          "death_place": "Braxton, Chester Drayton, Stafford, Staffordshire, England",
+          "surname": "Kingsley"
+        },
+        {
+          "name": "Cassandra Humpfrey Humphrey",
+          "birth_year": 1500,
+          "birth_place": "Brewood, Staffordshire, England",
+          "death_year": 1534,
+          "death_place": "Lincolnshire, England",
+          "surname": "Humpfrey Humphrey"
+        },
+        {
+          "name": "Helena \"Ellen\" Standish",
+          "birth_year": 1500,
+          "birth_place": "Standish, Lancashire, England",
+          "death_year": 1540,
+          "death_place": "Kesketh, Lancashire, England",
+          "surname": "Standish"
+        },
+        {
+          "name": "James Whitney",
+          "birth_year": 1500,
+          "birth_place": "Clifford, Herefordshire, England",
+          "death_year": 1587,
+          "death_place": "Clifford, Herefordshire, England",
+          "surname": "Whitney"
+        },
+        {
+          "name": "Alban Fetherston",
+          "birth_year": 1500,
+          "birth_place": "Featherstone, Northumberland Unitary Authority, Northumberland, England",
+          "death_year": 1574,
+          "death_place": "Featherstone, Northumberland Unitary Authority, Northumberland, England",
+          "surname": "Fetherston"
+        },
+        {
+          "name": "Sir William Henry Goldsmith 15th GGF",
+          "birth_year": 1500,
+          "birth_place": "Hampshire, Hampshire, England, United Kingdom",
+          "death_year": 1551,
+          "death_place": "Hampshire, England",
+          "surname": "Goldsmith 15th GGF"
+        },
+        {
+          "name": "Elizabeth Cheyne",
+          "birth_year": 1500,
+          "birth_place": "Cockayne Hatley, Bedfordshire, England",
+          "death_year": 1538,
+          "death_place": "Fen Ditton, Cambridgeshire, England",
+          "surname": "Cheyne"
+        },
+        {
+          "name": "Ellen Helena Smith Smythe",
+          "birth_year": 1500,
+          "birth_place": "Belton, Lincolnshire, England",
+          "death_year": 1569,
+          "death_place": "Belton, Lincolnshire, England",
+          "surname": "Smith Smythe"
+        },
+        {
+          "name": "Sir Thomas, Baron Elliott of Stortford, Author, MP Eliott (Eliot or Elyot)",
+          "birth_year": 1500,
+          "birth_place": "Bishops Stortford, Cottered, Hertfordshire, England",
+          "death_year": 1546,
+          "death_place": "Bishops Stortford, Hertfordshire, England",
+          "surname": "Eliott (Eliot or Elyot)"
+        },
+        {
+          "name": "John Maxey (15th GGF)",
+          "birth_year": 1500,
+          "birth_place": "Great Saling Hall, Essex, England",
+          "death_year": 1558,
+          "death_place": "Crewkerne, Somerset, England",
+          "surname": "Maxey (15th GGF)"
+        },
+        {
+          "name": "Sir Gregory Bassett *",
+          "birth_year": 1500,
+          "birth_place": "Runwell, Essex, England",
+          "death_year": 1528,
+          "death_place": "Bradwell Hall, Essex, England",
+          "surname": "Bassett *"
+        },
+        {
+          "name": "James of Pomforstoun 3rd Earl of Morton, 5th Lord of Dalkeith DOUGLAS of Morton ^1514",
+          "birth_year": 1500,
+          "birth_place": "Morton, Dumfries-shire, Scotland",
+          "death_year": 1548,
+          "death_place": "Aberdour, Aberdeenshire, Scotland",
+          "surname": "DOUGLAS of Morton ^1514"
+        },
+        {
+          "name": "Pieter Demaere",
+          "birth_year": 1500,
+          "birth_place": "Sint-Niklaas, Oost-Vlaanderen, Belgium",
+          "death_year": 1585,
+          "death_place": "Sint-Niklaas, Oost-Vlaanderen, Belgium",
+          "surname": "Demaere"
+        },
+        {
+          "name": "Antoine PITARD",
+          "birth_year": 1500,
+          "birth_place": "Jussy D'Eveque,, Geneva, Switzerland",
+          "death_year": 1553,
+          "death_place": "Jussy D'Eveque, Geneva, Geneva, Switzerland",
+          "surname": "PITARD"
+        },
+        {
+          "name": "John JACOB",
+          "birth_year": 1500,
+          "birth_place": "Bishops Stortford, Hertfordshire, England",
+          "death_year": 1559,
+          "death_place": "Rushall, Norfolk, England",
+          "surname": "JACOB"
+        },
+        {
+          "name": "Edmund Lord Cleburne Hall Cleyburne",
+          "birth_year": 1501,
+          "birth_place": "Cleburne Hall, Westmoreland, England",
+          "death_year": 1540,
+          "death_place": "Kent Cleburne Hall, Westmoreland, England",
+          "surname": "Cleyburne"
+        },
+        {
+          "name": "Sir George Reveley (Royal Blood)",
+          "birth_year": 1501,
+          "birth_place": "Kings Lynn, Norfolk, England",
+          "death_year": 1574,
+          "death_place": "St Margarets, Kings Lynn, Norfolk, England",
+          "surname": "Reveley (Royal Blood)"
+        }
+      ]
+    },
+    {
+      "cousin_file": "Grace Chewning - Half 2nd cousin 2x removed or 2nd cousin 3x removed - unassigned.ged",
+      "cousin_name": "Grace Chewning",
+      "claimed_relationship": "Half 2nd cousin 2x removed or 2nd cousin 3x removed - unassigned",
+      "individuals_in_gedcom": 1293,
+      "families_in_gedcom": 693,
+      "surname_lines_found": [
+        "Rau",
+        "Spence"
+      ],
+      "verified_link": false,
+      "side": "paternal",
+      "mrca_with_hunter": null,
+      "path_from_cousin_to_hunter": [],
+      "all_mrca_candidates": [],
+      "confidence": "unverified",
+      "evidence": "Large GEDCOM (1,293 people). 'Rau' surname appears but as a different European Rau, not Hunter's Frances Virginia Rau (1918 NY-heritage). 'Spence' found but as Spencer medieval royalty (Catherine Spencer b.1477), not Hunter's Spence immigrant line. Near ancestors (d=1-3) are Mecklenburg/Warren County Virginia/NC families (Winn, Newton, Wootton, Cliborne). Deep ancestors include colonial Virginia Chiles line (Susannah Chiles b.1724, Walter Chiles b.1607) — same Walter Chiles appears in Steven Stuart and Jess Stuart verified GEDCOMs, suggesting possible shared colonial ancestor 8-10 generations back. Unassigned in filename — likely paternal via Chiles/Stuart.",
+      "new_ancestors_unlocked": [],
+      "side_note": "Unassigned in filename. Probable paternal colonial connection via Chiles/Stuart line ~8+ generations back."
+    },
+    {
+      "cousin_file": "J.H. 2nd cousin 1x removed or half 1st cousin 2x removed - maternal side.ged",
+      "cousin_name": "J.H. 2nd cousin 1x removed or half 1st cousin 2x removed",
+      "claimed_relationship": "maternal side",
+      "individuals_in_gedcom": 177,
+      "families_in_gedcom": 91,
+      "surname_lines_found": [
+        "Herron"
+      ],
+      "verified_link": true,
+      "side": "maternal",
+      "mrca_with_hunter": {
+        "name": "William Woodville Herron",
+        "birth_year": 1886,
+        "death_year": 1970,
+        "birth_place": "Alabama",
+        "surname_line": "Stuart",
+        "anchor_id": "anchor_william_woodville_herron",
+        "notes": "b.1885 Union Grove Marshall Alabama. Shared ancestor confirmed via multiple cousin GEDCOMs. Probable connection to Hunter via a shared pre-Civil-War ancestor in the Herron/Stuart/Weed network of Burleson County TX / Alabama families. The exact generational link between William Woodville Herron and Hunter's direct Stuart line (Mary Alice Stuart b.1887 Caldwell Burleson TX) requires further research — they may share Lewis Lunsford Stuart b.1830 or an earlier common ancestor."
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "Jesse Dayton Herron (b.1941)",
+        "William Woodville Herron (b.1886)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "William Woodville Herron",
+          "anchor_id": "anchor_william_woodville_herron",
+          "depth": 2,
+          "surname_line": "Stuart",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'William Woodville Herron' found at depth 2 above cousin in GEDCOM. Matches Hunter anchor 'William Woodville Herron' (b.1885) on paternal side via Stuart line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Owen (Bishop of Carlisle) Oglethorpe",
+          "birth_year": 1470,
+          "birth_place": "Newton Kyme",
+          "death_year": 1559,
+          "death_place": "Chancery Lane, London",
+          "surname": "Oglethorpe"
+        },
+        {
+          "name": "Thomas Berkeley",
+          "birth_year": 1472,
+          "birth_place": "",
+          "death_year": 1532,
+          "death_place": "",
+          "surname": "Berkeley"
+        },
+        {
+          "name": "Ellen Snowden",
+          "birth_year": 1477,
+          "birth_place": "Kneeton, Nottinghamshire, England",
+          "death_year": 1530,
+          "death_place": ", , , England",
+          "surname": "Snowden"
+        },
+        {
+          "name": "Robert Ragsdale",
+          "birth_year": 1484,
+          "birth_place": "Kneeton, Nottingham, England",
+          "death_year": 1559,
+          "death_place": "Kneeton, Nottinghamshire, England",
+          "surname": "Ragsdale"
+        },
+        {
+          "name": "Ailienor Constable",
+          "birth_year": 1485,
+          "birth_place": "",
+          "death_year": 1540,
+          "death_place": "",
+          "surname": "Constable"
+        },
+        {
+          "name": "Roger (Rogerus) Thomas Howsley Owsley",
+          "birth_year": 1504,
+          "birth_place": "England",
+          "death_year": 1579,
+          "death_place": "Somerset County, England",
+          "surname": "Howsley Owsley"
+        },
+        {
+          "name": "Elizabeth Hurssye",
+          "birth_year": 1505,
+          "birth_place": "Chillington, Somerset, England",
+          "death_year": 1627,
+          "death_place": "Somerset, England",
+          "surname": "Hurssye"
+        },
+        {
+          "name": "Nicolas Poyntz",
+          "birth_year": 1507,
+          "birth_place": "Iron Acton, Gloucestershire, England, United Kingdom",
+          "death_year": 1557,
+          "death_place": "Yate, Gloucestershire, England, United Kingdom",
+          "surname": "Poyntz"
+        },
+        {
+          "name": "Henry Ragsdale",
+          "birth_year": 1510,
+          "birth_place": "Kneeton, Nottinghamshire, England",
+          "death_year": 1559,
+          "death_place": "Kneeton, Nottinghamshire, England",
+          "surname": "Ragsdale"
+        },
+        {
+          "name": "LADY JOANNA (JOAN) BERKELEY",
+          "birth_year": 1510,
+          "birth_place": "Iron Acton, Gloucestershire, England",
+          "death_year": 1563,
+          "death_place": "Yate, Gloucestershire",
+          "surname": "BERKELEY"
+        },
+        {
+          "name": "Nicholas Poyntz",
+          "birth_year": 1510,
+          "birth_place": "Iron Acton, Gloucestershire, England",
+          "death_year": 1557,
+          "death_place": "Yate, South Gloucestershire, England",
+          "surname": "Poyntz"
+        },
+        {
+          "name": "Joan Berkeley",
+          "birth_year": 1510,
+          "birth_place": "Iron Acton, Gloucestershire",
+          "death_year": 1563,
+          "death_place": "Yate, Gloucestershire, England",
+          "surname": "Berkeley"
+        },
+        {
+          "name": "Elizabeth Oglethorpe",
+          "birth_year": 1515,
+          "birth_place": "Nottingham, Nottingham Unitary Authority, Nottinghamshire, England",
+          "death_year": 1575,
+          "death_place": "Nottingham, Nottingham Unitary Authority, Nottinghamshire, England",
+          "surname": "Oglethorpe"
+        },
+        {
+          "name": "John Owsley",
+          "birth_year": 1524,
+          "birth_place": "Misterton, Nottinghamshire, , England",
+          "death_year": 1592,
+          "death_place": "Misterton, Nottinghamshire, , England",
+          "surname": "Owsley"
+        },
+        {
+          "name": "Sir Nicholas Poyntz",
+          "birth_year": 1528,
+          "birth_place": "Iron Acton, Gloucestershire, England",
+          "death_year": 1585,
+          "death_place": "Iron Acton, South Gloucestershire Unitary Authority, England",
+          "surname": "Poyntz"
+        },
+        {
+          "name": "John Syndeham",
+          "birth_year": 1528,
+          "birth_place": "Brimpton, Somersetshire",
+          "death_year": 1590,
+          "death_place": "Beauchamp Hatch, Somersetshire",
+          "surname": "Syndeham"
+        },
+        {
+          "name": "Nicholas Poyntz",
+          "birth_year": 1528,
+          "birth_place": "Iron Acton, Gloucestershire, England",
+          "death_year": 1585,
+          "death_place": "Iron Acton, Gloucestershire, England",
+          "surname": "Poyntz"
+        },
+        {
+          "name": "Eme Emma Owslie",
+          "birth_year": 1530,
+          "birth_place": "Axminster, Devon, , England",
+          "death_year": 1592,
+          "death_place": "Misterton, Nottinghamshire, , England",
+          "surname": "Owslie"
+        },
+        {
+          "name": "William Ragsdale",
+          "birth_year": 1534,
+          "birth_place": "Hoveringham, Newark and Sherwood District, Nottinghamshire, England",
+          "death_year": 1615,
+          "death_place": "Kneeton, Rushcliffe Borough, Nottinghamshire, England",
+          "surname": "Ragsdale"
+        },
+        {
+          "name": "Anne Verney",
+          "birth_year": 1535,
+          "birth_place": "Pendley Manor, Tring, Hertfordshire, England",
+          "death_year": 1575,
+          "death_place": "Penley, Hertfordshire, England",
+          "surname": "Verney"
+        }
+      ]
+    },
+    {
+      "cousin_file": "Jenniffer Henslee-1st cousin 1x removed.ged",
+      "cousin_name": "Jenniffer Henslee",
+      "claimed_relationship": "1st cousin 1x removed",
+      "individuals_in_gedcom": 423,
+      "families_in_gedcom": 224,
+      "surname_lines_found": [
+        "Henslee",
+        "Rau",
+        "Stuart"
+      ],
+      "verified_link": true,
+      "side": "paternal",
+      "mrca_with_hunter": {
+        "name": "Lee Stuart Henslee",
+        "birth_year": 1908,
+        "death_year": 1994,
+        "birth_place": "Texas",
+        "surname_line": "Henslee",
+        "anchor_id": "anchor_lee_henslee"
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "//",
+        "Lee Stuart Henslee"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "Lee Stuart Henslee",
+          "anchor_id": "anchor_lee_henslee",
+          "depth": 2,
+          "surname_line": "Henslee",
+          "partial_match": false
+        },
+        {
+          "name": "Frances Virginia Rau Henslee",
+          "anchor_id": "anchor_frances_rau",
+          "depth": 2,
+          "surname_line": "Rau",
+          "partial_match": false
+        },
+        {
+          "name": "James Ernest Henslee",
+          "anchor_id": "anchor_james_henslee",
+          "depth": 3,
+          "surname_line": "Henslee",
+          "partial_match": false
+        },
+        {
+          "name": "Alice Stuart Henslee",
+          "anchor_id": "anchor_mary_alice_stuart",
+          "depth": 3,
+          "surname_line": "Stuart",
+          "partial_match": true
+        },
+        {
+          "name": "Miles Reed Henslee",
+          "anchor_id": "anchor_miles_henslee",
+          "depth": 4,
+          "surname_line": "Henslee",
+          "partial_match": false
+        },
+        {
+          "name": "Lewis Lunsford Stuart",
+          "anchor_id": "anchor_lewis_lunsford_stuart",
+          "depth": 4,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "Nora C. Sale",
+          "anchor_id": "anchor_nora_sale",
+          "depth": 4,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "Enoch Henslee",
+          "anchor_id": "anchor_enoch_henslee",
+          "depth": 7,
+          "surname_line": "Henslee",
+          "partial_match": false
+        },
+        {
+          "name": "Maxfield Henslee",
+          "anchor_id": "anchor_maxfield_henslee",
+          "depth": 9,
+          "surname_line": "Henslee",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'Lee Stuart Henslee' found at depth 2 above cousin in GEDCOM. Matches Hunter anchor 'Lee Stuart Henslee' (b.1908) on paternal side via Henslee line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Edmond Edourd DeGruy",
+          "birth_year": 1490,
+          "birth_place": "France",
+          "death_year": 1550,
+          "death_place": "France",
+          "surname": "DeGruy"
+        },
+        {
+          "name": "Isabeau deBaussancourt",
+          "birth_year": 1491,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "deBaussancourt"
+        },
+        {
+          "name": "Francois De Gruy",
+          "birth_year": 1526,
+          "birth_place": "France",
+          "death_year": null,
+          "death_place": "France",
+          "surname": "De Gruy"
+        },
+        {
+          "name": "Nicolle Hastier",
+          "birth_year": 1528,
+          "birth_place": ", , , France",
+          "death_year": null,
+          "death_place": ", , , France",
+          "surname": "Hastier"
+        },
+        {
+          "name": "Edme (Lord of Pottemont) Verloin de Gruy",
+          "birth_year": 1566,
+          "birth_place": "Potémont, Vailly, Aube, France",
+          "death_year": 1627,
+          "death_place": "France",
+          "surname": "de Gruy"
+        },
+        {
+          "name": "Edmonde De Baussancourt De Bossancourt",
+          "birth_year": 1573,
+          "birth_place": "France",
+          "death_year": 1627,
+          "death_place": "France",
+          "surname": "De Bossancourt"
+        },
+        {
+          "name": "Pierrine Ernoult",
+          "birth_year": 1582,
+          "birth_place": "Loire, Loire, Rhone-Alpes, France",
+          "death_year": 1655,
+          "death_place": "Seine-Maritime, Haute-Normandie, France",
+          "surname": "Ernoult"
+        },
+        {
+          "name": "Mathieu Charles DUVAL",
+          "birth_year": 1584,
+          "birth_place": "St.Jacques, Rouen, Haute Normandie, France",
+          "death_year": 1634,
+          "death_place": "Rouen, Seine-Maritime, Haute-Normandie, France",
+          "surname": "DUVAL"
+        },
+        {
+          "name": "Bastianus Weber",
+          "birth_year": 1591,
+          "birth_place": "Volga, Altai Mountains, Russia",
+          "death_year": 1651,
+          "death_place": "Lengenbeitengen, Wuerttenberg, Germany",
+          "surname": "Weber"
+        },
+        {
+          "name": "Claude Verloin Degruy",
+          "birth_year": 1600,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Degruy"
+        },
+        {
+          "name": "Pierre Duval",
+          "birth_year": 1604,
+          "birth_place": "St Aubar, Normandie, France",
+          "death_year": 1681,
+          "death_place": "L'Islet sur mer Quebec, Canada",
+          "surname": "Duval"
+        },
+        {
+          "name": "Michel Langlois",
+          "birth_year": 1613,
+          "birth_place": "Champagne, Dordogne, Paris, Aquitaine, France",
+          "death_year": 1710,
+          "death_place": "Hémévillers, Oise, Picardie, France",
+          "surname": "Langlois"
+        },
+        {
+          "name": "Elssgen Christ",
+          "birth_year": 1615,
+          "birth_place": "Germany",
+          "death_year": 1728,
+          "death_place": "Hengsberg, Sudwestpfalz, Rheinland-Pfalz, Germany",
+          "surname": "Christ"
+        },
+        {
+          "name": "Catherine Leclerc",
+          "birth_year": 1617,
+          "birth_place": "Auxerre, Yonne, Champagne, France",
+          "death_year": 1717,
+          "death_place": "Paris, City of Paris, Île-de-France, France",
+          "surname": "Leclerc"
+        },
+        {
+          "name": "James (David?) Wilson",
+          "birth_year": 1628,
+          "birth_place": "Anstruther, Fife, Scotland",
+          "death_year": 1748,
+          "death_place": "St Andrews, Fife, Scotland",
+          "surname": "Wilson"
+        },
+        {
+          "name": "Stephanus Helligeer Ehliger",
+          "birth_year": 1628,
+          "birth_place": "Melsele, Oost-Vlaanderen, Belgium",
+          "death_year": 1650,
+          "death_place": "Hengsberg, Sudwestpfalz, Rheinland-Pfalz, Germany",
+          "surname": "Helligeer Ehliger"
+        },
+        {
+          "name": "Jeanne le Perrin (Perry)",
+          "birth_year": 1630,
+          "birth_place": "",
+          "death_year": 1714,
+          "death_place": "",
+          "surname": "le Perrin (Perry)"
+        },
+        {
+          "name": "Marie Agnes Duval",
+          "birth_year": 1630,
+          "birth_place": "Paris, Paris, Ile-de-France, France",
+          "death_year": 1704,
+          "death_place": "L'Ancienne-Lorette, Quebec, Canada",
+          "surname": "Duval"
+        },
+        {
+          "name": "Anna Marie van Eersel",
+          "birth_year": 1630,
+          "birth_place": "Hengsberg, Sudwestpfalz, Rhineland-Palatinate, Germany",
+          "death_year": 1650,
+          "death_place": "Hengsberg, Sudwestpfalz, Rheinland-Pfalz, Germany",
+          "surname": "van Eersel"
+        },
+        {
+          "name": "Johann Peter Weber",
+          "birth_year": 1637,
+          "birth_place": "Germany",
+          "death_year": 1727,
+          "death_place": "Hengsberg, Sudwestpfalz, Rheinland-Pfalz, Germany",
+          "surname": "Weber"
+        }
+      ]
+    },
+    {
+      "cousin_file": "Jess Stuart half 1st cousins 2x removed or 2nd cousin 1x removed paternal side.ged",
+      "cousin_name": "Jess Stuart half 1st cousins 2x removed or 2nd cousin 1x removed paternal side",
+      "claimed_relationship": "unknown",
+      "individuals_in_gedcom": 151,
+      "families_in_gedcom": 84,
+      "surname_lines_found": [
+        "Stuart"
+      ],
+      "verified_link": true,
+      "side": "paternal",
+      "mrca_with_hunter": {
+        "name": "Jesse Weed Stuart",
+        "birth_year": 1914,
+        "death_year": 1994,
+        "birth_place": "Beaumont, Jefferson, Texas, USA",
+        "surname_line": "Stuart",
+        "anchor_id": "anchor_jesse_weed_stuart"
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "Jesse Weed Stuart (b.1914)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "Jesse Weed Stuart",
+          "anchor_id": "anchor_jesse_weed_stuart",
+          "depth": 1,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "Reuben Lucius Stuart",
+          "anchor_id": "anchor_reuben_stuart",
+          "depth": 2,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "Lewis Lunsford Stuart",
+          "anchor_id": "anchor_lewis_lunsford_stuart",
+          "depth": 3,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "Nora Corrigan Sale",
+          "anchor_id": "anchor_nora_sale",
+          "depth": 3,
+          "surname_line": "Stuart",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'Jesse Weed Stuart' found at depth 1 above cousin in GEDCOM. Matches Hunter anchor 'Jesse Weed Stuart' (b.1914) on paternal side via Stuart line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Walter Chiles",
+          "birth_year": 1600,
+          "birth_place": "",
+          "death_year": 1653,
+          "death_place": "",
+          "surname": "Chiles"
+        },
+        {
+          "name": "Rachel ?",
+          "birth_year": 1630,
+          "birth_place": "England",
+          "death_year": 1666,
+          "death_place": "",
+          "surname": "?"
+        },
+        {
+          "name": "John Beall",
+          "birth_year": 1701,
+          "birth_place": "",
+          "death_year": 1756,
+          "death_place": "",
+          "surname": "Beall"
+        },
+        {
+          "name": "Mary Robinson",
+          "birth_year": 1707,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Robinson"
+        },
+        {
+          "name": "William Chiles",
+          "birth_year": 1723,
+          "birth_place": "",
+          "death_year": 1778,
+          "death_place": "",
+          "surname": "Chiles"
+        },
+        {
+          "name": "Josias Beall",
+          "birth_year": 1725,
+          "birth_place": "England",
+          "death_year": 1803,
+          "death_place": "",
+          "surname": "Beall"
+        },
+        {
+          "name": "Millicent Bradley",
+          "birth_year": 1734,
+          "birth_place": "",
+          "death_year": 1772,
+          "death_place": "King George's Parish, Prince George's County, Maryland, Britain",
+          "surname": "Bradley"
+        },
+        {
+          "name": "Anne Hansford",
+          "birth_year": 1735,
+          "birth_place": "",
+          "death_year": 1770,
+          "death_place": "York County, Virginia",
+          "surname": "Hansford"
+        },
+        {
+          "name": "Robert Sale",
+          "birth_year": 1735,
+          "birth_place": "",
+          "death_year": 1770,
+          "death_place": "",
+          "surname": "Sale"
+        },
+        {
+          "name": "John Goodwin",
+          "birth_year": 1739,
+          "birth_place": "Charles Parish, York County, VA",
+          "death_year": 1793,
+          "death_place": "",
+          "surname": "Goodwin"
+        },
+        {
+          "name": "Susan Whitter",
+          "birth_year": 1740,
+          "birth_place": "Charles, Maryland, United States",
+          "death_year": 1793,
+          "death_place": "",
+          "surname": "Whitter"
+        },
+        {
+          "name": "Colonel Richard Richardson",
+          "birth_year": 1741,
+          "birth_place": "",
+          "death_year": 1818,
+          "death_place": "",
+          "surname": "Richardson"
+        },
+        {
+          "name": "Darcus Nelson",
+          "birth_year": 1741,
+          "birth_place": "",
+          "death_year": 1834,
+          "death_place": "",
+          "surname": "Nelson"
+        },
+        {
+          "name": "Mary Allen Chapman",
+          "birth_year": 1747,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Chapman"
+        },
+        {
+          "name": "James Brent",
+          "birth_year": 1750,
+          "birth_place": "Currituck, North Carolina, United States",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Brent"
+        },
+        {
+          "name": "William Marshall",
+          "birth_year": 1750,
+          "birth_place": "Prince George's, Maryland, United States",
+          "death_year": 1796,
+          "death_place": "Charles, Maryland, United States",
+          "surname": "Marshall"
+        },
+        {
+          "name": "Elizabeth",
+          "birth_year": 1755,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Elizabeth"
+        },
+        {
+          "name": "Sarah Curtis",
+          "birth_year": 1762,
+          "birth_place": "Surrey County, North Carolina, United States",
+          "death_year": 1830,
+          "death_place": "Roane, Tennessee, United States",
+          "surname": "Curtis"
+        },
+        {
+          "name": "William Billups",
+          "birth_year": 1763,
+          "birth_place": "",
+          "death_year": 1817,
+          "death_place": "",
+          "surname": "Billups"
+        },
+        {
+          "name": "Mary Richardson",
+          "birth_year": 1763,
+          "birth_place": "",
+          "death_year": 1803,
+          "death_place": "",
+          "surname": "Richardson"
+        }
+      ]
+    },
+    {
+      "cousin_file": "John Williams - half 2nd cousin 2x removed or 2nd cousin 3x removed - unassigned.ged",
+      "cousin_name": "John Williams",
+      "claimed_relationship": "half 2nd cousin 2x removed or 2nd cousin 3x removed - unassigned",
+      "individuals_in_gedcom": 244,
+      "families_in_gedcom": 128,
+      "surname_lines_found": [
+        "Byrd"
+      ],
+      "verified_link": false,
+      "side": "paternal",
+      "mrca_with_hunter": null,
+      "path_from_cousin_to_hunter": [],
+      "all_mrca_candidates": [],
+      "confidence": "unverified",
+      "evidence": "Byrd surname in GEDCOM — but John Williams' Byrd ancestors are a different branch: no Richard Lecurgis Byrd, William Leander Byrd, or John Archie Asner Byrd found in ancestors. Deep ancestors include Walker County Alabama and Prentiss County Mississippi families. No direct Hunter surname anchor. Unassigned in filename — labeled paternal based on filename. Connection unclear; possible very distant Byrd collateral or misassignment.",
+      "new_ancestors_unlocked": [],
+      "side_note": "Unassigned. Byrd surname in file but different Byrd branch from Hunter's confirmed Byrd line."
+    },
+    {
+      "cousin_file": "Karen Cochran - Half 2nd cousin 2x removed or 3rd cousin 1x removed - paternal side.ged",
+      "cousin_name": "Karen Cochran",
+      "claimed_relationship": "Half 2nd cousin 2x removed or 3rd cousin 1x removed - paternal side",
+      "individuals_in_gedcom": 163,
+      "families_in_gedcom": 89,
+      "surname_lines_found": [],
+      "verified_link": false,
+      "side": "paternal",
+      "mrca_with_hunter": null,
+      "path_from_cousin_to_hunter": [],
+      "all_mrca_candidates": [],
+      "confidence": "unverified",
+      "evidence": "No Hunter surname anchors found. Ancestors concentrated in Buncombe/Burke/Catawba/Yancey counties, NC. Wilson, Riddle, Loven, Abee family surnames — no overlap with Hunter's known lines. Labeled paternal in filename. Cannot verify link without additional genealogical research.",
+      "new_ancestors_unlocked": [],
+      "side_note": "Labeled paternal. No surname corroboration found — possibly a very distant collateral match."
+    },
+    {
+      "cousin_file": "KcaMarco-1st Cousin 2x Removed, or half great-grandaunt paternal side.ged",
+      "cousin_name": "KcaMarco",
+      "claimed_relationship": "1st Cousin 2x Removed, or half great-grandaunt paternal side",
+      "individuals_in_gedcom": 664,
+      "families_in_gedcom": 377,
+      "surname_lines_found": [
+        "Byrd",
+        "Spence"
+      ],
+      "verified_link": true,
+      "side": "paternal",
+      "mrca_with_hunter": {
+        "name": "John Archie Asner Byrd",
+        "birth_year": 1868,
+        "death_year": 1928,
+        "birth_place": "Birmingham, Jefferson County, Alabama",
+        "surname_line": "Byrd",
+        "anchor_id": "anchor_john_byrd"
+      },
+      "path_from_cousin_to_hunter": [
+        "Sharon Kay Byrd (b.1944)",
+        "Otha Lee 'Othar' Byrd (b.1902)",
+        "John Archie Asner Byrd (b.1868)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "John Archie Asner Byrd",
+          "anchor_id": "anchor_john_byrd",
+          "depth": 2,
+          "surname_line": "Byrd",
+          "partial_match": false
+        },
+        {
+          "name": "Pvt William Leander 2 Byrd",
+          "anchor_id": "anchor_william_leander_byrd",
+          "depth": 3,
+          "surname_line": "Byrd",
+          "partial_match": true
+        },
+        {
+          "name": "John Howard Byrd",
+          "anchor_id": "anchor_john_byrd",
+          "depth": 5,
+          "surname_line": "Byrd",
+          "partial_match": true
+        },
+        {
+          "name": "Richard George Byrd",
+          "anchor_id": "anchor_richard_lecurgis_byrd",
+          "depth": 8,
+          "surname_line": "Byrd",
+          "partial_match": true
+        },
+        {
+          "name": "John Byrd",
+          "anchor_id": "anchor_john_byrd",
+          "depth": 14,
+          "surname_line": "Byrd",
+          "partial_match": true
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'John Archie Asner Byrd' found at depth 2 above cousin in GEDCOM. Matches Hunter anchor 'John Archie Asner Byrd' (b.1868) on paternal side via Byrd line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Sir Walter Judde",
+          "birth_year": 1400,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Judde"
+        },
+        {
+          "name": "Philippa Chichely",
+          "birth_year": 1400,
+          "birth_place": "London, London, England",
+          "death_year": 1470,
+          "death_place": "Kent, , England",
+          "surname": "Chichely"
+        },
+        {
+          "name": "thomas Lawrence",
+          "birth_year": 1410,
+          "birth_place": "Ashton Hall, Lancashire, , England",
+          "death_year": 1480,
+          "death_place": "Ashton Hall, Lancashire, England",
+          "surname": "Lawrence"
+        },
+        {
+          "name": "Sir William de Cromwell",
+          "birth_year": 1416,
+          "birth_place": "",
+          "death_year": 1477,
+          "death_place": "",
+          "surname": "de Cromwell"
+        },
+        {
+          "name": "Richard Smythe",
+          "birth_year": 1425,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "London, England",
+          "surname": "Smythe"
+        },
+        {
+          "name": "Lady Phillipa",
+          "birth_year": 1428,
+          "birth_place": "London, Middlesex, England",
+          "death_year": 1463,
+          "death_place": "Kent, England",
+          "surname": "//"
+        },
+        {
+          "name": "Joan Cromwell",
+          "birth_year": 1430,
+          "birth_place": "Carlton, Nottinghamshire, England",
+          "death_year": 1485,
+          "death_place": "England, UK",
+          "surname": "Cromwell"
+        },
+        {
+          "name": "Arthur Lawrence",
+          "birth_year": 1445,
+          "birth_place": "Chelsea,Middlesex County,England",
+          "death_year": 1532,
+          "death_place": "Chelsea,Middlesex. England",
+          "surname": "Lawrence"
+        },
+        {
+          "name": "SirJohn Nicholas 1 Page",
+          "birth_year": 1448,
+          "birth_place": "Devonshire,England",
+          "death_year": 1543,
+          "death_place": "London, Middlesex, England",
+          "surname": "Page"
+        },
+        {
+          "name": "Lady Janet Countless of Tullibardine Keith",
+          "birth_year": 1449,
+          "birth_place": "Dunnottar Castle, Stonehaven, Kincardineshire, Scotland",
+          "death_year": 1483,
+          "death_place": "Athross, West Lothian, Scotland",
+          "surname": "Keith"
+        },
+        {
+          "name": "Mabel",
+          "birth_year": 1450,
+          "birth_place": "Chelsea,Middlesex. England",
+          "death_year": 1540,
+          "death_place": "Chelsea,Middlesex. England",
+          "surname": "//"
+        },
+        {
+          "name": "Sir John Oliver Judde, Lord Game Keeper of Knolle Parish",
+          "birth_year": 1454,
+          "birth_place": "Tonbridge, Kent, England",
+          "death_year": 1493,
+          "death_place": "Tonbridge, Kent, England",
+          "surname": "Judde, Lord Game Keeper of Knolle Parish"
+        },
+        {
+          "name": "Cicily Daniel",
+          "birth_year": 1455,
+          "birth_place": "Arlessey, Bedfordshire, England",
+          "death_year": 1522,
+          "death_place": "Bedfordshire, England",
+          "surname": "Daniel"
+        },
+        {
+          "name": "Danielle Wesley",
+          "birth_year": 1460,
+          "birth_place": "West Wolsey, Surrey, England",
+          "death_year": 1561,
+          "death_place": "England",
+          "surname": "Wesley"
+        },
+        {
+          "name": "Lady Mary Margaret Chyche Chiche",
+          "birth_year": 1462,
+          "birth_place": "Goodnestone Manor, Tunbridge, Kent, England",
+          "death_year": 1500,
+          "death_place": "Goodnestone Manor, Tunbridge, Kent, England",
+          "surname": "Chyche Chiche"
+        },
+        {
+          "name": "Sir John Nicholas 2 (of Wembley) Page",
+          "birth_year": 1466,
+          "birth_place": "Wembley Manor, Wembley, Middlesex, England",
+          "death_year": 1543,
+          "death_place": "Wembley Manor, Wembley, Middlesex, England",
+          "surname": "Page"
+        },
+        {
+          "name": "Robert Halifax Savile",
+          "birth_year": 1470,
+          "birth_place": "Clifton, Yorkshire, England",
+          "death_year": 1545,
+          "death_place": "Yorkshire, England",
+          "surname": "Savile"
+        },
+        {
+          "name": "Joan Oates",
+          "birth_year": 1470,
+          "birth_place": "Riding, Northumberland, , England",
+          "death_year": 1501,
+          "death_place": "Yorkshire, England",
+          "surname": "Oates"
+        },
+        {
+          "name": "Agnes Rishworth",
+          "birth_year": 1474,
+          "birth_place": "Coley Hall, West Riding, Yorkshire, England",
+          "death_year": 1542,
+          "death_place": "West Riding, Yorkshire, England",
+          "surname": "Rishworth"
+        },
+        {
+          "name": "John of Skircote Waterhouse",
+          "birth_year": 1476,
+          "birth_place": "Halifax, Metropolitan Borough of Calderdale, West Yorkshire, England",
+          "death_year": 1533,
+          "death_place": "Halifax, Metropolitan Borough of Calderdale, West Yorkshire, England",
+          "surname": "Waterhouse"
+        }
+      ]
+    },
+    {
+      "cousin_file": "Kelly Patton - half 2nd cousin 1x removed or 2nd cousin 2x removed - maternal side.ged",
+      "cousin_name": "Kelly Patton",
+      "claimed_relationship": "half 2nd cousin 1x removed or 2nd cousin 2x removed - maternal side",
+      "individuals_in_gedcom": 238,
+      "families_in_gedcom": 121,
+      "surname_lines_found": [
+        "Herron",
+        "Vincent"
+      ],
+      "verified_link": true,
+      "side": "maternal",
+      "mrca_with_hunter": {
+        "name": "William Woodville Herron",
+        "birth_year": 1885,
+        "death_year": 1970,
+        "birth_place": "Union Grove, Marshall, Alabama, USA",
+        "surname_line": "Stuart",
+        "anchor_id": "anchor_william_woodville_herron",
+        "notes": "b.1885 Union Grove Marshall Alabama. Shared ancestor confirmed via multiple cousin GEDCOMs. Probable connection to Hunter via a shared pre-Civil-War ancestor in the Herron/Stuart/Weed network of Burleson County TX / Alabama families. The exact generational link between William Woodville Herron and Hunter's direct Stuart line (Mary Alice Stuart b.1887 Caldwell Burleson TX) requires further research — they may share Lewis Lunsford Stuart b.1830 or an earlier common ancestor."
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "//",
+        "Katie Lee Herron (b.1914)",
+        "William Woodville Herron (b.1885)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "William Woodville Herron",
+          "anchor_id": "anchor_william_woodville_herron",
+          "depth": 3,
+          "surname_line": "Stuart",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'William Woodville Herron' found at depth 3 above cousin in GEDCOM. Matches Hunter anchor 'William Woodville Herron' (b.1885) on paternal side via Stuart line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Robert Washington",
+          "birth_year": 1544,
+          "birth_place": "Sulgrave, Nrthnts, England",
+          "death_year": 1621,
+          "death_place": "Nether Bodington, Northampton, England?",
+          "surname": "Washington"
+        },
+        {
+          "name": "Elizabeth Light",
+          "birth_year": 1547,
+          "birth_place": "Radway Grange, Warwicks, England",
+          "death_year": 1599,
+          "death_place": "",
+          "surname": "Light"
+        },
+        {
+          "name": "Lawrence WASHINGTON",
+          "birth_year": 1568,
+          "birth_place": "Sulgrave, Northamptonshire, England",
+          "death_year": 1616,
+          "death_place": "Brington, Northhamptonshire, England",
+          "surname": "WASHINGTON"
+        },
+        {
+          "name": "Margaret Butler",
+          "birth_year": 1568,
+          "birth_place": "Tyes Hall, Sussex, England",
+          "death_year": 1652,
+          "death_place": "East, Hadden, Northhamptonshire, England",
+          "surname": "Butler"
+        },
+        {
+          "name": "Thomas Henshaw",
+          "birth_year": 1589,
+          "birth_place": "Sussex, England",
+          "death_year": 1624,
+          "death_place": "Surry, Surry County, Virginia, United States of America",
+          "surname": "Henshaw"
+        },
+        {
+          "name": "Elizabeth Cressor",
+          "birth_year": 1589,
+          "birth_place": "Avon, Warwickshire, England",
+          "death_year": 1617,
+          "death_place": "Surry, Surry County, Virginia, USA",
+          "surname": "Cressor"
+        },
+        {
+          "name": "Richard WASHINGTON",
+          "birth_year": 1592,
+          "birth_place": "Brington, Northhampton, England",
+          "death_year": 1642,
+          "death_place": "Kings, Stanley, Gloucester, Gloucestershire, England",
+          "surname": "WASHINGTON"
+        },
+        {
+          "name": "William Neely",
+          "birth_year": 1596,
+          "birth_place": "Ireland",
+          "death_year": 1666,
+          "death_place": "Ulster, County Donegal, Ireland",
+          "surname": "Neely"
+        },
+        {
+          "name": "Francesca Browne",
+          "birth_year": 1600,
+          "birth_place": "London, England",
+          "death_year": 1645,
+          "death_place": "London, England",
+          "surname": "Browne"
+        },
+        {
+          "name": "Margaret Sarah Mitchell McKill",
+          "birth_year": 1605,
+          "birth_place": "Ireland",
+          "death_year": 1665,
+          "death_place": "Ireland",
+          "surname": "Mitchell McKill"
+        },
+        {
+          "name": "Henry Briggs Briggs",
+          "birth_year": 1608,
+          "birth_place": "Gravesend, Kent, , England",
+          "death_year": 1686,
+          "death_place": "Surry, Surry, Virginia, United States",
+          "surname": "Briggs"
+        },
+        {
+          "name": "Margery Margaret Henshaw",
+          "birth_year": 1617,
+          "birth_place": "Warwickshire, England",
+          "death_year": 1688,
+          "death_place": "Surry, Surry, Virginia, United States",
+          "surname": "Henshaw"
+        },
+        {
+          "name": "John Horner",
+          "birth_year": 1630,
+          "birth_place": "Tadcaster, Yorkshire, , England",
+          "death_year": 1689,
+          "death_place": "White Hill, Burlington, New Jersey, United States",
+          "surname": "Horner"
+        },
+        {
+          "name": "Elizabeth Barwinn Bevin",
+          "birth_year": 1630,
+          "birth_place": "James City County, Virginia, United States of America",
+          "death_year": 1698,
+          "death_place": "Southwark, Surry County, Virginia, USA",
+          "surname": "Bevin"
+        },
+        {
+          "name": "John WASHINGTON",
+          "birth_year": 1632,
+          "birth_place": "Thrapston, Northamptonshire, England",
+          "death_year": 1660,
+          "death_place": "Surry Co, VA",
+          "surname": "WASHINGTON"
+        },
+        {
+          "name": "Arthur H Jordan, Il",
+          "birth_year": 1634,
+          "birth_place": "Surry, VA",
+          "death_year": 1698,
+          "death_place": "Jamestown, James City County, Virginia, United States of America",
+          "surname": "Jordan, Il"
+        },
+        {
+          "name": "Henry Briggs",
+          "birth_year": 1635,
+          "birth_place": "Southwark Parish, Surry, Virginia, United States",
+          "death_year": 1686,
+          "death_place": "Surry, Surry, Virginia, United States",
+          "surname": "Briggs"
+        },
+        {
+          "name": "Mary Flood",
+          "birth_year": 1635,
+          "birth_place": "James City, VA, Colony",
+          "death_year": 1681,
+          "death_place": "Surrey, Virginia, United States",
+          "surname": "Flood"
+        },
+        {
+          "name": "Robert Murfin",
+          "birth_year": 1635,
+          "birth_place": "Eaton, Nottinghamshire, England",
+          "death_year": 1699,
+          "death_place": "Burlington County, NJ",
+          "surname": "Murfin"
+        },
+        {
+          "name": "Nancy Neely*",
+          "birth_year": 1637,
+          "birth_place": "Ulster, Donegal, , Ireland",
+          "death_year": 1700,
+          "death_place": "Donegal, Ireland",
+          "surname": "Neely*"
+        }
+      ]
+    },
+    {
+      "cousin_file": "L.B. - half 2nd cousin 2x removed or 3rd cousin 1x removed - paternal side.ged",
+      "cousin_name": "L.B.",
+      "claimed_relationship": "half 2nd cousin 2x removed or 3rd cousin 1x removed - paternal side",
+      "individuals_in_gedcom": 178,
+      "families_in_gedcom": 93,
+      "surname_lines_found": [
+        "Byrd"
+      ],
+      "verified_link": true,
+      "side": "paternal",
+      "mrca_with_hunter": {
+        "name": "Richard Lecurgis Byrd",
+        "birth_year": 1860,
+        "death_year": 1939,
+        "birth_place": "Franklin County, Alabama, USA",
+        "surname_line": "Byrd",
+        "anchor_id": "anchor_richard_lecurgis_byrd"
+      },
+      "path_from_cousin_to_hunter": [
+        "La Nae Byrd (b.1942)",
+        "Woodrow Wilson Byrd (b.1912)",
+        "Richard Lecurgis Byrd (b.1860)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "Richard Lecurgis Byrd",
+          "anchor_id": "anchor_richard_lecurgis_byrd",
+          "depth": 2,
+          "surname_line": "Byrd",
+          "partial_match": false
+        },
+        {
+          "name": "William Leander Byrd",
+          "anchor_id": "anchor_william_leander_byrd",
+          "depth": 3,
+          "surname_line": "Byrd",
+          "partial_match": false
+        },
+        {
+          "name": "Margaret Rhetta Peradeau",
+          "anchor_id": "anchor_margarete_byrd",
+          "depth": 3,
+          "surname_line": "Byrd",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'Richard Lecurgis Byrd' found at depth 2 above cousin in GEDCOM. Matches Hunter anchor 'Richard Lecurgis Byrd' (b.1860) on paternal side via Byrd line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Joseph Royall",
+          "birth_year": 1442,
+          "birth_place": ", , , England",
+          "death_year": 1522,
+          "death_place": ", Essex, , England",
+          "surname": "Royall"
+        },
+        {
+          "name": "Royall",
+          "birth_year": 1445,
+          "birth_place": ", , , England",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Royall"
+        },
+        {
+          "name": "John Royall",
+          "birth_year": 1467,
+          "birth_place": ", , , England",
+          "death_year": 1519,
+          "death_place": ", , , England",
+          "surname": "Royall"
+        },
+        {
+          "name": "Lucitte Royall",
+          "birth_year": 1475,
+          "birth_place": ", , , England",
+          "death_year": 1525,
+          "death_place": ", , , England",
+          "surname": "Royall"
+        },
+        {
+          "name": "Roger Royall",
+          "birth_year": 1493,
+          "birth_place": "Essex, Essex, Massachusetts, United States",
+          "death_year": 1562,
+          "death_place": "Fairstead Parish, Essex, , England",
+          "surname": "Royall"
+        },
+        {
+          "name": "Nancy Royall",
+          "birth_year": 1495,
+          "birth_place": ", , , England",
+          "death_year": 1565,
+          "death_place": ", , , England",
+          "surname": "Royall"
+        },
+        {
+          "name": "John Royall",
+          "birth_year": 1521,
+          "birth_place": ", Essex, , England",
+          "death_year": 1576,
+          "death_place": ", Essex, , England",
+          "surname": "Royall"
+        },
+        {
+          "name": "Lea Gagnon",
+          "birth_year": 1525,
+          "birth_place": ", , , England",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Gagnon"
+        },
+        {
+          "name": "John Nichols",
+          "birth_year": 1542,
+          "birth_place": "Sedgeberrow, Worcestershire, England",
+          "death_year": 1597,
+          "death_place": "Sedgeberrow, Worcestershire, England",
+          "surname": "Nichols"
+        },
+        {
+          "name": "Joseph Royall",
+          "birth_year": 1550,
+          "birth_place": "London, London, , England",
+          "death_year": 1615,
+          "death_place": "London, London, , England",
+          "surname": "Royall"
+        },
+        {
+          "name": "Angeline Royall",
+          "birth_year": 1550,
+          "birth_place": "London, London, , England",
+          "death_year": 1620,
+          "death_place": "London, London, , England",
+          "surname": "Royall"
+        },
+        {
+          "name": "Leonard Musgrave",
+          "birth_year": 1550,
+          "birth_place": "Hayton Castle, Cumberland, England",
+          "death_year": 1607,
+          "death_place": "Hayton Castle, Cumberland, England",
+          "surname": "Musgrave"
+        },
+        {
+          "name": "Joan Goodwith",
+          "birth_year": 1555,
+          "birth_place": "Sedgeberrow, Worcestershire, England",
+          "death_year": 1627,
+          "death_place": "Sedgeberrow, Worcestershire, England",
+          "surname": "Goodwith"
+        },
+        {
+          "name": "Sir John Thomas Wales Claye",
+          "birth_year": 1558,
+          "birth_place": "Westbury, Wiltshire, England",
+          "death_year": 1632,
+          "death_place": "Yorkshire, England",
+          "surname": "Claye"
+        },
+        {
+          "name": "Blankenship   Blenkinsopp",
+          "birth_year": 1560,
+          "birth_place": "Northumberland, England",
+          "death_year": null,
+          "death_place": "Northumberland, England",
+          "surname": "Blankenship   Blenkinsopp"
+        },
+        {
+          "name": "Lady Mary Carlton Baroness Wales",
+          "birth_year": 1566,
+          "birth_place": "Wingerworth, Derbyshire, England",
+          "death_year": 1587,
+          "death_place": "England",
+          "surname": "Carlton Baroness Wales"
+        },
+        {
+          "name": "Rosy B Blankinsopp",
+          "birth_year": 1580,
+          "birth_place": "Northumberland, England",
+          "death_year": null,
+          "death_place": "Northumberland, England",
+          "surname": "Blankinsopp"
+        },
+        {
+          "name": "Captain John Thomas Clay",
+          "birth_year": 1587,
+          "birth_place": "Monmouthshire, Wales",
+          "death_year": 1655,
+          "death_place": "Charles City, Charles, Virginia, United States",
+          "surname": "Clay"
+        },
+        {
+          "name": "Ann Nichols",
+          "birth_year": 1590,
+          "birth_place": "Sedgeberrow, Worcestershire, England",
+          "death_year": 1660,
+          "death_place": "Charles City, Charles, Virginia, United States",
+          "surname": "Nichols"
+        },
+        {
+          "name": "John Christopher Banks",
+          "birth_year": 1593,
+          "birth_place": "Canterbury, Kent, England",
+          "death_year": 1650,
+          "death_place": "Canterbury, Kent, England",
+          "surname": "Banks"
+        }
+      ]
+    },
+    {
+      "cousin_file": "Linda Coleman - 1st cousin 2x removed or half great grandaunt.ged",
+      "cousin_name": "Linda Coleman",
+      "claimed_relationship": "1st cousin 2x removed or half great grandaunt",
+      "individuals_in_gedcom": 13,
+      "families_in_gedcom": 6,
+      "surname_lines_found": [
+        "Herron"
+      ],
+      "verified_link": true,
+      "side": "paternal",
+      "mrca_with_hunter": {
+        "name": "William Woodville Herron",
+        "birth_year": 1885,
+        "death_year": 1970,
+        "birth_place": "Union Grove, Marshall, Alabama, USA",
+        "surname_line": "Stuart",
+        "anchor_id": "anchor_william_woodville_herron",
+        "notes": "b.1885 Union Grove Marshall Alabama. Shared ancestor confirmed via multiple cousin GEDCOMs. Probable connection to Hunter via a shared pre-Civil-War ancestor in the Herron/Stuart/Weed network of Burleson County TX / Alabama families. The exact generational link between William Woodville Herron and Hunter's direct Stuart line (Mary Alice Stuart b.1887 Caldwell Burleson TX) requires further research — they may share Lewis Lunsford Stuart b.1830 or an earlier common ancestor."
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "Wayne Woodville Herron (b.1916)",
+        "William Woodville Herron (b.1885)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "William Woodville Herron",
+          "anchor_id": "anchor_william_woodville_herron",
+          "depth": 2,
+          "surname_line": "Stuart",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'William Woodville Herron' found at depth 2 above cousin in GEDCOM. Matches Hunter anchor 'William Woodville Herron' (b.1885) on paternal side via Stuart line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Catherine (Kate) Rebecca Hauck",
+          "birth_year": 1860,
+          "birth_place": "Baltimore, Maryland, USA",
+          "death_year": 1925,
+          "death_place": "Onancock, Accomack, Virginia, USA",
+          "surname": "Hauck"
+        },
+        {
+          "name": "John William Crockett",
+          "birth_year": 1864,
+          "birth_place": "Accomack, Virginia, USA",
+          "death_year": 1929,
+          "death_place": "Norfolk, Norfolk, Virginia, USA",
+          "surname": "Crockett"
+        },
+        {
+          "name": "Barlett White",
+          "birth_year": null,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "White"
+        },
+        {
+          "name": "Ellen Thomas",
+          "birth_year": null,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Thomas"
+        },
+        {
+          "name": "Augustus Hawk",
+          "birth_year": null,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Hawk"
+        },
+        {
+          "name": "Kate Kelso",
+          "birth_year": null,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Kelso"
+        }
+      ]
+    },
+    {
+      "cousin_file": "M.P. - 1st cousin 2x removed or half great-grandaunt - maternal side.ged",
+      "cousin_name": "M.P.",
+      "claimed_relationship": "1st cousin 2x removed or half great-grandaunt - maternal side",
+      "individuals_in_gedcom": 107,
+      "families_in_gedcom": 56,
+      "surname_lines_found": [
+        "Herron",
+        "Vincent"
+      ],
+      "verified_link": true,
+      "side": "maternal",
+      "mrca_with_hunter": {
+        "name": "William Woodville Herron",
+        "birth_year": 1886,
+        "death_year": 1970,
+        "birth_place": "Alabama",
+        "surname_line": "Stuart",
+        "anchor_id": "anchor_william_woodville_herron",
+        "notes": "b.1885 Union Grove Marshall Alabama. Shared ancestor confirmed via multiple cousin GEDCOMs. Probable connection to Hunter via a shared pre-Civil-War ancestor in the Herron/Stuart/Weed network of Burleson County TX / Alabama families. The exact generational link between William Woodville Herron and Hunter's direct Stuart line (Mary Alice Stuart b.1887 Caldwell Burleson TX) requires further research — they may share Lewis Lunsford Stuart b.1830 or an earlier common ancestor."
+      },
+      "path_from_cousin_to_hunter": [
+        "Marietta Vincent (b.1936)",
+        "Katie Lee Herron (b.1914)",
+        "William Woodville \"Woody\" Herron (b.1886)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "William Woodville \"Woody\" Herron",
+          "anchor_id": "anchor_william_woodville_herron",
+          "depth": 2,
+          "surname_line": "Stuart",
+          "partial_match": true
+        }
+      ],
+      "confidence": "probable",
+      "evidence": "'William Woodville \"Woody\" Herron' found at depth 2 above cousin in GEDCOM. Matches Hunter anchor 'William Woodville Herron' (b.1885) on paternal side via Stuart line. [Partial name match — verify manually.]",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Arthur Jordan",
+          "birth_year": 1626,
+          "birth_place": "England",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Jordan"
+        },
+        {
+          "name": "Capt. Henry Briggs",
+          "birth_year": 1635,
+          "birth_place": "",
+          "death_year": 1686,
+          "death_place": "Surry County, Virginia, United States of America",
+          "surname": "Briggs"
+        },
+        {
+          "name": "Mary Flood",
+          "birth_year": 1635,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Flood"
+        },
+        {
+          "name": "Richard Washington",
+          "birth_year": 1660,
+          "birth_place": "Surry County, VA",
+          "death_year": 1725,
+          "death_place": "Southwark Parish, Surry Co, VA",
+          "surname": "Washington"
+        },
+        {
+          "name": "Henry Briggs",
+          "birth_year": 1662,
+          "birth_place": "Surry County, Virginia, USA",
+          "death_year": 1739,
+          "death_place": "Surry County, Virginia, USA",
+          "surname": "Briggs"
+        },
+        {
+          "name": "Elizabeth Jordan",
+          "birth_year": 1662,
+          "birth_place": "Southwark Parish, Surry, VA",
+          "death_year": null,
+          "death_place": "Surry, VA",
+          "surname": "Jordan"
+        },
+        {
+          "name": "Jacob Flournoy",
+          "birth_year": 1663,
+          "birth_place": "Genève, Genève, Zwitserland",
+          "death_year": 1725,
+          "death_place": "Henrico County, Virginia, USA",
+          "surname": "Flournoy"
+        },
+        {
+          "name": "Martha Morel",
+          "birth_year": 1663,
+          "birth_place": "Genève, Genève, Zwitserland",
+          "death_year": 1695,
+          "death_place": "Berlincourt, Bern, Zwitserland",
+          "surname": "Morel"
+        },
+        {
+          "name": "Elizabeth Lucas",
+          "birth_year": 1665,
+          "birth_place": "Surry, Surry, Virginia, USA",
+          "death_year": 1739,
+          "death_place": "Surry, Surry, Virginia, USA",
+          "surname": "Lucas"
+        },
+        {
+          "name": "Peter Stocker",
+          "birth_year": 1682,
+          "birth_place": "Switzerland",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Stocker"
+        },
+        {
+          "name": "Anna E.",
+          "birth_year": 1684,
+          "birth_place": "Switzerland",
+          "death_year": null,
+          "death_place": "",
+          "surname": "//"
+        },
+        {
+          "name": "Francis (Francois) Flournoy",
+          "birth_year": 1686,
+          "birth_place": "Geneva, Geneve, Switzerland",
+          "death_year": 1773,
+          "death_place": "Midlothian, Chesterfield County, Virginia, United States of America",
+          "surname": "Flournoy"
+        },
+        {
+          "name": "Josiah Barker",
+          "birth_year": 1686,
+          "birth_place": "Surry County, Virginia, United States of America",
+          "death_year": 1761,
+          "death_place": "Surry County, Virginia, United States of America",
+          "surname": "Barker"
+        },
+        {
+          "name": "Heinrich Stentz",
+          "birth_year": 1690,
+          "birth_place": "Insheim, Impflingen, Pfatz, Germany",
+          "death_year": 1758,
+          "death_place": "York, York, Pennsylvania, USA",
+          "surname": "Stentz"
+        },
+        {
+          "name": "Mary Martha Gibson",
+          "birth_year": 1691,
+          "birth_place": "Chesterfield County, Virginia, United States of America",
+          "death_year": 1773,
+          "death_place": "Chesterfield County, Virginia, United States of America",
+          "surname": "Gibson"
+        },
+        {
+          "name": "Maria Dorothea Bosserth",
+          "birth_year": 1702,
+          "birth_place": "Pfaltz, Germany",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Bosserth"
+        },
+        {
+          "name": "Faith Washington",
+          "birth_year": 1703,
+          "birth_place": "VA",
+          "death_year": 1787,
+          "death_place": "",
+          "surname": "Washington"
+        },
+        {
+          "name": "Velten (Valentine) Schultz",
+          "birth_year": 1710,
+          "birth_place": "Northern Germany?",
+          "death_year": 1745,
+          "death_place": "Manchester township, Lancaster, Lancaster, Pennsylvania, USA",
+          "surname": "Schultz"
+        },
+        {
+          "name": "Maria Eva Stocker",
+          "birth_year": 1716,
+          "birth_place": "Switzerland?",
+          "death_year": 1777,
+          "death_place": "",
+          "surname": "Stocker"
+        },
+        {
+          "name": "Priscilla Briggs",
+          "birth_year": 1720,
+          "birth_place": "Surry, Surry, Virginia, USA",
+          "death_year": 1787,
+          "death_place": "Wake County, North Carolina, USA",
+          "surname": "Briggs"
+        }
+      ]
+    },
+    {
+      "cousin_file": "R.W. - half 2nd cousin 2x removed or 2nd cousin 3x removed - Paternal Side.ged",
+      "cousin_name": "R.W.",
+      "claimed_relationship": "half 2nd cousin 2x removed or 2nd cousin 3x removed - Paternal Side",
+      "individuals_in_gedcom": 121,
+      "families_in_gedcom": 67,
+      "surname_lines_found": [],
+      "verified_link": false,
+      "side": "paternal",
+      "mrca_with_hunter": null,
+      "path_from_cousin_to_hunter": [],
+      "all_mrca_candidates": [],
+      "confidence": "unverified",
+      "evidence": "@I1@ is Ruth Virginia 'Ginny' WATERS b.1932 Pontotoc Mississippi — not redacted. Ancestors are Waters, Pannell families from Pontotoc/Chickasaw counties MS and Perry County Alabama. No Hunter surname anchors found. Labeled paternal in filename. Waters/Pannell/Chitwood families show no overlap with Henslee, Byrd, Stuart, Rau, or Spence lines. Possible misassignment, or connection via a deep colonial ancestor not yet in entities.json.",
+      "new_ancestors_unlocked": [],
+      "side_note": "Labeled paternal. Ruth Virginia Waters b.1932 Pontotoc MS. No Hunter surname overlap found."
+    },
+    {
+      "cousin_file": "Reba Vincent Patton Jackson - 2nd cousin 1x removed or half 1st cousin 2x removed.ged",
+      "cousin_name": "Reba Vincent Patton Jackson",
+      "claimed_relationship": "2nd cousin 1x removed or half 1st cousin 2x removed",
+      "individuals_in_gedcom": 153,
+      "families_in_gedcom": 78,
+      "surname_lines_found": [
+        "Herron",
+        "Vincent"
+      ],
+      "verified_link": true,
+      "side": "paternal",
+      "mrca_with_hunter": {
+        "name": "William Woodville Herron",
+        "birth_year": 1885,
+        "death_year": 1970,
+        "birth_place": "Union Grove, Marshall, Alabama, USA",
+        "surname_line": "Stuart",
+        "anchor_id": "anchor_william_woodville_herron",
+        "notes": "b.1885 Union Grove Marshall Alabama. Shared ancestor confirmed via multiple cousin GEDCOMs. Probable connection to Hunter via a shared pre-Civil-War ancestor in the Herron/Stuart/Weed network of Burleson County TX / Alabama families. The exact generational link between William Woodville Herron and Hunter's direct Stuart line (Mary Alice Stuart b.1887 Caldwell Burleson TX) requires further research — they may share Lewis Lunsford Stuart b.1830 or an earlier common ancestor."
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "Katie Lee Herron (b.1914)",
+        "William Woodville Herron (b.1885)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "William Woodville Herron",
+          "anchor_id": "anchor_william_woodville_herron",
+          "depth": 2,
+          "surname_line": "Stuart",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'William Woodville Herron' found at depth 2 above cousin in GEDCOM. Matches Hunter anchor 'William Woodville Herron' (b.1885) on paternal side via Stuart line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Robert Washington",
+          "birth_year": 1544,
+          "birth_place": "Sulgrave, Nrthnts, England",
+          "death_year": 1621,
+          "death_place": "Nether Bodington, Northampton, England?",
+          "surname": "Washington"
+        },
+        {
+          "name": "Elizabeth Light",
+          "birth_year": 1547,
+          "birth_place": "Radway Grange, Warwicks, England",
+          "death_year": 1599,
+          "death_place": "",
+          "surname": "Light"
+        },
+        {
+          "name": "Lawrence WASHINGTON",
+          "birth_year": 1568,
+          "birth_place": "Sulgrave, Northamptonshire, England",
+          "death_year": 1616,
+          "death_place": "Brington, Northhamptonshire, England",
+          "surname": "WASHINGTON"
+        },
+        {
+          "name": "Margaret Butler",
+          "birth_year": 1568,
+          "birth_place": "Tyes Hall, Sussex, England",
+          "death_year": 1652,
+          "death_place": "East, Hadden, Northhamptonshire, England",
+          "surname": "Butler"
+        },
+        {
+          "name": "Thomas Henshaw",
+          "birth_year": 1589,
+          "birth_place": "Sussex, England",
+          "death_year": 1624,
+          "death_place": "Surry, Surry County, Virginia, United States of America",
+          "surname": "Henshaw"
+        },
+        {
+          "name": "Elizabeth Cressor",
+          "birth_year": 1589,
+          "birth_place": "Avon, Warwickshire, England",
+          "death_year": 1617,
+          "death_place": "Surry, Surry County, Virginia, USA",
+          "surname": "Cressor"
+        },
+        {
+          "name": "Richard WASHINGTON",
+          "birth_year": 1592,
+          "birth_place": "Brington, Northhampton, England",
+          "death_year": 1642,
+          "death_place": "Kings, Stanley, Gloucester, Gloucestershire, England",
+          "surname": "WASHINGTON"
+        },
+        {
+          "name": "Francesca Browne",
+          "birth_year": 1600,
+          "birth_place": "London, England",
+          "death_year": 1645,
+          "death_place": "London, England",
+          "surname": "Browne"
+        },
+        {
+          "name": "Henry Briggs Briggs",
+          "birth_year": 1608,
+          "birth_place": "Gravesend, Kent, , England",
+          "death_year": 1686,
+          "death_place": "Surry, Surry, Virginia, United States",
+          "surname": "Briggs"
+        },
+        {
+          "name": "Margery Margaret Henshaw",
+          "birth_year": 1617,
+          "birth_place": "Warwickshire, England",
+          "death_year": 1688,
+          "death_place": "Surry, Surry, Virginia, United States",
+          "surname": "Henshaw"
+        },
+        {
+          "name": "John Horner",
+          "birth_year": 1630,
+          "birth_place": "Tadcaster, Yorkshire, , England",
+          "death_year": 1689,
+          "death_place": "White Hill, Burlington, New Jersey, United States",
+          "surname": "Horner"
+        },
+        {
+          "name": "Elizabeth Barwinn Bevin",
+          "birth_year": 1630,
+          "birth_place": "James City County, Virginia, United States of America",
+          "death_year": 1698,
+          "death_place": "Southwark, Surry County, Virginia, USA",
+          "surname": "Bevin"
+        },
+        {
+          "name": "John WASHINGTON",
+          "birth_year": 1632,
+          "birth_place": "Thrapston, Northamptonshire, England",
+          "death_year": 1660,
+          "death_place": "Surry Co, VA",
+          "surname": "WASHINGTON"
+        },
+        {
+          "name": "Arthur H Jordan, Il",
+          "birth_year": 1634,
+          "birth_place": "Surry, VA",
+          "death_year": 1698,
+          "death_place": "Jamestown, James City County, Virginia, United States of America",
+          "surname": "Jordan, Il"
+        },
+        {
+          "name": "Henry Briggs",
+          "birth_year": 1635,
+          "birth_place": "Southwark Parish, Surry, Virginia, United States",
+          "death_year": 1686,
+          "death_place": "Surry, Surry, Virginia, United States",
+          "surname": "Briggs"
+        },
+        {
+          "name": "Mary Flood",
+          "birth_year": 1635,
+          "birth_place": "James City, VA, Colony",
+          "death_year": 1681,
+          "death_place": "Surrey, Virginia, United States",
+          "surname": "Flood"
+        },
+        {
+          "name": "Robert Murfin",
+          "birth_year": 1635,
+          "birth_place": "Eaton, Nottinghamshire, England",
+          "death_year": 1699,
+          "death_place": "Burlington County, NJ",
+          "surname": "Murfin"
+        },
+        {
+          "name": "Grace Beckwith",
+          "birth_year": 1646,
+          "birth_place": "Surry, Surry, Virginia, United States",
+          "death_year": 1720,
+          "death_place": "Surry, Surry, Virginia, United States",
+          "surname": "Beckwith"
+        },
+        {
+          "name": "Ann Lee",
+          "birth_year": 1650,
+          "birth_place": "Eaton, Nottinghamshire, England",
+          "death_year": 1701,
+          "death_place": "Burlington County, NJ",
+          "surname": "Lee"
+        },
+        {
+          "name": "William W. Lucas",
+          "birth_year": 1654,
+          "birth_place": "Surry, Virginia, United States",
+          "death_year": 1717,
+          "death_place": "Surry, Surry, Virginia, United States",
+          "surname": "Lucas"
+        }
+      ]
+    },
+    {
+      "cousin_file": "Steven Stuart - 2nd cousin 1x removed or half 1st cousin 2x removed - paternal side.ged",
+      "cousin_name": "Steven Stuart",
+      "claimed_relationship": "2nd cousin 1x removed or half 1st cousin 2x removed - paternal side",
+      "individuals_in_gedcom": 194,
+      "families_in_gedcom": 103,
+      "surname_lines_found": [
+        "Stuart"
+      ],
+      "verified_link": true,
+      "side": "paternal",
+      "mrca_with_hunter": {
+        "name": "Jesse Weed Stuart",
+        "birth_year": 1914,
+        "death_year": 1994,
+        "birth_place": "Beaumont, Jefferson, Texas, USA",
+        "surname_line": "Stuart",
+        "anchor_id": "anchor_jesse_weed_stuart"
+      },
+      "path_from_cousin_to_hunter": [
+        "//",
+        "//",
+        "Jesse Weed Stuart (b.1914)"
+      ],
+      "all_mrca_candidates": [
+        {
+          "name": "Jesse Weed Stuart",
+          "anchor_id": "anchor_jesse_weed_stuart",
+          "depth": 2,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "Reuben Lucius Stuart",
+          "anchor_id": "anchor_reuben_stuart",
+          "depth": 3,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "Lewis Lunford Stuart",
+          "anchor_id": "anchor_lewis_lunsford_stuart",
+          "depth": 4,
+          "surname_line": "Stuart",
+          "partial_match": false
+        },
+        {
+          "name": "Nora Corrigan Sale",
+          "anchor_id": "anchor_nora_sale",
+          "depth": 4,
+          "surname_line": "Stuart",
+          "partial_match": false
+        }
+      ],
+      "confidence": "confirmed",
+      "evidence": "'Jesse Weed Stuart' found at depth 2 above cousin in GEDCOM. Matches Hunter anchor 'Jesse Weed Stuart' (b.1914) on paternal side via Stuart line.",
+      "new_ancestors_unlocked": [
+        {
+          "name": "Walter Chiles",
+          "birth_year": 1600,
+          "birth_place": "",
+          "death_year": 1653,
+          "death_place": "",
+          "surname": "Chiles"
+        },
+        {
+          "name": "Rachel",
+          "birth_year": 1630,
+          "birth_place": "England",
+          "death_year": 1666,
+          "death_place": "",
+          "surname": "//"
+        },
+        {
+          "name": "John Beall",
+          "birth_year": 1701,
+          "birth_place": "",
+          "death_year": 1756,
+          "death_place": "",
+          "surname": "Beall"
+        },
+        {
+          "name": "Mary Robinson",
+          "birth_year": 1707,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Robinson"
+        },
+        {
+          "name": "Josias Beall",
+          "birth_year": 1725,
+          "birth_place": "England",
+          "death_year": 1803,
+          "death_place": "",
+          "surname": "Beall"
+        },
+        {
+          "name": "Millicent Bradley",
+          "birth_year": 1734,
+          "birth_place": "",
+          "death_year": 1772,
+          "death_place": "King George's Parish, Prince George's County, Maryland, Britain",
+          "surname": "Bradley"
+        },
+        {
+          "name": "John Goodwin",
+          "birth_year": 1739,
+          "birth_place": "",
+          "death_year": 1793,
+          "death_place": "",
+          "surname": "Goodwin"
+        },
+        {
+          "name": "Susan Whitters",
+          "birth_year": 1740,
+          "birth_place": "Charles, Maryland, United States",
+          "death_year": 1790,
+          "death_place": "",
+          "surname": "Whitters"
+        },
+        {
+          "name": "Colonel Richard Richardson",
+          "birth_year": 1741,
+          "birth_place": "",
+          "death_year": 1818,
+          "death_place": "",
+          "surname": "Richardson"
+        },
+        {
+          "name": "Darcus Nelson",
+          "birth_year": 1741,
+          "birth_place": "",
+          "death_year": 1834,
+          "death_place": "",
+          "surname": "Nelson"
+        },
+        {
+          "name": "Mary Allen Chapman",
+          "birth_year": 1747,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Chapman"
+        },
+        {
+          "name": "James Brent",
+          "birth_year": 1750,
+          "birth_place": "Currituck, North Carolina, United States",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Brent"
+        },
+        {
+          "name": "William Marshall",
+          "birth_year": 1750,
+          "birth_place": "Prince George's, Maryland, United States",
+          "death_year": 1796,
+          "death_place": "Charles, Maryland, United States",
+          "surname": "Marshall"
+        },
+        {
+          "name": "Elizabeth",
+          "birth_year": 1755,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "//"
+        },
+        {
+          "name": "Alexander Kelly",
+          "birth_year": 1755,
+          "birth_place": "Armagh, Ireland",
+          "death_year": 1838,
+          "death_place": "Hamilton, Tennessee, USA",
+          "surname": "Kelly"
+        },
+        {
+          "name": "Nancy Robinson",
+          "birth_year": 1755,
+          "birth_place": "",
+          "death_year": null,
+          "death_place": "",
+          "surname": "Robinson"
+        },
+        {
+          "name": "Thomas Rayburn",
+          "birth_year": 1760,
+          "birth_place": "",
+          "death_year": 1843,
+          "death_place": "",
+          "surname": "Rayburn"
+        },
+        {
+          "name": "William Cawlfield",
+          "birth_year": 1760,
+          "birth_place": "Tyrone, Ireland",
+          "death_year": 1830,
+          "death_place": "Ash Grove, Greene, Missouri, United States",
+          "surname": "Cawlfield"
+        },
+        {
+          "name": "William Billups",
+          "birth_year": 1763,
+          "birth_place": "",
+          "death_year": 1817,
+          "death_place": "",
+          "surname": "Billups"
+        },
+        {
+          "name": "Mary Richardson",
+          "birth_year": 1763,
+          "birth_place": "",
+          "death_year": 1803,
+          "death_place": "",
+          "surname": "Richardson"
+        }
+      ]
+    },
+    {
+      "cousin_file": "Walls Doris-1st cousin 2x removed or half great grandaunt maternal side.ged",
+      "cousin_name": "Walls Doris",
+      "claimed_relationship": "1st cousin 2x removed or half great grandaunt maternal side",
+      "individuals_in_gedcom": 13,
+      "families_in_gedcom": 6,
+      "surname_lines_found": [
+        "Padgett",
+        "Westerfield"
+      ],
+      "verified_link": false,
+      "side": "maternal",
+      "mrca_with_hunter": null,
+      "path_from_cousin_to_hunter": [],
+      "all_mrca_candidates": [],
+      "confidence": "unverified",
+      "evidence": "Small GEDCOM (13 people). Iris June Westerfield b.1919 (mother of @I1@ Andrew Jackson Key b.1914). Westerfield also appears in Al wood GEDCOM (O.C. Wes Westerfield b.1921 AR). Padgett surname (Bertie Jane Padgett b.1888 AR) also appears in Walls Doris tree — William Miller Padgett b.1862 is the same person in Frances Padgett's tree. These Westerfield/Padgett families cluster in Jackson/Lawrence counties Arkansas. No direct Hunter anchor. Labeled maternal side. May connect via a shared pre-1860 ancestor in the Padgett/Westerfield network.",
+      "new_ancestors_unlocked": [],
+      "side_note": "Labeled maternal. Westerfield+Padgett overlap with Al wood and Frances Padgett GEDCOMs suggests a shared cluster."
+    }
+  ]
+}
