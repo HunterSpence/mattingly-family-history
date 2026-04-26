@@ -1,0 +1,156 @@
+{
+  "research_id": "73",
+  "title": "William Spence — Galveston Immigration Database Search",
+  "date": "2026-04-26",
+  "subject": "William Spence (oral tradition: Hunter's great-grandfather)",
+  "oral_tradition": {
+    "name": "William Spence",
+    "arrival_detail": "came from England when he was 8 years old",
+    "note": "Maybe the boat just came there — possibly born Scotland, English port only",
+    "source": "Hunter Spence (family oral tradition, April 2026)"
+  },
+  "generational_math": {
+    "hunter_born": "~2002-2003",
+    "dale_jr_born": "~1960-1965 (estimated)",
+    "dale_sr_born": "~1934-1936 (confirmed, Beaumont TX)",
+    "immigrant_born": "~1905-1914 (estimated)",
+    "immigrant_arrival_if_age8": "~1913-1922"
+  },
+  "databases_searched": [
+    {
+      "source": "Galveston Historical Foundation Immigration Database",
+      "url": "http://ghf.destinationnext.com/immigration/Search.aspx",
+      "coverage": "1840s-1949",
+      "query": "Family Name: Spence, all years",
+      "result_count": 3,
+      "results": [
+        {
+          "record_id": "71291",
+          "arrival": "Apr 24 1920",
+          "name": "CHARLES A. SPENCE",
+          "age": 24,
+          "sex": "M",
+          "occupation": "SEAMAN",
+          "ship": "KUNA",
+          "origin": "UNITED KINGDOM",
+          "origin_area": "GREAT BRITAIN",
+          "departed_from": "SANTIAGO, CUBA",
+          "departure_date": "1920-04-17",
+          "destination": "NEW ORLEANS, LA",
+          "comment": "ARR. PORT ARTHUR, TX",
+          "citation": "INSMF-20-D",
+          "source": "NATIONAL ARCHIVES RECORD GROUP 85, MICROCOPY 1359, ROLL #20",
+          "assessment": "NOT HUNTER'S ANCESTOR — age 24, seaman, not a child immigrant"
+        },
+        {
+          "record_id": "71298",
+          "arrival": "Apr 24 1920",
+          "name": "WILLIAM SPENCE",
+          "age": 19,
+          "sex": "M",
+          "occupation": "SEAMAN",
+          "ship": "KUNA",
+          "origin": "UNITED KINGDOM",
+          "origin_area": "GREAT BRITAIN",
+          "departed_from": "SANTIAGO, CUBA",
+          "departure_date": "1920-04-17",
+          "destination": "NEW ORLEANS, LA",
+          "comment": "ARR. PORT ARTHUR, TX",
+          "citation": "INSMF-20-D",
+          "source": "NATIONAL ARCHIVES RECORD GROUP 85, MICROCOPY 1359, ROLL #20",
+          "assessment": "POSSIBLE — name matches, arrived near Beaumont/Port Arthur area; age 19 conflicts with oral tradition of 'age 8'; could be same person with misremembered age, or could have jumped ship and settled in the area",
+          "born_estimate_if_this_record": "~1901",
+          "age_at_dale_sr_birth_1934": 33,
+          "notes": "Three Spences all on same ship from Cuba — likely British merchant marine crew; could have settled in Port Arthur oil industry after arrival"
+        },
+        {
+          "record_id": "71302",
+          "arrival": "Apr 24 1920",
+          "name": "ALFRED SPENCE",
+          "age": 19,
+          "sex": "M",
+          "occupation": "SEAMAN",
+          "ship": "KUNA",
+          "origin": "UNITED KINGDOM",
+          "origin_area": "GREAT BRITAIN",
+          "departed_from": "SANTIAGO, CUBA",
+          "departure_date": "1920-04-17",
+          "destination": "NEW ORLEANS, LA",
+          "comment": "ARR. PORT ARTHUR, TX",
+          "citation": "INSMF-20-D",
+          "source": "NATIONAL ARCHIVES RECORD GROUP 85, MICROCOPY 1359, ROLL #20",
+          "assessment": "NOT HUNTER'S ANCESTOR — name Alfred, not William"
+        }
+      ],
+      "spencer_results": [
+        {"name": "SPENCER", "arrival": "Feb 12 1929", "ship": "SAINT DUNSTAN", "origin": "GREAT BRITIAN"},
+        {"name": "SPENCER", "arrival": "Nov 21 1937", "ship": "LEERDAM", "origin": "ENGLAND"}
+      ]
+    },
+    {
+      "source": "Galveston County District Clerk Immigration Portal",
+      "url": "https://immigrationportal.galvestoncountytx.gov/",
+      "result": "CONNECTION TIMEOUT — site unavailable"
+    },
+    {
+      "source": "FamilySearch.org",
+      "result": "BLOCKED — Error 15 (bot protection, proxy/VPN detected)"
+    },
+    {
+      "source": "FindAGrave.com",
+      "result": "BLOCKED — Cloudflare bot protection"
+    },
+    {
+      "source": "Ancestry.com",
+      "result": "BLOCKED — access denied"
+    }
+  ],
+  "key_finding": {
+    "summary": "Only one William Spence ever arrived at Galveston from Great Britain — record #71298, age 19, seaman, April 24 1920, ship KUNA, arrived at Port Arthur TX (adjacent to Beaumont). Name and geography match. Age does not match oral tradition.",
+    "geographic_match": true,
+    "name_match": true,
+    "age_conflict": "oral tradition says age 8, record shows age 19",
+    "plausibility": "A 19-year-old British seaman arriving at Port Arthur in 1920 could have jumped ship, stayed in the Spindletop oil boom area, married, and fathered Dale Sr. in 1934 (age ~33). Plausible but unconfirmed.",
+    "oral_tradition_explanation": "Possible that 'came from England at age 8' is either: (a) misremembered — conflated with a different family story, (b) refers to his father's immigration not his own, or (c) a completely different William Spence came through New York not Galveston and no Galveston record exists"
+  },
+  "next_steps": [
+    {
+      "priority": 1,
+      "action": "Order Texas DSHS birth certificate for Dale Spence Sr.",
+      "cost": "~$22",
+      "url": "https://dshs.texas.gov/vs",
+      "why": "Would definitively name Dale Sr.'s parents, confirming or denying William Spence as father",
+      "info_needed": "Dale Sr. full name, exact birthdate (~1934-1936), birthplace (Beaumont TX)"
+    },
+    {
+      "priority": 2,
+      "action": "Search National Archives microfilm M1359 Roll #20 for full KUNA passenger manifest",
+      "why": "Full manifest would show William Spence's hometown in UK, allowing FreeBMD search",
+      "how": "NARA in Fort Worth TX (regional) or ancestry.com immigration records",
+      "citation": "INSMF-20-D, NARG85, M1359, Roll #20"
+    },
+    {
+      "priority": 3,
+      "action": "Search 1930 US Census Jefferson County TX for Spence family, British-born head",
+      "why": "If William settled in area after 1920, would appear in 1930 census (4 years before Dale Sr. born)",
+      "how": "Ancestry.com (paid) or Beaumont public library free census access"
+    },
+    {
+      "priority": 4,
+      "action": "Contact Tyrrell Historical Library, Beaumont TX",
+      "url": "https://beaumonttexas.gov/government/departments/library-services/tyrrell-historical-library/",
+      "why": "Local historical newspaper archives may contain Spence family references; vital records microfilm"
+    },
+    {
+      "priority": 5,
+      "action": "Search FreeBMD for Spence male births 1900-1910 in County Durham, Yorkshire, or Scottish border counties",
+      "url": "https://www.freebmd.org.uk/",
+      "why": "If William Spence born ~1901 in NE England, birth would be in FreeBMD"
+    }
+  ],
+  "confidence": {
+    "william_spence_as_ancestor": "POSSIBLE (oral tradition name match, geographic match) — NOT CONFIRMED",
+    "galveston_1920_record_as_same_person": "LOW-MEDIUM (age discrepancy is significant; could be different person or misremembered oral tradition)",
+    "overall_note": "Brick wall. Documentary evidence required — DSHS birth certificate is the fastest path to breaking it."
+  }
+}

@@ -278,32 +278,33 @@ SPENCE_TREE = N(
                                                                                                                     "contain many Spence households.",
                                                                                                                     gen=26, century=19, confidence="possible",
                                                                                                                     children=[N(
-                                                                                                                        "NE England Spence (Dale Sr's grandfather)",
-                                                                                                                        "c. 1840–1880, NE England",
-                                                                                                                        "UNVERIFIED. The generation that would have fathered "
-                                                                                                                        "the immigrant. Beaumont TX oil boom (Spindletop 1901) "
-                                                                                                                        "drew British industrial workers — Yorkshire/Durham "
-                                                                                                                        "miners and engineers were among the first wave. "
-                                                                                                                        "A Texas DSHS birth certificate for Dale Sr. (~$22) "
-                                                                                                                        "would name his father — currently the single highest-"
-                                                                                                                        "yield research action to unlock this generation.",
+                                                                                                                        "William Spence's father (immigrant to Pennsylvania)",
+                                                                                                                        "c. 1870–1890, England/Scotland → Pennsylvania, USA",
+                                                                                                                        "UNVERIFIED. William Spence's father — the likely "
+                                                                                                                        "English or Scottish immigrant to Pennsylvania. "
+                                                                                                                        "This is the generation the family oral tradition "
+                                                                                                                        "'came from England when he was 8' most likely refers to. "
+                                                                                                                        "Pennsylvania was a major destination for British "
+                                                                                                                        "industrial workers (coal, steel, oil). "
+                                                                                                                        "NEXT STEP: Search 1910 US Census Pennsylvania for "
+                                                                                                                        "William Spence (age ~2) in his parents' household "
+                                                                                                                        "to confirm father's name and birthplace.",
                                                                                                                         gen=27, century=19, confidence="possible",
                                                                                                                         children=[
                                                                                                                             N(
-                                                                                                                                "Mr. Spence (English immigrant — name unknown)",
-                                                                                                                                "~1900–1915 NE England – ? Beaumont, Texas",
-                                                                                                                                "PROBABLE English immigrant to Beaumont TX. "
-                                                                                                                                "Hunter's paternal great-grandfather and Dale Sr's father. "
-                                                                                                                                "NAME UNKNOWN — top research priority. "
-                                                                                                                                "Per agent 41: PROBABLE NE England origin (Yorkshire / "
-                                                                                                                                "Durham / Northumberland). Arrived Beaumont TX via "
-                                                                                                                                "Galveston ~1920–1935, drawn by post-Spindletop oil-boom "
-                                                                                                                                "labour migration. Married American-born Dovie Byrd. "
-                                                                                                                                "ACTION: Order Texas DSHS birth cert for Dale Sr. (~$22) "
-                                                                                                                                "to unlock this name.",
-                                                                                                                                gen=28, century=20, confidence="probable",
+                                                                                                                                "William Spence",
+                                                                                                                                "born ~1908, Pennsylvania — died ?, Beaumont TX",
+                                                                                                                                "CONFIRMED (1950 US Federal Census, Beaumont TX). "
+                                                                                                                                "Hunter's paternal great-grandfather. "
+                                                                                                                                "1570 Roberts St, Beaumont, Jefferson Co. TX. "
+                                                                                                                                "System Operator, Electrical Utility Co (Gulf States Utilities). "
+                                                                                                                                "Married Dovie A. (Byrd) Spence. "
+                                                                                                                                "Born Pennsylvania — migrated to Texas, likely following "
+                                                                                                                                "Spindletop oil-industry work. "
+                                                                                                                                "Parents unknown — search 1910/1920 PA Census to identify.",
+                                                                                                                                gen=28, century=20, confidence="confirmed",
                                                                                                                                 id_="p125",
-                                                                                                                                spouse="Dovie (Byrd) Spence",
+                                                                                                                                spouse="Dovie A. (Byrd) Spence (~1912–?)",
                                                                                                                                 children=[N(
                                                                                                                                     "Dr. Dale William Spence Sr.",
                                                                                                                                     "~1934–1936 Beaumont TX — living (~age 92, Houston TX)",
