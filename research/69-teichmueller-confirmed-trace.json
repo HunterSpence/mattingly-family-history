@@ -1,0 +1,245 @@
+{
+  "research_metadata": {
+    "date": "2026-04-26",
+    "researcher": "Claude Sonnet 4.6 (Subagent — Teichmüller Confirmed Trace)",
+    "task": "Push Teichmüller line to earliest confirmed ancestor; identify American immigrant; document German regional origin",
+    "primary_sources": [
+      "Neue Deutsche Biographie (NDB) vol. 26 (2016) pp. 6*–7*, 'Teichmüller, Gustav' — peer-reviewed genealogy section. URL: https://www.deutsche-biographie.de/gnd118801554.html",
+      "NDB GND entries for family members: Joachim Andreas (GND 1154326802), Wilhelm Ernst Conrad (GND 1154326616), August Wilhelm (GND 1089914733)",
+      "Frank Lotto, Fayette County: Her History and Her People (Schulenburg: Sticker Steam Press, 1902; rpt. Austin: University of Texas Press, 1981) — Hans Teichmueller biography pp. 229–230",
+      "TSHA Handbook of Texas, 'Teichmueller, Hans' (Biesele, 1952/2019): https://www.tshaonline.org/handbook/entries/teichmueller-hans",
+      "GEDBAS genealogy database: Joachim Andreas Teichmüller birthplace confirmed as Rohrsheim, Halberstadt (26 June 1705)",
+      "Prior research files: 11-teichmueller-german.json, 34-teichmueller-archives.json, 49-kellner-mollenhauer-girsewald-deep.json"
+    ],
+    "status": "SYNTHESIS — no new primary archival images retrieved; all confirmations via NDB 2016 (peer-reviewed) and GEDBAS database cross-check"
+  },
+
+  "connection_to_hunter": {
+    "summary": "Hunter Spence's maternal great-great-grandfather Leroy Teichmueller Mattingly (b. 1898, La Grange TX) carried the Teichmüller name as his middle name. His mother was Mary 'May' Teichmueller (1867–1900), daughter of Hans Teichmüller (1837–1901) — the German immigrant judge of La Grange, Fayette County, Texas. The Teichmüller patrilineal chain runs from the southern Harz mountains (~1580) through Goslar, through Braunschweig, and terminates in Texas in 1856.",
+    "direct_chain_to_hunter": [
+      "Mary 'May' Teichmüller (1867–1900) → m. Edward Mattingly Sr. 1894",
+      "Leroy Teichmueller Mattingly (b. 1898, La Grange TX) → m. Ruth Baity",
+      "[unnamed son, b. ~1922] → Sharyn Mattingly → Rachel Spence → Hunter Spence"
+    ]
+  },
+
+  "american_immigrant": {
+    "name": "Hans Teichmüller",
+    "birth": "1837-03-07",
+    "birth_place": "Braunschweig (Brunswick), Duchy of Brunswick, German Confederation",
+    "death": "1901-02-17",
+    "death_place": "La Grange, Fayette County, Texas, USA",
+    "emigration_year": 1856,
+    "emigration_trigger": "Father August Wilhelm's death in 1855 left the family in financial hardship; Hans abandoned a planned theology career and emigrated",
+    "route": "Brunswick → Texas. First contact in Texas was 'old man Fordtrau of Industry' (Austin County). Joined cousin Arthur Meerscheidt in Fayette County.",
+    "destination_on_arrival": "Shelby / Postoak Point / High Hill area, Fayette County, Texas",
+    "german_departure_city": "Braunschweig (Brunswick), Duchy of Brunswick",
+    "departure_village_note": "Hans was born and raised in Braunschweig city itself — not a rural village. The family had been based in Braunschweig for at least two generations (August Wilhelm and Charlotte) after moving from the Harz/Delligsen area.",
+    "naturalization": "Must have naturalized by 1869 (served as County Judge of Fayette County). Naturalization record not yet retrieved — FamilySearch 1900 census (ark:/61903/1:1:M3GQ-SRC) would confirm immigration year.",
+    "wikidata": "Q94855622",
+    "gnd": "124984444",
+    "confidence": "CONFIRMED — Lotto 1902 (primary), TSHA, WikiTree, NDB 2016"
+  },
+
+  "german_regional_origin": {
+    "summary": "The Teichmüller surname is occupational (Teich = pond, Müller = miller) and is documented in Germany from the late 16th century onward. Hunter's specific branch originates in the SOUTHERN HARZ MOUNTAINS region of Lower Saxony/Saxony-Anhalt — specifically the area spanning Rohrsheim (near Halberstadt), Goslar, and Delligsen (Leinebergland).",
+    "primary_region": "Southern Harz mountains, Lower Saxony / Saxony-Anhalt borderlands",
+    "specific_places_documented": [
+      "Rohrsheim, near Halberstadt, Saxony-Anhalt — birthplace of Joachim Andreas Teichmüller (1705)",
+      "Goslar, Lower Saxony — where Joachim Andreas worked as Oberfaktor (died 1778)",
+      "Karlshütte near Delligsen, Leinebergland, Lower Saxony — where Wilhelm Ernst Conrad was Oberhütteninspekteur (~1790s-1835)",
+      "Braunschweig (Brunswick), Duchy of Brunswick — where the family was based from August Wilhelm onward; where Hans was born 1837"
+    ],
+    "not_saxony_not_wurttemberg": "The common Texas-German settlement regions of Württemberg and Saxony (kingdom) do NOT apply to this branch. The Teichmüller line is specifically Lower Saxon / Harz region.",
+    "adelsverein_connection": "Hans's immigration did not go through the Adelsverein (which dissolved 1853). He came independently via family chain migration (cousin Arthur Meerscheidt in Fayette County). However, the existing German Texan community in Austin and Fayette counties (established via Adelsverein 1844-1853) is what he arrived into.",
+    "surname_geographic_distribution": "The surname Teichmüller is found across northern Germany (Saxony, Brandenburg, Pomerania) per surname databases, but the NDB confirms this specific family's origin in the southern Harz/Goslar-Halberstadt corridor — a historically major mining and milling region."
+  },
+
+  "earliest_confirmed_ancestor": {
+    "name": "Hans / Johann Teichmüller",
+    "dates": "c. 1580 – c. 1638",
+    "occupation": "Mühlenmeister (master miller)",
+    "location": "Southern Harz mountains region",
+    "source": "NDB 2016 vol. 26 p. 6*: 'Aus seit Ende d. 16. Jh. mit d. Mühlenmeister Han(n)s (um 1580–1638) im südl. Harz nachweisbarer Fam.' (From a family traceable since the end of the 16th century with the master miller Hans in the southern Harz)",
+    "confidence": "CONFIRMED — NDB 2016 (Historische Kommission, peer-reviewed)",
+    "significance": "Surname Teichmüller is occupational: a 'pond miller' operated a mill powered by a mill pond (Teich). This ancestor literally worked such a mill in the Harz. The family's entire subsequent professional profile — mining inspector, Oberfaktor in Goslar, Harz-region industry — flows from this Harz mountain milling origin.",
+    "generations_to_hunter": "~15 generations (c.1580 to present)"
+  },
+
+  "confirmed_lineage_patrilineal": [
+    {
+      "generation_label": "G0 (origin)",
+      "name": "Hans / Johann Teichmüller",
+      "dates": "c. 1580 – c. 1638",
+      "place": "Southern Harz mountains, Germany",
+      "occupation": "Mühlenmeister (master miller)",
+      "confidence": "CONFIRMED (NDB 2016)",
+      "note": "Earliest documented. Surname is occupational."
+    },
+    {
+      "generation_label": "G1–G2 (gap)",
+      "name": "[Two unnamed Teichmüller generations]",
+      "dates": "c. 1610 – c. 1700",
+      "confidence": "UNVERIFIED — NDB implies gap; no individuals named",
+      "note": "The span from ~1638 to 1705 (Joachim Andreas) requires at least one, probably two intermediate generations. NDB does not name them."
+    },
+    {
+      "generation_label": "G3",
+      "name": "Joachim Andreas Teichmüller",
+      "dates": "1705-06-26 – 1778-01-31",
+      "birth_place": "Rohrsheim, near Halberstadt, Saxony-Anhalt (GEDBAS database)",
+      "death_place": "Goslar, Lower Saxony",
+      "occupation": "Oberfaktor (chief commercial/trading agent) in Goslar — almost certainly in the Harz mining industry (Goslar = home of the Rammelsberg silver mine, one of Germany's most important mining centers)",
+      "gnd": "1154326802",
+      "ndb_url": "https://www.deutsche-biographie.de/gnd1154326802.html",
+      "confidence": "CONFIRMED (NDB 2016); birth place CONFIRMED (GEDBAS)"
+    },
+    {
+      "generation_label": "G4 (gap)",
+      "name": "[Unnamed son of Joachim Andreas — father of Wilhelm Ernst Conrad]",
+      "dates": "c. 1730 – c. 1775",
+      "confidence": "UNVERIFIED — NDB does not name this individual; the collateral branch descends via a different son 'Christian Andreas (1734–1809)' mentioned in NDB p. 7*; Wilhelm Ernst Conrad's precise position in Joachim Andreas's children is not stated in accessible sources",
+      "note": "This is the single most significant remaining gap in the verified chain."
+    },
+    {
+      "generation_label": "G5",
+      "name": "Wilhelm Ernst Conrad Teichmüller",
+      "dates": "1758 – 1835",
+      "birth_place": "Braunschweig (presumed)",
+      "death_place": "Likely Delligsen area, Leinebergland, Lower Saxony",
+      "occupation": "Oberhütteninspekteur (chief inspector of smelting works) at Karlshütte near Delligsen — a major ironworks in the Leinebergland south of Hanover",
+      "spouse": "Henriette Christiane Helene Schorkopf (1763–1818), from Uslar, Lower Saxony",
+      "gnd": "1154326616",
+      "ndb_url": "https://www.deutsche-biographie.de/gnd1154326616.html",
+      "confidence": "CONFIRMED (NDB 2016)"
+    },
+    {
+      "generation_label": "G6",
+      "name": "August Wilhelm Teichmüller",
+      "dates": "1795 – 1855",
+      "birth_place": "Braunschweig",
+      "death_place": "Brunswick area (exact place unknown)",
+      "occupation": "Seconde-Lieutenant (Zweiter Leutnant), Schwarzen Corps des Majors Olfermann, Brunswick army — the Schwarzen Corps (Black Corps) were the famous Brunswick volunteer units that fought in the Napoleonic Wars under Duke Friedrich Wilhelm",
+      "spouse": "Charlotte Georgine Elisabeth von Girsewald (1799–1860) — daughter of Georg von Girsewald, Oberstallmeister and Captain at the Brunswick court",
+      "gnd": "1089914733",
+      "ndb_url": "https://www.deutsche-biographie.de/gnd1089914733.html",
+      "confidence": "CONFIRMED (NDB 2016)"
+    },
+    {
+      "generation_label": "G7 — AMERICAN IMMIGRANT",
+      "name": "Hans Teichmüller",
+      "dates": "1837-03-07 – 1901-02-17",
+      "birth_place": "Braunschweig, Duchy of Brunswick",
+      "death_place": "La Grange, Fayette County, Texas, USA",
+      "occupation": "District Judge, 22nd Judicial District of Texas (1884–1901); County Judge of Fayette County (1869–70); farmer, schoolteacher, attorney",
+      "emigration": "1856 — the American immigrant of this line",
+      "wikidata": "Q94855622",
+      "gnd": "124984444",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "generation_label": "G8",
+      "name": "Mary 'May' Teichmueller Mattingly",
+      "dates": "1867-12-16 – 1900-08-28",
+      "birth_place": "Texas",
+      "death_place": "La Grange, Fayette County, Texas",
+      "marriage": "Edward Mattingly Sr., 1 September 1894, La Grange",
+      "confidence": "CONFIRMED — Lotto 1902, Find A Grave, WikiTree Teichmueller-1"
+    },
+    {
+      "generation_label": "G9 — Hunter's 3x great-grandfather",
+      "name": "Leroy Teichmueller Mattingly",
+      "dates": "b. 1898, La Grange TX",
+      "note": "Named for his maternal grandfather Hans Teichmueller. Middle name Teichmueller preserves the family surname.",
+      "spouse": "Ruth Baity (4 Apr 1900 – 1982)",
+      "confidence": "CONFIRMED — multiple census, WikiTree Mattingly-1127, entities.json"
+    }
+  ],
+
+  "notable_figures": {
+    "gustav_teichmueller_philosopher": {
+      "name": "Gustav Teichmüller",
+      "dates": "1832-11-19 – 1888-05-22",
+      "relationship_to_hunter": "Great-great-great-granduncle (Hans's older brother)",
+      "significance": "Professor of Philosophy at University of Basel (1868–1871) and Imperial University of Dorpat/Tartu (1871–1888). His philosophical works — especially his doctrine of 'perspectives' — directly influenced Friedrich Nietzsche's development of perspectivism. He is considered the founder of Russian personalism. A street in Braunschweig (Teichmüllerstraße) was named in his honor in 1975.",
+      "connection_to_hunter_line": "DIRECT — he and Hans were brothers, sons of the same August Wilhelm and Charlotte von Girsewald. Confirmed by NDB 2016.",
+      "wikidata": "Q78129",
+      "gnd": "118801554",
+      "wikipedia": "https://en.wikipedia.org/wiki/Gustav_Teichm%C3%BCller"
+    },
+    "famous_gustav_connection_note": "The task asked about Gustav Teichmüller (1832–1888) and any connection to Hunter's line. CONFIRMED: Gustav is Hans's OLDER BROTHER. They share the same parents (August Wilhelm + Charlotte von Girsewald). Hunter is directly related to one of the philosophers who shaped Nietzsche.",
+    "anna_teichmueller_composer": {
+      "name": "Anna Teichmüller",
+      "dates": "1861-05-11 – 1940-09-06",
+      "relationship_to_hunter": "1st cousin 4x removed (Gustav's daughter, Hans's niece)",
+      "significance": "Composer and pianist; associated with the Schreiberhau artist colony in the Riesengebirge (now Szklarska Poręba, Poland). Set poems by over 40 poets to music.",
+      "wikidata": "Q21031895",
+      "wikipedia": "https://en.wikipedia.org/wiki/Anna_Teichm%C3%BCller"
+    },
+    "minette_teichmueller_muralist": {
+      "name": "Minette Teichmüller (Pohl)",
+      "dates": "1871-01-27 – 1970-08-28",
+      "relationship_to_hunter": "Great-great-grand-aunt (Hans's daughter, Leroy's aunt)",
+      "significance": "WPA Federal Art Project muralist. Her 1940 mural 'The Law, Texas Rangers' still hangs in the Smithville, Texas post office. Lived to age 99.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Minette_Teichmueller"
+    },
+    "robert_teichmueller_pianist": {
+      "name": "Robert Teichmüller",
+      "dates": "1863-05-04 – 1939-05-06",
+      "relationship_to_hunter_if_confirmed": "1st cousin 3x removed (if son of Wilhelm, Hans's brother)",
+      "significance": "Concert pianist and professor at Leipzig Conservatory",
+      "confidence": "POSSIBLE — parentage not confirmed in accessible digitized sources",
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Teichm%C3%BCller"
+    },
+    "noble_maternal_line": {
+      "name": "Charlotte Georgine Elisabeth von Girsewald (Hans's mother)",
+      "significance": "Hans's mother was from the von Girsewald noble family of Braunschweig — elevated to Freiherren (barons) in 1827. The family held the title Oberstallmeister (Master of the Horse) at the Brunswick ducal court across multiple generations. Charlotte's father Georg von Girsewald (1735–1816) held that title. This gives Hunter's Teichmüller line a documented connection to the Braunschweig nobility (Freiherrlicher Adel), though Charlotte's precise branch within the von Girsewald family is confirmed via NDB but the broader Freiherren title path needs the Gothaisches Taschenbuch to resolve.",
+      "confidence": "CONFIRMED (NDB 2016 names Georg as Charlotte's father)"
+    }
+  },
+
+  "open_questions_prioritized": [
+    {
+      "priority": 1,
+      "question": "Unnamed generation G4: son of Joachim Andreas Teichmüller (1705-1778) who fathered Wilhelm Ernst Conrad (1758-1835). This is the single remaining gap in the confirmed chain.",
+      "suggested_source": "Goslar city archive (Stadtarchiv Goslar) — church baptism registers from ~1725-1760. Alternatively, NLA Wolfenbüttel holds Brunswick records. Compgen GEDBAS database for Goslar area may have entries."
+    },
+    {
+      "priority": 2,
+      "question": "Joachim Andreas's parents (to extend line further back from 1705). Rohrsheim OFB (Ortsfamilienbuch) covers 1673-1980 and would directly answer this.",
+      "suggested_source": "Rohrsheim OFB 1673-1980 — available at Evangelische Kirche im Kirchenkreis Halberstadt or digitized via Archion/Matricula"
+    },
+    {
+      "priority": 3,
+      "question": "Hans's 1900 US Census entry — records immigration year. FamilySearch ark:/61903/1:1:M3GQ-SRC (requires account login).",
+      "suggested_source": "FamilySearch.org (free account)"
+    },
+    {
+      "priority": 4,
+      "question": "Hans's naturalization record (confirms year, county). He must have naturalized before serving as County Judge (1869).",
+      "suggested_source": "Fayette County District Court naturalization records; Briscoe Center (University of Texas)"
+    },
+    {
+      "priority": 5,
+      "question": "Hans Teichmueller Biographical Sketch (Austin: Von Boeckmann-Jones, 1908) — cited in TSHA; not digitized. Names the fifth Teichmueller child.",
+      "suggested_source": "Texas State Library and Archives Commission (TSLAC), Austin"
+    },
+    {
+      "priority": 6,
+      "question": "Charlotte von Girsewald's exact position within the von Girsewald family tree. NDB confirms her father is Georg (1735-1816) but his place in the documented Freiherren line needs the Gothaisches Taschenbuch der Freiherrlichen Häuser (1921) p. 298.",
+      "suggested_source": "Stadtbibliothek Braunschweig; Niedersächsische Landesbibliothek Hannover"
+    }
+  ],
+
+  "summary_for_family_site": {
+    "headline": "The Teichmüller Line: Pond Millers of the Harz to Texas Judge",
+    "narrative": "Hunter Spence's Teichmüller ancestors were a Lower Saxon family of millers, miners, and soldiers. The surname itself tells the origin story: Teichmüller means 'pond miller,' and the earliest known ancestor, a master miller named Hans (c.1580–1638), worked such a mill in the southern Harz mountains — one of medieval Germany's most important mining and industry regions. By 1705, his descendant Joachim Andreas was an Oberfaktor (chief commercial agent) in Goslar, the ancient silver-mining capital at the foot of the Harz. The next generation managed the Karlshütte ironworks at Delligsen. Then came the soldiers: August Wilhelm served as a lieutenant in Brunswick's famous Black Corps, the all-black-uniformed Napoleonic volunteer unit. His son Hans — born 7 March 1837 in Braunschweig — emigrated to Texas in 1856 after his father's death, settled in Fayette County, and became one of Texas's most distinguished judges, serving the 22nd Judicial District from 1884 until his death in 1901. Hans's daughter Mary 'May' married Edward Mattingly in 1894; their son Leroy Teichmueller Mattingly (1898) — named for grandfather Hans — is Hunter's direct ancestor. Remarkably, Hans's older brother Gustav became a renowned European philosopher whose work directly influenced Friedrich Nietzsche.",
+    "key_facts": {
+      "earliest_ancestor": "Hans/Johann Teichmüller, master miller, southern Harz, c.1580",
+      "american_immigrant": "Hans Teichmüller (1837–1901), emigrated 1856 from Braunschweig",
+      "german_origin_region": "Southern Harz mountains / Goslar / Braunschweig, Lower Saxony — NOT Württemberg or Kingdom of Saxony",
+      "connection_to_hunter": "Via Mary Teichmueller Mattingly → Leroy Teichmueller Mattingly → [son b.1922] → Sharyn Mattingly → Rachel Spence → Hunter Spence",
+      "famous_relative": "Gustav Teichmüller (1832–1888), Hans's brother — philosopher who influenced Nietzsche"
+    }
+  }
+}

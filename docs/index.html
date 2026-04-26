@@ -1041,6 +1041,337 @@ p.entity-bio {
   box-shadow: 0 8px 24px rgba(0,0,0,0.5), 0 0 24px rgba(212, 164, 88, 0.06);
 }
 
+/* ── HERITAGE PANEL ─────────────────────────────────────────────────── */
+.heritage-section {
+  margin: 64px 0 80px;
+  padding: 36px 28px;
+  background: linear-gradient(165deg, rgba(20,16,11,0.45), rgba(12,10,8,0.65));
+  border: 1px solid rgba(212, 164, 88, 0.16);
+  border-radius: 8px;
+  position: relative;
+}
+.heritage-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg,
+    transparent, #22c55e 12%, var(--accent-gold) 50%, #22c55e 88%, transparent);
+  opacity: 0.55;
+  border-radius: 8px 8px 0 0;
+}
+.heritage-section h2 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 2.2rem;
+  margin: 0 0 12px;
+  color: var(--accent-gold);
+  letter-spacing: 0.01em;
+}
+.heritage-intro {
+  color: rgba(220, 210, 195, 0.78);
+  font-size: 0.98rem;
+  line-height: 1.65;
+  margin-bottom: 28px;
+  max-width: 720px;
+}
+.heritage-green {
+  color: #22c55e;
+  font-weight: 700;
+  border-bottom: 2px solid #22c55e;
+  padding-bottom: 1px;
+}
+
+/* breakdown bar chart */
+.heritage-breakdown {
+  margin: 28px 0 36px;
+  padding: 22px 24px;
+  background: rgba(0,0,0,0.25);
+  border: 1px solid rgba(212, 164, 88, 0.10);
+  border-radius: 6px;
+}
+.heritage-breakdown h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.15rem;
+  color: var(--accent-gold-light);
+  margin: 0 0 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.heritage-bar-row {
+  display: grid;
+  grid-template-columns: 32px 130px 1fr 50px 80px;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+  font-size: 0.92rem;
+  color: rgba(220, 210, 195, 0.85);
+}
+.heritage-bar-flag { font-size: 1.4rem; line-height: 1; }
+.heritage-bar-country { font-weight: 600; }
+.heritage-bar-track {
+  height: 8px;
+  background: rgba(212, 164, 88, 0.10);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.heritage-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-gold), #16a34a);
+  border-radius: 4px;
+  transition: width 0.6s ease-out;
+}
+.heritage-bar-pct { font-weight: 700; color: var(--accent-gold); text-align: right; font-variant-numeric: tabular-nums; }
+.heritage-bar-count { color: rgba(220, 210, 195, 0.55); font-size: 0.85rem; }
+
+/* surname-line cards */
+.heritage-subhead {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  color: var(--accent-gold-light);
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin: 36px 0 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(212, 164, 88, 0.18);
+}
+.heritage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 18px;
+}
+.heritage-card {
+  background: linear-gradient(170deg, rgba(20,16,11,0.55), rgba(15,12,9,0.7));
+  border: 1px solid rgba(212, 164, 88, 0.12);
+  border-left: 3px solid var(--accent-gold);
+  border-radius: 5px;
+  padding: 18px 20px;
+  transition: border-left-color 0.2s, box-shadow 0.2s, transform 0.18s;
+}
+.heritage-card:hover {
+  border-left-color: #22c55e;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.45), 0 0 18px rgba(34, 197, 94, 0.08);
+  transform: translateY(-1px);
+}
+.heritage-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(212, 164, 88, 0.10);
+}
+.heritage-flag {
+  font-size: 2.3rem;
+  line-height: 1;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.55));
+}
+.heritage-surname {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.4rem;
+  margin: 0 0 2px;
+  color: var(--accent-gold);
+  letter-spacing: 0.01em;
+}
+.heritage-country {
+  color: rgba(220, 210, 195, 0.78);
+  font-size: 0.9rem;
+}
+.heritage-subregion {
+  color: rgba(220, 210, 195, 0.55);
+  font-style: italic;
+  font-size: 0.85rem;
+}
+.heritage-body { font-size: 0.88rem; color: rgba(220, 210, 195, 0.82); line-height: 1.55; }
+.heritage-row {
+  margin: 6px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.heritage-label {
+  color: rgba(212, 164, 88, 0.85);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.heritage-value { color: rgba(225, 215, 200, 0.90); }
+.heritage-clan, .heritage-notable, .heritage-ydna {
+  margin-top: 10px;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  border-left: 2px solid rgba(212, 164, 88, 0.35);
+}
+.heritage-clan { border-left-color: #4a7eb8; }
+.heritage-notable { border-left-color: #d4a458; }
+.heritage-ydna { border-left-color: #22c55e; font-family: 'Source Code Pro', monospace; font-size: 0.8rem; }
+.heritage-evidence {
+  margin-top: 12px;
+  font-size: 0.82rem;
+}
+.heritage-evidence summary {
+  cursor: pointer;
+  color: rgba(212, 164, 88, 0.75);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding: 4px 0;
+}
+.heritage-evidence summary:hover { color: var(--accent-gold); }
+.heritage-evidence p {
+  margin: 8px 0 0;
+  color: rgba(200, 190, 175, 0.72);
+  line-height: 1.55;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 720px) {
+  .heritage-section { padding: 24px 16px; }
+  .heritage-bar-row {
+    grid-template-columns: 28px 90px 1fr 44px;
+    gap: 8px;
+    font-size: 0.85rem;
+  }
+  .heritage-bar-count { display: none; }
+  .heritage-grid { grid-template-columns: 1fr; }
+  .heritage-flag { font-size: 1.9rem; }
+}
+
+/* heritage card variant for surname pages (compact, full-width) */
+.surname-heritage-card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  align-items: stretch;
+  margin: 28px 0 36px;
+  padding: 24px 28px;
+  background: linear-gradient(165deg, rgba(20,16,11,0.55), rgba(12,10,8,0.7));
+  border: 1px solid rgba(34, 197, 94, 0.20);
+  border-left: 4px solid #22c55e;
+  border-radius: 6px;
+  position: relative;
+}
+.surname-heritage-card::before {
+  content: '';
+  position: absolute;
+  top: -1px; left: -1px; right: -1px; height: 2px;
+  background: linear-gradient(90deg, #22c55e, var(--accent-gold), #22c55e);
+  opacity: 0.45;
+  border-radius: 6px 6px 0 0;
+}
+.hcard-flag-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 14px;
+  background: rgba(0,0,0,0.30);
+  border: 1px solid rgba(212, 164, 88, 0.10);
+  border-radius: 5px;
+}
+.hcard-flag {
+  font-size: 5rem;
+  line-height: 1;
+  filter: drop-shadow(0 4px 14px rgba(0,0,0,0.55));
+  margin-bottom: 12px;
+}
+.hcard-country {
+  color: rgba(225, 215, 200, 0.90);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.hcard-country strong {
+  color: var(--accent-gold);
+  font-size: 1.15rem;
+  display: block;
+  margin-bottom: 2px;
+  letter-spacing: 0.02em;
+}
+.hcard-subregion {
+  color: rgba(220, 210, 195, 0.55);
+  font-style: italic;
+  font-size: 0.84rem;
+}
+.hcard-body {
+  font-size: 0.92rem;
+  color: rgba(220, 210, 195, 0.85);
+  line-height: 1.6;
+}
+.hcard-row {
+  margin: 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.hcard-label {
+  color: rgba(212, 164, 88, 0.85);
+  font-weight: 600;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+}
+.hcard-value { color: rgba(225, 215, 200, 0.92); }
+.hcard-clan, .hcard-notable, .hcard-ydna {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 4px;
+  font-size: 0.86rem;
+  border-left: 2px solid rgba(212, 164, 88, 0.35);
+}
+.hcard-clan { border-left-color: #4a7eb8; }
+.hcard-notable { border-left-color: #d4a458; }
+.hcard-ydna { border-left-color: #22c55e; font-family: 'Source Code Pro', monospace; font-size: 0.8rem; }
+.hcard-evidence {
+  margin-top: 12px;
+  font-size: 0.82rem;
+}
+.hcard-evidence summary {
+  cursor: pointer;
+  color: rgba(212, 164, 88, 0.75);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  padding: 4px 0;
+}
+.hcard-evidence summary:hover { color: var(--accent-gold); }
+.hcard-evidence p {
+  margin: 8px 0 0;
+  color: rgba(200, 190, 175, 0.72);
+  line-height: 1.55;
+}
+
+.heritage-deep-link {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 6px 14px;
+  background: rgba(34, 197, 94, 0.10);
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  border-radius: 4px;
+  color: #22c55e;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.heritage-deep-link:hover {
+  background: rgba(34, 197, 94, 0.18);
+  border-color: #22c55e;
+}
+
+@media (max-width: 720px) {
+  .surname-heritage-card {
+    grid-template-columns: 1fr;
+    padding: 20px 18px;
+  }
+  .hcard-flag { font-size: 3.5rem; }
+}
+
 .story-header {
   display: flex;
   justify-content: space-between;
@@ -2301,6 +2632,274 @@ footer.site-footer {
     others one hundred. They start everywhere from Anglo-Saxon Hampshire to Bohemian Moravia
     to the Beaumont, Texas oil boom.
   </section>
+  
+<section id="heritage" class="heritage-section">
+  <h2>Heritage &amp; Origins</h2>
+  <p class="heritage-intro">
+    Each surname line traced back to its earliest <strong>confirmed</strong> ancestor (primary-source verified)
+    with the country of origin and — where identified — the direct ancestor who <strong>first set foot in America</strong>
+    for that line. On every family-tree page, immigrant ancestors are marked with a <span class="heritage-green">green border</span>
+    and the country flag of where they came from.
+  </p>
+  <div class="heritage-breakdown">
+    <h3>Heritage by surname line</h3>
+    
+        <div class="heritage-bar-row">
+          <span class="heritage-bar-flag">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+          <span class="heritage-bar-country">England</span>
+          <div class="heritage-bar-track"><div class="heritage-bar-fill" style="width:33%"></div></div>
+          <span class="heritage-bar-pct">33%</span>
+          <span class="heritage-bar-count">(3 lines)</span>
+        </div>
+        <div class="heritage-bar-row">
+          <span class="heritage-bar-flag">🇩🇪</span>
+          <span class="heritage-bar-country">Germany</span>
+          <div class="heritage-bar-track"><div class="heritage-bar-fill" style="width:33%"></div></div>
+          <span class="heritage-bar-pct">33%</span>
+          <span class="heritage-bar-count">(3 lines)</span>
+        </div>
+        <div class="heritage-bar-row">
+          <span class="heritage-bar-flag">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span>
+          <span class="heritage-bar-country">Scotland</span>
+          <div class="heritage-bar-track"><div class="heritage-bar-fill" style="width:11%"></div></div>
+          <span class="heritage-bar-pct">11%</span>
+          <span class="heritage-bar-count">(1 line)</span>
+        </div>
+        <div class="heritage-bar-row">
+          <span class="heritage-bar-flag">🇮🇪</span>
+          <span class="heritage-bar-country">Ireland</span>
+          <div class="heritage-bar-track"><div class="heritage-bar-fill" style="width:11%"></div></div>
+          <span class="heritage-bar-pct">11%</span>
+          <span class="heritage-bar-count">(1 line)</span>
+        </div>
+        <div class="heritage-bar-row">
+          <span class="heritage-bar-flag">🇨🇿</span>
+          <span class="heritage-bar-country">Czech Republic</span>
+          <div class="heritage-bar-track"><div class="heritage-bar-fill" style="width:11%"></div></div>
+          <span class="heritage-bar-pct">11%</span>
+          <span class="heritage-bar-count">(1 line)</span>
+        </div>
+  </div>
+  <h3 class="heritage-subhead">Paternal Lines (via Dale W. Spence Sr.)</h3>
+  <div class="heritage-grid">
+        <article class="heritage-card">
+          <header class="heritage-header">
+            <span class="heritage-flag" aria-hidden="true">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span>
+            <div>
+              <h3 class="heritage-surname">Spence</h3>
+              <div class="heritage-country"><strong>Scotland</strong></div>
+            </div>
+          </header>
+          <div class="heritage-body">
+            <div class="heritage-row">
+              <span class="heritage-label">Earliest confirmed</span>
+              <span class="heritage-value">1934 — Dr. Dale W. Spence Sr. (b. 1934 Beaumont, TX) — direct documentary line. Pre-Dale-Sr generations require finding Dale Sr&#x27;s father.</span>
+            </div>
+            <div class="heritage-row">
+              <span class="heritage-label">★ Immigrant to America</span>
+              <span class="heritage-value">(immigrant identification pending)</span>
+            </div>
+            <div class="hcard-clan">⚔ <strong>Clan MacDuff (Spens sept) — Lowland Scottish</strong></div>
+            <div class="hcard-notable">⭐ Bishop Thomas Spens of Aberdeen (c.1400-1480, Lord Privy Seal of Scotland under James III, effigy at Rosslyn Chapel); Sir James Spens of Wormiston (c.1571-1632, Ambassador to Sweden, descendants became Swedish counts)</div>
+            <details class="heritage-evidence"><summary>Evidence &amp; sources</summary><p>Spence/Spens CONFIRMED as a sept of Clan MacDuff in every major Scottish clan register (Electric Scotland, tartans.com, Wikipedia). Clan Spens has its own Lord Lyon King of Arms registration; the 4th Baron Spens (b. 1968) holds &#x27;of Blairsanquhar, County of Fife&#x27;. King Robert the Bruce granted the Wormiston estate (Fife) to Clan Spens in 1309 — &#x27;Royal Constables of the Kingdom of East Fife&#x27;. Direct genealogical chain to Hunter pending: Dale Sr&#x27;s father (the immigrant) name still UNKNOWN — best paths: ask Dale Jr OR Texas DSHS birth certificate for Dale Sr ($22) OR 1930 US Census Jefferson Co TX.</p></details>
+            <a class="heritage-deep-link" href="spence.html">Full Spence tree →</a>
+          </div>
+        </article>
+
+        <article class="heritage-card">
+          <header class="heritage-header">
+            <span class="heritage-flag" aria-hidden="true">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+            <div>
+              <h3 class="heritage-surname">Henslee</h3>
+              <div class="heritage-country"><strong>England</strong></div>
+            </div>
+          </header>
+          <div class="heritage-body">
+            <div class="heritage-row">
+              <span class="heritage-label">Earliest confirmed</span>
+              <span class="heritage-value">1725 — Macksfield Henslee (b. ~1725 Hanover Co VA — d. bef. Aug 1801 Caswell Co NC). DAR/SAR qualifying Rev War ancestor.</span>
+            </div>
+            <div class="heritage-row">
+              <span class="heritage-label">★ Immigrant to America</span>
+              <span class="heritage-value">(immigrant identification pending)</span>
+            </div>
+            
+            
+            <details class="heritage-evidence"><summary>Evidence &amp; sources</summary><p>Caswell Co NC Will Book D p.70 (will dated 31 Dec 1794, proved Oct Court 1801) names sons John + David. Surname etymologically from Hensley village, East Worlington, Devon. First English record: John de Henselay, Yorkshire Subsidy Rolls 1297.</p></details>
+            <a class="heritage-deep-link" href="henslee.html">Full Henslee tree →</a>
+          </div>
+        </article>
+
+        <article class="heritage-card">
+          <header class="heritage-header">
+            <span class="heritage-flag" aria-hidden="true">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+            <div>
+              <h3 class="heritage-surname">Byrd</h3>
+              <div class="heritage-country"><strong>England</strong></div>
+            </div>
+          </header>
+          <div class="heritage-body">
+            <div class="heritage-row">
+              <span class="heritage-label">Earliest confirmed</span>
+              <span class="heritage-value">1832 — William Leander Byrd (b. 1832 Frankfort, Franklin Co AL – d. 1889; Confederate Army private; m. Margarete Rhetta Peradeau)</span>
+            </div>
+            <div class="heritage-row">
+              <span class="heritage-label">★ Immigrant to America</span>
+              <span class="heritage-value">(immigrant identification pending)</span>
+            </div>
+            
+            
+            <details class="heritage-evidence"><summary>Evidence &amp; sources</summary><p>Virginia colonial chain back to &#x27;John Henry Bird fl. ~1700 Westmoreland VA&#x27; is POSSIBLE only (cousin GEDCOM, WikiTree profiles flagged as conflations). Hunter&#x27;s line is NOT the Westover Byrd line (William Byrd of Westover 1652-1704 is from a Cheshire English gentry family, Charles City Co tidewater — confirmed distinct). Hunter&#x27;s probable Virginia Byrd ancestors are a Spotsylvania/Piedmont cluster.</p></details>
+            <a class="heritage-deep-link" href="byrd.html">Full Byrd tree →</a>
+          </div>
+        </article>
+
+        <article class="heritage-card">
+          <header class="heritage-header">
+            <span class="heritage-flag" aria-hidden="true">🇮🇪</span>
+            <div>
+              <h3 class="heritage-surname">Baity</h3>
+              <div class="heritage-country"><strong>Ireland</strong> <span class="hcard-subregion">— Ulster Plantation (Counties Down, Tyrone, Cavan) — Scots-Irish ethnic origin</span></div>
+            </div>
+          </header>
+          <div class="heritage-body">
+            <div class="heritage-row">
+              <span class="heritage-label">Earliest confirmed</span>
+              <span class="heritage-value">1746 — George Baity Sr. (b. 27 Nov 1746 Rowan/Surry Co NC, d. 11 Mar 1828; m. Rachel Allgood)</span>
+            </div>
+            <div class="heritage-row">
+              <span class="heritage-label">★ Immigrant to America</span>
+              <span class="heritage-value">Charles Beatty — arrived Pennsylvania 1729 (Filby PILI); 800-acre joint land grant Rowan County NC 1753. Link to George Baity Sr. is geographically/temporally coherent but POSSIBLE not proved.</span>
+            </div>
+            
+            
+            <details class="heritage-evidence"><summary>Evidence &amp; sources</summary><p>Scots-Irish ethnic origin — Borders Scottish settlers (Northumberland, Dumfriesshire) moved to Ulster during the Plantation of Ulster (1610-1640), then emigrated to Pennsylvania in the 1720s-30s. Surname evolution in NC records: Batee (1774) → Baty (1785) → Batey (1787) → Beaty (1800) → Baity (standard by 1830). Sources: WikiTree Baity-117, NC Land Grants database, Filby PILI.</p></details>
+            <a class="heritage-deep-link" href="baity.html">Full Baity tree →</a>
+          </div>
+        </article>
+
+        <article class="heritage-card">
+          <header class="heritage-header">
+            <span class="heritage-flag" aria-hidden="true">🇩🇪</span>
+            <div>
+              <h3 class="heritage-surname">Rau</h3>
+              <div class="heritage-country"><strong>Germany</strong></div>
+            </div>
+          </header>
+          <div class="heritage-body">
+            <div class="heritage-row">
+              <span class="heritage-label">Earliest confirmed</span>
+              <span class="heritage-value">? — Frances Virginia Rau (Lee Stuart Henslee&#x27;s wife)</span>
+            </div>
+            <div class="heritage-row">
+              <span class="heritage-label">★ Immigrant to America</span>
+              <span class="heritage-value">(immigrant identification pending)</span>
+            </div>
+            
+            
+            <details class="heritage-evidence"><summary>Evidence &amp; sources</summary><p>Rau is German surname.</p></details>
+            <a class="heritage-deep-link" href="rau.html">Full Rau tree →</a>
+          </div>
+        </article></div>
+  <h3 class="heritage-subhead">Maternal Lines (via Sharyn Mattingly)</h3>
+  <div class="heritage-grid">
+        <article class="heritage-card">
+          <header class="heritage-header">
+            <span class="heritage-flag" aria-hidden="true">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+            <div>
+              <h3 class="heritage-surname">Mattingly</h3>
+              <div class="heritage-country"><strong>England</strong> <span class="hcard-subregion">— Hampshire (Mattingley village — the toponym source of the surname)</span></div>
+            </div>
+          </header>
+          <div class="heritage-body">
+            <div class="heritage-row">
+              <span class="heritage-label">Earliest confirmed</span>
+              <span class="heritage-value">1483 — William Mattyngle (Hampshire 1483 — mortgage for &#x27;Rychars land&#x27; in Mattingley village)</span>
+            </div>
+            <div class="heritage-row">
+              <span class="heritage-label">★ Immigrant to America</span>
+              <span class="heritage-value">Thomas Mattingly II (received Mattingly&#x27;s Hope land patent 4 Sept 1666, Charles Co Maryland — Patent Book Liber 10, Maryland State Archives SM2). His father Thomas Mattingly I died shortly after arrival in Maryland, 24 July 1664.</span>
+            </div>
+            
+            
+            <details class="heritage-evidence"><summary>Evidence &amp; sources</summary><p>Hampshire Record Office HRO 19M61/153 — mortgage dated 24 March 1483. Pushes confirmed surname presence in the Hampshire village back 65 years from prior research. Y-DNA haplogroup R-Y14084 (unique to all American Mattingly descendants of Thomas I) includes multiple Hampshire, England-origin YFull samples — genetically confirming Hampshire origin.</p></details>
+            <a class="heritage-deep-link" href="mattingly.html">Full Mattingly tree →</a>
+          </div>
+        </article>
+
+        <article class="heritage-card">
+          <header class="heritage-header">
+            <span class="heritage-flag" aria-hidden="true">🇩🇪</span>
+            <div>
+              <h3 class="heritage-surname">Teichmueller</h3>
+              <div class="heritage-country"><strong>Germany</strong> <span class="hcard-subregion">— Lower Saxony / Saxony-Anhalt borderlands (Harz mining corridor — Goslar, Halberstadt, Rohrsheim, Braunschweig)</span></div>
+            </div>
+          </header>
+          <div class="heritage-body">
+            <div class="heritage-row">
+              <span class="heritage-label">Earliest confirmed</span>
+              <span class="heritage-value">1580 — Hans/Johann Teichmüller (master miller, c.1580–1638, southern Harz mountains)</span>
+            </div>
+            <div class="heritage-row">
+              <span class="heritage-label">★ Immigrant to America</span>
+              <span class="heritage-value">Hans Teichmüller (1837 Braunschweig → 1856 Fayette Co TX)</span>
+            </div>
+            
+            <div class="hcard-notable">⭐ Gustav Teichmüller (1832-1888) — Hans&#x27;s older brother, German philosopher whose perspectivism doctrine directly influenced Nietzsche. Hunter&#x27;s 3x great-granduncle.</div>
+            <details class="heritage-evidence"><summary>Evidence &amp; sources</summary><p>Neue Deutsche Biographie (NDB) vol. 26, 2016, p. 6 — peer-reviewed German biographical dictionary. Surname is occupational: Teichmüller = &#x27;pond miller&#x27;.</p></details>
+            <a class="heritage-deep-link" href="teichmueller.html">Full Teichmueller tree →</a>
+          </div>
+        </article>
+
+        <article class="heritage-card">
+          <header class="heritage-header">
+            <span class="heritage-flag" aria-hidden="true">🇨🇿</span>
+            <div>
+              <h3 class="heritage-surname">Lepick</h3>
+              <div class="heritage-country"><strong>Czech Republic</strong> <span class="hcard-subregion">— Frýdek-Místek area, Moravian-Silesian Region (working hypothesis POSSIBLE — surname clusters 100% in Czech Republic, 82% in Frýdek-Místek/Ostrava corridor)</span></div>
+            </div>
+          </header>
+          <div class="heritage-body">
+            <div class="heritage-row">
+              <span class="heritage-label">Earliest confirmed</span>
+              <span class="heritage-value">1862 — Frank Lepik / František Lepík (b. ~1862 Czech lands of Austria-Hungary — d. 1939 Horton, Brown Co Kansas; m. Mary Mikeska 1885)</span>
+            </div>
+            <div class="heritage-row">
+              <span class="heritage-label">★ Immigrant to America</span>
+              <span class="heritage-value">Frank Lepik arrived USA 1881 at age ~19, alone. Shoemaker. Settled Brown Co Kansas. Buried Kennekuk Cemetery.</span>
+            </div>
+            
+            <div class="hcard-notable">⭐ Fred Charles Lepick Jr. (1925-2016) — Naval Aviator, UT Law JD 1950, President of Frost National Bank San Antonio 1981-1988. Hunter&#x27;s great-great-uncle.</div>
+            <details class="heritage-evidence"><summary>Evidence &amp; sources</summary><p>Forebears.io: Lepík has 88 bearers worldwide, 100% in Czech Republic. KdeJsme.cz: 54.5% in Frýdek-Místek, 12.5% in Frýdlant nad Ostravicí, 14.8% in Ostrava. Catholic. WikiTree Lepik-8.</p></details>
+            <a class="heritage-deep-link" href="lepick.html">Full Lepick tree →</a>
+          </div>
+        </article>
+
+        <article class="heritage-card">
+          <header class="heritage-header">
+            <span class="heritage-flag" aria-hidden="true">🇩🇪</span>
+            <div>
+              <h3 class="heritage-surname">Boehme</h3>
+              <div class="heritage-country"><strong>Germany</strong> <span class="hcard-subregion">— Kingdom of Saxony (PROBABLE)</span></div>
+            </div>
+          </header>
+          <div class="heritage-body">
+            <div class="heritage-row">
+              <span class="heritage-label">Earliest confirmed</span>
+              <span class="heritage-value">1863 — Herman F. Boehme (1863 TX – 1900 Shiner, Lavaca Co TX). Buried Sons of Hermann Cemetery. Probable wife: Minna Marie Macker.</span>
+            </div>
+            <div class="heritage-row">
+              <span class="heritage-label">★ Immigrant to America</span>
+              <span class="heritage-value">G6 Unknown Boehme (Herman&#x27;s father) — name unknown, immigration window c.1855-1862, probable entry port Indianola TX, departure Hamburg or Bremen. Path to identify: 1870 Lavaca Co census (NARA M593 roll 1595) for Boehme household with Herman age ~7.</span>
+            </div>
+            
+            
+            <details class="heritage-evidence"><summary>Evidence &amp; sources</summary><p>Böhme surname concentrates 34% in Saxony (Forebears.io — highest of any German state). Confirmed collateral immigrant Dr. Friedrich August Boehme (b. 1809 Waldenburg, Landkreis Zwickau, Saxony) emigrated to Castroville, Medina Co TX. Surname etymology: Böhme = ethnic Germans resettled from Bohemia into Saxony post-Thirty Years War. Texas holds 15% of all US Boehme bearers.</p></details>
+            <a class="heritage-deep-link" href="boehme.html">Full Boehme tree →</a>
+          </div>
+        </article></div>
+</section>
+
   <h2 class="section-break">The Lines</h2>
   <div class="hub-grid">
     <div class="hub-card">
@@ -2312,7 +2911,7 @@ footer.site-footer {
 </div><div class="hub-card">
   <a href="spence.html">
     <h2>The Spence Line</h2>
-    <p class="sub">NE England → Beaumont, Texas → Hunter (the line he carries his surname from)</p>
+    <p class="sub">Scotland (Clan MacDuff sept) → Beaumont, Texas → Hunter (the line he carries his surname from)</p>
     <p class="body">Hunter's surname comes from this line — a still-unnamed English immigrant from north-east England (probably Yorkshire, Durham, or Northumberland) who arrived Beaumont, Texas through Galveston in the post-Spindletop oil-boom labour wave of t…</p>
   </a>
 </div><div class="hub-card">

@@ -1,0 +1,421 @@
+{
+  "title": "Baity Line — Confirmed Trace: American Immigrant to Hunter Spence",
+  "compiled": "2026-04-26",
+  "schema_version": "surname-research-v1",
+  "methodology_note": "Sources: WikiTree Baity-117 (primary profile with Texas death certificate #477 and multiple US Census records 1870–1940 cited); WikiTree Baity-20 (William Henry Baity 1771, FamilySearch NC County Marriages 1762-1979); WikiTree Baity-37 (George Wesley Baity 1831, FamilySearch NC Deaths); cemeterycensus.org Courtney Baptist Church Cemetery Yadkin County (primary transcription, confirmed person dates); cemeterycensus.org Deep Creek Baptist Church Cemetery Yadkin County; Genealogy.com Baity forum thread #62 (compiled discussion citing Rowan/Surry court, deed, tax records; Francis and John Beaty colonial NC settlement pattern; George Baity parentage debate); BeattyProject.org death index; Portal to Texas History (San Antonio newspaper archives); SFA East Texas Research Center archival item 19330; nclandgrants.com NC Land Grants database; Wikipedia Beatty surname etymology; houseofnames.com citing Filby Passenger and Immigration Lists Index; FamilySearch Augusta County Virginia records (Francis Beatie land patents). Integrates prior repo files 36-baity-deep-dive.json and 50-baity-integration-candidates.json.",
+
+  "connection_to_hunter": {
+    "chain": "Hunter Spence → Rachel Spence (mother) → Sharyn 'Shari' Mattingly (maternal grandmother) → Leroy Baity Mattingly (Shari's father, 1922–2013) → Ruth Baity Mattingly (Leroy's mother, b. 4 Apr 1900) → Paralee 'Pearl' Johnson Baity (Ruth's mother, b. 26 Jul 1878) → William Alexander Baity (Pearl's husband and Ruth's father, b. 2 Nov 1862) — Baity surname enters through Pearl's marriage.",
+    "baity_bridge_person": "Paralee 'Pearl' Johnson Baity — Hunter's maternal great-great-grandmother by marriage into the Baity line.",
+    "direct_line_entry": "Pearl Johnson married William Alexander Baity on 4 June 1899 in Grayson (Denison), Texas. Their daughter Ruth Baity married Leroy Teichmuller Mattingly. Their son Leroy Baity Mattingly (1922–2013) is Shari's father and Hunter's maternal great-grandfather.",
+    "key_entities": {
+      "p006": "Paralee 'Pearl' Johnson Baity — confirmed in entities.json",
+      "p010": "William Alexander Baity — confirmed in entities.json",
+      "p014": "Ruth (Baity) Mattingly — confirmed in entities.json",
+      "p100": "William D. Baity (1829–1894) — entities.json",
+      "p102": "David Baity Sr. (1782–1856) — entities.json",
+      "p103": "George Baity Sr. (1746–1828) — entities.json",
+      "p144": "David Isom Baity (1782–1856) — entities.json duplicate of p102 with CONFIRMED confidence note"
+    },
+    "confidence": "CONFIRMED"
+  },
+
+  "generations": [
+    {
+      "gen": 1,
+      "label": "Immigrant Generation — Francis and John Beaty (Ulster to Pennsylvania to NC)",
+      "person": {
+        "id": "B_G1",
+        "note_on_identity": "The immigrant-generation identification for the NC Baity direct line is POSSIBLE based on geography and surname cluster. Francis Beatie (WikiTree Beatie-27) is documented arriving from Ireland (b. 1715, County Cavan, father Arthur Beatie of Killeshandra Cavan, d. before 1741) and settling Lancaster County PA by 1735. His brother John Beatie (b. 1718 Meaghera, County Londonderry) settled with him. A separate Francis Beaty appears in Mecklenburg County NC 1768 and Rowan County NC 1772 as public register — this may be Francis Jr. (b. 1752, Augusta County VA) rather than the original immigrant. The compiled Genealogy.com Baity discussion states: 'Brothers Francis and John Beaty came to North Carolina from Ireland via Pennsylvania and Virginia in the early 1700s' and speculates George Baity Sr. (b. 1746) was 'one of Francis Beaty's grandchildren.' This is a RESEARCH HYPOTHESIS not a proved genealogical link.",
+        "immigrant_candidates": [
+          {
+            "name": "Francis Beatie (senior immigrant)",
+            "birth_year": 1715,
+            "birth_place": "Ireland (County Cavan per WikiTree Beatie-27)",
+            "father": "Arthur Beatie (1673–May 1741, Killeshandra, Cavan, Ireland)",
+            "mother": "Martha Cairnes Beatie (1687–Apr 1743, Claremore, Tyrone, Ireland)",
+            "pennsylvania_arrival": "settled Lancaster County PA by 1735; patented 200 acres 1737",
+            "virginia_phase": "Augusta County VA c. 1750 (359-acre grant on Mudlick Run, 1747); moved to Washington County VA c. 1772",
+            "death": "before 14 March 1791, Washington County, Virginia",
+            "spouse": "Martha Tate",
+            "note": "This Francis stayed in Virginia; the NC Mecklenburg/Rowan 'Francis Beaty' may be his son Francis Jr. (b. 1752 Augusta Co VA).",
+            "sources": [
+              "https://www.wikitree.com/wiki/Beatie-27",
+              "Chalkley, Lyman. Chronicles of the Scotch-Irish Settlement in Virginia (Augusta County Court Records 1745–1800)",
+              "Library of Virginia, Will Book 1 p. 163-164, Washington County"
+            ],
+            "confidence": "CONFIRMED as an immigrant ancestor of the Beatie/Beatty family; connection to the Baity direct NC line is POSSIBLE only"
+          },
+          {
+            "name": "Charles Beatty (and Thomas Beatty, joint grantee)",
+            "birth_year_est": "c. 1700–1715",
+            "birth_place": "POSSIBLE: County Down or County Tyrone, Ulster → Pennsylvania c. 1729",
+            "pennsylvania_record": "HouseOfNames cites Filby Passenger and Immigration Lists Index: 'Charles Beatty arrived Pennsylvania 1729'",
+            "nc_land_grant": "800 acres in Rowan County NC, 1753 — first year of Rowan County's existence",
+            "note": "Charles and Thomas Beatty's 800-acre joint grant in Rowan County's founding year is consistent with the Great Wagon Road migration from PA. Their relation to George Baity Sr. (b. 1746 in or near Rowan County) is geographically plausible but genealogically unproved.",
+            "sources": [
+              "https://nclandgrants.com/quick/ (POST search, name=beatty, exact=on)",
+              "https://www.houseofnames.com/beatty-family-crest (citing Filby PILI 1982-1985)"
+            ],
+            "confidence": "POSSIBLE — immigrant identification; direct line connection unproved"
+          }
+        ]
+      },
+      "best_supported_immigrant": "Charles Beatty (PA 1729 → Rowan County NC 1753) is the best-documented candidate for American immigrant of the line that became 'Baity' in Surry/Yadkin County NC. The Francis Beatie line settled in Virginia, not NC. However, neither can be confirmed as George Baity Sr.'s direct ancestor without Rowan County deed or probate records 1753–1774.",
+      "migration_corridor": "Ulster (County Down / County Cavan / County Tyrone) → Philadelphia / Lancaster County Pennsylvania (1720s–1730s) → Shenandoah Valley Virginia (1740s–1750s) → Rowan County North Carolina via Great Wagon Road (1748–1753)"
+    },
+    {
+      "gen": 2,
+      "label": "Earliest Confirmed NC Baity — George Baity Sr.",
+      "person": {
+        "id": "B_G2",
+        "full_name": "George Baity Sr.",
+        "birth_date": "27 November 1746",
+        "birth_year": 1746,
+        "birth_place": "Rowan County (later Surry County), North Carolina — probable; possibly PA or VA",
+        "death_date": "11 March 1828",
+        "death_year": 1828,
+        "death_place": "Surry/Rowan County, North Carolina",
+        "spouse": "Rachel Allgood (c. 1756–unknown)",
+        "known_children": [
+          "William Henry Baity (1771–1848, Baptist preacher, Rowan/Davie County NC)",
+          "Mary (Baity) Cranfill (b. 1777, Rowan)",
+          "David Baity Sr. (b. 1782, Surry) — ancestor of William Alexander Baity",
+          "George Baity Jr. (b. 1796, Rowan) — half-sibling via second relationship"
+        ],
+        "key_facts": [
+          "Birth date 27 Nov 1746 and death date 11 Mar 1828 confirmed via WikiTree Baity-117 (citing FamilySearch and US Census records) and WikiTree Baity-20",
+          "Taxed in Rowan County 1787; associated with Dutchman's Creek area Rowan County",
+          "Bond 2 Apr 1785: Sylvester and John Thomson sell George Batee 124 acres on Dutchman's Creek",
+          "19 Jan 1798: Thomas Horn to George Baty, 300 acres on Chiquapin Creek near the Rowan line",
+          "George bought land on Chinquapin Creek for sons William and David",
+          "1800 census: George Beaty in Surry County NC (Surry split from Rowan 1771)",
+          "Wife Rachel Allgood — her maiden name 'Allgood' is confirmed from WikiTree Baity-117 lineage data"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Baity-117 (citing Texas death certificate #477 and US Census 1870-1940 for William Alexander Baity, which carries ancestor chain)",
+          "https://www.wikitree.com/wiki/Baity-20 (William Henry Baity profile listing George Baity Sr. as father)",
+          "https://www.wikitree.com/wiki/Baity-37 (George Wesley Baity 1831, grandson)",
+          "https://www.ancestry.com/sharing/21081190?h=af0454 (compiled Baity story with Rowan deed/court/tax citations)",
+          "https://www.genealogy.com/forum/surnames/topics/baity/62/ (Baity researcher discussion of George Baity parentage)"
+        ],
+        "parents_note": "George Baity Sr.'s parents are NOT CONFIRMED. The compiled Genealogy.com discussion speculates he was a grandson of Francis Beaty (the NC Mecklenburg/Rowan public register), but this is a RESEARCH HYPOTHESIS. Rowan County deed and probate records 1753–1774 at NC State Archives are the required primary source to prove this link.",
+        "confidence": "CONFIRMED (person + dates via WikiTree with census sources cited); parents UNKNOWN"
+      }
+    },
+    {
+      "gen": 3,
+      "label": "Surry County NC — David Baity Sr.",
+      "person": {
+        "id": "B_G3",
+        "full_name": "David Baity Sr. (also: David Isom Baity)",
+        "birth_year": 1782,
+        "birth_place": "Surry County, North Carolina",
+        "death_year": 1856,
+        "death_year_note": "WikiTree Baity-117 gives 'abt 1856'; Find a Grave #202953407 gives 1782–1854",
+        "death_place": "Surry County, North Carolina",
+        "father": "George Baity Sr. (1746–1828)",
+        "spouse": "Sarah Hendricks (married 20 June 1798, per compiled genealogy research)",
+        "key_facts": [
+          "David and William Batey taxed in Rowan/Surry district 1799–1800 as 'sons of George Batey' (per Genealogy.com Baity discussion citing Surry County tax lists)",
+          "1830 Surry County census transcription lists David Baity as separate head of household in same cluster as George Baity and Isam Baity",
+          "Entities.json has two entries: p102 (David Baity Sr. 1782–1856) and p144 (David Isom Baity 1782–1856, marked CONFIRMED as 'bridge between George Baity 1774 and Isham 1804' per cousin GEDCOM cluster) — these are the same person",
+          "WikiTree Baity-117 ancestor chain lists David Baity Sr. as paternal great-grandfather of William Alexander Baity"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Baity-117",
+          "https://www.ncgenweb.us/alleghany/surry1830.html (1830 Surry County census transcription)",
+          "https://www.genealogy.com/forum/surnames/topics/baity/62/ (tax list citation 1799-1800)",
+          "https://www.findagrave.com/memorial/202953407/david-isom-baity"
+        ],
+        "confidence": "CONFIRMED — person and parent-child link to George Baity Sr. (per WikiTree Baity-117 citing census records) and to Isham Baity (same source)"
+      }
+    },
+    {
+      "gen": 4,
+      "label": "Earliest Cemetery-Confirmed NC Baity — Isham 'Isom' Baity",
+      "person": {
+        "id": "B_G4",
+        "full_name": "Isham 'Isom' Baity",
+        "birth_date": "19 October 1804",
+        "birth_place": "Surry County (formerly Rowan), North Carolina",
+        "death_date": "23 December 1892",
+        "death_place": "Yadkin County, North Carolina",
+        "burial": "Courtney Baptist Church Cemetery, Yadkin County, NC",
+        "father": "David Baity Sr. (1782–1856)",
+        "spouse": "Nancy Plowman (also: Ploughman; b. 31 Dec 1810, Surry County NC; d. 6 Mar 1852)",
+        "known_children": [
+          "William D. Baity (b. 19 Jul 1829 / 1830 — father of William Alexander Baity)",
+          "Jennette C. Baity (b. 13 Jan 1852, d. 17 May 1922) — married Alexander Hutchens II; cemetery entry CONFIRMS 'daughter of Isham Baity and Nancy Plowman'",
+          "John I. Baity (b. 23 Aug 1811)",
+          "John Baity (b. 15 Mar 1813)",
+          "M. L. Baity (b. 15 Sep 1805)",
+          "Catherine Danner Baity (b. 15 Mar 1813)"
+        ],
+        "key_facts": [
+          "PRIMARY SOURCE: Courtney Baptist Church Cemetery, Yadkin County NC: 'Baity, Isham \"Isom\" (b. 19 Oct 1804 - d. 23 Dec 1892)'",
+          "Wife Nancy Plowman confirmed by Deep Creek Baptist Church Cemetery entry for daughter Jennette: 'Daughter of Isham Baity and Nancy Plowman'",
+          "WikiTree Baity-117 lists Isham Baity (1804–1892) as paternal grandfather of William Alexander Baity with Nancy Ploughman as grandmother"
+        ],
+        "sources": [
+          "https://www.cemeterycensus.org/nc/yadk/cem049.htm (Courtney Baptist Church Cemetery — primary transcription)",
+          "https://www.cemeterycensus.org/nc/yadk/cem026.htm (Deep Creek Baptist Church Cemetery — Jennette entry confirming parents)",
+          "https://www.wikitree.com/wiki/Baity-117"
+        ],
+        "confidence": "CONFIRMED"
+      }
+    },
+    {
+      "gen": 5,
+      "label": "Yadkin County NC — William D. Baity",
+      "person": {
+        "id": "B_G5",
+        "full_name": "William D. Baity",
+        "birth_date": "19 July 1829",
+        "birth_year_note": "WikiTree Baity-117 gives 19 Jul 1829; Courtney Baptist Cemetery gives b. 1830; PeopleLegacy gives 1829",
+        "birth_place": "North Carolina",
+        "death_date": "6 February 1894",
+        "death_place": "North Carolina",
+        "burial": "Courtney Baptist Church Cemetery, Yadkin County, NC",
+        "father": "Isham 'Isom' Baity (1804–1892)",
+        "spouse": "Sarah Ann Sprinkle (b. 1837, North Carolina)",
+        "known_children": [
+          "William Alexander Baity (b. 2 Nov 1862, Courtney, Yadkin County NC)",
+          "Mary B. Baity (b. 1866, North Carolina)",
+          "John T. Baity (b. 1869)"
+        ],
+        "key_facts": [
+          "WikiTree Baity-117 confirms William D. Baity (19 Jul 1829 – 6 Feb 1894) as father of William Alexander Baity, with Sarah Ann Sprinkle as mother",
+          "Cemetery entry: 'Baity, William D (b. 1830 - d. Unknown)' at Courtney Baptist Church Cemetery",
+          "Civil War service: 28th NC Infantry (NC Troops Roster Index) as 'William D. Sr.'",
+          "William D. Baity was confirmed as a Civil War soldier per militaryhistoryonline.com citation in 36-baity-deep-dive.json"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Baity-117 (citing Texas death certificate #477 and US Census 1870-1940 for William Alexander Baity listing parents)",
+          "https://www.cemeterycensus.org/nc/yadk/cem049.htm",
+          "https://peoplelegacy.com/burial-records/william/baity/"
+        ],
+        "confidence": "CONFIRMED (via WikiTree Baity-117 citing primary census and vital records for son William Alexander)"
+      }
+    },
+    {
+      "gen": 6,
+      "label": "NC-to-Texas Migration — William Alexander Baity",
+      "person": {
+        "id": "B_G6",
+        "full_name": "William Alexander Baity",
+        "birth_date": "2 November 1862",
+        "birth_place": "Courtney, Yadkin County, North Carolina",
+        "death_date": "30 January 1945",
+        "death_place": "San Antonio, Bexar County, Texas",
+        "father": "William D. Baity (1829–1894)",
+        "mother": "Sarah Ann Sprinkle (1837–?)",
+        "spouse": "Paralee 'Pearl' Johnson (b. 26 Jul 1878, Greenville, Tennessee)",
+        "marriage": "4 June 1899, Grayson (Denison), Texas",
+        "known_children": [
+          "Ruth Baity Mattingly (b. 4 April 1900, Texas)",
+          "Margaret Baity (b. 1910, Texas)"
+        ],
+        "key_facts": [
+          "Texas death certificate #477 confirms full name, birth, death — primary source per WikiTree Baity-117",
+          "Multiple US Census records 1870–1940 document this person per WikiTree Baity-117",
+          "San Antonio builder and developer 1909–1926: 'Fair Play Home Company' (1909), Highland Terrace developer (1919), 'Blue Ribbon Homes' (1924–1926)",
+          "Residence: 211 Castillo Ave., San Antonio by 1925",
+          "Bexar County deed 2 Nov 1910: 'W. A. Baity and Paralee Baity to W. F. Daniel...'",
+          "Siblings: Mary B. Baity (b. 1866) and John T. Baity (b. 1869)"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Baity-117 (Texas death certificate #477; US Census 1870-1940)",
+          "https://texashistory.unt.edu/ark:/67531/metapth1692368/m1/7/ (1909 San Antonio newspaper)",
+          "https://texashistory.unt.edu/ark:/67531/metapth430851/m1/15/ (1919 San Antonio newspaper)",
+          "https://texashistory.unt.edu/ark:/67531/metapth1631463/m1/25/ (1925 San Antonio newspaper)",
+          "https://texashistory.unt.edu/ark:/67531/metapth1692586/m1/8/ (1910 Bexar County deed)",
+          "https://archives.sfasu.edu/repositories/2/archival_objects/19330 (SFA archival item description)"
+        ],
+        "confidence": "CONFIRMED"
+      }
+    },
+    {
+      "gen": 7,
+      "label": "Hunter's Maternal Great-Great-Grandmother — Paralee 'Pearl' Johnson Baity",
+      "person": {
+        "id": "B_G7",
+        "full_name": "Paralee 'Pearl' Johnson Baity",
+        "birth_date": "26 July 1878",
+        "birth_place": "Greenville, Tennessee (per WikiTree Baity-117)",
+        "death_date": "26 December 1969",
+        "death_year_note": "entities.json gives 1971; BeattyProject.org death index gives 12-26-1969; Bexar County TX",
+        "death_place": "Bexar County, Texas",
+        "father": "Morgan Johnson (in Denison, TX by 1900; per enriched_context in entities.json)",
+        "spouse": "William Alexander Baity",
+        "marriage": "4 June 1899, Grayson (Denison), Texas",
+        "known_children": [
+          "Ruth Baity Mattingly (b. 4 April 1900, Texas)",
+          "Margaret Baity (b. 1910, Texas)"
+        ],
+        "key_facts": [
+          "Legal name: Paralee Johnson; family nickname: Pearl",
+          "BeattyProject.org death index: 'Paralee Johnson Baity, died 12-26-1969, BEXAR, female, widowed'",
+          "Moved from Tennessee to North Texas (Denison/Grayson County) as a child per oral history",
+          "Oral history (Shari): Pearl bought Reeves County TX land in April 1901, retained mineral rights (Wolfcamp Shale); land purchase not yet confirmed by primary deed record",
+          "Attended 1904 St. Louis World's Fair (Louisiana Purchase Exposition); spent $5,000 (~$180,000 in 2025 dollars)",
+          "Lived at 211 Castillo Ave., San Antonio — Lavaca/Southtown district — until her death"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Baity-117",
+          "https://beattyproject.org/wrappers/pages.php?ID=3&aid=147 (death index)",
+          "https://texashistory.unt.edu/ark:/67531/metapth1692586/m1/8/ (1910 Bexar deed naming 'Paralee Baity')"
+        ],
+        "confidence": "CONFIRMED (death index + deed + WikiTree citing census records)"
+      }
+    },
+    {
+      "gen": 8,
+      "label": "Bridge to Mattingly Line — Ruth Baity Mattingly",
+      "person": {
+        "id": "B_G8",
+        "full_name": "Ruth Baity Mattingly",
+        "birth_date": "4 April 1900",
+        "birth_place": "Texas",
+        "death_year": 1982,
+        "death_place": "Houston, Texas",
+        "father": "William Alexander Baity",
+        "mother": "Paralee 'Pearl' Johnson Baity",
+        "spouse": "Leroy Teichmuller Mattingly (31 Aug 1896 – 1968, La Grange TX; WikiTree Mattingly-1127)",
+        "known_children": [
+          "Leroy Baity Mattingly (b. 17 May 1922, San Antonio; d. 2013, Colorado Springs CO) — married Jennive Imogene Lepick on 18 Dec 1943 at Fort Sill OK"
+        ],
+        "key_facts": [
+          "Confirmed per WikiTree Baity-117 (birth date 4 Apr 1900, Texas)",
+          "Named 'Leroy Baity Mattingly' for her son — carried the Baity name forward",
+          "Attended North Texas State University — one of few Texas universities accepting women at the time (per Shari oral history)",
+          "Family lost substantial wealth in the 1929 crash (per Shari oral history)"
+        ],
+        "sources": [
+          "https://www.wikitree.com/wiki/Baity-117",
+          "research/06-full-mattingly-lineage.json (gen 13-14 entries)",
+          "research/lineage-tree-multi.json (Leroy Teichmuller Mattingly node)"
+        ],
+        "confidence": "CONFIRMED"
+      }
+    }
+  ],
+
+  "american_immigrant": {
+    "best_candidate": "Charles Beatty",
+    "arrival": "Pennsylvania, 1729 (Filby Passenger and Immigration Lists Index)",
+    "nc_land_grant": "800 acres, Rowan County NC, 1753 (with Thomas Beatty, joint grantee) — first year of Rowan County's existence",
+    "alternative_candidate": "Francis Beatie (b. 1715 County Cavan Ireland, Lancaster County PA by 1735) — settled in Virginia not NC; his descendants may have moved south but this is not proved",
+    "origin_country": "Ireland (specifically Ulster — County Down / County Tyrone / County Cavan)",
+    "scottish_pre_migration": "Scottish Borders before Plantation of Ulster (1610–1640); Beatty/Baity is a Scottish Border surname (Northumberland, Dumfries-shire, Roxburghshire, Lanark) derived from diminutive of Bartholomew",
+    "confidence_of_charles_beatty_as_direct_ancestor": "POSSIBLE — geographic and temporal fit is strong; direct genealogical proof (Rowan deed/probate linking Charles Beatty → George Baity Sr.) not yet recovered",
+    "sources": [
+      "https://www.houseofnames.com/beatty-family-crest (citing Filby PILI 1982-1985 for 1729 PA arrival)",
+      "https://nclandgrants.com/quick/ (1753 Rowan County land grant)",
+      "https://www.wikitree.com/wiki/Beatie-27 (Francis Beatie from County Cavan, Ulster)",
+      "https://en.wikipedia.org/wiki/Beatty_(surname)"
+    ]
+  },
+
+  "earliest_confirmed_ancestor": {
+    "person": "George Baity Sr.",
+    "birth": "27 November 1746",
+    "death": "11 March 1828",
+    "location": "Rowan / Surry County, North Carolina",
+    "confirmed_by": "WikiTree Baity-117 (citing Texas death certificate #477 and US Census records for descendant William Alexander Baity, with ancestor chain); WikiTree Baity-20 (William Henry Baity profile naming George Baity Sr. as father); compiled deed and tax records 1785–1800",
+    "relation_to_hunter": "5th great-grandfather (Hunter's generation 9 counting from self)",
+    "confidence": "CONFIRMED"
+  },
+
+  "surname_origin": {
+    "etymology": "Beatty (→ Baity) derives from 'Bate' or 'Batey', a diminutive/pet form of Bartholomew. NOT derived from Beatrice. Classified as a 'Border surname' on both sides of the Scotland/England boundary.",
+    "spelling_progression_nc": "Batee (1774 Rowan County court) → Baty (1785 deed) → Batey (1787 tax) → Beaty (1800 census) → Baity (standard by 1830 Surry County census)",
+    "origin_region": "Scottish Borders: Northumberland, Dumfries-shire, Roxburghshire, Lanark",
+    "ulster_concentration": "County Down (Ards Peninsula / Strangford Lough), County Tyrone, County Antrim, County Fermanagh — Plantation of Ulster 1610–1640",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Beatty_(surname)",
+      "https://www.surnamedb.com/Surname/Beatty (citing Reaney & Wilson)",
+      "https://www.houseofnames.com/beatty-family-crest"
+    ],
+    "confidence": "CONFIRMED"
+  },
+
+  "migration_corridor": [
+    {"period": "Pre-1600s", "place": "Scottish Borders (Northumberland, Dumfriesshire)", "context": "Beatty/Baity surname originates as a Border clan surname"},
+    {"period": "1610–1640", "place": "Scottish Borders → Ulster (County Down, Tyrone, Cavan)", "context": "Plantation of Ulster — Scots settlers receive land grants in County Down and Tyrone"},
+    {"period": "1718–1735", "place": "Ulster → Pennsylvania", "context": "Mass Scots-Irish emigration via Londonderry/Belfast to Philadelphia. Charles Beatty arrived Pennsylvania 1729 per Filby PILI. Francis Beatie settled Lancaster County PA by 1735."},
+    {"period": "1730s–1750s", "place": "Pennsylvania → Shenandoah Valley, Virginia", "context": "Great Wagon Road migration south. Francis Beatie in Augusta County VA 1747."},
+    {"period": "1748–1753", "place": "Virginia → Rowan County, North Carolina", "context": "Yadkin Valley settlers arriving. Rowan County formed 1753. Charles and Thomas Beatty received 800-acre grant in founding year."},
+    {"period": "1771+", "place": "Rowan County → Surry County NC", "context": "Surry County split from Rowan 1771. George Baity Sr. (b. 1746) moved to or remained in new Surry County; documented in Surry by 1800 census."},
+    {"period": "1850s–1870s", "place": "Surry/Yadkin County NC → North Texas (Denison/Grayson County)", "context": "William Alexander Baity moved to Texas. Pearl Johnson's NC family also moved to North Texas after the Civil War (oral history: father begged Sherman not to burn their NC farm)."},
+    {"period": "c. 1905–1945", "place": "Denison TX → San Antonio (Bexar County)", "context": "W. A. Baity and Paralee married 1899 in Denison; by 1910 in San Antonio. W. A. built substantial portion of early 20th-century San Antonio. Pearl lived at 211 Castillo Ave until death in 1969/1971."}
+  ],
+
+  "notable_figures": [
+    {
+      "name": "William Alexander Baity",
+      "dates": "1862–1945",
+      "significance": "Major San Antonio builder and developer 1905–1926. Built 'a substantial portion of early twentieth-century San Antonio' per family records. Operated 'Fair Play Home Company' (1909), developed Highland Terrace (1919), and promoted 'Blue Ribbon Homes' (1924–1926). One of the more documented Baity figures in Texas history sources.",
+      "sources": ["Portal to Texas History, multiple citations 1909–1926"]
+    },
+    {
+      "name": "Paralee 'Pearl' Johnson Baity",
+      "dates": "1878–1969/1971",
+      "significance": "Purchased Reeves County TX land in April 1901 (3 months after Spindletop) and retained mineral rights in the Wolfcamp Shale formation — a royalty stream the Mattingly family still receives. Attended the 1904 St. Louis World's Fair. Her childhood memory includes her father's wartime encounter with General Sherman during the Carolinas Campaign.",
+      "sources": ["entities.json p006; BeattyProject.org death index; family oral history (Shari)"]
+    },
+    {
+      "name": "Pleasant H. Baity",
+      "dates": "b. 10 Jul 1844, d. 14 Feb 1928",
+      "significance": "Civil War service: 28th NC Infantry, Company I — enlisted 8 March 1862 at age 18. Survived the war.",
+      "sources": ["militaryhistoryonline.com 28th NC Infantry Company I roster; Courtney Baptist Church Cemetery"]
+    },
+    {
+      "name": "William W. Baity",
+      "dates": "enlisted 13 Aug 1861",
+      "significance": "Civil War: 28th NC Infantry, Company I. Died 8 December 1862 of disease at Winchester, Virginia. Buried Stonewall Confederate Cemetery, grave 328.",
+      "sources": ["militaryhistoryonline.com 28th NC Infantry Company I roster"]
+    },
+    {
+      "name": "Rev. William Henry Baity",
+      "dates": "1771–1848",
+      "significance": "Baptist preacher, son of George Baity Sr., active in Yadkin and Davie County NC. Establishes the Baity family's early religious leadership in the Carolinas Piedmont.",
+      "sources": ["https://www.wikitree.com/wiki/Baity-20"]
+    }
+  ],
+
+  "open_research_gaps": [
+    "George Baity Sr. (1746–1828) parents: Rowan County deed and probate records 1753–1774 at NC State Archives are the definitive next step. The hypothesis that he is a grandson of Francis Beaty (the NC surveyor) is plausible but unproved.",
+    "American immigrant confirmation: Linking Charles Beatty (PA 1729, Rowan County NC 1753) directly to George Baity Sr. requires Rowan County original deed images. The 800-acre 1753 grant is documented in nclandgrants.com but the grantee-to-George link is inferred.",
+    "David Baity Sr. (1782–1856) confirmation: WikiTree Baity-117 asserts George → David parent-child link; independently confirming with a Surry County census image (1810 or 1820 showing David Baity with young son Isham) would upgrade to fully verified primary-source chain.",
+    "Paralee 'Pearl' Johnson parents: Morgan Johnson (father, Denison TX) confirmed in entities.json enriched_context. Her mother's name is not in entities.json or research files. Tennessee Greenville birth 26 Jul 1878 from WikiTree — 1880 Tennessee census image would confirm.",
+    "Reeves County April 1901 land purchase by Pearl Baity: Texas GLO or Reeves County deed record needed to prove mineral rights story.",
+    "Ulster origin pre-1700: ScotlandsPeople paid search or PRONI (Belfast) would be needed to trace the family in County Down / County Cavan back to their Scottish Border origin."
+  ],
+
+  "entities_json_note": {
+    "issue": "entities.json entry p101 has id 'Isham Baity' in full_name but the context is actually Dr. Dale William Spence Sr. (b. 1934 Beaumont TX) — this is a data collision where a Baity-branch ID slot was overwritten with Spence data. The branch field reads 'Baity maternal-paternal NC' which is incorrect for Dale Sr. This should be corrected by renaming p101 to p101_dale_sr and creating a separate correct entry for Isham Baity if needed. DO NOT MODIFY entities.json per task instructions.",
+    "recommendation": "Flag for future entities.json cleanup session."
+  },
+
+  "key_sources": [
+    "https://www.wikitree.com/wiki/Baity-117 (primary — cites TX death certificate #477 + US Census 1870-1940)",
+    "https://www.wikitree.com/wiki/Baity-20 (William Henry Baity 1771-1848, son of George Baity Sr.)",
+    "https://www.wikitree.com/wiki/Baity-37 (George Wesley Baity 1831-1900, grandson of George Baity Sr.)",
+    "https://www.wikitree.com/wiki/Beatie-27 (Francis Beatie 1715 County Cavan Ireland — immigrant generation candidate)",
+    "https://www.cemeterycensus.org/nc/yadk/cem049.htm (Courtney Baptist Church Cemetery — Isham 'Isom' Baity primary)",
+    "https://www.cemeterycensus.org/nc/yadk/cem026.htm (Deep Creek Baptist Church Cemetery — Jennette Baity confirms Isham + Nancy Plowman)",
+    "https://www.ncgenweb.us/alleghany/surry1830.html (1830 Surry County census transcription)",
+    "https://nclandgrants.com/quick/ (Charles and Thomas Beatty 800-acre Rowan County NC grant 1753)",
+    "https://www.houseofnames.com/beatty-family-crest (citing Filby PILI for Charles Beatty PA 1729 arrival)",
+    "https://beattyproject.org/wrappers/pages.php?ID=3&aid=147 (Paralee Johnson Baity death index)",
+    "https://texashistory.unt.edu/ark:/67531/metapth1692368/m1/7/ (1909 San Antonio newspaper — W. A. Baity builder)",
+    "https://texashistory.unt.edu/ark:/67531/metapth430851/m1/15/ (1919 San Antonio newspaper)",
+    "https://texashistory.unt.edu/ark:/67531/metapth1631463/m1/25/ (1925 San Antonio newspaper — 211 Castillo Ave.)",
+    "https://texashistory.unt.edu/ark:/67531/metapth1692586/m1/8/ (1910 Bexar County deed)",
+    "https://archives.sfasu.edu/repositories/2/archival_objects/19330 (SFA archival deed description)",
+    "https://www.genealogy.com/forum/surnames/topics/baity/62/ (compiled Baity researcher discussion — Rowan/Surry records summary; Francis Beaty NC hypothesis)",
+    "https://en.wikipedia.org/wiki/Beatty_(surname)",
+    "https://www.surnamedb.com/Surname/Beatty"
+  ]
+}

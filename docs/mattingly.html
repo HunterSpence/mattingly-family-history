@@ -1041,6 +1041,337 @@ p.entity-bio {
   box-shadow: 0 8px 24px rgba(0,0,0,0.5), 0 0 24px rgba(212, 164, 88, 0.06);
 }
 
+/* ── HERITAGE PANEL ─────────────────────────────────────────────────── */
+.heritage-section {
+  margin: 64px 0 80px;
+  padding: 36px 28px;
+  background: linear-gradient(165deg, rgba(20,16,11,0.45), rgba(12,10,8,0.65));
+  border: 1px solid rgba(212, 164, 88, 0.16);
+  border-radius: 8px;
+  position: relative;
+}
+.heritage-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg,
+    transparent, #22c55e 12%, var(--accent-gold) 50%, #22c55e 88%, transparent);
+  opacity: 0.55;
+  border-radius: 8px 8px 0 0;
+}
+.heritage-section h2 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 2.2rem;
+  margin: 0 0 12px;
+  color: var(--accent-gold);
+  letter-spacing: 0.01em;
+}
+.heritage-intro {
+  color: rgba(220, 210, 195, 0.78);
+  font-size: 0.98rem;
+  line-height: 1.65;
+  margin-bottom: 28px;
+  max-width: 720px;
+}
+.heritage-green {
+  color: #22c55e;
+  font-weight: 700;
+  border-bottom: 2px solid #22c55e;
+  padding-bottom: 1px;
+}
+
+/* breakdown bar chart */
+.heritage-breakdown {
+  margin: 28px 0 36px;
+  padding: 22px 24px;
+  background: rgba(0,0,0,0.25);
+  border: 1px solid rgba(212, 164, 88, 0.10);
+  border-radius: 6px;
+}
+.heritage-breakdown h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.15rem;
+  color: var(--accent-gold-light);
+  margin: 0 0 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.heritage-bar-row {
+  display: grid;
+  grid-template-columns: 32px 130px 1fr 50px 80px;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+  font-size: 0.92rem;
+  color: rgba(220, 210, 195, 0.85);
+}
+.heritage-bar-flag { font-size: 1.4rem; line-height: 1; }
+.heritage-bar-country { font-weight: 600; }
+.heritage-bar-track {
+  height: 8px;
+  background: rgba(212, 164, 88, 0.10);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.heritage-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-gold), #16a34a);
+  border-radius: 4px;
+  transition: width 0.6s ease-out;
+}
+.heritage-bar-pct { font-weight: 700; color: var(--accent-gold); text-align: right; font-variant-numeric: tabular-nums; }
+.heritage-bar-count { color: rgba(220, 210, 195, 0.55); font-size: 0.85rem; }
+
+/* surname-line cards */
+.heritage-subhead {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  color: var(--accent-gold-light);
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin: 36px 0 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(212, 164, 88, 0.18);
+}
+.heritage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 18px;
+}
+.heritage-card {
+  background: linear-gradient(170deg, rgba(20,16,11,0.55), rgba(15,12,9,0.7));
+  border: 1px solid rgba(212, 164, 88, 0.12);
+  border-left: 3px solid var(--accent-gold);
+  border-radius: 5px;
+  padding: 18px 20px;
+  transition: border-left-color 0.2s, box-shadow 0.2s, transform 0.18s;
+}
+.heritage-card:hover {
+  border-left-color: #22c55e;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.45), 0 0 18px rgba(34, 197, 94, 0.08);
+  transform: translateY(-1px);
+}
+.heritage-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(212, 164, 88, 0.10);
+}
+.heritage-flag {
+  font-size: 2.3rem;
+  line-height: 1;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.55));
+}
+.heritage-surname {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.4rem;
+  margin: 0 0 2px;
+  color: var(--accent-gold);
+  letter-spacing: 0.01em;
+}
+.heritage-country {
+  color: rgba(220, 210, 195, 0.78);
+  font-size: 0.9rem;
+}
+.heritage-subregion {
+  color: rgba(220, 210, 195, 0.55);
+  font-style: italic;
+  font-size: 0.85rem;
+}
+.heritage-body { font-size: 0.88rem; color: rgba(220, 210, 195, 0.82); line-height: 1.55; }
+.heritage-row {
+  margin: 6px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.heritage-label {
+  color: rgba(212, 164, 88, 0.85);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.heritage-value { color: rgba(225, 215, 200, 0.90); }
+.heritage-clan, .heritage-notable, .heritage-ydna {
+  margin-top: 10px;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  border-left: 2px solid rgba(212, 164, 88, 0.35);
+}
+.heritage-clan { border-left-color: #4a7eb8; }
+.heritage-notable { border-left-color: #d4a458; }
+.heritage-ydna { border-left-color: #22c55e; font-family: 'Source Code Pro', monospace; font-size: 0.8rem; }
+.heritage-evidence {
+  margin-top: 12px;
+  font-size: 0.82rem;
+}
+.heritage-evidence summary {
+  cursor: pointer;
+  color: rgba(212, 164, 88, 0.75);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding: 4px 0;
+}
+.heritage-evidence summary:hover { color: var(--accent-gold); }
+.heritage-evidence p {
+  margin: 8px 0 0;
+  color: rgba(200, 190, 175, 0.72);
+  line-height: 1.55;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 720px) {
+  .heritage-section { padding: 24px 16px; }
+  .heritage-bar-row {
+    grid-template-columns: 28px 90px 1fr 44px;
+    gap: 8px;
+    font-size: 0.85rem;
+  }
+  .heritage-bar-count { display: none; }
+  .heritage-grid { grid-template-columns: 1fr; }
+  .heritage-flag { font-size: 1.9rem; }
+}
+
+/* heritage card variant for surname pages (compact, full-width) */
+.surname-heritage-card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  align-items: stretch;
+  margin: 28px 0 36px;
+  padding: 24px 28px;
+  background: linear-gradient(165deg, rgba(20,16,11,0.55), rgba(12,10,8,0.7));
+  border: 1px solid rgba(34, 197, 94, 0.20);
+  border-left: 4px solid #22c55e;
+  border-radius: 6px;
+  position: relative;
+}
+.surname-heritage-card::before {
+  content: '';
+  position: absolute;
+  top: -1px; left: -1px; right: -1px; height: 2px;
+  background: linear-gradient(90deg, #22c55e, var(--accent-gold), #22c55e);
+  opacity: 0.45;
+  border-radius: 6px 6px 0 0;
+}
+.hcard-flag-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 14px;
+  background: rgba(0,0,0,0.30);
+  border: 1px solid rgba(212, 164, 88, 0.10);
+  border-radius: 5px;
+}
+.hcard-flag {
+  font-size: 5rem;
+  line-height: 1;
+  filter: drop-shadow(0 4px 14px rgba(0,0,0,0.55));
+  margin-bottom: 12px;
+}
+.hcard-country {
+  color: rgba(225, 215, 200, 0.90);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.hcard-country strong {
+  color: var(--accent-gold);
+  font-size: 1.15rem;
+  display: block;
+  margin-bottom: 2px;
+  letter-spacing: 0.02em;
+}
+.hcard-subregion {
+  color: rgba(220, 210, 195, 0.55);
+  font-style: italic;
+  font-size: 0.84rem;
+}
+.hcard-body {
+  font-size: 0.92rem;
+  color: rgba(220, 210, 195, 0.85);
+  line-height: 1.6;
+}
+.hcard-row {
+  margin: 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.hcard-label {
+  color: rgba(212, 164, 88, 0.85);
+  font-weight: 600;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+}
+.hcard-value { color: rgba(225, 215, 200, 0.92); }
+.hcard-clan, .hcard-notable, .hcard-ydna {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 4px;
+  font-size: 0.86rem;
+  border-left: 2px solid rgba(212, 164, 88, 0.35);
+}
+.hcard-clan { border-left-color: #4a7eb8; }
+.hcard-notable { border-left-color: #d4a458; }
+.hcard-ydna { border-left-color: #22c55e; font-family: 'Source Code Pro', monospace; font-size: 0.8rem; }
+.hcard-evidence {
+  margin-top: 12px;
+  font-size: 0.82rem;
+}
+.hcard-evidence summary {
+  cursor: pointer;
+  color: rgba(212, 164, 88, 0.75);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  padding: 4px 0;
+}
+.hcard-evidence summary:hover { color: var(--accent-gold); }
+.hcard-evidence p {
+  margin: 8px 0 0;
+  color: rgba(200, 190, 175, 0.72);
+  line-height: 1.55;
+}
+
+.heritage-deep-link {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 6px 14px;
+  background: rgba(34, 197, 94, 0.10);
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  border-radius: 4px;
+  color: #22c55e;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.heritage-deep-link:hover {
+  background: rgba(34, 197, 94, 0.18);
+  border-color: #22c55e;
+}
+
+@media (max-width: 720px) {
+  .surname-heritage-card {
+    grid-template-columns: 1fr;
+    padding: 20px 18px;
+  }
+  .hcard-flag { font-size: 3.5rem; }
+}
+
 .story-header {
   display: flex;
   justify-content: space-between;
@@ -2297,6 +2628,23 @@ footer.site-footer {
 <main>
   <section class="surname-summary">The deepest documented line in the family — over 1,000 years from Anglo-Saxon Hampshire (Alric, fl. before 1066, holder of Mattingley manor under Edward the Confessor) through medieval England, then by Thomas Mattingly II to colonial Maryland in 1666, on to Marion County, Kentucky with the 1786 Catholic migration, and finally to Texas in 1894 when Edward Mattingly Sr. married May Teichmüller in La Grange. Hunter inherits this line via his grandmother Sharyn (Shari) Mattingly Spence, recorded interviewing her grandson in 2025. Y-DNA cluster R-DF27 > Y14084 confirms unbroken patrilineal descent from Thomas Mattingly I (~1676 CE).</section>
   
+<aside class="surname-heritage-card" aria-label="Heritage origin for the Mattingly line">
+  <div class="hcard-flag-block">
+    <div class="hcard-flag" aria-hidden="true">🏴󠁧󠁢󠁥󠁮󠁧󠁿</div>
+    <div class="hcard-country">
+      <strong>England</strong> <span class="hcard-subregion">— Hampshire (Mattingley village — the toponym source of the surname)</span>
+    </div>
+  </div>
+  <div class="hcard-body">
+    <div class="hcard-row"><span class="hcard-label">Earliest confirmed</span><span class="hcard-value">1483 — William Mattyngle (Hampshire 1483 — mortgage for &#x27;Rychars land&#x27; in Mattingley village)</span></div>
+    <div class="hcard-row"><span class="hcard-label">★ Immigrant to America</span><span class="hcard-value">Thomas Mattingly II (received Mattingly&#x27;s Hope land patent 4 Sept 1666, Charles Co Maryland — Patent Book Liber 10, Maryland State Archives SM2). His father Thomas Mattingly I died shortly after arrival in Maryland, 24 July 1664.</span></div>
+    
+    
+    <div class="hcard-ydna">🧬 <strong>Y-DNA:</strong> R-Y14084 (confirmed Hampshire English origin via YFull)</div>
+    <details class="hcard-evidence"><summary>Evidence &amp; sources</summary><p>Hampshire Record Office HRO 19M61/153 — mortgage dated 24 March 1483. Pushes confirmed surname presence in the Hampshire village back 65 years from prior research. Y-DNA haplogroup R-Y14084 (unique to all American Mattingly descendants of Thomas I) includes multiple Hampshire, England-origin YFull samples — genetically confirming Hampshire origin.</p></details>
+  </div>
+</aside>
+  
 <div class="audio-section">
   <h3>Grandma Shari's Interview (the seed of this archive)</h3>
   <p>The recording that started everything — Sharyn (Shari) Mattingly Spence sitting down with
@@ -2326,7 +2674,7 @@ footer.site-footer {
   </div>
   <p class="tree-hint">Scroll or pinch to zoom &nbsp;&middot;&nbsp; Drag to pan &nbsp;&middot;&nbsp; Click a named node for details</p>
 </div>
-<script id="lineage-tree-data" type="application/json">{"name": "Alric (Anglo-Saxon)", "dates": "fl. before 1066", "fact": "Held Mattingley as alod (free tenure, no feudal lord but the king) of King Edward the Confessor. Anglo-Saxon noble. VCH Hants i, 505a. The earliest named individual associated with the place from which the Mattingley surname later derived. POSSIBLE distant social-line ancestor.", "id": "p075", "generation": -5, "century": 11, "confidence": "possible", "spouse": null, "children": [{"name": "Alsi son of Brixi", "dates": "fl. 1086", "fact": "Norman-era Domesday tenant of Mattingley manor (TRW). Held under royal demesne. 8 villagers, 3 smallholders, 3 ploughlands, 1 mill (5s), fishery (100 eels). VCH Hants i, 505a. POSSIBLE social-line ancestor of the de Mattingley family.", "id": "p074", "generation": -4, "century": 11, "confidence": "possible", "spouse": null, "children": [{"name": "Ellis (lord of Mattingley)", "dates": "fl. 1167", "fact": "First named lord of Mattingley village; recorded in Pipe Roll 13 Henry II (Pipe R. Soc. xi, 189)", "id": "p073", "generation": -3, "century": 12, "confidence": "possible", "spouse": null, "children": [{"name": "Revelendus of Mattingley", "dates": "fl. late 12th c.", "fact": "Succeeded Ellis; had 3 sons including Stephen", "id": "p071", "generation": -2, "century": 12, "confidence": "possible", "spouse": null, "children": [{"name": "Stephen de Mattingley", "dates": "fl. 1206", "fact": "Earliest dated bearer of the Mattingley surname; granted mill to Prior of Merton", "id": "p070", "generation": -1, "century": 13, "confidence": "possible", "spouse": null, "children": [{"name": "Peter de Mattingley", "dates": "fl. 1236\u20131249", "fact": "Last lord; sold Mattingley manor to Geoffrey de Arundel", "id": "p072", "generation": 0, "century": 13, "confidence": "possible", "spouse": null, "children": [{"name": "[~250-year documentary gap]", "dates": "1240s\u20131548", "fact": "Family likely yeoman farmers in Hampshire/Surrey/southern England \u2014 TNA subsidy rolls + Hampshire Record Office unindexed", "id": null, "generation": 1, "century": 14, "confidence": "unknown", "spouse": null, "children": [{"name": "Henry MATYNGLE", "dates": "~1520 \u2013 ?", "fact": "Married 30 Sept 1548 Heckfield St Michael Hampshire (Phillimore's Transcript line 48); probable father of John Mattingly", "id": null, "generation": 1, "century": 16, "confidence": "probable", "spouse": null, "children": [{"name": "John Mattingly", "dates": "1560\u20131641", "fact": "Buried 17 Dec 1641 St Mary Colechurch London \u2014 primary source", "id": "p062", "generation": 2, "century": 16, "confidence": "confirmed", "spouse": null, "children": [{"name": "Charles Mattingly", "dates": "1600\u20131642", "fact": "Father of Thomas I; Sussex England", "id": "p060", "generation": 3, "century": 17, "confidence": "probable", "spouse": "Judith Bugbee (~1602)", "children": [{"name": "Thomas Mattingly I", "dates": "1624\u20131664", "fact": "Born Sussex England; died there 1664 BEFORE emigrating; widow brought children to MD", "id": "p028", "generation": 4, "century": 17, "confidence": "probable", "spouse": "Elizabeth McWilliams (~1626 - aft. 1669)", "children": [{"name": "Thomas Mattingly II", "dates": "1650\u20131715", "fact": "THE MARYLAND IMMIGRANT \u2014 pre-1665; Mattingly's Hope land patent Sept 4 1666", "id": "p039", "generation": 5, "century": 17, "confidence": "confirmed", "spouse": "m1. Mary Elizabeth Suttle (~1675); m2. Elizabeth Cole (~1690)", "children": [{"name": "Elizabeth Mattingly", "dates": "b. 1681", "fact": "Thomas II's first daughter", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Judith Mattingly", "dates": "b. 1683", "fact": "Thomas II's second daughter", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Thomas Mattingly III", "dates": "1688\u20131774", "fact": "Inherited Mount Misery plantation; will April 1774; m1. Elizabeth Warren, m2. Ruth Cole; 9 children", "id": "p090", "generation": 6, "century": 18, "confidence": "confirmed", "spouse": "m1. Elizabeth Warren; m2. Ruth Cole", "children": [{"name": "Edward Mattingly", "dates": "~1710", "fact": "Son of Thomas III + Elizabeth Warren; Edward Mattingly is publicly documented as captain in the Upper Battalion of Militia in Saint Mary's County in 1779. The public role is confirmed; this exact placement in the Mount Misery branch remains probable.", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Clement Mattingly", "dates": "~1715", "fact": "Son of Thomas III", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Thomas Mattingly IV", "dates": "~1716", "fact": "Son of Thomas III", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Mary (Mattingly) Millard", "dates": "~1719", "fact": "Daughter of Thomas III", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "James Mattingly", "dates": "~1725", "fact": "Son of Thomas III", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Elizabeth (Mattingly) Ford", "dates": "~1726", "fact": "Daughter of Thomas III", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "John Baptist Mattingly", "dates": "~1736", "fact": "Son of Thomas III + Ruth Cole; named in 1774 will", "id": null, "generation": 7, "century": 18, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Clement Matney Mattingly", "dates": "~1740", "fact": "Son of Thomas III + Ruth Cole", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Dorothy Mattingly", "dates": "~1740", "fact": "Daughter of Thomas III", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}]}, {"name": "James Mattingly", "dates": "b. 1696", "fact": "Named in Thomas II's 1714 will", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Charles Mattingly", "dates": "b. 1698", "fact": "Named in Thomas II's 1714 will", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "William Mattingly", "dates": "b. 1700", "fact": "Named in Thomas II's 1714 will", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Luke Mattingly", "dates": "b. 1702", "fact": "Named in Thomas II's 1714 will", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Ignatius Mattingly Sr.", "dates": "1704\u20131789 St Mary's MD", "fact": "Mattingly-60. Catholic Jesuit naming; 'We're from Ignatius'; m. Sarah Catherine Fowler. 7 children \u2014 direct line via Ignatius Jr (1750, Mattingly-141), NOT Leonard Sr.", "id": "p043", "generation": 8, "century": 18, "confidence": "confirmed", "spouse": "Sarah Catherine (Fowler) Mattingly", "children": [{"name": "Ignatius Mattingly Jr.", "dates": "b. 1750", "fact": "Son of Leonard Sr.; m. Eleanor Shircliffe; direct line via Ignatius (1781) \u2014 NOT Leonard Jr.", "id": null, "generation": 10, "century": 18, "confidence": "confirmed", "spouse": "Eleanor Shircliffe", "children": [{"name": "George Mattingly", "dates": "?", "fact": "Son of Ignatius Jr. (named on WikiTree)", "id": null, "generation": 11, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Zachariah Mattingly Sr.", "dates": "bef. 1771 \u2013 abt. 1823", "fact": "WikiTree Mattingly-188. Sibling of Ignatius (1781). Children: Mary, Zachariah Jr.", "id": null, "generation": 11, "century": 19, "confidence": "confirmed", "spouse": null, "children": [{"name": "Mary Mattingly", "dates": "?", "fact": "Daughter of Zachariah Sr.", "id": null, "generation": 12, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Zachariah Mattingly Jr.", "dates": "?", "fact": "Son of Zachariah Sr.", "id": null, "generation": 12, "century": 19, "confidence": "probable", "spouse": null, "children": []}]}, {"name": "Ignatius Mattingly", "dates": "1781 MD \u2013 1833 KY", "fact": "Born Maryland; MD\u2192KY migration; died there 1833. WikiTree Mattingly-140.", "id": null, "generation": 11, "century": 19, "confidence": "confirmed", "spouse": null, "children": [{"name": "Thomas Jefferson Mattingly", "dates": "1828 KY \u2013 1883 MO", "fact": "WikiTree Mattingly-591; m1. Catherine Woodward (2 kids); m2. Elizabeth Christie (6 kids); KY\u2192MO migration", "id": null, "generation": 12, "century": 19, "confidence": "confirmed", "spouse": "m1. Catherine Woodward; m2. Elizabeth Christie (b. 2 Dec 1833 Christianburg, Shelby KY)", "children": [{"name": "John T. Mattingly", "dates": "?", "fact": "Half-sibling of Edward Sr. (mother Catherine Woodward)", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Sarah Alice (Mattingly) Embree", "dates": "?", "fact": "Half-sibling of Edward Sr.; m. Embree", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Anna Bell (Mattingly) Powell", "dates": "?", "fact": "Daughter of TJ + Elizabeth Christie; m. Ezra Doty Powell 1874", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Noble N. Mattingly", "dates": "?", "fact": "Son of TJ + Elizabeth Christie", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Francis Ellsworth 'Frank' Mattingly", "dates": "?", "fact": "Son of TJ + Elizabeth Christie", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Edward Mattingly Sr.", "dates": "1868 MO \u2013 1945 La Grange TX", "fact": "Born Missouri; migrated to TX by 1894; m. May Teichmueller 1 Sept 1894 (May d. 28 Aug 1900); m2. Blanche Schroeder", "id": "p041", "generation": 13, "century": 20, "confidence": "confirmed", "spouse": "m1. May Teichmueller (1894\u20131900); m2. Blanche D. Schroeder (b. 1886 MO)", "children": [{"name": "Leroy Teichmuller Mattingly", "dates": "31 Aug 1896 \u2013 1968", "fact": "Born La Grange TX; died San Antonio. U Texas engineer; named for German maternal grandfather Hans Teichmueller. m. Ruth Baity 4 Apr 1900\u20131982. WikiTree Mattingly-1127.", "id": "p002", "generation": 14, "century": 20, "confidence": "confirmed", "spouse": "Ruth (Baity) Mattingly (4 Apr 1900 \u2013 1982 Houston)", "children": [{"name": "Leroy Baity Mattingly", "dates": "1922\u20132013", "fact": "Born 17 May 1922 San Antonio; died Colorado Springs CO 2013. WikiTree Mattingly-1178. m. Jennive Imogene Lepick (1923-2008) at Fort Sill OK on 18 Dec 1943.", "id": "p015", "generation": 15, "century": 20, "confidence": "confirmed", "spouse": "Jennive Imogene Lepick (2 Feb 1923 Floresville TX \u2013 2008 Colorado Springs)", "children": [{"name": "Sharyn (\"Shari\") Mattingly", "dates": "b. 1947", "fact": "Family historian; Santa Monica; oil royalty owner", "id": "p000", "generation": 16, "century": 20, "confidence": "confirmed", "spouse": "David Spence (1st husband)", "children": [{"name": "Rachel (n\u00e9e Trifon\u2192Spence)", "dates": "living", "fact": "Hunter's mother; daughter of Shari Mattingly + David Trifon (adopted-name Trifon). Married Dale William Spence Jr. \u2014 Hunter's surname comes via this marriage line, from Dale Sr's English Spence family.", "id": null, "generation": 17, "century": 21, "confidence": "confirmed", "spouse": "Dale William Spence Jr.", "children": [{"name": "Hunter Spence", "dates": "living", "fact": "Recipient of this family history; recorded grandma's interview. Surname Spence inherited via FATHER (Dale William Spence Jr.), NOT via maternal grandfather David Trifon (whose Trifon surname was adopted, biological line untraceable).", "id": "p001", "generation": 18, "century": 21, "confidence": "confirmed", "spouse": null, "children": []}]}, {"name": "Charmaine", "dates": "living", "fact": "Shari + David Trifon's daughter; Hunter's aunt (maternal)", "id": "p021", "generation": 17, "century": 21, "confidence": "confirmed", "spouse": null, "children": []}]}, {"name": "[brother]", "dates": "living", "fact": "Got the chair from Pearl's set", "id": "p022", "generation": 16, "century": 20, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "[sister]", "dates": "living", "fact": "\u2014", "id": "p023", "generation": 16, "century": 20, "confidence": "confirmed", "spouse": null, "children": []}]}]}, {"name": "Dr. Claude Mattingly", "dates": "1898\u20131934", "fact": "Pediatrician; Marine WWI; suicide pact at Texan Hotel Austin Jan 31 1934", "id": "p011", "generation": 14, "century": 20, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Aunt Mamie", "dates": "b. ~1900", "fact": "Mother died at her birth", "id": "p013", "generation": 14, "century": 20, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Edward Mattingly Jr.", "dates": "b. ~1915 La Grange", "fact": "Half-sibling \u2014 son of Edward Sr. + 2nd wife Blanche Schroeder", "id": null, "generation": 14, "century": 20, "confidence": "probable", "spouse": null, "children": []}]}, {"name": "Florence Mattingly", "dates": "?", "fact": "Daughter of TJ + Elizabeth Christie", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Ida Mattingly", "dates": "?", "fact": "Daughter of TJ + Elizabeth Christie", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}]}, {"name": "Ignatius Mattingly", "dates": "b. 6 Mar 1811", "fact": "Sibling of Thomas Jefferson; m. Rachel F. Barnes (WikiTree Mattingly-139)", "id": null, "generation": 12, "century": 19, "confidence": "probable", "spouse": null, "children": []}]}]}, {"name": "Leonard Mattingly Sr.", "dates": "1739\u20131829 Washington Co KY", "fact": "Mattingly-62. 'Old Leonard'; one of the William/Leonard/Lucas brothers Webb places at Hardin's Creek in early 1786. m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10+ named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)", "id": "p044", "generation": 10, "century": 18, "confidence": "confirmed", "spouse": "m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty", "children": [{"name": "Joseph Mattingly", "dates": "?", "fact": "Mattingly-339; son of Leonard Sr. Webb says Joseph Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Jane Mattingly", "dates": "b. 1760", "fact": "Mattingly-211", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "John Baptist Mattingly", "dates": "b. 1762", "fact": "Mattingly-59", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Leonard Mattingly Jr.", "dates": "1764\u20131843 Marion KY", "fact": "Mattingly-210; 1785 Catholic migrant to KY; Y-DNA project anchor for KY descendants. m. Ann Cissell.", "id": "p045", "generation": 11, "century": 18, "confidence": "confirmed", "spouse": "Ann Cissell (m. 7 Jan 1788, Nelson Co KY)", "children": [{"name": "Mary Alvey Mattingly", "dates": "b. 1798", "fact": "Eldest of Leonard Jr.'s 4 children", "id": null, "generation": 12, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Henry Martin Mattingly Sr.", "dates": "1799\u20131858 Marion KY", "fact": "9 children 1828-1844; m. Helen Thompson; collateral KY Y-DNA branch", "id": null, "generation": 12, "century": 19, "confidence": "confirmed", "spouse": "Helen Thompson (b. ~1800)", "children": [{"name": "George Thomas Mattingly", "dates": "b. 1830 Marion KY", "fact": "Mattingly-695; Y-DNA project participant", "id": "p046", "generation": 13, "century": 19, "confidence": "possible", "spouse": null, "children": []}, {"name": "[+8 other children of Henry Martin Sr.]", "dates": "1828\u20131844", "fact": "Per agent 16 research", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}]}, {"name": "William Cissell Mattingly", "dates": "b. 1807", "fact": "Leonard Jr's third child", "id": null, "generation": 12, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Leonard Mattingly III", "dates": "1828\u20131914 Glen Dean KY", "fact": "Died KY at 85; ruled out as centenarian", "id": null, "generation": 12, "century": 19, "confidence": "confirmed", "spouse": null, "children": []}]}, {"name": "Ignatius Mattingly", "dates": "b. 1766", "fact": "Mattingly-53; son of Leonard Sr. Webb says Ignatius Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Susannah (Mattingly) Ray", "dates": "b. 1766", "fact": "Mattingly-208; m. Ray", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Basil Mattingly", "dates": "b. 1772", "fact": "Mattingly-207", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": [{"name": "Martha 'Mother Generose' Mattingly", "dates": "fl. 1842\u20131844 KY", "fact": "Webb identifies Martha as Basil Mattingly's daughter; as Mother Generose Mattingly she led the Loretto community from 1842 to 1844.", "id": null, "generation": 12, "century": 19, "confidence": "confirmed", "spouse": null, "children": []}]}, {"name": "Susan (Mattingly) Barron", "dates": "b. 1775", "fact": "Mattingly-78; m. Barron", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Mary (Mattingly) Buckman", "dates": "b. 1777", "fact": "Mattingly-205; m. Buckman", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "William Mattingly", "dates": "b. 1777", "fact": "Mattingly-204", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Sister Margaret Mattingly", "dates": "fl. 1812 KY", "fact": "Founding member of the Sisters of Loretto (1812) \u2014 the first women's religious order founded west of the Allegheny Mountains. Per Webb 1884.", "id": "p056", "generation": 11, "century": 19, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "[Bardstown Mattingly bridge incomplete]", "dates": "19th c. KY", "fact": "Placeholder for a later Bardstown collateral line. Exact bridge from this Kentucky Mattingly cluster to Cyprian Peter Mattingly is still incomplete.", "id": null, "generation": 11, "century": 19, "confidence": "possible", "spouse": null, "children": [{"name": "Marie Mattingly Meloney", "dates": "1878\u20131943", "fact": "Major American journalist and editor, born Bardstown KY to physician Cyprian Peter Mattingly. Included only as a POSSIBLE Kentucky collateral until the branch bridge is documented.", "id": null, "generation": 12, "century": 20, "confidence": "possible", "spouse": null, "children": []}]}]}, {"name": "William Mattingly", "dates": "1741\u20131817 Washington KY", "fact": "Mattingly-213; m1. Mary Catherine Spalding; m2. Nancy Elizabeth Clark", "id": null, "generation": 9, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Lucas Mattingly", "dates": "1743\u20131830 KY", "fact": "Mattingly-214; m. Sue Ellen Hagan, Elizabeth Eleanor Thompson, Elizabeth Cambron", "id": null, "generation": 9, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Elizabeth (Mattingly) Thompson", "dates": "b. 1745", "fact": "Mattingly-1901; m. Thompson", "id": null, "generation": 9, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Sarah Ann (Mattingly) Walker", "dates": "b. 1747", "fact": "Mattingly-1312; m. Walker", "id": null, "generation": 9, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Susanna Mattingly", "dates": "b. 1749", "fact": "Mattingly-1900", "id": null, "generation": 9, "century": 18, "confidence": "probable", "spouse": null, "children": []}]}, {"name": "Ann Mattingly", "dates": "b. 1706", "fact": "Named in Thomas II's 1714 will", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}]}, {"name": "Cezar Mattingly", "dates": "1654\u20131719", "fact": "Mattingly-223. Co-recipient of Mattingly's Hope land patent 1666; m. Jane Suttle; brother of Hunter's direct ancestor Thomas II; Y-DNA R-Y14083 confirmed in his line (sibling terminal to Hunter's expected R-Y14084 cluster); ancestor of the Garrett County Hoyes settlement.", "id": "p050", "generation": 5, "century": 17, "confidence": "confirmed", "spouse": "Jane Suttle", "children": [{"name": "John Baptist Mattingly", "dates": "1690\u20131744", "fact": "Mattingly-225; m. Grace Brewer; Cezar's son; great-grandfather of Henry I", "id": null, "generation": 3, "century": 17, "confidence": "probable", "spouse": "Grace Brewer", "children": [{"name": "John Mattingly", "dates": "1715\u20131759", "fact": "Mattingly-258; m. Elizabeth Brewer; father of Henry I", "id": null, "generation": 4, "century": 18, "confidence": "probable", "spouse": "Elizabeth Brewer", "children": [{"name": "Henry Mattingly I", "dates": "1751 MD \u2013 1823 Mt Savage MD", "fact": "Mattingly-617. Patriarch / progenitor of the entire 1969 'Descendants of Henry Mattingly' genealogy book; m. Honora Durbin; 12 children", "id": "p051", "generation": 5, "century": 18, "confidence": "confirmed", "spouse": "Honora Durbin", "children": [{"name": "Henry Mattingly II", "dates": "1782 MD \u2013 1846 MO", "fact": "Son of Henry I; m. Nancy Ann Durbin; migrated to Missouri", "id": null, "generation": 6, "century": 19, "confidence": "confirmed", "spouse": "Nancy Ann Durbin", "children": [{"name": "Dominick Mattingly", "dates": "1808 MD \u2013 1854 Hoyes MD", "fact": "Anchor of Garrett County Mattingly settlement; bought 157 acres on Youghiogheny River from John Hoye 1831; the village was renamed 'Hoyes' in 1880", "id": "p052", "generation": 7, "century": 19, "confidence": "confirmed", "spouse": "Ann Browning", "children": [{"name": "Meshack Mattingly", "dates": "1837\u20131912", "fact": "Garrett County (MD) Commissioner; operated 'best stock farm in the county'; m. Mary P. Griffith (daughter of Pennsylvania Governor)", "id": "p053", "generation": 8, "century": 19, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Rev. Romanus Mattingly", "dates": "1850\u20131922", "fact": "Catholic priest; built parish churches at Oakland MD + Hoyes MD; 16-year pastor at Oakland", "id": "p054", "generation": 8, "century": 19, "confidence": "confirmed", "spouse": null, "children": []}]}]}, {"name": "Judge Francis Mattingly", "dates": "1813\u20131879", "fact": "Judge of the Orphans' Court at Cumberland MD (elected 1859); helped commit Allegany County to Union side 1861", "id": "p055", "generation": 8, "century": 19, "confidence": "confirmed", "spouse": null, "children": []}]}]}, {"name": "Lucius Mattingly", "dates": "1730\u20131826 Washington Co KY", "fact": "Mattingly-318; separate KY branch", "id": null, "generation": 4, "century": 18, "confidence": "probable", "spouse": null, "children": []}]}]}, {"name": "Judith (Mattingly) Turner", "dates": "1645\u20131744", "fact": "Lived to ~99", "id": "p080", "generation": 5, "century": 17, "confidence": "probable", "spouse": null, "children": []}, {"name": "Elizabeth Dorcas Mattingly", "dates": "1656\u20131749", "fact": "Lived to ~93", "id": "p081", "generation": 5, "century": 17, "confidence": "probable", "spouse": null, "children": []}]}]}]}, {"name": "Agnes Mattyngly", "dates": "fl. 1571", "fact": "Married Harry Cawte 10 Sept 1571 Heckfield (Phillimore's Transcript line 109)", "id": null, "generation": 2, "century": 16, "confidence": "probable", "spouse": null, "children": []}, {"name": "Anne Mattingly", "dates": "fl. 1596", "fact": "Married John Ayer 17 Oct 1596 Heckfield (Phillimore line 230)", "id": null, "generation": 2, "century": 16, "confidence": "probable", "spouse": null, "children": []}]}]}]}]}]}]}]}]}</script>
+<script id="lineage-tree-data" type="application/json">{"name": "Alric (Anglo-Saxon)", "dates": "fl. before 1066", "fact": "Held Mattingley as alod (free tenure, no feudal lord but the king) of King Edward the Confessor. Anglo-Saxon noble. VCH Hants i, 505a. The earliest named individual associated with the place from which the Mattingley surname later derived. POSSIBLE distant social-line ancestor.", "id": "p075", "generation": -5, "century": 11, "confidence": "possible", "spouse": null, "children": [{"name": "Alsi son of Brixi", "dates": "fl. 1086", "fact": "Norman-era Domesday tenant of Mattingley manor (TRW). Held under royal demesne. 8 villagers, 3 smallholders, 3 ploughlands, 1 mill (5s), fishery (100 eels). VCH Hants i, 505a. POSSIBLE social-line ancestor of the de Mattingley family.", "id": "p074", "generation": -4, "century": 11, "confidence": "possible", "spouse": null, "children": [{"name": "Ellis (lord of Mattingley)", "dates": "fl. 1167", "fact": "First named lord of Mattingley village; recorded in Pipe Roll 13 Henry II (Pipe R. Soc. xi, 189)", "id": "p073", "generation": -3, "century": 12, "confidence": "possible", "spouse": null, "children": [{"name": "Revelendus of Mattingley", "dates": "fl. late 12th c.", "fact": "Succeeded Ellis; had 3 sons including Stephen", "id": "p071", "generation": -2, "century": 12, "confidence": "possible", "spouse": null, "children": [{"name": "Stephen de Mattingley", "dates": "fl. 1206", "fact": "Earliest dated bearer of the Mattingley surname; granted mill to Prior of Merton", "id": "p070", "generation": -1, "century": 13, "confidence": "possible", "spouse": null, "children": [{"name": "Peter de Mattingley", "dates": "fl. 1236\u20131249", "fact": "Last lord; sold Mattingley manor to Geoffrey de Arundel", "id": "p072", "generation": 0, "century": 13, "confidence": "possible", "spouse": null, "children": [{"name": "[~250-year documentary gap]", "dates": "1240s\u20131548", "fact": "Family likely yeoman farmers in Hampshire/Surrey/southern England \u2014 TNA subsidy rolls + Hampshire Record Office unindexed", "id": null, "generation": 1, "century": 14, "confidence": "unknown", "spouse": null, "children": [{"name": "Henry MATYNGLE", "dates": "~1520 \u2013 ?", "fact": "Married 30 Sept 1548 Heckfield St Michael Hampshire (Phillimore's Transcript line 48); probable father of John Mattingly", "id": null, "generation": 1, "century": 16, "confidence": "probable", "spouse": null, "children": [{"name": "John Mattingly", "dates": "1560\u20131641", "fact": "Buried 17 Dec 1641 St Mary Colechurch London \u2014 primary source", "id": "p062", "generation": 2, "century": 16, "confidence": "confirmed", "spouse": null, "children": [{"name": "Charles Mattingly", "dates": "1600\u20131642", "fact": "Father of Thomas I; Sussex England", "id": "p060", "generation": 3, "century": 17, "confidence": "probable", "spouse": "Judith Bugbee (~1602)", "children": [{"name": "Thomas Mattingly I", "dates": "1624\u20131664", "fact": "Born Sussex England; died there 1664 BEFORE emigrating; widow brought children to MD", "id": "p028", "generation": 4, "century": 17, "confidence": "probable", "spouse": "Elizabeth McWilliams (~1626 - aft. 1669)", "children": [{"name": "Thomas Mattingly II", "dates": "1650\u20131715", "fact": "THE MARYLAND IMMIGRANT \u2014 pre-1665; Mattingly's Hope land patent Sept 4 1666", "id": "p039", "generation": 5, "century": 17, "confidence": "confirmed", "spouse": "m1. Mary Elizabeth Suttle (~1675); m2. Elizabeth Cole (~1690)", "children": [{"name": "Elizabeth Mattingly", "dates": "b. 1681", "fact": "Thomas II's first daughter", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Judith Mattingly", "dates": "b. 1683", "fact": "Thomas II's second daughter", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Thomas Mattingly III", "dates": "1688\u20131774", "fact": "Inherited Mount Misery plantation; will April 1774; m1. Elizabeth Warren, m2. Ruth Cole; 9 children", "id": "p090", "generation": 6, "century": 18, "confidence": "confirmed", "spouse": "m1. Elizabeth Warren; m2. Ruth Cole", "children": [{"name": "Edward Mattingly", "dates": "~1710", "fact": "Son of Thomas III + Elizabeth Warren; Edward Mattingly is publicly documented as captain in the Upper Battalion of Militia in Saint Mary's County in 1779. The public role is confirmed; this exact placement in the Mount Misery branch remains probable.", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Clement Mattingly", "dates": "~1715", "fact": "Son of Thomas III", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Thomas Mattingly IV", "dates": "~1716", "fact": "Son of Thomas III", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Mary (Mattingly) Millard", "dates": "~1719", "fact": "Daughter of Thomas III", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "James Mattingly", "dates": "~1725", "fact": "Son of Thomas III", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Elizabeth (Mattingly) Ford", "dates": "~1726", "fact": "Daughter of Thomas III", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "John Baptist Mattingly", "dates": "~1736", "fact": "Son of Thomas III + Ruth Cole; named in 1774 will", "id": null, "generation": 7, "century": 18, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Clement Matney Mattingly", "dates": "~1740", "fact": "Son of Thomas III + Ruth Cole", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Dorothy Mattingly", "dates": "~1740", "fact": "Daughter of Thomas III", "id": null, "generation": 7, "century": 18, "confidence": "probable", "spouse": null, "children": []}]}, {"name": "James Mattingly", "dates": "b. 1696", "fact": "Named in Thomas II's 1714 will", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Charles Mattingly", "dates": "b. 1698", "fact": "Named in Thomas II's 1714 will", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "William Mattingly", "dates": "b. 1700", "fact": "Named in Thomas II's 1714 will", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Luke Mattingly", "dates": "b. 1702", "fact": "Named in Thomas II's 1714 will", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Ignatius Mattingly Sr.", "dates": "1704\u20131789 St Mary's MD", "fact": "Mattingly-60. Catholic Jesuit naming; 'We're from Ignatius'; m. Sarah Catherine Fowler. 7 children \u2014 direct line via Ignatius Jr (1750, Mattingly-141), NOT Leonard Sr.", "id": "p043", "generation": 8, "century": 18, "confidence": "confirmed", "spouse": "Sarah Catherine (Fowler) Mattingly", "children": [{"name": "Ignatius Mattingly Jr.", "dates": "b. 1750", "fact": "Son of Leonard Sr.; m. Eleanor Shircliffe; direct line via Ignatius (1781) \u2014 NOT Leonard Jr.", "id": null, "generation": 10, "century": 18, "confidence": "confirmed", "spouse": "Eleanor Shircliffe", "children": [{"name": "George Mattingly", "dates": "?", "fact": "Son of Ignatius Jr. (named on WikiTree)", "id": null, "generation": 11, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Zachariah Mattingly Sr.", "dates": "bef. 1771 \u2013 abt. 1823", "fact": "WikiTree Mattingly-188. Sibling of Ignatius (1781). Children: Mary, Zachariah Jr.", "id": null, "generation": 11, "century": 19, "confidence": "confirmed", "spouse": null, "children": [{"name": "Mary Mattingly", "dates": "?", "fact": "Daughter of Zachariah Sr.", "id": null, "generation": 12, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Zachariah Mattingly Jr.", "dates": "?", "fact": "Son of Zachariah Sr.", "id": null, "generation": 12, "century": 19, "confidence": "probable", "spouse": null, "children": []}]}, {"name": "Ignatius Mattingly", "dates": "1781 MD \u2013 1833 KY", "fact": "Born Maryland; MD\u2192KY migration; died there 1833. WikiTree Mattingly-140.", "id": null, "generation": 11, "century": 19, "confidence": "confirmed", "spouse": null, "children": [{"name": "Thomas Jefferson Mattingly", "dates": "1828 KY \u2013 1883 MO", "fact": "WikiTree Mattingly-591; m1. Catherine Woodward (2 kids); m2. Elizabeth Christie (6 kids); KY\u2192MO migration", "id": null, "generation": 12, "century": 19, "confidence": "confirmed", "spouse": "m1. Catherine Woodward; m2. Elizabeth Christie (b. 2 Dec 1833 Christianburg, Shelby KY)", "children": [{"name": "John T. Mattingly", "dates": "?", "fact": "Half-sibling of Edward Sr. (mother Catherine Woodward)", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Sarah Alice (Mattingly) Embree", "dates": "?", "fact": "Half-sibling of Edward Sr.; m. Embree", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Anna Bell (Mattingly) Powell", "dates": "?", "fact": "Daughter of TJ + Elizabeth Christie; m. Ezra Doty Powell 1874", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Noble N. Mattingly", "dates": "?", "fact": "Son of TJ + Elizabeth Christie", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Francis Ellsworth 'Frank' Mattingly", "dates": "?", "fact": "Son of TJ + Elizabeth Christie", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Edward Mattingly Sr.", "dates": "1868 MO \u2013 1945 La Grange TX", "fact": "Born Missouri; migrated to TX by 1894; m. May Teichmueller 1 Sept 1894 (May d. 28 Aug 1900); m2. Blanche Schroeder", "id": "p041", "generation": 13, "century": 20, "confidence": "confirmed", "spouse": "m1. May Teichmueller (1894\u20131900); m2. Blanche D. Schroeder (b. 1886 MO)", "children": [{"name": "Leroy Teichmuller Mattingly", "dates": "31 Aug 1896 \u2013 1968", "fact": "Born La Grange TX; died San Antonio. U Texas engineer; named for German maternal grandfather Hans Teichmueller. m. Ruth Baity 4 Apr 1900\u20131982. WikiTree Mattingly-1127.", "id": "p002", "generation": 14, "century": 20, "confidence": "confirmed", "spouse": "Ruth (Baity) Mattingly (4 Apr 1900 \u2013 1982 Houston)", "children": [{"name": "Leroy Baity Mattingly", "dates": "1922\u20132013", "fact": "Born 17 May 1922 San Antonio; died Colorado Springs CO 2013. WikiTree Mattingly-1178. m. Jennive Imogene Lepick (1923-2008) at Fort Sill OK on 18 Dec 1943.", "id": "p015", "generation": 15, "century": 20, "confidence": "confirmed", "spouse": "Jennive Imogene Lepick (2 Feb 1923 Floresville TX \u2013 2008 Colorado Springs)", "children": [{"name": "Sharyn (\"Shari\") Mattingly", "dates": "b. 1947", "fact": "Family historian; Santa Monica; oil royalty owner", "id": "p000", "generation": 16, "century": 20, "confidence": "confirmed", "spouse": "David Spence (1st husband)", "children": [{"name": "Rachel (n\u00e9e Trifon\u2192Spence)", "dates": "living", "fact": "Hunter's mother; daughter of Shari Mattingly + David Trifon (adopted-name Trifon). Married Dale William Spence Jr. \u2014 Hunter's surname comes via this marriage line, from Dale Sr's English Spence family.", "id": null, "generation": 17, "century": 21, "confidence": "confirmed", "spouse": "Dale William Spence Jr.", "children": [{"name": "Hunter Spence", "dates": "living", "fact": "Recipient of this family history; recorded grandma's interview. Surname Spence inherited via FATHER (Dale William Spence Jr.), NOT via maternal grandfather David Trifon (whose Trifon surname was adopted, biological line untraceable).", "id": "p001", "generation": 18, "century": 21, "confidence": "confirmed", "spouse": null, "children": []}]}, {"name": "Charmaine", "dates": "living", "fact": "Shari + David Trifon's daughter; Hunter's aunt (maternal)", "id": "p021", "generation": 17, "century": 21, "confidence": "confirmed", "spouse": null, "children": []}]}, {"name": "[brother]", "dates": "living", "fact": "Got the chair from Pearl's set", "id": "p022", "generation": 16, "century": 20, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "[sister]", "dates": "living", "fact": "\u2014", "id": "p023", "generation": 16, "century": 20, "confidence": "confirmed", "spouse": null, "children": []}]}]}, {"name": "Dr. Claude Mattingly", "dates": "1898\u20131934", "fact": "Pediatrician; Marine WWI; suicide pact at Texan Hotel Austin Jan 31 1934", "id": "p011", "generation": 14, "century": 20, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Aunt Mamie", "dates": "b. ~1900", "fact": "Mother died at her birth", "id": "p013", "generation": 14, "century": 20, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Edward Mattingly Jr.", "dates": "b. ~1915 La Grange", "fact": "Half-sibling \u2014 son of Edward Sr. + 2nd wife Blanche Schroeder", "id": null, "generation": 14, "century": 20, "confidence": "probable", "spouse": null, "children": []}]}, {"name": "Florence Mattingly", "dates": "?", "fact": "Daughter of TJ + Elizabeth Christie", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Ida Mattingly", "dates": "?", "fact": "Daughter of TJ + Elizabeth Christie", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}]}, {"name": "Ignatius Mattingly", "dates": "b. 6 Mar 1811", "fact": "Sibling of Thomas Jefferson; m. Rachel F. Barnes (WikiTree Mattingly-139)", "id": null, "generation": 12, "century": 19, "confidence": "probable", "spouse": null, "children": []}]}]}, {"name": "Leonard Mattingly Sr.", "dates": "1739\u20131829 Washington Co KY", "fact": "Mattingly-62. 'Old Leonard'; one of the William/Leonard/Lucas brothers Webb places at Hardin's Creek in early 1786. m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10+ named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)", "id": "p044", "generation": 10, "century": 18, "confidence": "confirmed", "spouse": "m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty", "children": [{"name": "Joseph Mattingly", "dates": "?", "fact": "Mattingly-339; son of Leonard Sr. Webb says Joseph Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Jane Mattingly", "dates": "b. 1760", "fact": "Mattingly-211", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "John Baptist Mattingly", "dates": "b. 1762", "fact": "Mattingly-59", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Leonard Mattingly Jr.", "dates": "1764\u20131843 Marion KY", "fact": "Mattingly-210; 1785 Catholic migrant to KY; Y-DNA project anchor for KY descendants. m. Ann Cissell.", "id": "p045", "generation": 11, "century": 18, "confidence": "confirmed", "spouse": "Ann Cissell (m. 7 Jan 1788, Nelson Co KY)", "children": [{"name": "Mary Alvey Mattingly", "dates": "b. 1798", "fact": "Eldest of Leonard Jr.'s 4 children", "id": null, "generation": 12, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Henry Martin Mattingly Sr.", "dates": "1799\u20131858 Marion KY", "fact": "9 children 1828-1844; m. Helen Thompson; collateral KY Y-DNA branch", "id": null, "generation": 12, "century": 19, "confidence": "confirmed", "spouse": "Helen Thompson (b. ~1800)", "children": [{"name": "George Thomas Mattingly", "dates": "b. 1830 Marion KY", "fact": "Mattingly-695; Y-DNA project participant", "id": "p046", "generation": 13, "century": 19, "confidence": "possible", "spouse": null, "children": []}, {"name": "[+8 other children of Henry Martin Sr.]", "dates": "1828\u20131844", "fact": "Per agent 16 research", "id": null, "generation": 13, "century": 19, "confidence": "probable", "spouse": null, "children": []}]}, {"name": "William Cissell Mattingly", "dates": "b. 1807", "fact": "Leonard Jr's third child", "id": null, "generation": 12, "century": 19, "confidence": "probable", "spouse": null, "children": []}, {"name": "Leonard Mattingly III", "dates": "1828\u20131914 Glen Dean KY", "fact": "Died KY at 85; ruled out as centenarian", "id": null, "generation": 12, "century": 19, "confidence": "confirmed", "spouse": null, "children": []}]}, {"name": "Ignatius Mattingly", "dates": "b. 1766", "fact": "Mattingly-53; son of Leonard Sr. Webb says Ignatius Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Susannah (Mattingly) Ray", "dates": "b. 1766", "fact": "Mattingly-208; m. Ray", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Basil Mattingly", "dates": "b. 1772", "fact": "Mattingly-207", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": [{"name": "Martha 'Mother Generose' Mattingly", "dates": "fl. 1842\u20131844 KY", "fact": "Webb identifies Martha as Basil Mattingly's daughter; as Mother Generose Mattingly she led the Loretto community from 1842 to 1844.", "id": null, "generation": 12, "century": 19, "confidence": "confirmed", "spouse": null, "children": []}]}, {"name": "Susan (Mattingly) Barron", "dates": "b. 1775", "fact": "Mattingly-78; m. Barron", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Mary (Mattingly) Buckman", "dates": "b. 1777", "fact": "Mattingly-205; m. Buckman", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "William Mattingly", "dates": "b. 1777", "fact": "Mattingly-204", "id": null, "generation": 11, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Sister Margaret Mattingly", "dates": "fl. 1812 KY", "fact": "Founding member of the Sisters of Loretto (1812) \u2014 the first women's religious order founded west of the Allegheny Mountains. Per Webb 1884.", "id": "p056", "generation": 11, "century": 19, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "[Bardstown Mattingly bridge incomplete]", "dates": "19th c. KY", "fact": "Placeholder for a later Bardstown collateral line. Exact bridge from this Kentucky Mattingly cluster to Cyprian Peter Mattingly is still incomplete.", "id": null, "generation": 11, "century": 19, "confidence": "possible", "spouse": null, "children": [{"name": "Marie Mattingly Meloney", "dates": "1878\u20131943", "fact": "Major American journalist and editor, born Bardstown KY to physician Cyprian Peter Mattingly. Included only as a POSSIBLE Kentucky collateral until the branch bridge is documented.", "id": null, "generation": 12, "century": 20, "confidence": "possible", "spouse": null, "children": []}]}]}, {"name": "William Mattingly", "dates": "1741\u20131817 Washington KY", "fact": "Mattingly-213; m1. Mary Catherine Spalding; m2. Nancy Elizabeth Clark", "id": null, "generation": 9, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Lucas Mattingly", "dates": "1743\u20131830 KY", "fact": "Mattingly-214; m. Sue Ellen Hagan, Elizabeth Eleanor Thompson, Elizabeth Cambron", "id": null, "generation": 9, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Elizabeth (Mattingly) Thompson", "dates": "b. 1745", "fact": "Mattingly-1901; m. Thompson", "id": null, "generation": 9, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Sarah Ann (Mattingly) Walker", "dates": "b. 1747", "fact": "Mattingly-1312; m. Walker", "id": null, "generation": 9, "century": 18, "confidence": "probable", "spouse": null, "children": []}, {"name": "Susanna Mattingly", "dates": "b. 1749", "fact": "Mattingly-1900", "id": null, "generation": 9, "century": 18, "confidence": "probable", "spouse": null, "children": []}]}, {"name": "Ann Mattingly", "dates": "b. 1706", "fact": "Named in Thomas II's 1714 will", "id": null, "generation": 6, "century": 17, "confidence": "confirmed", "spouse": null, "children": []}], "immigrant_to_america": true, "origin_country": "England", "country_flag": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "country_code": "GB-ENG"}, {"name": "Cezar Mattingly", "dates": "1654\u20131719", "fact": "Mattingly-223. Co-recipient of Mattingly's Hope land patent 1666; m. Jane Suttle; brother of Hunter's direct ancestor Thomas II; Y-DNA R-Y14083 confirmed in his line (sibling terminal to Hunter's expected R-Y14084 cluster); ancestor of the Garrett County Hoyes settlement.", "id": "p050", "generation": 5, "century": 17, "confidence": "confirmed", "spouse": "Jane Suttle", "children": [{"name": "John Baptist Mattingly", "dates": "1690\u20131744", "fact": "Mattingly-225; m. Grace Brewer; Cezar's son; great-grandfather of Henry I", "id": null, "generation": 3, "century": 17, "confidence": "probable", "spouse": "Grace Brewer", "children": [{"name": "John Mattingly", "dates": "1715\u20131759", "fact": "Mattingly-258; m. Elizabeth Brewer; father of Henry I", "id": null, "generation": 4, "century": 18, "confidence": "probable", "spouse": "Elizabeth Brewer", "children": [{"name": "Henry Mattingly I", "dates": "1751 MD \u2013 1823 Mt Savage MD", "fact": "Mattingly-617. Patriarch / progenitor of the entire 1969 'Descendants of Henry Mattingly' genealogy book; m. Honora Durbin; 12 children", "id": "p051", "generation": 5, "century": 18, "confidence": "confirmed", "spouse": "Honora Durbin", "children": [{"name": "Henry Mattingly II", "dates": "1782 MD \u2013 1846 MO", "fact": "Son of Henry I; m. Nancy Ann Durbin; migrated to Missouri", "id": null, "generation": 6, "century": 19, "confidence": "confirmed", "spouse": "Nancy Ann Durbin", "children": [{"name": "Dominick Mattingly", "dates": "1808 MD \u2013 1854 Hoyes MD", "fact": "Anchor of Garrett County Mattingly settlement; bought 157 acres on Youghiogheny River from John Hoye 1831; the village was renamed 'Hoyes' in 1880", "id": "p052", "generation": 7, "century": 19, "confidence": "confirmed", "spouse": "Ann Browning", "children": [{"name": "Meshack Mattingly", "dates": "1837\u20131912", "fact": "Garrett County (MD) Commissioner; operated 'best stock farm in the county'; m. Mary P. Griffith (daughter of Pennsylvania Governor)", "id": "p053", "generation": 8, "century": 19, "confidence": "confirmed", "spouse": null, "children": []}, {"name": "Rev. Romanus Mattingly", "dates": "1850\u20131922", "fact": "Catholic priest; built parish churches at Oakland MD + Hoyes MD; 16-year pastor at Oakland", "id": "p054", "generation": 8, "century": 19, "confidence": "confirmed", "spouse": null, "children": []}]}]}, {"name": "Judge Francis Mattingly", "dates": "1813\u20131879", "fact": "Judge of the Orphans' Court at Cumberland MD (elected 1859); helped commit Allegany County to Union side 1861", "id": "p055", "generation": 8, "century": 19, "confidence": "confirmed", "spouse": null, "children": []}]}]}, {"name": "Lucius Mattingly", "dates": "1730\u20131826 Washington Co KY", "fact": "Mattingly-318; separate KY branch", "id": null, "generation": 4, "century": 18, "confidence": "probable", "spouse": null, "children": []}]}]}, {"name": "Judith (Mattingly) Turner", "dates": "1645\u20131744", "fact": "Lived to ~99", "id": "p080", "generation": 5, "century": 17, "confidence": "probable", "spouse": null, "children": []}, {"name": "Elizabeth Dorcas Mattingly", "dates": "1656\u20131749", "fact": "Lived to ~93", "id": "p081", "generation": 5, "century": 17, "confidence": "probable", "spouse": null, "children": []}], "immigrant_to_america": true, "origin_country": "England", "country_flag": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "country_code": "GB-ENG"}], "origin_country": "England", "country_flag": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "country_code": "GB-ENG"}], "origin_country": "England", "country_flag": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "country_code": "GB-ENG"}, {"name": "Agnes Mattyngly", "dates": "fl. 1571", "fact": "Married Harry Cawte 10 Sept 1571 Heckfield (Phillimore's Transcript line 109)", "id": null, "generation": 2, "century": 16, "confidence": "probable", "spouse": null, "children": []}, {"name": "Anne Mattingly", "dates": "fl. 1596", "fact": "Married John Ayer 17 Oct 1596 Heckfield (Phillimore line 230)", "id": null, "generation": 2, "century": 16, "confidence": "probable", "spouse": null, "children": []}]}]}]}], "origin_country": "England", "country_flag": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "country_code": "GB-ENG"}], "origin_country": "England", "country_flag": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "country_code": "GB-ENG"}], "origin_country": "England", "country_flag": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "country_code": "GB-ENG"}]}]}</script>
   <details class="subtree-details">
   <summary>Show as nested list</summary>
   <article class="subtree-card">
@@ -2878,6 +3226,64 @@ nodeGroups.filter(d => d.data.portrait_url)
       .attr('fill', 'none')
       .attr('stroke', 'rgba(0,0,0,0.45)')
       .attr('stroke-width', 1.5);
+  });
+
+// ── IMMIGRANT GREEN BORDER + FLAG BADGE ─────────────────────────
+// Direct-line ancestor who first set foot in America for their surname line.
+// Green outer glow + crisp inner border + departure-country flag emoji + "★ IMMIGRANT" label.
+nodeGroups.filter(d => d.data.immigrant_to_america)
+  .each(function(d) {
+    const sg = d3.select(this).select('.node-card');
+    // Outer green glow halo
+    sg.append('rect')
+      .attr('x', -NW/2 - 4).attr('y', -NH/2 - 4)
+      .attr('width', NW + 8).attr('height', NH + 8)
+      .attr('rx', 10).attr('ry', 10)
+      .attr('fill', 'none')
+      .attr('stroke', '#22c55e')
+      .attr('stroke-width', 5)
+      .attr('opacity', 0.40)
+      .attr('pointer-events', 'none');
+    // Inner crisp green border
+    sg.append('rect')
+      .attr('x', -NW/2 + 0.5).attr('y', -NH/2 + 0.5)
+      .attr('width', NW - 1).attr('height', NH - 1)
+      .attr('rx', 7).attr('ry', 7)
+      .attr('fill', 'none')
+      .attr('stroke', '#16a34a')
+      .attr('stroke-width', 2.5)
+      .attr('pointer-events', 'none');
+    // Country flag emoji top-right
+    if (d.data.country_flag) {
+      sg.append('text')
+        .attr('x', NW/2 - 14).attr('y', -NH/2 + 16)
+        .attr('font-size', 17)
+        .attr('text-anchor', 'middle')
+        .attr('pointer-events', 'none')
+        .text(d.data.country_flag);
+    }
+    // "★ IMMIGRANT" small label bottom-left
+    sg.append('text')
+      .attr('x', -NW/2 + 6).attr('y', NH/2 - 6)
+      .attr('font-size', 8)
+      .attr('font-weight', 700)
+      .attr('letter-spacing', '0.1em')
+      .attr('fill', '#22c55e')
+      .attr('pointer-events', 'none')
+      .text('★ IMMIGRANT');
+  });
+
+// ── NOTABLE FIGURE GOLD STAR ─────────────────────────────────────
+// People with Wikipedia article / public-record fame get a star badge.
+nodeGroups.filter(d => d.data.is_notable)
+  .each(function(d) {
+    const sg = d3.select(this).select('.node-card');
+    sg.append('text')
+      .attr('x', -NW/2 + 12).attr('y', -NH/2 + 16)
+      .attr('font-size', 14)
+      .attr('text-anchor', 'middle')
+      .attr('pointer-events', 'none')
+      .text('⭐');
   });
 
 // ── HUGE ? CONFIDENCE BADGES ────────────────────────────────────

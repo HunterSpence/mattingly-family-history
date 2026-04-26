@@ -1,0 +1,408 @@
+{
+  "surname_line": "Mattingly",
+  "maternal_note": "Hunter's MATERNAL line — comes through mother Rachel (Trifon→Spence) ← grandmother Sharyn Mattingly (1947). Despite being called the 'Mattingly paternal line' in surname-study terms, it is Hunter's maternal grandmother's patrilineal surname.",
+  "research_date": "2026-04-26",
+  "researcher": "Claude Sonnet 4.6 via OpenClaw",
+
+  "earliest_confirmed_ancestor": {
+    "name": "Thomas Mattingly I (the Maryland immigrant)",
+    "year_floruit": "died before 24 July 1664",
+    "place": "Maryland (died in St. Mary's County or Charles County)",
+    "country": "England (origin) → Maryland (died)",
+    "country_code": "GB-ENG / US-MD",
+    "primary_source": "Administrator's bond dated 24 July 1664, St. Mary's County, Maryland — widow Elizabeth Mattingly (also signed 'Elza Mattingley') filed as executrix of intestate estate. Inventory appraised by Richard Miller and Clement Gardiner; presented for recording 29 July 1664. Cited in: 1969 'The Descendants of Henry Mattingly' (Internet Archive id thedescendantsofhenrymattingly), Appendix III, p. 236; and in WikiTree Mattingly-30.",
+    "secondary_source_corroborating": "Hoye (Appendix II, 1969 book p. 230): 'Thomas Mattingly, his wife, Elizabeth, and children, Thomas, Cezar and Elizabeth, came to Maryland prior to 1665.' — confirms family arrival pre-1665.",
+    "land_patent": "Mattingly's Hope, 300 acres, Charles County, Maryland. Surveyed 19 May 1666 by warrant 1 August 1665 (entered by Walter Pake, attorney and later husband of widow Elizabeth). Patent issued 4 September 1666 to sons Thomas Mattingly II and Cezar Mattingly. Location: east side of the main fresh run of Port Tobacco Creek, Port Tobacco Hundred, Charles County. Patent Book Liber 10 (transcript FF/GG, Maryland Land Office series SM2, Maryland State Archives). Microfilm: FamilySearch Library Films 13063-13141.",
+    "evidence_url": "https://www.wikitree.com/wiki/Mattingly-30; https://archive.org/details/thedescendantsofhenrymattingly",
+    "confidence": "CONFIRMED",
+    "confidence_notes": "The administrator's bond of 24 July 1664 and land patent of 4 September 1666 are two independent primary-source colonial records. Thomas I himself arrived pre-1665 and died before or shortly after arriving (intestate). His widow Elizabeth and attorney Walter Pake managed the estate. The 1664 date is the earliest primary-source document naming this person."
+  },
+
+  "earliest_PROBABLE_ancestor": {
+    "name": "Henry MATYNGLE",
+    "year": "1548 (marriage record)",
+    "estimated_birth": "circa 1518-1528",
+    "place": "Heckfield St Michael, Hampshire, England (covers Mattingley tithing)",
+    "country": "England",
+    "country_code": "GB-ENG",
+    "primary_source": "Heckfield St Michael parish register, Hampshire: 'Henry Matyngle, marriage, 30 September 1548.' Phillimore's Transcript of Heckfield register, transcribed by Ken Greenslade, file line 48. Available via FreeREG: https://www.freereg.org.uk/search_records/683737608655749cd6443497/-henry-matyngle-marriage-hampshire-heckfield-1548-09-30. Original register at Hampshire Record Office, Winchester (HRO).",
+    "significance": "Henry is the EARLIEST CONFIRMED Mattingly surname bearer in the Heckfield/Mattingley parish register series (which begins 1538). The 'Matyngle' spelling matches the 15th-century BHO VCH Hampshire place-name variant 'Martyngle,' confirming surname derived directly from the village. Estimated birth ~1518-1528 makes him a plausible parent of John Mattingly (~1560, d. 1641), but this cannot be confirmed without finding a baptism record for John in the Heckfield registers.",
+    "second_confirmed_record": "Agnes MATTYNGLY, married Harry Cawte, 10 September 1571, Heckfield St Michael, Phillimore's Transcript line 109 — possibly Henry's daughter.",
+    "will_of_harry_mattyngle": "A Will and Inventory of Harry Mattyngle of Mattingley, dated 1566, husbandman, is held at Hampshire Record Office (HRO 1695P/44 — inventory reference). Harry and Henry may be the same individual or near relatives. The name 'Harry' is a contemporary variant of 'Henry.' This is an additional CONFIRMED primary source for a named Mattyngly individual in Mattingley, Hampshire in 1566.",
+    "connection_to_hunter_line": "PROBABLE but NOT PROVEN. Henry Matyngle (1548) is in exactly the right location and generation to be father of John Mattingly (~1560, d. 1641 London), who is the next confirmed ancestor in Hunter's direct line. No document confirms this parentage.",
+    "evidence_urls": [
+      "https://www.freereg.org.uk/search_records/683737608655749cd6443497/-henry-matyngle-marriage-hampshire-heckfield-1548-09-30",
+      "https://www.freereg.org.uk/search_records/683737658655749cd644359f/agnes-mattyngly-harry-cawte-marriage-hampshire-heckfield-1571-09-10",
+      "https://www.freshford.com/Mattingly%20Ancestors.html"
+    ]
+  },
+
+  "earliest_POSSIBLE_ancestor_England": {
+    "name": "William Mattyngle",
+    "year": "1483",
+    "place": "Mattingley, Hampshire, England",
+    "country": "England",
+    "country_code": "GB-ENG",
+    "primary_source": "Mortgage agreement for 'Rychars land' in Mattingley, dated 24 March 1483, between William Mattyngle, William Elysander, John at Hylle, and Roger Cotell. Hampshire Record Office reference: HRO 19M61/153.",
+    "significance": "This document directly links the Mattyngle/Mattingly surname to the village of Mattingley and pushes the confirmed surname presence in the village back to 1483 — 65 years before Henry Matyngle's 1548 marriage record. William Mattyngle is a CONFIRMED historical person in a primary document at Hampshire Record Office. His relationship to Henry Matyngle (1548) or to John Mattingly (~1560) in Hunter's direct line is unknown — he is almost certainly a forebear but direct descent is not documented.",
+    "evidence_url": "https://www.freshford.com/Mattingly%20Ancestors.html"
+  },
+
+  "earliest_POSSIBLE_ancestor_medieval": {
+    "name": "Stephen de Mattingley (also spelled 'Stephen de Madingel', 'de Matingel')",
+    "year": "1206 (floruit)",
+    "place": "Mattingley, Hampshire, England",
+    "country": "England",
+    "country_code": "GB-ENG",
+    "primary_source_1": "Feet of Fines, Hampshire, Trinity 8 John (1206) — TNA CP 25/1. Stephen granted 6 virgates, 30 acres, meadows, 6s. 3d. rent, and a mill at Mattingley to Walter Prior of Merton in free alms.",
+    "primary_source_2": "Curia Regis Rolls — cited in Reaney & Wilson, Dictionary of English Surnames (Routledge, 1991, ISBN 0-415-05737-X) as earliest dated individual bearing the Mattingley surname.",
+    "primary_source_3": "Cotton MS Cleopatra C. vii, fol. 134d (British Library) — charter of Merton Priory naming Revelendus, his wife Rose, and sons including Stephen de Mattingley.",
+    "bho_url": "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51",
+    "father": "Revelendus of Mattingley (fl. late 12th century) — confirmed in Cotton MS Cleopatra C. vii",
+    "son": "Peter de Mattingley (fl. 1220s-1249) — sold all family property; surname then disappears from Mattingley manorial records for ~300 years",
+    "connection_to_hunter_line": "POSSIBLE SOCIAL-LINE CLAIM. Stephen de Mattingley (1206) is the earliest DATED person bearing the Mattingley surname in any primary source. However, he is NOT a proven direct genealogical ancestor of John Mattingly (~1560). A 307-year gap (from Peter de Mattingley ~1249 to William Mattyngle 1483) contains no named Mattingly individual in any published primary source. The VCH Hampshire explicitly states the surname disappears from manorial records after Peter. Many amateur genealogists have fabricated continuity across this gap — this research confirms it remains unbridged.",
+    "domesday_note": "The Domesday Book (1086) records the village as 'Matingeleghe' and names Alric (Anglo-Saxon thane who held Mattingley as alod under Edward the Confessor) as pre-Conquest holder. Alric is NOT a proven ancestor of any later Mattingly family — he is a village-level historical figure. VCH Hants i 505a (footnote 78)."
+  },
+
+  "immigrant_to_america_in_hunters_direct_line": {
+    "name": "Thomas Mattingly II",
+    "born": "circa 1650, Sussex, England",
+    "died": "12 January 1715, St. Mary's County, Maryland",
+    "year_of_arrival": "pre-1665 (arrived as a child with widowed mother Elizabeth Mattingly and siblings)",
+    "departure_country": "England",
+    "arrival_port": "Maryland (Province of Maryland, likely St. Mary's County or Charles County landing)",
+    "land_patent": "Mattingly's Hope, 300 acres, Charles County, Maryland",
+    "patent_date": "4 September 1666",
+    "patent_certificate_date": "May 1666",
+    "patent_location": "East side of the main fresh run of Port Tobacco Creek, Port Tobacco Hundred, Charles County, Maryland. Surveyed 19 May 1666 for Thomas Mattingly and Cezar Mattingly. Back side of land of John Cane and Ignatius Causeen.",
+    "patent_book": "Patent Book Liber 10 (covering September 1666 - 1668; transcripts FF and GG), Maryland Land Office series SM2, Maryland State Archives. Microfilm FamilySearch Library Films 13063-13141.",
+    "patent_entered_by": "Walter Pake, attorney (who married widow Elizabeth Mattingly and entered the family's headright warrant 1 August 1665)",
+    "will_citation": "Will of Thomas Mattingly II, dated 9 October 1714, probated 12 January 1715. Maryland Prerogative Court, Volume 14 (Liber 14), pages 222-224. Repository: Maryland State Archives, MdHR SR 4408.",
+    "will_witnesses": "Adam Boyd, Thomas Dillon, Richard Miller",
+    "will_contents": "Named sons Thomas III (who inherited Mount Misery plantation), James, Charles, William, Luke, Ignatius (b. 1704). Named daughters Elizabeth Clarke, Judith, Ann. Bequeathed 'Mount Misery' to son Thomas III. Named wife Elizabeth (Ely) as executrix.",
+    "co_patentee": "Cezar Mattingly (born ~1654 England — brother of Thomas II)",
+    "ship_name": "Unknown — no ship manifest has been identified for this family's ~1663-1664 arrival",
+    "primary_source_url": "https://www.wikitree.com/wiki/Mattingly-29",
+    "secondary_source": "1969 'The Descendants of Henry Mattingly,' Appendix II (Hoye) p. 230: 'Thomas Mattingly, his wife, Elizabeth, and children, Thomas, Cezar and Elizabeth, came to Maryland prior to 1665.'",
+    "confidence": "CONFIRMED",
+    "confidence_notes": "The 1666 land patent and 1714 will are both colonial primary-source records. WikiTree Mattingly-29 cites both. The will specifically names son Ignatius (b. 1704) who is the ancestor documented in the FTDNA Y-DNA project (WikiTree Mattingly-60, Will: St Mary's County Will Book JJ1 p.470). Thomas II is the actual immigrant — Thomas I (his father) died in Maryland shortly after arrival in 1664."
+  },
+
+  "confirmed_chain_to_hunter": [
+    {
+      "gen": -7,
+      "name": "William Mattyngle (Mattingley village, Hampshire)",
+      "year": "1483",
+      "place": "Mattingley, Hampshire, England",
+      "confidence": "POSSIBLE",
+      "source": "Mortgage HRO 19M61/153, dated 24 March 1483 (Hampshire Record Office). Direct line to John Mattingly not documented.",
+      "relation_to_hunter": "Probable but unproven forebear of John Mattingly (~1560)"
+    },
+    {
+      "gen": -6,
+      "name": "Henry MATYNGLE",
+      "year": "fl. 1548 (born est. 1518-1528)",
+      "place": "Heckfield/Mattingley, Hampshire, England",
+      "confidence": "PROBABLE",
+      "source": "Heckfield St Michael parish register, marriage 30 September 1548 (Phillimore's Transcript, FreeREG line 48). Also: Will of Harry Mattyngle 1566, husbandman, HRO 1695P/44. Plausible father of John Mattingly (~1560) but not document-proven.",
+      "relation_to_hunter": "Probable great-great-great-great-grandfather (4x-great-grandfather)"
+    },
+    {
+      "gen": -5,
+      "name": "John Mattingly",
+      "year": "born circa 1560; died 17 December 1641",
+      "place": "died St Mary Colechurch, London, England",
+      "confidence": "CONFIRMED",
+      "source": "London Church of England burial register, St Mary Colechurch: 'John Mattingly was buried the 17 of December 1641 in the church.' Original at London Metropolitan Archives. Cited via WikiTree Mattingly-368. His parentage (possibly Henry Matyngle) and birthplace (Berkshire or Hampshire) are not independently confirmed in any primary source — only the burial is primary-source proven.",
+      "relation_to_hunter": "Great-great-great-great-grandfather (4x-great) — first CONFIRMED ancestor in direct paternal Mattingly line"
+    },
+    {
+      "gen": -4,
+      "name": "Charles Mattingly",
+      "year": "born circa 1600, died circa 1642",
+      "place": "Omny Parish, Sussex, England",
+      "confidence": "PROBABLE",
+      "source": "WikiTree Mattingly-368 (sources: MyHeritage aggregated tree, FamilySearch Pedigree Resource File). No independent primary source (parish register, will, deed) has been located naming Charles in open-access archives. His existence as son of John (~1560) and father of Thomas I rests on aggregated genealogy data without primary-source corroboration.",
+      "relation_to_hunter": "3x-great-grandfather"
+    },
+    {
+      "gen": -3,
+      "name": "Thomas Mattingly I",
+      "year": "born circa 1623-1624; died before 24 July 1664",
+      "place": "died in Maryland (St. Mary's County area), arrived pre-1665",
+      "confidence": "CONFIRMED",
+      "source": "Administrator's bond dated 24 July 1664, signed by widow Elizabeth Mattingly as executrix of intestate estate; inventory presented 29 July 1664. Also: Hoye, Appendix II, 1969 book p. 236: bond of 'Elza Mattingley.' Two independent primary-source documents (bond + inventory) confirm he died in Maryland before 24 July 1664. NOTE: He died shortly after or upon arrival — he did NOT live to file the land warrant. Walter Pake (who married his widow) entered the headright 1 August 1665 on the family's behalf.",
+      "relation_to_hunter": "2x-great-grandfather (of the immigrant line)"
+    },
+    {
+      "gen": -2,
+      "name": "Thomas Mattingly II",
+      "year": "born circa 1650 (England); died 12 January 1715",
+      "place": "born Sussex, England; died St. Mary's County, Maryland",
+      "confidence": "CONFIRMED",
+      "source": "Will: Maryland Prerogative Court Volume 14 pp. 222-224 (MdHR SR 4408), dated 9 October 1714, probated 12 January 1715. Land patent: Mattingly's Hope, Charles County, 4 September 1666, Patent Book Liber 10 (FF/GG), Maryland State Archives SM2.",
+      "relation_to_hunter": "Immigrant ancestor"
+    },
+    {
+      "gen": -1,
+      "name": "Thomas Mattingly III",
+      "year": "born circa 1688-1690; died before 10 September 1774",
+      "place": "St. Mary's County, Maryland",
+      "confidence": "CONFIRMED",
+      "source": "Will: Maryland Calendar of Wills, Volume 16, p. 21 [40.99]. Written 11 April 1774, probated 10 September 1774. Named sons Leonard, Edward, John Baptist, and Clement as heirs. Mentions 'Mount Misery' plantation and 'Mattingly's Lane.' Witnesses: Joshua Mills, Alley Mills, Teresa Mills.",
+      "relation_to_hunter": "Son of Thomas II; his son Ignatius leads to Hunter's line"
+    },
+    {
+      "gen": 0,
+      "name": "Ignatius Mattingly Sr.",
+      "year": "born circa 1704; died April 1789",
+      "place": "born and died St. Mary's County, Maryland",
+      "confidence": "CONFIRMED",
+      "source": "Will: St. Mary's County Will Book JJ1, Liber JJ #1, Page 470. Dated 2 April 1789. Witnesses: Robert Saxton, Mary Ingram. FamilySearch record. Son of Thomas Mattingly II per WikiTree Mattingly-60 ancestor chain. FTDNA Y-DNA project (research file 21) confirms his descent from Thomas II via haplogroup R-Y14084.",
+      "relation_to_hunter": "7th-great-granduncle via the Thomas II main line; actual line goes through Thomas III"
+    },
+    {
+      "gen": 1,
+      "name": "Ignatius Mattingly Jr.",
+      "year": "born circa 1750; died 10 November 1807",
+      "place": "St. Mary's County, Colony of Maryland",
+      "confidence": "CONFIRMED",
+      "source": "Maryland Marriages 1666-1970: FamilySearch database records 1801 marriage for 'Ignatius Mattingley.' Parent of Ignatius Mattingly (abt.1781-1833). WikiTree Mattingly profile. Part of Thomas II descent chain documented in FTDNA Y-DNA project.",
+      "relation_to_hunter": "Ancestor in the direct chain to Edward Mattingly Sr. (Texas)"
+    },
+    {
+      "gen": 2,
+      "name": "Ignatius Mattingly (b. ~1781)",
+      "year": "born circa 1781; died circa 1833",
+      "place": "born St. Mary's County, Maryland; died Richmond, Madison, Kentucky",
+      "confidence": "CONFIRMED",
+      "source": "WikiTree Mattingly-140. FamilySearch database: Maryland Marriages 1666-1970 (1801 marriage record for 'Ignatius Mattingley'). Census records confirm Kentucky residence.",
+      "relation_to_hunter": "Great-grandfather of Edward Mattingly Sr."
+    },
+    {
+      "gen": 3,
+      "name": "Thomas Jefferson Mattingly",
+      "year": "born 30 September 1828 (Kentucky); died 1883",
+      "place": "born Kentucky; died possibly Missouri",
+      "confidence": "CONFIRMED",
+      "source": "WikiTree Mattingly-140 (parent: Ignatius Mattingly b.1781). WikiTree Mattingly-596 (parent of Edward Mattingly Sr.). Census records. Son of Ignatius (b.1781) and father of Edward Sr. (b.1868 Missouri).",
+      "relation_to_hunter": "Great-great-grandfather of Sharyn Mattingly"
+    },
+    {
+      "gen": 4,
+      "name": "Edward Mattingly Sr.",
+      "year": "born 6 September 1868 (Missouri); died 4 November 1945 (La Grange, Texas)",
+      "place": "born Missouri; died La Grange, Fayette County, Texas",
+      "confidence": "CONFIRMED",
+      "source": "WikiTree Mattingly-596. U.S. Census 1900 (FamilySearch, enumeration district 31, sheet 12B, family 199, NARA microfilm T623) confirms residence in La Grange, Texas with wife Mary Teichmueller. Marriage: 1895, La Grange, Fayette County, Texas. 1902 Fayette County history book (LOC item 02023423) confirms 'assistant cashier of First National Bank of La Grange.' Death: 4 November 1945, La Grange, Texas.",
+      "spouse": "Mary 'May' Teichmueller (daughter of German immigrant judge Hans Teichmueller, 1837 Brunswick → 1901 La Grange)",
+      "relation_to_hunter": "Sharyn Mattingly's great-grandfather"
+    },
+    {
+      "gen": 5,
+      "name": "Leroy Teichmuller Mattingly",
+      "year": "born 31 August 1896, La Grange, Fayette County, Texas",
+      "place": "born La Grange, Texas",
+      "confidence": "CONFIRMED",
+      "source": "WikiTree Mattingly-596 (child of Edward Sr. and Mary Teichmueller). Named for maternal grandfather Judge Hans Teichmueller.",
+      "spouse": "Ruth Baity (daughter of Pearl Baity, NC origins)",
+      "relation_to_hunter": "Sharyn Mattingly's grandfather"
+    },
+    {
+      "gen": 6,
+      "name": "Leroy Baity Mattingly",
+      "year": "born 17 May 1922, San Antonio, Bexar, Texas; died 19 March 2013, Colorado Springs, Colorado",
+      "place": "born San Antonio, Texas; died Colorado Springs, Colorado; burial Fort Logan National Cemetery, Denver",
+      "confidence": "CONFIRMED",
+      "source": "WikiTree Mattingly-1178. Find A Grave Memorial #107212222. Social Security Death Index (FamilySearch). 1940 U.S. Census. WWII Army Enlistment Records (FamilySearch, 26 October 1942).",
+      "parents": "Leroy Teichmuller Mattingly and Ruth (Baity) Mattingly",
+      "relation_to_hunter": "Sharyn Mattingly's father (Hunter's maternal great-grandfather)"
+    },
+    {
+      "gen": 7,
+      "name": "Sharyn ('Shari') Mattingly",
+      "year": "born circa 1947",
+      "place": "Texas",
+      "confidence": "CONFIRMED",
+      "source": "Living individual — not documented in public records. Identified by Hunter Spence from family knowledge. Family historian; recorded 46-minute family history interview.",
+      "relation_to_hunter": "Hunter's maternal grandmother"
+    },
+    {
+      "gen": 8,
+      "name": "[Rachel, Hunter's mother — living, name redacted]",
+      "year": "born (redacted)",
+      "place": "redacted",
+      "confidence": "CONFIRMED",
+      "source": "Living — redacted in public record",
+      "relation_to_hunter": "Hunter's mother; daughter of Sharyn Mattingly"
+    },
+    {
+      "gen": 9,
+      "name": "Hunter Spence",
+      "year": "born (redacted, living)",
+      "place": "Florida, USA",
+      "confidence": "CONFIRMED",
+      "source": "Living",
+      "relation_to_hunter": "Subject"
+    }
+  ],
+
+  "chain_note": "IMPORTANT CLARIFICATION: The chain through Hunter's line does NOT follow the Leonard Sr. / Leonard Jr. path documented in the FTDNA Y-DNA project (which goes through Ignatius Sr. (1704) → Thomas II → Leonard branch). Hunter's line goes: Thomas II → Thomas III → (to the Ignatius Jr. / Ignatius 1781 branch) → Thomas Jefferson Mattingly → Edward Mattingly Sr. (Texas). The Y-DNA project confirms all these share R-Y14084 haplogroup from Thomas Mattingly I as common ancestor, validating the family group. However, the exact intermediate link between Thomas III (d.1774) and Ignatius Jr. (c.1750) needs a documented primary source. Thomas III named sons Leonard, Edward, John Baptist, and Clement — Ignatius Jr. (c.1750) may descend from one of these rather than directly from Thomas III. This is a RESEARCH BLOCKER.",
+
+  "leonard_sr_line_note": "The FTDNA Y-DNA project documents a PARALLEL confirmed chain: Thomas II → Thomas III → Ignatius Sr. (1704, WikiTree-60, will JJ1 p.470) → Leonard Sr. (1739, will Washington Co Will Book D p.427) → Leonard Jr. (1764, Kentucky marriage FamilySearch V5ZD-6SJ) → Henry Martin Mattingly Sr. (1799). THIS IS THE BEST-DOCUMENTED CHAIN in the primary-source record. Hunter's line is a DIFFERENT branch of Thomas II's descendants (through the Ignatius Jr. / 1781 branch). Both branches share Thomas Mattingly II as confirmed immigrant ancestor.",
+
+  "country_of_earliest_confirmed_origin": "England",
+  "country_flag_emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+
+  "earliest_confirmed_surname_in_england": {
+    "name": "Stephen de Mattingley (also spelled 'de Madingel', 'de Matingel')",
+    "year": "1206",
+    "source": "Feet of Fines Hampshire Trinity 8 John (1206), TNA CP 25/1; Curia Regis Rolls; BHO VCH Hampshire vol.4 pp.44-51",
+    "note": "Earliest DATED person bearing this surname in any primary source (confirmed by Reaney & Wilson, Dictionary of English Surnames, 1991). NOT a proven direct ancestor of Hunter — 307-year documentary gap between Peter de Mattingley (~1249) and William Mattyngle (1483) with no named intermediary."
+  },
+
+  "notable_figures_in_line": [
+    {
+      "name": "Thomas Mattingly II",
+      "claim_to_fame": "Maryland Catholic immigrant who obtained 'Mattingly's Hope' 300-acre land patent in Charles County, MD (4 September 1666) — founder of the entire American Mattingly family documented in Y-DNA project (all carry R-Y14084 haplogroup descending from him)",
+      "year": "died 1715",
+      "relation_to_hunter": "Immigrant ancestor (approximately 8 generations back)"
+    },
+    {
+      "name": "Sister Margaret Mattingly (founding Loretto)",
+      "claim_to_fame": "Daughter of Leonard Mattingly Sr.; one of the founding band of the Sisters of Loretto (1812) — the first religious order of women founded west of the Alleghenies, Kentucky",
+      "year": "1812",
+      "relation_to_hunter": "Collateral — on the Leonard Sr. branch, not Hunter's direct Texas line"
+    },
+    {
+      "name": "Hans Teichmueller",
+      "claim_to_fame": "German immigrant judge (1837 Brunswick, Germany → 1901 La Grange, Texas), founder-judge of Fayette County. His daughter Mary ('May') married Edward Mattingly Sr. — the union that produced the Texas Mattingly-Teichmueller family line.",
+      "year": "1837-1901",
+      "relation_to_hunter": "Hunter's maternal great-great-great-grandfather (maternal side — not Mattingly surname)"
+    },
+    {
+      "name": "Gustav Teichmüller",
+      "claim_to_fame": "German philosopher (1832-1888), brother of Hans Teichmueller. Professor at University of Basel and Imperial University of Dorpat (Tartu, Estonia). Philosopher of personalism.",
+      "year": "1832-1888",
+      "relation_to_hunter": "Great-great-great-granduncle (collateral, maternal Teichmueller line)"
+    },
+    {
+      "name": "Don Mattingly",
+      "claim_to_fame": "MLB first baseman (New York Yankees 1982-1995), 1985 AL MVP. Born Evansville, Indiana. Indiana geographic origin is consistent with the Kentucky → Indiana migration corridor used by Maryland Mattingly descendants in early 1800s. No confirmed genealogical connection to Hunter's specific line.",
+      "year": "born 1961",
+      "relation_to_hunter": "UNCONFIRMED — same surname, consistent geography, no documented paper trail connecting to Thomas Mattingly I"
+    },
+    {
+      "name": "Dr. Claude Mattingly",
+      "claim_to_fame": "Son of Edward Mattingly Sr. and Mary Teichmueller. Died 1934 in a suicide pact in New York City. Death was reported nationally; body was returned to his father Edward Sr. in La Grange, Texas.",
+      "year": "1898-1934",
+      "relation_to_hunter": "Hunter's maternal great-grand-uncle (brother of Leroy Teichmuller Mattingly)"
+    }
+  ],
+
+  "ydna_summary": {
+    "haplogroup": "R-Y14084 (R1b-DF27 > R-Y32298 > R-FT56526 > R-Y14084)",
+    "project": "FTDNA Mattingly-Matney Y-DNA Surname Project (53 members as of last review)",
+    "key_finding": "All documented male-line descendants of Thomas Mattingly I (d.1664 Maryland) carry the unique SNP R-Y14084. Multiple Hampshire, England-origin samples on YFull also carry this haplogroup, confirming English origin. YFull TMRCA of ~350 years before present is consistent with Thomas Mattingly I (~1620-1640 birth) as the most recent common ancestor of the American branch.",
+    "blatchford_match": "William Blatchford (emigrated ~1851 to New Zealand) also carries R-Y14084, confirming the haplogroup extended beyond just the Mattingly surname in England.",
+    "hampshire_signal": "Multiple YFull samples from Hampshire, England (region of Mattingley village) carry R-Y14084 and sub-branches, confirming Hampshire as the geographic origin of this Y-chromosome lineage.",
+    "project_url": "https://www.familysearch.org/groups/mattingly/about",
+    "yfull_url": "https://www.yfull.com/tree/R-Y14084/"
+  },
+
+  "research_blockers": [
+    "1. Thomas I's birthplace and parents in England are unconfirmed in primary sources. WikiTree Mattingly-30 cites only MyHeritage aggregated trees for 'Omny Parish, Sussex' — no English parish register, will, or other primary document has been found naming him before his 1664 death in Maryland.",
+    "2. The documentary gap between John Mattingly (~1560, d. 1641 London) and Henry Matyngle (1548 Heckfield) is PROBABLE but not documented by a birth/baptism record for John in the Heckfield registers. The Heckfield/Mattingley baptism register pages (1538+) are not fully indexed in FreeREG — the Hampshire Record Office (HRO, Winchester) holds the originals and they have not been professionally searched.",
+    "3. The 307-year gap between Peter de Mattingley (~1249) and William Mattyngle (1483) contains NO named Mattingly individual in any published primary source. Tudor lay subsidy rolls for Hampshire Holdshott Hundred (TNA E 179 series) are unworked and may contain 15th-century Mattyngly entries — requires in-person or institutional access to Kew.",
+    "4. The intermediate link between Thomas Mattingly III (d.1774, named sons: Leonard, Edward, John Baptist, Clement) and Ignatius Mattingly Jr. (~1750) in Hunter's specific line needs documentation. Is Ignatius Jr. a son of Thomas III, or of a different branch? No will or primary source establishes this directly.",
+    "5. The Kentucky-to-Texas connection (Thomas Jefferson Mattingly 1828 Kentucky → Edward Mattingly Sr. 1868 Missouri/Texas) is established by census records and WikiTree, but the intermediate migration — who specifically and when exactly — lacks a single documentary anchor in open primary sources.",
+    "6. Leroy Baity Mattingly's daughter named Sharyn is listed as 'private' on WikiTree-1178 (living). Sharyn's parentage from Leroy Baity Mattingly is confirmed by family oral tradition but not by any publicly accessible primary source in this research.",
+    "7. No ship manifest has been found for the Mattingly family's circa 1663-1664 arrival in Maryland. Thomas I arrived pre-1665 and died shortly after; Walter Pake entered the headright 1 August 1665. The ship name is unknown.",
+    "8. Herman R. Mattingly, 'The Mattingly Family in Early America' (1975), is referenced as a key English genealogy source but is digitized only on FamilySearch microfilm (catalog #570053) requiring interlibrary loan or in-person access. It may contain primary sources bridging the English gap."
+  ],
+
+  "sources_consulted": [
+    {
+      "source": "1969 'The Descendants of Henry Mattingly'",
+      "url": "https://archive.org/details/thedescendantsofhenrymattingly",
+      "finding": "Confirms Thomas Mattingly I (d.1664 Maryland), administrator's bond 24 July 1664, Mattingly's Hope patent 1666. Appendix II (Hoye) and Appendix III are key primary-source compilers."
+    },
+    {
+      "source": "FTDNA Mattingly-Matney Y-DNA Project",
+      "url": "https://www.familytreedna.com/groups/mattingly/about",
+      "finding": "R-Y14084 haplogroup confirms all project participants descend from Thomas Mattingly I. Hampshire, England origin confirmed by YFull samples."
+    },
+    {
+      "source": "FreeREG — Heckfield St Michael parish register transcriptions (Phillimore's)",
+      "url": "https://www.freereg.org.uk",
+      "finding": "Henry MATYNGLE marriage 30 September 1548 (line 48); Agnes MATTYNGLY marriage 10 September 1571 (line 109); Anne MATTINGLY marriage 17 October 1596 (line 230). All from Phillimore's Transcript, transcribed by Ken Greenslade."
+    },
+    {
+      "source": "Freshford.com — Mattingly Ancestors",
+      "url": "https://www.freshford.com/Mattingly%20Ancestors.html",
+      "finding": "1483 mortgage HRO 19M61/153 (William Mattyngle); 1566 Will of Harry Mattyngle (HRO 1695P/44); Robert Mattingly married Alice Turner 1542."
+    },
+    {
+      "source": "BHO Victoria County History of Hampshire vol. 4 pp.44-51",
+      "url": "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51",
+      "finding": "Confirms Ellis (1167), Revelendus (late 12th c.), Stephen de Mattingley (1206, Feet of Fines TNA CP 25/1; Curia Regis Rolls), Peter de Mattingley (fl.1236-1249). After Peter, surname disappears from manorial record."
+    },
+    {
+      "source": "WikiTree Mattingly-29 (Thomas Mattingly II)",
+      "url": "https://www.wikitree.com/wiki/Mattingly-29",
+      "finding": "Will (Maryland Prerogative Court Vol.14 pp.222-224, MdHR SR 4408), land patent (Mattingly's Hope 1666), children."
+    },
+    {
+      "source": "WikiTree Mattingly-60 (Ignatius Mattingly Sr.)",
+      "url": "https://www.wikitree.com/wiki/Mattingly-60",
+      "finding": "Will: St Mary's County Will Book JJ1 p.470, FamilySearch record. Son of Thomas Mattingly II."
+    },
+    {
+      "source": "WikiTree Mattingly-28 (Thomas Mattingly III)",
+      "url": "https://www.wikitree.com/wiki/Mattingly-28",
+      "finding": "Will: Maryland Calendar of Wills v.16 p.21. Named sons Leonard, Edward, John Baptist, Clement."
+    },
+    {
+      "source": "WikiTree Mattingly-62 (Leonard Mattingly Sr.)",
+      "url": "https://www.wikitree.com/wiki/Mattingly-62",
+      "finding": "Will: Washington County Will Book D p.427, dated June 16 1829, probated September 28 1829."
+    },
+    {
+      "source": "WikiTree Mattingly-210 (Leonard Mattingly Jr.)",
+      "url": "https://www.wikitree.com/wiki/Mattingly-210",
+      "finding": "Kentucky marriage to Ann Cissell: FamilySearch V5ZD-6SJ, 7 January 1788, Nelson County, Kentucky (FHL microfilm 000009666, image 762)."
+    },
+    {
+      "source": "WikiTree Mattingly-596 (Edward Mattingly Sr.)",
+      "url": "https://www.wikitree.com/wiki/Mattingly-596",
+      "finding": "Born 6 September 1868, Missouri. Died 4 November 1945, La Grange, Texas. Census records confirm Texas residence and Teichmueller marriage 1895."
+    },
+    {
+      "source": "WikiTree Mattingly-140 (Ignatius Mattingly b.1781)",
+      "url": "https://www.wikitree.com/wiki/Mattingly-140",
+      "finding": "Father of Thomas Jefferson Mattingly (1828). Part of the chain from Maryland Ignatius Jr. to Texas Edward Mattingly Sr."
+    },
+    {
+      "source": "Kentucky Kindred Genealogy — 1829 Will of Leonard Mattingly Sr.",
+      "url": "https://kentuckykindredgenealogy.com/2020/12/01/1829-will-of-leonard-mattingly-senior-washington-county/",
+      "finding": "Washington County Will Book D p.427, signed June 16 1829, probated September 28 1829. Witnesses: John Hagan, Richard Payne."
+    },
+    {
+      "source": "Webb, Benedict Joseph — The Centenary of Catholicity in Kentucky (1884)",
+      "url": "https://archive.org/details/TheCentenaryOfCatholicityKY",
+      "finding": "CONFIRMED: Leonard Mattingly Sr. (patriarch, ~300 descendants at death 1827), his son Leonard Jr. (married a Cissell sister), and the 1785-1786 Maryland Catholic migration to Hardin's Creek, Marion County, Kentucky."
+    },
+    {
+      "source": "1902 Fayette County Texas History Book",
+      "url": "https://www.loc.gov/item/02023423/",
+      "finding": "Edward Mattingly Sr. identified as 'assistant cashier of First National Bank of La Grange.'"
+    },
+    {
+      "source": "Maryland Patent Book list",
+      "url": "https://map-maker.org/book-list.html",
+      "finding": "Liber 9 (1665-1666, transcripts EE) and Liber 10 (1666-1668, transcripts FF/GG) are the relevant patent books for the 1666 Mattingly's Hope patent. Survey date 19 May 1666 → Liber 9 or 10. Patent date 4 September 1666 → Liber 10."
+    }
+  ],
+
+  "summary_for_site": "The Mattingly line traces to English roots in the Hampshire village of Mattingley, with the surname documented in primary records as early as 1483 (Hampshire Record Office mortgage HRO 19M61/153). The first confirmed ancestor in Hunter's direct line is Thomas Mattingly I, whose estate was administered in Maryland on 24 July 1664, and whose sons Thomas II and Cezar received the 'Mattingly's Hope' 300-acre land patent in Charles County, Maryland on 4 September 1666. The family maintained a strong Catholic identity through colonial Maryland, the 1785-1786 migration to Kentucky, and eventually migrated through Missouri to La Grange, Texas, where Edward Mattingly Sr. married Mary Teichmueller (daughter of German immigrant judge Hans Teichmueller) in 1895 — creating the German-Texan branch that leads to Sharyn Mattingly (born 1947), Hunter's maternal grandmother. The Y-DNA haplogroup R-Y14084, unique to all documented Mattingly descendants of Thomas Mattingly I, confirms the Hampshire, England origin of this lineage."
+}

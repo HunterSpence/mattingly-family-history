@@ -1,0 +1,454 @@
+{
+  "meta": {
+    "file": "65-henslee-confirmed-trace",
+    "prepared": "2026-04-26",
+    "researcher": "Researcher Specialist (claude-sonnet-4-6)",
+    "subject": "Henslee paternal line — full trace from Hunter Spence's grandmother Alice Marie Henslee Spence (1936) to earliest documented ancestor",
+    "scope": "Direct Henslee paternal line only. Collateral branches documented only where needed to establish the chain.",
+    "privacy_note": "No living persons named. All individuals born before 1936 or confirmed deceased.",
+    "supersedes": ["42-spence-henslee-expanded.json (surname_context section)"]
+  },
+
+  "confidence_tiers": {
+    "CONFIRMED": "Supported by a cited primary source (will, deed, census, burial record, contemporary biography)",
+    "PROBABLE": "Strong inference from 2+ corroborating secondary sources, or primary source with minor ambiguity",
+    "POSSIBLE": "Plausible from one secondary source or logical census inference",
+    "UNVERIFIED": "Asserted in family tradition or derivative source only; not corroborated"
+  },
+
+  "summary": {
+    "earliest_confirmed_ancestor": "Macksfield Henslee (Hensley), born ~1725 in Virginia Colony (prob. Hanover Co.), died before Aug 1801 in Caswell Co., North Carolina",
+    "earliest_ancestor_primary_source": "Caswell Co., NC Will Book D, p. 70 — will witnessed 31 Dec 1794, proved Oct Court 1801; names sons John and David explicitly",
+    "immigrant_status": "Macksfield is NOT himself the immigrant — he was born in Virginia Colony (appeared on Hanover Co. VA tax list 1763). The English immigrant ancestor is at least one generation earlier, identity UNVERIFIED.",
+    "country_of_origin": "England — surname traces to Devon/Norfolk England. First English documentary record: John de Henselay, Yorkshire Subsidy Rolls 1297. HouseOfNames cites Devon as surname origin locale.",
+    "american_immigrant_earliest_documented": "Jone Hensley, Virginia 1702 (cited HouseOfNames); not proven connected to this Macksfield line.",
+    "generations_from_macksfield_to_hunter": 8,
+    "year_range": "~1725 (Macksfield birth) to 2026 (Hunter alive), approximately 300 years",
+    "notable_figures": [
+      "Lee W. Henslee (1873-?): Sheriff of Burleson County TX, repeatedly elected 1902-1908 without opposition — documented in 1910 Texas historical publication",
+      "Macksfield Henslee: DAR/SAR qualifying ancestor — paid for Revolutionary War service (Haun NC Rev Army Accts Vol XI p.1325, certificate #431)",
+      "Enoch Henslee (Gen 4, 1832-aft.1880): Confederate soldier (CSA Veteran marker, Little Saline Cemetery, Menard Co TX, per Find a Grave #20814832)"
+    ],
+    "dna_note": "Y-chromosome haplogroup I-M253 confirmed for Franco Hensley (Maxfield line) via FamilyTreeDNA kit #213697 — 37-marker test. This is the direct paternal haplogroup of the Henslee line."
+  },
+
+  "direct_line": [
+    {
+      "generation": 1,
+      "role_in_chain": "Earliest confirmed Henslee ancestor in America",
+      "name": "Macksfield Henslee",
+      "alt_spellings": ["Maxfield Henslee", "Macksfield Hensley", "Maxfield Hensley"],
+      "birth_year": "c. 1725",
+      "birth_place": "Virginia Colony (probably Hanover County)",
+      "birth_confidence": "PROBABLE",
+      "birth_notes": "1786 NC State census gives age 'over 60', implying born before 1726. First record is 31 Dec 1757 Fredericksville Parish, Louisa Co VA deed witness. Listed on 1763 Hanover Co VA tax list. Carolshouse.com: 'first appears in 1763 as owner of 150 acres in what is now Hanover County, VA.'",
+      "death_year": "before Aug 1801",
+      "death_place": "Caswell County, North Carolina",
+      "death_confidence": "CONFIRMED",
+      "death_source": "Caswell Co NC Will Book D, p. 82 — inventory of estate of Macksfield Henslee, 10 Aug 1801 by executor David Henslee",
+      "spouse": "Martha (Sneed?) Henslee",
+      "spouse_notes": "Married ~1752 probably in Virginia. 'Sneed' maiden name is family tradition (Cindy Stamps research); not proven from primary source. Martha died after 31 Dec 1794 (named in will as recipient) and before will probate Oct 1801.",
+      "residence_trail": "Hanover Co VA (1757-1763) → Caswell Co NC (by 1777, per tax list) → remained Caswell Co until death",
+      "confirmed_children_in_will": ["John Henslee", "David Henslee", "Mary Henslee (daughter)", "Susannah (Henslee) Oldham (daughter)", "Nancy (Henslee) Payne (daughter)"],
+      "primary_sources": [
+        "Caswell Co NC Will Book D, p. 70 — will dated 31 Dec 1794, proved Oct Court 1801",
+        "Caswell Co NC Will Book D, p. 82 — estate inventory 10 Aug 1801",
+        "Caswell Co NC Deed Book J, p. 68 — 'Macksfield Henslee of Caswell County to David Henslee of same', 25 Apr 1795 (confirms David as son)",
+        "Caswell Co NC Deed Book J, p. 84 — 'Macksfield Henslee to John Henslee of same', 23 Apr 1795 (confirms John as son)",
+        "Haun NC Rev Army Accts Vol XI p. 1325, certificate #431 — paid for Revolutionary War service (DAR/SAR qualifying)"
+      ],
+      "secondary_sources": [
+        "https://www.carolshouse.com/familyhistory/henslee/ (L.W. Gray 1987 family history)",
+        "https://www.martygrant.com/genealogy/hensley/hensley-macksfield-caswell.htm",
+        "https://www.wikitree.com/wiki/Henslee-88 (grandparent section)"
+      ],
+      "confidence": "CONFIRMED",
+      "confidence_notes": "Primary sources confirm identity, residence, death, and children. Birth year is PROBABLE from census age evidence."
+    },
+    {
+      "generation": 2,
+      "role_in_chain": "Son of Macksfield; proven in father's will",
+      "name": "David Henslee",
+      "birth_year": "c. 1765",
+      "birth_place": "Virginia Colony (probably Hanover County)",
+      "birth_confidence": "PROBABLE",
+      "birth_notes": "Carolshouse.com and martygrant.com both place birth ~1755-1765 in Virginia. WikiTree Henslee-88 shows 'David Henslee 1765-1825 Hanover, Hanover, Colony of Virginia'.",
+      "death_year": "c. 1825",
+      "death_place": "Franklin County, Georgia (probable) or Cherokee Co., Alabama",
+      "death_confidence": "PROBABLE",
+      "death_notes": "Last appears on Franklin Co GA tax lists through ~1821; not found thereafter. Martygrant.com: 'died aft 1820 in Franklin Co, GA'.",
+      "spouse": "Mary Payne",
+      "spouse_notes": "Maiden name 'Payne' is family tradition per Cindy Stamps; married before ~1786 in Caswell Co NC. Not confirmed from primary source.",
+      "residence_trail": "Caswell Co NC (to ~1818) → Franklin Co GA (~1817-1821) → Cherokee Co AL (possible, per some sources)",
+      "primary_sources": [
+        "Caswell Co NC Will Book D, p. 70 — named as son of Macksfield in 1794 will",
+        "Caswell Co NC Deed Book J, p. 68 — David Henslee receives 65 acres from father Macksfield, 25 Apr 1795",
+        "Caswell Co NC Will Book D, p. 82 — David Henslee acts as executor of Macksfield's estate, 10 Aug 1801"
+      ],
+      "secondary_sources": [
+        "https://www.martygrant.com/genealogy/hensley/hensley-david-franklin-ga.htm",
+        "https://www.carolshouse.com/familyhistory/henslee/"
+      ],
+      "confidence": "CONFIRMED",
+      "confidence_notes": "Named explicitly in father's will and deed records as son. Birth place/year are PROBABLE."
+    },
+    {
+      "generation": 3,
+      "role_in_chain": "Son of David (probable); grandfather of Texas Henslee line",
+      "name": "Enoch Henslee",
+      "alt_spellings": ["Enoch Hensley"],
+      "birth_year": "c. 1785-1786",
+      "birth_place": "Caswell County, North Carolina",
+      "birth_confidence": "PROBABLE",
+      "birth_notes": "1850 census gives age 64, implying birth ~1785/86. Born in NC per 1850 census. 'Undoubtedly born in Caswell County' per martygrant.com. Parentage from David is PROBABLE not confirmed — martygrant.com: 'It seems very likely that Enoch was a son of David Hensley... but I don't have solid proof.'",
+      "death_year": "after 1853",
+      "death_place": "Saline County, Arkansas",
+      "death_confidence": "PROBABLE",
+      "death_notes": "Last court record is 21 Oct 1853, Saline Co AR. Not found in 1860 census. Martygrant.com.",
+      "spouse": "Amy Hastings (Hasten)",
+      "spouse_birth": "c. 1786-1787, Virginia (per 1850 census Mortality Schedule)",
+      "spouse_death": "January 1850, Saline County Arkansas",
+      "spouse_source": "1850 Census Mortality Schedule (primary); Caswell Co NC marriage bond 27 Oct 1806 (primary)",
+      "marriage_date": "27 October 1806",
+      "marriage_place": "Caswell County, North Carolina",
+      "marriage_source": "Caswell Co NC marriage bond, 27 Oct 1806 (primary source)",
+      "residence_trail": "Caswell/Rockingham Co NC (to ~1818) → Franklin Co GA (~1818-1823) → Hall Co GA (~1823-1840s) → Carroll Co GA (~1840s) → Saline Co AR (~1844-1853+)",
+      "primary_sources": [
+        "Caswell Co NC marriage bond, 27 Oct 1806 — Enoch Henslee to Amy Hasten",
+        "1810 Census Rockingham Co NC — 'Enoch Hensley' household, consistent with wife + young son age 0-10",
+        "1830 Census Hall Co GA — 'Enoch Hensley' household",
+        "1840 Census Carroll Co GA — 'Enoch Hensley' household",
+        "1850 Census Saline Co AR, p. 124, house/family 591/599 — Enoch Hensley 64 M W Farmer (Widowed) NC",
+        "1850 Census Mortality Schedule — Amy Hensley (Horton) age 63, born VA, died Dropsy, Saline Co AR Jan 1850"
+      ],
+      "secondary_sources": [
+        "https://www.martygrant.com/genealogy/hensley/hensley-enoch-saline-ar.htm",
+        "https://www.wikitree.com/wiki/Henslee-88 (parent section)"
+      ],
+      "confidence": "PROBABLE",
+      "confidence_notes": "Marriage bond and census records confirm the individual. Parentage from David is PROBABLE not CONFIRMED — no primary source names David as Enoch's father. Strong circumstantial evidence: same counties, same naming patterns (son named 'David', son named 'Mackfield')."
+    },
+    {
+      "generation": 4,
+      "role_in_chain": "Son of Enoch; first Henslee to arrive in Texas",
+      "name": "Maxfield G. Henslee",
+      "alt_spellings": ["Mackfield Hensley", "Maxfield Henslee", "Mac Henslee"],
+      "birth_year": "c. 1809-1810",
+      "birth_place": "Rockingham County, North Carolina",
+      "birth_confidence": "PROBABLE",
+      "birth_notes": "Born in NC per census records. 1810 Rockingham Co NC census shows Enoch Henslee with one apparent son 0-10. Born ~1809/10 per age in later census records. Martygrant.com notes NC birthplace.",
+      "death_year": "July 1887",
+      "death_place": "Kimble County (or Menard County), Texas",
+      "death_confidence": "CONFIRMED",
+      "death_notes": "Find a Grave memorial #20814832: 'Birth 1810, Death Jul 1887', buried Little Saline Cemetery, Menard County TX. WikiTree Henslee-88: 'Died 1887 at about age 77 in London, Texas.'",
+      "spouses": [
+        {
+          "name": "Mary Blackwell",
+          "married": "before 1830, Carroll Co GA",
+          "died": "1845-1847, Saline Co AR"
+        },
+        {
+          "name": "Elvira (Lorance)",
+          "married": "1847, Saline Co AR",
+          "died": "1857-1860, Johnson Co TX"
+        },
+        {
+          "name": "Phoebe Campbell",
+          "married": "18 May 1860, Johnson Co TX",
+          "married_source": "WikiTree Henslee-88 (marriage date and location)"
+        }
+      ],
+      "residence_trail": "Carroll Co GA (~1830) → Saline Co AR (~1844-1851) → Johnson Co TX (~1851) → Hood/Collin Co TX → Menard/Kimble Co TX (died)",
+      "texas_arrival": "c. 1851",
+      "texas_arrival_notes": "Hood County biography of son Maxfield F. Henslee states 'His father, Maxfield Henslee, a native of Georgia, came to Texas in 1851, and after a short stay in Hunt County bought land in Collin County, and from there moved to Hood County.'",
+      "csa_service": "Confederate States of America veteran — CSA marker at Little Saline Cemetery, Menard Co TX",
+      "children_with_phoebe_campbell": [
+        "Maxfield F. Henslee (1849-1933) — Hood County TX",
+        "Emma (Henslee) Atkins (1867-1920)",
+        "Henry Wilson Henslee (1869-1967)"
+      ],
+      "children_with_mary_blackwell": [
+        "Enoch Henslee (1832-1916) — Burleson Co TX [KEY ANCESTOR for Lee Stuart Henslee line]",
+        "Jesse James Henslee (1837-1916)",
+        "Miles Henslee (1838-1914)"
+      ],
+      "primary_sources": [
+        "Find a Grave memorial #20814832 — Maxfield G. Henslee, burial Little Saline Cemetery Menard Co TX, birth 1810 death Jul 1887",
+        "1880 US Census Burleson Co TX — confirms Enoch Henslee son in TX",
+        "Hood County TX biography (published 1910): 'His father, Maxfield Henslee, a native of Georgia, came to Texas in 1851'"
+      ],
+      "secondary_sources": [
+        "https://www.findagrave.com/memorial/20814832/maxfield-g.-henslee",
+        "https://www.martygrant.com/genealogy/hensley/hensley-enoch-saline-ar.htm",
+        "https://www.wikitree.com/wiki/Henslee-88",
+        "http://www.granburydepot.org/z/biog/HensleeMaxfieldF.htm"
+      ],
+      "confidence": "CONFIRMED",
+      "confidence_notes": "Find a Grave primary for death. 1910 biographical publication primary for Texas arrival. Parentage from Enoch is PROBABLE (census-based)."
+    },
+    {
+      "generation": 5,
+      "role_in_chain": "Son of Maxfield (by first wife Mary Blackwell); probable grandfather or great-uncle of Lee Stuart Henslee (1908)",
+      "name": "Enoch Henslee",
+      "birth_year": "c. 1832-1833",
+      "birth_place": "Carroll County, Georgia",
+      "birth_confidence": "PROBABLE",
+      "birth_notes": "Listed on 1880 Burleson Co TX census, age ~48, born GA. Martygrant.com: 'born 1832/33 in Carroll Co, GA'.",
+      "death_year": "after 1880",
+      "death_place": "Burleson County, Texas",
+      "death_confidence": "POSSIBLE",
+      "death_notes": "Last found on 1880 census Burleson Co TX. Find a Grave #20814832 lists him as child of Maxfield but with dates 1832-1916. He married Sarah J (maiden name unknown), born 1832/33 in GA.",
+      "spouse": "Sarah J. (surname unknown)",
+      "spouse_birthplace": "Georgia",
+      "residence": "Burleson County, Texas (by ~1853)",
+      "primary_sources": [
+        "1880 US Census Burleson Co TX — Enoch Henslee household",
+        "Find a Grave #20814832 — listed as child of Maxfield G. Henslee"
+      ],
+      "secondary_sources": [
+        "https://www.martygrant.com/genealogy/hensley/hensley-enoch-saline-ar.htm (register report item 8)",
+        "http://genealogytrails.com/tex/state/bio_se_tex_v2_7.html (Burleson County Henslee biography)"
+      ],
+      "confidence": "PROBABLE",
+      "confidence_notes": "Identity confirmed by census and Find a Grave. Role as ancestor of Lee Stuart Henslee (1908) is POSSIBLE — direct linkage not proven by primary source."
+    },
+    {
+      "generation": "5-COLLATERAL",
+      "role_in_chain": "Probable uncle of Lee Stuart Henslee's grandfather; documented Burleson County Henslee",
+      "name": "Lee W. Henslee",
+      "birth_date": "September 24, 1873",
+      "birth_place": "Burleson County, Texas",
+      "birth_confidence": "CONFIRMED",
+      "parents": {
+        "father": "Enoch Henslee (born ~1832/33 Georgia)",
+        "mother": "Sarah J. (maiden name unknown, born Georgia)",
+        "source": "1910 Texas historical publication — 'His parents were Enoch and Sarah (Hudson) Henslee, both natives of Georgia'"
+      },
+      "note_on_mother_surname": "The 1910 publication gives mother's maiden name as 'Hudson'; but martygrant.com and other sources give the wife as 'Sarah J.' with unknown maiden name. 'Hudson' may be accurate from a biographical interview.",
+      "occupation": "Sheriff of Burleson County, Texas — appointed June 1902, elected 1902, 1904, 1906, 1908 (unopposed)",
+      "wife": "Lucile (née Chambers), married 1900",
+      "children": ["Lula May Henslee", "Selden Wood Henslee", "Lorain Walter Henslee"],
+      "notable": "Biographical entry in Historical Review of South-East Texas and the Founders, Leaders and Representative Men, Vol. 2 (Lewis Publishing Co., Chicago, 1910). Repeated election as sheriff is documented public service record.",
+      "primary_sources": [
+        "Historical Review of South-East Texas Vol. 2, Lewis Publishing Co. Chicago 1910 — full biographical entry",
+        "http://genealogytrails.com/tex/state/bio_se_tex_v2_7.html (transcription of 1910 biography)"
+      ],
+      "confidence": "CONFIRMED",
+      "confidence_notes": "1910 published biography is a near-primary source naming parents. Linkage of this Lee W. Henslee (b.1873) to Lee Stuart Henslee (b.1908) is NOT proven — they share first name and Burleson/Jefferson County TX geography but are likely of the same Enoch (1832) branch."
+    },
+    {
+      "generation": 6,
+      "role_in_chain": "Hunter's paternal great-grandfather",
+      "name": "Lee Stuart Henslee",
+      "birth_date": "1908-10-02",
+      "birth_place": "Texas",
+      "birth_place_confidence": "PROBABLE",
+      "birth_place_notes": "Alice Marie Henslee born 1936 in Rusk TX (Cherokee County) — Lee Stuart likely in East Texas. Birth date from PeopleLegacy burial record.",
+      "death_date": "1994-08-31",
+      "death_confidence": "CONFIRMED",
+      "burial_place": "Forest Lawn Memorial Park and Funeral Home, Beaumont, Jefferson County, Texas",
+      "burial_section": "Garden of Hope",
+      "spouse": "Frances (Rau) Henslee",
+      "relationship_to_hunter": "Paternal great-grandfather (Alice's father)",
+      "primary_sources": [
+        "https://peoplelegacy.com/lee_s_henslee-571W0P — burial record with birth and death dates"
+      ],
+      "parent_connection_note": "Parents of Lee Stuart Henslee NOT YET identified from primary source. Probable connection to Enoch (Gen 5) branch of Burleson/East Texas Henslee cluster. Best free research path: Texas Death Certificate for Lee Stuart Henslee (names parents); 1920/1930 US Census for Lee Henslee household in East TX.",
+      "confidence": "CONFIRMED (dates and burial); UNVERIFIED (parents)"
+    },
+    {
+      "generation": 7,
+      "role_in_chain": "Hunter's paternal great-grandmother",
+      "name": "Frances Virginia Henslee (née Rau)",
+      "maiden_name": "Rau",
+      "birth_date": "1918-01-01",
+      "birth_place": "Texas",
+      "death_date": "2008-12-19",
+      "death_locality": "Nederland, Jefferson County, Texas",
+      "burial_place": "Forest Lawn Memorial Park and Funeral Home, Beaumont, Jefferson County, Texas",
+      "spouse": "Lee Stuart Henslee",
+      "relationship_to_hunter": "Paternal great-grandmother (Alice's mother)",
+      "primary_sources": [
+        "Find a Grave memorial #39700994 — Frances Henslee burial record",
+        "https://peoplelegacy.com/frances_henslee-3j7a3f",
+        "https://www.ancientfaces.com/directory/name/frances-henslee"
+      ],
+      "confidence": "CONFIRMED",
+      "confidence_notes": "Multiple burial record sources confirm dates and burial. Maiden name 'Rau' from existing research file 42."
+    },
+    {
+      "generation": 8,
+      "role_in_chain": "Hunter's paternal grandmother",
+      "name": "Alice Marie Henslee Spence",
+      "birth_date": "1936-01-13",
+      "birth_place": "Rusk, Cherokee County, Texas",
+      "death_date": "2005-12-03",
+      "burial_place": "Forest Lawn Memorial Park and Funeral Home, Beaumont, Jefferson County, Texas",
+      "burial_section": "Garden Of Hope",
+      "parents_in_source": "Lee S. Henslee + Frances Henslee (confirmed co-buried at Forest Lawn — same section)",
+      "relationship_to_hunter": "Paternal grandmother",
+      "primary_sources": [
+        "https://peoplelegacy.com/alice_marie_henslee_spence-3F0H76",
+        "Find a Grave memorial 14594379"
+      ],
+      "confidence": "CONFIRMED"
+    }
+  ],
+
+  "surname_origin": {
+    "language": "English",
+    "etymology": "Habitational surname from Hensley in East Worlington, Devon, England. Old English: 'Hēahmundes lēah' (Hēahmund's woodland clearing) per Ancestry/Dictionary of American Family Names 2022. Alternate etymology: Old English 'Hengest' (stallion) + 'leah' (clearing) — 'stallion meadow' — per multiple sources.",
+    "earliest_English_record": "John de Henselay, Yorkshire Subsidy Rolls, 1297 (cited HouseOfNames)",
+    "origin_county_primary": "Devon, England (Hensley village in East Worlington parish)",
+    "origin_county_secondary": "Norfolk, England (Hensley hamlet) — separate possible origin locale",
+    "spelling_variants": ["Hensley", "Henslee", "Hensleigh", "Henslie", "Henslea", "Enslee", "Hinsley", "Hunsley"],
+    "variant_note": "The 'Henslee' spelling is specific to and predominantly found in the Macksfield Henslee line of Caswell Co NC and their Texas descendants. Other American branches predominantly used 'Hensley'.",
+    "american_immigrants_documented": [
+      {
+        "name": "Jone Hensley",
+        "arrival": "Virginia, 1702",
+        "source": "HouseOfNames.com (citing passenger records)",
+        "connection_to_direct_line": "UNVERIFIED — not proven related to Macksfield Henslee"
+      },
+      {
+        "name": "Robert Hensley",
+        "arrival": "Virginia, 1654",
+        "source": "coadb.com Hensley coat of arms page",
+        "connection_to_direct_line": "UNVERIFIED"
+      },
+      {
+        "name": "William Hinsley (Hensley)",
+        "arrival": "Virginia, 1675 — Thomas Wood land patent, Rappahannock Co VA, for importing William Hinsley",
+        "source": "martygrant.com hensley-william-rappahannock-va.htm — citing 4 Oct 1675 patent",
+        "connection_to_direct_line": "POSSIBLE — martygrant.com researcher believes this may be ancestor of the Macksfield line, but no proof"
+      }
+    ],
+    "macksfield_parentage": {
+      "claim": "WikiTree (citing William Hensley ~1691-1781 profile) places Macksfield's father as William Hensley (c.1691-c.1781) of Fluvanna County, Colony of Virginia, son of James Hensley II (1642-1705) of Northampton VA, whose father was James Henry Hensley (1605-1665) of Tiverton, Devon, England",
+      "confidence": "POSSIBLE",
+      "caveat": "This chain (William → Macksfield) is asserted on WikiTree Hensley-196 and Henslee-88 but the researcher at martygrant.com explicitly states 'I have no clue who Mackfield's parents might be.' The WikiTree chain for pre-Macksfield generations is UNVERIFIED for this direct line.",
+      "wikitree_source": "https://www.wikitree.com/wiki/Hensley-196 — 'Father of Macksfield Hensley'"
+    },
+    "confidence": "CONFIRMED (Devon/Yorkshire English origin); POSSIBLE (specific pre-Macksfield chain)"
+  },
+
+  "notable_figures": [
+    {
+      "name": "Macksfield Henslee (~1725-1801)",
+      "notable_for": "DAR/SAR qualifying ancestor — paid for Revolutionary War service per Haun NC Rev Army Accts Vol XI p. 1325, certificate #431. Land grant recipient Caswell Co NC 1778. Planted tobacco plantation on Stoney Creek.",
+      "confidence": "CONFIRMED",
+      "source": "carolshouse.com citing Haun NC Revolutionary Army Accounts"
+    },
+    {
+      "name": "Maxfield G. Henslee (~1810-1887)",
+      "notable_for": "Confederate States Army veteran. Brought the Henslee family to Texas ~1851. Buried Little Saline Cemetery, Menard Co TX with CSA marker.",
+      "confidence": "CONFIRMED",
+      "source": "Find a Grave memorial #20814832; Hood County TX biography (1910)"
+    },
+    {
+      "name": "Lee W. Henslee (1873-?)",
+      "notable_for": "Sheriff of Burleson County, Texas. Appointed June 1902; elected 1902, 1904, 1906; re-elected 1908 without opposition. Son of Enoch Henslee (Gen 5, Burleson Co TX) and Sarah Hudson. Married Lucile Chambers 1900.",
+      "confidence": "CONFIRMED",
+      "source": "Historical Review of South-East Texas Vol. 2, Lewis Publishing Co. Chicago 1910"
+    }
+  ],
+
+  "immigrant_to_america": {
+    "status": "NOT CONFIRMED for direct Henslee line",
+    "explanation": "Macksfield Henslee (~1725) appears to be American-born (born Virginia Colony). His parents are UNVERIFIED. The immigrant ancestor to the Macksfield Henslee line is at least one — possibly two — generations earlier. Multiple Hensley/Henslee immigrants arrived in Virginia colony between 1642 and 1702; none are proven direct ancestors of Macksfield.",
+    "most_probable_immigrant_window": "c. 1640-1700, arrived Virginia Colony",
+    "best_candidates": [
+      "William Hinsley — imported to Rappahannock Co VA 1675 (land patent evidence)",
+      "Jone Hensley — Virginia 1702 (HouseOfNames)",
+      "William Hensley (~1583-1654) — Norfolk England origin, settled Virginia Colony per coadb.com (distant/speculative)"
+    ],
+    "english_county_of_origin": "Devon (primary — Hensley village, East Worlington) or Norfolk (secondary — Hensley hamlet)",
+    "confidence": "POSSIBLE for Devon/Norfolk origin; UNVERIFIED for specific immigrant individual"
+  },
+
+  "chain_summary_table": [
+    { "gen": 1, "name": "Macksfield Henslee", "dates": "~1725 – bef. Aug 1801", "location": "VA Colony → Caswell Co NC", "confidence": "CONFIRMED", "primary_source": "Caswell Co NC Will Book D p.70 (1794 will, 1801 probate)" },
+    { "gen": 2, "name": "David Henslee", "dates": "~1765 – ~1825", "location": "Hanover VA → Caswell NC → Franklin GA", "confidence": "CONFIRMED (named in father's will)", "primary_source": "Caswell Co NC Will Book D p.70 + Deed Book J p.68" },
+    { "gen": 3, "name": "Enoch Henslee", "dates": "~1786 – aft. 1853", "location": "Caswell NC → GA → Saline AR", "confidence": "PROBABLE (parentage circumstantial)", "primary_source": "Caswell Co NC marriage bond 27 Oct 1806; 1850 Census Saline Co AR" },
+    { "gen": 4, "name": "Maxfield G. Henslee", "dates": "~1810 – Jul 1887", "location": "Rockingham NC → GA → AR → TX", "confidence": "CONFIRMED (Find a Grave + 1910 biography)", "primary_source": "Find a Grave #20814832; 1910 TX biography" },
+    { "gen": 5, "name": "Enoch Henslee", "dates": "~1832 – aft. 1880", "location": "Carroll Co GA → Burleson Co TX", "confidence": "PROBABLE", "primary_source": "1880 Census Burleson Co TX; Find a Grave child listing" },
+    { "gen": 6, "name": "Lee Stuart Henslee", "dates": "1908-10-02 – 1994-08-31", "location": "Texas → Beaumont TX", "confidence": "CONFIRMED (burial record)", "primary_source": "PeopleLegacy burial record; parents UNVERIFIED" },
+    { "gen": 7, "name": "Frances Virginia (Rau) Henslee", "dates": "1918 – 2008-12-19", "location": "Texas → Nederland TX", "confidence": "CONFIRMED", "primary_source": "Find a Grave #39700994" },
+    { "gen": 8, "name": "Alice Marie Henslee Spence", "dates": "1936-01-13 – 2005-12-03", "location": "Rusk TX → Beaumont TX", "confidence": "CONFIRMED", "primary_source": "Find a Grave #14594379; PeopleLegacy" }
+  ],
+
+  "open_gaps": [
+    {
+      "gap": "Lee Stuart Henslee's parents (Gen 6)",
+      "priority": "HIGH",
+      "best_free_sources": [
+        "Texas Death Certificate for Lee Stuart Henslee (DSHS Vital Records) — names parents",
+        "1920 and 1930 US Census for 'Lee Henslee' households in East Texas (Cherokee/Rusk/Jefferson County)",
+        "Texas Birth Index 1908, Cherokee/Jefferson County — searchable on FamilySearch (requires browser login)"
+      ],
+      "estimated_cost": "$22 (death cert) or free (FamilySearch with browser)"
+    },
+    {
+      "gap": "Frances Virginia Henslee (née Rau) — parents and Rau line",
+      "priority": "MEDIUM",
+      "best_free_sources": [
+        "1930 US Census for Rau household in Texas",
+        "Texas Death Certificate for Frances Henslee (dec. 2008)"
+      ]
+    },
+    {
+      "gap": "Macksfield Henslee's parents — the immigrant generation",
+      "priority": "MEDIUM",
+      "best_free_sources": [
+        "Hanover Co VA deed/court records 1740-1760 — look for Henslee/Hensley household with Macksfield-age son",
+        "Colonial Virginia land patents 1640-1700 for Hinsley/Henslee/Hensley names",
+        "martygrant.com Mackfield page update — researcher may have new evidence"
+      ]
+    },
+    {
+      "gap": "Link between Gen 5 Enoch Henslee (Burleson Co TX) and Lee Stuart Henslee (1908)",
+      "priority": "HIGH",
+      "notes": "One intermediate generation (Lee Stuart's father, born ~1875-1890) is completely unidentified. Lee W. Henslee (sheriff, b.1873) is a likely uncle or cousin of Lee Stuart's father, not direct ancestor.",
+      "best_free_sources": [
+        "1900 Census Burleson/Jefferson Co TX for Henslee households with children born ~1905-1910",
+        "Texas Birth Certificate for Lee Stuart Henslee 1908 (names both parents)"
+      ]
+    }
+  ],
+
+  "dna_evidence": {
+    "y_chromosome_haplogroup": "I-M253",
+    "tested_individual": "Franco Hensley",
+    "test_provider": "FamilyTreeDNA",
+    "kit": "#213697",
+    "markers": "37",
+    "line": "Maxfield Henslee branch (confirmed patrilineal descent)",
+    "source": "WikiTree Henslee-88 DNA section",
+    "implication": "If Hunter Spence's direct Henslee paternal line connects to the Macksfield branch, the expected Y-haplogroup is I-M253. Hunter's own Y-DNA comes via his Spence grandfather (English), not Henslee — Henslee is Hunter's paternal grandmother's maiden name."
+  },
+
+  "sources_master": [
+    { "id": 1, "label": "Caswell Co NC Will Book D, p. 70 — Macksfield Henslee will, 31 Dec 1794", "reliability": "PRIMARY", "access": "Caswell County NC archives" },
+    { "id": 2, "label": "Caswell Co NC Will Book D, p. 82 — estate inventory of Macksfield Henslee, 10 Aug 1801", "reliability": "PRIMARY" },
+    { "id": 3, "label": "Caswell Co NC Deed Book J, p. 68 — Macksfield to David Henslee, 25 Apr 1795", "reliability": "PRIMARY" },
+    { "id": 4, "label": "Caswell Co NC marriage bond, 27 Oct 1806 — Enoch Henslee to Amy Hasten", "reliability": "PRIMARY" },
+    { "id": 5, "label": "Find a Grave memorial #20814832 — Maxfield G. Henslee", "url": "https://www.findagrave.com/memorial/20814832/maxfield-g.-henslee", "reliability": "HIGH" },
+    { "id": 6, "label": "Find a Grave memorial #39700994 — Frances Henslee", "url": "https://www.findagrave.com/memorial/39700994", "reliability": "HIGH" },
+    { "id": 7, "label": "Find a Grave memorial #14594379 — Alice Marie Henslee Spence", "reliability": "HIGH" },
+    { "id": 8, "label": "PeopleLegacy — Lee S. Henslee burial", "url": "https://peoplelegacy.com/lee_s_henslee-571W0P", "reliability": "HIGH" },
+    { "id": 9, "label": "PeopleLegacy — Alice Marie Henslee Spence", "url": "https://peoplelegacy.com/alice_marie_henslee_spence-3F0H76", "reliability": "HIGH" },
+    { "id": 10, "label": "Historical Review of South-East Texas Vol. 2, Lewis Publishing Co. Chicago 1910 — Lee W. Henslee biography", "url": "http://genealogytrails.com/tex/state/bio_se_tex_v2_7.html", "reliability": "HIGH" },
+    { "id": 11, "label": "carolshouse.com — Descendants of Maxfield Henslee (citing L.W. Gray 1987 family history)", "url": "https://www.carolshouse.com/familyhistory/henslee/", "reliability": "HIGH (compiled from primary sources)" },
+    { "id": 12, "label": "martygrant.com — Mackfield Henslee (c1726) and Martha Sneed", "url": "https://www.martygrant.com/genealogy/hensley/hensley-macksfield-caswell.htm", "reliability": "HIGH (compiled from primary sources)" },
+    { "id": 13, "label": "martygrant.com — Enoch Hensley and Amy Hastings", "url": "https://www.martygrant.com/genealogy/hensley/hensley-enoch-saline-ar.htm", "reliability": "HIGH" },
+    { "id": 14, "label": "martygrant.com — David Henslee (1755/65)", "url": "http://www.martygrant.com/genealogy/hensley/hensley-david-franklin-ga.htm", "reliability": "HIGH" },
+    { "id": 15, "label": "WikiTree Henslee-88 — Maxfield Henslee (1810-1887)", "url": "https://www.wikitree.com/wiki/Henslee-88", "reliability": "MEDIUM" },
+    { "id": 16, "label": "Hood County TX biography — Maxfield F. Henslee", "url": "http://www.granburydepot.org/z/biog/HensleeMaxfieldF.htm", "reliability": "HIGH (published 1910 source)" },
+    { "id": 17, "label": "HouseOfNames — Henslee surname origin", "url": "https://www.houseofnames.com/henslee-family-crest", "reliability": "MEDIUM" },
+    { "id": 18, "label": "Ancestry Dictionary of American Family Names 2022 — Hensley/Henslee etymology", "url": "https://www.ancestry.com/last-name-meaning/henslee", "reliability": "HIGH" },
+    { "id": 19, "label": "Haun NC Rev Army Accts Vol XI p. 1325, cert #431 — Macksfield Henslee DAR/SAR qualification", "reliability": "PRIMARY (cited by carolshouse.com)" },
+    { "id": 20, "label": "1810 Census Rockingham Co NC — Enoch Hensley household", "reliability": "PRIMARY" },
+    { "id": 21, "label": "1850 Census Saline Co AR p. 124 — Enoch Hensley 64 M W Farmer, NC", "reliability": "PRIMARY" },
+    { "id": 22, "label": "1850 Census Mortality Schedule Saline Co AR — Amy Hensley death January 1850", "reliability": "PRIMARY" }
+  ]
+}

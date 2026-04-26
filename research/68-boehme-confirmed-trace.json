@@ -1,0 +1,431 @@
+{
+  "meta": {
+    "file": "68-boehme-confirmed-trace",
+    "commissioned": "2026-04-26",
+    "subject": "Boehme / Böhme line — confirmed trace to earliest ancestor + immigrant identification",
+    "researcher": "Clawrence subagent (claude-sonnet-4-6)",
+    "connection_to_hunter": "Boehme (G6 immigrant) → Herman F. Boehme → Hilda Boehme Lepick → Jennive Imogene Lepick → Shari Mattingly → Hunter Spence",
+    "prior_files": ["30-boehme-line.json", "45-boehme-province-deep.json"],
+    "status": "RESEARCH COMPLETE — immigrant name still unverified; province PROBABLE Saxony"
+  },
+
+  "chain_of_descent": [
+    {
+      "generation": "G6",
+      "label": "Unknown Boehme (immigrant patriarch)",
+      "relation_to_hunter": "maternal 3x-great-grandfather",
+      "confidence": "PROBABLE (existence inferred from Herman's 1863 TX birth)",
+      "note": "Name not yet found in accessible records. See research_gaps for priority next steps."
+    },
+    {
+      "generation": "G5",
+      "label": "Herman F. Boehme",
+      "relation_to_hunter": "maternal 2x-great-grandfather",
+      "confidence": "CONFIRMED",
+      "born": "1863-06-09, Texas",
+      "died": "1900-06-18, Shiner, Lavaca County TX",
+      "note": "Earliest CONFIRMED Boehme in Hunter's direct line."
+    },
+    {
+      "generation": "G4",
+      "label": "Hilda Boehme Lepick",
+      "relation_to_hunter": "maternal great-grandmother",
+      "confidence": "CONFIRMED",
+      "born": "1900-01-08 (PROBABLE), Texas",
+      "died": "1945-02-22, Floresville, Wilson County TX"
+    },
+    {
+      "generation": "G3",
+      "label": "Jennive Imogene Lepick",
+      "relation_to_hunter": "maternal grandmother",
+      "confidence": "CONFIRMED",
+      "born": "1923-02-02, Floresville, Wilson County TX",
+      "died": "2008"
+    },
+    {
+      "generation": "G2",
+      "label": "Shari (Mattingly) Spence",
+      "relation_to_hunter": "maternal grandmother",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "generation": "G1",
+      "label": "Hunter Spence",
+      "relation_to_hunter": "subject"
+    }
+  ],
+
+  "earliest_confirmed_ancestor": {
+    "id": "boehme_herman",
+    "name": "Herman F. Boehme",
+    "generation": "G5",
+    "born": {
+      "date": "1863-06-09",
+      "place": "Texas, USA",
+      "confidence": "CONFIRMED",
+      "source": "PeopleLegacy https://peoplelegacy.com/herman_f__boehme-4J1f4W"
+    },
+    "died": {
+      "date": "1900-06-18",
+      "age": 37,
+      "place": "Shiner, Lavaca County, Texas",
+      "confidence": "CONFIRMED"
+    },
+    "burial": {
+      "cemetery": "Shiner Sons of Hermann Cemetery",
+      "county": "Lavaca County, TX",
+      "confidence": "CONFIRMED"
+    },
+    "religion": {
+      "denomination": "Lutheran",
+      "synod_probable": "LCMS or Texas Synod",
+      "confidence": "PROBABLE",
+      "evidence": [
+        "Buried Sons of Hermann Cemetery — German Protestant fraternal order",
+        "Daughter Frieda buried Saint Johns Lutheran Cemetery, Poth, Wilson County TX"
+      ]
+    },
+    "spouse": {
+      "name": "Minna Marie Macker",
+      "later_name": "Luedecke (second marriage after Herman's death)",
+      "died": "1947-05-29, Floresville, Wilson County TX",
+      "confidence": "PROBABLE",
+      "source": "PeopleLegacy aggregator — internally coherent"
+    },
+    "children_confirmed": [
+      { "name": "Frieda Augusta Boehme (Donnerberg)", "born": "1888", "died": "1963", "burial": "Saint Johns Lutheran Cemetery, Poth, Wilson County TX" },
+      { "name": "Edgar Charles Boehme", "born": "1889", "died": "1967", "burial": "Shiner Catholic Cemetery, Lavaca County TX", "note": "Catholic — likely converted via marriage" },
+      { "name": "Dora M. Boehme (Koether)", "born": "1892", "died": "1969", "burial": "Floresville City Cemetery, Wilson County TX" },
+      { "name": "Walter John Boehme", "born": "1894", "died": "1972", "burial": "Shiner Sons of Hermann Cemetery, Lavaca County TX", "note": "Death cert (1972) would list parents — highest-priority record not yet pulled" },
+      { "name": "Annie Henrietta Boehme (Lange)", "born": "1896", "died": "1963", "burial": "Floresville City Cemetery, Wilson County TX" },
+      { "name": "Hilda Boehme (Lepick)", "born": "1900-01-08", "died": "1945-02-22", "burial": "Floresville City Cemetery, Wilson County TX" }
+    ]
+  },
+
+  "immigrant_ancestor": {
+    "id": "boehme_g6_patriarch",
+    "label": "Unknown Boehme (Herman's father — Hunter's 3x-great-grandfather)",
+    "generation": "G6",
+    "name": {
+      "value": "UNKNOWN",
+      "confidence": "UNVERIFIED",
+      "note": "No passenger manifest, census household, or church record yet found naming Herman's father. This is the primary open gap."
+    },
+    "born": {
+      "estimate": "c.1825-1840",
+      "place": "Germany — most probable province: Kingdom of Saxony (see province_assessment)",
+      "confidence": "UNVERIFIED (place); PROBABLE (estimate window)"
+    },
+    "immigration": {
+      "window": "c.1855-1862",
+      "confidence": "PROBABLE",
+      "reasoning": "Herman born 1863 in Texas; therefore parents arrived before 1863. 1850 Lavaca County census shows no Boehme households (family not yet present). Immigration window calculated accordingly.",
+      "port_of_entry": "Indianola, Calhoun County, Texas (probable) or Galveston (possible)",
+      "port_confidence": "PROBABLE",
+      "rationale": "Indianola was primary German immigrant port pre-1875; Old Indianola Trail ran to Yorktown (DeWitt County) → Lavaca County. Indianola destroyed by hurricane 1875 — family arrived well before.",
+      "departure_port": "Hamburg (most probable) or Bremen (possible)",
+      "ship": "UNKNOWN — Hamburg passenger lists 1855-1862 (Ancestry collection 1068 / FamilySearch Klüber Index) not yet searched for Boehme/Böhme",
+      "ship_confidence": "UNVERIFIED"
+    },
+    "settled": {
+      "place": "Lavaca County, Texas (Shiner area)",
+      "confidence": "PROBABLE"
+    }
+  },
+
+  "province_assessment": {
+    "conclusion": "Kingdom of Saxony (Königreich Sachsen)",
+    "confidence": "PROBABLE",
+    "confidence_level_upgraded_from_prior": "POSSIBLE → PROBABLE",
+    "upgrade_rationale": "Multiple converging lines of evidence now support Saxony as the primary candidate province.",
+    "evidence": [
+      {
+        "item": "Forebears.io surname frequency data",
+        "finding": "Böhme surname concentrates 34% in Saxony, 11% in Saxony-Anhalt, 9% in North Rhine-Westphalia. Saxony is by far the #1 German state.",
+        "source": "https://forebears.io/surnames/b%C3%B6hme",
+        "weight": "STRONG"
+      },
+      {
+        "item": "Forebears.io Boehme (umlaut-free spelling) US distribution",
+        "finding": "Texas has 15% of all US Boehme bearers — the highest concentration of any state, consistent with a single significant Texas-German immigration cluster.",
+        "source": "https://forebears.io/surnames/boehme",
+        "weight": "SUPPORTING"
+      },
+      {
+        "item": "Collateral Boehme Texas immigrant — Friedrich August Boehme (1809-1871)",
+        "finding": "Born Waldenburg, Landkreis Zwickau, Saxony → died Castroville, Medina County TX. Son Armin born 1853 in Texas. A physician (Dr.) — confirms an educated Saxon immigrant in the exact Texas-German corridor. Waldenburg is in Zwickau district, Kingdom of Saxony.",
+        "source": "WikiTree Boehme-127 https://www.wikitree.com/wiki/Boehme-127",
+        "weight": "STRONG — confirms Saxony-to-Texas pipeline for Boehme surname, same 1850s era",
+        "note": "This is NOT Herman's father (Medina County ≠ Lavaca County, and children's names don't match). But proves the Waldenburg/Saxony → Texas migration route for this exact surname."
+      },
+      {
+        "item": "Surname etymology",
+        "finding": "Böhme/Boehme = 'one from Bohemia' (Böhmen). The surname originated among ethnic Germans who left Bohemia (now Czech Republic) for Saxony — primarily during and after the Thirty Years War (1618-1648) when Protestant/Hussite refugees fled Bohemia and settled in neighboring Saxony.",
+        "source": "Webster's Dictionary of American Family Names; HouseOfNames.com; historical surname research",
+        "weight": "CONTEXTUAL"
+      },
+      {
+        "item": "Breslau, TX community naming",
+        "finding": "Breslau TX (Lavaca County, 7 miles NW of Hallettsville) is named after Breslau (Wroclaw), capital of Prussian Silesia. TSHA confirms Lutheran church in this community. Suggests some Silesian immigrants also settled in Lavaca County.",
+        "source": "TSHA Handbook https://www.tshaonline.org/handbook/entries/breslau-tx",
+        "weight": "SUPPLEMENTARY — consistent with either Saxony or Silesia origin"
+      },
+      {
+        "item": "Jakob Böhme birthplace",
+        "finding": "The most famous historical Böhme (theologian, 1575-1624) was born in Alt-Seidenberg, Niederschlesien (Lower Silesia), near Görlitz — exactly the Saxony-Silesia border region. Concentrations of his surname in Saxony reflect descendants of his region.",
+        "source": "WikiTree Boehme-12",
+        "weight": "CONTEXTUAL"
+      },
+      {
+        "item": "LCMS Lutheran church ties",
+        "finding": "Missouri Synod (LCMS) Lutheran roots are Saxon — founders were Saxon Lutheran emigrants of 1838-1839. Herman's probable LCMS affiliation is further consistent with Saxon origin.",
+        "source": "TSHA Lutheran Church (Texas) entry",
+        "weight": "SUPPORTING"
+      }
+    ],
+    "alternative": {
+      "province": "Prussian Silesia (Provinz Schlesien)",
+      "confidence": "POSSIBLE",
+      "rationale": "Breslau TX place name; Böhme surname also present in Silesian border region; prior agent 45 assessed Silesia as most probable. Saxony and Silesia share a border and many immigrants had mixed provincial origins."
+    },
+    "provinces_excluded": [
+      "Bavaria — Catholic dominant; no Catholic markers in Boehme Lavaca County cluster",
+      "Nassau/Holstein/Oldenburg — Adelsverein wave; wrong settlement zone",
+      "Westphalia — wrong migration corridor",
+      "Bohemia proper — Herman was ethnic German Lutheran, not Czech/Bohemian; Böhme surname = Germans FROM Bohemia, not Bohemians"
+    ],
+    "specific_locality_candidate": {
+      "name": "Waldenburg, Landkreis Zwickau, Kingdom of Saxony",
+      "modern_name": "Waldenburg, Zwickau district, Saxony, Germany",
+      "confidence": "POSSIBLE — based on collateral Friedrich August Boehme immigrant",
+      "note": "Cannot confirm Herman's father came from Waldenburg specifically; it remains a geographic candidate. Parish registers for Waldenburg Lutheran church (Stadtkirche Waldenburg) would be the target search."
+    }
+  },
+
+  "notable_boehme_figures": {
+    "jakob_bohme": {
+      "name": "Jakob Böhme",
+      "dates": "1575-1624",
+      "birthplace": "Alt-Seidenberg, Niederschlesien (near Görlitz)",
+      "death": "Görlitz, Silesia",
+      "significance": "German Lutheran mystic, theologian, and philosopher. Most famous historical bearer of the surname. His surname reflects that his family were ethnic Germans from the Bohemian borderlands.",
+      "connection_to_hunter": "NONE ESTABLISHED — coincidence of surname only unless documentary lineage is proven",
+      "note": "The concentration of Böhme descendants in Saxony is partly attributable to post-Thirty Years War settlement patterns from his Silesia-Bohemia border region."
+    }
+  },
+
+  "settlement_context": {
+    "region": "South Texas German Belt — Lavaca / Wilson / DeWitt / Gonzales Counties",
+    "character": "Working-class agricultural immigrant families, NOT Adelsverein elite wave",
+    "NOT_adelsverein": "Confirmed — Adelsverein settlements were Hill Country (Fredericksburg/New Braunfels). Lavaca County is a distinct post-1848 corridor.",
+    "immigration_wave": "Post-1848 political refugee wave; possibly post-1850 economic emigration",
+    "entry_route": "Hamburg or Bremen → Atlantic crossing → Indianola (Calhoun County TX) → Old Indianola Trail → Yorktown (DeWitt County) → Lavaca County",
+    "community_anchors": ["Shiner (Lavaca County)", "Breslau (Lavaca County)", "Wied (Lavaca County)", "Witting (Lavaca County)", "Floresville (Wilson County)", "Poth (Wilson County)"],
+    "fraternal_organization": "Order of the Sons of Hermann (Söhne Hermanns) — German Protestant fraternal mutual aid. Herman Boehme buried in Shiner Sons of Hermann Cemetery; lodge chartered Shiner area by 1890s.",
+    "church": "Lutheran (Saint Johns Lutheran, Poth; Zion Evangelical Lutheran, Moulton; probable Saint Paul Lutheran, Shiner)"
+  },
+
+  "key_new_findings_this_research_pass": [
+    {
+      "finding": "Minna Marie Macker identified as PROBABLE wife of Herman F. Boehme",
+      "source": "PeopleLegacy via agent 45; now in entities.json",
+      "significance": "Herman's wife / Hilda's mother — previously Unknown"
+    },
+    {
+      "finding": "Province upgraded from POSSIBLE to PROBABLE Saxony based on Forebears surname frequency data (34% of all Böhme in Germany live in Saxony)",
+      "source": "Forebears.io",
+      "significance": "Strengthens province hypothesis"
+    },
+    {
+      "finding": "Texas has 15% of all US Boehme bearers — highest concentration of any US state",
+      "source": "Forebears.io Boehme page",
+      "significance": "Confirms a meaningful Boehme settlement cluster in Texas relative to the surname's US population"
+    },
+    {
+      "finding": "Collateral Boehme immigrant confirmed: Dr. Friedrich August Boehme (1809, Waldenburg, Zwickau, Saxony → 1871, Castroville, Medina County TX) with son Armin born 1853 in Texas",
+      "source": "WikiTree Boehme-127",
+      "significance": "Proves Saxony (specifically Waldenburg/Zwickau district) → Texas immigration route for Boehme surname in same era. NOT Herman's direct father, but collateral evidence of the migration pattern."
+    },
+    {
+      "finding": "Surname etymology: Böhme = ethnic Germans who left Bohemia for Saxony, mainly post-Thirty Years War (1618-1648)",
+      "source": "Multiple surname etymology sources",
+      "significance": "Explains why Böhme concentrates in Saxony despite meaning 'Bohemian' — the bearers were Germans resettled in Saxony from Bohemia."
+    },
+    {
+      "finding": "Hilda Boehme's birth date refined to 1900-01-08 (PROBABLE from PeopleLegacy)",
+      "source": "Agent 45 / PeopleLegacy",
+      "significance": "Born 6 months after Herman died (June 18, 1900) — Hilda was possibly posthumous, or born January 1900 before Herman's June death"
+    }
+  ],
+
+  "research_gaps": [
+    {
+      "gap": "G6 Boehme immigrant's name unknown",
+      "priority": "CRITICAL",
+      "next_steps": [
+        {
+          "record": "1870 US Census, Lavaca County TX — NARA M593 roll 1595",
+          "why": "Herman (~7 years old) would appear in parents' household, revealing father's name and German birthplace",
+          "access": "FamilySearch.org (free with login) or Ancestry.com",
+          "estimated_time": "15 minutes if records are indexed"
+        },
+        {
+          "record": "1880 US Census, Lavaca County TX — NARA T9",
+          "why": "Herman (~17) may still be in parents' household; parents' birthplace listed by state",
+          "access": "FamilySearch.org",
+          "estimated_time": "15 minutes"
+        },
+        {
+          "record": "Walter John Boehme death certificate, 1972, Lavaca County TX",
+          "why": "Lists Herman F. Boehme as father and Minna Macker as mother; may list grandparents' birthplace",
+          "access": "Texas DSHS Vital Statistics Unit (written request ~$20); or FamilySearch Texas Death Certificates collection (browse 1972)",
+          "estimated_time": "1-2 weeks for mail; immediately if digitized"
+        },
+        {
+          "record": "Edgar Charles Boehme death certificate, 1967",
+          "why": "Same rationale as Walter's certificate",
+          "access": "Texas DSHS Vital Statistics Unit"
+        },
+        {
+          "record": "Hamburg Emigrant Lists 1855-1862, surname Böhme/Boehme",
+          "why": "Would name ship, destination, and town of origin in Germany",
+          "access": "Ancestry.com collection 1068 (Hamburg Passenger Lists); FamilySearch Klüber Index microfilm",
+          "search_strategy": "Browse 'B' section of Klüber index for years 1855-1862; look for Böhme with destination Texas/Galveston/Indianola"
+        },
+        {
+          "record": "Waldenburg (Zwickau district, Saxony) Lutheran church registers",
+          "why": "If Herman's father came from Waldenburg like collateral Friedrich August Boehme, baptism records 1825-1840 would reveal the family",
+          "access": "Archion.de (German church registers online) or FamilySearch Saxon records; EKD Landesarchiv Sachsen Dresden",
+          "note": "Speculative until census confirms Waldenburg specifically"
+        },
+        {
+          "record": "Sons of Hermann Lodge application for Herman Boehme",
+          "why": "Membership applications often recorded birthplace and parents",
+          "access": "Grand Lodge of Texas Sons of Hermann, 116 Bauer Ave, San Antonio TX 78250"
+        }
+      ]
+    },
+    {
+      "gap": "Herman's marriage record to Minna Macker",
+      "priority": "HIGH",
+      "next_steps": [
+        "Lavaca County marriage records ~1886-1888 — FamilySearch Texas Marriage Collection",
+        "Texas marriage records name both fathers; would confirm Minna's parentage and possibly Herman's father's name"
+      ]
+    },
+    {
+      "gap": "Minna Marie Macker's parents and German origin",
+      "priority": "MEDIUM",
+      "note": "Macker surname distribution leans toward Northern/Eastern Germany (Pomerania, East Prussia, Silesia). If Minna was second-generation Texas German, her parents may appear in 1860 or 1870 Lavaca County census."
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "S1",
+      "type": "obituary",
+      "subject": "Jennive Imogene Lepick",
+      "year": 2008,
+      "confidence": "CONFIRMED"
+    },
+    {
+      "id": "S2",
+      "type": "aggregate_genealogy",
+      "site": "PeopleLegacy",
+      "url": "https://peoplelegacy.com/herman_f__boehme-4J1f4W",
+      "accessed": "2026-04-26",
+      "confidence": "CONFIRMED (cited in prior research)"
+    },
+    {
+      "id": "S3",
+      "type": "aggregate_genealogy",
+      "site": "PeopleLegacy",
+      "subject": "Minna Marie Macker Luedecke",
+      "url": "https://peoplelegacy.com/minna_marie_macker_luedecke-4f6E2q",
+      "accessed": "2026-04-26",
+      "confidence": "PROBABLE"
+    },
+    {
+      "id": "S4",
+      "type": "surname_frequency_database",
+      "site": "Forebears.io",
+      "url": "https://forebears.io/surnames/b%C3%B6hme",
+      "finding": "Böhme — 34% in Saxony, 11% in Saxony-Anhalt, 9% in North Rhine-Westphalia",
+      "accessed": "2026-04-26",
+      "confidence": "HIGH (aggregated government name databases)"
+    },
+    {
+      "id": "S5",
+      "type": "surname_frequency_database",
+      "site": "Forebears.io",
+      "url": "https://forebears.io/surnames/boehme",
+      "finding": "Boehme (umlaut-free) — Texas has 15% of all US bearers, highest of any state",
+      "accessed": "2026-04-26",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "S6",
+      "type": "genealogy_database",
+      "site": "WikiTree",
+      "subject": "Dr. Friedrich August Boehme (1809 Waldenburg, Saxony — 1871 Castroville, Texas)",
+      "url": "https://www.wikitree.com/wiki/Boehme-127",
+      "finding": "Collateral Boehme immigrant from Waldenburg (Zwickau district, Saxony) → Castroville, Medina County TX. Son Armin born 1853 in Texas. 1860 US Census cited as source.",
+      "accessed": "2026-04-26",
+      "confidence": "PROBABLE (WikiTree is volunteer-curated; cites 1860 census and Find A Grave)"
+    },
+    {
+      "id": "S7",
+      "type": "reference",
+      "site": "TSHA Handbook of Texas",
+      "entries": ["breslau-tx", "shiner-tx", "lavaca-county", "sons-of-hermann", "lutheran-church", "indians-tx", "adelsverein", "yorktown-tx", "wied-tx", "witting-tx"],
+      "base_url": "https://www.tshaonline.org/handbook/entries/",
+      "accessed": "2026-04-26",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "S8",
+      "type": "genealogy_database",
+      "site": "WikiTree",
+      "subject": "Jakob Böhme (1575-1624) — mystic/theologian",
+      "url": "https://www.wikitree.com/wiki/Boehme-12",
+      "finding": "Born Alt-Seidenberg, Niederschlesien; died Görlitz. No connection to Hunter's line established.",
+      "accessed": "2026-04-26",
+      "confidence": "CONFIRMED (historical figure)"
+    },
+    {
+      "id": "S9",
+      "type": "surname_etymology",
+      "site": "Multiple (HouseOfNames, Boehm-Chronik, surname research)",
+      "finding": "Böhme = 'one from Bohemia' — ethnic Germans resettled from Bohemia into Saxony, primarily post-Thirty Years War (1618-1648)",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "S10",
+      "type": "genealogy_database",
+      "site": "WikiTree",
+      "subject": "Friedrich August Boehme (1854 Bürgel, Saxony-Weimar-Eisenach — 1907 Riesel, McLennan County TX)",
+      "url": "https://www.wikitree.com/wiki/Boehme-169",
+      "finding": "Second collateral Saxon Boehme in Texas; father Carl Friedrich Böhme born 1809 in Bürgel, Saxony-Weimar-Eisenach. Independent corroboration of Saxon Boehme → Texas pattern.",
+      "accessed": "2026-04-26",
+      "confidence": "PROBABLE"
+    }
+  ],
+
+  "summary": {
+    "earliest_confirmed_ancestor": "Herman F. Boehme (1863-1900), born Texas, buried Shiner Sons of Hermann Cemetery, Lavaca County TX. Maternal 2x-great-grandfather of Hunter Spence.",
+    "immigrant_ancestor": {
+      "name": "UNKNOWN — Herman's father (G6)",
+      "estimated_birth": "c.1825-1840 in Germany",
+      "immigration_window": "c.1855-1862",
+      "port": "Indianola, TX (probable) or Galveston",
+      "settled": "Lavaca County, TX (Shiner area)"
+    },
+    "german_province_of_origin": {
+      "conclusion": "Kingdom of Saxony (Königreich Sachsen)",
+      "confidence": "PROBABLE",
+      "specific_locality_candidate": "Waldenburg, Landkreis Zwickau, Saxony (based on collateral Friedrich August Boehme 1809-1871)",
+      "alternative": "Prussian Silesia (POSSIBLE)"
+    },
+    "key_open_question": "G6 Boehme immigrant's name. Highest-yield next step: search 1870 and 1880 Lavaca County TX census on FamilySearch for a Boehme household with Herman (~7 or ~17 years old) and parents born in Germany."
+  }
+}

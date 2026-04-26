@@ -1071,6 +1071,337 @@ p.entity-bio {
   box-shadow: 0 8px 24px rgba(0,0,0,0.5), 0 0 24px rgba(212, 164, 88, 0.06);
 }
 
+/* ── HERITAGE PANEL ─────────────────────────────────────────────────── */
+.heritage-section {
+  margin: 64px 0 80px;
+  padding: 36px 28px;
+  background: linear-gradient(165deg, rgba(20,16,11,0.45), rgba(12,10,8,0.65));
+  border: 1px solid rgba(212, 164, 88, 0.16);
+  border-radius: 8px;
+  position: relative;
+}
+.heritage-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg,
+    transparent, #22c55e 12%, var(--accent-gold) 50%, #22c55e 88%, transparent);
+  opacity: 0.55;
+  border-radius: 8px 8px 0 0;
+}
+.heritage-section h2 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 2.2rem;
+  margin: 0 0 12px;
+  color: var(--accent-gold);
+  letter-spacing: 0.01em;
+}
+.heritage-intro {
+  color: rgba(220, 210, 195, 0.78);
+  font-size: 0.98rem;
+  line-height: 1.65;
+  margin-bottom: 28px;
+  max-width: 720px;
+}
+.heritage-green {
+  color: #22c55e;
+  font-weight: 700;
+  border-bottom: 2px solid #22c55e;
+  padding-bottom: 1px;
+}
+
+/* breakdown bar chart */
+.heritage-breakdown {
+  margin: 28px 0 36px;
+  padding: 22px 24px;
+  background: rgba(0,0,0,0.25);
+  border: 1px solid rgba(212, 164, 88, 0.10);
+  border-radius: 6px;
+}
+.heritage-breakdown h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.15rem;
+  color: var(--accent-gold-light);
+  margin: 0 0 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.heritage-bar-row {
+  display: grid;
+  grid-template-columns: 32px 130px 1fr 50px 80px;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+  font-size: 0.92rem;
+  color: rgba(220, 210, 195, 0.85);
+}
+.heritage-bar-flag { font-size: 1.4rem; line-height: 1; }
+.heritage-bar-country { font-weight: 600; }
+.heritage-bar-track {
+  height: 8px;
+  background: rgba(212, 164, 88, 0.10);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.heritage-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-gold), #16a34a);
+  border-radius: 4px;
+  transition: width 0.6s ease-out;
+}
+.heritage-bar-pct { font-weight: 700; color: var(--accent-gold); text-align: right; font-variant-numeric: tabular-nums; }
+.heritage-bar-count { color: rgba(220, 210, 195, 0.55); font-size: 0.85rem; }
+
+/* surname-line cards */
+.heritage-subhead {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  color: var(--accent-gold-light);
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin: 36px 0 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(212, 164, 88, 0.18);
+}
+.heritage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 18px;
+}
+.heritage-card {
+  background: linear-gradient(170deg, rgba(20,16,11,0.55), rgba(15,12,9,0.7));
+  border: 1px solid rgba(212, 164, 88, 0.12);
+  border-left: 3px solid var(--accent-gold);
+  border-radius: 5px;
+  padding: 18px 20px;
+  transition: border-left-color 0.2s, box-shadow 0.2s, transform 0.18s;
+}
+.heritage-card:hover {
+  border-left-color: #22c55e;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.45), 0 0 18px rgba(34, 197, 94, 0.08);
+  transform: translateY(-1px);
+}
+.heritage-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(212, 164, 88, 0.10);
+}
+.heritage-flag {
+  font-size: 2.3rem;
+  line-height: 1;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.55));
+}
+.heritage-surname {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.4rem;
+  margin: 0 0 2px;
+  color: var(--accent-gold);
+  letter-spacing: 0.01em;
+}
+.heritage-country {
+  color: rgba(220, 210, 195, 0.78);
+  font-size: 0.9rem;
+}
+.heritage-subregion {
+  color: rgba(220, 210, 195, 0.55);
+  font-style: italic;
+  font-size: 0.85rem;
+}
+.heritage-body { font-size: 0.88rem; color: rgba(220, 210, 195, 0.82); line-height: 1.55; }
+.heritage-row {
+  margin: 6px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.heritage-label {
+  color: rgba(212, 164, 88, 0.85);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.heritage-value { color: rgba(225, 215, 200, 0.90); }
+.heritage-clan, .heritage-notable, .heritage-ydna {
+  margin-top: 10px;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  border-left: 2px solid rgba(212, 164, 88, 0.35);
+}
+.heritage-clan { border-left-color: #4a7eb8; }
+.heritage-notable { border-left-color: #d4a458; }
+.heritage-ydna { border-left-color: #22c55e; font-family: 'Source Code Pro', monospace; font-size: 0.8rem; }
+.heritage-evidence {
+  margin-top: 12px;
+  font-size: 0.82rem;
+}
+.heritage-evidence summary {
+  cursor: pointer;
+  color: rgba(212, 164, 88, 0.75);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding: 4px 0;
+}
+.heritage-evidence summary:hover { color: var(--accent-gold); }
+.heritage-evidence p {
+  margin: 8px 0 0;
+  color: rgba(200, 190, 175, 0.72);
+  line-height: 1.55;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 720px) {
+  .heritage-section { padding: 24px 16px; }
+  .heritage-bar-row {
+    grid-template-columns: 28px 90px 1fr 44px;
+    gap: 8px;
+    font-size: 0.85rem;
+  }
+  .heritage-bar-count { display: none; }
+  .heritage-grid { grid-template-columns: 1fr; }
+  .heritage-flag { font-size: 1.9rem; }
+}
+
+/* heritage card variant for surname pages (compact, full-width) */
+.surname-heritage-card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  align-items: stretch;
+  margin: 28px 0 36px;
+  padding: 24px 28px;
+  background: linear-gradient(165deg, rgba(20,16,11,0.55), rgba(12,10,8,0.7));
+  border: 1px solid rgba(34, 197, 94, 0.20);
+  border-left: 4px solid #22c55e;
+  border-radius: 6px;
+  position: relative;
+}
+.surname-heritage-card::before {
+  content: '';
+  position: absolute;
+  top: -1px; left: -1px; right: -1px; height: 2px;
+  background: linear-gradient(90deg, #22c55e, var(--accent-gold), #22c55e);
+  opacity: 0.45;
+  border-radius: 6px 6px 0 0;
+}
+.hcard-flag-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 14px;
+  background: rgba(0,0,0,0.30);
+  border: 1px solid rgba(212, 164, 88, 0.10);
+  border-radius: 5px;
+}
+.hcard-flag {
+  font-size: 5rem;
+  line-height: 1;
+  filter: drop-shadow(0 4px 14px rgba(0,0,0,0.55));
+  margin-bottom: 12px;
+}
+.hcard-country {
+  color: rgba(225, 215, 200, 0.90);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.hcard-country strong {
+  color: var(--accent-gold);
+  font-size: 1.15rem;
+  display: block;
+  margin-bottom: 2px;
+  letter-spacing: 0.02em;
+}
+.hcard-subregion {
+  color: rgba(220, 210, 195, 0.55);
+  font-style: italic;
+  font-size: 0.84rem;
+}
+.hcard-body {
+  font-size: 0.92rem;
+  color: rgba(220, 210, 195, 0.85);
+  line-height: 1.6;
+}
+.hcard-row {
+  margin: 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.hcard-label {
+  color: rgba(212, 164, 88, 0.85);
+  font-weight: 600;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+}
+.hcard-value { color: rgba(225, 215, 200, 0.92); }
+.hcard-clan, .hcard-notable, .hcard-ydna {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 4px;
+  font-size: 0.86rem;
+  border-left: 2px solid rgba(212, 164, 88, 0.35);
+}
+.hcard-clan { border-left-color: #4a7eb8; }
+.hcard-notable { border-left-color: #d4a458; }
+.hcard-ydna { border-left-color: #22c55e; font-family: 'Source Code Pro', monospace; font-size: 0.8rem; }
+.hcard-evidence {
+  margin-top: 12px;
+  font-size: 0.82rem;
+}
+.hcard-evidence summary {
+  cursor: pointer;
+  color: rgba(212, 164, 88, 0.75);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  padding: 4px 0;
+}
+.hcard-evidence summary:hover { color: var(--accent-gold); }
+.hcard-evidence p {
+  margin: 8px 0 0;
+  color: rgba(200, 190, 175, 0.72);
+  line-height: 1.55;
+}
+
+.heritage-deep-link {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 6px 14px;
+  background: rgba(34, 197, 94, 0.10);
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  border-radius: 4px;
+  color: #22c55e;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.heritage-deep-link:hover {
+  background: rgba(34, 197, 94, 0.18);
+  border-color: #22c55e;
+}
+
+@media (max-width: 720px) {
+  .surname-heritage-card {
+    grid-template-columns: 1fr;
+    padding: 20px 18px;
+  }
+  .hcard-flag { font-size: 3.5rem; }
+}
+
 .story-header {
   display: flex;
   justify-content: space-between;
@@ -3288,6 +3619,126 @@ def render_secondary_trees_section(family_only=True, redaction_set=None, public_
 </section>"""
 
 
+def render_heritage_panel():
+    """Generate the Heritage section showing each surname line's country of origin,
+    earliest confirmed ancestor, and the immigrant who first set foot in America.
+
+    Reads research/line-origins.json (produced by enrich_immigrants_and_origins.py).
+    """
+    origins_path = WORKSPACE / "research" / "line-origins.json"
+    if not origins_path.exists():
+        return ""
+    data = json.loads(origins_path.read_text(encoding="utf-8"))
+    lines = data.get("lines", {})
+    flags = data.get("country_flags", {})
+
+    # Order lines: paternal first (Spence/Henslee/Byrd/Baity/Rau), then maternal (Mattingly/Teichmueller/Lepick/Boehme)
+    PATERNAL = ["Spence", "Henslee", "Byrd", "Baity", "Rau"]
+    MATERNAL = ["Mattingly", "Teichmueller", "Lepick", "Boehme"]
+
+    def card_html(name, info):
+        if not info:
+            return ""
+        country = info.get("country", "?")
+        flag = flags.get(country, "")
+        year = info.get("earliest_confirmed_year") or "?"
+        person = info.get("earliest_confirmed_person") or "Earliest confirmed: pending research"
+        evidence = info.get("evidence") or ""
+        immigrant = info.get("immigrant_in_line") or info.get("immigrant_candidate") or "(immigrant identification pending)"
+        clan = info.get("clan_affiliation", "")
+        clan_motto = info.get("clan_motto", "")
+        notable = info.get("notable_relative") or info.get("notable_in_line") or ""
+        ydna = info.get("ydna_haplogroup", "")
+        subregion = info.get("country_subregion") or info.get("country_region", "")
+        country_conf = info.get("country_confidence", "")
+
+        clan_block = ""
+        if clan:
+            motto_str = f' &nbsp;·&nbsp; <em>"{clan_motto}"</em>' if clan_motto else ""
+            clan_block = f'<div class="heritage-clan">⚔ <strong>{clan}</strong>{motto_str}</div>'
+        notable_block = f'<div class="heritage-notable">⭐ <strong>Notable in line:</strong> {notable}</div>' if notable else ""
+        ydna_block = f'<div class="heritage-ydna">🧬 <strong>Y-DNA:</strong> {ydna}</div>' if ydna else ""
+        subregion_str = f' <span class="heritage-subregion">— {subregion}</span>' if subregion else ""
+
+        return f"""
+        <article class="heritage-card">
+          <header class="heritage-header">
+            <span class="heritage-flag" aria-hidden="true">{flag}</span>
+            <div>
+              <h3 class="heritage-surname">{name}</h3>
+              <div class="heritage-country"><strong>{country}</strong>{subregion_str}</div>
+            </div>
+          </header>
+          <div class="heritage-body">
+            <div class="heritage-row">
+              <span class="heritage-label">Earliest confirmed:</span>
+              <span class="heritage-value">{year} — {person}</span>
+            </div>
+            <div class="heritage-row">
+              <span class="heritage-label">★ Immigrant to America:</span>
+              <span class="heritage-value">{immigrant}</span>
+            </div>
+            {clan_block}
+            {notable_block}
+            {ydna_block}
+            <details class="heritage-evidence">
+              <summary>Evidence &amp; sources</summary>
+              <p>{evidence}</p>
+            </details>
+          </div>
+        </article>
+        """
+
+    pat_cards = "\n".join(card_html(n, lines.get(n)) for n in PATERNAL if lines.get(n))
+    mat_cards = "\n".join(card_html(n, lines.get(n)) for n in MATERNAL if lines.get(n))
+
+    # Heritage breakdown: count surname lines per country (each line = 1 unit, equal weight by line not by ancestor count)
+    country_count = {}
+    for nm, info in lines.items():
+        c = info.get("country")
+        if c:
+            country_count[c] = country_count.get(c, 0) + 1
+    total = sum(country_count.values()) or 1
+    breakdown_rows = ""
+    for c, ct in sorted(country_count.items(), key=lambda x: -x[1]):
+        pct = round(ct / total * 100)
+        flag = flags.get(c, "")
+        breakdown_rows += f"""
+        <div class="heritage-bar-row">
+          <span class="heritage-bar-flag">{flag}</span>
+          <span class="heritage-bar-country">{c}</span>
+          <div class="heritage-bar-track"><div class="heritage-bar-fill" style="width:{pct}%"></div></div>
+          <span class="heritage-bar-pct">{pct}%</span>
+          <span class="heritage-bar-count">({ct} {'line' if ct == 1 else 'lines'})</span>
+        </div>"""
+
+    return f"""
+    <section id="heritage" class="heritage-section">
+      <h2>Heritage &amp; Origins</h2>
+      <p class="heritage-intro">
+        Each surname line traced back to its earliest <strong>confirmed</strong> ancestor (primary-source verified),
+        with the country of origin and — where identified — the direct ancestor who <strong>first set foot in America</strong>
+        for that line. Immigrant ancestors are marked with a <span class="heritage-green">green border</span> on the family tree.
+      </p>
+
+      <div class="heritage-breakdown">
+        <h3>Heritage by surname line</h3>
+        {breakdown_rows}
+      </div>
+
+      <h3 class="heritage-subhead">Paternal Lines (via Dale W. Spence Sr.)</h3>
+      <div class="heritage-grid">
+        {pat_cards}
+      </div>
+
+      <h3 class="heritage-subhead">Maternal Lines (via Sharyn Mattingly)</h3>
+      <div class="heritage-grid">
+        {mat_cards}
+      </div>
+    </section>
+    """
+
+
 def render_lineage_tree_section(portrait_map=None, family_only=True, redaction_set=None, public_redaction_terms=None):
     """Generate the HTML+SVG+JS for the D3 family tree."""
     portrait_map = portrait_map or {}
@@ -3711,6 +4162,64 @@ nodeGroups.filter(d => d.data.portrait_url)
       .attr('fill', 'none')
       .attr('stroke', 'rgba(0,0,0,0.45)')
       .attr('stroke-width', 1.5);
+  });
+
+// ── IMMIGRANT GREEN BORDER + FLAG BADGE ─────────────────────────
+// Direct-line ancestor who first set foot in America for their surname line.
+// Green outer glow + crisp inner border + departure-country flag emoji + "★ IMMIGRANT" label.
+nodeGroups.filter(d => d.data.immigrant_to_america)
+  .each(function(d) {
+    const sg = d3.select(this).select('.node-card');
+    // Outer green glow halo
+    sg.append('rect')
+      .attr('x', -NW/2 - 4).attr('y', -NH/2 - 4)
+      .attr('width', NW + 8).attr('height', NH + 8)
+      .attr('rx', 10).attr('ry', 10)
+      .attr('fill', 'none')
+      .attr('stroke', '#22c55e')
+      .attr('stroke-width', 5)
+      .attr('opacity', 0.40)
+      .attr('pointer-events', 'none');
+    // Inner crisp green border
+    sg.append('rect')
+      .attr('x', -NW/2 + 0.5).attr('y', -NH/2 + 0.5)
+      .attr('width', NW - 1).attr('height', NH - 1)
+      .attr('rx', 7).attr('ry', 7)
+      .attr('fill', 'none')
+      .attr('stroke', '#16a34a')
+      .attr('stroke-width', 2.5)
+      .attr('pointer-events', 'none');
+    // Country flag emoji top-right
+    if (d.data.country_flag) {
+      sg.append('text')
+        .attr('x', NW/2 - 14).attr('y', -NH/2 + 16)
+        .attr('font-size', 17)
+        .attr('text-anchor', 'middle')
+        .attr('pointer-events', 'none')
+        .text(d.data.country_flag);
+    }
+    // "★ IMMIGRANT" small label bottom-left
+    sg.append('text')
+      .attr('x', -NW/2 + 6).attr('y', NH/2 - 6)
+      .attr('font-size', 8)
+      .attr('font-weight', 700)
+      .attr('letter-spacing', '0.1em')
+      .attr('fill', '#22c55e')
+      .attr('pointer-events', 'none')
+      .text('★ IMMIGRANT');
+  });
+
+// ── NOTABLE FIGURE GOLD STAR ─────────────────────────────────────
+// People with Wikipedia article / public-record fame get a star badge.
+nodeGroups.filter(d => d.data.is_notable)
+  .each(function(d) {
+    const sg = d3.select(this).select('.node-card');
+    sg.append('text')
+      .attr('x', -NW/2 + 12).attr('y', -NH/2 + 16)
+      .attr('font-size', 14)
+      .attr('text-anchor', 'middle')
+      .attr('pointer-events', 'none')
+      .text('⭐');
   });
 
 // ── HUGE ? CONFIDENCE BADGES ────────────────────────────────────
@@ -4214,6 +4723,57 @@ def render_secondary_trees_js():
       .attr('rx', 1)
       .attr('fill', 'rgba(255,255,255,0.12)');
 
+    // ── IMMIGRANT GREEN BORDER + FLAG (secondary tree) ─────────────
+    nodeGroups.filter(d => d.data.immigrant_to_america)
+      .each(function(d) {
+        const sg = d3.select(this).select('.node-card');
+        sg.append('rect')
+          .attr('x', -CARD_W/2 - 4).attr('y', -CARD_H/2 - 4)
+          .attr('width', CARD_W + 8).attr('height', CARD_H + 8)
+          .attr('rx', 10).attr('ry', 10)
+          .attr('fill', 'none')
+          .attr('stroke', '#22c55e')
+          .attr('stroke-width', 5)
+          .attr('opacity', 0.40)
+          .attr('pointer-events', 'none');
+        sg.append('rect')
+          .attr('x', -CARD_W/2 + 0.5).attr('y', -CARD_H/2 + 0.5)
+          .attr('width', CARD_W - 1).attr('height', CARD_H - 1)
+          .attr('rx', 7).attr('ry', 7)
+          .attr('fill', 'none')
+          .attr('stroke', '#16a34a')
+          .attr('stroke-width', 2.5)
+          .attr('pointer-events', 'none');
+        if (d.data.country_flag) {
+          sg.append('text')
+            .attr('x', CARD_W/2 - 13).attr('y', -CARD_H/2 + 14)
+            .attr('font-size', 14)
+            .attr('text-anchor', 'middle')
+            .attr('pointer-events', 'none')
+            .text(d.data.country_flag);
+        }
+        sg.append('text')
+          .attr('x', -CARD_W/2 + 6).attr('y', CARD_H/2 - 5)
+          .attr('font-size', 7.5)
+          .attr('font-weight', 700)
+          .attr('letter-spacing', '0.1em')
+          .attr('fill', '#22c55e')
+          .attr('pointer-events', 'none')
+          .text('★ IMMIGRANT');
+      });
+
+    // ── NOTABLE FIGURE STAR (secondary tree) ────────────────────────
+    nodeGroups.filter(d => d.data.is_notable)
+      .each(function(d) {
+        const sg = d3.select(this).select('.node-card');
+        sg.append('text')
+          .attr('x', -CARD_W/2 + 14).attr('y', -CARD_H/2 + 14)
+          .attr('font-size', 12)
+          .attr('text-anchor', 'middle')
+          .attr('pointer-events', 'none')
+          .text('⭐');
+      });
+
     card.filter(d => ['possible', 'unverified'].includes(normalizeConfidence(d.data.confidence)))
       .append('text')
       .attr('x', CARD_W / 2 - 16)
@@ -4407,6 +4967,7 @@ def build_html(family_only=True):
 
     transcript_html = render_transcript(turns, entity_index, redact_set)  # legacy, unused now
     notable_stories_html = render_notable_stories()
+    heritage_panel_html = render_heritage_panel()
     lineage_tree_html = render_lineage_tree_section(
         portrait_map=portrait_map,
         family_only=family_only,
@@ -4469,6 +5030,7 @@ def build_html(family_only=True):
     <nav class="toc">
       <strong>Contents</strong>
       <ul>
+        <li><a href="#heritage">Heritage &amp; Origins</a></li>
         <li><a href="#lineage">Family Tree</a></li>
         <li><a href="#secondary-trees">Family Lines</a></li>
         <li><a href="#timeline">Timeline</a></li>
@@ -4480,6 +5042,8 @@ def build_html(family_only=True):
         <li><a href="#research">Research</a></li>
       </ul>
     </nav>
+
+    {heritage_panel_html}
 
     {lineage_tree_html}
 

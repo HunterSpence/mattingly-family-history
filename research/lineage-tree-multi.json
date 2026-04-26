@@ -917,7 +917,11 @@
                                                     "spouse": null,
                                                     "children": []
                                                   }
-                                                ]
+                                                ],
+                                                "immigrant_to_america": true,
+                                                "origin_country": "England",
+                                                "country_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+                                                "country_code": "GB-ENG"
                                               },
                                               {
                                                 "name": "Cezar Mattingly",
@@ -1057,11 +1061,21 @@
                                                 "spouse": null,
                                                 "children": []
                                               }
-                                            ]
+                                            ],
+                                            "immigrant_to_america": true,
+                                            "origin_country": "England",
+                                            "country_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+                                            "country_code": "GB-ENG"
                                           }
-                                        ]
+                                        ],
+                                        "origin_country": "England",
+                                        "country_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+                                        "country_code": "GB-ENG"
                                       }
-                                    ]
+                                    ],
+                                    "origin_country": "England",
+                                    "country_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+                                    "country_code": "GB-ENG"
                                   },
                                   {
                                     "name": "Agnes Mattyngly",
@@ -1091,11 +1105,20 @@
                           }
                         ]
                       }
-                    ]
+                    ],
+                    "origin_country": "England",
+                    "country_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+                    "country_code": "GB-ENG"
                   }
-                ]
+                ],
+                "origin_country": "England",
+                "country_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+                "country_code": "GB-ENG"
               }
-            ]
+            ],
+            "origin_country": "England",
+            "country_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+            "country_code": "GB-ENG"
           }
         ]
       }

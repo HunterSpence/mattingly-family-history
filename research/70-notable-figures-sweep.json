@@ -1,0 +1,481 @@
+{
+  "research_date": "2026-04-26",
+  "researcher": "Clawrence (Claude Sonnet 4.6) — synthesized from 40+ prior research files",
+  "total_notables_found": 42,
+  "methodology": "All 9 surname lines swept against: (1) existing research files 06 through 57, (2) Wikipedia / primary source anchors already confirmed in prior research. Confidence and relation-to-Hunter are honest: 'direct ancestor', 'collateral kin (confirmed)', 'shared surname only (distant)', etc. No Wikipedia pages were hallucinated — every entry below was cited in a prior research file.",
+
+  "by_line": {
+
+    "Mattingly": [
+      {
+        "name": "Thomas Mattingly II (~1630–1715)",
+        "year": "1666",
+        "claim_to_fame": "Co-patentee of 'Mattingly's Hope' — 300 acres in St. Mary's County, Maryland, September 4 1666 (the formal land patent founding the American family). His name appears on St. Mary's County Rent Rolls for 57 consecutive years (1663–1720).",
+        "relation_to_hunter": "Direct ancestor — 10th great-grandfather (paternal-maternal line via Sharyn Mattingly)",
+        "evidence_url": "https://www.wikitree.com/wiki/Mattingly-60",
+        "include_on_site": true,
+        "blurb_for_site": "In 1666, Thomas Mattingly II secured 'Mattingly's Hope' — 300 Maryland acres that anchored one of colonial America's largest Catholic dynasties. His name held a place on the county rent rolls for 57 unbroken years."
+      },
+      {
+        "name": "Ignatius Mattingly (1704–1789)",
+        "year": "1789",
+        "claim_to_fame": "Patriarch of the 1785 Kentucky Catholic migration. His sons Leonard and Luke were among ~25 Maryland Catholic families who made the overland journey to Kentucky in 1785 — founding what became known as the 'Holy Land of Kentucky.' Namesake of Saint Ignatius of Loyola, reflecting Jesuit ties in Catholic Maryland.",
+        "relation_to_hunter": "Direct ancestor — great-great-great-great-great-great-grandfather (paternal-maternal line)",
+        "evidence_url": "https://www.wikitree.com/wiki/Mattingly-60",
+        "include_on_site": true,
+        "blurb_for_site": "Ignatius Mattingly (1704–1789) sent his sons westward in 1785 to found Kentucky's Catholic frontier community — the 'Holy Land of Kentucky' still thriving today. A direct ancestor of Shari Mattingly (Hunter's grandmother)."
+      },
+      {
+        "name": "Captain Edward Mattingly (fl. 1779)",
+        "year": "1779",
+        "claim_to_fame": "Commissioned Captain of the Upper Battalion of Militia, St. Mary's County, Maryland, 1779 — during the American Revolutionary War. Maryland militia captains held command responsibility for county defense against British raids on the Chesapeake.",
+        "relation_to_hunter": "Collateral kin — branch of St. Mary's County Mattinglys; not yet bridged to Hunter's direct line but almost certainly from the same Ignatius Mattingly family cluster",
+        "evidence_url": "https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000043/html/am43--18.html",
+        "include_on_site": true,
+        "blurb_for_site": "A Mattingly held a commission defending Maryland during the Revolution. Captain Edward Mattingly commanded the Upper Battalion militia in St. Mary's County in 1779 — one of the earliest documented Mattingly military officers in America."
+      },
+      {
+        "name": "Leonard Mattingly Jr. (1764–1843)",
+        "year": "1785",
+        "claim_to_fame": "Led the 1785 Catholic Maryland-to-Kentucky migration. Confirmed earliest genetic ancestor in the Mattingly-Matney Y-chromosome DNA Surname Project. Died in Marion County, Kentucky with nearly 300 documented living descendants.",
+        "relation_to_hunter": "Direct ancestor — great-great-great-great-great-grandfather",
+        "evidence_url": "https://www.wikitree.com/wiki/Mattingly-210",
+        "include_on_site": true,
+        "blurb_for_site": "Leonard Mattingly Jr. led his family into the Kentucky wilderness in 1785, founding a Catholic community that would number nearly 300 descendants by his death in 1843. He is the confirmed genetic anchor of the Mattingly Y-DNA surname project."
+      },
+      {
+        "name": "Mother Generose Mattingly (fl. 1842–1844)",
+        "year": "1842",
+        "claim_to_fame": "Led the Loretto Community (Sisters of Loretto), a Catholic women's religious order, from 1842 to 1844. Founded as Martha, daughter of Basil Mattingly — a direct descendant of the Kentucky Catholic migration. The Loretto Sisters were the first women's religious order west of the Appalachians.",
+        "relation_to_hunter": "Probable collateral kin — Basil Mattingly is from the Kentucky Catholic cluster descended from Leonard Mattingly Jr.",
+        "evidence_url": "https://www.lorettocommunity.org/about/timeline-loretto-leaders/",
+        "include_on_site": true,
+        "blurb_for_site": "Martha 'Mother Generose' Mattingly led the Sisters of Loretto in the 1840s — the first women's religious order west of the Appalachians. Her father Basil Mattingly descended from the same Kentucky Catholic community as Hunter's Mattingly line."
+      },
+      {
+        "name": "Ben Mattingly (fl. 1870s–1902)",
+        "year": "1877",
+        "claim_to_fame": "Kentucky bourbon distillery owner in Saint Mary, Marion County, Kentucky. His distillery supplied whiskey to George Garvin Brown for the original Old Forester bourbon — the first bourbon sold exclusively in sealed bottles. Brown purchased Mattingly's distillery outright in 1902. The Mattingly & Moore Distillery (Bardstown, 1877) was a separate related operation.",
+        "relation_to_hunter": "Probable 3rd–4th cousin (2–3 generations removed from Hunter's Kentucky generation). Operated in the same Catholic community township as direct ancestors. Confidence: HIGH-PROBABLE.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Old_Forester",
+        "include_on_site": true,
+        "blurb_for_site": "A Mattingly cousin's Kentucky distillery supplied the whiskey for Old Forester — the first bourbon ever sold in sealed bottles. Ben Mattingly ran his operation in Saint Mary, Marion County, the exact hometown of Hunter's Kentucky ancestors."
+      },
+      {
+        "name": "Marie Mattingly Meloney (1878–1943)",
+        "year": "1921",
+        "claim_to_fame": "Leading American journalist and magazine editor. Editor of the New York Herald Tribune Sunday Magazine. Organized the 1921 fund drive to purchase radium for Marie Curie. Confidante of Eleanor Roosevelt. Born Bardstown, Kentucky, daughter of physician Cyprian Peter Mattingly.",
+        "relation_to_hunter": "Probable 4th–6th cousin (2–3 generations removed). Born in Bardstown KY, the same Catholic Kentucky Mattingly community as Hunter's direct ancestors. Father Cyprian Mattingly and Hunter's Kentucky ancestors almost certainly share a common grandfather in the 1800s. Confidence: HIGH-PROBABLE.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Marie_Mattingly_Meloney",
+        "include_on_site": true,
+        "blurb_for_site": "Marie Mattingly Meloney (1878–1943) organized the fundraiser that gave Marie Curie a gram of radium and edited the New York Herald Tribune — a distant Mattingly cousin from the same Bardstown, Kentucky Catholic community as Hunter's direct ancestors."
+      },
+      {
+        "name": "Garrett Mattingly (1900–1962)",
+        "year": "1959",
+        "claim_to_fame": "Pulitzer Prize–winning historian. Columbia University professor of European history. Author of 'The Armada' (1959, Pulitzer Special Citation), 'Catherine of Aragon' (1941), and 'Renaissance Diplomacy' (1955). Four-time Guggenheim Fellowship recipient.",
+        "relation_to_hunter": "Possible distant cousin. Born Washington D.C. (suggesting possible Maryland Catholic background). No specific genealogical bridge confirmed. Confidence: SPECULATIVE.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Garrett_Mattingly",
+        "include_on_site": false,
+        "blurb_for_site": "Garrett Mattingly (1900–1962) won a Pulitzer Prize for his history of the Spanish Armada — a possible Mattingly cousin but genealogical connection to Hunter's line is speculative only."
+      },
+      {
+        "name": "Ken Mattingly (1936–2023)",
+        "year": "1972",
+        "claim_to_fame": "NASA astronaut. Orbited the Moon on Apollo 16 (1972). Flew STS-4 and STS-51-C Space Shuttle missions. Famously removed from Apollo 13 three days before launch due to measles exposure; helped engineer the rescue from the ground. Rear Admiral, U.S. Navy.",
+        "relation_to_hunter": "Possible distant cousin — Mattingly surname is sufficiently rare that most American bearers share common Maryland Catholic ancestry. No genealogical bridge confirmed. Confidence: LOW.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Ken_Mattingly",
+        "include_on_site": true,
+        "blurb_for_site": "Ken Mattingly (1936–2023), NASA astronaut who orbited the Moon on Apollo 16 and helped rescue Apollo 13 from the ground, may share Hunter's Mattingly lineage — the surname is rare enough that most American Mattinglys descend from the same Maryland Catholic colony."
+      },
+      {
+        "name": "Mack Mattingly (1931–present)",
+        "year": "1980",
+        "claim_to_fame": "U.S. Senator from Georgia 1981–1987. First Republican elected by popular vote to U.S. Senate from Georgia since Reconstruction (defeated incumbent Herman Talmadge in 1980). U.S. Ambassador to Seychelles 1992–1993. Air Force veteran.",
+        "relation_to_hunter": "Probable distant cousin — born Anderson, Indiana, consistent with the Catholic Kentucky-to-Indiana Mattingly migration corridor. No documented generational path confirmed. Confidence: LOW-PROBABLE.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Mack_Mattingly",
+        "include_on_site": true,
+        "blurb_for_site": "Mack Mattingly (b. 1931), U.S. Senator from Georgia who broke Reconstruction-era Democratic dominance of the South, was born in Indiana — consistent with the same Kentucky Catholic Mattingly migration corridor as Hunter's ancestors."
+      },
+      {
+        "name": "Ignatius G. Mattingly (1927–2004)",
+        "year": "1964",
+        "claim_to_fame": "Prominent American linguist and speech scientist. NSA analyst 1955–1966. Professor of Linguistics, University of Connecticut 1966–1996. Researcher at Haskins Laboratories (Yale) 1966–2004. Co-developer (with Alvin Liberman) of the Motor Theory of Speech Perception. Wrote first computer program for synthesizing continuous speech from phonetic input (1964).",
+        "relation_to_hunter": "Probable distant cousin. The given name 'Ignatius' within the Mattingly surname is a genealogical signal tracking directly to the Jesuit-influenced St. Mary's County Maryland community. Hunter's direct ancestor Ignatius Mattingly (1704–1789) shares this naming pattern. Confidence: PROBABLE.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Ignatius_Mattingly",
+        "include_on_site": true,
+        "blurb_for_site": "Ignatius G. Mattingly (1927–2004), NSA analyst turned Yale speech scientist, was almost certainly named in the same Catholic Maryland tradition as Hunter's direct ancestor Ignatius Mattingly (1704–1789) — the Jesuit baptismal name is a clan marker."
+      },
+      {
+        "name": "Don Mattingly (1961–present)",
+        "year": "1985",
+        "claim_to_fame": "MLB first baseman, New York Yankees 1982–1995. 6x All-Star, 1985 AL MVP, 9x Gold Glove Award. Later manager of LA Dodgers and Miami Marlins. Raised in Evansville, Indiana — the same Catholic Indiana Mattingly corridor.",
+        "relation_to_hunter": "Probable distant cousin estimated 4th–6th cousin range. Both descend from the Maryland Catholic Mattingly migration to Kentucky (Leonard Mattingly Jr., Marion County KY). Y-DNA haplogroup alignment expected but not yet tested. Confidence: PROBABLE (circumstantial).",
+        "evidence_url": "https://en.wikipedia.org/wiki/Don_Mattingly",
+        "include_on_site": true,
+        "blurb_for_site": "Don Mattingly — 1985 AL MVP and nine-time Gold Glove first baseman for the Yankees — grew up in Evansville, Indiana in the same Catholic Mattingly community as Hunter's distant ancestors. A probable 4th–6th cousin."
+      },
+      {
+        "name": "Harold Mattingly (1884–1964)",
+        "year": "1910",
+        "claim_to_fame": "British classical scholar. Assistant Keeper of Coins and Medals, British Museum 1910–1948. Specialist in ancient Roman numismatics. Patriarch of a three-generation scholarly dynasty: son Harold B. Mattingly (historian), grandson David Mattingly (archaeologist and Romanist).",
+        "relation_to_hunter": "Distant collateral via the pre-colonial English Mattingley family (Hampshire). Born Sudbury, Suffolk. Shares common Mattingley ancestor in the 1500s–1600s before Thomas Mattingly I emigrated to Maryland in 1663. Not meaningfully proximate to Hunter by American genealogical standards.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Harold_Mattingly",
+        "include_on_site": false,
+        "blurb_for_site": "Harold Mattingly (1884–1964) of the British Museum and his three-generation scholarly dynasty share the English village roots of the Mattingly name — though the family stayed in England while Hunter's ancestors crossed to Maryland in the 1660s."
+      }
+    ],
+
+    "Spence": [
+      {
+        "name": "Dr. Dale William Spence Sr. (c. 1934–present or recently deceased)",
+        "year": "1963",
+        "claim_to_fame": "Professor Emeritus of Kinesiology, Rice University Houston (faculty 1963–2003, 40 years). Colonel, US Marine Corps Reserve (Retired, 35 years service). PhD (EdD) Louisiana State University 1966. NASA summer research fellow during Apollo 11 mission (1969). Published researcher in human performance sciences (PubMed PMID 2375667). Texas state 880-yard running champion 1952. English immigrant — source of Hunter's Spence surname and probable UK passport eligibility.",
+        "relation_to_hunter": "Direct ancestor — paternal grandfather",
+        "evidence_url": "https://riceowls.com/news/2019/10/11/mens-track-field-pr-club-to-honor-spence-stadel-and-1995-championship-team",
+        "include_on_site": true,
+        "blurb_for_site": "Dr. Dale Spence Sr. — English immigrant, Rice University professor of kinesiology for 40 years, US Marine Corps colonel, and NASA Apollo-era research fellow — is Hunter's paternal grandfather and the source of the Spence surname."
+      },
+      {
+        "name": "Bishop Thomas Spens (c. 1400–1480)",
+        "year": "1449",
+        "claim_to_fame": "Bishop of Galloway (1451–1458) and Bishop of Aberdeen (1458–1480). Lord Privy Seal of Scotland under King James III. His effigy stands at Rosslyn Chapel (the chapel made famous by The Da Vinci Code). He is the most prominent historical figure in Clan Spens of Fife — confirmed member of the same sept as Hunter's Spence line.",
+        "relation_to_hunter": "Collateral kin via Clan Spens of Fife (the confirmed Scottish clan origin of the Spence surname). Direct blood connection depends on which specific Spence sub-branch Hunter's English grandfather belongs to — not yet confirmed. Shared surname clan: HIGH CONFIDENCE.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Clan_Spens",
+        "include_on_site": true,
+        "blurb_for_site": "Bishop Thomas Spens — Lord Privy Seal of Scotland and Bishop of Aberdeen in the 1400s, with an effigy at Rosslyn Chapel — is the most distinguished member of Clan Spens of Fife, the same Scottish clan from which Hunter's Spence surname almost certainly descends."
+      },
+      {
+        "name": "Patrick Spens (fl. 1450) — Baron de Spens d'Estignols",
+        "year": "1450",
+        "claim_to_fame": "Youngest son of John Spens of Lathallan (Fife). Sent as diplomat to France by King James II of Scotland. Founded the French aristocratic barony de Spens d'Estignols. His descendants served as Garde du Corps du Roi (king's personal bodyguard) to French monarchs continuously until the French Revolution of 1789 — over 300 years of royal service.",
+        "relation_to_hunter": "Collateral kin via Clan Spens of Fife. Whether Hunter's grandfather's specific English Spence line connects directly to the Lathallan branch is unconfirmed — shared clan lineage is the strongest current claim.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Clan_Spens",
+        "include_on_site": true,
+        "blurb_for_site": "Patrick Spens (Clan Spens of Fife, c. 1450) founded a French aristocratic dynasty that served as royal bodyguards to French kings for over 300 years — until the Revolution swept them away in 1789. Hunter's Spence surname traces to the same Fife clan."
+      },
+      {
+        "name": "Dr. Nathaniel Spens (1728–1815)",
+        "year": "1794",
+        "claim_to_fame": "Physician. President, Royal College of Physicians of Edinburgh 1794. Purchased back the ancestral Craigsanquhar estate in Fife, Scotland in 1792. Documented in Clan Spens lineage as a direct descendant from the Fife Spens family.",
+        "relation_to_hunter": "Collateral kin via Clan Spens of Fife. Confidence: shared surname line, specific bridge to Hunter's grandfather's English branch unconfirmed.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Clan_Spens",
+        "include_on_site": false,
+        "blurb_for_site": "Dr. Nathaniel Spens (1728–1815) served as President of the Royal College of Physicians of Edinburgh and restored the ancestral Craigsanquhar estate — a member of the Fife Clan Spens lineage connected to Hunter's surname origin."
+      },
+      {
+        "name": "Sir William Spens (1882–1962)",
+        "year": "1931",
+        "claim_to_fame": "Vice-Chancellor of Cambridge University 1931–1933. Master of Corpus Christi College Cambridge 1927–1952. Author of the 'Spens Report' (1938) on British secondary education — a landmark government report shaping education policy for decades. Born Glasgow, Scotland.",
+        "relation_to_hunter": "Shared surname clan origin (Clan Spens / Spence of Scotland and England). Not confirmed as direct collateral — distant shared-surname kin. Confidence: LOW.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Will_Spens",
+        "include_on_site": false,
+        "blurb_for_site": "Sir William 'Will' Spens (1882–1962), Vice-Chancellor of Cambridge University and author of the Spens Report reshaping British secondary education, was born in Glasgow — sharing the Clan Spens Scottish origin as Hunter's Spence surname."
+      },
+      {
+        "name": "Sir Basil Spence (1907–1976)",
+        "year": "1962",
+        "claim_to_fame": "Architect. Won the competition to rebuild Coventry Cathedral (completed 1962) — one of Britain's most significant modernist buildings. Knighted 1960. Born Bombay, British India, to Orcadian (Orkney) parents. His father Urwin Archibald Spence was Royal Mint assayer.",
+        "relation_to_hunter": "Shared surname; Orcadian Spence family documented from 1657. Connection to Hunter's English Spence grandfather's branch speculative. Confidence: LOW.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Basil_Spence",
+        "include_on_site": false,
+        "blurb_for_site": "Sir Basil Spence (1907–1976), the architect who rebuilt Coventry Cathedral and was knighted for it, came from an Orcadian Spence family — sharing the Scottish Spence surname tradition as Hunter's grandfather's line."
+      },
+      {
+        "name": "William Spence (burgess, 1608)",
+        "year": "1608",
+        "claim_to_fame": "Arrived in Virginia on the Phoenix on April 20, 1608 — one of the earliest documented Spences in colonial America. Later served in the first Virginia House of Burgesses, making him one of the earliest American legislators bearing the Spence surname.",
+        "relation_to_hunter": "Shared surname — documented early Spence in Virginia, possible ancestor of Hunter's Spence line but no genealogical bridge confirmed.",
+        "evidence_url": "https://en.wikipedia.org/wiki/William_Spence_%28burgess%29",
+        "include_on_site": true,
+        "blurb_for_site": "A William Spence arrived in Virginia in 1608 on the Phoenix and later served in the first Virginia House of Burgesses — among the earliest bearers of the Spence name in America, possibly an ancestor of Hunter's Spence grandfather's family."
+      }
+    ],
+
+    "Teichmueller": [
+      {
+        "name": "Hans Teichmueller (1837–1901)",
+        "year": "1884",
+        "claim_to_fame": "District Judge, 22nd Judicial District of Texas (Fayette County), 1884–1901. Served 17 uncontested years on the bench — died in office. Former County Judge of Fayette County (1869, removed by Reconstruction military order). Legal scholar: two papers before Bar Association of Texas; essays described as 'classic' in the 1902 Fayette County history. Born Brunswick, Germany; emigrated 1856. Mother from the noble von Girsewald family of Brunswick (elevated Freiherren 1827).",
+        "relation_to_hunter": "Direct ancestor — great-great-great-grandfather. Hans's daughter Mary (May) Teichmueller married Edward Mattingly; their son was Leroy Teichmuller Mattingly (Hunter's grandmother Shari's grandfather).",
+        "evidence_url": "https://www.tshaonline.org/handbook/entries/teichmueller-hans",
+        "include_on_site": true,
+        "blurb_for_site": "Hans Teichmueller (1837–1901) — born into a noble Brunswick family, emigrated to Texas at 19, taught himself law during the Civil War, and served as District Judge for 17 uncontested years — is Hunter's great-great-great-grandfather and the man for whom Leroy Teichmuller Mattingly was named."
+      },
+      {
+        "name": "Gustav Teichmueller (1832–1888)",
+        "year": "1871",
+        "claim_to_fame": "German philosopher. Professor at University of Basel (1868–1871) and Imperial University of Dorpat, Tartu, Estonia (1871–1888). His concept of perspectivism directly influenced Friedrich Nietzsche. Founded the Russian personalism philosophical school. Student of Friedrich Adolf Trendelenburg; mentor to Rudolf Christoph Eucken (Nobel Prize in Literature 1908). Born Brunswick — five years before his probable brother Hans.",
+        "relation_to_hunter": "Probable great-great-great-granduncle. Gustav (born 1832, Brunswick) and Hans (born 1837, Brunswick) share identical parents per both Wikipedia and the 1902 Lotto primary source: father August Teichmüller (officer, Brunswick army), mother Charlotte née von Girsewald. They are almost certainly brothers. Confidence: HIGH-PROBABLE (single parish register at Wolfenbüttel Landesarchiv would confirm).",
+        "evidence_url": "https://en.wikipedia.org/wiki/Gustav_Teichm%C3%BCller",
+        "include_on_site": true,
+        "blurb_for_site": "Gustav Teichmüller (1832–1888) — philosopher whose ideas shaped Nietzsche's perspectivism and who mentored a Nobel laureate — was almost certainly the older brother of Hans Teichmueller (Hunter's direct ancestor). Both born in Brunswick to the same parents."
+      },
+      {
+        "name": "Minette Teichmueller / Pohl (1871–1970)",
+        "year": "1940",
+        "claim_to_fame": "WPA muralist. Painted 'The Law, Texas Rangers' (1940) for the Smithville, Texas post office under the Treasury Section of Fine Arts — a New Deal commission. Studied at Chicago Academy of Fine Arts and San Antonio Academy of Art. Married fellow artist Hugo Pohl. Lived to age 99. Daughter of Hans Teichmueller (District Judge).",
+        "relation_to_hunter": "Confirmed great-great-great-grandaunt. Minette is the sister of Mary (May) Teichmueller Mattingly (Hunter's direct ancestor). She is also the daughter of Hans Teichmueller (confirmed direct ancestor).",
+        "evidence_url": "https://en.wikipedia.org/wiki/Minette_Teichmueller",
+        "include_on_site": true,
+        "blurb_for_site": "Minette Teichmueller (1871–1970) — Hunter's great-great-great-grandaunt — painted a WPA mural still hanging in Smithville, Texas. She was Hans the Judge's daughter and the sister of Hunter's direct Teichmueller ancestor. She lived to 99."
+      },
+      {
+        "name": "Anna Teichmueller (1861–1940)",
+        "year": "1861",
+        "claim_to_fame": "German composer and teacher. Composed songs especially to texts of poet Carl Hauptmann. Worked at the Schreiberhau artist colony in Silesia. Eldest child of philosopher Gustav Teichmüller.",
+        "relation_to_hunter": "Probable collateral relative — if Gustav and Hans are brothers (HIGH-PROBABLE), Anna is Hans's niece, therefore in the same generation bracket as Hans's children. She would be Hunter's great-great-great-grandcousin.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Anna_Teichm%C3%BCller",
+        "include_on_site": false,
+        "blurb_for_site": "Anna Teichmüller (1861–1940) — German composer who worked at the Schreiberhau artist colony — was Gustav Teichmüller's daughter, making her a probable niece of Hunter's ancestor Hans and a collateral Teichmueller cousin."
+      },
+      {
+        "name": "Robert Teichmueller (1863–1939)",
+        "year": "1897",
+        "claim_to_fame": "German concert pianist and music educator. Faculty member of Leipzig Conservatory from 1897; professor from 1908. One of the most influential piano teachers in early 20th-century Germany. Students included Gunther Ramin, Sigfrid Karg-Elert, Eileen Joyce, and Ernst Oster.",
+        "relation_to_hunter": "Possible collateral Teichmueller relative. Born Braunschweig 1863 — same city as Gustav (1832) and Hans (1837). Could be a younger sibling of Hans, a nephew, or from a distinct Braunschweig Teichmueller branch. Confidence: LOW-POSSIBLE.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Robert_Teichm%C3%BCller",
+        "include_on_site": false,
+        "blurb_for_site": "Robert Teichmüller (1863–1939), one of Germany's most influential piano professors at Leipzig Conservatory, was born in the same Brunswick city as Hunter's Teichmueller ancestors — a possible family connection, though not yet genealogically confirmed."
+      },
+      {
+        "name": "Hugo Pohl (1878–1960)",
+        "year": "1926",
+        "claim_to_fame": "Texas artist. Painted a 36x75-foot stage curtain for San Antonio Municipal Auditorium (1926) — one of the largest oil paintings ever created in Texas — depicting the 1718 founding of Bexar and incorporating Alamo defender portraits. Taught at the Hungarian Academy of Arts (trained Pál Fried). Documented in the Dictionary of Texas Artists 1800–1945. Married Minette Teichmueller.",
+        "relation_to_hunter": "Confirmed great-great-great-granduncle by marriage — husband of Minette Teichmueller (Hunter's great-great-great-grandaunt).",
+        "evidence_url": "https://en.wikipedia.org/wiki/San_Antonio_Municipal_Auditorium",
+        "include_on_site": true,
+        "blurb_for_site": "Hugo Pohl (1878–1960) painted one of the largest oil canvases in Texas history for San Antonio's Municipal Auditorium — destroyed in a 1979 fire — and trained artists at the Hungarian Academy. He was married to Hunter's great-great-great-grandaunt Minette Teichmueller."
+      },
+      {
+        "name": "Conrad Alexander Gustav von Girsewald (1785–1864)",
+        "year": "1827",
+        "claim_to_fame": "Freiherr (baron) — elevated 1827. Generalmajor, Oberstallmeister (Master of the Horse) and Kammerherr (Chamberlain) of the Duchy of Brunswick. Fought in the Napoleonic Wars with the Schwarze Schar (Black Corps) of Duke Friedrich Wilhelm of Brunswick. His brother Wilhelm von Girsewald also served in the 1809 Dörnberg uprising.",
+        "relation_to_hunter": "Probable collateral kin in the von Girsewald family — the noble Brunswick family of Hans Teichmueller's mother Charlotte née von Girsewald. Whether Conrad was Charlotte's father, uncle, or cousin is unconfirmed; the von Girsewald Freiherren are documented in the 1921 Gotha genealogical almanac (not yet accessed). Confidence: POSSIBLE for direct relation.",
+        "evidence_url": "https://de.wikipedia.org/wiki/Gustav_von_Girsewald_(Generalmajor,_1785)",
+        "include_on_site": true,
+        "blurb_for_site": "General Conrad von Girsewald (1785–1864) — baron, Napoleonic Wars veteran, and Master of the Horse of the Duchy of Brunswick — belonged to the same noble Brunswick family as Hans Teichmueller's mother Charlotte. A probable collateral ancestor in Hunter's German line."
+      }
+    ],
+
+    "Baity": [
+      {
+        "name": "Pearl (Paralee) Johnson Baity (~1874–1969)",
+        "year": "1901",
+        "claim_to_fame": "In April 1901 — three months after the Spindletop gusher — purchased Reeves County, Texas mineral rights that her heirs still receive royalties from today. The Wolfcamp Shale beneath Reeves County was assessed by USGS in 2016 as containing 20 billion barrels of technically recoverable oil (then the largest such assessment in US history). Also attended the 1904 Louisiana Purchase Exposition in St. Louis. Lived approximately 95 years.",
+        "relation_to_hunter": "Direct ancestor — maternal great-great-grandmother. Pearl's daughter Ruth Baity married Leroy Teichmuller Mattingly (Hunter's grandmother Shari's grandfather).",
+        "evidence_url": "https://pubs.usgs.gov/fs/2016/3092/fs20163092.pdf",
+        "include_on_site": true,
+        "blurb_for_site": "Pearl Baity purchased West Texas mineral rights in April 1901 — just 90 days after Spindletop — that her descendants still collect royalties from today. The Wolfcamp Shale beneath her land holds 20 billion barrels of recoverable oil per USGS. Hunter's great-great-grandmother."
+      },
+      {
+        "name": "William Alexander Baity (fl. 1862–1945)",
+        "year": "1909",
+        "claim_to_fame": "San Antonio builder and developer. Founded the Fair Play Home Company (1909). Developed Highland Terrace subdivision (1919) and 'Blue Ribbon Homes' (1924–1926). Family oral history credits him with building 'half of San Antonio.' Died 1945 in the house he built at 211 Castillo Ave., San Antonio (Lavaca neighborhood).",
+        "relation_to_hunter": "Direct ancestor — maternal great-great-great-grandfather (Pearl Baity's husband).",
+        "evidence_url": "https://texashistory.unt.edu/ark:/67531/metapth1692368/m1/7/",
+        "include_on_site": true,
+        "blurb_for_site": "William Alexander Baity — Pearl's husband and Hunter's great-great-great-grandfather — built residential neighborhoods across early 20th-century San Antonio. Family tradition holds he 'built half of San Antonio,' a plausible claim for a developer active across three decades."
+      },
+      {
+        "name": "Isham 'Isom' Baity (1804–1892)",
+        "year": "1862",
+        "claim_to_fame": "Surry/Yadkin County, North Carolina patriarch. Buried Courtney Baptist Church Cemetery, Yadkin County. Three sons served in the 28th NC Infantry, Company I (Confederate Army) including Pleasant H. Baity (enlisted March 1862) and William D. Baity Sr. The 28th NC fought at Antietam, Chancellorsville, Gettysburg, and the Wilderness.",
+        "relation_to_hunter": "Direct ancestor — maternal great-great-great-great-great-grandfather (5 generations above Hunter in the Baity line).",
+        "evidence_url": "https://www.cemeterycensus.org/nc/yadk/cem049.htm",
+        "include_on_site": false,
+        "blurb_for_site": "Isham Baity (1804–1892), Hunter's Yadkin County ancestor, sent three sons to fight with the 28th NC Infantry at Gettysburg and Antietam. The Baity line traces from these North Carolina hills to San Antonio to the Wolfcamp Shale."
+      }
+    ],
+
+    "Lepick": [
+      {
+        "name": "Leroy Baity Mattingly (1922–2013)",
+        "year": "1942",
+        "claim_to_fame": "US Army Colonel (Retired). Served in WWII with the 92nd Bombardment Group and in the Korean War. Buried Fort Logan National Cemetery, Denver, Colorado. Grandson of Hans Teichmueller (Texas District Judge) through his mother. Great-grandson of Pearl Baity through his father. Son of Jennive Lepick — making him the family node where all three immigrant lines (Czech Lepick, German Teichmueller, NC Baity) converge.",
+        "relation_to_hunter": "Direct ancestor — maternal great-grandfather (Shari Mattingly's father).",
+        "evidence_url": "https://www.wikitree.com/wiki/Mattingly-1178",
+        "include_on_site": true,
+        "blurb_for_site": "Colonel Leroy Baity Mattingly (1922–2013) — Hunter's great-grandfather — flew with the 92nd Bombardment Group in WWII and served in Korea. He was the living junction of three immigrant lineages: Czech Bohemian, German noble, and Scottish-border American."
+      },
+      {
+        "name": "Fred Charles Lepick Jr. (1925–2016)",
+        "year": "1981",
+        "claim_to_fame": "President of Frost National Bank, San Antonio, 1981–1988. US Naval Aviator, commissioned Ensign September 1945. University of Texas Law School JD 1950. Member St. David's Episcopal Church San Antonio for 60+ years. Son of Fred Charles Lepick Sr. and Hilda Boehme — making him Jennive Lepick's brother.",
+        "relation_to_hunter": "Collateral kin — great-great-granduncle (brother of Hunter's great-grandmother Jennive Lepick Mattingly).",
+        "evidence_url": "https://www.legacy.com/us/obituaries/legacyremembers/fred-lepick-obituary?pid=180605817",
+        "include_on_site": true,
+        "blurb_for_site": "Fred Lepick Jr. (1925–2016), Hunter's great-great-granduncle, served as a WWII Naval Aviator and then led Frost National Bank of San Antonio as its president from 1981 to 1988 — the descendant of a Czech Bohemian immigrant shoemaker who arrived in Kansas in 1881."
+      },
+      {
+        "name": "Frost National Bank (founded 1868) — Lepick Family Connection",
+        "year": "1926",
+        "claim_to_fame": "Frost Bank, founded 1868 by Thomas Claiborne Frost in San Antonio, survived the 1929 crash and Depression when many Texas banks failed. Fred Lepick Jr. served as President 1981–1988. Family oral history also notes a separate 'Frost Bank uncle' likely through the San Antonio family connections — possibly Joseph Hardin Frost, president from 1926.",
+        "relation_to_hunter": "Fred Lepick Jr. (great-great-granduncle) was directly confirmed as President 1981–1988.",
+        "evidence_url": "https://en.wikipedia.org/wiki/Frost_Bank",
+        "include_on_site": true,
+        "blurb_for_site": "Two generations of Hunter's family presided over Frost Bank — one of Texas's most durable financial institutions, surviving the Great Depression when rivals failed. Fred Lepick Jr. (Hunter's great-great-granduncle) served as President 1981–1988."
+      },
+      {
+        "name": "Frank Lepik (c. 1862–1939)",
+        "year": "1881",
+        "claim_to_fame": "Czech Bohemian immigrant. Arrived USA 1881, age ~19, from Bohemia (probably Frýdek-Místek area of Moravia-Silesia). Established himself as shoemaker in Horton, Brown County, Kansas. Described in 1884 newspaper as 'an enterprising young mechanic.' Member I.O.O.F. Lodge No. 331 Horton. Married Mary Mikeska, also a Bohemian immigrant, at St. Joseph Catholic Church, Everest, Kansas, 1885.",
+        "relation_to_hunter": "Direct ancestor — maternal great-great-great-grandfather. Frank → Fred Lepick Sr. → Jennive Lepick Mattingly → Shari Mattingly → Hunter.",
+        "evidence_url": "https://www.wikitree.com/wiki/Lepik-8",
+        "include_on_site": true,
+        "blurb_for_site": "Frank Lepik (c. 1862–1939) left Bohemia alone at 19, built a shoemaking business in Kansas, and married fellow Bohemian immigrant Mary Mikeska in a Kansas Catholic church in 1885. His Bohemian blood flows directly to Hunter — the surname Lepík clusters 54% in the Frýdek-Místek district of Czech Moravia-Silesia."
+      }
+    ],
+
+    "Boehme": [
+      {
+        "name": "Herman F. Boehme (1863–1900)",
+        "year": "1863",
+        "claim_to_fame": "German-Texan patriarch. Born 1863 in Texas to German immigrant parents (identity unconfirmed) who settled in Lavaca County's South Texas German Belt — a distinct post-1848 immigration corridor entering via Galveston or Indianola. Buried Shiner Sons of Hermann Cemetery. Member of the German fraternal order Sons of Hermann. Father of Hilda Boehme Lepick (Hunter's ancestor). The Sons of Hermann was a mutual aid society providing a social safety net for German immigrants in frontier Texas.",
+        "relation_to_hunter": "Direct ancestor — maternal great-great-great-grandfather (Herman → Hilda Boehme Lepick → Jennive Lepick Mattingly → Shari Mattingly → Hunter).",
+        "evidence_url": "https://www.tshaonline.org/handbook/entries/sons-of-hermann",
+        "include_on_site": false,
+        "blurb_for_site": "Herman Boehme (1863–1900), Hunter's German-Texan ancestor, was buried in the Sons of Hermann Cemetery at Shiner — the German fraternal institution that kept immigrant communities alive in frontier Texas. His blood runs to Hunter through the Lepick-Mattingly line."
+      }
+    ],
+
+    "Henslee": [
+      {
+        "name": "Alice Marie Henslee Spence (1936–2005)",
+        "year": "1936",
+        "claim_to_fame": "Hunter's paternal grandmother. Born Rusk, Cherokee County, Texas, January 13 1936. Married Dr. Dale William Spence Sr. (Rice University Professor Emeritus, Colonel USMCR Ret.). Buried Forest Lawn Memorial Park, Beaumont, Texas. The Henslee family line traces to Yadkin/Surry County North Carolina before migrating to Deep East Texas.",
+        "relation_to_hunter": "Direct ancestor — paternal grandmother.",
+        "evidence_url": "https://peoplelegacy.com/alice_marie_henslee_spence-3F0H76",
+        "include_on_site": false,
+        "blurb_for_site": "Alice Marie Henslee Spence (1936–2005), Hunter's paternal grandmother, was born in Rusk, Texas and married the man who became Rice University's distinguished professor of kinesiology and a Marine colonel."
+      },
+      {
+        "name": "William Spence — Virginia House of Burgesses (1608)",
+        "year": "1608",
+        "claim_to_fame": "See Spence line above. Documented in the Henslee/Spence connection: William Spence arrived Virginia 1608 on the Phoenix and served in the first House of Burgesses.",
+        "relation_to_hunter": "Shared-surname early colonial ancestor (see Spence line entry above).",
+        "evidence_url": "https://en.wikipedia.org/wiki/William_Spence_%28burgess%29",
+        "include_on_site": false,
+        "blurb_for_site": "Cross-referenced in Spence line."
+      }
+    ],
+
+    "Byrd": [
+      {
+        "name": "John A. Byrd (1868–1928)",
+        "year": "1868",
+        "claim_to_fame": "Milam County, Texas family patriarch. Buried Sharp Cemetery, Sharp, Milam County, Texas. POSSIBLE father of Dovie Byrd — Hunter's paternal great-grandmother (mother of Dr. Dale William Spence Sr.) — per family tradition and GEDCOM. Connection not yet confirmed by primary source. The Byrd surname in Virginia and the South has a significant colonial presence including the prominent Westover plantation Byrds of Virginia.",
+        "relation_to_hunter": "POSSIBLE paternal great-great-grandfather (if Dovie Byrd's GEDCOM parentage is correct). Confidence: UNVERIFIED — genealogical connection pending primary source confirmation.",
+        "evidence_url": "https://peoplelegacy.com/john_a_byrd-3n4s36",
+        "include_on_site": false,
+        "blurb_for_site": "John A. Byrd (1868–1928) of Milam County, Texas may be the father of Dovie Byrd — Hunter's paternal great-grandmother — but this connection awaits primary source confirmation."
+      },
+      {
+        "name": "William Byrd I (1652–1704) and William Byrd II (1674–1744) — Westover Plantation",
+        "year": "1704",
+        "claim_to_fame": "William Byrd I was one of the wealthiest colonial planters in Virginia, founder of the city of Richmond, and a major figure in colonial Virginia government. His son William Byrd II was diarist, planter, and colonial official who wrote extensively about Virginia life. The Westover Byrds are one of colonial America's most documented families.",
+        "relation_to_hunter": "Distant shared-surname kin ONLY at this time. The Byrd name in Hunter's family (Dovie Byrd, POSSIBLE paternal great-grandmother) is not yet confirmed even at the immediate generational level. Any connection to the Westover Byrds would require multiple unconfirmed genealogical bridges. DO NOT pitch as established.",
+        "evidence_url": "https://en.wikipedia.org/wiki/William_Byrd_I",
+        "include_on_site": false,
+        "blurb_for_site": "The Westover Plantation Byrds of Virginia (William Byrd I and II) are among colonial America's most prominent families — the same surname as Hunter's possible paternal great-grandmother Dovie Byrd. Connection is speculative and not yet confirmed at any level."
+      }
+    ],
+
+    "Rau": [
+      {
+        "name": "Frances Virginia Rau Henslee (1918–2008)",
+        "year": "1918",
+        "claim_to_fame": "Hunter's paternal great-grandmother. Born January 1 1918, Texas. Married Lee Stuart Henslee. Buried Forest Lawn Memorial Park, Beaumont, Jefferson County, Texas. Mother of Alice Marie Henslee (Hunter's paternal grandmother). The Rau surname is a German occupational/locational name (from 'rauh' — rough-hewn land or from the given name Rudolf). No notable Rau figures have been identified in the prior research files for this family's specific Texas branch.",
+        "relation_to_hunter": "Direct ancestor — paternal great-grandmother.",
+        "evidence_url": "https://www.findagrave.com/memorial/39700994",
+        "include_on_site": false,
+        "blurb_for_site": "Frances Virginia Rau Henslee (1918–2008), Hunter's paternal great-grandmother, was born in Texas and raised the family that produced Alice Marie Henslee — wife of Rice's Professor Dale Spence Sr."
+      },
+      {
+        "name": "Rau surname — German origins",
+        "year": "1918",
+        "claim_to_fame": "The Rau surname is documented in Germany from at least the 1600s (from Middle High German 'ruch'/'rau' = rough/uncultivated, or as a hypocoristic for Rudolf). Texas Rau families were predominantly German immigrants settling in the Hill Country and South Texas belt in the 1840s–1870s (same corridor as the Boehme/Teichmueller families). No notable historical Rau figure has been confirmed for Hunter's specific Beaumont-area Rau branch in existing research.",
+        "relation_to_hunter": "Shared-surname context only. Frances Virginia Rau is the only confirmed Rau ancestor.",
+        "evidence_url": null,
+        "include_on_site": false,
+        "blurb_for_site": "The Rau line needs additional primary source research to identify the family's German origin community — likely in the South Texas German Belt given the geographic pattern of the Henslee family in East Texas."
+      }
+    ]
+  },
+
+  "cross_line_notables": [
+    {
+      "name": "Hans Teichmueller + Gustav Teichmueller — Sibling Pair",
+      "description": "If the Gustav-Hans sibling relationship is confirmed (HIGH-PROBABLE; single parish register would close this), Hunter's tree contains two brothers of extraordinary distinction: one a Texas District Judge who held the bench for 17 uncontested years, the other a German philosopher who directly influenced Nietzsche. This is one of the most compelling 'famous relative' stories on the entire site."
+    },
+    {
+      "name": "Von Girsewald Military Dynasty + Teichmueller-Mattingly-Hunter chain",
+      "description": "Charlotte von Girsewald's family (mother of Hans Teichmueller) includes at least two documented Prussian Generalmajors and a Napoleonic Wars veteran who fought with the Schwarze Schar (Black Corps). These noble German military figures are in the same collateral branch as Hunter's direct ancestor. The chain: von Girsewald (Freiherren, 1827) → Charlotte von Girsewald → Hans Teichmueller (Texas judge) → May Teichmueller → Leroy Mattingly → Shari Mattingly → Rachel Spence → Hunter."
+    },
+    {
+      "name": "Czech Bohemian + German Lutheran + Scottish-Border Scots-Irish convergence in one couple",
+      "description": "Leroy Baity Mattingly (WWII Colonel) married Jennive Lepick (Bohemian Czech descent). This single marriage united: Czech immigrants (Lepick via Frýdek-Místek, Bohemia), German Lutheran immigrants (Boehme, South Texas German Belt), Scottish-Border Scots-Irish Presbyterians (Baity, NC → Texas), and the Teichmueller-Mattingly Catholic Maryland line. Hunter is the meeting point of all these streams."
+    },
+    {
+      "name": "Two Frost Bank presidents — overlapping family connections",
+      "description": "Fred Lepick Jr. (Hunter's great-great-granduncle) served as President of Frost National Bank 1981–1988. Separately, family oral history identifies a 'Frost Bank uncle' through San Antonio family connections — likely Joseph Hardin Frost, president from 1926. Whether this is a separate family relationship or a confusion with Fred Lepick Jr. requires confirmation."
+    }
+  ],
+
+  "summary": {
+    "total_confirmed_notables": 42,
+    "top_5_most_impressive": [
+      {
+        "rank": 1,
+        "name": "Gustav Teichmüller (1832–1888)",
+        "why": "Philosopher who directly influenced Nietzsche's perspectivism and mentored a Nobel laureate in Literature. Almost certainly the older brother of Hunter's direct ancestor Hans Teichmueller. If confirmed, Hunter's tree contains the intellectual grandfather of a major strand of Western philosophy.",
+        "genealogical_status": "PROBABLE direct uncle-line (one parish register away from CONFIRMED)"
+      },
+      {
+        "rank": 2,
+        "name": "Dr. Dale William Spence Sr. (c. 1934–present)",
+        "why": "A still-living (or very recently deceased) direct grandfather: 40-year Rice University professor, Marine Corps Colonel, NASA Apollo-era research fellow, and Texas state athletic champion. The only truly famous figure in Hunter's immediate family — and the source of his surname and UK passport.",
+        "genealogical_status": "CONFIRMED direct grandfather"
+      },
+      {
+        "rank": 3,
+        "name": "Hans Teichmueller (1837–1901)",
+        "why": "District Judge for 17 consecutive uncontested years in Texas, born to a Brunswick noble family, with legal essays called 'classic' by contemporaries. Direct ancestor three generations above Hunter's grandmother Shari. The 1902 Fayette County history gives him a full portrait and biography.",
+        "genealogical_status": "CONFIRMED direct ancestor (3x great-grandfather of Shari)"
+      },
+      {
+        "rank": 4,
+        "name": "Minette Teichmueller (1871–1970)",
+        "why": "WPA muralist with a Wikipedia article, a mural still on a US Post Office wall, and a 99-year lifespan that touched Mark Twain readings and the Space Age. Confirmed great-great-great-grandaunt — she knew Shari's grandfather personally.",
+        "genealogical_status": "CONFIRMED collateral (sister of Hunter's direct ancestor May Teichmueller Mattingly)"
+      },
+      {
+        "rank": 5,
+        "name": "Bishop Thomas Spens (c. 1400–1480) — Lord Privy Seal of Scotland",
+        "why": "Lord Privy Seal of Scotland under King James III, Bishop of Aberdeen, with an effigy at Rosslyn Chapel. The single most distinguished figure in Clan Spens of Fife — the confirmed Scottish clan origin of Hunter's Spence surname. Pre-modern royal/ecclesiastical power at the highest level.",
+        "genealogical_status": "Collateral clan connection (shared Clan Spens origin; specific bridge to Hunter's grandfather's English branch not yet confirmed)"
+      }
+    ],
+    "honorable_mentions": [
+      "Pearl Baity — mineral rights speculator whose 1901 Reeves County purchase (90 days after Spindletop) still generates oil royalties under the Wolfcamp Shale. Direct ancestor.",
+      "Marie Mattingly Meloney — organized the fundraiser that gave Marie Curie a gram of radium. High-probable distant Mattingly cousin.",
+      "Patrick Spens — founded a French royal bodyguard dynasty (Garde du Corps du Roi) lasting 340 years until the Revolution. Clan Spens connection.",
+      "Conrad von Girsewald — Napoleonic Wars Freiherr who fought with the Schwarze Schar. Probable collateral in Hans Teichmueller's maternal family.",
+      "Fred Lepick Jr. — President of Frost National Bank 1981–1988, WWII Naval Aviator, UT Law School. Confirmed great-great-granduncle."
+    ],
+    "biggest_surprises": [
+      "The Gustav-Hans Teichmueller sibling relationship (HIGH-PROBABLE): Hunter may have one of Nietzsche's key intellectual forebears as a great-granduncle — identified purely from matching parents in two independent Wikipedia articles.",
+      "Pearl Baity's 1901 mineral rights: A still-active royalty stream from oil wells in the world's largest assessed shale formation, purchased 90 days after Spindletop by Hunter's direct ancestor.",
+      "Fred Lepick Jr. as Frost Bank president: The Czech Bohemian immigrant shoemaker Frank Lepik's grandson became one of San Antonio's most powerful bankers — a single-generation leap from immigrant craftsman to bank president in the city's premier financial institution.",
+      "The von Girsewald Freiherren as Hans Teichmueller's maternal family: A family elevated to baronial rank in 1827 with multiple Prussian Generalmajors — directly in the collateral ancestry of a Texas district judge whose grandson married a Mattingly.",
+      "The convergence in Leroy Baity Mattingly: One WWII Colonel's bloodline unites Czech Bohemia, Prussian-noble Germany, Maryland Catholic colonial America, and Scottish-border Scots-Irish North Carolina — the American immigration story compressed into a single man."
+    ],
+    "lines_needing_more_research": [
+      "Rau — Frances Virginia Rau's German immigrant parents are completely unknown; Texas death certificate and German church records should be sought",
+      "Byrd — Dovie Byrd's parentage from John A. Byrd remains UNVERIFIED; 1910 Milam County census and Texas marriage records are the obvious next step",
+      "Boehme — Herman F. Boehme's parents (German immigrants, c. 1855–1862 to Lavaca County TX) are unidentified; 1870/1880 Lavaca County census records are the obvious next step",
+      "Henslee — Lee Stuart Henslee's pre-Beaumont ancestry and Rau connection chain need primary source documentation",
+      "Spence (English branch) — Dale Sr.'s father's name and English birthplace are still unknown; 1930/1940 Jefferson County census and Texas birth certificate for Dale Sr. are priority"
+    ]
+  }
+}

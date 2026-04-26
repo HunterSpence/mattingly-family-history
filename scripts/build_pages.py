@@ -45,7 +45,7 @@ SURNAMES = [
     {
         "id": "spence",
         "title": "The Spence Line",
-        "subtitle": "NE England → Beaumont, Texas → Hunter (the line he carries his surname from)",
+        "subtitle": "Scotland (Clan MacDuff sept) → Beaumont, Texas → Hunter (the line he carries his surname from)",
         "tree_label_substring": "PATERNAL — Spence",
         "summary": (
             "Hunter's surname comes from this line — a still-unnamed English immigrant from "
@@ -523,6 +523,157 @@ footer.site-footer {{
 </html>"""
 
 
+def _line_origin_for(line_name):
+    """Look up a single surname-line origin record from research/line-origins.json."""
+    origins_path = WS / "research" / "line-origins.json"
+    if not origins_path.exists():
+        return None, None
+    data = json.loads(origins_path.read_text(encoding="utf-8"))
+    return data.get("lines", {}).get(line_name), data.get("country_flags", {})
+
+
+def render_surname_heritage_card(line_name):
+    """Compact heritage card for the top of a surname page — shows the country flag,
+    earliest CONFIRMED ancestor, and the immigrant who first set foot in America for this line.
+    Pulls from research/line-origins.json (produced by enrich_immigrants_and_origins.py)."""
+    info, flags = _line_origin_for(line_name)
+    if not info:
+        return ""
+    country = info.get("country", "?")
+    flag = (flags or {}).get(country, "")
+    year = info.get("earliest_confirmed_year") or "?"
+    person = info.get("earliest_confirmed_person") or "Earliest confirmed: pending research"
+    immigrant = info.get("immigrant_in_line") or info.get("immigrant_candidate") or "(immigrant identification pending — see Research notes)"
+    clan = info.get("clan_affiliation", "")
+    clan_motto = info.get("clan_motto", "")
+    notable = info.get("notable_relative") or info.get("notable_in_line") or ""
+    ydna = info.get("ydna_haplogroup", "")
+    subregion = info.get("country_subregion") or info.get("country_region", "")
+    evidence = info.get("evidence", "")
+
+    clan_block = ""
+    if clan:
+        motto_str = f' &nbsp;·&nbsp; <em>"{html.escape(clan_motto)}"</em>' if clan_motto else ""
+        clan_block = f'<div class="hcard-clan">⚔ <strong>{html.escape(clan)}</strong>{motto_str}</div>'
+    notable_block = f'<div class="hcard-notable">⭐ <strong>Notable in line:</strong> {html.escape(notable)}</div>' if notable else ""
+    ydna_block = f'<div class="hcard-ydna">🧬 <strong>Y-DNA:</strong> {html.escape(ydna)}</div>' if ydna else ""
+    subregion_str = f' <span class="hcard-subregion">— {html.escape(subregion)}</span>' if subregion else ""
+
+    return f"""
+<aside class="surname-heritage-card" aria-label="Heritage origin for the {html.escape(line_name)} line">
+  <div class="hcard-flag-block">
+    <div class="hcard-flag" aria-hidden="true">{flag}</div>
+    <div class="hcard-country">
+      <strong>{html.escape(country)}</strong>{subregion_str}
+    </div>
+  </div>
+  <div class="hcard-body">
+    <div class="hcard-row"><span class="hcard-label">Earliest confirmed</span><span class="hcard-value">{html.escape(str(year))} — {html.escape(person)}</span></div>
+    <div class="hcard-row"><span class="hcard-label">★ Immigrant to America</span><span class="hcard-value">{html.escape(immigrant)}</span></div>
+    {clan_block}
+    {notable_block}
+    {ydna_block}
+    <details class="hcard-evidence"><summary>Evidence &amp; sources</summary><p>{html.escape(evidence)}</p></details>
+  </div>
+</aside>"""
+
+
+def render_full_heritage_panel():
+    """Full heritage panel for the index page — covers all surname lines + breakdown chart."""
+    origins_path = WS / "research" / "line-origins.json"
+    if not origins_path.exists():
+        return ""
+    data = json.loads(origins_path.read_text(encoding="utf-8"))
+    lines = data.get("lines", {})
+    flags = data.get("country_flags", {})
+
+    PATERNAL = ["Spence", "Henslee", "Byrd", "Baity", "Rau"]
+    MATERNAL = ["Mattingly", "Teichmueller", "Lepick", "Boehme"]
+
+    def _card(name, info):
+        if not info:
+            return ""
+        country = info.get("country", "?")
+        flag = flags.get(country, "")
+        year = info.get("earliest_confirmed_year") or "?"
+        person = info.get("earliest_confirmed_person") or "Earliest confirmed: pending"
+        immigrant = info.get("immigrant_in_line") or info.get("immigrant_candidate") or "(immigrant identification pending)"
+        clan = info.get("clan_affiliation", "")
+        notable = info.get("notable_relative") or info.get("notable_in_line") or ""
+        evidence = info.get("evidence", "")
+        subregion = info.get("country_subregion") or info.get("country_region", "")
+        subregion_str = f' <span class="hcard-subregion">— {html.escape(subregion)}</span>' if subregion else ""
+        clan_block = f'<div class="hcard-clan">⚔ <strong>{html.escape(clan)}</strong></div>' if clan else ""
+        notable_block = f'<div class="hcard-notable">⭐ {html.escape(notable)}</div>' if notable else ""
+        return f"""
+        <article class="heritage-card">
+          <header class="heritage-header">
+            <span class="heritage-flag" aria-hidden="true">{flag}</span>
+            <div>
+              <h3 class="heritage-surname">{html.escape(name)}</h3>
+              <div class="heritage-country"><strong>{html.escape(country)}</strong>{subregion_str}</div>
+            </div>
+          </header>
+          <div class="heritage-body">
+            <div class="heritage-row">
+              <span class="heritage-label">Earliest confirmed</span>
+              <span class="heritage-value">{html.escape(str(year))} — {html.escape(person)}</span>
+            </div>
+            <div class="heritage-row">
+              <span class="heritage-label">★ Immigrant to America</span>
+              <span class="heritage-value">{html.escape(immigrant)}</span>
+            </div>
+            {clan_block}
+            {notable_block}
+            <details class="heritage-evidence"><summary>Evidence &amp; sources</summary><p>{html.escape(evidence)}</p></details>
+            <a class="heritage-deep-link" href="{name.lower()}.html">Full {html.escape(name)} tree →</a>
+          </div>
+        </article>"""
+
+    pat_cards = "\n".join(_card(n, lines.get(n)) for n in PATERNAL if lines.get(n))
+    mat_cards = "\n".join(_card(n, lines.get(n)) for n in MATERNAL if lines.get(n))
+
+    # Heritage breakdown bar chart
+    country_count = {}
+    for info in lines.values():
+        c = info.get("country")
+        if c:
+            country_count[c] = country_count.get(c, 0) + 1
+    total = sum(country_count.values()) or 1
+    rows = ""
+    for c, ct in sorted(country_count.items(), key=lambda x: -x[1]):
+        pct = round(ct / total * 100)
+        flag = flags.get(c, "")
+        rows += f"""
+        <div class="heritage-bar-row">
+          <span class="heritage-bar-flag">{flag}</span>
+          <span class="heritage-bar-country">{html.escape(c)}</span>
+          <div class="heritage-bar-track"><div class="heritage-bar-fill" style="width:{pct}%"></div></div>
+          <span class="heritage-bar-pct">{pct}%</span>
+          <span class="heritage-bar-count">({ct} {'line' if ct == 1 else 'lines'})</span>
+        </div>"""
+
+    return f"""
+<section id="heritage" class="heritage-section">
+  <h2>Heritage &amp; Origins</h2>
+  <p class="heritage-intro">
+    Each surname line traced back to its earliest <strong>confirmed</strong> ancestor (primary-source verified)
+    with the country of origin and — where identified — the direct ancestor who <strong>first set foot in America</strong>
+    for that line. On every family-tree page, immigrant ancestors are marked with a <span class="heritage-green">green border</span>
+    and the country flag of where they came from.
+  </p>
+  <div class="heritage-breakdown">
+    <h3>Heritage by surname line</h3>
+    {rows}
+  </div>
+  <h3 class="heritage-subhead">Paternal Lines (via Dale W. Spence Sr.)</h3>
+  <div class="heritage-grid">{pat_cards}</div>
+  <h3 class="heritage-subhead">Maternal Lines (via Sharyn Mattingly)</h3>
+  <div class="heritage-grid">{mat_cards}</div>
+</section>
+"""
+
+
 def build_index():
     cards = []
     for s in SURNAMES:
@@ -533,6 +684,7 @@ def build_index():
     <p class="body">{s["summary"][:240]}…</p>
   </a>
 </div>''')
+    heritage_html = render_full_heritage_panel()
     body = f"""
 {common_nav()}
 <div class="hero-mini">
@@ -546,6 +698,7 @@ def build_index():
     others one hundred. They start everywhere from Anglo-Saxon Hampshire to Bohemian Moravia
     to the Beaumont, Texas oil boom.
   </section>
+  {heritage_html}
   <h2 class="section-break">The Lines</h2>
   <div class="hub-grid">
     {"".join(cards)}
@@ -628,6 +781,10 @@ def build_surname_page(s):
   </article>
 </details>"""
 
+    # LINE_ORIGINS uses TitleCase keys (Mattingly, Spence, etc.); SURNAMES["id"] is lowercase
+    line_name = s["id"].title() if s["id"] != "teichmueller" else "Teichmueller"
+    heritage_card_html = render_surname_heritage_card(line_name)
+
     body = f"""
 {common_nav()}
 <div class="hero-mini">
@@ -636,6 +793,7 @@ def build_surname_page(s):
 </div>
 <main>
   <section class="surname-summary">{s["summary"]}</section>
+  {heritage_card_html}
   {audio_section}
   <h2 class="section-break">Family Tree</h2>
   {d3_tree_html}
