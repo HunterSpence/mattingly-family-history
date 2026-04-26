@@ -1,0 +1,796 @@
+{
+  "byrd_oldest": {
+    "name": "John Henry Bird (Byrd)",
+    "dates": "",
+    "fact": "",
+    "id": null,
+    "generation": 8,
+    "century": 18,
+    "confidence": "probable",
+    "spouse": "Sarah Carter",
+    "children": [
+      {
+        "name": "Richard George Byrd",
+        "dates": "",
+        "fact": "",
+        "id": null,
+        "generation": 9,
+        "century": 18,
+        "confidence": "probable",
+        "spouse": "Elizabeth Buster",
+        "children": [
+          {
+            "name": "Rev. William M. Byrd",
+            "dates": "",
+            "fact": "",
+            "id": null,
+            "generation": 10,
+            "century": 18,
+            "confidence": "probable",
+            "spouse": "Lydia Adair",
+            "children": [
+              {
+                "name": "Michael Byrd",
+                "dates": "",
+                "fact": "",
+                "id": null,
+                "generation": 11,
+                "century": 18,
+                "confidence": "probable",
+                "spouse": "Sally Logan",
+                "children": [
+                  {
+                    "name": "John Howard Byrd",
+                    "dates": "",
+                    "fact": "",
+                    "id": null,
+                    "generation": 12,
+                    "century": 18,
+                    "confidence": "probable",
+                    "spouse": "Mary B. Moore",
+                    "children": [
+                      {
+                        "name": "Benjamin Franklin Byrd",
+                        "dates": "b. 1798",
+                        "fact": "",
+                        "id": null,
+                        "generation": 13,
+                        "century": 18,
+                        "confidence": "probable",
+                        "spouse": "Melissa Colbert",
+                        "children": [
+                          {
+                            "name": "Pvt William Leander 2 Byrd",
+                            "dates": "1832–1889 Frankfort, Franklin, Alabama,",
+                            "fact": "",
+                            "id": null,
+                            "generation": 14,
+                            "century": 18,
+                            "confidence": "probable",
+                            "spouse": "Margarete Rhetta (Perideaux) Peradeau",
+                            "children": [
+                              {
+                                "name": "John Archie Asner Byrd",
+                                "dates": "1868–1928 Birmingham, Jefferson County,",
+                                "fact": "",
+                                "id": null,
+                                "generation": 15,
+                                "century": 18,
+                                "confidence": "probable",
+                                "spouse": "Martha Alice Bedford",
+                                "children": [
+                                  {
+                                    "name": "Otha Lee 'Othar' Byrd",
+                                    "dates": "1902–1989 Milam County, Texas, USA",
+                                    "fact": "",
+                                    "id": null,
+                                    "generation": 16,
+                                    "century": 18,
+                                    "confidence": "probable",
+                                    "spouse": "Mattie Doris Curlee",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "byrd_richard_1717": {
+    "name": "Richard Byrd",
+    "dates": "1717–1808 Westmoreland, Virginia, United",
+    "fact": "",
+    "id": null,
+    "generation": 8,
+    "century": 18,
+    "confidence": "probable",
+    "spouse": "SARAH JANE JONES",
+    "children": [
+      {
+        "name": "Rev. Richard Byrd",
+        "dates": "1750–1803 Louisa, Spotsylvania County, V",
+        "fact": "",
+        "id": null,
+        "generation": 9,
+        "century": 18,
+        "confidence": "probable",
+        "spouse": "Elizabeth Woods-Buster",
+        "children": [
+          {
+            "name": "William BYRD",
+            "dates": "1775–1856 Fincastle, Botetourt, Virginia",
+            "fact": "",
+            "id": null,
+            "generation": 10,
+            "century": 18,
+            "confidence": "probable",
+            "spouse": "Lydia Adair",
+            "children": [
+              {
+                "name": "William John Byrd",
+                "dates": "1799–1855 Knox, Tennessee, United States",
+                "fact": "",
+                "id": null,
+                "generation": 11,
+                "century": 18,
+                "confidence": "probable",
+                "spouse": "Sarah A Fears",
+                "children": [
+                  {
+                    "name": "William Leander Byrd",
+                    "dates": "1832–1889 Frankfort, Franklin Co., Alaba",
+                    "fact": "",
+                    "id": null,
+                    "generation": 12,
+                    "century": 18,
+                    "confidence": "probable",
+                    "spouse": "Margaret Rhetta Peradeau, Margarett Rhetta Perrydore Byrd",
+                    "children": [
+                      {
+                        "name": "Richard Lecurgis Byrd",
+                        "dates": "1860–1939 Franklin, Alabama, United Stat",
+                        "fact": "",
+                        "id": null,
+                        "generation": 13,
+                        "century": 18,
+                        "confidence": "probable",
+                        "spouse": "Eliza Jane Quitt, Eliza Jane Quitt Byrd",
+                        "children": [
+                          {
+                            "name": "Lillie Lodusky Byrd Gillespie",
+                            "dates": "1901–1980 Texas",
+                            "fact": "",
+                            "id": null,
+                            "generation": 14,
+                            "century": 18,
+                            "confidence": "probable",
+                            "spouse": "William Edmondson Gillespie",
+                            "children": []
+                          },
+                          {
+                            "name": "Woodrow Wilson Byrd",
+                            "dates": "1912–1972 Killeen, Texas",
+                            "fact": "",
+                            "id": null,
+                            "generation": 14,
+                            "century": 18,
+                            "confidence": "probable",
+                            "spouse": "Floy Blankenship",
+                            "children": [
+                              {
+                                "name": "La Nae Byrd",
+                                "dates": "1942–2025 Temple, Texas, USA",
+                                "fact": "",
+                                "id": null,
+                                "generation": 15,
+                                "century": 18,
+                                "confidence": "probable",
+                                "spouse": null,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rev. Richard Byrd",
+            "dates": "1750–1803 Louisa, Spotsylvania County, V",
+            "fact": "",
+            "id": null,
+            "generation": 10,
+            "century": 18,
+            "confidence": "probable",
+            "spouse": "Elizabeth Woods-Buster",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "byrd_william_leander": {
+    "name": "William Leander Byrd",
+    "dates": "1832–1889 Frankfort, Franklin Co., Alaba",
+    "fact": "",
+    "id": null,
+    "generation": 14,
+    "century": 19,
+    "confidence": "probable",
+    "spouse": "Margaret Rhetta Peradeau, Margarett Rhetta Perrydore Byrd",
+    "children": [
+      {
+        "name": "Richard Lecurgis Byrd",
+        "dates": "1860–1939 Franklin, Alabama, United Stat",
+        "fact": "",
+        "id": null,
+        "generation": 15,
+        "century": 19,
+        "confidence": "probable",
+        "spouse": "Eliza Jane Quitt, Eliza Jane Quitt Byrd",
+        "children": [
+          {
+            "name": "Lillie Lodusky Byrd Gillespie",
+            "dates": "1901–1980 Texas",
+            "fact": "",
+            "id": null,
+            "generation": 16,
+            "century": 19,
+            "confidence": "probable",
+            "spouse": "William Edmondson Gillespie",
+            "children": []
+          },
+          {
+            "name": "Woodrow Wilson Byrd",
+            "dates": "1912–1972 Killeen, Texas",
+            "fact": "",
+            "id": null,
+            "generation": 16,
+            "century": 19,
+            "confidence": "probable",
+            "spouse": "Floy Blankenship",
+            "children": [
+              {
+                "name": "La Nae Byrd",
+                "dates": "1942–2025 Temple, Texas, USA",
+                "fact": "",
+                "id": null,
+                "generation": 17,
+                "century": 19,
+                "confidence": "probable",
+                "spouse": null,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "byrd_john_archie": {
+    "name": "John Archie Asner Byrd",
+    "dates": "1868–1928 Birmingham, Jefferson County,",
+    "fact": "",
+    "id": null,
+    "generation": 15,
+    "century": 19,
+    "confidence": "probable",
+    "spouse": "Martha Alice Bedford",
+    "children": [
+      {
+        "name": "Otha Lee 'Othar' Byrd",
+        "dates": "1902–1989 Milam County, Texas, USA",
+        "fact": "",
+        "id": null,
+        "generation": 16,
+        "century": 19,
+        "confidence": "probable",
+        "spouse": "Mattie Doris Curlee",
+        "children": [
+          {
+            "name": "Sharon Kay Byrd",
+            "dates": "1944–2020 Velasco, Brazoria, Texas, USA",
+            "fact": "",
+            "id": null,
+            "generation": 17,
+            "century": 19,
+            "confidence": "probable",
+            "spouse": null,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "henslee_maxfield_1727": {
+    "name": "Maxfield Henslee",
+    "dates": "1810–1900 North Carolina",
+    "fact": "",
+    "id": null,
+    "generation": 8,
+    "century": 18,
+    "confidence": "probable",
+    "spouse": "Mary Blackwell",
+    "children": [
+      {
+        "name": "Enoch Henslee",
+        "dates": "1832–1916 Carroll, Georgia, United State",
+        "fact": "",
+        "id": null,
+        "generation": 9,
+        "century": 18,
+        "confidence": "probable",
+        "spouse": "Sarah Jane Hudson",
+        "children": [
+          {
+            "name": "Miles Reed Henslee",
+            "dates": "1856–1894 Caldwell, Burleson, Texas USA",
+            "fact": "",
+            "id": null,
+            "generation": 10,
+            "century": 18,
+            "confidence": "probable",
+            "spouse": "Lula Jane Norville",
+            "children": [
+              {
+                "name": "James Ernest (Pappy) Henslee",
+                "dates": "1885–1948 Lyons, Burleson County, Texas,",
+                "fact": "",
+                "id": null,
+                "generation": 11,
+                "century": 18,
+                "confidence": "probable",
+                "spouse": "Mary Alice Stuart",
+                "children": [
+                  {
+                    "name": "Lee Stuart Henslee",
+                    "dates": "1908–1994",
+                    "fact": "",
+                    "id": null,
+                    "generation": 12,
+                    "century": 18,
+                    "confidence": "probable",
+                    "spouse": "Frances Virginia Rau",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "James Ernest Henslee",
+                "dates": "1885–1948 Burleson County, Texas",
+                "fact": "",
+                "id": null,
+                "generation": 11,
+                "century": 18,
+                "confidence": "probable",
+                "spouse": "Alice Stuart Henslee",
+                "children": [
+                  {
+                    "name": "Lee Stuart Henslee",
+                    "dates": "1908–1994",
+                    "fact": "",
+                    "id": null,
+                    "generation": 12,
+                    "century": 18,
+                    "confidence": "probable",
+                    "spouse": "Frances Virginia Rau",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maxfield Henslee",
+            "dates": "1810–1900 North Carolina",
+            "fact": "",
+            "id": null,
+            "generation": 10,
+            "century": 18,
+            "confidence": "probable",
+            "spouse": "Mary Blackwell",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "David E Henslee",
+        "dates": "1760–1820 Hanover, Virginia, United Stat",
+        "fact": "",
+        "id": null,
+        "generation": 9,
+        "century": 18,
+        "confidence": "probable",
+        "spouse": "Mary Payne",
+        "children": [
+          {
+            "name": "Enoch Henslee",
+            "dates": "1832–1916 Carroll, Georgia, United State",
+            "fact": "",
+            "id": null,
+            "generation": 10,
+            "century": 18,
+            "confidence": "probable",
+            "spouse": "Sarah Jane Hudson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "henslee_pappy": {
+    "name": "James Ernest Henslee",
+    "dates": "1885–1948 Burleson County, Texas",
+    "fact": "",
+    "id": null,
+    "generation": 14,
+    "century": 20,
+    "confidence": "probable",
+    "spouse": "Alice Stuart Henslee",
+    "children": [
+      {
+        "name": "Lee Stuart Henslee",
+        "dates": "1908–1994",
+        "fact": "",
+        "id": null,
+        "generation": 15,
+        "century": 20,
+        "confidence": "probable",
+        "spouse": "Frances Virginia Rau",
+        "children": []
+      }
+    ]
+  },
+  "rau_frank": {
+    "name": "Frank H. Rau",
+    "dates": "1895–1977 Whitehall, Washington, New Yor",
+    "fact": "",
+    "id": null,
+    "generation": 14,
+    "century": 20,
+    "confidence": "probable",
+    "spouse": "Ethel Lee Reece",
+    "children": [
+      {
+        "name": "Frances Virginia Rau",
+        "dates": "1918–2008",
+        "fact": "",
+        "id": null,
+        "generation": 15,
+        "century": 20,
+        "confidence": "probable",
+        "spouse": "Lee Stuart Henslee",
+        "children": []
+      },
+      {
+        "name": "Frances Virginia Rau Henslee",
+        "dates": "1918–2008 Texas",
+        "fact": "",
+        "id": null,
+        "generation": 15,
+        "century": 20,
+        "confidence": "probable",
+        "spouse": "Lee Stuart Henslee",
+        "children": []
+      }
+    ]
+  },
+  "stuart_lewis": {
+    "name": "Lewis Lunsford Stuart",
+    "dates": "1830–1906 Caroline County, VA",
+    "fact": "",
+    "id": null,
+    "generation": 13,
+    "century": 19,
+    "confidence": "probable",
+    "spouse": "Nora C. Sale, Nora Corrigan Sale",
+    "children": [
+      {
+        "name": "Alice Stuart Henslee",
+        "dates": "1887–1981 Burleson County, Texas",
+        "fact": "",
+        "id": null,
+        "generation": 14,
+        "century": 19,
+        "confidence": "probable",
+        "spouse": "James Ernest Henslee",
+        "children": [
+          {
+            "name": "Lee Stuart Henslee",
+            "dates": "1908–1994",
+            "fact": "",
+            "id": null,
+            "generation": 15,
+            "century": 19,
+            "confidence": "probable",
+            "spouse": "Frances Virginia Rau",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Mary Alice Stuart",
+        "dates": "1887–1981 Caldwell, Burleson, Texas, Uni",
+        "fact": "",
+        "id": null,
+        "generation": 14,
+        "century": 19,
+        "confidence": "probable",
+        "spouse": "James Ernest (Pappy) Henslee",
+        "children": [
+          {
+            "name": "Lee Stuart Henslee",
+            "dates": "1908–1994",
+            "fact": "",
+            "id": null,
+            "generation": 15,
+            "century": 19,
+            "confidence": "probable",
+            "spouse": "Frances Virginia Rau",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Reuben Lucius Stuart",
+        "dates": "1885–1962 Caldwell, Burleson County, TX",
+        "fact": "",
+        "id": null,
+        "generation": 14,
+        "century": 19,
+        "confidence": "probable",
+        "spouse": "Letha Mae Rebecca Brent, Letha May Rebecca Brent",
+        "children": [
+          {
+            "name": "Jesse Weed Stuart",
+            "dates": "1914–1994 Beaumont, Jefferson, Texas, US",
+            "fact": "",
+            "id": null,
+            "generation": 15,
+            "century": 19,
+            "confidence": "probable",
+            "spouse": "Elisabeth Ann Ryburn",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "mattingly_thomas_jefferson": {
+    "name": "Thomas Jefferson Mattingly",
+    "dates": "1828–1883 Kentucky, USA",
+    "fact": "",
+    "id": null,
+    "generation": 12,
+    "century": 19,
+    "confidence": "probable",
+    "spouse": "Elizabeth H Christie",
+    "children": [
+      {
+        "name": "Edward D Mattingly",
+        "dates": "1868–1945 Missouri, USA",
+        "fact": "",
+        "id": null,
+        "generation": 13,
+        "century": 19,
+        "confidence": "probable",
+        "spouse": "Mary Teichmueller",
+        "children": [
+          {
+            "name": "Leroy Teichmueller Mattingly",
+            "dates": "1896–1968 La Grange, Fayette, Texas, USA",
+            "fact": "",
+            "id": null,
+            "generation": 14,
+            "century": 19,
+            "confidence": "probable",
+            "spouse": "Ruth A Baity",
+            "children": [
+              {
+                "name": "Leroy Mattingly",
+                "dates": "1922–2013 San Antonio, Bexar, Texas, USA",
+                "fact": "",
+                "id": null,
+                "generation": 15,
+                "century": 19,
+                "confidence": "probable",
+                "spouse": "Jennive Lepick",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "mattingly_edward_sr": {
+    "name": "Edward D Mattingly",
+    "dates": "1868–1945 Missouri, USA",
+    "fact": "",
+    "id": null,
+    "generation": 13,
+    "century": 20,
+    "confidence": "probable",
+    "spouse": "Mary Teichmueller",
+    "children": [
+      {
+        "name": "Leroy Teichmueller Mattingly",
+        "dates": "1896–1968 La Grange, Fayette, Texas, USA",
+        "fact": "",
+        "id": null,
+        "generation": 14,
+        "century": 20,
+        "confidence": "probable",
+        "spouse": "Ruth A Baity",
+        "children": [
+          {
+            "name": "Leroy Mattingly",
+            "dates": "1922–2013 San Antonio, Bexar, Texas, USA",
+            "fact": "",
+            "id": null,
+            "generation": 15,
+            "century": 20,
+            "confidence": "probable",
+            "spouse": "Jennive Lepick",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "baity_isham": {
+    "name": "S",
+    "dates": "b. 1808 South Carolina, USA",
+    "fact": "",
+    "id": null,
+    "generation": 10,
+    "century": 19,
+    "confidence": "probable",
+    "spouse": null,
+    "children": [
+      {
+        "name": "John Wiley Gready",
+        "dates": "1820–1860 Mississippi",
+        "fact": "",
+        "id": null,
+        "generation": 11,
+        "century": 19,
+        "confidence": "probable",
+        "spouse": "Mary Ann Pope",
+        "children": [
+          {
+            "name": "Orinthia Katurah Gready",
+            "dates": "1845–1922 Texas, United States",
+            "fact": "",
+            "id": null,
+            "generation": 12,
+            "century": 19,
+            "confidence": "probable",
+            "spouse": "Harmon Augustus Grimsley",
+            "children": [
+              {
+                "name": "Allie Mae Winslow",
+                "dates": "1869–1955 Alto, Cherokee, Texas, United",
+                "fact": "",
+                "id": null,
+                "generation": 13,
+                "century": 19,
+                "confidence": "probable",
+                "spouse": "Charles Walter Brent",
+                "children": [
+                  {
+                    "name": "Letha Mae Rebecca Brent",
+                    "dates": "1889–1971 Trinity, Trinity, Texas, Unite",
+                    "fact": "",
+                    "id": null,
+                    "generation": 14,
+                    "century": 19,
+                    "confidence": "probable",
+                    "spouse": "Reuben Lucius Stuart",
+                    "children": [
+                      {
+                        "name": "Jesse Weed Stuart",
+                        "dates": "1914–1994 Beaumont, Jefferson, Texas, US",
+                        "fact": "",
+                        "id": null,
+                        "generation": 15,
+                        "century": 19,
+                        "confidence": "probable",
+                        "spouse": "Elisabeth Ann Ryburn",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Letha May Rebecca Brent",
+                    "dates": "1888–1971 near Holly, Trinity County, TX",
+                    "fact": "",
+                    "id": null,
+                    "generation": 14,
+                    "century": 19,
+                    "confidence": "probable",
+                    "spouse": "Reuben Lucius Stuart",
+                    "children": [
+                      {
+                        "name": "Jesse Weed Stuart",
+                        "dates": "1914–1994 Beaumont, Jefferson, Texas, US",
+                        "fact": "",
+                        "id": null,
+                        "generation": 15,
+                        "century": 19,
+                        "confidence": "probable",
+                        "spouse": "Elisabeth Ann Ryburn",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "teichmueller_hans": {
+    "name": "Hans Teichmueller",
+    "dates": "1837–1901 Braunschweig, Germany",
+    "fact": "",
+    "id": null,
+    "generation": 13,
+    "century": 19,
+    "confidence": "probable",
+    "spouse": "Auguste Helene Dorothee Elisabeth Kellner",
+    "children": [
+      {
+        "name": "Mary Teichmueller",
+        "dates": "1867–1900 Texas, United States",
+        "fact": "",
+        "id": null,
+        "generation": 14,
+        "century": 19,
+        "confidence": "probable",
+        "spouse": "Edward D Mattingly",
+        "children": [
+          {
+            "name": "Leroy Teichmueller Mattingly",
+            "dates": "1896–1968 La Grange, Fayette, Texas, USA",
+            "fact": "",
+            "id": null,
+            "generation": 15,
+            "century": 19,
+            "confidence": "probable",
+            "spouse": "Ruth A Baity",
+            "children": [
+              {
+                "name": "Leroy Mattingly",
+                "dates": "1922–2013 San Antonio, Bexar, Texas, USA",
+                "fact": "",
+                "id": null,
+                "generation": 16,
+                "century": 19,
+                "confidence": "probable",
+                "spouse": "Jennive Lepick",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

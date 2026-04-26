@@ -28,6 +28,7 @@ SURNAMES = [
         "subtitle": "Hampshire England → Maryland 1666 → Kentucky 1786 → Texas 1894 → Hunter",
         "tree_label_substring": None,  # Mattingly is the PRIMARY tree (root: Alric pre-1066)
         "use_primary_tree": True,
+        "extra_tree_labels": ["MATTINGLY COUSIN TREE"],
         "summary": (
             "The deepest documented line in the family — over 1,000 years from Anglo-Saxon "
             "Hampshire (Alric, fl. before 1066, holder of Mattingley manor under Edward the "
@@ -45,7 +46,8 @@ SURNAMES = [
         "id": "spence",
         "title": "The Spence Line",
         "subtitle": "NE England → Beaumont, Texas → Hunter (the line he carries his surname from)",
-        "tree_label_substring": "PATERNAL — Spence",
+        "tree_label_substring": "PATERNAL — Byrd",
+        "extra_tree_labels": ["BYRD COUSIN TREE", "PATERNAL — Spence patrilineal"],
         "summary": (
             "Hunter's surname comes from this line — a still-unnamed English immigrant from "
             "north-east England (probably Yorkshire, Durham, or Northumberland) who arrived "
@@ -64,6 +66,7 @@ SURNAMES = [
         "title": "The Henslee Line",
         "subtitle": "Dallas → Beaumont → Nederland, Texas — Hunter's paternal grandmother's people",
         "tree_label_substring": "PATERNAL — Henslee",
+        "extra_tree_labels": ["HENSLEE COUSIN TREE", "STUART COUSIN TREE", "PATERNAL — Rau"],
         "summary": (
             "Lee Stuart Henslee married Frances of Dallas around 1948. They lived 55 years in "
             "Beaumont, Texas before retiring to Nederland in 1993. They were practising "
@@ -81,6 +84,7 @@ SURNAMES = [
         "title": "The Baity Line",
         "subtitle": "Border Scots → Ulster 1610 → Pennsylvania → North Carolina → San Antonio",
         "tree_label_substring": "MATERNAL — Baity",
+        "extra_tree_labels": ["BAITY COUSIN TREE"],
         "summary": (
             "A classic Scots-Irish migration corridor. The surname was \"Beatty\" or \"Beattie\" "
             "in the Scottish Borders — a diminutive of Bartholomew (Bate-y). The family moved "
@@ -141,6 +145,7 @@ SURNAMES = [
         "title": "The Teichmüller Line",
         "subtitle": "Harz mountains 1580 → Brunswick → La Grange, Texas (six confirmed German generations)",
         "tree_label_substring": "Teichmüller",
+        "extra_tree_labels": ["TEICHMUELLER COUSIN TREE"],
         "summary": (
             "The deepest German line in Hunter's family — confirmed by the Neue Deutsche "
             "Biographie (vol. 26, 2016, p. 6). Six documented patrilineal generations: "
@@ -532,13 +537,53 @@ def build_index():
     return html_shell("Hunter's Roots — Family Archive", body)
 
 
+def find_all_trees_matching(label_substrings):
+    """Find ALL secondary trees whose labels contain any of the given substrings."""
+    found = []
+    subs = [s.lower() for s in label_substrings]
+    for st in MULTI.get("secondary_trees", []) or []:
+        label = (st.get("label", "") or "").lower()
+        for sub in subs:
+            if sub in label:
+                found.append({"label": st.get("label", ""), "tree": st["tree"]})
+                break
+    return found
+
+
 def build_surname_page(s):
     if s.get("use_primary_tree"):
-        tree = get_primary_tree()
+        primary_tree = get_primary_tree()
+        primary_label = "Primary spine (Hunter's direct line)"
     else:
-        tree = find_tree(s.get("tree_label_substring") or s["title"])
-    d3_tree_html = render_d3_tree_section(tree)
-    list_tree_html = render_node_ul(tree) if tree else ""
+        primary_tree = find_tree(s.get("tree_label_substring") or s["title"])
+        primary_label = "Hunter's direct line"
+    d3_tree_html = render_d3_tree_section(primary_tree)
+    list_tree_html = render_node_ul(primary_tree) if primary_tree else ""
+
+    # Render extra cousin-GEDCOM trees
+    extra_trees_html = ""
+    extra_labels = s.get("extra_tree_labels") or []
+    if extra_labels:
+        extras = find_all_trees_matching(extra_labels)
+        if extras:
+            blocks = []
+            for ex in extras:
+                blocks.append(f"""
+<details class="extra-tree-card" open>
+  <summary><strong>{html.escape(ex["label"])}</strong></summary>
+  <article class="subtree-card">
+    <ul class="subtree-tree">{render_node_ul(ex["tree"])}</ul>
+  </article>
+</details>""")
+            extra_trees_html = (
+                '<h2 class="section-break">Extended Cousin Trees</h2>'
+                '<p style="color:var(--ink-soft);font-style:italic;margin-bottom:var(--sp-md);">'
+                "These wider trees are pulled directly from your DNA matches' "
+                "Ancestry GEDCOMs — every documented cousin, sibling, and descendant "
+                "shared in their family tree."
+                "</p>"
+                + "".join(blocks)
+            )
     cards = render_entity_cards(s.get("branch_match") or [s["id"]])
     cards_section = (f'<h2 class="section-break">People</h2><div class="person-cards-grid">{cards}</div>'
                      if cards else "")
@@ -577,6 +622,7 @@ def build_surname_page(s):
   <h2 class="section-break">Family Tree</h2>
   {d3_tree_html}
   {list_block}
+  {extra_trees_html}
   {cards_section}
 </main>
 """

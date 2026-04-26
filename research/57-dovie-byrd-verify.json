@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "file": "57-dovie-byrd-verify",
+    "prepared": "2026-04-26",
+    "researcher": "Researcher Specialist (claude-sonnet-4-6)",
+    "question": "Was Dovie Byrd a daughter of John Archie Asner Byrd + Martha Alice Bedford?",
+    "overall_confidence": "POSSIBLE",
+    "summary": "Hypothesis is internally consistent and geographically plausible, but no primary source confirms Dovie as a child of John A Byrd. The question cannot be upgraded beyond POSSIBLE with freely accessible open-web records."
+  },
+  "confidence_scale": {
+    "CONFIRMED": "Primary source documentary record cited (burial index, vital record, newspaper)",
+    "PROBABLE": "2+ corroborating secondary sources, no single record states the full claim",
+    "POSSIBLE": "Plausible from single source or logical inference",
+    "UNVERIFIED": "Noted, no corroboration found",
+    "NOT_FOUND": "Searched, not found in this pass"
+  },
+  "confirmed_records": [
+    {
+      "person": "John A Byrd",
+      "birth_date": "March 28, 1868",
+      "birth_place_gedcom_claim": "Birmingham, Alabama",
+      "birth_place_confirmed": null,
+      "death_date": "August 31, 1928",
+      "burial_place": "Sharp Cemetery, Sharp, Milam County, Texas",
+      "burial_address": "Sharp, TX",
+      "confidence": "CONFIRMED",
+      "notes": [
+        "Exact date match with KcaMarco GEDCOM parameters (born 1868, died 1928)",
+        "PeopleLegacy record does not confirm Birmingham birthplace or middle name Archie/Asner",
+        "Only 'John A Byrd' in the burial index"
+      ],
+      "source": "https://peoplelegacy.com/john_a_byrd-3n4s36"
+    },
+    {
+      "person": "Otha Lee Byrd Sr.",
+      "birth_date": "May 21, 1902",
+      "birth_place": null,
+      "death_date": "July 30, 1989",
+      "burial_place": "Restwood Memorial Park, Clute, Brazoria County, Texas",
+      "burial_address": "1038 West Lake Jackson Rd, Clute, TX 77566",
+      "spouse": "Doris Curlee Byrd (1907-1957)",
+      "parents_per_gedcom": {
+        "father": "John Archie Asner Byrd",
+        "mother": "Martha Alice Bedford"
+      },
+      "confidence": "CONFIRMED for burial; UNVERIFIED for parentage",
+      "notes": [
+        "Exact date match with KcaMarco GEDCOM (born 1902, died 1989)",
+        "PeopleLegacy does NOT list parents",
+        "Parentage comes only from KcaMarco GEDCOM — not independently confirmed"
+      ],
+      "source": "https://peoplelegacy.com/otha_lee_byrd__sr-0y391j"
+    },
+    {
+      "person": "William Luther Byrd",
+      "birth_date": "April 8, 1888",
+      "death_date": "February 11, 1930",
+      "burial_place": "Sharp Cemetery, Sharp, Milam County, Texas",
+      "confidence": "CONFIRMED",
+      "notes": ["Possible son of John A Byrd — same cemetery, plausible 20-year age gap"],
+      "source": "https://peoplelegacy.com/william_luther_byrd-094s36"
+    },
+    {
+      "person": "James Lee Byrd",
+      "birth_date": "1892",
+      "death_date": "1950",
+      "burial_place": "Sharp Cemetery, Sharp, Milam County, Texas",
+      "confidence": "CONFIRMED",
+      "notes": ["Possible son of John A Byrd — same cemetery, plausible 24-year age gap"],
+      "source": "https://peoplelegacy.com/james_lee_byrd-6l4s36"
+    },
+    {
+      "person": "Margaret Byrd",
+      "birth_date": "1829",
+      "death_date": "1925",
+      "burial_place": "Sharp Cemetery, Sharp, Milam County, Texas",
+      "confidence": "CONFIRMED",
+      "notes": ["Age (b. 1829) suggests John A Byrd's mother or grandmother — approximately 39 years older than John"],
+      "source": "https://peoplelegacy.com/margaret_byrd-1o4s36"
+    },
+    {
+      "person": "Lillie Byrd",
+      "birth_date": "October 19, 1877",
+      "death_date": "December 20, 1948",
+      "burial_place": "Restwood Memorial Park, Clute, Brazoria County, Texas",
+      "burial_address": "1038 West Lake Jackson Rd, Clute, TX 77566",
+      "confidence": "CONFIRMED",
+      "notes": [
+        "Buried at same cemetery and address as Otha Lee Byrd Sr.",
+        "Age (b. 1877) is consistent with being Otha's mother if she married John A Byrd (b. 1868)",
+        "INCONSISTENCY: KcaMarco GEDCOM names Otha's mother as 'Martha Alice Bedford', not 'Lillie'",
+        "This inconsistency is unresolved — Lillie could be a sister, aunt, or the GEDCOM may have an error"
+      ],
+      "source": "https://peoplelegacy.com/lillie_byrd-6S3Q5i"
+    }
+  ],
+  "not_found": [
+    {
+      "search": "Dovie Byrd burial record in Texas",
+      "result": "NOT FOUND",
+      "notes": [
+        "PeopleLegacy Texas filter for Dovie Byrd returns only 'Dovie Phillips Byrd' (1916-2002, Jenkins TX) — she married INTO the Byrd family, not a Byrd by birth",
+        "No burial record for a Dovie Byrd born 1900-1915 in Texas was found in open records"
+      ]
+    },
+    {
+      "search": "Dovie Byrd + Spence marriage record Texas 1920-1935",
+      "result": "NOT FOUND",
+      "notes": [
+        "GenLookups TX marriage index (1966-1972) does not cover this date range",
+        "No newspaper marriage announcement found via open sources",
+        "County-level marriage index requires Ancestry/FamilySearch login for pre-1966 records"
+      ]
+    },
+    {
+      "search": "Dovie Spence death or burial record Texas",
+      "result": "NOT FOUND",
+      "notes": [
+        "PeopleLegacy search for Dovie Spence returned no results",
+        "Find a Grave blocked by Cloudflare protection",
+        "Texas Death Certificate index requires FamilySearch login"
+      ]
+    },
+    {
+      "search": "Dovie Byrd birth record Texas 1900-1915",
+      "result": "NOT FOUND",
+      "notes": [
+        "Texas birth index not accessible via open web in this research pass",
+        "Texas State Archives birth certificates 1903-1939 require FamilySearch login"
+      ]
+    }
+  ],
+  "specific_questions": {
+    "Q1_Dovie_born_to_John_Archie_Byrd": {
+      "status": "NOT FOUND",
+      "confidence": "UNVERIFIED",
+      "explanation": "No primary source confirms Dovie as a child of John A Byrd. The burial records for John A Byrd (Sharp Cemetery) do not list children."
+    },
+    "Q2_full_child_list_of_John_Archie_Byrd": {
+      "status": "PARTIAL",
+      "confidence": "POSSIBLE for identified candidates",
+      "candidates": [
+        {"name": "William Luther Byrd", "dates": "1888-1930", "basis": "Same cemetery as father, 20-year age gap", "confidence": "POSSIBLE"},
+        {"name": "James Lee Byrd", "dates": "1892-1950", "basis": "Same cemetery as father, 24-year age gap", "confidence": "POSSIBLE"},
+        {"name": "Otha Lee Byrd Sr.", "dates": "1902-1989", "basis": "KcaMarco GEDCOM + exact burial record", "confidence": "PROBABLE"}
+      ],
+      "explanation": "Census records (1910 Milam Co) would be definitive. Open web sources did not yield a complete child list."
+    },
+    "Q3_Dovie_Byrd_married_Spence_Texas": {
+      "status": "NOT FOUND",
+      "confidence": "UNVERIFIED"
+    },
+    "Q4_Dovie_birth_year_birthplace": {
+      "status": "UNVERIFIED",
+      "estimated_birth_range": "1900-1918",
+      "basis": "Backward calculation from Dale Sr. birth ~1934-1936; John A Byrd (1868) would be 32-50 years old — plausible for a later child"
+    },
+    "Q5_Dovie_death_year_place": {
+      "status": "NOT FOUND",
+      "confidence": "UNVERIFIED"
+    },
+    "Q6_Dovie_siblings": {
+      "status": "POSSIBLE candidates identified",
+      "siblings_possible": [
+        {"name": "William Luther Byrd", "dates": "1888-1930", "location": "Sharp, Milam Co TX"},
+        {"name": "James Lee Byrd", "dates": "1892-1950", "location": "Sharp, Milam Co TX"},
+        {"name": "Otha Lee Byrd Sr.", "dates": "1902-1989", "location": "Clute, Brazoria Co TX"}
+      ]
+    }
+  },
+  "geographic_analysis": {
+    "summary": "Geographic migration pattern is consistent with the hypothesis",
+    "confidence": "PROBABLE for geographic consistency",
+    "pattern": "Milam County TX (Sharp) -> Gulf Coast TX (Clute/Beaumont area), 1920s-1940s",
+    "note": "Oil and chemical industry corridor from Spindletop (1901) through Brazoria Co and Jefferson Co drew migration from Central Texas. If Dovie married a Spence and moved to Beaumont (Jefferson Co) while Otha moved to Clute (Brazoria Co), both followed the same documented regional migration pattern."
+  },
+  "inconsistency_flag": {
+    "issue": "Mother name conflict",
+    "detail": "KcaMarco GEDCOM says Otha's mother was 'Martha Alice Bedford'. PeopleLegacy shows 'Lillie Byrd' (1877-1948) buried at same cemetery as Otha in Clute TX. These do not match.",
+    "possible_explanations": [
+      "GEDCOM may have an error — Lillie could be the actual mother",
+      "Lillie could be Otha's sister, aunt, or unrelated person buried nearby",
+      "The Clute Byrd family may not be connected to the Sharp Cemetery Byrd family at all",
+      "John A Byrd may have remarried — first wife Lillie, then Martha Alice Bedford (or vice versa)"
+    ],
+    "resolution_status": "UNRESOLVED"
+  },
+  "next_steps": [
+    {
+      "priority": 1,
+      "action": "1910 US Census, Milam County, TX — search John A Byrd household",
+      "expected_yield": "Would list wife and all children by name and age, potentially naming Dovie",
+      "source": "https://www.familysearch.org",
+      "collection_id": "1727033",
+      "cost": "Free with FamilySearch account"
+    },
+    {
+      "priority": 2,
+      "action": "1920 US Census — search both Milam County and Jefferson County TX for Byrd households",
+      "expected_yield": "Would show remaining children and/or Dovie in a Spence household",
+      "source": "https://www.familysearch.org",
+      "cost": "Free with FamilySearch account"
+    },
+    {
+      "priority": 3,
+      "action": "1930 US Census, Jefferson County TX — search for Dovie Spence household in Beaumont",
+      "expected_yield": "If Dovie married by 1930, she would appear with husband and children including Dale Sr.",
+      "source": "https://www.familysearch.org",
+      "cost": "Free with FamilySearch account"
+    },
+    {
+      "priority": 4,
+      "action": "Texas Death Certificate for Dovie Spence (est. death 1950-1990)",
+      "expected_yield": "Would give maiden name, parents, birth date, birthplace",
+      "source": "https://www.familysearch.org/search/collection/1674538",
+      "cost": "Free with FamilySearch account"
+    },
+    {
+      "priority": 5,
+      "action": "Contact KcaMarco via Ancestry or FamilySearch messaging",
+      "expected_yield": "Direct family tree confirmation — they may already have Dovie as a sibling of Otha",
+      "cost": "Free (requires Ancestry account)"
+    },
+    {
+      "priority": 6,
+      "action": "Find a Grave (requires browser session) — search Sharp Cemetery and Restwood Memorial Park for additional Byrd family members",
+      "expected_yield": "May list Dovie or Martha Alice Bedford as buried at Sharp Cemetery",
+      "source": "https://www.findagrave.com",
+      "cost": "Free with account"
+    }
+  ],
+  "sources": [
+    {
+      "title": "PeopleLegacy — John A Byrd (1868-1928), Sharp TX",
+      "url": "https://peoplelegacy.com/john_a_byrd-3n4s36",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "title": "PeopleLegacy — Otha Lee Byrd Sr. (1902-1989), Clute TX",
+      "url": "https://peoplelegacy.com/otha_lee_byrd__sr-0y391j",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "title": "PeopleLegacy — William Luther Byrd (1888-1930), Sharp TX",
+      "url": "https://peoplelegacy.com/william_luther_byrd-094s36",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "title": "PeopleLegacy — James Lee Byrd (1892-1950), Sharp TX",
+      "url": "https://peoplelegacy.com/james_lee_byrd-6l4s36",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "title": "PeopleLegacy — Margaret Byrd (1829-1925), Sharp TX",
+      "url": "https://peoplelegacy.com/margaret_byrd-1o4s36",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "title": "PeopleLegacy — Lillie Byrd (1877-1948), Clute TX",
+      "url": "https://peoplelegacy.com/lillie_byrd-6S3Q5i",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "title": "PeopleLegacy — Dovie Phillips Byrd (1916-2002), Jenkins TX (wrong person — married INTO Byrd)",
+      "url": "https://peoplelegacy.com/dovie_phillips_byrd-167V131",
+      "confidence": "CONFIRMED (different person)"
+    },
+    {
+      "title": "Prior research — 48-dovie-spence-deep.md",
+      "url": "C:/Users/hspen/.openclaw/workspace/family-history/research/48-dovie-spence-deep.md",
+      "confidence": "Internal reference"
+    }
+  ]
+}

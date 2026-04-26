@@ -188,22 +188,20 @@ def main():
                 "child_names": set(),
             })
             agg["appears_in"].append(cousin_label)
-            # Merge missing fields
+            # Merge missing fields (overwrite if existing is empty)
             for fld in ("sex", "birth_year", "birth_place", "death_year", "death_place"):
                 if not agg.get(fld) and p.get(fld):
                     agg[fld] = p[fld]
-            # Resolve parents from FAMC
+            # UNION parents/spouses/children across all file occurrences (NEVER overwrite)
             if p.get("famc") and p["famc"] in families:
                 hxref, wxref = child_of_fam.get(p["famc"], (None, None))
                 if hxref and hxref in persons:
                     agg["parent_names"].add(persons[hxref]["full_name"])
                 if wxref and wxref in persons:
                     agg["parent_names"].add(persons[wxref]["full_name"])
-            # Resolve spouses + children from FAMS
             for fxref in p.get("fams", []):
                 if fxref in families:
                     fam = families[fxref]
-                    # spouse = the other one
                     if fam.get("husb") == xref and fam.get("wife") in persons:
                         agg["spouse_names"].add(persons[fam["wife"]]["full_name"])
                     elif fam.get("wife") == xref and fam.get("husb") in persons:
