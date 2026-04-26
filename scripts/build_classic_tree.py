@@ -290,7 +290,7 @@ alric = n("Alric (Anglo-Saxon)", "fl. before 1066", "Held Mattingley as alod (fr
 # Lavaca County TX). Lutheran. Buried Sons of Hermann Cemetery. Hilda's mother UNVERIFIED.
 
 shari_mother = n("Jennive Imogene Lepick", "2 Feb 1923 Floresville TX – 2008 Colorado Springs", "Shari's mother (Hunter's maternal great-grandmother). m. Leroy Baity Mattingly 18 Dec 1943 at Fort Sill OK. Dietician degree from Our Lady of the Lake College, San Antonio. Find a Grave 36080759. WikiTree Lepick-1.", None, 15, 20, "confirmed",
-                 [], spouse="Leroy Baity Mattingly")
+                 [shari], spouse="Leroy Baity Mattingly")
 
 # Jennive's siblings
 gertrude_lepick = n("Gertrude (Lepick) Hurlburt", "1920–2000", "Jennive's older sister", None, 15, 20, "confirmed")
@@ -301,7 +301,8 @@ fred_lepick_jr = n("Fred Charles Lepick Jr.", "1925–2016", "Jennive's younger 
 # entered via Indianola TX (pre-1875 manifests lost in 1875 hurricane); Lutheran (likely LCMS Missouri Synod).
 # Convergent evidence: Breslau TX (7 mi NW Hallettsville) named for Prussian Breslau (Wrocław) = Silesian settlers.
 
-hilda_boehme = n("Hilda (Boehme) Lepick", "~1900 TX – ~1945", "Jennive's mother. Maiden name Boehme. Daughter of Herman F. Boehme + Minna Marie Macker. Texas-born; German-Lutheran community. FamilySearch PID LKM6-W7J.", None, 14, 20, "confirmed", spouse="Fred Charles Lepick Sr.")
+hilda_boehme = n("Hilda (Boehme) Lepick", "~1900 TX – ~1945", "Jennive's mother. Maiden name Boehme. Daughter of Herman F. Boehme + Minna Marie Macker. Texas-born; German-Lutheran community. FamilySearch PID LKM6-W7J.", None, 14, 20, "confirmed",
+                  [shari_mother], spouse="Fred Charles Lepick Sr.")
 
 # Half-siblings of Hilda via Minna's 2nd marriage to John W. Luedecke
 luedecke_2 = n("Herbert John Luedecke", "?", "Half-sibling of Hilda Boehme (via mother Minna's 2nd marriage to John W. Luedecke). Per PeopleLegacy.", None, 14, 20, "probable")
@@ -349,7 +350,8 @@ baity_george = n("George Baity / Batee / Baty", "fl. 1774 Rowan/Surry Co NC", "E
 baity_david = n("David Baity", "fl. ~1830 Surry Co NC", "PROBABLE link between George (1774) and Isham (1804) — adult by 1830 Surry Co.", None, 9, 19, "possible", [baity_george])
 baity_isham = n("Isham 'Isom' Baity", "19 Oct 1804 – 23 Dec 1892 Yadkin Co NC", "CONFIRMED documented person; PROBABLE direct ancestor of William D. Baity. Yadkin Co NC.", None, 10, 19, "probable", [baity_david])
 baity_william_d = n("William D. Baity", "1829/1830 – 1894 Yadkin Co NC", "Buried Courtney Baptist Church Cemetery, Yadkin Co NC. Probable son of Isham + father of William Alexander Baity.", None, 11, 19, "probable", [baity_isham])
-ruth_baity = n("Ruth (Baity) Mattingly", "4 Apr 1900 – 1982 Houston", "Hunter's maternal great-grandmother. Daughter of W.A. Baity + Pearl Mae 'Paralee' Johnson. m. Leroy Teichmuller Mattingly. Mother of Leroy Baity Mattingly Sr (Shari's father).", None, 14, 20, "confirmed")
+ruth_baity = n("Ruth (Baity) Mattingly", "4 Apr 1900 – 1982 Houston", "Hunter's maternal great-grandmother. Daughter of W.A. Baity + Pearl Mae 'Paralee' Johnson. m. Leroy Teichmuller Mattingly. Mother of Leroy Baity Mattingly Sr (Shari's father).", None, 14, 20, "confirmed",
+              [shari_father], spouse="Leroy Teichmuller Mattingly")
 baity_william_a = n("William Alexander 'W.A.' Baity", "~1850s NC – ?", "Hunter's maternal great-great-grandfather. NC-born; San Antonio builder/developer. 211 Castillo Ave (1925). Bexar County deed conveyances 1910. m. Pearl Mae 'Paralee' Johnson (26 Jul 1878 NC – 26 Dec 1969 Bexar Co TX, came NC→TX as child, bought Reeves Co TX land 1901 Wolfcamp/Spraberry oil play USGS 2016). Daughter Ruth Baity.", None, 12, 19, "confirmed",
                     [ruth_baity], spouse="Pearl Mae 'Paralee' Johnson")
 # Re-parent: William D's child is William A
@@ -402,7 +404,8 @@ gustav_teichmueller = n("Gustav Teichmüller", "1832 Brunswick – 1888 Tartu", 
                        [anna_teichmueller])
 
 minette = n("Minette Teichmueller (Pohl)", "1871–1970", "Texas muralist; New Deal Art Registry confirms she painted 'The Law--Texas Rangers' for the Smithville post office in 1940. Often identified as Hans and Augusta's daughter, but that parent-child link still needs a direct census, cemetery, or vital-record citation.", "p004", 14, 19, "possible")
-may_teichmueller = n("May Teichmueller", "1872 – 28 Aug 1900", "m. Edward Mattingly Sr. 1 Sept 1894; mother of Leroy Teichmuller Mattingly (Hunter's great-grandfather); Hans's other daughter", None, 14, 19, "confirmed")
+may_teichmueller = n("May Teichmueller", "1872 – 28 Aug 1900", "m. Edward Mattingly Sr. 1 Sept 1894; mother of Leroy Teichmuller Mattingly (Hunter's great-grandfather); Hans's other daughter",
+                     None, 14, 19, "confirmed", [leroy], spouse="Edward Mattingly Sr.")
 unknown_5th_child = n("[5th child of Hans]", "?", "Lotto 1902 confirms 5 children but 5th not in TX vital records (pre-1903 records sparse) — UNVERIFIED", None, 14, 19, "possible")
 
 # Hans's other CONFIRMED siblings (per agent 34 NDB 2016 vol 26 p.6):
@@ -482,11 +485,17 @@ byrd_richard_george = n("Richard George Byrd", "?", "Son of John Henry Bird/Byrd
 byrd_john_henry = n("John Henry Bird (Byrd)", "fl. ~1700 Westmoreland VA", "EARLIEST documented Byrd patrilineal ancestor (POSSIBLE). m. Sarah Carter. Westmoreland County, Virginia — historical seat of the famous William Byrd dynasty (Westover plantation, founders of Richmond VA 1737); direct relationship to that line unverified but geographically/temporally suggestive.", "p160", 8, 18, "possible",
                    [byrd_richard_george], spouse="Sarah Carter")
 
-# Dale Sr's FATHER — separate node (English immigrant, NAME UNKNOWN)
-spence_immigrant = n("Mr. Spence (English immigrant)", "~1900–1915 NE England – ?", "Hunter's paternal great-grandfather (Dale Sr's father). NAME UNKNOWN — top research target. Per agent 41 deep-dive: PROBABLE NE England (Yorkshire/Durham/Northumberland). Arrived Beaumont TX via Galveston ~1920-1935 post-Spindletop oil boom. m. Dovie Byrd.", "p125", 15, 20, "probable")
+# ── Spence patrilineal (Hunter's actual surname line, separate from Byrd) ──
+# Dale Sr's FATHER was the English immigrant. NAME UNKNOWN.
+spence_immigrant = n("Mr. Spence (English immigrant)", "~1900–1915 NE England – ?", "Hunter's paternal great-grandfather (Dale Sr's father). NAME UNKNOWN — top research target. Per agent 41: PROBABLE NE England (Yorkshire/Durham/Northumberland). Arrived Beaumont TX via Galveston ~1920-1935 post-Spindletop oil boom. m. Dovie Byrd.", "p125", 15, 20, "probable",
+                     [dale_sr], spouse="Dovie (Byrd) Spence")
 
-# Spence root = deepest Byrd ancestor (the long visual chain users will see)
-spence_root = byrd_john_henry
+# Spence root = the patrilineal Spence line ONLY (immigrant -> Dale Sr -> kids -> Hunter)
+spence_root = spence_immigrant
+
+# Byrd root = the FULL Byrd patrilineal chain (Dovie's family — its own page)
+# Already constructed above: byrd_john_henry → Richard George → ... → John Archie → Otha + Dovie → Dale Sr → ...
+byrd_root = byrd_john_henry
 
 # ── HENSLEE branch — deceased anchors tightened from 2026-04-26 public burial/death indexes ──
 # Alice Marie Henslee Spence, Lee S. Henslee, and Frances Virginia Henslee now carry sourced dates/places.
@@ -554,10 +563,10 @@ output_data = {
     "_root_kind": "multi",
     "primary": alric,
     "secondary_trees": [
-        {"label": "PATERNAL — Byrd line (Dovie's family: colonial Westmoreland VA ~1700 → Alabama → Milam Co TX → Dale Sr → Hunter)", "tree": spence_root},
+        {"label": "PATERNAL — Spence line (English immigrant → Dale Sr Rice U → Dale Jr → Hunter; the surname Hunter carries)", "tree": spence_root},
+        {"label": "PATERNAL — Byrd line (Dovie's family: colonial Westmoreland VA ~1700 → Alabama → Milam Co TX → Dale Sr's mother)", "tree": byrd_root},
         {"label": "PATERNAL — Henslee line (Maxfield 1727 → 7 generations → Lee Stuart 1908 → Alice Marie 1936 → Hunter)", "tree": henslee_root},
         {"label": "PATERNAL — Rau line (Frances Henslee's family: Frank H. Rau + Ethel Lee Reece → Hunter)", "tree": rau_root},
-        {"label": "PATERNAL — Spence patrilineal (unnamed English immigrant — name UNKNOWN, top research target)", "tree": spence_immigrant},
         {"label": "MATERNAL-PATERNAL — Teichmüller line (Hans/Johann ~1580 Harz miller → Brunswick → La Grange TX, 6 gens NDB-confirmed)", "tree": teichmueller_root},
         {"label": "MATERNAL — Lepik / Lepick / Mikeska line (Frýdek-Místek Moravia 1862 → Brown Co KS 1881 → Floresville TX; Roman Catholic)", "tree": lepick_root},
         {"label": "MATERNAL — Baity / Beatty line (Scots-Irish: Border Scots → Ulster 1610-40 → PA → NC by 1750s → SA TX; documented to George Baity 1774 Rowan/Surry NC)", "tree": baity_root},

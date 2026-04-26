@@ -46,8 +46,7 @@ SURNAMES = [
         "id": "spence",
         "title": "The Spence Line",
         "subtitle": "NE England → Beaumont, Texas → Hunter (the line he carries his surname from)",
-        "tree_label_substring": "PATERNAL — Byrd",
-        "extra_tree_labels": ["BYRD COUSIN TREE", "PATERNAL — Spence patrilineal"],
+        "tree_label_substring": "PATERNAL — Spence",
         "summary": (
             "Hunter's surname comes from this line — a still-unnamed English immigrant from "
             "north-east England (probably Yorkshire, Durham, or Northumberland) who arrived "
@@ -60,6 +59,25 @@ SURNAMES = [
             "William Spence Jr. is Hunter's father."
         ),
         "branch_match": ["spence paternal"],
+    },
+    {
+        "id": "byrd",
+        "title": "The Byrd Line",
+        "subtitle": "Colonial Westmoreland VA ~1700 → Alabama → Milam Co TX → Dovie → Dale Sr → Hunter",
+        "tree_label_substring": "PATERNAL — Byrd",
+        "extra_tree_labels": ["BYRD COUSIN TREE"],
+        "summary": (
+            "Hunter's paternal grandfather Dale W. Spence Sr.'s mother was <strong>Dovie Byrd</strong>. "
+            "The Byrd line traces back through Texas, Alabama, and ultimately to colonial Westmoreland County, "
+            "Virginia — the same region as the famous William Byrd dynasty (Westover plantation, founders of "
+            "Richmond VA). Multi-tree confirmation across four cousin GEDCOMs. The chain: <strong>John Henry "
+            "Bird (Byrd)</strong> ~1700 Westmoreland VA → Richard George → Rev. William M. (m. Lydia Adair) → "
+            "Michael → John Howard → Benjamin Franklin (1798) → <strong>Pvt William Leander Byrd</strong> "
+            "(1832 Frankfort AL CSA, 1889) → <strong>John Archie Asner Byrd</strong> (1868 Birmingham AL – 1928 "
+            "Sharp Cemetery, Milam County TX) m. Martha Alice Bedford → <strong>Dovie Byrd</strong> + brother "
+            "Otha Lee Byrd (1902-1989) → <strong>Dale W. Spence Sr.</strong> → Dale Jr. → Hunter."
+        ),
+        "branch_match": ["byrd"],
     },
     {
         "id": "henslee",
