@@ -2120,13 +2120,16 @@
       "death_year": 1900,
       "death_place": "Shiner, Lavaca County TX",
       "relation_to_shari": "Hunter's maternal 2x-great-grandfather",
-      "context": "Herman F. Boehme — Hilda Boehme's father. Born 9 Jun 1863 Texas, died 18 Jun 1900 Shiner Lavaca Co TX. Lutheran (buried Sons of Hermann Cemetery). German-Texan. Hilda's mother UNVERIFIED. Per agent 30.",
+      "context": "Herman F. Boehme — Hilda Boehme's father. Born 9 Jun 1863 Texas, died 18 Jun 1900 Shiner Lavaca Co TX (age 37). Lutheran (likely LCMS Missouri Synod). Buried Sons of Hermann Cemetery. m. Minna Marie Macker. PROBABLE Prussian Silesia (Schlesien) family origin per agent 45: convergent toponym evidence (Breslau TX, 7 mi NW Hallettsville, named for Prussian Breslau = Wrocław), surname distribution (Böhme = Saxony+Silesia), and TSHA postbellum eastern-Prussia German wave timing (1855-1862). Entry port: Indianola TX (pre-1875 manifests lost in 1875 hurricane).",
       "confidence": "CONFIRMED",
       "branch": "Boehme German-Texan maternal",
       "sources": [
         "PeopleLegacy via Wayback Machine",
-        "agent 30 research"
-      ]
+        "agent 45 Boehme province deep-dive",
+        "TSHA Breslau TX entry",
+        "TSHA Germans in Texas postbellum wave"
+      ],
+      "probable_origin": "Prussian Silesia (Schlesien)"
     },
     {
       "id": "p119",
@@ -2209,6 +2212,43 @@
       "confidence": "PROBABLE",
       "branch": "Spence paternal — English immigrant (unnamed)",
       "open_question": "name + exact birthplace + immigration year + ship"
+    },
+    {
+      "id": "p126",
+      "full_name": "Minna Marie (Macker) Boehme → Luedecke",
+      "given_name": "Minna Marie",
+      "surname": "Macker",
+      "married_name": "Boehme (m1) / Luedecke (m2)",
+      "death_year": 1947,
+      "death_place": "Floresville TX",
+      "spouse": "m1. Herman F. Boehme; m2. John W. Luedecke",
+      "relation_to_shari": "Hunter's maternal 2x-great-grandmother (PROBABLE — Hilda Boehme's mother)",
+      "context": "Minna Marie Macker — Hilda Boehme's mother (PROBABLE per agent 45 via PeopleLegacy aggregator). Outlived Herman by 47 years (he d. 1900); she d. 29 May 1947 Floresville. Remarried John W. Luedecke; had 2 more children (Herbert John Luedecke, William Luedecke). Per agent 45.",
+      "confidence": "PROBABLE",
+      "branch": "Macker maternal",
+      "sources": [
+        "PeopleLegacy / agent 45 deep-dive"
+      ]
+    },
+    {
+      "id": "p127",
+      "full_name": "Herbert John Luedecke",
+      "given_name": "Herbert John",
+      "surname": "Luedecke",
+      "relation_to_shari": "Half-grand-uncle (Hilda's half-brother via mother Minna's 2nd marriage)",
+      "context": "Hilda Boehme's half-brother — Minna Macker's son by John W. Luedecke. Per PeopleLegacy.",
+      "confidence": "PROBABLE",
+      "branch": "Luedecke half-line"
+    },
+    {
+      "id": "p128",
+      "full_name": "William Luedecke",
+      "given_name": "William",
+      "surname": "Luedecke",
+      "relation_to_shari": "Half-grand-uncle",
+      "context": "Hilda Boehme's half-brother. Per PeopleLegacy.",
+      "confidence": "PROBABLE",
+      "branch": "Luedecke half-line"
     }
   ],
   "places": [

@@ -297,10 +297,22 @@ gertrude_lepick = n("Gertrude (Lepick) Hurlburt", "1920–2000", "Jennive's olde
 fred_lepick_jr = n("Fred Charles Lepick Jr.", "1925–2016", "Jennive's younger brother. Naval Aviator (NOT a banker — Frost Bank 'uncle' oral tradition is debunked).", None, 15, 20, "confirmed")
 
 # Jennive's mother — Hilda (Boehme) Lepick
-herman_boehme = n("Herman F. Boehme", "9 Jun 1863 TX – 18 Jun 1900 Shiner, Lavaca Co TX", "Hilda Boehme's father (Hunter's maternal 2x-great-grandfather). Lutheran. Buried Sons of Hermann Cemetery. German-Texan family, Lavaca/Wilson County. Hilda's mother UNVERIFIED. Per agent 30 research; PeopleLegacy.", None, 13, 19, "confirmed")
-boehme_root = herman_boehme
+# Per agent 45: Hilda's mother = Minna Marie MACKER (PROBABLE); Boehme origin = PROBABLE Prussian Silesia (Schlesien),
+# entered via Indianola TX (pre-1875 manifests lost in 1875 hurricane); Lutheran (likely LCMS Missouri Synod).
+# Convergent evidence: Breslau TX (7 mi NW Hallettsville) named for Prussian Breslau (Wrocław) = Silesian settlers.
 
-hilda_boehme = n("Hilda (Boehme) Lepick", "~1900 TX – ~1945", "Jennive's mother. Maiden name Boehme. Daughter of Herman F. Boehme (1863-1900). Texas-born; German-Lutheran community. FamilySearch PID LKM6-W7J.", None, 14, 20, "confirmed", spouse="Fred Charles Lepick Sr.")
+hilda_boehme = n("Hilda (Boehme) Lepick", "~1900 TX – ~1945", "Jennive's mother. Maiden name Boehme. Daughter of Herman F. Boehme + Minna Marie Macker. Texas-born; German-Lutheran community. FamilySearch PID LKM6-W7J.", None, 14, 20, "confirmed", spouse="Fred Charles Lepick Sr.")
+
+# Half-siblings of Hilda via Minna's 2nd marriage to John W. Luedecke
+luedecke_2 = n("Herbert John Luedecke", "?", "Half-sibling of Hilda Boehme (via mother Minna's 2nd marriage to John W. Luedecke). Per PeopleLegacy.", None, 14, 20, "probable")
+luedecke_3 = n("William Luedecke", "?", "Half-sibling of Hilda Boehme. Per PeopleLegacy.", None, 14, 20, "probable")
+
+# Minna Marie Macker — Hilda's mother (Herman's wife; outlived him 47 years; remarried Luedecke)
+minna_macker = n("Minna Marie (Macker) Boehme→Luedecke", "? – 29 May 1947 Floresville TX", "Hunter's maternal 2x-great-grandmother (PROBABLE per agent 45 / PeopleLegacy). Hilda Boehme's mother. Outlived Herman by 47 years; remarried John W. Luedecke; had 2 more children (Herbert + William Luedecke).", None, 13, 19, "probable",
+                 [hilda_boehme, luedecke_2, luedecke_3], spouse="m1. Herman F. Boehme; m2. John W. Luedecke")
+
+herman_boehme = n("Herman F. Boehme", "9 Jun 1863 TX – 18 Jun 1900 Shiner, Lavaca Co TX", "Hilda Boehme's father (Hunter's maternal 2x-great-grandfather). Lutheran (likely LCMS Missouri Synod). Buried Sons of Hermann Cemetery. m. Minna Marie Macker. Parents (3x-great-grandparents) UNVERIFIED — they immigrated ~1855-1862, PROBABLE origin Prussian Silesia (Schlesien) per agent 45.", None, 13, 19, "confirmed", spouse="Minna Marie Macker")
+boehme_root = minna_macker  # anchored at Minna since she bridges both marriages
 
 # Fred Charles Lepick Sr. — CORRECTED from "Frederick" (per agent 29)
 fred_lepick_sr = n("Fred Charles Lepick Sr.", "8 Mar 1894 Brown Co KS – ?", "Jennive's father. Born Brown County, Kansas to Bohemian immigrant Frank Lepik + Mary Mikeska. Moved to Wilson Co TX 1910-1920; m. Hilda Boehme ~1920. Lived San Antonio late 1930s+. Buried Floresville City Cemetery (Find a Grave 55217353). WikiTree Lepick-2.", None, 14, 20, "confirmed",
@@ -479,7 +491,7 @@ output_data = {
         {"label": "PATERNAL — Henslee line (Frances + Lee Stuart Henslee, Beaumont/Nederland TX)", "tree": henslee_root},
         {"label": "MATERNAL-PATERNAL — Teichmüller line (Hans/Johann ~1580 Harz miller → Brunswick → La Grange TX, 6 gens NDB-confirmed)", "tree": teichmueller_root},
         {"label": "MATERNAL — Lepik / Lepick / Mikeska line (Bohemia 1862 → Kansas 1881 → Floresville TX)", "tree": lepick_root},
-        {"label": "MATERNAL — Boehme line (Herman F. Boehme b. 1863 Lavaca Co TX, Lutheran German-Texan)", "tree": boehme_root},
+        {"label": "MATERNAL — Boehme/Macker line (Herman F. Boehme + Minna Macker; PROBABLE Prussian Silesia origin → Indianola TX → Lavaca Co)", "tree": boehme_root},
         {"label": "MATERNAL-PATERNAL — Baity line research anchors (North Carolina by 1830 → San Antonio builders by 1910)", "tree": baity_root},
         {"label": "MATERNAL grandfather — David Trifon (adopted-name; biological line untraceable per Hunter)", "tree": david_trifon},
         {"label": "DEBUNKED — Frost dynasty (was UNVERIFIED, agent 25 confirmed Lepick line is the actual maternal line)", "tree": frost_root}

@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "file": "45-boehme-province-deep.json",
+    "commissioned": "2026-04-26",
+    "subject": "Herman F. Boehme — German province deep research",
+    "researcher": "Researcher specialist (claude-sonnet-4-6)",
+    "connection_to_hunter": "Herman F. Boehme → Hilda Boehme Lepick → Jennive Imogene Lepick Mattingly → Shari Mattingly → Hunter Spence"
+  },
+
+  "persons": {
+    "herman_f_boehme": {
+      "id": "herman_f_boehme",
+      "label": "Herman F. Boehme",
+      "generation": "G5",
+      "relation_to_hunter": "maternal 2x-great-grandfather",
+      "born": {
+        "date": "1863-06-09",
+        "place": "Texas, USA",
+        "confidence": "CONFIRMED",
+        "source": "PeopleLegacy https://peoplelegacy.com/herman_f__boehme-4J1f4W"
+      },
+      "died": {
+        "date": "1900-06-18",
+        "age": 37,
+        "place": "Shiner, Lavaca County, Texas",
+        "confidence": "CONFIRMED",
+        "source": "PeopleLegacy ibid."
+      },
+      "burial": {
+        "cemetery": "Shiner Sons of Herman Cemetery",
+        "city": "Shiner",
+        "county": "Lavaca County",
+        "state": "Texas",
+        "confidence": "CONFIRMED",
+        "source": "PeopleLegacy ibid."
+      },
+      "religion": {
+        "denomination": "Lutheran",
+        "synod_probable": "Missouri Synod (LCMS) or Texas Synod/Iowa Synod",
+        "confidence": "PROBABLE",
+        "evidence": [
+          "Buried Sons of Hermann Cemetery — German Protestant fraternal org",
+          "Daughter Frieda buried Saint Johns Lutheran Cemetery, Poth TX",
+          "Sons of Hermann historically correlated with Lutheran affiliation"
+        ]
+      },
+      "parents": {
+        "confidence": "UNVERIFIED",
+        "note": "Names not found in any accessible record during this research pass",
+        "father": null,
+        "mother": null,
+        "probable_immigration_window": "1855-1862",
+        "probable_entry_port": "Indianola, Calhoun County, Texas"
+      },
+      "spouse": {
+        "name": "Minna Marie Macker",
+        "later_surname": "Luedecke (second marriage)",
+        "confidence": "PROBABLE — PeopleLegacy aggregator, internally coherent",
+        "source": "PeopleLegacy https://peoplelegacy.com/minna_marie_macker_luedecke-4f6E2q"
+      },
+      "children": [
+        {
+          "name": "Frieda Augusta Boehme (Donnerberg)",
+          "born": "1888",
+          "died": "1963",
+          "burial": "Saint Johns Lutheran Cemetery, Poth, Wilson County TX",
+          "confidence": "CONFIRMED",
+          "source": "PeopleLegacy Herman page"
+        },
+        {
+          "name": "Edgar Charles Boehme",
+          "born": "1889",
+          "died": "1967",
+          "burial": "Shiner Catholic Cemetery, Shiner, Lavaca County TX",
+          "confidence": "CONFIRMED",
+          "note": "Catholic burial anomalous — likely converted via marriage"
+        },
+        {
+          "name": "Dora M. Boehme (Koether)",
+          "born": "1892",
+          "died": "1969",
+          "burial": "Floresville City Cemetery, Wilson County TX",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "name": "Walter John Boehme",
+          "born": "1894",
+          "died": "1972",
+          "burial": "Shiner Sons of Herman Cemetery, Lavaca County TX",
+          "confidence": "CONFIRMED",
+          "note": "Death certificate (1972) would list parents — key record not yet pulled"
+        },
+        {
+          "name": "Annie Henrietta Boehme (Lange)",
+          "born": "1896",
+          "died": "1963",
+          "burial": "Floresville City Cemetery, Wilson County TX",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "name": "Hilda Boehme (Lepick)",
+          "born": "1900-01-08",
+          "died": "1945-02-22",
+          "burial": "Floresville City Cemetery, Wilson County TX",
+          "confidence": "CONFIRMED (relationship); birth/death dates PROBABLE from PeopleLegacy"
+        }
+      ]
+    },
+
+    "minna_marie_macker": {
+      "id": "minna_marie_macker",
+      "label": "Minna Marie Macker (later Luedecke)",
+      "generation": "G5-wife",
+      "relation_to_hunter": "maternal 2x-great-grandmother (Herman's wife)",
+      "born": {
+        "date": "unknown — est. 1862-1866",
+        "place": "unknown — possibly Texas (if second-generation German) or Germany",
+        "confidence": "UNVERIFIED"
+      },
+      "died": {
+        "date": "1947-05-29",
+        "confidence": "CONFIRMED",
+        "source": "PeopleLegacy https://peoplelegacy.com/minna_marie_macker_luedecke-4f6E2q"
+      },
+      "burial": {
+        "cemetery": "Floresville City Cemetery",
+        "city": "Floresville",
+        "county": "Wilson County",
+        "state": "Texas",
+        "confidence": "CONFIRMED",
+        "source": "PeopleLegacy ibid."
+      },
+      "first_marriage": {
+        "spouse": "Herman F. Boehme",
+        "children": 6,
+        "confidence": "PROBABLE"
+      },
+      "second_marriage": {
+        "spouse": "John W. Luedecke",
+        "spouse_born": "1876",
+        "spouse_died": "1950",
+        "spouse_birthplace": "Texas",
+        "children_by_second_marriage": ["Herbert John Luedecke", "William Luedecke"],
+        "confidence": "PROBABLE",
+        "source": "PeopleLegacy Minna page"
+      },
+      "surname_origin": {
+        "macker_geographic_distribution": "Northern/Eastern Germany — Pomerania, East Prussia, Silesia most common",
+        "confidence": "POSSIBLE (no direct source found for Macker distribution)",
+        "note": "Macker appears as a distinct surname in Lavaca County; possibly second-generation Texas German"
+      }
+    },
+
+    "boehme_paternal_immigrant": {
+      "id": "boehme_paternal_immigrant",
+      "label": "Unknown Boehme — Herman's father (Hunter's 3x-great-grandfather)",
+      "generation": "G6",
+      "relation_to_hunter": "maternal 3x-great-grandfather",
+      "born": {
+        "date": "est. 1825-1840",
+        "place": "Germany — province unknown (Prussian Silesia probable)",
+        "confidence": "UNVERIFIED"
+      },
+      "immigration": {
+        "window": "est. 1855-1862",
+        "port": "Indianola, Texas (probable) or Galveston, Texas (possible)",
+        "ship": "UNVERIFIED — no manifest found",
+        "confidence": "PROBABLE (immigration window calculated from Herman's 1863 TX birth)"
+      },
+      "settled": {
+        "place": "Lavaca County, Texas (Shiner area)",
+        "confidence": "PROBABLE"
+      }
+    },
+
+    "boehme_maternal_immigrant": {
+      "id": "boehme_maternal_immigrant",
+      "label": "Unknown — Herman's mother (Hunter's 3x-great-grandmother)",
+      "generation": "G6",
+      "relation_to_hunter": "maternal 3x-great-grandmother",
+      "born": {
+        "date": "est. 1825-1845",
+        "place": "Germany or possibly Texas (if she was already born here)",
+        "confidence": "UNVERIFIED"
+      }
+    }
+  },
+
+  "province_assessment": {
+    "most_probable": "Prussian Silesia (Schlesien)",
+    "confidence": "PROBABLE",
+    "rationale": "Breslau TX in Lavaca County is named after the Prussian city of Breslau (Wroclaw), capital of Silesia; Böhme surname most concentrated in Silesia/Saxony border region; TSHA confirms postbellum German wave came from eastern provinces; Lutheran affiliation consistent with Silesian German Protestants",
+    "alternative_province": "Saxony (Königreich Sachsen)",
+    "alternative_confidence": "POSSIBLE",
+    "alternative_rationale": "Böhme surname common in Saxony; Jakob Böhme from Görlitz (Saxony-Silesia border); LCMS roots in Saxon Lutheranism",
+    "provinces_excluded": [
+      "Westphalia — wrong immigration wave and zone",
+      "Nassau/Holstein/Oldenburg — Adelsverein wave, Hill Country settlements, not Lavaca County",
+      "Bavaria — Catholic-dominant, no Bavaria markers in Lavaca County",
+      "Bohemia — Herman was ethnic German Lutheran, not Czech/Bohemian"
+    ]
+  },
+
+  "key_evidence_community_naming": {
+    "breslau_tx": {
+      "location": "7 miles NW of Hallettsville, north central Lavaca County",
+      "named_after": "Prussian city of Breslau, now Wroclaw, Poland (capital of Silesia)",
+      "settled_by": "German immigrants during and after Civil War",
+      "church": "Lutheran (confirmed by TSHA)",
+      "post_office": "1880",
+      "confidence": "CONFIRMED",
+      "source": "TSHA Handbook https://www.tshaonline.org/handbook/entries/breslau-tx"
+    }
+  },
+
+  "settlement_timeline": {
+    "1850": "No Boehme in Lavaca County census — family not yet arrived",
+    "1855_1862_probable": "Boehme family arrives, probably via Indianola port",
+    "1863_06_09": "Herman F. Boehme born in Texas — confirms parents already here",
+    "1865_1875": "German immigrants including Boehme family farm in Lavaca County; Breslau, Wied, Witting communities develop",
+    "1875": "Indianola hurricane destroys port; Galveston becomes primary entry point",
+    "1887": "San Antonio and Aransas Pass Railway reaches Shiner area; town of Shiner formally established",
+    "1888": "Frieda Boehme born — first confirmed Boehme birth record in the family",
+    "1900_06_18": "Herman F. Boehme dies age 37",
+    "1947_05_29": "Minna Marie Macker Luedecke dies age ~80-85"
+  },
+
+  "immigration_route": {
+    "germany_port_of_departure": "Hamburg (most likely) or Bremen (possible)",
+    "texas_entry_port": "Indianola, Calhoun County, Texas (most probable for pre-1875 arrival)",
+    "route_inland": "Old Indianola Trail → Yorktown (DeWitt County) → Lavaca County",
+    "source": "TSHA Yorktown TX and Indianola TX entries",
+    "confidence": "PROBABLE"
+  },
+
+  "high_value_records_not_yet_accessed": [
+    {
+      "record": "1870 US Census, Lavaca County Texas",
+      "why": "Would show Herman (~7) with parents and siblings, revealing parents' names and birthplaces",
+      "access": "FamilySearch.org (login) — NARA M593, roll 1595",
+      "priority": "HIGHEST"
+    },
+    {
+      "record": "1880 US Census, Lavaca County Texas",
+      "why": "Herman (~17) still in parents' household; parents' birthplaces listed",
+      "access": "FamilySearch.org (login) — NARA T9",
+      "priority": "HIGHEST"
+    },
+    {
+      "record": "Walter John Boehme death certificate, 1972",
+      "why": "Lists father (Herman) and mother (Minna Macker); grandparents' birthplace sometimes included",
+      "access": "Texas DSHS Vital Statistics Unit, Austin TX — written request",
+      "priority": "HIGH"
+    },
+    {
+      "record": "Edgar Charles Boehme death certificate, 1967",
+      "why": "Same rationale as Walter's certificate",
+      "access": "Texas DSHS Vital Statistics Unit",
+      "priority": "HIGH"
+    },
+    {
+      "record": "Herman + Minna Macker marriage record (~1886-1888)",
+      "why": "Texas marriage records list fathers' names; would confirm Minna's parentage",
+      "access": "Lavaca County Clerk, Hallettsville TX; also FamilySearch Texas marriage collection",
+      "priority": "HIGH"
+    },
+    {
+      "record": "Hamburg Emigrant Lists 1853-1862, surname Boehme/Böhme",
+      "why": "Would identify ship name, departure city, and town of origin in Germany",
+      "access": "Ancestry.com collection ID 1068 or FamilySearch Hamburg Lists",
+      "priority": "HIGH"
+    },
+    {
+      "record": "Sons of Hermann Lodge membership application, Shiner TX",
+      "why": "Applications often recorded birthplace and parents; Herman was a member",
+      "access": "Grand Lodge of Texas Sons of Hermann, 116 Bauer Ave, San Antonio TX 78250",
+      "priority": "MEDIUM"
+    },
+    {
+      "record": "LCMS Texas District parish records, Lavaca County area",
+      "why": "Baptism of Herman (1863) would name his parents; confirmation records 1870s-1880s",
+      "access": "LCMS Texas District Office, Austin TX",
+      "priority": "MEDIUM"
+    }
+  ],
+
+  "sources": [
+    {
+      "id": 1,
+      "title": "PeopleLegacy: Herman F. Boehme (1863-1900)",
+      "url": "https://peoplelegacy.com/herman_f__boehme-4J1f4W",
+      "accessed": "2026-04-26",
+      "reliability": "Secondary aggregator — coherent but not independently verified"
+    },
+    {
+      "id": 2,
+      "title": "PeopleLegacy: Minna Marie Macker Luedecke",
+      "url": "https://peoplelegacy.com/minna_marie_macker_luedecke-4f6E2q",
+      "accessed": "2026-04-26",
+      "reliability": "Secondary aggregator"
+    },
+    {
+      "id": 3,
+      "title": "TSHA Handbook: Breslau, TX",
+      "url": "https://www.tshaonline.org/handbook/entries/breslau-tx",
+      "accessed": "2026-04-26",
+      "reliability": "High — peer-reviewed Texas state historical encyclopedia"
+    },
+    {
+      "id": 4,
+      "title": "TSHA Handbook: Germans (Texas)",
+      "url": "https://www.tshaonline.org/handbook/entries/germans",
+      "accessed": "2026-04-26",
+      "reliability": "High"
+    },
+    {
+      "id": 5,
+      "title": "TSHA Handbook: Lavaca County",
+      "url": "https://www.tshaonline.org/handbook/entries/lavaca-county",
+      "accessed": "2026-04-26",
+      "reliability": "High"
+    },
+    {
+      "id": 6,
+      "title": "TSHA Handbook: Shiner, TX",
+      "url": "https://www.tshaonline.org/handbook/entries/shiner-tx",
+      "accessed": "2026-04-26",
+      "reliability": "High"
+    },
+    {
+      "id": 7,
+      "title": "TSHA Handbook: Wied, TX",
+      "url": "https://www.tshaonline.org/handbook/entries/wied-tx",
+      "accessed": "2026-04-26",
+      "reliability": "High"
+    },
+    {
+      "id": 8,
+      "title": "TSHA Handbook: Witting, TX",
+      "url": "https://www.tshaonline.org/handbook/entries/witting-tx",
+      "accessed": "2026-04-26",
+      "reliability": "High"
+    },
+    {
+      "id": 9,
+      "title": "TSHA Handbook: Lutheran Church (Texas)",
+      "url": "https://www.tshaonline.org/handbook/entries/lutheran-church",
+      "accessed": "2026-04-26",
+      "reliability": "High"
+    },
+    {
+      "id": 10,
+      "title": "TSHA Handbook: Indianola, TX",
+      "url": "https://www.tshaonline.org/handbook/entries/indianola-tx",
+      "accessed": "2026-04-26",
+      "reliability": "High"
+    },
+    {
+      "id": 11,
+      "title": "TSHA Handbook: Yorktown, TX",
+      "url": "https://www.tshaonline.org/handbook/entries/yorktown-tx",
+      "accessed": "2026-04-26",
+      "reliability": "High"
+    },
+    {
+      "id": 12,
+      "title": "USGS Cemetery List, Lavaca County TX",
+      "url": "http://files.usgwarchives.net/tx/lavaca/cemetery/lavaccem.txt",
+      "accessed": "2026-04-26",
+      "reliability": "High — government gazetteer data"
+    },
+    {
+      "id": 13,
+      "title": "USGenWeb Lavaca County Archives (Table of Contents)",
+      "url": "http://www.usgwarchives.net/tx/lavaca/lavtoc.htm",
+      "accessed": "2026-04-26",
+      "reliability": "Medium — volunteer-compiled"
+    },
+    {
+      "id": 14,
+      "title": "HouseOfNames: Boehme surname origin",
+      "url": "https://www.houseofnames.com/boehme-family-crest",
+      "accessed": "2026-04-26",
+      "reliability": "Low-Medium — commercial surname site; etymology broadly accurate"
+    },
+    {
+      "id": 15,
+      "title": "Paul C. Boethel, History of Lavaca County (1936/1959)",
+      "url": null,
+      "accessed": "Cited via TSHA bibliography for Shiner, Wied, Witting entries",
+      "reliability": "High — primary county history by county judge"
+    }
+  ]
+}

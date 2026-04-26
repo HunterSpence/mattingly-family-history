@@ -1570,17 +1570,51 @@
       }
     },
     {
-      "label": "MATERNAL — Boehme line (Herman F. Boehme b. 1863 Lavaca Co TX, Lutheran German-Texan)",
+      "label": "MATERNAL — Boehme/Macker line (Herman F. Boehme + Minna Macker; PROBABLE Prussian Silesia origin → Indianola TX → Lavaca Co)",
       "tree": {
-        "name": "Herman F. Boehme",
-        "dates": "9 Jun 1863 TX – 18 Jun 1900 Shiner, Lavaca Co TX",
-        "fact": "Hilda Boehme's father (Hunter's maternal 2x-great-grandfather). Lutheran. Buried Sons of Hermann Cemetery. German-Texan family, Lavaca/Wilson County. Hilda's mother UNVERIFIED. Per agent 30 research; PeopleLegacy.",
+        "name": "Minna Marie (Macker) Boehme→Luedecke",
+        "dates": "? – 29 May 1947 Floresville TX",
+        "fact": "Hunter's maternal 2x-great-grandmother (PROBABLE per agent 45 / PeopleLegacy). Hilda Boehme's mother. Outlived Herman by 47 years; remarried John W. Luedecke; had 2 more children (Herbert + William Luedecke).",
         "id": null,
         "generation": 13,
         "century": 19,
-        "confidence": "confirmed",
-        "spouse": null,
-        "children": []
+        "confidence": "probable",
+        "spouse": "m1. Herman F. Boehme; m2. John W. Luedecke",
+        "children": [
+          {
+            "name": "Hilda (Boehme) Lepick",
+            "dates": "~1900 TX – ~1945",
+            "fact": "Jennive's mother. Maiden name Boehme. Daughter of Herman F. Boehme + Minna Marie Macker. Texas-born; German-Lutheran community. FamilySearch PID LKM6-W7J.",
+            "id": null,
+            "generation": 14,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": "Fred Charles Lepick Sr.",
+            "children": []
+          },
+          {
+            "name": "Herbert John Luedecke",
+            "dates": "?",
+            "fact": "Half-sibling of Hilda Boehme (via mother Minna's 2nd marriage to John W. Luedecke). Per PeopleLegacy.",
+            "id": null,
+            "generation": 14,
+            "century": 20,
+            "confidence": "probable",
+            "spouse": null,
+            "children": []
+          },
+          {
+            "name": "William Luedecke",
+            "dates": "?",
+            "fact": "Half-sibling of Hilda Boehme. Per PeopleLegacy.",
+            "id": null,
+            "generation": 14,
+            "century": 20,
+            "confidence": "probable",
+            "spouse": null,
+            "children": []
+          }
+        ]
       }
     },
     {
