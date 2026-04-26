@@ -1,0 +1,285 @@
+{
+  "research_date": "2026-04-26",
+  "purpose": "Evaluate tools for bulk-harvesting Ancestry.com DNA match cousin trees into GEDCOM or CSV",
+  "target_use_case": "Import ~25 closest DNA match trees from Ancestry",
+
+  "critical_context": {
+    "ancestry_api_lockdown": "June/July 2020 — Ancestry sent cease-and-desist letters to ALL third-party tools accessing DNA match data",
+    "affected_tools": ["Genetic Affairs", "DNAGedcom Client", "Pedigree Thief", "Ancestry Match Downloader"],
+    "outcome": "Genetic Affairs Ancestry access permanently dead; DNAGedcom operates under obfuscation ('A* Company'); Pedigree Thief Ancestry dead; browser extensions dead"
+  },
+
+  "tools": [
+    {
+      "name": "DNAGedcom Client",
+      "url": "https://www.dnagedcom.com",
+      "version": "4.0.445 (Windows/Mac, 2026)",
+      "status": "Active",
+      "type": "Desktop application",
+
+      "cost": {
+        "model": "Monthly subscription (Silver tier)",
+        "price_documented": "$5/month Silver (last documented price, DataMiningDNA 2020)",
+        "price_2026": "Unlisted publicly — requires account login to view current pricing; historically $5/month Silver",
+        "trial": "No free trial",
+        "cancel_anytime": true
+      },
+
+      "ancestry_login_required": true,
+      "mfa_handling": "Not explicitly documented; Ancestry 2FA may block client access",
+      "ancestry_reference": "Uses term 'A* Company' to obscure Ancestry branding",
+
+      "output": {
+        "match_list": "m_profilename.csv — match name, cM, segments, tree size, tree URL, notes, ethnicity, admin info",
+        "ancestor_file": "a_profilename.csv — direct ancestors extracted from each match's linked public tree (combined flat CSV, all matches merged)",
+        "icw_file": "ICW (in-common-with) CSV — shared matches list",
+        "per_cousin_gedcom": false,
+        "note": "Outputs are flat CSVs for bulk analysis. GWorks web tool cross-references surnames and finds common ancestors. No individual per-cousin GEDCOM export."
+      },
+
+      "ancestry_tos_posture": "EXPLICITLY BANNED — received C&D from Ancestry in June 2020. Continued operating via obfuscation.",
+      "risk_account_suspension": "Moderate. No widespread user account bans reported. Tool rate-limits itself. Low-volume harvest (25 matches) is lower risk.",
+
+      "speed": {
+        "match_gather": "Minutes for hundreds of matches",
+        "tree_gather_25_matches": "30-90 minutes estimated",
+        "note": "GWorks upload and processing adds additional time (15-30 minutes)"
+      },
+
+      "hunter_fit": "Best available automated option. Gets ancestor pedigrees from match trees as a flat CSV for GWorks analysis. Not per-cousin GEDCOMs.",
+      "hunter_rating": 1,
+
+      "user_feedback_2024_2026": [
+        "Jan 2025 Reddit r/Genealogy: 'I see that they have re-vamped the user interface but indeed many of the download features are now unavailable. I'm currently grabbing all my data off of A(ncestry).'",
+        "Jul 2025 dna-explained.com: Listed as 'DNAGedcom – Clusters results from various vendors' (active tool reference)",
+        "Jan 2025 Reddit: 'Maybe a decade ago... always some kind of problems, and basically zero instructions. Even though I had a subscription I wasn't using it at all.'"
+      ],
+
+      "signup_steps": [
+        "1. Go to https://www.dnagedcom.com",
+        "2. Click 'Create an account' or go to /Account/Register.aspx",
+        "3. Register with email and password",
+        "4. Navigate to subscriber information page",
+        "5. Activate Silver monthly subscription",
+        "6. Log out and back in to enable Silver features",
+        "7. Download Windows or Mac client from homepage",
+        "8. Run client, set output folder, enter DNAGedcom login",
+        "9. Select Ancestry ('A* Company') on main page",
+        "10. Enter Ancestry login when prompted",
+        "11. Select profile, click 'Gather Matches' then 'Gather Trees'",
+        "12. Upload resulting CSV files to dnagedcom.com for GWorks analysis"
+      ]
+    },
+
+    {
+      "name": "Genome Mate Pro (Genealogical DNA Analysis Tool)",
+      "url": "Formerly genomematepro.com — appears inactive/parked 2026",
+      "status": "Effectively inactive",
+      "type": "Desktop application (free)",
+      "cost": { "model": "Free" },
+      "ancestry_access": false,
+      "note": "Required DNAGedcom Client output as input. No standalone Ancestry tree access. Rarely mentioned in 2024-2026 discussions.",
+      "hunter_fit": "Not viable",
+      "hunter_rating": 6
+    },
+
+    {
+      "name": "Borland Genetics",
+      "url": "https://borlandgenetics.com",
+      "status": "Active",
+      "type": "Web platform for ancestral DNA reconstruction",
+      "cost": {
+        "model": "Free basic; subscription for 'Creeper' automated reconstruction feature",
+        "price": "Not publicly listed"
+      },
+      "ancestry_access": "DNA upload from Ancestry raw data only — no match tree downloading",
+      "output": "Reconstructed ancestral DNA kits, not tree files",
+      "hunter_fit": "Wrong tool entirely — DNA reconstruction database, not tree harvesting",
+      "hunter_rating": 7
+    },
+
+    {
+      "name": "MyHeritage Family Tree Builder",
+      "url": "https://www.myheritage.com/family-tree-builder",
+      "status": "Active (free download, 2024 version current)",
+      "type": "Desktop genealogy software",
+      "cost": { "model": "Free app; MyHeritage subscription for full matching features" },
+      "ancestry_access": false,
+      "note": "Standard genealogy software; imports GEDCOM; syncs with MyHeritage tree only; no Ancestry match tree access. MyHeritage stopped accepting DNA uploads from other vendors May 7, 2025.",
+      "hunter_fit": "Wrong tool — no Ancestry integration for match trees",
+      "hunter_rating": 7
+    },
+
+    {
+      "name": "GEDmatch / GEDmatch Genesis",
+      "url": "https://www.gedmatch.com",
+      "owner": "Verogen Inc (subsidiary of Qiagen, acquired Jan 2023)",
+      "status": "Active",
+      "type": "Web platform for cross-vendor DNA comparison",
+      "cost": {
+        "free_tier": "One-to-many matching, basic tools",
+        "tier1": "$10/month — triangulation, segment search, clustering"
+      },
+      "ancestry_access": false,
+      "note": "Users upload raw DNA files from any vendor. GEDmatch's database is users who have uploaded to GEDmatch — completely separate from Ancestry's database. Genetic Affairs licensed tools (AutoCluster, AutoKinship) available within GEDmatch for Tier 1 users.",
+      "hunter_fit": "Wrong tool for Ancestry tree harvesting; useful if matches also have GEDmatch kits",
+      "hunter_rating": 7
+    },
+
+    {
+      "name": "Genetic Affairs",
+      "url": "https://www.geneticaffairs.com",
+      "status": "Active, actively developed 2026. Licensed by MyHeritage and GEDmatch.",
+      "type": "Web service + desktop app (AutoLineage)",
+      "cost": {
+        "model": "Credits-based + subscription",
+        "free_tier": "200 free credits on signup",
+        "subscription": "Required for AutoLineage desktop app; pricing not publicly listed"
+      },
+      "ancestry_access": "Indirect only — manual HTML file save per match required. Direct automated Ancestry access dead since July 2020 C&D.",
+      "ancestry_support_for_ftdna": "Full automation available for FamilyTreeDNA matches (Feb 2026)",
+      "output": "Cluster visualizations, AutoKinship relationship trees, GEDCOM-importable outputs via AutoLineage",
+      "hunter_fit": "Partial — requires manual HTML saves for each Ancestry match (25 manual saves = feasible but tedious). Better if matches also have FTDNA kits.",
+      "hunter_rating": 4
+    },
+
+    {
+      "name": "Pedigree Thief (Chrome Extension)",
+      "url": "https://chrome.google.com/webstore/detail/pedigree-thief/hdgjlfchbpojdocjlldfikeddamdcbhn",
+      "status": "Listed in Chrome Store but Ancestry support confirmed dead",
+      "type": "Browser extension",
+      "cost": { "model": "Free" },
+      "ancestry_access": false,
+      "note": "Kitty Cooper confirmed: 'Pedigree Thief works on most sites, just not Ancestry.' Works on MyHeritage, WikiTree. Outputs ahnentafel text, convertible to GEDCOM via kittymunson.com/dna/Ahnen2GEDcom.php",
+      "hunter_fit": "Not viable for Ancestry",
+      "hunter_rating": 8
+    },
+
+    {
+      "name": "FamilySearch Family Tree",
+      "url": "https://www.familysearch.org",
+      "status": "Active, free",
+      "type": "Collaborative world tree + record search",
+      "cost": { "model": "Free" },
+      "ancestry_access": false,
+      "note": "No Ancestry DNA match system integration. Valuable for record research and building your own tree. 2025 full-text search is major feature.",
+      "hunter_fit": "Wrong tool for tree harvesting from Ancestry matches",
+      "hunter_rating": 8
+    },
+
+    {
+      "name": "Ancestry ProTools (native 2025 feature)",
+      "url": "https://www.ancestry.com/dna/pro-tools",
+      "status": "Active (launched 2025, match clustering added July 2025)",
+      "type": "Ancestry's own paid add-on",
+      "cost": {
+        "model": "Requires ProTools subscription AND Ancestry family history membership or AncestryDNA Plus"
+      },
+      "ancestry_access": true,
+      "output": "Match clustering visualization (grid view), shared DNA display, ThruLines. Does NOT export trees, does NOT download match trees.",
+      "hunter_fit": "Useful complement to manual tree work but does not harvest trees",
+      "hunter_rating": 5
+    }
+  ],
+
+  "ranking_for_25_cousin_trees": {
+    "rank_1": {
+      "tool": "DNAGedcom Client + GWorks",
+      "approach": "Automated bulk ancestor pedigree harvest",
+      "limitations": "Outputs flat CSV ancestor list across all matches, not per-cousin GEDCOMs. GWorks analysis is done on DNAGedcom website.",
+      "tos_risk": "Moderate (explicit C&D 2020, no ban reports for individual users)"
+    },
+    "rank_2": {
+      "tool": "Ancestry native 'Save to Tree'",
+      "approach": "Manual — visit each match's linked tree, use Save to Tree to copy key ancestors",
+      "time_estimate": "10-20 min per match = 4-8 hours for 25",
+      "output": "Directly populates YOUR Ancestry research tree; can then export as GEDCOM",
+      "tos_risk": "Zero — standard Ancestry feature"
+    },
+    "rank_3": {
+      "tool": "Genetic Affairs (manual HTML input)",
+      "approach": "Semi-manual — save each match's tree page as HTML, import to AutoLineage",
+      "tos_risk": "Low (manual saves are not automated scraping)"
+    }
+  },
+
+  "recommended_action": {
+    "primary": "DNAGedcom Client v4.0.445 for bulk ancestor pedigree CSV harvest + GWorks analysis",
+    "secondary": "Manual 'Save to Tree' in Ancestry for the 5-10 matches with the best/most relevant trees",
+    "url": "https://www.dnagedcom.com",
+    "signup_url": "https://www.dnagedcom.com/Account/Register.aspx",
+    "download_url": "Linked from dnagedcom.com homepage after login",
+    "price": "Silver subscription, approximately $5-10/month (cancel after harvest)",
+    "time_total": "2-4 hours for full harvest of 25 closest matches including upload and GWorks analysis",
+    "tos_warning": "DNAGedcom received an Ancestry C&D in 2020 and continues to operate via obfuscation ('A* Company'). Individual user account bans have not been widely reported. Run on a weekend, rate-limit your session, do not run simultaneously with other Ancestry activity."
+  },
+
+  "sources": [
+    {
+      "title": "DNAGedcom Homepage (2026)",
+      "url": "https://www.dnagedcom.com",
+      "date": "2026-04-26",
+      "key_finding": "v4.0.445 current; A* Company (Ancestry) listed as supported; MyHeritage and GEDmatch listed as not working"
+    },
+    {
+      "title": "Kitty Cooper Blog: Solving unknown parentage cases with DNA",
+      "url": "https://blog.kittycooper.com/dna/using-gworks-comparing-trees/",
+      "date": "2017, updated 2021",
+      "key_finding": "Step-by-step GWorks guide; Silver subscription required; Gather Trees creates a_profilename.csv ancestor file"
+    },
+    {
+      "title": "DataMiningDNA: A Comparison of Tools to Download Ancestry Matches",
+      "url": "https://dataminingdna.com/a-comparison-of-tools-to-download-ancestry-matches/",
+      "date": "2020, updated June 2020",
+      "key_finding": "Ancestry blocked all third-party tools June 2020; DNAGedcom Silver $5/month; ancestor file included in download"
+    },
+    {
+      "title": "DNAeXplained: Ancestry to Remove DNA Matches Soon",
+      "url": "https://dna-explained.com/2020/07/16/ancestry-to-remove-dna-matches-soon-preservation-strategies-with-detailed-instructions/",
+      "date": "2020-07-16",
+      "key_finding": "Confirms Ancestry C&D letters sent June 2020 to ALL third-party tools including Genetic Affairs and DNAGedcom; DNAGedcom 'still functioning'"
+    },
+    {
+      "title": "DNAeXplained: How to Use Ancestry's New Match Clusters",
+      "url": "https://dna-explained.com/2025/07/10/how-to-use-ancestrys-new-match-clusters-and-what-they-mean/",
+      "date": "2025-07-10",
+      "key_finding": "Ancestry ProTools clustering launched 2025; DNAGedcom listed as active for clustering; no tree download feature in ProTools"
+    },
+    {
+      "title": "DNAeXplained: AutoKinship by Genetic Affairs (FTDNA)",
+      "url": "https://dna-explained.com/2026/02/10/autokinship-by-genetic-affairs-builds-family-trees-from-your-matches-at-familytreedna-and-more/",
+      "date": "2026-02-10",
+      "key_finding": "Genetic Affairs full automation for FTDNA; Ancestry requires manual HTML file import only; 200 free credits on signup; subscription for AutoLineage"
+    },
+    {
+      "title": "DNAeXplained: 2025 Genetic Genealogy Retrospective",
+      "url": "https://dna-explained.com/2025/12/31/2025-genetic-genealogy-retrospective-wow-what-a-year/",
+      "date": "2025-12-31",
+      "key_finding": "Year in review: DNAGedcom not mentioned as major player; Genetic Affairs cited as 'tried and true staple'; no new tree harvesting tools noted"
+    },
+    {
+      "title": "Reddit r/Genealogy: Chromosome Mapping (Jan 2025)",
+      "url": "https://reddit.com/r/Genealogy/comments/1id94go/chromosome_mapping/",
+      "date": "2025-01-29",
+      "key_finding": "User reports DNAGedcom UI re-vamped, still downloading Ancestry data; another user found it clunky with poor instructions"
+    },
+    {
+      "title": "Genetic Affairs Homepage (2026)",
+      "url": "https://www.geneticaffairs.com",
+      "date": "2026-04-26",
+      "key_finding": "Active; licensed by MyHeritage and GEDmatch; 200 free credits on signup; credit-based pricing"
+    },
+    {
+      "title": "Wikipedia: GEDmatch",
+      "url": "https://en.wikipedia.org/wiki/GEDmatch",
+      "date": "2025-05",
+      "key_finding": "Tier 1 premium $10/month; owned by Verogen Inc (Qiagen subsidiary since Jan 2023); 1.45M DNA profiles as of Fall 2020"
+    },
+    {
+      "title": "Kitty Cooper Blog: Collecting Family Trees with Automation",
+      "url": "https://blog.kittycooper.com/collecting-trees-with-automation",
+      "date": "Updated",
+      "key_finding": "Pedigree Thief works on most sites BUT NOT Ancestry; manual Save to Tree still viable for small numbers"
+    }
+  ]
+}
