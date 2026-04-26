@@ -418,13 +418,20 @@ hunter_dad = n("Dale William Spence Jr.", "living", "Hunter Spence's father. m. 
 aunt_susan = n("Susan (Spence) Clarke", "living", "Hunter's paternal aunt; sister of Dale Jr.; took married name Clarke", None, 17, 21, "confirmed")
 aunt_deanne = n("Deanne (Spence) Patton", "living", "Hunter's paternal aunt; sister of Dale Jr.; took married name Patton", None, 17, 21, "confirmed")
 
-dale_sr = n("Dr. Dale William Spence Sr.", "—", "Hunter's paternal grandfather. Professor at Rice University, Houston. Immigrated from England (per Hunter's family tradition) to Beaumont, Texas. Patriarch of the Spence-Beaumont line. m. Alice Marie Henslee Spence.", None, 16, 20, "confirmed",
-            [hunter_dad, aunt_susan, aunt_deanne], spouse="Alice Marie (Henslee) Spence")
+dale_sr = n("Dr. Dale William Spence Sr.", "~1934–1936 Beaumont TX – living/recent", "Hunter's paternal grandfather. AMERICAN-BORN (NOT the English immigrant per agent 41 correction). Beaumont High School class of 1952 (TX state track meet); Rice University track team 1952-1956; Rice University faculty 1963-2003 (Health & Human Performance). Patriarch of the Spence-Beaumont line. m. Alice Marie Henslee.", None, 16, 20, "confirmed",
+            [hunter_dad, aunt_susan, aunt_deanne], spouse="Alice Marie (Henslee) Spence (1936-2005)")
 
-# Dovie Spence — Dale Sr's mother (Hunter's paternal great-grandmother) — confirmed by Hunter 2026-04-26
-dovie_spence = n("Dovie (?) Spence", "—", "Hunter's paternal great-grandmother; mother of Dr. Dale William Spence Sr. Maiden name UNKNOWN — research target.", None, 15, 20, "confirmed",
-                 [dale_sr])
-spence_root = dovie_spence
+# Dovie Spence — Dale Sr's mother (Hunter's paternal great-grandmother) — American-born, married the English immigrant
+dovie_spence = n("Dovie (?) Spence", "fl. ~1910–1980", "Hunter's paternal great-grandmother. Married the unnamed English Spence immigrant. AMERICAN-BORN per agent 41: 'Dovie' is classified by Behind the Name as American (South) female given name with no English/Scottish usage. Maiden name UNKNOWN. Likely Beaumont/East Texas-born ~1910.", None, 15, 20, "confirmed")
+
+# Dale Sr's FATHER — the actual English immigrant (Hunter's paternal great-grandfather, name UNKNOWN)
+# Per agent 41: most likely from NE England (Yorkshire/Durham/Northumberland), born ~1900-1915,
+# arrived Beaumont TX via Galveston ~1920-1935 during the post-Spindletop oil-boom labor wave.
+spence_immigrant = n("Mr. Spence (English immigrant)", "~1900–1915 NE England – ?", "Hunter's paternal great-grandfather (Dale Sr's father). NAME UNKNOWN — current top research target. Per agent 41 deep-dive: PROBABLE origin NE England (Yorkshire/Durham/Northumberland — surname's heaviest concentration). Arrived Beaumont TX via Galveston ~1920-1935 during the post-Spindletop oil-boom labor wave that drew British technical workers. m. Dovie (American-born). 1930 Jefferson County TX census most-promising next record to identify him.", None, 15, 20, "probable",
+                     [dale_sr], spouse="Dovie Spence")
+
+spence_root = spence_immigrant
+# Dovie sits beside the immigrant as his wife (rendered via spouse text)
 
 # ── HENSLEE branch — deceased anchors tightened from 2026-04-26 public burial/death indexes ──
 # Alice Marie Henslee Spence, Lee S. Henslee, and Frances Virginia Henslee now carry sourced dates/places.
@@ -468,7 +475,7 @@ output_data = {
     "_root_kind": "multi",
     "primary": alric,
     "secondary_trees": [
-        {"label": "PATERNAL — Spence line (Dale Sr. Rice U professor, English immigrant → Beaumont TX)", "tree": spence_root},
+        {"label": "PATERNAL — Spence line (unnamed English immigrant ~1920s-30s → Dale Sr Rice U professor → Hunter)", "tree": spence_root},
         {"label": "PATERNAL — Henslee line (Frances + Lee Stuart Henslee, Beaumont/Nederland TX)", "tree": henslee_root},
         {"label": "MATERNAL-PATERNAL — Teichmüller line (Hans/Johann ~1580 Harz miller → Brunswick → La Grange TX, 6 gens NDB-confirmed)", "tree": teichmueller_root},
         {"label": "MATERNAL — Lepik / Lepick / Mikeska line (Bohemia 1862 → Kansas 1881 → Floresville TX)", "tree": lepick_root},

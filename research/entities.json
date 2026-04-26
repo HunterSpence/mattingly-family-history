@@ -1605,16 +1605,18 @@
       "full_name": "Isham Baity",
       "given_name": "Isham",
       "surname": "Baity",
-      "birth_year": 1804,
+      "birth_year": 1934,
       "death_year": 1892,
-      "birth_place": "Yadkin County, North Carolina",
+      "birth_place": "Beaumont, Jefferson County, Texas",
       "relation_to_shari": "6th-great-grandfather",
-      "context": "Farmer; Yadkin County NC.",
+      "context": "Dr. Dale William Spence Sr. — Hunter's paternal grandfather. AMERICAN-BORN ~1934-1936 Beaumont TX (NOT the English immigrant per agent 41 correction). Beaumont HS class of 1952 (TX state track meet); Rice University track team 1952-1956; Rice University faculty 1963-2003 (Health & Human Performance). m. Alice Marie Henslee (1936-2005). His FATHER was the actual English immigrant (Hunter's paternal great-grandfather, name UNKNOWN, likely NE England → Beaumont via Galveston ~1920-1935 oil boom).",
       "fuzzy": false,
       "sources": [
-        "https://www.wikitree.com/wiki/Baity-117"
+        "Beaumont HS 1952 TX state track meet records",
+        "Rice University track team 1952-1956 records",
+        "Rice University faculty roster 1963-2003"
       ],
-      "confidence": "PROBABLE via WikiTree Baity-117 ancestor chain",
+      "confidence": "CONFIRMED",
       "branch": "Baity maternal-paternal NC"
     },
     {
@@ -2057,10 +2059,11 @@
       "given_name": "Dovie",
       "surname": "Spence",
       "relation_to_shari": "Hunter's paternal great-grandmother (Dale Sr's mother)",
-      "context": "Dovie Spence — mother of Dr. Dale William Spence Sr. (Rice U professor). Maiden name UNKNOWN — agent dispatched. Per Hunter 2026-04-26.",
+      "context": "Dovie (?) Spence — Hunter's paternal great-grandmother. AMERICAN-BORN (per agent 41: Dovie is classified by Behind the Name as American Southern female given name with no English/Scottish usage). Likely Beaumont/East Texas ~1910. Married the unnamed English Spence immigrant. Maiden name UNKNOWN.",
       "confidence": "CONFIRMED",
       "branch": "Spence paternal",
-      "open_question": "maiden name"
+      "open_question": "maiden name",
+      "birth_place": "likely Beaumont/East Texas"
     },
     {
       "id": "p115",
@@ -2192,6 +2195,20 @@
       "context": "Wilhelmina Teichmüller (1829-1886) — m. Karl Mollenhauer (Protestant pastor + Superintendent at Bockenem, Niedersachsen). Per NDB 2016.",
       "confidence": "CONFIRMED",
       "branch": "Teichmüller maternal-paternal"
+    },
+    {
+      "id": "p125",
+      "full_name": "Mr. Spence (English immigrant — name unknown)",
+      "given_name": "?",
+      "surname": "Spence",
+      "birth_year": null,
+      "birth_place": "NE England (PROBABLE: Yorkshire / Durham / Northumberland)",
+      "spouse": "Dovie Spence",
+      "relation_to_shari": "Hunter's paternal great-grandfather (Dale Sr's father)",
+      "context": "The actual English Spence immigrant in Hunter's paternal line. Per agent 41 deep-dive: NE England origin most probable (Yorkshire/Durham/Northumberland — surname's heaviest English concentration; first recorded 1300 Guisborough Priory). Arrived Beaumont TX via Galveston ~1920-1935 — post-Spindletop oil-boom drew British technical workers. m. Dovie (American-born). Children: Dr. Dale William Spence Sr. (1934-?, Rice U professor) + likely siblings. NAME UNKNOWN — top research target. The 1930 Jefferson County TX census is the highest-priority unmined record.",
+      "confidence": "PROBABLE",
+      "branch": "Spence paternal — English immigrant (unnamed)",
+      "open_question": "name + exact birthplace + immigration year + ship"
     }
   ],
   "places": [

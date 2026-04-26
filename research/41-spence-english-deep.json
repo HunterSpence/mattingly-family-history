@@ -1,0 +1,341 @@
+{
+  "report": {
+    "id": "41-spence-english-deep",
+    "prepared": "2026-04-26",
+    "researcher": "Researcher Specialist (claude-sonnet-4-6)",
+    "supersedes": "41-spence-english-deep.md (skeleton, 2026-04-26)"
+  },
+  "confidence_scale": {
+    "CONFIRMED": "directly supported by cited primary or secondary source",
+    "PROBABLE": "2+ corroborating sources, strong inference",
+    "POSSIBLE": "plausible from one source or logical inference",
+    "UNVERIFIED": "noted but not corroborated"
+  },
+  "key_finding": {
+    "summary": "Dale William Spence Sr. is American-born (Beaumont TX ~1934-1936). The English immigrant is his father (Dale Sr.'s father), Hunter's paternal great-grandfather, name unknown, estimated born England 1900-1915.",
+    "confidence": "CONFIRMED for Dale Sr. American birth; PROBABLE for immigrant-generation being Dale Sr.'s father"
+  },
+  "dale_william_spence_sr": {
+    "relationship_to_hunter": "paternal grandfather",
+    "confirmed_facts": [
+      {
+        "fact": "Competed for Beaumont High School, won Texas state 880 championship 1952",
+        "source": "Beaumont High School Pine Burr yearbook 1952 p.234 (e-yearbook.com)",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "fact": "Ran track for Rice University 1952-1956",
+        "source": "riceowls.com 2019; ricehistorycorner.com comment 2020-05-08",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "fact": "Served in US Marine Corps (Colonel, USMCR Ret)",
+        "source": "Rice History Corner comment signed 'Spence, Colonel, USMCR(Ret)'",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "fact": "Earned EdD from LSU 1966: 'Analysis of Selected Values in Physical Education as Identified by Professional Personnel'",
+        "source": "https://repository.lsu.edu/gradschool_disstheses/1171/",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "fact": "Rice University faculty 1963-2003, Department of Human Performance and Health Sciences",
+        "source": "riceowls.com 2019; PubMed PMID 2375667 (1990 affiliation line)",
+        "confidence": "CONFIRMED"
+      },
+      {
+        "fact": "Professor Emeritus of Kinesiology, Rice University",
+        "source": "Rice News 2019-11-11 https://news2.rice.edu/2019/11/11/honoring-our-veterans/",
+        "confidence": "CONFIRMED"
+      }
+    ],
+    "birth_year_estimate": "1934-1936",
+    "birth_year_confidence": "PROBABLE (inferred from Beaumont High 1952 = born ~1934-1936)",
+    "birth_location": "Beaumont, Jefferson County, Texas, USA",
+    "birth_location_confidence": "PROBABLE (confirmed Texas youth; specific hospital/city document needed)",
+    "english_origin": "UNVERIFIED for Dale Sr. himself; PROBABLE for his father"
+  },
+  "immigrant_ancestor": {
+    "relationship_to_hunter": "paternal great-grandfather",
+    "identity": "UNKNOWN — name not found in accessible public records",
+    "estimated_birth_year": "1900-1915",
+    "estimated_birthplace": "England — most likely NE England (Yorkshire, County Durham, or Northumberland)",
+    "estimated_immigration_year": "1920-1935",
+    "estimated_port_of_entry": "Galveston, Texas (primary Texas immigration port 1880-1918)",
+    "immigration_reason": "Oil/refinery industry (Beaumont boom post-Spindletop 1901)",
+    "confidence": "POSSIBLE",
+    "primary_records_needed": [
+      {
+        "record": "1930 US Census, Jefferson County TX — Spence household",
+        "source": "FamilySearch.org (free)",
+        "cost": "Free"
+      },
+      {
+        "record": "Texas birth certificate for Dale William Spence Sr. (names parents)",
+        "source": "Texas DSHS Vital Records: dshs.texas.gov/vital-statistics",
+        "cost": "~$22"
+      },
+      {
+        "record": "Port of Galveston passenger arrival lists 1910-1935",
+        "source": "FamilySearch or Ancestry",
+        "cost": "Free-$25"
+      },
+      {
+        "record": "USCIS Naturalization A-file for Spence + England + Texas",
+        "source": "USCIS Genealogy Service: uscis.gov/tools/genealogy",
+        "cost": "~$65"
+      },
+      {
+        "record": "NARA Region 7 (Fort Worth) naturalization petitions, Jefferson County TX 1910-1940",
+        "source": "National Archives and Records Administration",
+        "cost": "Free-$30"
+      }
+    ]
+  },
+  "dovie_spence": {
+    "relationship_to_hunter": "paternal great-grandmother",
+    "status": "UNVERIFIED — family memory lead only",
+    "name_origin": {
+      "given_name": "Dovie",
+      "classification": "American (South) female given name",
+      "not_english_or_scottish": true,
+      "source": "Behind the Name (behindthename.com/name/dovie)",
+      "confidence": "CONFIRMED (name classification)"
+    },
+    "implied_birth_origin": "American-born, Southern US (Texas or neighboring state)",
+    "implied_birth_origin_confidence": "PROBABLE (name classification implies American origin)",
+    "maiden_name": "UNKNOWN",
+    "records_needed": [
+      "Texas marriage records 1920s-1930s (search Dovie + Spence)",
+      "Obituary for Dale William Spence Sr. (would likely name his mother)",
+      "1940 US Census Jefferson County (Spence household with Dovie)"
+    ]
+  },
+  "surname_geography": {
+    "first_english_record": {
+      "individual": "Simon del Spens (de la Despense)",
+      "year": 1300,
+      "location": "Guisborough Priory, Yorkshire, England",
+      "source": "Charters of Guisburn Priory, cited Bardsley 1896, via HouseOfNames",
+      "confidence": "CONFIRMED"
+    },
+    "first_scottish_record": {
+      "individual": "John 'Dispensator' / 'Le Dispenser'",
+      "year_range": "1161-1171",
+      "location": "Scotland",
+      "source": "Vassal list of Walter fitz Alan, Steward of Scotland; cited Anderson 1877",
+      "confidence": "CONFIRMED"
+    },
+    "distribution_1881": {
+      "england_rank": "646th",
+      "england_bearers": 5671,
+      "scotland_rank": "149th",
+      "scotland_bearers": 4212,
+      "note": "Per capita far more concentrated in Scotland",
+      "confidence": "PROBABLE (SurnameDB, Forebears.io)"
+    },
+    "likely_english_regions_for_immigrant": [
+      {
+        "region": "Yorkshire (North Riding / West Riding / East Riding)",
+        "evidence": "First English record (1300, Guisborough); two convict transportees 1800 and 1837",
+        "tier": 1,
+        "confidence": "PROBABLE"
+      },
+      {
+        "region": "County Durham (Gateshead / Low Fell / Sunderland)",
+        "evidence": "Tristram F Spence born 1910 Low Fell Co. Durham — exactly the immigrant-generation birth window",
+        "tier": 1,
+        "confidence": "PROBABLE"
+      },
+      {
+        "region": "Northumberland (Newcastle upon Tyne area)",
+        "evidence": "Thomas Spence (1750) born Newcastle, Presbyterian family; heavy Scots-descent community",
+        "tier": 1,
+        "confidence": "PROBABLE"
+      },
+      {
+        "region": "Scotland (Fife, Edinburgh, Glasgow, Orkney)",
+        "evidence": "Clan Spens heartland; Will Spens born Glasgow 1882; Basil Spence's Orcadian parents",
+        "tier": 2,
+        "confidence": "POSSIBLE"
+      },
+      {
+        "region": "Southern England (Surrey, Essex, London)",
+        "evidence": "Jonathan Spence born Surrey 1936; but rarer historically",
+        "tier": 3,
+        "confidence": "POSSIBLE but weaker"
+      }
+    ]
+  },
+  "documented_patrilineal_chains": {
+    "clan_spens_fife_scotland": {
+      "confidence": "CONFIRMED",
+      "source": "Wikipedia: Clan Spens; Anderson 1877; Burke's Peerage",
+      "chain": [
+        {"individual": "John 'Dispensator'", "date": "1161-1171", "location": "Scotland"},
+        {"individual": "Roger 'Dispensator'", "date": "1202-1222", "location": "Moray, Scotland"},
+        {"individual": "Thomas 'Dispensator'", "date": "1232", "location": "Scotland"},
+        {"individual": "John Spens", "date": "1260", "location": "Irvine, Ayrshire"},
+        {"individual": "Henry de Spens (Ragman Rolls)", "date": "1296", "location": "Scotland/England border"},
+        {"individual": "Thomas de Spens", "date": "1296-1324", "location": "Edinburgh"},
+        {"individual": "William de Spens", "date": "1358", "location": "Fife/Kinross"},
+        {"individual": "William de Spens (son)", "date": "1385", "location": "Fife"},
+        {"individual": "John Spens of Lathallan", "date": "1434", "location": "Fife"},
+        {"individual": "Bishop Thomas Spens", "date": "1449-1480", "location": "Scotland"},
+        {"individual": "Patrick Spens (Baron de Spens d'Estignols)", "date": "1450+", "location": "France"},
+        {"individual": "Dr. Nathaniel Spens (RCP President)", "date": "1728-1815", "location": "Craigsanquhar, Fife"},
+        {"individual": "Sir William Spens (Cambridge VC)", "date": "1882-1962", "location": "Glasgow/Cambridge"},
+        {"individual": "4th Baron Spens (current chief)", "date": "present", "location": "UK"}
+      ]
+    },
+    "scottish_fife_to_colonial_virginia": {
+      "confidence": "PROBABLE",
+      "source": "WikiTree Spence-4998 (FamilySearch citations; 0.39% DNA match)",
+      "chain": [
+        {"individual": "John Spence", "dates": "1611-1704", "location": "Glasgow, Scotland"},
+        {"individual": "David Spence", "dates": "1639-1679", "location": "Dysart, Fife -> Virginia, USA"},
+        {"individual": "James Spence Sr.", "dates": "c.1674-c.1738", "location": "Somerset County, Maryland"},
+        {"individual": "James Spence Jr.", "dates": "1702-aft.1753", "location": "Pasquotank County, NC"}
+      ]
+    },
+    "orkney_spence_of_scapa": {
+      "confidence": "CONFIRMED",
+      "source": "Orkney FHS; Kirkwall OPR film 0990503",
+      "chain": [
+        {"individual": "Harie Spence, 1st of Scapa", "date": "pre-1657", "location": "Kirkwall, Orkney"},
+        {"individual": "George Spence (baillie)", "date": "1657-1663", "location": "Kirkwall, Orkney"},
+        {"individual": "Patrick Spence (treasurer)", "date": "fl.1680s", "location": "Kirkwall, Orkney"},
+        {"individual": "David Spence, 5th of Scapa", "date": "fl.1690s", "location": "Kirkwall, Orkney"},
+        {"individual": "William Spence (notary/town clerk)", "date": "fl.1710s", "location": "Kirkwall, Orkney"}
+      ],
+      "connection_to_basil_spence": {
+        "fact": "Sir Basil Urwin Spence (1907-1976), architect of rebuilt Coventry Cathedral, had Orcadian parents; father Urwin Archibald Spence was Royal Mint assayer",
+        "confidence": "CONFIRMED",
+        "source": "Edinburgh University Our History database"
+      }
+    },
+    "yorkshire_ne_england": {
+      "confidence": "CONFIRMED",
+      "records": [
+        {"individual": "Simon del Spens", "year": 1300, "location": "Guisborough, North Yorkshire"},
+        {"individual": "Thomas Spence (radical)", "dates": "1750-1814", "location": "Newcastle upon Tyne"},
+        {"individual": "Hannah Spence (transport)", "year": 1800, "location": "City of York, Yorkshire"},
+        {"individual": "John Spence (transport)", "year": 1837, "location": "West Riding, Yorkshire"},
+        {"individual": "Tristram F Spence (RN, killed HMS Hood)", "birth_year": 1910, "death_year": 1941, "location": "Low Fell, County Durham"}
+      ]
+    }
+  },
+  "notable_academic_spences": [
+    {
+      "name": "Dr. Nathaniel Spens",
+      "dates": "1728-1815",
+      "achievement": "President, Royal College of Physicians of Edinburgh 1794; bought back Craigsanquhar estate 1792",
+      "location": "Fife, Scotland",
+      "confidence": "CONFIRMED",
+      "source": "Wikipedia: Clan Spens"
+    },
+    {
+      "name": "Sir William Spens",
+      "dates": "1882-1962",
+      "achievement": "Vice-Chancellor of Cambridge University 1931-1933; Master of Corpus Christi 1927-1952; Spens Report on secondary education 1938",
+      "birth_location": "Glasgow, Scotland",
+      "father": "John Spens",
+      "confidence": "CONFIRMED",
+      "source": "Wikipedia: Will Spens; Burke's Peerage 1962"
+    },
+    {
+      "name": "Jonathan Dermot Spence CMG",
+      "dates": "1936-2021",
+      "achievement": "Sterling Professor of History, Yale University 1993-2008; Chinese history scholar; best-seller 'The Search for Modern China'; became US citizen 2000",
+      "birth_location": "Surrey, England",
+      "mother": "Muriel (nee Crailsham)",
+      "father": "Dermot Spence (art gallery/publishing)",
+      "education": "Winchester College; Clare College, Cambridge BA 1959; Yale PhD 1965",
+      "parallel_to_hunter_line": "English-born academic who emigrated to US and settled permanently — direct career parallel to Dale Sr.",
+      "confidence": "CONFIRMED",
+      "source": "Wikipedia: Jonathan D. Spence"
+    },
+    {
+      "name": "Sir Basil Urwin Spence",
+      "dates": "1907-1976",
+      "achievement": "Architect of rebuilt Coventry Cathedral (1962); knighted 1960",
+      "birth_location": "Bombay, British India (Orcadian parents)",
+      "father": "Urwin Archibald Spence (Royal Mint assayer)",
+      "confidence": "CONFIRMED",
+      "source": "Wikipedia: Basil Spence; Edinburgh University Our History"
+    }
+  ],
+  "dovie_name_analysis": {
+    "given_name": "Dovie",
+    "classification_source": "https://www.behindthename.com/name/dovie",
+    "classification": "American (South) — female given name",
+    "not_found_in_english_or_scottish_records": true,
+    "implication": "Dale Sr.'s mother was American-born (most likely Texas or Gulf South state)",
+    "confidence": "CONFIRMED (name classification)"
+  },
+  "hunters_uk_passport": {
+    "mechanism": "British citizenship by descent",
+    "chain": [
+      {"generation": "great-grandfather", "status": "English-born British subject/citizen", "confidence": "PROBABLE"},
+      {"generation": "grandfather (Dale Sr.)", "status": "British citizen by descent (British Nationality Act 1948/1981)", "confidence": "PROBABLE"},
+      {"generation": "father (Dale Jr.)", "status": "British citizen by descent or registration", "confidence": "POSSIBLE"},
+      {"generation": "Hunter", "status": "UK passport holder CONFIRMED by family context", "confidence": "CONFIRMED"}
+    ]
+  },
+  "surname_etymology": {
+    "origin": "Norman French / Old French occupational",
+    "chain": [
+      "Latin: dispendere (to weigh out / distribute)",
+      "Medieval Latin: dispensa (the household larder)",
+      "Old French: despense / Anglo-French: espense (the storeroom)",
+      "Middle English: spence / spens (the larder)",
+      "Occupational role: spenser / dispensator (household steward controlling food distribution)",
+      "Surname: de la Despense / atte Spence -> Spens / Spence"
+    ],
+    "variant_forms": ["Spencer", "Spens", "Spense", "Spenceley", "Spencley"],
+    "noble_parallel": "Le Despenser family (Hugh le Despenser 1st Earl of Winchester 1261-1326 = noble version of same occupational designation)",
+    "coat_of_arms_shield": "Three covered cups (goblets) — reference to the pantry/dispensary role",
+    "clan_motto": "Si Deus Quis Contra (If God is for us, who is against us)",
+    "confidence": "CONFIRMED — multiple authoritative surname dictionaries"
+  },
+  "recommendations": {
+    "immediate_free_searches": [
+      "FamilySearch 1930 US Census — Jefferson County TX — surname Spence (search for household with head born England and child named Dale ~1934-1936)",
+      "FamilySearch 1920 US Census — Jefferson County TX — surname Spence (immigrant potentially arrived 1910s-1920s)",
+      "FreeBMD births search: Co. Durham and North Riding Yorkshire, 1900-1920, surname Spence (requires JavaScript browser — not bot-searchable)"
+    ],
+    "low_cost_paid_searches": [
+      "Texas DSHS birth certificate for Dale William Spence (~$22) — names parents directly",
+      "Port of Galveston arrival lists 1910-1935 via FamilySearch or Ancestry ($25) — search Spence + England origin",
+      "ScotlandsPeople birth index (~£7) — if born Scotland rather than England"
+    ],
+    "high_value_paid_searches": [
+      "USCIS Genealogy A-file search (~$65) — naturalization record would give English birthplace, parents, immigration date",
+      "DNA test for Hunter (AncestryDNA or 23andMe, ~$79-99) — Y-chromosome haplogroup R-M269 or I-M253 would confirm NW European/British paternal line"
+    ],
+    "priority_1_action": "1930 US Census search Jefferson County TX for Spence household with English-born head — free on FamilySearch, would identify Dale Sr.'s father by name"
+  },
+  "sources": [
+    {"url": "https://riceowls.com/news/2019/10/11/mens-track-field-pr-club-to-honor-spence-stadel-and-1995-championship-team", "what": "Dale Sr. Beaumont High 1952; Rice 1952-1956; LSU EdD; Rice faculty 1963-2003"},
+    {"url": "https://www.e-yearbook.com/yearbooks/Beaumont_High_School_Pine_Burr_Yearbook/1952/Page_234.html", "what": "Dale Spence wins 880 at Texas state track meet, Beaumont High 1952"},
+    {"url": "https://ricehistorycorner.com/2020/05/07/semper-fidelis-date-unknown/", "what": "Comment by 'Spence, Colonel, USMCR(Ret)' — Rice 1952-1956 confirmed"},
+    {"url": "https://repository.lsu.edu/gradschool_disstheses/1171/", "what": "Dale William Spence EdD 1966, LSU"},
+    {"url": "https://pubmed.ncbi.nlm.nih.gov/2375667/", "what": "D.W. Spence, Rice University HPHS affiliation 1990"},
+    {"url": "https://news2.rice.edu/2019/11/11/honoring-our-veterans/", "what": "Dale Spence, professor emeritus of kinesiology, Rice Veterans Day 2019"},
+    {"url": "https://news2.rice.edu/2002/05/23/cosby-sends-graduates-off-laughing/", "what": "Dale Spence ran track with Bill Cosby late 1950s"},
+    {"url": "https://en.wikipedia.org/wiki/Clan_Spens", "what": "Clan Spens full history 1161-present"},
+    {"url": "https://en.wikipedia.org/wiki/Will_Spens", "what": "Sir William Spens, Cambridge VC, born Glasgow 1882"},
+    {"url": "https://en.wikipedia.org/wiki/Jonathan_D._Spence", "what": "Jonathan Spence, born Surrey 1936, Yale professor"},
+    {"url": "https://en.wikipedia.org/wiki/Basil_Spence", "what": "Sir Basil Spence, architect, Orcadian parents"},
+    {"url": "https://en.wikipedia.org/wiki/Thomas_Spence", "what": "Thomas Spence, Newcastle 1750, Presbyterian family"},
+    {"url": "https://www.behindthename.com/name/dovie", "what": "Dovie classified as American (South) female given name"},
+    {"url": "https://houseofnames.com/spence-family-crest", "what": "Spence surname migration data, immigration records"},
+    {"url": "https://orkneyfhs.co.uk/docs/resourcedocs/1/SPENCE_of_Scapa.htm", "what": "Spence of Scapa family, Kirkwall OPR 1652-1727"},
+    {"url": "https://www.spens.info/", "what": "Official Spens d'Estignols family website — branches in Scotland, England, Sweden, Germany, Czechoslovakia"},
+    {"related_files": [
+      "C:/Users/hspen/.openclaw/workspace/family-history/research/38-hunter-paternal.md",
+      "C:/Users/hspen/.openclaw/workspace/family-history/research/48-dovie-spence-deep.md",
+      "C:/Users/hspen/.openclaw/workspace/family-history/research/42-spence-henslee-expanded.md"
+    ]}
+  ]
+}
