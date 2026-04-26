@@ -1422,11 +1422,11 @@
       }
     },
     {
-      "label": "MATERNAL — Lepik / Lepick / Mikeska line (Bohemia 1862 → Kansas 1881 → Floresville TX)",
+      "label": "MATERNAL — Lepik / Lepick / Mikeska line (Frýdek-Místek Moravia 1862 → Brown Co KS 1881 → Floresville TX; Roman Catholic)",
       "tree": {
         "name": "Frank Lepik (later 'Lepick')",
-        "dates": "~1862 Bohemia (Austria-Hungary) – ?",
-        "fact": "Hunter's maternal 2x-great-grandfather. EMIGRATED 1881 from Bohemia to Brown County Kansas. Surname 'Lepik' Czech/Bohemian; Americanized to 'Lepick' by next generation. m. Mary Mikeska. 9 children (most stayed Kansas/Arkansas; only Fred Sr went to Texas). WikiTree Lepik-8.",
+        "dates": "~1862 Frýdek-Místek region, Moravia – 1939 Brown Co KS",
+        "fact": "Hunter's maternal 2x-great-grandfather. EMIGRATED 1881 from the Frýdek-Místek District (Moravian-Silesian Region — 54% of all Czech Lepík surname-bearers concentrated there per agent 44 deep-dive). Settled Brown County Kansas; shoemaker; I.O.O.F. Lodge No. 331 Horton KS. m. Mary Mikeska 13 Jan 1885 St Joseph Catholic Church Everest KS. Roman Catholic. 9 children. Buried Kennekuk Cemetery Horton (Find a Grave 140131220). WikiTree Lepik-8.",
         "id": null,
         "generation": 13,
         "century": 19,
@@ -1559,6 +1559,55 @@
             "name": "Katherine 'Kate' Lepick",
             "dates": "?",
             "fact": "Fred Sr.'s sibling",
+            "id": null,
+            "generation": 14,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": null,
+            "children": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "MATERNAL — Baity / Beatty line (Scots-Irish: Border Scots → Ulster 1610-40 → PA → NC by 1750s → SA TX; documented to George Baity 1774 Rowan/Surry NC)",
+      "tree": {
+        "name": "Baity line research anchors",
+        "dates": "NC by 1830; San Antonio by 1910",
+        "fact": "Visual tree of source-backed Baity anchors only. It does not claim a completed direct lineage, immigrant arrival, or the unproved April 1901 Reeves County purchase.",
+        "id": null,
+        "generation": 10,
+        "century": 19,
+        "confidence": "confirmed",
+        "spouse": null,
+        "children": [
+          {
+            "name": "Surry County Baity household cluster",
+            "dates": "1830",
+            "fact": "1830 Surry County census transcription lists David Baity, George Baity, Isam Baity, and Pleasant Baity as separate heads of household. Regional presence note only; not a proved parent-child chain.",
+            "id": null,
+            "generation": 11,
+            "century": 19,
+            "confidence": "confirmed",
+            "spouse": null,
+            "children": [
+              {
+                "name": "Isham \"Isom\" Baity",
+                "dates": "19 Oct 1804 – 23 Dec 1892",
+                "fact": "Courtney Baptist Church Cemetery, Yadkin County NC, gives exact dates. Strong Yadkin/Surry Baity anchor; direct bridge to W. A. Baity still needs census/probate/vital proof.",
+                "id": null,
+                "generation": 12,
+                "century": 19,
+                "confidence": "confirmed",
+                "spouse": null,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "W. A. Baity + Paralee Baity",
+            "dates": "fl. 1909–1925 San Antonio TX",
+            "fact": "Bexar County records and San Antonio newspapers document W. A. + Paralee as a real-estate couple by 1910; W. A. was a builder/developer and was listed at 211 Castillo Ave by 1925. Expanding W. A. to William Alexander and Pearl to Paralee remains research-note-only until direct records are cited.",
             "id": null,
             "generation": 14,
             "century": 20,

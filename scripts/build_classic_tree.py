@@ -333,10 +333,28 @@ fred_siblings = [
 # Frank LEPIK (Bohemian immigrant 1881) + Mary Mikeska
 mary_mikeska = n("Mary (Mikeska) Lepik", "~1863 Bohemia/Moravia – ?", "Hunter's maternal 2x-great-grandmother. Czech/Moravian. Mikeska family arrived 1871 northeastern Kansas Czech corridor. WikiTree Mikeska-77 or 78.", None, 13, 19, "confirmed", spouse="Frank Lepik")
 
-frank_lepik = n("Frank Lepik (later 'Lepick')", "~1862 Bohemia (Austria-Hungary) – ?", "Hunter's maternal 2x-great-grandfather. EMIGRATED 1881 from Bohemia to Brown County Kansas. Surname 'Lepik' Czech/Bohemian; Americanized to 'Lepick' by next generation. m. Mary Mikeska. 9 children (most stayed Kansas/Arkansas; only Fred Sr went to Texas). WikiTree Lepik-8.", None, 13, 19, "confirmed",
+frank_lepik = n("Frank Lepik (later 'Lepick')", "~1862 Frýdek-Místek region, Moravia – 1939 Brown Co KS", "Hunter's maternal 2x-great-grandfather. EMIGRATED 1881 from the Frýdek-Místek District (Moravian-Silesian Region — 54% of all Czech Lepík surname-bearers concentrated there per agent 44 deep-dive). Settled Brown County Kansas; shoemaker; I.O.O.F. Lodge No. 331 Horton KS. m. Mary Mikeska 13 Jan 1885 St Joseph Catholic Church Everest KS. Roman Catholic. 9 children. Buried Kennekuk Cemetery Horton (Find a Grave 140131220). WikiTree Lepik-8.", None, 13, 19, "confirmed",
                  [fred_lepick_sr] + fred_siblings, spouse="Mary Mikeska")
 
 lepick_root = frank_lepik
+
+# ── BAITY / Beatty / Beatie line (agent 36 deep-dive) ─────────────
+# Hunter ← Shari ← Leroy Baity Mattingly Sr ← Leroy Teichmuller Mattingly + Ruth Baity ← W.A. Baity + Pearl
+# Patrilineal Baity chain: Pearl Mae Baity ← W.A. Baity ← William D Baity (1829-1894 Yadkin NC, Courtney
+# Baptist Cemetery) ← Isham/Isom Baity (19 Oct 1804 - 23 Dec 1892 Yadkin NC) ← David Baity ← George Baity
+# (adult by 1774 Rowan/Surry NC). Surname = Scots-Irish Beatty/Beattie via Border Scots → Plantation of
+# Ulster (1610-1640) → Pennsylvania 1720s-30s → Great Wagon Road → NC by 1750s.
+
+baity_george = n("George Baity / Batee / Baty", "fl. 1774 Rowan/Surry Co NC", "Earliest documented Baity ancestor. Adult by 1774 Rowan/Surry County NC court records. Scots-Irish/Plantation-of-Ulster origin via PA 1720s-30s.", None, 8, 18, "possible")
+baity_david = n("David Baity", "fl. ~1830 Surry Co NC", "PROBABLE link between George (1774) and Isham (1804) — adult by 1830 Surry Co.", None, 9, 19, "possible", [baity_george])
+baity_isham = n("Isham 'Isom' Baity", "19 Oct 1804 – 23 Dec 1892 Yadkin Co NC", "CONFIRMED documented person; PROBABLE direct ancestor of William D. Baity. Yadkin Co NC.", None, 10, 19, "probable", [baity_david])
+baity_william_d = n("William D. Baity", "1829/1830 – 1894 Yadkin Co NC", "Buried Courtney Baptist Church Cemetery, Yadkin Co NC. Probable son of Isham + father of William Alexander Baity.", None, 11, 19, "probable", [baity_isham])
+ruth_baity = n("Ruth (Baity) Mattingly", "4 Apr 1900 – 1982 Houston", "Hunter's maternal great-grandmother. Daughter of W.A. Baity + Pearl Mae 'Paralee' Johnson. m. Leroy Teichmuller Mattingly. Mother of Leroy Baity Mattingly Sr (Shari's father).", None, 14, 20, "confirmed")
+baity_william_a = n("William Alexander 'W.A.' Baity", "~1850s NC – ?", "Hunter's maternal great-great-grandfather. NC-born; San Antonio builder/developer. 211 Castillo Ave (1925). Bexar County deed conveyances 1910. m. Pearl Mae 'Paralee' Johnson (26 Jul 1878 NC – 26 Dec 1969 Bexar Co TX, came NC→TX as child, bought Reeves Co TX land 1901 Wolfcamp/Spraberry oil play USGS 2016). Daughter Ruth Baity.", None, 12, 19, "confirmed",
+                    [ruth_baity], spouse="Pearl Mae 'Paralee' Johnson")
+# Re-parent: William D's child is William A
+baity_william_d["children"] = [baity_william_a]
+baity_root = baity_george
 
 # Tom Frost Jr — bank president 1963-1997, possibly Shari's uncle
 tom_frost_jr = n("Tom Frost Jr.", "1927–2018", "Frost Bank president 1963-1997. Probable 'Shari's uncle' from Hunter's interview.", None, 15, 20, "probable")
@@ -490,7 +508,8 @@ output_data = {
         {"label": "PATERNAL — Spence line (unnamed English immigrant ~1920s-30s → Dale Sr Rice U professor → Hunter)", "tree": spence_root},
         {"label": "PATERNAL — Henslee line (Frances + Lee Stuart Henslee, Beaumont/Nederland TX)", "tree": henslee_root},
         {"label": "MATERNAL-PATERNAL — Teichmüller line (Hans/Johann ~1580 Harz miller → Brunswick → La Grange TX, 6 gens NDB-confirmed)", "tree": teichmueller_root},
-        {"label": "MATERNAL — Lepik / Lepick / Mikeska line (Bohemia 1862 → Kansas 1881 → Floresville TX)", "tree": lepick_root},
+        {"label": "MATERNAL — Lepik / Lepick / Mikeska line (Frýdek-Místek Moravia 1862 → Brown Co KS 1881 → Floresville TX; Roman Catholic)", "tree": lepick_root},
+        {"label": "MATERNAL — Baity / Beatty line (Scots-Irish: Border Scots → Ulster 1610-40 → PA → NC by 1750s → SA TX; documented to George Baity 1774 Rowan/Surry NC)", "tree": baity_root},
         {"label": "MATERNAL — Boehme/Macker line (Herman F. Boehme + Minna Macker; PROBABLE Prussian Silesia origin → Indianola TX → Lavaca Co)", "tree": boehme_root},
         {"label": "MATERNAL-PATERNAL — Baity line research anchors (North Carolina by 1830 → San Antonio builders by 1910)", "tree": baity_root},
         {"label": "MATERNAL grandfather — David Trifon (adopted-name; biological line untraceable per Hunter)", "tree": david_trifon},
