@@ -1,0 +1,446 @@
+{
+  "file": "54-free-platforms.json",
+  "date": "2026-04-26",
+  "scope": "Free genealogy platforms for cousin-tree discovery and bulk GEDCOM export",
+  "platforms": [
+    {
+      "id": "familysearch",
+      "name": "FamilySearch.org",
+      "url": "https://www.familysearch.org",
+      "operator": "The Church of Jesus Christ of Latter-day Saints / Intellectual Reserve Inc.",
+      "cost": "Free, no paid tier",
+      "model": "Single shared collaborative tree (globally merged, ~1.4 billion indexed profiles)",
+      "cousin_tree_discovery": {
+        "possible": true,
+        "mechanism": "Navigate to shared ancestors via the global tree; cousins who have contributed those ancestors are visible. The 'Possible Duplicates' indicator shows overlapping contributions.",
+        "requires_account": true,
+        "notes": "Linked Trees feature (2022+) allows Ancestry trees to be linked to FamilySearch persons — if a cousin linked their Ancestry tree, their data is partially visible on FamilySearch"
+      },
+      "gedcom_export": {
+        "available": true,
+        "scope": "Own contributed profiles only — no bulk export of arbitrary subtrees or cousins' data",
+        "format": "GEDCOM 5.5 for personal export; API returns GEDCOM X (JSON) format",
+        "notes": "No mechanism to bulk-download cousins' data even if it exists in the tree"
+      },
+      "api": {
+        "available": true,
+        "endpoint": "https://api.familysearch.org/platform/",
+        "auth": "OAuth 2.0 — register app at https://www.familysearch.org/developers/ for appKey",
+        "sdk_npm": "fs-js-lite",
+        "sdk_url": "https://github.com/FamilySearch/fs-js-lite",
+        "sdk_version": "2.7.0 (April 2026)",
+        "sdk_node_requirement": "Node.js 14+",
+        "key_endpoints": [
+          "GET /platform/tree/persons/{pid}",
+          "GET /platform/tree/persons/{pid}/ancestors",
+          "GET /platform/tree/persons/{pid}/descendants",
+          "GET /platform/tree/persons/{pid}/families-with-parents",
+          "GET /platform/tree/persons/{pid}/families-with-children"
+        ],
+        "response_format": "GEDCOM X JSON (not GEDCOM 5.5)",
+        "rate_limiting": "Higher limits with authenticated app key; unauthenticated requests heavily restricted"
+      },
+      "open_data_standard": {
+        "name": "GEDCOM X",
+        "url": "https://github.com/FamilySearch/gedcomx",
+        "json_spec": "https://github.com/FamilySearch/gedcomx/blob/master/specifications/json-format-specification.md",
+        "java_sdk": "https://github.com/FamilySearch/gedcomx-java",
+        "license": "Creative Commons Attribution-ShareAlike 3.0"
+      },
+      "hunters_surnames": {
+        "Spence_Beaumont_TX": "Likely present via TX census/vital records indexing",
+        "Henslee_Dallas_Beaumont_TX": "Likely present",
+        "Boehme_Lavaca_Co_TX": "Present via LDS German-Texas indexing programs",
+        "Lepik_Brown_Co_KS": "Sparse — unusual Estonian/Czech surname, smaller county",
+        "Mattingly_KY": "Heavily indexed — major KY Catholic family, excellent coverage",
+        "Baity_NC": "Present via colonial NC records"
+      },
+      "limitations": [
+        "No bulk GEDCOM export of cousins' data",
+        "API returns GEDCOM X format requiring conversion to GEDCOM 5.5",
+        "Data quality variable due to community editing and incorrect merges",
+        "Bot protection (Incapsula/Imperva WAF) blocks automated curl requests to main site",
+        "Hints system (Ancestry record matches) not accessible programmatically"
+      ],
+      "sources": [
+        "https://github.com/FamilySearch/fs-js-lite",
+        "https://github.com/FamilySearch/fs-js-lite/blob/master/CHANGELOG.md",
+        "https://github.com/FamilySearch/gedcomx",
+        "https://github.com/FamilySearch/gedcomx-java"
+      ]
+    },
+    {
+      "id": "wikitree",
+      "name": "WikiTree.com",
+      "url": "https://www.wikitree.com",
+      "operator": "Interesting.com Inc. (The WikiTree Company)",
+      "cost": "Completely free, no paid tier",
+      "model": "Single collaborative tree (~40M+ profiles, wiki-style with named profile managers and Trusted Lists)",
+      "cousin_tree_discovery": {
+        "possible": true,
+        "mechanism": "GEDCOMpare tool: upload your GEDCOM, WikiTree shows existing profiles matching your ancestors. If a cousin created a profile for a shared ancestor, GEDCOMpare surfaces it as a match.",
+        "requires_account": true,
+        "notes": "The most direct free mechanism to discover what cousins have already entered for shared ancestors"
+      },
+      "gedcom": {
+        "upload": {
+          "available": true,
+          "limit_people": 5000,
+          "notes": "Trees >5000 must be split. Upload at https://www.wikitree.com/wiki/Special:UploadGEDCOM"
+        },
+        "export": {
+          "available": true,
+          "requires_login": true,
+          "scope": "Own profiles and watchlist ancestors/descendants",
+          "url": "https://www.wikitree.com/wiki/Special:GetPersonGEDCOM"
+        },
+        "gedcompare": {
+          "url": "https://www.wikitree.com/wiki/Help:GEDCOMpare",
+          "description": "After GEDCOM upload, shows comparison table of your people vs existing WikiTree profiles. Confirm/reject suggested matches. Reveals which ancestors cousins have already entered."
+        }
+      },
+      "api": {
+        "available": true,
+        "endpoint": "https://api.wikitree.com/api.php",
+        "auth": "None required for public profiles; session cookie for private profile access and higher rate limits",
+        "api_key_required": false,
+        "github": "https://github.com/wikitree/wikitree-api",
+        "actions": [
+          "getProfile — profile by WikiTree ID or PageId",
+          "getPerson — profile by WikiTree ID or User ID",
+          "getBio — biography text (wiki or HTML format)",
+          "getPhotos — photos linked to profile",
+          "getPeople — multiple profiles by key or relationship",
+          "getAncestors — multi-generation ancestors (specify depth=N)",
+          "getDescendants — multi-generation descendants",
+          "getRelatives — parents, children, siblings, spouses in one call",
+          "searchPerson — search by first+last name, location, dates",
+          "getWatchlist — profiles on logged-in user's watchlist",
+          "getDNATestsByTestTaker — DNA test data",
+          "getConnectedProfilesByDNATest — profiles linked via DNA test"
+        ],
+        "rate_limiting": "Anonymous callers heavily rate-limited (requires both first AND last name for searchPerson; frequent requests result in 'Limit exceeded'). Authenticated callers have higher limits.",
+        "response_format": "JSON",
+        "example": "curl 'https://api.wikitree.com/api.php?action=getProfile&key=Clemens-1'"
+      },
+      "database_dumps": {
+        "available": true,
+        "access": "SFTP — requires WikiTree membership and email request to jamie@wikitree.com",
+        "update_frequency": "Weekly (Sunday nights)",
+        "files": [
+          "dump_people_users — all public people (WikiTree ID, names, birth/death dates/locations, privacy-controlled)",
+          "dump_people_marriages — spouse relationships",
+          "dump_people_photos — photo references",
+          "dump_categories — category membership",
+          "dump_managers — profile manager data"
+        ],
+        "format": "Zipped tab-separated CSV",
+        "license": "Non-commercial preferred; individual permissions granted by WikiTree",
+        "source": "https://www.wikitree.com/wiki/Help:Database_Dumps"
+      },
+      "wikitree_plus": {
+        "url": "https://plus.wikitree.com",
+        "description": "Independent free service by Ales Trtnik. SQL-like search against WikiTree dump data. Ancestor/descendant reports, surname search by location. No code required.",
+        "source": "https://www.wikitree.com/wiki/Help:WikiTree_Plus"
+      },
+      "hunters_surnames": {
+        "Spence": {
+          "status": "Profiles exist — Spence-1 confirmed public (Margaret Spence, 19th century)",
+          "name_study": "Category:Spence Name Study exists as stub — no content yet",
+          "profile_url": "https://www.wikitree.com/wiki/Spence-1"
+        },
+        "Mattingly": {
+          "status": "Multiple profiles expected — well-represented KY Catholic family",
+          "name_study": "Category:Mattingly Name Study exists as stub — no content yet"
+        },
+        "Henslee": {
+          "status": "Likely sparse — unusual spelling variant (Hensley/Henslee)"
+        },
+        "Boehme": {
+          "status": "Sparse — German immigrant surname, less covered on WikiTree"
+        },
+        "Lepik": {
+          "status": "Very sparse — Estonian/Central European immigrant, rare in US genealogy databases"
+        },
+        "Baity": {
+          "status": "Present — colonial-era NC Quaker/Baptist records well-represented"
+        }
+      },
+      "limitations": [
+        "GEDCOM upload limit of 5,000 people (split required for larger trees)",
+        "Anonymous API access heavily rate-limited for searchPerson",
+        "Data quality depends on community contributors — variable",
+        "GEDCOMpare requires manual profile-by-profile confirmation (can be tedious for large trees)",
+        "Database dump access requires individual permission grant from WikiTree"
+      ],
+      "sources": [
+        "https://www.wikitree.com/wiki/Help:GEDCOM",
+        "https://www.wikitree.com/wiki/Help:GEDCOMpare",
+        "https://www.wikitree.com/wiki/Help:Exporting_a_GEDCOM",
+        "https://www.wikitree.com/wiki/Help:Database_Dumps",
+        "https://github.com/wikitree/wikitree-api",
+        "https://raw.githubusercontent.com/wikitree/wikitree-api/main/getPerson.md",
+        "https://raw.githubusercontent.com/wikitree/wikitree-api/main/getRelatives.md",
+        "https://raw.githubusercontent.com/wikitree/wikitree-api/main/getAncestors.md",
+        "https://raw.githubusercontent.com/wikitree/wikitree-api/main/searchPerson.md"
+      ]
+    },
+    {
+      "id": "geni",
+      "name": "Geni.com",
+      "url": "https://www.geni.com",
+      "operator": "MyHeritage Ltd. (acquired 2012)",
+      "cost": {
+        "free_tier": "Limited — own immediate family only",
+        "pro_tier": "Geni Pro (paid, ~$59/year) — full World Family Tree access and full GEDCOM export"
+      },
+      "model": "Single global 'World Family Tree' (~300M+ profiles) with smart-matching merges across users",
+      "cousin_tree_discovery": {
+        "possible": true,
+        "mechanism": "Upload GEDCOM; Geni attempts to match profiles against global tree. Relationship paths to public profiles visible in free tier.",
+        "notes": "Full lateral cousin navigation requires Geni Pro"
+      },
+      "gedcom": {
+        "import": {
+          "available": true,
+          "free_tier": true,
+          "confirmed_via": "Page JS: G.GEDCOM_import_enabled = true; G.GEDCOM_import_start = true"
+        },
+        "export": {
+          "available": true,
+          "free_tier": "Own profiles only — not the global tree or cousin data",
+          "pro_required": "Full GEDCOM export of connected tree requires Geni Pro"
+        }
+      },
+      "api": {
+        "available": true,
+        "endpoint": "https://www.geni.com/api",
+        "auth": "OAuth access token required — no anonymous access",
+        "confirmed": "Unauthenticated test returned: 'You have a missing or invalid access token. This call can only be made with an access token.'",
+        "developer_url": "https://www.geni.com/platform/developer",
+        "notes": "API documentation sparse and potentially outdated as of 2026"
+      },
+      "limitations": [
+        "GEDCOM export of cousin/global tree data requires paid Pro subscription",
+        "API requires OAuth — no anonymous access",
+        "Smart-matching merges can create confusing incorrect data combinations",
+        "Development appears stagnant since MyHeritage acquisition",
+        "Free tier severely limited for genealogical research beyond immediate family"
+      ],
+      "sources": [
+        "https://www.geni.com (page JS inspection)",
+        "https://www.geni.com/api (live endpoint test)"
+      ]
+    },
+    {
+      "id": "myheritage_ftb",
+      "name": "MyHeritage Family Tree Builder",
+      "url": "https://www.myheritage.com/family-tree-builder",
+      "type": "Free desktop application (Windows + macOS)",
+      "cost": "Application free; online matching features require MyHeritage subscription",
+      "primary_use": "Multi-source GEDCOM merge and management tool",
+      "gedcom": {
+        "import": "Yes — GEDCOM 5.5 including Ancestry exports",
+        "export": "Yes — GEDCOM 5.5 from any local tree",
+        "merge": "Yes — 'Merge Trees' function for combining multiple GEDCOMs locally"
+      },
+      "features": [
+        "Import GEDCOM from Ancestry, WikiTree, FamilySearch exports",
+        "Export merged GEDCOM",
+        "Sync to MyHeritage.com online tree (optional)",
+        "Record matching against 39.3 billion MyHeritage records (subscription required to view matches)",
+        "No individual limit on local tree size",
+        "Media attachments (photos, documents)"
+      ],
+      "limitations": [
+        "Desktop app is a funnel toward MyHeritage subscription",
+        "Smart Matches (cousin data from other MyHeritage members' trees) require paid Data subscription (~$149/year)",
+        "MyHeritage has history of changing free-tier limits without notice",
+        "Windows and macOS only — no Linux version"
+      ],
+      "recommended_workflow": "Best used as the GEDCOM merging tool: import Ancestry GEDCOM + WikiTree export + FamilySearch GEDCOM X converted export, use Merge Trees to deduplicate, export clean merged GEDCOM",
+      "sources": [
+        "https://www.myheritage.com/family-tree-builder (page inspection)",
+        "MyHeritage page JS: isUploadFlowRevampEnabled, MHRecordCountBillion = 39.3"
+      ]
+    },
+    {
+      "id": "findagrave",
+      "name": "Find a Grave",
+      "url": "https://www.findagrave.com",
+      "operator": "Ancestry (acquired 2013)",
+      "cost": "Free to search and view; free to add memorials",
+      "scale": "~240 million+ memorials (2024)",
+      "primary_use": "Death/burial verification, headstone photos, family connections on memorials",
+      "cousin_tree_discovery": {
+        "possible": "Indirectly — family links on memorials show relatives",
+        "notes": "Not a substitute for tree data; useful for confirming dates and burial locations"
+      },
+      "api": {
+        "available": false,
+        "notes": "No public API. Ancestry's acquisition means data is not openly exportable."
+      },
+      "hunters_surnames_expected_coverage": {
+        "Spence_Beaumont_TX": "Good — Jefferson County TX cemeteries (Forest Lawn, Magnolia, Beaumont Municipal)",
+        "Henslee_Dallas_Beaumont_TX": "Good — Dallas County and Jefferson County TX",
+        "Boehme_Lavaca_Co_TX": "Good — German-Texas cemeteries (Zion Lutheran, St. John's) well-indexed",
+        "Lepik_Brown_Co_KS": "Sparse — small Kansas county, patchy coverage",
+        "Mattingly_KY": "Excellent — KY cemeteries among most thoroughly indexed on Find a Grave; Marion/Nelson County KY",
+        "Baity_NC": "Good — Surry/Forsyth County NC Piedmont area"
+      },
+      "practical_notes": "Use as manual verification tool — confirm dates and burial locations before adding to GEDCOM. Search at https://www.findagrave.com/search/memorial/search",
+      "sources": [
+        "https://www.findagrave.com (Cloudflare-protected, direct access confirmed blocked)"
+      ]
+    },
+    {
+      "id": "billiongraves",
+      "name": "BillionGraves",
+      "url": "https://www.billiongraves.com",
+      "cost": "Free to search",
+      "scale": "~300 million transcribed headstones worldwide",
+      "primary_use": "GPS-indexed cemetery records; secondary check when Find a Grave lacks a record",
+      "api": {
+        "endpoint": "https://api.billiongraves.com/",
+        "available": false,
+        "notes": "Exists but not publicly documented; Cloudflare protection blocks automated access (confirmed via live test)"
+      },
+      "hunters_surnames_notes": "Particularly useful for German-heritage Texas cemeteries (Boehme/Lavaca Co) and Kansas frontier cemeteries (Lepik/Brown Co) where LDS indexing focused",
+      "sources": [
+        "https://www.billiongraves.com (Cloudflare-protected, confirmed blocked)"
+      ]
+    }
+  ],
+  "open_source_projects": [
+    {
+      "id": "gramps",
+      "name": "Gramps",
+      "url": "https://gramps-project.org",
+      "github": "https://github.com/gramps-project/gramps",
+      "active_branch": "maintenance/gramps60",
+      "license": "GNU GPL v3",
+      "type": "Desktop application (Windows, macOS, Linux)",
+      "cost": "Completely free",
+      "gedcom": {
+        "import": "GEDCOM 5.5",
+        "export": "GEDCOM 5.5, XML, CSV"
+      },
+      "key_features": [
+        "FamilySearch plugin for two-way sync with FamilySearch Family Tree",
+        "Duplicate detection and merge",
+        "Python API for programmatic data manipulation",
+        "Full multi-source GEDCOM merging",
+        "Integration with Gramps Web for collaborative access"
+      ],
+      "gramps_web": {
+        "url": "https://grampsweb.org",
+        "github_frontend": "https://github.com/gramps-project/gramps-web",
+        "github_api": "https://github.com/gramps-project/gramps-web-api",
+        "description": "Self-hosted web app + REST API backend. Can run on Hunter's VPS (152.53.169.245). Collaborative, privacy-first, GEDCOM import/export, AI chat assistant integrated.",
+        "vps_compatible": true
+      },
+      "sources": [
+        "https://github.com/gramps-project/gramps (README.md)",
+        "https://github.com/gramps-project/gramps-web-api (README.md)",
+        "https://github.com/gramps-project/gramps-web (README.md)"
+      ]
+    },
+    {
+      "id": "webtrees",
+      "name": "webtrees",
+      "url": "https://webtrees.net",
+      "github": "https://github.com/fisharebest/webtrees",
+      "current_version": "2.2.5 (January 2026)",
+      "license": "GNU GPL v3",
+      "type": "Self-hosted PHP + MySQL web application",
+      "cost": "Completely free",
+      "requirements": "PHP + MySQL server (Hunter's VPS qualifies)",
+      "gedcom": {
+        "import": "GEDCOM 5.5",
+        "export": "GEDCOM 5.5"
+      },
+      "key_features": [
+        "Multi-user collaborative — invite cousins to contribute",
+        "Privacy controls (public or password-protected)",
+        "No per-person limits",
+        "60+ language support",
+        "Interactive family tree charts, maps, reports",
+        "Full data ownership"
+      ],
+      "vps_compatible": true,
+      "recommended_use": "Deploy on Hunter's VPS as canonical merged tree and family collaboration portal",
+      "sources": [
+        "https://webtrees.net",
+        "https://github.com/fisharebest/webtrees (README.md)"
+      ]
+    },
+    {
+      "id": "gedcomx",
+      "name": "GEDCOM X",
+      "url": "https://github.com/FamilySearch/gedcomx",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "type": "Open data standard (not an application)",
+      "description": "FamilySearch's open successor to GEDCOM 5.5. Defines JSON and XML serialization. FamilySearch API returns GEDCOM X format. Requires conversion to GEDCOM 5.5 for use with most desktop tools.",
+      "java_sdk": "https://github.com/FamilySearch/gedcomx-java",
+      "json_spec": "https://github.com/FamilySearch/gedcomx/blob/master/specifications/json-format-specification.md"
+    }
+  ],
+  "workflow": {
+    "name": "Maximum genealogical value without scraping Ancestry",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Export from Ancestry (one-time, legitimate)",
+        "action": "Ancestry > Tree > Export Tree > Download as GEDCOM",
+        "notes": "Hunter's own data, legally owned. No ToS issue. This becomes master input for all downstream platforms."
+      },
+      {
+        "step": 2,
+        "title": "Upload GEDCOM to WikiTree — run GEDCOMpare",
+        "action": "Upload at https://www.wikitree.com/wiki/Special:UploadGEDCOM (split if >5000 people). Run GEDCOMpare to see which ancestors already have WikiTree profiles (created by cousins or other researchers).",
+        "output": "List of WikiTree IDs matching Hunter's ancestors. Use API (getProfile, getBio, getAncestors) to fetch full data for each match. Export merged GEDCOM from WikiTree."
+      },
+      {
+        "step": 3,
+        "title": "Cross-reference on FamilySearch",
+        "action": "Create free account. Search key ancestors by name + location. Navigate single tree to find cousin-contributed data.",
+        "output": "FamilySearch Person IDs for matching ancestors. Use API (/platform/tree/persons/{pid}/ancestors) to pull ancestor chains in GEDCOM X format. Convert GEDCOM X to GEDCOM 5.5."
+      },
+      {
+        "step": 4,
+        "title": "Verify deaths/burials on Find a Grave",
+        "action": "Search each ancestor at https://www.findagrave.com. Focus: Jefferson Co TX (Spence/Henslee), Lavaca Co TX (Boehme), Marion/Nelson Co KY (Mattingly), Surry/Forsyth Co NC (Baity), Brown Co KS (Lepik).",
+        "output": "Confirmed burial dates, locations, headstone photos as additional sources."
+      },
+      {
+        "step": 5,
+        "title": "Merge all sources in MyHeritage FTB or Gramps",
+        "action": "Import all GEDCOMs (original Ancestry, WikiTree export, converted FamilySearch export) into FTB (quick) or Gramps (power). Use Merge Trees / duplicate detection. Export merged GEDCOM.",
+        "output": "Single authoritative GEDCOM incorporating data from all free platforms."
+      },
+      {
+        "step": 6,
+        "title": "(Optional) Deploy webtrees on VPS for family collaboration",
+        "action": "Install webtrees on 152.53.169.245. Import merged GEDCOM. Share URL with cousins for browsing, source contribution, and GEDCOM download.",
+        "output": "Ongoing collaborative family history portal that continues to grow."
+      }
+    ],
+    "what_this_gets_that_ancestry_alone_cannot": [
+      "WikiTree profiles with primary source citations and biographies from cousins' research",
+      "FamilySearch linked records — census, vital, military records often from different collections than Ancestry",
+      "Find a Grave cemetery data — headstone photos and burial locations confirming or correcting tree data",
+      "Complete data ownership — everything in Gramps/webtrees is yours, exportable, no subscription lock-in"
+    ]
+  },
+  "surname_platform_matrix": {
+    "columns": ["FamilySearch", "WikiTree", "Geni_free", "FindAGrave"],
+    "data": {
+      "Spence_Beaumont_TX": ["Likely present", "Profiles exist (Spence-1 confirmed)", "Likely present", "Good coverage"],
+      "Henslee_Dallas_Beaumont_TX": ["Likely present", "Present but sparse", "Likely present", "Good coverage"],
+      "Boehme_Lavaca_Co_TX": ["Present (LDS German-TX indexing)", "Sparse", "Sparse", "Good (German-TX cemeteries)"],
+      "Lepik_Brown_Co_KS": ["Sparse", "Very sparse", "Very sparse", "Patchy small county"],
+      "Mattingly_KY": ["Heavily indexed", "Multiple profiles", "Present", "Excellent KY coverage"],
+      "Baity_NC": ["Present (colonial NC)", "Present (colonial Quaker/Baptist)", "Present", "Good Piedmont NC coverage"]
+    }
+  }
+}

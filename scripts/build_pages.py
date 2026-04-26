@@ -12,7 +12,8 @@ from pathlib import Path
 WS = Path(r"C:\Users\hspen\.openclaw\workspace\family-history")
 sys.path.insert(0, str(WS / "scripts"))
 
-# Reuse Codex's curated CSS
+# Reuse Codex's curated CSS + D3 tree renderer
+import build_html as bh  # noqa: E402
 from build_html import CSS  # noqa: E402
 
 DOCS = WS / "docs"
@@ -180,6 +181,48 @@ def get_primary_tree():
     return MULTI.get("primary")
 
 
+def render_d3_tree_section(tree_root):
+    """Render Codex's D3 tree HTML for a given subtree (not from lineage-tree.json).
+    Monkey-patches build_lineage_tree_data temporarily so render_lineage_tree_section
+    receives the right subtree. Returns the inner SVG + tree-data <script> only —
+    skips the Mattingly-specific header so it works on any surname page.
+    """
+    import json as _json
+    if not tree_root:
+        return '<p style="color:var(--ink-soft);font-style:italic">(no tree data wired for this surname yet)</p>'
+    # Inject portraits if entity has portrait_url
+    portrait_map = {p["id"]: p["portrait_url"]
+                    for p in ENT.get("people", [])
+                    if p.get("id") and p.get("portrait_url")}
+
+    # Deep clone so monkey-patch doesn't affect other pages
+    import copy
+    subtree = copy.deepcopy(tree_root)
+    bh._inject_portraits(subtree, portrait_map)
+    tree_data_json = _json.dumps(subtree)
+
+    return f"""<div id="lineage-section">
+  <div class="tree-toolbar" role="toolbar" aria-label="Family tree controls">
+    <div class="btn-group">
+      <button onclick="treeZoomIn()" aria-label="Zoom in" title="Zoom in">+</button>
+      <button onclick="treeZoomOut()" aria-label="Zoom out" title="Zoom out">&#8722;</button>
+      <button onclick="treeZoomReset()" aria-label="Reset view" title="Reset zoom">Reset</button>
+    </div>
+    <div class="tree-legend" aria-label="Confidence level legend">
+      <span class="legend-item"><span class="swatch confirmed"></span>Confirmed</span>
+      <span class="legend-item"><span class="swatch probable"></span>Probable</span>
+      <span class="legend-item"><span class="swatch unknown"></span>Research pending</span>
+      <span class="legend-item"><span style="font-family:'Cormorant Garamond',serif;font-size:1.15em;font-weight:700;color:#d4a458">?</span>&#8201;Uncertain</span>
+    </div>
+  </div>
+  <div id="lineage-tree-container" role="img" aria-label="Interactive family tree">
+    <svg id="lineage-tree-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+  </div>
+  <p class="tree-hint">Scroll or pinch to zoom &nbsp;&middot;&nbsp; Drag to pan &nbsp;&middot;&nbsp; Click a named node for details</p>
+</div>
+<script id="lineage-tree-data" type="application/json">{tree_data_json}</script>"""
+
+
 def render_node_ul(node, depth=0):
     """Render a tree as a nested HTML list."""
     if not isinstance(node, dict):
@@ -240,7 +283,15 @@ def common_nav():
 
 # ── Page generators ─────────────────────────────────────────────
 
-def html_shell(title, body):
+def html_shell(title, body, include_tree_js=False):
+    tree_js_block = ""
+    if include_tree_js:
+        d3_js = bh.render_lineage_tree_js()
+        tree_js_block = f"""
+<script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
+<script>
+{d3_js}
+</script>"""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -444,6 +495,7 @@ footer.site-footer {{
     Hunter's Roots — assembled from primary sources, oral history, DNA, and parish records.
     Last updated 2026. Source files live in <a href="https://github.com/HunterSpence/mattingly-family-history">github.com/HunterSpence/mattingly-family-history</a>.
   </footer>
+{tree_js_block}
 </body>
 </html>"""
 
@@ -485,7 +537,8 @@ def build_surname_page(s):
         tree = get_primary_tree()
     else:
         tree = find_tree(s.get("tree_label_substring") or s["title"])
-    tree_html = render_node_ul(tree) if tree else "<li><em>(tree data not yet wired into this page — pending integration)</em></li>"
+    d3_tree_html = render_d3_tree_section(tree)
+    list_tree_html = render_node_ul(tree) if tree else ""
     cards = render_entity_cards(s.get("branch_match") or [s["id"]])
     cards_section = (f'<h2 class="section-break">People</h2><div class="person-cards-grid">{cards}</div>'
                      if cards else "")
@@ -503,6 +556,15 @@ def build_surname_page(s):
   </audio>
 </div>"""
 
+    list_block = ""
+    if list_tree_html:
+        list_block = f"""<details class="subtree-details">
+  <summary>Show as nested list</summary>
+  <article class="subtree-card">
+    <ul class="subtree-tree">{list_tree_html}</ul>
+  </article>
+</details>"""
+
     body = f"""
 {common_nav()}
 <div class="hero-mini">
@@ -512,14 +574,13 @@ def build_surname_page(s):
 <main>
   <section class="surname-summary">{s["summary"]}</section>
   {audio_section}
-  <h2 class="section-break">Tree</h2>
-  <article class="subtree-card">
-    <ul class="subtree-tree">{tree_html}</ul>
-  </article>
+  <h2 class="section-break">Family Tree</h2>
+  {d3_tree_html}
+  {list_block}
   {cards_section}
 </main>
 """
-    return html_shell(f"Hunter's Roots — {s['title']}", body)
+    return html_shell(f"Hunter's Roots — {s['title']}", body, include_tree_js=True)
 
 
 def main():

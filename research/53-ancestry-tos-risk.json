@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "title": "Ancestry.com Automation Risk Assessment",
+    "research_date": "2026-04-26",
+    "tos_effective_date": "2025-08-18",
+    "privacy_statement_effective_date": "2024-08-21",
+    "tos_url": "https://www.ancestry.com/cs/legal/termsandconditions",
+    "privacy_url": "https://www.ancestry.com/cs/legal/privacystatement"
+  },
+  "tos_key_clauses": {
+    "section_1_3_automation_prohibition": "Not to share, access, or collect data from any Services in bulk or attempt to access data without permission—whether manually or by automated means. This includes, but is not limited to, use of any artificial intelligence, bots, crawlers, spiders, data-miners, scrapers or other tools that facilitate rapid and bulk data collection",
+    "section_1_3_no_resell": "Not to resell the Services or resell, reproduce, or publish any content or information found on the Services, except as explicitly described in these Terms",
+    "section_2_2_content_use": "To use Ancestry Content only in connection with your personal use of the Services or professional family history research",
+    "section_1_4_2_dna_restriction": "Not to use information obtained from the DNA Services (including any downloaded DNA Data), whether in whole, in part, or in combination with any other database or service, for any medical, diagnostic, law enforcement, or paternity testing purpose, in any judicial proceeding, or for any discriminatory purpose or illegal activity",
+    "section_4_termination": "We reserve the right to limit, suspend, or terminate your access to the Services if you breach these Terms, including the Community Guidelines. If we exercise those rights, we will provide you with the reason for our decision.",
+    "section_4_no_refund": "Unless otherwise required by applicable law we will not refund subscription fees or the purchase price of a DNA test kit where you lose access to the Services because of your breach of the Terms"
+  },
+  "bot_detection": {
+    "primary_system": "Cloudflare Bot Management",
+    "evidence": "HTTP headers directly observed April 2026: Server: cloudflare, set-cookie: __cf_bm, cf-cache-status: DYNAMIC, Cf-Mitigated: challenge (on /dna/matches/)",
+    "historical_claim_akamai": "Older (pre-2024) sources cited Akamai; headers as of April 2026 show Cloudflare only",
+    "methods": [
+      "JavaScript challenge execution (headless browsers without JS are blocked)",
+      "Browser fingerprinting (canvas, WebGL, font metrics, navigator properties)",
+      "Behavioral analysis (mouse movement, timing, scroll patterns)",
+      "Client Hints (Sec-CH-UA-* headers requesting hardware-level UA metadata)",
+      "__cf_bm 30-minute behavioral token",
+      "Application-level rate limiting on DNA match API endpoints",
+      "CAPTCHA escalation on unusual access patterns"
+    ],
+    "dna_matches_endpoint": "HTTP 403 Forbidden with Cf-Mitigated: challenge — unauthenticated or headless access blocked at CDN level"
+  },
+  "robots_txt_key_disallows": [
+    "/dna/matches/*",
+    "/dna/tests/*",
+    "/dna/origins/*",
+    "/hints/*",
+    "/family-tree/tree/",
+    "/family-tree/person/tree/*",
+    "/Browse/save_u.aspx"
+  ],
+  "legal_precedents": {
+    "hiq_v_linkedin": {
+      "citation": "hiQ Labs, Inc. v. LinkedIn Corp., 938 F.3d 985 (9th Cir. 2019), affirmed 31 F.4th 1180 (9th Cir. 2022)",
+      "relevance": "Ninth Circuit held scraping of publicly accessible data does not violate CFAA. Settlement in Nov 2022 found hiQ breached LinkedIn's ToS.",
+      "applicability_to_ancestry": "Limited: Ancestry DNA matches require authentication; this precedent primarily protects public data scraping. Authenticated scraping has weaker protection.",
+      "source": "https://en.wikipedia.org/wiki/HiQ_Labs_v._LinkedIn"
+    },
+    "van_buren_v_united_states": {
+      "citation": "Van Buren v. United States, 141 S. Ct. 1648 (2021)",
+      "relevance": "Supreme Court held 'exceeds authorized access' under CFAA applies to accessing parts of a system one is not authorized to access, not using a system in an unauthorized manner. This limits CFAA exposure when you are authorized to view the data.",
+      "applicability_to_ancestry": "For trees shared with you (authenticated access), Van Buren limits CFAA risk. For ToS breach claims, CFAA argument is weaker; Ancestry would rely on ToS breach rather than CFAA."
+    }
+  },
+  "known_lawsuits_against_users": {
+    "cfaa_lawsuits": "None found. No public record of Ancestry LLC suing individual genealogists for scraping or automation.",
+    "dnagedcom_specific": "No cease-and-desist or lawsuit involving DNAGedcom users found. DNAGedcom uses 'A* Company' pseudonym for Ancestry (observed on dnagedcom.com homepage April 2026) suggesting legal sensitivity but not active litigation.",
+    "account_bans_for_dnagedcom": "No confirmed public reports of account suspension specifically for DNAGedcom use. Technical rate-limiting is the documented enforcement pattern."
+  },
+  "enforcement_ladder": [
+    {
+      "level": 1,
+      "description": "IP/session-level Cloudflare block",
+      "trigger": "Headless browser, missing cookies/JS, rapid requests",
+      "outcome": "HTTP 403 or CAPTCHA challenge, resolves by waiting/clearing cookies",
+      "account_impact": "None"
+    },
+    {
+      "level": 2,
+      "description": "Application-level rate limit",
+      "trigger": "Excessive requests to DNA match API endpoints",
+      "outcome": "HTTP 429 or temporary endpoint block for session",
+      "account_impact": "None unless sustained"
+    },
+    {
+      "level": 3,
+      "description": "Account access restriction",
+      "trigger": "Sustained automated access pattern detected",
+      "outcome": "Temporary block on specific features or session",
+      "account_impact": "Temporary, no notification"
+    },
+    {
+      "level": 4,
+      "description": "Account suspension",
+      "trigger": "Clear ToS violation, sustained high-volume automated access",
+      "outcome": "Account suspended, reason provided, no fee refund",
+      "account_impact": "High"
+    },
+    {
+      "level": 5,
+      "description": "Permanent termination",
+      "trigger": "Egregious violations, commercial misuse, resale",
+      "outcome": "Account permanently terminated, no refund",
+      "account_impact": "Permanent"
+    },
+    {
+      "level": 6,
+      "description": "Legal action",
+      "trigger": "Commercial data resale, systematic database export, law enforcement data combination",
+      "outcome": "Cease-and-desist, possible CFAA claim or ToS breach civil suit",
+      "account_impact": "Permanent + legal exposure"
+    }
+  ],
+  "use_case_risk_matrix": {
+    "public_tree_automated_viewing": {
+      "tos_violation": "Yes (Section 1.3)",
+      "cfaa_risk": "Low (public data, HiQ precedent)",
+      "detection_risk": "Medium (robots.txt disallows, but Cloudflare less aggressive on public pages)",
+      "account_ban_risk": "Low-Medium",
+      "tier": "warning_territory"
+    },
+    "shared_tree_automated_viewing": {
+      "tos_violation": "Yes (Section 1.3)",
+      "cfaa_risk": "Low (Van Buren: you have authorization to view)",
+      "detection_risk": "High (Cloudflare Bot Management on authenticated endpoints)",
+      "account_ban_risk": "Medium",
+      "tier": "warning_territory_to_suspension"
+    },
+    "automated_save_to_tree": {
+      "tos_violation": "Yes (Section 1.3, Section 2.2)",
+      "cfaa_risk": "Medium (write operations without authorization to automate)",
+      "detection_risk": "Very High (robots.txt disallows /Browse/save_u.aspx, Cloudflare aggressively challenges write paths)",
+      "account_ban_risk": "High",
+      "tier": "suspension_territory"
+    },
+    "dnagedcom_slow_mode": {
+      "tos_violation": "Technically yes (Section 1.3)",
+      "cfaa_risk": "Low",
+      "detection_risk": "Low-Medium with proper session cookies and slow pacing",
+      "account_ban_risk": "Low (community-reported tolerated for personal use)",
+      "tier": "warning_territory_low_end",
+      "note": "DNAGedcom v4.0 supports authenticated session use. Slow operation (1 req/3-5 sec) is consistently reported as functional by community."
+    },
+    "manual_bulk_copying": {
+      "tos_violation": "Possibly (bulk clause applies to manual collection too per ToS wording)",
+      "cfaa_risk": "None",
+      "detection_risk": "Very Low",
+      "account_ban_risk": "Very Low",
+      "tier": "safe_baseline"
+    }
+  },
+  "gdpr_ccpa_data_portability": {
+    "what_ancestry_provides": [
+      "Your own raw DNA data file (.txt genotype file)",
+      "Your own family trees (GEDCOM export of trees you created)",
+      "Your account personal information (name, email, preferences)"
+    ],
+    "what_ancestry_does_not_provide": [
+      "DNA match list (other users' Personal Information)",
+      "Other users' tree data (not your Personal Information)",
+      "Chromosome segment data for matches (Ancestry does not expose segments)",
+      "Names and relationship predictions of DNA matches under data portability"
+    ],
+    "gdpr_article_20_scope": "Only covers your own Personal Information you provided to Ancestry. DNA match data is other users' Personal Information — cannot be compelled via your own data portability request.",
+    "ccpa_scope": "Same limitation — CCPA right to know and portability covers your own data categories, not derived match data about other users.",
+    "anonymized_cousin_data": "Not available via data portability. Ancestry could theoretically provide anonymized match data but has no obligation to do so and does not offer this. GDPR/CCPA do not create this right for third-party data.",
+    "privacy_statement_quote": "Right to Data Portability. You may have the right to receive certain of your Personal Information in a format that can be transmitted to another data controller."
+  },
+  "safe_operations_summary": {
+    "safe": [
+      "Normal browser use of Ancestry.com",
+      "GEDCOM export of your own tree (built-in feature)",
+      "Downloading your own raw DNA data (built-in feature)",
+      "DNAGedcom at slow speed (1 req/3-5 sec, authenticated session) — community-reported functional",
+      "Manual note-taking from DNA match profiles",
+      "DNA Painter tools (process manually exported/pasted data)"
+    ],
+    "warning_territory": [
+      "DNAGedcom at default settings on large match lists (hundreds in one session)",
+      "Python/Selenium scripts with realistic browser simulation under 20 req/min",
+      "Bulk manual viewing of public trees at moderate pace"
+    ],
+    "suspension_territory": [
+      "Any automated tool against /dna/matches/* at high rate",
+      "Automated 'Save to my tree' operations",
+      "Headless browser without fingerprint spoofing against DNA endpoints",
+      "Bulk copying another user's tree via automation"
+    ],
+    "hard_ban_legal": [
+      "Commercial resale of Ancestry-sourced data",
+      "Sharing your credentials with third-party services",
+      "Combining DNA data with law enforcement or medical databases",
+      "Systematic bulk export of Ancestry database"
+    ]
+  }
+}

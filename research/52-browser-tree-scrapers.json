@@ -1,0 +1,338 @@
+{
+  "research_date": "2026-04-26",
+  "topic": "Browser-side automation for harvesting Ancestry.com cousin trees",
+  "tos_warning": "Ancestry ToS (eff. 2025-08-18) explicitly prohibits bulk/automated data collection. Low-rate personal use with browser extensions is a grey zone with low ban risk in practice.",
+  "github_repos": [
+    {
+      "name": "patchright",
+      "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright",
+      "stars": 3005,
+      "last_commit": "2026-04-12",
+      "status": "active",
+      "platform": "Chromium (Playwright drop-in)",
+      "use_case": "Undetected Playwright — patches webdriver detection, sandboxes page agent JS, bypasses Akamai fingerprinting. Best for automating Ancestry tree navigation.",
+      "install": "pip install patchright && patchright install chromium",
+      "risk": "medium",
+      "account_ban_risk": "low-to-medium at low rates"
+    },
+    {
+      "name": "getmyancestors",
+      "url": "https://github.com/Linekio/getmyancestors",
+      "stars": 215,
+      "last_commit": "2026-02-07",
+      "status": "active",
+      "platform": "FamilySearch (NOT Ancestry.com)",
+      "use_case": "GEDCOM exporter for FamilySearch. Useful only if cousin has a linked FamilySearch tree.",
+      "install": "pip install getmyancestors",
+      "risk": "low",
+      "note": "Does not work with Ancestry.com directly"
+    },
+    {
+      "name": "ancestryDnaWrapper",
+      "url": "https://github.com/MattW224/ancestryDnaWrapper",
+      "stars": 7,
+      "last_commit": "2024-04-02",
+      "status": "active (low activity)",
+      "platform": "Ancestry.com DNA",
+      "use_case": "Python wrapper for Ancestry's undocumented DNA REST API. Cookie-based auth via browser_cookie3. Documents DNA match/test endpoints. Does NOT cover tree/person data.",
+      "install": "git clone, pip install -r requirements.txt",
+      "key_endpoints": [
+        "https://www.ancestry.com/dna/secure/tests",
+        "https://www.ancestry.com/dna/secure/matches/{guid}",
+        "https://www.ancestry.com/dna/secure/matches/{guid}/{matchGuid}/sharedmatches"
+      ],
+      "risk": "low-medium"
+    },
+    {
+      "name": "23andMeFamilyTreeScraper",
+      "url": "https://github.com/borsic77/23andMeFamilyTreeScraper",
+      "stars": null,
+      "last_commit": "2025-03-24",
+      "status": "active",
+      "platform": "23andMe",
+      "use_case": "Pattern reference only — not Ancestry. Shows technique for cookie-auth tree scraping.",
+      "risk": "N/A for Ancestry"
+    },
+    {
+      "name": "genscrape",
+      "url": "https://github.com/rootsdev/genscrape",
+      "stars": 47,
+      "last_commit": "2023-01-12",
+      "status": "stale",
+      "platform": "Multiple genealogy sites including Ancestry",
+      "use_case": "JS library for DOM scraping of Ancestry person pages. Last release 2018. Ancestry DOM has changed — likely broken.",
+      "risk": "N/A — needs heavy patching"
+    },
+    {
+      "name": "ancestry-scraper",
+      "url": "https://github.com/mjhea0/ancestry-scraper",
+      "stars": null,
+      "last_commit": "2017-02-12",
+      "status": "abandoned",
+      "platform": "Ancestry.com",
+      "use_case": "Old Selenium bot. Ancestry login flow completely changed. Do not use.",
+      "risk": "N/A — broken"
+    }
+  ],
+  "chrome_extensions": [
+    {
+      "name": "One2Tree",
+      "cws_url": "https://chromewebstore.google.com/detail/one2tree/pblapjjhibfmcfhpoapcmfdnjbnfifdp",
+      "vendor_url": "https://nordeboapps.com/one2tree/",
+      "version": "1.5.5",
+      "last_updated": "2026-02-27",
+      "users": 3000,
+      "rating": "4.3/5 (519 reviews)",
+      "platforms": ["Ancestry", "MyHeritage", "FamilyTreeDNA"],
+      "output_formats": ["GEDCOM", "CSV", "HTML", "text"],
+      "pricing": {
+        "free_trial": "4 generations max",
+        "paid": "79 SEK/year (~$7 USD) via PayPal/card/Swish"
+      },
+      "setup": [
+        "Install from Chrome Web Store",
+        "Navigate to cousin's public tree on Ancestry",
+        "Click One2Tree toolbar icon",
+        "Set max generation depth, press Go",
+        "Download GEDCOM from the results tab"
+      ],
+      "risk": "low",
+      "maintenance": "active",
+      "recommendation": "BEST FREE/LOW-COST OPTION for bulk GEDCOM extraction"
+    },
+    {
+      "name": "Pedigree Thief",
+      "cws_url": "https://chromewebstore.google.com/detail/pedigree-thief/hdgjlfchbpojdocjlldfikeddamdcbhn",
+      "version": "3.0.23",
+      "last_updated": "2025-03-12",
+      "users": 2000,
+      "rating": "4.4/5 (25 reviews)",
+      "platforms": ["Geni", "MyHeritage", "WikiTree", "GedMatch"],
+      "ancestry_support": "NO — Ancestry support was broken when Ancestry blocked third-party tools in 2020.",
+      "risk": "low (for supported sites)",
+      "maintenance": "active for Geni/MyHeritage"
+    },
+    {
+      "name": "Genea Ancestry Add To Tree Auto-Clicker",
+      "cws_url": "https://chromewebstore.google.com/detail/genea-ancestry-add-to-tre/ppbiccjngfoaaibnocphiklpnejikdbm",
+      "last_updated": "2024-07-03",
+      "status": "UNCERTAIN — listing returned blank page, may be delisted or broken",
+      "note": "Verify manually before relying on this. Do not install without reviewing source."
+    },
+    {
+      "name": "Ancestry Media Download",
+      "cws_url": "https://chromewebstore.google.com/detail/ancestry-media-download/ohkkponpfoijonbbedcehkhfejlobmkb",
+      "last_updated": "2023-06-06",
+      "use_case": "Media/photo downloads only — not tree data",
+      "relevant": false
+    }
+  ],
+  "userscripts": {
+    "source": "https://greasyfork.org/en/scripts/by-site/ancestry.com",
+    "total_scripts": 2,
+    "assessment": "Extremely thin catalogue. No bulk tree export or save-to-tree automation script exists publicly as of April 2026.",
+    "scripts": [
+      {
+        "name": "Script_Ancestry.com_Hint_Helper",
+        "url": "https://greasyfork.org/en/scripts/436962-script-ancestry-com-hint-helper",
+        "installs": 75,
+        "last_updated": "2024-05-01",
+        "what_it_does": "Assists hint merge page with data validation and best-practice enforcement. Not a bulk auto-accept tool.",
+        "risk": "low"
+      },
+      {
+        "name": "Ancestry.com - Remove paid hints",
+        "url": "https://greasyfork.org/en/scripts/468323-ancestry-com-remove-paid-hints",
+        "installs": 80,
+        "last_updated": "2024-06-05",
+        "what_it_does": "Hides paid-tier hints. Not relevant to tree harvesting.",
+        "risk": "low"
+      }
+    ]
+  },
+  "dnagedcom": {
+    "url": "https://www.dnagedcom.com/app/publish.htm",
+    "version": "1.9.8.19",
+    "platform": "Windows only (.NET 4.5+)",
+    "cost": "free to download",
+    "free_features": [
+      "DNA match list download (FamilyTreeDNA, 23andMe)",
+      "GEDCOM upload/comparison at dnagedcom.com",
+      "AutoSegment, JWorks, KWorks analysis tools"
+    ],
+    "ancestry_status": "BROKEN — Ancestry blocked third-party match downloads in 2020. Client's Ancestry function is non-functional as of 2024+.",
+    "tree_download": "NO — DNAGedcom downloads DNA match metadata, not tree/GEDCOM data.",
+    "verdict": "Not useful for tree harvesting from Ancestry. Useful for FamilyTreeDNA/23andMe DNA match work."
+  },
+  "ancestry_api_endpoints": {
+    "note": "Undocumented, reverse-engineered from community tools and DevTools observation. May change without notice.",
+    "dna_endpoints": {
+      "base": "https://www.ancestry.com/dna/secure/",
+      "auth": "Session cookie ATT",
+      "endpoints": [
+        "GET /tests — list DNA tests",
+        "GET /testSettings/{guid}/testInfo — test metadata",
+        "GET /matches/{guid}?page=N — paginated match list",
+        "GET /matches/{guid}/{matchGuid}/sharedmatches — shared matches"
+      ]
+    },
+    "tree_endpoints": {
+      "note": "Observed in DevTools Network tab. Many return 403 for other users' trees despite being 'public'.",
+      "patterns": [
+        "GET https://api.ancestry.com/v2/trees/{treeId} — tree metadata",
+        "GET https://api.ancestry.com/v2/trees/{treeId}/persons — paginated person list",
+        "GET https://www.ancestry.com/api/trees/{treeId}/persons/{personId} — person record JSON",
+        "GET https://www.ancestry.com/api/trees/{treeId}/persons/{personId}/families — family links"
+      ],
+      "treeId_location": "URL: https://www.ancestry.com/family-tree/tree/{treeId}/family?cfpid={personId}"
+    }
+  },
+  "devtools_approach": {
+    "description": "Manual capture of JSON responses via Chrome DevTools Network tab and HAR export",
+    "steps": [
+      "1. Log in to Ancestry. Navigate to cousin's public tree.",
+      "2. F12 > Network tab > check Preserve log > filter Fetch/XHR.",
+      "3. Click through the tree (each person click triggers JSON fetches).",
+      "4. Identify requests to api.ancestry.com or www.ancestry.com/api/ returning JSON.",
+      "5. Right-click > Copy response for each, OR: Network tab > right-click any request > Save all as HAR.",
+      "6. Parse HAR/JSON with Python to extract person records and emit GEDCOM."
+    ],
+    "limitation": "Lazy-loading means you must manually trigger loads for all generations by clicking. Not fully automated.",
+    "cost": "free",
+    "risk": "none — standard browser usage",
+    "output": "raw JSON, converted to GEDCOM via script"
+  },
+  "stealth_automation": {
+    "akamai_detection_methods": [
+      "navigator.webdriver = true in headless browsers",
+      "TLS JA3/JA4 fingerprint mismatch",
+      "Canvas/WebGL fingerprint anomalies",
+      "Behavioral: no mouse movement, instant clicks, no scroll",
+      "Cookies: _abck and bm_sz set by Akamai for session tracking"
+    ],
+    "tools": [
+      {
+        "name": "patchright",
+        "url": "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright",
+        "stars": 3005,
+        "last_update": "2026-04-12",
+        "type": "Chromium Playwright patch",
+        "install": "pip install patchright && patchright install chromium",
+        "key_patches": [
+          "Suppresses navigator.webdriver",
+          "Sandboxes Playwright page agent JS (invisible to page scripts)",
+          "Randomizes fingerprints"
+        ],
+        "session_cookie_trick": "Export cookies from logged-in Chrome session, load into patchright context via context.add_cookies(). Bypasses login detection.",
+        "risk": "medium",
+        "maintenance": "low — tracks Playwright releases closely"
+      },
+      {
+        "name": "camoufox",
+        "url": "https://camoufox.com",
+        "pypi": "https://pypi.org/project/camoufox/",
+        "type": "Firefox-based stealth browser",
+        "status": "UNRELIABLE in April 2026 — maintainer reports year-long gap in development, performance degraded",
+        "risk": "medium",
+        "verdict": "Skip for now. Revisit in 6+ months."
+      },
+      {
+        "name": "curl-cffi",
+        "url": "https://curl-cffi.readthedocs.io",
+        "type": "TLS-impersonating HTTP client",
+        "use_case": "Direct API calls with real browser TLS fingerprint. Lighter than full browser automation.",
+        "limitation": "No JavaScript execution — cannot handle Ancestry's JS challenge. Works only for pure API endpoints.",
+        "install": "pip install curl-cffi",
+        "impersonate": "chrome124",
+        "risk": "low-medium"
+      }
+    ],
+    "best_practice": [
+      "Export session cookies from a manual login in real Chrome — do not automate the login itself.",
+      "Load cookies into the automation context to skip login.",
+      "Add human-like delays: random.uniform(1.5, 4.0) seconds between page loads.",
+      "Add mouse movement simulation: page.mouse.move() between actions.",
+      "Do not make more than 1 tree page request per 3-5 seconds.",
+      "Run during off-peak hours to reduce rate-limit exposure."
+    ]
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "method": "One2Tree Chrome extension",
+      "cost": "~$7 USD/year (or free for 4 generations)",
+      "setup_time": "5 minutes",
+      "risk": "low",
+      "gedcom_output": true,
+      "speed": "~2 min/tree",
+      "verdict": "BEST for 20-30 trees. Actively maintained, low detection risk, native GEDCOM export.",
+      "url": "https://nordeboapps.com/one2tree/"
+    },
+    {
+      "rank": 2,
+      "method": "DevTools HAR capture + Python GEDCOM parser",
+      "cost": "free",
+      "setup_time": "30 minutes (one-time script)",
+      "risk": "none",
+      "gedcom_output": "via conversion script",
+      "speed": "~5 min/tree",
+      "verdict": "Best fully-free option. Requires clicking through each tree but captures all JSON."
+    },
+    {
+      "rank": 3,
+      "method": "patchright + session cookies",
+      "cost": "free",
+      "setup_time": "1-2 hours",
+      "risk": "medium",
+      "gedcom_output": "via JSON to GEDCOM conversion",
+      "speed": "automated but rate-limited to ~3-5 trees/hour safely",
+      "verdict": "Best for truly automated extraction. Highest setup cost. ToS grey zone."
+    },
+    {
+      "rank": 4,
+      "method": "curl-cffi against JSON API",
+      "cost": "free",
+      "setup_time": "1 hour",
+      "risk": "medium",
+      "gedcom_output": "via JSON to GEDCOM conversion",
+      "speed": "fast but many endpoints return 403 for other users' trees",
+      "verdict": "Useful for your own tree or DNA endpoints. Often blocked for others' tree data."
+    },
+    {
+      "rank": 5,
+      "method": "Ask cousin for GEDCOM directly",
+      "cost": "free",
+      "setup_time": "0",
+      "risk": "none",
+      "gedcom_output": true,
+      "speed": "instant (if they agree)",
+      "verdict": "Always the first option to try. Ancestor can export GEDCOM from Ancestry via: Account > Trees > tree name > Tree Settings > Export tree."
+    }
+  ],
+  "sources": [
+    "https://chromewebstore.google.com/detail/one2tree/pblapjjhibfmcfhpoapcmfdnjbnfifdp",
+    "https://nordeboapps.com/one2tree/",
+    "https://nordeboapps.com/one2tree/one2tree-faq.html",
+    "https://chromewebstore.google.com/detail/pedigree-thief/hdgjlfchbpojdocjlldfikeddamdcbhn",
+    "https://greasyfork.org/en/scripts/by-site/ancestry.com",
+    "https://greasyfork.org/en/scripts/436962-script-ancestry-com-hint-helper",
+    "https://github.com/MattW224/ancestryDnaWrapper",
+    "https://github.com/Kaliiiiiiiiii-Vinyzu/patchright",
+    "https://github.com/Linekio/getmyancestors",
+    "https://github.com/rootsdev/genscrape",
+    "https://github.com/freeseek/getmydnamatches",
+    "https://www.dnagedcom.com/app/publish.htm",
+    "https://dnagedcom.com/FAQ.aspx",
+    "https://www.dataminingdna.com/a-comparison-of-tools-to-download-ancestry-matches/",
+    "https://www.ancestry.com/c/legal/termsandconditions",
+    "https://camoufox.com/stealth",
+    "https://camoufox.com/features",
+    "https://pypi.org/project/camoufox/",
+    "https://www.scrapeless.com/blog/bypss-akamai-with-playwright",
+    "https://www.scrapfly.io/blog/posts/how-to-bypass-akamai-anti-scraping",
+    "https://substack.thewebscraping.club/p/bypassing-akamai-for-free",
+    "https://curl-cffi.readthedocs.io/en/latest/impersonate/faq.html",
+    "https://patriciacolemangenealogy.com/2024/11/03/convert-ancestry-protools-to-trees-using-autolineage-and-autokinship/",
+    "https://genealogy.stackexchange.com/questions/9943/how-to-incorporate-large-amounts-of-data-from-ancestry-com"
+  ]
+}
