@@ -445,8 +445,8 @@ teichmueller_root = hans_johann
 hunter_dad = n("Dale William Spence Jr.", "living", "Hunter Spence's father. m. Rachel.", None, 17, 21, "confirmed",
                 [hunter])
 
-aunt_susan = n("Susan (Spence) Clarke", "living", "Hunter's paternal aunt; sister of Dale Jr.; took married name Clarke", None, 17, 21, "confirmed")
-aunt_deanne = n("Deanne (Spence) Patton", "living", "Hunter's paternal aunt; sister of Dale Jr.; took married name Patton", None, 17, 21, "confirmed")
+aunt_susan = n("Susan (Spence) Clarke", "living", "Hunter's paternal aunt. Daughter of Dr. Dale William Spence Sr. + Alice Marie Henslee. Took married name Clarke.", None, 17, 21, "confirmed")
+aunt_deanne = n("D'Anne (Spence) Patton", "living", "Hunter's paternal aunt. Daughter of Dr. Dale William Spence Sr. + Alice Marie Henslee. Took married name Patton.", None, 17, 21, "confirmed")
 
 dale_sr = n("Dr. Dale William Spence Sr.", "~1934–1936 Beaumont TX – living (~age 92, Houston TX, per Spokeo + Rice emeritus directory Dec 2025)", "Hunter's paternal grandfather. AMERICAN-BORN. Beaumont HS class of 1952 (TX state track championship). BS Rice 1956 → MS North Texas State → EdD Louisiana State University 1966 → postdoc Baylor. Rice University faculty 1963-2003 (40 yrs); Professor Emeritus of Kinesiology (Department of Human Performance and Health Sciences); office Tudor Field House. Also Colonel USMCR (Retired) — ~35 years US Marine Corps Reserve service. m. Alice Marie Henslee. Per agent 39 deep-dive (CONFIRMED via 1990 PubMed + 2019 Rice references).", None, 16, 20, "confirmed",
             [hunter_dad, aunt_susan, aunt_deanne], spouse="Alice Marie (Henslee) Spence (13 Jan 1936 Rusk TX – 3 Dec 2005 Beaumont)")
@@ -492,9 +492,9 @@ spence_root = byrd_john_henry
 # Alice Marie Henslee Spence, Lee S. Henslee, and Frances Virginia Henslee now carry sourced dates/places.
 # The parent-child bridge between Alice and Lee/Frances remains explicit MEDIUM-confidence pending a direct obituary or vital record.
 
-# Alice Marie Henslee — paternal grandmother
-alice_henslee = n("Alice Marie (Henslee) Spence", "13 Jan 1936 Rusk TX – 3 Dec 2005 Beaumont", "Hunter's paternal grandmother. Born Rusk TX; died 3 Dec 2005, buried Forest Lawn Memorial Park Beaumont (Garden of Hope). Daughter of Lee Stuart Henslee + Frances Virginia Rau (CONFIRMED via cousin Henslee GEDCOM). m. Dr. Dale William Spence Sr.", None, 16, 20, "confirmed",
-                  [], spouse="Dr. Dale William Spence Sr.")
+# Alice Marie Henslee — paternal grandmother — full descent through her 3 children to Hunter
+alice_henslee = n("Alice Marie (Henslee) Spence", "13 Jan 1936 Rusk TX – 3 Dec 2005 Beaumont", "Hunter's paternal grandmother. Born Rusk TX; died 3 Dec 2005, buried Forest Lawn Memorial Park Beaumont (Garden of Hope). Daughter of Lee Stuart Henslee + Frances Virginia Rau (CONFIRMED via cousin Henslee GEDCOM). m. Dr. Dale William Spence Sr. (1934- ). Three children: D'Anne (Spence) Patton, Susan (Spence) Clarke, and Dale William Spence Jr. (Hunter's father).", None, 16, 20, "confirmed",
+                  [aunt_deanne, aunt_susan, hunter_dad], spouse="Dr. Dale William Spence Sr.")
 
 # Don Henslee + his children
 chad_henslee = n("Chad Henslee", "living", "Hunter's first cousin once removed (Don's son)", None, 17, 21, "confirmed")
