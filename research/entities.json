@@ -1609,7 +1609,7 @@
       "death_year": null,
       "birth_place": "Beaumont, Jefferson County, Texas",
       "relation_to_shari": "6th-great-grandfather",
-      "context": "Dr. Dale William Spence Sr. — Hunter's paternal grandfather. AMERICAN-BORN ~1934-1936 Beaumont TX (PROBABLE, inferred from 1952 Beaumont HS state track championship). Education chain: BS Rice 1956 → MS North Texas State → EdD Louisiana State University 1966 (dissertation title confirmed) → postdoc Baylor. Rice University faculty 1963-2003 (40 yrs). Professor Emeritus of Kinesiology (Department of Human Performance and Health Sciences). Office: Tudor Field House. ALSO: Colonel USMCR (Retired), ~35 years US Marine Corps Reserve service. m. Alice Marie Henslee (1936-2005). Likely still alive ~age 92 in Houston TX (Spokeo + Rice emeritus directory snapshot Dec 2025). His FATHER was the actual English immigrant (Hunter's paternal great-grandfather, name UNKNOWN, NE England → Beaumont via Galveston ~1920-1935 oil boom).",
+      "context": "Dr. Dale William Spence Sr. — Hunter's paternal grandfather. AMERICAN-BORN ~1934-1936 Beaumont TX. Beaumont HS class of 1952 (TX state track championship). BS Rice 1956 -> MS North Texas State -> EdD Louisiana State University 1966 -> postdoc Baylor. Rice University faculty 1963-2003 (40 yrs); Professor Emeritus of Kinesiology (Department of Human Performance and Health Sciences). Office: Tudor Field House. Specialty: human anatomy and sports medicine. Fellow, American College of Sports Medicine (FACSM). Adjunct Professor, Baylor College of Medicine (Anatomy, Physiology, Medicine). NASA summer fellowships in Aeronautics and Space Research during/after Apollo 11 (July 1969). Colonel USMCR (Retired), ~35 years US Marine Corps Reserve service. m. Alice Marie Henslee. Likely still alive ~age 92 in Houston TX. Father (the English immigrant) NAME UNKNOWN — best path to unlock: Texas DSHS Birth Certificate (2, names father+mother+exact date in one record).",
       "fuzzy": false,
       "sources": [
         "Beaumont HS 1952 TX state track meet records",
@@ -1618,14 +1618,19 @@
         "1990 PubMed affiliation Rice University Department of Human Performance and Health Sciences",
         "2019 Rice references (Kinesiology)",
         "Rice University Emeritus directory Wayback Machine snapshot Dec 2025",
-        "Spokeo Houston TX ~age 92"
+        "Spokeo Houston TX ~age 92",
+        "Rice Kinesiology Wayback profile 2012-06-14"
       ],
       "confidence": "CONFIRMED",
       "branch": "Baity maternal-paternal NC",
       "military_service": "Colonel USMCR (Retired), ~35 years US Marine Corps Reserve",
       "rice_office": "Tudor Field House",
       "rice_department": "Kinesiology / Human Performance and Health Sciences",
-      "rice_tenure": "1963-2003 (Professor Emeritus)"
+      "rice_tenure": "1963-2003 (Professor Emeritus)",
+      "nasa_fellowship": "NASA Aeronautics and Space Research summer fellowships, post-Apollo 11 (1969+)",
+      "professional_society": "Fellow, American College of Sports Medicine (FACSM)",
+      "adjunct_appointment": "Adjunct Professor, Baylor College of Medicine (Anatomy, Physiology, Medicine)",
+      "specialty": "human anatomy and sports medicine"
     },
     {
       "id": "p102",

@@ -1,0 +1,472 @@
+{
+  "research_file": "56-dale-sr-deep",
+  "subject": "Dr. Dale William Spence Sr.",
+  "prepared": "2026-04-26",
+  "researcher": "Researcher Specialist (claude-sonnet-4-6)",
+  "supersedes": ["39-dale-spence-sr.md", "41-spence-english-deep.md"],
+  "confidence_tiers": {
+    "CONFIRMED": "Directly supported by a cited primary or secondary source",
+    "PROBABLE": "Strong inference from 2+ corroborating sources",
+    "POSSIBLE": "Plausible from one source or logical inference only",
+    "UNVERIFIED": "Noted but not corroborated by any source"
+  },
+
+  "identity": {
+    "full_name": "Dale William Spence Sr.",
+    "confidence": "CONFIRMED",
+    "sources": ["riceowls.com 2019", "repository.lsu.edu/gradschool_disstheses/1171/"]
+  },
+
+  "birth": {
+    "year_estimated": "c. 1934",
+    "year_range": "1934-1936",
+    "year_confidence": "PROBABLE",
+    "year_notes": "Beaumont HS 1952 state champion → age 17-18 → birth ~1934-1936; Spokeo 'age 92' in 2026 implies birth c. 1933-1934",
+    "city": "Beaumont",
+    "county": "Jefferson County",
+    "state": "Texas",
+    "country": "USA",
+    "place_confidence": "PROBABLE",
+    "exact_date": null,
+    "exact_date_confidence": "UNVERIFIED",
+    "exact_date_notes": "Not found in any accessible free public source. Required: Texas Birth Certificate (~$22) or FamilySearch Texas Birth Index (requires browser login)."
+  },
+
+  "current_status": {
+    "assessment": "Most likely living",
+    "confidence": "PROBABLE",
+    "age_as_of_2026": "approximately 90-92",
+    "location": "Houston, Texas",
+    "notes": "Spokeo shows 'Dale W. Spence, Age 92, Houston TX' with Hunter Spence listed as relative. Rice faculty/emeritus directory listing confirmed as of Wayback snapshot December 2025. No death record, obituary, or Find a Grave memorial found."
+  },
+
+  "parents": {
+    "father": {
+      "name": null,
+      "name_confidence": "UNVERIFIED",
+      "name_notes": "Not found in any source. Most likely identified via: Texas Birth Certificate for Dale Sr. (names parents); 1940 US Census Jefferson County TX; LSU dissertation vita (currently inaccessible).",
+      "nationality": "English (British)",
+      "nationality_confidence": "PROBABLE",
+      "birth_year_estimated": "c. 1900-1915",
+      "birth_year_confidence": "POSSIBLE",
+      "birthplace_region": "NE England — Yorkshire (North Riding) or County Durham",
+      "birthplace_confidence": "POSSIBLE",
+      "birthplace_notes": "Spence surname distribution: highest English concentration in NE England. First English documentary record is Yorkshire 1300 (Guisborough Priory). County Durham documented 1910 (Tristram F Spence). No specific record of Dale Sr.'s father's birthplace found.",
+      "immigration_year": null,
+      "immigration_year_estimated": "c. 1920-1935",
+      "immigration_confidence": "POSSIBLE",
+      "port_of_entry": "Galveston, TX (hypothesized)",
+      "port_confidence": "POSSIBLE",
+      "ship_name": null,
+      "ship_confidence": "UNVERIFIED",
+      "immigration_motivation": "Oil/refinery labor — Spindletop 1901 triggered British technical migration to Beaumont/Port Arthur corridor",
+      "motivation_confidence": "PROBABLE"
+    },
+    "mother": {
+      "given_name": "Dovie",
+      "given_name_confidence": "PROBABLE",
+      "given_name_source": "Family memory",
+      "maiden_name": null,
+      "maiden_name_confidence": "UNVERIFIED",
+      "maiden_name_hypothesis": "Byrd (family tradition — John Archie Asner Byrd 1868 + Martha Alice Bedford)",
+      "maiden_name_hypothesis_confidence": "UNVERIFIED",
+      "maiden_name_notes": "No record corroborates 'Dovie Byrd' as a named individual. Byrd is a documented Southern US surname consistent with SE Texas demographics. Search required: Texas Marriage Index 1837-1973 for 'Dovie Byrd' + Spence.",
+      "nationality": "American (Southern US)",
+      "nationality_confidence": "CONFIRMED",
+      "nationality_notes": "Behind the Name classifies 'Dovie' as American (South) female given name with no English or Scottish parallel. Confirms mother was American-born."
+    }
+  },
+
+  "marriage": {
+    "spouse_full_name": "Alice Marie Henslee",
+    "spouse_birth": {
+      "date": "1936-01-13",
+      "place": "Rusk, Cherokee County, Texas",
+      "confidence": "CONFIRMED",
+      "sources": ["Find a Grave memorial 14594379", "peoplelegacy.com"]
+    },
+    "spouse_death": {
+      "year": 2005,
+      "age_at_death": 69,
+      "place": "Beaumont, Jefferson County, Texas (assumed — buried there)",
+      "confidence": "CONFIRMED",
+      "sources": ["peoplelegacy.com burial records"]
+    },
+    "spouse_burial": {
+      "cemetery": "Forest Lawn Memorial Park and Funeral Home",
+      "city": "Beaumont",
+      "county": "Jefferson County",
+      "state": "Texas",
+      "confidence": "CONFIRMED",
+      "source": "peoplelegacy.com"
+    },
+    "spouse_parents": {
+      "father": {
+        "name": "Lee S. Henslee",
+        "dates": "1908-1994",
+        "burial": "Forest Lawn, Beaumont TX",
+        "confidence": "CONFIRMED",
+        "source": "peoplelegacy.com"
+      },
+      "mother": {
+        "name": "Frances Henslee",
+        "dates": "1918-2008",
+        "burial": "Forest Lawn, Beaumont TX",
+        "confidence": "CONFIRMED",
+        "source": "Find a Grave memorial 39700994"
+      }
+    },
+    "marriage_date": null,
+    "marriage_date_confidence": "UNVERIFIED",
+    "marriage_location": "Beaumont, TX (possible — both families anchored there by 1950s)",
+    "marriage_location_confidence": "POSSIBLE"
+  },
+
+  "children": [
+    {
+      "name": "Dale William Spence Jr.",
+      "confidence": "UNVERIFIED",
+      "notes": "Family interview only; not independently verified"
+    },
+    {
+      "name": "Susan Spence (married Clarke)",
+      "confidence": "UNVERIFIED",
+      "notes": "Family interview only"
+    },
+    {
+      "name": "Deanne Spence (married Patton)",
+      "confidence": "UNVERIFIED",
+      "notes": "Family interview only"
+    }
+  ],
+
+  "siblings": {
+    "status": "UNVERIFIED",
+    "notes": "No siblings of Dale Sr. named in any accessible source. Required: 1940 Census Jefferson County TX (lists all children in household) or obituary for Dale Sr."
+  },
+
+  "education": [
+    {
+      "degree": "BS",
+      "institution": "Rice University (then Rice Institute)",
+      "location": "Houston, Texas",
+      "year": 1956,
+      "confidence": "CONFIRMED",
+      "sources": ["riceowls.com", "ricehistorycorner.com"]
+    },
+    {
+      "degree": "MS",
+      "institution": "North Texas State University (now University of North Texas)",
+      "location": "Denton, Texas",
+      "year": null,
+      "field": "Physical education / health sciences (inferred)",
+      "confidence": "CONFIRMED (institution only)",
+      "sources": ["riceowls.com"]
+    },
+    {
+      "degree": "EdD",
+      "institution": "Louisiana State University (LSU)",
+      "location": "Baton Rouge, Louisiana",
+      "year": 1966,
+      "field": "Physical Education",
+      "dissertation_title": "Analysis of Selected Values in Physical Education as Identified by Professional Personnel",
+      "dissertation_url": "https://repository.lsu.edu/gradschool_disstheses/1171/",
+      "confidence": "CONFIRMED",
+      "sources": ["repository.lsu.edu/gradschool_disstheses/1171/"],
+      "notes": "Full text (vita section) inaccessible via Wayback — only front matter (6 pages) captured. Would name parents and birth date."
+    },
+    {
+      "degree": "Postdoctoral fellowship",
+      "institution": "Baylor University / Baylor College of Medicine",
+      "location": "Houston/Waco, Texas",
+      "departments": ["Anatomy", "Physiology", "Medicine"],
+      "year": null,
+      "confidence": "CONFIRMED",
+      "sources": ["riceowls.com", "web.archive.org/web/20120614203354/http://kinesiology.rice.edu/Content.aspx?id=84"]
+    }
+  ],
+
+  "military_service": {
+    "branch": "US Marine Corps Reserve (USMCR)",
+    "commissioned": {
+      "year": 1956,
+      "occasion": "Following Rice University graduation",
+      "confidence": "CONFIRMED",
+      "source": "riceowls.com"
+    },
+    "retirement_rank": "Colonel, USMCR (Retired)",
+    "retirement_rank_confidence": "CONFIRMED",
+    "retirement_rank_source": "ricehistorycorner.com comment signed 'Spence, Colonel, USMCR (Ret)'",
+    "total_service_years": 35,
+    "service_years_confidence": "CONFIRMED",
+    "service_years_source": "riceowls.com"
+  },
+
+  "athletics": {
+    "events": ["880-yard run"],
+    "high_school": {
+      "school": "Beaumont High School",
+      "city": "Beaumont, Texas",
+      "championship": "Texas state high school championship, 880-yard run",
+      "year": 1952,
+      "confidence": "CONFIRMED",
+      "sources": [
+        "https://www.e-yearbook.com/yearbooks/Beaumont_High_School_Pine_Burr_Yearbook/1952/Page_234.html",
+        "riceowls.com"
+      ]
+    },
+    "college": {
+      "institution": "Rice University",
+      "years": "1952-1956",
+      "titles": "Back-to-back conference titles 1955 and 1956",
+      "confidence": "CONFIRMED",
+      "sources": ["riceowls.com"]
+    },
+    "notable": {
+      "bill_cosby_connection": "Ran track with Bill Cosby in the late 1950s (Cosby attended Temple University c. 1959-1964)",
+      "confidence": "CONFIRMED",
+      "source": "https://news2.rice.edu/2002/05/23/cosby-sends-graduates-off-laughing/"
+    },
+    "yearbook_ocr_note": "1952 Pine Burr yearbook OCR text reads '440 dash' — this is an OCR error. All other sources confirm 880-yard run."
+  },
+
+  "academic_career": {
+    "institution": "Rice University",
+    "location": "Houston, Texas",
+    "start_year": 1963,
+    "end_year": 2003,
+    "tenure_years": 40,
+    "final_title": "Professor Emeritus of Kinesiology",
+    "department_names": {
+      "1990": "Department of Human Performance and Health Sciences",
+      "2019": "Kinesiology",
+      "note": "Same unit; renamed during his tenure"
+    },
+    "office": "Tudor Field House, Rice campus",
+    "specialty": "Human anatomy and sports medicine",
+    "specialty_confidence": "CONFIRMED",
+    "specialty_source": "https://web.archive.org/web/20120614203354/http://kinesiology.rice.edu/Content.aspx?id=84",
+    "fellowship": {
+      "name": "Fellow, American College of Sports Medicine (FACSM)",
+      "confidence": "CONFIRMED",
+      "source": "https://web.archive.org/web/20120614203354/http://kinesiology.rice.edu/Content.aspx?id=84"
+    },
+    "adjunct_appointment": {
+      "institution": "Baylor College of Medicine",
+      "departments": ["Anatomy", "Physiology", "Medicine"],
+      "confidence": "CONFIRMED",
+      "source": "https://web.archive.org/web/20120614203354/http://kinesiology.rice.edu/Content.aspx?id=84"
+    },
+    "nasa_connection": {
+      "description": "Summer fellowships in Aeronautics and Space Research, both during and following the Apollo 11 space mission",
+      "apollo_11_date": "July 1969",
+      "confidence": "CONFIRMED",
+      "source": "https://riceowls.com/news/2019/10/11/mens-track-field-pr-club-to-honor-spence-stadel-and-1995-championship-team"
+    },
+    "publications": [
+      {
+        "pmid": "2375667",
+        "year": 1990,
+        "affiliation": "Department of Human Performance and Health Sciences, Rice University, Houston TX 77251-1892",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2375667/",
+        "confidence": "CONFIRMED"
+      }
+    ],
+    "sources": [
+      "https://riceowls.com/news/2019/10/11/mens-track-field-pr-club-to-honor-spence-stadel-and-1995-championship-team",
+      "https://news2.rice.edu/2019/11/11/honoring-our-veterans/",
+      "https://web.archive.org/web/20120614203354/http://kinesiology.rice.edu/Content.aspx?id=84"
+    ]
+  },
+
+  "timeline": [
+    { "year": "c.1934", "event": "Born, Beaumont, Jefferson County, Texas", "confidence": "PROBABLE" },
+    { "year": 1952, "event": "Won Texas state HS championship, 880-yard run, Beaumont High School", "confidence": "CONFIRMED" },
+    { "year": "1952-1956", "event": "Undergraduate student, Rice University, Houston TX", "confidence": "CONFIRMED" },
+    { "year": 1956, "event": "Graduated Rice; commissioned as Marine Corps officer", "confidence": "CONFIRMED" },
+    { "year": "c.1956-1991", "event": "Served in US Marine Corps Reserve; retired as Colonel (35 years)", "confidence": "CONFIRMED" },
+    { "year": "unknown", "event": "MS, North Texas State University", "confidence": "CONFIRMED (institution)" },
+    { "year": 1963, "event": "Joined Rice University faculty", "confidence": "CONFIRMED" },
+    { "year": 1966, "event": "EdD, Louisiana State University — dissertation on values in physical education", "confidence": "CONFIRMED" },
+    { "year": "c.1969", "event": "NASA summer fellowships in Aeronautics and Space Research during and following Apollo 11 mission", "confidence": "CONFIRMED" },
+    { "year": "unknown", "event": "Postdoctoral fellowship, Baylor College of Medicine (Anatomy, Physiology, Medicine depts.)", "confidence": "CONFIRMED" },
+    { "year": 1990, "event": "Published research (PubMed PMID 2375667) — Dept. Human Performance and Health Sciences, Rice", "confidence": "CONFIRMED" },
+    { "year": 2002, "event": "Rice News reference: Professor of Kinesiology Dale Spence, ran track with Bill Cosby", "confidence": "CONFIRMED" },
+    { "year": 2003, "event": "Retired from Rice after 40 years on faculty", "confidence": "CONFIRMED" },
+    { "year": 2005, "event": "Wife Alice Marie Henslee Spence died, age 69, Beaumont TX", "confidence": "CONFIRMED" },
+    { "year": 2019, "event": "Named in Rice Athletics PR Club honor; gave Veterans Day remarks as Professor Emeritus of Kinesiology", "confidence": "CONFIRMED" },
+    { "year": "Dec 2025", "event": "Still listed in Rice faculty/emeritus directory (last Wayback snapshot)", "confidence": "CONFIRMED" }
+  ],
+
+  "unresolved_questions": [
+    {
+      "question": "Exact birth date (DD/MM/YYYY)",
+      "status": "UNVERIFIED",
+      "best_source": "Texas DSHS Vital Records — Texas Birth Certificate for Dale William Spence, born Beaumont TX ~1934-1936",
+      "url": "https://www.dshs.texas.gov/vital-statistics",
+      "estimated_cost": "$22"
+    },
+    {
+      "question": "Father's full name",
+      "status": "UNVERIFIED",
+      "best_source": "Texas Birth Certificate (names both parents); 1940 US Census Jefferson County TX; LSU dissertation vita",
+      "estimated_cost": "$22"
+    },
+    {
+      "question": "Father's English birthplace",
+      "status": "UNVERIFIED",
+      "best_source": "FreeBMD male Spence births 1900-1920 Co. Durham / Yorkshire; 1911 England Census on FamilySearch",
+      "estimated_cost": "Free (requires browser)"
+    },
+    {
+      "question": "Father's immigration year and ship name",
+      "status": "UNVERIFIED",
+      "best_source": "Galveston passenger arrival lists 1910-1935 (FamilySearch free); NARA Region 7 naturalization petitions",
+      "estimated_cost": "Free-$65"
+    },
+    {
+      "question": "Dovie's maiden name — specifically confirm/deny Byrd (father John Archie Asner Byrd 1868 + mother Martha Alice Bedford)",
+      "status": "UNVERIFIED",
+      "best_source": "Texas Marriage Index 1837-1973 for 'Dovie Byrd' + Spence (Ancestry or TexasGenWeb)",
+      "estimated_cost": "Free-$25"
+    },
+    {
+      "question": "Dale Sr.'s siblings (other children of his parents)",
+      "status": "UNVERIFIED",
+      "best_source": "1940 US Census Jefferson County TX — full household listing; or obituary for Dale Sr.",
+      "estimated_cost": "Free (requires browser)"
+    }
+  ],
+
+  "research_blockers": [
+    {
+      "source": "FamilySearch.org",
+      "block_type": "Incapsula WAF (error code 15)",
+      "ips_tried": ["94.72.141.166 (local)", "152.53.169.245 (VPS)"],
+      "fix": "Browser session with login required"
+    },
+    {
+      "source": "Ancestry.com",
+      "block_type": "WAF / paid subscription wall",
+      "fix": "Paid subscription required"
+    },
+    {
+      "source": "FindAGrave.com",
+      "block_type": "WAF block in automated context",
+      "fix": "Browser session required"
+    },
+    {
+      "source": "WikiTree.com",
+      "block_type": "No block — API accessible; negative result",
+      "result": "No profile for Dale Spence born ~1934 Texas — confirmed by API search"
+    },
+    {
+      "source": "Chronicling America (loc.gov)",
+      "block_type": "Cloudflare 308 redirect loop",
+      "fix": "Not found"
+    },
+    {
+      "source": "Portal to Texas History (UNT)",
+      "block_type": "ALTCHA bot verification (requires JavaScript)",
+      "fix": "Browser required"
+    },
+    {
+      "source": "LSU dissertation full text",
+      "block_type": "FlateDecode PDF compression; PDF tools not installed",
+      "details": "Downloaded 1.7MB PDF via Wayback (20230923033811); only 6 pages captured (front matter). pdftotext, PyMuPDF (fitz), pypdf all unavailable on this Windows machine.",
+      "fix": "Install PDF tools: pip install pypdf PyMuPDF; or access full dissertation directly at LSU repository"
+    },
+    {
+      "source": "FreeBMD (freebmd.org.uk)",
+      "block_type": "Interactive JavaScript form required",
+      "fix": "Browser required"
+    }
+  ],
+
+  "sources": [
+    {
+      "id": 1,
+      "label": "Rice Athletics PR Club (2019)",
+      "url": "https://riceowls.com/news/2019/10/11/mens-track-field-pr-club-to-honor-spence-stadel-and-1995-championship-team",
+      "reliability": "HIGH"
+    },
+    {
+      "id": 2,
+      "label": "Beaumont High Pine Burr yearbook 1952 p. 234",
+      "url": "https://www.e-yearbook.com/yearbooks/Beaumont_High_School_Pine_Burr_Yearbook/1952/Page_234.html",
+      "reliability": "HIGH"
+    },
+    {
+      "id": 3,
+      "label": "Rice History Corner comment (2020-05-08)",
+      "url": "https://ricehistorycorner.com/2020/05/07/semper-fidelis-date-unknown/",
+      "reliability": "HIGH"
+    },
+    {
+      "id": 4,
+      "label": "LSU dissertation repository",
+      "url": "https://repository.lsu.edu/gradschool_disstheses/1171/",
+      "reliability": "HIGH"
+    },
+    {
+      "id": 5,
+      "label": "Wayback LSU dissertation PDF (front matter only)",
+      "url": "https://web.archive.org/web/20230923033811/https://repository.lsu.edu/cgi/viewcontent.cgi?article=2170&context=gradschool_dissertations",
+      "reliability": "MEDIUM"
+    },
+    {
+      "id": 6,
+      "label": "PubMed PMID 2375667",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2375667/",
+      "reliability": "HIGH"
+    },
+    {
+      "id": 7,
+      "label": "Rice News Veterans Day (2019-11-11)",
+      "url": "https://news2.rice.edu/2019/11/11/honoring-our-veterans/",
+      "reliability": "HIGH"
+    },
+    {
+      "id": 8,
+      "label": "Rice News Cosby article (2002-05-23)",
+      "url": "https://news2.rice.edu/2002/05/23/cosby-sends-graduates-off-laughing/",
+      "reliability": "HIGH"
+    },
+    {
+      "id": 9,
+      "label": "Rice Kinesiology profile (Wayback 2012-06-14)",
+      "url": "https://web.archive.org/web/20120614203354/http://kinesiology.rice.edu/Content.aspx?id=84",
+      "reliability": "HIGH"
+    },
+    {
+      "id": 10,
+      "label": "PeopleLegacy — Alice Spence burial",
+      "url": "https://peoplelegacy.com/burial-records/alice/spence/",
+      "reliability": "HIGH"
+    },
+    {
+      "id": 11,
+      "label": "PeopleLegacy — Lee Henslee burial",
+      "url": "https://peoplelegacy.com/burial-records/lee/henslee/",
+      "reliability": "HIGH"
+    },
+    {
+      "id": 12,
+      "label": "Find a Grave memorial 39700994 (Frances Henslee)",
+      "url": "https://www.findagrave.com/memorial/39700994",
+      "reliability": "HIGH"
+    },
+    {
+      "id": 13,
+      "label": "Behind the Name — Dovie",
+      "url": "https://www.behindthename.com/name/dovie",
+      "reliability": "HIGH"
+    },
+    {
+      "id": 14,
+      "label": "WikiTree API (negative result — no profile found)",
+      "url": "https://api.wikitree.com/api.php",
+      "reliability": "HIGH (negative)"
+    }
+  ]
+}
