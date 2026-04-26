@@ -451,47 +451,96 @@ aunt_deanne = n("Deanne (Spence) Patton", "living", "Hunter's paternal aunt; sis
 dale_sr = n("Dr. Dale William Spence Sr.", "~1934–1936 Beaumont TX – living (~age 92, Houston TX, per Spokeo + Rice emeritus directory Dec 2025)", "Hunter's paternal grandfather. AMERICAN-BORN. Beaumont HS class of 1952 (TX state track championship). BS Rice 1956 → MS North Texas State → EdD Louisiana State University 1966 → postdoc Baylor. Rice University faculty 1963-2003 (40 yrs); Professor Emeritus of Kinesiology (Department of Human Performance and Health Sciences); office Tudor Field House. Also Colonel USMCR (Retired) — ~35 years US Marine Corps Reserve service. m. Alice Marie Henslee. Per agent 39 deep-dive (CONFIRMED via 1990 PubMed + 2019 Rice references).", None, 16, 20, "confirmed",
             [hunter_dad, aunt_susan, aunt_deanne], spouse="Alice Marie (Henslee) Spence (13 Jan 1936 Rusk TX – 3 Dec 2005 Beaumont)")
 
-# Dovie Spence — Dale Sr's mother (Hunter's paternal great-grandmother) — American-born, married the English immigrant
-dovie_spence = n("Dovie (?) Spence", "fl. ~1910–1980", "Hunter's paternal great-grandmother. Married the unnamed English Spence immigrant. AMERICAN-BORN per agent 41: 'Dovie' is classified by Behind the Name as American (South) female given name with no English/Scottish usage. Maiden name UNKNOWN. Likely Beaumont/East Texas-born ~1910.", None, 15, 20, "confirmed")
+# ── BYRD patrilineal chain (Dovie Byrd Spence's ancestors, multi-tree confirmed) ──
+# Dovie's maiden name = Byrd (per Hunter 2026-04-26). PROBABLE daughter of John Archie Asner
+# Byrd + Martha Alice Bedford. Multi-tree confirmed across KcaMarco/L.B./B.G./Frances Padgett.
+# Chain extends from Hunter back ~10 generations to colonial Westmoreland Co VA.
 
-# Dale Sr's FATHER — the actual English immigrant (Hunter's paternal great-grandfather, name UNKNOWN)
-# Per agent 41: most likely from NE England (Yorkshire/Durham/Northumberland), born ~1900-1915,
-# arrived Beaumont TX via Galveston ~1920-1935 during the post-Spindletop oil-boom labor wave.
-spence_immigrant = n("Mr. Spence (English immigrant)", "~1900–1915 NE England – ?", "Hunter's paternal great-grandfather (Dale Sr's father). NAME UNKNOWN — current top research target. Per agent 41 deep-dive: PROBABLE origin NE England (Yorkshire/Durham/Northumberland — surname's heaviest concentration). Arrived Beaumont TX via Galveston ~1920-1935 during the post-Spindletop oil-boom labor wave that drew British technical workers. m. Dovie (American-born). 1930 Jefferson County TX census most-promising next record to identify him.", None, 15, 20, "probable",
-                     [dale_sr], spouse="Dovie Spence")
+# Build chain children-up so each node already has its descendant when defined
+sharon_byrd = n("Sharon Kay Byrd", "1944 Velasco TX – 2020", "Daughter of Otha + Mattie. Hunter's 1st cousin 2x removed.", None, 17, 20, "probable")
+otha_byrd = n("Otha Lee 'Othar' Byrd", "1902 Milam Co TX – 1989", "Hunter's paternal grand-uncle (PROBABLE — Dovie's brother). m. Mattie Doris Curlee. Per cousin KcaMarco GEDCOM.", "p152", 16, 20, "probable", [sharon_byrd], spouse="Mattie Doris Curlee")
 
-spence_root = spence_immigrant
-# Dovie sits beside the immigrant as his wife (rendered via spouse text)
+dovie_spence = n("Dovie (Byrd) Spence", "fl. ~1905–1980 Texas", "Hunter's paternal great-grandmother. MAIDEN NAME BYRD (per Hunter 2026-04-26). PROBABLE daughter of John Archie Asner Byrd (1868 Birmingham AL – 1928) + Martha Alice Bedford. Brother: Otha Lee Byrd. m. unnamed English Spence immigrant. Mother of Dale William Spence Sr.", "p114", 16, 20, "probable",
+                 [dale_sr], spouse="Mr. Spence (English immigrant)")
+
+byrd_john_archie = n("John Archie Asner Byrd", "1868 Birmingham AL – 1928", "Hunter's paternal great-great-grandfather (PROBABLE). m. Martha Alice Bedford. Family settled Milam County, Texas. Per cousin KcaMarco GEDCOM (4-tree convergence).", "p150", 15, 19, "probable",
+                    [otha_byrd, dovie_spence], spouse="Martha Alice (Bedford) Byrd")
+
+byrd_william_leander = n("Pvt William Leander Byrd", "1832 Frankfort AL – 1889", "Confederate States Army Private (CSA). Son of Benjamin Franklin Byrd + Melissa Colbert. m. Margarete Rhetta Peradeau (1829-1925, French-Huguenot surname). Cross-confirmed 3 cousin GEDCOMs.", "p153", 14, 19, "probable",
+                        [byrd_john_archie], spouse="Margarete Rhetta (Peradeau) Byrd (1829–1925)")
+
+byrd_benjamin = n("Benjamin Franklin Byrd", "b. 1798", "Son of John Howard Byrd + Mary B. Moore. m. Melissa Colbert.", "p155", 13, 19, "possible",
+                  [byrd_william_leander], spouse="Melissa Colbert")
+byrd_john_howard = n("John Howard Byrd", "?", "Son of Michael Byrd + Sally Logan. m. Mary B. Moore.", "p156", 12, 18, "possible",
+                    [byrd_benjamin], spouse="Mary B. Moore")
+byrd_michael = n("Michael Byrd", "?", "Son of Rev. William M. Byrd + Lydia Adair. m. Sally Logan.", "p157", 11, 18, "possible",
+                [byrd_john_howard], spouse="Sally Logan")
+byrd_rev_william = n("Rev. William M. Byrd", "?", "Reverend in colonial Byrd family. Son of Richard George + Elizabeth Buster. m. Lydia Adair.", "p158", 10, 18, "possible",
+                    [byrd_michael], spouse="Lydia Adair")
+byrd_richard_george = n("Richard George Byrd", "?", "Son of John Henry Bird/Byrd + Sarah Carter. m. Elizabeth Buster.", "p159", 9, 18, "possible",
+                       [byrd_rev_william], spouse="Elizabeth Buster")
+byrd_john_henry = n("John Henry Bird (Byrd)", "fl. ~1700 Westmoreland VA", "EARLIEST documented Byrd patrilineal ancestor (POSSIBLE). m. Sarah Carter. Westmoreland County, Virginia — historical seat of the famous William Byrd dynasty (Westover plantation, founders of Richmond VA 1737); direct relationship to that line unverified but geographically/temporally suggestive.", "p160", 8, 18, "possible",
+                   [byrd_richard_george], spouse="Sarah Carter")
+
+# Dale Sr's FATHER — separate node (English immigrant, NAME UNKNOWN)
+spence_immigrant = n("Mr. Spence (English immigrant)", "~1900–1915 NE England – ?", "Hunter's paternal great-grandfather (Dale Sr's father). NAME UNKNOWN — top research target. Per agent 41 deep-dive: PROBABLE NE England (Yorkshire/Durham/Northumberland). Arrived Beaumont TX via Galveston ~1920-1935 post-Spindletop oil boom. m. Dovie Byrd.", "p125", 15, 20, "probable")
+
+# Spence root = deepest Byrd ancestor (the long visual chain users will see)
+spence_root = byrd_john_henry
 
 # ── HENSLEE branch — deceased anchors tightened from 2026-04-26 public burial/death indexes ──
 # Alice Marie Henslee Spence, Lee S. Henslee, and Frances Virginia Henslee now carry sourced dates/places.
 # The parent-child bridge between Alice and Lee/Frances remains explicit MEDIUM-confidence pending a direct obituary or vital record.
 
-# Alice's existence, dates, birthplace, and burial are confirmed; the Lee/Frances parent link is still medium-confidence in this pass.
-alice_henslee = n("Alice Marie (Henslee) Spence", "13 Jan 1936 Rusk TX – 3 Dec 2005", "Hunter's paternal grandmother. Public burial index confirms birth in Rusk, death on 3 Dec 2005, and burial at Forest Lawn Memorial Park, Beaumont (Garden of Hope). Local family context places her as Lee S. and Frances Virginia Henslee's daughter, but that parent-child link remains MEDIUM-confidence until a direct obituary or vital record is attached.", None, 16, 20, "probable",
+# Alice Marie Henslee — paternal grandmother
+alice_henslee = n("Alice Marie (Henslee) Spence", "13 Jan 1936 Rusk TX – 3 Dec 2005 Beaumont", "Hunter's paternal grandmother. Born Rusk TX; died 3 Dec 2005, buried Forest Lawn Memorial Park Beaumont (Garden of Hope). Daughter of Lee Stuart Henslee + Frances Virginia Rau (CONFIRMED via cousin Henslee GEDCOM). m. Dr. Dale William Spence Sr.", None, 16, 20, "confirmed",
                   [], spouse="Dr. Dale William Spence Sr.")
 
-# Don Henslee (Frances's son, Hunter's paternal grand-uncle)
+# Don Henslee + his children
 chad_henslee = n("Chad Henslee", "living", "Hunter's first cousin once removed (Don's son)", None, 17, 21, "confirmed")
-stacy_george = n("Stacy (Henslee) George", "living", "Hunter's first cousin once removed (Don's daughter, m. George)", None, 17, 21, "confirmed")
-jennifer_tyler = n("Jennifer (Henslee) Tyler", "living", "Hunter's first cousin once removed (Don's daughter, m. Tyler)", None, 17, 21, "confirmed")
+stacy_george = n("Stacy (Henslee) George", "living", "Hunter's first cousin once removed (Don's daughter)", None, 17, 21, "confirmed")
+jennifer_tyler = n("Jennifer (Henslee) Tyler", "living", "Hunter's first cousin once removed (Don's daughter)", None, 17, 21, "confirmed")
 
-don_henslee = n("Don Henslee", "living", "Frances + Lee Stuart Henslee's son; Hunter's paternal grand-uncle. Lives in Nederland TX. m. Jo Ann.",
-                None, 16, 20, "confirmed",
-                [chad_henslee, stacy_george, jennifer_tyler], spouse="Jo Ann")
+don_henslee = n("Don Henslee", "living", "Frances + Lee Stuart's son; Hunter's paternal grand-uncle. m. Joann Carlin (1942-2022). Lives Nederland TX.",
+                "p112", 16, 20, "confirmed",
+                [chad_henslee, stacy_george, jennifer_tyler], spouse="Joann (Carlin) Henslee")
 
-frances_henslee = n("Frances Virginia Henslee", "1 Jan 1918 Texas – 19 Dec 2008 Nederland, Jefferson Co TX", "Public death/burial indexes confirm her Texas birth, 19 Dec 2008 death locality at Nederland, and burial at Forest Lawn Memorial Park, Beaumont. The same index cluster identifies spouse Lee S. Henslee. Using this record as Alice Marie Spence's mother remains MEDIUM-confidence until a direct obituary or vital record is attached.", None, 15, 20, "probable",
-                    [alice_henslee, don_henslee], spouse="Lee S. Henslee")
+# Frances Virginia (Rau) Henslee — maiden name confirmed via cousin GEDCOM
+frances_rau_henslee = n("Frances Virginia (Rau) Henslee", "1918 Dallas TX – 19 Dec 2008 Nederland TX", "Hunter's paternal great-grandmother. Maiden name RAU confirmed via cousin GEDCOM. Native of Dallas; lived Beaumont 55 yrs (1938-1993) then Nederland. Catholic. Buried Forest Lawn Memorial Park Beaumont. m. Lee Stuart Henslee 60 yrs.", "p140", 15, 20, "confirmed",
+                       [alice_henslee, don_henslee], spouse="Lee Stuart Henslee")
 
-rosalie_stephens = n("Rosalie (Henslee) Stephens", "living (2008)", "Frances's sister; Hunter's paternal great-grand-aunt. Lives in Allen TX. m. Steve Stephens. Per Frances obituary.",
-                     None, 15, 20, "confirmed", spouse="Steve Stephens")
+rosalie_stephens = n("Rosalie (Henslee) Stephens", "living (2008)", "Frances's sister; m. Steve Stephens; lives Allen TX.", None, 15, 20, "confirmed", spouse="Steve Stephens")
 
-lee_stuart_henslee = n("Lee S. Henslee", "2 Oct 1908 – 31 Aug 1994", "Public burial index confirms dates, burial at Forest Lawn Memorial Park, Beaumont (Garden of Hope), and spouse Frances Henslee. Local project context treats this as the Lee Stuart Henslee in Alice Marie Spence's line, but the father-of-Alice link remains MEDIUM-confidence until a direct obituary or vital record is attached.", None, 15, 20, "probable",
-                       [alice_henslee, don_henslee], spouse="Frances Virginia Henslee")
+# Frances's parents — RAU + REECE (newly identified via cousin GEDCOM)
+frank_rau = n("Frank H. Rau", "?", "Frances Virginia Rau Henslee's father. Hunter's paternal great-great-grandfather. NEWLY identified via cousin Henslee GEDCOM 2026-04-26. Likely German-Texan given surname.", "p141", 14, 20, "confirmed",
+              [frances_rau_henslee, rosalie_stephens], spouse="Ethel Lee Reece")
 
-# Henslee root anchored at the Lee/Frances couple; the Alice-parent link stays explicitly medium-confidence.
-henslee_root = n("Lee S. + Frances Virginia Henslee", "1908–2008 Beaumont/Nederland TX cluster", "Public cemetery/death indexes strongly support this Beaumont/Nederland couple and their shared Forest Lawn burial cluster. Treating them as Alice Marie Spence's parents remains MEDIUM-confidence until a direct obituary or vital record is attached.", None, 14, 20, "probable",
-                 [lee_stuart_henslee, rosalie_stephens])
+# Lee Stuart Henslee + parents (full Henslee patrilineal chain back to 1727 — multi-tree confirmed)
+lee_stuart_henslee = n("Lee Stuart Henslee", "2 Oct 1908 – 31 Aug 1994", "Hunter's paternal great-grandfather. Son of James Ernest 'Pappy' Henslee + Mary Alice Stuart. m. Frances Virginia Rau ~1948 (60-yr marriage). Buried Forest Lawn Memorial Park Beaumont. Per Broussard's Mortuary obituary 2008 + cousin Henslee GEDCOM.", "p111", 15, 20, "confirmed",
+                       [alice_henslee, don_henslee], spouse="Frances Virginia (Rau) Henslee")
+
+mary_alice_stuart = n("Mary Alice (Stuart) Henslee", "1887 Caldwell TX – 1981", "Hunter's paternal great-great-grandmother. Born Caldwell, Burleson Co TX. Parents: Lewis Lunsford Stuart + Nora C. Sale.", "p137", 14, 20, "confirmed", spouse="James Ernest 'Pappy' Henslee")
+
+pappy_henslee = n("James Ernest 'Pappy' Henslee", "1885 Lyons, Burleson Co TX – 1948", "Hunter's paternal great-great-grandfather. Son of Miles Reed Henslee + Lula Jane Norville. m. Mary Alice Stuart. Confirmed via cousin GEDCOM (2 trees).", "p136", 14, 20, "confirmed",
+                  [lee_stuart_henslee], spouse="Mary Alice Stuart")
+
+miles_reed = n("Miles Reed Henslee", "1856–1894", "m. Lula Jane Norville. Father of James Ernest 'Pappy' Henslee. Cross-confirmed 2 cousin GEDCOMs.", "p135", 13, 19, "probable",
+              [pappy_henslee], spouse="Lula Jane Norville")
+enoch_2 = n("Enoch Henslee II", "1832–1916", "m. Sarah Jane Hudson. Cross-confirmed 2 cousin GEDCOMs.", "p134", 12, 19, "probable",
+           [miles_reed], spouse="Sarah Jane Hudson")
+maxfield_2 = n("Maxfield Henslee II", "1810–1900", "m. Mary Blackwell.", "p133", 11, 19, "probable",
+              [enoch_2], spouse="Mary Blackwell")
+enoch_1 = n("Enoch Henslee", "1788–1860", "m. Amy Mary Hasting.", "p132", 10, 19, "probable",
+           [maxfield_2], spouse="Amy Mary Hasting")
+david_e_henslee = n("David E Henslee", "1760–1820", "Son of Maxfield + Patty Sneed. m. Mary Payne.", "p131", 9, 18, "probable",
+                   [enoch_1], spouse="Mary Payne")
+maxfield_1 = n("Maxfield Henslee", "1727–1801", "EARLIEST documented Henslee patrilineal ancestor. m. Jane Snell. Father William Hensley. Cross-confirmed via 3 converging cousin GEDCOMs.", "p130", 8, 18, "probable",
+              [david_e_henslee], spouse="Jane Snell")
+
+# Henslee root = deepest Henslee ancestor (Maxfield 1727, ~280 yrs of named ancestors)
+henslee_root = maxfield_1
+# Rau line as separate sub-anchor (Frances's family — independent of Henslee patrilineal)
+rau_root = frank_rau
 
 # Sir Basil Spence — possible distant collateral via the broader Spence surname
 sir_basil_spence = n("Sir Basil Spence", "1907–1976", "Scottish architect; rebuilt Coventry Cathedral after WWII bombing. POSSIBLE very distant collateral Spence relative.", "hr024", 16, 20, "possible")
@@ -505,8 +554,10 @@ output_data = {
     "_root_kind": "multi",
     "primary": alric,
     "secondary_trees": [
-        {"label": "PATERNAL — Spence line (unnamed English immigrant ~1920s-30s → Dale Sr Rice U professor → Hunter)", "tree": spence_root},
-        {"label": "PATERNAL — Henslee line (Frances + Lee Stuart Henslee, Beaumont/Nederland TX)", "tree": henslee_root},
+        {"label": "PATERNAL — Byrd line (Dovie's family: colonial Westmoreland VA ~1700 → Alabama → Milam Co TX → Dale Sr → Hunter)", "tree": spence_root},
+        {"label": "PATERNAL — Henslee line (Maxfield 1727 → 7 generations → Lee Stuart 1908 → Alice Marie 1936 → Hunter)", "tree": henslee_root},
+        {"label": "PATERNAL — Rau line (Frances Henslee's family: Frank H. Rau + Ethel Lee Reece → Hunter)", "tree": rau_root},
+        {"label": "PATERNAL — Spence patrilineal (unnamed English immigrant — name UNKNOWN, top research target)", "tree": spence_immigrant},
         {"label": "MATERNAL-PATERNAL — Teichmüller line (Hans/Johann ~1580 Harz miller → Brunswick → La Grange TX, 6 gens NDB-confirmed)", "tree": teichmueller_root},
         {"label": "MATERNAL — Lepik / Lepick / Mikeska line (Frýdek-Místek Moravia 1862 → Brown Co KS 1881 → Floresville TX; Roman Catholic)", "tree": lepick_root},
         {"label": "MATERNAL — Baity / Beatty line (Scots-Irish: Border Scots → Ulster 1610-40 → PA → NC by 1750s → SA TX; documented to George Baity 1774 Rowan/Surry NC)", "tree": baity_root},
