@@ -14,6 +14,8 @@ Inputs:
 Outputs:
   output/grandma-shari-family-history.html  (full version, family-only)
   output/grandma-shari-family-history-public.html  (redacted version, shareable)
+  docs/family.html  (full GitHub Pages version)
+  docs/index.html  (public GitHub Pages version)
 
 The HTML is one file with inline CSS and inline JS. Uses CDN for D3 + vis-timeline.
 Leaflet replaced with a custom cinematic SVG migration map (v3).
@@ -32,6 +34,8 @@ PORTRAITS_JSON = WORKSPACE / "research" / "13-portraits-and-images.json"
 DEEDS_JSON = WORKSPACE / "research" / "14-notable-deeds.json"
 OUT_FAMILY = WORKSPACE / "output" / "grandma-shari-family-history.html"
 OUT_PUBLIC = WORKSPACE / "output" / "grandma-shari-family-history-public.html"
+DOCS_FAMILY = WORKSPACE / "docs" / "family.html"
+DOCS_INDEX = WORKSPACE / "docs" / "index.html"
 AUDIO_REL = "audio/source.m4a"
 
 CSS = """
@@ -119,34 +123,28 @@ body {
   padding: var(--sp-xl) var(--sp-lg);
 }
 
-/* ---- HERO / COVER ---- */
+/* ---- ARCHIVE MASTHEAD ---- */
 
 header.cover {
   position: relative;
   text-align: center;
-  padding: var(--sp-2xl) var(--sp-lg) var(--sp-xl);
-  margin: 0 calc(-1 * var(--sp-lg)) var(--sp-xl);
-  /* Dark leather-bound book foreword — warm black with vignette */
-  background: radial-gradient(
-    ellipse 80% 90% at 50% 40%,
-    #1c1510 0%,
-    #130f0c 45%,
-    #0a0806 100%
-  );
+  padding: var(--sp-xl) var(--sp-lg) var(--sp-lg);
+  margin: 0 calc(-1 * var(--sp-lg)) var(--sp-lg);
+  background:
+    linear-gradient(180deg, rgba(26, 20, 14, 0.96) 0%, rgba(15, 12, 9, 0.98) 100%),
+    repeating-linear-gradient(90deg, transparent, transparent 31px, rgba(212, 164, 88, 0.025) 32px);
   border-bottom: 1px solid var(--rule);
-  /* Brass lamp vignette — warmth pulls toward center */
   box-shadow:
-    inset 0 -12px 40px rgba(5, 3, 2, 0.7),
-    inset 0 60px 120px rgba(212, 164, 88, 0.04);
+    inset 0 -1px 0 rgba(212, 164, 88, 0.08),
+    0 8px 28px rgba(0,0,0,0.32);
   overflow: hidden;
 }
 
-/* Top gold rule — brass trim */
 header.cover::before {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0;
-  height: 3px;
+  height: 2px;
   background: linear-gradient(90deg,
     transparent 0%,
     #a07840 15%,
@@ -157,12 +155,11 @@ header.cover::before {
     transparent 100%);
 }
 
-/* Inset frame — aged gilt border */
 header.cover::after {
   content: '';
   position: absolute;
-  inset: 28px;
-  border: 1px solid rgba(212, 164, 88, 0.18);
+  inset: 16px;
+  border: 1px solid rgba(212, 164, 88, 0.12);
   pointer-events: none;
 }
 
@@ -180,14 +177,13 @@ header.cover::after {
 header.cover h1 {
   font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
   font-weight: 700;
-  font-size: var(--fs-hero);
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
   line-height: 1.05;
-  margin: 0 0 var(--sp-md);
+  margin: 0 0 var(--sp-sm);
   color: #f0e6d2;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   text-wrap: balance;
-  /* Subtle text glow — brass lamp light on the title */
-  text-shadow: 0 0 60px rgba(212, 164, 88, 0.2), 0 2px 4px rgba(0,0,0,0.6);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
 }
 
 header.cover h1 em {
@@ -210,8 +206,8 @@ header.cover .subtitle {
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-style: italic;
   color: var(--ink-mid);
-  font-size: var(--fs-xl);
-  margin: 0 0 var(--sp-md);
+  font-size: var(--fs-lg);
+  margin: 0 0 var(--sp-sm);
   font-weight: 400;
   letter-spacing: 0.02em;
 }
@@ -229,7 +225,7 @@ header.cover .meta {
   color: var(--ink-ghost);
   font-size: var(--fs-sm);
   line-height: 1.9;
-  margin-top: var(--sp-md);
+  margin-top: var(--sp-sm);
   letter-spacing: 0.01em;
 }
 
@@ -239,7 +235,7 @@ header.cover .meta strong {
 
 /* Audio player — brass-trimmed tape control */
 .audio-wrapper {
-  margin: var(--sp-xl) auto 0;
+  margin: var(--sp-lg) auto 0;
   max-width: 520px;
   /* Warm metallic casing */
   background: linear-gradient(180deg,
@@ -254,6 +250,11 @@ header.cover .meta strong {
     0 4px 20px rgba(0,0,0,0.5),
     inset 0 1px 0 rgba(212, 164, 88, 0.15),
     inset 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.cover-particles,
+header.cover .cover-glow {
+  display: none;
 }
 
 audio {
@@ -325,7 +326,7 @@ h2 {
   font-size: var(--fs-3xl);
   margin: var(--sp-2xl) 0 var(--sp-lg);
   color: #f0e6d2;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
   line-height: 1.1;
   position: relative;
   padding-bottom: var(--sp-md);
@@ -598,12 +599,98 @@ details.entity-card .entity-body {
   border: 1px solid var(--rule);
   border-top: 1px solid rgba(212, 164, 88, 0.2);
   border-radius: 4px;
-  padding: var(--sp-lg) var(--sp-xl);
-  margin: var(--sp-lg) 0;
+  margin: var(--sp-md) 0;
   box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  overflow: hidden;
 }
 
-.research-section h3 { margin-top: 0; }
+.research-library {
+  margin-top: var(--sp-lg);
+}
+
+.research-group-heading {
+  margin: var(--sp-xl) 0 var(--sp-sm);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  color: var(--accent-gold);
+}
+
+.research-group-heading:first-child {
+  margin-top: var(--sp-lg);
+}
+
+.research-section summary {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 6px var(--sp-md);
+  align-items: baseline;
+  padding: var(--sp-md) var(--sp-lg);
+  list-style: none;
+}
+
+.research-section summary::-webkit-details-marker { display: none; }
+
+.research-section summary::before {
+  content: "";
+  grid-row: 1 / span 2;
+  width: 0;
+  height: 0;
+  margin-top: 0.45em;
+  border-style: solid;
+  border-width: 5px 0 5px 8px;
+  border-color: transparent transparent transparent var(--accent-gold-light);
+  transition: transform 0.15s;
+}
+
+.research-section[open] summary::before {
+  transform: rotate(90deg);
+  border-color: transparent transparent transparent var(--accent-gold);
+}
+
+.research-number {
+  font-family: 'Source Code Pro', 'Courier New', monospace;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.08em;
+  color: var(--accent-gold-light);
+}
+
+.research-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  color: #f0e6d2;
+  line-height: 1.2;
+}
+
+.research-size {
+  justify-self: end;
+  font-family: 'Source Code Pro', 'Courier New', monospace;
+  font-size: var(--fs-xs);
+  color: var(--ink-ghost);
+  white-space: nowrap;
+}
+
+.research-excerpt {
+  grid-column: 2 / 4;
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: var(--fs-sm);
+  line-height: 1.55;
+}
+
+.research-body {
+  padding: 0 var(--sp-lg) var(--sp-lg);
+  border-top: 1px solid rgba(212, 164, 88, 0.08);
+}
+
+.research-body h2:first-child,
+.research-body h3:first-child {
+  margin-top: var(--sp-md);
+}
+
+.research-section h3 { margin-top: var(--sp-lg); }
 .research-section ul { padding-left: var(--sp-lg); }
 .research-section li { margin-bottom: var(--sp-xs); }
 
@@ -1098,75 +1185,192 @@ p.entity-bio {
   outline-offset: 3px;
 }
 
-/* Tree toolbar */
-/* Secondary family-line trees rendered as nested lists */
+/* Secondary family-line visual trees */
 #secondary-trees {
-  margin-top: var(--sp-xl);
-}
-.subtree-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: var(--sp-md);
-  margin-top: var(--sp-md);
-}
-.subtree-card {
-  background: linear-gradient(180deg, #1a1610 0%, #14110c 100%);
-  border: 1px solid var(--rule);
-  border-left: 3px solid var(--accent-gold);
-  border-radius: 5px;
-  padding: var(--sp-md);
-  font-family: 'Lora', Georgia, serif;
-  font-size: var(--fs-sm);
-  color: #f0e6d2;
-  line-height: 1.55;
-  overflow-x: auto;
-}
-.subtree-card h3 {
-  margin: 0 0 var(--sp-sm);
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.15rem;
-  color: var(--accent-gold);
-  border-bottom: 1px solid rgba(212,164,88,0.2);
-  padding-bottom: 6px;
-}
-.subtree-tree, .subtree-tree ul {
-  list-style: none;
-  padding-left: var(--sp-md);
-  margin: 0;
-}
-.subtree-tree {
-  padding-left: 0;
-}
-.subtree-li {
-  margin: 4px 0;
-  padding-left: 12px;
-  border-left: 1px dotted rgba(212,164,88,0.18);
-}
-.subtree-li .subtree-name {
-  color: #fff3d8;
-  font-weight: 600;
-}
-.subtree-li.conf-confirmed .subtree-name { color: #ffe9b8; }
-.subtree-li.conf-probable .subtree-name { color: #d8c898; }
-.subtree-li.conf-possible .subtree-name { color: #b89878; font-style: italic; }
-.subtree-li.conf-unknown .subtree-name { color: #98886c; font-style: italic; opacity: 0.75; }
-.subtree-dates {
-  color: #c8a060;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 0.85rem;
-}
-.subtree-spouse, .subtree-fact {
-  color: #b8a888;
-  font-size: 0.88rem;
-}
-.subtree-fact {
-  display: block;
-  margin-left: 6px;
-  margin-top: 2px;
-  color: #a89878;
-  font-style: italic;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin: var(--sp-2xl) -50vw 0;
+  padding: 0 max(var(--sp-lg), calc((100vw - 1500px) / 2));
 }
 
+#secondary-trees > h2,
+#secondary-trees > p,
+.secondary-line-tabs {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#secondary-trees > p {
+  color: var(--ink-soft);
+}
+
+.secondary-line-tabs {
+  display: flex;
+  gap: var(--sp-sm);
+  overflow-x: auto;
+  padding: var(--sp-sm) 0 var(--sp-md);
+  margin-top: var(--sp-md);
+  margin-bottom: var(--sp-md);
+  scrollbar-color: var(--accent-gold-light) transparent;
+}
+
+.secondary-line-tabs a {
+  flex: 0 0 auto;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  border: 1px solid rgba(212, 164, 88, 0.16);
+  border-radius: 6px;
+  background: rgba(22, 18, 14, 0.88);
+  color: var(--ink-soft);
+  font-size: var(--fs-xs);
+  line-height: 1.25;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.secondary-line-tabs a:hover {
+  color: var(--accent-gold);
+  border-color: rgba(212, 164, 88, 0.45);
+  background: rgba(40, 31, 20, 0.88);
+}
+
+.secondary-line-tabs .line-number {
+  font-family: 'Source Code Pro', 'Courier New', monospace;
+  color: var(--accent-gold-light);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.secondary-tree-list {
+  display: grid;
+  gap: var(--sp-lg);
+}
+
+.secondary-tree-card {
+  background:
+    linear-gradient(180deg, rgba(25, 20, 15, 0.96), rgba(14, 11, 8, 0.98)),
+    repeating-linear-gradient(0deg, transparent, transparent 55px, rgba(212,164,88,0.025) 56px);
+  border: 1px solid rgba(212, 164, 88, 0.14);
+  border-radius: 7px;
+  box-shadow:
+    0 10px 32px rgba(0,0,0,0.42),
+    inset 0 1px 0 rgba(212, 164, 88, 0.08);
+  overflow: hidden;
+}
+
+.secondary-tree-card:target {
+  border-color: rgba(212, 164, 88, 0.42);
+  box-shadow:
+    0 14px 42px rgba(0,0,0,0.55),
+    0 0 0 1px rgba(212, 164, 88, 0.18),
+    inset 0 1px 0 rgba(212, 164, 88, 0.08);
+}
+
+.secondary-tree-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--sp-md);
+  align-items: start;
+  padding: var(--sp-md) var(--sp-lg);
+  border-bottom: 1px solid rgba(212, 164, 88, 0.10);
+}
+
+.secondary-tree-kicker {
+  margin: 0 0 4px;
+  font-family: 'Source Code Pro', 'Courier New', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-gold-light);
+}
+
+.secondary-tree-card h3 {
+  margin: 0;
+  font-family: 'Cormorant Garamond', 'Lora', Georgia, serif;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  font-weight: 700;
+  line-height: 1.16;
+  color: #f0e6d2;
+}
+
+.secondary-tree-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+  min-width: 240px;
+}
+
+.secondary-tree-meta span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 4px 8px;
+  border: 1px solid rgba(212, 164, 88, 0.13);
+  border-radius: 5px;
+  background: rgba(0,0,0,0.18);
+  color: var(--ink-ghost);
+  font-family: 'Source Code Pro', 'Courier New', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.secondary-tree-toolbar {
+  padding: var(--sp-sm) var(--sp-lg);
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(212, 164, 88, 0.08);
+  background: rgba(0,0,0,0.12);
+}
+
+.secondary-tree-container {
+  position: relative;
+  min-height: 430px;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 70% 50% at 50% 8%, rgba(212,164,88,0.035), transparent 70%),
+    linear-gradient(180deg, rgba(12,10,8,0.55), rgba(8,7,6,0.8));
+}
+
+.secondary-tree-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 59px, rgba(212,164,88,0.035) 60px),
+    repeating-linear-gradient(90deg, transparent, transparent 79px, rgba(212,164,88,0.02) 80px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.secondary-tree-svg {
+  display: block;
+  width: 100%;
+  height: min(68vh, 680px);
+  min-height: 430px;
+  position: relative;
+  z-index: 1;
+  cursor: grab;
+}
+
+.secondary-tree-svg:active {
+  cursor: grabbing;
+}
+
+.secondary-tree-card .tree-hint {
+  margin: 0;
+  padding: var(--sp-sm) var(--sp-lg) var(--sp-md);
+  border-top: 1px solid rgba(212, 164, 88, 0.08);
+  background: rgba(0,0,0,0.14);
+}
+
+/* Tree toolbar */
 .tree-toolbar {
   display: flex;
   align-items: center;
@@ -1187,14 +1391,14 @@ p.entity-bio {
   background: var(--paper-raised);
   color: var(--ink-soft);
   border: none;
-  padding: 7px 14px;
+  padding: 9px 14px;
   font-family: 'Lora', Georgia, serif;
   font-size: var(--fs-sm);
   cursor: pointer;
   transition: background 0.15s, color 0.15s;
   line-height: 1;
-  min-width: 40px;
-  min-height: 36px;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 .tree-toolbar button:hover {
@@ -1649,6 +1853,44 @@ header.cover > *:not(.cover-particles):not(.cover-glow) {
     padding: 0 var(--sp-md);
   }
 
+  #secondary-trees {
+    width: auto;
+    left: auto;
+    right: auto;
+    margin-left: calc(-1 * var(--sp-md));
+    margin-right: calc(-1 * var(--sp-md));
+    padding: 0 var(--sp-md);
+  }
+
+  #secondary-trees > h2,
+  #secondary-trees > p,
+  .secondary-line-tabs {
+    max-width: none;
+  }
+
+  .secondary-tree-header {
+    grid-template-columns: 1fr;
+    padding: var(--sp-md);
+  }
+
+  .secondary-tree-meta {
+    justify-content: flex-start;
+    min-width: 0;
+  }
+
+  .secondary-tree-toolbar {
+    padding: var(--sp-sm) var(--sp-md);
+  }
+
+  .secondary-tree-container,
+  .secondary-tree-svg {
+    min-height: 420px;
+  }
+
+  .secondary-tree-svg {
+    height: 520px;
+  }
+
   #map-section {
     margin-left: calc(-1 * var(--sp-md));
     margin-right: calc(-1 * var(--sp-md));
@@ -1673,7 +1915,22 @@ header.cover > *:not(.cover-particles):not(.cover-glow) {
     padding: var(--sp-lg) var(--sp-md);
   }
 
-  .research-section { padding: var(--sp-md); }
+  .research-section summary {
+    grid-template-columns: auto minmax(0, 1fr);
+    padding: var(--sp-md);
+  }
+
+  .research-size {
+    justify-self: start;
+  }
+
+  .research-excerpt {
+    grid-column: 2;
+  }
+
+  .research-body {
+    padding: 0 var(--sp-md) var(--sp-md);
+  }
 
   .entity-portrait-wrap {
     float: none;
@@ -1901,7 +2158,12 @@ def load_entities():
 
 def load_research():
     findings = {}
-    for fn in sorted(RESEARCH_DIR.glob("0*-*.md")):
+    research_files = [
+        fn for fn in RESEARCH_DIR.glob("*.md")
+        if re.match(r"^\d{2,}-", fn.name)
+    ]
+    research_files.sort(key=lambda p: (int(p.name.split("-", 1)[0]), p.name))
+    for fn in research_files:
         findings[fn.stem] = fn.read_text(encoding="utf-8")
     return findings
 
@@ -2131,6 +2393,153 @@ def md_to_html(md: str) -> str:
     return "\n".join(out)
 
 
+def _research_number(stem):
+    m = re.match(r"^(\d+)-", stem)
+    return int(m.group(1)) if m else 9999
+
+
+def _research_title(stem, content):
+    for line in content.splitlines():
+        m = re.match(r"^#\s+(.+?)\s*$", line)
+        if m:
+            return m.group(1)
+    title = re.sub(r"^\d+-", "", stem).replace("-", " ")
+    return title.title()
+
+
+def _research_excerpt(content, max_chars=220):
+    for line in content.splitlines():
+        s = line.strip()
+        if not s or s.startswith("#"):
+            continue
+        s = re.sub(r"^[-*]\s+", "", s)
+        s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
+        s = re.sub(r"[*_`]+", "", s)
+        if len(s) > max_chars:
+            return s[:max_chars - 1].rstrip() + "…"
+        return s
+    return "Research memo."
+
+
+def _research_group_label(number):
+    if number <= 5:
+        return "Foundational Research"
+    if number <= 21:
+        return "Lineage Build-Out"
+    if number <= 35:
+        return "Branch Deep Dives"
+    return "Current Research Memos"
+
+
+def _name_redaction_variants(name):
+    if not name:
+        return set()
+    clean = re.sub(r"\s+", " ", str(name)).strip()
+    if not clean or clean.startswith("[") or clean in {"?", "—"}:
+        return set()
+
+    variants = {clean}
+    no_parens = re.sub(r"\s*\([^)]*\)", "", clean).strip()
+    if no_parens and no_parens != clean:
+        if " " in no_parens or no_parens.lower() not in {"rachel"}:
+            variants.add(no_parens)
+    variants.add(clean.replace("Jr.", "Jr"))
+    variants.add(clean.replace("Sr.", "Sr"))
+    if "Dale William Spence Jr" in clean:
+        variants.update({"Dale Jr.", "Dale Jr"})
+    if clean.startswith("Rachel "):
+        variants.update({"Rachel Spence", "Rachel Trifon"})
+    return {v for v in variants if len(v) >= 3}
+
+
+def _collect_tree_living_terms(root, redaction_set):
+    terms = set()
+    if not isinstance(root, dict):
+        return terms
+    stack = [root]
+    while stack:
+        node = stack.pop()
+        node_id = node.get("id")
+        dates = str(node.get("dates") or "").lower()
+        fact = str(node.get("fact") or "").lower()
+        should_redact = (
+            (node_id and node_id in redaction_set)
+            or "living" in dates
+            or "lives in" in fact
+        )
+        if should_redact:
+            terms.update(_name_redaction_variants(node.get("name")))
+        for child in node.get("children", []) or []:
+            if isinstance(child, dict):
+                stack.append(child)
+    return terms
+
+
+def collect_public_research_redaction_terms(entities, redaction_set):
+    terms = set()
+    for person in entities.get("people", []):
+        pid = person.get("id")
+        if pid not in redaction_set:
+            continue
+        for key in ("full_name", "full_name_redacted"):
+            value = person.get(key)
+            if value and " " in value:
+                terms.update(_name_redaction_variants(value))
+
+    multi_path = WORKSPACE / "research" / "lineage-tree-multi.json"
+    if multi_path.exists():
+        try:
+            data = json.loads(multi_path.read_text(encoding="utf-8"))
+            roots = [data.get("primary")]
+            roots.extend(st.get("tree") for st in data.get("secondary_trees", []) or [])
+            for root in roots:
+                terms.update(_collect_tree_living_terms(root, redaction_set))
+        except (json.JSONDecodeError, OSError, AttributeError):
+            pass
+    return terms
+
+
+def redact_public_markdown(text, redaction_terms):
+    if not redaction_terms:
+        return text
+    redacted = text
+    for term in sorted(redaction_terms, key=len, reverse=True):
+        redacted = re.sub(re.escape(term), "[living relative]", redacted, flags=re.IGNORECASE)
+    return redacted
+
+
+def render_research_sections(research, family_only=True, redaction_terms=None):
+    if not research:
+        return '<div class="research-section"><p><em>Research pending — files will appear when subagents complete.</em></p></div>'
+
+    sections = []
+    current_group = None
+    for stem, content in sorted(research.items(), key=lambda item: (_research_number(item[0]), item[0])):
+        display_content = content if family_only else redact_public_markdown(content, redaction_terms or set())
+        number = _research_number(stem)
+        group = _research_group_label(number)
+        if group != current_group:
+            sections.append(f'<h3 class="research-group-heading">{html.escape(group)}</h3>')
+            current_group = group
+
+        title = _research_title(stem, display_content)
+        excerpt = _research_excerpt(display_content)
+        size_kb = max(1, round(len(content.encode("utf-8")) / 1024))
+        sections.append(f"""<details class="research-section" id="research-{html.escape(stem)}">
+  <summary>
+    <span class="research-number">{number:02d}</span>
+    <span class="research-title">{html.escape(title)}</span>
+    <span class="research-size">{size_kb} KB</span>
+    <span class="research-excerpt">{html.escape(excerpt)}</span>
+  </summary>
+  <div class="research-body">
+{md_to_html(display_content)}
+  </div>
+</details>""")
+
+    return f'<div class="research-library">\n{"".join(sections)}\n</div>'
+
+
 def render_inline(text: str) -> str:
     text = html.escape(text)
     text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2" target="_blank" rel="noopener">\1</a>', text)
@@ -2211,16 +2620,52 @@ def render_transcript(turns, entity_index, redact_set):
     return "\n".join(out)
 
 
-def render_person_card(p, redact=False, portrait_map=None, deeds_map=None):
+def _matches_public_redaction_terms(value, redaction_terms):
+    text = str(value or "")
+    return any(re.search(re.escape(term), text, flags=re.IGNORECASE) for term in redaction_terms or set())
+
+
+def _public_relation_label(relation, redaction_terms=None):
+    relation = str(relation or "").strip()
+    if not relation:
+        return "living relative"
+    if "(" in relation or _matches_public_redaction_terms(relation, redaction_terms or set()):
+        generic = re.sub(r"\([^)]*\)", "", relation).strip(" ,;-")
+        return generic or "living relative"
+    return relation
+
+
+def render_person_card(p, redact=False, portrait_map=None, deeds_map=None, public_redaction_terms=None):
     portrait_map = portrait_map or {}
     deeds_map = deeds_map or {}
+    public_redaction_terms = public_redaction_terms or set()
     if p.get("redact_in_public") and redact:
         return ""
     name = p.get("full_name") or p.get("given_name") or "(unnamed)"
-    if redact and p.get("living_flag") and p.get("id") not in {"p020", "p021"}:
-        name = f"[redacted, {p.get('relation_to_shari', 'living relative')}]"
     pid = p["id"]
     relation = p.get("relation_to_shari", "")
+
+    public_blob = " ".join(
+        str(p.get(key) or "")
+        for key in ("full_name", "given_name", "context", "relation_to_shari", "occupation")
+    )
+    public_redact_person = redact and (
+        (p.get("living_flag") and pid not in {"p020", "p021"})
+        or _matches_public_redaction_terms(public_blob, public_redaction_terms)
+        or "lives in" in public_blob.lower()
+    )
+    if public_redact_person:
+        redacted_name = f"[redacted, {_public_relation_label(relation, public_redaction_terms)}]"
+        return f'''<details class="entity-card" id="{pid}">
+  <summary>
+    <div class="entity-summary-name">{html.escape(redacted_name)}</div>
+    <div class="entity-summary-meta">{render_confidence("living")}</div>
+  </summary>
+  <div class="entity-body">
+    <p class="entity-meta">Living-person details redacted in the public edition.</p>
+  </div>
+</details>'''
+
     b = p.get("birth_year")
     d = p.get("death_year")
     years = f" ({b}–{d})" if b and d else (f" (b. {b})" if b else (f" (d. {d})" if d else ""))
@@ -2618,28 +3063,140 @@ def _placeholder_lineage_tree(portrait_map=None):
     ])
 
 
-def _render_subtree_ul(node, depth=0):
-    """Recursively render a tree node as nested HTML <ul>."""
-    name = html.escape(node.get("name", "?"))
-    dates = html.escape(node.get("dates", "") or "")
-    fact = html.escape(node.get("fact", "") or "")
-    spouse = html.escape(node.get("spouse", "") or "")
-    conf = node.get("confidence", "unknown")
-    children = node.get("children", []) or []
-
-    spouse_html = f' <span class="subtree-spouse">m. {spouse}</span>' if spouse else ""
-    dates_html = f' <span class="subtree-dates">({dates})</span>' if dates else ""
-    fact_html = f' <span class="subtree-fact">— {fact}</span>' if fact else ""
-
-    item = f'<li class="subtree-li conf-{conf}"><span class="subtree-name">{name}</span>{dates_html}{spouse_html}{fact_html}'
-    if children:
-        item += "<ul>" + "".join(_render_subtree_ul(c, depth+1) for c in children) + "</ul>"
-    item += "</li>"
-    return item
+def _normalize_tree_confidence(confidence):
+    raw = str(confidence or "unknown").strip().lower()
+    if "confirmed" in raw:
+        return "confirmed"
+    if "probable" in raw:
+        return "probable"
+    if "possible" in raw:
+        return "possible"
+    if "unverified" in raw:
+        return "unverified"
+    if "living" in raw:
+        return "living"
+    return "unknown"
 
 
-def render_secondary_trees_section():
-    """Render each secondary lineage tree as a nested HTML list section."""
+def _walk_tree_nodes(root):
+    if not isinstance(root, dict):
+        return
+    stack = [(root, 0)]
+    while stack:
+        node, depth = stack.pop()
+        yield node, depth
+        children = node.get("children", []) or []
+        for child in reversed(children):
+            if isinstance(child, dict):
+                stack.append((child, depth + 1))
+
+
+def _tree_node_should_redact(node, redaction_set):
+    node_id = node.get("id")
+    if node_id and node_id in redaction_set:
+        return True
+    dates = str(node.get("dates") or "").lower()
+    if "living" in dates:
+        return True
+    fact = str(node.get("fact") or "").lower()
+    if "lives in" in fact:
+        return True
+    return False
+
+
+def _prepare_tree_for_audience(node, family_only=True, redaction_set=None):
+    """Copy a lineage tree and redact living-node details for public output."""
+    redaction_set = redaction_set or set()
+    if not isinstance(node, dict):
+        return {}
+
+    copied = {k: v for k, v in node.items() if k != "children"}
+    copied["confidence"] = _normalize_tree_confidence(copied.get("confidence"))
+    copied["children"] = [
+        _prepare_tree_for_audience(child, family_only=family_only, redaction_set=redaction_set)
+        for child in node.get("children", []) or []
+        if isinstance(child, dict)
+    ]
+
+    if not family_only and _tree_node_should_redact(copied, redaction_set):
+        copied["name"] = "[living relative]"
+        copied["dates"] = "living"
+        copied["fact"] = "Living-person details redacted in the public edition."
+        copied["spouse"] = None
+        copied["portrait_url"] = ""
+    return copied
+
+
+def _redact_tree_payload_text(node, redaction_terms):
+    if not isinstance(node, dict) or not redaction_terms:
+        return node
+    for key in ("name", "dates", "fact", "spouse"):
+        if isinstance(node.get(key), str):
+            node[key] = redact_public_markdown(node[key], redaction_terms)
+    for child in node.get("children", []) or []:
+        _redact_tree_payload_text(child, redaction_terms)
+    return node
+
+
+def _tree_metrics(root):
+    nodes = list(_walk_tree_nodes(root) or [])
+    if not nodes:
+        return {
+            "node_count": 0,
+            "generation_count": 0,
+            "leaf_count": 0,
+            "redacted_count": 0,
+            "confidence_counts": {},
+        }
+
+    confidence_counts = {}
+    leaf_count = 0
+    redacted_count = 0
+    max_depth = 0
+    for node, depth in nodes:
+        max_depth = max(max_depth, depth)
+        conf = _normalize_tree_confidence(node.get("confidence"))
+        confidence_counts[conf] = confidence_counts.get(conf, 0) + 1
+        if not (node.get("children") or []):
+            leaf_count += 1
+        if node.get("name") == "[living relative]":
+            redacted_count += 1
+    return {
+        "node_count": len(nodes),
+        "generation_count": max_depth + 1,
+        "leaf_count": leaf_count,
+        "redacted_count": redacted_count,
+        "confidence_counts": confidence_counts,
+    }
+
+
+def _confidence_summary(metrics):
+    counts = metrics.get("confidence_counts", {})
+    labels = [
+        ("confirmed", "confirmed"),
+        ("probable", "probable"),
+        ("possible", "possible"),
+        ("unverified", "unverified"),
+        ("unknown", "open"),
+    ]
+    parts = [f"{counts[k]} {label}" for k, label in labels if counts.get(k)]
+    return " · ".join(parts) if parts else "confidence pending"
+
+
+def _short_family_line_label(label):
+    short = re.sub(r"^(PATERNAL|MATERNAL|DEBUNKED)(-[A-Z]+)?\s*[—-]\s*", "", str(label), flags=re.I)
+    short = re.split(r"\s*\(", short, maxsplit=1)[0].strip()
+    return short or "Family line"
+
+
+def _family_line_slug(label, index):
+    base = _short_family_line_label(label).lower()
+    base = re.sub(r"[^a-z0-9]+", "-", base).strip("-")
+    return f"family-line-{index + 1}-{base or 'line'}"
+
+
+def render_secondary_trees_section(family_only=True, redaction_set=None, public_redaction_terms=None):
+    """Render every secondary lineage tree as an interactive D3 tree card."""
     multi_path = WORKSPACE / "research" / "lineage-tree-multi.json"
     if not multi_path.exists():
         return ""
@@ -2650,32 +3207,97 @@ def render_secondary_trees_section():
     secondaries = data.get("secondary_trees", []) or []
     if not secondaries:
         return ""
-    sections = []
-    for st in secondaries:
-        label = html.escape(st.get("label", "Family line"))
+
+    cards = []
+    tabs = []
+    tree_payload = []
+    for idx, st in enumerate(secondaries):
+        label_raw = st.get("label", "Family line")
         tree = st.get("tree")
         if not tree:
             continue
-        list_html = _render_subtree_ul(tree)
-        sections.append(f"""<article class="subtree-card">
-  <h3>{label}</h3>
-  <ul class="subtree-tree">{list_html}</ul>
+        prepared_tree = _prepare_tree_for_audience(tree, family_only=family_only, redaction_set=redaction_set)
+        if not family_only:
+            _redact_tree_payload_text(prepared_tree, public_redaction_terms or set())
+        metrics = _tree_metrics(prepared_tree)
+        slug = _family_line_slug(label_raw, idx)
+        short_label = _short_family_line_label(label_raw)
+        tree_payload.append({
+            "label": label_raw,
+            "short_label": short_label,
+            "slug": slug,
+            "tree": prepared_tree,
+            "metrics": metrics,
+        })
+
+        tabs.append(
+            f'<a href="#{html.escape(slug)}">'
+            f'<span class="line-number">Line {idx + 1}</span>'
+            f'<span>{html.escape(short_label)}</span>'
+            f'</a>'
+        )
+
+        privacy_note = ""
+        if metrics["redacted_count"]:
+            privacy_note = f'\n      <span>{metrics["redacted_count"]} private</span>'
+
+        cards.append(f"""<article class="secondary-tree-card" id="{html.escape(slug)}" data-tree-index="{idx}">
+  <header class="secondary-tree-header">
+    <div>
+      <p class="secondary-tree-kicker">Family line {idx + 1}</p>
+      <h3>{html.escape(label_raw)}</h3>
+    </div>
+    <div class="secondary-tree-meta" aria-label="Tree summary">
+      <span>{metrics["node_count"]} people</span>
+      <span>{metrics["generation_count"]} generations</span>
+      <span>{html.escape(_confidence_summary(metrics))}</span>{privacy_note}
+    </div>
+  </header>
+  <div class="tree-toolbar secondary-tree-toolbar" role="toolbar" aria-label="{html.escape(short_label)} tree controls">
+    <div class="btn-group">
+      <button onclick="secondaryTreeZoomIn({idx})" aria-label="Zoom in {html.escape(short_label)}" title="Zoom in">+</button>
+      <button onclick="secondaryTreeZoomOut({idx})" aria-label="Zoom out {html.escape(short_label)}" title="Zoom out">&#8722;</button>
+      <button onclick="secondaryTreeZoomReset({idx})" aria-label="Reset {html.escape(short_label)} view" title="Reset zoom">Reset</button>
+    </div>
+    <div class="tree-legend" aria-label="Confidence level legend">
+      <span class="legend-item"><span class="swatch confirmed" aria-hidden="true"></span>Confirmed</span>
+      <span class="legend-item"><span class="swatch probable" aria-hidden="true"></span>Probable</span>
+      <span class="legend-item"><span class="swatch unknown" aria-hidden="true"></span>Research pending</span>
+    </div>
+  </div>
+  <div class="secondary-tree-container" role="img" aria-label="Interactive family tree for {html.escape(short_label)}">
+    <svg id="secondary-tree-svg-{idx}" class="secondary-tree-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+  </div>
+  <p class="tree-hint">Scroll or pinch to zoom &nbsp;&middot;&nbsp; Drag to pan &nbsp;&middot;&nbsp; Click linked nodes to open their detail card below</p>
 </article>""")
-    if not sections:
+
+    if not cards:
         return ""
+
+    tree_payload_json = json.dumps(tree_payload)
     return f"""<section id="secondary-trees" aria-labelledby="secondary-heading">
   <h2 id="secondary-heading">Additional Family Lines</h2>
-  <p>The Mattingly tree above traces Hunter's matrilineal-Mattingly line back to Anglo-Saxon Hampshire. The branches below are <em>each separate family lineages</em> that connect to Hunter through marriage at various generations — paternal Spence, paternal Henslee, maternal Lepik, maternal Boehme, maternal-paternal Teichmüller, and others. Click any name's card below for full bio.</p>
-  <div class="subtree-grid">
-    {"".join(sections)}
+  <p>The Mattingly tree traces the central maternal line. These separate family-line trees show the connected Spence, Henslee, Teichmüller, Lepik, Boehme, Trifon, and ruled-out Frost lines as inspectable diagrams instead of nested text lists.</p>
+  <nav class="secondary-line-tabs" aria-label="Jump to a family line">
+    {"".join(tabs)}
+  </nav>
+  <div class="secondary-tree-list">
+    {"".join(cards)}
   </div>
+  <script id="secondary-lineage-data" type="application/json">{tree_payload_json}</script>
 </section>"""
 
 
-def render_lineage_tree_section(portrait_map=None):
+def render_lineage_tree_section(portrait_map=None, family_only=True, redaction_set=None, public_redaction_terms=None):
     """Generate the HTML+SVG+JS for the D3 family tree."""
     portrait_map = portrait_map or {}
-    tree_data = build_lineage_tree_data(portrait_map)
+    tree_data = _prepare_tree_for_audience(
+        build_lineage_tree_data(portrait_map),
+        family_only=family_only,
+        redaction_set=redaction_set,
+    )
+    if not family_only:
+        _redact_tree_payload_text(tree_data, public_redaction_terms or set())
     tree_data_json = json.dumps(tree_data)
 
     # Use lineage research file presence to decide caption
@@ -3326,6 +3948,408 @@ window.addEventListener('load', () => setTimeout(autoFitTree, 120));
 """
 
 
+def render_secondary_trees_js():
+    """Return D3 initialization JS for all secondary family-line tree cards."""
+    return r"""
+// ── Secondary Family-Line Trees ──────────────────────────────────
+// Renders every non-primary lineage from research/lineage-tree-multi.json
+// as an interactive SVG tree card with its own zoom controls.
+
+(function renderSecondaryLineageTrees() {
+  const dataEl = document.getElementById('secondary-lineage-data');
+  if (!dataEl || typeof d3 === 'undefined') return;
+
+  let familyLines = [];
+  try {
+    familyLines = JSON.parse(dataEl.textContent || '[]');
+  } catch (err) {
+    console.warn('Could not parse secondary lineage data', err);
+    return;
+  }
+
+  const controllers = [];
+  const CARD_W = 218;
+  const CARD_H = 84;
+  const palette = [
+    ['#3a2208', '#281804'],
+    ['#4a2b0c', '#332006'],
+    ['#563512', '#3c280c'],
+    ['#5a4222', '#413219'],
+    ['#3f3a35', '#2e2a28'],
+    ['#2e3442', '#222733'],
+    ['#25354a', '#18263a'],
+    ['#1c304e', '#10223c'],
+  ];
+
+  function truncate(value, max) {
+    const s = value == null ? '' : String(value);
+    return s.length > max ? s.slice(0, max - 1) + '…' : s;
+  }
+
+  function normalizeConfidence(value) {
+    const s = String(value || 'unknown').toLowerCase();
+    if (s.includes('confirmed')) return 'confirmed';
+    if (s.includes('probable')) return 'probable';
+    if (s.includes('possible')) return 'possible';
+    if (s.includes('unverified')) return 'unverified';
+    if (s.includes('living')) return 'living';
+    return 'unknown';
+  }
+
+  function confidenceStroke(conf) {
+    const c = normalizeConfidence(conf);
+    if (c === 'confirmed') return '#d4a458';
+    if (c === 'probable') return '#b8826a';
+    if (c === 'possible') return '#c07060';
+    if (c === 'unverified') return '#a05040';
+    if (c === 'living') return '#7a9ab8';
+    return '#5a5048';
+  }
+
+  function confidenceDash(conf) {
+    const c = normalizeConfidence(conf);
+    if (c === 'unknown') return '4,3';
+    if (c === 'possible') return '6,3';
+    if (c === 'unverified') return '5,3,2,3';
+    return 'none';
+  }
+
+  function nodeFill(defs, prefix, d) {
+    const c = normalizeConfidence(d.data.confidence);
+    if (d.data.name === '[living relative]') return `url(#${prefix}-private)`;
+    if (c === 'unknown' || c === 'possible' || c === 'unverified') return `url(#${prefix}-paper)`;
+    const idx = Math.min(d.depth, palette.length - 1);
+    return `url(#${prefix}-g-${idx})`;
+  }
+
+  function nodeTextColor(d) {
+    if (d.data.name === '[living relative]') return '#d7e2ee';
+    return d.depth < 4 ? '#fff3d8' : '#f5f7fc';
+  }
+
+  function nodeDateColor(d) {
+    if (d.data.name === '[living relative]') return '#9fb8cf';
+    return d.depth < 4 ? '#f0c060' : '#a8c0e0';
+  }
+
+  function nodeFactColor(d) {
+    if (d.data.name === '[living relative]') return '#8da4ba';
+    return d.depth < 4 ? '#d8a070' : '#9aa8c8';
+  }
+
+  function scrollToEntity(d) {
+    if (!d.data.id) return;
+    const el = document.getElementById(d.data.id);
+    if (!el) return;
+    if (el.tagName === 'DETAILS') el.open = true;
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    el.style.transition = 'background-color 0.4s ease, box-shadow 0.4s ease';
+    el.style.backgroundColor = 'rgba(212, 164, 88, 0.12)';
+    el.style.boxShadow = '0 0 0 1px rgba(212, 164, 88, 0.26), 0 0 16px rgba(212, 164, 88, 0.15)';
+    setTimeout(() => {
+      el.style.backgroundColor = '';
+      el.style.boxShadow = '';
+    }, 1800);
+  }
+
+  function appendDefs(svg, prefix) {
+    const defs = svg.append('defs');
+
+    const glow = defs.append('filter')
+      .attr('id', `${prefix}-node-glow`)
+      .attr('x', '-35%').attr('y', '-35%')
+      .attr('width', '170%').attr('height', '170%');
+    glow.append('feDropShadow')
+      .attr('dx', 0).attr('dy', 0)
+      .attr('stdDeviation', 5)
+      .attr('flood-color', '#d4a458')
+      .attr('flood-opacity', 0.42);
+
+    const qGlow = defs.append('filter')
+      .attr('id', `${prefix}-q-glow`)
+      .attr('x', '-80%').attr('y', '-80%')
+      .attr('width', '360%').attr('height', '360%');
+    qGlow.append('feDropShadow')
+      .attr('dx', 0).attr('dy', 0)
+      .attr('stdDeviation', 2.8)
+      .attr('flood-color', '#d4a458')
+      .attr('flood-opacity', 0.72);
+
+    function gradient(id, top, bottom) {
+      const g = defs.append('linearGradient')
+        .attr('id', id)
+        .attr('x1', '0%').attr('y1', '0%')
+        .attr('x2', '0%').attr('y2', '100%');
+      g.append('stop').attr('offset', '0%').attr('stop-color', top);
+      g.append('stop').attr('offset', '100%').attr('stop-color', bottom);
+    }
+
+    palette.forEach((pair, i) => gradient(`${prefix}-g-${i}`, pair[0], pair[1]));
+    gradient(`${prefix}-paper`, '#1a1510', '#221c14');
+    gradient(`${prefix}-private`, '#182432', '#101923');
+    return defs;
+  }
+
+  function renderLine(line, index) {
+    const svg = d3.select(`#secondary-tree-svg-${index}`);
+    if (svg.empty() || !line.tree) return;
+    svg.selectAll('*').remove();
+
+    const root = d3.hierarchy(line.tree);
+    const leaves = Math.max(root.leaves().length, 2);
+    const levels = Math.max(root.height + 1, 2);
+    const W = Math.max(900, leaves * 255 + 160);
+    const H = Math.max(520, levels * 152 + 120);
+    const margin = { top: 56, right: 56, bottom: 70, left: 84 };
+    const prefix = `secondary-line-${index}`;
+
+    svg.attr('viewBox', `0 0 ${W} ${H}`)
+      .attr('preserveAspectRatio', 'xMidYMid meet')
+      .attr('width', '100%');
+
+    const defs = appendDefs(svg, prefix);
+    const treeLayout = d3.tree()
+      .size([W - margin.left - margin.right, H - margin.top - margin.bottom])
+      .separation((a, b) => a.parent === b.parent ? 1.18 : 1.55);
+    treeLayout(root);
+
+    const g = svg.append('g')
+      .attr('class', 'secondary-tree-root')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const bandG = svg.append('g')
+      .attr('class', 'secondary-tree-bands')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+    const depthY = new Map();
+    root.each(d => {
+      if (!depthY.has(d.depth)) depthY.set(d.depth, d.y);
+    });
+    depthY.forEach((y, depth) => {
+      bandG.append('line')
+        .attr('x1', -margin.left + 48)
+        .attr('x2', W - margin.left - margin.right)
+        .attr('y1', y)
+        .attr('y2', y)
+        .attr('stroke', '#d4a458')
+        .attr('stroke-width', 0.35)
+        .attr('stroke-dasharray', '3,8')
+        .attr('opacity', 0.22);
+      bandG.append('text')
+        .attr('x', -margin.left + 42)
+        .attr('y', y + 4)
+        .attr('text-anchor', 'end')
+        .attr('font-family', "'Cormorant Garamond', Georgia, serif")
+        .attr('font-size', '11px')
+        .attr('font-style', 'italic')
+        .attr('font-weight', '600')
+        .attr('fill', '#a07840')
+        .attr('opacity', 0.8)
+        .text(`G${depth + 1}`);
+    });
+
+    g.append('g')
+      .attr('class', 'links')
+      .selectAll('path')
+      .data(root.links())
+      .enter()
+      .append('path')
+      .attr('fill', 'none')
+      .attr('stroke', d => d.source.depth < 4 ? '#a87830' : '#506070')
+      .attr('stroke-width', d => d.source.depth < 4 ? 1.45 : 1.15)
+      .attr('stroke-opacity', 0.48)
+      .attr('d', d => {
+        const sx = d.source.x;
+        const sy = d.source.y + CARD_H / 2;
+        const tx = d.target.x;
+        const ty = d.target.y - CARD_H / 2;
+        const midY = (sy + ty) / 2;
+        return `M${sx},${sy} C${sx},${midY} ${tx},${midY} ${tx},${ty}`;
+      });
+
+    const nodeGroups = g.append('g')
+      .attr('class', 'nodes')
+      .selectAll('g.secondary-tree-node')
+      .data(root.descendants())
+      .enter()
+      .append('g')
+      .attr('class', d => `secondary-tree-node tree-node gen-${Math.min(d.depth, 13)}`)
+      .attr('transform', d => `translate(${d.x},${d.y})`)
+      .attr('role', d => d.data.id ? 'button' : 'img')
+      .attr('tabindex', d => d.data.id ? '0' : null)
+      .attr('aria-label', d => `${d.data.name || 'Unknown person'}, ${d.data.dates || 'dates unknown'}`)
+      .style('cursor', d => d.data.id ? 'pointer' : 'default')
+      .on('click', (event, d) => scrollToEntity(d))
+      .on('keydown', (event, d) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          scrollToEntity(d);
+        }
+      });
+
+    const card = nodeGroups.append('g').attr('class', 'node-card');
+    card.append('rect')
+      .attr('x', -CARD_W / 2 + 3)
+      .attr('y', -CARD_H / 2 + 4)
+      .attr('width', CARD_W)
+      .attr('height', CARD_H)
+      .attr('rx', 7).attr('ry', 7)
+      .attr('fill', 'rgba(0,0,0,0.45)');
+
+    card.append('rect')
+      .attr('x', -CARD_W / 2)
+      .attr('y', -CARD_H / 2)
+      .attr('width', CARD_W)
+      .attr('height', CARD_H)
+      .attr('rx', 7).attr('ry', 7)
+      .attr('fill', d => nodeFill(defs, prefix, d))
+      .attr('stroke', d => confidenceStroke(d.data.confidence))
+      .attr('stroke-width', d => normalizeConfidence(d.data.confidence) === 'confirmed' ? 1.9 : 1.55)
+      .attr('stroke-dasharray', d => confidenceDash(d.data.confidence));
+
+    card.append('rect')
+      .attr('x', -CARD_W / 2 + 2)
+      .attr('y', -CARD_H / 2 + 1)
+      .attr('width', CARD_W - 4)
+      .attr('height', 1)
+      .attr('rx', 1)
+      .attr('fill', 'rgba(255,255,255,0.12)');
+
+    card.filter(d => ['possible', 'unverified'].includes(normalizeConfidence(d.data.confidence)))
+      .append('text')
+      .attr('x', CARD_W / 2 - 16)
+      .attr('y', CARD_H / 2 - 5)
+      .attr('text-anchor', 'middle')
+      .attr('font-family', "'Cormorant Garamond', Georgia, serif")
+      .attr('font-size', d => normalizeConfidence(d.data.confidence) === 'unverified' ? '31px' : '36px')
+      .attr('font-weight', '700')
+      .attr('fill', '#d4a458')
+      .attr('filter', `url(#${prefix}-q-glow)`)
+      .attr('pointer-events', 'none')
+      .text('?');
+
+    const badgeX = -CARD_W / 2 + 12;
+    const badgeY = -CARD_H / 2 + 12;
+    card.append('path')
+      .attr('d', `M${badgeX},${badgeY - 9} L${badgeX + 9},${badgeY} L${badgeX},${badgeY + 9} L${badgeX - 9},${badgeY} Z`)
+      .attr('fill', 'rgba(0,0,0,0.36)')
+      .attr('stroke', d => d.depth < 5 ? 'rgba(212,164,88,0.5)' : 'rgba(180,180,200,0.3)')
+      .attr('stroke-width', 1);
+    card.append('text')
+      .attr('x', badgeX)
+      .attr('y', badgeY + 3.5)
+      .attr('text-anchor', 'middle')
+      .attr('font-family', "'Cormorant Garamond', Georgia, serif")
+      .attr('font-size', '9px')
+      .attr('font-weight', '600')
+      .attr('fill', d => d.depth < 5 ? '#d4a458' : '#9aacbc')
+      .text(d => d.data.generation || d.depth + 1);
+
+    card.append('text')
+      .attr('x', 0)
+      .attr('y', -19)
+      .attr('text-anchor', 'middle')
+      .attr('font-family', "'Cormorant Garamond', 'Lora', Georgia, serif")
+      .attr('font-weight', '700')
+      .attr('font-size', '13px')
+      .attr('letter-spacing', '0.01em')
+      .attr('fill', d => nodeTextColor(d))
+      .text(d => truncate(d.data.name, 29));
+
+    card.append('text')
+      .attr('x', 0)
+      .attr('y', -3)
+      .attr('text-anchor', 'middle')
+      .attr('font-family', "'Source Code Pro', 'Courier New', monospace")
+      .attr('font-size', '10px')
+      .attr('letter-spacing', '0.02em')
+      .attr('fill', d => nodeDateColor(d))
+      .text(d => truncate(d.data.dates || 'dates pending', 30));
+
+    card.append('text')
+      .attr('x', 0)
+      .attr('y', 13)
+      .attr('text-anchor', 'middle')
+      .attr('font-family', "'Lora', Georgia, serif")
+      .attr('font-style', 'italic')
+      .attr('font-size', '9.2px')
+      .attr('fill', d => nodeFactColor(d))
+      .text(d => truncate(d.data.fact, 42));
+
+    card.filter(d => d.data.spouse)
+      .append('text')
+      .attr('x', 0)
+      .attr('y', 29)
+      .attr('text-anchor', 'middle')
+      .attr('font-family', "'Lora', Georgia, serif")
+      .attr('font-size', '8.8px')
+      .attr('fill', d => nodeFactColor(d))
+      .text(d => 'm. ' + truncate(d.data.spouse, 39));
+
+    card.append('title')
+      .text(d => {
+        const bits = [
+          d.data.name,
+          d.data.dates,
+          `Confidence: ${normalizeConfidence(d.data.confidence).toUpperCase()}`,
+          d.data.spouse ? `Spouse: ${d.data.spouse}` : '',
+          d.data.fact || '',
+        ].filter(Boolean);
+        return bits.join('\n');
+      });
+
+    nodeGroups.on('mouseenter', function() {
+      d3.select(this).select('.node-card')
+        .style('filter', `url(#${prefix}-node-glow)`)
+        .attr('transform', 'scale(1.035)');
+    }).on('mouseleave', function() {
+      d3.select(this).select('.node-card')
+        .style('filter', null)
+        .attr('transform', null);
+    });
+
+    const zoomBehavior = d3.zoom()
+      .scaleExtent([0.35, 4])
+      .on('zoom', event => {
+        g.attr('transform',
+          `translate(${margin.left + event.transform.x},${margin.top + event.transform.y}) scale(${event.transform.k})`);
+        bandG.attr('transform',
+          `translate(${margin.left + event.transform.x},${margin.top + event.transform.y}) scale(${event.transform.k})`);
+      });
+
+    svg.call(zoomBehavior).on('dblclick.zoom', null);
+
+    function fit() {
+      const bbox = g.node().getBBox();
+      const padding = 44;
+      const scaleX = (W - 2 * padding) / Math.max(bbox.width, 1);
+      const scaleY = (H - 2 * padding) / Math.max(bbox.height, 1);
+      const scale = Math.min(scaleX, scaleY, 1);
+      const tx = (W - bbox.width * scale) / 2 - bbox.x * scale - margin.left;
+      const ty = (H - bbox.height * scale) / 2 - bbox.y * scale - margin.top;
+      svg.transition().duration(260).call(
+        zoomBehavior.transform,
+        d3.zoomIdentity.translate(tx, ty).scale(scale)
+      );
+    }
+
+    controllers[index] = {
+      zoomIn: () => svg.transition().duration(240).call(zoomBehavior.scaleBy, 1.32),
+      zoomOut: () => svg.transition().duration(240).call(zoomBehavior.scaleBy, 1 / 1.32),
+      reset: fit,
+    };
+
+    setTimeout(fit, 100 + index * 40);
+  }
+
+  window.secondaryTreeZoomIn = index => controllers[index] && controllers[index].zoomIn();
+  window.secondaryTreeZoomOut = index => controllers[index] && controllers[index].zoomOut();
+  window.secondaryTreeZoomReset = index => controllers[index] && controllers[index].reset();
+
+  familyLines.forEach(renderLine);
+})();
+"""
+
+
 def build_html(family_only=True):
     turns = load_transcript()
     entities = load_entities()
@@ -3335,6 +4359,7 @@ def build_html(family_only=True):
 
     redact_set = set() if family_only else set(entities.get("audience_policy", {}).get("redaction_set", []))
     redact_living_names = not family_only
+    public_redaction_terms = set() if family_only else collect_public_research_redaction_terms(entities, redact_set)
 
     entity_index = build_entity_index(entities)
 
@@ -3349,13 +4374,15 @@ def build_html(family_only=True):
         for p in sorted(deceased, key=lambda x: x.get("birth_year") or 9999):
             people_html.append(render_person_card(p, redact=redact_living_names,
                                                    portrait_map=portrait_map,
-                                                   deeds_map=deeds_map))
+                                                   deeds_map=deeds_map,
+                                                   public_redaction_terms=public_redaction_terms))
     if living and family_only:
         people_html.append("<h3>Living Family</h3>")
         for p in living:
             people_html.append(render_person_card(p, redact=False,
                                                    portrait_map=portrait_map,
-                                                   deeds_map=deeds_map))
+                                                   deeds_map=deeds_map,
+                                                   public_redaction_terms=public_redaction_terms))
 
     places_html = "\n".join(render_place_card(pl) for pl in entities.get("places", []))
     events_html = "\n".join(render_event_card(e) for e in sorted(
@@ -3363,20 +4390,11 @@ def build_html(family_only=True):
         key=lambda e: re.search(r"(\d{4})", str(e.get("date_or_year") or "")).group(1) if re.search(r"\d{4}", str(e.get("date_or_year") or "")) else "9999"
     ))
 
-    research_html = []
-    titles = {
-        "01-mattingly-lineage": "Mattingly Direct Lineage",
-        "02-texas-places": "Texas Places & Properties",
-        "03-pohl-monette-art": "Pohl, Monette & Texas Art",
-        "04-english-origins": "English Origins & Etymology",
-        "05-scandal-and-loose-ends": "Loose Ends & Mysteries",
-    }
-    for stem, title in titles.items():
-        content = research.get(stem)
-        if content:
-            research_html.append(f'<div class="research-section">{md_to_html(content)}</div>')
-        else:
-            research_html.append(f'<div class="research-section"><h3>{html.escape(title)}</h3><p><em>Research pending — file will appear when subagent completes.</em></p></div>')
+    research_html = render_research_sections(
+        research,
+        family_only=family_only,
+        redaction_terms=public_redaction_terms,
+    )
 
     open_questions = entities.get("open_questions", [])
     oq_html = ""
@@ -3389,8 +4407,17 @@ def build_html(family_only=True):
 
     transcript_html = render_transcript(turns, entity_index, redact_set)  # legacy, unused now
     notable_stories_html = render_notable_stories()
-    lineage_tree_html = render_lineage_tree_section(portrait_map=portrait_map)
-    secondary_trees_html = render_secondary_trees_section()
+    lineage_tree_html = render_lineage_tree_section(
+        portrait_map=portrait_map,
+        family_only=family_only,
+        redaction_set=redact_set,
+        public_redaction_terms=public_redaction_terms,
+    )
+    secondary_trees_html = render_secondary_trees_section(
+        family_only=family_only,
+        redaction_set=redact_set,
+        public_redaction_terms=public_redaction_terms,
+    )
     migration_map_html = render_migration_map_section(deeds_map=deeds_map)
 
     title = "Grandma Shari — The Mattingly Family History"
@@ -3443,6 +4470,7 @@ def build_html(family_only=True):
       <strong>Contents</strong>
       <ul>
         <li><a href="#lineage">Family Tree</a></li>
+        <li><a href="#secondary-trees">Family Lines</a></li>
         <li><a href="#timeline">Timeline</a></li>
         <li><a href="#map">Migration Map</a></li>
         <li><a href="#stories">Notable Stories</a></li>
@@ -3489,7 +4517,7 @@ def build_html(family_only=True):
     <section id="research">
       <h2>Research & Sources</h2>
       <p>Findings from web research, genealogical databases, newspaper archives, and historical records. Confidence levels: <span class="confidence confidence-confirmed">CONFIRMED</span> = 3+ sources, <span class="confidence confidence-probable">PROBABLE</span> = 2 sources, <span class="confidence confidence-possible">POSSIBLE</span> = 1 source.</p>
-      {''.join(research_html)}
+      {research_html}
     </section>
 
     {oq_html}
@@ -3516,6 +4544,7 @@ def build_html(family_only=True):
 
   <script>
 {render_lineage_tree_js()}
+{render_secondary_trees_js()}
 {render_timeline_js()}
   </script>
 </body>
@@ -4186,15 +5215,25 @@ def render_migration_map_section(deeds_map=None):
 
 def main():
     OUT_FAMILY.parent.mkdir(parents=True, exist_ok=True)
+    DOCS_FAMILY.parent.mkdir(parents=True, exist_ok=True)
+
     family_html = build_html(family_only=True)
     OUT_FAMILY.write_text(family_html, encoding="utf-8")
     print(f"Wrote {OUT_FAMILY} ({OUT_FAMILY.stat().st_size:,} bytes)")
+    DOCS_FAMILY.write_text(family_html, encoding="utf-8")
+    print(f"Wrote {DOCS_FAMILY} ({DOCS_FAMILY.stat().st_size:,} bytes)")
 
     public_html = build_html(family_only=False)
     OUT_PUBLIC.write_text(public_html, encoding="utf-8")
     print(f"Wrote {OUT_PUBLIC} ({OUT_PUBLIC.stat().st_size:,} bytes)")
+    DOCS_INDEX.write_text(public_html, encoding="utf-8")
+    print(f"Wrote {DOCS_INDEX} ({DOCS_INDEX.stat().st_size:,} bytes)")
 
-    research_files = list(RESEARCH_DIR.glob("0*-*.md"))
+    research_files = [
+        fn for fn in RESEARCH_DIR.glob("*.md")
+        if re.match(r"^\d{2,}-", fn.name)
+    ]
+    research_files.sort(key=lambda p: (int(p.name.split("-", 1)[0]), p.name))
     if research_files:
         print(f"\nResearch files included ({len(research_files)}):")
         for f in research_files:

@@ -153,7 +153,7 @@
                                                     {
                                                       "name": "Edward Mattingly",
                                                       "dates": "~1710",
-                                                      "fact": "Son of Thomas III + Elizabeth Warren",
+                                                      "fact": "Son of Thomas III + Elizabeth Warren; Edward Mattingly is publicly documented as captain in the Upper Battalion of Militia in Saint Mary's County in 1779. The public role is confirmed; this exact placement in the Mount Misery branch remains probable.",
                                                       "id": null,
                                                       "generation": 7,
                                                       "century": 18,
@@ -614,7 +614,7 @@
                                                     {
                                                       "name": "Leonard Mattingly Sr.",
                                                       "dates": "1739–1829 Washington Co KY",
-                                                      "fact": "Mattingly-62. 'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10+ named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)",
+                                                      "fact": "Mattingly-62. 'Old Leonard'; one of the William/Leonard/Lucas brothers Webb places at Hardin's Creek in early 1786. m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10+ named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)",
                                                       "id": "p044",
                                                       "generation": 10,
                                                       "century": 18,
@@ -624,7 +624,7 @@
                                                         {
                                                           "name": "Joseph Mattingly",
                                                           "dates": "?",
-                                                          "fact": "Mattingly-339; son of Leonard Sr.",
+                                                          "fact": "Mattingly-339; son of Leonard Sr. Webb says Joseph Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.",
                                                           "id": null,
                                                           "generation": 11,
                                                           "century": 18,
@@ -736,7 +736,7 @@
                                                         {
                                                           "name": "Ignatius Mattingly",
                                                           "dates": "b. 1766",
-                                                          "fact": "Mattingly-53; son of Leonard Sr.",
+                                                          "fact": "Mattingly-53; son of Leonard Sr. Webb says Ignatius Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.",
                                                           "id": null,
                                                           "generation": 11,
                                                           "century": 18,
@@ -764,7 +764,19 @@
                                                           "century": 18,
                                                           "confidence": "probable",
                                                           "spouse": null,
-                                                          "children": []
+                                                          "children": [
+                                                            {
+                                                              "name": "Martha 'Mother Generose' Mattingly",
+                                                              "dates": "fl. 1842–1844 KY",
+                                                              "fact": "Webb identifies Martha as Basil Mattingly's daughter; as Mother Generose Mattingly she led the Loretto community from 1842 to 1844.",
+                                                              "id": null,
+                                                              "generation": 12,
+                                                              "century": 19,
+                                                              "confidence": "confirmed",
+                                                              "spouse": null,
+                                                              "children": []
+                                                            }
+                                                          ]
                                                         },
                                                         {
                                                           "name": "Susan (Mattingly) Barron",
@@ -809,6 +821,29 @@
                                                           "confidence": "confirmed",
                                                           "spouse": null,
                                                           "children": []
+                                                        },
+                                                        {
+                                                          "name": "[Bardstown Mattingly bridge incomplete]",
+                                                          "dates": "19th c. KY",
+                                                          "fact": "Placeholder for a later Bardstown collateral line. Exact bridge from this Kentucky Mattingly cluster to Cyprian Peter Mattingly is still incomplete.",
+                                                          "id": null,
+                                                          "generation": 11,
+                                                          "century": 19,
+                                                          "confidence": "possible",
+                                                          "spouse": null,
+                                                          "children": [
+                                                            {
+                                                              "name": "Marie Mattingly Meloney",
+                                                              "dates": "1878–1943",
+                                                              "fact": "Major American journalist and editor, born Bardstown KY to physician Cyprian Peter Mattingly. Included only as a POSSIBLE Kentucky collateral until the branch bridge is documented.",
+                                                              "id": null,
+                                                              "generation": 12,
+                                                              "century": 20,
+                                                              "confidence": "possible",
+                                                              "spouse": null,
+                                                              "children": []
+                                                            }
+                                                          ]
                                                         }
                                                       ]
                                                     },

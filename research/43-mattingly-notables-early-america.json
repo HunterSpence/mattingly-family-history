@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "compiled": "2026-04-26",
+    "scope": "Verifiable deceased Mattingly ancestors and collateral lines tied to colonial Maryland and early Kentucky, emphasizing arrival timing, tracts, militia/public roles, Catholic settlement, and source-backed notable descendants.",
+    "confidence_tiers": {
+      "CONFIRMED": "Direct public record or 2+ independent sources",
+      "PROBABLE": "Strong compiled source, partially corroborated",
+      "POSSIBLE": "Plausible but not fully bridged in this session",
+      "UNVERIFIED": "Not retained as a working claim"
+    }
+  },
+  "claims": [
+    {
+      "id": "arrival-1663-1664",
+      "topic": "colonial_arrival",
+      "statement": "The first American Mattingly family was in Maryland by 1663-1664, and Thomas Mattingly died soon after arrival in 1664.",
+      "confidence": "PROBABLE",
+      "notes": "Best accessible source this session is the Google Books snippet for Herman E. Mattingly's 1975 book; not upgraded to CONFIRMED without direct primary-image review.",
+      "sources": [
+        "https://books.google.com/books/about/The_Mattingly_Family_in_Early_America.html?id=nlw0AAAAMAAJ",
+        "https://openlibrary.org/works/OL6663283W/The_Mattingly_family_in_early_America"
+      ]
+    },
+    {
+      "id": "mattinglys-hope-exists",
+      "topic": "land",
+      "statement": "Mattinglys Hope was a real Mattingly-associated tract in the Maryland land record tradition.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "https://msa.maryland.gov/megafile/msa/stagserm/sm100/sm130/000000/000014/pdf/mdsa_sm130_14.pdf",
+        "https://msa.maryland.gov/megafile/msa/stagser/s1400/s1430/000000/000019/pdf/mdsa_s1430_19.pdf"
+      ]
+    },
+    {
+      "id": "mattinglys-hope-1666-sequence",
+      "topic": "land",
+      "statement": "The immigrant family's rights likely became a 300-acre Mattingly's Hope patent in 1666 associated with Thomas and Cezar.",
+      "confidence": "PROBABLE",
+      "notes": "Tract existence is confirmed, but the precise 1666 patent mechanics were not checked against the original image in this session.",
+      "sources": [
+        "https://maineandbeyond.tripod.com/id14.html",
+        "https://msa.maryland.gov/megafile/msa/stagserm/sm100/sm130/000000/000014/pdf/mdsa_sm130_14.pdf"
+      ]
+    },
+    {
+      "id": "mount-misery-mattingly-lane",
+      "topic": "land",
+      "statement": "Thomas/Edward Mattingly are tied in archival indexes to Mount Misery, St. Thomas, and St. Johns als Mattingly Lane.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "https://msa.maryland.gov/megafile/msa/stagser/s1400/s1430/000000/000019/pdf/mdsa_s1430_19.pdf",
+        "https://guide.msa.maryland.gov/pages/series.aspx?id=C2225"
+      ]
+    },
+    {
+      "id": "edward-mattingly-captain-1779",
+      "topic": "militia_public_role",
+      "statement": "Edward Mattingly was commissioned captain in the Upper Battalion of Militia in Saint Mary's County in 1779.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000043/html/am43--18.html"
+      ]
+    },
+    {
+      "id": "league-of-sixty-1785",
+      "topic": "migration",
+      "statement": "A league of sixty Catholic families, mostly from St. Mary's County, Maryland, organized emigration to Kentucky in 1785; twenty-five families left early that year and reached Kentucky by late spring.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "https://indianacatholic.mwweb.org/The_Centenary_of_Catholicity_in_Kentucky.pdf"
+      ]
+    },
+    {
+      "id": "philip-mattingly-pottingers-creek",
+      "topic": "migration",
+      "statement": "Philip Mattingly appears in Webb's Pottinger's Creek settler list and was part of the early Catholic Kentucky cluster there.",
+      "confidence": "PROBABLE",
+      "notes": "Webb includes him in the broader Pottinger's Creek roster, but the exact spring-1785 founder status is softer.",
+      "sources": [
+        "https://indianacatholic.mwweb.org/The_Centenary_of_Catholicity_in_Kentucky.pdf"
+      ]
+    },
+    {
+      "id": "three-brothers-1786",
+      "topic": "migration",
+      "statement": "William, Leonard, and Lucas Mattingly, brothers from St. Mary's County, Maryland, arrived at Hardin's Creek in early 1786.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "https://indianacatholic.mwweb.org/The_Centenary_of_Catholicity_in_Kentucky.pdf"
+      ]
+    },
+    {
+      "id": "leonard-300-descendants",
+      "topic": "family_scale",
+      "statement": "Leonard Mattingly died in 1827 with nearly 300 living descendants.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "https://indianacatholic.mwweb.org/The_Centenary_of_Catholicity_in_Kentucky.pdf"
+      ]
+    },
+    {
+      "id": "richard-long-lick-1791",
+      "topic": "kentucky_branch",
+      "statement": "Richard Mattingly, born in Maryland in 1756, moved to Kentucky in 1791 and settled on Long Lick in what became Breckinridge County.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "https://indianacatholic.mwweb.org/The_Centenary_of_Catholicity_in_Kentucky.pdf"
+      ]
+    },
+    {
+      "id": "zachariah-hardinsburg-role",
+      "topic": "militia_public_role",
+      "statement": "Zachariah Mattingly was the first resident Catholic of Hardinsburg and likely donor of the ground for the church and cemetery there.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "https://indianacatholic.mwweb.org/The_Centenary_of_Catholicity_in_Kentucky.pdf"
+      ]
+    },
+    {
+      "id": "ignatius-joseph-chapel-builders",
+      "topic": "community_role",
+      "statement": "Ignatius and Joseph Mattingly materially helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "https://indianacatholic.mwweb.org/The_Centenary_of_Catholicity_in_Kentucky.pdf"
+      ]
+    },
+    {
+      "id": "mother-generose-mattingly",
+      "topic": "notable_descendant",
+      "statement": "Mother Generose Mattingly led the Loretto community from 1842 to 1844; Webb identifies her as Martha, daughter of Basil Mattingly.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "https://indianacatholic.mwweb.org/The_Centenary_of_Catholicity_in_Kentucky.pdf",
+        "https://www.lorettocommunity.org/about/timeline-loretto-leaders/"
+      ]
+    },
+    {
+      "id": "marie-mattingly-meloney",
+      "topic": "notable_descendant",
+      "statement": "Marie Mattingly Meloney, born in Bardstown in 1878 to physician Cyprian Peter Mattingly, was a major American journalist and editor.",
+      "confidence": "CONFIRMED",
+      "notes": "Identity and parentage are confirmed; precise placement inside the Leonard/Hardin's Creek Kentucky branch remains POSSIBLE to PROBABLE until bridged.",
+      "sources": [
+        "https://www.britannica.com/biography/Marie-Mattingly-Meloney"
+      ]
+    }
+  ],
+  "deferred_claims": [
+    {
+      "statement": "Thomas Mattingly arrived with Lord Baltimore in 1660.",
+      "confidence": "UNVERIFIED",
+      "reason": "No directly viewed public record supporting the 1660 version was found in this session."
+    },
+    {
+      "statement": "The exact 1666 Mattingly's Hope patent chain is fully proven from a viewed original image.",
+      "confidence": "UNVERIFIED",
+      "reason": "The tract is secure, but the original patent image or item-level Maryland citation still needs to be checked."
+    }
+  ]
+}

@@ -155,7 +155,7 @@
                                                       {
                                                         "name": "Edward Mattingly",
                                                         "dates": "~1710",
-                                                        "fact": "Son of Thomas III + Elizabeth Warren",
+                                                        "fact": "Son of Thomas III + Elizabeth Warren; Edward Mattingly is publicly documented as captain in the Upper Battalion of Militia in Saint Mary's County in 1779. The public role is confirmed; this exact placement in the Mount Misery branch remains probable.",
                                                         "id": null,
                                                         "generation": 7,
                                                         "century": 18,
@@ -616,7 +616,7 @@
                                                       {
                                                         "name": "Leonard Mattingly Sr.",
                                                         "dates": "1739–1829 Washington Co KY",
-                                                        "fact": "Mattingly-62. 'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10+ named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)",
+                                                        "fact": "Mattingly-62. 'Old Leonard'; one of the William/Leonard/Lucas brothers Webb places at Hardin's Creek in early 1786. m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10+ named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)",
                                                         "id": "p044",
                                                         "generation": 10,
                                                         "century": 18,
@@ -626,7 +626,7 @@
                                                           {
                                                             "name": "Joseph Mattingly",
                                                             "dates": "?",
-                                                            "fact": "Mattingly-339; son of Leonard Sr.",
+                                                            "fact": "Mattingly-339; son of Leonard Sr. Webb says Joseph Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.",
                                                             "id": null,
                                                             "generation": 11,
                                                             "century": 18,
@@ -738,7 +738,7 @@
                                                           {
                                                             "name": "Ignatius Mattingly",
                                                             "dates": "b. 1766",
-                                                            "fact": "Mattingly-53; son of Leonard Sr.",
+                                                            "fact": "Mattingly-53; son of Leonard Sr. Webb says Ignatius Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.",
                                                             "id": null,
                                                             "generation": 11,
                                                             "century": 18,
@@ -766,7 +766,19 @@
                                                             "century": 18,
                                                             "confidence": "probable",
                                                             "spouse": null,
-                                                            "children": []
+                                                            "children": [
+                                                              {
+                                                                "name": "Martha 'Mother Generose' Mattingly",
+                                                                "dates": "fl. 1842–1844 KY",
+                                                                "fact": "Webb identifies Martha as Basil Mattingly's daughter; as Mother Generose Mattingly she led the Loretto community from 1842 to 1844.",
+                                                                "id": null,
+                                                                "generation": 12,
+                                                                "century": 19,
+                                                                "confidence": "confirmed",
+                                                                "spouse": null,
+                                                                "children": []
+                                                              }
+                                                            ]
                                                           },
                                                           {
                                                             "name": "Susan (Mattingly) Barron",
@@ -811,6 +823,29 @@
                                                             "confidence": "confirmed",
                                                             "spouse": null,
                                                             "children": []
+                                                          },
+                                                          {
+                                                            "name": "[Bardstown Mattingly bridge incomplete]",
+                                                            "dates": "19th c. KY",
+                                                            "fact": "Placeholder for a later Bardstown collateral line. Exact bridge from this Kentucky Mattingly cluster to Cyprian Peter Mattingly is still incomplete.",
+                                                            "id": null,
+                                                            "generation": 11,
+                                                            "century": 19,
+                                                            "confidence": "possible",
+                                                            "spouse": null,
+                                                            "children": [
+                                                              {
+                                                                "name": "Marie Mattingly Meloney",
+                                                                "dates": "1878–1943",
+                                                                "fact": "Major American journalist and editor, born Bardstown KY to physician Cyprian Peter Mattingly. Included only as a POSSIBLE Kentucky collateral until the branch bridge is documented.",
+                                                                "id": null,
+                                                                "generation": 12,
+                                                                "century": 20,
+                                                                "confidence": "possible",
+                                                                "spouse": null,
+                                                                "children": []
+                                                              }
+                                                            ]
                                                           }
                                                         ]
                                                       },
@@ -1082,12 +1117,12 @@
           {
             "name": "Dr. Dale William Spence Sr.",
             "dates": "—",
-            "fact": "Hunter's paternal grandfather. Professor at Rice University, Houston. Immigrated from England (per Hunter's family tradition) to Beaumont, Texas. Patriarch of the Spence-Beaumont line. m. Alice Henslee.",
+            "fact": "Hunter's paternal grandfather. Professor at Rice University, Houston. Immigrated from England (per Hunter's family tradition) to Beaumont, Texas. Patriarch of the Spence-Beaumont line. m. Alice Marie Henslee Spence.",
             "id": null,
             "generation": 16,
             "century": 20,
             "confidence": "confirmed",
-            "spouse": "Alice (Henslee) Spence",
+            "spouse": "Alice Marie (Henslee) Spence",
             "children": [
               {
                 "name": "Dale William Spence Jr.",
@@ -1142,33 +1177,33 @@
     {
       "label": "PATERNAL — Henslee line (Frances + Lee Stuart Henslee, Beaumont/Nederland TX)",
       "tree": {
-        "name": "Lee Stuart + Frances Henslee",
-        "dates": "fl. 1948–2008",
-        "fact": "Hunter's paternal great-grandparents (Alice Marie Spence's parents). Both born ~1918; lived Beaumont/Nederland TX. Catholic. Earlier Henslee + Frances's-maiden-name lines: TBD.",
+        "name": "Lee S. + Frances Virginia Henslee",
+        "dates": "1908–2008 Beaumont/Nederland TX cluster",
+        "fact": "Public cemetery/death indexes strongly support this Beaumont/Nederland couple and their shared Forest Lawn burial cluster. Treating them as Alice Marie Spence's parents remains MEDIUM-confidence until a direct obituary or vital record is attached.",
         "id": null,
         "generation": 14,
         "century": 20,
-        "confidence": "confirmed",
+        "confidence": "probable",
         "spouse": null,
         "children": [
           {
-            "name": "Lee Stuart Henslee",
-            "dates": "—",
-            "fact": "Hunter's paternal great-grandfather. m. Frances Henslee (60 years). Predeceased her (before 2008). Children: Alice Marie Spence + Don Henslee. Per Broussard's Mortuary obituary 2008.",
+            "name": "Lee S. Henslee",
+            "dates": "2 Oct 1908 – 31 Aug 1994",
+            "fact": "Public burial index confirms dates, burial at Forest Lawn Memorial Park, Beaumont (Garden of Hope), and spouse Frances Henslee. Local project context treats this as the Lee Stuart Henslee in Alice Marie Spence's line, but the father-of-Alice link remains MEDIUM-confidence until a direct obituary or vital record is attached.",
             "id": null,
             "generation": 15,
             "century": 20,
-            "confidence": "confirmed",
-            "spouse": "Frances Henslee",
+            "confidence": "probable",
+            "spouse": "Frances Virginia Henslee",
             "children": [
               {
                 "name": "Alice Marie (Henslee) Spence",
-                "dates": "d. before 2008",
-                "fact": "Hunter's paternal grandmother. m. Dr. Dale William Spence Sr. (Rice U professor, Beaumont TX). Maiden name HENSLEE. Daughter of Lee Stuart Henslee + Frances Henslee. Predeceased her mother Frances. Per Frances Henslee obituary, Broussard's Mortuary 2008.",
+                "dates": "13 Jan 1936 Rusk TX – 3 Dec 2005",
+                "fact": "Hunter's paternal grandmother. Public burial index confirms birth in Rusk, death on 3 Dec 2005, and burial at Forest Lawn Memorial Park, Beaumont (Garden of Hope). Local family context places her as Lee S. and Frances Virginia Henslee's daughter, but that parent-child link remains MEDIUM-confidence until a direct obituary or vital record is attached.",
                 "id": null,
                 "generation": 16,
                 "century": 20,
-                "confidence": "confirmed",
+                "confidence": "probable",
                 "spouse": "Dr. Dale William Spence Sr.",
                 "children": []
               },
@@ -1309,8 +1344,8 @@
                           },
                           {
                             "name": "Hans Teichmueller",
-                            "dates": "1837 Brunswick – 1901 La Grange TX",
-                            "fact": "Hunter's CONFIRMED great-great-grandfather (Hans-Gustav siblings now CONFIRMED via NDB 2016 vol 26 p.6). Emigrated to TX 1854; Civil War CSA artillery officer; jurist + justice of the peace. m. Auguste Kellner (NDB) / sometimes spelled 'Anna Lemke' in TX records.",
+                            "dates": "7 Mar 1837 Braunschweig – 17 Feb 1901 La Grange TX",
+                            "fact": "Hunter's confirmed great-great-grandfather. TSHA confirms his Braunschweig birth, post-1855 migration to Texas, 1858 Fayette County marriage to Augusta Kellner, five children, and later legal/judicial career in Fayette County. This pass does not extend Kellner parentage beyond Augusta.",
                             "id": "p003",
                             "generation": 13,
                             "century": 19,
@@ -1331,11 +1366,11 @@
                               {
                                 "name": "Minette Teichmueller (Pohl)",
                                 "dates": "1871–1970",
-                                "fact": "WPA muralist — painted 'The Law, Texas Rangers' for Smithville TX post office. Hans's daughter; CONFIRMED great-great-grandaunt of Hunter.",
+                                "fact": "Texas muralist; New Deal Art Registry confirms she painted 'The Law--Texas Rangers' for the Smithville post office in 1940. Often identified as Hans and Augusta's daughter, but that parent-child link still needs a direct census, cemetery, or vital-record citation.",
                                 "id": "p004",
                                 "generation": 14,
                                 "century": 19,
-                                "confidence": "confirmed",
+                                "confidence": "possible",
                                 "spouse": null,
                                 "children": []
                               },
@@ -1355,21 +1390,21 @@
                           {
                             "name": "Gustav Teichmüller",
                             "dates": "1832 Brunswick – 1888 Tartu",
-                            "fact": "German philosopher who influenced Friedrich Nietzsche directly; professor at Dorpat (Tartu) University. PROBABLE 0.82 brother of Hans (matching Brunswick parents per Wikipedia).",
+                            "fact": "German philosopher and historian of philosophy; professor at Dorpat (Tartu). NDB confirms he was Hans Teichmueller's brother.",
                             "id": "p060",
                             "generation": 13,
                             "century": 19,
-                            "confidence": "probable",
+                            "confidence": "confirmed",
                             "spouse": null,
                             "children": [
                               {
                                 "name": "Anna Teichmüller",
                                 "dates": "1861–1940",
-                                "fact": "German Lieder composer; daughter of Gustav. Wikipedia article. PROBABLE first cousin twice removed of Hans's children.",
+                                "fact": "Composer, pianist, and music teacher; NDB identifies her as Gustav Teichmüller's daughter.",
                                 "id": "p061",
                                 "generation": 14,
                                 "century": 19,
-                                "confidence": "probable",
+                                "confidence": "confirmed",
                                 "spouse": null,
                                 "children": []
                               }
@@ -1546,6 +1581,55 @@
         "confidence": "confirmed",
         "spouse": null,
         "children": []
+      }
+    },
+    {
+      "label": "MATERNAL-PATERNAL — Baity line research anchors (North Carolina by 1830 → San Antonio builders by 1910)",
+      "tree": {
+        "name": "Baity line research anchors",
+        "dates": "NC by 1830; San Antonio by 1910",
+        "fact": "Visual tree of source-backed Baity anchors only. It does not claim a completed direct lineage, immigrant arrival, or the unproved April 1901 Reeves County purchase.",
+        "id": null,
+        "generation": 10,
+        "century": 19,
+        "confidence": "confirmed",
+        "spouse": null,
+        "children": [
+          {
+            "name": "Surry County Baity household cluster",
+            "dates": "1830",
+            "fact": "1830 Surry County census transcription lists David Baity, George Baity, Isam Baity, and Pleasant Baity as separate heads of household. Regional presence note only; not a proved parent-child chain.",
+            "id": null,
+            "generation": 11,
+            "century": 19,
+            "confidence": "confirmed",
+            "spouse": null,
+            "children": [
+              {
+                "name": "Isham \"Isom\" Baity",
+                "dates": "19 Oct 1804 – 23 Dec 1892",
+                "fact": "Courtney Baptist Church Cemetery, Yadkin County NC, gives exact dates. Strong Yadkin/Surry Baity anchor; direct bridge to W. A. Baity still needs census/probate/vital proof.",
+                "id": null,
+                "generation": 12,
+                "century": 19,
+                "confidence": "confirmed",
+                "spouse": null,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "W. A. Baity + Paralee Baity",
+            "dates": "fl. 1909–1925 San Antonio TX",
+            "fact": "Bexar County records and San Antonio newspapers document W. A. + Paralee as a real-estate couple by 1910; W. A. was a builder/developer and was listed at 211 Castillo Ave by 1925. Expanding W. A. to William Alexander and Pearl to Paralee remains research-note-only until direct records are cited.",
+            "id": null,
+            "generation": 14,
+            "century": 20,
+            "confidence": "confirmed",
+            "spouse": null,
+            "children": []
+          }
+        ]
       }
     },
     {

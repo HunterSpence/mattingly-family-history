@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "file": "49-kellner-mollenhauer-girsewald-deep.json",
+    "compiled": "2026-04-26",
+    "scope": "Follow-up on Kellner, Mollenhauer, Girsewald, and muralist Minette Teichmueller gaps",
+    "policy": "Only public, citable sources; no unsourced tree copying"
+  },
+  "integration_ready": [
+    {
+      "type": "parentage",
+      "subject": {
+        "name": "Charlotte Georgine Elisabeth von Girsewald",
+        "birth": "1799",
+        "death": "1860"
+      },
+      "father": {
+        "name": "Georg von Girsewald",
+        "birth": "1735",
+        "death": "1816",
+        "occupation": "Oberstallmeister; Hauptmann; officer"
+      },
+      "mother": {
+        "name": "Christine Elisabeth Boyer"
+      },
+      "confidence": "CONFIRMED",
+      "sources": [
+        {
+          "title": "Teichmüller, Gustav",
+          "url": "https://www.deutsche-biographie.de/gnd118801554.html",
+          "note": "NDB genealogy names Charlotte as daughter of Georg von Girsewald and Christine Elisabeth Boyer."
+        },
+        {
+          "title": "Girsewald, Georg von",
+          "url": "https://www.deutsche-biographie.de/gnd1154326691.html",
+          "note": "Deutsche Biographie index confirms Georg's dates and offices."
+        }
+      ]
+    },
+    {
+      "type": "sibling_and_marriage",
+      "subject": {
+        "name": "Wilhelmina (Minette) Teichmüller",
+        "birth": "1829",
+        "death": "1886"
+      },
+      "relationship": {
+        "kind": "sibling_of",
+        "target": "Hans Teichmueller"
+      },
+      "spouse": {
+        "name": "Karl Mollenhauer",
+        "birth": "1818",
+        "death": "1864",
+        "occupation": "Pastor; superintendent in Bockenem, Ambergau"
+      },
+      "confidence": "CONFIRMED",
+      "sources": [
+        {
+          "title": "Teichmüller, Gustav",
+          "url": "https://www.deutsche-biographie.de/gnd118801554.html",
+          "note": "NDB genealogy identifies Wilhelmina (Minette) and her marriage to Karl Mollenhauer."
+        }
+      ]
+    },
+    {
+      "type": "office",
+      "subject": {
+        "name": "Karl Johann Mollenhauer"
+      },
+      "fact": {
+        "role": "Pastor / superintendent at Bockenem",
+        "date_range": "1860-1867"
+      },
+      "confidence": "CONFIRMED",
+      "sources": [
+        {
+          "title": "Kirchengemeindelexikon, Bockenem parish entry",
+          "url": "https://kirchengemeindelexikon.de/einzelgemeinde/bockenem/",
+          "note": "Lists Karl Johann Mollenhauer in the first pastorate / superintendent sequence."
+        }
+      ]
+    }
+  ],
+  "not_integration_ready": [
+    {
+      "claim": "Identity of Augusta Kellner's father",
+      "status": "UNRESOLVED",
+      "reason": "Accessible public sources found in this pass describe him only as a modern-language teacher and do not name him."
+    },
+    {
+      "claim": "Muralist Minette Teichmueller as proven daughter of Hans Teichmueller and Augusta Kellner",
+      "status": "PROBABLE_NOT_CLOSED",
+      "reason": "Best accessible direct statement is a secondary art biography, not a census, vital record, probate file, or cemetery source."
+    },
+    {
+      "claim": "Further Girsewald or Boyer ancestry beyond Georg von Girsewald and Christine Elisabeth Boyer",
+      "status": "NOT_RESPONSIBLY_EXTENDED",
+      "reason": "Institutional archival pointers exist, but no sufficiently viewable public content was found for the next generation."
+    }
+  ]
+}

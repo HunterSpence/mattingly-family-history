@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "compiled": "2026-04-26",
+    "scope": "Baity branch integration candidates only; no entities.json changes",
+    "confidence_scale": {
+      "HIGH": "Directly supported by a cited record page or archival item description",
+      "MEDIUM": "Strong but at least one step is derivative or inferential",
+      "LOW": "Useful lead, not safe as a proved tree fact"
+    },
+    "guardrails": [
+      "Do not claim an immigrant arrival for the Baity line from this file",
+      "Do not treat the Reeves County April 1901 purchase as proved until the land instrument is cited",
+      "Do not treat George Baity/Batee/Baty in 1774 as a proved direct-line node from this file alone"
+    ]
+  },
+  "tree_ready_candidates": [
+    {
+      "id": "wa-paralee-bexar-1910",
+      "subjects": [
+        "W. A. Baity",
+        "Paralee Baity"
+      ],
+      "statement": "W. A. Baity and Paralee Baity were a married couple active in Bexar County real estate by 1910.",
+      "confidence": "HIGH",
+      "tree_ready": true,
+      "safe_tree_use": [
+        "spouse link",
+        "San Antonio/Bexar County placement by 1910"
+      ],
+      "sources": [
+        "https://texashistory.unt.edu/ark:/67531/metapth1692586/m1/8/",
+        "https://archives.sfasu.edu/repositories/2/archival_objects/19330"
+      ],
+      "notes": [
+        "Newspaper transfer and archival deed description independently name the couple"
+      ]
+    },
+    {
+      "id": "wa-builder-san-antonio",
+      "subjects": [
+        "W. A. Baity"
+      ],
+      "statement": "W. A. Baity was a San Antonio builder/developer by 1909 and remained publicly associated with homebuilding in the 1920s.",
+      "confidence": "HIGH",
+      "tree_ready": true,
+      "safe_tree_use": [
+        "occupation note: builder / developer in San Antonio"
+      ],
+      "sources": [
+        "https://texashistory.unt.edu/ark:/67531/metapth1692368/m1/7/",
+        "https://texashistory.unt.edu/ark:/67531/metapth430851/m1/15/",
+        "https://texashistory.unt.edu/ark:/67531/metapth1631388/m1/22/",
+        "https://texashistory.unt.edu/ark:/67531/metapth1631530/m1/16/"
+      ]
+    },
+    {
+      "id": "wa-castillo-1925",
+      "subjects": [
+        "W. A. Baity"
+      ],
+      "statement": "W. A. Baity was listed at 211 Castillo Ave., San Antonio, by July 2, 1925.",
+      "confidence": "HIGH",
+      "tree_ready": true,
+      "safe_tree_use": [
+        "residence note"
+      ],
+      "sources": [
+        "https://texashistory.unt.edu/ark:/67531/metapth1631463/m1/25/"
+      ]
+    },
+    {
+      "id": "isham-isom-baity",
+      "subjects": [
+        "Isham \"Isom\" Baity"
+      ],
+      "statement": "Isham \"Isom\" Baity is listed at Courtney Baptist Church Cemetery with dates 19 Oct 1804 to 23 Dec 1892.",
+      "confidence": "HIGH",
+      "tree_ready": true,
+      "safe_tree_use": [
+        "person node with dates",
+        "Yadkin County, North Carolina placement"
+      ],
+      "sources": [
+        "https://www.cemeterycensus.org/nc/yadk/cem049.htm"
+      ]
+    },
+    {
+      "id": "jeannette-baity-parents",
+      "subjects": [
+        "Jennette C. Baity",
+        "Isham Baity",
+        "Nancy Plowman"
+      ],
+      "statement": "Jennette C. Baity Hutchens is explicitly identified as a daughter of Isham Baity and Nancy Plowman.",
+      "confidence": "HIGH",
+      "tree_ready": true,
+      "safe_tree_use": [
+        "supporting evidence for the Isham Baity and Nancy Plowman family unit"
+      ],
+      "sources": [
+        "https://www.cemeterycensus.org/nc/yadk/cem026.htm"
+      ]
+    },
+    {
+      "id": "baity-surry-1830",
+      "subjects": [
+        "David Baity",
+        "George Baity",
+        "Isam Baity",
+        "Pleasant Baity"
+      ],
+      "statement": "The 1830 Surry County census transcription lists David Baity, George Baity, Isam Baity, and Pleasant Baity as separate heads of household.",
+      "confidence": "HIGH",
+      "tree_ready": true,
+      "safe_tree_use": [
+        "regional presence note only"
+      ],
+      "sources": [
+        "https://www.ncgenweb.us/alleghany/surry1830.html"
+      ],
+      "notes": [
+        "This supports Baity presence in Surry County by 1830, not a parent-child chain"
+      ]
+    }
+  ],
+  "research_note_only": [
+    {
+      "id": "pearl-paralee-alias",
+      "subjects": [
+        "Pearl Baity",
+        "Paralee Baity"
+      ],
+      "statement": "The family's Pearl Baity is probably the same woman as record-name Paralee Baity, but this pass did not recover a direct alias record.",
+      "confidence": "MEDIUM",
+      "tree_ready": false,
+      "sources": [
+        "transcripts/final.md",
+        "https://texashistory.unt.edu/ark:/67531/metapth1692586/m1/8/",
+        "https://archives.sfasu.edu/repositories/2/archival_objects/19330"
+      ]
+    },
+    {
+      "id": "wa-equals-william-alexander",
+      "subjects": [
+        "W. A. Baity",
+        "William Alexander Baity"
+      ],
+      "statement": "Earlier repo work identifies W. A. as William Alexander Baity, but this pass did not newly re-cite a public marriage or death record proving the expansion.",
+      "confidence": "MEDIUM",
+      "tree_ready": false,
+      "sources": [
+        "https://texashistory.unt.edu/ark:/67531/metapth1692368/m1/7/",
+        "https://texashistory.unt.edu/ark:/67531/metapth1692586/m1/8/",
+        "https://archives.sfasu.edu/repositories/2/archival_objects/19330",
+        "https://texashistory.unt.edu/ark:/67531/metapth430851/m1/15/"
+      ],
+      "recommended_label_if_strict": "W. A. Baity"
+    },
+    {
+      "id": "paralee-death-index",
+      "subjects": [
+        "Paralee Johnson Baity"
+      ],
+      "statement": "A derivative death-index page gives Paralee Johnson Baity as dying on 12-26-1969 in Bexar County, widowed.",
+      "confidence": "MEDIUM",
+      "tree_ready": false,
+      "sources": [
+        "https://beattyproject.org/wrappers/pages.php?ID=3&aid=147"
+      ],
+      "notes": [
+        "Use only after direct Texas death record confirmation"
+      ]
+    },
+    {
+      "id": "reeves-county-1901-story",
+      "subjects": [
+        "Pearl Baity"
+      ],
+      "statement": "Family oral history says Pearl Baity bought Reeves County land in April 1901 and retained the mineral rights, but this pass did not recover the deed or patent.",
+      "confidence": "MEDIUM",
+      "tree_ready": false,
+      "sources": [
+        "transcripts/final.md",
+        "https://pubs.usgs.gov/fs/2016/3092/fs20163092.pdf"
+      ],
+      "notes": [
+        "Geology context is real; the land event is still unproved here"
+      ]
+    },
+    {
+      "id": "george-1774-lead",
+      "subjects": [
+        "George Beate",
+        "George Batee",
+        "George Baty",
+        "George Baity"
+      ],
+      "statement": "A shared compiled note places George Beate/Batee/Baty in Rowan County records by May 6, 1774, with later 1785, 1787, 1798, and 1800 references.",
+      "confidence": "LOW",
+      "tree_ready": false,
+      "sources": [
+        "https://www.ancestry.com/sharing/21081190?h=af0454"
+      ],
+      "notes": [
+        "Treat as a lead to original Rowan/Surry court, deed, tax, and census images"
+      ]
+    }
+  ]
+}

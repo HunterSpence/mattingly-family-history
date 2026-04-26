@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "file": "48-dovie-spence-deep",
+    "prepared": "2026-04-26",
+    "scope": "Narrow memo on Dr. Dale William Spence Sr. and the unresolved Dovie (?) Spence parentage problem",
+    "privacy_note": "Avoids non-public details about living people"
+  },
+  "confidence_scale": {
+    "HIGH": "Directly supported by a cited public source page",
+    "MEDIUM": "Strong inference from multiple public sources, but no single record states the full claim",
+    "LOW": "Context or hypothesis only"
+  },
+  "bottom_line_findings": [
+    {
+      "finding": "Dr. Dale William Spence Sr. is firmly established in public records as the Rice / Beaumont / Houston figure described in family context.",
+      "confidence": "HIGH",
+      "sources": [
+        "https://riceowls.com/news/2019/10/11/mens-track-field-pr-club-to-honor-spence-stadel-and-1995-championship-team",
+        "https://ricehistorycorner.com/2020/05/07/semper-fidelis-date-unknown/",
+        "https://repository.lsu.edu/gradschool_disstheses/1171/",
+        "https://pubmed.ncbi.nlm.nih.gov/2375667/",
+        "https://news2.rice.edu/2019/11/11/honoring-our-veterans/",
+        "https://www.e-yearbook.com/yearbooks/Beaumont_High_School_Pine_Burr_Yearbook/1952/Page_234.html"
+      ]
+    },
+    {
+      "finding": "No source-backed public record found in this pass identifies Dale William Spence Sr.'s parents or proves that his mother was named Dovie.",
+      "confidence": "HIGH",
+      "sources": [
+        "https://riceowls.com/news/2019/10/11/mens-track-field-pr-club-to-honor-spence-stadel-and-1995-championship-team",
+        "https://ricehistorycorner.com/2020/05/07/semper-fidelis-date-unknown/",
+        "https://repository.lsu.edu/gradschool_disstheses/1171/",
+        "https://pubmed.ncbi.nlm.nih.gov/2375667/",
+        "https://news2.rice.edu/2019/11/11/honoring-our-veterans/"
+      ]
+    },
+    {
+      "finding": "Public evidence places Dale Sr. in Beaumont, Texas by 1952 at the latest.",
+      "confidence": "HIGH",
+      "sources": [
+        "https://www.e-yearbook.com/yearbooks/Beaumont_High_School_Pine_Burr_Yearbook/1952/Page_234.html",
+        "https://riceowls.com/news/2019/10/11/mens-track-field-pr-club-to-honor-spence-stadel-and-1995-championship-team",
+        "https://ricehistorycorner.com/2020/05/07/semper-fidelis-date-unknown/"
+      ]
+    },
+    {
+      "finding": "The strongest confirmed deceased ancestor in this immediate branch remains Alice Marie Henslee Spence; Lee S. Henslee is a confirmed deceased older-generation Beaumont anchor.",
+      "confidence": "HIGH",
+      "sources": [
+        "https://peoplelegacy.com/burial-records/alice/spence/",
+        "https://peoplelegacy.com/burial-records/lee/henslee/"
+      ]
+    }
+  ],
+  "public_profile": {
+    "name": "Dale William Spence",
+    "public_facts": [
+      {
+        "fact": "Won the 1952 Texas state title in the 880 while competing for Beaumont High School",
+        "confidence": "HIGH",
+        "sources": [
+          "https://riceowls.com/news/2019/10/11/mens-track-field-pr-club-to-honor-spence-stadel-and-1995-championship-team",
+          "https://www.e-yearbook.com/yearbooks/Beaumont_High_School_Pine_Burr_Yearbook/1952/Page_234.html"
+        ]
+      },
+      {
+        "fact": "Rice undergraduate years were 1952-1956",
+        "confidence": "HIGH",
+        "sources": [
+          "https://ricehistorycorner.com/2020/05/07/semper-fidelis-date-unknown/",
+          "https://riceowls.com/news/2019/10/11/mens-track-field-pr-club-to-honor-spence-stadel-and-1995-championship-team"
+        ]
+      },
+      {
+        "fact": "Received EdD from LSU in 1966",
+        "confidence": "HIGH",
+        "sources": [
+          "https://repository.lsu.edu/gradschool_disstheses/1171/"
+        ]
+      },
+      {
+        "fact": "Affiliated with Rice University's Department of Human Performance and Health Sciences in 1990",
+        "confidence": "HIGH",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/2375667/"
+        ]
+      },
+      {
+        "fact": "Referred to by Rice News in 2019 as professor emeritus of kinesiology",
+        "confidence": "HIGH",
+        "sources": [
+          "https://news2.rice.edu/2019/11/11/honoring-our-veterans/"
+        ]
+      },
+      {
+        "fact": "Likely born circa 1934-1935",
+        "confidence": "MEDIUM",
+        "sources": [
+          "https://www.e-yearbook.com/yearbooks/Beaumont_High_School_Pine_Burr_Yearbook/1952/Page_234.html",
+          "https://ricehistorycorner.com/2020/05/07/semper-fidelis-date-unknown/"
+        ],
+        "notes": [
+          "Inference from high-school championship year and college class years, not a direct birth record"
+        ]
+      }
+    ]
+  },
+  "confirmed_deceased_ancestors": [
+    {
+      "name": "Alice Marie Henslee Spence",
+      "birth_year": 1936,
+      "death_year": 2005,
+      "birth_place": "Rusk, Texas",
+      "burial_place": "Forest Lawn Memorial Park and Funeral Home, Beaumont, Texas",
+      "confidence": "HIGH",
+      "sources": [
+        "https://peoplelegacy.com/burial-records/alice/spence/"
+      ]
+    },
+    {
+      "name": "Lee S. Henslee",
+      "birth_year": 1908,
+      "death_year": 1994,
+      "burial_place": "Forest Lawn Memorial Park and Funeral Home, Beaumont, Texas",
+      "confidence": "HIGH",
+      "sources": [
+        "https://peoplelegacy.com/burial-records/lee/henslee/"
+      ]
+    }
+  ],
+  "unresolved_person": {
+    "name": "Dovie (?) Spence",
+    "status": "Unverified placeholder",
+    "confidence": "HIGH",
+    "notes": [
+      "No public source found in this pass that ties the name Dovie to Dale William Spence Sr.",
+      "No public source found for Dovie's maiden name",
+      "No public source found identifying Dale William Spence Sr.'s father"
+    ]
+  },
+  "possible_surname_context": [],
+  "unresolved_gaps": [
+    "Birthplace of Dale William Spence Sr.",
+    "Parents of Dale William Spence Sr.",
+    "Whether 'Dovie' is the correct given name for Dale Sr.'s mother",
+    "Dovie's maiden name if the name is correct",
+    "Any public obituary, military biography, census household, or vital record naming Dale Sr.'s parents"
+  ]
+}

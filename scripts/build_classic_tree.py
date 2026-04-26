@@ -113,7 +113,7 @@ leonard_jr = n("Leonard Mattingly Jr.", "1764–1843 Marion KY", "1785 Catholic 
 # Per WikiTree mass crawl (agent 22): his father is Ignatius Sr (Mattingly-60), making Leonard
 # a SIBLING of Ignatius Jr (Mattingly-141), not parent. 10 named children:
 leonard_sr_children = [
-    n("Joseph Mattingly", "?", "Mattingly-339; son of Leonard Sr.", None, 11, 18, "probable"),
+    n("Joseph Mattingly", "?", "Mattingly-339; son of Leonard Sr. Webb says Joseph Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.", None, 11, 18, "probable"),
     n("Jane Mattingly", "b. 1760", "Mattingly-211", None, 11, 18, "probable"),
     n("John Baptist Mattingly", "b. 1762", "Mattingly-59", None, 11, 18, "probable"),
     n("Leonard Mattingly Jr.", "1764–1843 Marion KY", "Mattingly-210; 1785 Catholic migrant to KY; Y-DNA project anchor for KY descendants. m. Ann Cissell.", "p045", 11, 18, "confirmed",
@@ -130,15 +130,18 @@ leonard_sr_children = [
         n("Leonard Mattingly III", "1828–1914 Glen Dean KY", "Died KY at 85; ruled out as centenarian", None, 12, 19, "confirmed"),
       ],
       spouse="Ann Cissell (m. 7 Jan 1788, Nelson Co KY)"),
-    n("Ignatius Mattingly", "b. 1766", "Mattingly-53; son of Leonard Sr.", None, 11, 18, "probable"),
+    n("Ignatius Mattingly", "b. 1766", "Mattingly-53; son of Leonard Sr. Webb says Ignatius Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.", None, 11, 18, "probable"),
     n("Susannah (Mattingly) Ray", "b. 1766", "Mattingly-208; m. Ray", None, 11, 18, "probable"),
-    n("Basil Mattingly", "b. 1772", "Mattingly-207", None, 11, 18, "probable"),
+    n("Basil Mattingly", "b. 1772", "Mattingly-207", None, 11, 18, "probable",
+      [n("Martha 'Mother Generose' Mattingly", "fl. 1842–1844 KY", "Webb identifies Martha as Basil Mattingly's daughter; as Mother Generose Mattingly she led the Loretto community from 1842 to 1844.", None, 12, 19, "confirmed")]),
     n("Susan (Mattingly) Barron", "b. 1775", "Mattingly-78; m. Barron", None, 11, 18, "probable"),
     n("Mary (Mattingly) Buckman", "b. 1777", "Mattingly-205; m. Buckman", None, 11, 18, "probable"),
     n("William Mattingly", "b. 1777", "Mattingly-204", None, 11, 18, "probable"),
     n("Sister Margaret Mattingly", "fl. 1812 KY", "Founding member of the Sisters of Loretto (1812) — the first women's religious order founded west of the Allegheny Mountains. Per Webb 1884.", "p056", 11, 19, "confirmed"),
+    n("[Bardstown Mattingly bridge incomplete]", "19th c. KY", "Placeholder for a later Bardstown collateral line. Exact bridge from this Kentucky Mattingly cluster to Cyprian Peter Mattingly is still incomplete.", None, 11, 19, "possible",
+      [n("Marie Mattingly Meloney", "1878–1943", "Major American journalist and editor, born Bardstown KY to physician Cyprian Peter Mattingly. Included only as a POSSIBLE Kentucky collateral until the branch bridge is documented.", None, 12, 20, "possible")]),
 ]
-leonard_sr = n("Leonard Mattingly Sr.", "1739–1829 Washington Co KY", "Mattingly-62. 'Old Leonard'; m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10+ named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)", "p044", 10, 18, "confirmed",
+leonard_sr = n("Leonard Mattingly Sr.", "1739–1829 Washington Co KY", "Mattingly-62. 'Old Leonard'; one of the William/Leonard/Lucas brothers Webb places at Hardin's Creek in early 1786. m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10+ named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)", "p044", 10, 18, "confirmed",
                leonard_sr_children,
                spouse="m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty")
 
@@ -161,7 +164,7 @@ ignatius = n("Ignatius Mattingly Sr.", "1704–1789 St Mary's MD", "Mattingly-60
 
 # Thomas III's 9 children (per agent 16 — 2 wives Elizabeth Warren + Ruth Cole)
 thomas_iii_children = [
-    n("Edward Mattingly", "~1710", "Son of Thomas III + Elizabeth Warren", None, 7, 18, "probable"),
+    n("Edward Mattingly", "~1710", "Son of Thomas III + Elizabeth Warren; Edward Mattingly is publicly documented as captain in the Upper Battalion of Militia in Saint Mary's County in 1779. The public role is confirmed; this exact placement in the Mount Misery branch remains probable.", None, 7, 18, "probable"),
     n("Clement Mattingly", "~1715", "Son of Thomas III", None, 7, 18, "probable"),
     n("Thomas Mattingly IV", "~1716", "Son of Thomas III", None, 7, 18, "probable"),
     n("Mary (Mattingly) Millard", "~1719", "Daughter of Thomas III", None, 7, 18, "probable"),
@@ -345,16 +348,30 @@ tc_frost_i = n("Thomas Claiborne Frost I", "1833–1903", "FOUNDER of Frost Bank
 
 frost_root = tc_frost_i
 
+# ── Baity branch — tree-ready anchors from 2026-04-26 Baity integration pass ──
+# The direct William Alexander / Pearl-Paralee / Reeves County mineral bridge remains below tree-ready.
+# This visual tree keeps only source-backed anchors and explicitly labels unresolved bridge work.
+
+isham_baity = n("Isham \"Isom\" Baity", "19 Oct 1804 – 23 Dec 1892", "Courtney Baptist Church Cemetery, Yadkin County NC, gives exact dates. Strong Yadkin/Surry Baity anchor; direct bridge to W. A. Baity still needs census/probate/vital proof.", None, 12, 19, "confirmed")
+
+baity_surry_cluster = n("Surry County Baity household cluster", "1830", "1830 Surry County census transcription lists David Baity, George Baity, Isam Baity, and Pleasant Baity as separate heads of household. Regional presence note only; not a proved parent-child chain.", None, 11, 19, "confirmed",
+                        [isham_baity])
+
+wa_paralee_baity = n("W. A. Baity + Paralee Baity", "fl. 1909–1925 San Antonio TX", "Bexar County records and San Antonio newspapers document W. A. + Paralee as a real-estate couple by 1910; W. A. was a builder/developer and was listed at 211 Castillo Ave by 1925. Expanding W. A. to William Alexander and Pearl to Paralee remains research-note-only until direct records are cited.", None, 14, 20, "confirmed")
+
+baity_root = n("Baity line research anchors", "NC by 1830; San Antonio by 1910", "Visual tree of source-backed Baity anchors only. It does not claim a completed direct lineage, immigrant arrival, or the unproved April 1901 Reeves County purchase.", None, 10, 19, "confirmed",
+               [baity_surry_cluster, wa_paralee_baity])
+
 # ── Teichmueller maternal-paternal subtree (agent 24 finding) ────────────────────
 # Hunter ← Shari (p000) ← Leroy Teichmuller Mattingly (p002) ← May Teichmueller (Edward Sr's wife)
 # ← Hans Teichmueller (1837-1901, p003) ← August Teichmueller + Charlotte von Girsewaldt (Brunswick)
 # Per agent 24: Gustav Teichmüller (philosopher, 0.82) is PROBABLE brother of Hans (matching parents)
 
-anna_teichmueller = n("Anna Teichmüller", "1861–1940", "German Lieder composer; daughter of Gustav. Wikipedia article. PROBABLE first cousin twice removed of Hans's children.", "p061", 14, 19, "probable")
-gustav_teichmueller = n("Gustav Teichmüller", "1832 Brunswick – 1888 Tartu", "German philosopher who influenced Friedrich Nietzsche directly; professor at Dorpat (Tartu) University. PROBABLE 0.82 brother of Hans (matching Brunswick parents per Wikipedia).", "p060", 13, 19, "probable",
+anna_teichmueller = n("Anna Teichmüller", "1861–1940", "Composer, pianist, and music teacher; NDB identifies her as Gustav Teichmüller's daughter.", "p061", 14, 19, "confirmed")
+gustav_teichmueller = n("Gustav Teichmüller", "1832 Brunswick – 1888 Tartu", "German philosopher and historian of philosophy; professor at Dorpat (Tartu). NDB confirms he was Hans Teichmueller's brother.", "p060", 13, 19, "confirmed",
                        [anna_teichmueller])
 
-minette = n("Minette Teichmueller (Pohl)", "1871–1970", "WPA muralist — painted 'The Law, Texas Rangers' for Smithville TX post office. Hans's daughter; CONFIRMED great-great-grandaunt of Hunter.", "p004", 14, 19, "confirmed")
+minette = n("Minette Teichmueller (Pohl)", "1871–1970", "Texas muralist; New Deal Art Registry confirms she painted 'The Law--Texas Rangers' for the Smithville post office in 1940. Often identified as Hans and Augusta's daughter, but that parent-child link still needs a direct census, cemetery, or vital-record citation.", "p004", 14, 19, "possible")
 may_teichmueller = n("May Teichmueller", "1872 – 28 Aug 1900", "m. Edward Mattingly Sr. 1 Sept 1894; mother of Leroy Teichmuller Mattingly (Hunter's great-grandfather); Hans's other daughter", None, 14, 19, "confirmed")
 unknown_5th_child = n("[5th child of Hans]", "?", "Lotto 1902 confirms 5 children but 5th not in TX vital records (pre-1903 records sparse) — UNVERIFIED", None, 14, 19, "possible")
 
@@ -362,7 +379,7 @@ unknown_5th_child = n("[5th child of Hans]", "?", "Lotto 1902 confirms 5 childre
 wilhelm_teichmueller = n("Wilhelm Teichmüller", "1834–1869", "Hans/Gustav's brother. Premier-Lieutenant + Schriftsteller (writer). m. Bertha Kuntzen. Per NDB 2016. POSSIBLE father of pianist Robert Teichmüller (1863-1939).", None, 13, 19, "confirmed")
 wilhelmina_teichmueller = n("Wilhelmina (Minette) Teichmüller", "1829–1886", "Hans/Gustav's surviving sister (NOT to be confused with Hans's daughter Minette 1871). m. Karl Mollenhauer (Protestant pastor + Superintendent at Bockenem). Per NDB 2016.", None, 13, 19, "confirmed", spouse="Karl Mollenhauer")
 
-hans = n("Hans Teichmueller", "1837 Brunswick – 1901 La Grange TX", "Hunter's CONFIRMED great-great-grandfather (Hans-Gustav siblings now CONFIRMED via NDB 2016 vol 26 p.6). Emigrated to TX 1854; Civil War CSA artillery officer; jurist + justice of the peace. m. Auguste Kellner (NDB) / sometimes spelled 'Anna Lemke' in TX records.", "p003", 13, 19, "confirmed",
+hans = n("Hans Teichmueller", "7 Mar 1837 Braunschweig – 17 Feb 1901 La Grange TX", "Hunter's confirmed great-great-grandfather. TSHA confirms his Braunschweig birth, post-1855 migration to Texas, 1858 Fayette County marriage to Augusta Kellner, five children, and later legal/judicial career in Fayette County. This pass does not extend Kellner parentage beyond Augusta.", "p003", 13, 19, "confirmed",
         [may_teichmueller, minette, unknown_5th_child], spouse="Auguste Kellner")
 
 # August Wilhelm Teichmüller — CONFIRMED via NDB (corrected dates)
@@ -401,20 +418,20 @@ hunter_dad = n("Dale William Spence Jr.", "living", "Hunter Spence's father. m. 
 aunt_susan = n("Susan (Spence) Clarke", "living", "Hunter's paternal aunt; sister of Dale Jr.; took married name Clarke", None, 17, 21, "confirmed")
 aunt_deanne = n("Deanne (Spence) Patton", "living", "Hunter's paternal aunt; sister of Dale Jr.; took married name Patton", None, 17, 21, "confirmed")
 
-dale_sr = n("Dr. Dale William Spence Sr.", "—", "Hunter's paternal grandfather. Professor at Rice University, Houston. Immigrated from England (per Hunter's family tradition) to Beaumont, Texas. Patriarch of the Spence-Beaumont line. m. Alice Henslee.", None, 16, 20, "confirmed",
-            [hunter_dad, aunt_susan, aunt_deanne], spouse="Alice (Henslee) Spence")
+dale_sr = n("Dr. Dale William Spence Sr.", "—", "Hunter's paternal grandfather. Professor at Rice University, Houston. Immigrated from England (per Hunter's family tradition) to Beaumont, Texas. Patriarch of the Spence-Beaumont line. m. Alice Marie Henslee Spence.", None, 16, 20, "confirmed",
+            [hunter_dad, aunt_susan, aunt_deanne], spouse="Alice Marie (Henslee) Spence")
 
 # Dovie Spence — Dale Sr's mother (Hunter's paternal great-grandmother) — confirmed by Hunter 2026-04-26
 dovie_spence = n("Dovie (?) Spence", "—", "Hunter's paternal great-grandmother; mother of Dr. Dale William Spence Sr. Maiden name UNKNOWN — research target.", None, 15, 20, "confirmed",
                  [dale_sr])
 spence_root = dovie_spence
 
-# ── HENSLEE branch — primary-source confirmed via Frances Henslee obituary (Broussard's, 2008) ──
-# Frances Henslee (~1918 Dallas TX – 19 Dec 2008 Port Arthur TX, age 90), m. Lee Stuart Henslee (60 yrs),
-# St. Charles Borromeo Catholic Church Nederland. Buried Forest Lawn Memorial Park Beaumont.
+# ── HENSLEE branch — deceased anchors tightened from 2026-04-26 public burial/death indexes ──
+# Alice Marie Henslee Spence, Lee S. Henslee, and Frances Virginia Henslee now carry sourced dates/places.
+# The parent-child bridge between Alice and Lee/Frances remains explicit MEDIUM-confidence pending a direct obituary or vital record.
 
-# Alice's full name now CONFIRMED via obituary: Alice MARIE (Henslee) Spence
-alice_henslee = n("Alice Marie (Henslee) Spence", "d. before 2008", "Hunter's paternal grandmother. m. Dr. Dale William Spence Sr. (Rice U professor, Beaumont TX). Maiden name HENSLEE. Daughter of Lee Stuart Henslee + Frances Henslee. Predeceased her mother Frances. Per Frances Henslee obituary, Broussard's Mortuary 2008.", None, 16, 20, "confirmed",
+# Alice's existence, dates, birthplace, and burial are confirmed; the Lee/Frances parent link is still medium-confidence in this pass.
+alice_henslee = n("Alice Marie (Henslee) Spence", "13 Jan 1936 Rusk TX – 3 Dec 2005", "Hunter's paternal grandmother. Public burial index confirms birth in Rusk, death on 3 Dec 2005, and burial at Forest Lawn Memorial Park, Beaumont (Garden of Hope). Local family context places her as Lee S. and Frances Virginia Henslee's daughter, but that parent-child link remains MEDIUM-confidence until a direct obituary or vital record is attached.", None, 16, 20, "probable",
                   [], spouse="Dr. Dale William Spence Sr.")
 
 # Don Henslee (Frances's son, Hunter's paternal grand-uncle)
@@ -426,19 +443,17 @@ don_henslee = n("Don Henslee", "living", "Frances + Lee Stuart Henslee's son; Hu
                 None, 16, 20, "confirmed",
                 [chad_henslee, stacy_george, jennifer_tyler], spouse="Jo Ann")
 
-frances_henslee = n("Frances Henslee", "~1918 Dallas TX – 19 Dec 2008 Port Arthur TX", "Hunter's paternal great-grandmother (age 90 at death). Native of Dallas; lived Beaumont 55 years (1938-1993) then Nederland TX. Member St. Charles Borromeo Catholic Church Nederland. Buried Forest Lawn Memorial Park, Beaumont. m. Lee Stuart Henslee (60-year marriage, ~1948-2008). Predeceased by daughter Alice Marie Spence. CONFIRMED via Broussard's Mortuary obituary, Dec 2008.",
-                    None, 15, 20, "confirmed",
-                    [alice_henslee, don_henslee], spouse="Lee Stuart Henslee")
+frances_henslee = n("Frances Virginia Henslee", "1 Jan 1918 Texas – 19 Dec 2008 Nederland, Jefferson Co TX", "Public death/burial indexes confirm her Texas birth, 19 Dec 2008 death locality at Nederland, and burial at Forest Lawn Memorial Park, Beaumont. The same index cluster identifies spouse Lee S. Henslee. Using this record as Alice Marie Spence's mother remains MEDIUM-confidence until a direct obituary or vital record is attached.", None, 15, 20, "probable",
+                    [alice_henslee, don_henslee], spouse="Lee S. Henslee")
 
 rosalie_stephens = n("Rosalie (Henslee) Stephens", "living (2008)", "Frances's sister; Hunter's paternal great-grand-aunt. Lives in Allen TX. m. Steve Stephens. Per Frances obituary.",
                      None, 15, 20, "confirmed", spouse="Steve Stephens")
 
-lee_stuart_henslee = n("Lee Stuart Henslee", "—", "Hunter's paternal great-grandfather. m. Frances Henslee (60 years). Predeceased her (before 2008). Children: Alice Marie Spence + Don Henslee. Per Broussard's Mortuary obituary 2008.",
-                       None, 15, 20, "confirmed",
-                       [alice_henslee, don_henslee], spouse="Frances Henslee")
+lee_stuart_henslee = n("Lee S. Henslee", "2 Oct 1908 – 31 Aug 1994", "Public burial index confirms dates, burial at Forest Lawn Memorial Park, Beaumont (Garden of Hope), and spouse Frances Henslee. Local project context treats this as the Lee Stuart Henslee in Alice Marie Spence's line, but the father-of-Alice link remains MEDIUM-confidence until a direct obituary or vital record is attached.", None, 15, 20, "probable",
+                       [alice_henslee, don_henslee], spouse="Frances Virginia Henslee")
 
-# Henslee root anchored at Lee Stuart + Frances generation (parents of Alice + Don).
-henslee_root = n("Lee Stuart + Frances Henslee", "fl. 1948–2008", "Hunter's paternal great-grandparents (Alice Marie Spence's parents). Both born ~1918; lived Beaumont/Nederland TX. Catholic. Earlier Henslee + Frances's-maiden-name lines: TBD.", None, 14, 20, "confirmed",
+# Henslee root anchored at the Lee/Frances couple; the Alice-parent link stays explicitly medium-confidence.
+henslee_root = n("Lee S. + Frances Virginia Henslee", "1908–2008 Beaumont/Nederland TX cluster", "Public cemetery/death indexes strongly support this Beaumont/Nederland couple and their shared Forest Lawn burial cluster. Treating them as Alice Marie Spence's parents remains MEDIUM-confidence until a direct obituary or vital record is attached.", None, 14, 20, "probable",
                  [lee_stuart_henslee, rosalie_stephens])
 
 # Sir Basil Spence — possible distant collateral via the broader Spence surname
@@ -458,6 +473,7 @@ output_data = {
         {"label": "MATERNAL-PATERNAL — Teichmüller line (Hans/Johann ~1580 Harz miller → Brunswick → La Grange TX, 6 gens NDB-confirmed)", "tree": teichmueller_root},
         {"label": "MATERNAL — Lepik / Lepick / Mikeska line (Bohemia 1862 → Kansas 1881 → Floresville TX)", "tree": lepick_root},
         {"label": "MATERNAL — Boehme line (Herman F. Boehme b. 1863 Lavaca Co TX, Lutheran German-Texan)", "tree": boehme_root},
+        {"label": "MATERNAL-PATERNAL — Baity line research anchors (North Carolina by 1830 → San Antonio builders by 1910)", "tree": baity_root},
         {"label": "MATERNAL grandfather — David Trifon (adopted-name; biological line untraceable per Hunter)", "tree": david_trifon},
         {"label": "DEBUNKED — Frost dynasty (was UNVERIFIED, agent 25 confirmed Lepick line is the actual maternal line)", "tree": frost_root}
     ]

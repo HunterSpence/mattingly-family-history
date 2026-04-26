@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "file": "42-spence-henslee-expanded",
+    "prepared": "2026-04-26",
+    "scope": "Paternal Spence + Henslee side, focused on verifiable deceased ancestors, early America arrivals, and clearly labeled surname context",
+    "privacy_note": "Avoids non-public details about living people"
+  },
+  "confidence_scale": {
+    "HIGH": "Directly supported by a cited public record page",
+    "MEDIUM": "Multiple public sources align, but at least one is derivative or aggregate",
+    "LOW": "Surname-level or contextual claim, not tied to a proven direct ancestor"
+  },
+  "deceased_ancestors": [
+    {
+      "name": "Alice Marie Henslee Spence",
+      "birth_date": "1936-01-13",
+      "birth_place": "Rusk, Texas",
+      "death_date": "2005-12-03",
+      "burial_place": "Forest Lawn Memorial Park and Funeral Home, Beaumont, Texas",
+      "plot": "Garden Of Hope section",
+      "relationship_in_local_context": "Hunter's paternal grandmother",
+      "confidence": "HIGH",
+      "sources": [
+        "https://peoplelegacy.com/alice_marie_henslee_spence-3F0H76"
+      ],
+      "notes": [
+        "Publicly verified as deceased with birth, death, and burial details",
+        "Parent-child link to Lee and Frances remains locally supported but not fully re-proved from a free obituary in this session"
+      ]
+    },
+    {
+      "name": "Lee S. Henslee",
+      "birth_date": "1908-10-02",
+      "death_date": "1994-08-31",
+      "burial_place": "Forest Lawn Memorial Park and Funeral Home, Beaumont, Texas",
+      "plot": "Garden of Hope",
+      "spouse": "Frances Henslee",
+      "relationship_in_local_context": "Hunter's paternal great-grandfather",
+      "confidence": "MEDIUM",
+      "sources": [
+        "https://peoplelegacy.com/lee_s_henslee-571W0P"
+      ],
+      "notes": [
+        "Record itself is strong for dates, burial, and spouse",
+        "Specific father-of-Alice relationship still needs a direct obituary or vital-record confirmation"
+      ]
+    },
+    {
+      "name": "Frances Virginia Henslee",
+      "birth_date": "1918-01-01",
+      "birth_place": "Texas",
+      "death_date": "2008-12-19",
+      "death_locality_indexed": "Nederland, Jefferson County, Texas",
+      "burial_place": "Forest Lawn Memorial Park and Funeral Home, Beaumont, Texas",
+      "spouse": "Lee S. Henslee",
+      "relationship_in_local_context": "Hunter's paternal great-grandmother",
+      "confidence": "MEDIUM",
+      "sources": [
+        "https://peoplelegacy.com/frances_henslee-3j7a3f",
+        "https://www.ancientfaces.com/directory/name/frances-henslee"
+      ],
+      "notes": [
+        "Dates and burial are publicly supported",
+        "Direct free-public proof of mother-of-Alice relationship was not retrieved in this session"
+      ]
+    }
+  ],
+  "public_spence_context": {
+    "claim": "Public records place Dale Spence in Rice University's kinesiology sphere, supporting the Houston/Beaumont Spence branch described in local context",
+    "confidence": "HIGH",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/2375667/",
+      "https://news2.rice.edu/2019/11/11/honoring-our-veterans/",
+      "https://news2.rice.edu/2002/05/23/cosby-sends-graduates-off-laughing/"
+    ]
+  },
+  "early_america_arrivals": [
+    {
+      "name": "William Spence",
+      "claim": "Arrived in Virginia on the Phoenix on 1608-04-20; later served in the first House of Burgesses",
+      "confidence": "HIGH",
+      "is_proven_direct_ancestor": false,
+      "sources": [
+        "http://www.gutenberg.org/cache/epub/28730/pg28730-images.html",
+        "https://en.wikipedia.org/wiki/William_Spence_%28burgess%29"
+      ]
+    },
+    {
+      "name": "Sarah Spence",
+      "claim": "Listed on James Island in a 1624 Virginia census transcription",
+      "confidence": "HIGH",
+      "is_proven_direct_ancestor": false,
+      "sources": [
+        "https://www.cynthiaswope.com/withinthevines/jamestown/jamestowncensus1624.html"
+      ]
+    }
+  ],
+  "surname_context": [
+    {
+      "surname": "Henslee",
+      "claim": "English variant of Hensley; present in the U.S. by 1840, with Alabama the largest early concentration in that census year",
+      "confidence": "LOW",
+      "sources": [
+        "https://www.ancestry.com/last-name-meaning/henslee"
+      ]
+    }
+  ],
+  "open_gaps": [
+    "Direct obituary or vital-record proof linking Alice Marie Henslee Spence to Lee S. Henslee and Frances Virginia Henslee",
+    "Frances Henslee maiden name",
+    "Lee Stuart Henslee parents and pre-Beaumont ancestry",
+    "Identity of Dovie (?) Spence",
+    "Documented English origin and immigration trail for the older Spence branch"
+  ]
+}
