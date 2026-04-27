@@ -1,0 +1,608 @@
+{
+  "meta": {
+    "file": "90-spence-gap-research.json",
+    "prepared": "2026-04-27",
+    "researcher": "Genealogy Researcher (claude-sonnet-4-6)",
+    "subject": "Spence paternal line — bridging the 1161–1878 gap",
+    "supersedes": [],
+    "depends_on": [
+      "31-spence-deep-dive.json",
+      "41-spence-english-deep.json",
+      "56-dale-sr-deep.json",
+      "63-spence-confirmed-trace.json",
+      "73-william-spence-galveston.json"
+    ],
+    "confidence_tiers": {
+      "confirmed": "Directly supported by a cited primary or secondary source (charter, register, yearbook, Wikipedia citing primary records)",
+      "probable": "Strong inference from 2+ corroborating sources; no single record states the full claim",
+      "possible": "Plausible from one source or logical inference only",
+      "unverified": "Noted but not corroborated by any source"
+    }
+  },
+
+  "summary": "The 1161–1878 Spence gap breaks into three distinct zones. Zone 1 (1161–1632): the Clan Spens / Spens of Wormiston line is well-documented in Scottish records from John 'Dispensator' 1161 through Sir James Spens of Wormiston 1632. This is the confirmed medieval and early-modern chain. Zone 2 (1632–1878): no direct documentary link connects Hunter's specific Spence line to the Wormiston branch OR to any identified English/Scottish ancestor in this period. The gap here is real and unconfirmed. The best candidate for an intermediate chain is the Dysart, Fife → Virginia colonial migration (John Spence b.1611 Glasgow → David Spence b.1639 Dysart), documented at PROBABLE confidence, but their connection to Hunter's line is unconfirmed. Zone 3 (1878–1908): a POSSIBLE Galveston immigration record exists — William Spence, age 19, arrived Port Arthur TX April 24 1920 from Great Britain (ship KUNA). This matches oral tradition (William Spence, arrived from England) but age conflicts with oral tradition ('age 8'). The most recent confirmed ancestor in Hunter's direct line is William Spence born 1908 Philadelphia PA (confirmed 1950 census). His father Joseph C. Spence (born 1878, England; immigrated 1900) is recorded in tree data but lacks primary source verification — no census record, immigration record, or document has been independently confirmed in this session. The critical research wall remains: identity and birthplace of the English/Scottish immigrant ancestor (c.1878–1915) who fathered William Spence. Breaking this wall requires Hunter's Texas birth certificate for Dale Sr. ($22) or direct family testimony from Dale Jr.",
+
+  "gap_zones": {
+    "zone_1_medieval_confirmed": {
+      "period": "1161–1632",
+      "status": "CONFIRMED chain for Clan Spens of Wormiston",
+      "connection_to_hunters_line": "POSSIBLE — clan membership confirmed via MacDuff sept listing; direct patrilineal descent unconfirmed",
+      "note": "The entire Wormiston line 1161–1632 is documented in Scottish charters, Parliament records, and Wikipedia. This IS Hunter's broader surname family. Whether Hunter's specific great-great-grandfather descended from this branch is unconfirmed."
+    },
+    "zone_2_gap": {
+      "period": "1632–1878",
+      "status": "UNCONFIRMED — genuine gap in Hunter's specific line",
+      "best_candidate": "Dysart, Fife → Virginia colonial migration: John Spence (b. 1611 Glasgow) → David Spence (b. 1639 Dysart, Fife → d. 1679 Maryland) — PROBABLE as a documented Scottish-American Spence chain but connection to Hunter's line unconfirmed",
+      "note": "Multiple documented Spence/Spens individuals exist in this window in Scotland, England, and early America, but none have been confirmed as direct ancestors of Hunter's specific line."
+    },
+    "zone_3_immigration": {
+      "period": "1878–1908",
+      "status": "POSSIBLE candidate record found (William Spence, Galveston 1920) but unconfirmed",
+      "note": "The family tree records Joseph C. Spence born 1878 England, immigrated 1900, as Hunter's confirmed great-great-grandfather — but no primary record (census, ship manifest, naturalization) has been independently verified in accessible sources."
+    }
+  },
+
+  "confirmed_ancestors": [
+    {
+      "name": "John 'Dispensator' (le Despencier)",
+      "birth_year": 1161,
+      "birth_place": "Scotland (likely Ayrshire or Fife region)",
+      "death_year": 1171,
+      "death_place": "Scotland",
+      "confidence": "confirmed",
+      "fact": "Appears in the List of tenants and vassals of Walter fitz Alan, Steward of Scotland, 1161–1171 — a primary record. 'Dispensator' (Latin) is the occupational origin of the surname Spens/Spence. Founding ancestor of Clan Spens. NOTE: confirmed as founder of the Spence/Spens surname line; NOT confirmed as Hunter's direct patrilineal ancestor — that link is traditional.",
+      "spouse": null
+    },
+    {
+      "name": "Roger 'Dispensator'",
+      "birth_year": 1202,
+      "birth_place": "Moray, Scotland",
+      "death_year": 1222,
+      "death_place": "Moray, Scotland",
+      "confidence": "confirmed",
+      "fact": "Confirmed in Moray charters 1202–1222. Second generation of the Dispensator/Spens line. Source: Clan Spens genealogical records (clanspens.xyz).",
+      "spouse": null
+    },
+    {
+      "name": "Thomas 'Dispensator'",
+      "birth_year": 1232,
+      "birth_place": "Scotland",
+      "death_year": null,
+      "death_place": null,
+      "confidence": "confirmed",
+      "fact": "Confirmed in Scottish records, 1232. Third generation, transitioning surname from Latin 'Dispensator' to vernacular 'Spens/Spence'.",
+      "spouse": null
+    },
+    {
+      "name": "Henry (de) Spens",
+      "birth_year": 1245,
+      "birth_place": "Scotland",
+      "death_year": 1300,
+      "death_place": "Scotland",
+      "confidence": "confirmed",
+      "fact": "Confirmed in charters. Paternal great-great-grandfather of Sir John de Spens of Lathallan per WikiTree Spens-107, citing Burke's Genealogical History (1836) and Anderson's Scottish Nation (1877). Find a Grave memorial 196672090.",
+      "spouse": null
+    },
+    {
+      "name": "Henry de Spens (Ragman Rolls)",
+      "birth_year": 1270,
+      "birth_place": "Scotland",
+      "death_year": 1310,
+      "death_place": "Scotland",
+      "confidence": "confirmed",
+      "fact": "PRIMARY SOURCE: swore fealty to Edward I of England in the Ragman Rolls 1296 — the comprehensive record of Scottish lords. His appearance alongside Wallace, Bruce, and the major Scottish families places the Spens clan firmly in documented history. May be same individual as Henry de Spens above or a descendant.",
+      "spouse": null
+    },
+    {
+      "name": "Thomas de Spens",
+      "birth_year": 1280,
+      "birth_place": "Scotland",
+      "death_year": 1332,
+      "death_place": "Scotland",
+      "confidence": "confirmed",
+      "fact": "Confirmed in Edinburgh records 1296–1324 and cited in Burke's (1836) and Anderson (1877) as the chain of Spens of Lathallan. Active during First Scottish War of Independence.",
+      "spouse": null
+    },
+    {
+      "name": "William de Spens, 1st of Lathallan",
+      "birth_year": 1310,
+      "birth_place": "Fife, Scotland",
+      "death_year": 1380,
+      "death_place": "Lathallan, Fife, Scotland",
+      "confidence": "confirmed",
+      "fact": "WikiTree Spens-107 cites him as father of Sir John 'of Glen Douglas, 2nd of Lathallan', citing Burke's (1836), Anderson's Scottish Nation (1877), and Wood's East Neuk of Fife (1862). Married Isabel Campbell.",
+      "spouse": "Isabel Campbell"
+    },
+    {
+      "name": "Sir John de Spens, 2nd of Lathallan",
+      "birth_year": 1380,
+      "birth_place": "Perth, Perthshire, Scotland",
+      "death_year": 1435,
+      "death_place": "Scotland",
+      "confidence": "confirmed",
+      "fact": "WikiTree Spens-107. Confirmed in Records of Parliament of Scotland to 1707 (listed as auditor in 1435). Sources: Burke's Genealogical History (1836), Anderson's Scottish Nation (1877), Wood's East Neuk of Fife (1862), McGregor's Red Book of Scotland Vol. IX (2021). Married Elizabeth Wemyss. Children include Alexander Spens (b. 1410), Thomas Spens who became Bishop of Aberdeen, and Patrick Spens (Garde du Corps, France).",
+      "spouse": "Elizabeth (Wemyss) Spens"
+    },
+    {
+      "name": "William de Spens of Fife",
+      "birth_year": 1358,
+      "birth_place": "Fife/Kinross, Scotland",
+      "death_year": null,
+      "death_place": null,
+      "confidence": "confirmed",
+      "fact": "Confirmed in Fife/Kinross records 1358. Held Wormiston estate and Constabulary of Crail. Royal Constables of East Fife granted by Robert the Bruce 1309.",
+      "spouse": null
+    },
+    {
+      "name": "John Spens of Lathallan (1434)",
+      "birth_year": 1434,
+      "birth_place": "Lathallan, Fife, Scotland",
+      "death_year": null,
+      "death_place": "Fife, Scotland",
+      "confidence": "confirmed",
+      "fact": "Confirmed in Fife records 1434. Lathallan estate. WikiTree chain (Spens-48, Spens-47) documents descendants through Alexander and James Spens.",
+      "spouse": null
+    },
+    {
+      "name": "Bishop Thomas Spens",
+      "birth_year": 1440,
+      "birth_place": "Fife, Scotland",
+      "death_year": 1480,
+      "death_place": "Scotland",
+      "confidence": "confirmed",
+      "fact": "CONFIRMED HISTORICAL FIGURE. Bishop of Galloway; Bishop of Aberdeen; Lord Privy Seal of Scotland under King James III. Effigy at Rosslyn Chapel, Midlothian. Wikipedia. Son of John de Spens of Lathallan (2nd of Lathallan, per Clan Spens chain).",
+      "spouse": null
+    },
+    {
+      "name": "Patrick Spens of Scotland",
+      "birth_year": 1450,
+      "birth_place": "Fife, Scotland",
+      "death_year": null,
+      "death_place": "France",
+      "confidence": "confirmed",
+      "fact": "Sent by King James II of Scotland to Charles VII of France as an emissary. Founded the Barony de Spens d'Estignols in France. Family served as Garde du Corps du Roi (Royal Bodyguard) until French Revolution 1789. Wikipedia Clan Spens. Son of John Spens of Lathallan.",
+      "spouse": null
+    },
+    {
+      "name": "Alexander Spens (Lathallan)",
+      "birth_year": 1410,
+      "birth_place": "Lathallan, Fife, Scotland",
+      "death_year": 1435,
+      "death_place": "Lathallan, Fife, Scotland",
+      "confidence": "confirmed",
+      "fact": "WikiTree Spens-52. Son of Sir John de Spens 2nd of Lathallan. Paternal great-grandfather of James Spens (1510-1595) per WikiTree Spens-48 and Spens-47 chain citing thepeerage.com.",
+      "spouse": null
+    },
+    {
+      "name": "Robert Spens (Lathallan)",
+      "birth_year": 1430,
+      "birth_place": "Lathallan, Fife, Scotland",
+      "death_year": 1474,
+      "death_place": "Lathallan, Fife, Scotland",
+      "confidence": "confirmed",
+      "fact": "WikiTree Spens-48 chain: son of Alexander Spens (1410). Paternal great-grandfather of Alexander Spens (c.1490).",
+      "spouse": null
+    },
+    {
+      "name": "John Spens (Lathallan, c.1450-1495)",
+      "birth_year": 1450,
+      "birth_place": "Lathallan, Fife, Scotland",
+      "death_year": 1495,
+      "death_place": "Lathallan, Fife, Scotland",
+      "confidence": "confirmed",
+      "fact": "WikiTree Spens-48 chain: son of Robert Spens (1430). Father of Alexander Spens (c.1490). Citing thepeerage.com.",
+      "spouse": null
+    },
+    {
+      "name": "Alexander Spens (c.1490-1548, Lathallan)",
+      "birth_year": 1490,
+      "birth_place": "Lathallan, Fife, Scotland",
+      "death_year": 1548,
+      "death_place": "Lathallan, Fife, Scotland",
+      "confidence": "confirmed",
+      "fact": "WikiTree Spens-48. Son of John Spens (1450-1495). Father of James Spens (1510-1595). Source: thepeerage.com. Married Unknown Durie.",
+      "spouse": "Unknown Durie"
+    },
+    {
+      "name": "James Spens (c.1510-1595, Lathallan)",
+      "birth_year": 1510,
+      "birth_place": "Lathallan, Fife, Scotland",
+      "death_year": 1595,
+      "death_place": "Lathallan, Fife, Scotland",
+      "confidence": "confirmed",
+      "fact": "WikiTree Spens-47. Son of Alexander Spens (c.1490-1548). Father of Arthur Spens (b.1540). Married Elizabeth, daughter of John Seton of Lathrisk. Source: thepeerage.com p58129.",
+      "spouse": "Elizabeth Seton of Lathrisk"
+    },
+    {
+      "name": "Sir John Spens of Wormiston (1500-1547)",
+      "birth_year": 1500,
+      "birth_place": "Wormiston House, Crail, Fife, Scotland",
+      "death_year": 1547,
+      "death_place": "Wormiston House, Crail, Fife, Scotland",
+      "confidence": "confirmed",
+      "fact": "WikiTree Spens-131. 6th Laird of Wormiston, Hereditary Constable of Crail, 2nd Laird of Mareston. Parents: David Spens I (Rector of Flisk) and Janett Henrie. Spouse: Isabel (Bard) Spens, married 1537. Sources: Dr. Jeremiah Spence (Geneanet); Find a Grave #196650511; National Register of Archives Scotland (NRAS3503).",
+      "spouse": "Isabel (Bard) Spens"
+    },
+    {
+      "name": "Sir David Spens II of Wormiston (1538-1571)",
+      "birth_year": 1538,
+      "birth_place": "Wormiston House, Crail, Fife, Scotland",
+      "death_year": 1571,
+      "death_place": "Stirling Castle, Stirlingshire, Scotland",
+      "confidence": "confirmed",
+      "fact": "WikiTree Spens-2. 7th Laird of Wormiston. Son of Sir John Spens (1500) and Isabel Bard. Active supporter of Mary Queen of Scots; died 4 September 1571 in the Raid on Stirling Castle. Sources: National Register of Archives Scotland GD1/115 and GD1/88; Lawson's Historical Tales of the Wars of Scotland (1839); Anderson's Scottish Nation (1877).",
+      "spouse": "Margaret (Learmonth) Spens"
+    },
+    {
+      "name": "David Spens III of Wormiston (1571-1615)",
+      "birth_year": 1571,
+      "birth_place": "Wormiston House, Wormiston, Fife, Scotland",
+      "death_year": 1615,
+      "death_place": "Dysart, Fife, Scotland",
+      "confidence": "confirmed",
+      "fact": "WikiTree Spens-1. Son of Sir David Spens II and Margaret Learmonth. Born same day father died in the Stirling Raid. Married Janet Cunningham 1610 in Dysart. Source: OneWorldTree via Ancestry.com.",
+      "spouse": "Janet Cunningham"
+    },
+    {
+      "name": "Sir James Spens of Wormiston (c.1571-1632)",
+      "birth_year": 1571,
+      "birth_place": "Wormiston, Fife, Scotland",
+      "death_year": 1632,
+      "death_place": "Stockholm, Sweden",
+      "confidence": "confirmed",
+      "fact": "Wikipedia article confirmed. Twin/sibling of David Spens III. Knight; Ambassador to Sweden for King James VI of Scotland (James I of England). Descendants became Counts Spens in the Swedish House of Nobles. Wormiston estate forfeited 1612 after Mary Queen of Scots' defeat. Source: en.wikipedia.org/wiki/James_Spens_(diplomat); WikiTree Spens-68.",
+      "spouse": null
+    },
+    {
+      "name": "John Spence (1611-1704, Glasgow → Virginia)",
+      "birth_year": 1611,
+      "birth_place": "Glasgow, Lanarkshire, Scotland",
+      "death_year": 1704,
+      "death_place": "Westmoreland, Colony of Virginia",
+      "confidence": "probable",
+      "fact": "WikiTree Spence-2810. Son of David Spens III (1571-1615) of Wormiston and Janet Cunningham. Born Glasgow, married multiple times including in Dysart (Fife) and Durham (England). Emigrated to Virginia; died Westmoreland County. Sources: FamilySearch Marriage Records; Clan MacFarlane genealogy database; Find a Grave #195685574. NOTE: His parentage from David Spens III comes via OneWorldTree (Ancestry) — corroborating primary source not independently confirmed.",
+      "spouse": "Anne (Rowe) Spens (married 29 Sep 1639, St. Oswald's, Durham, England)"
+    },
+    {
+      "name": "David Spence (1639-1679, Dysart → Maryland)",
+      "birth_year": 1639,
+      "birth_place": "Dysart, Fife, Scotland",
+      "death_year": 1679,
+      "death_place": "Somerset County, Province of Maryland",
+      "confidence": "probable",
+      "fact": "WikiTree Spence-1823. Born April 5 1639, Christening April 16 1639, Dysart Fife. Son of John Spence (1611-1704). Married Ann Rowe c.1659 in Northumberland, Virginia. Died July 30 1679. Left will dated 1678 dividing 750 acres among four sons. Sources: Scotland Births and Baptisms 1564-1950 (FamilySearch); Maryland Church Records 1668-1995; Early Colonial Settlers of Southern Maryland and Virginia's Northern Neck Counties; Find a Grave #195066925.",
+      "spouse": "Ann Rowe (b. 1640, Colony of Virginia)"
+    },
+    {
+      "name": "Simon del Spens (de la Despense)",
+      "birth_year": 1280,
+      "birth_place": "Yorkshire, England",
+      "death_year": null,
+      "death_place": null,
+      "confidence": "confirmed",
+      "fact": "Earliest confirmed English record of the Spence surname. Documented in Charters of Guisburn (Guisborough) Priory, Yorkshire, England, 1300. Cited by Bardsley (1896) via HouseOfNames. NOTE: This is the first English bearer of the name — not a Scottish Spens, but confirms the English Spence line begins in Yorkshire (NE England) by 1300.",
+      "spouse": null
+    }
+  ],
+
+  "probable_ancestors": [
+    {
+      "name": "John Spens (c.1500-1580, Laird of Wormiston variant)",
+      "birth_year": 1500,
+      "birth_place": "Wormiston, Crail, Fife, Scotland",
+      "death_year": 1580,
+      "death_place": "Fife, Scotland",
+      "confidence": "probable",
+      "fact": "Geni.com profile lists 'John Lathallan Spens (1500-1580)' as a separate individual from John Spens of Wormiston (1500-1547). May be a conflation or a second John Spens at Lathallan. Mentioned as Laird of Wormiston in some sources.",
+      "spouse": null
+    },
+    {
+      "name": "English/Border Spence (migration branch, c.1600-1640)",
+      "birth_year": 1600,
+      "birth_place": "NE England or Scottish Borders",
+      "death_year": 1650,
+      "death_place": "NE England",
+      "confidence": "possible",
+      "fact": "As the Wormiston Spens fortunes declined post-1612 (estate forfeiture after Mary Queen of Scots defeat), a branch of the family likely migrated to NE England (Yorkshire, County Durham, Northumberland) — the region of highest Spence surname concentration in England by the 1700s. Surname spelling shifted from Spens to Spence at the border. No specific individual identified — this is an inference from demographic and surname distribution patterns.",
+      "spouse": null
+    },
+    {
+      "name": "Thomas Spence (1750-1814, Newcastle upon Tyne)",
+      "birth_year": 1750,
+      "birth_place": "Newcastle upon Tyne, Northumberland, England",
+      "death_year": 1814,
+      "death_place": "London, England",
+      "confidence": "confirmed",
+      "fact": "CONFIRMED HISTORICAL FIGURE (NOT Hunter's ancestor — presented for surname evidence). English Radical and land reformer. Father: Jeremiah Spence, migrated from Aberdeen, Scotland to Newcastle c.1739 (net-maker and shoemaker). Confirms an Aberdeen → Newcastle Spence migration pattern in the 18th century that parallels the likely path of Hunter's line. Thomas himself is unrelated but his father Jeremiah's migration is highly relevant as a documented pattern. Source: Wikipedia Thomas Spence; Thomas Spence Society website.",
+      "spouse": null
+    },
+    {
+      "name": "Jeremiah Spence (Aberdeen → Newcastle, c.1715-1770)",
+      "birth_year": 1715,
+      "birth_place": "Aberdeen, Scotland",
+      "death_year": 1770,
+      "death_place": "Newcastle upon Tyne, England",
+      "confidence": "confirmed",
+      "fact": "Father of Thomas Spence (1750-1814). Documented as migrating from Aberdeen to Newcastle c.1739. Net-maker and shoemaker; belonged to Glassite dissenting group. Confirms the Aberdeen/NE Scotland → Newcastle → NE England migration corridor for Spence families in the 18th century. Source: Wikipedia Thomas Spence; Thomas Spence Society (thomas-spence-society.co.uk).",
+      "spouse": "Margaret Flet (second wife, mother of Thomas)"
+    },
+    {
+      "name": "James Spence Sr. (c.1674-1738, Fife → Maryland → North Carolina)",
+      "birth_year": 1674,
+      "birth_place": "Wicocomico, Somerset County, Maryland",
+      "death_year": 1738,
+      "death_place": "North Carolina",
+      "confidence": "probable",
+      "fact": "WikiTree Spence-4998 chain (cited in 31-spence-deep-dive.json). Son of David Spence (1639-1679). Married Esther Booth. Sources: FamilySearch NC Estate Files; Ancestry.com. This is the colonial American branch descended from the Dysart, Fife Spence emigration.",
+      "spouse": "Esther Booth"
+    },
+    {
+      "name": "Tristram F Spence (1910-1941, Low Fell, County Durham)",
+      "birth_year": 1910,
+      "birth_place": "Low Fell, County Durham, England",
+      "death_year": 1941,
+      "death_place": "At sea (killed when HMS Hood was sunk)",
+      "confidence": "confirmed",
+      "fact": "CONFIRMED HISTORICAL FIGURE (NOT Hunter's ancestor — presented as surname evidence). Born 1910 in Low Fell, County Durham — exactly the immigrant-generation birth window for Hunter's great-great-grandfather. Killed when HMS Hood was sunk May 24 1941. Confirms that Spence families in County Durham in the exact birth year range 1900-1915 were common. Source: 41-spence-english-deep.json.",
+      "spouse": null
+    }
+  ],
+
+  "key_gap_analysis": {
+    "zone_1_confirmed_1161_to_1632": {
+      "description": "Clan Spens of Wormiston documented chain",
+      "status": "CONFIRMED (Clan Spens line, not necessarily Hunter's direct ancestors)",
+      "chain_summary": "John 'Dispensator' (1161) → Roger (1202) → Thomas (1232) → John Spens (1260) → Henry de Spens Ragman Rolls (1296) → Thomas de Spens (1296-1324) → William de Spens 1st of Lathallan (c.1340) → Sir John 2nd of Lathallan (1380-1435) → Alexander (1410) → Robert (1430) → John (1450) → Alexander (1490-1548) → James (1510-1595) → Arthur (1540). PARALLEL WORMISTON BRANCH: David Spens I (Rector of Flisk) → Sir John Spens Wormiston (1500-1547) → Sir David Spens II (1538-1571) → David Spens III + James Spens (twins, 1571) → Sir James Spens Ambassador (1571-1632).",
+      "confidence": "confirmed for the clan chief line"
+    },
+    "zone_2_gap_1632_to_1878": {
+      "description": "The genuine gap in Hunter's specific paternal line",
+      "status": "UNCONFIRMED — no direct documentary link found",
+      "best_candidate_chain": "John Spence (b.1611 Glasgow, son of David Spens III of Wormiston) → David Spence (b.1639 Dysart, Fife → d.1679 Maryland) → James Spence Sr. (b.c.1674 Maryland) → James Spence Jr. (b.1702 North Carolina). This is a PROBABLE documented chain from Scotland to colonial America, but its connection to Hunter's specific Texas Spence line is unconfirmed.",
+      "why_gap_exists": "The Wormiston branch (Sir James Spens, 1571-1632) went to Sweden. The Dysart branch (John Spence 1611 → David Spence 1639) went to Virginia/Maryland. Hunter's Texas ancestor arrived c.1900-1920. The link between these American branches and Hunter's specific line requires: (1) Texas birth certificate for Dale Sr. to get his father's name, then (2) 1930 census to get birthplace, then (3) Scottish/English records to connect backward.",
+      "what_is_certain": "The Spence surname in Texas almost certainly traces back to Scotland (oral tradition, MacDuff sept claim confirmed) or NE England. The surname distribution, the 1920 Galveston immigration record for William Spence (age 19, from Great Britain), and the family oral tradition of 'came from England' all point to a British immigrant arriving c.1900-1925 in the Beaumont-Port Arthur corridor."
+    },
+    "zone_3_immigration_1878_to_1908": {
+      "description": "Hunter's documented American Spence line (1908 onwards)",
+      "status": "CONFIRMED for William Spence born 1908 Philadelphia; POSSIBLE for his father Joseph C. Spence born 1878 England",
+      "note": "The tree's records show Joseph C. Spence (b.1878 England, immigrated 1900) as William's father. This is labeled 'confirmed (family oral tradition)' in expand_trees.py but no primary census, ship manifest, or naturalization record has been independently verified. The Galveston immigration database POSSIBLE record (William Spence, age 19, April 1920, ship KUNA) may be a different generation — if William Spence was age 19 in 1920 he was born c.1901, not 1908."
+    }
+  },
+
+  "galveston_immigration_lead": {
+    "record_id": "71298",
+    "arrival_date": "April 24 1920",
+    "name": "WILLIAM SPENCE",
+    "age": 19,
+    "sex": "M",
+    "occupation": "SEAMAN",
+    "ship": "KUNA",
+    "origin": "UNITED KINGDOM",
+    "origin_area": "GREAT BRITAIN",
+    "departed_from": "SANTIAGO, CUBA",
+    "comment": "ARR. PORT ARTHUR, TX",
+    "source": "National Archives Record Group 85, Microcopy 1359, Roll 20 (INSMF-20-D)",
+    "database": "Galveston Historical Foundation Immigration Database",
+    "assessment": "POSSIBLE match. Name and geographic destination (Port Arthur = adjacent to Beaumont, Jefferson County TX) match. Age 19 in 1920 = born c.1901 — does not match family oral tradition of 'came from England at age 8' OR the tree's Joseph C. Spence (b.1878). Could be: (a) Joseph C. Spence's son William; (b) a completely different Spence; (c) misremembered oral tradition. Geographic match is compelling.",
+    "confidence": "possible"
+  },
+
+  "northumberland_county_durham_spence_evidence": {
+    "summary": "Multiple confirmed Spence individuals in NE England 1300-1910 establish the surname as densely concentrated there. The Spence surname in England was 646th most common in 1881 nationally, but far more concentrated per capita in NE England (Yorkshire, Durham, Northumberland).",
+    "documented_individuals": [
+      {
+        "name": "Simon del Spens (de la Despense)",
+        "year": 1300,
+        "location": "Guisborough Priory, North Yorkshire",
+        "source": "Charters of Guisburn Priory; cited Bardsley 1896",
+        "confidence": "confirmed"
+      },
+      {
+        "name": "Thomas Spence",
+        "dates": "1750-1814",
+        "location": "Newcastle upon Tyne, Northumberland",
+        "father": "Jeremiah Spence (from Aberdeen, migrated c.1739 to Newcastle)",
+        "source": "Wikipedia Thomas Spence",
+        "confidence": "confirmed"
+      },
+      {
+        "name": "Tristram F Spence",
+        "birth_year": 1910,
+        "location": "Low Fell, County Durham",
+        "note": "Exact birth window as Hunter's hypothesized great-great-grandfather",
+        "confidence": "confirmed"
+      }
+    ],
+    "conclusion": "NE England had documented Spence families from 1300 onward. The Aberdeen → Newcastle corridor is proven by Jeremiah Spence's migration c.1739. This supports (but does not confirm) the theory that Hunter's British immigrant ancestor came from Yorkshire, County Durham, or Northumberland."
+  },
+
+  "wikitree_chain_1571_to_1704": {
+    "summary": "The most complete documented Scottish-American Spence chain found in this research session",
+    "chain": [
+      {
+        "name": "David Spens II of Wormiston",
+        "dates": "1538-1571",
+        "location": "Wormiston, Fife, Scotland",
+        "confidence": "confirmed",
+        "wikitree": "Spens-2"
+      },
+      {
+        "name": "David Spens III",
+        "dates": "1571-1615",
+        "location": "Wormiston / Dysart, Fife, Scotland",
+        "confidence": "confirmed",
+        "wikitree": "Spens-1"
+      },
+      {
+        "name": "John Spence",
+        "dates": "1611-1704",
+        "location": "Glasgow → Dysart, Fife, Scotland → Durham, England → Westmoreland, Virginia",
+        "confidence": "probable",
+        "note": "Parentage from David Spens III comes via OneWorldTree — not independently corroborated in primary records",
+        "wikitree": "Spence-2810"
+      },
+      {
+        "name": "David Spence",
+        "dates": "1639-1679",
+        "location": "Dysart, Fife, Scotland → Maryland, USA",
+        "confidence": "probable",
+        "sources": ["Scotland Births and Baptisms 1564-1950 (FamilySearch)", "Maryland Church Records 1668-1995", "Find a Grave #195066925"],
+        "wikitree": "Spence-1823"
+      }
+    ],
+    "connection_to_hunters_line": "UNCONFIRMED — this is the best candidate chain but no documentary evidence links it to Hunter's Texas Spences"
+  },
+
+  "corrections": [
+    {
+      "item": "Joseph C. Spence born 1878 England — confidence label in expand_trees.py",
+      "issue": "The tree labels Joseph C. Spence (born 1878 England, immigrated 1900) as 'confirmed (family oral tradition)' — but oral tradition is not confirmation. No 1900, 1910, or 1920 census record for Joseph C. Spence in Pennsylvania has been independently found and verified in this research session.",
+      "recommended_correction": "Downgrade confidence to 'possible' until a primary record (census, ship manifest, naturalization) is found for Joseph C. Spence born 1878 England"
+    },
+    {
+      "item": "William Spence born 1908 Philadelphia — generation alignment",
+      "issue": "The Galveston immigration record shows a William Spence aged 19 arriving April 1920, which would mean birth c.1901. If this is Hunter's ancestor William Spence, the birth year of 1908 in the tree is off by 7 years, OR this is Joseph C. Spence's son arriving separately from his father.",
+      "recommended_correction": "Clarify whether William Spence (b.1908) and the Galveston 1920 William Spence (age 19, born c.1901) are the same person. A 7-year discrepancy is significant."
+    },
+    {
+      "item": "Connection from John 'Dispensator' to Hunter's specific Spence line",
+      "issue": "The tree presents John 'Dispensator' (1161) as a confirmed direct ancestor of Hunter. This is accurate for the Clan Spens line generally, but has NOT been confirmed for Hunter's specific patrilineal descent. Dale Sr.'s father's identity is unknown — it is possible but unconfirmed that he descends from the Wormiston Spens line.",
+      "recommended_correction": "Label all ancestors before William Spence (born 1908) as 'possible' or 'probable' clan-line ancestors, not confirmed direct ancestors, until the immigrant generation is identified"
+    }
+  ],
+
+  "next_steps": [
+    {
+      "priority": 1,
+      "action": "Ask Dale Jr. (Hunter's father, age ~59) directly: 'What was your grandfather's (Dale Sr.'s father's) name, and where was he from in Scotland or England?'",
+      "cost": "Free",
+      "expected_yield": "Name of the immigrant ancestor — unlocks the entire gap",
+      "confidence_on_yield": "HIGH — Dale Jr. would know his grandfather's name"
+    },
+    {
+      "priority": 2,
+      "action": "Order Texas DSHS birth certificate for Dale William Spence Sr., born Beaumont TX c.1934",
+      "url": "https://www.dshs.texas.gov/vital-statistics/vital-records-request",
+      "cost": "~$22",
+      "expected_yield": "Both parents' full names — directly names the immigrant ancestor",
+      "confidence_on_yield": "HIGH"
+    },
+    {
+      "priority": 3,
+      "action": "Search 1930 US Census, Jefferson County TX — Spence household, head born Scotland or England",
+      "url": "https://www.familysearch.org/search/collection/1803958",
+      "cost": "Free with FamilySearch account",
+      "expected_yield": "Father's name AND birthplace (the 1930 census records birthplace of every person). This is the fastest free path to identifying the immigrant.",
+      "confidence_on_yield": "MODERATE — depends on whether family was in Beaumont by 1930"
+    },
+    {
+      "priority": 4,
+      "action": "Search National Archives microfilm M1359 Roll #20 for full KUNA passenger manifest (April 1920)",
+      "url": "https://www.archives.gov/research/census/online-resources",
+      "cost": "Free at NARA Fort Worth; ~$25 via Ancestry",
+      "expected_yield": "Full details for William Spence (age 19, April 1920) — hometown in UK, age/birthdate, would confirm or deny connection to Hunter's William Spence (b.1908 Philadelphia)",
+      "citation": "INSMF-20-D, NARG85, M1359, Roll #20"
+    },
+    {
+      "priority": 5,
+      "action": "Verify Joseph C. Spence (b.1878 England) in 1900 or 1910 US Census — search Pennsylvania for English-born Spence head of household with French-born wife Jeanne/Jeannette Meton",
+      "cost": "Free with FamilySearch account",
+      "expected_yield": "Would confirm Joseph C. Spence's existence in Pennsylvania records, his age, wife's details, and children including William Spence. This is the key to validating the existing tree entries."
+    },
+    {
+      "priority": 6,
+      "action": "Contact Tyrrell Historical Library, Beaumont TX — request Spence family newspaper search 1920-1940",
+      "url": "https://beaumonttexas.gov/government/departments/library-services/tyrrell-historical-library/",
+      "cost": "Free (local library research service)",
+      "expected_yield": "Beaumont Enterprise or Beaumont Journal obituaries or news mentions of the immigrant Spence family"
+    },
+    {
+      "priority": 7,
+      "action": "DNA test (AncestryDNA or 23andMe) for Hunter or Dale Jr. — Y-chromosome haplogroup R-M269 = NW European; I-M253 = Scandinavian/British Isles",
+      "cost": "$79-99",
+      "expected_yield": "Confirms Scottish vs. English origin; Y-STR markers may match known Spens/Spence lineage testers"
+    },
+    {
+      "priority": 8,
+      "action": "Search ScotlandsPeople OPR for Spence/Spens baptisms in Dysart, Fife 1700-1850 — look for a line leading to an emigrant born c.1870-1900",
+      "url": "https://www.scotlandspeople.gov.uk",
+      "cost": "~£7 in credits",
+      "expected_yield": "If Hunter's ancestor was from Dysart (same parish as David Spence 1639), could establish a continuous Fife line"
+    }
+  ],
+
+  "sources": [
+    {
+      "url": "https://www.wikitree.com/wiki/Spens-1",
+      "what": "David Spens III (1571-1615) — full genealogical profile with parents, spouse, children, sources"
+    },
+    {
+      "url": "https://www.wikitree.com/wiki/Spens-2",
+      "what": "Sir David Spens II of Wormiston (1538-1571) — 7th Laird, National Register of Archives Scotland citations"
+    },
+    {
+      "url": "https://www.wikitree.com/wiki/Spens-47",
+      "what": "James Spens (c.1510-1595, Lathallan, Scotland) — son of Alexander Spens; thepeerage.com"
+    },
+    {
+      "url": "https://www.wikitree.com/wiki/Spens-48",
+      "what": "Alexander Spens (c.1490-1548, Lathallan) — son of John Spens (1470-1520)"
+    },
+    {
+      "url": "https://www.wikitree.com/wiki/Spens-107",
+      "what": "Sir John de Spens 2nd of Lathallan (c.1380-aft.1435) — Records of Parliament of Scotland; Burke's 1836; Anderson 1877; Wood 1862; Red Book of Scotland 2021"
+    },
+    {
+      "url": "https://www.wikitree.com/wiki/Spens-111",
+      "what": "Henry (Spens) de Spens (c.1240-aft.1300) — earliest documented Spens genealogical link"
+    },
+    {
+      "url": "https://www.wikitree.com/wiki/Spens-131",
+      "what": "John Spens 6th Laird of Wormiston (1500-1547) — Dr. Jeremiah Spence (Geneanet); Find a Grave #196650511; NRAS3503"
+    },
+    {
+      "url": "https://www.wikitree.com/wiki/Spence-1823",
+      "what": "David Spence (1639-1679, Dysart Fife → Maryland) — Scotland Births and Baptisms FamilySearch; Maryland Church Records; Find a Grave #195066925"
+    },
+    {
+      "url": "https://www.wikitree.com/wiki/Spence-2810",
+      "what": "John Spence (1611-1704, Glasgow → Virginia) — FamilySearch marriage records; Clan MacFarlane genealogy database; Find a Grave #195685574"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/James_Spens_(diplomat)",
+      "what": "Sir James Spens of Wormiston (c.1571-1632) — Ambassador to Sweden; descendants Swedish Counts Spens"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Clan_Spens",
+      "what": "Clan Spens full history 1161-present; MacDuff sept connection; Wormiston estate; current Baron Spens"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Thomas_Spence",
+      "what": "Thomas Spence (1750-1814) — father Jeremiah from Aberdeen, migrated to Newcastle c.1739; confirms Aberdeen → Newcastle Spence corridor"
+    },
+    {
+      "url": "http://ghf.destinationnext.com/immigration/Search.aspx",
+      "what": "Galveston Historical Foundation Immigration Database — William Spence age 19, ship KUNA, April 1920, arrived Port Arthur TX, NARG85 M1359 Roll 20"
+    },
+    {
+      "url": "https://www.wikitree.com/wiki/Space:Clan_SPENCE",
+      "what": "Clan SPENCE WikiTree space — full Lathallan chain Henry de Spens through Nathaniel 13th of Lathallan (married 1665)"
+    },
+    {
+      "url": "https://electricscotland.com/webclans/m/macduff2.html",
+      "what": "Clan MacDuff official sept list — Spence and Spens explicitly named"
+    },
+    {
+      "url": "https://clanspens.xyz/clan-spens-families/spens-of-wormiston-family/spens-barony-of-wormiston-overview/",
+      "what": "Spens Barony of Wormiston overview — Lairds 1st (Sir Duncan Spens, 1355) through 9th (Sir James Spens, 1571-1632)"
+    },
+    {
+      "url": "https://www.amazon.com/Book-Spens-Feudal-Wormiston-1386-1601/dp/B09BT42RYV",
+      "what": "Dr. Jeremiah P. Spence PhD — Book of Spens: Feudal Barony of Wormiston in Fife (1386-1601) — scholarly source for the full Wormiston chain"
+    },
+    {
+      "url": "https://ndfhs.org.uk/",
+      "what": "Northumberland & Durham Family History Society — holds hundreds of parish register transcripts relevant to English Spence family research"
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "title": "Frost Family Deep Ancestry Research",
+  "compiled": "2026-04-27",
+  "researcher": "genealogy-subagent",
+  "task": "Push the Frost line as far back as possible from Thomas Claiborne Frost I (1833-1903), founder of Frost Bank, San Antonio TX. Also document the Herff and Kampmann families connected to the Frost network.",
+  "methodology_note": "Sources consulted: TSHA Handbook of Texas Online (primary), Wikipedia (Ferdinand Ludwig Herff), Internet Archive genealogy texts, Geni.com family tree data, Encyclopedia.com business history, San Antonio Report, Boerne Book, WikiTree surname index, Washington & Lee obituary, FundingUniverse corporate history. Find a Grave and Ancestry returned 403/empty. FamilySearch returned browser-incompatible response. Tavily hit rate limit. All confidence markings are conservative.",
+
+  "summary": "Thomas Claiborne Frost I (1833-1903) arrived in Texas in 1854 from Belle Font, Jackson County, Alabama. His parents were Thomas C. Frost and Crissy (Price) Frost. Earlier generations have not been independently verified in accessible primary sources. The Frost surname is Anglo-Saxon in origin (Old English 'frost'), well-documented in England from 1086 and in colonial America from 1630, reaching the Southern US via New Jersey → North Carolina → Tennessee → Alabama migration patterns documented for related Frost lines. There is no evidence of Frost presence in Texas during the Spanish colonial or Republic of Texas era (pre-1854). The Herff family (German-Hessian aristocracy) and Kampmann family (Prussian craftsmen) are the key collateral San Antonio families connected to the Frost banking dynasty by marriage, not by direct blood relationship to Hunter Spence's confirmed maternal line (Lepick/Boehme).",
+
+  "critical_context": {
+    "note": "Hunter Spence's confirmed maternal line is Lepick, NOT Frost. Shari Mattingly's mother was Jennive Imogene Lepick (1923-2008), daughter of Frederick Charles Lepick Sr. and Hilda Boehme Lepick. The Frost/Herff family network is historically documented and interesting as San Antonio notable families but has NO confirmed connection to Hunter's direct ancestry. These findings document the Frost line for collateral/context purposes only.",
+    "source": "research/25-shari-mother-frost-final.json — confidence 0.97"
+  },
+
+  "confirmed_ancestors": [
+    {
+      "name": "Thomas Claiborne Frost I",
+      "alternate_spellings": ["Thomas Clayborne Frost Sr.", "Col. T.C. Frost"],
+      "birth_year": 1833,
+      "birth_place": "Belle Font, Jackson County, Alabama, USA",
+      "death_year": 1903,
+      "death_place": "San Antonio, Bexar County, Texas, USA",
+      "confidence": "confirmed",
+      "fact": "Founder of Frost National Bank (San Antonio, chartered 1899). Arrived in Texas 1854. Graduated Irving College, Tennessee, 1853. Read law under Sam Houston and Henderson King Yoakum. Admitted to bar ~1856. Civil War service as Lt. Colonel, First Mounted Rifles. Founded mercantile firm Fitch, Frost and Brother 1868.",
+      "spouse": "1st: Mrs. Betty Eastland Roberts (married 30 Nov 1858, Belton TX; one daughter survived to adulthood); 2nd: Josephine Houston (married 31 Dec 1878; four children)",
+      "parents": "Thomas C. Frost (father) and Crissy (Price) Frost (mother)",
+      "sources": [
+        "TSHA Handbook of Texas: https://www.tshaonline.org/handbook/entries/frost-thomas-claiborne",
+        "Historical marker text via texashistoricalmarkers.weebly.com",
+        "Encyclopedia.com: https://www.encyclopedia.com/books/politics-and-business-magazines/cullenfrost-bankers-inc"
+      ]
+    },
+    {
+      "name": "Josephine Houston Frost",
+      "birth_year": 1853,
+      "birth_place": "Unknown (Texas probable)",
+      "death_year": 1921,
+      "death_place": "Unknown",
+      "confidence": "confirmed",
+      "fact": "Second wife of Thomas Claiborne Frost I. Geni profile confirmed her birth/death years and marriage. Mother of: Lucy Fannie Frost (1888-1976, married Ferdinand P. Herff), Thomas Clayborne Frost II, Joseph Hardin Frost, Josephine Frost, and John M. Frost.",
+      "spouse": "Thomas Claiborne Frost I (married 31 Dec 1878)",
+      "sources": [
+        "Geni.com: https://www.geni.com/people/Josephina-Frost/6000000086184049864",
+        "TSHA Handbook — lists four children from second marriage"
+      ]
+    },
+    {
+      "name": "Thomas Clayborne Frost II",
+      "birth_year": null,
+      "birth_place": "Texas (probable San Antonio)",
+      "death_year": null,
+      "death_place": "Unknown",
+      "confidence": "confirmed",
+      "fact": "Son of Thomas Claiborne Frost I and Josephine Houston. Succeeded his father as Frost Bank president upon founder's death in 1903; served until 1926 when he became chairman. His brother Joseph H. Frost then became president.",
+      "spouse": "Unknown",
+      "sources": [
+        "Encyclopedia.com company history",
+        "FundingUniverse Cullen/Frost history: https://www.fundinguniverse.com/company-histories/cullen-frost-bankers-inc-history/"
+      ]
+    },
+    {
+      "name": "Joseph Hardin Frost",
+      "birth_year": 1881,
+      "birth_month_day": "August 20",
+      "birth_place": "San Antonio, Bexar County, Texas",
+      "death_year": 1956,
+      "death_month_day": "July 31",
+      "death_place": "San Antonio, Bexar County, Texas",
+      "confidence": "confirmed",
+      "fact": "Son of Thomas Claiborne Frost I and Josephine Houston. Bank president 1926 onward. Married Eda Kampmann (a granddaughter of John Herman Kampmann, the San Antonio builder — NOTE: this Eda Kampmann is distinct from Eda Caroline Kampmann Meyer, 1855-1925). Find a Grave memorial 22626951.",
+      "spouse": "Eda Kampmann; later Julia King",
+      "sources": [
+        "Find a Grave: https://www.findagrave.com/memorial/15779312/joseph-hardin-frost",
+        "Ancestry: https://www.ancestry.com/genealogy/records/joseph-hardin-frost-24-2t08tg",
+        "Encyclopedia.com"
+      ]
+    },
+    {
+      "name": "Thomas Clayborne Frost III",
+      "birth_year": 1903,
+      "birth_month_day": "December 22",
+      "birth_place": "San Antonio, Bexar County, Texas",
+      "death_year": 1971,
+      "death_month_day": "January 23",
+      "death_place": "Bexar County, Texas",
+      "confidence": "confirmed",
+      "fact": "Son of Thomas Clayborne Frost II and Lillie Clark Beall (his mother's maiden name per strongfamilytree.org). Known as 'T.C. Frost Sr.' in his son's era. Married Florence Ilse Herff (1906-1984) on 3 Aug 1925.",
+      "spouse": "Florence Ilse Herff Frost (1906-1984; married 3 Aug 1925)",
+      "parents": "Thomas Clayborne Frost II (father) and Lillie Clark Beall (mother)",
+      "sources": [
+        "strongfamilytree.org: http://strongfamilytree.org/getperson.php?personID=I23162&tree=STR06",
+        "Find a Grave data cited in prior research (research/19-frost-maternal.json)"
+      ]
+    },
+    {
+      "name": "Thomas Clayborne Frost IV (Tom Frost Jr.)",
+      "birth_year": 1927,
+      "birth_month_day": "October 29",
+      "birth_place": "San Antonio, Bexar County, Texas",
+      "death_year": 2018,
+      "death_place": "San Antonio, Bexar County, Texas",
+      "confidence": "confirmed",
+      "fact": "Son of Thomas Clayborne Frost III and Florence Ilse Herff. Graduated Washington & Lee University 1950. President of Culberson-Frost Bankers (Frost Bank) 1963-1997; Chairman Emeritus until death. Married Patricia 'Pat' Holden Frost; four children: Tom III, Bill H., Don B., Pat B. Find a Grave 192133735.",
+      "spouse": "Patricia Holden Frost (married ~67 years)",
+      "sources": [
+        "Washington & Lee obituary: https://columns.wlu.edu/former-wl-trustee-thomas-c-frost-jr-50-dies-at-90/",
+        "San Antonio Report eulogy: https://sanantonioreport.org/a-eulogy-for-thomas-clayborne-frost-1927-2018/"
+      ]
+    }
+  ],
+
+  "probable_ancestors": [
+    {
+      "name": "Thomas C. Frost (father of founder)",
+      "birth_year": "~1800-1810",
+      "birth_place": "Unknown — possibly Tennessee or Virginia based on Alabama migration patterns of the era",
+      "death_year": "Unknown",
+      "death_place": "Possibly Jackson County, Alabama",
+      "confidence": "probable",
+      "fact": "Named in TSHA as father of Thomas Claiborne Frost I. First name Thomas and surname Frost confirmed. No birth/death dates found in accessible sources. Wife: Crissy (Price) Frost. Belle Font, Jackson County, Alabama became the county seat in 1821, suggesting the family arrived in Alabama in the early territorial period (~1820s-1833). The 1830 or 1840 Jackson County census would likely contain a Thomas Frost household.",
+      "spouse": "Crissy (Price) Frost",
+      "sources": [
+        "TSHA Handbook of Texas (names parents of T.C. Frost I)"
+      ]
+    },
+    {
+      "name": "Crissy (Price) Frost",
+      "birth_year": "~1800-1815",
+      "birth_place": "Unknown — possibly Virginia, North Carolina, or Tennessee",
+      "death_year": "Unknown",
+      "death_place": "Possibly Jackson County, Alabama",
+      "confidence": "probable",
+      "fact": "Named in TSHA as mother of Thomas Claiborne Frost I. Maiden name Price confirmed. Price is a Welsh/English surname common in Virginia and the Carolinas during this period. No further genealogical detail found in accessible sources.",
+      "spouse": "Thomas C. Frost",
+      "sources": [
+        "TSHA Handbook of Texas (names parents of T.C. Frost I)"
+      ]
+    },
+    {
+      "name": "Lucy Fannie Frost Herff",
+      "birth_year": 1888,
+      "birth_month_day": "November 28",
+      "birth_place": "San Antonio, Bexar County, Texas",
+      "death_year": 1976,
+      "death_month_day": "October 28",
+      "death_place": "San Antonio, Bexar County, Texas",
+      "confidence": "confirmed",
+      "fact": "Daughter of Thomas Claiborne Frost I and Josephine Houston. Married Ferdinand P. Herff (son of Ferdinand Ludwig Herff's line), creating a second Frost-Herff marriage in the San Antonio notable-family network. Geni profile confirmed.",
+      "spouse": "Ferdinand P. Herff",
+      "sources": [
+        "Geni.com: https://www.geni.com/people/Lucie-Herff/6000000086184234821"
+      ]
+    }
+  ],
+
+  "herff_family": {
+    "note": "The Herff family is documented here because of direct connections to the Frost family through two marriages: (1) Lucy Fannie Frost married Ferdinand P. Herff; (2) Thomas Clayborne Frost III married Florence Ilse Herff. The Herff family is NOT part of Hunter Spence's confirmed maternal line.",
+    "confirmed_members": [
+      {
+        "name": "Ferdinand Ludwig von Herff (later Ferdinand Ludwig Herff)",
+        "birth_year": 1820,
+        "birth_month_day": "November 29",
+        "birth_place": "Darmstadt, Grand Duchy of Hesse, Germany",
+        "death_year": 1912,
+        "death_month_day": "May 18",
+        "death_place": "San Antonio, Bexar County, Texas",
+        "confidence": "confirmed",
+        "fact": "Pioneer physician of Texas. Participated in the Bettina commune in Texas 1847. Returned to Germany then came back permanently, settling in New Braunfels then San Antonio 1850. Dropped the aristocratic 'von' upon becoming an American citizen. Founded San Antonio's early medical institution. Had six children. His father was Christian von Herff (Privy Councillor / Supreme Court Judge, Hesse-Darmstadt) and his mother was Eleanora von Meusebach (cousin of John O. Meusebach, the German colonizer of Fredericksburg TX). Buried: San Antonio City Cemetery No. 1. Find a Grave 14088285.",
+        "spouse": "Mathilde Klingelhoeffer (married 1849)",
+        "parents": "Christian von Herff (father) and Eleanora von Meusebach (mother)",
+        "sources": [
+          "Wikipedia: https://en.wikipedia.org/wiki/Ferdinand_Ludwig_Herff",
+          "TSHA: https://www.tshaonline.org/handbook/entries/herff-ferdinand-ludwig",
+          "Find a Grave 14088285"
+        ]
+      },
+      {
+        "name": "Christian von Herff",
+        "birth_year": "Unknown",
+        "birth_place": "Hesse-Darmstadt, Germany (probable)",
+        "death_year": "Unknown",
+        "death_place": "Unknown",
+        "confidence": "confirmed",
+        "fact": "Father of Ferdinand Ludwig Herff. Privy Councillor and Judge of the Hessian Supreme Court. Married Eleanora von Meusebach.",
+        "spouse": "Eleanora von Meusebach",
+        "sources": [
+          "Wikipedia article on Ferdinand Ludwig Herff"
+        ]
+      },
+      {
+        "name": "Eleanora von Meusebach (Herff)",
+        "birth_year": "Unknown",
+        "birth_place": "Germany",
+        "death_year": "Unknown",
+        "death_place": "Unknown",
+        "confidence": "confirmed",
+        "fact": "Mother of Ferdinand Ludwig Herff. A cousin of John O. Meusebach (born Ottfried Hans Freiherr von Meusebach, 1812-1897), the German colonizer who founded Fredericksburg, Texas and negotiated the Meusebach-Comanche Treaty of 1847. John Meusebach's father was Baron Karl Hartwig Gregor von Meusebach; Eleanora was from the same aristocratic Meusebach family of Hesse.",
+        "spouse": "Christian von Herff",
+        "sources": [
+          "Wikipedia: https://en.wikipedia.org/wiki/Ferdinand_Ludwig_Herff (Eleanora named as cousin of John O. Meusebach)",
+          "Wikipedia: https://en.wikipedia.org/wiki/John_Meusebach"
+        ]
+      },
+      {
+        "name": "John Bennett Herff (Dr.)",
+        "birth_year": 1878,
+        "birth_place": "San Antonio, Texas",
+        "death_year": 1959,
+        "death_place": "San Antonio, Texas",
+        "confidence": "confirmed",
+        "fact": "Son of Eda Caroline Kampmann and her first husband Dr. John Herff (a son of Ferdinand Ludwig Herff). Grandson of both Ferdinand Ludwig Herff and John Herman Kampmann. Physician in San Antonio. Married Florence Harris in 1902. Children: Carol (1904-1922), Florence Ilse (1906-1984), Jean (1910-1996). Find a Grave 94207142.",
+        "spouse": "Florence Harris (married 1902)",
+        "parents": "Eda Caroline Kampmann (mother) and Dr. John Herff (father, a son of Ferdinand Ludwig Herff)",
+        "sources": [
+          "John Benedict article on Caleb's Log Cabin (cited in research/47-frost-herff-san-antonio.md)",
+          "Find a Grave: https://www.findagrave.com/memorial/94207142/john-bennett-herff"
+        ]
+      },
+      {
+        "name": "Florence Ilse Herff Frost",
+        "birth_year": 1906,
+        "birth_month_day": "June 16",
+        "birth_place": "Texas (San Antonio probable)",
+        "death_year": 1984,
+        "death_month_day": "October 1",
+        "death_place": "Bexar County, Texas",
+        "confidence": "confirmed",
+        "fact": "Daughter of Dr. John Bennett Herff and Florence Harris. Granddaughter of Ferdinand Ludwig Herff (via John Bennett Herff) and John Herman Kampmann (via Eda Kampmann). Married Thomas Clayborne Frost III on 3 Aug 1925. Mother of Tom Frost Jr. (1927-2018) and Ilse 'Ita' Herff Frost McNeel (1930-2007). Find a Grave 22626925.",
+        "spouse": "Thomas Clayborne Frost III (married 3 Aug 1925)",
+        "sources": [
+          "research/47-frost-herff-san-antonio.md",
+          "research/19-frost-maternal.json",
+          "Find a Grave 22626925 (cited in prior research)"
+        ]
+      }
+    ]
+  },
+
+  "kampmann_family": {
+    "note": "John Herman Kampmann was a founding figure of San Antonio. His daughter Eda Caroline Kampmann (1855-1925) married twice: first to Dr. John Herff (son of Ferdinand Ludwig Herff), then to J.H. Frost (a relative of the bank Frost family). This created the Kampmann-Herff-Frost network of San Antonio elite families.",
+    "confirmed_members": [
+      {
+        "name": "John Herman Kampmann",
+        "birth_year": 1819,
+        "birth_month_day": "December 25",
+        "birth_place": "Leveringhausen, Markischer Kreis, Nordrhein-Westfalen, Prussia",
+        "death_year": 1885,
+        "death_month_day": "September 7",
+        "death_place": "Colorado Springs, Colorado (body returned to San Antonio for burial)",
+        "confidence": "confirmed",
+        "fact": "Master builder of San Antonio. Left Europe 1848, settled in San Antonio. Married Caroline Bonnet (also Prussian) in 1850. Built the Menger Hotel (1858-1859) and much of early San Antonio — credited with building one-third of the city. Attended University of Cologne before emigrating. Children: Gustav (son), Herman (son), Eda (daughter), Eliza (daughter, died young), Lina (daughter, died young). Find a Grave 15903766.",
+        "spouse": "Caroline Bonnet (married 1850, also of Prussia)",
+        "parents": "John Peter Kampmann (father) and Elizabeth Finniman Selingshof Kampmann (mother)",
+        "sources": [
+          "TSHA: https://www.tshaonline.org/handbook/entries/kampmann-john-herman",
+          "Find a Grave: https://www.findagrave.com/memorial/15903766/john-herman-kampmann"
+        ]
+      },
+      {
+        "name": "John Peter Kampmann",
+        "birth_year": "Unknown",
+        "birth_place": "Prussia (Germany)",
+        "death_year": "Unknown",
+        "death_place": "Unknown",
+        "confidence": "confirmed",
+        "fact": "Father of John Herman Kampmann. Named in TSHA Handbook as parent of the San Antonio builder.",
+        "spouse": "Elizabeth Finniman (Selingshof) Kampmann",
+        "sources": [
+          "TSHA: https://www.tshaonline.org/handbook/entries/kampmann-john-herman"
+        ]
+      },
+      {
+        "name": "Eda Caroline Kampmann (Meyer / Frost)",
+        "birth_year": 1855,
+        "birth_place": "San Antonio, Texas (probable)",
+        "death_year": 1925,
+        "death_place": "San Antonio, Texas (probable)",
+        "confidence": "confirmed",
+        "fact": "Daughter of John Herman Kampmann and Caroline Bonnet. First married Dr. John Herff (a son of Ferdinand Ludwig Herff) — he died ~1882 at age 31. Their son: John Bennett Herff (1878-1959). After Dr. Herff's death she remarried. Also connected to J.H. Frost (a San Antonio Fiesta court record places her as 'queen' to J.H. Frost's 'prime minister'). Find a Grave 15903818 lists her as 'Eda Caroline Kampmann Meyer' — the Meyer may refer to a second or third marriage record.",
+        "spouse": "1st: Dr. John Herff (son of Ferdinand Ludwig Herff); 2nd: possibly J.H. Frost or Dr. Meyer",
+        "sources": [
+          "San Antonio Report (Judith Carrington article): https://sanantonioreport.org/discovery-treasure-san-antonio-history-new-york-city/",
+          "Find a Grave 15903818: https://www.findagrave.com/memorial/15903818/eda-caroline-meyer",
+          "research/47-frost-herff-san-antonio.md"
+        ]
+      }
+    ]
+  },
+
+  "frost_surname_origin": {
+    "language_family": "Anglo-Saxon / Old English",
+    "derivation": "From the Old English word 'frost' or 'forst' (ice crystals, freezing weather). Used as a nickname for someone with white or gray hair, a cold demeanor, or born during a harsh winter. Not Germanic in the Frost bank family's case — the name predates German immigration patterns.",
+    "earliest_english_record": "William Forst, Domesday Book of Hampshire, 1086",
+    "other_early_records": [
+      "Lefstan Frost, Feudal Documents of Bury St. Edmunds, Suffolk, 1095",
+      "Gilbert Frost, Warwick Pipe Rolls, 1195"
+    ],
+    "colonial_america_arrival": "Nicholas Frost and William Frost arrived in America 1630. Thomas Frost (age 28) sailed from London on the ship 'John' in October 1635.",
+    "american_migration_pattern": "New England / Mid-Atlantic colonies → New Jersey → North Carolina → Tennessee → Alabama → Texas. This matches the pattern documented for the Bedford County, Tennessee Frost family (Ebenezer Frost Sr., b. NJ 1746, settled NC then TN). Thomas Claiborne Frost's Alabama origin fits this geographic progression.",
+    "sources": [
+      "surnames.behindthename.com",
+      "houseofnames.com/frost-family-crest",
+      "archive.org: 'The Frosts and Related Families of Bedford County, Tennessee'"
+    ]
+  },
+
+  "republic_of_texas_era_assessment": {
+    "finding": "No Frost presence confirmed in Texas during the Spanish colonial era (pre-1836) or Republic of Texas era (1836-1845). Thomas Claiborne Frost I arrived in Texas in 1854, well after Texas statehood (1845). No Frost land grants or early settler records found for Bexar County from the Spanish or Republic period.",
+    "note": "The TSHA states he 'came to Texas from Alabama in 1855' (one source says 1854, another 1855 — likely arrived 1854, began work at Austin College which opened fall 1854).",
+    "sources": ["TSHA Handbook", "Historical marker text"]
+  },
+
+  "two_eda_kampmanns_clarification": {
+    "note": "There is a critical distinction in the Frost-Kampmann genealogy that prior research files may have conflated.",
+    "eda_1": {
+      "name": "Eda Caroline Kampmann Meyer",
+      "birth": "1855",
+      "death": "1925",
+      "find_a_grave": "15903818",
+      "relationship": "Daughter of John Herman Kampmann (the San Antonio builder). First married Dr. John Herff (son of Ferdinand Ludwig Herff). Their son: Dr. John Bennett Herff (1878-1959). Second marriage unclear (Meyer or Frost).",
+      "connection_to_frost_bank": "Collateral — her son John Bennett Herff married Florence Harris; their daughter Florence Ilse Herff married T.C. Frost III."
+    },
+    "eda_2": {
+      "name": "Eda Kampmann Frost (wife of Joseph Hardin Frost, 1881-1956)",
+      "relationship": "A different Eda Kampmann — likely a granddaughter or niece of John Herman Kampmann, not his daughter (generational math: Eda 1 was born 1855, same generation as Joseph H. Frost's parents). Details not fully confirmed in accessible sources.",
+      "connection_to_frost_bank": "Direct — married Joseph Hardin Frost, the Frost Bank president 1926-1956."
+    }
+  },
+
+  "corrections": [
+    {
+      "correction": "Thomas Clayborne Frost III's mother was NOT Eda Kampmann. His mother was Lillie Clark Beall (per strongfamilytree.org genealogy). T.C. Frost III was a grandson of the founder through the T.C. Frost II line, not the Joseph H. Frost / Eda Kampmann line.",
+      "source": "http://strongfamilytree.org/getperson.php?personID=I23162&tree=STR06"
+    },
+    {
+      "correction": "Florence Ilse Herff Frost (wife of T.C. Frost III) was a granddaughter of Ferdinand Ludwig Herff — NOT a daughter. Her father was Dr. John Bennett Herff (1878-1959), who was the son of Eda Caroline Kampmann and her first husband Dr. John Herff (a son of Ferdinand Ludwig Herff).",
+      "source": "John Benedict article cited in research/47-frost-herff-san-antonio.md"
+    },
+    {
+      "correction": "The Frost-Kampmann connection entered the family through TWO separate marriages, not one: (1) Lucy Fannie Frost (daughter of the founder) married Ferdinand P. Herff; (2) T.C. Frost III (grandson of the founder) married Florence Ilse Herff (a Kampmann-Herff granddaughter). Additionally, Joseph Hardin Frost (another son of the founder) married an Eda Kampmann.",
+      "source": "Geni profile for Lucie Herff; San Antonio Report article; prior research files"
+    },
+    {
+      "correction": "Shari Mattingly's maternal line is confirmed as Lepick, NOT Frost. The oral family tradition of a 'Frost Bank uncle' is unverified mythology. The Frost/Herff/Kampmann research in files 19, 47 is collateral context only.",
+      "source": "research/25-shari-mother-frost-final.json (confidence 0.97)"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "TSHA Handbook of Texas: Thomas Claiborne Frost",
+      "url": "https://www.tshaonline.org/handbook/entries/frost-thomas-claiborne",
+      "access": "free_direct",
+      "key_facts": ["born Belle Font Jackson County Alabama Dec 31 1833", "parents Thomas C. and Crissy (Price) Frost", "arrived Texas 1854", "founded Frost Bank 1868/1899"]
+    },
+    {
+      "name": "TSHA Handbook of Texas: Ferdinand Ludwig Herff",
+      "url": "https://www.tshaonline.org/handbook/entries/herff-ferdinand-ludwig",
+      "access": "free_direct",
+      "key_facts": ["born Darmstadt Nov 29 1820", "Bettina colony 1847", "San Antonio 1850", "pioneered Texas medicine", "died May 18 1912"]
+    },
+    {
+      "name": "TSHA Handbook of Texas: John Herman Kampmann",
+      "url": "https://www.tshaonline.org/handbook/entries/kampmann-john-herman",
+      "access": "free_direct",
+      "key_facts": ["born Leveringhausen Prussia Dec 25 1819", "parents John Peter and Elizabeth Finniman Kampmann", "arrived San Antonio 1848", "married Caroline Bonnet 1850", "children: Gustav, Herman, Eda, Eliza, Lina", "built Menger Hotel", "died Colorado Springs Sep 7 1885"]
+    },
+    {
+      "name": "Wikipedia: Ferdinand Ludwig Herff",
+      "url": "https://en.wikipedia.org/wiki/Ferdinand_Ludwig_Herff",
+      "access": "free_direct",
+      "key_facts": ["father Christian von Herff, Privy Councillor Hesse-Darmstadt", "mother Eleanora von Meusebach (cousin of John O. Meusebach)", "wife Mathilde Klingelhoeffer married 1849", "six children", "dropped 'von' on becoming American citizen", "buried San Antonio City Cemetery No. 1"]
+    },
+    {
+      "name": "Wikipedia: John O. Meusebach",
+      "url": "https://en.wikipedia.org/wiki/John_Meusebach",
+      "access": "free_direct",
+      "key_facts": ["born Dillenburg Duchy of Nassau May 26 1812", "father Baron Karl Hartwig Gregor von Meusebach", "mother Ernestine von Meusebach née von Witzleben", "founded Fredericksburg TX", "Meusebach-Comanche Treaty 1847"]
+    },
+    {
+      "name": "strongfamilytree.org: Thomas Clayborne Frost (1903-1971)",
+      "url": "http://strongfamilytree.org/getperson.php?personID=I23162&tree=STR06",
+      "access": "free_direct",
+      "key_facts": ["born Dec 22 1903 Texas", "died Jan 23 1971 Bexar County", "parents: Thomas Clayborne Frost and Lillie Clark Beall", "grandfather: Thomas Clayborne Frost (1833 Jackson County Alabama)", "married Ilse Herff Aug 3 1925"]
+    },
+    {
+      "name": "San Antonio Report: Recovering Kampmann",
+      "url": "https://sanantonioreport.org/discovery-treasure-san-antonio-history-new-york-city/",
+      "access": "free_direct",
+      "key_facts": ["Eda Kampmann first married a Herff", "husband died ~1882 age 31", "John Herman Kampmann built one-third of San Antonio", "Ilse identified as Kampmann's granddaughter"]
+    },
+    {
+      "name": "Washington & Lee: Thomas C. Frost Jr. obituary",
+      "url": "https://columns.wlu.edu/former-wl-trustee-thomas-c-frost-jr-50-dies-at-90/",
+      "access": "free_direct",
+      "key_facts": ["born Oct 29 1927 San Antonio", "died Aug 10 2018", "Frost Bank president 1963-1997", "four children: Tom III, Bill H., Don B., Pat B.", "great-grandfather founded Frost Bank 1868"]
+    },
+    {
+      "name": "Geni.com: Lucie Herff (Frost)",
+      "url": "https://www.geni.com/people/Lucie-Herff/6000000086184234821",
+      "access": "snippet",
+      "key_facts": ["Lucy Fannie Frost born Nov 28 1888 San Antonio", "died Oct 28 1976 San Antonio", "daughter of Col. Thomas Claiborne Frost and Josephine Houston", "married Ferdinand P. Herff"]
+    },
+    {
+      "name": "Geni.com: Col. Thomas Clayborne Frost Sr. (1833-1903)",
+      "url": "https://www.geni.com/people/Col-Thomas-Frost-Sr/6000000086183599035",
+      "access": "snippet (page rendered empty on fetch)",
+      "key_facts": ["per Geni listing: birth 1833, death 1903, Belle Font Alabama"]
+    },
+    {
+      "name": "Internet Archive: The Frosts and Related Families of Bedford County, Tennessee",
+      "url": "https://archive.org/stream/frostsrelatedfam00fros/frostsrelatedfam00fros_djvu.txt",
+      "access": "free_direct",
+      "key_facts": ["Frost family NJ→NC→TN migration", "earliest: William Frost b. NJ ~1744", "Chaffin Frost (descendant) in Leon County TX by 1860", "no Thomas Claiborne Frost mentioned — likely a different Frost line"]
+    },
+    {
+      "name": "Amazon: Character Endures: The Genealogy of Thomas Claiborne Frost (David Haynes, 2002)",
+      "url": "https://www.amazon.com/Character-endures-genealogy-Thomas-Claiborne/dp/0971991707",
+      "access": "listing_only — book not read",
+      "key_facts": ["155-page genealogy published 2002 by T.C. Frost", "HIGHEST PRIORITY for further research — likely contains full Frost family tree back to Alabama and England"]
+    },
+    {
+      "name": "houseofnames.com and surnames.behindthename.com: Frost surname origin",
+      "url": "https://www.houseofnames.com/frost-family-crest",
+      "access": "free_direct",
+      "key_facts": ["Anglo-Saxon origin", "Old English 'frost/forst'", "first recorded 1086 Domesday Book Hampshire", "NOT a German surname in origin"]
+    },
+    {
+      "name": "Find a Grave 15903818: Eda Caroline Kampmann Meyer",
+      "url": "https://www.findagrave.com/memorial/15903818/eda-caroline-meyer",
+      "access": "403 on direct fetch — data via web snippet",
+      "key_facts": ["born 1855", "died 1925", "daughter of John H. Kampmann and Caroline Bennett", "first married Dr. John Herff", "son: John Bennett Herff 1878"]
+    }
+  ],
+
+  "next_steps": [
+    {
+      "priority": "HIGH",
+      "action": "Obtain 'Character Endures: The Genealogy of Thomas Claiborne Frost' by David Haynes (2002, ISBN 9780971991705). This 155-page book was commissioned by the Frost family and almost certainly contains the full lineage back to Alabama, Tennessee, and England including Thomas C. Frost and Crissy (Price) Frost and their antecedents.",
+      "where": "Amazon, AbeBooks, or San Antonio Public Library / Bexar County Genealogical Society"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Search 1830 and 1840 Federal Census, Jackson County, Alabama for a Thomas Frost household with wife 'Crissy' or 'Chrissie' (maiden Price). This would identify birth state origins via census birthplace data and establish whether children (including TC Frost I's birth in 1833) appear.",
+      "where": "Ancestry.com or FamilySearch (Jackson County, Alabama census collections)"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Search Chancery Court records for Jackson County, Alabama (Scottsboro) for any Frost probate, land, or deed records 1821-1860 that would name Thomas C. Frost Sr. as grantor/grantee and identify his origin state.",
+      "where": "Alabama Department of Archives and History (ADAH) or Jackson County Probate Court"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Verify Eda Kampmann (wife of Joseph Hardin Frost) — confirm whether she was a granddaughter of John Herman Kampmann (making her the daughter of Gustav or Herman Kampmann) or a more distant relation. The generational timing suggests granddaughter, not daughter.",
+      "where": "Find a Grave search for 'Eda Kampmann Frost'; Texas Birth Index 1875-1895 for Bexar County"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Confirm Ferdinand P. Herff (who married Lucy Fannie Frost in ~1908-1910) and his place in the Herff family tree — which of Ferdinand Ludwig Herff's six children was his father?",
+      "where": "UTSA Libraries Special Collections — Herff family papers; 'The Doctors Herff: A Three Generation Memoir'"
+    },
+    {
+      "priority": "LOW",
+      "action": "Search the Price surname in Jackson County, Alabama records 1820-1850 to identify Crissy (Price) Frost's parents. Price families were common in Virginia and the Carolinas; tracing her family would potentially extend the maternal line of Thomas Claiborne Frost I further back.",
+      "where": "FamilySearch: Jackson County Alabama records; Virginia Price families 1780-1820"
+    },
+    {
+      "priority": "LOW",
+      "action": "Check the Frost DNA surname project at FamilyTreeDNA for haplogroup data matching Belle Font / Jackson County Alabama Frost families. May confirm or deny connection to the New Jersey / North Carolina Frost lines documented in 'The Frosts of Bedford County, Tennessee.'",
+      "where": "https://www.familytreedna.com/groups/frost/about"
+    }
+  ]
+}

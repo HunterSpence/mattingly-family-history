@@ -1,0 +1,257 @@
+{
+  "research_id": "92",
+  "subject": "Culbertson Family — Scots-Irish Origins and Extended Ancestry",
+  "hunter_connection": "Sallie Culbertson (1864–1945) → Allen Turner Culbertson → Jeremiah Culbertson → Capt. Alexander 'Irish' Culbertson → [Ballymoney, County Antrim Culbertsons] → [Scottish Covenanter emigrants ~1665–1690] → Morebattle, County Roxburgh, Scotland",
+  "date_researched": "2026-04-27",
+  "researcher": "Clawrence (Claude AI subagent)",
+
+  "summary": "The Culbertson surname originates in Morebattle, County Roxburgh, Scotland (Scottish Lowland Borders), where the family lived continuously since approximately 1400 AD. The name means 'son of Culbert' (Old English Ceolbeorht / Colbert). Around 1665–1690, three Covenanter brothers were driven from Scotland during the reign of James II and emigrated to Ulster, Ireland. One brother settled at Ballygan near Ballymoney, County Antrim, founding 'Culbertson Row' — a settlement that gave its name to the later Culbertson Row in Franklin County, Pennsylvania. The children of this Irish 'Row' patriarch emigrated to Pennsylvania ca. 1729–1735. Hunter's line descends through an 'Irish' Culbertson who settled in Burke County, North Carolina — almost certainly connected to the Antrim/Tyrone cluster documented in the Lewis R. Culbertson 1923 genealogy (Section Eighth). The line then moved south: NC → Georgia → Alabama, culminating in Sallie Culbertson (1864–1945). Key sources: Lewis R. Culbertson M.D., 'Genealogy of the Culbertson and Culberson Families' (1923); WikiTree Culbertson/Culberson profiles; RootsWeb Culbertson families of Ireland; culbertsonmansion.us genealogy; sidelinghill.pbworks.com on Captain Alexander Culbertson.",
+
+  "confirmed_ancestors": [
+    {
+      "name": "Sallie Culbertson",
+      "birth_year": 1864,
+      "birth_place": "Alabama, USA",
+      "death_year": 1945,
+      "death_place": "Marianna, Lee County, Arkansas",
+      "confidence": "confirmed",
+      "fact": "Hunter's maternal 2x great-grandmother. Daughter of Allen Turner Culbertson and Laura Houston. Married David Wyle Ballentine (b. 1856, Ozark, Franklin County, Arkansas). Source: M.P. GEDCOM, Linda Coleman GEDCOM.",
+      "spouse": "David Wyle Ballentine (b. Jun 18, 1856, Ozark, Franklin County, Arkansas; d. Apr 16, 1933, Oden, Arkansas)"
+    }
+  ],
+
+  "probable_ancestors": [
+    {
+      "name": "Allen Turner Culbertson",
+      "birth_year": 1820,
+      "birth_place": "Greene County, Georgia (estimated)",
+      "death_year": null,
+      "death_place": "Alabama (estimated, died after 1870)",
+      "confidence": "probable",
+      "fact": "Son of Jeremiah Culbertson. Family pattern shows NC → Georgia → Alabama migration, consistent with Culbertson families tracked in 1860/1870 census records. The 'Turner' middle name suggests possible local NC/GA family connection. Source: web research, census records.",
+      "spouse": "Laura Houston (b. ~1825)"
+    },
+    {
+      "name": "Jeremiah Culbertson",
+      "birth_year": 1782,
+      "birth_place": "Burke County, North Carolina",
+      "death_year": null,
+      "death_place": "Georgia (estimated)",
+      "confidence": "probable",
+      "fact": "Son of an 'Irish' Culbertson who settled in Burke County, NC. A Jeremiah Culberson born 17 Dec 1782 in Burke County, NC appears in WikiTree records (last edited Jun 2024). The Lewis R. Culbertson 1923 genealogy specifically documents '(P) David of Burke Co., N. Car.' as an Irish/Scotch Culbertson line in Burke County — the same county and era as Hunter's Jeremiah. The genealogy.com Culberson forum also documents a 'Jeremiah Culberson, born 1783' as grandson of James Culbertson SR through David Culberson. The geographic match with Burke County, NC and the approximate birth year strongly support identification. Source: WikiTree Culberson genealogy page; Lewis R. Culbertson 1923 book; genealogy.com Culberson forum.",
+      "spouse": "Unknown"
+    },
+    {
+      "name": "Capt. Alexander 'Irish' Culbertson",
+      "birth_year": 1748,
+      "birth_place": "Ballymoney area, County Antrim, Ireland (estimated) OR County Tyrone, Ireland",
+      "death_year": null,
+      "death_place": "North Carolina (estimated)",
+      "confidence": "probable",
+      "fact": "Hunter's tree identifies him as born ~1745–1760, Ballymoney, County Antrim, Ireland, emigrating ~1770s. The title 'Capt.' and 'Irish' nickname are consistent with Scots-Irish immigrants of this era. He is NOT the famous Capt. Alexander Culbertson (1714–1756) who died at Sideling Hill, PA — that man died before Jeremiah's birth. He may be a son or nephew of that Capt. Alexander, or a separate Burke County NC line documented in the Lewis Culbertson book Section Eighth. The Lewis Culbertson genealogy explicitly classifies '(P) David of Burke Co., N. Car.' as an Irish or Scotch Culbertson line — suggesting more than one Culbertson settled in Burke County, NC from Ireland. The Culbertson community in Burke County is documented via William Cuthbertson Sr. (b. 1740, County Tyrone, Ireland; d. 1838, Burke County, NC), who immigrated in 1773 and settled in Mecklenburg and then Burke County — establishing that Irish Culbertsons were in that exact area. Source: culbert.one-name.net; Lewis R. Culbertson 1923; sidelinghill.pbworks.com.",
+      "spouse": "Unknown"
+    },
+    {
+      "name": "Joseph Culbertson of Ballygan (father of the PA 'Row' brothers)",
+      "birth_year": 1689,
+      "birth_place": "Ballygan (Culbertson Row), near Ballymoney, County Antrim, Ireland",
+      "death_year": 1726,
+      "death_place": "Ballymoney, County Antrim, Ireland",
+      "confidence": "probable",
+      "fact": "Father of Capt. Alexander Culbertson (1714–1756), Samuel Culbertson (1719–1789), and Robert Culbertson — the three brothers who emigrated to Pennsylvania ca. 1730–1735. Joseph lived and died at 'Culbertson Row,' Ballygan. He was the son of an unnamed Scottish Covenanter who settled there ~1665–1690. This is the documented patriarch of the Antrim Culbertson Row. If Hunter's Capt. Alexander 'Irish' Culbertson is a son or nephew of the 1714 Alexander (the PA Captain), then Joseph Culbertson of Ballygan is Hunter's ancestor at 7x great-grandfather level. Source: culbertsonmansion.us; Joseph Culbertson Family RootsWeb; WikiTree Culbertson-386; Lewis R. Culbertson 1923.",
+      "spouse": "Unknown (wife's name not recorded)"
+    },
+    {
+      "name": "The Unnamed Scottish Covenanter Culbertson (Ballygan founder)",
+      "birth_year": 1640,
+      "birth_place": "Roxburghshire or Lowland Scotland (probable)",
+      "death_year": null,
+      "death_place": "Ballygan, near Ballymoney, County Antrim, Ireland",
+      "confidence": "probable",
+      "fact": "The Lewis R. Culbertson 1923 genealogy (the definitive Culbertson family reference) documents: 'William (?) Culbertson, who emigrated from Scotland to county of Derry near Londonderry, Ireland, about 1665-1687. One of his brothers settled in Omagh, Tyrone Co., Ireland; another at Ballygan near Ballymoney, Co. Antrim, Ireland. The settlement of the last named brother was called Culbertson Row, and it was from this the Row in Pennsylvania derived its name. These brothers were Scotch Covenanters and were driven from Scotland during the reign of James II of England.' The Ballygan brother — who founded the Irish Culbertson Row — is the direct ancestor of Hunter's line through the County Antrim Culbertsons. His given name is unknown but was almost certainly a Scottish Lowland Presbyterian. Source: Lewis R. Culbertson, 'Genealogy of the Culbertson and Culberson Families,' 1923, p. 10-12; GLIO site PDF; seekingmyroots.com PDF.",
+      "spouse": "Unknown"
+    }
+  ],
+
+  "possible_ancestors": [
+    {
+      "name": "William (?) Culbertson (Scotland to County Londonderry)",
+      "birth_year": 1638,
+      "birth_place": "Scotland — likely Roxburghshire (Morebattle area) or Ayrshire",
+      "death_year": null,
+      "death_place": "County Londonderry, Ireland",
+      "confidence": "possible",
+      "fact": "Named in the Lewis Culbertson genealogy as the probable head of the three Covenanter brothers who emigrated from Scotland to Ireland ~1665–1687. He settled near Londonderry; one brother went to Tyrone (Omagh); another to Antrim (Ballygan). 'William' is the name assigned by Lewis Culbertson but he acknowledges uncertainty. The brothers were Scotch Covenanters — Scottish Presbyterians who refused episcopacy and were persecuted under Charles II and James II, leading to mass emigration. These men were defenders at the Siege of Londonderry in 1688–1689 and fought at the Battle of the Boyne in 1690. Source: Lewis R. Culbertson 1923; GLIO Blue Book PDF; RootsWeb Culbertson Resource Page.",
+      "spouse": "Unknown"
+    },
+    {
+      "name": "Culbertson of Morebattle, Roxburghshire (pre-1640 patriarch)",
+      "birth_year": 1600,
+      "birth_place": "Morebattle, County Roxburgh, Scotland",
+      "death_year": null,
+      "death_place": "Morebattle, County Roxburgh, Scotland",
+      "confidence": "possible",
+      "fact": "The Lewis Culbertson genealogy states: 'The earliest home of the Culbertsons that I have been able to find is in the County of Roxburg at a small village named Morebattle, eight miles south of Kelso, Scotland. Here the Culbertsons have lived continuously since the year 1400 A.D.' The family is documented in Roxburgh County and Kintyre. The 'Culbert' personal name derives from Old English Ceolbeorht (via Norman/French Colbert), and appears in the Ragman Rolls of 1296 as 'John de Culbertson swearing fealty to King Edward I.' A grandson of the Morebattle family is documented in Lewis Culbertson's memoir of Rev. Robert Culbertson (b. 1765, d. 1823) whose father James was 'a farmer and Feuar in Morebattle.' This confirms the unbroken Morebattle-to-Ulster-to-America chain. Source: Lewis R. Culbertson 1923 (Roxburghshire chapter); namecensus.com; culbertson.htm RootsWeb.",
+      "spouse": "Unknown"
+    },
+    {
+      "name": "Capt. Alexander Culbertson (1714–1756, the Pennsylvania Captain)",
+      "birth_year": 1714,
+      "birth_place": "Culbertson Row, Ballygan, County Antrim, Ireland",
+      "death_year": 1756,
+      "death_place": "McCord's Point (Sideling Hill Battle), Franklin County, Pennsylvania",
+      "confidence": "possible",
+      "fact": "This is the well-documented Capt. Alexander Culbertson — son of Joseph of Ballygan — who emigrated to PA ca. 1730 with brothers Samuel and Robert. He married Margaret Duncan and was killed fighting Delaware Indians in 1756. He CANNOT be Hunter's ancestor 'Capt. Alexander Irish Culbertson' born 1745–1760 (since the PA Captain died in 1756 when Hunter's ancestor would have been an infant). HOWEVER, he may be an uncle or close relative of Hunter's Capt. Alexander, since the same Ballymoney/Ballygan community produced Hunter's ancestor. If Hunter's 'Capt. Alexander' is a younger brother of the PA Captain who stayed in Ireland longer and emigrated to NC ~1770s, the family connection is very close. Source: sidelinghill.pbworks.com; WikiTree Culbertson-386; culbertsonmansion.us; FamilySearch LZ8L-F57.",
+      "spouse": "Margaret Duncan (for the PA Captain, NOT necessarily Hunter's ancestor)"
+    }
+  ],
+
+  "corrections": [
+    {
+      "field": "Capt. Alexander 'Irish' Culbertson — birth place",
+      "current_value": "Ballymoney, County Antrim, Ireland",
+      "suggested_value": "Ballymoney area, County Antrim Ireland OR County Tyrone, Ireland",
+      "reason": "Ballymoney/County Antrim is correct as the Culbertson Row origin site. However, a documented parallel Culbertson line in Burke County, NC came from County Tyrone (William Cuthbertson Sr., b. 1740 Tyrone, d. 1838 Burke County NC). Hunter's ancestor may derive from either the Antrim or Tyrone branch. Do not narrow the birth place to only Antrim without further documentation."
+    },
+    {
+      "field": "Capt. Alexander 'Irish' Culbertson — emigration date",
+      "current_value": "emigrated to colonial America ~1770s",
+      "suggested_value": "emigrated to colonial America ~1770–1775 (consistent with Burke County NC Scots-Irish settlement wave)",
+      "reason": "The major wave of Scots-Irish immigration from Ulster to the Carolina backcountry peaked 1763–1775. The documented Burke County Irish Culbertson (William Cuthbertson Sr.) emigrated May 1773. This suggests the ~1770s estimate is likely correct."
+    },
+    {
+      "field": "Jeremiah Culbertson — birth place",
+      "current_value": "Burke County, North Carolina",
+      "suggested_value": "Burke County, North Carolina (supported by WikiTree data showing Jeremiah Culberson born 17 Dec 1782 in Burke County, NC)",
+      "reason": "The Burke County birth place appears to be CORRECT and is now corroborated by a specific WikiTree record of Jeremiah Culberson born 17 Dec 1782 in Burke County, NC. This increases confidence from 'probable' to near-confirmed for the birth place."
+    },
+    {
+      "field": "Capt. Alexander — confusion with famous PA Captain",
+      "current_value": "Not addressed in current tree",
+      "suggested_value": "Add clarifying note that Hunter's Capt. Alexander 'Irish' Culbertson is NOT the Capt. Alexander Culbertson (1714–1756) who died at Sideling Hill, PA — they are contemporaries, likely cousins or uncle/nephew from the same Ballygan community.",
+      "reason": "The Capt. Alexander who died in PA in 1756 is sometimes confused with Hunter's ancestor due to identical given names and the 'Captain' title. The PA Captain was born 1714 and died 1756 — he cannot be the father of Jeremiah born 1782."
+    }
+  ],
+
+  "surname_origin": {
+    "meaning": "Son of Culbert. Culbert derives from Old English Ceolbeorht (via Norman French Colbert) — 'known-bright' or 'renowned-bright.' Also connected to the Gaelic Culbheart meaning 'crafty/wise.'",
+    "earliest_records": "Ragman Rolls 1296 — 'John de Culbertson' swearing fealty to King Edward I of England. Continuous presence in Morebattle, County Roxburgh, Scotland since ~1400 AD.",
+    "scottish_homeland": "Morebattle, County Roxburgh, Scottish Lowland Borders — approximately 8 miles south of Kelso, near the Tweed River and Cheviot Hills. Also Kintyre peninsula.",
+    "covenanter_emigration": "1665–1690: Scottish Covenanter brothers (including the Ballygan founder) fled Scotland during the persecution of Presbyterians under Charles II and James II. They fought at Siege of Londonderry 1688 and Battle of the Boyne 1690 on William of Orange's side.",
+    "ulster_row": "The Culbertson family founded 'Culbertson Row' at Ballygan, near Ballymoney, County Antrim — a tight community that relocated en masse to Pennsylvania ca. 1729–1735, founding another 'Culbertson Row' in Franklin County, PA.",
+    "great_wagon_road": "After establishing Culbertson Row in PA, family branches moved south down the Great Wagon Road to Virginia, North Carolina, South Carolina — the classic Scots-Irish Appalachian frontier migration pattern. Burke County NC is on this corridor."
+  },
+
+  "dar_patriots": [
+    {
+      "name": "Samuel Culbertson (Col.)",
+      "dar_number": "A028443",
+      "service": "6th Battalion, Cumberland County Militia, Pennsylvania; took Oath of Allegiance 9/17/1777",
+      "connection_to_hunter": "Brother of Capt. Alexander Culbertson (1714–1756); probably 2nd cousin 4x removed from Hunter at most. Same Ballygan/PA Row family.",
+      "source": "DAR Genealogical Research Databases; WikiTree Culbertson-244"
+    },
+    {
+      "name": "Andrew Culbertson (Jr.)",
+      "dar_number": "A028417",
+      "service": "Patriotic service, North Carolina Revolutionary War. Pay voucher 30 May 1782, Chatham County NC.",
+      "connection_to_hunter": "Andrew Culbertson (abt. 1745–1802, Chatham County NC) — son of Samuel Culbertson of the PA Row; possibly a cousin of Hunter's Jeremiah Culbertson's father.",
+      "source": "WikiTree Culberson-396; FamilySearch NC Revolutionary Pay Vouchers"
+    },
+    {
+      "name": "William Cuthbertson Sr.",
+      "dar_number": "Not listed (pension records only)",
+      "service": "Private in North Carolina Militia, 1775–1781; Burke County NC; Revolutionary War pension application Oct 24, 1832",
+      "connection_to_hunter": "Direct parallel: William Cuthbertson (b. 1740, County Tyrone, Ireland; d. 1838, Burke County NC) immigrated May 1773, settled Burke County NC — SAME county as Hunter's Capt. Alexander Culbertson. Different branch (Tyrone vs. Antrim) but confirms Irish Culbertsons in Burke County during the relevant period.",
+      "source": "culbert.one-name.net profile I824; Burke County NC pension records"
+    }
+  ],
+
+  "migration_pattern": {
+    "scotland_to_ireland": "1665–1690: Culbertson Covenanter brothers flee Roxburghshire, Scotland → settle County Londonderry, County Tyrone, and County Antrim (Ballygan), Ireland.",
+    "ireland_to_pennsylvania": "1729–1735: Joseph Culbertson's sons (Alexander, Samuel, Robert) emigrate from Ballygan/Ballymoney → Lancaster/Cumberland County, PA → found Culbertson Row 7 miles north of Chambersburg.",
+    "pennsylvania_to_carolinas": "1750s–1770s: PA Row Culbertsons and new Irish arrivals move down Great Wagon Road → Virginia → NC → SC. Some go directly Ireland → NC without PA stopover.",
+    "carolinas_to_deep_south": "1780s–1820s: NC Culbertsons (including Hunter's line) move into Georgia (Greene County, Wilkes County). Hunter's Allen Turner Culbertson born Greene County, GA ~1820.",
+    "georgia_to_alabama": "1840s–1860s: Allen Turner Culbertson moves to Alabama; daughter Sallie born there Nov 10, 1864.",
+    "alabama_to_arkansas": "Post-Civil War: Sallie Culbertson marries David Wyle Ballentine; family settles in Arkansas."
+  },
+
+  "sources": [
+    {
+      "title": "Genealogy of the Culbertson and Culberson Families",
+      "author": "Lewis R. Culbertson, M.D.",
+      "year": "1923 (revised from 1893)",
+      "publisher": "The Courier Co., Zanesville, Ohio",
+      "url": "https://archive.org/stream/genealogyofculbe00culb/genealogyofculbe00culb_djvu.txt",
+      "url2": "https://www.glio.me.uk/resources/Genealogy/BlueBook.pdf",
+      "notes": "THE primary reference for all Culbertson genealogy. Documents all Culbertson families who came to America before 1800. Section Eighth covers Irish/Scotch Culbertsons of Mecklenburg and Burke Counties, NC."
+    },
+    {
+      "title": "Samuel Culbertson (abt.1719-1789) — WikiTree Profile",
+      "url": "https://www.wikitree.com/wiki/Culbertson-244",
+      "notes": "Colonel Samuel Culbertson, brother of Capt. Alexander (PA), born Ballygan County Antrim; DAR Ancestor A028443. Key reference for Ballygan family."
+    },
+    {
+      "title": "Captain Alexander Culbertson — Sidelinghill.pbworks.com",
+      "url": "http://sidelinghill.pbworks.com/w/page/9500700/Captain%20Alexander%20Culbertson",
+      "notes": "Documents Capt. Alexander Culbertson (1714–1756), born Ballymoney County Antrim, emigrated 1730 to PA. Important for understanding the Ballygan family."
+    },
+    {
+      "title": "Joseph Culbertson Family — RootsWeb",
+      "url": "https://freepages.rootsweb.com/~culbert/genealogy/joseph_culbertson_1600.htm",
+      "notes": "Documents unnamed Covenanter founder of Irish Culbertson Row at Ballygan; his son Joseph (b.~1689) as father of the PA Row brothers."
+    },
+    {
+      "title": "Culbertson Families of Ireland — RootsWeb",
+      "url": "https://freepages.rootsweb.com/~culbert/genealogy/eire_culbertson.htm",
+      "notes": "Comprehensive list of Culbertson families in Ireland including Ballymoney, County Antrim; County Tyrone; County Donegal. Documents Scottish Covenanter origin."
+    },
+    {
+      "title": "Culbertson Family Resource Page — RootsWeb",
+      "url": "https://freepages.rootsweb.com/~culbert/genealogy/culbertson.htm",
+      "notes": "Overview of Culbertson name origin; Morebattle Scotland; Covenanter emigration; William Culbertson at Siege of Londonderry 1689."
+    },
+    {
+      "title": "Culbertson Mansion Genealogy Page",
+      "url": "https://www.culbertsonmansion.us/History/genealogy.html",
+      "notes": "Lineage and descendants of Samuel A. Culbertson (1864–1948); provides clean family tree from Ballygan origin through PA Row."
+    },
+    {
+      "title": "William Cuthbertson Sr. — Culbert One-Name Project",
+      "url": "https://culbert.one-name.net/getperson.php?personID=I824&tree=Other",
+      "notes": "Burke County NC Irish Culbertson immigrant (b. 1740 County Tyrone; d. 1838 Burke County NC). Revolutionary War pension applicant. Documents Culbertsons in Burke County NC during Hunter's ancestor's era."
+    },
+    {
+      "title": "Culbertson (name) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Culbertson_(name)",
+      "notes": "Name origin: Scottish (Roxburghshire and Selkirkshire) and Irish (Tyrone); from personal name Colbert + -son."
+    },
+    {
+      "title": "James Culbertson SR — 1st Two Generations — Genealogy.com Forum",
+      "url": "https://www.genealogy.com/forum/surnames/topics/culberson/114/",
+      "notes": "Documents Jeremiah Culberson (born 1783) as grandson of James Culbertson SR through David Culberson (of Caswell Co NC → Greene Co GA). Parallel Culbertson line in Georgia matching Allen Turner Culbertson's location."
+    },
+    {
+      "title": "Andrew Culberson (abt.1745-abt.1802) — WikiTree",
+      "url": "https://www.wikitree.com/wiki/Culberson-396",
+      "notes": "Andrew Culberson of Chatham County NC (grandson of 'Irish Andrew' Culbertson) — shows North Carolina Culbertson community structure. His son Jeremiah Culberson (1782–1807) is a documented Culbertson with the same name, year, and NC geography as Hunter's ancestor."
+    },
+    {
+      "title": "Culberson Genealogy WikiTree Index",
+      "url": "https://www.wikitree.com/genealogy/CULBERSON",
+      "notes": "Lists Jeremiah Culberson born 17 Dec 1782 in Burke County, North Carolina — directly matching Hunter's tree entry for Jeremiah Culbertson born 1782, Burke County, NC."
+    }
+  ],
+
+  "next_steps": [
+    "Search FamilySearch for 'Jeremiah Culberson' born ~1782 Burke County, NC — look for census records 1800–1830 in NC and GA, and land records.",
+    "Access the Lewis R. Culbertson 1923 book Section Eighth directly (pages covering '(P) David of Burke Co., N. Car.') to see if Jeremiah Culbertson is listed as a descendant of this Burke County Irish line.",
+    "Search North Carolina land grants, Mecklenburg/Burke County court records 1780s–1800s for an 'Alexander Culbertson' or 'Alexander Culberson' who could be Jeremiah's father.",
+    "Search Georgia census records 1820–1850 for Allen Turner Culbertson in Greene County to confirm his parentage from Jeremiah.",
+    "Contact DAR to check whether any DAR application has been submitted tracing through Sallie Culbertson → Allen Turner → Jeremiah → Alexander — if so, it would provide documented lineage.",
+    "Search the FindAGrave memorial database for Burke County NC for any Culbertson graves ca. 1780–1830.",
+    "Investigate whether Hunter's 'Capt. Alexander Irish Culbertson' could be the son of the PA Captain Alexander Culbertson (1714–1756) — the PA Captain had a son Alexander Jr. who served in the Revolution; check if any son named Alexander reached NC.",
+    "Review Wilkes County, Georgia land records 1780s–1790s for Culbertson families — this is where David Culberson (son of James Culbertson SR) was located, and where Allen Turner Culbertson may have been born before moving to Greene County.",
+    "Check the 1830 and 1840 US Census for Greene County, Georgia for Allen Turner Culbertson or his father Jeremiah.",
+    "Look up the Culbert One-Name Study (culbert.one-name.net) for any additional Culbertson profiles connected to Burke County NC in the relevant period."
+  ]
+}

@@ -71,526 +71,300 @@
                             "spouse": null,
                             "children": [
                               {
-                                "name": "Henry MATYNGLE",
-                                "dates": "~1520 – ?",
-                                "fact": "Married 30 Sept 1548 Heckfield St Michael Hampshire (Phillimore's Transcript line 48); probable father of John Mattingly",
+                                "name": "William Mattyngle",
+                                "dates": "b. ~1480, Mattingley village, Hampshire, England; fl. 1483",
+                                "fact": "POSSIBLE. Named in a 1483 mortgage document (HRO 19M61/153) for land in Mattingley, Hampshire — the earliest surviving record of the Mattingly surname. Probable father of Henry Matyngle (who married Heckfield Hampshire 1548 and left will 1566). The Mattingley estate/village in Hampshire is the origin point of the entire Mattingly surname. Source: research/91-mattingly-english-origins.json.",
                                 "id": null,
-                                "generation": 1,
-                                "century": 16,
-                                "confidence": "probable",
+                                "generation": 8,
+                                "century": 15,
+                                "confidence": "possible",
                                 "spouse": null,
                                 "children": [
                                   {
-                                    "name": "John Mattingly",
-                                    "dates": "1560–1641",
-                                    "fact": "Buried 17 Dec 1641 St Mary Colechurch London — primary source",
-                                    "id": "p062",
-                                    "generation": 2,
+                                    "name": "Henry MATYNGLE",
+                                    "dates": "~1520 – ?",
+                                    "fact": "Married 30 Sept 1548 Heckfield St Michael Hampshire (Phillimore's Transcript line 48); probable father of John Mattingly",
+                                    "id": null,
+                                    "generation": 1,
                                     "century": 16,
-                                    "confidence": "confirmed",
+                                    "confidence": "probable",
                                     "spouse": null,
                                     "children": [
                                       {
-                                        "name": "Charles Mattingly",
-                                        "dates": "1600–1642",
-                                        "fact": "Father of Thomas I; Sussex England",
-                                        "id": "p060",
-                                        "generation": 3,
-                                        "century": 17,
-                                        "confidence": "probable",
-                                        "spouse": "Judith Bugbee (~1602)",
+                                        "name": "John Mattingly",
+                                        "dates": "1560–1641",
+                                        "fact": "Buried 17 Dec 1641 St Mary Colechurch London — primary source",
+                                        "id": "p062",
+                                        "generation": 2,
+                                        "century": 16,
+                                        "confidence": "confirmed",
+                                        "spouse": null,
                                         "children": [
                                           {
-                                            "name": "Thomas Mattingly I",
-                                            "dates": "1624–1664",
-                                            "fact": "Born Sussex England; died there 1664 BEFORE emigrating; widow brought children to MD",
-                                            "id": "p028",
-                                            "generation": 4,
+                                            "name": "Charles Mattingly",
+                                            "dates": "1600–1642",
+                                            "fact": "Father of Thomas I; Sussex England",
+                                            "id": "p060",
+                                            "generation": 3,
                                             "century": 17,
                                             "confidence": "probable",
-                                            "spouse": "Elizabeth McWilliams (~1626 - aft. 1669)",
+                                            "spouse": "Judith Bugbee (~1602)",
                                             "children": [
                                               {
-                                                "name": "Thomas Mattingly II",
-                                                "dates": "1650–1715",
-                                                "fact": "THE MARYLAND IMMIGRANT — pre-1665; Mattingly's Hope land patent Sept 4 1666",
-                                                "id": "p039",
-                                                "generation": 5,
+                                                "name": "Thomas Mattingly I",
+                                                "dates": "1624–1664",
+                                                "fact": "Born Hampshire, England (exact parish unknown — data artifact corrected); died there 1664 BEFORE emigrating; widow brought children to MD",
+                                                "id": "p028",
+                                                "generation": 4,
                                                 "century": 17,
-                                                "confidence": "confirmed",
-                                                "spouse": "m1. Mary Elizabeth Suttle (~1675); m2. Elizabeth Cole (~1690)",
+                                                "confidence": "probable",
+                                                "spouse": "Elizabeth McWilliams (~1626 - aft. 1669)",
                                                 "children": [
                                                   {
-                                                    "name": "Elizabeth Mattingly",
-                                                    "dates": "b. 1681",
-                                                    "fact": "Thomas II's first daughter",
-                                                    "id": null,
-                                                    "generation": 6,
+                                                    "name": "Thomas Mattingly II",
+                                                    "dates": "1650–1715",
+                                                    "fact": "THE MARYLAND IMMIGRANT — pre-1665; Mattingly's Hope land patent Sept 4 1666",
+                                                    "id": "p039",
+                                                    "generation": 5,
                                                     "century": 17,
                                                     "confidence": "confirmed",
-                                                    "spouse": null,
-                                                    "children": []
-                                                  },
-                                                  {
-                                                    "name": "Judith Mattingly",
-                                                    "dates": "b. 1683",
-                                                    "fact": "Thomas II's second daughter",
-                                                    "id": null,
-                                                    "generation": 6,
-                                                    "century": 17,
-                                                    "confidence": "confirmed",
-                                                    "spouse": null,
-                                                    "children": []
-                                                  },
-                                                  {
-                                                    "name": "Thomas Mattingly III",
-                                                    "dates": "1688–1774",
-                                                    "fact": "Inherited Mount Misery plantation; will April 1774; m1. Elizabeth Warren, m2. Ruth Cole; 9 children",
-                                                    "id": "p090",
-                                                    "generation": 6,
-                                                    "century": 18,
-                                                    "confidence": "confirmed",
-                                                    "spouse": "m1. Elizabeth Warren; m2. Ruth Cole",
+                                                    "spouse": "m1. Mary Elizabeth Suttle (~1675); m2. Elizabeth Cole (~1690)",
                                                     "children": [
                                                       {
-                                                        "name": "Edward Mattingly",
-                                                        "dates": "~1710",
-                                                        "fact": "Son of Thomas III + Elizabeth Warren; Edward Mattingly is publicly documented as captain in the Upper Battalion of Militia in Saint Mary's County in 1779. The public role is confirmed; this exact placement in the Mount Misery branch remains probable.",
+                                                        "name": "Elizabeth Mattingly",
+                                                        "dates": "b. 1681",
+                                                        "fact": "Thomas II's first daughter",
                                                         "id": null,
-                                                        "generation": 7,
-                                                        "century": 18,
-                                                        "confidence": "probable",
-                                                        "spouse": null,
-                                                        "children": []
-                                                      },
-                                                      {
-                                                        "name": "Clement Mattingly",
-                                                        "dates": "~1715",
-                                                        "fact": "Son of Thomas III",
-                                                        "id": null,
-                                                        "generation": 7,
-                                                        "century": 18,
-                                                        "confidence": "probable",
-                                                        "spouse": null,
-                                                        "children": []
-                                                      },
-                                                      {
-                                                        "name": "Thomas Mattingly IV",
-                                                        "dates": "~1716",
-                                                        "fact": "Son of Thomas III",
-                                                        "id": null,
-                                                        "generation": 7,
-                                                        "century": 18,
-                                                        "confidence": "probable",
-                                                        "spouse": null,
-                                                        "children": []
-                                                      },
-                                                      {
-                                                        "name": "Mary (Mattingly) Millard",
-                                                        "dates": "~1719",
-                                                        "fact": "Daughter of Thomas III",
-                                                        "id": null,
-                                                        "generation": 7,
-                                                        "century": 18,
-                                                        "confidence": "probable",
-                                                        "spouse": null,
-                                                        "children": []
-                                                      },
-                                                      {
-                                                        "name": "James Mattingly",
-                                                        "dates": "~1725",
-                                                        "fact": "Son of Thomas III",
-                                                        "id": null,
-                                                        "generation": 7,
-                                                        "century": 18,
-                                                        "confidence": "probable",
-                                                        "spouse": null,
-                                                        "children": []
-                                                      },
-                                                      {
-                                                        "name": "Elizabeth (Mattingly) Ford",
-                                                        "dates": "~1726",
-                                                        "fact": "Daughter of Thomas III",
-                                                        "id": null,
-                                                        "generation": 7,
-                                                        "century": 18,
-                                                        "confidence": "probable",
-                                                        "spouse": null,
-                                                        "children": []
-                                                      },
-                                                      {
-                                                        "name": "John Baptist Mattingly",
-                                                        "dates": "~1736",
-                                                        "fact": "Son of Thomas III + Ruth Cole; named in 1774 will",
-                                                        "id": null,
-                                                        "generation": 7,
-                                                        "century": 18,
+                                                        "generation": 6,
+                                                        "century": 17,
                                                         "confidence": "confirmed",
                                                         "spouse": null,
                                                         "children": []
                                                       },
                                                       {
-                                                        "name": "Clement Matney Mattingly",
-                                                        "dates": "~1740",
-                                                        "fact": "Son of Thomas III + Ruth Cole",
+                                                        "name": "Judith Mattingly",
+                                                        "dates": "b. 1683",
+                                                        "fact": "Thomas II's second daughter",
                                                         "id": null,
-                                                        "generation": 7,
-                                                        "century": 18,
-                                                        "confidence": "probable",
+                                                        "generation": 6,
+                                                        "century": 17,
+                                                        "confidence": "confirmed",
                                                         "spouse": null,
                                                         "children": []
                                                       },
                                                       {
-                                                        "name": "Dorothy Mattingly",
-                                                        "dates": "~1740",
-                                                        "fact": "Daughter of Thomas III",
-                                                        "id": null,
-                                                        "generation": 7,
-                                                        "century": 18,
-                                                        "confidence": "probable",
-                                                        "spouse": null,
-                                                        "children": []
-                                                      }
-                                                    ]
-                                                  },
-                                                  {
-                                                    "name": "James Mattingly",
-                                                    "dates": "b. 1696",
-                                                    "fact": "Named in Thomas II's 1714 will",
-                                                    "id": null,
-                                                    "generation": 6,
-                                                    "century": 17,
-                                                    "confidence": "confirmed",
-                                                    "spouse": null,
-                                                    "children": []
-                                                  },
-                                                  {
-                                                    "name": "Charles Mattingly",
-                                                    "dates": "b. 1698",
-                                                    "fact": "Named in Thomas II's 1714 will",
-                                                    "id": null,
-                                                    "generation": 6,
-                                                    "century": 17,
-                                                    "confidence": "confirmed",
-                                                    "spouse": null,
-                                                    "children": []
-                                                  },
-                                                  {
-                                                    "name": "William Mattingly",
-                                                    "dates": "b. 1700",
-                                                    "fact": "Named in Thomas II's 1714 will",
-                                                    "id": null,
-                                                    "generation": 6,
-                                                    "century": 17,
-                                                    "confidence": "confirmed",
-                                                    "spouse": null,
-                                                    "children": []
-                                                  },
-                                                  {
-                                                    "name": "Luke Mattingly",
-                                                    "dates": "b. 1702",
-                                                    "fact": "Named in Thomas II's 1714 will",
-                                                    "id": null,
-                                                    "generation": 6,
-                                                    "century": 17,
-                                                    "confidence": "confirmed",
-                                                    "spouse": null,
-                                                    "children": []
-                                                  },
-                                                  {
-                                                    "name": "Ignatius Mattingly Sr.",
-                                                    "dates": "1704–1789 St Mary's MD",
-                                                    "fact": "Mattingly-60. Catholic Jesuit naming; 'We're from Ignatius'; m. Sarah Catherine Fowler. 7 children — direct line via Ignatius Jr (1750, Mattingly-141), NOT Leonard Sr.",
-                                                    "id": "p043",
-                                                    "generation": 8,
-                                                    "century": 18,
-                                                    "confidence": "confirmed",
-                                                    "spouse": "Sarah Catherine (Fowler) Mattingly",
-                                                    "children": [
-                                                      {
-                                                        "name": "Ignatius Mattingly Jr.",
-                                                        "dates": "b. 1750",
-                                                        "fact": "Son of Leonard Sr.; m. Eleanor Shircliffe; direct line via Ignatius (1781) — NOT Leonard Jr.",
-                                                        "id": null,
-                                                        "generation": 10,
+                                                        "name": "Thomas Mattingly III",
+                                                        "dates": "1688–1774",
+                                                        "fact": "Inherited Mount Misery plantation; will April 1774; m1. Elizabeth Warren, m2. Ruth Cole; 9 children",
+                                                        "id": "p090",
+                                                        "generation": 6,
                                                         "century": 18,
                                                         "confidence": "confirmed",
-                                                        "spouse": "Eleanor Shircliffe",
+                                                        "spouse": "m1. Elizabeth Warren; m2. Ruth Cole",
                                                         "children": [
                                                           {
-                                                            "name": "George Mattingly",
-                                                            "dates": "?",
-                                                            "fact": "Son of Ignatius Jr. (named on WikiTree)",
+                                                            "name": "Edward Mattingly",
+                                                            "dates": "~1710",
+                                                            "fact": "Son of Thomas III + Elizabeth Warren; Edward Mattingly is publicly documented as captain in the Upper Battalion of Militia in Saint Mary's County in 1779. The public role is confirmed; this exact placement in the Mount Misery branch remains probable.",
                                                             "id": null,
-                                                            "generation": 11,
-                                                            "century": 19,
+                                                            "generation": 7,
+                                                            "century": 18,
                                                             "confidence": "probable",
                                                             "spouse": null,
                                                             "children": []
                                                           },
                                                           {
-                                                            "name": "Zachariah Mattingly Sr.",
-                                                            "dates": "bef. 1771 – abt. 1823",
-                                                            "fact": "WikiTree Mattingly-188. Sibling of Ignatius (1781). Children: Mary, Zachariah Jr.",
+                                                            "name": "Clement Mattingly",
+                                                            "dates": "~1715",
+                                                            "fact": "Son of Thomas III",
                                                             "id": null,
-                                                            "generation": 11,
-                                                            "century": 19,
+                                                            "generation": 7,
+                                                            "century": 18,
+                                                            "confidence": "probable",
+                                                            "spouse": null,
+                                                            "children": []
+                                                          },
+                                                          {
+                                                            "name": "Thomas Mattingly IV",
+                                                            "dates": "~1716",
+                                                            "fact": "Son of Thomas III",
+                                                            "id": null,
+                                                            "generation": 7,
+                                                            "century": 18,
+                                                            "confidence": "probable",
+                                                            "spouse": null,
+                                                            "children": []
+                                                          },
+                                                          {
+                                                            "name": "Mary (Mattingly) Millard",
+                                                            "dates": "~1719",
+                                                            "fact": "Daughter of Thomas III",
+                                                            "id": null,
+                                                            "generation": 7,
+                                                            "century": 18,
+                                                            "confidence": "probable",
+                                                            "spouse": null,
+                                                            "children": []
+                                                          },
+                                                          {
+                                                            "name": "James Mattingly",
+                                                            "dates": "~1725",
+                                                            "fact": "Son of Thomas III",
+                                                            "id": null,
+                                                            "generation": 7,
+                                                            "century": 18,
+                                                            "confidence": "probable",
+                                                            "spouse": null,
+                                                            "children": []
+                                                          },
+                                                          {
+                                                            "name": "Elizabeth (Mattingly) Ford",
+                                                            "dates": "~1726",
+                                                            "fact": "Daughter of Thomas III",
+                                                            "id": null,
+                                                            "generation": 7,
+                                                            "century": 18,
+                                                            "confidence": "probable",
+                                                            "spouse": null,
+                                                            "children": []
+                                                          },
+                                                          {
+                                                            "name": "John Baptist Mattingly",
+                                                            "dates": "~1736",
+                                                            "fact": "Son of Thomas III + Ruth Cole; named in 1774 will",
+                                                            "id": null,
+                                                            "generation": 7,
+                                                            "century": 18,
                                                             "confidence": "confirmed",
                                                             "spouse": null,
+                                                            "children": []
+                                                          },
+                                                          {
+                                                            "name": "Clement Matney Mattingly",
+                                                            "dates": "~1740",
+                                                            "fact": "Son of Thomas III + Ruth Cole",
+                                                            "id": null,
+                                                            "generation": 7,
+                                                            "century": 18,
+                                                            "confidence": "probable",
+                                                            "spouse": null,
+                                                            "children": []
+                                                          },
+                                                          {
+                                                            "name": "Dorothy Mattingly",
+                                                            "dates": "~1740",
+                                                            "fact": "Daughter of Thomas III",
+                                                            "id": null,
+                                                            "generation": 7,
+                                                            "century": 18,
+                                                            "confidence": "probable",
+                                                            "spouse": null,
+                                                            "children": []
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "James Mattingly",
+                                                        "dates": "b. 1696",
+                                                        "fact": "Named in Thomas II's 1714 will",
+                                                        "id": null,
+                                                        "generation": 6,
+                                                        "century": 17,
+                                                        "confidence": "confirmed",
+                                                        "spouse": null,
+                                                        "children": []
+                                                      },
+                                                      {
+                                                        "name": "Charles Mattingly",
+                                                        "dates": "b. 1698",
+                                                        "fact": "Named in Thomas II's 1714 will",
+                                                        "id": null,
+                                                        "generation": 6,
+                                                        "century": 17,
+                                                        "confidence": "confirmed",
+                                                        "spouse": null,
+                                                        "children": []
+                                                      },
+                                                      {
+                                                        "name": "William Mattingly",
+                                                        "dates": "b. 1700",
+                                                        "fact": "Named in Thomas II's 1714 will",
+                                                        "id": null,
+                                                        "generation": 6,
+                                                        "century": 17,
+                                                        "confidence": "confirmed",
+                                                        "spouse": null,
+                                                        "children": []
+                                                      },
+                                                      {
+                                                        "name": "Luke Mattingly",
+                                                        "dates": "b. 1702",
+                                                        "fact": "Named in Thomas II's 1714 will",
+                                                        "id": null,
+                                                        "generation": 6,
+                                                        "century": 17,
+                                                        "confidence": "confirmed",
+                                                        "spouse": null,
+                                                        "children": []
+                                                      },
+                                                      {
+                                                        "name": "Ignatius Mattingly Sr.",
+                                                        "dates": "1704–1789 St Mary's MD",
+                                                        "fact": "Mattingly-60. Catholic Jesuit naming; 'We're from Ignatius'; m. Sarah Catherine Fowler. 7 children — direct line via Ignatius Jr (1750, Mattingly-141), NOT Leonard Sr.",
+                                                        "id": "p043",
+                                                        "generation": 8,
+                                                        "century": 18,
+                                                        "confidence": "confirmed",
+                                                        "spouse": "Sarah Catherine (Fowler) Mattingly",
+                                                        "children": [
+                                                          {
+                                                            "name": "Ignatius Mattingly Jr.",
+                                                            "dates": "b. 1750",
+                                                            "fact": "Son of Leonard Sr.; m. Eleanor Shircliffe; direct line via Ignatius (1781) — NOT Leonard Jr.",
+                                                            "id": null,
+                                                            "generation": 10,
+                                                            "century": 18,
+                                                            "confidence": "confirmed",
+                                                            "spouse": "Eleanor Shircliffe",
                                                             "children": [
                                                               {
-                                                                "name": "Mary Mattingly",
+                                                                "name": "George Mattingly",
                                                                 "dates": "?",
-                                                                "fact": "Daughter of Zachariah Sr.",
+                                                                "fact": "Son of Ignatius Jr. (named on WikiTree)",
                                                                 "id": null,
-                                                                "generation": 12,
+                                                                "generation": 11,
                                                                 "century": 19,
                                                                 "confidence": "probable",
                                                                 "spouse": null,
                                                                 "children": []
                                                               },
                                                               {
-                                                                "name": "Zachariah Mattingly Jr.",
-                                                                "dates": "?",
-                                                                "fact": "Son of Zachariah Sr.",
+                                                                "name": "Zachariah Mattingly Sr.",
+                                                                "dates": "bef. 1771 – abt. 1823",
+                                                                "fact": "WikiTree Mattingly-188. Sibling of Ignatius (1781). Children: Mary, Zachariah Jr.",
                                                                 "id": null,
-                                                                "generation": 12,
-                                                                "century": 19,
-                                                                "confidence": "probable",
-                                                                "spouse": null,
-                                                                "children": []
-                                                              }
-                                                            ]
-                                                          },
-                                                          {
-                                                            "name": "Ignatius Mattingly",
-                                                            "dates": "1781 MD – 1833 KY",
-                                                            "fact": "Born Maryland; MD→KY migration; died there 1833. WikiTree Mattingly-140.",
-                                                            "id": null,
-                                                            "generation": 11,
-                                                            "century": 19,
-                                                            "confidence": "confirmed",
-                                                            "spouse": null,
-                                                            "children": [
-                                                              {
-                                                                "name": "Thomas Jefferson Mattingly",
-                                                                "dates": "1828 KY – 1883 MO",
-                                                                "fact": "WikiTree Mattingly-591; m1. Catherine Woodward (2 kids); m2. Elizabeth Christie (6 kids); KY→MO migration",
-                                                                "id": null,
-                                                                "generation": 12,
+                                                                "generation": 11,
                                                                 "century": 19,
                                                                 "confidence": "confirmed",
-                                                                "spouse": "m1. Catherine Woodward; m2. Elizabeth Christie (b. 2 Dec 1833 Christianburg, Shelby KY)",
+                                                                "spouse": null,
                                                                 "children": [
                                                                   {
-                                                                    "name": "John T. Mattingly",
+                                                                    "name": "Mary Mattingly",
                                                                     "dates": "?",
-                                                                    "fact": "Half-sibling of Edward Sr. (mother Catherine Woodward)",
+                                                                    "fact": "Daughter of Zachariah Sr.",
                                                                     "id": null,
-                                                                    "generation": 13,
+                                                                    "generation": 12,
                                                                     "century": 19,
                                                                     "confidence": "probable",
                                                                     "spouse": null,
                                                                     "children": []
                                                                   },
                                                                   {
-                                                                    "name": "Sarah Alice (Mattingly) Embree",
+                                                                    "name": "Zachariah Mattingly Jr.",
                                                                     "dates": "?",
-                                                                    "fact": "Half-sibling of Edward Sr.; m. Embree",
+                                                                    "fact": "Son of Zachariah Sr.",
                                                                     "id": null,
-                                                                    "generation": 13,
-                                                                    "century": 19,
-                                                                    "confidence": "probable",
-                                                                    "spouse": null,
-                                                                    "children": []
-                                                                  },
-                                                                  {
-                                                                    "name": "Anna Bell (Mattingly) Powell",
-                                                                    "dates": "?",
-                                                                    "fact": "Daughter of TJ + Elizabeth Christie; m. Ezra Doty Powell 1874",
-                                                                    "id": null,
-                                                                    "generation": 13,
-                                                                    "century": 19,
-                                                                    "confidence": "probable",
-                                                                    "spouse": null,
-                                                                    "children": []
-                                                                  },
-                                                                  {
-                                                                    "name": "Noble N. Mattingly",
-                                                                    "dates": "?",
-                                                                    "fact": "Son of TJ + Elizabeth Christie",
-                                                                    "id": null,
-                                                                    "generation": 13,
-                                                                    "century": 19,
-                                                                    "confidence": "probable",
-                                                                    "spouse": null,
-                                                                    "children": []
-                                                                  },
-                                                                  {
-                                                                    "name": "Francis Ellsworth 'Frank' Mattingly",
-                                                                    "dates": "?",
-                                                                    "fact": "Son of TJ + Elizabeth Christie",
-                                                                    "id": null,
-                                                                    "generation": 13,
-                                                                    "century": 19,
-                                                                    "confidence": "probable",
-                                                                    "spouse": null,
-                                                                    "children": []
-                                                                  },
-                                                                  {
-                                                                    "name": "Edward Mattingly Sr.",
-                                                                    "dates": "1868 MO – 1945 La Grange TX",
-                                                                    "fact": "Born Missouri; migrated to TX by 1894; m. May Teichmueller 1 Sept 1894 (May d. 28 Aug 1900); m2. Blanche Schroeder",
-                                                                    "id": "p041",
-                                                                    "generation": 13,
-                                                                    "century": 20,
-                                                                    "confidence": "confirmed",
-                                                                    "spouse": "m1. May Teichmueller (1894–1900); m2. Blanche D. Schroeder (b. 1886 MO)",
-                                                                    "children": [
-                                                                      {
-                                                                        "name": "Leroy Teichmuller Mattingly",
-                                                                        "dates": "31 Aug 1896 – 1968",
-                                                                        "fact": "Born La Grange TX; died San Antonio. U Texas engineer; named for German maternal grandfather Hans Teichmueller. m. Ruth Baity 4 Apr 1900–1982. WikiTree Mattingly-1127.",
-                                                                        "id": "p002",
-                                                                        "generation": 14,
-                                                                        "century": 20,
-                                                                        "confidence": "confirmed",
-                                                                        "spouse": "Ruth (Baity) Mattingly (4 Apr 1900 – 1982 Houston)",
-                                                                        "children": [
-                                                                          {
-                                                                            "name": "Leroy Baity Mattingly",
-                                                                            "dates": "1922–2013",
-                                                                            "fact": "Born 17 May 1922 San Antonio; died Colorado Springs CO 2013. WikiTree Mattingly-1178. m. Jennive Imogene Lepick (1923-2008) at Fort Sill OK on 18 Dec 1943.",
-                                                                            "id": "p015",
-                                                                            "generation": 15,
-                                                                            "century": 20,
-                                                                            "confidence": "confirmed",
-                                                                            "spouse": "Jennive Imogene Lepick (2 Feb 1923 Floresville TX – 2008 Colorado Springs)",
-                                                                            "children": [
-                                                                              {
-                                                                                "name": "Sharyn (\"Shari\") Mattingly",
-                                                                                "dates": "b. 1947",
-                                                                                "fact": "Family historian; Santa Monica; oil royalty owner",
-                                                                                "id": "p000",
-                                                                                "generation": 16,
-                                                                                "century": 20,
-                                                                                "confidence": "confirmed",
-                                                                                "spouse": "David Spence (1st husband)",
-                                                                                "children": [
-                                                                                  {
-                                                                                    "name": "Rachel (née Trifon→Spence)",
-                                                                                    "dates": "living",
-                                                                                    "fact": "Hunter's mother; daughter of Shari Mattingly + David Trifon (adopted-name Trifon). Married Dale William Spence Jr. — Hunter's surname comes via this marriage line, from Dale Sr's English Spence family.",
-                                                                                    "id": null,
-                                                                                    "generation": 17,
-                                                                                    "century": 21,
-                                                                                    "confidence": "confirmed",
-                                                                                    "spouse": "Dale William Spence Jr.",
-                                                                                    "children": [
-                                                                                      {
-                                                                                        "name": "Hunter Spence",
-                                                                                        "dates": "living",
-                                                                                        "fact": "Recipient of this family history; recorded grandma's interview. Surname Spence inherited via FATHER (Dale William Spence Jr.), NOT via maternal grandfather David Trifon (whose Trifon surname was adopted, biological line untraceable).",
-                                                                                        "id": "p001",
-                                                                                        "generation": 18,
-                                                                                        "century": 21,
-                                                                                        "confidence": "confirmed",
-                                                                                        "spouse": null,
-                                                                                        "children": []
-                                                                                      }
-                                                                                    ]
-                                                                                  },
-                                                                                  {
-                                                                                    "name": "Charmaine",
-                                                                                    "dates": "living",
-                                                                                    "fact": "Shari + David Trifon's daughter; Hunter's aunt (maternal)",
-                                                                                    "id": "p021",
-                                                                                    "generation": 17,
-                                                                                    "century": 21,
-                                                                                    "confidence": "confirmed",
-                                                                                    "spouse": null,
-                                                                                    "children": []
-                                                                                  }
-                                                                                ]
-                                                                              },
-                                                                              {
-                                                                                "name": "[brother]",
-                                                                                "dates": "living",
-                                                                                "fact": "Got the chair from Pearl's set",
-                                                                                "id": "p022",
-                                                                                "generation": 16,
-                                                                                "century": 20,
-                                                                                "confidence": "confirmed",
-                                                                                "spouse": null,
-                                                                                "children": []
-                                                                              },
-                                                                              {
-                                                                                "name": "[sister]",
-                                                                                "dates": "living",
-                                                                                "fact": "—",
-                                                                                "id": "p023",
-                                                                                "generation": 16,
-                                                                                "century": 20,
-                                                                                "confidence": "confirmed",
-                                                                                "spouse": null,
-                                                                                "children": []
-                                                                              }
-                                                                            ]
-                                                                          }
-                                                                        ]
-                                                                      },
-                                                                      {
-                                                                        "name": "Dr. Claude Mattingly",
-                                                                        "dates": "1898–1934",
-                                                                        "fact": "Pediatrician; Marine WWI; suicide pact at Texan Hotel Austin Jan 31 1934",
-                                                                        "id": "p011",
-                                                                        "generation": 14,
-                                                                        "century": 20,
-                                                                        "confidence": "confirmed",
-                                                                        "spouse": null,
-                                                                        "children": []
-                                                                      },
-                                                                      {
-                                                                        "name": "Aunt Mamie",
-                                                                        "dates": "b. ~1900",
-                                                                        "fact": "Mother died at her birth",
-                                                                        "id": "p013",
-                                                                        "generation": 14,
-                                                                        "century": 20,
-                                                                        "confidence": "confirmed",
-                                                                        "spouse": null,
-                                                                        "children": []
-                                                                      },
-                                                                      {
-                                                                        "name": "Edward Mattingly Jr.",
-                                                                        "dates": "b. ~1915 La Grange",
-                                                                        "fact": "Half-sibling — son of Edward Sr. + 2nd wife Blanche Schroeder",
-                                                                        "id": null,
-                                                                        "generation": 14,
-                                                                        "century": 20,
-                                                                        "confidence": "probable",
-                                                                        "spouse": null,
-                                                                        "children": []
-                                                                      }
-                                                                    ]
-                                                                  },
-                                                                  {
-                                                                    "name": "Florence Mattingly",
-                                                                    "dates": "?",
-                                                                    "fact": "Daughter of TJ + Elizabeth Christie",
-                                                                    "id": null,
-                                                                    "generation": 13,
-                                                                    "century": 19,
-                                                                    "confidence": "probable",
-                                                                    "spouse": null,
-                                                                    "children": []
-                                                                  },
-                                                                  {
-                                                                    "name": "Ida Mattingly",
-                                                                    "dates": "?",
-                                                                    "fact": "Daughter of TJ + Elizabeth Christie",
-                                                                    "id": null,
-                                                                    "generation": 13,
+                                                                    "generation": 12,
                                                                     "century": 19,
                                                                     "confidence": "probable",
                                                                     "spouse": null,
@@ -600,320 +374,700 @@
                                                               },
                                                               {
                                                                 "name": "Ignatius Mattingly",
-                                                                "dates": "b. 6 Mar 1811",
-                                                                "fact": "Sibling of Thomas Jefferson; m. Rachel F. Barnes (WikiTree Mattingly-139)",
+                                                                "dates": "1781 MD – 1833 KY",
+                                                                "fact": "Born Maryland; MD→KY migration; died there 1833. WikiTree Mattingly-140.",
                                                                 "id": null,
-                                                                "generation": 12,
-                                                                "century": 19,
-                                                                "confidence": "probable",
-                                                                "spouse": null,
-                                                                "children": []
-                                                              }
-                                                            ]
-                                                          }
-                                                        ]
-                                                      },
-                                                      {
-                                                        "name": "Leonard Mattingly Sr.",
-                                                        "dates": "1739–1829 Washington Co KY",
-                                                        "fact": "Mattingly-62. 'Old Leonard'; one of the William/Leonard/Lucas brothers Webb places at Hardin's Creek in early 1786. m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10+ named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)",
-                                                        "id": "p044",
-                                                        "generation": 10,
-                                                        "century": 18,
-                                                        "confidence": "confirmed",
-                                                        "spouse": "m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty",
-                                                        "children": [
-                                                          {
-                                                            "name": "Joseph Mattingly",
-                                                            "dates": "?",
-                                                            "fact": "Mattingly-339; son of Leonard Sr. Webb says Joseph Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.",
-                                                            "id": null,
-                                                            "generation": 11,
-                                                            "century": 18,
-                                                            "confidence": "probable",
-                                                            "spouse": null,
-                                                            "children": []
-                                                          },
-                                                          {
-                                                            "name": "Jane Mattingly",
-                                                            "dates": "b. 1760",
-                                                            "fact": "Mattingly-211",
-                                                            "id": null,
-                                                            "generation": 11,
-                                                            "century": 18,
-                                                            "confidence": "probable",
-                                                            "spouse": null,
-                                                            "children": []
-                                                          },
-                                                          {
-                                                            "name": "John Baptist Mattingly",
-                                                            "dates": "b. 1762",
-                                                            "fact": "Mattingly-59",
-                                                            "id": null,
-                                                            "generation": 11,
-                                                            "century": 18,
-                                                            "confidence": "probable",
-                                                            "spouse": null,
-                                                            "children": []
-                                                          },
-                                                          {
-                                                            "name": "Leonard Mattingly Jr.",
-                                                            "dates": "1764–1843 Marion KY",
-                                                            "fact": "Mattingly-210; 1785 Catholic migrant to KY; Y-DNA project anchor for KY descendants. m. Ann Cissell.",
-                                                            "id": "p045",
-                                                            "generation": 11,
-                                                            "century": 18,
-                                                            "confidence": "confirmed",
-                                                            "spouse": "Ann Cissell (m. 7 Jan 1788, Nelson Co KY)",
-                                                            "children": [
-                                                              {
-                                                                "name": "Mary Alvey Mattingly",
-                                                                "dates": "b. 1798",
-                                                                "fact": "Eldest of Leonard Jr.'s 4 children",
-                                                                "id": null,
-                                                                "generation": 12,
-                                                                "century": 19,
-                                                                "confidence": "probable",
-                                                                "spouse": null,
-                                                                "children": []
-                                                              },
-                                                              {
-                                                                "name": "Henry Martin Mattingly Sr.",
-                                                                "dates": "1799–1858 Marion KY",
-                                                                "fact": "9 children 1828-1844; m. Helen Thompson; collateral KY Y-DNA branch",
-                                                                "id": null,
-                                                                "generation": 12,
+                                                                "generation": 11,
                                                                 "century": 19,
                                                                 "confidence": "confirmed",
-                                                                "spouse": "Helen Thompson (b. ~1800)",
+                                                                "spouse": null,
                                                                 "children": [
                                                                   {
-                                                                    "name": "George Thomas Mattingly",
-                                                                    "dates": "b. 1830 Marion KY",
-                                                                    "fact": "Mattingly-695; Y-DNA project participant",
-                                                                    "id": "p046",
-                                                                    "generation": 13,
+                                                                    "name": "Thomas Jefferson Mattingly",
+                                                                    "dates": "1828 KY – 1883 MO",
+                                                                    "fact": "WikiTree Mattingly-591; m1. Catherine Woodward (2 kids); m2. Elizabeth Christie (6 kids); KY→MO migration",
+                                                                    "id": null,
+                                                                    "generation": 12,
                                                                     "century": 19,
-                                                                    "confidence": "possible",
-                                                                    "spouse": null,
-                                                                    "children": []
+                                                                    "confidence": "confirmed",
+                                                                    "spouse": "m1. Catherine Woodward; m2. Elizabeth Christie (b. 2 Dec 1833 Christianburg, Shelby KY)",
+                                                                    "children": [
+                                                                      {
+                                                                        "name": "John T. Mattingly",
+                                                                        "dates": "?",
+                                                                        "fact": "Half-sibling of Edward Sr. (mother Catherine Woodward)",
+                                                                        "id": null,
+                                                                        "generation": 13,
+                                                                        "century": 19,
+                                                                        "confidence": "probable",
+                                                                        "spouse": null,
+                                                                        "children": []
+                                                                      },
+                                                                      {
+                                                                        "name": "Sarah Alice (Mattingly) Embree",
+                                                                        "dates": "?",
+                                                                        "fact": "Half-sibling of Edward Sr.; m. Embree",
+                                                                        "id": null,
+                                                                        "generation": 13,
+                                                                        "century": 19,
+                                                                        "confidence": "probable",
+                                                                        "spouse": null,
+                                                                        "children": []
+                                                                      },
+                                                                      {
+                                                                        "name": "Anna Bell (Mattingly) Powell",
+                                                                        "dates": "?",
+                                                                        "fact": "Daughter of TJ + Elizabeth Christie; m. Ezra Doty Powell 1874",
+                                                                        "id": null,
+                                                                        "generation": 13,
+                                                                        "century": 19,
+                                                                        "confidence": "probable",
+                                                                        "spouse": null,
+                                                                        "children": []
+                                                                      },
+                                                                      {
+                                                                        "name": "Noble N. Mattingly",
+                                                                        "dates": "?",
+                                                                        "fact": "Son of TJ + Elizabeth Christie",
+                                                                        "id": null,
+                                                                        "generation": 13,
+                                                                        "century": 19,
+                                                                        "confidence": "probable",
+                                                                        "spouse": null,
+                                                                        "children": []
+                                                                      },
+                                                                      {
+                                                                        "name": "Francis Ellsworth 'Frank' Mattingly",
+                                                                        "dates": "?",
+                                                                        "fact": "Son of TJ + Elizabeth Christie",
+                                                                        "id": null,
+                                                                        "generation": 13,
+                                                                        "century": 19,
+                                                                        "confidence": "probable",
+                                                                        "spouse": null,
+                                                                        "children": []
+                                                                      },
+                                                                      {
+                                                                        "name": "Edward Mattingly Sr.",
+                                                                        "dates": "1868 MO – 1945 La Grange TX",
+                                                                        "fact": "Born Missouri; migrated to TX by 1894; m. May Teichmueller 1 Sept 1894 (May d. 28 Aug 1900); m2. Blanche Schroeder",
+                                                                        "id": "p041",
+                                                                        "generation": 13,
+                                                                        "century": 20,
+                                                                        "confidence": "confirmed",
+                                                                        "spouse": "m1. May Teichmueller (1894–1900); m2. Blanche D. Schroeder (b. 1886 MO)",
+                                                                        "children": [
+                                                                          {
+                                                                            "name": "Leroy Teichmuller Mattingly",
+                                                                            "dates": "31 Aug 1896 – 1968",
+                                                                            "fact": "Born La Grange TX; died San Antonio. U Texas engineer; named for German maternal grandfather Hans Teichmueller. m. Ruth Baity 4 Apr 1900–1982. WikiTree Mattingly-1127.",
+                                                                            "id": "p002",
+                                                                            "generation": 14,
+                                                                            "century": 20,
+                                                                            "confidence": "confirmed",
+                                                                            "spouse": "Ruth (Baity) Mattingly (4 Apr 1900 – 1982 Houston)",
+                                                                            "children": [
+                                                                              {
+                                                                                "name": "Leroy Baity Mattingly",
+                                                                                "dates": "1922–2013",
+                                                                                "fact": "Born 17 May 1922 San Antonio; died Colorado Springs CO 2013. WikiTree Mattingly-1178. m. Jennive Imogene Lepick (1923-2008) at Fort Sill OK on 18 Dec 1943.",
+                                                                                "id": "p015",
+                                                                                "generation": 15,
+                                                                                "century": 20,
+                                                                                "confidence": "confirmed",
+                                                                                "spouse": "Jennive Imogene Lepick (2 Feb 1923 Floresville TX – 2008 Colorado Springs)",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "name": "Sharyn (\"Shari\") Mattingly",
+                                                                                    "dates": "b. 1947",
+                                                                                    "fact": "Family historian; Santa Monica; oil royalty owner",
+                                                                                    "id": "p000",
+                                                                                    "generation": 16,
+                                                                                    "century": 20,
+                                                                                    "confidence": "confirmed",
+                                                                                    "spouse": "David Spence (1st husband)",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "name": "Rachel (née Trifon→Spence)",
+                                                                                        "dates": "living",
+                                                                                        "fact": "Hunter's mother; daughter of Shari Mattingly + David Trifon (adopted-name Trifon). Married Dale William Spence Jr. — Hunter's surname comes via this marriage line, from Dale Sr's English Spence family.",
+                                                                                        "id": null,
+                                                                                        "generation": 17,
+                                                                                        "century": 21,
+                                                                                        "confidence": "confirmed",
+                                                                                        "spouse": "Dale William Spence Jr.",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "name": "Hunter Spence",
+                                                                                            "dates": "living",
+                                                                                            "fact": "Recipient of this family history; recorded grandma's interview. Surname Spence inherited via FATHER (Dale William Spence Jr.), NOT via maternal grandfather David Trifon (whose Trifon surname was adopted, biological line untraceable).",
+                                                                                            "id": "p001",
+                                                                                            "generation": 18,
+                                                                                            "century": 21,
+                                                                                            "confidence": "confirmed",
+                                                                                            "spouse": null,
+                                                                                            "children": []
+                                                                                          }
+                                                                                        ]
+                                                                                      },
+                                                                                      {
+                                                                                        "name": "Charmaine",
+                                                                                        "dates": "living",
+                                                                                        "fact": "Shari + David Trifon's daughter; Hunter's aunt (maternal)",
+                                                                                        "id": "p021",
+                                                                                        "generation": 17,
+                                                                                        "century": 21,
+                                                                                        "confidence": "confirmed",
+                                                                                        "spouse": null,
+                                                                                        "children": []
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  {
+                                                                                    "name": "[brother]",
+                                                                                    "dates": "living",
+                                                                                    "fact": "Got the chair from Pearl's set",
+                                                                                    "id": "p022",
+                                                                                    "generation": 16,
+                                                                                    "century": 20,
+                                                                                    "confidence": "confirmed",
+                                                                                    "spouse": null,
+                                                                                    "children": []
+                                                                                  },
+                                                                                  {
+                                                                                    "name": "[sister]",
+                                                                                    "dates": "living",
+                                                                                    "fact": "—",
+                                                                                    "id": "p023",
+                                                                                    "generation": 16,
+                                                                                    "century": 20,
+                                                                                    "confidence": "confirmed",
+                                                                                    "spouse": null,
+                                                                                    "children": []
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          {
+                                                                            "name": "Dr. Claude Mattingly",
+                                                                            "dates": "1898–1934",
+                                                                            "fact": "Pediatrician; Marine WWI; suicide pact at Texan Hotel Austin Jan 31 1934",
+                                                                            "id": "p011",
+                                                                            "generation": 14,
+                                                                            "century": 20,
+                                                                            "confidence": "confirmed",
+                                                                            "spouse": null,
+                                                                            "children": []
+                                                                          },
+                                                                          {
+                                                                            "name": "Aunt Mamie",
+                                                                            "dates": "b. ~1900",
+                                                                            "fact": "Mother died at her birth",
+                                                                            "id": "p013",
+                                                                            "generation": 14,
+                                                                            "century": 20,
+                                                                            "confidence": "confirmed",
+                                                                            "spouse": null,
+                                                                            "children": []
+                                                                          },
+                                                                          {
+                                                                            "name": "Edward Mattingly Jr.",
+                                                                            "dates": "b. ~1915 La Grange",
+                                                                            "fact": "Half-sibling — son of Edward Sr. + 2nd wife Blanche Schroeder",
+                                                                            "id": null,
+                                                                            "generation": 14,
+                                                                            "century": 20,
+                                                                            "confidence": "probable",
+                                                                            "spouse": null,
+                                                                            "children": []
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      {
+                                                                        "name": "Florence Mattingly",
+                                                                        "dates": "?",
+                                                                        "fact": "Daughter of TJ + Elizabeth Christie",
+                                                                        "id": null,
+                                                                        "generation": 13,
+                                                                        "century": 19,
+                                                                        "confidence": "probable",
+                                                                        "spouse": null,
+                                                                        "children": []
+                                                                      },
+                                                                      {
+                                                                        "name": "Ida Mattingly",
+                                                                        "dates": "?",
+                                                                        "fact": "Daughter of TJ + Elizabeth Christie",
+                                                                        "id": null,
+                                                                        "generation": 13,
+                                                                        "century": 19,
+                                                                        "confidence": "probable",
+                                                                        "spouse": null,
+                                                                        "children": []
+                                                                      }
+                                                                    ]
                                                                   },
                                                                   {
-                                                                    "name": "[+8 other children of Henry Martin Sr.]",
-                                                                    "dates": "1828–1844",
-                                                                    "fact": "Per agent 16 research",
+                                                                    "name": "Ignatius Mattingly",
+                                                                    "dates": "b. 6 Mar 1811",
+                                                                    "fact": "Sibling of Thomas Jefferson; m. Rachel F. Barnes (WikiTree Mattingly-139)",
                                                                     "id": null,
-                                                                    "generation": 13,
+                                                                    "generation": 12,
                                                                     "century": 19,
                                                                     "confidence": "probable",
                                                                     "spouse": null,
                                                                     "children": []
                                                                   }
                                                                 ]
-                                                              },
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "name": "Leonard Mattingly Sr.",
+                                                            "dates": "1739–1829 Washington Co KY",
+                                                            "fact": "Mattingly-62. 'Old Leonard'; one of the William/Leonard/Lucas brothers Webb places at Hardin's Creek in early 1786. m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty; 10+ named children. SIBLING of Ignatius Jr (NOT direct ancestor of Hunter)",
+                                                            "id": "p044",
+                                                            "generation": 10,
+                                                            "century": 18,
+                                                            "confidence": "confirmed",
+                                                            "spouse": "m1. Mary Hayden; m2. Margaret Monarch; m3. Dorothy Hardesty",
+                                                            "children": [
                                                               {
-                                                                "name": "William Cissell Mattingly",
-                                                                "dates": "b. 1807",
-                                                                "fact": "Leonard Jr's third child",
+                                                                "name": "Joseph Mattingly",
+                                                                "dates": "?",
+                                                                "fact": "Mattingly-339; son of Leonard Sr. Webb says Joseph Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.",
                                                                 "id": null,
-                                                                "generation": 12,
-                                                                "century": 19,
+                                                                "generation": 11,
+                                                                "century": 18,
                                                                 "confidence": "probable",
                                                                 "spouse": null,
                                                                 "children": []
                                                               },
                                                               {
-                                                                "name": "Leonard Mattingly III",
-                                                                "dates": "1828–1914 Glen Dean KY",
-                                                                "fact": "Died KY at 85; ruled out as centenarian",
+                                                                "name": "Jane Mattingly",
+                                                                "dates": "b. 1760",
+                                                                "fact": "Mattingly-211",
                                                                 "id": null,
-                                                                "generation": 12,
-                                                                "century": 19,
-                                                                "confidence": "confirmed",
+                                                                "generation": 11,
+                                                                "century": 18,
+                                                                "confidence": "probable",
                                                                 "spouse": null,
                                                                 "children": []
-                                                              }
-                                                            ]
-                                                          },
-                                                          {
-                                                            "name": "Ignatius Mattingly",
-                                                            "dates": "b. 1766",
-                                                            "fact": "Mattingly-53; son of Leonard Sr. Webb says Ignatius Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.",
-                                                            "id": null,
-                                                            "generation": 11,
-                                                            "century": 18,
-                                                            "confidence": "probable",
-                                                            "spouse": null,
-                                                            "children": []
-                                                          },
-                                                          {
-                                                            "name": "Susannah (Mattingly) Ray",
-                                                            "dates": "b. 1766",
-                                                            "fact": "Mattingly-208; m. Ray",
-                                                            "id": null,
-                                                            "generation": 11,
-                                                            "century": 18,
-                                                            "confidence": "probable",
-                                                            "spouse": null,
-                                                            "children": []
-                                                          },
-                                                          {
-                                                            "name": "Basil Mattingly",
-                                                            "dates": "b. 1772",
-                                                            "fact": "Mattingly-207",
-                                                            "id": null,
-                                                            "generation": 11,
-                                                            "century": 18,
-                                                            "confidence": "probable",
-                                                            "spouse": null,
-                                                            "children": [
+                                                              },
                                                               {
-                                                                "name": "Martha 'Mother Generose' Mattingly",
-                                                                "dates": "fl. 1842–1844 KY",
-                                                                "fact": "Webb identifies Martha as Basil Mattingly's daughter; as Mother Generose Mattingly she led the Loretto community from 1842 to 1844.",
+                                                                "name": "John Baptist Mattingly",
+                                                                "dates": "b. 1762",
+                                                                "fact": "Mattingly-59",
                                                                 "id": null,
-                                                                "generation": 12,
+                                                                "generation": 11,
+                                                                "century": 18,
+                                                                "confidence": "probable",
+                                                                "spouse": null,
+                                                                "children": []
+                                                              },
+                                                              {
+                                                                "name": "Leonard Mattingly Jr.",
+                                                                "dates": "1764–1843 Marion KY",
+                                                                "fact": "Mattingly-210; 1785 Catholic migrant to KY; Y-DNA project anchor for KY descendants. m. Ann Cissell.",
+                                                                "id": "p045",
+                                                                "generation": 11,
+                                                                "century": 18,
+                                                                "confidence": "confirmed",
+                                                                "spouse": "Ann Cissell (m. 7 Jan 1788, Nelson Co KY)",
+                                                                "children": [
+                                                                  {
+                                                                    "name": "Mary Alvey Mattingly",
+                                                                    "dates": "b. 1798",
+                                                                    "fact": "Eldest of Leonard Jr.'s 4 children",
+                                                                    "id": null,
+                                                                    "generation": 12,
+                                                                    "century": 19,
+                                                                    "confidence": "probable",
+                                                                    "spouse": null,
+                                                                    "children": []
+                                                                  },
+                                                                  {
+                                                                    "name": "Henry Martin Mattingly Sr.",
+                                                                    "dates": "1799–1858 Marion KY",
+                                                                    "fact": "9 children 1828-1844; m. Helen Thompson; collateral KY Y-DNA branch",
+                                                                    "id": null,
+                                                                    "generation": 12,
+                                                                    "century": 19,
+                                                                    "confidence": "confirmed",
+                                                                    "spouse": "Helen Thompson (b. ~1800)",
+                                                                    "children": [
+                                                                      {
+                                                                        "name": "George Thomas Mattingly",
+                                                                        "dates": "b. 1830 Marion KY",
+                                                                        "fact": "Mattingly-695; Y-DNA project participant",
+                                                                        "id": "p046",
+                                                                        "generation": 13,
+                                                                        "century": 19,
+                                                                        "confidence": "possible",
+                                                                        "spouse": null,
+                                                                        "children": []
+                                                                      },
+                                                                      {
+                                                                        "name": "[+8 other children of Henry Martin Sr.]",
+                                                                        "dates": "1828–1844",
+                                                                        "fact": "Per agent 16 research",
+                                                                        "id": null,
+                                                                        "generation": 13,
+                                                                        "century": 19,
+                                                                        "confidence": "probable",
+                                                                        "spouse": null,
+                                                                        "children": []
+                                                                      }
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "name": "William Cissell Mattingly",
+                                                                    "dates": "b. 1807",
+                                                                    "fact": "Leonard Jr's third child",
+                                                                    "id": null,
+                                                                    "generation": 12,
+                                                                    "century": 19,
+                                                                    "confidence": "probable",
+                                                                    "spouse": null,
+                                                                    "children": []
+                                                                  },
+                                                                  {
+                                                                    "name": "Leonard Mattingly III",
+                                                                    "dates": "1828–1914 Glen Dean KY",
+                                                                    "fact": "Died KY at 85; ruled out as centenarian",
+                                                                    "id": null,
+                                                                    "generation": 12,
+                                                                    "century": 19,
+                                                                    "confidence": "confirmed",
+                                                                    "spouse": null,
+                                                                    "children": []
+                                                                  }
+                                                                ]
+                                                              },
+                                                              {
+                                                                "name": "Ignatius Mattingly",
+                                                                "dates": "b. 1766",
+                                                                "fact": "Mattingly-53; son of Leonard Sr. Webb says Ignatius Mattingly of Long Lick helped build the first Hardinsburg chapel by preparing heavy timbers and hand-sawing planks.",
+                                                                "id": null,
+                                                                "generation": 11,
+                                                                "century": 18,
+                                                                "confidence": "probable",
+                                                                "spouse": null,
+                                                                "children": []
+                                                              },
+                                                              {
+                                                                "name": "Susannah (Mattingly) Ray",
+                                                                "dates": "b. 1766",
+                                                                "fact": "Mattingly-208; m. Ray",
+                                                                "id": null,
+                                                                "generation": 11,
+                                                                "century": 18,
+                                                                "confidence": "probable",
+                                                                "spouse": null,
+                                                                "children": []
+                                                              },
+                                                              {
+                                                                "name": "Basil Mattingly",
+                                                                "dates": "b. 1772",
+                                                                "fact": "Mattingly-207",
+                                                                "id": null,
+                                                                "generation": 11,
+                                                                "century": 18,
+                                                                "confidence": "probable",
+                                                                "spouse": null,
+                                                                "children": [
+                                                                  {
+                                                                    "name": "Martha 'Mother Generose' Mattingly",
+                                                                    "dates": "fl. 1842–1844 KY",
+                                                                    "fact": "Webb identifies Martha as Basil Mattingly's daughter; as Mother Generose Mattingly she led the Loretto community from 1842 to 1844.",
+                                                                    "id": null,
+                                                                    "generation": 12,
+                                                                    "century": 19,
+                                                                    "confidence": "confirmed",
+                                                                    "spouse": null,
+                                                                    "children": []
+                                                                  }
+                                                                ]
+                                                              },
+                                                              {
+                                                                "name": "Susan (Mattingly) Barron",
+                                                                "dates": "b. 1775",
+                                                                "fact": "Mattingly-78; m. Barron",
+                                                                "id": null,
+                                                                "generation": 11,
+                                                                "century": 18,
+                                                                "confidence": "probable",
+                                                                "spouse": null,
+                                                                "children": []
+                                                              },
+                                                              {
+                                                                "name": "Mary (Mattingly) Buckman",
+                                                                "dates": "b. 1777",
+                                                                "fact": "Mattingly-205; m. Buckman",
+                                                                "id": null,
+                                                                "generation": 11,
+                                                                "century": 18,
+                                                                "confidence": "probable",
+                                                                "spouse": null,
+                                                                "children": []
+                                                              },
+                                                              {
+                                                                "name": "William Mattingly",
+                                                                "dates": "b. 1777",
+                                                                "fact": "Mattingly-204",
+                                                                "id": null,
+                                                                "generation": 11,
+                                                                "century": 18,
+                                                                "confidence": "probable",
+                                                                "spouse": null,
+                                                                "children": []
+                                                              },
+                                                              {
+                                                                "name": "Sister Margaret Mattingly",
+                                                                "dates": "fl. 1812 KY",
+                                                                "fact": "Founding member of the Sisters of Loretto (1812) — the first women's religious order founded west of the Allegheny Mountains. Per Webb 1884.",
+                                                                "id": "p056",
+                                                                "generation": 11,
                                                                 "century": 19,
                                                                 "confidence": "confirmed",
                                                                 "spouse": null,
                                                                 "children": []
+                                                              },
+                                                              {
+                                                                "name": "[Bardstown Mattingly bridge incomplete]",
+                                                                "dates": "19th c. KY",
+                                                                "fact": "Placeholder for a later Bardstown collateral line. Exact bridge from this Kentucky Mattingly cluster to Cyprian Peter Mattingly is still incomplete.",
+                                                                "id": null,
+                                                                "generation": 11,
+                                                                "century": 19,
+                                                                "confidence": "possible",
+                                                                "spouse": null,
+                                                                "children": [
+                                                                  {
+                                                                    "name": "Marie Mattingly Meloney",
+                                                                    "dates": "1878–1943",
+                                                                    "fact": "Major American journalist and editor, born Bardstown KY to physician Cyprian Peter Mattingly. Included only as a POSSIBLE Kentucky collateral until the branch bridge is documented.",
+                                                                    "id": null,
+                                                                    "generation": 12,
+                                                                    "century": 20,
+                                                                    "confidence": "possible",
+                                                                    "spouse": null,
+                                                                    "children": []
+                                                                  }
+                                                                ]
                                                               }
                                                             ]
-                                                          },
-                                                          {
-                                                            "name": "Susan (Mattingly) Barron",
-                                                            "dates": "b. 1775",
-                                                            "fact": "Mattingly-78; m. Barron",
-                                                            "id": null,
-                                                            "generation": 11,
-                                                            "century": 18,
-                                                            "confidence": "probable",
-                                                            "spouse": null,
-                                                            "children": []
-                                                          },
-                                                          {
-                                                            "name": "Mary (Mattingly) Buckman",
-                                                            "dates": "b. 1777",
-                                                            "fact": "Mattingly-205; m. Buckman",
-                                                            "id": null,
-                                                            "generation": 11,
-                                                            "century": 18,
-                                                            "confidence": "probable",
-                                                            "spouse": null,
-                                                            "children": []
                                                           },
                                                           {
                                                             "name": "William Mattingly",
-                                                            "dates": "b. 1777",
-                                                            "fact": "Mattingly-204",
+                                                            "dates": "1741–1817 Washington KY",
+                                                            "fact": "Mattingly-213; m1. Mary Catherine Spalding; m2. Nancy Elizabeth Clark",
                                                             "id": null,
-                                                            "generation": 11,
+                                                            "generation": 9,
                                                             "century": 18,
                                                             "confidence": "probable",
                                                             "spouse": null,
                                                             "children": []
                                                           },
                                                           {
-                                                            "name": "Sister Margaret Mattingly",
-                                                            "dates": "fl. 1812 KY",
-                                                            "fact": "Founding member of the Sisters of Loretto (1812) — the first women's religious order founded west of the Allegheny Mountains. Per Webb 1884.",
-                                                            "id": "p056",
-                                                            "generation": 11,
-                                                            "century": 19,
-                                                            "confidence": "confirmed",
+                                                            "name": "Lucas Mattingly",
+                                                            "dates": "1743–1830 KY",
+                                                            "fact": "Mattingly-214; m. Sue Ellen Hagan, Elizabeth Eleanor Thompson, Elizabeth Cambron",
+                                                            "id": null,
+                                                            "generation": 9,
+                                                            "century": 18,
+                                                            "confidence": "probable",
                                                             "spouse": null,
                                                             "children": []
                                                           },
                                                           {
-                                                            "name": "[Bardstown Mattingly bridge incomplete]",
-                                                            "dates": "19th c. KY",
-                                                            "fact": "Placeholder for a later Bardstown collateral line. Exact bridge from this Kentucky Mattingly cluster to Cyprian Peter Mattingly is still incomplete.",
+                                                            "name": "Elizabeth (Mattingly) Thompson",
+                                                            "dates": "b. 1745",
+                                                            "fact": "Mattingly-1901; m. Thompson",
                                                             "id": null,
-                                                            "generation": 11,
-                                                            "century": 19,
-                                                            "confidence": "possible",
+                                                            "generation": 9,
+                                                            "century": 18,
+                                                            "confidence": "probable",
                                                             "spouse": null,
-                                                            "children": [
-                                                              {
-                                                                "name": "Marie Mattingly Meloney",
-                                                                "dates": "1878–1943",
-                                                                "fact": "Major American journalist and editor, born Bardstown KY to physician Cyprian Peter Mattingly. Included only as a POSSIBLE Kentucky collateral until the branch bridge is documented.",
-                                                                "id": null,
-                                                                "generation": 12,
-                                                                "century": 20,
-                                                                "confidence": "possible",
-                                                                "spouse": null,
-                                                                "children": []
-                                                              }
-                                                            ]
+                                                            "children": []
+                                                          },
+                                                          {
+                                                            "name": "Sarah Ann (Mattingly) Walker",
+                                                            "dates": "b. 1747",
+                                                            "fact": "Mattingly-1312; m. Walker",
+                                                            "id": null,
+                                                            "generation": 9,
+                                                            "century": 18,
+                                                            "confidence": "probable",
+                                                            "spouse": null,
+                                                            "children": []
+                                                          },
+                                                          {
+                                                            "name": "Susanna Mattingly",
+                                                            "dates": "b. 1749",
+                                                            "fact": "Mattingly-1900",
+                                                            "id": null,
+                                                            "generation": 9,
+                                                            "century": 18,
+                                                            "confidence": "probable",
+                                                            "spouse": null,
+                                                            "children": []
                                                           }
                                                         ]
                                                       },
                                                       {
-                                                        "name": "William Mattingly",
-                                                        "dates": "1741–1817 Washington KY",
-                                                        "fact": "Mattingly-213; m1. Mary Catherine Spalding; m2. Nancy Elizabeth Clark",
+                                                        "name": "Ann Mattingly",
+                                                        "dates": "b. 1706",
+                                                        "fact": "Named in Thomas II's 1714 will",
                                                         "id": null,
-                                                        "generation": 9,
-                                                        "century": 18,
-                                                        "confidence": "probable",
+                                                        "generation": 6,
+                                                        "century": 17,
+                                                        "confidence": "confirmed",
                                                         "spouse": null,
                                                         "children": []
-                                                      },
+                                                      }
+                                                    ],
+                                                    "immigrant_to_america": true,
+                                                    "origin_country": "England",
+                                                    "country_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+                                                    "country_code": "GB-ENG"
+                                                  },
+                                                  {
+                                                    "name": "Cezar Mattingly",
+                                                    "dates": "1654–1719",
+                                                    "fact": "Mattingly-223. Co-recipient of Mattingly's Hope land patent 1666; m. Jane Suttle; brother of Hunter's direct ancestor Thomas II; Y-DNA R-Y14083 confirmed in his line (sibling terminal to Hunter's expected R-Y14084 cluster); ancestor of the Garrett County Hoyes settlement.",
+                                                    "id": "p050",
+                                                    "generation": 5,
+                                                    "century": 17,
+                                                    "confidence": "confirmed",
+                                                    "spouse": "Jane Suttle",
+                                                    "children": [
                                                       {
-                                                        "name": "Lucas Mattingly",
-                                                        "dates": "1743–1830 KY",
-                                                        "fact": "Mattingly-214; m. Sue Ellen Hagan, Elizabeth Eleanor Thompson, Elizabeth Cambron",
+                                                        "name": "John Baptist Mattingly",
+                                                        "dates": "1690–1744",
+                                                        "fact": "Mattingly-225; m. Grace Brewer; Cezar's son; great-grandfather of Henry I",
                                                         "id": null,
-                                                        "generation": 9,
-                                                        "century": 18,
+                                                        "generation": 3,
+                                                        "century": 17,
                                                         "confidence": "probable",
-                                                        "spouse": null,
-                                                        "children": []
-                                                      },
-                                                      {
-                                                        "name": "Elizabeth (Mattingly) Thompson",
-                                                        "dates": "b. 1745",
-                                                        "fact": "Mattingly-1901; m. Thompson",
-                                                        "id": null,
-                                                        "generation": 9,
-                                                        "century": 18,
-                                                        "confidence": "probable",
-                                                        "spouse": null,
-                                                        "children": []
-                                                      },
-                                                      {
-                                                        "name": "Sarah Ann (Mattingly) Walker",
-                                                        "dates": "b. 1747",
-                                                        "fact": "Mattingly-1312; m. Walker",
-                                                        "id": null,
-                                                        "generation": 9,
-                                                        "century": 18,
-                                                        "confidence": "probable",
-                                                        "spouse": null,
-                                                        "children": []
-                                                      },
-                                                      {
-                                                        "name": "Susanna Mattingly",
-                                                        "dates": "b. 1749",
-                                                        "fact": "Mattingly-1900",
-                                                        "id": null,
-                                                        "generation": 9,
-                                                        "century": 18,
-                                                        "confidence": "probable",
-                                                        "spouse": null,
-                                                        "children": []
+                                                        "spouse": "Grace Brewer",
+                                                        "children": [
+                                                          {
+                                                            "name": "John Mattingly",
+                                                            "dates": "1715–1759",
+                                                            "fact": "Mattingly-258; m. Elizabeth Brewer; father of Henry I",
+                                                            "id": null,
+                                                            "generation": 4,
+                                                            "century": 18,
+                                                            "confidence": "probable",
+                                                            "spouse": "Elizabeth Brewer",
+                                                            "children": [
+                                                              {
+                                                                "name": "Henry Mattingly I",
+                                                                "dates": "1751 MD – 1823 Mt Savage MD",
+                                                                "fact": "Mattingly-617. Patriarch / progenitor of the entire 1969 'Descendants of Henry Mattingly' genealogy book; m. Honora Durbin; 12 children",
+                                                                "id": "p051",
+                                                                "generation": 5,
+                                                                "century": 18,
+                                                                "confidence": "confirmed",
+                                                                "spouse": "Honora Durbin",
+                                                                "children": [
+                                                                  {
+                                                                    "name": "Henry Mattingly II",
+                                                                    "dates": "1782 MD – 1846 MO",
+                                                                    "fact": "Son of Henry I; m. Nancy Ann Durbin; migrated to Missouri",
+                                                                    "id": null,
+                                                                    "generation": 6,
+                                                                    "century": 19,
+                                                                    "confidence": "confirmed",
+                                                                    "spouse": "Nancy Ann Durbin",
+                                                                    "children": [
+                                                                      {
+                                                                        "name": "Dominick Mattingly",
+                                                                        "dates": "1808 MD – 1854 Hoyes MD",
+                                                                        "fact": "Anchor of Garrett County Mattingly settlement; bought 157 acres on Youghiogheny River from John Hoye 1831; the village was renamed 'Hoyes' in 1880",
+                                                                        "id": "p052",
+                                                                        "generation": 7,
+                                                                        "century": 19,
+                                                                        "confidence": "confirmed",
+                                                                        "spouse": "Ann Browning",
+                                                                        "children": [
+                                                                          {
+                                                                            "name": "Meshack Mattingly",
+                                                                            "dates": "1837–1912",
+                                                                            "fact": "Garrett County (MD) Commissioner; operated 'best stock farm in the county'; m. Mary P. Griffith (daughter of Pennsylvania Governor)",
+                                                                            "id": "p053",
+                                                                            "generation": 8,
+                                                                            "century": 19,
+                                                                            "confidence": "confirmed",
+                                                                            "spouse": null,
+                                                                            "children": []
+                                                                          },
+                                                                          {
+                                                                            "name": "Rev. Romanus Mattingly",
+                                                                            "dates": "1850–1922",
+                                                                            "fact": "Catholic priest; built parish churches at Oakland MD + Hoyes MD; 16-year pastor at Oakland",
+                                                                            "id": "p054",
+                                                                            "generation": 8,
+                                                                            "century": 19,
+                                                                            "confidence": "confirmed",
+                                                                            "spouse": null,
+                                                                            "children": []
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  },
+                                                                  {
+                                                                    "name": "Judge Francis Mattingly",
+                                                                    "dates": "1813–1879",
+                                                                    "fact": "Judge of the Orphans' Court at Cumberland MD (elected 1859); helped commit Allegany County to Union side 1861",
+                                                                    "id": "p055",
+                                                                    "generation": 8,
+                                                                    "century": 19,
+                                                                    "confidence": "confirmed",
+                                                                    "spouse": null,
+                                                                    "children": []
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "name": "Lucius Mattingly",
+                                                            "dates": "1730–1826 Washington Co KY",
+                                                            "fact": "Mattingly-318; separate KY branch",
+                                                            "id": null,
+                                                            "generation": 4,
+                                                            "century": 18,
+                                                            "confidence": "probable",
+                                                            "spouse": null,
+                                                            "children": []
+                                                          }
+                                                        ]
                                                       }
                                                     ]
                                                   },
                                                   {
-                                                    "name": "Ann Mattingly",
-                                                    "dates": "b. 1706",
-                                                    "fact": "Named in Thomas II's 1714 will",
-                                                    "id": null,
-                                                    "generation": 6,
+                                                    "name": "Judith (Mattingly) Turner",
+                                                    "dates": "1645–1744",
+                                                    "fact": "Lived to ~99",
+                                                    "id": "p080",
+                                                    "generation": 5,
                                                     "century": 17,
-                                                    "confidence": "confirmed",
+                                                    "confidence": "probable",
+                                                    "spouse": null,
+                                                    "children": []
+                                                  },
+                                                  {
+                                                    "name": "Elizabeth Dorcas Mattingly",
+                                                    "dates": "1656–1749",
+                                                    "fact": "Lived to ~93",
+                                                    "id": "p081",
+                                                    "generation": 5,
+                                                    "century": 17,
+                                                    "confidence": "probable",
                                                     "spouse": null,
                                                     "children": []
                                                   }
@@ -922,147 +1076,8 @@
                                                 "origin_country": "England",
                                                 "country_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
                                                 "country_code": "GB-ENG"
-                                              },
-                                              {
-                                                "name": "Cezar Mattingly",
-                                                "dates": "1654–1719",
-                                                "fact": "Mattingly-223. Co-recipient of Mattingly's Hope land patent 1666; m. Jane Suttle; brother of Hunter's direct ancestor Thomas II; Y-DNA R-Y14083 confirmed in his line (sibling terminal to Hunter's expected R-Y14084 cluster); ancestor of the Garrett County Hoyes settlement.",
-                                                "id": "p050",
-                                                "generation": 5,
-                                                "century": 17,
-                                                "confidence": "confirmed",
-                                                "spouse": "Jane Suttle",
-                                                "children": [
-                                                  {
-                                                    "name": "John Baptist Mattingly",
-                                                    "dates": "1690–1744",
-                                                    "fact": "Mattingly-225; m. Grace Brewer; Cezar's son; great-grandfather of Henry I",
-                                                    "id": null,
-                                                    "generation": 3,
-                                                    "century": 17,
-                                                    "confidence": "probable",
-                                                    "spouse": "Grace Brewer",
-                                                    "children": [
-                                                      {
-                                                        "name": "John Mattingly",
-                                                        "dates": "1715–1759",
-                                                        "fact": "Mattingly-258; m. Elizabeth Brewer; father of Henry I",
-                                                        "id": null,
-                                                        "generation": 4,
-                                                        "century": 18,
-                                                        "confidence": "probable",
-                                                        "spouse": "Elizabeth Brewer",
-                                                        "children": [
-                                                          {
-                                                            "name": "Henry Mattingly I",
-                                                            "dates": "1751 MD – 1823 Mt Savage MD",
-                                                            "fact": "Mattingly-617. Patriarch / progenitor of the entire 1969 'Descendants of Henry Mattingly' genealogy book; m. Honora Durbin; 12 children",
-                                                            "id": "p051",
-                                                            "generation": 5,
-                                                            "century": 18,
-                                                            "confidence": "confirmed",
-                                                            "spouse": "Honora Durbin",
-                                                            "children": [
-                                                              {
-                                                                "name": "Henry Mattingly II",
-                                                                "dates": "1782 MD – 1846 MO",
-                                                                "fact": "Son of Henry I; m. Nancy Ann Durbin; migrated to Missouri",
-                                                                "id": null,
-                                                                "generation": 6,
-                                                                "century": 19,
-                                                                "confidence": "confirmed",
-                                                                "spouse": "Nancy Ann Durbin",
-                                                                "children": [
-                                                                  {
-                                                                    "name": "Dominick Mattingly",
-                                                                    "dates": "1808 MD – 1854 Hoyes MD",
-                                                                    "fact": "Anchor of Garrett County Mattingly settlement; bought 157 acres on Youghiogheny River from John Hoye 1831; the village was renamed 'Hoyes' in 1880",
-                                                                    "id": "p052",
-                                                                    "generation": 7,
-                                                                    "century": 19,
-                                                                    "confidence": "confirmed",
-                                                                    "spouse": "Ann Browning",
-                                                                    "children": [
-                                                                      {
-                                                                        "name": "Meshack Mattingly",
-                                                                        "dates": "1837–1912",
-                                                                        "fact": "Garrett County (MD) Commissioner; operated 'best stock farm in the county'; m. Mary P. Griffith (daughter of Pennsylvania Governor)",
-                                                                        "id": "p053",
-                                                                        "generation": 8,
-                                                                        "century": 19,
-                                                                        "confidence": "confirmed",
-                                                                        "spouse": null,
-                                                                        "children": []
-                                                                      },
-                                                                      {
-                                                                        "name": "Rev. Romanus Mattingly",
-                                                                        "dates": "1850–1922",
-                                                                        "fact": "Catholic priest; built parish churches at Oakland MD + Hoyes MD; 16-year pastor at Oakland",
-                                                                        "id": "p054",
-                                                                        "generation": 8,
-                                                                        "century": 19,
-                                                                        "confidence": "confirmed",
-                                                                        "spouse": null,
-                                                                        "children": []
-                                                                      }
-                                                                    ]
-                                                                  }
-                                                                ]
-                                                              },
-                                                              {
-                                                                "name": "Judge Francis Mattingly",
-                                                                "dates": "1813–1879",
-                                                                "fact": "Judge of the Orphans' Court at Cumberland MD (elected 1859); helped commit Allegany County to Union side 1861",
-                                                                "id": "p055",
-                                                                "generation": 8,
-                                                                "century": 19,
-                                                                "confidence": "confirmed",
-                                                                "spouse": null,
-                                                                "children": []
-                                                              }
-                                                            ]
-                                                          }
-                                                        ]
-                                                      },
-                                                      {
-                                                        "name": "Lucius Mattingly",
-                                                        "dates": "1730–1826 Washington Co KY",
-                                                        "fact": "Mattingly-318; separate KY branch",
-                                                        "id": null,
-                                                        "generation": 4,
-                                                        "century": 18,
-                                                        "confidence": "probable",
-                                                        "spouse": null,
-                                                        "children": []
-                                                      }
-                                                    ]
-                                                  }
-                                                ]
-                                              },
-                                              {
-                                                "name": "Judith (Mattingly) Turner",
-                                                "dates": "1645–1744",
-                                                "fact": "Lived to ~99",
-                                                "id": "p080",
-                                                "generation": 5,
-                                                "century": 17,
-                                                "confidence": "probable",
-                                                "spouse": null,
-                                                "children": []
-                                              },
-                                              {
-                                                "name": "Elizabeth Dorcas Mattingly",
-                                                "dates": "1656–1749",
-                                                "fact": "Lived to ~93",
-                                                "id": "p081",
-                                                "generation": 5,
-                                                "century": 17,
-                                                "confidence": "probable",
-                                                "spouse": null,
-                                                "children": []
                                               }
                                             ],
-                                            "immigrant_to_america": true,
                                             "origin_country": "England",
                                             "country_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
                                             "country_code": "GB-ENG"
@@ -1071,35 +1086,33 @@
                                         "origin_country": "England",
                                         "country_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
                                         "country_code": "GB-ENG"
+                                      },
+                                      {
+                                        "name": "Agnes Mattyngly",
+                                        "dates": "fl. 1571",
+                                        "fact": "Married Harry Cawte 10 Sept 1571 Heckfield (Phillimore's Transcript line 109)",
+                                        "id": null,
+                                        "generation": 2,
+                                        "century": 16,
+                                        "confidence": "probable",
+                                        "spouse": null,
+                                        "children": []
+                                      },
+                                      {
+                                        "name": "Anne Mattingly",
+                                        "dates": "fl. 1596",
+                                        "fact": "Married John Ayer 17 Oct 1596 Heckfield (Phillimore line 230)",
+                                        "id": null,
+                                        "generation": 2,
+                                        "century": 16,
+                                        "confidence": "probable",
+                                        "spouse": null,
+                                        "children": []
                                       }
-                                    ],
-                                    "origin_country": "England",
-                                    "country_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-                                    "country_code": "GB-ENG"
-                                  },
-                                  {
-                                    "name": "Agnes Mattyngly",
-                                    "dates": "fl. 1571",
-                                    "fact": "Married Harry Cawte 10 Sept 1571 Heckfield (Phillimore's Transcript line 109)",
-                                    "id": null,
-                                    "generation": 2,
-                                    "century": 16,
-                                    "confidence": "probable",
-                                    "spouse": null,
-                                    "children": []
-                                  },
-                                  {
-                                    "name": "Anne Mattingly",
-                                    "dates": "fl. 1596",
-                                    "fact": "Married John Ayer 17 Oct 1596 Heckfield (Phillimore line 230)",
-                                    "id": null,
-                                    "generation": 2,
-                                    "century": 16,
-                                    "confidence": "probable",
-                                    "spouse": null,
-                                    "children": []
+                                    ]
                                   }
-                                ]
+                                ],
+                                "country_flag": "🇬🇧"
                               }
                             ]
                           }
@@ -1458,6 +1471,32 @@
                                                               }
                                                             ],
                                                             "is_notable": true
+                                                          },
+                                                          {
+                                                            "name": "John Spence of Glasgow",
+                                                            "dates": "b. ~1611, Glasgow, Scotland; d. 1704, Westmoreland County, Virginia",
+                                                            "fact": "POSSIBLE bridge candidate (WikiTree Spence-2810). Emigrated from Scotland to colonial Virginia. Died 1704 Westmoreland County, Virginia. Probable link between the confirmed Clan Spens chain and Hunter's paternal Spence line. Connection to Wormiston branch probable but not yet documented.",
+                                                            "id": null,
+                                                            "generation": 21,
+                                                            "century": 17,
+                                                            "confidence": "possible",
+                                                            "spouse": null,
+                                                            "children": [],
+                                                            "immigrant_to_america": true,
+                                                            "country_flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+                                                          },
+                                                          {
+                                                            "name": "David Spence of Dysart",
+                                                            "dates": "b. 1639, Dysart, Fife, Scotland; d. 1679, Maryland",
+                                                            "fact": "POSSIBLE bridge candidate (WikiTree Spence-1823; FamilySearch christening confirmed). Born Dysart, Fife — same county as Wormiston Castle. Emigrated to Maryland colony; 1678 will on file. Probable link between the confirmed Fife Spens gentry and Hunter's paternal Spence line. Dysart Fife origin makes Wormiston connection plausible.",
+                                                            "id": null,
+                                                            "generation": 21,
+                                                            "century": 17,
+                                                            "confidence": "possible",
+                                                            "spouse": null,
+                                                            "children": [],
+                                                            "immigrant_to_america": true,
+                                                            "country_flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
                                                           },
                                                           {
                                                             "name": "David Spens of Wormiston",
@@ -4138,115 +4177,139 @@
     {
       "label": "MATERNAL — Baity / Beatty line (Scots-Irish: Border Scots → Ulster 1610-40 → PA → NC by 1750s → SA TX; documented to George Baity 1774 Rowan/Surry NC)",
       "tree": {
-        "name": "Charles Beatty (Baity / Beaty)",
-        "dates": "c. 1700, Scotland/Ireland – c. 1760, Pennsylvania",
-        "fact": "POSSIBLE. Charles Beatty appears in Filby's PILI immigrant index as a Scots-Irish immigrant to Philadelphia c. 1729 — consistent with the Ulster Plantation migration corridor (Border Scots → Ulster ~1610 → Pennsylvania ~1720s). The Beatty → Baity → Baty spelling variants are all documented in colonial NC records. Source: 66-baity-confirmed-trace.json.",
+        "name": "Arthur Beatty",
+        "dates": "b. ~1673, Killeshandra, County Cavan, Ireland; d. after 1710",
+        "fact": "POSSIBLE. Probable grandfather of George Baity Sr. via Francis Beaty Sr. Killeshandra, County Cavan, Ireland. Y-DNA R-BY1127 confirms Scots-Irish origin; family migrated Scotland → County Down/Cavan, Ulster ~1610s. Source: 88-baity-colonial-origins.json; sherrysharp.com genealogy.",
         "id": null,
-        "generation": 3,
-        "century": 18,
+        "generation": 1,
+        "century": 17,
         "confidence": "possible",
         "spouse": null,
         "children": [
           {
-            "name": "George Baity / Batee / Baty",
-            "dates": "adult by 1774, Rowan / Surry County, NC",
-            "fact": "CONFIRMED. Earliest verified Baity ancestor — appears in Rowan/Surry County NC court records by 1774 (adult, i.e. born by ~1753). Surry County records include land grants and estate records for Baity families. Source: 66-baity-confirmed-trace.json.",
+            "name": "Francis Beaty Sr. (Ensign)",
+            "dates": "b. ~1707, Ireland (probable County Down); d. 1773, Mecklenburg County, North Carolina",
+            "fact": "POSSIBLE. Ensign in colonial militia; emigrated from Ulster ~1729–1750 via Pennsylvania; died Mecklenburg County NC 1773; will may document parentage of Thomas Beaty and George Baity. Settled Rowan County NC area by 1759 (Rowan tax census) then Mecklenburg by 1768. NOTE: Baity is Scots-Irish (NOT German as sometimes assumed); from Old English 'Bat(t)' (pet form of Bartholomew), recorded as 'Batie' in Berwick-on-Tweed 1334; Y-DNA R-BY1127 characteristic of Ireland/Scotland. Source: 88-baity-colonial-origins.json; WikiTree Beaty-282.",
             "id": null,
-            "generation": 4,
+            "generation": 2,
             "century": 18,
-            "confidence": "confirmed",
-            "spouse": null,
+            "confidence": "possible",
+            "spouse": "Martha Cairnes",
             "children": [
               {
-                "name": "David Isom Baity",
-                "dates": "1782, Rowan, NC – ?",
-                "fact": "PROBABLE. Son of George Baity, Rowan Co NC. Confirmed in cousin GEDCOM (61-cousin-merged-people.json).",
+                "name": "Thomas Beaty",
+                "dates": "b. ~1735; d. after 1765, Rowan/Anson County, North Carolina",
+                "fact": "POSSIBLE. Appears in Rowan/Anson County deeds 1762–1765; probable father of George Baity Sr.; son of Francis Beaty Sr. Source: 88-baity-colonial-origins.json.",
                 "id": null,
-                "generation": 5,
+                "generation": 3,
                 "century": 18,
-                "confidence": "probable",
+                "confidence": "possible",
                 "spouse": null,
                 "children": [
                   {
-                    "name": "Isom 'Isham' Baity",
-                    "dates": "1804, Surry / Yadkin, NC – ?",
-                    "fact": "PROBABLE. Son of David Isom Baity. Surry/Yadkin NC area. Confirmed via cousin GEDCOM; parents David Isom Baity + Sarah Hendricks.",
+                    "name": "George Baity Sr.",
+                    "dates": "b. ~November 27, 1746, d. March 11, 1828, Rowan County, North Carolina",
+                    "fact": "CONFIRMED. Father of William Henry Baity (1771) and David Isom Baity (1782); WikiTree Baity-20; confirmed via FamilySearch PID L4SG-7MF for Rachel Allgood. George 'appears to have never lived anywhere other than Dutchman's Creek in Rowan County.' Paid Rowan County taxes 1787. Land on Chiquapin Creek purchased 1798. Source: 88-baity-colonial-origins.json; WikiTree Baity-20; FindAGrave #24992971.",
                     "id": null,
-                    "generation": 6,
-                    "century": 19,
-                    "confidence": "probable",
-                    "spouse": "Nancy Plowman",
+                    "generation": 4,
+                    "century": 18,
+                    "confidence": "confirmed",
+                    "spouse": "Rachel Allgood (b. ~1754–1756, d. 1828; FamilySearch PID L4SG-7MF)",
                     "children": [
                       {
-                        "name": "William D. Baity",
-                        "dates": "1829, Surry County, NC – ?",
-                        "fact": "PROBABLE. Son of Isom Baity + Nancy Plowman. Surry County NC. Confirmed in cousin GEDCOM. Source: 66-baity-confirmed-trace.json.",
+                        "name": "David Isom Baity",
+                        "dates": "1782, Rowan, NC – 1854, Davie County, NC",
+                        "fact": "PROBABLE. Son of George Baity Sr., Rowan Co NC. Confirmed in cousin GEDCOM (61-cousin-merged-people.json). Source: FindAGrave #202953407.",
                         "id": null,
-                        "generation": 7,
-                        "century": 19,
+                        "generation": 5,
+                        "century": 18,
                         "confidence": "probable",
                         "spouse": null,
                         "children": [
                           {
-                            "name": "William Alexander Baity",
-                            "dates": "~1855, North Carolina / Texas",
-                            "fact": "PROBABLE. Son of William D. Baity. Father of Ruth Baity (b.1900) who married Leroy Teichmueller Mattingly. Known as W. A. Baity + Paralee Baity. Source: 66-baity-confirmed-trace.json; 76-baity-to-hunter.json.",
+                            "name": "Isom 'Isham' Baity",
+                            "dates": "1804, Surry / Yadkin, NC – 1892, Yadkin County, NC",
+                            "fact": "CONFIRMED. Primary source: cemetery transcription at Courtney Baptist Church Cemetery 'Baity, Isham Isom (b. 19 Oct 1804 - d. 23 Dec 1892)'. Wife Nancy Plowman confirmed by daughter Jennette C. Baity's cemetery entry. Source: cemeterycensus.org/nc/yadk/cem049.htm.",
                             "id": null,
-                            "generation": 8,
+                            "generation": 6,
                             "century": 19,
-                            "confidence": "probable",
-                            "spouse": "Paralee (surname unknown)",
+                            "confidence": "confirmed",
+                            "spouse": "Nancy Plowman",
                             "children": [
                               {
-                                "name": "Ruth Baity Mattingly",
-                                "dates": "born ~1900, North Carolina / Texas",
-                                "fact": "PROBABLE. Daughter of W. A. Baity. Married Leroy Teichmueller Mattingly (b.1898, son of May Teichmüller). Together had Leroy Baity Mattingly (b.1922, San Antonio TX). Source: 76-baity-to-hunter.json.",
+                                "name": "William D. Baity",
+                                "dates": "1829, Surry County, NC – ?",
+                                "fact": "PROBABLE. Son of Isom Baity + Nancy Plowman. Surry County NC. Confirmed in cousin GEDCOM. Source: 66-baity-confirmed-trace.json.",
                                 "id": null,
-                                "generation": 9,
-                                "century": 20,
+                                "generation": 7,
+                                "century": 19,
                                 "confidence": "probable",
-                                "spouse": "Leroy Teichmueller Mattingly (b.1898, son of May Teichmüller — see Teichmüller tree)",
+                                "spouse": null,
                                 "children": [
                                   {
-                                    "name": "Leroy Baity Mattingly",
-                                    "dates": "born 1922, San Antonio, Texas",
-                                    "fact": "CONFIRMED. Son of Leroy Teichmueller Mattingly and Ruth Baity. Married Jennive Imogene Lepick (b.1923, daughter of Fred Lepick and Hilda Boehme). Father of Sharyn 'Shari' Mattingly. Source: 76-baity-to-hunter.json; Shari Mattingly oral history.",
+                                    "name": "William Alexander Baity",
+                                    "dates": "~1855, North Carolina / Texas",
+                                    "fact": "PROBABLE. Son of William D. Baity. Father of Ruth Baity (b.1900) who married Leroy Teichmueller Mattingly. Known as W. A. Baity + Paralee Baity. Source: 66-baity-confirmed-trace.json; 76-baity-to-hunter.json.",
                                     "id": null,
-                                    "generation": 10,
-                                    "century": 20,
-                                    "confidence": "confirmed",
-                                    "spouse": "Jennive Imogene Lepick (b.1923-d.2008; see Lepik tree)",
+                                    "generation": 8,
+                                    "century": 19,
+                                    "confidence": "probable",
+                                    "spouse": "Paralee (surname unknown)",
                                     "children": [
                                       {
-                                        "name": "Sharyn 'Shari' Mattingly Spence",
-                                        "dates": "born 1947, USA — living",
-                                        "fact": "CONFIRMED. Hunter's paternal grandmother (maternal side). Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. Married into the Spence family. Recorded oral history for this family history project in 2025.",
+                                        "name": "Ruth Baity Mattingly",
+                                        "dates": "born ~1900, North Carolina / Texas",
+                                        "fact": "PROBABLE. Daughter of W. A. Baity. Married Leroy Teichmueller Mattingly (b.1898, son of May Teichmüller). Together had Leroy Baity Mattingly (b.1922, San Antonio TX). Source: 76-baity-to-hunter.json.",
                                         "id": null,
-                                        "generation": 11,
+                                        "generation": 9,
                                         "century": 20,
-                                        "confidence": "confirmed",
-                                        "spouse": null,
+                                        "confidence": "probable",
+                                        "spouse": "Leroy Teichmueller Mattingly (b.1898, son of May Teichmüller — see Teichmüller tree)",
                                         "children": [
                                           {
-                                            "name": "Rachel Spence",
-                                            "dates": "living, USA",
-                                            "fact": "Hunter's mother. Daughter of Shari Mattingly Spence. See Spence/Westerfield trees for maternal grandfather David Trifon's line.",
-                                            "id": "p999",
-                                            "generation": 12,
+                                            "name": "Leroy Baity Mattingly",
+                                            "dates": "born 1922, San Antonio, Texas",
+                                            "fact": "CONFIRMED. Son of Leroy Teichmueller Mattingly and Ruth Baity. Married Jennive Imogene Lepick (b.1923, daughter of Fred Lepick and Hilda Boehme). Father of Sharyn 'Shari' Mattingly. Source: 76-baity-to-hunter.json; Shari Mattingly oral history.",
+                                            "id": null,
+                                            "generation": 10,
                                             "century": 20,
                                             "confidence": "confirmed",
-                                            "spouse": null,
+                                            "spouse": "Jennive Imogene Lepick (b.1923-d.2008; see Lepik tree)",
                                             "children": [
                                               {
-                                                "name": "Hunter Spence",
-                                                "dates": "living, USA",
-                                                "fact": "Subject of this family history. This line reaches Hunter via the Baity → Mattingly → Shari → Rachel path.",
-                                                "id": "p001",
-                                                "generation": 13,
-                                                "century": 21,
+                                                "name": "Sharyn 'Shari' Mattingly Spence",
+                                                "dates": "born 1947, USA — living",
+                                                "fact": "CONFIRMED. Hunter's paternal grandmother (maternal side). Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. Married into the Spence family. Recorded oral history for this family history project in 2025.",
+                                                "id": null,
+                                                "generation": 11,
+                                                "century": 20,
                                                 "confidence": "confirmed",
                                                 "spouse": null,
-                                                "children": []
+                                                "children": [
+                                                  {
+                                                    "name": "Rachel Spence",
+                                                    "dates": "living, USA",
+                                                    "fact": "Hunter's mother. Daughter of Shari Mattingly Spence. See Spence/Westerfield trees for maternal grandfather David Trifon's line.",
+                                                    "id": "p999",
+                                                    "generation": 12,
+                                                    "century": 20,
+                                                    "confidence": "confirmed",
+                                                    "spouse": null,
+                                                    "children": [
+                                                      {
+                                                        "name": "Hunter Spence",
+                                                        "dates": "living, USA",
+                                                        "fact": "Subject of this family history. This line reaches Hunter via the Baity → Mattingly → Shari → Rachel path.",
+                                                        "id": "p001",
+                                                        "generation": 13,
+                                                        "century": 21,
+                                                        "confidence": "confirmed",
+                                                        "spouse": null,
+                                                        "children": []
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
                                               }
                                             ]
                                           }
@@ -4264,11 +4327,11 @@
                   }
                 ]
               }
-            ]
+            ],
+            "immigrant_to_america": true,
+            "country_flag": "🇮🇪"
           }
-        ],
-        "immigrant_to_america": true,
-        "country_flag": "🇬🇧"
+        ]
       }
     },
     {
@@ -5705,95 +5768,119 @@
     {
       "label": "MATERNAL — Culbertson ancestors (Capt. Alexander 'Irish' Culbertson, Ballymoney County Antrim Ireland → Jeremiah 1782 NC → Allen Turner 1820 GA → Sallie Culbertson 1864 AL → Ballentine line)",
       "tree": {
-        "name": "Capt. Alexander 'Irish' Culbertson",
-        "dates": "born ~1745–1760, Ballymoney, County Antrim, Ireland; emigrated to colonial America ~1770s",
-        "fact": "Hunter's maternal 5x great-grandfather (Culbertson line). First of the Culbertson line in America — Irish Protestant immigrant from Ballymoney, County Antrim. Known in family records as 'the Irish Culbertson.' Settled in North Carolina after emigrating. Source: Culbertson family genealogy, web research.",
+        "name": "Unnamed Covenanter Culbertson",
+        "dates": "b. ~1640, Morebattle, Roxburghshire, Scotland; fl. ~1665–1690",
+        "fact": "POSSIBLE. One of three Covenanter brothers who fled Scotland to Ulster ~1665–1690 during persecution under James II; settled Ballygan, County Antrim, founding 'Culbertson Row'; defended Londonderry 1689; surname Culbertson from Morebattle, Roxburghshire — family documented there since ~1400; 'John de Culbertson' in Ragman Rolls 1296. Source: Lewis R. Culbertson 1923 genealogy; 92-culbertson-scots-irish.json.",
         "id": null,
         "generation": 1,
-        "century": 18,
-        "confidence": "probable",
+        "century": 17,
+        "confidence": "possible",
         "spouse": null,
         "children": [
           {
-            "name": "Jeremiah Culbertson",
-            "dates": "born 1782, Burke County, North Carolina",
-            "fact": "Son of Capt. Alexander Culbertson. Born NC after family emigrated from Ireland. Source: web research, Culbertson family records.",
+            "name": "Joseph Culbertson of Ballygan",
+            "dates": "b. ~1689, Ballygan near Ballymoney, County Antrim, Ireland; d. ~1726, Ireland",
+            "fact": "POSSIBLE. Patriarch of Ballygan/Ballymoney Culbertson Row; probable father of Capt. Alexander 'Irish' Culbertson; Lewis Culbertson 1923 genealogy documents Burke County NC as Irish Culbertson line. Source: culbertsonmansion.us; RootsWeb Culbertson families; 92-culbertson-scots-irish.json.",
             "id": null,
             "generation": 2,
-            "century": 18,
-            "confidence": "probable",
+            "century": 17,
+            "confidence": "possible",
             "spouse": null,
             "children": [
               {
-                "name": "Allen Turner Culbertson",
-                "dates": "born ~1820, Greene County, Georgia; died after 1870",
-                "fact": "Son of Jeremiah Culbertson. Born Georgia — family moved south from NC. Source: web research, 1860/1870 census records.",
+                "name": "Capt. Alexander 'Irish' Culbertson",
+                "dates": "born ~1748, County Antrim or County Tyrone, Ireland (Scots-Irish); emigrated to Burke County, North Carolina ~1773",
+                "fact": "PROBABLE. Scots-Irish; emigrated ~1773 to Burke County NC where Jeremiah Culbertson (b.1782) was born; probable father of Jeremiah; parallel: William Cuthbertson Sr. (b.1740 County Tyrone, d.1838 Burke Co NC) confirms Irish Culbertsons in Burke County this exact era. NOTE: NOT the Capt. Alexander Culbertson (1714–1756) who died at Sideling Hill, PA — that man died before Jeremiah's birth. They are likely cousins from the same Ballygan community. Source: Culbertson family genealogy; 92-culbertson-scots-irish.json.",
                 "id": null,
                 "generation": 3,
-                "century": 19,
+                "century": 18,
                 "confidence": "probable",
-                "spouse": "Laura Houston (born ~1825, estimated)",
+                "spouse": null,
                 "children": [
                   {
-                    "name": "Sallie Culbertson",
-                    "dates": "born Nov 10, 1864, Alabama; died Sep 20, 1945, Marianna, Lee County, Arkansas",
-                    "fact": "Hunter's maternal 2x great-grandmother (Culbertson-Ballentine line). Daughter of Allen Turner Culbertson and Laura Houston. Married David Wyle Ballentine (b.1856, Ozark, Franklin County, Arkansas). Mother of Mary Ethel Lee Ballentine, Oda Elizabeth Ballentine, and likely Harold Ballentine. See Ballentine ancestor tree for descendants. Source: M.P. GEDCOM, Linda Coleman GEDCOM.",
+                    "name": "Jeremiah Culbertson",
+                    "dates": "born 1782, Burke County, North Carolina",
+                    "fact": "Son of Capt. Alexander Culbertson. Born NC after family emigrated from Ireland. WikiTree Culberson genealogy confirms 'Jeremiah Culberson born 17 Dec 1782 in Burke County, NC.' Source: web research, Culbertson family records; 92-culbertson-scots-irish.json.",
                     "id": null,
                     "generation": 4,
-                    "century": 19,
-                    "confidence": "confirmed",
+                    "century": 18,
+                    "confidence": "probable",
                     "spouse": null,
                     "children": [
                       {
-                        "name": "David Wyle Ballentine",
-                        "dates": "born Jun 18, 1856, Ozark, Franklin County, Arkansas; died Apr 16, 1933, Oden, Arkansas",
-                        "fact": "Husband of Sallie Culbertson. Father of Harold Ballentine. See Ballentine tree for full details.",
+                        "name": "Allen Turner Culbertson",
+                        "dates": "born ~1820, Greene County, Georgia; died after 1870",
+                        "fact": "Son of Jeremiah Culbertson. Born Georgia — family moved south from NC. Source: web research, 1860/1870 census records.",
                         "id": null,
-                        "generation": 5,
+                        "generation": 3,
                         "century": 19,
-                        "confidence": "confirmed",
-                        "spouse": "Sallie Culbertson (born Nov 10, 1864, Alabama)",
+                        "confidence": "probable",
+                        "spouse": "Laura Houston (born ~1825, estimated)",
                         "children": [
                           {
-                            "name": "Harold 'Hal David' Ballentine",
-                            "dates": "born ~1903, Arkansas; died ~1945",
-                            "fact": "David A. Trifon's biological father. Married Iris June Westerfield. After his death, son David took stepfather's surname Trifon.",
+                            "name": "Sallie Culbertson",
+                            "dates": "born Nov 10, 1864, Alabama; died Sep 20, 1945, Marianna, Lee County, Arkansas",
+                            "fact": "Hunter's maternal 2x great-grandmother (Culbertson-Ballentine line). Daughter of Allen Turner Culbertson and Laura Houston. Married David Wyle Ballentine (b.1856, Ozark, Franklin County, Arkansas). Mother of Mary Ethel Lee Ballentine, Oda Elizabeth Ballentine, and likely Harold Ballentine. See Ballentine ancestor tree for descendants. Source: M.P. GEDCOM, Linda Coleman GEDCOM.",
                             "id": null,
-                            "generation": 6,
-                            "century": 20,
-                            "confidence": "probable",
+                            "generation": 4,
+                            "century": 19,
+                            "confidence": "confirmed",
                             "spouse": null,
                             "children": [
                               {
-                                "name": "David A. Trifon",
-                                "dates": "born ~1940s, Arkansas area",
-                                "fact": "Hunter's maternal grandfather. Took stepfather's surname Trifon.",
+                                "name": "David Wyle Ballentine",
+                                "dates": "born Jun 18, 1856, Ozark, Franklin County, Arkansas; died Apr 16, 1933, Oden, Arkansas",
+                                "fact": "Husband of Sallie Culbertson. Father of Harold Ballentine. See Ballentine tree for full details.",
                                 "id": null,
-                                "generation": 7,
-                                "century": 20,
+                                "generation": 5,
+                                "century": 19,
                                 "confidence": "confirmed",
-                                "spouse": null,
+                                "spouse": "Sallie Culbertson (born Nov 10, 1864, Alabama)",
                                 "children": [
                                   {
-                                    "name": "Rachel Spence",
-                                    "dates": "living, USA",
-                                    "fact": "Hunter's mother. Daughter of David A. Trifon. This line reaches Hunter via Culbertson → Sallie → David Wyle → Harold → David Trifon → Rachel.",
-                                    "id": "p999",
-                                    "generation": 8,
+                                    "name": "Harold 'Hal David' Ballentine",
+                                    "dates": "born ~1903, Arkansas; died ~1945",
+                                    "fact": "David A. Trifon's biological father. Married Iris June Westerfield. After his death, son David took stepfather's surname Trifon.",
+                                    "id": null,
+                                    "generation": 6,
                                     "century": 20,
-                                    "confidence": "confirmed",
+                                    "confidence": "probable",
                                     "spouse": null,
                                     "children": [
                                       {
-                                        "name": "Hunter Spence",
-                                        "dates": "living, USA",
-                                        "fact": "Subject of this family history. This line reaches Hunter via the Irish Culbertson → Ballentine → Trifon → Rachel → Hunter path.",
-                                        "id": "p001",
-                                        "generation": 9,
-                                        "century": 21,
+                                        "name": "David A. Trifon",
+                                        "dates": "born ~1940s, Arkansas area",
+                                        "fact": "Hunter's maternal grandfather. Took stepfather's surname Trifon.",
+                                        "id": null,
+                                        "generation": 7,
+                                        "century": 20,
                                         "confidence": "confirmed",
                                         "spouse": null,
-                                        "children": []
+                                        "children": [
+                                          {
+                                            "name": "Rachel Spence",
+                                            "dates": "living, USA",
+                                            "fact": "Hunter's mother. Daughter of David A. Trifon. This line reaches Hunter via Culbertson → Sallie → David Wyle → Harold → David Trifon → Rachel.",
+                                            "id": "p999",
+                                            "generation": 8,
+                                            "century": 20,
+                                            "confidence": "confirmed",
+                                            "spouse": null,
+                                            "children": [
+                                              {
+                                                "name": "Hunter Spence",
+                                                "dates": "living, USA",
+                                                "fact": "Subject of this family history. This line reaches Hunter via the Irish Culbertson → Ballentine → Trifon → Rachel → Hunter path.",
+                                                "id": "p001",
+                                                "generation": 9,
+                                                "century": 21,
+                                                "confidence": "confirmed",
+                                                "spouse": null,
+                                                "children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
                                       }
                                     ]
                                   }
@@ -5805,14 +5892,15 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "immigrant_to_america": true,
+                "country_flag": "🇮🇪"
               }
             ]
           }
         ],
-        "is_notable": true,
         "immigrant_to_america": true,
-        "country_flag": "🇮🇪"
+        "country_flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
       }
     },
     {

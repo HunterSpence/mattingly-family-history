@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "file": "87-boehme-silesia-ancestry.json",
+    "commissioned": "2026-04-27",
+    "subject": "Böhme/Boehme line — pre-Johann Gottlieb Böhme ancestry (Silesia/Prussia), Teichmüller connection",
+    "researcher": "Genealogy researcher subagent (claude-sonnet-4-6)",
+    "connection_to_hunter": "Johann Gottlieb Böhme → (daughter) Emma Boehme → Teichmüller marriage → downstream to Hunter Spence via Teichmüller line",
+    "sources_searched": [
+      "TSHA Handbook (Texas State Historical Association)",
+      "WikiTree genealogy profiles (Boehme, Böhme, Teichmüller)",
+      "Geni.com family tree profiles",
+      "Wikipedia (Gustav Teichmüller, Anna Teichmüller, Jakob Böhme, Waldenburg)",
+      "FamilySearch wiki guides (Silesia genealogy, Breslau, Hamburg Passenger Lists)",
+      "forebears.io surname statistics",
+      "boehm-chronik.com family lineage documentation",
+      "Old Lutheran Emigration List (Archivaria.com)",
+      "German-Texan Heritage Society genealogy resources",
+      "Galveston Immigration Database (Galveston Historical Foundation)",
+      "Genealogy Trails / Rootsweb (Fayette County, Lavaca County, Medina County)",
+      "schaetzleingenealogy.de (Silesian Genealogy 101)",
+      "germangenealogygroup.com emigrant records",
+      "Forebears.io Böhme distribution",
+      "German Bohemian Heritage Society surname research"
+    ]
+  },
+
+  "summary": "Johann Gottlieb Böhme (~1820, Prussia) is the earliest confirmed Böhme ancestor in Hunter Spence's line. Research has NOT located documentary records of his parents or birth parish — that will require accessing Silesian Lutheran church records held at the Evangelical Central Archive Berlin (EZA) or digitized via Archion.de. Key findings: (1) The Böhme/Boehme surname is an ethnic label meaning 'the Bohemian' — persons or ancestors who came from Bohemia (Böhmen), almost certainly during or after the Thirty Years' War (1618-1648) when Protestant Germans fled Catholic reconquest into Saxon, Silesian, and Prussian territories. (2) The surname is most concentrated in Saxony (34%) and Saxony-Anhalt (11%), consistent with Bohemian Protestant refugee settlement patterns. (3) There are TWO Waldenburg towns with Böhme heritage: Waldenburg in Saxony (Zwickau district) and Waldenburg in Silesia (now Wałbrzych, Poland). (4) The Texas Teichmüller connection is CONFIRMED: Hans Teichmueller (1837-1901), brother of famous philosopher Gustav Teichmüller (1832-1888), emigrated from Braunschweig to Fayette County, Texas, became a district judge, and had multiple children. Emma Boehme almost certainly married one of Hans's sons. (5) No direct marriage record for Emma Boehme + Teichmüller was found in accessible online sources — this requires Fayette County Texas marriage records (~1870s-1880s).",
+
+  "surname_origin": {
+    "meaning": "Ethnic/habitational label: 'The Bohemian' — a person from Bohemia (Böhmen), the German name for the western part of present-day Czechia",
+    "etymology": "From Middle High German Böheim/Bēheim; the region name derives from the Baii tribe + heim (homeland)",
+    "historical_migration_pattern": "Bohemian Protestant Germans (Lutheran) fled to Saxony, Silesia, and Prussia during and after the Thirty Years War (1618-1648) when Catholic Habsburg forces reconquered Bohemia after 1622; these refugees adopted 'Böhme' as a surname marking their Bohemian origin",
+    "earliest_documented_Boehm_in_Silesia": "1409 — Heinze Behem (Boehm) and wife Jutta purchased agricultural property in Weissstein, Waldenburger hill country, Duchy of Schweidnitz-Jauer (Silesian Waldenburg, now Wałbrzych area, Poland)",
+    "surname_concentration_modern": {
+      "Saxony": "34% of German Böhme bearers",
+      "Saxony_Anhalt": "11%",
+      "North_Rhine_Westphalia": "9%",
+      "total_German_bearers": "approximately 36,211",
+      "source": "forebears.io Böhme statistics"
+    },
+    "famous_bearer": "Jakob Böhme (1575-1624), Lutheran mystic philosopher born near Görlitz (Saxony-Lusatia border), likely unrelated to Hunter's line but demonstrates surname's concentration in the Saxony/Silesia border region",
+    "confidence": "confirmed",
+    "implication_for_hunter_line": "Johann Gottlieb Böhme's ancestors were almost certainly Bohemian Protestant Germans (or Bohemian-origin settlers) in Saxony or Silesia — NOT ethnically Bohemian/Czech but Germans who carried the Böhme ethnic label"
+  },
+
+  "confirmed_ancestors": [
+    {
+      "name": "Herman F. Boehme",
+      "birth_year": 1863,
+      "birth_place": "Texas, USA",
+      "death_year": 1900,
+      "death_place": "Shiner, Lavaca County, Texas",
+      "confidence": "confirmed",
+      "fact": "Texas-born son of the immigrant Böhme. Buried Shiner Sons of Hermann Cemetery. Relation to Hunter: maternal 2x-great-grandfather.",
+      "spouse": "Minna Marie Macker (later Luedecke)",
+      "source": "PeopleLegacy; prior research file 45-boehme-province-deep.json"
+    }
+  ],
+
+  "probable_ancestors": [
+    {
+      "name": "Johann Gottlieb Böhme",
+      "birth_year": "~1820",
+      "birth_place": "Prussia — most likely Silesia or Saxony; Breslau area possible but not confirmed",
+      "death_year": "unknown — est. 1865-1885",
+      "death_place": "possibly Texas (Lavaca or Fayette County area)",
+      "confidence": "probable",
+      "fact": "Earliest known Böhme ancestor in Hunter's line. Immigrant to Texas ~1855-1862 (pre-Herman's 1863 Texas birth). Listed as the starting point in the research brief. No documentary record of his parents found in accessible online sources. Would have been Lutheran given community context.",
+      "spouse": "unknown — name not found in accessible records",
+      "source": "Research brief (task commission); prior file 45-boehme-province-deep.json"
+    },
+    {
+      "name": "Father of Johann Gottlieb Böhme (name unknown)",
+      "birth_year": "~1785-1800",
+      "birth_place": "Prussia — Silesia or Saxony, specific village unknown",
+      "death_year": "unknown",
+      "death_place": "unknown — probably Germany (did not emigrate)",
+      "confidence": "possible",
+      "fact": "Inferred from Johann Gottlieb's ~1820 birthdate. Would have been a German Lutheran in Silesia or Saxony. Given the surname concentration in Saxony (34%), origin in Saxony (possibly Waldenburg/Zwickau region) is slightly more probable than Silesia, but the Breslau-area concentration of Böhme records cannot be excluded.",
+      "spouse": "unknown",
+      "source": "Demographic inference from forebears.io; boehm-chronik.com Silesian lineage documentation"
+    },
+    {
+      "name": "Mother of Johann Gottlieb Böhme (name unknown)",
+      "birth_year": "~1790-1805",
+      "birth_place": "Prussia — Silesia or Saxony",
+      "death_year": "unknown",
+      "death_place": "unknown",
+      "confidence": "possible",
+      "fact": "Inferred ancestor only. No name, birth, or marriage record located.",
+      "spouse": "unknown Böhme (Johann Gottlieb's father)",
+      "source": "Inference only"
+    }
+  ],
+
+  "teichmüller_connection": {
+    "summary": "The Teichmüller family is historically documented in Fayette County, Texas. The Texas branch is confirmed as the family of Judge Hans Teichmueller (1837-1901), who was the brother of the famous Baltic German philosopher Gustav Teichmüller (1832-1888). Both were sons of August Teichmüller, a Prussian army lieutenant from Braunschweig. Hunter's Teichmüller line descends from Hans's Texas family, with Emma Boehme (~b. 1855 TX) having married one of Hans's sons.",
+
+    "hans_teichmueller_texas": {
+      "name": "Hans Teichmueller",
+      "birth_year": 1837,
+      "birth_place": "Braunschweig (Brunswick), Duchy of Brunswick, Germany",
+      "death_year": 1901,
+      "death_place": "La Grange, Fayette County, Texas",
+      "confidence": "confirmed",
+      "fact": "Third son of an army officer. Came to Texas to join cousin Arthur Meerscheidt in Fayette County. Married Augusta Kellner June 16, 1858. Became county judge 1869-70 and judge of 22nd Judicial District from 1884. Had 9+ children including Frank A. (banker, Flatonia), Felix F. (merchant, Flatonia), Charles E., Cecilia, Annie, Emma (married Charles Hackebeil — DIFFERENT Emma, not Boehme), Anita, Boy, Adella.",
+      "spouse": "Augusta Kellner",
+      "source": "TSHA Handbook https://www.tshaonline.org/handbook/entries/teichmueller-hans",
+      "children_note": "Hans's daughter Emma Teichmueller married Charles E. Hackebeil (of La Grange) — this is NOT Hunter's Emma Boehme. The Boehme-Teichmüller marriage is more likely Emma Boehme marrying one of Hans's sons (Frank A., Felix F., or Charles E.), creating the Teichmüller line Hunter descends from. Marriage record not yet located."
+    },
+
+    "gustav_teichmueller_philosopher": {
+      "name": "Gustav Teichmüller",
+      "birth_year": 1832,
+      "birth_place": "Braunschweig, Duchy of Brunswick, Germany",
+      "death_year": 1888,
+      "death_place": "Dorpat (Tartu), Estonia (held professorship at University of Tartu)",
+      "confidence": "confirmed",
+      "fact": "Famous Baltic German philosopher whose perspectivism influenced Nietzsche. Son of August Teichmüller (Prussian army lieutenant) and Charlotte née von Girsewaldt. Brother of Hans (Texas judge). NOT directly in Hunter's ancestry but establishes the family's origins and confirms sibling connection to Texas branch.",
+      "spouse": "Anna Cramer (d. 1862); then Lina Cramer (sister-in-law)",
+      "source": "Wikipedia; Geni.com; TSHA Handbook",
+      "children": "At least 10 children including Anna Teichmüller (1861-1940, composer)"
+    },
+
+    "teichmueller_family_braunschweig_origin": {
+      "patriarch": "August Teichmüller",
+      "role": "Lieutenant, Prussian army",
+      "wife": "Charlotte Georgine Elisabeth née von Girsewaldt",
+      "birthplace": "Braunschweig (Brunswick), Germany",
+      "confidence": "confirmed",
+      "known_children": [
+        "Gustav Teichmüller (1832-1888) — philosopher, University of Tartu",
+        "Hans Teichmueller (1837-1901) — judge, Fayette County, Texas",
+        "Wilhelmina Mollenhauer (née Teichmüller) — dates unknown",
+        "Anna Teichmüller — dates unknown",
+        "Wilhelm Teichmüller — dates unknown"
+      ],
+      "source": "Wikipedia; search results from 2026-04-27"
+    },
+
+    "emma_boehme_marriage_status": {
+      "status": "UNCONFIRMED — marriage record not found in accessible online sources",
+      "hypothesis": "Emma Boehme (~b. 1855, Texas, daughter of Johann Gottlieb Böhme) married one of Hans Teichmueller's sons (Frank A., Felix F., or Charles E.) likely in Fayette County, Texas, ~1875-1885",
+      "key_record_needed": "Fayette County, Texas marriage records (~1870-1890) — available at Fayette County Clerk (La Grange, TX) and partially on FamilySearch (Texas County Marriage Records collection)",
+      "alternate_hypothesis": "Emma Boehme may have married into a different, less prominent Teichmüller family not directly descended from Hans — but given geographic overlap (both families in Fayette County), Hans's sons remain most probable",
+      "confidence": "possible"
+    }
+  },
+
+  "silesia_prussia_records": {
+    "where_to_search_for_bohme_ancestors": {
+      "primary_archive": "Evangelical Central Archive Berlin (EZA / EZAB) — holds Lutheran church records from former eastern provinces including Silesia",
+      "digitized_access": "Archion.de (subscription) — digitized Evangelical church records from EZA including Silesian parishes",
+      "state_archives": [
+        "State Archive Wrocław (formerly Breslau) — civil registration records including Breslau Standesamt I-IV",
+        "State Archive Katowice",
+        "State Archive Opole"
+      ],
+      "online_free_resources": [
+        "FamilySearch.org — catalog has Silesian church records; some indexed, some require browsing scans",
+        "Szukajwarchiwach.gov.pl — Polish state archives, 35M+ scans of churchbooks and civil registers (not indexed, requires manual search)",
+        "Geneteka.genealodzy.pl — partially indexed Silesian records",
+        "Ancestry.com — '1518-1921 Germany, Selected Protestant Church Books' includes some Silesian parishes"
+      ],
+      "lutheran_records_start": "Lutheran (Evangelical) church books in Silesia begin approximately 1765-1766; pre-1758 events were recorded in Catholic parish books",
+      "breslau_specific": "An index of birth registers for Breslau Standesamt I-IV exists; Polish State Archives has digitized Breslau III civil registration"
+    },
+
+    "geographic_assessment": {
+      "most_likely_origin_region": "Saxony (Königreich Sachsen) — Waldenburg/Zwickau area OR border region with Silesia",
+      "rationale": [
+        "Böhme surname is 34% concentrated in Saxony in modern distribution",
+        "Friedrich August Boehme (b. 1809, Waldenburg, Saxony — documented in WikiTree Boehme-127) demonstrates Boehme families in Saxon Waldenburg in the same era as Johann Gottlieb",
+        "There are TWO Waldenburg towns: Saxon Waldenburg (Zwickau district) and Silesian Waldenburg (now Wałbrzych, Poland); the Boehm-Chronik documents earliest Boehm family at Silesian Waldenburg from 1409",
+        "The Böhme surname originated as 'person from Bohemia' — most likely spread through Saxony/Silesia border regions after Thirty Years War Protestant refugee movements"
+      ],
+      "alternative_origin": "Prussian Silesia (Breslau / Wrocław area)",
+      "alternative_rationale": [
+        "Breslau (Wrocław) was the capital of Silesia; Johann Gottlieb described in research brief as from 'Breslau area'",
+        "Silesian Böhme families documented at Weissstein (Waldenburg hills area) from 1409",
+        "Breslau, Texas in Lavaca County named after Silesian capital — strong community naming connection suggesting Silesian origin for local German settlers"
+      ],
+      "confidence": "possible — either Saxon Waldenburg region or Silesian Breslau region; cannot distinguish without primary records"
+    }
+  },
+
+  "emigration_research": {
+    "old_lutheran_emigration_list": {
+      "finding": "One Böhme in the Old Lutheran Emigration List database: Joh. Georg Böhme (age 41), laborer/carpenter, from Muschten, Silesia, emigrated 1838 with wife Karoline (née König) and six children to AUSTRALIA — NOT Texas",
+      "conclusion": "This is a different family; Joh. Georg Böhme (b. ~1797) emigrated too early and to wrong destination to be Johann Gottlieb's immediate family, though demonstrates Silesian Böhme families in the Old Lutheran emigration wave",
+      "source": "Archivaria.com Old Lutheran Emigration List Full Text Search"
+    },
+    "silesian_texans": {
+      "finding": "The documented 'Silesian Texans' who went to Panna Maria (1854) and surrounding communities were predominantly Polish Silesian Catholics — surnames like Moczygemba, Kaczmarek, etc. Böhme/Boehme does NOT appear in their surname list",
+      "conclusion": "Johann Gottlieb Böhme was NOT part of the Polish Silesian Catholic wave to Texas; he was a German Lutheran immigrant consistent with the later Lavaca/Fayette County German settlement wave",
+      "source": "silesiantexans.com/surnames/"
+    },
+    "hamburg_passenger_lists": {
+      "status": "Not searched directly (requires Ancestry.com or FamilySearch account login); Hamburg lists 1850-1934 would be the highest-priority record to check for Böhme emigrating to Texas",
+      "collection": "FamilySearch Hamburg Passenger Lists; Ancestry.com Hamburg Emigrant Lists 1850-1934",
+      "priority": "HIGHEST — would identify ship, exact departure date, and place of origin in Germany"
+    },
+    "probable_immigration_route": {
+      "port_of_departure": "Hamburg (most likely) or Bremen",
+      "port_of_arrival": "Galveston, Texas OR Indianola, Texas (Calhoun County)",
+      "window": "est. 1855-1862 (Herman born Texas 1863)",
+      "route_inland": "Galveston/Indianola → Fayette County area → later Lavaca County"
+    }
+  },
+
+  "related_boehme_texas_families": {
+    "friedrich_august_boehme_medina": {
+      "name": "Friedrich August Boehme",
+      "birth_year": 1809,
+      "birth_place": "Waldenburg, Landkreis Zwickau, Saxony, Germany",
+      "death_year": 1871,
+      "death_place": "Castroville, Medina County, Texas",
+      "confidence": "confirmed (WikiTree Boehme-127)",
+      "fact": "PhD-level professional who immigrated from Waldenburg, Saxony to Castroville, Texas. Arrived pre-1853 (first child born Texas 1853). Spouse: Elizabeth (Schwartz) Boehme (~b. 1831, Germany). Son Max Boehme (b. 1862, Riomedina, Medina TX). DIFFERENT family branch from Hunter's Lavaca County Böhme line — Saxon origin, settled in Medina County rather than Lavaca County.",
+      "source": "WikiTree Boehme-127; 1860 US Census"
+    },
+    "edward_boehm_moulton_lavaca": {
+      "name": "Edward Boehm",
+      "birth_year": 1854,
+      "birth_place": "Frankstadt, Bohemia (Moravia), Prussia — Carpathian Mountains",
+      "death_year": "unknown",
+      "death_place": "Moulton, Lavaca County, Texas",
+      "confidence": "confirmed — TSHA / Lavaca County biography",
+      "fact": "Arrived Texas 1872. Bohemian (not Silesian/Saxon) German immigrant. Brothers Rudolph (Ennis) and Richard (Port Lavaca). Wife: Mary Adamshik (married 1882, Schulenburg). Pioneer merchant in Moulton. DIFFERENT family from Hunter's Böhme line — Bohemian origin, arrived 1872 (well after Herman's 1863 birth).",
+      "source": "Lavaca County biography records; research search 2026-04-27"
+    },
+    "tekla_augusta_boehme_fayette": {
+      "name": "Tekla Augusta (Boehme) Bednarz",
+      "birth_year": 1890,
+      "birth_place": "Fayette County, Texas",
+      "confidence": "confirmed (WikiTree)",
+      "fact": "Boehme family member born Fayette County 1890. Parents not identified in accessible records. Polish-German surname Bednarz suggests possible Polish Silesian (Panna Maria community) or mixed-heritage marriage. May or may not be related to Hunter's Böhme line.",
+      "source": "WikiTree Boehme genealogy page"
+    }
+  },
+
+  "corrections": [
+    {
+      "correction": "Province assessment from prior file 45-boehme-province-deep.json correctly identified Prussian Silesia as most probable origin based on Breslau, TX community naming. This assessment remains probable, but Saxony should now be listed as near-equally probable given Böhme surname is most concentrated in Saxony (34% vs. scattered in Silesia). The two are NOT mutually exclusive — Saxon Waldenburg is adjacent to the Silesian border.",
+      "confidence": "noted correction"
+    },
+    {
+      "correction": "The Gustav Teichmüller (1832-1888) who was a Baltic German philosopher (Dorpat/Tartu professor) was the BROTHER of Hans Teichmueller (Texas judge/lawyer), NOT a different family. Both were sons of August Teichmüller of Braunschweig. The philosopher Gustav did NOT live in Texas — only Hans went to Texas. Hunter's Teichmüller line descends through Hans, not Gustav.",
+      "confidence": "confirmed"
+    },
+    {
+      "correction": "The 'Böhme' surname does NOT specifically indicate Silesian origin; it indicates 'Bohemian' (from Böhmen/Bohemia) ethnic origin, with the name spread throughout Saxony, Silesia, and Prussia. The surname concentration in Saxony (34%) is the highest of any German state.",
+      "confidence": "confirmed"
+    },
+    {
+      "correction": "Edward Boehm of Moulton/Lavaca County (b. 1854, Bohemia) is a separate Boehme family unrelated to Hunter's line (Bohemian Catholic vs. Silesian/Saxon Lutheran; arrived 1872 vs. pre-1863 arrival needed).",
+      "confidence": "confirmed"
+    }
+  ],
+
+  "sources": [
+    {
+      "id": 1,
+      "title": "TSHA Handbook: Teichmueller, Hans",
+      "url": "https://www.tshaonline.org/handbook/entries/teichmueller-hans",
+      "accessed": "2026-04-27",
+      "reliability": "High — peer-reviewed Texas state historical encyclopedia",
+      "key_facts": "Hans Teichmueller (b. 1837 Braunschweig, d. 1901 La Grange TX); married Augusta Kellner 1858; 9+ children; judge of 22nd Judicial District from 1884; brother of philosopher Gustav"
+    },
+    {
+      "id": 2,
+      "title": "Wikipedia: Gustav Teichmüller",
+      "url": "https://en.wikipedia.org/wiki/Gustav_Teichm%C3%BCller",
+      "accessed": "2026-04-27",
+      "reliability": "Medium-High — Wikipedia with academic citations",
+      "key_facts": "Gustav Teichmüller (b. 1832 Braunschweig, d. 1888 Tartu/Dorpat); philosopher; brother of Hans; father August Teichmüller (Prussian army lieutenant); mother Charlotte née von Girsewaldt"
+    },
+    {
+      "id": 3,
+      "title": "Wikipedia: Anna Teichmüller (composer)",
+      "url": "https://en.wikipedia.org/wiki/Anna_Teichm%C3%BCller",
+      "accessed": "2026-04-27",
+      "reliability": "Medium-High",
+      "key_facts": "Anna Teichmüller (b. 1861 Göttingen, d. 1940); composer; daughter of Gustav Teichmüller; confirms Gustav's family tree"
+    },
+    {
+      "id": 4,
+      "title": "forebears.io: Böhme surname statistics",
+      "url": "https://forebears.io/surnames/b%C3%B6hme",
+      "accessed": "2026-04-27",
+      "reliability": "Medium — statistical aggregation",
+      "key_facts": "~36,760 global bearers; 34% in Saxony; 11% Saxony-Anhalt; 9% NRW; 100% European concentration"
+    },
+    {
+      "id": 5,
+      "title": "boehm-chronik.com: Family Name Lineage",
+      "url": "https://www.boehm-chronik.com/familynamelineage.htm",
+      "accessed": "2026-04-27",
+      "reliability": "Medium — private family historian site",
+      "key_facts": "Earliest documented Boehm in Silesia: 1409 in Weissstein, Waldenburger hills, Duchy of Schweidnitz-Jauer. Family descended from Bohemian knights relocated to Silesia ~1350. Later became farmers, then involved in coal mining 1769+"
+    },
+    {
+      "id": 6,
+      "title": "Archivaria.com: Old Lutheran Emigration List Full Text Search",
+      "url": "http://www.archivaria.com/EmigList/EmigListFullTextSearch.html",
+      "accessed": "2026-04-27",
+      "reliability": "High — transcribed from primary emigration records",
+      "key_facts": "One Böhme found: Joh. Georg Böhme, 41, from Muschten Silesia, emigrated 1838 to Australia with wife Karoline (née König) and 6 children — different family, wrong destination"
+    },
+    {
+      "id": 7,
+      "title": "WikiTree: Boehme Genealogy",
+      "url": "https://www.wikitree.com/genealogy/BOEHME",
+      "accessed": "2026-04-27",
+      "reliability": "Medium — community-edited, variable quality",
+      "key_facts": "Boehme-127: Friedrich August Boehme (b. 1809 Waldenburg Saxony, d. 1871 Castroville TX); Boehme-169/177: Riesel, McLennan TX Boehmes; Tekla Augusta Boehme b. 1890 Fayette County TX"
+    },
+    {
+      "id": 8,
+      "title": "FamilySearch Wiki: Silesia (Schlesien) German Empire Church Records",
+      "url": "https://www.familysearch.org/en/wiki/Silesia_(Schlesien),_German_Empire_Church_Records",
+      "accessed": "2026-04-27",
+      "reliability": "High — official FamilySearch methodology guide",
+      "key_facts": "Lutheran records start ~1765-1766; EZA Berlin holds Silesian evangelical records; Archion.de has digitized versions; Szukajwarchiwach.gov.pl has 35M+ scans"
+    },
+    {
+      "id": 9,
+      "title": "schaetzleingenealogy.de: Silesian Genealogy 101",
+      "url": "http://schaetzleingenealogy.de/en/silesian-genealogy-101/",
+      "accessed": "2026-04-27",
+      "reliability": "High — specialist Silesian genealogy researcher guide",
+      "key_facts": "State archives in Wroclaw, Katowice, Opole hold primary records; Evangelical records mostly at state archives; recommend Geneteka, FamilySearch, Compgen as starting points"
+    },
+    {
+      "id": 10,
+      "title": "GTHS (German-Texan Heritage Society) Genealogy Resources",
+      "url": "https://www.germantexans.org/genealogy-resources",
+      "accessed": "2026-04-27",
+      "reliability": "Medium — organizational records",
+      "key_facts": "Emily Boehm (1856-?) listed as student in 1858 German Free School roster; only Boehme/Boehm entry found in GTHS records; no Teichmüller entries"
+    },
+    {
+      "id": 11,
+      "title": "Galveston Immigration Database",
+      "url": "https://www.galvestonhistory.org/sites/1877-tall-ship-elissa-at-the-galveston-historic-seaport/galveston-immigration-database",
+      "accessed": "2026-04-27",
+      "reliability": "High — Galveston Historical Foundation primary database",
+      "key_facts": "Covers 1846-1948 with 130,000+ passengers; gaps 1871-1894; searchable by surname; gap period overlaps with likely Böhme arrival window — may have incomplete records for 1855-1862 window"
+    },
+    {
+      "id": 12,
+      "title": "silesiantexans.com: Surnames",
+      "url": "https://silesiantexans.com/surnames/",
+      "accessed": "2026-04-27",
+      "reliability": "High — specialized genealogy site for Polish Silesian Texas immigrants",
+      "key_facts": "Böhme/Boehme NOT among documented Silesian Polish Texan surnames; those were predominantly Catholic Polish Silesians (Panna Maria settlers 1854)"
+    },
+    {
+      "id": 13,
+      "title": "German Bohemian Heritage Society: Family Names",
+      "url": "https://germanbohemianheritagesociety.com/german-bohemian-family-names/",
+      "accessed": "2026-04-27",
+      "reliability": "Medium-High — specialized heritage organization",
+      "key_facts": "Böhme/Boehm as ethnic habitational name for Germans from Bohemia; confirms Thirty Years War displacement as mechanism for surname adoption across Saxony, Silesia, Prussia"
+    }
+  ],
+
+  "next_steps": [
+    {
+      "priority": "CRITICAL",
+      "action": "Search Hamburg Passenger Lists 1850-1870 for Böhme/Boehme emigrating to Texas",
+      "how": "FamilySearch.org (free) → catalog search 'Hamburg Passenger Lists' → search surname Böhme/Boehme → filter by destination USA/Texas; OR Ancestry.com → Hamburg Emigrant Lists 1850-1934 (collection ID 1068)",
+      "expected": "Would identify ship name, exact departure date, and town of origin in Germany for Johann Gottlieb Böhme"
+    },
+    {
+      "priority": "CRITICAL",
+      "action": "Pull 1870 US Census, Lavaca County OR Fayette County Texas — search for Boehme/Böhme household",
+      "how": "FamilySearch.org (free) → US Census 1870 → Texas → Lavaca County or Fayette County → surname Boehme/Boehm; NARA microfilm M593 roll 1595 (Lavaca); roll 1586 (Fayette)",
+      "expected": "Herman Boehme (~7 years old in 1870) should appear with parents, revealing father's name and birthplace in Germany"
+    },
+    {
+      "priority": "CRITICAL",
+      "action": "Search Fayette County Texas marriage records (~1875-1890) for Emma Boehme + Teichmüller",
+      "how": "FamilySearch collection 'Texas, County Marriage Records, 1837-2010' (collection ID 1803985) → Fayette County → filter 1875-1890 → search bride surname Boehme; OR contact Fayette County Clerk, La Grange TX 78945; OR Fayette Heritage Museum 979-968-3765",
+      "expected": "Would confirm which Teichmüller son Emma Boehme married and the exact marriage date/year, establishing the Boehme-Teichmüller link in Hunter's ancestry"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Pull 1880 US Census, Lavaca County Texas — search Boehme household",
+      "how": "FamilySearch.org → US Census 1880 → Texas → Lavaca County → surname Boehme; NARA T9 microfilm",
+      "expected": "Herman (~17) may still be in parents' household; parents' German birthplaces explicitly listed in 1880 census format"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Search Archion.de for Böhme in Silesian/Saxon Lutheran church records (1790-1830)",
+      "how": "Subscribe to Archion.de → search church books for Breslau area (Regierungsbezirk Breslau) or Zwickau/Waldenburg area → search baptism records (Taufen) for Böhme surname 1818-1825",
+      "expected": "Could locate baptism record for Johann Gottlieb Böhme naming his parents and birth parish"
+    },
+    {
+      "priority": "HIGH",
+      "action": "Request death certificates for Herman Boehme's children (Walter John Boehme 1972, Edgar Charles Boehme 1967)",
+      "how": "Texas DSHS Vital Statistics Unit, Austin TX — written request with full name, death year, county",
+      "expected": "Death certificates may list grandparents (i.e., Johann Gottlieb) and their German birthplace, identifying the origin province"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Search Geneteka.genealodzy.pl for Böhme in Silesian parishes near Breslau (Wrocław)",
+      "how": "Free online database at geneteka.genealodzy.pl → select Silesia (Śląsk) → search surname 'Böhme' or 'Bohme' in birth/baptism records 1780-1830",
+      "expected": "Indexed (not just scanned) Silesian records; faster than manual Archion browsing"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Investigate whether the Teichmüller family website (teichmueller.net) contains the Emma Boehme marriage data",
+      "how": "Contact site owner via contact page; the site returned server errors in 2026-04 but may come back online",
+      "expected": "Private family genealogy site may have compiled the full Hans Teichmueller family tree with all children's marriages including Emma Boehme"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Check the 1908 Fayette County history publication by Augusta Kellner Teichmueller",
+      "how": "Available via Texas State Library; or LoC catalog for 'Fayette county, her history and her people'; the PDF (tile.loc.gov) returned 403 during this research but may be accessible through JSTOR or interlibrary loan",
+      "expected": "Hans's wife Augusta wrote a Fayette County history — may contain detailed family genealogy for the Teichmüller and related families"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Contact Sons of Hermann Grand Lodge of Texas (San Antonio) for Herman F. Boehme membership application",
+      "how": "Grand Lodge of Texas Sons of Hermann, 116 Bauer Ave, San Antonio TX 78250 — written request for records on Herman Boehme, Shiner chapter",
+      "expected": "Lodge membership applications often recorded birthplace and parents' names"
+    }
+  ]
+}

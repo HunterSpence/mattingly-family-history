@@ -362,6 +362,33 @@ SPENCE_TREE = N(
                                                                                             )]
                                                                                         ),
                                                                                         N(
+                                                                                            "John Spence of Glasgow",
+                                                                                            "b. ~1611, Glasgow, Scotland; d. 1704, Westmoreland County, Virginia",
+                                                                                            "POSSIBLE bridge candidate (WikiTree Spence-2810). "
+                                                                                            "Emigrated from Scotland to colonial Virginia. "
+                                                                                            "Died 1704 Westmoreland County, Virginia. "
+                                                                                            "Probable link between the confirmed Clan Spens chain "
+                                                                                            "and Hunter's paternal Spence line. "
+                                                                                            "Connection to Wormiston branch probable but not yet documented.",
+                                                                                            gen=21, century=17, confidence="possible",
+                                                                                            is_immigrant=True, country_flag="\U0001f3f4\U000e0067\U000e0062\U000e0073\U000e0063\U000e0074\U000e007f",
+                                                                                            children=[]
+                                                                                        ),
+                                                                                        N(
+                                                                                            "David Spence of Dysart",
+                                                                                            "b. 1639, Dysart, Fife, Scotland; d. 1679, Maryland",
+                                                                                            "POSSIBLE bridge candidate (WikiTree Spence-1823; "
+                                                                                            "FamilySearch christening confirmed). "
+                                                                                            "Born Dysart, Fife — same county as Wormiston Castle. "
+                                                                                            "Emigrated to Maryland colony; 1678 will on file. "
+                                                                                            "Probable link between the confirmed Fife Spens gentry "
+                                                                                            "and Hunter's paternal Spence line. "
+                                                                                            "Dysart Fife origin makes Wormiston connection plausible.",
+                                                                                            gen=21, century=17, confidence="possible",
+                                                                                            is_immigrant=True, country_flag="\U0001f3f4\U000e0067\U000e0062\U000e0073\U000e0063\U000e0074\U000e007f",
+                                                                                            children=[]
+                                                                                        ),
+                                                                                        N(
                                                                                             "David Spens of Wormiston",
                                                                                             "fl. 1571, Wormiston, Fife",
                                                                                             "CONFIRMED (Wikipedia). Active supporter of Mary Queen "
@@ -724,121 +751,139 @@ baity_cousins_sorted = sorted(baity_cousins, key=lambda p: p.get("birth_year") o
 #        → William Alexander Baity → Ruth Baity Mattingly → Leroy Teichmueller Mattingly
 #        → Leroy Baity Mattingly → Shari Mattingly → Rachel → Hunter
 EXTENDED_BAITY = N(
-    "Charles Beatty (Baity / Beaty)",
-    "c. 1700, Scotland/Ireland – c. 1760, Pennsylvania",
-    "POSSIBLE. Charles Beatty appears in Filby's PILI immigrant index as a Scots-Irish "
-    "immigrant to Philadelphia c. 1729 — consistent with the Ulster Plantation migration "
-    "corridor (Border Scots → Ulster ~1610 → Pennsylvania ~1720s). "
-    "The Beatty → Baity → Baty spelling variants are all documented in colonial NC records. "
-    "Source: 66-baity-confirmed-trace.json.",
-    gen=3, century=18, confidence="possible",
-    is_immigrant=True, country_flag="🇬🇧",
-    children=[
-        N(
-            "George Baity / Batee / Baty",
-            "adult by 1774, Rowan / Surry County, NC",
-            "CONFIRMED. Earliest verified Baity ancestor — appears in Rowan/Surry County "
-            "NC court records by 1774 (adult, i.e. born by ~1753). "
-            "Surry County records include land grants and estate records for Baity families. "
-            "Source: 66-baity-confirmed-trace.json.",
-            gen=4, century=18, confidence="confirmed",
-            children=[
-                N(
+    "Arthur Beatty",
+    "b. ~1673, Killeshandra, County Cavan, Ireland; d. after 1710",
+    "POSSIBLE. Probable grandfather of George Baity Sr. via Francis Beaty Sr. "
+    "Killeshandra, County Cavan, Ireland. Y-DNA R-BY1127 confirms Scots-Irish origin; "
+    "family migrated Scotland → County Down/Cavan, Ulster ~1610s. "
+    "Source: 88-baity-colonial-origins.json; sherrysharp.com genealogy.",
+    gen=1, century=17, confidence="possible",
+    children=[N(
+        "Francis Beaty Sr. (Ensign)",
+        "b. ~1707, Ireland (probable County Down); d. 1773, Mecklenburg County, North Carolina",
+        "POSSIBLE. Ensign in colonial militia; emigrated from Ulster ~1729–1750 via Pennsylvania; "
+        "died Mecklenburg County NC 1773; will may document parentage of Thomas Beaty and George Baity. "
+        "Settled Rowan County NC area by 1759 (Rowan tax census) then Mecklenburg by 1768. "
+        "NOTE: Baity is Scots-Irish (NOT German as sometimes assumed); from Old English 'Bat(t)' "
+        "(pet form of Bartholomew), recorded as 'Batie' in Berwick-on-Tweed 1334; "
+        "Y-DNA R-BY1127 characteristic of Ireland/Scotland. "
+        "Source: 88-baity-colonial-origins.json; WikiTree Beaty-282.",
+        gen=2, century=18, confidence="possible",
+        is_immigrant=True, country_flag="🇮🇪",
+        spouse="Martha Cairnes",
+        children=[N(
+            "Thomas Beaty",
+            "b. ~1735; d. after 1765, Rowan/Anson County, North Carolina",
+            "POSSIBLE. Appears in Rowan/Anson County deeds 1762–1765; probable father of George Baity Sr.; "
+            "son of Francis Beaty Sr. Source: 88-baity-colonial-origins.json.",
+            gen=3, century=18, confidence="possible",
+            children=[N(
+                "George Baity Sr.",
+                "b. ~November 27, 1746, d. March 11, 1828, Rowan County, North Carolina",
+                "CONFIRMED. Father of William Henry Baity (1771) and David Isom Baity (1782); "
+                "WikiTree Baity-20; confirmed via FamilySearch PID L4SG-7MF for Rachel Allgood. "
+                "George 'appears to have never lived anywhere other than Dutchman's Creek in Rowan County.' "
+                "Paid Rowan County taxes 1787. Land on Chiquapin Creek purchased 1798. "
+                "Source: 88-baity-colonial-origins.json; WikiTree Baity-20; FindAGrave #24992971.",
+                gen=4, century=18, confidence="confirmed",
+                spouse="Rachel Allgood (b. ~1754–1756, d. 1828; FamilySearch PID L4SG-7MF)",
+                children=[N(
                     "David Isom Baity",
-                    "1782, Rowan, NC – ?",
-                    "PROBABLE. Son of George Baity, Rowan Co NC. "
-                    "Confirmed in cousin GEDCOM (61-cousin-merged-people.json).",
+                    "1782, Rowan, NC – 1854, Davie County, NC",
+                    "PROBABLE. Son of George Baity Sr., Rowan Co NC. "
+                    "Confirmed in cousin GEDCOM (61-cousin-merged-people.json). "
+                    "Source: FindAGrave #202953407.",
                     gen=5, century=18, confidence="probable",
-                    children=[
-                        N(
-                            "Isom 'Isham' Baity",
-                            "1804, Surry / Yadkin, NC – ?",
-                            "PROBABLE. Son of David Isom Baity. Surry/Yadkin NC area. "
-                            "Confirmed via cousin GEDCOM; parents David Isom Baity + Sarah Hendricks.",
-                            gen=6, century=19, confidence="probable",
-                            spouse="Nancy Plowman",
-                            children=[
-                                N(
-                                    "William D. Baity",
-                                    "1829, Surry County, NC – ?",
-                                    "PROBABLE. Son of Isom Baity + Nancy Plowman. "
-                                    "Surry County NC. Confirmed in cousin GEDCOM. "
-                                    "Source: 66-baity-confirmed-trace.json.",
-                                    gen=7, century=19, confidence="probable",
-                                    children=[
-                                        N(
-                                            "William Alexander Baity",
-                                            "~1855, North Carolina / Texas",
-                                            "PROBABLE. Son of William D. Baity. "
-                                            "Father of Ruth Baity (b.1900) who married Leroy Teichmueller Mattingly. "
-                                            "Known as W. A. Baity + Paralee Baity. "
-                                            "Source: 66-baity-confirmed-trace.json; 76-baity-to-hunter.json.",
-                                            gen=8, century=19, confidence="probable",
-                                            spouse="Paralee (surname unknown)",
-                                            children=[
-                                                N(
-                                                    "Ruth Baity Mattingly",
-                                                    "born ~1900, North Carolina / Texas",
-                                                    "PROBABLE. Daughter of W. A. Baity. "
-                                                    "Married Leroy Teichmueller Mattingly (b.1898, son of May Teichmüller). "
-                                                    "Together had Leroy Baity Mattingly (b.1922, San Antonio TX). "
-                                                    "Source: 76-baity-to-hunter.json.",
-                                                    gen=9, century=20, confidence="probable",
-                                                    spouse="Leroy Teichmueller Mattingly (b.1898, son of May Teichmüller — see Teichmüller tree)",
-                                                    children=[
-                                                        N(
-                                                            "Leroy Baity Mattingly",
-                                                            "born 1922, San Antonio, Texas",
-                                                            "CONFIRMED. Son of Leroy Teichmueller Mattingly and Ruth Baity. "
-                                                            "Married Jennive Imogene Lepick (b.1923, daughter of Fred Lepick and Hilda Boehme). "
-                                                            "Father of Sharyn 'Shari' Mattingly. "
-                                                            "Source: 76-baity-to-hunter.json; Shari Mattingly oral history.",
-                                                            gen=10, century=20, confidence="confirmed",
-                                                            spouse="Jennive Imogene Lepick (b.1923-d.2008; see Lepik tree)",
-                                                            children=[
-                                                                N(
-                                                                    "Sharyn 'Shari' Mattingly Spence",
-                                                                    "born 1947, USA — living",
-                                                                    "CONFIRMED. Hunter's paternal grandmother (maternal side). "
-                                                                    "Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. "
-                                                                    "Married into the Spence family. "
-                                                                    "Recorded oral history for this family history project in 2025.",
-                                                                    gen=11, century=20, confidence="confirmed",
-                                                                    children=[
-                                                                        N(
-                                                                            "Rachel Spence",
+                    children=[N(
+                        "Isom 'Isham' Baity",
+                        "1804, Surry / Yadkin, NC – 1892, Yadkin County, NC",
+                        "CONFIRMED. Primary source: cemetery transcription at Courtney Baptist Church Cemetery "
+                        "'Baity, Isham Isom (b. 19 Oct 1804 - d. 23 Dec 1892)'. "
+                        "Wife Nancy Plowman confirmed by daughter Jennette C. Baity's cemetery entry. "
+                        "Source: cemeterycensus.org/nc/yadk/cem049.htm.",
+                        gen=6, century=19, confidence="confirmed",
+                        spouse="Nancy Plowman",
+                        children=[
+                            N(
+                                "William D. Baity",
+                                "1829, Surry County, NC – ?",
+                                "PROBABLE. Son of Isom Baity + Nancy Plowman. "
+                                "Surry County NC. Confirmed in cousin GEDCOM. "
+                                "Source: 66-baity-confirmed-trace.json.",
+                                gen=7, century=19, confidence="probable",
+                                children=[
+                                    N(
+                                        "William Alexander Baity",
+                                        "~1855, North Carolina / Texas",
+                                        "PROBABLE. Son of William D. Baity. "
+                                        "Father of Ruth Baity (b.1900) who married Leroy Teichmueller Mattingly. "
+                                        "Known as W. A. Baity + Paralee Baity. "
+                                        "Source: 66-baity-confirmed-trace.json; 76-baity-to-hunter.json.",
+                                        gen=8, century=19, confidence="probable",
+                                        spouse="Paralee (surname unknown)",
+                                        children=[
+                                            N(
+                                                "Ruth Baity Mattingly",
+                                                "born ~1900, North Carolina / Texas",
+                                                "PROBABLE. Daughter of W. A. Baity. "
+                                                "Married Leroy Teichmueller Mattingly (b.1898, son of May Teichmüller). "
+                                                "Together had Leroy Baity Mattingly (b.1922, San Antonio TX). "
+                                                "Source: 76-baity-to-hunter.json.",
+                                                gen=9, century=20, confidence="probable",
+                                                spouse="Leroy Teichmueller Mattingly (b.1898, son of May Teichmüller — see Teichmüller tree)",
+                                                children=[
+                                                    N(
+                                                        "Leroy Baity Mattingly",
+                                                        "born 1922, San Antonio, Texas",
+                                                        "CONFIRMED. Son of Leroy Teichmueller Mattingly and Ruth Baity. "
+                                                        "Married Jennive Imogene Lepick (b.1923, daughter of Fred Lepick and Hilda Boehme). "
+                                                        "Father of Sharyn 'Shari' Mattingly. "
+                                                        "Source: 76-baity-to-hunter.json; Shari Mattingly oral history.",
+                                                        gen=10, century=20, confidence="confirmed",
+                                                        spouse="Jennive Imogene Lepick (b.1923-d.2008; see Lepik tree)",
+                                                        children=[
+                                                            N(
+                                                                "Sharyn 'Shari' Mattingly Spence",
+                                                                "born 1947, USA — living",
+                                                                "CONFIRMED. Hunter's paternal grandmother (maternal side). "
+                                                                "Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. "
+                                                                "Married into the Spence family. "
+                                                                "Recorded oral history for this family history project in 2025.",
+                                                                gen=11, century=20, confidence="confirmed",
+                                                                children=[
+                                                                    N(
+                                                                        "Rachel Spence",
+                                                                        "living, USA",
+                                                                        "Hunter's mother. Daughter of Shari Mattingly Spence. "
+                                                                        "See Spence/Westerfield trees for maternal grandfather David Trifon's line.",
+                                                                        gen=12, century=20, confidence="confirmed",
+                                                                        id_="p999",
+                                                                        children=[N(
+                                                                            "Hunter Spence",
                                                                             "living, USA",
-                                                                            "Hunter's mother. Daughter of Shari Mattingly Spence. "
-                                                                            "See Spence/Westerfield trees for maternal grandfather David Trifon's line.",
-                                                                            gen=12, century=20, confidence="confirmed",
-                                                                            id_="p999",
-                                                                            children=[N(
-                                                                                "Hunter Spence",
-                                                                                "living, USA",
-                                                                                "Subject of this family history. "
-                                                                                "This line reaches Hunter via the Baity → Mattingly → Shari → Rachel path.",
-                                                                                gen=13, century=21, confidence="confirmed",
-                                                                                id_="p001",
-                                                                                children=[]
-                                                                            )]
-                                                                        )
-                                                                    ]
-                                                                )
-                                                            ]
-                                                        )
-                                                    ]
-                                                )
-                                            ]
-                                        )
-                                    ]
-                                )
-                            ]
-                        )
-                    ]
-                )
-            ]
-        )
-    ]
+                                                                            "Subject of this family history. "
+                                                                            "This line reaches Hunter via the Baity → Mattingly → Shari → Rachel path.",
+                                                                            gen=13, century=21, confidence="confirmed",
+                                                                            id_="p001",
+                                                                            children=[]
+                                                                        )]
+                                                                    )
+                                                                ]
+                                                            )
+                                                        ]
+                                                    )
+                                                ]
+                                            )
+                                        ]
+                                    )
+                                ]
+                            )
+                        ]
+                    )]
+                )]
+            )]
+        )]
+    )]
 )
 # Always replace — prevents the old recursive JSON children from being carried over
 replace_tree("Baity / Beatty", EXTENDED_BAITY)
@@ -855,10 +900,15 @@ if teich_tree and teich_tree.get("name") != "Hans / Johann Teichmüller":
     aug_node = N(
         "August Wilhelm Teichmüller",
         "1795–1855, Brunswick, Germany",
-        "CONFIRMED (Neue Deutsche Biographie). Lieutenant in the Brunswick army's "
-        "Schwarzen Corps des Majors Olfermann (the famous Black Brunswickers — the "
-        "elite unit that fought at Waterloo 1815). Married Charlotte Georgine Elisabeth "
-        "von Girsewald (1799–1860). Their children include Gustav Teichmüller (philosopher) "
+        "CONFIRMED (Neue Deutsche Biographie). Seconde-Lieutenant in the Brunswick army's "
+        "Schwarzen Corps des Majors Olfermann (the 'Brunswick Black Corps' — the famous "
+        "all-black-uniformed Napoleonic War volunteers, NOT the Prussian army as sometimes stated). "
+        "His death in 1855 left the family in financial hardship, causing sons Gustav (then 23) "
+        "and Hans (then 18) to abandon planned university careers — Hans emigrated to Texas in 1856. "
+        "Married Charlotte Georgine Elisabeth von Girsewald (1799–1860; correct spelling: 'Girsewald', "
+        "NOT 'Gursewald' which is an OCR artifact from Lotto 1902). "
+        "Their children include Gustav Teichmüller (philosopher, 1832–1888; died Dorpat/Estonia — "
+        "Baltic German only by residence, Lower Saxon/Braunschweig by origin; his work influenced Nietzsche) "
         "and Hans Teichmüller (Hunter's direct ancestor). Source: NDB vol. 26, 2016, p. 6.",
         gen=5, century=19, confidence="confirmed",
         spouse="Charlotte Georgine Elisabeth von Girsewald (1799–1860)",
@@ -868,7 +918,9 @@ if teich_tree and teich_tree.get("name") != "Hans / Johann Teichmüller":
     wec_node = N(
         "Wilhelm Ernst Conrad Teichmüller",
         "1758–1835, Delligsen / Lower Saxony, Germany",
-        "CONFIRMED (NDB). Inspector of the Karlshütte iron-smelting works near Delligsen. "
+        "CONFIRMED (NDB). Oberhütteninspekteur (chief inspector of smelting works) at "
+        "Karlshütte near Delligsen, Leinebergland — a major ironworks south of Hanover. "
+        "Married Henriette Christiane Helene Schorkopf (1763–1818, Uslar, Lower Saxony). "
         "Ancestor of both Hans Teichmüller (Hunter's direct ancestor) and "
         "Gustav Teichmüller (the philosopher). Source: NDB vol. 26, 2016, p. 6.",
         gen=4, century=18, confidence="confirmed",
@@ -876,22 +928,24 @@ if teich_tree and teich_tree.get("name") != "Hans / Johann Teichmüller":
     )
     joachim_node = N(
         "Joachim Andreas Teichmüller",
-        "1705–1778, Goslar, Germany",
-        "CONFIRMED (NDB). Commercial agent in Goslar (the historic imperial mining city "
-        "in Lower Saxony). Third confirmed generation of the Teichmüller line. "
-        "Source: NDB vol. 26, 2016, p. 6.",
+        "1705–1778, Rohrsheim near Halberstadt (Saxony-Anhalt) → Goslar, Germany",
+        "CONFIRMED (NDB + GEDBAS). Born Rohrsheim near Halberstadt, Saxony-Anhalt (baptized 26 June 1705); "
+        "worked as Oberfaktor (chief commercial agent) in Goslar — the ancient Harz silver-mining capital "
+        "(Rammelsberg mine, UNESCO World Heritage). Died Goslar 31 January 1778. "
+        "Rohrsheim Ortsfamilienbuch (OFB) covering 1673–1980 may name his parents. "
+        "Source: NDB vol. 26, 2016, pp. 6*–7*; GEDBAS genealogy database (GND 1154326802).",
         gen=3, century=18, confidence="confirmed",
         children=[wec_node]
     )
     full_teich = N(
         "Hans / Johann Teichmüller",
         "~1580–1638, Harz Mountains, Germany",
-        "CONFIRMED (NDB). Earliest confirmed Teichmüller ancestor — master miller "
+        "CONFIRMED (NDB). Earliest documented Teichmüller ancestor — Mühlenmeister (master miller) "
         "in the southern Harz mountains. The surname is occupational: 'Teich' (pond) + "
         "'Müller' (miller) = 'pond miller'. The Harz was Germany's premier mining region; "
         "water mills powered the silver, iron, and copper mines. "
-        "Source: Neue Deutsche Biographie (NDB) vol. 26, 2016, p. 6 — the gold-standard "
-        "German biographical reference confirming the family line.",
+        "Source: Neue Deutsche Biographie (NDB) vol. 26, 2016, p. 6*: 'Aus seit Ende d. 16. Jh. "
+        "mit d. Mühlenmeister Han(n)s (um 1580–1638) im südl. Harz nachweisbarer Fam.'",
         gen=2, century=17, confidence="confirmed",
         children=[joachim_node]
     )
@@ -1024,17 +1078,20 @@ if _lt:
 # ═══════════════════════════════════════════════════════════════════════════
 
 boehme_tree = get_tree("Boehme")
-if boehme_tree and boehme_tree.get("name") != "Böhme family, Prussian Silesia (Schlesien)":
+if boehme_tree and boehme_tree.get("name") not in ("Böhme family, Prussian Silesia (Schlesien)", "Böhme family, Germany (possibly Saxony or Silesia)"):
     silesian_root = N(
-        "Böhme family, Prussian Silesia (Schlesien)",
-        "~1800–1855, Breslau region, Prussian Silesia",
-        "PROBABLE. The Böhme surname means 'a Bohemian' in German — most heavily "
-        "concentrated in Saxony and Silesia, immediately adjacent to Bohemia. "
-        "Hunter's Boehme ancestors almost certainly came from Prussian Silesia (Schlesien) — "
-        "confirmed by the founding of Breslau, Texas (Lavaca Co.), named for the Prussian "
-        "city of Breslau (now Wrocław, Poland). They arrived at Indianola TX between "
-        "1855 and 1862; Indianola's 1875 hurricane destroyed most passenger manifests. "
-        "Source: 68-boehme-confirmed-trace.json.",
+        "Böhme family, Germany (possibly Saxony or Silesia)",
+        "~1800–1855, Germany (Saxony or Prussian Silesia region)",
+        "PROBABLE. The Böhme surname means 'the Bohemian' — an ethnic label for German Protestants "
+        "who fled Bohemia into Saxony/Silesia during the Thirty Years' War (1618–1648). "
+        "Surname today concentrated in Saxony (34%) and Saxony-Anhalt (11%) — statistically, "
+        "Saxony is more likely than Silesia as the family origin. "
+        "They arrived at Indianola TX between 1855 and 1862; Indianola's 1875 hurricane destroyed "
+        "most passenger manifests. Parents of the Texan Böhme immigrants are unidentified — "
+        "Hamburg Passenger Lists and 1870/1880 US Census are the primary research unlock. "
+        "The Texas settlement at Breslau (Lavaca Co.) was named for Breslau (now Wrocław, Poland) "
+        "by settlers who may have come via Silesia, but Saxony origin is statistically more probable. "
+        "Source: 68-boehme-confirmed-trace.json; 87-boehme-silesia-ancestry.json.",
         gen=3, century=19, confidence="probable",
         is_immigrant=True, country_flag="🇩🇪",
         children=[boehme_tree]
@@ -1730,19 +1787,41 @@ if _bat:
 # ═══════════════════════════════════════════════════════════════════════════
 
 CULBERTSON_TREE = N(
+    "Unnamed Covenanter Culbertson",
+    "b. ~1640, Morebattle, Roxburghshire, Scotland; fl. ~1665–1690",
+    "POSSIBLE. One of three Covenanter brothers who fled Scotland to Ulster ~1665–1690 "
+    "during persecution under James II; settled Ballygan, County Antrim, founding 'Culbertson Row'; "
+    "defended Londonderry 1689; surname Culbertson from Morebattle, Roxburghshire — "
+    "family documented there since ~1400; 'John de Culbertson' in Ragman Rolls 1296. "
+    "Source: Lewis R. Culbertson 1923 genealogy; 92-culbertson-scots-irish.json.",
+    gen=1, century=17, confidence="possible",
+    is_immigrant=True, country_flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    children=[N(
+        "Joseph Culbertson of Ballygan",
+        "b. ~1689, Ballygan near Ballymoney, County Antrim, Ireland; d. ~1726, Ireland",
+        "POSSIBLE. Patriarch of Ballygan/Ballymoney Culbertson Row; probable father of "
+        "Capt. Alexander 'Irish' Culbertson; Lewis Culbertson 1923 genealogy documents "
+        "Burke County NC as Irish Culbertson line. "
+        "Source: culbertsonmansion.us; RootsWeb Culbertson families; 92-culbertson-scots-irish.json.",
+        gen=2, century=17, confidence="possible",
+        children=[N(
     "Capt. Alexander 'Irish' Culbertson",
-    "born ~1745–1760, Ballymoney, County Antrim, Ireland; emigrated to colonial America ~1770s",
-    "Hunter's maternal 5x great-grandfather (Culbertson line). First of the Culbertson line in America — "
-    "Irish Protestant immigrant from Ballymoney, County Antrim. Known in family records as 'the Irish Culbertson.' "
-    "Settled in North Carolina after emigrating. Source: Culbertson family genealogy, web research.",
-    gen=1, century=18, confidence="probable",
-    is_notable=True, is_immigrant=True, country_flag="🇮🇪",
+    "born ~1748, County Antrim or County Tyrone, Ireland (Scots-Irish); emigrated to Burke County, North Carolina ~1773",
+    "PROBABLE. Scots-Irish; emigrated ~1773 to Burke County NC where Jeremiah Culbertson (b.1782) was born; "
+    "probable father of Jeremiah; parallel: William Cuthbertson Sr. (b.1740 County Tyrone, d.1838 Burke Co NC) "
+    "confirms Irish Culbertsons in Burke County this exact era. "
+    "NOTE: NOT the Capt. Alexander Culbertson (1714–1756) who died at Sideling Hill, PA — "
+    "that man died before Jeremiah's birth. They are likely cousins from the same Ballygan community. "
+    "Source: Culbertson family genealogy; 92-culbertson-scots-irish.json.",
+    gen=3, century=18, confidence="probable",
+    is_immigrant=True, country_flag="🇮🇪",
     children=[N(
         "Jeremiah Culbertson",
         "born 1782, Burke County, North Carolina",
         "Son of Capt. Alexander Culbertson. Born NC after family emigrated from Ireland. "
-        "Source: web research, Culbertson family records.",
-        gen=2, century=18, confidence="probable",
+        "WikiTree Culberson genealogy confirms 'Jeremiah Culberson born 17 Dec 1782 in Burke County, NC.' "
+        "Source: web research, Culbertson family records; 92-culbertson-scots-irish.json.",
+        gen=4, century=18, confidence="probable",
         children=[N(
             "Allen Turner Culbertson",
             "born ~1820, Greene County, Georgia; died after 1870",
@@ -1763,10 +1842,12 @@ CULBERTSON_TREE = N(
             )]
         )]
     )]
+    )]
+    )]
 )
 if not replace_tree("Culbertson ancestors", CULBERTSON_TREE):
     add_tree(
-        "MATERNAL — Culbertson ancestors (Capt. Alexander 'Irish' Culbertson, Ballymoney County Antrim Ireland → Jeremiah 1782 NC → Allen Turner 1820 GA → Sallie Culbertson 1864 AL → Ballentine line)",
+        "MATERNAL — Culbertson ancestors (Covenanter ~1640 Morebattle Scotland → Joseph of Ballygan ~1689 County Antrim → Capt. Alexander 'Irish' Culbertson ~1748 → Jeremiah 1782 NC → Allen Turner 1820 GA → Sallie Culbertson 1864 AL → Ballentine line)",
         CULBERTSON_TREE
     )
 
@@ -2178,6 +2259,72 @@ def _update_frances_rau(node):
 _rau_root = get_tree("Rau line")
 if _rau_root:
     _update_frances_rau(_rau_root)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# MATTINGLY PRIMARY TREE — Wave-2 corrections
+# Source: research/91-mattingly-english-origins.json
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _insert_william_mattyngle(node):
+    """Insert William Mattyngle (~1480) between the documentary gap and Henry MATYNGLE."""
+    if "[~250-year documentary gap]" in node.get("name", ""):
+        children = node.get("children", [])
+        # Check if William is already present (idempotency guard)
+        for c in children:
+            if "William Mattyngle" in c.get("name", ""):
+                return True
+        # Find Henry MATYNGLE among the gap's children
+        henry_idx = None
+        for i, c in enumerate(children):
+            if "Henry MATYNGLE" in c.get("name", ""):
+                henry_idx = i
+                break
+        if henry_idx is not None:
+            henry_node = children[henry_idx]
+            william_node = {
+                "name": "William Mattyngle",
+                "dates": "b. ~1480, Mattingley village, Hampshire, England; fl. 1483",
+                "fact": (
+                    "POSSIBLE. Named in a 1483 mortgage document (HRO 19M61/153) "
+                    "for land in Mattingley, Hampshire — the earliest surviving record "
+                    "of the Mattingly surname. Probable father of Henry Matyngle "
+                    "(who married Heckfield Hampshire 1548 and left will 1566). "
+                    "The Mattingley estate/village in Hampshire is the origin point "
+                    "of the entire Mattingly surname. "
+                    "Source: research/91-mattingly-english-origins.json."
+                ),
+                "id": None,
+                "generation": 8,
+                "century": 15,
+                "confidence": "possible",
+                "spouse": None,
+                "children": [henry_node],
+                "country_flag": "\U0001f1ec\U0001f1e7",
+            }
+            children[henry_idx] = william_node
+            node["children"] = children
+            return True
+    return any(_insert_william_mattyngle(c) for c in node.get("children", []))
+
+
+def _fix_thomas_mattingly_birthplace(node):
+    """Correct Thomas Mattingly I birthplace from Sussex to Hampshire."""
+    if "Thomas Mattingly I" in node.get("name", ""):
+        fact = node.get("fact", "")
+        if "Sussex" in fact:
+            node["fact"] = fact.replace(
+                "Born Sussex England",
+                "Born Hampshire, England (exact parish unknown — data artifact corrected)"
+            )
+            return True
+    return any(_fix_thomas_mattingly_birthplace(c) for c in node.get("children", []))
+
+
+_primary = multi.get("primary")
+if _primary:
+    _insert_william_mattyngle(_primary)
+    _fix_thomas_mattingly_birthplace(_primary)
 
 
 # ═══════════════════════════════════════════════════════════════════════════

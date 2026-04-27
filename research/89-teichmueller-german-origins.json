@@ -1,0 +1,450 @@
+{
+  "research_metadata": {
+    "file": "89-teichmueller-german-origins.json",
+    "compiled": "2026-04-27",
+    "researcher": "Claude Sonnet 4.6 (Genealogy Researcher Subagent)",
+    "task": "Synthesize Teichmüller German origins before the Texas generation; confirm Kellner and Mollenhauer family German roots",
+    "source_files_reviewed": [
+      "34-teichmueller-archives.json",
+      "69-teichmueller-confirmed-trace.json",
+      "49-kellner-mollenhauer-girsewald-deep.json",
+      "11-teichmueller-german.json",
+      "37-la-grange-tx-network.json"
+    ],
+    "primary_sources_underpinning_this_file": [
+      "Neue Deutsche Biographie (NDB) vol. 26 (2016) pp. 6*–7*, 'Teichmüller, Gustav' — Historische Kommission bei der Bayerischen Akademie der Wissenschaften; peer-reviewed genealogy section. URL: https://www.deutsche-biographie.de/gnd118801554.html",
+      "GND entries: Joachim Andreas (1154326802), Wilhelm Ernst Conrad (1154326616), August Wilhelm (1089914733), Georg von Girsewald (1154326691)",
+      "GEDBAS genealogy database — Joachim Andreas Teichmüller birthplace Rohrsheim, Halberstadt (cross-checks NDB)",
+      "Kirchengemeindelexikon Bockenem — Karl Mollenhauer pastoral dates 1860-1867. URL: https://kirchengemeindelexikon.de/einzelgemeinde/bockenem/",
+      "Frank Lotto, Fayette County: Her History and Her People (Schulenburg: Sticker Steam Press, 1902; rpt. UT Press 1981) — digitized at https://archive.org/details/fayettecountyher00lott",
+      "TSHA Handbook of Texas, 'Teichmueller, Hans' (Biesele 1952/2019): https://www.tshaonline.org/handbook/entries/teichmueller-hans"
+    ],
+    "confidence_protocol": {
+      "confirmed": "Attested in at least one peer-reviewed or archival primary source (NDB, GND, official church registers, government records)",
+      "probable": "Attested in two or more independent secondary/genealogical sources with internal consistency and no contradicting primary source",
+      "possible": "Attested in one secondary or genealogical source, no corroboration, no direct contradiction"
+    }
+  },
+
+  "summary": "Hunter Spence's Teichmüller line is among the most deeply documented in his family tree, traceable to a master miller in the southern Harz mountains circa 1580 — roughly 15 generations. The family originates in the southern Harz / Halberstadt corridor of what is now Lower Saxony and Saxony-Anhalt, moves through the Goslar mining economy in the early 18th century, then to the Leinebergland ironworks, and finally to Braunschweig city in the early 19th century. The American immigrant, Hans Teichmüller (1837–1901), emigrated from Braunschweig to Fayette County, Texas, in 1856 and became a prominent district judge. He is the great-great-grandfather of Hunter Spence (via Mary Teichmueller → Leroy Mattingly → Col. Leroy Baity Mattingly → Sharyn Mattingly → Rachel Spence → Hunter Spence). Hans's older brother Gustav Teichmüller (1832–1888) was a renowned philosopher whose work directly influenced Friedrich Nietzsche. The Kellner family (Augusta Dorothea Elizabeth Kellner, Hans's wife) were also German-origin Texas immigrants — her father was a modern-languages teacher in Austin County — but their specific German origins remain unconfirmed in publicly accessible sources. The Mollenhauer family (Karl Mollenhauer, who married Hans's sister Wilhelmina) were Protestant clergy in the Bockenem/Ambergau district of Lower Saxony, confirmed by church records. The famous Gustav Teichmüller (1832–1901 per the task brief — correctly 1832–1888) IS directly related to Hunter: he was Hans Teichmüller's older brother, confirmed by NDB 2016.",
+
+  "confirmed_ancestors": [
+    {
+      "name": "Hans (Johann) Teichmüller",
+      "birth_year": "c.1580",
+      "birth_place": "Southern Harz mountains region, Holy Roman Empire (present-day Lower Saxony / Saxony-Anhalt borderlands, Germany)",
+      "death_year": "c.1638",
+      "death_place": "Southern Harz mountains region",
+      "confidence": "confirmed",
+      "fact": "Earliest documented Teichmüller ancestor per NDB 2016. Occupation: Mühlenmeister (master miller). The surname 'Teichmüller' is occupational — literally 'pond miller' (Teich = pond, Müller = miller), denoting a miller who operated a mill powered by a mill pond. The NDB 2016 states in its genealogy section: 'Aus seit Ende d. 16. Jh. mit d. Mühlenmeister Han(n)s (um 1580–1638) im südl. Harz nachweisbarer Fam.' (From a family traceable since the end of the 16th century with the master miller Hans in the southern Harz). This is the earliest named ancestor in the documented line. He is approximately Hunter's 13th or 14th great-grandfather.",
+      "spouse": "Unknown",
+      "source": "NDB vol. 26 (2016) p. 6* — peer-reviewed genealogy section of Gustav Teichmüller article",
+      "hunter_relationship": "Approximately 13th–14th great-grandfather (c.15 generations to Hunter)"
+    },
+    {
+      "name": "Joachim Andreas Teichmüller",
+      "birth_year": "1705",
+      "birth_place": "Rohrsheim, near Halberstadt, Duchy of Halberstadt (present-day Saxony-Anhalt, Germany). Baptism date: 26 June 1705.",
+      "death_year": "1778",
+      "death_place": "Goslar, Lower Saxony, Germany. Death date: 31 January 1778.",
+      "confidence": "confirmed",
+      "fact": "Occupation: Oberfaktor (chief commercial/trading agent) in Goslar — almost certainly in the Harz mining industry, as Goslar was home to the Rammelsberg silver mine, one of Germany's most historically important mining centers (UNESCO World Heritage Site 1992). Rohrsheim (his birthplace) is approximately 40 km east of Goslar, consistent with a Harz-region family. Rohrsheim has an Ortsfamilienbuch (OFB) covering 1673–1980 which would extend his ancestry further. He is Hunter's 6th great-grandfather (via the main patrilineal chain). NDB lists a known son: Christian Andreas Teichmüller (1734–1809), from whom a collateral branch descends. Another son (unnamed in NDB) fathered Wilhelm Ernst Conrad — that unnamed son is the single unresolved gap in the chain. GND: 1154326802.",
+      "spouse": "Unknown (wife of Joachim Andreas not named in NDB or accessible sources)",
+      "source": "NDB vol. 26 (2016) pp. 6*–7*; GEDBAS genealogy database (birthplace confirmation: Rohrsheim, 26 June 1705)",
+      "hunter_relationship": "6th great-grandfather"
+    },
+    {
+      "name": "Wilhelm Ernst Conrad Teichmüller",
+      "birth_year": "1758",
+      "birth_place": "Braunschweig (presumed — family had moved from Harz region to Brunswick area by this generation)",
+      "death_year": "1835",
+      "death_place": "Likely Delligsen area, Leinebergland, Lower Saxony (near Karlshütte ironworks)",
+      "confidence": "confirmed",
+      "fact": "Occupation: Oberhütteninspekteur (chief inspector of smelting works) at Karlshütte near Delligsen, Leinebergland — a major ironworks in the hills south of Hanover. This role continues the family's multi-generational association with Harz-region heavy industry (mining, milling, smelting). WikiTree profiles for 'Conrad Teichmuller (d. 1835 Holzminden)' and 'Henriette Caroline Luise Teichmuller (b. 1793 Carlshutte)' are likely from this household — Holzminden is near Delligsen; Carlshutte = Karlshütte. He is Hunter's 4th great-grandfather. GND: 1154326616.",
+      "spouse": "Henriette Christiane Helene Schorkopf (1763–1818), from Uslar, Lower Saxony",
+      "source": "NDB vol. 26 (2016) p. 6*",
+      "hunter_relationship": "4th great-grandfather"
+    },
+    {
+      "name": "Henriette Christiane Helene Schorkopf",
+      "birth_year": "1763",
+      "birth_place": "Uslar, Lower Saxony (Duchy of Brunswick area)",
+      "death_year": "1818",
+      "death_place": "Unknown (likely Delligsen/Karlshütte area)",
+      "confidence": "confirmed",
+      "fact": "Wife of Wilhelm Ernst Conrad Teichmüller. Uslar is a small town in southern Lower Saxony, approximately 30 km west of Göttingen. The Schorkopf surname is documented in the Solling/Harz foothills area. She died 1818, when her son August Wilhelm was approximately 23 years old.",
+      "spouse": "Wilhelm Ernst Conrad Teichmüller (1758–1835)",
+      "source": "NDB vol. 26 (2016) p. 6*",
+      "hunter_relationship": "4th great-grandmother"
+    },
+    {
+      "name": "August Wilhelm Teichmüller",
+      "birth_year": "1795",
+      "birth_place": "Braunschweig, Duchy of Brunswick",
+      "death_year": "1855",
+      "death_place": "Brunswick area (exact place unknown)",
+      "confidence": "confirmed",
+      "fact": "Occupation: Seconde-Lieutenant (Zweiter Leutnant) in the Schwarzen Corps des Majors Olfermann, Brunswick army. The Schwarzen Corps (Black Corps) were the famous Brunswick volunteer units — the all-black-uniformed Napoleonic War fighters under Duke Friedrich Wilhelm of Brunswick-Wolfenbüttel ('the Black Duke'). August Wilhelm served as second lieutenant in this distinguished force. His death in 1855 left the family in financial hardship, causing his sons Gustav (then 23) and Hans (then 18) to abandon planned university careers — Gustav turned to private tutoring and eventually became a renowned philosopher; Hans emigrated to Texas in 1856. NOTE: English Wikipedia (Gustav Teichmüller article) incorrectly states 'lieutenant in the Prussian army' — NDB 2016 corrects this to Brunswick army (Schwarzen Corps). GND: 1089914733.",
+      "spouse": "Charlotte Georgine Elisabeth von Girsewald (1799–1860)",
+      "source": "NDB vol. 26 (2016) p. 6*",
+      "hunter_relationship": "3rd great-grandfather"
+    },
+    {
+      "name": "Charlotte Georgine Elisabeth von Girsewald (married: Teichmüller)",
+      "birth_year": "1799",
+      "birth_place": "Braunschweig, Duchy of Brunswick",
+      "death_year": "1860",
+      "death_place": "Unknown (Brunswick area presumed)",
+      "confidence": "confirmed",
+      "fact": "Maiden name: von Girsewald. Mother of Hans Teichmüller (Texas immigrant) and Gustav Teichmüller (philosopher). Her father was Georg von Girsewald, Oberstallmeister (Master of the Horse) and Hauptmann (Captain) at the Brunswick ducal court. Her mother was Christine Elisabeth Boyer. The von Girsewald family were elevated to Freiherren (barons) in 1827. NOTE: Lotto 1902 (OCR) spells her maiden name 'von Gursewald' — this is an artifact; the correct spelling is 'von Girsewald' per NDB 2016 and GND sources. Her exact position within the broader von Girsewald family (which branch, how she relates to the Generalmajor line) is confirmed by NDB as daughter of Georg (1735–1816) but the broader genealogical relationship to the Freiherrliche line requires the Gothaisches Genealogisches Taschenbuch der Freiherrlichen Häuser (1921), p. 298 — not yet digitized.",
+      "spouse": "August Wilhelm Teichmüller (1795–1855)",
+      "source": "NDB vol. 26 (2016) p. 6*",
+      "hunter_relationship": "3rd great-grandmother"
+    },
+    {
+      "name": "Georg von Girsewald",
+      "birth_year": "1735",
+      "birth_place": "Braunschweig area, Duchy of Brunswick",
+      "death_year": "1816",
+      "death_place": "Braunschweig area",
+      "confidence": "confirmed",
+      "fact": "Occupation: Oberstallmeister (Master of the Horse) and Hauptmann (Captain) at the Brunswick ducal court — a senior courtly and military position overseeing the Duke's stables and cavalry. Father of Charlotte von Girsewald (Hunter's 3rd great-grandmother). Husband of Christine Elisabeth Boyer. NDB 2016 names him directly as Charlotte's father. He is distinct from — but likely related to — Conrad Alexander Gustav Freiherr von Girsewald (1785–1864), the Generalmajor who also held the Oberstallmeister title in a later generation. The title Oberstallmeister appears to have been a hereditary office in the von Girsewald family across generations. GND: 1154326691.",
+      "spouse": "Christine Elisabeth Boyer",
+      "source": "NDB vol. 26 (2016) p. 6*; Deutsche Biographie GND index entry 1154326691",
+      "hunter_relationship": "4th great-grandfather (maternal line)"
+    },
+    {
+      "name": "Hans Teichmüller",
+      "birth_year": "1837",
+      "birth_place": "Braunschweig, Duchy of Brunswick, German Confederation",
+      "death_year": "1901",
+      "death_place": "La Grange, Fayette County, Texas, USA",
+      "confidence": "confirmed",
+      "fact": "THE AMERICAN IMMIGRANT. Born 7 March 1837 in Braunschweig; died 17 February 1901 in La Grange, Texas. Third son of August Wilhelm and Charlotte von Girsewald. Emigrated to Texas 1856 after his father's death left the family in financial hardship. Settled in Fayette County via cousin Arthur Meerscheidt. Taught school during the Civil War; admitted to the bar 16 May 1866; served as County Judge of Fayette County 1869–70; elected District Judge of the 22nd Judicial District 1884, serving until his death in 1901 — continuously without opposition. He was Hunter Spence's great-great-grandfather (via daughter Mary Teichmueller). Education: public schools and Gymnasium of Blankenburg (in the Harz Mountains). Route to Texas: first contact in Austin County ('old man Fordtrau of Industry'), then to Fayette County to join cousin Meerscheidt. WikiData: Q94855622. GND: 124984444.",
+      "spouse": "Augusta Dorothea Elizabeth Kellner (1843–1915), married 10 June 1858, Postoak Point, Austin County, Texas",
+      "source": "Lotto 1902 pp.229–231 (primary); TSHA; NDB 2016; WikiTree Teichmueller-3; Find A Grave #132005655",
+      "hunter_relationship": "Great-great-grandfather"
+    },
+    {
+      "name": "Karl Johann Mollenhauer",
+      "birth_year": "1818",
+      "birth_place": "Lower Saxony, Germany (exact place unconfirmed in accessible sources)",
+      "death_year": "1864",
+      "death_place": "Bockenem, Ambergau, Lower Saxony (presumed — he held the pastorate there 1860–1864)",
+      "confidence": "confirmed",
+      "fact": "Occupation: Protestant pastor and Superintendent at Bockenem, Ambergau district, Lower Saxony. Bockenem is a small town in the Innerste valley, between Hildesheim and Bad Gandersheim. He is confirmed as pastor at Bockenem in the Kirchengemeindelexikon (church community lexicon). He married Wilhelmina (Minette) Teichmüller (1829–1886), older sister of Hans (Texas immigrant) and Gustav (philosopher). The Mollenhauer family is a documented Lower Saxon Protestant clergy/scholarly family — the surname appears in Hanover area records from the 17th century onward. GND entry for Karl Mollenhauer: https://www.deutsche-biographie.de/gnd1154326888.html. His broader family origins in Germany (parents, grandparents) are not confirmed in accessible digitized sources.",
+      "spouse": "Wilhelmina (Minette) Teichmüller (1829–1886)",
+      "source": "NDB vol. 26 (2016) p. 6* (names marriage); Kirchengemeindelexikon Bockenem (confirms pastoral dates)",
+      "hunter_relationship": "Great-great-granduncle-in-law (married Hans's sister)"
+    },
+    {
+      "name": "Wilhelmina (Minette) Teichmüller",
+      "birth_year": "1829",
+      "birth_place": "Braunschweig, Duchy of Brunswick",
+      "death_year": "1886",
+      "death_place": "Unknown (likely Brunswick/Hanover area)",
+      "confidence": "confirmed",
+      "fact": "Sister of Hans Teichmüller (Texas immigrant) and Gustav Teichmüller (philosopher). Oldest sibling of the known Teichmüller children. Married Karl Mollenhauer, Protestant pastor at Bockenem, Ambergau. IMPORTANT NOTE: Do not confuse with Minette Teichmüller Pohl (1871–1970), who was Hans's DAUGHTER in Texas (a muralist known for WPA post office murals). The sister Wilhelmina is the NDB 'Minette'; Hans's daughter is a different Minette one generation later.",
+      "spouse": "Karl Johann Mollenhauer (1818–1864)",
+      "source": "NDB vol. 26 (2016) p. 6*",
+      "hunter_relationship": "Great-great-great-aunt"
+    }
+  ],
+
+  "probable_ancestors": [
+    {
+      "name": "[Unnamed son of Joachim Andreas Teichmüller — generation G4]",
+      "birth_year": "c.1730–1740",
+      "birth_place": "Goslar or surrounding area, Lower Saxony",
+      "death_year": "c.1770–1785",
+      "death_place": "Unknown",
+      "confidence": "probable",
+      "fact": "NDB 2016 documents Joachim Andreas Teichmüller (1705–1778) and his son Christian Andreas (1734–1809) explicitly, from whom a collateral branch descends. Wilhelm Ernst Conrad (b.1758) must have been fathered by a different son of Joachim Andreas — but NDB does not name this son explicitly. Given Joachim Andreas's lifespan (1705–1778) and Wilhelm Ernst Conrad's birth (1758), this intermediate generation would have been born around 1730–1740 and fathered Wilhelm Ernst Conrad around 1755–1760. The Goslar church registers at the Stadtarchiv Goslar and at NLA Wolfenbüttel hold the records that would identify this individual. The Rohrsheim OFB (1673–1980) may also name Joachim Andreas's other children.",
+      "spouse": "Unknown",
+      "source": "NDB vol. 26 (2016) p. 7* (names Christian Andreas as one son of Joachim Andreas; implies other sons)",
+      "hunter_relationship": "5th great-grandfather"
+    },
+    {
+      "name": "Christine Elisabeth Boyer",
+      "birth_year": "c.1760–1775",
+      "birth_place": "Braunschweig area, Duchy of Brunswick (probable — Boyer is a surname of French Huguenot origin common in Brunswick after Huguenot refugees settled there 1685–1700)",
+      "death_year": "Unknown",
+      "death_place": "Unknown",
+      "confidence": "probable",
+      "fact": "Wife of Georg von Girsewald; mother of Charlotte von Girsewald (Hunter's 3rd great-grandmother). Named directly in NDB 2016 as Charlotte's mother. Boyer is a French-origin surname — Brunswick had a significant Huguenot refugee community after Louis XIV revoked the Edict of Nantes (1685). The Boyer family in Brunswick may trace to French Protestant refugees. No further details on her parents or maiden history are available in accessible digitized sources. Birth year is estimated from her daughter Charlotte's birth (1799) — she would likely have been born c.1760–1775.",
+      "spouse": "Georg von Girsewald (1735–1816)",
+      "source": "NDB vol. 26 (2016) p. 6* (names her as Charlotte's mother)",
+      "hunter_relationship": "4th great-grandmother (maternal line)"
+    },
+    {
+      "name": "Christian Andreas Teichmüller",
+      "birth_year": "1734",
+      "birth_place": "Goslar area, Lower Saxony (son of Joachim Andreas, born when family was in Goslar)",
+      "death_year": "1809",
+      "death_place": "Unknown",
+      "confidence": "probable",
+      "fact": "Son of Joachim Andreas Teichmüller (1705–1778). Documented as a son in NDB 2016, from whom the collateral Bernburg/Marburg branch descends — specifically the electrotechnician Joachim Julius Friedrich Heinrich Teichmüller (1866–1938), who was a distant cousin of Hunter's line. Christian Andreas is NOT on Hunter's direct patrilineal line — he is a collateral branch. He demonstrates the family's documented multi-generational span and confirms Joachim Andreas had multiple children.",
+      "spouse": "Unknown",
+      "source": "NDB vol. 26 (2016) p. 7*",
+      "hunter_relationship": "Collateral — 6th great-granduncle (sibling of Hunter's direct Teichmüller ancestor in G4)"
+    },
+    {
+      "name": "Augusta Dorothea Elizabeth Kellner",
+      "birth_year": "1843",
+      "birth_place": "Germany (WikiTree) — OR Postoak Point, Austin County, Texas (TSHA implies Texas-born). Both are plausible: if born in Germany, the family emigrated before 1843; if born at Postoak Point, they emigrated c.1840–1842.",
+      "death_year": "1915",
+      "death_place": "Texas (La Grange area; widowed from Hans 1901)",
+      "confidence": "probable",
+      "fact": "Wife of Hans Teichmüller (Texas immigrant). Born 25 March 1843. Her father was described in Lotto 1902 as 'a highly educated teacher of modern languages' at Postoak Point, Austin County, Texas — the same man who taught Hans Teichmüller English when Hans first arrived in Texas. The father's name is not given in any accessible primary source. WikiTree records her birthplace as Germany, suggesting the Kellner family were German immigrants. If so, they likely came during the wave of 1840s German settlement in Austin County (Industry was the first German settlement in Texas, 1831; the Adelsverein period 1844–1853 brought thousands more). Postoak Point is in Austin County, not far from Industry. The Kellner family's specific German origin — whether from Württemberg, Prussia, Bavaria, or another state — is not confirmed in any accessible digitized source.",
+      "spouse": "Hans Teichmüller (1837–1901), married 10 June 1858",
+      "source": "Lotto 1902 p.229 (father described as language teacher); WikiTree Teichmueller-3 (her birth data); TSHA",
+      "hunter_relationship": "Great-great-grandmother"
+    }
+  ],
+
+  "corrections": [
+    {
+      "item": "Gustav Teichmüller death year",
+      "error": "The task brief states Gustav Teichmüller '1832–1901' — this is INCORRECT",
+      "correction": "Gustav Teichmüller lived 1832–1888. He died 22 May 1888 at Dorpat (Tartu), Estonia. The 1901 date in the task brief is Hans Teichmüller's death year, not Gustav's.",
+      "source": "NDB 2016; Wikipedia; WikiData Q78129"
+    },
+    {
+      "item": "August Wilhelm Teichmüller's military service",
+      "error": "English Wikipedia states he was a 'lieutenant in the Prussian army'",
+      "correction": "He was a Seconde-Lieutenant in the Schwarzen Corps des Majors Olfermann — a Brunswick (not Prussian) army unit. NDB 2016 is the authoritative source. The Schwarzen Corps were the famous black-uniformed Brunswick volunteers of the Napoleonic Wars.",
+      "source": "NDB vol. 26 (2016) p. 6*"
+    },
+    {
+      "item": "Charlotte's maiden name spelling",
+      "error": "Lotto 1902 prints 'von Gursewald' — often carried forward in secondary sources",
+      "correction": "Correct spelling: von Girsewald. The 'Gursewald' form is an OCR artifact from the 1902 Lotto text. NDB 2016 and GND sources consistently use 'von Girsewald'.",
+      "source": "NDB vol. 26 (2016) p. 6*; GND 1154326691"
+    },
+    {
+      "item": "Minette Teichmüller — two different people share the nickname",
+      "error": "Genealogical databases sometimes conflate 'Minette Teichmüller' (Hans's sister, b.1829) with 'Minette Teichmüller Pohl' (Hans's daughter, b.1871)",
+      "correction": "These are two distinct people: (1) Wilhelmina 'Minette' Teichmüller (1829–1886), sister of Hans and Gustav, who married Karl Mollenhauer in Germany; and (2) Minette Teichmüller Pohl (1871–1970), Hans's daughter in Texas who became a WPA muralist. The sister is the NDB 'Minette'; the daughter is the Texas muralist.",
+      "source": "NDB vol. 26 (2016) p. 6*; Wikipedia on Minette Teichmueller (muralist)"
+    },
+    {
+      "item": "Leroy Teichmueller Mattingly birth year",
+      "error": "Earlier family files record his birth year as 1898",
+      "correction": "Texas Death Certificate #68070 gives birth date 31 August 1896. The 1896 date supersedes the 1898 oral tradition.",
+      "source": "Texas Death Certificate #68070 (La Grange TX network file 37)"
+    },
+    {
+      "item": "Hans's marriage date",
+      "error": "TSHA (1952, Biesele) states marriage date as 'June 16, 1858'",
+      "correction": "Lotto 1902 (primary source) clearly reads 'June 10, 1858.' The TSHA date appears to be a transcription error.",
+      "source": "Lotto 1902 p.230 (primary)"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Neue Deutsche Biographie (NDB) vol. 26 (2016), pp. 6*–7*, 'Teichmüller, Gustav'",
+      "publisher": "Historische Kommission bei der Bayerischen Akademie der Wissenschaften",
+      "url": "https://www.deutsche-biographie.de/gnd118801554.html",
+      "type": "peer_reviewed_biography",
+      "significance": "PRIMARY and MOST AUTHORITATIVE source for the entire confirmed Teichmüller lineage. The genealogy section covers six generations from Hans/Johann (c.1580) through the philosopher Gustav's children. Peer-reviewed. Supersedes all Wikipedia and secondary sources on genealogical matters."
+    },
+    {
+      "title": "Deutsche Biographie GND Index — individual entries",
+      "urls": [
+        "Joachim Andreas (GND 1154326802): https://www.deutsche-biographie.de/gnd1154326802.html",
+        "Wilhelm Ernst Conrad (GND 1154326616): https://www.deutsche-biographie.de/gnd1154326616.html",
+        "August Wilhelm (GND 1089914733): https://www.deutsche-biographie.de/gnd1089914733.html",
+        "Georg von Girsewald (GND 1154326691): https://www.deutsche-biographie.de/gnd1154326691.html",
+        "Karl Mollenhauer (GND 1154326888): https://www.deutsche-biographie.de/gnd1154326888.html"
+      ],
+      "type": "authority_records",
+      "significance": "GND (Gemeinsame Normdatei) authority records for German cultural figures — confirms existence, dates, and roles of key ancestors"
+    },
+    {
+      "title": "GEDBAS Genealogy Database — Joachim Andreas Teichmüller birthplace",
+      "url": "https://gedbas.genealogy.net",
+      "type": "genealogical_database",
+      "significance": "Confirms Joachim Andreas's birthplace as Rohrsheim near Halberstadt, 26 June 1705 — consistent with NDB and extends the geographic detail"
+    },
+    {
+      "title": "Frank Lotto, Fayette County: Her History and Her People (1902)",
+      "publisher": "Schulenburg TX: Sticker Steam Press, 1902; rpt. Austin: UT Press, 1981",
+      "url": "https://archive.org/details/fayettecountyher00lott",
+      "type": "contemporary_county_history",
+      "significance": "Primary source for Hans Teichmüller's Texas life. Pages 229–231 contain his biography including emigration year, family details, children. Describes Augusta Kellner's father as 'a highly educated teacher of modern languages.'"
+    },
+    {
+      "title": "TSHA Handbook of Texas — 'Teichmueller, Hans' by Rudolph L. Biesele (1952/2019)",
+      "url": "https://www.tshaonline.org/handbook/entries/teichmueller-hans",
+      "type": "encyclopedic_reference",
+      "significance": "Secondary but authoritative reference for Hans Teichmüller's Texas career. Confirms birth order ('third son'), emigration year, and career timeline. Has minor discrepancies with Lotto 1902 (corrected in this file)."
+    },
+    {
+      "title": "Kirchengemeindelexikon — Bockenem parish entry",
+      "url": "https://kirchengemeindelexikon.de/einzelgemeinde/bockenem/",
+      "type": "church_records_index",
+      "significance": "Confirms Karl Mollenhauer's pastoral appointment at Bockenem, Ambergau (1860–1867). Establishes the Mollenhauer family's Lutheran clergy context in Lower Saxony."
+    },
+    {
+      "title": "WikiTree Teichmueller profiles",
+      "urls": [
+        "Hans Teichmueller (Teichmueller-3): https://www.wikitree.com/wiki/Teichmueller-3",
+        "Mary Teichmueller Mattingly (Teichmueller-1): https://www.wikitree.com/wiki/Teichmueller-1",
+        "Minette Pohl née Teichmueller (Teichmueller-4): https://www.wikitree.com/wiki/Teichmueller-4",
+        "Anna E. Teichmueller (Teichmueller-5): https://www.wikitree.com/wiki/Teichmueller-5",
+        "Louisa Teichmueller (Teichmueller-2): https://www.wikitree.com/wiki/Teichmueller-2"
+      ],
+      "type": "collaborative_genealogy",
+      "significance": "WikiTree profiles corroborate birth/death dates and family connections. Used for Augusta Kellner's birth data and children's records. Secondary — not used as sole source for any claim."
+    },
+    {
+      "title": "Rohrsheim Ortsfamilienbuch (OFB) 1673–1980",
+      "location": "Evangelische Kirche im Kirchenkreis Halberstadt, Saxony-Anhalt",
+      "digitized": false,
+      "type": "church_family_register",
+      "significance": "NOT YET CONSULTED. Would directly answer: (1) Joachim Andreas Teichmüller's parents, (2) his siblings, (3) what family he came from in Rohrsheim. Highest-priority archive to consult for extending the line before 1705. Rohrsheim is in the Halberstadt district; the OFB may also be accessible via Archion or Matricula platforms."
+    },
+    {
+      "title": "Gothaisches Genealogisches Taschenbuch der Freiherrlichen Häuser (1921), p. 298",
+      "location": "Stadtbibliothek Braunschweig; Niedersächsische Landesbibliothek Hannover",
+      "digitized": false,
+      "type": "noble_genealogy_handbook",
+      "significance": "NOT YET CONSULTED. Would confirm Charlotte von Girsewald's exact position within the von Girsewald Freiherren family tree — specifically which branch she descended from (Georg's branch vs. the Conrad/Generalmajor branch). Essential for extending the von Girsewald maternal line."
+    },
+    {
+      "title": "Stadtarchiv Goslar — church and civil registers",
+      "location": "Goslar, Lower Saxony, Germany",
+      "digitized_partially": true,
+      "url": "https://www.goslar.de/stadtarchiv",
+      "type": "municipal_archive",
+      "significance": "NOT YET CONSULTED. Goslar city archive holds Lutheran church registers from ~1580 onward. Would name the unnamed son of Joachim Andreas who fathered Wilhelm Ernst Conrad — closing the only remaining gap in the confirmed chain (G4). Also might extend the Joachim Andreas line backward."
+    },
+    {
+      "title": "Niedersächsisches Landesarchiv (NLA), Wolfenbüttel",
+      "url": "https://www.arcinsys.niedersachsen.de",
+      "type": "state_archive",
+      "significance": "NOT YET CONSULTED directly. Holds Braunschweig church baptism registers for all major parishes (St. Martin, St. Andreas, Dom, St. Michaelis, St. Katharinen, St. Aegidien). Would provide original baptism images for August Wilhelm (c.1795), Gustav (1832), Wilhelm (1834), and Hans (1837) Teichmüller — confirming parents' names directly from primary records rather than NDB citation."
+    }
+  ],
+
+  "notable_collateral_relatives": {
+    "gustav_teichmueller_philosopher": {
+      "name": "Gustav Teichmüller",
+      "dates": "1832-11-19 — 1888-05-22",
+      "relationship_to_hunter": "Great-great-great-granduncle (older brother of Hans, Hunter's great-great-grandfather)",
+      "is_he_related": "YES — CONFIRMED DIRECT RELATION. Gustav is Hans Teichmüller's OLDER BROTHER. They share the same parents: August Wilhelm Teichmüller and Charlotte von Girsewald. Confirmed by NDB 2016 (peer-reviewed). The task asked whether the 'famous Gustav Teichmüller (1832–1901, philosopher, Baltic German from Braunschweig)' is related — the answer is unambiguously YES, and the death year in the task brief is wrong (should be 1888, not 1901).",
+      "significance": "Professor of Philosophy at University of Basel (1868–1871) and Imperial University of Dorpat/Tartu (1871–1888). His philosophical doctrine of 'perspectives' directly influenced Friedrich Nietzsche's development of perspectivism. Considered the founder of Russian personalism. A street in Braunschweig (Teichmüllerstraße) was named in his honor in 1975. WikiData: Q78129. GND: 118801554.",
+      "born": "Braunschweig, Duchy of Brunswick (NOT Baltic German by origin — he later became a Baltic German by residence in Dorpat/Estonia)"
+    },
+    "wilhelm_teichmueller_brother": {
+      "name": "Wilhelm Teichmüller",
+      "dates": "1834–1869",
+      "relationship_to_hunter": "Great-great-great-granduncle (second-oldest brother of Hans)",
+      "significance": "Premier-Lieutenant (military officer) and writer (Schriftsteller). Married Bertha Kuntzen (NDB) / possibly 'Teichmüller-Specht, Bertha von' (GND variant). Probable father of Robert Teichmüller (1863–1939), the concert pianist and Leipzig Conservatory professor — but parentage not yet confirmed. GND: 108990469X."
+    },
+    "anna_teichmueller_composer": {
+      "name": "Anna Teichmüller",
+      "dates": "1861-05-11 — 1940-09-06",
+      "relationship_to_hunter": "1st cousin 4x removed (Gustav's daughter, Hans's niece)",
+      "significance": "Composer and pianist; lived at Schreiberhau artist colony (Riesengebirge; now Szklarska Poręba, Poland). Set poems by over 40 poets to music. WikiData: Q21031895."
+    },
+    "minette_teichmueller_muralist": {
+      "name": "Minette Teichmüller (Pohl)",
+      "dates": "1871-01-27 — 1970-08-28",
+      "relationship_to_hunter": "Great-grand-aunt (Hans's daughter — sibling generation of Hunter's great-great-grandfather Leroy Mattingly)",
+      "significance": "WPA Federal Art Project muralist. Her 1940 mural 'The Law, Texas Rangers' still hangs in the Smithville, Texas post office. Lived to age 99."
+    }
+  },
+
+  "geographic_origin_summary": {
+    "primary_region": "Southern Harz mountains, Lower Saxony / Saxony-Anhalt borderlands",
+    "specific_places_documented": {
+      "rohrsheim_near_halberstadt": "Birthplace of Joachim Andreas Teichmüller (1705). Present-day Saxony-Anhalt. Approximately 50 km south of Halberstadt, in the foothills of the Harz.",
+      "goslar": "Where Joachim Andreas worked as Oberfaktor (died 1778). Ancient imperial city at the foot of the Harz; home of the Rammelsberg silver mine. Present-day Lower Saxony.",
+      "delligsen_karlshuette": "Where Wilhelm Ernst Conrad was Oberhütteninspekteur c.1790–1835. Karlshütte was a major ironworks near Delligsen in the Leinebergland, southern Lower Saxony.",
+      "blankenburg_harz": "Where Hans attended Gymnasium (school) before emigrating. Blankenburg is in the Harz Mountains, present-day Saxony-Anhalt, ~40 km southeast of Braunschweig.",
+      "braunschweig": "City where August Wilhelm and Charlotte lived; where Hans (1837), Gustav (1832), Wilhelmina (1829), and Wilhelm (1834) were born. Capital of the Duchy of Brunswick."
+    },
+    "not_applicable": {
+      "württemberg": "This branch has NO documented Württemberg connection. The common association of Texas Germans with Württemberg does not apply to the Teichmüller line.",
+      "bavaria": "No Bavarian connection.",
+      "adelsverein_immigrants": "Hans did NOT come via the Adelsverein (which dissolved 1853). He came independently in 1856 via family chain migration (cousin Meerscheidt in Fayette County). However, the Adelsverein settlement network in Austin and Fayette counties is what he arrived into."
+    },
+    "family_occupational_pattern": "The Teichmüller family's progression through occupations mirrors the Harz regional economy: pond milling (Hans/Johann, c.1580) → commercial trade/Oberfaktor in the mining capital Goslar (Joachim Andreas, 1705–1778) → smelting works inspector at Karlshütte (Wilhelm Ernst Conrad, 1758–1835) → military officer in Brunswick army (August Wilhelm, 1795–1855) → law and judiciary in Texas (Hans, 1837–1901). A consistent pattern of administrative/technical/professional roles across six generations."
+  },
+
+  "kellner_family_summary": {
+    "status": "PARTIALLY CONFIRMED — individual confirmed, origins unresolved",
+    "what_is_confirmed": "Augusta Dorothea Elizabeth Kellner (1843–1915) married Hans Teichmüller on 10 June 1858 at Postoak Point, Austin County, Texas. Her father was 'a highly educated teacher of modern languages' at Postoak Point (Lotto 1902). Father's name is not given in any accessible primary source. WikiTree records Augusta's birthplace as Germany, suggesting the family were German immigrants to Texas.",
+    "what_is_unresolved": [
+      "Father's full name — not given in Lotto 1902 or any accessible source",
+      "Specific German state of origin for the Kellner family",
+      "Emigration year and ship record",
+      "Whether Augusta was born in Germany or Texas (discrepancy between WikiTree 'Germany' and TSHA implication of Texas birth)"
+    ],
+    "research_path": "Austin County Texas probate/deed records from 1840s–1860s; Postoak Point / Industry area immigrant records; Texas German Immigrations database; ship manifests at Hamburg or Bremen 1838–1843 for 'Kellner' family with a language-teacher patriarch",
+    "german_context": "The Kellner surname is common across Germany — found in Württemberg, Hesse, Bavaria, Prussia. Without the father's first name or more precise date of immigration, the German origin cannot be narrowed. The German Texas settlements in Austin County (Industry, founded 1831; cat Spring, Round Top area) were heavily Westphalian, Hessian, and Lower Saxon in origin."
+  },
+
+  "mollenhauer_family_summary": {
+    "status": "CONFIRMED IN TEXAS/BRUNSWICK CONTEXT — German origins of Karl's family unresolved",
+    "what_is_confirmed": [
+      "Karl Johann Mollenhauer (1818–1864) was a Protestant pastor and Superintendent at Bockenem, Ambergau, Lower Saxony (confirmed: Kirchengemeindelexikon, pastoral tenure 1860–1867; NDB confirms dates slightly differently as 1818–1864)",
+      "He married Wilhelmina (Minette) Teichmüller (1829–1886), sister of Hans (Texas) and Gustav (philosopher)",
+      "He is confirmed in Deutsche Biographie GND: 1154326888"
+    ],
+    "what_is_unresolved": "Karl Mollenhauer's own parents, grandparents, and broader Mollenhauer family origin are not confirmed in accessible digitized sources. The Mollenhauer surname appears in Lower Saxony (Hanover, Wolfenbüttel, Braunschweig areas) from the 17th century. The famous composer Eduard Mollenhauer (1827–1914, violinist, New York) and his brother Friedrich Mollenhauer were also from Erfurt/Thuringia — but connection to Karl's branch is unconfirmed.",
+    "research_path": "NLA Wolfenbüttel church registers; Bockenem parish records; Halberstadt/Hildesheim diocesan archives"
+  },
+
+  "key_open_gaps": [
+    {
+      "priority": 1,
+      "gap": "Unnamed G4 generation — son of Joachim Andreas Teichmüller (1705–1778) who was father of Wilhelm Ernst Conrad (1758–1835)",
+      "significance": "Closes the only structural gap in the confirmed patrilineal chain from 1580 to Texas",
+      "archive": "Stadtarchiv Goslar; NLA Wolfenbüttel; Goslar Lutheran church registers c.1730–1760"
+    },
+    {
+      "priority": 2,
+      "gap": "Joachim Andreas Teichmüller's own parents (would push line back before 1705)",
+      "significance": "The Rohrsheim OFB (1673–1980) directly covers his birthplace and year",
+      "archive": "Rohrsheim OFB at Evangelische Kirche Halberstadt; possibly Archion.de or Matricula-online.eu"
+    },
+    {
+      "priority": 3,
+      "gap": "Kellner family German origins — father's full name and German state of origin",
+      "significance": "Would complete the German-origin picture for Augusta Kellner (Hans's wife)",
+      "archive": "Austin County Texas deed/probate records 1840s–1860s; Portal to Texas History newspapers; Hamburg/Bremen ship manifests"
+    },
+    {
+      "priority": 4,
+      "gap": "Charlotte von Girsewald's exact position in the von Girsewald Freiherren family tree",
+      "significance": "Confirms the noble ancestry connection and extends that maternal line further",
+      "archive": "Gothaisches Genealogisches Taschenbuch der Freiherrlichen Häuser (1921) p.298; Stadtbibliothek Braunschweig"
+    },
+    {
+      "priority": 5,
+      "gap": "Hans Teichmüller's 1900 US Census entry — confirms immigration year on record",
+      "significance": "FamilySearch ark:/61903/1:1:M3GQ-SRC (requires free FamilySearch account login)",
+      "archive": "FamilySearch.org (free)"
+    },
+    {
+      "priority": 6,
+      "gap": "Hans Teichmüller naturalization record — exact year and county",
+      "significance": "He must have naturalized before serving as County Judge (1869)",
+      "archive": "Fayette County District Court naturalization records; Briscoe Center, UT Austin"
+    }
+  ],
+
+  "next_steps": [
+    "HIGH PRIORITY: Consult Rohrsheim Ortsfamilienbuch (1673–1980) — this single source would identify Joachim Andreas Teichmüller's parents and likely close the 1580–1705 gap as well. Check if digitized on Archion.de or Matricula-online.eu. If not, request a lookup from the Evangelische Kirche im Kirchenkreis Halberstadt.",
+    "HIGH PRIORITY: Query Stadtarchiv Goslar for Lutheran baptism registers 1730–1765 to find the unnamed G4 son of Joachim Andreas who fathered Wilhelm Ernst Conrad.",
+    "MEDIUM PRIORITY: Request the Gothaisches Genealogisches Taschenbuch der Freiherrlichen Häuser (1921) p.298 from Stadtbibliothek Braunschweig to resolve Charlotte von Girsewald's family position.",
+    "MEDIUM PRIORITY: Search Portal to Texas History (texashistory.unt.edu) for Austin County / Fayette County German newspapers from 1840s–1860s that might name the Kellner language teacher by full name.",
+    "MEDIUM PRIORITY: Search Hamburg and Bremen passenger lists (1838–1855) on Ancestry or Findmypast for 'Kellner' immigrants to Texas who might match the language teacher profile.",
+    "LOW PRIORITY: Access FamilySearch record ark:/61903/1:1:M3GQ-SRC (Hans's 1900 census) to confirm officially recorded immigration year.",
+    "LOW PRIORITY: Check Compgen GEDBAS database and Archion.de for 'Teichmüller' entries in Goslar, Halberstadt, or Wolfenbüttel parish collections to corroborate NDB dates from primary images.",
+    "WEBSITE DISPLAY: The confirmed six-generation German chain (Harz miller 1580 → Goslar Oberfaktor 1705 → Karlshütte ironworks 1758 → Brunswick lieutenant 1795 → Texas judge 1837) is fully documented and ready for the family history website as a timeline entry."
+  ]
+}

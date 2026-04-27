@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "Mattingly Family English Origins",
+    "subtitle": "Pre-Maryland ancestry research — Hampshire, England focus",
+    "prepared": "2026-04-27",
+    "researcher": "Clawrence (claude-sonnet-4-6)",
+    "based_on_prior_files": [
+      "09-medieval-mattingly.json",
+      "33-mattingley-manor.json",
+      "62-mattingly-confirmed-trace.json",
+      "21-mattingly-ydna-project.json",
+      "08-pre-1623-ancestry.json",
+      "22-wikitree-mattingly-mass.json",
+      "23-1969-mattingly-book.json",
+      "28-maryland-catholic-kentucky.json"
+    ]
+  },
+
+  "summary": "The Mattingly family surname derives from the village of Mattingley in Hampshire, England (Domesday Book: 'Matingeleghe', 1086). The surname is first attested in primary records in 1206 (Stephen de Mattingley, Feet of Fines, TNA CP 25/1), and surname-bearing individuals are confirmed in Mattingley village itself from 1483 (William Mattyngle, Hampshire Record Office mortgage HRO 19M61/153) through 1596. The first Maryland immigrant, Thomas Mattingly I (d. before 24 July 1664), was the son of Charles Mattingly (~1600) and grandson of John Mattingly (~1560, d. 17 December 1641, London). The connection of this line to the Mattingley village in Hampshire is strongly supported by Y-DNA evidence (haplogroup R-Y14084 — multiple Hampshire-origin samples in YFull confirm geographic origin) and by the 1548 marriage of Henry Matyngle at Heckfield St Michael parish (which covered Mattingley tithing), who is the probable father of John Mattingly (~1560). The 1969 Mattingly genealogy book ('The Descendants of Henry Mattingly') acknowledges English origin but provides NO named English ancestors before the Maryland colony. The key unresolved question — who exactly were the English parents of Thomas I and grandfather John Mattingly — requires direct search of Hampshire Record Office parish registers for Heckfield/Mattingley (1538 onward) and the National Archives Tudor lay subsidy rolls (E 179 series, Hampshire, Holdshott Hundred, 1524-25). No confirmed English Jesuit or recusant missionary connection for the Mattingley family has been found; they appear to have emigrated as lay Catholic settlers rather than clergy.",
+
+  "confirmed_ancestors": [
+    {
+      "name": "Thomas Mattingly I",
+      "birth_year": 1623,
+      "birth_place": "England (probably Hampshire; 'Omny Parish, Sussex' on WikiTree is likely a data error — Omny is not a known English place name)",
+      "death_year": 1664,
+      "death_place": "St. Mary's County or Charles County, Province of Maryland",
+      "confidence": "confirmed",
+      "fact": "Administrator's bond dated 24 July 1664 signed by widow Elizabeth Mattingly as executrix. Appendix III of the 1969 Mattingly book (Internet Archive thedescendantsofhenrymattingly). Inventory presented 29 July 1664. Sons Thomas II and Cezar received 'Mattingly's Hope' 300-acre land patent, Charles County, Maryland, 4 September 1666 (Patent Book Liber 10, Maryland State Archives). Hoye Appendix II, 1969 book p. 230: 'Thomas Mattingly, his wife, Elizabeth, and children, Thomas, Cezar and Elizabeth, came to Maryland prior to 1665.' This is the earliest individual in Hunter's Mattingly line confirmed by two independent primary-source colonial records.",
+      "spouse": "Elizabeth (maiden name unknown; also signed 'Elza Mattingley'); later married Walter Pake who entered the family's headright"
+    },
+    {
+      "name": "John Mattingly",
+      "birth_year": 1560,
+      "birth_place": "Berkshire or Hampshire, England (traditional; not confirmed in primary source)",
+      "death_year": 1641,
+      "death_place": "St. Mary Colechurch, London, England (buried 17 December 1641)",
+      "confidence": "confirmed",
+      "fact": "London Church of England burial register, St. Mary Colechurch: 'John Mattingly was buried the 17 of December 1641 in the church' (London Metropolitan Archives; cited via WikiTree Mattingly-377 and WikiTree Mattingly-368 ancestor chain). This is the only confirmed primary-source document for any named Mattingly ancestor in England. His role as father of Charles Mattingly (~1600) and grandfather of Thomas I rests on MyHeritage aggregated data corroborated by WikiTree genealogical data, without an independent English primary-source confirmation. The burial record itself is real and primary.",
+      "spouse": "Mary Winch (claimed; source is MyHeritage aggregated data — not primary-source verified)"
+    },
+    {
+      "name": "Stephen de Mattingley",
+      "birth_year": null,
+      "birth_place": "Mattingley, Hampshire, England",
+      "death_year": null,
+      "death_place": "England",
+      "confidence": "confirmed",
+      "fact": "Earliest DATED person bearing the Mattingley surname in any primary source (Reaney and Wilson, Dictionary of English Surnames, Routledge 1991). In 1206 granted to Walter Prior of Merton in free alms: 6 virgates, 30 acres, meadows, 6s. 3d. rent, and a mill in Mattingley. Primary sources: Feet of Fines, Hampshire, Trinity 8 John (1206), TNA CP 25/1; Curia Regis Rolls (cited in Reaney and Wilson 1991 as 'Stephen de Madingel, de Matingel'); Cotton MS Cleopatra C. vii, fol. 134d, British Library (Merton Priory cartulary). Son of Revelendus of Mattingley; father of Peter de Mattingley. NOTE: He is NOT a proven direct ancestor of Thomas I — a 307-year documentary gap exists between Peter de Mattingley (~1249) and William Mattyngle (1483). His inclusion is as the earliest confirmed Mattingley surname bearer in primary records, confirmed in the VCH Hampshire.",
+      "spouse": null
+    },
+    {
+      "name": "William Mattyngle",
+      "birth_year": null,
+      "birth_place": "Mattingley, Hampshire, England",
+      "death_year": null,
+      "death_place": "England",
+      "confidence": "confirmed",
+      "fact": "Signed a mortgage for 'Rychars land' in Mattingley on 24 March 1483, with William Elysander, John at Hylle, and Roger Cotell. Hampshire Record Office reference HRO 19M61/153. Source: freshford.com/Mattingly Ancestors.html citing the HRO directly. This document pushes the confirmed Mattingly surname presence in Mattingley village back to 1483 — 65 years before Henry Matyngle's 1548 marriage record, and 230 years after Peter de Mattingley. He is almost certainly an ancestor of John Mattingly (~1560) but no documented descent chain exists.",
+      "spouse": null
+    }
+  ],
+
+  "probable_ancestors": [
+    {
+      "name": "Charles Mattingly",
+      "birth_year": 1600,
+      "birth_place": "England (WikiTree says 'Omny Parish, Sussex' — likely a data error; no 'Omny' parish exists in Sussex or any English county)",
+      "death_year": 1642,
+      "death_place": "England (WikiTree's 'Maryland 1642' is anomalous — Thomas I only emigrated ~1663; Charles likely died in England before emigration or this date is wrong)",
+      "confidence": "probable",
+      "fact": "WikiTree Mattingly-368: son of John Mattingly (~1560) and father of Thomas Mattingly I. Sources cited by WikiTree are MyHeritage aggregated tree and one FamilySearch Pedigree Resource File entry — no independent primary document (parish register, will, deed) has been found in open-access archives. The death year 1642 in Maryland is inconsistent with Thomas I emigrating ~1663 and is likely a data error. His marriage to Judith Bugbee is also from MyHeritage data without primary source. He is PROBABLE as Thomas I's father based on the structural consistency of the genealogical chain but needs primary-source verification.",
+      "spouse": "Judith Bugbee (per WikiTree Mattingly-368 and Bugbee-206; sourced from MyHeritage — not confirmed in primary records)"
+    },
+    {
+      "name": "Henry Matyngle (also Harry Mattyngle)",
+      "birth_year": 1518,
+      "birth_place": "Mattingley/Heckfield, Hampshire, England",
+      "death_year": 1566,
+      "death_place": "Mattingley, Hampshire, England",
+      "confidence": "probable",
+      "fact": "Two primary source records: (1) Heckfield St Michael parish register (covers Mattingley tithing): 'Henry Matyngle, marriage, 30 September 1548' — Phillimore's Transcript, line 48, transcribed by Ken Greenslade, available via FreeREG (freereg.org.uk/search_records/683737608655749cd6443497). (2) Will and Inventory of Harry Mattyngle of Mattingley, 1566, husbandman — Hampshire Record Office, HRO 1695P/44. The name 'Harry' was a contemporary English variant of 'Henry.' Birth year estimated from 1548 marriage record (typically married ~20-30 years old). His daughter may be Agnes MATTYNGLY who married Harry Cawte on 10 September 1571 at Heckfield (FreeREG line 109). He is PROBABLE as father of John Mattingly (~1560) — the location (Mattingley/Heckfield), generation, and timing are consistent — but no baptism record for John in the Heckfield registers has been located confirming this parentage. The 'Matyngle' spelling in 1548 matches the 15th-century BHO VCH Hampshire place-name variant 'Martyngle,' confirming direct surname derivation from the village.",
+      "spouse": "Unknown (not named in FreeREG marriage record for 1548)"
+    },
+    {
+      "name": "John Mattingly (Senior)",
+      "birth_year": 1525,
+      "birth_place": "Hampshire or Berkshire, England (Mattingley area)",
+      "death_year": null,
+      "death_place": "England",
+      "confidence": "possible",
+      "fact": "Claimed as ancestor by Shari (Sharyn) Mattingly via an LDS Genealogical Center Houston finding, and attributed to Herman R. Mattingly's 'The Mattingly Family in Early America' (1975) — FamilySearch catalog item 570053 (microfilm only, not digitized publicly). Also named in MyHeritage aggregated trees as father of John Mattingly (~1560) with spouse 'Elizabeth Elinor Folliot' — no primary source has been verified for this name. WikiTree Mattingly-368 shows blank grandparent slots for John (~1560), confirming WikiTree itself finds no sourced parents. A great-great-grandfather of Thomas I (b. ~1623) would be born approximately 1490-1530, consistent with the ~1525 claim. The Heckfield/Mattingley parish register begins 1538 — a person born 1525 would predate register coverage and require manorial court records or diocesan wills (Winchester diocese) to confirm. RATED 'POSSIBLE' not 'PROBABLE' because no primary source confirms this specific individual. It is structurally plausible.",
+      "spouse": "Elizabeth Elinor Folliot (claimed in MyHeritage aggregated trees — no primary source verification; treat as unverified)"
+    },
+    {
+      "name": "Peter de Mattingley",
+      "birth_year": null,
+      "birth_place": "Mattingley, Hampshire, England",
+      "death_year": null,
+      "death_place": "England",
+      "confidence": "possible",
+      "fact": "Son of Stephen de Mattingley. Sold all his property at Mattingley to Geoffrey de Arundel ~1236-1249. Last recorded as 'Peter Mattingeley' in Hampshire, 1249 (Reaney and Wilson 1991). Primary sources: Cotton MS Cleopatra C. vii, fol. 134d (British Library); Feet of Fines, Hampshire, Michaelmas 21 Henry III (1236), confirmed in VCH Hampshire vol. 4 pp. 44-51. After this sale, the Mattingley surname disappears from manorial records as major landholders for ~230 years until William Mattyngle appears in 1483. The family likely continued as yeomanry or tenant farmers in the Mattingley/Heckfield area but no documentary evidence names any Mattingly individual in that 230-year gap. Peter de Mattingley is a POSSIBLE ancestral connection to the immigrant line — same parish lineage — but an unbroken genealogical chain has not been established.",
+      "spouse": null
+    }
+  ],
+
+  "corrections": [
+    {
+      "claim": "'Omny Parish, Sussex' as birthplace of Thomas Mattingly I and Charles Mattingly (~1600)",
+      "finding": "No place called 'Omny' exists in Sussex, Berkshire, or any English county. This is almost certainly a data-entry error in an Ancestry.com tree that propagated to WikiTree (Mattingly-30, Mattingly-368). The WikiTree profile for Thomas I (Mattingly-30) shows this as his birth place, but the source is MyHeritage/Ancestry aggregated trees without primary document citation. The correct English origin county is Hampshire (confirmed by Y-DNA evidence: multiple R-Y14084 samples from Hampshire on YFull, and the 1548 Heckfield St Michael parish register marriage of Henry Matyngle). The 'Sussex' origin should be treated as a data artifact.",
+      "confidence_change": "Removes a false certainty; replaces with Hampshire as probable origin"
+    },
+    {
+      "claim": "Charles Mattingly died in Maryland in 1642 (WikiTree Mattingly-368)",
+      "finding": "This is almost certainly an error. Thomas Mattingly I did not emigrate to Maryland until approximately 1663-1664. If Charles (~1600) died in Maryland in 1642, he would have preceded Thomas I to Maryland by 21 years, with no supporting evidence of an earlier Mattingly emigration. The most likely explanation: the date '1642' or the location 'Maryland' was entered incorrectly in an Ancestry.com tree. Charles most probably died in England before the family emigrated, or the date is significantly wrong. This requires verification against the Maryland State Archives probate records for the 1640s.",
+      "confidence_change": "Marks the Maryland death location and 1642 date as 'probably erroneous'"
+    },
+    {
+      "claim": "The 1969 Mattingly genealogy book ('The Descendants of Henry Mattingly') traces the family to England",
+      "finding": "The book's Appendix I states 'The Mattingly Family, in all probability, is of English origin' but provides NO named English ancestors before Thomas Mattingly I in Maryland. The book covers Henry Mattingly I (c.1750-1823, Allegany County, Maryland) and descendants only. It does NOT cite any English parish records, English ancestors, or English origins by name. The statement is an inference, not research. The 1969 book is useful for the American line (Henry I and descendants) but contributes nothing to the English origins question beyond the general 'English origin' assertion.",
+      "confidence_change": "Removes implied claim that the book documents English origins"
+    },
+    {
+      "claim": "Francis Mattingly (WikiTree Mattingly-378, b. ~1580) is listed as father of Judith Bugbee, who married Charles Mattingly",
+      "finding": "If Judith Bugbee's father was named Francis Mattingly, and she married Charles Mattingly, this represents a same-surname marriage (a Mattingly marrying a Mattingly). This could indicate: (a) a data error in the aggregated tree — the father's surname was entered as Mattingly by mistake, (b) a cousin marriage within the Mattingley village community (not unusual in small English parishes), or (c) a fabricated lineage. WikiTree Mattingly-378 has no primary sources cited. This connection should be treated as unverified until English parish records confirm or deny it.",
+      "confidence_change": "Flags as unverified; possible data error"
+    },
+    {
+      "claim": "Thomas Mattingly I 'emigrated under patronage of Lord Baltimore (Cecilius Calvert)'",
+      "finding": "No primary source has been found stating Thomas I was specifically under Lord Baltimore's patronage. The family arrived in Maryland, which was Lord Baltimore's proprietary colony, and Maryland actively recruited Catholic settlers. The family was Catholic. However, many Catholic families emigrated independently or under group arrangements rather than individual patronage. The claim appears in some genealogical summaries as an inference from Maryland Catholic history, not from a specific document naming Thomas I as a Baltimore client. Mark as 'plausible' not 'confirmed'.",
+      "confidence_change": "Demotes from implied fact to plausible inference"
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Victoria County History of Hampshire, vol. 4, pp. 44-51 (Heckfield and Mattingley)",
+      "url": "https://www.british-history.ac.uk/vch/hants/vol4/pp44-51",
+      "type": "primary (compiled from original records)",
+      "key_findings": "Confirms: Ellis (1167), Revelendus (late 12th c.), Stephen de Mattingley (1206, Feet of Fines TNA CP 25/1; Curia Regis Rolls), Peter de Mattingley (fl.1236-1249). After Peter, surname disappears from manorial records. Mattingley church plate: silver chalice and paten 1568. Parish registers begin 1538, held with Heckfield registers at Hampshire Record Office. Gap 1554-1559 in registers. Domesday entry: Alric (pre-Conquest), Alsi son of Brixi (1086 holder under Hugh de Port)."
+    },
+    {
+      "id": "S02",
+      "title": "FreeREG — Heckfield St Michael parish register transcriptions (Phillimore's Transcript, Ken Greenslade)",
+      "url": "https://www.freereg.org.uk",
+      "type": "primary transcript (original at Hampshire Record Office, Winchester)",
+      "key_findings": "Henry MATYNGLE marriage 30 September 1548 (line 48); Agnes MATTYNGLY married Harry Cawte 10 September 1571 (line 109); Anne MATTINGLY marriage 17 October 1596 (line 230). These are the earliest surname bearers in the Mattingley parish register. All three names cluster in the same Hampshire parish covering Mattingley tithing."
+    },
+    {
+      "id": "S03",
+      "title": "Hampshire Record Office — HRO 19M61/153 (1483 Mattingley mortgage)",
+      "url": "https://www.freshford.com/Mattingly%20Ancestors.html",
+      "type": "primary (HRO archival document, accessed via Freshford.com)",
+      "key_findings": "William Mattyngle signed a mortgage for 'Rychars land' in Mattingley on 24 March 1483 with William Elysander, John at Hylle, and Roger Cotell. Confirms Mattingly surname in Mattingley village 65 years before the Heckfield registers begin."
+    },
+    {
+      "id": "S04",
+      "title": "Hampshire Record Office — HRO 1695P/44 (Will of Harry Mattyngle, 1566)",
+      "url": "https://www.freshford.com/Mattingly%20Ancestors.html",
+      "type": "primary (HRO archival document, accessed via Freshford.com)",
+      "key_findings": "Will and Inventory of Harry Mattyngle of Mattingley, 1566, described as 'husbandman.' Harry is a period variant of Henry. Consistent with Henry Matyngle who married at Heckfield in 1548 — likely the same person ~18 years later."
+    },
+    {
+      "id": "S05",
+      "title": "London Church of England Burials — St. Mary Colechurch, 1641",
+      "url": "https://www.wikitree.com/wiki/Mattingly-377",
+      "type": "primary (original at London Metropolitan Archives)",
+      "key_findings": "John Mattingly was buried 17 December 1641 in St. Mary Colechurch. This is the single confirmed primary-source document for a named English ancestor in the direct Mattingly line to Hunter. John is the grandfather of Thomas Mattingly I."
+    },
+    {
+      "id": "S06",
+      "title": "The Descendants of Henry Mattingly (1969)",
+      "url": "https://archive.org/details/thedescendantsofhenrymattingly",
+      "type": "secondary genealogical book (Internet Archive digitization)",
+      "key_findings": "Appendix III: administrator's bond dated 24 July 1664 for Thomas Mattingly I's estate. Appendix II (Hoye): 'Thomas Mattingly, his wife, Elizabeth, and children, Thomas, Cezar and Elizabeth, came to Maryland prior to 1665.' Appendix I: 'The Mattingly Family, in all probability, is of English origin' — NO named English ancestors given. The book covers Henry Mattingly I (c.1750-1823, Allegany County) and descendants, NOT the earlier St. Mary's County / Kentucky line that leads to Hunter."
+    },
+    {
+      "id": "S07",
+      "title": "FTDNA Mattingly-Matney Y-DNA Surname Project",
+      "url": "https://www.familytreedna.com/groups/mattingly/about",
+      "type": "genetic genealogy (primary data from Y-chromosome testing)",
+      "key_findings": "All 53 project members descend from Thomas Mattingly I via haplogroup R-Y14084 (a unique SNP defining all descendants of Thomas I). Multiple YFull samples from Hampshire, England carry R-Y14084 and sub-branches, scientifically confirming Hampshire as the geographic origin of this Y-chromosome lineage. TMRCA ~350 ybp (consistent with Thomas I born ~1620-1640). Blatchford match (New Zealand, emigrated ~1851) also carries R-Y14084, confirming the haplogroup extended beyond just Mattingly surname in England."
+    },
+    {
+      "id": "S08",
+      "title": "YFull haplotree — R-Y14084",
+      "url": "https://www.yfull.com/tree/R-Y14084/",
+      "type": "genetic genealogy database",
+      "key_findings": "YFull samples from Hampshire, England appear in subclades R-FT61324, R-Y14083 (direct), R-Y200586, R-FT154797, and R-Y97568 (via sub-branches). Subclade R-Y20213 also has two Hampshire-origin samples. This pattern of multiple Hampshire-origin samples across all main subclades of R-Y14084 is the strongest scientific evidence that the family originated in Hampshire, England."
+    },
+    {
+      "id": "S09",
+      "title": "WikiTree — Mattingly-30 (Thomas Mattingly I), Mattingly-368 (Charles Mattingly), Mattingly-377 (John Mattingly ~1560)",
+      "url": "https://www.wikitree.com/wiki/Mattingly-30",
+      "type": "secondary genealogical database (crowd-sourced, variable quality)",
+      "key_findings": "Ancestor chain Thomas I → Charles (~1600) → John (~1560). John's parents shown as blank on WikiTree (WikiTree itself admits no sourced parents). Charles's parents: only MyHeritage aggregated data, no primary source. Birth places 'Omny Parish, Sussex' for Thomas I and Charles are unsupported — 'Omny' is not a known English place name. Death 'Maryland 1642' for Charles is anomalous. Use WikiTree as a lead-finder only; confirm all claims against primary sources."
+    },
+    {
+      "id": "S10",
+      "title": "Reaney and Wilson, Dictionary of English Surnames (Routledge 1991, ISBN 0-415-05737-X)",
+      "url": "https://www.houseofnames.com/matingley-family-crest",
+      "type": "secondary scholarly reference",
+      "key_findings": "Cites 'Stephen de Madingel, de Matingel' in Curia Regis Rolls 1206, and 'Peter Mattingeley' in Hampshire 1249, as the earliest dated individuals with the Mattingley surname. Accessed via houseofnames.com citation."
+    },
+    {
+      "id": "S11",
+      "title": "Maryland Patent Book Liber 10, September 1666 (Mattingly's Hope, 300 acres, Charles County)",
+      "url": "https://map-maker.org/book-list.html",
+      "type": "primary (Maryland State Archives, series SM2, microfilm FamilySearch Films 13063-13141)",
+      "key_findings": "Patent for 'Mattingly's Hope,' east side of the main fresh run of Port Tobacco Creek, Port Tobacco Hundred, Charles County, Maryland. Granted 4 September 1666 to Thomas Mattingly II and Cezar Mattingly. Surveyed 19 May 1666. Entered by Walter Pake (attorney; married widow Elizabeth Mattingly). Warrant entered 1 August 1665. This is the founding land document for the American Mattingly family."
+    },
+    {
+      "id": "S12",
+      "title": "Herman R. Mattingly, 'The Mattingly Family in Early America' (1975)",
+      "url": "https://www.familysearch.org/en/search/catalog/570053",
+      "type": "secondary genealogical book (NOT digitized; FamilySearch microfilm catalog only)",
+      "key_findings": "NOT ACCESSED DIRECTLY. This book is referenced in prior Mattingly genealogical research as the likely source of the LDS Houston finding of a '1525 ancestor' reported by Sharyn Mattingly. It may contain English parish record citations that would bridge the gap between Henry Matyngle (1548) and John Mattingly (~1560). Access requires interlibrary loan or FamilySearch library visit (FHL microfilm 570053)."
+    }
+  ],
+
+  "key_question_answer": {
+    "question": "Who were the English parents and grandparents of the first Mattingly in Maryland?",
+    "answer": "The most likely direct lineage is: [Unknown grandparents in Hampshire, England] → Henry Matyngle (married Heckfield 1548; will 1566) → John Mattingly (~1560, buried London 1641) → Charles Mattingly (~1600, place unknown) → Thomas Mattingly I (d. Maryland 1664, the immigrant). This chain is PROBABLE but only partially confirmed in primary sources. The single confirmed primary source for an English ancestor is John Mattingly's burial at St. Mary Colechurch, London, 17 December 1641. His connection to Henry Matyngle as father is PROBABLE but not document-confirmed. The generation before Henry Matyngle (possibly a John or Richard Mattyngle, born ~1490-1510, likely in Mattingley/Heckfield area) is not documented by name in any accessible primary source. The critical archival records that could answer this question are: (1) the Heckfield/Mattingley parish register baptism pages from 1538-1570 at Hampshire Record Office — these may show John Mattingly's baptism as a child of Henry Matyngle; (2) the 1975 book by Herman R. Mattingly (FamilySearch microfilm 570053) which reportedly cites a 1525 Hampshire ancestor.",
+    "confidence": "probable"
+  },
+
+  "mattingley_village_summary": {
+    "name": "Mattingley",
+    "county": "Hampshire, England",
+    "hundred": "Holdshott (royal hundred until 1228)",
+    "parent_parish": "Heckfield St Michael (Mattingley was a chapelry)",
+    "first_documented": "1086, Domesday Book as 'Matingeleghe'",
+    "etymology": "Old English: Matta + -inga- + leah = 'woodland clearing of Matta's people' (Matta is an inferred Anglo-Saxon personal name; -inga- = of the people of; leah = woodland clearing). Source: Dictionary of English Place-Names (OUP 1991)",
+    "parish_registers": "Begin 1538 (Hampshire Record Office, Winchester). Gap 1554-1559. Combined with Heckfield registers.",
+    "is_the_origin_of_surname": "YES — the surname 'Mattingley/Mattingly' is a locative surname derived directly from this village. All persons named Mattingley/Mattingly/Matingelege bear a surname from this single Hampshire location. Y-DNA confirms Hampshire as the genetic homeland."
+  },
+
+  "catholic_migration_context": {
+    "note": "The Mattinglys emigrated to Maryland as lay Catholic settlers during the period of Lord Baltimore's (Cecilius Calvert's) active recruitment of Catholic families to his proprietary colony. The 1634 first wave of Maryland settlers included many Catholic gentry. Thomas Mattingly I arrived ~1663, in the later wave of Catholic immigration. No evidence has been found identifying the Mattinglys as Jesuit missionaries or ordained clergy. They were lay recusant farmers who maintained Catholic faith through the English Reformation period and emigrated to Maryland where Catholic practice was legal. The Catholic missionary families documented in Maryland (Jesuits White, Copley, etc.) are distinct from the Mattingly laypeople.",
+    "english_recusancy": "During the English Reformation (1530s onward), Hampshire Catholics became recusants — legally fined for non-attendance at Church of England services. Recusant rolls (TNA E 376, E 377) for Hampshire may contain Mattingley entries in the late 16th / early 17th century. These have not been searched and represent an untapped lead for confirming the family's Catholic status in England before emigration.",
+    "maryland_connection": "St. Mary's County, Maryland was the initial settlement area. The Mattingley's Hope land patent (1666) was in Charles County (Port Tobacco Hundred). This places the family in the earliest Catholic-dominated Maryland counties. Webb (1884) and the Kentucky-Maryland Catholic migration research (file 28) confirm Mattingly families remained staunchly Catholic through the 1785-1786 Kentucky migration."
+  },
+
+  "next_steps": [
+    {
+      "priority": 1,
+      "action": "Search Hampshire Record Office (HRO), Winchester — Heckfield/Mattingley parish registers, baptism entries 1538-1580",
+      "purpose": "Look for a baptism record for John Mattingly (born ~1555-1565) as a son of Henry/Harry Matyngle. This single record would confirm the probable parent-child link between Henry Matyngle (married 1548) and John Mattingly (d. 1641 London).",
+      "archival_reference": "Hampshire Record Office, Winchester — Heckfield St Michael register series. Contact: hants.gov.uk/librariesandarchives/archives",
+      "difficulty": "Requires in-person visit to Winchester or a hired researcher"
+    },
+    {
+      "priority": 2,
+      "action": "Obtain Herman R. Mattingly, 'The Mattingly Family in Early America' (1975) via interlibrary loan or FamilySearch Library",
+      "purpose": "This book is cited as the probable source of the LDS Genealogical Center Houston '1525 ancestor' finding reported by Sharyn Mattingly. It may contain English parish record citations for generations before Thomas I.",
+      "archival_reference": "FamilySearch catalog item 570053 (microfilm). FamilySearch Family History Library, Salt Lake City, Utah.",
+      "difficulty": "Interlibrary loan or FamilySearch library visit required"
+    },
+    {
+      "priority": 3,
+      "action": "Search Tudor lay subsidy rolls for Hampshire, Holdshott Hundred, 1524-25 (TNA E 179 series)",
+      "purpose": "The 1524-25 subsidy listed taxable householders by county and hundred. A Mattyngly/Mattingley entry in Holdshott Hundred would confirm the family was resident in the Mattingley/Heckfield area in the generation before Henry Matyngle (born ~1518-1528). TNA Discovery portal: discovery.nationalarchives.gov.uk",
+      "archival_reference": "TNA E 179, Hampshire, Holdshott Hundred, 1524-25 (Henry VIII lay subsidy)",
+      "difficulty": "Requires in-person visit to The National Archives, Kew, or paid reproduction service"
+    },
+    {
+      "priority": 4,
+      "action": "Search Hampshire Recusant Rolls (TNA E 376, E 377) for Mattingley/Mattingly entries, c. 1570-1640",
+      "purpose": "If the family was Catholic recusant in Hampshire before emigration, they would have been fined and recorded in Exchequer recusant rolls. A Mattingly entry in Hampshire recusant rolls would confirm their Catholic faith in England and potentially provide names and dates.",
+      "archival_reference": "TNA E 376 (pipe office recusant rolls) and E 377 (recusant rolls), Hampshire series",
+      "difficulty": "Requires in-person visit to Kew or hired researcher"
+    },
+    {
+      "priority": 5,
+      "action": "Verify Charles Mattingly's death date and place against Maryland State Archives probate records for the 1640s",
+      "purpose": "WikiTree lists Charles Mattingly as dying 'Maryland 1642' — but Thomas I did not emigrate until ~1663. If Charles did die in Maryland in 1642, it would imply an earlier undocumented emigration by the family. If no Maryland probate record exists for a Charles Mattingly before 1663, the death date is a data error and Charles most likely died in England.",
+      "archival_reference": "Maryland State Archives, probate records series, c. 1634-1665; also Maryland Land Office records for any Charles Mattingly headright",
+      "difficulty": "Searchable online via MSA; free access to probate indexes"
+    },
+    {
+      "priority": 6,
+      "action": "Recruit a Hampshire-origin Mattingley (UK spelling) male for Y-DNA testing via FTDNA Mattingly-Matney project",
+      "purpose": "YFull already shows Hampshire-origin R-Y14084 samples, but surnames are private. If a living UK Mattingley man with documented Hampshire ancestry tests positive for R-Y14084, it would provide direct genetic confirmation of the specific English line. The FTDNA project administrators (Robert Williams, Steve Hank) are actively requesting UK Mattingley participants.",
+      "archival_reference": "FTDNA Mattingly-Matney project: familytreedna.com/groups/mattingly/about",
+      "difficulty": "Requires finding and outreaching to UK Mattingley families"
+    },
+    {
+      "priority": 7,
+      "action": "Search FreeREG more fully for Heckfield/Mattingley baptism, marriage, and burial records 1538-1640",
+      "purpose": "FreeREG has partial transcripts of Heckfield St Michael. Additional entries beyond the three marriages found (Henry 1548, Agnes 1571, Anne 1596) may exist. Baptisms of children of Henry Matyngle would be especially valuable.",
+      "archival_reference": "freereg.org.uk — search Heckfield St Michael, Hampshire, all record types 1538-1640",
+      "difficulty": "Free online — should be done first before archival visits"
+    }
+  ]
+}

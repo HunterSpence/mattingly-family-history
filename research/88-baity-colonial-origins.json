@@ -1,0 +1,498 @@
+{
+  "title": "Baity Colonial NC Origins: Deep Research Report",
+  "file": "88-baity-colonial-origins.json",
+  "compiled": "2026-04-27",
+  "researcher": "Clawrence Genealogy Agent (Sonnet 4.6)",
+  "connection_to_hunter": "Baity line connects through Pearl Mae/Paralee Baity -> Ruth Baity -> Leroy Mattingly -> Shari Mattingly -> Hunter Spence's parent -> Hunter",
+  "prior_file": "36-baity-deep-dive.json",
+  "research_scope": "Push the Baity line as far back as possible before ~1700; resolve surname origin; Moravian records; DAR patriot search",
+
+  "summary": "The Baity line in Hunter Spence's family tree is confirmed Scots-Irish, NOT German. The surname derives from the Scots/Border English name Beatty/Beaty, itself from Old English 'Bat(t)', a pet form of Bartholomew. The family migrated: Scottish Borders -> Ulster (County Down, Ireland) -> Pennsylvania (~1750) -> Virginia -> Rowan County, North Carolina (1753+) -> Surry/Yadkin County NC -> Texas.\n\nKey breakthrough this session: George Baity Sr. (b. ~1746-1755, d. 11 Mar 1828, Rowan County NC) is confirmed as the father of William Henry Baity (b. 1771, Rowan County) and David Isom Baity (b. 1782, Rowan County). William Henry's wife was Rachel Allgood (b. ~1754-1756, d. 1828). George Baity Sr. 'appears to have never lived anywhere other than Dutchman's Creek in Rowan County' — placing him as an early Rowan County settler.\n\nGeorge Baity Sr.'s parents remain unproven by primary source, but the compiled genealogical research consensus (Ancestry sharing story, Genealogy.com forum) holds he was likely a grandchild of Ensign Francis Beaty Sr. (b. ~1707 Ireland, d. 1773 Mecklenburg Co. NC), whose children included Thomas (b. 1735), Hugh (b. 1744), James (b. 1741), and others who settled in Rowan County NC. This is 'possible' confidence — not primary-source proven.\n\nThe 1753 land grant to 'Charles Beatty and Thomas Beatty' for 800 acres in newly formed Rowan County almost certainly belongs to a different Beatty branch (the John Beatty 1701-1774/Catawba River/Lincoln County line, or the Francis Sr. Mecklenburg line). Thomas Beatty Captain in the 1st Rowan County Militia Regiment may be this Thomas. No direct proof links Charles or Thomas (1753 grantees) to George Baity Sr.\n\nMoravian church records (Bethabara/Salem) do not appear to include Baity/Beatty family members — they were Baptist, not Moravian. The DAR has documented Thomas Beatty (Lt. Col., Tryon/Lincoln County) as a DAR Patriot Ancestor (A008197), but this is a different Beatty branch from the Rowan/Surry Baity line. No DAR patriot record found for the specific Rowan/Surry Baity cluster.\n\nThe name 'Baity' as a spelling variant appears first in NC land grants in 1842 ('Wilson Baity') and in the Courtney Baptist Cemetery cluster by the 1830s. Before that, records show Batee (1774), Baty (1785), Batey (1787-1800), and Beatty/Beaty (land grants). The spelling shift to 'Baity' is a Southern American phonetic rendering, not a separate German name.",
+
+  "surname_origin": {
+    "verdict": "SCOTS-IRISH / SCOTTISH BORDERS origin — NOT German",
+    "etymology": "Derived from Old English 'Bat(t)', a pet form of Bartholomew, plus suffix '-y' (meaning 'son of'). The name Beaty/Beattie/Beatty was recorded as 'Batie' in Berwick-on-Tweed (Scotland/England border) as early as 1334. Not related to German 'Beitei' or 'Beith'.",
+    "y_dna_haplogroup": "Haplogroup R-BY1127 (also R-Y335134 / R-A430) is extremely common among males with the Beatty/Beattie/Baty surname. Common in Ireland (especially Leinster) and Scotland. Classic Scots-Irish marker.",
+    "spelling_evolution_nc": {
+      "1774": "Batee (Rowan County court record)",
+      "1785": "Batey (deed on Dutchman's Creek)",
+      "1787": "Batey (Rowan County tax list)",
+      "1798": "Baty (Chiquapin Creek deed)",
+      "1800s": "Beatty, Beaty (land grants)",
+      "1842": "Baity (first 'Baity' spelling in NC land grants — Wilson Baity)",
+      "1830s+": "Baity (standard spelling in Yadkin/Courtney Baptist cluster)"
+    },
+    "german_connection": "No evidence. iGenea and SurnameDB both classify Baity as English/Scots-Irish origin. The name's high concentration in NC is due to one extended Scots-Irish family, not German immigrants.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Beatty_(surname)",
+      "https://www.surnamedb.com/Surname/Beatty",
+      "https://www.igenea.com/en/surnames/b/baity",
+      "https://discover.23andme.com/last-name/Beaty",
+      "http://borderreiverheritage.com/beattie/ (Border Reiver Heritage Society)"
+    ],
+    "confidence": "confirmed"
+  },
+
+  "confirmed_ancestors": [
+    {
+      "name": "Isham 'Isom' Baity",
+      "birth_year": 1804,
+      "birth_place": "Surry County (formerly Rowan), North Carolina",
+      "death_year": 1892,
+      "death_place": "Yadkin County, North Carolina",
+      "burial": "Courtney Baptist Church Cemetery, Yadkin County, NC",
+      "confidence": "confirmed",
+      "fact": "Primary source: cemetery transcription at Courtney Baptist Church Cemetery — 'Baity, Isham Isom (b. 19 Oct 1804 - d. 23 Dec 1892)'. Wife Nancy Plowman confirmed by daughter Jennette C. Baity's cemetery entry at Deep Creek Baptist Church Cemetery.",
+      "spouse": "Nancy Plowman",
+      "sources": [
+        "https://www.cemeterycensus.org/nc/yadk/cem049.htm",
+        "https://www.cemeterycensus.org/nc/yadk/cem026.htm"
+      ]
+    },
+    {
+      "name": "Pearl Mae / Paralee Baity (nee Johnson)",
+      "birth_year": 1878,
+      "birth_place": "North Carolina",
+      "death_year": 1969,
+      "death_place": "Bexar County, Texas",
+      "confidence": "confirmed",
+      "fact": "Death index (BeattyProject.org): 'Paralee Johnson Baity, died 12-26-1969, BEXAR, female, widowed'. Hunter's maternal great-great-grandmother.",
+      "spouse": "William Alexander Baity (W. A. Baity)",
+      "sources": [
+        "https://beattyproject.org/wrappers/pages.php?ID=3&aid=147"
+      ]
+    },
+    {
+      "name": "Ruth Baity",
+      "birth_year": 1900,
+      "death_year": 1982,
+      "birth_place": "Texas or North Carolina",
+      "death_place": "Texas",
+      "confidence": "confirmed",
+      "fact": "Daughter of Paralee/Pearl Baity. Married Leroy Teichmuller Mattingly. Mother of Shari Mattingly's father. Direct link from Baity to Mattingly line.",
+      "spouse": "Leroy Teichmuller Mattingly (b. 1898, La Grange TX)",
+      "sources": [
+        "06-full-mattingly-lineage.json (internal repo file)"
+      ]
+    }
+  ],
+
+  "probable_ancestors": [
+    {
+      "name": "William D. Baity",
+      "birth_year": 1830,
+      "birth_place": "Surry/Yadkin County, North Carolina",
+      "death_year": 1894,
+      "death_place": "Yadkin County, North Carolina",
+      "burial": "Courtney Baptist Church Cemetery, Yadkin County, NC",
+      "confidence": "probable",
+      "fact": "Cemetery entry at Courtney Baptist (b. 1830). PeopleLegacy burial index gives 1829-1894 at same cemetery. Probable son of Isham Baity based on cemetery cluster and generation fit. Probable father of William Alexander Baity. Parent-child link to Isham not yet proven by a primary census or deed record.",
+      "spouse": "Unknown",
+      "sources": [
+        "https://www.cemeterycensus.org/nc/yadk/cem049.htm",
+        "https://peoplelegacy.com/burial-records/william/baity/"
+      ]
+    },
+    {
+      "name": "William Alexander Baity (W. A. Baity)",
+      "birth_year": 1850,
+      "birth_place": "Yadkin County, North Carolina",
+      "death_place": "San Antonio, Bexar County, Texas",
+      "confidence": "probable",
+      "fact": "San Antonio builder and developer 1909-1926. Owner of 'Fair Play Home Company' (1909), Highland Terrace developer (1919), 'Blue Ribbon Homes' (1924-1926). Husband of Paralee/Pearl Johnson Baity. Texas newspaper records confirm. NC birth county needs Texas death certificate to confirm.",
+      "spouse": "Paralee 'Pearl' Johnson",
+      "sources": [
+        "https://texashistory.unt.edu/ark:/67531/metapth1692368/m1/7/",
+        "https://texashistory.unt.edu/ark:/67531/metapth430851/m1/15/",
+        "https://texashistory.unt.edu/ark:/67531/metapth1631463/m1/25/"
+      ]
+    },
+    {
+      "name": "William Henry Baity",
+      "birth_year": 1771,
+      "birth_place": "Rowan County, North Carolina",
+      "death_year": 1848,
+      "death_place": "Davie County, North Carolina",
+      "confidence": "probable",
+      "fact": "NEW THIS RESEARCH: WikiTree Baity-20 documents William Henry Baity (1771-1848). Father: George Baity Sr. (27 Nov 1746 - 11 Mar 1828). Mother: Rachel Allgood (abt. 1756-1828). Married Anna 'Nancy' Haddox 20 Mar 1798 in Rowan County. Baptist preacher in Yadkin and Davie County areas. Siblings: David Baity Sr. (also son of George Baity Sr.), Mary (Baity) Cranfill. Children include George Wesley Baity (1831-1900) buried at Courtney Baptist. Connection to Isham Baity generation needs primary-source linking (William Henry is Isham's uncle or older brother — generation fits for uncle if George Sr. is Isham's grandfather). NOTE: This branch may be a collateral line to Isham, not direct ancestor — generation math needs verification.",
+      "spouse": "Anna 'Nancy' Haddox (m. 1798); Mary Binkley (m. 1829)",
+      "sources": [
+        "https://www.wikitree.com/wiki/Baity-20",
+        "https://www.wikitree.com/wiki/Baity-37"
+      ]
+    },
+    {
+      "name": "George Baity Sr.",
+      "birth_year": 1746,
+      "birth_year_note": "WikiTree gives 27 Nov 1746; one Ancestry-compiled source gives b. 1755 in Yadkin NC — date uncertain, two different compiled sources, no primary record for birth year confirmed",
+      "birth_place": "Probable: Pennsylvania or Virginia (pre-NC settlement); settled Rowan County NC",
+      "death_year": 1828,
+      "death_date": "11 Mar 1828",
+      "death_place": "Rowan County, North Carolina",
+      "confidence": "probable",
+      "fact": "NEW THIS RESEARCH: WikiTree Baity-20 lists George Baity Sr. (27 Nov 1746 - 11 Mar 1828) as father of William Henry Baity. Find a Grave and Ancestry compiled sources confirm 'George C. Baity died 11 Mar 1828 in Rowan, NC.' David Isom Baity (1782-1854, Davie County NC) is also documented as son of George Baity. George 'appears to have never lived anywhere other than Dutchman's Creek in Rowan County.' Paid Rowan County taxes 1787. Land on Chiquapin Creek purchased 1798. Wife: Rachel Allgood (FamilySearch PID L4SG-7MF, b. ~1754-1756, d. 1828). George's parents are NOT primary-source confirmed — see 'possible_ancestors' below.",
+      "spouse": "Rachel Allgood (b. abt. 1754-1756, d. 1828)",
+      "children_documented": [
+        "William Henry Baity (1771-1848)",
+        "David Isom Baity (1782-1854)",
+        "Mary (Baity) Cranfill (dates unknown)",
+        "George Baity Jr. (b. 7 Oct 1796/1797, d. 1847, married Rebecca Allgood)"
+      ],
+      "sources": [
+        "https://www.wikitree.com/wiki/Baity-20",
+        "https://www.findagrave.com/memorial/24992971/george-baity",
+        "https://www.findagrave.com/memorial/202953407/david-isom-baity",
+        "https://ancestors.familysearch.org/en/L4SG-7MF/rachel-allgood-1754-1828",
+        "https://www.ancestry.com/sharing/21081190?h=af0454 (compiled story, originals not confirmed)"
+      ]
+    }
+  ],
+
+  "possible_ancestors": [
+    {
+      "name": "Thomas Beaty (father of George Baity Sr.) — HYPOTHESIS",
+      "birth_year": 1710,
+      "birth_place": "County Down, Ireland",
+      "death_year": 1770,
+      "death_place": "Ireland or colonial America",
+      "confidence": "possible",
+      "fact": "WikiTree Beaty-36 documents Thomas Beaty (1710-1770) of County Down, Ireland as father of John Beaty Sr. (abt. 1725-1806). One Ancestry-compiled source states 'George C Baity's father was Thomas and his mother was Anne.' This Thomas may be the same Thomas Beaty of County Down — but this is NOT proven. Multiple 'Thomas Beaty' individuals exist in this generation (one in County Down, one as Thomas Beatty 1731 son of John Beatty the Pioneer, one as Thomas b. 1735 son of Francis Beaty Sr. Mecklenburg). The identification of which Thomas is George Baity's father is unresolved.",
+      "spouse": "Anne (surname unknown)",
+      "sources": [
+        "https://www.wikitree.com/wiki/Beaty-36 (Thomas Beaty 1710-1770 of County Down — parent of John Beaty Sr.)",
+        "https://www.ancestry.com/sharing/21081190?h=af0454 (compiled claim: 'father was Thomas, mother was Anne')"
+      ]
+    },
+    {
+      "name": "Ensign Francis Beaty Sr. (possible great-grandfather of George Baity Sr.)",
+      "birth_year": 1707,
+      "birth_place": "Ireland (possibly Province of Maryland per some sources)",
+      "death_year": 1773,
+      "death_place": "Mecklenburg County, North Carolina",
+      "confidence": "possible",
+      "fact": "Francis Beaty Sr. (WikiTree Beaty-282, b. abt. 1715; another source gives b. abt. 1707 Ireland, d. 1773 Mecklenburg NC) settled in Rowan County NC area by 1759 (Rowan tax census) and in Mecklenburg by 1768. His children include Thomas (b. 1735), Hugh (b. 1744), James (b. 1741), Robert (b. 1743), Wallace (b. 1747), Francis Jr. (b. 1748). The genealogical consensus in the Ancestry sharing story is that George Baity Sr. was 'one of Francis Beaty's grandchildren — brothers Francis and John Beaty came to NC from Ireland via Pennsylvania and Virginia in the early 1700s, and some of Francis's children settled in Rowan County.' If this is correct, George (b. ~1746) could be a son of Thomas Beaty (b. 1735) or Hugh Beaty (b. 1744) — but this is speculative. The 1772 Rowan County deed shows Francis Beaty selling land there. The 1762-1765 Rowan/Anson deed cluster mentions Francis Beatey, Thomas Beatey, Hugh Beatey, James Beatey as witnesses — this is the family in the Rowan corridor at exactly the right time.",
+      "spouse": "Martha (Mitchell) Beaty (b. 1711 Donegal, Lancaster Co. PA; d. before 1773 NC)",
+      "children_with_nc_presence": [
+        "Thomas Beaty (b. 1735 Lancaster PA) — witness to Rowan/Anson deeds 1762-1765",
+        "Hugh Beaty (b. 1744 NC) — witness to Rowan/Anson deeds 1762-1765",
+        "James Beaty (b. 1741 Augusta VA) — witness to Rowan/Anson deeds 1762-1765",
+        "Francis Beaty Jr. (b. 1748 Staunton VA) — in Rowan County 1759 tax census"
+      ],
+      "sources": [
+        "https://www.wikitree.com/wiki/Beaty-282",
+        "http://sherrysharp.com/genealogy/getperson.php?personID=I49629&tree=Roots",
+        "https://www.werelate.org/wiki/Person:Francis_Beatty_(5)",
+        "https://www.ancestry.com/sharing/21081190?h=af0454 (compiled genealogy)"
+      ]
+    },
+    {
+      "name": "John Beaty Sr. (collateral line — NOT direct ancestor, but important context)",
+      "birth_year": 1725,
+      "birth_place": "County Down, Ulster Province, Ireland",
+      "death_year": 1806,
+      "death_place": "Washington County, Virginia",
+      "confidence": "possible",
+      "fact": "John Beaty Sr. (WikiTree Beaty-36) immigrated from County Down, Ireland to Pennsylvania ~1750. His parents were Thomas Beaty (1710-1770) and Mary Catherine Beatty. Married Margaret Montgomery 1751 in Somerset, PA. Per 1790 census: Mecklenburg NC; per 1800 census: Salisbury, Rowan County NC. His children include George W. Beaty (b. 1775 SC), James Beaty (Rev. War veteran, Charlotte NC), Andrew Beaty (Rev. War veteran). This is the Beaty-36 WikiTree family — NOT confirmed as George Baity Sr.'s father, but part of the same extended Scots-Irish Beaty network in the Rowan County corridor. The shared parents (Thomas Beaty of County Down) suggest George Baity Sr. may be a nephew of John Beaty Sr., but this is unproven.",
+      "spouse": "Margaret (Montgomery) Beaty",
+      "sources": [
+        "https://www.wikitree.com/wiki/Beaty-36"
+      ]
+    },
+    {
+      "name": "Charles Beatty (1753 NC land grantee — possible collateral ancestor)",
+      "birth_year": null,
+      "birth_year_note": "adult by 1753; if arrived PA 1729 per Filby, born c. 1700-1715",
+      "birth_place": "POSSIBLE: County Down or County Tyrone, Ulster, Ireland -> Pennsylvania c. 1729",
+      "confidence": "possible",
+      "fact": "NC Land Grant 1753: 'Charles Beatty and Thomas Beatty' received 800 acres in newly formed Rowan County. This is the EARLIEST documented Beatty in Rowan County. The HouseOfNames immigration record (citing Filby PILI) lists 'Charles Beatty arrived Pennsylvania 1729.' This Charles may be a brother or cousin of Francis Beaty Sr. He appears as a witness to the 1762 Francis Beatey deed in Anson/Rowan County. Thomas Beatty Captain (1st Rowan County Regiment) may be the Thomas from this 1753 grant. Direct genealogical link to George Baity Sr. is inferred from geography and surname only — not proven.",
+      "sources": [
+        "https://nclandgrants.com/quick/",
+        "https://www.houseofnames.com/beatty-family-crest (citing Filby PILI 1982-1985)",
+        "https://www.carolana.com/NC/Revolution/nc_rowan_county_regiment.html (Thomas Beatty Captain, 1st Rowan Regiment)"
+      ]
+    }
+  ],
+
+  "migration_corridor": {
+    "description": "Scots-Irish Beaty/Baity migration from Scotland to Ulster to colonial America to NC",
+    "path": [
+      {
+        "period": "pre-1610",
+        "place": "Scottish Borders (Roxburghshire, Dumfriesshire, Northumberland)",
+        "context": "Beatty/Beattie surname documented in Berwick-on-Tweed (1334) as 'Batie'. Border Reiver clan territory.",
+        "confidence": "confirmed"
+      },
+      {
+        "period": "1610-1660",
+        "place": "Scottish Borders -> Ulster (County Down, County Tyrone)",
+        "context": "Plantation of Ulster — Scots settlers receive land in County Down, Ards Peninsula, Strangford Lough area. Thomas Beaty documented in County Down by 1710.",
+        "confidence": "confirmed"
+      },
+      {
+        "period": "1718-1750",
+        "place": "Ulster (County Down) -> Pennsylvania",
+        "context": "Mass Scots-Irish emigration via Londonderry/Belfast to Philadelphia. Charles Beatty arrived Pennsylvania 1729 per Filby. John Beaty Sr. arrived ~1750. Francis Beaty Sr. in Lancaster/Chester County PA by 1730.",
+        "confidence": "confirmed"
+      },
+      {
+        "period": "1730s-1753",
+        "place": "Pennsylvania -> Virginia (Shenandoah/Augusta Co.) -> North Carolina",
+        "context": "Great Wagon Road migration. Francis Beaty Sr. documented in Augusta Co. VA before NC. Charles and Thomas Beatty received 800-acre grant in Rowan County NC in 1753 — first year of county's existence.",
+        "confidence": "confirmed"
+      },
+      {
+        "period": "1753-1785",
+        "place": "Rowan County, North Carolina (Dutchman's Creek, Chiquapin Creek area)",
+        "context": "George Baity Sr. (b. ~1746-1755) settles permanently at Dutchman's Creek, Rowan County. Never documented living elsewhere. First court record (as George Beate) in Rowan Inferior Court 6 May 1774. Pays Rowan taxes 1787. Land deed 1785 (124 acres on Dutchman's Creek) and 1798 (300 acres on Chiquapin Creek).",
+        "confidence": "confirmed"
+      },
+      {
+        "period": "1771+",
+        "place": "Rowan County -> Surry County NC",
+        "context": "Surry County split from Rowan 1771. George Baity in Surry County by 1800 census. William Henry Baity (son, b. 1771) moves to Davie County area.",
+        "confidence": "confirmed"
+      },
+      {
+        "period": "1800-1851",
+        "place": "Surry/Yadkin County corridor (Yadkin County formed 1851 from Surry)",
+        "context": "Isham 'Isom' Baity (b. 1804) in Yadkin County by adulthood. Entire Baity cluster at Courtney Baptist Church and Deep Creek Baptist Church in Yadkin County by mid-1800s.",
+        "confidence": "confirmed"
+      },
+      {
+        "period": "1850s-1900s",
+        "place": "Yadkin County NC -> Texas",
+        "context": "William Alexander Baity migrates to Texas. Pearl/Paralee Johnson (wife) comes from NC to TX as a child per oral history. Established in San Antonio by 1909.",
+        "confidence": "probable"
+      }
+    ]
+  },
+
+  "moravian_church_records": {
+    "finding": "No Baity or Beatty families appear in the Moravian church records of the Wachovia settlement (Bethabara, Bethania, Salem). The Baity family was Baptist, not Moravian. The Moravians were predominantly German-speaking and kept their community distinct from the surrounding Scots-Irish Baptist settlers in Rowan/Surry/Forsyth counties.",
+    "nearest_moravian_settlement": "Bethabara (founded 1753, ~15 miles from the Rowan County Baity cluster)",
+    "recommended_records": "The 11-volume 'Records of the Moravians in North Carolina' (1752-1879) covers adjacent geography but the Baity/Beatty surname is not expected to appear. Courtney Baptist Church (Yadkin County) and Deep Creek Baptist Church (Yadkin County) are the primary church records for this family.",
+    "sources": [
+      "https://moravianarchives.org/congregations/bethabara-moravian-church/",
+      "https://archive.org/details/recordsofthemora01frie"
+    ]
+  },
+
+  "dar_revolutionary_war": {
+    "finding": "No DAR patriot record found for the Rowan/Surry Baity cluster specifically. The name 'George Baity' does not appear in the Surry County Regiment of Militia roster. Thomas Beatty (the Lincoln County branch) is a confirmed DAR Patriot (A008197, Lt. Colonel, Tryon County Regiment) but is a different family.",
+    "related_rev_war_service": [
+      {
+        "name": "James Beaty (son of John Beaty Sr.)",
+        "service": "Entered military service late 1775 at Charlotte, Mecklenburg County NC; served throughout the war",
+        "pension": "S2988 or S2990 (Southern Campaigns database)",
+        "connection": "Collateral Beaty line — same Scots-Irish network but not direct Baity ancestor"
+      },
+      {
+        "name": "Andrew Beaty (son of John Beaty Sr.)",
+        "service": "Enlisted spring 1777 Washington County VA; fought at Battle of Kings Mountain 1780",
+        "pension": "S2989 (Southern Campaigns database)",
+        "connection": "Collateral Beaty line"
+      },
+      {
+        "name": "David Beatty / George Beatty",
+        "pension_numbers": "David: W4894; George: W2909",
+        "notes": "Southern Campaigns database shows both David Beatty and George Beatty with pension records. The George Beatty W2909 may be relevant — could be George Baity Sr. if he served. Pension application is a PDF and could not be read in this research session.",
+        "connection": "Possible — George Baity Sr. would have been military age during the Revolution (b. ~1746-1755, approx. 20-30 years old in 1776)"
+      }
+    ],
+    "recommendation": "Check Southern Campaigns pension W2909 (George Beatty) at revwarapps.org for state and county of service. If from Rowan/Surry NC, this could be George Baity Sr. Also check DAR GRS (services.dar.org) for any NC Baity or Beaty patriot applications.",
+    "sources": [
+      "https://revwarapps.org/ (George Beatty W2909, David Beatty W4894)",
+      "https://www.carolana.com/NC/Revolution/nc_surry_county_regiment.html (no Baity in Surry regiment)",
+      "https://www.carolana.com/NC/Revolution/nc_rowan_county_regiment.html (Thomas Beatty Captain, 1st Rowan Regiment)"
+    ]
+  },
+
+  "nc_land_grants_consolidated": {
+    "source": "https://nclandgrants.com/quick/",
+    "note": "NC Land Grant database (confirmed primary source)",
+    "grants": [
+      {"grantee": "Charles Beatty and Thomas Beatty", "acres": 800, "year": 1753, "county": "Rowan", "notes": "EARLIEST Beatty in Rowan County — first year of county's existence"},
+      {"grantee": "Francis Beatty", "acres": 481, "year": 1759, "county": "Rowan", "notes": "Possibly Francis Beaty Sr. — matches 1759 Rowan tax census entry"},
+      {"grantee": "William Beatty", "grants": 5, "acres": 1164, "year": 1789, "county": "NC", "notes": "5 grants — likely same family cluster"},
+      {"grantee": "James Beatty", "acres": 33, "year": 1800},
+      {"grantee": "John D. Beatty", "acres": 50, "year": 1829},
+      {"grantee": "Wm A. Beatty", "acres": 320, "year": 1832, "notes": "Initials match William Alexander Baity (Pearl's husband's father)"},
+      {"grantee": "Wilson Baity", "acres": 29, "year": 1842, "notes": "FIRST 'Baity' spelling in NC land grants database"}
+    ]
+  },
+
+  "family_intermarriages": {
+    "note": "The Baity and Allgood families intermarried at least twice in two generations, suggesting geographic proximity in Rowan/Davie/Yadkin County area",
+    "marriages": [
+      {"parties": "George Baity Sr. + Rachel Allgood", "circa": "before 1771", "location": "Rowan County NC"},
+      {"parties": "George Baity Jr. (son of George Sr.) + Rebecca Allgood", "circa": "pre-1830", "location": "Rowan County NC"}
+    ]
+  },
+
+  "corrections": [
+    {
+      "prior_finding": "Prior file (36-baity-deep-dive.json) listed George Baity (B002) with birth c. 1745-1760 and possible wife Rachel Allgood — marked POSSIBLE",
+      "correction": "NEW: George Baity Sr. is now PROBABLE (WikiTree Baity-20, FamilySearch Rachel Allgood profile L4SG-7MF) with birth 27 Nov 1746 (WikiTree) or 1755 (Ancestry compiled — different source). Death 11 Mar 1828, Rowan County NC — confirmed across multiple compiled sources. The David (B003) and George (B002) generations in the prior file are now better understood: George Baity Sr. is the father of William Henry Baity (1771) AND David Isom Baity (1782). Isham 'Isom' Baity (1804, B004) may be a grandson of George Sr. (son of William Henry or David), making George Sr. Isham's grandfather."
+    },
+    {
+      "prior_finding": "Prior file noted 'Possible wife: Rachel Allgood (cited in compiled genealogy; not confirmed by primary source)'",
+      "correction": "Rachel Allgood (b. ~1754-1756, d. 1828) as George Baity Sr.'s wife is now PROBABLE — FamilySearch has an indexed record (L4SG-7MF) and multiple compiled genealogies agree."
+    },
+    {
+      "prior_finding": "1753 grantees Charles and Thomas Beatty were suggested as probable family founders",
+      "correction": "These remain POSSIBLE but are likely from a different Beatty branch (Catawba River/Lincoln County line associated with John Beatty Pioneer 1701-1774, or the Francis Sr. Mecklenburg line). The 1753 Thomas Beatty who appears as Captain in the 1st Rowan County Regiment is a different Thomas than any direct Baity ancestor of Hunter's line."
+    },
+    {
+      "prior_finding": "Surname possibly German ('Beitei/Beith')",
+      "correction": "DEFINITIVELY SCOTS-IRISH. No German origin. Y-DNA haplogroup R-BY1127 common in Ireland and Scotland. Etymology from Old English 'Bat(t)' (Bartholomew pet form). Name recorded on Scottish Borders from 1334. No German connection."
+    },
+    {
+      "prior_finding": "Generation chain: George -> David -> Isham",
+      "correction": "More likely: George Baity Sr. (b. ~1746/1755) -> William Henry Baity (b. 1771) or David Isom Baity (b. 1782) -> Isham 'Isom' Baity (b. 1804). If David Isom Baity (1782) fathered Isham (1804), the math works (David age ~22 at Isham's birth). Alternatively, William Henry Baity (b. 1771, died 1848) is a Baptist preacher whose children are documented and do not appear to include Isham — suggesting David Isom Baity (1782-1854) is more likely Isham's father, as the ages fit better. This needs a primary census record to confirm."
+    }
+  ],
+
+  "generation_map": {
+    "note": "Best current hypothesis for the Baity direct ancestral line to Hunter Spence",
+    "generations": [
+      {"gen_from_hunter": 9, "name": "Thomas Beaty (of County Down, Ireland)", "dates": "1710-1770", "confidence": "possible", "note": "Father of John Beaty Sr. (Beaty-36). May be George Baity Sr.'s grandfather via a son named Thomas"},
+      {"gen_from_hunter": 8, "name": "Francis Beaty Sr. OR Thomas Beaty (son of Francis Sr.)", "dates": "Francis: abt. 1707-1773; Thomas b. 1735", "confidence": "possible", "note": "Francis Sr. settled Rowan County NC area 1759+. His son Thomas (b. 1735) was in Rowan/Anson deeds 1762-1765. Hypothesis: Thomas Beaty (b. 1735, son of Francis Sr.) is George Baity Sr.'s father"},
+      {"gen_from_hunter": 7, "name": "George Baity Sr.", "dates": "b. abt. 1746-1755, d. 11 Mar 1828", "confidence": "probable", "note": "Rowan County NC. Wife: Rachel Allgood. Father of William Henry Baity (1771) and David Isom Baity (1782)"},
+      {"gen_from_hunter": 6, "name": "David Isom Baity", "dates": "b. ~1782, d. 1854", "confidence": "probable", "note": "Son of George Baity Sr. Married Sarah Hendricks 1798. Buried Hendricks Family Cemetery, Davie County NC. Likely father of Isham 'Isom' Baity (1804)"},
+      {"gen_from_hunter": 5, "name": "Isham 'Isom' Baity", "dates": "19 Oct 1804 - 23 Dec 1892", "confidence": "confirmed", "note": "Courtney Baptist Cemetery primary source. Wife: Nancy Plowman"},
+      {"gen_from_hunter": 4, "name": "William D. Baity", "dates": "b. 1830", "confidence": "probable", "note": "Probable son of Isham. Same cemetery. Probable father of William Alexander Baity"},
+      {"gen_from_hunter": 3, "name": "William Alexander Baity (W. A. Baity)", "dates": "b. ~1850s NC, d. San Antonio TX", "confidence": "probable", "note": "Texas builder/developer. Husband of Pearl/Paralee Baity"},
+      {"gen_from_hunter": 2, "name": "Pearl Mae / Paralee Baity (nee Johnson)", "dates": "26 Jul 1878 - 26 Dec 1969", "confidence": "confirmed", "note": "Hunter's maternal great-great-grandmother"},
+      {"gen_from_hunter": 1, "name": "Ruth Baity", "dates": "b. ~1900, d. 1982", "confidence": "confirmed", "note": "Married Leroy Teichmuller Mattingly"}
+    ]
+  },
+
+  "sources": [
+    {
+      "url": "https://www.wikitree.com/wiki/Baity-20",
+      "description": "WikiTree: William Henry Baity (1771-1848) — lists George Baity Sr. as father, Rachel Allgood as mother",
+      "reliability": "secondary (compiled)"
+    },
+    {
+      "url": "https://www.wikitree.com/wiki/Baity-37",
+      "description": "WikiTree: George Wesley Baity (1831-1900) — lists William Henry Baity (1771-1848) as father, Mary Binkley as mother",
+      "reliability": "secondary (compiled)"
+    },
+    {
+      "url": "https://www.findagrave.com/memorial/202953407/david-isom-baity",
+      "description": "Find a Grave: David Isom Baity (1782-1854) — son of George Baity; married Sarah Hendricks 1798; buried Hendricks Family Cemetery, Davie County NC",
+      "reliability": "secondary (cemetery record)"
+    },
+    {
+      "url": "https://ancestors.familysearch.org/en/L4SG-7MF/rachel-allgood-1754-1828",
+      "description": "FamilySearch: Rachel Allgood (1754-1828) — George Baity Sr.'s wife",
+      "reliability": "secondary (indexed record)"
+    },
+    {
+      "url": "https://www.wikitree.com/wiki/Beaty-282",
+      "description": "WikiTree: Francis Beaty (abt.1715-abt.1774) — possible great-grandfather of George Baity Sr. via Mecklenburg/Rowan NC; wife Martha Mitchell; children include Thomas (1735), Hugh (1744), James (1741), Wallace (1747)",
+      "reliability": "secondary (compiled)"
+    },
+    {
+      "url": "https://www.wikitree.com/wiki/Beaty-36",
+      "description": "WikiTree: John Beaty Sr. (abt.1725-1806) of County Down Ireland — immigrated PA ~1750; father Thomas Beaty (1710-1770 County Down); collateral Beaty line with NC presence (Mecklenburg/Rowan/Salisbury 1790-1800)",
+      "reliability": "secondary (compiled)"
+    },
+    {
+      "url": "http://sherrysharp.com/genealogy/getperson.php?personID=I49629&tree=Roots",
+      "description": "Ensign Francis Beatty Sr. (b. ~1707 Ireland, d. 1773 Mecklenburg NC) — parents Arthur Beatty (b. 1673 Killeshandra, Ireland) and Martha Cairnes; wife Martha Mitchell; 9 children; settled Beverley Manor Augusta VA then Mecklenburg NC",
+      "reliability": "secondary (compiled genealogy)"
+    },
+    {
+      "url": "https://www.cemeterycensus.org/nc/yadk/cem049.htm",
+      "description": "PRIMARY SOURCE: Courtney Baptist Church Cemetery, Yadkin County NC — full Baity burial list including Isham (1804-1892), William D (b. 1830), and 26 other Baity burials",
+      "reliability": "primary (transcription of physical marker)"
+    },
+    {
+      "url": "https://www.cemeterycensus.org/nc/yadk/cem026.htm",
+      "description": "PRIMARY SOURCE: Deep Creek Baptist Church Cemetery, Yadkin County NC — Jennette C. Baity Hutchens entry confirms 'daughter of Isham Baity and Nancy Plowman'",
+      "reliability": "primary (transcription of physical marker)"
+    },
+    {
+      "url": "https://nclandgrants.com/quick/",
+      "description": "NC Land Grants database — confirmed grants for Beatty surname 1753-1842; first Baity spelling 1842",
+      "reliability": "primary (state land office records)"
+    },
+    {
+      "url": "https://revwarapps.org/",
+      "description": "Southern Campaigns Revolutionary War Pension Applications — George Beatty W2909, David Beatty W4894, James Beaty S2988/S2990, Andrew Beaty S2989",
+      "reliability": "primary (federal pension records)"
+    },
+    {
+      "url": "https://beattyproject.org/wrappers/pages.php?ID=3&aid=147",
+      "description": "BeattyProject.org death index — Paralee Johnson Baity death record, Bexar County TX 1969",
+      "reliability": "secondary (aggregated death records)"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Beatty_(surname)",
+      "description": "Wikipedia: Beatty surname etymology — derived from Old English Bat(t) / Bartholomew; Scottish Borders origin; Y-DNA haplogroup R-BY1127",
+      "reliability": "tertiary (encyclopedia)"
+    },
+    {
+      "url": "http://borderreiverheritage.com/beattie/",
+      "description": "Border Reiver Heritage Society: Beattie/Beatty as Scottish Border clan name; recorded 1334 in Berwick-on-Tweed",
+      "reliability": "secondary (clan society)"
+    },
+    {
+      "url": "https://history.loftinnc.com/Beatty.htm",
+      "description": "Loftin NC Family History: Beatty family — John Beatty (1701-1773), Thomas Beatty (1731-1787), Lincoln/Catawba County line; different branch from Rowan/Surry Baity",
+      "reliability": "secondary (family history)"
+    }
+  ],
+
+  "next_steps": [
+    {
+      "priority": 1,
+      "action": "Southern Campaigns pension W2909 (George Beatty)",
+      "detail": "Download and read pension application W2909 at revwarapps.org. Check state and county of service. If North Carolina Rowan/Surry County, this is almost certainly George Baity Sr. and would prove: (1) Revolutionary War service, (2) county of residence, (3) possible family members named in application.",
+      "archive": "https://revwarapps.org/w2909.pdf"
+    },
+    {
+      "priority": 2,
+      "action": "NC State Archives: Rowan County deeds 1774-1800 for George Baity/Batee/Baty",
+      "detail": "The Ancestry sharing story references specific deeds: 1785 Bond (George Batee, 124 acres Dutchman's Creek), 1798 deed (Thomas Horn to George Baty, 300 acres Chiquapin Creek). Verify these originals at NCDCR (North Carolina Digital Collections) or NC State Archives. The deed would confirm George's age, neighbors, and possibly mention a father.",
+      "archive": "https://digital.ncdcr.gov/ (Secretary of State Land Records; Rowan County Deeds)"
+    },
+    {
+      "priority": 3,
+      "action": "Confirm David Isom Baity -> Isham Baity parent-child link",
+      "detail": "David Isom Baity (1782-1854) is documented as son of George Baity Sr. If David is Isham's father, the 1810 or 1820 Surry/Davie County census should show David Baity with a son born ~1804 in his household. Check FamilySearch 1810/1820 census images for David Baity in Davie or Surry County.",
+      "archive": "FamilySearch.org: 1810 and 1820 NC Federal Census, Davie County / Surry County"
+    },
+    {
+      "priority": 4,
+      "action": "Rowan County 1778 Tax List — search for Beatty/Baity surnames",
+      "detail": "FamilySearch holds a transcribed 1778 Rowan County tax list. Search for all Beatty/Beaty/Batey entries. George Baity Sr. should appear if he was a taxable adult by 1778 (which he was — Rowan tax record 1787 confirmed). An earlier 1778 appearance would strengthen his Rowan County identity.",
+      "archive": "https://www.familysearch.org/library/books/records/item/22840-list-of-taxable-property-in-the-county-of-rowan-north-carolina-anno-1778"
+    },
+    {
+      "priority": 5,
+      "action": "Verify Francis Beaty Sr.'s son Thomas (b. 1735) as George Baity Sr.'s father",
+      "detail": "Thomas Beaty (b. 1735, son of Francis Sr.) appears in Rowan/Anson County deeds 1762-1765 and served as an executor of Francis Sr.'s estate (1774 deed from Thomas and Hugh Beaty as executors). George Baity Sr. was born ~1746-1755. If Thomas (b. 1735) is his father, George was born when Thomas was ~11-20 years old — tight but possible. Check Francis Sr.'s will (Mecklenburg County probate 1773) for any mention of grandchildren or additional sons. Also check the Rowan County 1762-1765 deed abstracts (Docsouth.unc.edu Colonial Records).",
+      "archive": "https://docsouth.unc.edu/csr/index.php/document/csr05-0362 (NC Colonial Records)"
+    },
+    {
+      "priority": 6,
+      "action": "Check DAR GRS for any Baity or Beaty NC patriot applications",
+      "detail": "The DAR Genealogical Research System (services.dar.org) may have membership applications from descendants of this family that cite a Baity or Beaty patriot ancestor in Rowan/Surry County. This would provide a pre-researched patriot connection.",
+      "archive": "https://services.dar.org/public/dar_research/Search/default.cfm"
+    },
+    {
+      "priority": 7,
+      "action": "William Alexander Baity Texas death certificate",
+      "detail": "A Texas death certificate for W.A. Baity would confirm: NC birth county, parents' names, birth year. Bexar County death records searchable at Texas State Library and Archives Commission (tsl.texas.gov).",
+      "archive": "https://www.tsl.texas.gov/arc/vital/index.html"
+    },
+    {
+      "priority": 8,
+      "action": "Ulster/Scotland pre-1700 origins",
+      "detail": "Arthur Beatty (b. 1673 Killeshandra, County Cavan/Fermanagh, Ireland) is documented as Francis Beaty Sr.'s father (per Sherry Sharp genealogy). This takes the line to ~1640-1673 in Ulster. ScotlandsPeople (scotlandspeople.gov.uk) or PRONI (Belfast) for pre-1700 Beaty records in County Down or Killeshandra area. This is the frontier of free-access genealogy.",
+      "archive": "https://www.scotlandspeople.gov.uk/ (paid) or https://www.nidirect.gov.uk/articles/proni-public-records (PRONI Belfast)"
+    }
+  ]
+}
