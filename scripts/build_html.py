@@ -3788,14 +3788,14 @@ def render_lineage_tree_section(portrait_map=None, family_only=True, redaction_s
 
 
 def render_lineage_tree_js():
-    """Return the D3 tree initialization JS — heritage editorial design v3.
-    New: circular portrait frames, HUGE ? confidence badges,
-    paper-texture fill for portrait-less uncertain nodes.
+    """Return the D3 tree initialization JS — heritage editorial design v4.
+    New: couples shown side-by-side with marriage bar + heart connector,
+    proper branching, bezier connectors, warm gold/indigo archive aesthetic.
     """
     return r"""
-// ── Mattingly Lineage Tree v3 ────────────────────────────────────
-// Portrait frames, confidence ? badges, paper-texture,
-// generation-spine labels, animated entry, zoom+pan.
+// ── Mattingly Lineage Tree v4 ────────────────────────────────────
+// Couples side-by-side, marriage bar ♥, bezier connectors,
+// portrait frames, confidence badges, zoom+pan.
 // ────────────────────────────────────────────────────────────────
 
 // ── Cycle detection — break any circular references before D3 sees the data ──
@@ -3820,14 +3820,18 @@ function breakCycles(node, seen) {
 const lineageData = breakCycles(JSON.parse(document.getElementById('lineage-tree-data').textContent));
 
 // Node card dimensions
-const NW = 220;   // node width
-const NH = 76;    // node height
+const NW = 200;   // node width (slightly narrower for couple layout)
+const NH = 82;    // node height (slightly taller for readability)
 const SPINE = 68; // left margin for generation labels
-const M = { top: 56, right: 56, bottom: 72, left: SPINE + 24 };
+const M = { top: 56, right: 80, bottom: 72, left: SPINE + 24 };
 
-// Node spacing — guaranteed minimum gap between cards regardless of tree size
-const NODE_DX = NW + 32;  // horizontal: card width + 32px gap between siblings
-const NODE_DY = NH + 56;  // vertical: card height + 56px gap between levels
+// Couple layout constants
+const COUPLE_GAP = 18;          // gap between person card right edge and spouse card left edge
+const COUPLE_OFFSET = NW + COUPLE_GAP; // x-offset of spouse card center from person card center
+
+// Node spacing — wide enough for two cards side-by-side + breathing room
+const NODE_DX = NW * 2 + COUPLE_GAP + 60;  // horizontal: two cards + gap + padding
+const NODE_DY = NH + 64;                    // vertical: card height + 64px gap between levels
 
 // Portrait layout constants
 const PORT_R = 26;   // portrait circle radius
@@ -4379,16 +4383,6 @@ cardG.append("text")
   .attr("fill", d => nodeFactColor(d.depth))
   .text(d => truncate(d.data.fact, d.data.portrait_url ? 28 : 38));
 
-// Spouse line — when present
-cardG.filter(d => d.data.spouse).append("text")
-  .attr("x", d => d.data.portrait_url ? (TEXT_X_PORT - NW/2 + PORT_R) : 0)
-  .attr("y", 28)
-  .attr("text-anchor", d => d.data.portrait_url ? "start" : "middle")
-  .attr("font-family", "'Lora', Georgia, serif")
-  .attr("font-size", "9px")
-  .attr("fill", d => nodeFactColor(d.depth))
-  .text(d => "m. " + truncate(d.data.spouse, d.data.portrait_url ? 26 : 36));
-
 // ── Generation badge (top-left diamond) ─────────────────────────
 const badgeX = -NW/2 + 11;
 const badgeY = -NH/2 + 11;
@@ -4435,6 +4429,125 @@ nodeGroups.filter(d => d.data.siblings && d.data.siblings.length > 0)
 
     sg.append("title")
       .text("Siblings: " + d.data.siblings.map(s => `${s.name} (${s.dates})`).join(", "));
+  });
+
+// ── COUPLE RENDERING ─────────────────────────────────────────────
+// For each node that has a spouse, draw a second card to the right
+// connected by a marriage bar with a heart symbol.
+// Spouse string format: "Name (nee ..., YYYY-YYYY)" or "Name, YYYY-YYYY"
+function parseSpouse(spouseStr) {
+  if (!spouseStr) return null;
+  // Try: "Firstname Lastname (nee ..., YYYY-YYYY)"  or  "Name, YYYY-YYYY"
+  const m1 = spouseStr.match(/^([^(,]+?)(?:\s*\(([^)]*)\))?(?:,\s*(.+))?$/);
+  if (!m1) return { name: spouseStr, dates: '' };
+  let name = (m1[1] || '').trim();
+  let inner = (m1[2] || '').trim();
+  let after = (m1[3] || '').trim();
+  // Extract year range from inner or after
+  let dates = '';
+  const yearRe = /(\d{4})\s*[-]\s*(\d{4}|\?)/;
+  const singleYearRe = /\b(\d{4})\b/;
+  const yr = yearRe.test(inner) ? yearRe.exec(inner)
+           : yearRe.test(after) ? yearRe.exec(after)
+           : singleYearRe.test(inner) ? singleYearRe.exec(inner)
+           : singleYearRe.test(after) ? singleYearRe.exec(after) : null;
+  if (yr) dates = yr[0];
+  return { name, dates };
+}
+
+nodeGroups.filter(d => d.data.spouse && d.data.spouse.trim())
+  .each(function(d) {
+    const sg = d3.select(this).select('.node-card');
+    const parsed = parseSpouse(d.data.spouse);
+    if (!parsed) return;
+
+    const sx = COUPLE_OFFSET;
+    const halfGap = COUPLE_GAP / 2;
+
+    // Marriage connector line
+    sg.append('line')
+      .attr('x1', NW/2).attr('y1', 0)
+      .attr('x2', sx - NW/2).attr('y2', 0)
+      .attr('stroke', '#d4a458')
+      .attr('stroke-width', 1.5)
+      .attr('opacity', 0.55)
+      .attr('pointer-events', 'none');
+
+    // Heart symbol at midpoint
+    sg.append('text')
+      .attr('x', NW/2 + halfGap).attr('y', 5)
+      .attr('text-anchor', 'middle')
+      .attr('font-size', '11px')
+      .attr('fill', '#d4a458')
+      .attr('opacity', 0.7)
+      .attr('pointer-events', 'none')
+      .text('♥');
+
+    // Spouse card shadow
+    sg.append('rect')
+      .attr('x', sx - NW/2 + 3).attr('y', -NH/2 + 4)
+      .attr('width', NW).attr('height', NH)
+      .attr('rx', 7).attr('ry', 7)
+      .attr('fill', 'rgba(0,0,0,0.45)')
+      .attr('pointer-events', 'none');
+
+    // Spouse card main rect
+    sg.append('rect')
+      .attr('x', sx - NW/2).attr('y', -NH/2)
+      .attr('width', NW).attr('height', NH)
+      .attr('rx', 7).attr('ry', 7)
+      .attr('fill', nodeFill(d))
+      .attr('opacity', 0.82)
+      .attr('stroke', '#8a6a48')
+      .attr('stroke-width', 1.2)
+      .attr('pointer-events', 'none');
+
+    // Spouse card top highlight
+    sg.append('rect')
+      .attr('x', sx - NW/2 + 2).attr('y', -NH/2 + 1)
+      .attr('width', NW - 4).attr('height', 1)
+      .attr('rx', 1)
+      .attr('fill', 'rgba(255,255,255,0.09)')
+      .attr('pointer-events', 'none');
+
+    // SPOUSE label
+    sg.append('text')
+      .attr('x', sx).attr('y', -NH/2 + 10)
+      .attr('text-anchor', 'middle')
+      .attr('font-family', "'Lora', Georgia, serif")
+      .attr('font-size', '7px')
+      .attr('font-weight', '600')
+      .attr('letter-spacing', '0.14em')
+      .attr('fill', '#a07840')
+      .attr('opacity', 0.75)
+      .attr('pointer-events', 'none')
+      .text('SPOUSE');
+
+    // Spouse name
+    sg.append('text')
+      .attr('x', sx).attr('y', -8)
+      .attr('text-anchor', 'middle')
+      .attr('font-family', "'Cormorant Garamond', 'Lora', Georgia, serif")
+      .attr('font-weight', '700')
+      .attr('font-size', '12px')
+      .attr('letter-spacing', '0.01em')
+      .attr('fill', nodeTextColor(d.depth))
+      .attr('pointer-events', 'none')
+      .text(truncate(parsed.name, 24));
+
+    // Spouse dates
+    if (parsed.dates) {
+      sg.append('text')
+        .attr('x', sx).attr('y', 9)
+        .attr('text-anchor', 'middle')
+        .attr('font-family', "'Source Code Pro', 'Courier New', monospace")
+        .attr('font-size', '10px')
+        .attr('letter-spacing', '0.02em')
+        .attr('fill', nodeDateColor(d.depth))
+        .attr('opacity', 0.85)
+        .attr('pointer-events', 'none')
+        .text(parsed.dates);
+    }
   });
 
 // ── Hover: gold glow only (no scale — SVG scale shifts hit-area causing flicker) ──
@@ -4534,8 +4647,10 @@ function breakCycles(node, seen) {
   }
 
   const controllers = [];
-  const CARD_W = 218;
+  const CARD_W = 200;
   const CARD_H = 84;
+  const COUPLE_CARD_GAP = 18;  // gap between person and spouse card
+  const COUPLE_CARD_OFFSET = CARD_W + COUPLE_CARD_GAP;
   const palette = [
     ['#3a2208', '#281804'],
     ['#4a2b0c', '#332006'],
@@ -4667,7 +4782,7 @@ function breakCycles(node, seen) {
 
     // Use nodeSize for guaranteed non-overlapping layout
     const treeLayout = d3.tree()
-      .nodeSize([CARD_W + 32, CARD_H + 56]);
+      .nodeSize([CARD_W * 2 + COUPLE_CARD_GAP + 60, CARD_H + 64]);
     treeLayout(root);
 
     // Compute actual bounds
@@ -4901,16 +5016,6 @@ function breakCycles(node, seen) {
       .attr('fill', d => nodeFactColor(d))
       .text(d => truncate(d.data.fact, 42));
 
-    card.filter(d => d.data.spouse)
-      .append('text')
-      .attr('x', 0)
-      .attr('y', 29)
-      .attr('text-anchor', 'middle')
-      .attr('font-family', "'Lora', Georgia, serif")
-      .attr('font-size', '8.8px')
-      .attr('fill', d => nodeFactColor(d))
-      .text(d => 'm. ' + truncate(d.data.spouse, 39));
-
     card.append('title')
       .text(d => {
         const bits = [
@@ -4921,6 +5026,98 @@ function breakCycles(node, seen) {
           d.data.fact || '',
         ].filter(Boolean);
         return bits.join('\n');
+      });
+
+    // ── COUPLE RENDERING (secondary trees) ─────────────────────────
+    function parseSpouseStr(spouseStr) {
+      if (!spouseStr) return null;
+      const m1 = spouseStr.match(/^([^(,]+?)(?:\s*\(([^)]*)\))?(?:,\s*(.+))?$/);
+      if (!m1) return { name: spouseStr, dates: '' };
+      let name = (m1[1] || '').trim();
+      let inner = (m1[2] || '').trim();
+      let after = (m1[3] || '').trim();
+      let dates = '';
+      const yearRe = /(\d{4})\s*[-]\s*(\d{4}|\?)/;
+      const singleYearRe = /(\d{4})/;
+      const yr = yearRe.test(inner) ? yearRe.exec(inner)
+               : yearRe.test(after) ? yearRe.exec(after)
+               : singleYearRe.test(inner) ? singleYearRe.exec(inner)
+               : singleYearRe.test(after) ? singleYearRe.exec(after) : null;
+      if (yr) dates = yr[0];
+      return { name, dates };
+    }
+
+    nodeGroups.filter(d => d.data.spouse && d.data.spouse.trim())
+      .each(function(d) {
+        const sg = d3.select(this).select('.node-card');
+        const parsed = parseSpouseStr(d.data.spouse);
+        if (!parsed) return;
+
+        const sx = COUPLE_CARD_OFFSET;
+        const halfGap = COUPLE_CARD_GAP / 2;
+
+        sg.append('line')
+          .attr('x1', CARD_W/2).attr('y1', 0)
+          .attr('x2', sx - CARD_W/2).attr('y2', 0)
+          .attr('stroke', '#d4a458').attr('stroke-width', 1.5)
+          .attr('opacity', 0.55).attr('pointer-events', 'none');
+
+        sg.append('text')
+          .attr('x', CARD_W/2 + halfGap).attr('y', 5)
+          .attr('text-anchor', 'middle')
+          .attr('font-size', '11px')
+          .attr('fill', '#d4a458').attr('opacity', 0.7)
+          .attr('pointer-events', 'none').text('♥');
+
+        sg.append('rect')
+          .attr('x', sx - CARD_W/2 + 3).attr('y', -CARD_H/2 + 4)
+          .attr('width', CARD_W).attr('height', CARD_H)
+          .attr('rx', 7).attr('ry', 7)
+          .attr('fill', 'rgba(0,0,0,0.45)').attr('pointer-events', 'none');
+
+        sg.append('rect')
+          .attr('x', sx - CARD_W/2).attr('y', -CARD_H/2)
+          .attr('width', CARD_W).attr('height', CARD_H)
+          .attr('rx', 7).attr('ry', 7)
+          .attr('fill', nodeFill(defs, prefix, d))
+          .attr('opacity', 0.82)
+          .attr('stroke', '#8a6a48').attr('stroke-width', 1.2)
+          .attr('pointer-events', 'none');
+
+        sg.append('rect')
+          .attr('x', sx - CARD_W/2 + 2).attr('y', -CARD_H/2 + 1)
+          .attr('width', CARD_W - 4).attr('height', 1)
+          .attr('rx', 1)
+          .attr('fill', 'rgba(255,255,255,0.09)').attr('pointer-events', 'none');
+
+        sg.append('text')
+          .attr('x', sx).attr('y', -CARD_H/2 + 10)
+          .attr('text-anchor', 'middle')
+          .attr('font-family', "'Lora', Georgia, serif")
+          .attr('font-size', '7px').attr('font-weight', '600')
+          .attr('letter-spacing', '0.14em')
+          .attr('fill', '#a07840').attr('opacity', 0.75)
+          .attr('pointer-events', 'none').text('SPOUSE');
+
+        sg.append('text')
+          .attr('x', sx).attr('y', -8)
+          .attr('text-anchor', 'middle')
+          .attr('font-family', "'Cormorant Garamond', 'Lora', Georgia, serif")
+          .attr('font-weight', '700').attr('font-size', '12px')
+          .attr('letter-spacing', '0.01em')
+          .attr('fill', nodeTextColor(d))
+          .attr('pointer-events', 'none')
+          .text(truncate(parsed.name, 24));
+
+        if (parsed.dates) {
+          sg.append('text')
+            .attr('x', sx).attr('y', 9)
+            .attr('text-anchor', 'middle')
+            .attr('font-family', "'Source Code Pro', 'Courier New', monospace")
+            .attr('font-size', '10px').attr('letter-spacing', '0.02em')
+            .attr('fill', nodeDateColor(d)).attr('opacity', 0.85)
+            .attr('pointer-events', 'none').text(parsed.dates);
+        }
       });
 
     nodeGroups.on('mouseenter', function() {
