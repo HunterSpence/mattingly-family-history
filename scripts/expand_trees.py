@@ -237,9 +237,9 @@ SPENCE_TREE = N(
                                                                                                                     gen=26, century=19, confidence="possible",
                                                                                                                     children=[N(
                                                                                                                         "Joseph C. Spence",
-                                                                                                                        "born 1878, England — immigrated to America 1900",
+                                                                                                                        "born 1876, England — immigrated to America ~1900",
                                                                                                                         "POSSIBLE. Hunter's paternal great-great-grandfather. "
-                                                                                                                        "Born ~1878 in England (most likely Co. Durham or North "
+                                                                                                                        "Born 1876 in England (most likely Co. Durham or North "
                                                                                                                         "Yorkshire based on surname density); immigrated ~1900. "
                                                                                                                         "Married Jeanne A. Meton (born 1883, France; immigrated "
                                                                                                                         "1898). Had three children: Mary L. Spence, William Spence "
