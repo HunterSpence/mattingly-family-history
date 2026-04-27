@@ -1,0 +1,320 @@
+{
+  "task": "Ward line extended research + Frances Ward connection to Hunter",
+  "date": "2026-04-27",
+  "researcher": "Clawrence genealogy agent",
+
+  "frances_ward_connection": {
+    "summary": "Frances Ward married William Miller Padgett. This is the critical link.",
+    "full_chain_to_hunter": [
+      "Frances Ward (b. Jan 23, 1868, Strawberry, Lawrence County, AR; d. Sep 11, 1945, Smithville, Lawrence County, AR)",
+      "married William Miller Padgett (b. Oct 5, 1862, Independence County, AR; d. Nov 15, 1950, Lee County, AR)",
+      "→ Bertie Jane Padgett (b. Mar 10, 1888, AR; d. Oct 6, 1964, Lee County, AR)",
+      "married Jesse Lawrence Westerfield (b. Jan 1, 1887, KY; d. Sep 29, 1951, Marianna, Lee County, AR)",
+      "→ Iris June Westerfield (b. Jun 1, 1919, Tuckerman, AR; d. Apr 13, 2003, Colt, AR)",
+      "had children with Harold 'Hal David' Ballentine (~1903, KS)",
+      "→ David A. Trifon (b. ~1940s, AR) — took stepfather's surname after Ballentine died ~1945",
+      "→ Rachel Spence (Hunter's mother)",
+      "→ HUNTER SPENCE"
+    ],
+    "frances_ward_parents": "Joseph Ward (b. 1833, TN) + Jane Carolina Raney (b. 1838, AR)",
+    "connection_type": "Frances Ward married INTO the Padgett line — she was NOT born a Padgett. She married William Miller Padgett and became the mother of Bertie Jane Padgett.",
+    "confidence": "confirmed — documented in Frances Padgett GEDCOM (DNA match, 3rd cousin 1x removed) and Walls Doris GEDCOM",
+    "sources": [
+      "Frances Padgett GEDCOM (3rd cousin 1x removed to Hunter, maternal side)",
+      "Walls Doris GEDCOM",
+      "lineage-tree-multi.json (existing database)",
+      "61-cousin-merged-people.json (existing database)"
+    ]
+  },
+
+  "relationship_summary": {
+    "frances_ward_to_hunter": "3x great-grandmother (maternal)",
+    "generation_count_from_hunter": 5,
+    "path": "Hunter → Rachel Trifon (mother) → David Trifon (grandfather) → Iris Westerfield (great-grandmother) → Bertie Jane Padgett (great-great-grandmother) → Frances Ward (mother of Bertie Jane, 3x great-grandmother)"
+  },
+
+  "gaps_addressed": [
+    {
+      "gap": "How Frances Ward connects to Hunter",
+      "resolution": "RESOLVED. Frances Ward married William Miller Padgett (~1886-1888 in AR). Their daughter Bertie Jane Padgett married Jesse Lawrence Westerfield. Jesse and Bertie Jane's daughter Iris Westerfield had David A. Trifon (by Harold Ballentine). David Trifon is Hunter's maternal grandfather.",
+      "confidence": "confirmed"
+    },
+    {
+      "gap": "John Ward (1748 Chowan NC) — who are his parents?",
+      "resolution": "PROBABLE: Father is Michael Ward Sr. (bef.1674–1758), who is documented as son of James Ward (ca.1650, first settler) in Chowan County records. The Tyrrell County will of John Ward (1748/9) names sons Michael, John, David, and daughters Elizabeth Noble and Dorcas Overstreet. This John Ward of Tyrrell County may be our ancestor — Tyrrell County was formed from Chowan County area, explaining the 'Chowan County' attribution. WikiTree data (Ward-4490) confirms John Ward abt 1710–1748 Chowan NC as son of Michael Ward Sr.",
+      "confidence": "probable",
+      "note": "IMPORTANT DISCREPANCY: The current tree says John Ward was born 1748 Chowan. But the Tyrrell County will shows a John Ward writing his will in 1748/9 and dying ~1750, with sons Michael and John, NOT born 1748. This means our John Ward (b.1748) may actually be the SON named in the will — John Ward (son), who received one negro man named Tom per his father's will. This would make our John Ward the son of John Ward Sr. (Tyrrell County), grandson of Michael Ward Sr., and great-grandson of James Ward (ca.1650 Chowan County)."
+    },
+    {
+      "gap": "Thomas S. Ward (1760 Darlington SC) — is he son of John Ward (1748 Chowan NC)?",
+      "resolution": "UNRESOLVED but plausible. The NC→SC migration path via the Pee Dee River corridor is historically well-documented for this period. Darlington County records from 1785-1800 were burned, severely limiting verification. The age math works: if John Ward (b.1748) had Thomas by 1760, Thomas would have been born when John was ~12 — making Thomas more likely born 1770-1785 rather than 1760. PROBABLE CORRECTION: Thomas S. Ward was more likely born ~1775-1785 rather than 1760 if he is John Ward's son.",
+      "confidence": "speculative",
+      "action_needed": "Check Anderson County SC deed records for Thomas Ward + Nancy Crompton circa 1800-1820. John Robert Ward was born 1804 in Pendleton which is in the same area."
+    },
+    {
+      "gap": "English/colonial origins of the Ward line",
+      "resolution": "PROBABLE: The Chowan County Ward line originates with James Ward (ca.1650), documented as living in Chowan County, NC by 1694/95 (in probate records for Richard Stibell). A possible English connection: Richard Ward of Henrico County, Virginia (will 1682) had son Edward Ward who moved to North Carolina by 1708. However, the James Ward (ca.1650) in Chowan may be a distinct immigrant. A 1674 will of Richard Bennett of Nancemond County VA mentions Michael Ward as a beneficiary — this Michael Ward is likely the father of the Chowan Ward line, suggesting VA→NC migration rather than direct England→NC. The Ward surname is English occupational (warden/guardian), originating primarily from Yorkshire/Derbyshire.",
+      "confidence": "probable"
+    }
+  ],
+
+  "new_ancestors_confirmed": [
+    {
+      "name": "Frances Ward",
+      "dates": "born Jan 23, 1868, Strawberry, Lawrence County, Arkansas; died Sep 11, 1945, Smithville, Lawrence County, Arkansas",
+      "relationship_to_hunter": "3x great-grandmother (maternal, Ward-Padgett line)",
+      "parents": "Joseph Ward (b.1833 TN) + Jane Carolina Raney (b.1838 AR)",
+      "married": "William Miller Padgett (b. Oct 5, 1862, Independence County, AR)",
+      "source": "Frances Padgett GEDCOM, Walls Doris GEDCOM",
+      "confidence": "confirmed"
+    }
+  ],
+
+  "new_ancestors_probable": [
+    {
+      "name": "James Ward",
+      "dates": "ca. 1650 — after 1696",
+      "location": "Chowan County, North Carolina (earliest colonial records 1694–1696)",
+      "relationship_to_hunter": "7x great-grandfather (maternal, Ward line) — probable",
+      "children_confirmed": "Michael Ward (son, died Bertie Co aft 1757) and Thomas Ward (son, died Chowan Co 17/18 Dec 1750)",
+      "evidence": "1694/95 Chowan County probate — James Ward and Hannah his wife administered estate of Richard Stibell. 1696: James Ward on Grand Jury. Land grant: 108 acres on Yeopim River Bridge area. Children Michael and Thomas documented in Chowan County probate records.",
+      "english_connection": "Possible beneficiary of Richard Bennett (Nancemond VA, 1674) — a Michael Ward received 1000 pounds tobacco; if this Michael is the son of James Ward, James may have arrived VA ~1640s-1650s",
+      "confidence": "probable",
+      "source": "Sally's Family Place (sallysfamilyplace.com/maple-lawn/james-ward-first-wife/), Chowan County probate abstracts, NC Historical and Genealogical Register"
+    },
+    {
+      "name": "Michael Ward Sr.",
+      "dates": "bef. 1674 — ~1757/1758",
+      "location": "Chowan/Bertie County, North Carolina",
+      "relationship_to_hunter": "6x great-grandfather (maternal, Ward line) — probable",
+      "parents": "James Ward (ca.1650) + first wife (unknown, possibly related to Stibell family)",
+      "children": "Michael Ward Jr. (Hertford Co), James Ward (Bertie Co), Richard Ward (Carteret Co), and possibly others",
+      "evidence": "Chowan Indian land conveyances 1733-1735: Michael Ward received 300 acres on Katharine Creek (1733) and 600 acres near new Poly Bridge (1734). 1714: Michael, Ann & Hannah Ward witnessed Norfolk Co VA will. WikiTree (Ward-1068) shows Michael Ward Sr. bef 1674-1758 as grandfather of James Ward (1770, Bertie Co).",
+      "confidence": "probable",
+      "source": "NC Native Heritage Project (Chowan Indian Land Conveyances), Sally's Family Place, WikiTree Ward-1068"
+    },
+    {
+      "name": "John Ward Sr. (Tyrrell County testator)",
+      "dates": "born ~1705-1715; will written Mar 5, 1748/9; died ~1750 Tyrrell County NC",
+      "location": "Tyrrell County, North Carolina (adjacent to Chowan County)",
+      "relationship_to_hunter": "Possible 6x great-grandfather (if John Ward b.1748 is named son 'John Ward' in the will)",
+      "evidence": "Will of John Ward, Tyrrell County, NC — dated 5 March 1748/9, proved September 1750. Named children: Michael Ward (son), John Ward (son — received negro Tom + cattle), David Ward (son — received 180-acre plantation), Elizabeth Noble (daughter — received 140-acre plantation), Dorcas Overstreet (daughter — received 100 acres on Catankne). Executors: Michael Ward and John Ward (sons). Our ancestor 'John Ward born 1748 Chowan NC' may be this son John Ward — born to John Ward Sr. around 1748, explaining why his birth year matches the will date.",
+      "note": "The testator John Ward of Tyrrell County is himself likely son of Michael Ward Sr. (documented Chowan County), making him 2 generations above our John Ward (b.1748).",
+      "confidence": "probable",
+      "source": "NC GenWeb Tyrrell County — Will of John Ward (WARD1749.HTM), ncgenweb.us/tyrrell/WARD1749.HTM"
+    }
+  ],
+
+  "ward_colonial_lineage_reconstruction": {
+    "note": "This is a probable reconstruction based on documentary evidence from Chowan and Tyrrell County NC records",
+    "chain": [
+      {
+        "generation": 1,
+        "name": "James Ward",
+        "dates": "ca. 1650 — after 1696",
+        "location": "Chowan County, NC",
+        "confidence": "probable",
+        "evidence": "1694/95 probate, 1696 grand jury, land grant in Yeopim River area"
+      },
+      {
+        "generation": 2,
+        "name": "Michael Ward Sr.",
+        "dates": "bef. 1674 — ~1757",
+        "location": "Chowan / Bertie County, NC",
+        "confidence": "probable",
+        "evidence": "Son of James Ward per Sally's Family Place research. Documented in Chowan Indian land conveyances 1733-1735."
+      },
+      {
+        "generation": 3,
+        "name": "John Ward Sr. (Tyrrell County)",
+        "dates": "~1705-1715 — ~1750",
+        "location": "Tyrrell County, NC (formed from Chowan area)",
+        "confidence": "probable",
+        "evidence": "Will dated 1748/9, proved 1750. Son of Michael Ward Sr. per genealogical record patterns."
+      },
+      {
+        "generation": 4,
+        "name": "John Ward (b. 1748)",
+        "dates": "born ~1748, Chowan/Tyrrell County area NC",
+        "location": "North Carolina → South Carolina (migration)",
+        "confidence": "probable — current earliest in Hunter's tree",
+        "note": "This is the 'John Ward (born 1748, Chowan County, NC)' already in Hunter's tree. He may be the son named 'John Ward' in the Tyrrell County will who received a negro man named Tom. He moved south into South Carolina consistent with post-Revolution land migration patterns.",
+        "relationship_to_hunter": "5x great-grandfather (current earliest in tree)"
+      },
+      {
+        "generation": 5,
+        "name": "Thomas S. Ward",
+        "dates": "born ~1760-1780, Darlington County/District, South Carolina (date uncertain — see note)",
+        "location": "Darlington/Pendleton area, South Carolina",
+        "confidence": "probable",
+        "note": "Currently in tree as 'born 1760 Darlington SC' but if his father John Ward was born 1748, Thomas's birth no earlier than ~1770 is more realistic. Darlington District records burned 1785-1806, making verification difficult."
+      },
+      {
+        "generation": 6,
+        "name": "John Robert Ward",
+        "dates": "born 1804, Pendleton, Anderson County, South Carolina",
+        "location": "Pendleton SC → Tennessee",
+        "confidence": "probable",
+        "note": "Pendleton District was formed 1798 from Cherokee-ceded land — consistent with frontier migration of SC Wards"
+      },
+      {
+        "generation": 7,
+        "name": "Joseph Ward",
+        "dates": "born 1833, Tennessee",
+        "location": "Tennessee → Arkansas",
+        "confidence": "probable",
+        "spouse": "Jane Carolina Raney (b. 1838, AR)"
+      },
+      {
+        "generation": 8,
+        "name": "Frances Ward",
+        "dates": "born Jan 23, 1868, Strawberry, Lawrence County, AR; died Sep 11, 1945",
+        "location": "Lawrence County, Arkansas",
+        "confidence": "confirmed",
+        "married": "William Miller Padgett"
+      }
+    ]
+  },
+
+  "conflicts_resolved": [
+    {
+      "conflict": "Was Frances Ward a Padgett by birth or by marriage?",
+      "resolution": "BY MARRIAGE. Frances Ward was born a Ward (daughter of Joseph Ward and Jane Raney). She married William Miller Padgett. Their daughter Bertie Jane Padgett carries the Padgett name. The 'Padgett' line in Hunter's tree is traced through William Miller Padgett's ancestors (William Riley Padgett 1785 VA → John J. Padgett 1808 Indiana → William Miller 1862 AR), while the 'Ward' line is traced through Frances Ward's ancestors."
+    },
+    {
+      "conflict": "John Ward birth location: Chowan County vs Tyrrell County",
+      "resolution": "PROBABLE: Our ancestor 'John Ward (b.1748)' may have been born in Tyrrell County NC (formed from Chowan area), consistent with his father's will being filed in Tyrrell County. The family lived on the Chowan-Tyrrell border area. Attribution to 'Chowan County' in the existing tree is approximately correct as Tyrrell was carved from Chowan-adjacent territory."
+    }
+  ],
+
+  "conflicts_unresolved": [
+    {
+      "conflict": "Thomas S. Ward birth year 1760 vs. ~1770-1785",
+      "detail": "If John Ward (b.1748) is Thomas's father, Thomas cannot have been born 1760 (John would be ~12). Either (a) Thomas's birth year should be ~1775-1785, or (b) Thomas's father is a different, older John Ward. Darlington County SC records burned 1785-1806 make resolution very difficult.",
+      "action": "Check Anderson County (Pendleton) SC deed records for Thomas Ward entries circa 1800-1825. Check 1800 and 1810 Pendleton District census for Thomas Ward household."
+    },
+    {
+      "conflict": "Nancy Crompton — identity and family",
+      "detail": "Thomas S. Ward's wife Nancy Crompton is not yet identified in any primary source. A Shadrach Ward (b.~1796, Orange Co NC) married Delilah Compton (b.1794, NC) in 1818 — a different Ward-Compton match suggesting Crompton/Compton families did intermarry with Wards in NC/SC. The 'Nancy Crompton' may be from the Guilford County NC Compton family (James Compton Jr. + Frances Herndon line had a Delilah Compton born 1794 in NC). This NC Compton family later appears in SC, consistent with the Thomas Ward-Pendleton SC timeline.",
+      "action": "Search Pendleton District SC deed records for Crompton/Compton landowners 1800-1820. Check Guilford County NC marriage records for Thomas Ward + Nancy Crompton."
+    },
+    {
+      "conflict": "Whether John Ward (1748) is specifically the son of John Ward Sr. (Tyrrell Co will)",
+      "detail": "The Tyrrell County will names a son John Ward who would inherit after the wife's death. If this son was born ~1748 when the will was written, it's a perfect match. But multiple John Wards existed in colonial NC and positive identification requires additional documentary evidence (land deeds, court records).",
+      "action": "Search Tyrrell County and adjacent county deed books 1750-1780 for John Ward who later appears in SC."
+    }
+  ],
+
+  "nancy_crompton_research": {
+    "summary": "Nancy Crompton (wife of Thomas S. Ward) could not be positively identified in primary sources. However, contextual evidence points to a NC-origin Compton family.",
+    "crompton_compton_note": "The spelling 'Crompton' vs 'Compton' was interchangeable in 18th-19th century records. The family documented in Guilford County NC — James Compton Jr. + Frances Herndon — had a daughter Delilah Compton (b.1794 NC) who married Shadrach Ward in 1818 NC. This demonstrates the Ward-Compton marriage pattern in the same geographic area.",
+    "possible_nancy_crompton_origins": "Guilford, Orange, or Alamance County NC Compton family, migrating to Pendleton SC area circa 1800. The Compton name appears in SC at Laurens County and Fairfield County by the 1830s-1840s, consistent with NC-SC migration.",
+    "confidence": "speculative — no primary source found"
+  },
+
+  "recommended_tree_additions": [
+    {
+      "action": "ADD as probable ancestors",
+      "individuals": [
+        {
+          "name": "James Ward",
+          "dates": "ca. 1650 — after 1696",
+          "location": "Chowan County, North Carolina",
+          "confidence": "probable",
+          "relationship": "7x great-grandfather (maternal) — would push Ward line back to ca.1650"
+        },
+        {
+          "name": "Michael Ward Sr.",
+          "dates": "bef. 1674 — ~1757",
+          "location": "Chowan/Bertie County, NC",
+          "confidence": "probable",
+          "relationship": "6x great-grandfather (maternal)"
+        },
+        {
+          "name": "John Ward Sr. (Tyrrell County)",
+          "dates": "~1705-1715 — ~1750",
+          "location": "Tyrrell County, NC",
+          "confidence": "probable",
+          "relationship": "Likely father of John Ward (b.1748) — would be 6x great-grandfather"
+        }
+      ]
+    },
+    {
+      "action": "CORRECT existing entry",
+      "individual": "Thomas S. Ward",
+      "current_value": "born 1760, Darlington County, SC",
+      "suggested_correction": "born ~1775-1785, Darlington/Pendleton area SC (date uncertain — Darlington records burned)",
+      "reason": "Cannot be born 1760 if father John Ward born 1748. Birth year should be revised to ~1775-1785."
+    },
+    {
+      "action": "ADD note to Frances Ward entry",
+      "note": "Frances Ward married William Miller Padgett (~1886-1888 in Lawrence County AR). She was NOT born a Padgett — she brought the Ward bloodline into the Padgett family. Her parents were Joseph Ward (b.1833 TN) and Jane Carolina Raney (b.1838 AR)."
+    }
+  ],
+
+  "english_ward_origins": {
+    "summary": "The Ward surname is English, originating as an occupational name (warden/guardian). The Wards of North Carolina likely descend from Virginia settlers of the late 1600s rather than direct England→NC immigration.",
+    "virginia_connection": "Richard Ward of Henrico County VA (will 1682) named children Seth, Richard, Edward, Elizabeth. His son Edward Ward moved from Henrico to Craven County NC by 1708. A separate Richard Ward (immigrant) had been granted 100 acres in Varina, Henrico in 1637. The 'James Ward (ca.1650)' of Chowan County may be from this same Henrico VA family or a related line.",
+    "possible_english_origin": "Ward families of Yorkshire and Derbyshire — research indicates colonial VA Ward families may trace to English Wards of the North Midlands. However, no direct documentary link has been found for the specific Chowan County James Ward.",
+    "confidence": "speculative"
+  },
+
+  "sources": [
+    {
+      "title": "Will of John Ward, Tyrrell County NC, 1748/9",
+      "url": "https://www.ncgenweb.us/tyrrell/WARD1749.HTM",
+      "notes": "Primary source — names sons Michael, John, David and daughters Elizabeth Noble, Dorcas Overstreet"
+    },
+    {
+      "title": "James Ward & First Wife — Sally's Family Place",
+      "url": "https://sallysfamilyplace.com/maple-lawn/james-ward-first-wife/",
+      "notes": "Documents James Ward ca.1650 in Chowan County NC; children Michael Ward and Thomas Ward; Chowan County probate records"
+    },
+    {
+      "title": "Chowan Indian Land Conveyances 1733-1735 — Native Heritage Project",
+      "url": "https://nativeheritageproject.com/2014/01/19/chowan-indian-land-conveyances-1733-1735/",
+      "notes": "Michael Ward appears as witness and land grantee (300 acres + 600 acres) in 1733-1734"
+    },
+    {
+      "title": "WikiTree Ward-4490: John James Ward (abt.1740-1797)",
+      "url": "https://www.wikitree.com/wiki/Ward-4490",
+      "notes": "Shows John Ward abt.1710-1748 Chowan NC as son of Michael Ward Sr.; great-grandparents include James Ward abt.1650"
+    },
+    {
+      "title": "Ward-1068: James Ward (1770-1843) Bertie County NC",
+      "url": "https://wikitree.com/wiki/Ward-1068",
+      "notes": "Shows Michael Ward Sr. 1688-1712 and James Ward abt.1650-1676 as 2nd great-grandparents"
+    },
+    {
+      "title": "English Origins of Ward Family of Virginia — Jim White's Homepage",
+      "url": "https://jimserver.net/article/english-origins-of-ward-family-of-virginia.php",
+      "notes": "Documents Richard Ward of Henrico Co VA; son Edward Ward moved to Craven Co NC by 1708"
+    },
+    {
+      "title": "Frances Padgett GEDCOM (3rd cousin 1x removed — DNA match)",
+      "notes": "Primary source for Frances Ward → William Miller Padgett → Bertie Jane Padgett chain; confirmed by DNA"
+    },
+    {
+      "title": "Walls Doris GEDCOM",
+      "notes": "Corroborating source for Westerfield → Padgett → Trifon chain to Hunter"
+    },
+    {
+      "title": "MyHeritage: Shadrach Ward married Delilah (Compton) Ward 1818 NC",
+      "url": "https://www.myheritage.com/names/shadrach_ward",
+      "notes": "Documents Ward-Compton marriage pattern in NC, supporting plausibility of Thomas S. Ward marrying Nancy Crompton in same region"
+    },
+    {
+      "title": "1800 Census of Pendleton District, South Carolina",
+      "url": "https://archive.org/stream/1800censusofpend00stew/1800censusofpend00stew_djvu.txt",
+      "notes": "Samuel Ward appears in 1800 Pendleton census — contemporaneous with John Robert Ward being born there in 1804"
+    }
+  ],
+
+  "priority_next_steps": [
+    "1. Search Anderson County SC deed index (SC Archives, Columbia) for Thomas Ward entries 1800-1825 — this is the single highest-value verification step for the Thomas S. Ward link",
+    "2. Search 1850 Lawrence County AR census for Joseph Ward + Jane Raney Ward household with young Frances Ward (or 1860 census if Frances not yet born by 1850)",
+    "3. Check FindAGrave and BillionGraves for Frances Ward (died Sep 11, 1945, Smithville, Lawrence County AR) — obituary may name parents or siblings",
+    "4. Search FamilySearch for Frances Ward marriage record to William Miller Padgett in Lawrence County AR (~1886-1888)",
+    "5. Search Tyrrell County NC deed books 1750-1790 for John Ward who later appears in SC — this would confirm John Ward (b.1748) as son of John Ward Sr. (Tyrrell County will)"
+  ]
+}

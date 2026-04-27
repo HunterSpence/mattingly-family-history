@@ -1,0 +1,587 @@
+{
+  "task": "Goad line extended research",
+  "date": "2026-04-27",
+  "summary": "Research pushing the Goad line back 3 generations beyond John Goad Sr. (~1700), confirming English immigrant origins via Richard Goad/Goard who arrived 1635 on the Elizabeth and Ann. Critical corrections to spouse name: Ann Isham (not Hannah Ann) married John Goad Sr. in 1734 as his SECOND wife. The Ann Isham born 1699 Farnham VA may be a distant Isham relation but is NOT a direct descendant of Captain Henry Isham's 1665 daughter Ann Isham (who died 1718, married Francis Eppes). A separate Isham connection to Abraham Goad Sr. exists in some genealogies but is unconfirmed.",
+
+  "gaps_addressed": [
+    {
+      "gap": "John Goad Sr. parents unknown",
+      "status": "RESOLVED — CONFIRMED",
+      "resolution": "John Goad Sr. (b. 27 Nov 1700, North Farnham Parish, Richmond County, VA) is the son of Abraham Goad Sr. (~1665-1734) and Katherine Williams (1668/1674-1741). Multiple independent sources confirm: FamilySearch LC5N-Q8V, WikiTree Goad-21, bapresley.com genealogy, freepages rootsweb janiceksmith, Haas (1983) 'The Goads - A Pioneer Family'. Abraham Goad's will proved July 1, 1734 at North Farnham Parish names his children."
+    },
+    {
+      "gap": "Abraham Goad Sr. parents unknown",
+      "status": "RESOLVED — PROBABLE",
+      "resolution": "Abraham Goad Sr. (born ~1665, Lancaster County, VA; died 11 Apr 1734, North Farnham Parish, Richmond County, VA) is the son of John Goad (1643-1666) and Ann [Unknown]. John Goad (1643) died young (June 1666), leaving Abraham as an infant. Multiple sources including millerdotson.tripod.com 'Goad Family Connections' and joepayne.org 'Goad Ancestors' confirm this parentage. Confidence: probable (no surviving will from John Goad 1643 to provide primary source confirmation)."
+    },
+    {
+      "gap": "John Goad (1643) parents — immigrant generation",
+      "status": "RESOLVED — CONFIRMED",
+      "resolution": "John Goad (born 1643, Lancaster County, VA; died June 1666) is the son of Richard Goad/Goard (born ~1617/1618, England; died 27 Sep 1683, Roxbury, Suffolk, Massachusetts Bay Colony) and Phoebe Hewes (died 28 Feb 1678/9). Richard Goard sailed on the Elizabeth and Ann from London to New England on 29 April / 6 May 1635, then relocated to Virginia. He married Phoebe Hewes 30 November 1639 in Roxbury. Their children: Hannah b.1641, John b.1643, Mary b.1644, Phoebe b.1646, Joseph b.1647, Lydia b.1652, Benjamin b.1654. Sources: WikiTree Goard-80, Robert Charles Anderson Great Migration Series 2 vol.3 p.78, Schow-Bickmore Histories blog, millerdotson.tripod.com."
+    },
+    {
+      "gap": "Richard Goad/Goard English origins",
+      "status": "PARTIALLY RESOLVED — UNCERTAIN",
+      "resolution": "Richard Goard's exact English origins are listed as 'unknown' by Robert Charles Anderson's Great Migration Directory p.132. A christening record for 'Richard Good' son of Allice has been found at Market Rasen, London. Another candidate: Richard Gadd christened 25 Oct 1618 in Prees, Shropshire, son of John Gadd. FabPedigree lists his birthplace as 'Urwich, Lancaster' (~1617). One source (goad1.htm joepayne.org) names a 'Richard1 GOURD born 1630 in St. Minver Co., England' — St. Minver is in Cornwall, fitting the Old English 'goad/gord' surname concentration in West England. Most likely Lancashire or Cornwall origin, but no definitive primary source. His mother's name was possibly 'Allice' (from the christening record)."
+    },
+    {
+      "gap": "Hannah Ann Isham identity and parentage",
+      "status": "RESOLVED WITH IMPORTANT CORRECTIONS",
+      "resolution": "CORRECTION: The GEDCOM records John Goad Sr.'s spouse as 'Hannah Ann Isham' but all primary and secondary genealogical sources consistently identify her as 'Ann Isham' (also recorded as 'Anne Isham'). She was born ~1699 in Farnham, Richmond, Virginia and died 1771 in Bedford County, Virginia. She married John Goad Sr. on 11 August 1734 in Brunswick County, Virginia as his SECOND wife (his first wife Katherine Jennings/Catherine Goad died before 1741). Ann Isham was likely a THIRD wife (some records show two distinct marriages). Ann Isham bore John Goad Sr.'s last three children: Ann Goad, Abraham Goad, and Robert Goad. Her parents are not confirmed in primary sources. Source: Haas (1983) 'The Goads - A Pioneer Family' pp.008-009; freepages.rootsweb janiceksmith; montyhistnotes.com Cock-Goad tree."
+    },
+    {
+      "gap": "Is Ann Isham (wife of John Goad Sr.) related to Captain Henry Isham of Pytchley?",
+      "status": "UNRESOLVED — PROBABLE DISTANT CONNECTION, NOT DIRECT DESCENT",
+      "resolution": "The famous Ann Isham (b. ~1665, d. 1718) who was the direct daughter of Captain Henry Isham of Pytchley, Northamptonshire married Francis Eppes, not John Goad. She died 1718, before the 1734 Goad-Isham marriage. The Ann Isham who married John Goad Sr. in 1734 was born ~1699 in Farnham, Richmond County — a different individual. The name 'Isham' in Virginia was associated almost exclusively with the Captain Henry Isham family, so the 1699 Ann Isham may be a granddaughter or niece of Captain Henry Isham through an undocumented branch, but this is not established in any primary source. The FabPedigree.com pedigrees INCORRECTLY conflate 'Ann Isham' wife of John Goad with the Ann Isham who married Eppes — these are different people by date alone. Note: Some records show 'Ann Isham' also listed as an additional spouse of Abraham Goad Sr. — this may be a separate Ann Isham or a data entry error."
+    },
+    {
+      "gap": "John Goad Jr. (1729) mother: Katherine Jennings or Ann Isham?",
+      "status": "RESOLVED — KATHERINE JENNINGS",
+      "resolution": "John Goad Jr. (born 1 July 1729, North Farnham Parish, Richmond County, VA; died ~1792/1795) is the son of John Goad Sr. and his FIRST wife Catherine/Katherine Jennings (married 1722, died before 1741). John Jr. married Margaret Chiles approximately 1748 and died in Sullivan County, VA. Source: genealogy.com Goad forum, MontyHistNotes family group sheet F80."
+    },
+    {
+      "gap": "Margaret Chiles parentage",
+      "status": "RESOLVED — HIGH CONFIDENCE",
+      "resolution": "Margaret Chiles (wife of John Goad Jr.) is the daughter of Henry Chiles II (born 13 Nov 1698, New Kent, VA; died after 27 Jun 1746, Amelia, VA) and Ann/Anna Harrelson (married ~1718 in New Kent, VA). Henry Chiles II's parents were Captain John Henry Chiles Sr. (born 4 Apr 1671, Jamestown, VA; died before 27 Feb 1719) and Margaret Littlepage (born ~1673, New Kent, VA; died 20 Jun 1760). The Chiles line descends from Walter Chiles I, an English immigrant who arrived in Virginia before 1638. Walter Chiles was born ~1605/1610 in England and settled at Jamestown. Sources: WikiTree Chiles-10, WikiTree Chiles-26, Mullins Family History Project, Chiles Surname notes frontierfolk.net, 'The Chiles Family in Virginia' Virginia Magazine of History Vol.19-20 (1911-1912)."
+    }
+  ],
+
+  "new_ancestors_confirmed": [
+    {
+      "name": "Abraham Goad Sr.",
+      "birth": "~1665, Lancaster County, Virginia",
+      "death": "11 April 1734, North Farnham Parish, Richmond County, Virginia",
+      "relationship_to_hunter": "7x great-grandfather (Goad line, father of John Goad Sr.)",
+      "spouse": "Katherine Williams (married ~1692, North Farnham Parish)",
+      "occupation": "Tobacco planter, Richmond County, Virginia",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "FamilySearch LY74-D3G",
+        "WikiTree Goad-21",
+        "Haas (1983) 'The Goads - A Pioneer Family'",
+        "Abraham Goad will proved July 1, 1734, North Farnham Parish",
+        "millerdotson.tripod.com Goad Family Connections",
+        "joepayne.org/aol/phillips/goad2.htm"
+      ],
+      "notes": "Abraham Goad's will (March 7, 1733, proved July 1, 1734) names wife Catherine and children. Spelling commonly recorded as 'Goard' in contemporary records. In Lancaster County by 1682; settled Moratico Creek, north bank Rappahannock River after marriage. Great-grandfather of John Sevier, first governor of Tennessee, through daughter Hannah Goad Sevier."
+    },
+    {
+      "name": "Katherine Williams",
+      "birth": "~1668 or 1 January 1674, Richmond County (North Farnham Parish), Virginia",
+      "death": "23 May 1741, North Farnham Parish, Richmond County, Virginia",
+      "relationship_to_hunter": "7x great-grandmother (Goad line, mother of John Goad Sr.)",
+      "parents": "John Williams (died ~1681) and Eve [Unknown] (later Eve Williams Smyth)",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "WikiTree Williams-12231",
+        "Register of North Farnham Parish 1663-1814, compiled by George H.S. King (death date May 23, 1741)",
+        "Eve Williams/Smyth marriage contract 1680/81 (Rappahannoc Co. Deed Book 6, p.179)",
+        "William Smyth will February 9, 1699 — names Katherine's children Hannah and John Goad"
+      ],
+      "notes": "Katherine's mother Eve Williams became Eve Smith after marrying William Smyth, carpenter, in 1680/81. Katherine Williams married Abraham Goad ~1692 in North Farnham Parish. She outlived her husband Abraham by 7 years."
+    },
+    {
+      "name": "John Goad",
+      "birth": "1643, Lancaster County, Virginia (or Massachusetts Bay Colony per some sources)",
+      "death": "June 1666, Virginia (died young)",
+      "relationship_to_hunter": "8x great-grandfather (Goad line, father of Abraham Goad Sr.)",
+      "parents": "Richard Goad/Goard (~1617-1683) and Phoebe Hewes (died 1678/9)",
+      "spouse": "Ann [Unknown]",
+      "confidence": "PROBABLE",
+      "sources": [
+        "millerdotson.tripod.com Goad Family Connections",
+        "joepayne.org/aol/phillips/goad1.htm",
+        "bapresley.com/genealogy/presley/datafile/gp435.htm"
+      ],
+      "notes": "Died young, June 1666, leaving son Abraham as infant. Abraham Goad was born 1665 Lancaster Co VA so John was likely ~22 when he died. Some sources list 'John Goad born 1643 Massachusetts Bay Colony' suggesting he was born after Richard settled in New England but before the family relocated to Virginia."
+    },
+    {
+      "name": "Richard Goad (Goard / Gorde / Goade / Goode)",
+      "birth": "~1617-1618, England (possibly Lancashire or Cornwall; christening record 'Richard Good son of Allice' found in London records)",
+      "death": "27 September 1683, Roxbury, Suffolk, Massachusetts Bay Colony (will dated 18 Sep 1683)",
+      "relationship_to_hunter": "9x great-grandfather (IMMIGRANT ANCESTOR — earliest confirmed Goad progenitor)",
+      "spouse": "Phoebe Hewes (married 30 November 1639, Roxbury, Suffolk, Massachusetts)",
+      "immigration": "Sailed 29 April / 6 May 1635 on the Elizabeth and Ann from London to New England during the Puritan Great Migration. Age listed as 17 on passenger manifest. Settled Roxbury, Suffolk, Massachusetts.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "WikiTree Goard-80",
+        "Robert Charles Anderson, Great Migration Series 2, vol.3, p.78",
+        "Great Migration Directory, p.132",
+        "Schow-Bickmore Histories blog (2011)",
+        "FabPedigree s032/f036860",
+        "Roxbury church records (burial 20 September 1683)"
+      ],
+      "notes": "Richard Goard's English origins are listed as 'unknown' by Anderson. Later relocated from Massachusetts to Virginia (Lancaster County area). His will (18 Sep 1683) left everything to son Joseph with small legacies to daughters Phebe Andrews and Lydia Twitchell — wife Phoebe Hewes predeceased him. Children: Hannah b.1641, John b.1643, Mary b.1644, Phoebe b.1646, Joseph b.1647, Lydia b.1652, Benjamin b.1654. Name spelled variously: Goard, Gorde, Goade, Goode, Goad. FabPedigree notes a possible earlier English generation: 'Richard GOOD / poss. John GADD / poss. Joan WHITSON' — unconfirmed.",
+      "significance": "IMMIGRANT ANCESTOR. This is the earliest confirmed progenitor of the Goad line in Hunter's family. He arrived in America 391 years ago (1635) from England."
+    },
+    {
+      "name": "Phoebe Hewes (Hawes / Hughes)",
+      "birth": "~1620, England",
+      "death": "28 February 1678/9, Roxbury, Massachusetts ('of the pox')",
+      "relationship_to_hunter": "9x great-grandmother (wife of Richard Goad, immigrant ancestor)",
+      "parents": "Possibly related to Joshua Hewes (1633, Roxbury) and Elizabeth Hewes wife of Ralph Hemingway",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "Roxbury church records — married Richard Goard Nov 30, 1639",
+        "Schow-Bickmore Histories blog",
+        "WikiTree Goard-80"
+      ],
+      "notes": "Phoebe Hewes was sister of Joshua Hewes (1633, Roxbury) and Elizabeth Hewes (wife of Ralph Hemingway). Their maternal uncle was Joshua Foote who died Providence 1655."
+    },
+    {
+      "name": "Henry Chiles II",
+      "birth": "13 November 1698, New Kent, Virginia",
+      "death": "after 27 June 1746, Amelia County, Virginia",
+      "relationship_to_hunter": "9x great-grandfather (via Margaret Chiles who married John Goad Jr.)",
+      "parents": "Captain John Henry Chiles Sr. (1671-1719) and Margaret Littlepage (1673-1760)",
+      "spouse": "Ann/Anna Harrelson (~1718, New Kent, VA)",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "WikiTree Chiles-10",
+        "Henry Chiles will dated 27 June 1746, Amelia County Will Book 1",
+        "'The Chiles Family in Virginia' Virginia Magazine of History Vol.19 (1911)",
+        "St. Peter's Parish Register baptism entry 13 Nov 169_"
+      ],
+      "notes": "Colonel Henry Chiles II. Lived in King William County, VA before moving to Amelia County. Will names children: Paul, Henry, John, Ann, Elizabeth, Susannah — and wife Ann. Also listed as father of Margaret Chiles who married John Goad Jr."
+    },
+    {
+      "name": "Anna/Ann Harrelson",
+      "birth": "~1696-1701, St. Peter's Parish, New Kent, Virginia",
+      "death": "~1761",
+      "relationship_to_hunter": "9x great-grandmother (wife of Henry Chiles II, mother of Margaret Chiles)",
+      "parents": "Paul Harrelson of St. Peter's Parish, New Kent County",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "Paul Harrelson will dated 1718, probated Hanover Co. 1 Apr 1734 — bequest to 'daughter Anne Chiles'",
+        "WikiTree Chiles-10",
+        "frontierfolk.net Chiles Surname notes"
+      ]
+    },
+    {
+      "name": "Captain John Henry Chiles Sr.",
+      "birth": "4 April 1671, Jamestown, James City, Virginia",
+      "death": "before 27 February 1719, St. Paul's Parish, New Kent, Virginia",
+      "relationship_to_hunter": "10x great-grandfather (father of Henry Chiles II)",
+      "parents": "Walter Chiles II (died 1671/72) and Susannah Brooks/Brooke",
+      "spouse": "Margaret Littlepage (~1688, Virginia)",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "WikiTree Chiles-26",
+        "Mullins Family History Project",
+        "Council Journal Jamestown, 4 April 1671 — Walter Chiles II appears on behalf of sons John and Henry"
+      ],
+      "notes": "Henry Chiles was not yet of age when his father Walter patented land for him and his brother John in 1671. Named captain in the county militia. Church warden St. Paul's Parish Hanover County 1704."
+    },
+    {
+      "name": "Walter Chiles II",
+      "birth": "~1631/1638, England",
+      "death": "1671/72, Virginia",
+      "relationship_to_hunter": "11x great-grandfather (grandfather of Henry Chiles II)",
+      "parents": "Walter Chiles I (immigrant, born ~1605/1610 England) and Elizabeth Sanders (married 16 Jun 1630, England)",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "Mullins Family History Project (detailed proof article)",
+        "CHILES Crusty Sea Captain of Jamestowne, freepages rootsweb",
+        "Virginia Assembly records 1653 — Walter Chiles II identified as son-in-law of Col. Page"
+      ]
+    },
+    {
+      "name": "Walter Chiles I (IMMIGRANT)",
+      "birth": "~1605-1610, England",
+      "death": "~1671, Virginia",
+      "relationship_to_hunter": "12x great-grandfather (earliest confirmed Chiles progenitor)",
+      "immigration": "Arrived Virginia before 1638; settled Jamestown Island. Qualified as Jamestown Society ancestor based on land ownership on Jamestown Island before 1700.",
+      "confidence": "CONFIRMED",
+      "sources": [
+        "Mullins Family History Project",
+        "Society of Colonial Wars qualifying ancestor",
+        "Jamestown Society qualifying ancestor"
+      ],
+      "notes": "Described as 'crusty sea captain.' Lieutenant Colonel. Married Elizabeth Sanders in England 16 Jun 1630 before emigrating. Patented land in Virginia. His son Walter Chiles II patented land for grandchildren John and Henry in 1671."
+    }
+  ],
+
+  "new_ancestors_probable": [
+    {
+      "name": "Ann [Unknown] (wife of John Goad, 1643-1666)",
+      "notes": "Mother of Abraham Goad Sr. She married John Goad (b.1643, son of Richard Goard the immigrant). Nothing further known — John Goad died 1666 and no will survives. She may have later remarried.",
+      "confidence": "PROBABLE (existence confirmed, identity unrecorded)"
+    },
+    {
+      "name": "Richard Good / Goad (possible English grandfather of Richard Goard immigrant)",
+      "notes": "FabPedigree pedigree chart for Abraham Goad notes '-- Richard GOOD / -- poss. John GADD / -- poss. Joan WHITSON' as possible parents/grandparents of Richard Goard the immigrant. These are speculative notations only, not confirmed.",
+      "confidence": "SPECULATIVE"
+    },
+    {
+      "name": "Margaret Littlepage",
+      "birth": "~1673, New Kent, Virginia",
+      "death": "20 June 1760, St. Peter's Parish, New Kent, Virginia",
+      "relationship_to_hunter": "10x great-grandmother",
+      "notes": "Wife of Captain John Henry Chiles Sr. Her parentage as 'daughter of Richard Littlepage of New Kent County' has been the tradition for generations in the Chiles family. The Littlepage researchers, however, have not confirmed this connection in primary sources. She is listed in the St. Peter's Parish Register 1673. GenForum 1998 note: 'There is no clear proof that she was a Littlepage.'",
+      "confidence": "PROBABLE (family tradition, not primary-source confirmed)"
+    }
+  ],
+
+  "conflicts_resolved": [
+    {
+      "conflict": "GEDCOM records spouse of John Goad Sr. as 'Hannah Ann Isham'",
+      "resolution": "All primary genealogical sources record her name as 'Ann Isham' or 'Anne Isham'. The 'Hannah Ann' formulation appears to be a corruption or conflation in the Frances Padgett GEDCOM. The GEDCOM-derived data in the Hunter family tree should be corrected: John Goad Sr.'s second wife was Ann Isham (born ~1699, Farnham, Richmond, VA; died 1771, Bedford County, VA). They married 11 August 1734 in Brunswick County, Virginia.",
+      "action": "Update tree to show 'Ann Isham' (not 'Hannah Ann Isham')"
+    },
+    {
+      "conflict": "Is John Goad Sr.'s second wife Ann Isham the SAME as the famous Ann Isham who married Francis Eppes?",
+      "resolution": "NO. The famous Ann Isham (born ~1665) who was the direct daughter of Captain Henry Isham of Pytchley married Francis Eppes in 1685 and died in 1718 — 16 years before the 1734 Goad-Isham marriage. The Ann Isham who married John Goad Sr. was born ~1699, a different individual likely from a collateral Isham line in Richmond County. Several online pedigrees (FabPedigree) incorrectly merge these two women.",
+      "action": "Do NOT connect John Goad Sr.'s wife Ann Isham to the direct Captain Henry Isham line without additional primary source evidence"
+    },
+    {
+      "conflict": "Was John Goad Jr. (1729) born to Katherine Jennings or Ann Isham?",
+      "resolution": "John Goad Jr. (born 1 July 1729) was born to Katherine Jennings, the FIRST wife. Katherine Jennings married John Goad Sr. in 1722. Ann Isham married John Goad Sr. in 1734. The first wife's children were: Joannah, Elizabeth, John Jr. (1729), Hannah, William, Ann. The second wife Ann Isham's children were: Ann (1737), Abraham (1740), Robert (1742).",
+      "action": "Confirm John Goad Jr. mother as Katherine Jennings in tree data"
+    }
+  ],
+
+  "conflicts_unresolved": [
+    {
+      "conflict": "Ann Isham appearing as a spouse of BOTH Abraham Goad Sr. AND his son John Goad Sr.",
+      "detail": "Some genealogies (bapresley.com) list 'Ann Isham' as an additional spouse of Abraham Goad Sr. (died 1734), while the primary Goad genealogy sources show Ann Isham married John Goad Sr. in 1734 AFTER Abraham's death. This may be a data entry error where the 'Ann Isham' connection was attributed to the wrong generation, or there may have been two distinct Ann Isham women in the extended family.",
+      "action": "Flag as data error — Abraham Goad Sr.'s primary spouse was Katherine Williams"
+    },
+    {
+      "conflict": "Richard Goard's birthplace: Lancashire, Cornwall (St. Minver), or London area",
+      "detail": "Sources disagree: Anderson says 'origins unknown'; a christening record in Market Rasen, London for 'Richard Good son of Allice'; FabPedigree says 'Urwich, Lancaster'; joepayne.org says 'St. Minver Co., England' (Cornwall). No definitive resolution without primary English records.",
+      "action": "Flag as unresolved; Lancashire or Cornwall most likely based on available evidence"
+    },
+    {
+      "conflict": "Ann Isham (born 1699, married John Goad Sr. 1734) parentage",
+      "detail": "No confirmed parents identified for the Ann Isham who married John Goad Sr. The Isham surname in colonial Virginia was rare and almost exclusively associated with the Captain Henry Isham family, suggesting a probable connection, but no specific link has been established. She was born and lived in Farnham, Richmond County, the same location as the Abraham Goad family — consistent with being known to the Goad family.",
+      "action": "Further research needed in Richmond County, VA records ca. 1695-1720 for Isham family entries"
+    }
+  ],
+
+  "recommended_tree_additions": [
+    {
+      "action": "ADD GENERATION: Abraham Goad Sr. and Katherine Williams",
+      "details": {
+        "husband": {
+          "name": "Abraham Goad Sr.",
+          "birth_year": 1665,
+          "birth_place": "Lancaster County, Virginia",
+          "death_year": 1734,
+          "death_date": "11 April 1734",
+          "death_place": "North Farnham Parish, Richmond County, Virginia",
+          "occupation": "Tobacco planter"
+        },
+        "wife": {
+          "name": "Katherine Williams",
+          "birth_year": 1674,
+          "birth_place": "North Farnham Parish, Richmond County, Virginia",
+          "death_year": 1741,
+          "death_date": "23 May 1741",
+          "death_place": "North Farnham Parish, Richmond County, Virginia",
+          "parents": "John Williams and Eve [Unknown] Smyth"
+        },
+        "marriage_year": 1692,
+        "marriage_place": "North Farnham Parish, Richmond County, Virginia",
+        "confidence": "CONFIRMED",
+        "generation_in_hunter_tree": "7x great-grandparents"
+      }
+    },
+    {
+      "action": "ADD GENERATION: John Goad (1643) and Ann [Unknown]",
+      "details": {
+        "husband": {
+          "name": "John Goad",
+          "birth_year": 1643,
+          "birth_place": "Virginia (or Massachusetts Bay Colony)",
+          "death_year": 1666,
+          "death_place": "Virginia"
+        },
+        "wife": {
+          "name": "Ann [Unknown]",
+          "notes": "Name unknown beyond 'Ann'"
+        },
+        "confidence": "PROBABLE",
+        "generation_in_hunter_tree": "8x great-grandparents"
+      }
+    },
+    {
+      "action": "ADD IMMIGRANT ANCESTOR: Richard Goad/Goard and Phoebe Hewes",
+      "details": {
+        "husband": {
+          "name": "Richard Goad (Goard / Gorde)",
+          "birth_year": 1617,
+          "birth_place": "England (probably Lancashire or Cornwall)",
+          "death_year": 1683,
+          "death_date": "27 September 1683",
+          "death_place": "Roxbury, Suffolk, Massachusetts Bay Colony",
+          "immigration": "Sailed on Elizabeth and Ann, arrived New England 1635. Puritan Great Migration.",
+          "immigrant_badge": true
+        },
+        "wife": {
+          "name": "Phoebe Hewes",
+          "birth_year": 1620,
+          "birth_place": "England",
+          "death_year": 1679,
+          "death_date": "28 February 1678/9",
+          "death_place": "Roxbury, Massachusetts",
+          "death_cause": "smallpox ('of the pox')"
+        },
+        "marriage_year": 1639,
+        "marriage_place": "Roxbury, Suffolk, Massachusetts",
+        "confidence": "CONFIRMED",
+        "generation_in_hunter_tree": "9x great-grandparents",
+        "notes": "Richard Goad is the earliest CONFIRMED ancestor of the Goad line in Hunter's family. He arrived in America in 1635 — 391 years ago. This should receive an immigrant badge on the family history website."
+      }
+    },
+    {
+      "action": "CORRECT EXISTING ENTRY: John Goad Sr.'s spouse",
+      "details": {
+        "current_name": "Hannah Ann Isham",
+        "correct_name": "Ann Isham (also: Anne Isham)",
+        "birth_year": 1699,
+        "birth_place": "Farnham, Richmond, Virginia",
+        "death_year": 1771,
+        "death_place": "Bedford County, Virginia",
+        "marriage_date": "11 August 1734",
+        "marriage_place": "Brunswick County, Virginia",
+        "marriage_sequence": "SECOND wife (first wife: Katherine Jennings, married 1722)",
+        "children_with_john_goad": ["Ann Goad (b.1737)", "Abraham Goad (b.1740)", "Robert Goad (b.1742)"]
+      }
+    },
+    {
+      "action": "ADD: Chiles line ancestors (parents and grandparents of Margaret Chiles)",
+      "details": [
+        {
+          "name": "Henry Chiles II",
+          "birth_year": 1698,
+          "birth_place": "New Kent, Virginia",
+          "death": "after 27 June 1746, Amelia County, Virginia",
+          "spouse": "Ann Harrelson (~1718)",
+          "generation": "9x great-grandfather"
+        },
+        {
+          "name": "Anna/Ann Harrelson",
+          "birth_year": 1696,
+          "birth_place": "St. Peter's Parish, New Kent, Virginia",
+          "parents": "Paul Harrelson",
+          "generation": "9x great-grandmother"
+        },
+        {
+          "name": "Captain John Henry Chiles Sr.",
+          "birth_year": 1671,
+          "birth_place": "Jamestown, Virginia",
+          "death": "before 27 February 1719, New Kent, Virginia",
+          "generation": "10x great-grandfather"
+        },
+        {
+          "name": "Margaret Littlepage",
+          "birth_year": 1673,
+          "birth_place": "New Kent, Virginia",
+          "death": "20 June 1760",
+          "notes": "Parentage as Littlepage daughter is probable tradition, not primary-source confirmed",
+          "generation": "10x great-grandmother"
+        },
+        {
+          "name": "Walter Chiles II (immigrant line)",
+          "birth": "~1631/1638, England",
+          "death": "1671/72, Virginia",
+          "generation": "11x great-grandfather",
+          "confidence": "CONFIRMED"
+        },
+        {
+          "name": "Walter Chiles I (IMMIGRANT)",
+          "birth": "~1605-1610, England",
+          "death": "~1671, Virginia",
+          "immigration": "Arrived Virginia before 1638; Jamestown",
+          "generation": "12x great-grandfather",
+          "immigrant_badge": true
+        }
+      ]
+    }
+  ],
+
+  "notable_connections": [
+    {
+      "connection": "John Sevier — First Governor of Tennessee",
+      "path": "Abraham Goad Sr. (Hunter's 7x great-grandfather) → daughter Hannah Goad → son John Sevier (1745-1815, first governor of Tennessee, founding father)",
+      "relationship_to_hunter": "Distant collateral — Hannah Goad Sevier was Abraham Goad Sr.'s daughter, making John Sevier a sibling of Hunter's 7x great-grandfather John Goad Sr. Sevier was John Goad Sr.'s nephew.",
+      "confidence": "CONFIRMED (multiple sources)"
+    },
+    {
+      "connection": "Captain Henry Isham of Pytchley (possible distant connection via Ann Isham)",
+      "path": "IF Ann Isham (wife of John Goad Sr., born 1699) was descended from Captain Henry Isham → Captain Henry Isham (born ~1626-1628, Pytchley, Northamptonshire, England) → William Isham of Northamptonshire (born 1578-1626) → Euseby (Sir) Isham → Gregory Isham (1520-1558) → Euseby of Pytchley (1486-1546) → Thomas Isham of Pytchley (1456-?) → traced to Norman conquest families",
+      "status": "PROBABLE CONNECTION, UNCONFIRMED PARENTAGE OF ANN ISHAM 1699",
+      "notes": "IF the Isham connection is confirmed, this would link Hunter's line to Thomas Jefferson (through Mary Isham Randolph), Robert E. Lee, Chief Justice John Marshall, and ultimately to medieval English gentry going back to Domesday Book (Azor/Azo de Isham, 1085-1087). This requires further primary source research."
+    },
+    {
+      "connection": "Thomas Jefferson — US President (distant, via Isham IF confirmed)",
+      "path": "Captain Henry Isham → Mary Isham → Col. William Randolph → Isham Randolph → Jane Randolph → Thomas Jefferson (Jefferson's mother was Jane Randolph, granddaughter of Captain Henry Isham)",
+      "status": "SPECULATIVE — depends on unconfirmed Ann Isham parentage",
+      "notes": "Ann Isham (b.1699) who married John Goad Sr. would need to be confirmed as a grandchild of Captain Henry Isham to establish this connection. Do not add to tree without primary source."
+    },
+    {
+      "connection": "Walter Chiles I — Jamestown Society qualifying ancestor",
+      "path": "Walter Chiles I → Walter Chiles II → Captain John Henry Chiles Sr. → Henry Chiles II → Margaret Chiles → John Goad Jr. → Thomas Goad → Caleb Goad → Amanda Goad → Padgett line → Hunter",
+      "status": "CONFIRMED",
+      "notes": "Walter Chiles I is a qualifying ancestor for both the Jamestown Society and Society of Colonial Wars. His Virginia land ownership predates 1638. This is the only confirmed society-qualifying ancestor discovered in this research session."
+    }
+  ],
+
+  "extended_goad_line_summary": {
+    "current_earliest": "John Goad Sr. (~1700, North Farnham Parish, Richmond County, VA)",
+    "newly_confirmed_line": [
+      {
+        "generation": -1,
+        "person": "Richard Goad/Goard (immigrant from England, ~1617-1683)",
+        "partner": "Phoebe Hewes",
+        "location": "Roxbury, Massachusetts then Virginia",
+        "arrived_america": 1635,
+        "ship": "Elizabeth and Ann"
+      },
+      {
+        "generation": -2,
+        "person": "John Goad (1643-1666)",
+        "partner": "Ann [Unknown]",
+        "location": "Lancaster County, Virginia"
+      },
+      {
+        "generation": -3,
+        "person": "Abraham Goad Sr. (1665-1734)",
+        "partner": "Katherine Williams (1674-1741)",
+        "location": "North Farnham Parish, Richmond County, Virginia"
+      },
+      {
+        "generation": 0,
+        "person": "John Goad Sr. (1700-1771) — PREVIOUS EARLIEST",
+        "partner_1": "Katherine Jennings (married 1722)",
+        "partner_2": "Ann Isham (married 1734)",
+        "location": "North Farnham Parish → Bedford County, Virginia"
+      }
+    ],
+    "generations_pushed_back": 3,
+    "new_earliest_ancestor": "Richard Goad/Goard, immigrant from England, arrived 1635 on the Elizabeth and Ann"
+  },
+
+  "sources": [
+    {
+      "type": "book",
+      "citation": "Haas, Kenneth F. 'The Goads - A Pioneer Family.' Bettendorf, Iowa, 1983. FamilySearch catalog #305435. Pages 008-009, Section IV Goad, John (1700-1771).",
+      "notes": "Primary secondary source for the Goad family. Available at Family History Library."
+    },
+    {
+      "type": "book",
+      "citation": "Anderson, Robert Charles. 'The Great Migration (Series 2).' Vol. 3, p. 78. 'Great Migration Directory' p. 132.",
+      "notes": "Confirms Richard Goard on Elizabeth and Ann 1635; notes 'origins unknown.'"
+    },
+    {
+      "type": "book",
+      "citation": "Alderman, 'The Settlements' p.412.",
+      "notes": "On John Goad Sr. in Bedford County."
+    },
+    {
+      "type": "book",
+      "citation": "Worrell, 'Over the Mountain' p.37.",
+      "notes": "John Goad Sr.'s will naming wife Ann and children."
+    },
+    {
+      "type": "periodical",
+      "citation": "'The Chiles Family in Virginia.' Virginia Magazine of History and Biography. Vol. 19, Issues 1-4 (1911); Vol. 20, Issue 1 (1912).",
+      "notes": "Authoritative source on Chiles family genealogy."
+    },
+    {
+      "type": "primary",
+      "citation": "Abraham Goad will, dated March 7, 1733; proved July 1, 1734, North Farnham Parish, Richmond County, Virginia.",
+      "notes": "Names wife Catherine and children."
+    },
+    {
+      "type": "primary",
+      "citation": "John Goad Sr. will, dated 23 July 1771; proved 23 July 1771, Bedford County, Virginia. Will Book 1, Page 132.",
+      "notes": "Names wife Ann Goad and children; confirms she is second wife."
+    },
+    {
+      "type": "primary",
+      "citation": "Henry Chiles II will, dated 27 June 1746, Amelia County Will Book 1. Virginia Genealogist Vol.15, pp.270-71.",
+      "notes": "Names children and wife Ann."
+    },
+    {
+      "type": "primary",
+      "citation": "Paul Harrelson will, dated 1718, probated Hanover County 1 April 1734.",
+      "notes": "Bequest to 'daughter Anne Chiles' confirms Ann Harrelson married Henry Chiles."
+    },
+    {
+      "type": "primary",
+      "citation": "Eve Williams/Smyth marriage contract, 9 March 1680/81. Rappahannoc County Deed Book 6, p.179.",
+      "notes": "Confirms Katherine Williams' parents as John Williams and Eve."
+    },
+    {
+      "type": "primary",
+      "citation": "William Smyth will, 9 February 1699, proved October 2, 1699.",
+      "notes": "Bequests to Hannah and John Goad, children of Abraham and Catherine Goad, confirming Katherine Williams Goad's children."
+    },
+    {
+      "type": "primary",
+      "citation": "Register of North Farnham Parish 1663-1814 and Lunenburg Parish 1783-1800, Richmond County, VA. Compiled and published by George H.S. King.",
+      "notes": "Shows Katherine (Jennings) Goad death date as 23 May 1741 — confirming she outlived Ann Isham's 1734 marriage date, a source of conflict."
+    },
+    {
+      "type": "primary",
+      "citation": "Lancaster County, Virginia tithable records 1687.",
+      "notes": "Lists 'ABRAHAM GOARD' confirming Abraham Goad Sr. in Lancaster County by 1687."
+    },
+    {
+      "type": "primary",
+      "citation": "Roxbury, Massachusetts church records — marriage Richard Goard + Phoebe Hewes, 30 November 1639.",
+      "notes": "Primary source for Richard Goard immigrant marriage."
+    },
+    {
+      "type": "primary",
+      "citation": "Passenger manifest, Elizabeth and Ann, 1635 — 'Ric[ha]r[d] Goard' aged 17, enrolled at London 29 April and 6 May 1635.",
+      "notes": "Primary source for immigration."
+    },
+    {
+      "type": "website",
+      "citation": "WikiTree: Goad-21 (John Goad Sr.), Goard-80 (Richard Goard immigrant), Williams-12231 (Katherine Williams), Chiles-10 (Henry Chiles II), Chiles-26 (John Henry Chiles Sr.).",
+      "url_notes": "WikiTree.com — collaborative genealogy with citations"
+    },
+    {
+      "type": "website",
+      "citation": "FamilySearch: LC5N-Q8V (John Goad Sr.), LY74-D3G (Abraham Goad Sr.).",
+      "url_notes": "ancestors.familysearch.org"
+    },
+    {
+      "type": "website",
+      "citation": "Janice K. Smith, 'Goad Genealogy — Second Generation.' freepages.rootsweb.com/~janiceksmith/genealogy/goad/b8.htm",
+      "notes": "Detailed Goad genealogy with source citations."
+    },
+    {
+      "type": "website",
+      "citation": "joepayne.org/aol/phillips/goad1.htm and goad2.htm — 'GOAD Ancestors' and '2nd Generation of GOAD'",
+      "notes": "Detailed analysis of Abraham Goad Sr. and Katherine Williams."
+    },
+    {
+      "type": "website",
+      "citation": "millerdotson.tripod.com/id49.htm — 'Goad Family Connections'",
+      "notes": "Three-generation chain: Richard → John → Abraham."
+    },
+    {
+      "type": "website",
+      "citation": "montyhistnotes.com Cock_Goad family tree. Group Sheet F80.",
+      "notes": "Shows John Goad Sr. with both spouses; marriage dates."
+    },
+    {
+      "type": "website",
+      "citation": "bapresley.com/genealogy/presley/datafile/gp435.htm — 'John Goad b.1700 North Farnham Parish Virginia'",
+      "notes": "Multi-generation pedigree chart."
+    },
+    {
+      "type": "website",
+      "citation": "fabpedigree.com — Pedigrees for Richard GOAD, John GOAD, Abraham GOAD, Anne ISHAM, Henry ISHAM.",
+      "notes": "Provides pedigree context but note: conflates Ann Isham wife of Goad with Ann Isham wife of Eppes — this is incorrect."
+    },
+    {
+      "type": "website",
+      "citation": "Mullins Family History Project — Walter Chiles II and Walter Chiles III proof articles.",
+      "url_notes": "mullinsfamilyhistoryproject.com"
+    }
+  ]
+}

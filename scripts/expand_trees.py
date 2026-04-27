@@ -482,32 +482,62 @@ def get_tree(label_fragment):
 
 
 henslee_tree = get_tree("Henslee line")
-if henslee_tree and henslee_tree.get("name") != "William Hensley (Henslee)":
-    extended_henslee = N(
-        "William Hensley (Henslee)",
-        "c. 1695–1750, Goochland County, Virginia",
-        "PROBABLE. Father of Maxfield Henslee (b.1727 Goochland, VA). "
-        "The name 'Hensley' was commonly anglicised to 'Henslee' in Virginia records. "
-        "Goochland County was formed from Henrico County in 1728 — a frontier settlement "
-        "of English and Scots-Irish colonists. Source: 61-cousin-merged-people.json "
-        "(Maxfield's parent_names field lists William Hensley + Jane Snell).",
-        gen=6, century=18, confidence="probable",
-        spouse="Jane Snell",
-        children=[
-            N(
-                "Maxfield Henslee",
-                "1727 Goochland, VA – c. 1790",
-                "PROBABLE. Earliest traced Henslee ancestor in Hunter's direct line. "
-                "Virginia-born; likely moved to Caswell County, North Carolina per family pattern. "
-                "DAR records confirm a Macksfield/Maxfield Henslee in NC colonial-era records. "
-                "Source: 61-cousin-merged-people.json; 65-henslee-confirmed-trace.json.",
-                gen=7, century=18, confidence="probable",
-                spouse="Martha 'Patty' Sneed",
-                children=henslee_tree.get("children", [])
-            )
-        ]
-    )
-    replace_tree("Henslee line", extended_henslee)
+if henslee_tree:
+    _henslee_root_name = henslee_tree.get("name", "")
+    if _henslee_root_name not in ("James Hensley II",):
+        # Find the deepest existing tree starting point to avoid double-wrapping
+        # If root is already "William Hensley (Henslee)", use its children (Maxfield onward)
+        if _henslee_root_name == "William Hensley (Henslee)":
+            _maxfield_children = henslee_tree.get("children", [])
+        else:
+            # Root is the raw original tree (e.g. Maxfield or earlier) — use its children
+            _maxfield_children = henslee_tree.get("children", [])
+
+        # Rebuild William Hensley node pointing at Maxfield's subtree
+        _william_node = N(
+            "William Hensley (Henslee)",
+            "c. 1691–1693, Fluvanna / Goochland County, Virginia Colony; died c. 1770–1781, Virginia",
+            "POSSIBLE. Father of Maxfield Henslee (b.1727 Goochland, VA). "
+            "The Hensley/Henslee surname is a Devon, England habitational name from Hensley village, "
+            "East Worlington parish, Devon, England — meaning 'Hēahmund's woodland clearing' in Old "
+            "English (Oxford DAFN 2022). The 'Henslee' spelling is specific to the Macksfield line. "
+            "NOTE: This parentage is asserted in WikiTree Hensley-196 and cousin GED (Jenniffer Henslee); "
+            "NOT verified by primary source. Independent researcher martygrant.com explicitly disclaims "
+            "knowledge of Macksfield's parents. Display as POSSIBLE/unconfirmed on website. "
+            "Source: 61-cousin-merged-people.json; WikiTree Henslee-88; 79-henslee-extended-research.json.",
+            gen=7, century=18, confidence="possible",
+            spouse="Jane Snell (c. 1709–1796)",
+            children=[
+                N(
+                    "Maxfield Henslee",
+                    "1727 Goochland, VA – c. 1790",
+                    "PROBABLE. Earliest traced Henslee ancestor in Hunter's direct line. "
+                    "Virginia-born; likely moved to Caswell County, North Carolina per family pattern. "
+                    "DAR records confirm a Macksfield/Maxfield Henslee in NC colonial-era records. "
+                    "Source: 61-cousin-merged-people.json; 65-henslee-confirmed-trace.json.",
+                    gen=8, century=18, confidence="probable",
+                    spouse="Martha 'Patty' Sneed",
+                    children=_maxfield_children
+                )
+            ]
+        )
+
+        # Top-level: add James Hensley II as possible ancestor above William
+        _extended_henslee = N(
+            "James Hensley II",
+            "born 1642, Northampton County, Virginia; died 1705, Northampton County, Virginia",
+            "POSSIBLE ancestor. Named in WikiTree Hensley-196 as the father of William Hensley (~1691) "
+            "who is the probable father of Macksfield Henslee. Cited in multiple WikiTree profiles as "
+            "common ancestor of the Maxfield Henslee (1810) line. "
+            "CAUTION: This chain (James II → William → Macksfield) is user-asserted on WikiTree without "
+            "primary source documentation. The independent researcher martygrant.com explicitly states "
+            "'I have no clue who Mackfield's parents might be.' Mark as POSSIBLE — NOT confirmed. "
+            "Source: WikiTree Hensley-196; research/79-henslee-extended-research.json.",
+            gen=6, century=17, confidence="possible",
+            spouse="Susanna (Newcomb) Hensley (born 1665, Henrico County, Virginia; died 1730, Henrico County, Virginia)",
+            children=[_william_node]
+        )
+        replace_tree("Henslee line", _extended_henslee)
 
 # Add descendant chain to Hunter on Henslee tree (runs every time to ensure Alice → Hunter)
 def _add_hunter_to_henslee(node):
@@ -1063,25 +1093,109 @@ if early_mattingly:
 # ═══════════════════════════════════════════════════════════════════════════
 
 WESTERFIELD_TREE = N(
-    "Jacobus Westervelt (Westerfield)",
-    "born Aug 15, 1755, Utrecht, Long Island, New York; died Jun 1, 1826, Mercer County, Kentucky",
-    "Hunter's maternal great-great-great-great-great-great-grandfather. Dutch origin — the family anglicized "
-    "the surname Westervelt to Westerfield upon settling in Kentucky. Married Phoebe Cozine (born Dec 9, 1759, "
-    "Dutch Reform Church, Readington, Somerset County, New Jersey; died Dec 9, 1847, Harrodsburg, Mercer County, "
-    "Kentucky). The Westervelt family migrated from Long Island to Harper's Ferry, then to Mercer County, Kentucky. "
-    "Source: Walls Doris GEDCOM.",
-    gen=1, century=18, confidence="confirmed",
-    spouse="Phoebe Cozine (born Dec 9, 1759, Readington, Somerset County, New Jersey; died Dec 9, 1847, Harrodsburg, Mercer County, Kentucky)",
+    "Lubbert Van Westervelt",
+    "died ~1619, Meppel, Drenthe, Netherlands",
+    "POSSIBLE Dutch ancestor — father of the 1662 immigrant. Named in the Genealogical Society of Bergen "
+    "County (GSBC) family files as the father of Lubbert Lubbertsen Van Westervelt (the immigrant). "
+    "No birth date or spouse name documented. This is the practical limit of the genealogical record. "
+    "Source: GSBC Family Files p817; dutchcousins.org Westerfield PDF; research/81-westerfield-extended-research.json.",
+    gen=1, century=16, confidence="possible",
     children=[N(
+        "Lubbert Lubbertsen Van Westervelt (THE IMMIGRANT)",
+        "born ~1620–1626, Meppel, Drenthe, Netherlands; died before Sep 1, 1687, Hackensack, New Jersey",
+        "CONFIRMED. First Westervelt in America. The name 'Westervelt' means 'of the western fields' in Dutch, "
+        "referring to geographic area near Meppel on the east coast of the Zuider Zee. "
+        "Emigrated from Meppel, Drenthe aboard the ship 'Hope' (de Hoop), departed Apr 8, 1662, "
+        "arriving New Amsterdam (New York) Jun 29, 1662 — traveled with brother William Lubbertsen Van "
+        "Westervelt and 4+ children. Settled 1662–1672 at Flatbush, Long Island (purchased farm, sold for "
+        "4,000 guilders profit in 1672), then 1672–1687 Hackensack, New Jersey. Founding member of Dutch "
+        "Reformed Church at Hackensack (Schaarlenburgh congregation) 1686. "
+        "Married Geesje (Grace) Roelofse Van Houten (~1625, NL; died after Dec 27, 1696, Hackensack). "
+        "Source: GSBC Family Files p817; WikiTree Lubbertz-1; dutchcousins.org Westerfield PDF; "
+        "Genealogy of the Westervelt Family, Walter Tallman Westervelt (1905); research/81-westerfield-extended-research.json.",
+        gen=2, century=17, confidence="confirmed",
+        is_immigrant=True, country_flag="🇳🇱",
+        spouse="Geesje (Grace) Roelofse Van Houten (~1625, Netherlands; died after Dec 27, 1696, Hackensack, NJ)",
+        children=[N(
+            "Lubbert Lubberts Jr. Westervelt",
+            "born ~1658–1661, Meppel, Drenthe, Netherlands; died ~1694–1695, Hackensack, New Jersey",
+            "CONFIRMED. Son of Lubbert Lubbertsen (the immigrant) and Geesje Van Houten. Likely born in Meppel "
+            "before the 1662 emigration (one of the children on the ship 'Hope'). Died young in Hackensack "
+            "before his son Jan was born — hence Jan was baptized 1686 under patronymic 'Lubbertsen' (son of Lubbert). "
+            "Dutch Reformed Church records at Hackensack document this generation. "
+            "Married Hilletje Poulouse / Hilletia Paulus (born before May 22, 1661, New Amsterdam; died 1764). "
+            "Source: dutchcousins.org Westerfield PDF; GSBC p817; WikiTree Lubbertz-1; research/81-westerfield-extended-research.json.",
+            gen=3, century=17, confidence="confirmed",
+            is_immigrant=True, country_flag="🇳🇱",
+            spouse="Hilletje Poulouse / Hilletia Paulus (born before May 22, 1661, New Amsterdam; died 1764)",
+            children=[N(
+                "Jan Westervelt (Jan Lubbertse Van Westervelt)",
+                "born before Mar 27, 1686, Hackensack, Bergen County, New Jersey; died ~1730, Hackensack",
+                "CONFIRMED. Son of Lubbert Lubberts Jr. and Hilletje Poulouse. "
+                "Baptized 1686 in Dutch Reformed Church, Hackensack. "
+                "Married Dirckje Huybertse Blauvelt (born before Apr 3, 1687, NY) on May 28, 1709, Hackensack (DRC). "
+                "Children included: Jacobus Westervelt (b. Sep 7, 1712) — Hunter's direct line. "
+                "Source: GSBC Family Files p1817; WikiTree Westervelt-41; research/81-westerfield-extended-research.json.",
+                gen=4, century=17, confidence="confirmed",
+                spouse="Dirckje Huybertse Blauvelt (born before Apr 3, 1687, New York; married May 28, 1709, Hackensack DRC)",
+                children=[N(
+                    "Jacobus Westervelt Sr.",
+                    "born Sep 7, 1712, Hackensack, Bergen County, New Jersey; died Dec 6, 1743, Closter, Bergen County, New Jersey",
+                    "CONFIRMED. Son of Jan Westervelt and Dirckje Blauvelt. Died young at age 31, leaving his son "
+                    "Jacobus Jr. (future massacre victim) only ~6 years old. "
+                    "Will (Dec 6, 1743, New York Wills Lib. D, p.108) left estate to wife Deborah and sons Jacobus and "
+                    "Isaac; each son to pay £25 to sister Dirckje. Also recorded as 'James Westervelt' and 'Jacobus Van Westervelt Sr.' "
+                    "Married Debora Van Schywen on Dec 28, 1733, Schraalenburgh, Bergen County, NJ. "
+                    "Source: GSBC Family Files p1817; WikiTree Westervelt-41; research/81-westerfield-extended-research.json.",
+                    gen=5, century=18, confidence="confirmed",
+                    spouse="Debora Van Schywen (born ~Nov 10, 1717, Bergen County, NJ; married Dec 28, 1733, Schraalenburgh, NJ)",
+                    children=[N(
+                        "Jacobus (James) Westervelt / Westerfield",
+                        "born Jul 1, 1737, Tappan, Bergen County, New Jersey; KILLED Jun 27, 1780, near Thixton, Jefferson County, Kentucky — WESTERFIELD MASSACRE",
+                        "CONFIRMED. Hunter's 9th great-grandfather (maternal Westerfield line). "
+                        "Killed in the Westerfield Massacre — one of the most documented Indian attacks on Dutch settlers in "
+                        "Kentucky history (documented by Theodore Roosevelt in 'The Winning of the West, Vol.2'). "
+                        "A Shawnee-allied party attacked a group of ~30 Dutch settlers traveling the Wilderness Road from "
+                        "Louisville toward Harrodsburg. Jacobus was killed; his daughters Deborah and Polly were taken captive "
+                        "(recovered via Fort Detroit/Quebec); his wife Maria survived by hiding in a sinkhole. "
+                        "His son James Jr. (Hunter's ancestor) had stayed to serve in the Revolution and was NOT present. "
+                        "Served in Revolution: Corporal, Col. John Freer's 4th & 5th Regiments, Dutchess County NY Militia; "
+                        "likely present at Battle of Brooklyn Heights, Aug 27, 1776. "
+                        "Married Maria DeMaree / Demarest (born Oct 19, 1735, Schraalenbergh, NJ; died Feb 1799, Jefferson Co., KY) "
+                        "on Nov 5, 1754, Schraalenbergh, Bergen County, NJ. "
+                        "Source: WikiTree Westervelt-42; dutchcousins.org Westerfield PDF; Bullitt County History; research/81-westerfield-extended-research.json.",
+                        gen=6, century=18, confidence="confirmed",
+                        is_notable=True,
+                        spouse="Maria DeMaree / Demarest (born Oct 19, 1735, Schraalenbergh, NJ; died Feb 1799, Jefferson County, KY)",
+                        children=[N(
+                            "James Jacobus Westerfield Esq.",
+                            "born Aug 15, 1755, Utrecht / New Utrecht, Long Island, New York; died Jun 1, 1826, Mercer County, Kentucky",
+                            "Hunter's maternal great-great-great-great-great-great-great-grandfather. Dutch origin — the family "
+                            "anglicized the surname Westervelt to Westerfield upon settling in Kentucky. "
+                            "Survived his father's 1780 massacre because he was serving in the Revolution. "
+                            "Served as Corporal, Dutchess County NY Militia; Battle of Brooklyn Heights, Aug 27, 1776 "
+                            "(largest battle by troop count in the Revolutionary War). NSSAR Ancestor #P316901. "
+                            "Married Phoebe Cozine (born Dec 9, 1759, Readington, Somerset County, NJ; died before Jun 19, 1846, "
+                            "Harrodsburg, Mercer County, KY) — daughter of Rev. Cornelius Cozine (~1718–1786, Dutch Reformed "
+                            "minister, Conewago Colony PA) and Antje (Anna) Staats (~1722–1775). "
+                            "The Westervelt/Westerfield family is one of the oldest documented Dutch families in America, "
+                            "arriving in New Amsterdam in 1662 — over 400 years ago. "
+                            "Source: WikiTree Westerfield-59; dutchcousins.org; Walls Doris GEDCOM; research/81-westerfield-extended-research.json.",
+                            gen=7, century=18, confidence="confirmed",
+                            spouse="Phoebe Cozine (born Dec 9, 1759, Readington, Somerset County, New Jersey; died before Jun 19, 1846, Harrodsburg, Mercer County, Kentucky; "
+                                   "parents: Rev. Cornelius Cozine ~1718–1786 + Antje (Anna) Staats ~1722–1775)",
+                            children=[N(
         "Cornelius Westerfield",
         "born Feb 1, 1782, Harper's Ferry, Jefferson County, West Virginia; died Jul 30, 1852, Whitesville, Ohio County, Kentucky",
-        "Son of Jacobus Westervelt and Phoebe Cozine. Married Elizabeth Bruce (born Oct 27, 1786, Coxes Creek, "
-        "Nelson County, Kentucky; died Sep 6, 1852, Whitesville, Daviess County, Kentucky). "
+        "Son of James Jacobus Westerfield and Phoebe Cozine. Founded Westerfield Bourbon distillery in Daviess County, "
+        "Kentucky ~1810 — one of the founders of Kentucky's bourbon whiskey industry. "
+        "Married Elizabeth Bruce (born Oct 27, 1786, Coxes Creek, Nelson County, Kentucky; "
+        "died Sep 6, 1852, Whitesville, Daviess County, Kentucky). "
         "Elizabeth's parents: James Bruce (born Apr 2, 1760, Brucetown, Frederick County, Virginia; died 1835, "
         "Corydon, Harrison County, Indiana) and Mary Polly Runyan (born May 27, 1761, Frederick County, Maryland; "
         "died Feb 4, 1836, Corydon, Harrison County, Indiana). Cornelius settled in Ohio County, Kentucky. "
-        "Source: Walls Doris GEDCOM.",
-        gen=2, century=18, confidence="confirmed",
+        "Source: Walls Doris GEDCOM; research/81-westerfield-extended-research.json.",
+        gen=8, century=18, confidence="confirmed",
         spouse="Elizabeth Bruce (born Oct 27, 1786, Coxes Creek, Nelson County, Kentucky; died Sep 6, 1852, Whitesville, Kentucky)",
         children=[N(
             "Joel Hayden Westerfield Sr.",
@@ -1237,10 +1351,16 @@ WESTERFIELD_TREE = N(
                     spouse="Nancy Leona Spivey (born Mar 10, 1889, Arkansas; died Jun 15, 1971, Newark, Independence County, Arkansas)"
                 ),
             ]
-        )]
-    )]
-)
-_wester_label = "MATERNAL — Westerfield/Trifon line (Jacobus Westervelt 1755 Long Island NY → Cornelius 1782 WV → Joel Sr. 1811 KY → Joel Jr. 1853 KY → Iris 1919 AR → David Trifon → Rachel → Hunter)"
+        )]  # closes Joel Hayden Westerfield Sr. children / Cornelius children
+    )]      # closes Cornelius Westerfield children / James Jacobus children
+)]          # closes James Jacobus Westerfield Esq. children / Jacobus 1737 children
+)]          # closes Jacobus (James) Westervelt 1737 children / Jacobus Sr. children
+)]          # closes Jacobus Westervelt Sr. children / Jan Westervelt children
+)]          # closes Jan Westervelt children / Lubbert Lubberts Jr. children
+)]          # closes Lubbert Lubberts Jr. children / Lubbert immigrant children
+)]          # closes Lubbert Lubbertsen (immigrant) children / root children
+)           # closes WESTERFIELD_TREE = N(Lubbert Van Westervelt ...)
+_wester_label = "MATERNAL — Westerfield/Trifon line (Lubbert Van Westervelt, Meppel NL ~1619 → Lubbert Lubbertsen 1662 immigrant New Amsterdam → Lubbert Jr. ~1658 → Jan ~1686 → Jacobus Sr. 1712 → Jacobus 1737 KILLED MASSACRE → James Jacobus 1755 Long Island NY → Cornelius 1782 WV → Joel Sr. 1811 KY → Joel Jr. 1853 KY → Iris 1919 AR → David Trifon → Rachel → Hunter)"
 if not replace_tree("Westerfield/Trifon", WESTERFIELD_TREE, new_label=_wester_label):
     add_tree(_wester_label, WESTERFIELD_TREE)
 
@@ -1251,21 +1371,71 @@ if not replace_tree("Westerfield/Trifon", WESTERFIELD_TREE, new_label=_wester_la
 # ═══════════════════════════════════════════════════════════════════════════
 
 PADGETT_TREE = N(
+    "Benjamin Padgett (Sr.)",
+    "born ~1676, Calvert County, Maryland; died Jun 13, 1727, Charles County, Maryland",
+    "CONFIRMED. Hunter's maternal 7x great-grandfather (Padgett line). "
+    "Tobacco planter, Charles County, MD. Will (1727) left 'Wallnut Thicket' to son William and "
+    "'Paggets Purches' to son Benjamin; wife Mary named executrix. Witnesses: Henry Acton Sr., "
+    "Stephen Cawood Jr., Henry Acton Jr. (the Cawood witness confirms family connection to "
+    "Elizabeth Cawood, first wife of his son John I). His father was William Padgett (~1656, Calvert Co MD). "
+    "Source: Charles County MD will 1727; colonial-settlers-md-va.us; WikiTree Padgett-471; "
+    "research/83-padgett-extended-research.json.",
+    gen=1, century=17, confidence="confirmed",
+    spouse="Mary Stevens/Stephens (~1680–~1740, Charles County, Maryland)",
+    children=[N(
+        "John I. Padgett",
+        "born Sep 9, 1723, Charles County, Maryland; died Jun 2, 1811, Hope, Forsyth County, North Carolina",
+        "CONFIRMED. Hunter's maternal 6x great-grandfather (Padgett line). "
+        "Recorded his own birth date in a memoir (Moravian archives, 1811): 'was a little more than 3 years "
+        "old when his father died' — confirms father Benjamin died 1727. "
+        "Private in Captain Elias Delashmutt's Company, Maryland Militia (French & Indian War, Aug 1757). "
+        "Leased 50 acres at Carroll's Manor, Frederick County MD, 1767–1774. Among first settlers from "
+        "Frederick County MD to Hope community near Wachovia, NC (spring 1775) — Moravian church member. "
+        "Had 12 children across two marriages. "
+        "Source: John Padgett memoir 1811 (Moravian archives); colonial-settlers-md-va.us I54757; "
+        "Marylanders to Carolina, Henry C. Peden Jr.; research/83-padgett-extended-research.json.",
+        gen=2, century=18, confidence="confirmed",
+        spouse="Elizabeth Cawood (~1730–~1756, Carrolls Manor, Prince George's County, Maryland; first wife, married ~1746); "
+               "Mary Thrasher (1734–1787, NC; second wife, married Aug 25, 1759, Frederick County MD)",
+        children=[N(
+    "Benjamin Padgett",
+    "born Sep 15, 1755, Frederick County, Maryland; died ~Aug 1794, Stokes County, North Carolina",
+    "PROBABLE. Hunter's maternal 5x great-grandfather (Padgett line). Father of William Riley Padgett. "
+    "WikiTree Padgett-1375 notes 'no PROOF of any of Benjamin Padgett's children, but circumstantial "
+    "evidence suggests William' was his son; 1790 Stokes NC census corroborates family presence there. "
+    "Benjamin's father died 1794; widow Mary Spruill moved family (incl. son William Riley ~age 16) to "
+    "Madison County, KY ~1799. "
+    "Source: WikiTree Padgett-1375; colonial-settlers-md-va.us; fmoran.com/padgett.html; "
+    "research/83-padgett-extended-research.json.",
+    gen=3, century=18, confidence="probable",
+    spouse="Mary (Spruill) Padgett (~1755, North Carolina)",
+    children=[N(
     "William Riley Padgett",
-    "born ~1785, Virginia; died ~1855, Indiana (estimated)",
-    "Hunter's maternal 5x great-grandfather (Padgett line). Father of John J. Padgett. "
-    "Primary source: Frances Padgett GEDCOM. WikiTree alternate: wife listed as Hannah Evans (b.1776, NC) — "
-    "conflicts with GEDCOM (Anne Casey). GEDCOM takes precedence. "
-    "Padgett line may extend further: WikiTree records Benjamin Padgett (b.1755, Maryland) as possible father.",
-    gen=1, century=18, confidence="probable",
-    spouse="Anne Casey (born ~1785, Virginia; alt. source WikiTree: Hannah Evans b.1776 NC — unresolved conflict)",
+    "born ~1783, Stokes County, North Carolina; died Oct 20, 1824, Howard County, Missouri",
+    "Hunter's maternal 5x great-grandfather (Padgett line). Father of John Jefferson Padgett. "
+    "Correct birth: Stokes County, NC ~1783 (WikiTree Padgett-1375, citing 1790 Stokes NC census; "
+    "prior record incorrectly said 'Virginia 1785'). "
+    "Married Hannah Evans (~1776–1859, NC) on Feb 24, 1804, Madison County, Kentucky "
+    "(FamilySearch ark:/61903/1:1:V5ZZ-3L8 — primary source KY county marriage record). "
+    "The 'Anne Casey' wife in prior GEDCOM record is unverified and likely an error — "
+    "Hannah Evans is documented by primary source. "
+    "Died Howard County, Missouri Oct 20, 1824, aged ~41; buried Wesley Chapel Cemetery, "
+    "Armstrong, Howard County, MO (Find a Grave #179637990; Howard County Probate Records 1821–1833). "
+    "Source: WikiTree Padgett-1375; FamilySearch marriage record; research/83-padgett-extended-research.json.",
+    gen=4, century=18, confidence="probable",
+    spouse="Hannah Evans (~1776–1859, North Carolina; married Feb 24, 1804, Madison County, Kentucky)",
     children=[N(
         "John J. Padgett (Pagett)",
-        "born 1808, Vernon, Jennings County, Indiana; died Aug 14, 1873, Independence County, Arkansas",
-        "Hunter's maternal 4x great-grandfather (Padgett line). Born Indiana, died Arkansas — "
-        "early American migrant to the frontier South. "
-        "Source: Frances Padgett GEDCOM (3rd cousin 1x removed or half 2nd cousin 2x removed, maternal side).",
-        gen=2, century=19, confidence="confirmed",
+        "born ~1808, Madison County, Kentucky; died Aug 14, 1873, Independence County, Arkansas",
+        "Hunter's maternal 4x great-grandfather (Padgett line). CORRECTED birthplace: Madison County, "
+        "Kentucky (1850 census shows 'born KY', age 42; prior tree had 'Indiana' — Indiana is where "
+        "he lived in 1850, not where he was born). Father William Riley died 1824 in Missouri; the "
+        "family migrated KY→MO→Indiana. First wife: Mary Ann O'Connor (PA-born, seen in 1850 census). "
+        "Second wife: Amanda Goad/Sleydan (married Sep 24, 1861, Independence County, AR). "
+        "Died Aug 14, 1873, buried Hopewell Cemetery, Cord, Independence County, Arkansas. "
+        "Source: WikiTree Padgett-3067; 1850 Jennings IN census; 1860 Independence AR census; "
+        "Frances Padgett GEDCOM; research/83-padgett-extended-research.json.",
+        gen=5, century=19, confidence="confirmed",
         spouse="Amanda Goad (born Jul 25, 1830, Graves County, Kentucky; died Feb 6, 1911, McCracken County, Kentucky; "
                "parents: Caleb Goad 1792 VA + Elizabeth Dodson 1791 VA — see Goad ancestor tree)",
         children=[N(
@@ -1291,8 +1461,11 @@ PADGETT_TREE = N(
             )]
         )]
     )]
+)]  # closes William Riley Padgett children / Benjamin Padgett children
+)]  # closes Benjamin Padgett children / John I. Padgett children
+)]  # closes John I. Padgett children / Benjamin Padgett Sr. children
 )
-_padgett_label = "MATERNAL — Padgett ancestors (William Riley Padgett 1785 VA → John J. Padgett 1808 Indiana → William Miller 1862 AR → Bertie Jane 1888 AR)"
+_padgett_label = "MATERNAL — Padgett ancestors (Benjamin Padgett Sr. ~1676 Calvert MD → John I. Padgett 1723 Charles MD → Benjamin 1755 Frederick MD → William Riley Padgett ~1783 Stokes NC → John J. Padgett 1808 Madison KY → William Miller 1862 AR → Bertie Jane 1888 AR)"
 if not replace_tree("Padgett ancestors", PADGETT_TREE, new_label=_padgett_label):
     add_tree(_padgett_label, PADGETT_TREE)
 
@@ -1356,11 +1529,32 @@ if _pt:
 # ═══════════════════════════════════════════════════════════════════════════
 
 BALLENTINE_TREE = N(
+    "George Ballentine Sr.",
+    "born ~1635–1636, Selkirkshire, Scotland; died ~May 1702, Norfolk County, Colony of Virginia",
+    "PROBABLE Scottish immigrant ancestor of the Ballentine line. The Ballantyne/Ballentine surname is "
+    "definitively Scottish, from the lands of Bellenden in Selkirkshire/Roxburghshire (Gaelic: 'baile an "
+    "deadhain' — 'the dean's farmstead'). First confirmed American Ballentine: arrived as indentured servant, "
+    "recorded in Lower Norfolk County, Virginia court records Feb 4, 1652/53 ('George Valentine servant of "
+    "Christopher Burrow deceased, having three more years to serve'). By June 1662 he married Frances Yates "
+    "in Lower Norfolk County, VA. Had 11 children including George Jr., Thomas, William, John, Alexander, "
+    "Richard, Daniel, David, Frances, Mary, Dorothy. The Norfolk Virginia Ballentine dynasty is documented "
+    "through the late 1700s. Connection to Hunter's John Ballentine (~1800, VA/NC) is probable but unproven — "
+    "specific bridging generation (~1760–1780) not yet identified. "
+    "The Ballantyne surname appears in the Ragman Rolls of 1296 as 'Ballendyn' — swearing fealty to Edward I. "
+    "Source: WikiTree Ballentine-40; Geni.com George Ballentine Sr.; momslookups.com/generations/ballentine.html; "
+    "research/82-ballentine-extended-research.json.",
+    gen=1, century=17, confidence="probable",
+    is_immigrant=True, country_flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    spouse="Frances Yates (married June 1662, Lower Norfolk County, Virginia)",
+    children=[N(
     "John Ballentine",
     "born ~1770–1800, likely Virginia or North Carolina",
-    "Earliest confirmed Ballentine ancestor in Hunter's maternal line. Married Betty Ducatt. "
+    "Earliest confirmed Ballentine ancestor in Hunter's direct line. Married Betty Ducatt (NOT Sallie "
+    "Culbertson — that is a later generation). Sallie Culbertson married David Wyle Ballentine, two "
+    "generations below. Parents unknown as of 2026-04-27 research. Most probable origin: Norfolk County, "
+    "Virginia Ballentine line descending from George Ballentine Sr. (Scottish immigrant, ~1636–1702). "
     "Source: M.P. GEDCOM (1st cousin 2x removed or half great-grandaunt, maternal side).",
-    gen=1, century=18, confidence="probable",
+    gen=2, century=18, confidence="probable",
     spouse="Betty Ducatt",
     children=[N(
         "David Ballentine",
@@ -1441,8 +1635,9 @@ BALLENTINE_TREE = N(
             )]
         )]
     )]
+)]  # closes John Ballentine children / George Ballentine Sr. children
 )
-_ballentine_label = "MATERNAL — Ballentine ancestors (John Ballentine ~1800 VA → David d.1838 Gibson TN → John Wallace 1826 NC → David Wyle 1856 Ozark AR → Harold Ballentine → David Trifon)"
+_ballentine_label = "MATERNAL — Ballentine ancestors (George Ballentine Sr. ~1636 Selkirkshire Scotland → Norfolk VA → John Ballentine ~1800 VA → David d.1838 Gibson TN → John Wallace 1826 NC → David Wyle 1856 Ozark AR → Harold Ballentine → David Trifon)"
 if not replace_tree("Ballentine ancestors", BALLENTINE_TREE, new_label=_ballentine_label):
     add_tree(_ballentine_label, BALLENTINE_TREE)
 
@@ -1583,19 +1778,76 @@ if _ct:
 # ═══════════════════════════════════════════════════════════════════════════
 
 GOAD_TREE = N(
+    "Richard Goad (Goard / Gorde / Goade)",
+    "born ~1617–1618, England (possibly Lancashire or Cornwall); died Sep 27, 1683, Roxbury, Suffolk, Massachusetts Bay Colony",
+    "CONFIRMED. Hunter's earliest confirmed Goad ancestor — IMMIGRANT. Sailed Apr 29 / May 6, 1635 "
+    "on the ship Elizabeth and Ann from London to New England during the Puritan Great Migration "
+    "(age listed as 17 on passenger manifest). Settled Roxbury, Suffolk, Massachusetts. "
+    "Married Phoebe Hewes on Nov 30, 1639 in Roxbury (Phoebe died Feb 28, 1678/9, 'of the pox'). "
+    "Children: Hannah (1641), John (1643) — Hunter's direct ancestor, Mary (1644), Phoebe (1646), "
+    "Joseph (1647), Lydia (1652), Benjamin (1654). Later relocated from Massachusetts to Virginia "
+    "(Lancaster County area). Will (Sep 18, 1683) left everything to son Joseph with small legacies "
+    "to daughters Phoebe Andrews and Lydia Twitchell. Name spelled variously: Goard, Gorde, Goade, Goode, Goad. "
+    "English origins listed as 'unknown' by Robert Charles Anderson's Great Migration Directory p.132. "
+    "Source: WikiTree Goard-80; Anderson, Great Migration Series 2 vol.3 p.78; Roxbury church records; "
+    "Elizabeth and Ann passenger manifest 1635; research/84-goad-extended-research.json.",
+    gen=1, century=17, confidence="confirmed",
+    is_immigrant=True, country_flag="🇬🇧",
+    spouse="Phoebe Hewes (~1620, England; died Feb 28, 1678/9, Roxbury, Massachusetts, of smallpox)",
+    children=[N(
+        "John Goad",
+        "born 1643, Lancaster County, Virginia (or Massachusetts Bay Colony); died June 1666, Virginia",
+        "PROBABLE. Son of Richard Goad (the immigrant) and Phoebe Hewes. "
+        "Died young at ~age 23, leaving son Abraham as infant. "
+        "Some sources list him as born in Massachusetts Bay Colony before the family relocated to Virginia. "
+        "Married Ann [Unknown] — name beyond 'Ann' is not recorded. "
+        "Source: millerdotson.tripod.com Goad Family Connections; joepayne.org/aol/phillips/goad1.htm; "
+        "research/84-goad-extended-research.json.",
+        gen=2, century=17, confidence="probable",
+        spouse="Ann [Unknown]",
+        children=[N(
+            "Abraham Goad Sr.",
+            "born ~1665, Lancaster County, Virginia; died Apr 11, 1734, North Farnham Parish, Richmond County, Virginia",
+            "CONFIRMED. Hunter's maternal 7x great-grandfather (Goad line). Tobacco planter, Richmond County, VA. "
+            "In Lancaster County by 1682; settled Moratico Creek, north bank Rappahannock River after marriage. "
+            "Will (March 7, 1733; proved July 1, 1734) names wife Catherine and children. "
+            "Name commonly recorded as 'Goard' in contemporary records. "
+            "NOTABLE CONNECTION: Abraham Goad Sr. was great-grandfather of John Sevier (1745–1815), "
+            "first governor of Tennessee, through his daughter Hannah Goad who married [Sevier]. "
+            "Married Katherine Williams (~1668–1674, North Farnham Parish, Richmond County, VA; died May 23, 1741) ~1692. "
+            "Source: FamilySearch LY74-D3G; WikiTree Goad-21; Abraham Goad will 1734; Haas (1983) 'The Goads'; "
+            "Lancaster County VA tithable records 1687; research/84-goad-extended-research.json.",
+            gen=3, century=17, confidence="confirmed",
+            spouse="Katherine Williams (born ~1668–1674, North Farnham Parish, Richmond County, Virginia; died May 23, 1741; "
+                   "parents: John Williams (died ~1681) and Eve [Unknown] Smyth)",
+            children=[N(
     "John Goad Sr.",
-    "born ~1700, North Farnham Parish, Richmond County, Virginia",
+    "born Nov 27, 1700, North Farnham Parish, Richmond County, Virginia; died after 1771, Bedford County, Virginia",
     "Hunter's maternal 6x great-grandfather (Goad line). Early Virginia colonist, North Farnham Parish, Richmond County. "
-    "Source: web research, Virginia colonial records.",
-    gen=1, century=17, confidence="probable",
-    spouse="Hannah Ann Isham (born ~1705, Virginia, estimated)",
+    "TWO marriages: (1) Katherine Jennings (married 1722) — children Joannah, Elizabeth, John Jr. (1729), Hannah, William, Ann. "
+    "(2) Ann Isham (married Aug 11, 1734, Brunswick County, VA — SECOND wife, NOT Katherine Jennings). "
+    "CORRECTION: The prior tree listed 'Hannah Ann Isham' as spouse — all primary sources record her as "
+    "'Ann Isham' or 'Anne Isham' (born ~1699, Farnham, Richmond, VA; died 1771, Bedford County, VA). "
+    "The 'Hannah Ann' formulation was a data corruption in the source GEDCOM. "
+    "John Goad Jr. (1729) was the son of the FIRST wife, Katherine Jennings — NOT Ann Isham. "
+    "Source: Haas (1983) 'The Goads - A Pioneer Family' pp.008-009; FamilySearch LC5N-Q8V; "
+    "John Goad Sr. will (1771, Bedford County VA, Will Book 1 p.132); research/84-goad-extended-research.json.",
+    gen=4, century=17, confidence="probable",
+    spouse="Katherine Jennings (first wife, married 1722, died before 1741); "
+           "Ann Isham (second wife, born ~1699, Farnham, Richmond County, VA; married Aug 11, 1734, Brunswick County, VA; died 1771, Bedford County, VA)",
     children=[N(
         "John Goad Jr.",
-        "born 1729, Virginia",
-        "Son of John Goad Sr. and Hannah Ann Isham. Born Virginia. "
-        "Source: web research, Virginia records.",
-        gen=2, century=18, confidence="probable",
-        spouse="Margaret Chiles (born ~1730, Virginia, estimated)",
+        "born Jul 1, 1729, North Farnham Parish, Richmond County, Virginia; died ~1792–1795, Sullivan County, Virginia",
+        "Son of John Goad Sr. and his FIRST wife Katherine Jennings (NOT Ann Isham). "
+        "Born before his father's second marriage (1734) — confirmed as Katherine Jennings' son. "
+        "Married Margaret Chiles approximately 1748. Margaret is the daughter of Henry Chiles II "
+        "(1698–1746, New Kent VA) and Anna Harrelson; and granddaughter of Captain John Henry Chiles Sr. "
+        "(1671–1719, Jamestown VA) and great-granddaughter of Walter Chiles I (English immigrant to "
+        "Jamestown, arrived before 1638 — Jamestown Society qualifying ancestor). "
+        "Source: genealogy.com Goad forum; MontyHistNotes family group sheet F80; research/84-goad-extended-research.json.",
+        gen=5, century=18, confidence="probable",
+        spouse="Margaret Chiles (born ~1730, Virginia; daughter of Henry Chiles II (1698–1746 New Kent VA) + Anna Harrelson; "
+               "granddaughter of Capt. John Henry Chiles Sr. (1671–1719 Jamestown); great-granddaughter of Walter Chiles I, English immigrant to Jamestown pre-1638)",
         children=[N(
             "Thomas Goad",
             "born ~1770, Bedford County, Virginia",
@@ -1624,12 +1876,13 @@ GOAD_TREE = N(
             )]
         )]
     )]
+)]  # closes John Goad Jr. children / John Goad Sr. children
+)]  # closes John Goad Sr. children / Abraham Goad Sr. children
+)]  # closes Abraham Goad Sr. children / John Goad (1643) children
 )
-if not replace_tree("Goad ancestors", GOAD_TREE):
-    add_tree(
-        "MATERNAL — Goad ancestors (John Goad 1700 North Farnham Parish VA → John Jr. 1729 VA → Thomas 1770 Bedford VA → Caleb Goad 1792 VA → Amanda Goad 1830 Graves KY)",
-        GOAD_TREE
-    )
+_goad_label = "MATERNAL — Goad ancestors (Richard Goad immigrant 1635 New England → John Goad 1643 VA → Abraham Goad Sr. 1665 Richmond VA → John Goad Sr. 1700 North Farnham VA → John Jr. 1729 VA → Thomas 1770 Bedford VA → Caleb Goad 1792 VA → Amanda Goad 1830 Graves KY)"
+if not replace_tree("Goad ancestors", GOAD_TREE, new_label=_goad_label):
+    add_tree(_goad_label, GOAD_TREE)
 
 # Descent chain: Amanda Goad → John J. Padgett → William Miller Padgett → Bertie Jane → Jesse Westerfield → Iris → David Trifon → Rachel → Hunter
 def _add_hunter_to_goad(node):
@@ -1700,20 +1953,59 @@ if _gt:
 # ═══════════════════════════════════════════════════════════════════════════
 
 WARD_TREE = N(
+    "James Ward",
+    "ca. 1650 — after 1696, Chowan County, North Carolina",
+    "PROBABLE. Earliest documented Ward ancestor in Hunter's maternal line. "
+    "Documented in Chowan County, NC records 1694–1696: administered estate of Richard Stibell (with wife Hannah, "
+    "1694/95 probate). On Grand Jury 1696. Land grant on Yeopim River Bridge area. "
+    "Children Michael Ward and Thomas Ward documented in Chowan County probate records. "
+    "The Ward surname is English occupational (warden/guardian), originating primarily from Yorkshire/Derbyshire. "
+    "Probable origin: arrived Virginia ~1640s–1650s; family migrated VA→NC. "
+    "Source: Chowan County probate abstracts; NC Historical and Genealogical Register; "
+    "sallysfamilyplace.com/maple-lawn/james-ward-first-wife/; research/85-ward-extended-research.json.",
+    gen=1, century=17, confidence="probable",
+    spouse="Hannah [Unknown] (documented 1694/95 Chowan County probate — administered Richard Stibell estate with James Ward)",
+    children=[N(
+        "Michael Ward Sr.",
+        "born before 1674; died ~1757–1758, Chowan/Bertie County, North Carolina",
+        "PROBABLE. Son of James Ward (ca.1650). Documented in Chowan Indian land conveyances 1733–1735: "
+        "received 300 acres on Katharine Creek (1733) and 600 acres near new Poly Bridge (1734). "
+        "In 1714: Michael, Ann, and Hannah Ward witnessed a Norfolk County VA will. "
+        "Children include: Michael Ward Jr. (Hertford Co), James Ward (Bertie Co), Richard Ward (Carteret Co). "
+        "WikiTree (Ward-1068) shows Michael Ward Sr. bef.1674–1758 as grandfather of James Ward (1770, Bertie Co). "
+        "Source: NC Native Heritage Project (Chowan Indian Land Conveyances); Sally's Family Place; "
+        "WikiTree Ward-1068; research/85-ward-extended-research.json.",
+        gen=2, century=17, confidence="probable",
+        children=[N(
+            "John Ward Sr. (Tyrrell County)",
+            "born ~1705–1715, Tyrrell County, North Carolina; died ~1750, Tyrrell County, NC",
+            "PROBABLE. Son of Michael Ward Sr. Will of John Ward, Tyrrell County, NC, dated Mar 5, 1748/9, "
+            "proved September 1750. Named children in will: Michael Ward (son), John Ward (son — received "
+            "'negro Tom' + cattle), David Ward (son — received 180-acre plantation), Elizabeth Noble (daughter "
+            "— received 140-acre plantation), Dorcas Overstreet (daughter — received 100 acres on Catankne). "
+            "Tyrrell County was formed from the Chowan County area — consistent with family's Chowan roots. "
+            "Source: NC GenWeb Tyrrell County — Will of John Ward (ncgenweb.us/tyrrell/WARD1749.HTM); "
+            "research/85-ward-extended-research.json.",
+            gen=3, century=18, confidence="probable",
+            children=[N(
     "John Ward",
-    "born 1748, Chowan County, North Carolina",
-    "Hunter's maternal 5x great-grandfather (Ward line). Born colonial North Carolina, Chowan County. "
-    "Source: web research, colonial North Carolina records.",
-    gen=1, century=18, confidence="probable",
+    "born ~1748, Chowan/Tyrrell County area, North Carolina",
+    "Hunter's maternal 5x great-grandfather (Ward line). Born colonial North Carolina, Chowan/Tyrrell County area. "
+    "May be the son 'John Ward' named in the Tyrrell County will of John Ward Sr. (1748/9) who received "
+    "'a negro man named Tom' and cattle. His birth year ~1748 matches the will date exactly. "
+    "Migrated south into South Carolina — family migration pattern consistent with post-Revolution land opening. "
+    "Source: web research, colonial North Carolina records; research/85-ward-extended-research.json.",
+    gen=4, century=18, confidence="probable",
     spouse="Catherine Ward (born ~1750, North Carolina, estimated)",
     children=[N(
         "Thomas S. Ward",
-        "born 1760, Darlington County, South Carolina; died after 1830",
-        "Son of John Ward and Catherine Ward. Born Darlington County, SC — "
-        "family moved from NC to SC in this generation. "
-        "Source: web research, South Carolina census records.",
-        gen=2, century=18, confidence="probable",
-        spouse="Nancy Crompton (born ~1765, estimated)",
+        "born ~1775–1785, Darlington/Pendleton area, South Carolina (date uncertain — Darlington records burned 1785–1806)",
+        "Son of John Ward and Catherine Ward. CORRECTED birth year: cannot be born 1760 if father John Ward "
+        "was born ~1748 (he would be only ~12). Birth more likely ~1775–1785. Darlington District records "
+        "were burned making verification very difficult. Migrated to Pendleton, Anderson County SC. "
+        "Source: web research, South Carolina census records; research/85-ward-extended-research.json.",
+        gen=5, century=18, confidence="probable",
+        spouse="Nancy Crompton (born ~1775, estimated; possibly NC Compton family)",
         children=[N(
             "John Robert Ward",
             "born 1804, Pendleton, Anderson County, South Carolina; died after 1860",
@@ -1745,12 +2037,13 @@ WARD_TREE = N(
             )]
         )]
     )]
+)]  # closes John Ward (1748) children / John Ward Sr. (Tyrrell) children
+)]  # closes John Ward Sr. (Tyrrell) children / Michael Ward Sr. children
+)]  # closes Michael Ward Sr. children / James Ward (ca.1650) children
 )
-if not replace_tree("Ward ancestors", WARD_TREE):
-    add_tree(
-        "MATERNAL — Ward ancestors (John Ward 1748 Chowan NC → Thomas 1760 Darlington SC → John Robert 1804 Pendleton SC → Joseph 1833 TN → Frances Ward 1868 Strawberry AR)",
-        WARD_TREE
-    )
+_ward_label = "MATERNAL — Ward ancestors (James Ward ca.1650 Chowan NC → Michael Ward Sr. bef.1674 → John Ward Sr. Tyrrell NC ~1705 → John Ward ~1748 → Thomas ~1775 SC → John Robert 1804 Pendleton SC → Joseph 1833 TN → Frances Ward 1868 Strawberry AR)"
+if not replace_tree("Ward ancestors", WARD_TREE, new_label=_ward_label):
+    add_tree(_ward_label, WARD_TREE)
 
 # Descent chain: Frances Ward → William Miller Padgett → Bertie Jane → Jesse Westerfield → Iris → David Trifon → Rachel → Hunter
 def _add_hunter_to_ward(node):

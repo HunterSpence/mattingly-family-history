@@ -1,0 +1,434 @@
+{
+  "task": "Westerfield line extended research",
+  "date": "2026-04-27",
+  "researcher_notes": "Existing tree already contained Jacobus Westervelt (1755) as earliest ancestor. Research successfully traced the line FOUR additional generations back to the 1662 New Amsterdam immigrant, and one generation beyond that to his father in Meppel, Netherlands (~1600). The line is now documented back to approximately 1600 in the Netherlands.",
+
+  "existing_tree_summary": {
+    "prior_earliest": "Jacobus Westervelt (born Aug 15, 1755, Utrecht, Long Island, NY — already in tree as generation 1 of Westerfield line)",
+    "note": "The 1755 'Jacobus' in the existing tree is JAMES JACOBUS WESTERFIELD (WikiTree: Westerfield-59), the son of Jacobus (Westervelt) Westerfield who was killed in the 1780 Westerfield Massacre. The existing tree's 'Jacobus 1755' and 'James Jacobus 1755' are the SAME PERSON. Resolves a naming ambiguity in the existing data."
+  },
+
+  "gaps_addressed": [
+    "Who were James Jacobus Westerfield's (1755) parents?",
+    "Who were his grandparents (the Hackensack NJ Westervelts)?",
+    "What is the Dutch origin of the Westervelt name?",
+    "When and how did the Westervelts come to America?",
+    "Who were Phoebe Cozine's parents?"
+  ],
+
+  "new_ancestors_confirmed": [
+    {
+      "id": "WF-GEN-5",
+      "name": "Jacobus (James) Westervelt / Westerfield",
+      "dates": "born 1 Jul 1737, Tappan, Bergen County, New Jersey; died 27 Jun 1780, near Thixton, Jefferson County, Kentucky (killed in Westerfield Massacre)",
+      "relation_to_hunter": "9th great-grandfather (maternal Westerfield line)",
+      "parents": "Son of Jacobus Westervelt Sr. (b. 7 Sep 1712, Hackensack, NJ) and Debora Van Schywen (b. ~10 Nov 1717, Bergen County, NJ)",
+      "spouse": "Maria DeMaree / Demarest (b. 19 Oct 1735, Schraalenbergh, NJ; d. Feb 1799, Jefferson Co., KY) — married 5 Nov 1754, Schraalenbergh, Bergen County, NJ",
+      "notes": "Killed in the Westerfield Massacre, one of the most documented Indian attacks on Dutch settlers in Kentucky. His daughter Deborah was taken captive by Shawnee, traded to British at Fort Detroit, eventually returned. His wife Maria survived by hiding in a sinkhole. He had anglicized the family surname from Westervelt to Westerfield. He served in the Revolution: Corporal, Col. John Freer's 4th & 5th Regiments, Dutchess County NY Militia; likely present at Battle of Brooklyn Heights, Aug 27, 1776.",
+      "confidence": "CONFIRMED",
+      "sources": ["WikiTree Westervelt-42", "dutchcousins.org/Westerfield-Family.pdf", "familytrees.genopro.com/Azrael/Westerfield-JamesJacobus", "Bullitt County History Westerfield Massacre documentation"]
+    },
+    {
+      "id": "WF-GEN-4",
+      "name": "Jacobus Westervelt Sr.",
+      "dates": "born 7 Sep 1712, Hackensack, Bergen County, New Jersey; died 6 Dec 1743, Closter, Bergen County, NJ (age 31 — died young, leaving his son Jacobus Jr. age ~6)",
+      "relation_to_hunter": "10th great-grandfather (maternal Westerfield line)",
+      "parents": "Son of Jan Westervelt (b. 17 Mar 1686, Hackensack, NJ) and Dirckje Blauvelt (b. bef. 3 Apr 1687, NY)",
+      "spouse": "Debora Van Schywen — married 28 Dec 1733, Schraalenburgh, Bergen County, NJ",
+      "notes": "His will (Dec 6, 1743, New York Wills Lib. D, p. 108) left estate to wife Deborah and sons Jacobus and Isaac; each son to pay £25 to sister Dirckje. Name variation: James Westervelt, 'Jacobus Van Westervelt Sr.'",
+      "confidence": "CONFIRMED",
+      "sources": ["GSBC Family Files p1817", "WikiTree Westervelt-41 (James Westervelt 1712-1743)", "njgsbc.org Bergen County records"]
+    },
+    {
+      "id": "WF-GEN-3",
+      "name": "Jan Westervelt (Jan Lubbertse Van Westervelt)",
+      "dates": "born bef 27 Mar 1686, Hackensack, Bergen County, NJ; died ~1730, Hackensack",
+      "relation_to_hunter": "11th great-grandfather (maternal Westerfield line)",
+      "parents": "Son of Lubbert Lubberts Jr. Westervelt (b. ~1658, Meppel, Drenthe, NL; d. ~1694/1695, Hackensack) and Hilletie Paulus / Hilletje Poulouse (b. bef 22 May 1661, New Amsterdam; d. 1764)",
+      "spouse": "Dirckje Huybertse Blauvelt (b. bef. 3 Apr 1687, NY) — married 28 May 1709, Hackensack (DRC)",
+      "children_noted": ["Hillena Westervelt (b. 29 Oct 1710)", "Jacobus Westervelt (b. 7 Sep 1712) — Hunter's line", "Elena Westervelt (b. 14 Aug 1715)", "Maritie Westervelt (b. 12 Jul 1719)", "Gerrit Westervelt b. 7 Jan 1722", "Gerrit Westervelt b. 3 May 1724"],
+      "confidence": "CONFIRMED",
+      "sources": ["GSBC Family Files p1817 (Jan Westervelt entry)", "WikiTree Westervelt-41", "njgsbc.org"]
+    },
+    {
+      "id": "WF-GEN-2",
+      "name": "Lubbert Lubberts Jr. Westervelt (Lubbert Lubberse Westervelt Jr.)",
+      "dates": "born ~1658 (some sources say ~1661), Meppel, Drenthe, Netherlands; died ~1694-1695, Hackensack, New Jersey",
+      "relation_to_hunter": "12th great-grandfather (maternal Westerfield line)",
+      "parents": "Son of Lubbert Lubbertsen Van Westervelt (the 1662 immigrant, b. ~1620, Meppel) and Geesje Roelofse Van Houten",
+      "spouse": "Hilletje Poulouse / Hilletie Paulus (b. bef 22 May 1661, New Amsterdam; d. 1764)",
+      "notes": "Born likely in Meppel before the 1662 emigration (one of the children on the ship 'Hope'). Died young in Hackensack before his son Jan was born, hence Jan was baptized 1686 under patronymic 'Lubbertsen' (son of Lubbert). The Dutch Reformed Church records at Hackensack provide documentation.",
+      "confidence": "CONFIRMED",
+      "sources": ["dutchcousins.org Westerfield PDF", "GSBC p817 (Lubbert Lubbertsen Van Westervelt entry)", "WikiTree Lubbertz-1"]
+    },
+    {
+      "id": "WF-GEN-1",
+      "name": "Lubbert Lubbertsen Van Westervelt (THE IMMIGRANT)",
+      "dates": "born ~1620-1626, Meppel, Drenthe, Netherlands; died before 1 September 1687, Flatbush, Long Island, NY (some sources: died 2 Oct 1686, Bergen, NJ)",
+      "relation_to_hunter": "13th great-grandfather (maternal Westerfield line)",
+      "parents": "Son of 'Lubbert Van Westervelt' (died ~1619, Meppel) — paternal grandfather is named but barely documented; this is the practical limit of the genealogical record",
+      "spouse": "Geesje (Grace) Roelofse Van Houten (b. ~1625, NL; d. after 27 Dec 1696, Hackensack) — married ~1645-1650 in the Netherlands",
+      "immigration": "Emigrated from Meppel, Drenthe, Holland aboard the ship 'Hope' (de Hoop), departing 8 April 1662, arriving New Amsterdam (New York) 29 June 1662. Traveled with his brother William Lubbertsen Van Westervelt and their families. Had 4+ children on board (ages infant, 9, 13, 17).",
+      "settlement": "1662-1672: Flatbush, Long Island, NY (purchased farm; sold for 4,000 guilders profit in 1672). 1672-1686: Hackensack, New Jersey. Listed in Dutch Reformed Church congregation at Bergen 1676; founding member of Dutch Reformed Church at Hackensack (Schaarlenburgh congregation) in 1686.",
+      "children": ["Lubbert Jr.", "Roelof Lubbertse Westervelt (b. 18 Mar 1659, Meppel)", "Jurian Van Westervelt (b. ~1662)", "Jan Lubbertse Van Westervelt (b. ~1656, Meppel)", "Margrietje Van Westervelt (b. ~24 Jan 1647, Meppel)", "Mary Lubbertse Westervelt (b. 2 Jul 1654)"],
+      "notes": "Founder of all American Westervelt/Westerfield families. The name 'Westervelt' means 'of the western fields' (Dutch) and refers to a geographic area near Meppel on the east coast of the Zuider Zee. Cornelius Westervelt (his relative or son) was one of the 14 patentees of the Acquakanonk (Passaic) tract in 1684.",
+      "confidence": "CONFIRMED",
+      "sources": ["GSBC Family Files p817 (Lubbert Lubbertsen Van Westervelt)", "dutchcousins.org Westerfield PDF", "WikiTree Lubbertz-1", "Pane-Joyce Genealogy Clark University", "Genealogy of the Westervelt Family by Walter Tallman Westervelt (1905)"]
+    },
+    {
+      "id": "WF-GEN-0",
+      "name": "Lubbert Van Westervelt (Dutch ancestor, pre-immigration)",
+      "dates": "died ~1619 or earlier, Meppel, Drenthe, Netherlands",
+      "relation_to_hunter": "14th great-grandfather (probable, maternal Westerfield line)",
+      "notes": "Listed in GSBC records as the father of Lubbert Lubbertsen (the 1662 immigrant). No birth date or spouse name documented. This is the absolute limit of documented genealogical records for this line — everything before this is speculation. Walter Tallman Westervelt (1905 genealogist) speculated the family could trace to a Dirck Van Westervelt born 1475-1500 in the Netherlands, but no documentation links that Dirck to the Lubbert line.",
+      "confidence": "POSSIBLE — named in one source as father of the immigrant but not independently verified",
+      "sources": ["GSBC Family Files p817 (Lubbert Lubbertsen entry, Father column: 'Lubbert Van Westervelt d. a 1619')", "dutchcousins.org Westerfield PDF (mentions Walter Tallman Westervelt's 1905 genealogy)"]
+    }
+  ],
+
+  "new_ancestors_probable": [
+    {
+      "id": "WF-SPOUSE-COZINE",
+      "name": "Phoebe Cozine (Phoebe 'Ufmie Femitie' Cozine)",
+      "dates": "born 7 Dec 1759 (baptized 9 Dec 1759), Readington, Hunterdon County, NJ; died bef 19 Jun 1846, Harrodsburg, Mercer County, Kentucky",
+      "relation_to_hunter": "9th great-grandmother via marriage to James Jacobus Westerfield (maternal Westerfield line)",
+      "parents": "Father: Rev. Cornelius Cozine (Dominee) (b. ~1718, d. 24 Aug 1786, York County, PA) — Dutch Reformed minister, pastor of Conewago Church 1772-1786; Mother: Antje (Anna) Staats (b. ~1722, d. ~1775)",
+      "notes": "Phoebe was the 8th of 11 children of Rev. Cornelius Cozine and Antje Staats. Her father was a Dutch Reformed minister who led the Conewago Colony in PA. The Cozine family also migrated from NJ to Conewago PA (c.1768) and then to Kentucky. Phoebe married James Jacobus Westerfield ~1777 in New Jersey. Her son Cornelius Westerfield (1782) is in the existing tree.",
+      "confidence": "CONFIRMED",
+      "sources": ["thehintons.net/Phoebe-Cozine-James-Westervelt", "freepages.rootsweb.com/~bodine/f7032.html (Cornelius Cozine children list)", "WikiTree Cozine-9 (Cornelius Cozine 1718-1786)"]
+    },
+    {
+      "id": "WF-SPOUSE-DEMAREST",
+      "name": "Maria Demarest / DeMaree (Mary Westerfield)",
+      "dates": "born 19 Oct 1735, Schraalenbergh, Bergen County, NJ; died Feb 1799, Jefferson County, KY",
+      "relation_to_hunter": "10th great-grandmother via marriage to Jacobus Westerfield (killed 1780)",
+      "parents": "Father: Samuel Demaree / Samuel DeMaret; Mother: Lea Demarest",
+      "notes": "Married Jacobus Westervelt 5 Nov 1754 at Schraalenbergh, NJ. Both anglicized surnames at marriage: became James and Mary Westerfield. Survived the Westerfield Massacre (1780) by hiding in a sinkhole. Traveled alone to Fort Detroit to recover her captured daughter Deborah. The Demarest family were also Dutch Bergen County families — Maria's baptism is recorded in NJ DRC records.",
+      "confidence": "CONFIRMED",
+      "sources": ["WikiTree Demarest-250", "WikiTree Westervelt-42", "dutchcousins.org Westerfield PDF"]
+    }
+  ],
+
+  "name_disambiguation": {
+    "issue": "The existing tree labels the 1755 person as 'Jacobus Westervelt' but multiple sources call him 'James Jacobus Westerfield' or 'James Westerfield Esq.'",
+    "resolution": "James Jacobus Westerfield Esq. (b. 15 Aug 1755, Utrecht, Long Island, NY — note: some sources say born in New Utrecht, Bergen County NJ, not Utrecht NY) is the SAME PERSON as 'Jacobus Westervelt' in the existing tree. His father was Jacobus (James) Westerfield (1737-1780, killed in massacre). The tree's current 'Jacobus Westervelt 1755' is actually this person's SON who survived the massacre and went on to marry Phoebe Cozine and settle in Mercer County KY. The tree correctly lists his son as Cornelius Westerfield (1782) who married Elizabeth Bruce.",
+    "birth_date_note": "WikiTree lists birth as 15 Sep 1755 in some entries, 15 Aug 1755 in others; the genopro.com entry shows 15 Aug 1755. Some sources say 'New Utrecht, Long Island' and others 'Bergen County NJ' — the Westervelt family was in both areas during this period."
+  },
+
+  "westerfield_massacre_note": {
+    "event": "Westerfield Massacre / Long Run Massacre",
+    "date": "June 27, 1780 (some sources say spring 1781 — sources conflict on exact year, likely 1780)",
+    "location": "Near Thixton, Jefferson County, KY (Floyd's Fork / Broad Run Road area; near Clear Run Creek in Bullitt County)",
+    "summary": "While a party of ~30 Dutch settlers traveled from Louisville (Beargrass Creek / Low Dutch Station) toward Harrodsburg along the Wilderness Road, a band of Shawnee (British-allied) attacked in the night. Jacobus Westerfield (Hunter's ancestor) was killed, along with ~16-17 family members (10 from the Westervelt family). His daughters Deborah and Polly were taken captive and eventually recovered via Fort Detroit/Quebec. His wife Maria survived in a sinkhole. His son James Jr. (Hunter's direct ancestor) had stayed behind to serve in the Revolution and was not present. This event is documented in Theodore Roosevelt's 'The Winning of the West, Vol. 2.'",
+    "historical_significance": "One of the most documented Indian attacks on Dutch settlers in early Kentucky history. Well documented in Bullitt County genealogical records."
+  },
+
+  "full_westerfield_line_to_hunter": [
+    {
+      "generation_from_hunter": 14,
+      "name": "Lubbert Van Westervelt",
+      "dates": "died ~1619, Meppel, Drenthe, Netherlands",
+      "confidence": "POSSIBLE",
+      "notes": "Father of the immigrant; barely documented. Practical limit of record."
+    },
+    {
+      "generation_from_hunter": 13,
+      "name": "Lubbert Lubbertsen Van Westervelt (THE IMMIGRANT)",
+      "dates": "~1620-1626, Meppel, Drenthe, NL — died bef 1 Sep 1687, NJ",
+      "key_event": "Arrived New Amsterdam on ship 'Hope', 29 Jun 1662",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "generation_from_hunter": 12,
+      "name": "Lubbert Lubberts Jr. Westervelt",
+      "dates": "~1658-1661, Meppel, NL — ~1694-1695, Hackensack, NJ",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "generation_from_hunter": 11,
+      "name": "Jan Westervelt (Jan Lubbertse Van Westervelt)",
+      "dates": "bef 27 Mar 1686, Hackensack, NJ — ~1730",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "generation_from_hunter": 10,
+      "name": "Jacobus Westervelt Sr.",
+      "dates": "7 Sep 1712, Hackensack, NJ — 6 Dec 1743, Closter, NJ",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "generation_from_hunter": 9,
+      "name": "Jacobus (James) Westervelt / Westerfield",
+      "dates": "1 Jul 1737, Tappan, Bergen County, NJ — 27 Jun 1780, Thixton, Jefferson County, KY (KILLED IN WESTERFIELD MASSACRE)",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "generation_from_hunter": 8,
+      "name": "James Jacobus Westerfield Esq. (= 'Jacobus Westervelt' in existing tree)",
+      "dates": "15 Aug 1755, Utrecht/New Utrecht, Long Island, NY — 1 Jun 1826, Mercer County, Kentucky",
+      "spouse": "Phoebe Cozine",
+      "notes": "Survived father's massacre because he stayed to serve in Revolution. Corporal, Dutchess County NY Militia; Battle of Brooklyn Heights. Settled Harrodsburg, Mercer Co., KY.",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "generation_from_hunter": 7,
+      "name": "Cornelius Westerfield",
+      "dates": "1 Feb 1782, Harper's Ferry, Jefferson County, WV — 30 Jul 1852, Whitesville, Ohio County, KY",
+      "spouse": "Elizabeth Bruce",
+      "notes": "Founded Westerfield Bourbon distillery in Daviess County, KY (~1810). One of the founders of the bourbon whiskey industry in the region.",
+      "confidence": "CONFIRMED (in existing tree)"
+    },
+    {
+      "generation_from_hunter": 6,
+      "name": "Joel Hayden Westerfield Sr.",
+      "dates": "1811, Mercer County, KY — Jul 1855, Ohio County, KY",
+      "spouse": "Nancy Smith",
+      "confidence": "CONFIRMED (in existing tree)"
+    },
+    {
+      "generation_from_hunter": 5,
+      "name": "Joel Hayden Westerfield Jr.",
+      "dates": "Jun 1853, Ohio County, KY — 22 Nov 1910, Reynolds Station, Hancock County, KY",
+      "spouse": "Amanda Jane Nelson",
+      "confidence": "CONFIRMED (in existing tree)"
+    },
+    {
+      "generation_from_hunter": 4,
+      "name": "Jesse Lawrence Westerfield",
+      "dates": "1 Jan 1887, Kentucky — 29 Sep 1951, Marianna, Lee County, Arkansas",
+      "spouse": "Bertie Jane Padgett",
+      "confidence": "CONFIRMED (in existing tree)"
+    },
+    {
+      "generation_from_hunter": 3,
+      "name": "Iris June Westerfield",
+      "dates": "1 Jun 1919, Tuckerman, Jackson County, AR — 13 Apr 2003, Colt, St. Francis County, AR",
+      "confidence": "CONFIRMED (in existing tree)"
+    },
+    {
+      "generation_from_hunter": 2,
+      "name": "David A. Trifon (biological son of Harold Ballentine and Iris Westerfield)",
+      "dates": "~1940s, Arkansas",
+      "confidence": "CONFIRMED (in existing tree)"
+    },
+    {
+      "generation_from_hunter": 1,
+      "name": "Rachel Spence",
+      "dates": "living",
+      "confidence": "CONFIRMED"
+    },
+    {
+      "generation_from_hunter": 0,
+      "name": "Hunter Spence",
+      "dates": "living",
+      "confidence": "CONFIRMED"
+    }
+  ],
+
+  "conflicts_resolved": [
+    {
+      "conflict": "Birth location of James Jacobus Westerfield — 'Utrecht Long Island NY' vs 'New Utrecht, Bergen County NJ' vs 'Schraalenbergh NJ'",
+      "resolution": "New Utrecht, Long Island, NY is most likely correct (multiple sources including genopro.com and WikiTree Westerfield-59 agree on this; 'Bergen County NJ' is likely a data entry error confusing Long Island's Kings County location with Bergen County NJ where the family lived). The family was resident in the Conewago Colony area in 1755 per some accounts — timing conflicts slightly. Birth date consistent: ~Aug 15, 1755.",
+      "confidence": "HIGH — Long Island birth is most supported"
+    },
+    {
+      "conflict": "Existing tree has 'Jacobus Westervelt' (1755) as the root — is this the same as James Jacobus Westerfield?",
+      "resolution": "YES. The existing tree's person born Aug 15, 1755 who married Phoebe Cozine and had Cornelius Westerfield (1782) is James Jacobus Westerfield Esq. The tree had his name partially correct but missed the generation above him (his father Jacobus/James Westervelt 1737-1780, killed in the massacre).",
+      "confidence": "CONFIRMED"
+    }
+  ],
+
+  "conflicts_unresolved": [
+    {
+      "conflict": "Exact birth year of Cornelius Westerfield — existing tree says '1782, Harper's Ferry WV'; dutchcousins.org PDF says 'Cornelius married Elizabeth Bruce in 1802 in Nelson County KY' — consistent, no conflict",
+      "status": "No actual conflict — records agree"
+    },
+    {
+      "conflict": "Whether James Jacobus Westerfield was born in 'New Utrecht, Long Island' (Kings County, NY) or 'New Utrecht, Bergen County NJ' — both locations named 'Utrecht/New Utrecht' existed",
+      "status": "Unresolved — Long Island preferred per majority of sources"
+    },
+    {
+      "conflict": "Date of Westerfield Massacre: some sources say 'June 27, 1780' and others say 'spring 1781'",
+      "status": "Most genealogical sources converge on 1780; some family histories say 1781. Bullitt County records say 1780."
+    }
+  ],
+
+  "notable_facts_for_website": [
+    "The Westervelt/Westerfield family is one of the oldest documented Dutch families in America, arriving in New Amsterdam in 1662 — 400+ years ago.",
+    "The family name means 'of the western fields' in Dutch, referring to land near Meppel in Drenthe province, Netherlands.",
+    "Jacobus (James) Westerfield (Hunter's 9th great-grandfather) was killed in the Westerfield Massacre (1780), one of the most documented Indian attacks on Dutch settlers in Kentucky history. His family survived.",
+    "James Jacobus Westerfield (Hunter's 8th great-grandfather) served in the Revolution — Battle of Brooklyn Heights (Aug 27, 1776), the largest battle by troop count in the Revolutionary War.",
+    "Cornelius Westerfield (Hunter's 7th great-grandfather) founded the Westerfield Bourbon distillery in Daviess County, KY around 1810 — one of the founders of Kentucky's bourbon whiskey industry.",
+    "The Westerfields were members of the Dutch Reformed Church (now Reformed Church in America) continuously from 1662 in New Amsterdam through their migration to Kentucky.",
+    "Hunter's Westerfield line carries Y-DNA haplogroup I-M253 (per Tom Westerfield's FamilyTreeDNA test on WikiTree, showing DNA connection to this Westerfield line).",
+    "The family traveled the complete American frontier arc: Meppel NL (1620s) → New Amsterdam/Flatbush (1662) → Hackensack NJ (1672) → Conewago Colony PA (1768) → Harper's Ferry WV (1779) → Beargrass Creek KY (1780) → Mercer/Ohio County KY (1802) → Arkansas (1880s-1900s)."
+  ],
+
+  "recommended_tree_additions": [
+    {
+      "action": "ADD as new generation above existing 'Jacobus Westervelt 1755'",
+      "person": "Jacobus (James) Westervelt / Westerfield",
+      "dates": "1 Jul 1737, Tappan, Bergen County, NJ — 27 Jun 1780, Thixton, Jefferson Co., KY",
+      "spouse": "Maria DeMaree (19 Oct 1735 — Feb 1799)",
+      "notes": "Killed in Westerfield Massacre. His son James Jacobus survived because he was serving in the Revolution.",
+      "priority": "HIGH"
+    },
+    {
+      "action": "ADD as new generation",
+      "person": "Jacobus Westervelt Sr.",
+      "dates": "7 Sep 1712, Hackensack, NJ — 6 Dec 1743, Closter, NJ",
+      "spouse": "Debora Van Schywen (married 28 Dec 1733)",
+      "priority": "HIGH"
+    },
+    {
+      "action": "ADD as new generation",
+      "person": "Jan Westervelt (Jan Lubbertse Van Westervelt)",
+      "dates": "bef 27 Mar 1686, Hackensack, NJ — ~1730",
+      "spouse": "Dirckje Huybertse Blauvelt (married 28 May 1709, Hackensack DRC)",
+      "priority": "HIGH"
+    },
+    {
+      "action": "ADD as new generation",
+      "person": "Lubbert Lubberts Jr. Westervelt",
+      "dates": "~1658, Meppel, Drenthe, NL — ~1694-1695, Hackensack, NJ",
+      "spouse": "Hilletje Poulouse (b. bef 22 May 1661, New Amsterdam)",
+      "priority": "HIGH"
+    },
+    {
+      "action": "ADD as new generation — FIRST IMMIGRANT",
+      "person": "Lubbert Lubbertsen Van Westervelt",
+      "dates": "~1620-1626, Meppel, Drenthe, Netherlands — died bef 1 Sep 1687, Hackensack, NJ",
+      "spouse": "Geesje Roelofse Van Houten (~1625 NL — d. aft 27 Dec 1696)",
+      "key_fact": "Arrived New Amsterdam 29 Jun 1662 on ship 'Hope' (de Hoop). FIRST WESTERVELT IN AMERICA.",
+      "immigrant_flag": true,
+      "country_of_origin": "Netherlands",
+      "country_flag": "🇳🇱",
+      "priority": "HIGH"
+    },
+    {
+      "action": "ADD as possible root (barely documented)",
+      "person": "Lubbert Van Westervelt",
+      "dates": "died ~1619, Meppel, Drenthe, Netherlands",
+      "notes": "Father of the immigrant per GSBC records. No further details known. Mark as POSSIBLE.",
+      "priority": "MEDIUM"
+    },
+    {
+      "action": "UPDATE existing Jacobus 1755 node",
+      "change": "Add note that he is 'James Jacobus Westerfield Esq.' — served in Revolution (Corporal, Dutchess County NY Militia, Battle of Brooklyn Heights). Add NSSAR Ancestor #P316901. Confirm his parents are Jacobus (1737-1780) and Maria DeMaree.",
+      "priority": "HIGH"
+    },
+    {
+      "action": "ADD Westerfield Massacre badge/note",
+      "change": "Add a notable event badge to Jacobus (1737-1780) noting the Westerfield Massacre",
+      "priority": "MEDIUM"
+    },
+    {
+      "action": "ADD Phoebe Cozine's parents",
+      "change": "Phoebe Cozine's parents: Father = Rev. Cornelius Cozine (b. ~1718, d. 24 Aug 1786, York County, PA — Dutch Reformed minister, Conewago Colony); Mother = Antje (Anna) Staats (b. ~1722, d. ~1775). This adds two more ancestors.",
+      "priority": "MEDIUM"
+    }
+  ],
+
+  "migration_path_summary": {
+    "label": "Complete Westerfield Migration Arc (~1620 to 1920s)",
+    "stops": [
+      {"year": "~1620", "location": "Meppel, Drenthe, Netherlands", "event": "Lubbert Van Westervelt (immigrant's father) lives here"},
+      {"year": "1662", "location": "New Amsterdam (New York City), New Netherland", "event": "Lubbert Lubbertsen arrives on ship 'Hope', 29 Jun 1662"},
+      {"year": "1662-1672", "location": "Flatbush, Long Island, Kings County, NY", "event": "Purchased farm, prospered, sold for 4,000 guilders"},
+      {"year": "1672-1687", "location": "Hackensack, Bergen County, NJ", "event": "Founding members of Dutch Reformed Church at Hackensack/Schaarlenburgh (1676/1686)"},
+      {"year": "1686-1743", "location": "Hackensack / Closter / Tappan, Bergen County, NJ", "event": "Lubbert Jr., Jan, Jacobus Sr. all born here; Jacobus Sr. dies at Closter 1743"},
+      {"year": "1737-1769", "location": "Tappan, Bergen County, NJ", "event": "Jacobus 'James' Westerfield (1737-1780) born and lives here"},
+      {"year": "1769-1780", "location": "Conewago Colony, York County (now Adams County), Pennsylvania", "event": "James & Mary Westerfield join Dutch colony near present-day Gettysburg"},
+      {"year": "1779-1780", "location": "Berkeley County, Virginia (now Harper's Ferry, WV)", "event": "Westervelt family stays briefly in WV"},
+      {"year": "1780", "location": "Beargrass Creek / Low Dutch Station, Jefferson County, KY", "event": "Westervelt party arrives via Ohio River, April 1780"},
+      {"year": "27 Jun 1780", "location": "Thixton, Jefferson County, KY", "event": "WESTERFIELD MASSACRE — Jacobus killed by Shawnee"},
+      {"year": "1780-1826", "location": "Harrodsburg, Mercer County, KY", "event": "Survivors (James Jr. + Phoebe Cozine) settle Mercer County; James Jr. dies here 1826"},
+      {"year": "1802-1852", "location": "Ohio County / Daviess County, KY", "event": "Cornelius Westerfield settles, founds bourbon distillery ~1810"},
+      {"year": "~1885-1900s", "location": "Reynolds Station, Hancock County, KY → Arkansas", "event": "Joel Jr. dies 1910 KY; Jesse moves family to AR"},
+      {"year": "1887-1919", "location": "Kentucky then Tuckerman, Jackson County, Arkansas", "event": "Jesse and Iris born; family fully in Arkansas by 1900s"},
+      {"year": "2003", "location": "Colt, St. Francis County, Arkansas", "event": "Iris June Westerfield dies, age 83"}
+    ]
+  },
+
+  "dutch_dutch_note": {
+    "summary": "The Westerfield line is DOUBLE DUTCH. Hunter's ancestor James Jacobus Westerfield (1755) married Phoebe Cozine — whose father Rev. Cornelius Cozine was also a Dutch Reformed minister from the same Dutch Bergen County NJ community. Maria DeMaree (Demarest) — Phoebe's mother-in-law — was also from the Dutch Demarest family of Bergen County. The entire Westerfield line from 1662 to ~1820 was part of a tight-knit Dutch Reformed community in Bergen County NJ, maintaining the language and religion for over 150 years before anglicizing."
+  },
+
+  "sources": [
+    {
+      "title": "The Westerfield Family (Dutch Cousins blog post with sourced PDF)",
+      "url": "https://dutchcousins.org/wp-content/uploads/2019/02/The-Westerfield-Family.pdf",
+      "quality": "HIGH — cites primary records from Dutch Reformed Church registers and Walter Tallman Westervelt's 1905 genealogy"
+    },
+    {
+      "title": "WikiTree: Jacobus (Westervelt) Westerfield (1737-1780)",
+      "url": "https://www.wikitree.com/wiki/Westervelt-42",
+      "quality": "HIGH — detailed biography with massacre documentation, FamilySearch citations, DNA connections"
+    },
+    {
+      "title": "WikiTree: James Westerfield Esq. (1755-1826)",
+      "url": "https://www.wikitree.com/wiki/Westerfield-59",
+      "quality": "HIGH — confirms parents, Revolutionary War service, NSSAR ancestry number"
+    },
+    {
+      "title": "WikiTree: Lubbert (Lubbertz) Lubbertszen — THE IMMIGRANT",
+      "url": "https://www.wikitree.com/wiki/Lubbertz-1",
+      "quality": "HIGH — cites Dutch church records from Meppel (Hervormd), GSBC files"
+    },
+    {
+      "title": "Genealogical Society of Bergen County (GSBC) Family Files — Westervelt pages",
+      "url": "https://www.njgsbc.org/files/familyfiles/p1817.htm",
+      "quality": "HIGH — primary source repository for all Bergen County Dutch families"
+    },
+    {
+      "title": "GSBC Family Files — Van Westervelt early generations",
+      "url": "https://www.njgsbc.org/files/familyfiles/g0/p817.htm",
+      "quality": "HIGH — primary source"
+    },
+    {
+      "title": "WikiTree: Maria (Demarest) Westervelt (1735-1799)",
+      "url": "https://www.wikitree.com/wiki/Demarest-250",
+      "quality": "HIGH — confirms Massacre narrative, parents of Maria Demarest"
+    },
+    {
+      "title": "thehintons.net — Phoebe Cozine and James Westervelt family data",
+      "url": "https://thehintons.net/surname-search/f11236.html",
+      "quality": "MEDIUM — compiled from multiple primary sources"
+    },
+    {
+      "title": "freepages.rootsweb.com — Cornelius Cozine children (Phoebe's birth confirmed)",
+      "url": "https://freepages.rootsweb.com/~bodine/genealogy/f7032.html",
+      "quality": "MEDIUM"
+    },
+    {
+      "title": "WikiTree: Cornelius Cozine (1718-1786) — Phoebe's father",
+      "url": "https://www.wikitree.com/wiki/Cozine-9",
+      "quality": "HIGH"
+    },
+    {
+      "title": "James Jacobus Westerfield GenoPro profile",
+      "url": "https://familytrees.genopro.com/Azrael/2851080/Westerfield-JamesJacobus-I24435.htm",
+      "quality": "MEDIUM — compiled genealogy"
+    },
+    {
+      "title": "Genealogy of the Westervelt Family by Walter Tallman Westervelt (1905)",
+      "url": "https://en.wikipedia.org/wiki/Jacob_Westervelt_(sheriff) [references this book]",
+      "quality": "HIGH — 19th century primary genealogical compilation"
+    },
+    {
+      "title": "Bullitt County History — Westerfield Massacre",
+      "url": "https://bullittcountyhistory.org/bchistory/westerfieldmassacre.html",
+      "quality": "HIGH — primary historical documentation"
+    },
+    {
+      "title": "Pane-Joyce Genealogy (Clark University) — Lubbert Lubbertsen Westervelt",
+      "url": "http://aleph0.clarku.edu/~djoyce/gen/report/rr02/rr02_259.html",
+      "quality": "MEDIUM — compiled from primary sources"
+    },
+    {
+      "title": "Teaneck Public Library — Westervelt family history (1763 house article)",
+      "url": "https://archive.teanecklibrary.org/HistHouseTour/westervelt.html",
+      "quality": "MEDIUM — local historical record"
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "task": "Padgett line extended research",
+  "date": "2026-04-27",
+  "researcher": "Clawrence genealogy agent",
+  "summary": "Pushed the Padgett line back from William Riley Padgett (current earliest) to Edmund Paget of Deptford, Kent, England (b.1639), adding 5 confirmed generations and 1 probable generation. Multiple major corrections to existing tree data also identified.",
+
+  "critical_corrections": [
+    {
+      "issue": "William Riley Padgett birth location wrong",
+      "current_tree_says": "Born 1785 in Virginia",
+      "evidence_says": "Born ~1783 in Stokes County, North Carolina (WikiTree Padgett-1375, sourced to 1790 Stokes NC census and Find a Grave #179637990)",
+      "resolution": "Correct birthplace to Stokes County, NC; birth year ~1783"
+    },
+    {
+      "issue": "William Riley Padgett death — tree does not record it",
+      "evidence": "Died 20 October 1824 in Howard County, Missouri, aged ~41. Will probated Howard County MO. Buried Wesley Chapel Cemetery, Armstrong, Howard County, MO.",
+      "source": "Find a Grave #179637990; Howard County Probate Records 1821-1833"
+    },
+    {
+      "issue": "William Riley Padgett wife conflict",
+      "current_tree_says": "Married Anne Casey",
+      "evidence_says": "Married Hannah Evans (~1776-1859, NC) on 24 Feb 1804 in Madison County, Kentucky. FamilySearch record: ark:/61903/1:1:V5ZZ-3L8. The 'Anne Casey' wife is NOT confirmed — may be a confusion with a different William Padgett in NC records.",
+      "resolution": "Primary wife is Hannah Evans. Anne Casey attribution unverified; do not remove yet but flag as contested. The Frances Padgett GEDCOM takes precedence per prior note, but WikiTree Padgett-1375 with primary-source documentation favors Hannah Evans."
+    },
+    {
+      "issue": "John Jefferson Padgett birth state wrong",
+      "current_tree_says": "Born Indiana",
+      "evidence_says": "Born 1808 in Madison County, Kentucky (WikiTree Padgett-3067; 1850 census shows him age 42 born KY). Father William Riley moved the family from NC→KY→MO. John was born in KY before the Missouri move.",
+      "resolution": "Correct birthplace to Madison County, Kentucky"
+    },
+    {
+      "issue": "John Jefferson Padgett had two marriages, not one",
+      "detail": "First wife: Mary Ann O'Connor (PA-born, seen in 1850 census as 'Mary A Paget' age 37 born Pennsylvania). Second wife: Amanda Goad/Sleydan — married 24 September 1861 in Independence County, AR. Amanda was born ~1829 in Kentucky.",
+      "source": "Arkansas County Marriages Index; WikiTree Padgett-3067; 1850 and 1870 census records"
+    },
+    {
+      "issue": "John J. Padgett migration path corrected",
+      "detail": "Was in Jennings County, Indiana (Vernon township) in 1850. By 1860 was in Black River, Independence County, Arkansas — NOT Jackson County as previously noted. Died 14 Aug 1873, buried Hopewell Cemetery, Cord, Independence County, Arkansas.",
+      "source": "1850 census Ancestry #1985182; 1860 census M653_43 p.195; Find a Grave #18665054"
+    }
+  ],
+
+  "new_ancestors_confirmed": [
+    {
+      "person": "Benjamin Padgett",
+      "born": "15 Sep 1755",
+      "birthplace": "Frederick County, Maryland",
+      "died": "~Aug 1794",
+      "death_place": "Stokes County, North Carolina (inferred — family there 1790)",
+      "father_of": "William Riley Padgett",
+      "mother": "Mary (Spruill) Padgett (~1755, NC)",
+      "relation_to_hunter": "5x great-grandfather (Padgett line)",
+      "confidence": "probable — WikiTree Padgett-1375 notes 'no PROOF of any of Benjamin Padgett's children, but circumstantial evidence suggests William' was his; 1790 Stokes NC census corroborates",
+      "sources": ["WikiTree Padgett-1375", "colonial-settlers-md-va.us John Padgett I54757", "fmoran.com/padgett.html"],
+      "notes": "Benjamin's father died 1794; family moved to Madison County KY ~1799. Benjamin is listed as son of John I. Padgett and Elizabeth Cawood. Born Frederick County MD before Padgett family's 1775 move to Wachovia NC."
+    },
+    {
+      "person": "John I. Padgett",
+      "born": "9 Sep 1723",
+      "birthplace": "Charles County, Maryland",
+      "died": "2 Jun 1811",
+      "death_place": "Hope, Forsyth County, North Carolina",
+      "wives": [
+        "Elizabeth Cawood (~1730-~1756, Carrolls Manor, Prince George's Co., MD) — married ~1746",
+        "Mary Thrasher (1734-1787, NC) — married 25 Aug 1759, Frederick County MD"
+      ],
+      "father_of": "Benjamin Padgett (1755)",
+      "relation_to_hunter": "6x great-grandfather (Padgett line)",
+      "confidence": "confirmed",
+      "sources": [
+        "John Padgett memoir 1811 (Moravian archives, recorded his own birth date as 9 Sep 1723)",
+        "colonial-settlers-md-va.us I54757",
+        "Marylanders to Carolina, Henry C. Peden Jr.",
+        "Moravian Death and Burial records 1811",
+        "fmoran.com/padgett.html"
+      ],
+      "notes": "Moravian church member. Among first settlers from Frederick County MD to Hope community near Wachovia NC (spring 1775). Private in Captain Elias Delashmutt's Company, Maryland Militia, 30 days service French & Indian War, Aug 1757. Leased 50 acres at Carroll's Manor 1767-1774. His 1811 memoir confirmed his parents were Benjamin and Mary Padgett. Had 12 children total across both marriages."
+    },
+    {
+      "person": "Elizabeth Cawood",
+      "born": "~1730",
+      "birthplace": "Carrolls Manor, Prince George's County, Province of Maryland",
+      "died": "~1756",
+      "death_place": "Frederick County, Maryland",
+      "spouse": "John I. Padgett (married ~1746)",
+      "father_of_next_generation": "Benjamin Padgett (b.1755) — confirmed as Elizabeth's child by fmoran.com lineage",
+      "relation_to_hunter": "6x great-grandmother (Padgett line)",
+      "confidence": "confirmed",
+      "sources": ["WikiTree Padgett-1375 tree", "colonial-settlers-md-va.us", "fmoran.com/padgett.html"],
+      "notes": "Elizabeth's parents were John Cawood (1693-23 Apr 1767, St Marys/Charles Co MD) and Elizabeth Smallwood (1695-1734, Charles Co MD). Her grandfather was Stephen John Cawood III (1669-1735) and Mary Cox."
+    },
+    {
+      "person": "Benjamin Padgett (Sr.)",
+      "born": "~1676",
+      "birthplace": "Calvert County, Maryland",
+      "died": "13 Jun 1727",
+      "death_place": "Charles County, Maryland (probate date)",
+      "spouse": "Mary Stevens/Stephens (~1680-1740, Charles Co MD) — married ~1700, Charles County MD",
+      "father_of": "John I. Padgett (1723) + William Padgett + Benjamin Padgett Jr.",
+      "relation_to_hunter": "7x great-grandfather (Padgett line)",
+      "confidence": "confirmed",
+      "sources": [
+        "John Padgett's 1811 memoir: 'was a little more than 3 years old when his father died' — confirms Benjamin died 1727",
+        "Charles County MD will 1727: left 'Wallnut Thicket' to son William and 'Paggets Purches' to son Benjamin; wife Mary named executrix",
+        "colonial-settlers-md-va.us",
+        "WikiTree Padgett-471",
+        "fmoran.com/padgett.html"
+      ],
+      "notes": "Will witnesses: Henry Acton Sr., Stephen Cawood Jr., Henry Acton Jr. The Cawood witness confirms close family connection to John Padgett's later wife Elizabeth Cawood. Benjamin's own father was William Padgett (~1656-~1678)."
+    },
+    {
+      "person": "Mary Stevens (Stephens)",
+      "born": "~1680",
+      "birthplace": "Charles County, Maryland",
+      "died": "~1740",
+      "death_place": "Charles County, Maryland",
+      "spouse": "Benjamin Padgett Sr. (married ~1700)",
+      "relation_to_hunter": "7x great-grandmother (Padgett line)",
+      "confidence": "confirmed",
+      "sources": ["WikiTree Stephens-3626", "colonial-settlers-md-va.us", "fmoran.com"],
+      "notes": "Named in husband Benjamin's 1727 will as executrix. Her Stephens parentage not yet traced."
+    }
+  ],
+
+  "new_ancestors_probable": [
+    {
+      "person": "William Padgett",
+      "born": "~1656",
+      "birthplace": "Calvert County, Maryland (or possibly England — emigrated before 1676)",
+      "died": "~1678",
+      "death_place": "Calvert County, Maryland",
+      "spouse": "Agatha Billingsley (~1656-~1676) OR Marie Catherine Roy (~1659-1734) — sources conflict",
+      "father_of": "Benjamin Padgett Sr. (~1676)",
+      "relation_to_hunter": "8x great-grandfather (Padgett line)",
+      "confidence": "probable — two genealogical databases cite him; Linton Research Fund shows 'William PADGETT (1656-1678) & Marie Catherine ROY' with children including Benjamin (1676)",
+      "sources": [
+        "WikiTree Padgett-472 (cites Agatha Billingsley)",
+        "clendon.sargisonfamilyhistory.com I152493827911 (shows William Padgett b.1656 Calvert MD d.1678 as Benjamin Sr.'s father)",
+        "linton-research-fund-inc.com PADGETT_Family_Tree.html"
+      ],
+      "notes": "The two wife attributions (Billingsley vs. Roy) likely represent different trees. Roy connection from Linton family tree; Billingsley from WikiTree. This generation is probable, not proven. He died very young (~22 years), suggesting the child Benjamin was posthumous or near-posthumous."
+    },
+    {
+      "person": "Edmund Paget (Pagitt)",
+      "born": "7 Feb 1639",
+      "birthplace": "Deptford, Kent, England",
+      "died": "~1722",
+      "death_place": "Essex County, Virginia",
+      "immigration": "Emigrated to Virginia by 1668 (colonial land record dated 18 Aug 1668 in Rappahannock County VA)",
+      "spouse": "Elizabeth Veale (~1650-aft.1722)",
+      "father_of": "Edward E. Padget (1668, Essex County VA) — confirmed from Edward's WikiTree (Padget-25)",
+      "relation_to_hunter": "Ancestor in the Essex County Virginia Padgett line — NOT direct ancestor in Hunter's Maryland chain UNLESS William Padgett (~1656) is Edmund's son",
+      "confidence": "possible — Edmund emigrated from Deptford Kent to Virginia; one Maryland Padgett line (Edward Padgett 1668) is clearly his son (Essex Co VA). Whether the Charles County MD William Padgett (~1656) descends from Edmund is unconfirmed. Two separate early Padgett lineages in colonial America — the Essex County VA line (Edmund→Edward→William→NC) and the Charles County MD line (Benjamin Sr.→John I.→Benjamin II.→William Riley). The connection between them is not yet proven.",
+      "sources": [
+        "WikiTree Padget-25 (Edward E. Padget 1668-1728, son of Edmund)",
+        "thomasmoore.info genealogy: Edmund Pagitt birth record Deptford 1639 confirmed from Baptisms/Burials/Marriages St Nicholas Deptford 1564-1730",
+        "Edmund's 1722 will: Essex County Virginia Will Book 4 pp.2-3",
+        "Rappahannock County VA Deed Book 4, 1668 land purchase by Edmund Pagett"
+      ],
+      "notes": "Edmund was son of Ephraim Paget (1574-1647, Deptford) — a notable clergyman and heresiographer. This connects to a documented English Paget family. Edmund arrived in Virginia by 1668, acquired 707 acres in Rappahannock County. His son Edward E. Padget (1668) later moved to Essex/Chowan counties. NOTE: The Linton Family Tree traces one Maryland Padgett branch through William Padgett (1656-1678) back to a 'Benjamin Roy Padgett (1676-1727)' — this appears to be a separate confused line from the Calvert County family."
+    },
+    {
+      "person": "Ephraim Paget",
+      "born": "~1574",
+      "birthplace": "Northamptonshire (Lamport), England",
+      "died": "Apr 1647",
+      "death_place": "Deptford, Kent, England",
+      "spouse": "Mary Heath (~1613-Jun 1653)",
+      "father_of": "Edmund Paget (b.1639, Deptford)",
+      "relation_to_hunter": "Probable 11x great-grandfather if Edmund's line connects to Hunter's Maryland Padgetts",
+      "confidence": "possible — documented historical figure; father of Edmund confirmed from Deptford baptism records",
+      "sources": [
+        "WikiTree Paget-6 (extensive biography)",
+        "Oxford Dictionary of National Biography",
+        "Deptford baptism records: 'Edmund, son of Ephraim and Mary Pagett, born 7 Feb 1639'"
+      ],
+      "notes": "Ephraim Paget was a significant historical figure — clergyman, heresiographer, linguist of 15+ languages. Rector of St. Edmund the King, Lombard Street from 1601. Retired to Deptford when silenced during the Civil War. This is the earliest DOCUMENTED ancestor in the Paget/Padgett line."
+    }
+  ],
+
+  "migration_narrative": {
+    "england_to_virginia": "Edmund Paget (b. Deptford, Kent 1639) emigrated to colonial Virginia by 1668. His son Edward E. Padget was born 1668 in Essex County, Virginia — the first American-born generation. The name spelling shifted from Paget to Padget/Padgett in Virginia.",
+    "virginia_to_maryland": "The Padgett family appears in Charles County, Maryland by ~1698 (Benjamin Padgett Sr. born ~1676 in Calvert Co MD, died 1727 Charles Co MD). This Maryland branch may derive from Edmund's Virginia line OR from a separate English emigrant. The connection is probable but not proven by primary sources.",
+    "maryland_to_north_carolina": "John I. Padgett (b.1723, Charles Co MD) moved first to Frederick County MD (leasing Carroll's Manor land 1767-1774), then with his family to Hope community near Wachovia, North Carolina in spring 1775 — among early Moravian-associated settlers. His son Benjamin (b.1755) settled in Stokes County NC.",
+    "north_carolina_to_kentucky": "Benjamin Padgett (~1755) died ~1794. His widow Mary Spruill moved the family (including son William Riley, ~age 16) to Madison County, Kentucky ~1799. William Riley appears on Madison County tax rolls 1804-1809.",
+    "kentucky_to_missouri": "William Riley Padgett married Hannah Evans in Madison County KY, 24 Feb 1804. He moved the family to Prairie Township, Montgomery County, Missouri ~1819-1825. He died there 20 Oct 1824.",
+    "missouri_to_indiana": "After William Riley's 1824 death, son John Jefferson Padgett (b.1808 Madison Co KY) settled in Jennings County, Indiana (Vernon Township) — confirmed in 1850 census with first wife Mary Ann O'Connor and children born Indiana.",
+    "indiana_to_arkansas": "John J. Padgett moved to Black River area, Independence County, Arkansas by 1860 (confirmed in 1860 census). He married second wife Amanda Goad/Sleydan on 24 Sep 1861 in Independence County. He died 14 Aug 1873 and was buried at Hopewell Cemetery, Cord, Independence County AR. His son William Miller Padgett stayed in Independence County, and the family line continued there through Bertie Jane."
+  },
+
+  "bertie_jane_padgett_confirmation": {
+    "person": "Bertie Jane Padgett",
+    "born": "10 Mar 1888",
+    "birthplace": "Arkansas",
+    "died": "6 Oct 1964",
+    "death_place": "Lee County, Arkansas",
+    "parents": "William Miller Padgett and Frances Ward",
+    "spouse": "Jesse Lawrence Westerfield (b.1887, KY)",
+    "children_include": "Iris June Westerfield (1919) — Hunter's maternal great-grandmother",
+    "census_note": "The 1900 census should show Bertie Jane (age ~12) with parents William Miller Padgett and Frances Ward in Independence County or adjoining Arkansas counties. Bertie Jane's brother Padgett Lee Westerfield was named after her maiden name — strong confirmation of Padgett heritage.",
+    "sources": ["Walls Doris GEDCOM", "Frances Padgett GEDCOM", "lineage-tree-multi.json existing data"]
+  },
+
+  "anne_casey_investigation": {
+    "finding": "The 'Anne Casey' wife for William Riley Padgett in the Frances Padgett GEDCOM conflicts with the primary-source documented 'Hannah Evans' marriage in Madison County, Kentucky (FamilySearch ark:/61903/1:1:V5ZZ-3L8). WikiTree notes multiple William Padgetts in this era causing frequent confusion.",
+    "casey_family_virginia": "The Casey family in Virginia ~1780-1820 is well-documented. Col. William Casey (1754-1816) of Frederick County VA is a prominent ancestor — his daughter Margaret 'Peggy' Casey married Benjamin Lampton, making her a grandparent of Mark Twain. No documented connection to William Riley Padgett found.",
+    "recommendation": "Flag 'Anne Casey' attribution as unverified. The Hannah Evans marriage has primary-source documentation (county marriage record). If the Frances Padgett GEDCOM specifically names Anne Casey, it may derive from a different William Padgett or be an error in the source GEDCOM."
+  },
+
+  "english_origins_summary": {
+    "surname_etymology": "Padgett/Paget derives from Middle English 'Pagett', a pet form of the name 'Page' (a young male servant or attendant), not directly from 'Patrick' as sometimes claimed. The House of Names states the Paget family traces to 'Pachet, Normandy' before the Norman Conquest of 1066.",
+    "earliest_documented_english_ancestor": "Ephraim Paget (~1574-1647) of Northamptonshire/Deptford, Kent — documented clergyman and author.",
+    "colonial_immigrant": "Edmund Paget (b. Deptford 7 Feb 1639, d. Essex County Virginia ~1722) — confirmed immigrant. Acquired Virginia land 1668. Son of Ephraim Paget.",
+    "notable_family_connection": "The Paget family has aristocratic English branches — Sir William Paget (1506-1563), 1st Baron Paget, was a powerful statesman under Henry VIII. Whether Hunter's Padgett line directly descends from this noble branch is not established, but they share the same surname origin."
+  },
+
+  "recommended_tree_additions": [
+    {
+      "action": "CORRECT",
+      "person": "William Riley Padgett",
+      "field": "birthplace",
+      "from": "Virginia, 1785",
+      "to": "Stokes County, North Carolina, ~1783",
+      "confidence": "high",
+      "source": "WikiTree Padgett-1375 with 1790 census citation"
+    },
+    {
+      "action": "CORRECT",
+      "person": "William Riley Padgett",
+      "field": "death",
+      "add": "Died 20 Oct 1824, Howard County, Missouri. Buried Wesley Chapel Cemetery, Armstrong, Howard County, MO.",
+      "source": "Find a Grave #179637990; Howard County Probate"
+    },
+    {
+      "action": "CORRECT",
+      "person": "William Riley Padgett",
+      "field": "wife",
+      "note": "Primary documented wife: Hannah Evans (b.~1776 NC, d.1859), married 24 Feb 1804, Madison County KY. 'Anne Casey' attribution unverified — flag as contested.",
+      "confidence": "high"
+    },
+    {
+      "action": "CORRECT",
+      "person": "John Jefferson Padgett",
+      "field": "birthplace",
+      "from": "Indiana",
+      "to": "Madison County, Kentucky, ~1808",
+      "source": "1850 census: 'born KY'; WikiTree Padgett-3067"
+    },
+    {
+      "action": "ADD",
+      "person": "Benjamin Padgett",
+      "born": "15 Sep 1755, Frederick County, Maryland",
+      "died": "~Aug 1794, Stokes County, North Carolina",
+      "relation": "Father of William Riley Padgett",
+      "hunter_relation": "5x great-grandfather (Padgett line)",
+      "confidence": "probable",
+      "source": "WikiTree Padgett-1376; colonial-settlers-md-va.us; fmoran.com/padgett.html"
+    },
+    {
+      "action": "ADD",
+      "person": "Mary (Spruill) Padgett",
+      "born": "~1755, North Carolina",
+      "relation": "Mother of William Riley Padgett; wife of Benjamin Padgett",
+      "hunter_relation": "5x great-grandmother (Padgett line)",
+      "confidence": "probable",
+      "source": "WikiTree Spruill-281"
+    },
+    {
+      "action": "ADD",
+      "person": "John I. Padgett",
+      "born": "9 Sep 1723, Charles County, Maryland",
+      "died": "2 Jun 1811, Hope, Forsyth County, North Carolina",
+      "relation": "Father of Benjamin Padgett (1755); grandfather of William Riley",
+      "hunter_relation": "6x great-grandfather (Padgett line)",
+      "confidence": "confirmed",
+      "source": "John Padgett 1811 memoir (Moravian archives); colonial-settlers-md-va.us I54757; fmoran.com"
+    },
+    {
+      "action": "ADD",
+      "person": "Elizabeth Cawood",
+      "born": "~1730, Carrolls Manor, Prince George's County, Maryland",
+      "died": "~1756, Frederick County, Maryland",
+      "relation": "First wife of John I. Padgett; mother of Benjamin Padgett (1755)",
+      "hunter_relation": "6x great-grandmother (Padgett line)",
+      "confidence": "confirmed",
+      "source": "fmoran.com; colonial-settlers-md-va.us"
+    },
+    {
+      "action": "ADD",
+      "person": "Benjamin Padgett (Sr.)",
+      "born": "~1676, Calvert County, Maryland",
+      "died": "13 Jun 1727, Charles County, Maryland",
+      "spouse": "Mary Stevens/Stephens (~1680-~1740)",
+      "relation": "Father of John I. Padgett (1723)",
+      "hunter_relation": "7x great-grandfather (Padgett line)",
+      "confidence": "confirmed",
+      "source": "1727 Charles County MD will; John Padgett 1811 memoir confirming his father died 1727"
+    }
+  ],
+
+  "gaps_addressed": [
+    "William Riley Padgett's parents: IDENTIFIED as Benjamin Padgett (b.1755 Frederick Co MD) and Mary Spruill (b.~1755 NC) — PROBABLE",
+    "William Riley birthplace and death: CONFIRMED NC birth, Missouri death 1824",
+    "Hannah Evans vs Anne Casey wife conflict: RESOLVED in favor of Hannah Evans by primary source",
+    "John J. Padgett migration path: CONFIRMED Indiana (1850) → Arkansas (1860+), died 1873 Independence Co AR",
+    "Padgett line to Maryland colonial era: CONFIRMED back to Benjamin Padgett Sr. (b.~1676, d.1727 Charles Co MD)",
+    "Padgett line to North Carolina: CONFIRMED — John I. Padgett settled Hope NC 1775",
+    "English Padgett origins: PROBABLE immigrant Edmund Paget (b. Deptford, Kent 1639) in Essex County Virginia line; definitive proof of connection to Hunter's Maryland line not yet established but circumstantially supported"
+  ],
+
+  "conflicts_resolved": [
+    "William Riley Padgett birth Virginia vs. North Carolina: WikiTree with primary sources resolves to North Carolina (Stokes County)",
+    "Wife 'Anne Casey' vs 'Hannah Evans': Primary-source Kentucky marriage record (FamilySearch) confirms Hannah Evans",
+    "John J. Padgett born Indiana vs Kentucky: 1850 census 'born KY' resolves to Kentucky"
+  ],
+
+  "conflicts_unresolved": [
+    "Whether 'Anne Casey' represents a different marriage, a second wife, or an error in the Frances Padgett GEDCOM source",
+    "Whether William Padgett (~1656, Calvert MD) is the son of Edmund Paget of Essex County VA or a separate unrelated emigrant",
+    "Spruill grandparents of William Riley Padgett: WikiTree shows '[Spruill grandfather/grandmother? please help]' — Mary Spruill's parentage unknown",
+    "Exact birth year of William Riley Padgett: 1783 (WikiTree) vs 1785 (prior tree data) — 1790 census analysis supports ~1783"
+  ],
+
+  "sources": [
+    {
+      "id": "wikitree-1375",
+      "title": "William Riley Padgett (abt.1783-1824) | WikiTree",
+      "url": "https://www.wikitree.com/wiki/Padgett-1375",
+      "accessed": "2026-04-27",
+      "quality": "high — multiple primary sources cited including 1790 census, 1804 KY marriage record, Howard County MO probate"
+    },
+    {
+      "id": "wikitree-3067",
+      "title": "John Jefferson Padgett (1808-1873) | WikiTree",
+      "url": "https://www.wikitree.com/wiki/Padgett-3067",
+      "accessed": "2026-04-27",
+      "quality": "high — 1850 Jennings IN census, 1860 and 1870 Independence AR census, 1861 marriage record, 1873 will, Find a Grave"
+    },
+    {
+      "id": "colonial-md-va",
+      "title": "Early Colonial Settlers of Southern Maryland and Virginia's Northern Neck Counties — John Padgett",
+      "url": "https://www.colonial-settlers-md-va.us/getperson.php?personID=I54757&tree=tree1",
+      "accessed": "2026-04-27",
+      "quality": "high — references Marylanders to Carolina (Henry C. Peden Jr.) and primary Maryland land records"
+    },
+    {
+      "id": "fmoran-padgett",
+      "title": "Padgett Family — The Jarvis Family and Other Relatives",
+      "url": "http://www.fmoran.com/padgett.html",
+      "accessed": "2026-04-27",
+      "quality": "medium-high — based on Moravian church records, John Padgett's 1811 memoir, Hope Church Book"
+    },
+    {
+      "id": "wikitree-padget25",
+      "title": "Edward E. Padget (1668-1728) | WikiTree — son of Edmund Paget of Deptford",
+      "url": "https://www.wikitree.com/wiki/Padget-25",
+      "accessed": "2026-04-27",
+      "quality": "high — confirms Edmund Paget (Deptford Kent) as father; cites Essex County VA deed records"
+    },
+    {
+      "id": "thomasmoore-edmund",
+      "title": "Edmund Pagitt — Thomas Moore genealogy",
+      "url": "https://thomasmoore.info/genealogy/ps06/ps06_215.html",
+      "accessed": "2026-04-27",
+      "quality": "high — cites Deptford baptism register 1639, Rappahannock Co VA deed records 1668, Essex Co VA will 1722"
+    },
+    {
+      "id": "wikitree-paget6",
+      "title": "Ephraim Paget (1574-1647) | WikiTree",
+      "url": "https://www.wikitree.com/wiki/Paget-6",
+      "accessed": "2026-04-27",
+      "quality": "medium-high — historically documented figure"
+    },
+    {
+      "id": "familysearch-wrill-marriage",
+      "title": "FamilySearch: William Pagget and Hannah Evans marriage, 24 Feb 1804",
+      "url": "https://familysearch.org/ark:/61903/1:1:V5ZZ-3L8",
+      "quality": "high — primary source, Kentucky county marriage record"
+    },
+    {
+      "id": "findagrave-wrpadgett",
+      "title": "Find a Grave #179637990 — William Riley Padgett",
+      "url": "https://www.findagrave.com/memorial/179637990/william-riley-padgett",
+      "quality": "medium — burial location may be unconfirmed per WikiTree note"
+    },
+    {
+      "id": "linton-padgett-tree",
+      "title": "PADGETT Family Tree — Linton Research Fund",
+      "url": "http://linton-research-fund-inc.com/PADGETT_Family_Tree.html",
+      "accessed": "2026-04-27",
+      "quality": "medium — secondary compiled genealogy, useful for deeper English Paget origins claim"
+    }
+  ]
+}

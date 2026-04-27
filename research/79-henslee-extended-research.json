@@ -1,0 +1,306 @@
+{
+  "task": "Henslee line extended research",
+  "date": "2026-04-27",
+  "researcher": "genealogy-agent (claude-sonnet-4-6)",
+  "scope": "Four key gaps: (1) William Hensley's parents; (2) Maxfield to Lee Stuart connection; (3) Lee Stuart Henslee's parents; (4) English/Welsh origins of the Hensley/Henslee surname.",
+  "sources_consulted": [
+    "research/65-henslee-confirmed-trace.json (existing research baseline)",
+    "research/61-cousin-merged-people.json (GED data from Jenniffer Henslee cousin)",
+    "WikiTree Hensley-196 — William Hensley (c.1691-c.1781)",
+    "WikiTree Henslee-88 — Maxfield Henslee (1810-1887)",
+    "martygrant.com — Multiple Hensley family pages",
+    "genealogytrails.com — Burleson County TX biographies (1910 publication)",
+    "granburydepot.org — Maxfield F. Henslee biography (Hood County, 1910)",
+    "ancestry.co.uk / geneanet — Hensley surname etymology (DAFN 2nd ed., 2022)",
+    "behindthename.com / letslearnslang.com — Hensley origin analysis",
+    "familysearch.org ancestor pages (Enoch Henslee 1832, James Hensley II)"
+  ],
+
+  "gaps_addressed": [
+    {
+      "gap_id": 1,
+      "title": "William Hensley's parents (father of Macksfield Henslee)",
+      "status": "PARTIALLY_RESOLVED",
+      "finding": "The cousin GED file (Jenniffer Henslee) contains an entry for William Hensley (birth 1693, Goochland VA — death 1770, Goochland VA) with wife Jane Snell and child Maxfield Henslee. WikiTree Hensley-196 places William Hensley (c.1691–c.1781) as father of Macksfield Hensley and names his parents as James Hensley II (1642–1705, Northampton VA) and Susanna (Newcomb) Hensley (1665–1730, Henrico VA). Multiple WikiTree profiles for other Hensley branches confirm James Hensley II and Susanna Newcomb as 2nd-great-grandparents of the Maxfield Henslee (1810) line, which traces back through William. HOWEVER, the Marty Grant researcher — the most rigorous Hensley genealogist online — explicitly states 'I have no clue who Mackfield's parents might be' and does NOT recognize the William Hensley (c.1691) → Macksfield chain. The WikiTree chain is asserted in user-contributed WikiTree profiles without cited primary source documentation. The Goochland County GED entry (1693 birth date) is from a secondary/user-submitted GED file and conflicts with the martygrant.com researcher's assessment. Treat as POSSIBLE pending primary source verification.",
+      "confidence": "POSSIBLE",
+      "caveat": "Martygrant.com (most authoritative independent researcher for this line) explicitly disclaims knowledge of Macksfield's parents. The WikiTree William Hensley (Hensley-196) chain to James Hensley II is user-asserted, not document-proven. The cousin GED file records William Hensley b.1693 Goochland + Jane Snell → Maxfield; this is the best available secondary pointer but not confirmed."
+    },
+    {
+      "gap_id": 2,
+      "title": "Maxfield G. Henslee (c.1810-1887) to Lee Stuart Henslee (1908) — intermediate generations",
+      "status": "PARTIALLY_RESOLVED",
+      "finding": "The 1910 published biography of Lee W. Henslee (sheriff) establishes that Enoch Henslee (Gen 5, c.1832) and his wife Sarah (Hudson) Henslee had 10 children, of whom 4 survived to 1910: Laura, Nettie E. (Wood), E. Claude Henslee, and Lee W. Henslee (b.1873). The biography also confirms that Enoch moved to Texas in the 1850s, first settling in JACK COUNTY (not Burleson as previously recorded), then moving to Burleson County. Lee Stuart Henslee (b. 1908, d. 1994) was born in Texas, and Alice Marie Henslee was born in Rusk, Cherokee County TX in 1936 — suggesting Lee Stuart lived in Cherokee or adjacent East Texas counties. The intermediate generation between Enoch (Gen 5, b.1832) and Lee Stuart (b.1908) is ONE generation: Lee Stuart's father, probably born c.1875-1890. E. Claude Henslee (surviving sibling of Sheriff Lee W.) is a possible candidate for Lee Stuart's father, but no confirmation found. The 10-child household of Enoch also had 6 children who predeceased the 1910 publication — any of these could also have had children (including Lee Stuart's parent) before dying.",
+      "confidence": "POSSIBLE",
+      "remaining_gap": "Lee Stuart's father (one generation between Enoch Gen 5 and Lee Stuart) remains unidentified. Best research path: Texas Death Certificate for Lee Stuart Henslee (DSHS, $22 — names parents); 1900 and 1910 US Census for Henslee households in Cherokee/Rusk County TX (free on FamilySearch with account)."
+    },
+    {
+      "gap_id": 3,
+      "title": "Lee Stuart Henslee's parents",
+      "status": "UNRESOLVED",
+      "finding": "No free online source has been found naming Lee Stuart Henslee's parents. His birth date (1908-10-02) and burial (Beaumont TX, Forest Lawn) are confirmed. His daughter Alice Marie was born in Rusk TX (Cherokee County) in 1936, suggesting Lee Stuart was in East Texas at least through the mid-1930s. The Henslee cluster in Cherokee County is not extensively documented in free online sources. The most promising research approaches: Texas Death Certificate (Oct 1994, Jefferson County) which names informant and parents; 1920/1930 census records for Lee Henslee in East Texas; Texas Birth Index for 1908.",
+      "confidence": "UNVERIFIED",
+      "recommended_next_steps": [
+        "Order Texas Death Certificate for Lee Stuart Henslee (died 1994-08-31, Jefferson County TX) from Texas DSHS — $22 — should name his parents",
+        "Search FamilySearch 1920 US Census for 'Lee Henslee' in Cherokee/Rusk/Jefferson County TX — free with browser account",
+        "Search FamilySearch 1930 US Census for 'Lee Henslee' household in East Texas — Alice would be ~7 years old showing parents"
+      ]
+    },
+    {
+      "gap_id": 4,
+      "title": "English/Welsh origins of the Hensley/Henslee surname",
+      "status": "RESOLVED (surname level)",
+      "finding": "Dictionary of American Family Names (Oxford, 2022 edition) confirms: Hensley/Henslee is an English HABITATIONAL surname from Hensley village in East Worlington parish, Devon, England. The name derives from Old English personal name Hēahmund (genitive Hēahmundes) + Old English lēah 'woodland clearing' — meaning 'Hēahmund's woodland clearing.' An alternative etymology from Hensleigh in Tiverton, Devon derives from Old English hengest (stallion) + leah. Both origin places are in Devon, England. The Henslee variant is specifically associated with the Macksfield line. The earliest English documentary record is 1297 (Yorkshire Subsidy Rolls: John de Henselay). Devon and Norfolk are the primary English counties of origin. Multiple early Virginia Hensley immigrants arrived 1635-1702, likely from Devon; the specific immigrant ancestor of Macksfield's line remains unverified.",
+      "confidence": "CONFIRMED (Devon English origin of surname); POSSIBLE (specific immigrant ancestor)"
+    }
+  ],
+
+  "new_ancestors_confirmed": [],
+
+  "new_ancestors_probable": [
+    {
+      "name": "William Hensley",
+      "birth_year": "c. 1691-1693",
+      "birth_place": "Virginia Colony (Fluvanna or Goochland County)",
+      "death_year": "c. 1770-1781",
+      "death_place": "Virginia (Goochland County per cousin GED; Fluvanna per WikiTree)",
+      "spouse": "Jane Snell (b. 14 Jan 1709 per WikiTree; d. 1796)",
+      "relationship_to_hunter": "PROBABLE father of Macksfield Henslee — if confirmed, would be Hunter's 9th great-grandfather on Henslee line",
+      "sources": [
+        "WikiTree Hensley-196 (user-contributed; names James Hensley II and Susanna Newcomb as his parents; Jane Snell as wife; Macksfield Hensley as son)",
+        "WikiTree Henslee-88 — lists William Hensley (abt.1691-abt.1781) and Jane Snell (14 Jan 1709-1796) as 2nd-great-grandparents of Maxfield Henslee (1810)",
+        "61-cousin-merged-people.json — GED entry: 'William Hensley', birth 1693 Goochland VA, death 1770 Goochland VA, wife Jane Snell, child Maxfield Henslee"
+      ],
+      "confidence": "POSSIBLE",
+      "notes": "Martygrant.com researcher does not recognize this link. WikiTree chain is user-asserted without cited primary documentation. The cousin GED (Jenniffer Henslee, 1st cousin 1x removed) may preserve family knowledge. This is the best working hypothesis for William's parentage of Macksfield. NOT to be presented as confirmed on the website."
+    },
+    {
+      "name": "James Hensley II",
+      "birth_year": "1642",
+      "birth_place": "Northampton County, Virginia",
+      "death_year": "1705",
+      "death_place": "Northampton County, Virginia",
+      "spouse": "Susanna (Newcomb) Hensley (1665-1730, Henrico VA)",
+      "relationship_to_hunter": "If William Hensley above is confirmed father of Macksfield, James Hensley II would be Hunter's 10th great-grandfather",
+      "sources": [
+        "WikiTree Hensley-196 — names James Hensley II as father of William Hensley (c.1691)",
+        "Multiple WikiTree profiles citing James Hensley II (1642-1705) and Susanna Newcomb as common ancestors of several Hensley lines"
+      ],
+      "confidence": "POSSIBLE",
+      "notes": "This entire chain from James II → William → Macksfield is asserted on WikiTree but not verified with primary sources by independent researchers. Do NOT present as confirmed."
+    }
+  ],
+
+  "conflicts_resolved": [
+    {
+      "conflict": "Enoch Henslee (Gen 5) settled in Jack County TX before Burleson County",
+      "previous_record": "research/65-henslee-confirmed-trace.json states Maxfield G. Henslee (Gen 4) 'came to Texas in 1851' and settled in Hunt/Collin/Hood Counties; Gen 5 Enoch shown in Burleson County",
+      "resolution": "1910 biography of Lee W. Henslee clarifies that his father (Enoch, Gen 5) 'moved to Texas in the fifties, settling in Jack County, and from there moved to Burleson County.' Jack County is in north Texas — distinct from the Hood/Collin County trail of Gen 4's children by Phoebe Campbell. This confirms the Gen 5 Enoch (b.1832 GA) took a different migration path than the Hood County half-siblings (Maxfield F., Emma, Henry Wilson). Residence trail for Gen 5 Enoch should be updated to: Carroll Co GA → Jack County TX (c.1851-1858?) → Burleson County TX.",
+      "confidence": "CONFIRMED",
+      "source": "Historical Review of South-East Texas Vol. 2 (Lewis Publishing, 1910) — Lee W. Henslee biography, via genealogytrails.com"
+    },
+    {
+      "conflict": "Enoch (Gen 5) had 10 children, not unknown number — only 4 survived to 1910",
+      "previous_record": "research/65-henslee-confirmed-trace.json lists Enoch (Gen 5) with wife 'Sarah J.' — maiden name noted as unknown",
+      "resolution": "1910 biography confirms wife's maiden name was HUDSON — 'Enoch and Sarah (Hudson) Henslee, both natives of Georgia.' Both were Georgia-born, consistent with prior census data. The family had 10 children total; only Laura, Nettie E. (Wood), E. Claude, and Lee W. were still living by 1910. Six children predeceased. Lee Stuart Henslee (b.1908) was likely a grandchild of Enoch through one of these children.",
+      "confidence": "CONFIRMED",
+      "source": "Historical Review of South-East Texas Vol. 2 (Lewis Publishing, 1910)"
+    }
+  ],
+
+  "conflicts_unresolved": [
+    {
+      "conflict": "Identity of Macksfield Henslee's father",
+      "details": "WikiTree Hensley-196 and cousin GED file both assert William Hensley (c.1691-1781) as Macksfield's father. Martygrant.com researcher (most thorough independent source for this line) explicitly states 'I have no clue who Mackfield's parents might be.' These are irreconcilable without a primary source. The WikiTree chain also asserts James Hensley II (1642) as William's father — also user-asserted only.",
+      "recommended_resolution": "Search Hanover County VA deed and court records 1740-1760 for a Hensley/Henslee household with a son aged ~15-35. Check 1763 Hanover tax list context. Martygrant.com notes Macksfield 'first appears in 1763 as owner of 150 acres in what is now Hanover County.' A senior Hensley male in Hanover c.1740-1760 records would support the William hypothesis."
+    },
+    {
+      "conflict": "Enoch Henslee (Gen 5) death date and 'after 1880' vs. 'died 1916' per FamilySearch",
+      "details": "Research file 65 states 'died after 1880' for Enoch (Gen 5, b.1832). The FamilySearch ancestor page for Enoch Henslee 1832-1916 suggests he may have lived to 1916. If so, he would still have been alive when Lee Stuart was born (1908) and Lee Stuart's father could be any of Enoch's children born before ~1888.",
+      "recommended_resolution": "Verify Enoch's actual death date via Texas death records or Find a Grave. The 1916 death date (age ~84) is plausible given his son Lee W. was born 1873."
+    }
+  ],
+
+  "recommended_tree_additions": [
+    {
+      "action": "ADD as POSSIBLE (not confirmed)",
+      "person": "William Hensley",
+      "dates": "c. 1691-1693 — c. 1770-1781",
+      "location": "Fluvanna/Goochland County, Virginia Colony",
+      "spouse": "Jane Snell (c. 1709-1796)",
+      "role": "Probable father of Macksfield Henslee",
+      "confidence_label": "POSSIBLE",
+      "display_note": "Display with a question mark on website tree; label as 'probable ancestor, unverified from primary source'",
+      "website_tag": "Do NOT mark as immigrant — William appears American-born in Virginia Colony"
+    },
+    {
+      "action": "UPDATE",
+      "person": "Enoch Henslee (Gen 5, c.1832)",
+      "update": "Correct mother's maiden name from 'unknown' to 'Sarah Hudson' (confirmed from 1910 biography). Correct Texas migration path: Jack County TX first, then Burleson County (not direct to Burleson). Note that 10 children total, 4 survived to 1910.",
+      "confidence_label": "CONFIRMED"
+    },
+    {
+      "action": "NOTE",
+      "subject": "Lee Stuart Henslee parents",
+      "note": "Parents still unidentified. Best candidates are children of Enoch (Gen 5) Henslee and Sarah Hudson, particularly E. Claude Henslee (surviving sibling of Sheriff Lee W., b.1873). Texas Death Certificate would resolve this definitively."
+    },
+    {
+      "action": "ADD (surname-level context only)",
+      "subject": "Henslee English origin",
+      "note": "Hensley/Henslee is a Devon, England habitational surname from Hensley village, East Worlington parish. Safe to note English Devon origin on website without asserting specific immigrant ancestor."
+    }
+  ],
+
+  "notable_new_findings": [
+    {
+      "finding": "Cousin GED file (61-cousin-merged-people.json) contains entry for William Hensley (b.1693 Goochland VA, d.1770 Goochland VA) + Jane Snell, with Maxfield Henslee as their child. This is internal to Hunter's own extended family tree data from a first cousin once removed (Jenniffer Henslee). This is the strongest secondary pointer to William as Macksfield's father, though still not a primary source.",
+      "significance": "HIGH — family knowledge preserved in cousin's GED; warrants serious investigation"
+    },
+    {
+      "finding": "WikiTree Hensley-196 names a chain: James Hensley II (1642, Northampton VA) + Susanna Newcomb (1665, Henrico VA) → William Hensley (c.1691, Fluvanna VA) + Jane Snell → Macksfield Hensley. If verified, this would extend Hunter's confirmed Henslee line back two additional generations to 1642 Virginia and locate the immigrant ancestor as James Hensley I (unknown, possibly late 1600s England immigrant to Virginia).",
+      "significance": "HIGH — extends lineage by 2 generations if confirmed; positions James Hensley I as likely English immigrant c.1660-1685"
+    },
+    {
+      "finding": "Sarah (Hudson) Henslee — wife of Enoch Henslee (Gen 5) — confirmed maiden name is HUDSON per 1910 Lewis Publishing biography. Previously listed as 'unknown' in research file 65.",
+      "significance": "MEDIUM — corrects existing record; opens avenue for Hudson family research in Georgia"
+    },
+    {
+      "finding": "Enoch Henslee (Gen 5) first settled in Jack County, TX (not Burleson) before moving to Burleson County. The 1910 biography states 'The father moved to Texas in the fifties, settling in Jack county, and from there moved to Burleson county.' Jack County was organized in 1857, suggesting arrival ~1857-1865.",
+      "significance": "MEDIUM — corrects migration path in existing records"
+    },
+    {
+      "finding": "Surname confirmation: Hensley/Henslee is definitively an English habitational name from Devon, England (Hensley village, East Worlington parish). Source: Oxford DAFN 2nd edition 2022. Derivation is from personal name Hēahmund + OE lēah (woodland clearing). The 'Henslee' variant is specific to the Macksfield line.",
+      "significance": "LOW-MEDIUM — confirms English Devon origin for website display"
+    }
+  ],
+
+  "open_gaps_remaining": [
+    {
+      "gap": "Lee Stuart Henslee's parents (Gen 6→5 link)",
+      "priority": "HIGH",
+      "best_free_source": "Texas Death Certificate (DSHS, $22) — names parents and informant. Also: 1920 US Census FamilySearch search for 'Lee Henslee' in Cherokee/Jefferson/Rusk County TX; 1930 Census for Lee Henslee household (Alice would be age ~7).",
+      "estimated_cost": "$22 for death cert; free for census"
+    },
+    {
+      "gap": "Primary source verification of William Hensley (c.1691) as father of Macksfield",
+      "priority": "MEDIUM",
+      "best_free_source": "Hanover County VA deed books 1740-1760 (check LOV online or Ancestry Hanover records); compare 1763 Hanover tax list neighbors of Macksfield for Hensley seniors. Martygrant.com has a page on William Hensleys of Virginia — check if updated since 2021.",
+      "estimated_cost": "Free (LOV online) or Ancestry subscription"
+    },
+    {
+      "gap": "James Hensley II (1642-1705) — any primary source documentation",
+      "priority": "LOW (depends on William being confirmed first)",
+      "best_free_source": "Northampton County VA court records; Colonial Virginia land patents at LOV. FamilySearch has a profile (LCQQ-KXY) but it requires browser login."
+    },
+    {
+      "gap": "Enoch Henslee (Gen 5) actual death date — 1916 vs 'after 1880'",
+      "priority": "LOW",
+      "best_free_source": "Texas Death Records; Find a Grave search for Enoch Henslee in Burleson County TX"
+    },
+    {
+      "gap": "Hudson family of Georgia — identity and origins of Sarah (Hudson) Henslee",
+      "priority": "LOW",
+      "best_free_source": "1860/1870 Georgia census for Hudson household; Enoch + Sarah marriage record (likely Georgia, pre-1851)"
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "S1",
+      "label": "WikiTree Hensley-196 — William Hensley (abt.1691-abt.1781)",
+      "url": "https://www.wikitree.com/wiki/Hensley-196",
+      "reliability": "MEDIUM (user-contributed, no primary source citations for William→Macksfield link)",
+      "accessed": "2026-04-27"
+    },
+    {
+      "id": "S2",
+      "label": "WikiTree Henslee-88 — Maxfield Henslee (1810-1887) — lists William Hensley (1691) and Jane Snell as 2nd-great-grandparents",
+      "url": "https://www.wikitree.com/wiki/Henslee-88",
+      "reliability": "MEDIUM",
+      "accessed": "2026-04-27"
+    },
+    {
+      "id": "S3",
+      "label": "research/61-cousin-merged-people.json — GED entry William Hensley (1693 Goochland VA) + Jane Snell → Maxfield Henslee",
+      "source_file": "Jenniffer Henslee-1st cousin 1x removed.ged",
+      "reliability": "MEDIUM (secondary/user GED, but family knowledge from 1st cousin 1x removed)",
+      "accessed": "2026-04-27"
+    },
+    {
+      "id": "S4",
+      "label": "martygrant.com — Mackfield Henslee (c1726) and Martha Sneed — 'I have no clue who Mackfield's parents might be'",
+      "url": "https://www.martygrant.com/genealogy/hensley/hensley-macksfield-caswell.htm",
+      "reliability": "HIGH (independent researcher, compiled from primary sources)",
+      "accessed": "2026-04-27"
+    },
+    {
+      "id": "S5",
+      "label": "martygrant.com — William Hensleys of Virginia before 1800 — differentiation page",
+      "url": "https://martygrant.com/genealogy/hensley/hensley-william-va.html",
+      "reliability": "HIGH",
+      "accessed": "2026-04-27"
+    },
+    {
+      "id": "S6",
+      "label": "Historical Review of South-East Texas Vol. 2, Lewis Publishing Co., Chicago 1910 — Lee W. Henslee biography (via genealogytrails.com)",
+      "url": "http://genealogytrails.com/tex/prairieslakes/burleson/bios.html",
+      "reliability": "HIGH (near-primary; published 1910 biographical interview)",
+      "accessed": "2026-04-27",
+      "key_facts": [
+        "Lee W. Henslee born Burleson County TX, September 24, 1873, 'his father's home being near Lyons'",
+        "Parents: Enoch and Sarah (Hudson) Henslee, both natives of Georgia",
+        "Father moved to Texas in the fifties, settling in JACK COUNTY first, then Burleson County",
+        "Enoch was a Confederate soldier",
+        "Family had 10 children; only 4 living by 1910: Laura, Nettie E. (Wood), E. Claude, Lee W."
+      ]
+    },
+    {
+      "id": "S7",
+      "label": "Dictionary of American Family Names, 2nd ed. (Oxford, 2022) — Hensley/Henslee etymology",
+      "url": "https://www.ancestry.co.uk/last-name-meaning/hensley",
+      "reliability": "HIGH (academic reference)",
+      "accessed": "2026-04-27",
+      "key_facts": [
+        "Hensley: habitational name from Hensley in East Worlington, Devon, England",
+        "From Old English Hēahmund (personal name) + lēah (woodland clearing)",
+        "Henslee is listed as an English variant of Hensley"
+      ]
+    },
+    {
+      "id": "S8",
+      "label": "Behind the Name — Hensley submitted etymology — also cites Hensleigh in Tiverton, Devon (from OE hengest + leah)",
+      "url": "https://surnames.behindthename.com/name/hensley/submitted",
+      "reliability": "MEDIUM",
+      "accessed": "2026-04-27"
+    },
+    {
+      "id": "S9",
+      "label": "martygrant.com — Samuel Hensley (c.1600s-1735) and Virginia Hensley timeline",
+      "url": "https://martygrant.com/genealogy/hensley/hensley-samuel-orange-va.html",
+      "reliability": "HIGH",
+      "accessed": "2026-04-27",
+      "notes": "Establishes that William Hensley (c.1690s-1764) who was son of Samuel (d.1735) was in King George/Spotsylvania/Orange Counties — DIFFERENT from the William Hensley listed as father of Macksfield in WikiTree. Martygrant.com identifies at least 21 distinct William Hensleys in Virginia before 1800 — the specific William who fathered Macksfield is not identified by this researcher."
+    },
+    {
+      "id": "S10",
+      "label": "martygrant.com — Hensley Timeline Virginia 1628-1775",
+      "url": "http://www.martygrant.com/genealogy/hensley/hensley-timeline.htm",
+      "reliability": "HIGH",
+      "accessed": "2026-04-27"
+    },
+    {
+      "id": "S11",
+      "label": "FamilySearch — Enoch Henslee (1832-1916) ancestor page",
+      "url": "https://ancestors.familysearch.org/en/LLQW-934/enoch-henslee-1832-1916",
+      "reliability": "MEDIUM (FamilySearch user-contributed)",
+      "accessed": "2026-04-27",
+      "notes": "Suggests Enoch (Gen 5) may have lived to 1916, not 'after 1880' as in prior research. Death date needs verification."
+    }
+  ],
+
+  "summary_for_website": {
+    "what_is_now_known": "The Henslee family traces to Macksfield Henslee (c.1725-1801) of Caswell County NC, a Revolutionary War payee (DAR/SAR qualifying). His father is most probably William Hensley (c.1691-c.1781) of Virginia — this is preserved in the family's own GED data from a first cousin — but remains unverified from primary sources and should not be displayed as confirmed on the tree. The surname is definitively English, from the village of Hensley in East Worlington parish, Devon, England, meaning 'Hēahmund's woodland clearing' in Old English.",
+    "key_confirmed_update": "Wife of Enoch Henslee (Gen 5, ancestor of Lee Stuart) is now confirmed as Sarah HUDSON (Georgia native) per 1910 published biography. Previously listed as maiden name unknown.",
+    "migration_path_corrected": "Enoch Henslee (Gen 5) settled in Jack County, Texas first (c.1857), then moved to Burleson County — not directly to Burleson as previously documented.",
+    "still_missing": "Lee Stuart Henslee's parents (the generation between Enoch's children and Lee Stuart) remain unidentified. A Texas Death Certificate ($22) would likely resolve this."
+  }
+}

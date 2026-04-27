@@ -1,0 +1,257 @@
+{
+  "task": "Ballentine line extended research",
+  "date": "2026-04-27",
+  "researcher": "Clawrence (Claude genealogy agent)",
+  "scope": "Push Ballentine ancestry beyond John Ballentine (~1800 VA/NC); confirm intermediate generations; identify Scottish/Irish origins",
+
+  "chain_as_currently_documented": [
+    "John Ballentine (~1800, VA/NC) — married Betty Ducatt — CURRENT EARLIEST",
+    "→ David Ballentine — married Susan Nee — died Gibson County, TN",
+    "→ John Wallace Ballentine (born Jul 23, 1826, NC; died Feb 11, 1863, TN) — married Elizabeth Rebecca Barker",
+    "→ David Wyle Ballentine (born 1856, Ozark, Franklin County, Arkansas) — married Sallie Culbertson (b.1864, AL)",
+    "→ Harold 'Hal David' Ballentine (~1903, AR; died ~1945) — with Iris June Westerfield",
+    "→ David A. Trifon (biological son, b. ~1940s)",
+    "→ Rachel Spence → Hunter Spence"
+  ],
+
+  "corrections_to_task_brief": [
+    "Task brief states John Ballentine (~1800) married 'Sallie Culbertson' — INCORRECT. Per existing tree (M.P. GEDCOM): John married Betty Ducatt; Sallie Culbertson (b.1864, AL) married David WYLE Ballentine (generation below).",
+    "Task brief states Harold Ballentine born '~1920s' — INCORRECT per existing tree: estimated ~1903, Arkansas. Iris Westerfield was born 1919, making 1920s impossible.",
+    "The Culbertson connection (Capt. Alexander Culbertson, County Antrim) is through Sallie Culbertson who married David Wyle Ballentine, not John Ballentine (~1800)."
+  ],
+
+  "gaps_addressed": [
+    {
+      "gap": "Parents of John Ballentine (~1800, VA/NC, married Betty Ducatt)",
+      "status": "unresolved_with_probable_hypothesis",
+      "finding": "No direct documentary proof found linking this specific John Ballentine to a parent. However, the Norfolk, Virginia Ballentine family (established 1650s-1700s) is the most plausible origin for a VA/NC Ballentine born ~1800. The genealogical record shows a John Ballentine born ~1670 in Norfolk Colonial Virginia (son of George Ballentine Sr.), then John Ballentine (born 1700, Norfolk County, VA, son of the 1670 John), then Paul Ballentine (died 1754, Norfolk Colony, VA), and descendants including Church Ballentine (1752-1804, married Julia Fleming, Southampton County, VA). A Ballentine family member born ~1760 in Norfolk County, Virginia, died 1830 in Whitley County, Kentucky — consistent with westward migration pattern that would place a son born ~1800 in VA/NC. The 1820 and 1830 NC/VA census search did not yield a confirming match for a specific 'John Ballentine' with known wife Betty Ducatt and son David."
+    },
+    {
+      "gap": "Scottish origin of Ballantyne/Ballentine surname",
+      "status": "confirmed",
+      "finding": "The Ballantyne/Ballentine surname is definitively Scottish in origin, derived from lands in Selkirkshire/Roxburghshire (Bellenden on Ale Water near Roberton, Roxburghshire, or possibly Ballintoun, Stirlingshire). The Gaelic origin is 'baile an deadhain' — 'the dean's farmstead.' Earliest recordings: John Ballenden, archdeacon of Moray, c.1450; Sir Alexander Balendin, provost of Methven, 1563. The name appears in the Ragman Rolls of 1296 as 'Ballendyn' — swearing fealty to King Edward I. The first confirmed American Ballentine was George Ballentine Sr. (born ~1635-1636, Selkirkshire, Scotland; died May 1702, Norfolk County, Virginia), who arrived as an indentured servant, recorded in court records Feb 4, 1652/53 ('George Valentine servant of Christopher Burrow deceased having three more years to serve'). By June 1662 he married Frances Yates in Lower Norfolk County, Virginia."
+    },
+    {
+      "gap": "John Wallace Ballentine death in Tennessee 1863 — Civil War connection",
+      "status": "probable_confirmed",
+      "finding": "John Wallace Ballentine (born Jul 23, 1826, NC; died Feb 11, 1863, TN) almost certainly died during the Civil War period. Tennessee was an active theater of war in early 1863. The 2nd Mississippi Partisan Rangers ('Ballentine's Regiment'), led by Col. John Goff Ballentine, was operating in North Mississippi and Tennessee throughout 1862-1863. However, this regiment's Ballentine colonel was from a separate Irish-origin Tennessee Ballentine family (Andrew Mitchell Ballentine, born 1791, County Tyrone, Ireland). John Wallace Ballentine's death at age 36 in Tennessee (Gibson County area, where his father David died) could be illness, a separate military unit, or non-combat causes during the wartime period. Gibson County, TN records should be searched for death/burial record."
+    },
+    {
+      "gap": "David Wyle Ballentine (1856, Ozark AR) census records",
+      "status": "partial",
+      "finding": "David Wyle Ballentine born 1856 in Ozark, Franklin County, Arkansas — son of John Wallace Ballentine and Elizabeth Rebecca Barker. White County AR 1880 census shows related Ballentine household: J.A. Ballentine (age 43, born ~1837, Tennessee), W.W. Ballentine (age 41, born ~1839, Tennessee), with son W.A. Ballentine (age 20, born 1860, Mississippi) and David L. Ballentine (age 6, born 1874, Arkansas). David Wyle himself would have been ~24 in 1880, possibly in a separate household. His confirmed children with Sallie Culbertson: Mary Ethel Lee Ballentine (b. Jun 8, 1884, Chismsville, Logan County, AR), Oda Elizabeth Ballentine (b. 1897, AR). Harold Ballentine is the probable (not confirmed) third child."
+    },
+    {
+      "gap": "Harold Ballentine birth/parentage confirmation",
+      "status": "probable_unconfirmed",
+      "finding": "Harold 'Hal David' Ballentine (~1903, AR; died ~1945) is listed as 'probable' son of David Wyle Ballentine and Sallie Culbertson in the existing tree (confidence: probable). No independent birth record or Arkansas death record was located in this research session. His son Wallace 'Wally' Ballentine (1930-2017) and David A. Trifon were his sons with Iris June Westerfield (b.1919). The name 'Hal David' may be a family nickname — his middle name David potentially honors David Wyle Ballentine (grandfather) or David Ballentine (great-grandfather). Finding a marriage record for Harold Ballentine + Iris Westerfield in Arkansas (c.1929-1940) would confirm his identity."
+    }
+  ],
+
+  "new_ancestors_confirmed": [
+    {
+      "name": "George Ballentine Sr.",
+      "dates": "born ~1635-1636, Selkirkshire, Scotland; died ~May 1702, Norfolk County, Colony of Virginia",
+      "relationship_to_hunter": "Probable 7th-10th great-grandfather (via Norfolk VA Ballentine line, if connection to John Ballentine ~1800 is established)",
+      "source": "WikiTree Ballentine-40; momslookups.com/generations/ballentine.html; Court records Lower Norfolk County VA (1652/53); Geni.com George Ballentine Sr. profile",
+      "notes": "Arrived as indentured servant to Christopher Burrow. Married Frances Yates by June 1662. Had 11 children including: Frances, George Jr., Thomas, William, John, Alexander, Richard, Daniel, David, Mary, Dorothy. This is the EARLIEST CONFIRMED American Ballentine ancestor in any documented line. Connection to Hunter's John Ballentine (~1800) is probable but unproven — requires research into Norfolk VA → NC/VA migration path 1700-1800."
+    }
+  ],
+
+  "new_ancestors_probable": [
+    {
+      "name": "David Ballentine",
+      "dates": "~1685-1753, Norfolk County, Colony of Virginia",
+      "relationship_to_hunter": "Probable 6th-9th great-grandfather",
+      "source": "WikiTree (son of George Ballentine Sr. and Frances Yates); freepages.rootsweb.com Ballentine genealogy",
+      "notes": "One of the 11 children of George Ballentine Sr. An alternative descent path might run through other children (William, Thomas, or John Ballentine ~1670). A Ballentine born ~1760 in Norfolk County VA, dying 1830 in Whitley County, KY, has been documented — this could be the bridge generation between the 1700s Norfolk line and John Ballentine ~1800."
+    },
+    {
+      "name": "Andrew Mitchell Ballentine",
+      "dates": "born 1791, Bodney Parish, County Tyrone, Ireland; immigrated 1816; died Jun 27, 1863, Pulaski, Giles County, Tennessee",
+      "relationship_to_hunter": "NOT IN HUNTER'S LINE — documented for comparison only",
+      "source": "Find a Grave #46355842; Giles County TN biographical history; William F. Ballentine biography, History of Giles County TN 1886",
+      "notes": "This is the father of Confederate Colonel John Goff Ballentine (b. May 20, 1825, Pulaski TN). He opened a store in Giles County in 1815, moved to Pulaski c.1825. He is from County Tyrone, Ireland — a DIFFERENT Ballentine family branch from Hunter's. Born same year as John Wallace Ballentine's father (David Ballentine). Included here because Giles County TN Ballentines were active in the same region where Hunter's David Ballentine died."
+    }
+  ],
+
+  "conflicts_resolved": [
+    {
+      "conflict": "Task brief stated John Ballentine (~1800) married 'Sallie Culbertson'",
+      "resolution": "RESOLVED — the existing tree correctly shows John Ballentine married Betty Ducatt. Sallie Culbertson (born 1864, Alabama) married David WYLE Ballentine (the great-grandson of John). The Culbertson-Ballentine marriage is two generations lower than stated in the task brief."
+    },
+    {
+      "conflict": "Harold Ballentine birth decade (~1920s in task brief)",
+      "resolution": "RESOLVED — Harold born ~1903 per existing tree. Iris Westerfield was born Jun 1, 1919. Harold could not have been born in the 1920s and fathered children with Iris. The ~1903 estimate is consistent with him being a child of David Wyle Ballentine (b.1856, married Sallie Culbertson ~1880s)."
+    }
+  ],
+
+  "conflicts_unresolved": [
+    {
+      "conflict": "Exact parentage of John Ballentine (~1800, VA/NC) — married Betty Ducatt",
+      "detail": "The task asks who his parents were. Research finds no documentary confirmation. The M.P. GEDCOM (source for this generation) does not appear to name his parents. The Norfolk VA Ballentine family (1650s-1800) is the most plausible origin but the bridging generation (~1760-1780 born) has not been identified with certainty.",
+      "next_steps": "Search FamilySearch for 'Ballentine + Betty Ducatt' marriage record. Search 1820/1830 census for Virginia and North Carolina for a Ballentine household with children the right age to include David (parent of John Wallace b.1826). Check Gibson County TN land/estate records for David Ballentine. Review the M.P. GEDCOM source directly."
+    },
+    {
+      "conflict": "Whether John Wallace Ballentine died as a Civil War soldier or civilian",
+      "detail": "Death Feb 11, 1863 in TN during war period but no military unit identified. Gibson County TN Civil War records should be searched.",
+      "next_steps": "Search Tennessee Civil War burial sheets index at TSLA (Tennessee State Library & Archives). Search Soldiers and Sailors database for 'Ballentine + Tennessee' c.1861-1865."
+    },
+    {
+      "conflict": "Harold Ballentine's parentage remains 'probable' not 'confirmed'",
+      "detail": "No birth certificate or probate record found linking Harold to David Wyle Ballentine.",
+      "next_steps": "Search Arkansas death records ~1940-1950 for Harold Ballentine. Search Arkansas marriage records for Harold Ballentine + Iris Westerfield. DNA match analysis with descendants of Mary Ethel Lee Ballentine (confirmed daughter of David Wyle) could confirm Harold's sibship."
+    }
+  ],
+
+  "scottish_origin_summary": {
+    "surname_origin": "Ballantyne/Ballentine is Scottish, from lands of Bellenden in Selkirkshire or Ballintoun in Stirlingshire. Gaelic: 'baile an deadhain' (the dean's farmstead). Variants: Ballenden, Bellenden, Balentyne, Ballantine, Ballintine, Ballentyne, Ballendine, Bannatyne.",
+    "earliest_records": [
+      "John Ballenden, archdeacon of Moray, ~1450",
+      "Sir Alexander Balendin, provost of Methven, 1563",
+      "Robert de Ballendyn in Ragman Rolls, 1296 (swore fealty to Edward I of England)"
+    ],
+    "first_american_ballentine": {
+      "name": "George Ballentine Sr.",
+      "origin": "Selkirkshire, Scotland (also noted as Selkirkshire on Geni.com; Wikipedia says name associated with Roxburghshire/Selkirk/Edinburgh/Falkirk area)",
+      "arrival": "Before 1652 (recorded as indentured servant in Lower Norfolk County, VA, Feb 4, 1652/53)",
+      "death": "~May 15, 1702, Norfolk County, Colony of Virginia",
+      "significance": "Earliest confirmed Ballentine in America. Established a large Virginia family with 11+ children. The Norfolk Virginia Ballentine dynasty is documented through the late 1700s."
+    },
+    "connection_to_hunters_line": "Probable but unproven. If John Ballentine (~1800, VA/NC) descends from the Norfolk VA George Ballentine Sr. line, Hunter's Ballentine ancestry traces to Selkirkshire, Scotland c.1635. This would make George Ballentine Sr. Hunter's ~8th-10th great-grandfather."
+  },
+
+  "recommended_tree_additions": [
+    {
+      "action": "ADD_WITH_LOW_CONFIDENCE",
+      "person": "George Ballentine Sr. (~1636-~1702, Selkirkshire Scotland → Norfolk VA)",
+      "where": "Above John Ballentine (~1800) in the Ballentine tree, flagged as 'speculative — probable line'",
+      "rationale": "Scottish origin of surname confirmed. Norfolk VA Ballentine family well-documented and geographically consistent with John Ballentine ~1800 being from VA/NC. Specific bridging generation not yet identified.",
+      "confidence": "speculative"
+    },
+    {
+      "action": "ADD_NOTE",
+      "person": "John Ballentine (~1800, VA/NC)",
+      "note": "Married Betty Ducatt (NOT Sallie Culbertson — that is a later generation error). Wife's name confirmed in M.P. GEDCOM. Parents unknown as of 2026-04-27 research. Most probable origin: Norfolk County, Virginia Ballentine line descending from George Ballentine Sr. (Scottish immigrant, ~1636-1702).",
+      "confidence": "confirmed-existing"
+    },
+    {
+      "action": "ADD_NOTE",
+      "person": "David Ballentine (son of John Ballentine ~1800)",
+      "note": "Married Susan Nee. Died Gibson County, Tennessee. His death in Tennessee (and the region's Ballentine activity with the Confederate Giles County TN Ballentine family) suggests the family had TN connections before moving west to Arkansas.",
+      "confidence": "confirmed-existing"
+    },
+    {
+      "action": "UPDATE",
+      "person": "John Wallace Ballentine (1826-1863)",
+      "note": "Death Feb 11, 1863 in TN is during Civil War period. He was age 36. May have died as soldier or civilian in wartime Tennessee. No military unit confirmed. Gibson County TN death/burial records recommended for follow-up.",
+      "confidence": "confirmed-with-gap"
+    },
+    {
+      "action": "FLAG",
+      "person": "Harold 'Hal David' Ballentine (~1903-~1945)",
+      "note": "Harold's parentage from David Wyle Ballentine + Sallie Culbertson remains 'probable'. Birth date ~1903 estimated (not 1920s). Middle name 'David' likely honors grandfather David Wyle Ballentine or great-grandfather David Ballentine. Arkansas death record search recommended.",
+      "confidence": "probable"
+    }
+  ],
+
+  "geographic_migration_pattern": {
+    "summary": "Ballentine migration follows the classic Scots-Irish path: Scotland → Virginia (1650s) → North Carolina (1700s-1800s) → Tennessee → Arkansas (1850s-1880s)",
+    "stages": [
+      "1635-1650s: George Ballentine Sr. from Selkirkshire, Scotland → Norfolk County, Virginia (indentured servant → free settler)",
+      "1650s-1700s: Norfolk County VA Ballentine family establishes, 11+ children",
+      "1700s-1800: Likely migration from Norfolk VA into North Carolina Piedmont (Scotch-Irish settlement corridor through Iredell, Rowan, Wake counties)",
+      "~1800-1826: John Ballentine (~1800) in VA/NC; son David born, grandson John Wallace born Jul 1826 in NC",
+      "1826-1850s: David Ballentine family moves to Gibson County, Tennessee",
+      "~1850-1856: Family moves to Ozark, Franklin County, Arkansas — David Wyle born 1856",
+      "1856-1903: David Wyle Ballentine lives in Arkansas, marries Sallie Culbertson, has children including Harold",
+      "1903-1945: Harold Ballentine in Arkansas, fathers David A. Trifon with Iris Westerfield"
+    ]
+  },
+
+  "sources": [
+    {
+      "source": "WikiTree Ballentine-40",
+      "url": "https://www.wikitree.com/wiki/Ballentine-39",
+      "description": "John Ballentine (~1670-~1734), son of George Ballentine Sr., born Norfolk Colonial Virginia"
+    },
+    {
+      "source": "WikiTree George Ballentine Sr.",
+      "url": "https://www.wikitree.com/wiki/Ballentine-40",
+      "description": "George Ballentine Sr. (~1636-~1702), Scottish immigrant, Norfolk VA — with full child list"
+    },
+    {
+      "source": "Momslookups.com Ballentine Family",
+      "url": "http://www.momslookups.com/generations/ballentine.html",
+      "description": "Detailed listing of George Ballentine Sr. children and Norfolk VA descendants"
+    },
+    {
+      "source": "Geni.com George Ballentine Sr.",
+      "url": "https://www.geni.com/people/George-Ballentine-Sr/6000000013698106301",
+      "description": "George Ballentine Sr., birth Selkirkshire Scotland ~1635, death Norfolk VA May 15 1702"
+    },
+    {
+      "source": "Find a Grave — Andrew Mitchell Ballentine",
+      "url": "https://www.findagrave.com/memorial/46355842/andrew-mitchell-ballentine",
+      "description": "Andrew Mitchell Ballentine (1791-1863), born Bodney Parish County Tyrone Ireland, died Pulaski TN — SEPARATE branch, documented for comparison"
+    },
+    {
+      "source": "Wikipedia — John Goff Ballentine",
+      "url": "https://en.wikipedia.org/wiki/John_Goff_Ballentine",
+      "description": "Col. John Goff Ballentine (1825-1915), son of Andrew Mitchell Ballentine, Confederate officer, US Rep Tennessee — SEPARATE branch"
+    },
+    {
+      "source": "Wikipedia — Ballantyne (surname)",
+      "url": "https://en.wikipedia.org/wiki/Ballantyne_(surname)",
+      "description": "Scottish Gaelic origin, from Bellenden in Roxburghshire or Ballintoun in Stirlingshire"
+    },
+    {
+      "source": "SurnameDB — Ballantyne",
+      "url": "https://www.surnamedb.com/Surname/ballantyne",
+      "description": "Detailed surname etymology; Ragman Rolls 1296 earliest record; Selkirk/Roxburgh border origin"
+    },
+    {
+      "source": "NameCensus — Ballantyne",
+      "url": "https://namecensus.com/last-names/ballantyne-surname-popularity/",
+      "description": "Etymology: Scottish Borders, lands of Ballantyne in Livingstone, West Lothian; mid-12th century as 'de Ballendan'; 16th century Ballantynes as landowners near Peebles and Traquair"
+    },
+    {
+      "source": "White County Arkansas 1880 Census — ARGenWeb",
+      "url": "http://www.argenweb.net/white/census/1880_Cane.html",
+      "description": "J.A. Ballentine (b.~1837 TN), W.W. Ballentine (b.~1839 TN), W.A. Ballentine (b.1860 MS), David L. Ballentine (b.1874 AR) in White County AR Cane Township 1880"
+    },
+    {
+      "source": "Fuquay-Varina Museums — Meet the Ballentines Part I",
+      "url": "http://fuquay-varina-museums.org/2021/04/18/meet-the-ballentines-part-i-the-squire-and-varina/",
+      "description": "William Ballentine (b.1800) married Cynthia Crawley (b.1809), Wake County NC — children incl. David Gaston (b.1832), James Devereaux (b.1842), William Marshall (b.1834) — SEPARATE Wake County NC branch"
+    },
+    {
+      "source": "Tennessee Civil War — Ballentine Regiment",
+      "url": "http://www.msgw.org/confederate/2ndmspr.htm",
+      "description": "2nd Mississippi Partisan Rangers (Ballentine's) — Col. John Goff Ballentine led regiment in Tennessee 1862-1865"
+    },
+    {
+      "source": "Giles County TN History — Andrew M. Ballentine",
+      "url": "https://ahgp.org/tn/giles/histmc/part2.htm",
+      "description": "Andrew M. Ballentine opened store in Giles County 1815, moved to Pulaski c.1825; Irish immigrant"
+    },
+    {
+      "source": "Existing family tree — lineage-tree-multi.json",
+      "url": "local:C:/Users/hspen/.openclaw/workspace/family-history/research/lineage-tree-multi.json",
+      "description": "Lines 5398-5519: Current Ballentine tree chain from John Ballentine → David → John Wallace → David Wyle → Harold → David Trifon → Rachel → Hunter"
+    }
+  ],
+
+  "research_gaps_for_future": [
+    "Search FamilySearch Family Tree for 'John Ballentine' + 'Betty Ducatt' marriage to identify his parents",
+    "Search 1820 and 1830 US Census for Virginia and North Carolina for Ballentine/Ballantine households — look for a head of household who could be father of David Ballentine (b. ~1820-1830)",
+    "Search Gibson County TN deed, probate, and Civil War records for David Ballentine death record and John Wallace Ballentine death/burial",
+    "Search Tennessee State Library & Archives Civil War Burial Sheets index for 'Ballentine' — to determine if John Wallace died as soldier",
+    "Search Arkansas death records 1940-1950 for Harold Ballentine",
+    "Search Arkansas marriage records for 'Harold Ballentine' + 'Iris Westerfield' (c.1929-1940)",
+    "Check the M.P. GEDCOM source directly for any additional data on John Ballentine (~1800) parents",
+    "DNA genealogy: Compare Hunter's maternal side DNA matches against known descendants of Wake County NC Ballentines (William b.1800) and Norfolk VA Ballentine line to assess which branch is ancestral"
+  ],
+
+  "notable_finding": "The Ballantyne/Ballentine surname traces to the Scottish Borders (Roxburghshire/Selkirkshire) — potentially one of Scotland's oldest documented family surnames, appearing in the Ragman Rolls of 1296. The first American Ballentine was George Ballentine Sr., a Scottish indentured servant who arrived in Norfolk, Virginia before 1652 and established a large Virginia family. If Hunter's John Ballentine (~1800, VA/NC) descends from this Norfolk line, Hunter's Ballentine ancestry extends to 17th-century Scotland — and potentially to medieval Scots who held lands in the Scottish Borders since the 13th century."
+}
