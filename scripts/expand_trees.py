@@ -835,127 +835,187 @@ if early_mattingly:
 
 # ═══════════════════════════════════════════════════════════════════════════
 # WESTERFIELD / TRIFON MATERNAL LINE
-# Source: Walls Doris GEDCOM, David A. Trifon family messages (April 2026)
+# Dutch Westervelt origin: Jacobus Westervelt (1755, Utrecht, Long Island, NY)
+# Source: Walls Doris GEDCOM, Frances Padgett GEDCOM, web research (April 2026)
 # ═══════════════════════════════════════════════════════════════════════════
 
 WESTERFIELD_TREE = N(
-    "Joel Hayden Westerfield",
-    "born Jun 1853, Ohio County, Kentucky; died Nov 22, 1910, Reynolds Station, Hancock County, Kentucky",
-    "Hunter's maternal great-great-great-grandfather. Farmer from Kentucky who migrated to Arkansas. "
-    "Source: Walls Doris GEDCOM (1st cousin 2x removed or half great-grandaunt, maternal side).",
-    gen=1, century=19, confidence="confirmed",
-    spouse="Amanda Jane Nelson (born Jun 1855, Kentucky; died Jan 19, 1928, Monette, Craighead County, Arkansas)",
+    "Jacobus Westervelt (Westerfield)",
+    "born Aug 15, 1755, Utrecht, Long Island, New York; died Jun 1, 1826, Mercer County, Kentucky",
+    "Hunter's maternal great-great-great-great-great-great-grandfather. Dutch origin — the family anglicized "
+    "the surname Westervelt to Westerfield upon settling in Kentucky. Married Phoebe Cozine (born Dec 9, 1759, "
+    "Dutch Reform Church, Readington, Somerset County, New Jersey; died Dec 9, 1847, Harrodsburg, Mercer County, "
+    "Kentucky). The Westervelt family migrated from Long Island to Harper's Ferry, then to Mercer County, Kentucky. "
+    "Source: Walls Doris GEDCOM.",
+    gen=1, century=18, confidence="confirmed",
+    spouse="Phoebe Cozine (born Dec 9, 1759, Readington, Somerset County, New Jersey; died Dec 9, 1847, Harrodsburg, Mercer County, Kentucky)",
     children=[N(
-        "Jesse Lawrence Westerfield",
-        "born Jan 1, 1887, Kentucky; died Sep 29, 1951, Marianna, Lee County, Arkansas",
-        "Hunter's maternal great-great-grandfather. Son of Joel Westerfield and Amanda Nelson. "
-        "Married Bertie Jane Padgett (b.1888 AR). Had five children including "
-        "Iris June Westerfield (Hunter's maternal great-grandmother). "
+        "Cornelius Westerfield",
+        "born Feb 1, 1782, Harper's Ferry, Jefferson County, West Virginia; died Jul 30, 1852, Whitesville, Ohio County, Kentucky",
+        "Son of Jacobus Westervelt and Phoebe Cozine. Married Elizabeth Bruce (born Oct 27, 1786, Coxes Creek, "
+        "Nelson County, Kentucky; died Sep 6, 1852, Whitesville, Daviess County, Kentucky). "
+        "Elizabeth's parents: James Bruce (born Apr 2, 1760, Brucetown, Frederick County, Virginia; died 1835, "
+        "Corydon, Harrison County, Indiana) and Mary Polly Runyan (born May 27, 1761, Frederick County, Maryland; "
+        "died Feb 4, 1836, Corydon, Harrison County, Indiana). Cornelius settled in Ohio County, Kentucky. "
         "Source: Walls Doris GEDCOM.",
-        gen=2, century=19, confidence="confirmed",
-        spouse="Bertie Jane Padgett (born Mar 10, 1888, Arkansas; died Oct 6, 1964, Lee County, Arkansas)",
-        children=[
-            N(
-                "Cleofus Westerfield",
-                "born 1918; died 2003",
-                "Son of Jesse and Bertie Jane. Married Virginia Laverne Summar. "
-                "Brother of Iris June Westerfield. Source: Walls Doris GEDCOM.",
-                gen=3, century=20, confidence="confirmed"
-            ),
-            N(
-                "Iris June Westerfield",
-                "born Jun 1, 1919, Tuckerman, Arkansas; died Apr 13, 2003, Colt, Arkansas",
-                "Hunter's maternal great-grandmother. Daughter of Jesse Westerfield and Bertie Jane Padgett. "
-                "Married Harold 'Hal David' Ballentine (~1903, KS). Their son David took the surname Trifon "
-                "from a stepfather after Harold died ~1945. Also had children Carol Ward and Doris Walls. "
-                "Source: Walls Doris GEDCOM, David A. Trifon family messages.",
-                gen=3, century=20, confidence="confirmed",
-                spouse="Harold 'Hal David' Ballentine (~1903, Kansas; died ~1945)",
-                children=[
-                    N(
-                        "David A. Trifon",
-                        "born ~1940s, Arkansas area",
-                        "Hunter's maternal grandfather. Biological son of Harold Ballentine and Iris Westerfield. "
-                        "Took stepfather's surname 'Trifon' after Harold Ballentine died ~1945. "
-                        "Shared extensive family history documentation with Hunter in April 2026. "
-                        "Daughters: Charmaine Trifon and Rachel Trifon (Hunter's mother). "
-                        "Source: David A. Trifon personal communication.",
-                        gen=4, century=20, confidence="confirmed",
+        gen=2, century=18, confidence="confirmed",
+        spouse="Elizabeth Bruce (born Oct 27, 1786, Coxes Creek, Nelson County, Kentucky; died Sep 6, 1852, Whitesville, Kentucky)",
+        children=[N(
+            "Joel Hayden Westerfield Sr.",
+            "born 1811, Mercer County, Kentucky; died Jul 1855, Ohio County, Kentucky",
+            "Son of Cornelius Westerfield and Elizabeth Bruce. Married Nancy Smith (born Jul 4, 1816, Mercer County, "
+            "Kentucky; died Mar 20, 1867, Ohio County, Kentucky). Died young, leaving son Joel Jr. orphaned at ~age 4. "
+            "Source: Walls Doris GEDCOM.",
+            gen=3, century=19, confidence="confirmed",
+            spouse="Nancy Smith (born Jul 4, 1816, Mercer County, Kentucky; died Mar 20, 1867, Ohio County, Kentucky)",
+            children=[
+                N(
+                    "Joel Hayden Westerfield Jr.",
+                    "born Jun 1853, Ohio County, Kentucky; died Nov 22, 1910, Reynolds Station, Hancock County, Kentucky",
+                    "Hunter's maternal great-great-great-grandfather. Son of Joel Sr. and Nancy Smith. "
+                    "Father died when Joel Jr. was ~age 2. Married Amanda Jane Nelson (born Jun 1855, Daviess County, "
+                    "Kentucky; died Jan 19, 1928, Monette, Craighead County, Arkansas). Amanda's parents: "
+                    "Joseph A. Nelson (born 1822, Kentucky) and Margaret A. Westerfield (born ~1833, Kentucky) — "
+                    "Amanda's mother was herself a Westerfield, making Amanda a Westerfield cousin on her maternal side. "
+                    "Source: Walls Doris GEDCOM, 1860 US Census.",
+                    gen=4, century=19, confidence="confirmed",
+                    spouse="Amanda Jane Nelson (born Jun 1855, Daviess County, Kentucky; died Jan 19, 1928, Monette, Craighead County, Arkansas)",
+                    children=[N(
+                        "Jesse Lawrence Westerfield",
+                        "born Jan 1, 1887, Kentucky; died Sep 29, 1951, Marianna, Lee County, Arkansas",
+                        "Hunter's maternal great-great-grandfather. Son of Joel Jr. and Amanda Nelson. "
+                        "Married Bertie Jane Padgett (born Mar 10, 1888, Arkansas; died Oct 6, 1964, Lee County, Arkansas). "
+                        "Had six confirmed children in Arkansas. Source: Walls Doris GEDCOM.",
+                        gen=5, century=19, confidence="confirmed",
+                        spouse="Bertie Jane Padgett (born Mar 10, 1888, Arkansas; died Oct 6, 1964, Lee County, Arkansas)",
                         children=[
                             N(
-                                "Charmaine Trifon",
-                                "born ~1960s–1970s",
-                                "Daughter of David A. Trifon. Hunter's maternal aunt. "
-                                "Source: David A. Trifon family communication.",
-                                gen=5, century=20, confidence="confirmed"
+                                "Cleofus Westerfield",
+                                "born 1918; died 2003",
+                                "Son of Jesse and Bertie Jane. Married Virginia Laverne Summar. "
+                                "Source: Walls Doris GEDCOM.",
+                                gen=6, century=20, confidence="confirmed"
                             ),
                             N(
-                                "Rachel Trifon",
-                                "born ~1960s–1970s",
-                                "Hunter's mother. Daughter of David A. Trifon and granddaughter of Iris Westerfield. "
-                                "Source: Hunter Spence (direct family knowledge).",
-                                gen=5, century=20, confidence="confirmed",
-                                children=[N(
-                                    "Hunter Spence",
-                                    "born ~2002–2003, Florida",
-                                    "User. Son of Rachel Trifon (maternal) and Dale William Spence Jr. (paternal). "
-                                    "Dual US/UK passport holder.",
-                                    gen=6, century=21, confidence="confirmed"
-                                )]
+                                "Iris June Westerfield",
+                                "born Jun 1, 1919, Tuckerman, Jackson County, Arkansas; died Apr 13, 2003, Colt, St. Francis County, Arkansas",
+                                "Hunter's maternal great-grandmother. Daughter of Jesse and Bertie Jane Padgett. "
+                                "Had children with Harold 'Hal David' Ballentine (~1903, KS): David A. Trifon and "
+                                "Wallace 'Wally' Ballentine. Documented marriage to Andrew Jackson Key "
+                                "(born Mar 28, 1914, Senatobia, Tate County, Mississippi; died Jan 30, 1991, Alabama; "
+                                "parents: Andrew Jackson Key Sr., born 1878, TN + Dora V. Hudspeth, born 1893, MS), "
+                                "with whom she had Carol (Key) Ward. "
+                                "Source: Walls Doris GEDCOM, David A. Trifon family messages.",
+                                gen=6, century=20, confidence="confirmed",
+                                spouse="Andrew Jackson Key (born Mar 28, 1914, Senatobia, Mississippi; died Jan 30, 1991, Alabama) [documented marriage]; "
+                                       "Harold 'Hal David' Ballentine (~1903, Kansas; died ~1945) [biological father of David and Wally]",
+                                children=[
+                                    N(
+                                        "David A. Trifon",
+                                        "born ~1940s, Arkansas area",
+                                        "Hunter's maternal grandfather. Biological son of Harold Ballentine and Iris Westerfield. "
+                                        "Took stepfather's surname 'Trifon' after Harold Ballentine died ~1945. "
+                                        "Daughters: Charmaine Trifon and Rachel Trifon (Hunter's mother). "
+                                        "Source: David A. Trifon personal communication.",
+                                        gen=7, century=20, confidence="confirmed",
+                                        children=[
+                                            N(
+                                                "Charmaine Trifon",
+                                                "born ~1960s–1970s",
+                                                "Daughter of David A. Trifon. Hunter's maternal aunt. "
+                                                "Source: David A. Trifon family communication.",
+                                                gen=8, century=20, confidence="confirmed"
+                                            ),
+                                            N(
+                                                "Rachel Trifon",
+                                                "born ~1960s–1970s",
+                                                "Hunter's mother. Daughter of David A. Trifon. "
+                                                "Source: Hunter Spence (direct family knowledge).",
+                                                gen=8, century=20, confidence="confirmed",
+                                                children=[N(
+                                                    "Hunter Spence",
+                                                    "born ~2002–2003, Florida",
+                                                    "User. Son of Rachel Trifon (maternal) and Dale William Spence Jr. (paternal). "
+                                                    "Dual US/UK passport holder.",
+                                                    gen=9, century=21, confidence="confirmed"
+                                                )]
+                                            ),
+                                        ]
+                                    ),
+                                    N(
+                                        "Wallace 'Wally' Ballentine",
+                                        "born 1930; died 2017",
+                                        "Son of Iris Westerfield and Harold Ballentine. Half-sibling of David A. Trifon. "
+                                        "Source: David A. Trifon family communication.",
+                                        gen=7, century=20, confidence="confirmed",
+                                        is_notable=True
+                                    ),
+                                    N(
+                                        "Carol (Key) Ward",
+                                        "born ~1937, Arkansas",
+                                        "Daughter of Iris Westerfield and Andrew Jackson Key. Half-sibling of David A. Trifon. "
+                                        "Married a Ward — listed in obituaries as 'Carol Ward'. "
+                                        "Source: Carol Ward obituary, Walls Doris GEDCOM.",
+                                        gen=7, century=20, confidence="confirmed"
+                                    ),
+                                    N(
+                                        "Doris Walls",
+                                        "born ~1930s–1940s",
+                                        "Daughter of Iris Westerfield. Sister of David A. Trifon. "
+                                        "DNA match to Hunter: 1st cousin 2x removed or half great-grandaunt (maternal side). "
+                                        "Source: Walls Doris GEDCOM.",
+                                        gen=7, century=20, confidence="confirmed"
+                                    ),
+                                ]
+                            ),
+                            N(
+                                "O.C. 'Wes' Westerfield",
+                                "born ~1921, Arkansas; died ~2008, Azle, Tarrant County, Texas",
+                                "Son of Jesse and Bertie Jane. Married Viola Mae Boswell. "
+                                "Source: Walls Doris GEDCOM.",
+                                gen=6, century=20, confidence="confirmed"
+                            ),
+                            N(
+                                "Padgett Lee Westerfield",
+                                "born 1921; died 2002",
+                                "Son of Jesse and Bertie Jane. Named after mother's maiden name Padgett. "
+                                "Owned a Chevrolet dealership — notable local businessman in Arkansas. "
+                                "Source: Walls Doris GEDCOM.",
+                                gen=6, century=20, confidence="confirmed",
+                                is_notable=True
+                            ),
+                            N(
+                                "Maxie Eugene Westerfield",
+                                "born 1922; died 1956",
+                                "Son of Jesse and Bertie Jane. Died at ~34. "
+                                "Source: Walls Doris GEDCOM.",
+                                gen=6, century=20, confidence="confirmed"
+                            ),
+                            N(
+                                "Wayne Miller Westerfield",
+                                "born 1927; died 1990",
+                                "Son of Jesse and Bertie Jane. Source: Walls Doris GEDCOM.",
+                                gen=6, century=20, confidence="confirmed"
                             ),
                         ]
-                    ),
-                    N(
-                        "Carol Ward",
-                        "born ~1937",
-                        "Daughter of Iris Westerfield and Andrew Jackson Key "
-                        "(born Mar 28, 1914, Senatobia, Tate, Mississippi; died Jan 30, 1991, Alabama). "
-                        "Sister of David A. Trifon. Doris Walls listed in Carol Ward obituary. "
-                        "Source: Carol Ward obituary (Walls Doris GEDCOM).",
-                        gen=4, century=20, confidence="confirmed",
-                        spouse="Andrew Jackson Key (born Mar 28, 1914, Senatobia, Mississippi; died Jan 30, 1991, Alabama)"
-                    ),
-                    N(
-                        "Doris Walls",
-                        "born ~1930s–1940s",
-                        "Daughter of Iris Westerfield. Sister of David A. Trifon. "
-                        "DNA match to Hunter: 1st cousin 2x removed or half great-grandaunt (maternal side). "
-                        "Source: Walls Doris GEDCOM.",
-                        gen=4, century=20, confidence="confirmed"
-                    ),
-                ]
-            ),
-            N(
-                "Padgett Lee Westerfield",
-                "born 1921; died 2002",
-                "Son of Jesse and Bertie Jane. Named after mother's maiden name Padgett. "
-                "Owned a Chevrolet dealership — notable local businessman in Arkansas. "
-                "Source: Walls Doris GEDCOM.",
-                gen=3, century=20, confidence="confirmed",
-                is_notable=True
-            ),
-            N(
-                "Maxie Eugene Westerfield",
-                "born 1922; died 1956",
-                "Son of Jesse and Bertie Jane. Died at ~34. "
-                "Source: Walls Doris GEDCOM.",
-                gen=3, century=20, confidence="confirmed"
-            ),
-            N(
-                "Wayne Miller Westerfield",
-                "born 1927; died 1990",
-                "Son of Jesse and Bertie Jane Westerfield. "
-                "Source: Walls Doris GEDCOM.",
-                gen=3, century=20, confidence="confirmed"
-            ),
-        ]
+                    )]
+                ),
+                N(
+                    "Oliver Cleveland Westerfield",
+                    "born Apr 24, 1884, Kentucky; died Jan 16, 1936, Independence, Arkansas",
+                    "Son of Joel Hayden Westerfield Jr. and Amanda Jane Nelson. Sibling of Jesse Lawrence Westerfield. "
+                    "Married Nancy Leona Spivey (born Mar 10, 1889, Arkansas; died Jun 15, 1971, Newark, Independence County, Arkansas). "
+                    "Source: Walls Doris GEDCOM.",
+                    gen=4, century=19, confidence="confirmed",
+                    spouse="Nancy Leona Spivey (born Mar 10, 1889, Arkansas; died Jun 15, 1971, Newark, Independence County, Arkansas)"
+                ),
+            ]
+        )]
     )]
 )
-if not replace_tree("Westerfield/Trifon", WESTERFIELD_TREE):
-    add_tree(
-        "MATERNAL — Westerfield/Trifon line (Joel Westerfield 1853 KY → Iris 1919 AR → David Trifon → Rachel → Hunter)",
-        WESTERFIELD_TREE
-    )
+_wester_label = "MATERNAL — Westerfield/Trifon line (Jacobus Westervelt 1755 Long Island NY → Cornelius 1782 WV → Joel Sr. 1811 KY → Joel Jr. 1853 KY → Iris 1919 AR → David Trifon → Rachel → Hunter)"
+if not replace_tree("Westerfield/Trifon", WESTERFIELD_TREE, new_label=_wester_label):
+    add_tree(_wester_label, WESTERFIELD_TREE)
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -964,40 +1024,50 @@ if not replace_tree("Westerfield/Trifon", WESTERFIELD_TREE):
 # ═══════════════════════════════════════════════════════════════════════════
 
 PADGETT_TREE = N(
-    "John J. Padgett (Pagett)",
-    "born 1808, Vernon, Jennings County, Indiana; died Aug 14, 1873, Independence County, Arkansas",
-    "Hunter's maternal great-great-great-great-grandfather (Padgett line). Born Indiana, died Arkansas — "
-    "early American migrant to the frontier South. "
-    "Source: Frances Padgett GEDCOM (3rd cousin 1x removed or half 2nd cousin 2x removed, maternal side).",
-    gen=1, century=19, confidence="confirmed",
-    spouse="Amanda Goad (born Jul 25, 1830, Graves County, Kentucky; died Feb 6, 1911, McCracken County, Kentucky)",
+    "William Riley Padgett",
+    "born ~1785, Virginia; died ~1855, Indiana (estimated)",
+    "Hunter's maternal 5x great-grandfather (Padgett line). Father of John J. Padgett. "
+    "Primary source: Frances Padgett GEDCOM. WikiTree alternate: wife listed as Hannah Evans (b.1776, NC) — "
+    "conflicts with GEDCOM (Anne Casey). GEDCOM takes precedence. "
+    "Padgett line may extend further: WikiTree records Benjamin Padgett (b.1755, Maryland) as possible father.",
+    gen=1, century=18, confidence="probable",
+    spouse="Anne Casey (born ~1785, Virginia; alt. source WikiTree: Hannah Evans b.1776 NC — unresolved conflict)",
     children=[N(
-        "William Miller Padgett",
-        "born Oct 5, 1862, Independence County, Arkansas; died Nov 15, 1950, Lee County, Arkansas",
-        "Hunter's maternal great-great-great-grandfather (Padgett line). "
-        "Son of John J. Padgett and Amanda Goad. Father of Bertie Jane Padgett "
-        "who married Jesse Lawrence Westerfield. Source: Frances Padgett GEDCOM, Walls Doris GEDCOM.",
+        "John J. Padgett (Pagett)",
+        "born 1808, Vernon, Jennings County, Indiana; died Aug 14, 1873, Independence County, Arkansas",
+        "Hunter's maternal 4x great-grandfather (Padgett line). Born Indiana, died Arkansas — "
+        "early American migrant to the frontier South. "
+        "Source: Frances Padgett GEDCOM (3rd cousin 1x removed or half 2nd cousin 2x removed, maternal side).",
         gen=2, century=19, confidence="confirmed",
-        spouse="Frances Ward (born Jan 23, 1868, Strawberry, Lawrence County, Arkansas; "
-               "died Sep 11, 1945, Smithville, Lawrence County, Arkansas)",
+        spouse="Amanda Goad (born Jul 25, 1830, Graves County, Kentucky; died Feb 6, 1911, McCracken County, Kentucky; "
+               "parents: Caleb Goad 1792 VA + Elizabeth Dodson 1791 VA — see Goad ancestor tree)",
         children=[N(
-            "Bertie Jane Padgett",
-            "born Mar 10, 1888, Arkansas; died Oct 6, 1964, Lee County, Arkansas",
-            "Hunter's maternal great-great-grandmother (Padgett line). "
-            "Daughter of William Miller Padgett and Frances Ward. "
-            "Married Jesse Lawrence Westerfield (b.1887, KY). Together had five children "
-            "including Iris June Westerfield (Hunter's maternal great-grandmother). "
-            "Source: Walls Doris GEDCOM, Frances Padgett GEDCOM.",
+            "William Miller Padgett",
+            "born Oct 5, 1862, Independence County, Arkansas; died Nov 15, 1950, Lee County, Arkansas",
+            "Hunter's maternal 3x great-grandfather (Padgett line). "
+            "Son of John J. Padgett and Amanda Goad. Father of Bertie Jane Padgett "
+            "who married Jesse Lawrence Westerfield. Source: Frances Padgett GEDCOM, Walls Doris GEDCOM.",
             gen=3, century=19, confidence="confirmed",
-            spouse="Jesse Lawrence Westerfield (born Jan 1, 1887, Kentucky — see Westerfield/Trifon tree)"
+            spouse="Frances Ward (born Jan 23, 1868, Strawberry, Lawrence County, Arkansas; "
+                   "died Sep 11, 1945, Smithville, Lawrence County, Arkansas; "
+                   "parents: Joseph Ward 1833 TN + Jane Carolina Raney 1838 AR — see Ward ancestor tree)",
+            children=[N(
+                "Bertie Jane Padgett",
+                "born Mar 10, 1888, Arkansas; died Oct 6, 1964, Lee County, Arkansas",
+                "Hunter's maternal great-great-grandmother (Padgett line). "
+                "Daughter of William Miller Padgett and Frances Ward. "
+                "Married Jesse Lawrence Westerfield (b.1887, KY). Together had five children "
+                "including Iris June Westerfield (Hunter's maternal great-grandmother). "
+                "Source: Walls Doris GEDCOM, Frances Padgett GEDCOM.",
+                gen=4, century=19, confidence="confirmed",
+                spouse="Jesse Lawrence Westerfield (born Jan 1, 1887, Kentucky — see Westerfield/Trifon tree)"
+            )]
         )]
     )]
 )
-if not replace_tree("Padgett ancestors", PADGETT_TREE):
-    add_tree(
-        "MATERNAL — Padgett ancestors (John J. Padgett 1808 Indiana → William Miller Padgett 1862 AR → Bertie Jane Padgett 1888 AR)",
-        PADGETT_TREE
-    )
+_padgett_label = "MATERNAL — Padgett ancestors (William Riley Padgett 1785 VA → John J. Padgett 1808 Indiana → William Miller 1862 AR → Bertie Jane 1888 AR)"
+if not replace_tree("Padgett ancestors", PADGETT_TREE, new_label=_padgett_label):
+    add_tree(_padgett_label, PADGETT_TREE)
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -1014,46 +1084,59 @@ BALLENTINE_TREE = N(
     spouse="Betty Ducatt",
     children=[N(
         "David Ballentine",
-        "born ~1799, Virginia / North Carolina / Scotland (birth location varies in records)",
+        "born ~1799, Virginia / North Carolina; died Jan 2, 1838, Gibson County, Tennessee",
         "Son of John Ballentine and Betty Ducatt. Married Susan Nee. "
-        "Next generation born Virginia. Source: M.P. GEDCOM.",
+        "Died Gibson County, TN — family was in Tennessee before the next generation moved to Arkansas. "
+        "Source: M.P. GEDCOM.",
         gen=2, century=18, confidence="probable",
         spouse="Susan Nee",
         children=[N(
             "John Wallace Ballentine",
-            "born ~1826, Virginia",
-            "Son of David Ballentine and Susan Nee. Married Elizabeth Rebecca Barker. "
-            "Family moved south — son David Wyle born in Ozark, Franklin County, Arkansas. "
-            "Source: M.P. GEDCOM.",
+            "born Jul 23, 1826, North Carolina; died Feb 11, 1863, Tennessee",
+            "Son of David Ballentine and Susan Nee. Born NC, died TN at age 36. "
+            "Married Elizabeth Rebecca Barker. Son David Wyle born in Ozark, Franklin County, Arkansas — "
+            "family was moving westward. Source: M.P. GEDCOM.",
             gen=3, century=19, confidence="probable",
             spouse="Elizabeth Rebecca Barker (born 1829, Tennessee; died 1881)",
             children=[N(
                 "David Wyle Ballentine",
                 "born Jun 18, 1856, Ozark, Franklin County, Arkansas; died Apr 16, 1933, Oden, Montgomery County, Arkansas",
                 "Son of John Wallace Ballentine and Elizabeth Rebecca Barker. "
-                "Married Sallie Culbertson. Father of Mary Ethel Lee Ballentine (confirmed in GEDCOMs) "
-                "and likely father of Harold Ballentine (David Trifon's biological father). "
+                "Married Sallie Culbertson (b.1864, Alabama — see Culbertson ancestor tree for her Irish immigrant ancestry). "
+                "Father of Mary Ethel Lee Ballentine, Oda Elizabeth Ballentine, and likely Harold Ballentine. "
                 "Lived entire life in Arkansas. Source: M.P. GEDCOM.",
                 gen=4, century=19, confidence="confirmed",
-                spouse="Sallie Culbertson (born Nov 10, 1864, Alabama; died Sep 20, 1945, Marianna, Arkansas)",
+                spouse="Sallie Culbertson (born Nov 10, 1864, Alabama; died Sep 20, 1945, Marianna, Arkansas; "
+                       "Irish-American ancestry via Capt. Alexander Culbertson, Ballymoney, County Antrim — see Culbertson ancestor tree)",
                 children=[
                     N(
                         "Mary Ethel Lee Ballentine",
                         "born Jun 8, 1884, Chismsville, Logan County, Arkansas; died Feb 19, 1961, Marianna, Arkansas",
                         "Daughter of David Wyle Ballentine and Sallie Culbertson. "
+                        "Married William Woodville Herron. "
                         "Confirmed in multiple cousin GEDCOMs (M.P. GEDCOM, Linda Coleman GEDCOM). "
-                        "Likely sister or aunt of Harold Ballentine (David Trifon's biological father). "
+                        "Sister or half-sister of Harold Ballentine (David Trifon's biological father). "
                         "Source: M.P. GEDCOM.",
-                        gen=5, century=19, confidence="confirmed"
+                        gen=5, century=19, confidence="confirmed",
+                        spouse="William Woodville Herron"
+                    ),
+                    N(
+                        "Oda Elizabeth Ballentine",
+                        "born 1897, Arkansas; died 1935, Arkansas",
+                        "Daughter of David Wyle Ballentine and Sallie Culbertson. "
+                        "Married Jonah Bonner Maddox. Sister of Mary Ethel Lee Ballentine. "
+                        "Source: M.P. GEDCOM.",
+                        gen=5, century=19, confidence="confirmed",
+                        spouse="Jonah Bonner Maddox"
                     ),
                     N(
                         "Harold 'Hal David' Ballentine",
-                        "born ~1903, Kansas (estimated); died ~1945",
+                        "born ~1903, Arkansas (estimated); died ~1945",
                         "David A. Trifon's biological father. Married Iris June Westerfield (b.1919, Tuckerman AR). "
                         "Likely son of David Wyle Ballentine and Sallie Culbertson — same Arkansas Ballentine family. "
                         "After his death ~1945, son David took the surname of his stepfather (Trifon). "
                         "Source: David A. Trifon family communication, Walls Doris GEDCOM.",
-                        gen=5, century=20, confidence="speculative",
+                        gen=5, century=20, confidence="probable",
                         spouse="Iris June Westerfield (born Jun 1, 1919, Tuckerman, Arkansas — see Westerfield/Trifon tree)",
                         children=[
                             N(
@@ -1079,10 +1162,169 @@ BALLENTINE_TREE = N(
         )]
     )]
 )
-if not replace_tree("Ballentine ancestors", BALLENTINE_TREE):
+_ballentine_label = "MATERNAL — Ballentine ancestors (John Ballentine ~1800 VA → David d.1838 Gibson TN → John Wallace 1826 NC → David Wyle 1856 Ozark AR → Harold Ballentine → David Trifon)"
+if not replace_tree("Ballentine ancestors", BALLENTINE_TREE, new_label=_ballentine_label):
+    add_tree(_ballentine_label, BALLENTINE_TREE)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# CULBERTSON ANCESTORS — Sallie Culbertson's lineage (Irish immigrant origin)
+# Source: web research; County Antrim, Ireland records; Culbertson family genealogy
+# ═══════════════════════════════════════════════════════════════════════════
+
+CULBERTSON_TREE = N(
+    "Capt. Alexander 'Irish' Culbertson",
+    "born ~1745–1760, Ballymoney, County Antrim, Ireland; emigrated to colonial America ~1770s",
+    "Hunter's maternal 5x great-grandfather (Culbertson line). First of the Culbertson line in America — "
+    "Irish Protestant immigrant from Ballymoney, County Antrim. Known in family records as 'the Irish Culbertson.' "
+    "Settled in North Carolina after emigrating. Source: Culbertson family genealogy, web research.",
+    gen=1, century=18, confidence="probable",
+    is_notable=True,
+    children=[N(
+        "Jeremiah Culbertson",
+        "born 1782, Burke County, North Carolina",
+        "Son of Capt. Alexander Culbertson. Born NC after family emigrated from Ireland. "
+        "Source: web research, Culbertson family records.",
+        gen=2, century=18, confidence="probable",
+        children=[N(
+            "Allen Turner Culbertson",
+            "born ~1820, Greene County, Georgia; died after 1870",
+            "Son of Jeremiah Culbertson. Born Georgia — family moved south from NC. "
+            "Source: web research, 1860/1870 census records.",
+            gen=3, century=19, confidence="probable",
+            spouse="Laura Houston (born ~1825, estimated)",
+            children=[N(
+                "Sallie Culbertson",
+                "born Nov 10, 1864, Alabama; died Sep 20, 1945, Marianna, Lee County, Arkansas",
+                "Hunter's maternal 2x great-grandmother (Culbertson-Ballentine line). "
+                "Daughter of Allen Turner Culbertson and Laura Houston. "
+                "Married David Wyle Ballentine (b.1856, Ozark, Franklin County, Arkansas). "
+                "Mother of Mary Ethel Lee Ballentine, Oda Elizabeth Ballentine, and likely Harold Ballentine. "
+                "See Ballentine ancestor tree for descendants. "
+                "Source: M.P. GEDCOM, Linda Coleman GEDCOM.",
+                gen=4, century=19, confidence="confirmed"
+            )]
+        )]
+    )]
+)
+if not replace_tree("Culbertson ancestors", CULBERTSON_TREE):
     add_tree(
-        "MATERNAL — Ballentine ancestors (John Ballentine ~1800 VA → David Wyle Ballentine 1856 Ozark AR → Harold Ballentine ~1903 → David Trifon)",
-        BALLENTINE_TREE
+        "MATERNAL — Culbertson ancestors (Capt. Alexander 'Irish' Culbertson, Ballymoney County Antrim Ireland → Jeremiah 1782 NC → Allen Turner 1820 GA → Sallie Culbertson 1864 AL → Ballentine line)",
+        CULBERTSON_TREE
+    )
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# GOAD ANCESTORS — Amanda Goad's lineage (wife of John J. Padgett)
+# Source: web research, Virginia colonial records, Kentucky census
+# ═══════════════════════════════════════════════════════════════════════════
+
+GOAD_TREE = N(
+    "John Goad Sr.",
+    "born ~1700, North Farnham Parish, Richmond County, Virginia",
+    "Hunter's maternal 6x great-grandfather (Goad line). Early Virginia colonist, North Farnham Parish, Richmond County. "
+    "Source: web research, Virginia colonial records.",
+    gen=1, century=17, confidence="probable",
+    spouse="Hannah Ann Isham (born ~1705, Virginia, estimated)",
+    children=[N(
+        "John Goad Jr.",
+        "born 1729, Virginia",
+        "Son of John Goad Sr. and Hannah Ann Isham. Born Virginia. "
+        "Source: web research, Virginia records.",
+        gen=2, century=18, confidence="probable",
+        spouse="Margaret Chiles (born ~1730, Virginia, estimated)",
+        children=[N(
+            "Thomas Goad",
+            "born ~1770, Bedford County, Virginia",
+            "Son of John Goad Jr. and Margaret Chiles. Born Bedford County, Virginia — "
+            "part of the westward migration into Kentucky. "
+            "Source: web research, Virginia/Kentucky census.",
+            gen=3, century=18, confidence="probable",
+            spouse="Salley Tower (born ~1772, Virginia, estimated)",
+            children=[N(
+                "Caleb Goad",
+                "born 1792, Virginia; died after 1860",
+                "Son of Thomas Goad and Salley Tower. Born Virginia, moved to Kentucky. "
+                "Father of Amanda Goad (b.1830, Graves County, KY) who married John J. Padgett. "
+                "Source: web research, Kentucky census records.",
+                gen=4, century=18, confidence="probable",
+                spouse="Elizabeth Dodson (born 1791, Virginia; died after 1850)",
+                children=[N(
+                    "Amanda Goad",
+                    "born Jul 25, 1830, Graves County, Kentucky; died Feb 6, 1911, McCracken County, Kentucky",
+                    "Hunter's maternal 3x great-grandmother (Goad-Padgett line). "
+                    "Daughter of Caleb Goad and Elizabeth Dodson. "
+                    "Married John J. Padgett (b.1808, Indiana). See Padgett ancestor tree for descendants. "
+                    "Source: Frances Padgett GEDCOM.",
+                    gen=5, century=19, confidence="confirmed"
+                )]
+            )]
+        )]
+    )]
+)
+if not replace_tree("Goad ancestors", GOAD_TREE):
+    add_tree(
+        "MATERNAL — Goad ancestors (John Goad 1700 North Farnham Parish VA → John Jr. 1729 VA → Thomas 1770 Bedford VA → Caleb Goad 1792 VA → Amanda Goad 1830 Graves KY)",
+        GOAD_TREE
+    )
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# WARD ANCESTORS — Frances Ward's lineage (wife of William Miller Padgett)
+# Source: web research, colonial NC/SC records, Arkansas census
+# ═══════════════════════════════════════════════════════════════════════════
+
+WARD_TREE = N(
+    "John Ward",
+    "born 1748, Chowan County, North Carolina",
+    "Hunter's maternal 5x great-grandfather (Ward line). Born colonial North Carolina, Chowan County. "
+    "Source: web research, colonial North Carolina records.",
+    gen=1, century=18, confidence="probable",
+    spouse="Catherine Ward (born ~1750, North Carolina, estimated)",
+    children=[N(
+        "Thomas S. Ward",
+        "born 1760, Darlington County, South Carolina; died after 1830",
+        "Son of John Ward and Catherine Ward. Born Darlington County, SC — "
+        "family moved from NC to SC in this generation. "
+        "Source: web research, South Carolina census records.",
+        gen=2, century=18, confidence="probable",
+        spouse="Nancy Crompton (born ~1765, estimated)",
+        children=[N(
+            "John Robert Ward",
+            "born 1804, Pendleton, Anderson County, South Carolina; died after 1860",
+            "Son of Thomas S. Ward and Nancy Crompton. Born Pendleton, SC. "
+            "Later moved to Tennessee, then Arkansas following frontier migration patterns. "
+            "Source: web research, census records.",
+            gen=3, century=19, confidence="probable",
+            spouse="Rebecca Winn (born ~1808, estimated)",
+            children=[N(
+                "Joseph Ward",
+                "born 1833, Tennessee; died after 1870",
+                "Son of John Robert Ward and Rebecca Winn. Born Tennessee. "
+                "Father of Frances Ward (b.1868, Strawberry, Lawrence County, Arkansas) "
+                "who married William Miller Padgett. "
+                "Source: web research, Arkansas census records.",
+                gen=4, century=19, confidence="probable",
+                spouse="Jane Carolina Raney (born 1838, Arkansas; died after 1870)",
+                children=[N(
+                    "Frances Ward",
+                    "born Jan 23, 1868, Strawberry, Lawrence County, Arkansas; "
+                    "died Sep 11, 1945, Smithville, Lawrence County, Arkansas",
+                    "Hunter's maternal 2x great-grandmother (Ward-Padgett line). "
+                    "Daughter of Joseph Ward and Jane Carolina Raney. "
+                    "Married William Miller Padgett (b.1862, Independence County, Arkansas). "
+                    "See Padgett ancestor tree for descendants. "
+                    "Source: Frances Padgett GEDCOM.",
+                    gen=5, century=19, confidence="confirmed"
+                )]
+            )]
+        )]
+    )]
+)
+if not replace_tree("Ward ancestors", WARD_TREE):
+    add_tree(
+        "MATERNAL — Ward ancestors (John Ward 1748 Chowan NC → Thomas 1760 Darlington SC → John Robert 1804 Pendleton SC → Joseph 1833 TN → Frances Ward 1868 Strawberry AR)",
+        WARD_TREE
     )
 
 

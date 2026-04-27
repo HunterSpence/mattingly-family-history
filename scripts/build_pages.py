@@ -189,7 +189,7 @@ SURNAMES = [
         "title": "The Westerfield / Trifon Line",
         "subtitle": "Ohio County, Kentucky 1853 → Arkansas → Hunter's maternal grandfather David A. Trifon",
         "tree_label_substring": "Westerfield/Trifon",
-        "extra_tree_labels": ["Padgett ancestors", "Ballentine ancestors"],
+        "extra_tree_labels": ["Padgett ancestors", "Ballentine ancestors", "Goad ancestors", "Ward ancestors", "Culbertson ancestors"],
         "summary": (
             "Hunter's maternal grandfather is <strong>David A. Trifon</strong>, whose biological father "
             "was Harold 'Hal David' Ballentine and whose mother was <strong>Iris June Westerfield</strong> "
