@@ -184,6 +184,30 @@ SURNAMES = [
         ),
         "branch_match": ["teichm"],
     },
+    {
+        "id": "westerfield",
+        "title": "The Westerfield / Trifon Line",
+        "subtitle": "Ohio County, Kentucky 1853 → Arkansas → Hunter's maternal grandfather David A. Trifon",
+        "tree_label_substring": "Westerfield/Trifon",
+        "extra_tree_labels": ["Padgett ancestors", "Ballentine ancestors"],
+        "summary": (
+            "Hunter's maternal grandfather is <strong>David A. Trifon</strong>, whose biological father "
+            "was Harold 'Hal David' Ballentine and whose mother was <strong>Iris June Westerfield</strong> "
+            "(1919 Tuckerman, Arkansas – 2003 Colt, Arkansas). David took the surname Trifon from his "
+            "stepfather after Harold Ballentine died around 1945. The Westerfield line traces back to "
+            "<strong>Joel Hayden Westerfield</strong> (born June 1853, Ohio County, Kentucky), who moved "
+            "the family to Arkansas. Joel's son <strong>Jesse Lawrence Westerfield</strong> (1887–1951) "
+            "married <strong>Bertie Jane Padgett</strong> (1888–1964), daughter of Arkansas settler "
+            "William Miller Padgett (whose own father John J. Padgett came from Indiana). Jesse and "
+            "Bertie had five children: Cleofus, Iris, Padgett Lee (Chevy dealer), Maxie Eugene, and "
+            "Wayne Miller. Iris married Harold Ballentine and had David (Trifon), Carol Ward, and "
+            "Doris Walls. David's daughters are Charmaine and Rachel — Rachel is Hunter's mother. "
+            "The Ballentine line runs back through David Wyle Ballentine (1856, Ozark, Franklin County "
+            "Arkansas) and John Wallace Ballentine (born ~1826, Virginia) to John Ballentine (~1800, "
+            "Virginia/North Carolina), the earliest confirmed Ballentine ancestor."
+        ),
+        "branch_match": ["westerfield", "trifon", "ballentine", "padgett"],
+    },
 ]
 
 

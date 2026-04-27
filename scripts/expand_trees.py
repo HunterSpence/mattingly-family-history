@@ -278,30 +278,55 @@ SPENCE_TREE = N(
                                                                                                                     "contain many Spence households.",
                                                                                                                     gen=26, century=19, confidence="possible",
                                                                                                                     children=[N(
-                                                                                                                        "William Spence's father (immigrant to Pennsylvania)",
-                                                                                                                        "c. 1870–1890, England/Scotland → Pennsylvania, USA",
-                                                                                                                        "UNVERIFIED. William Spence's father — the likely "
-                                                                                                                        "English or Scottish immigrant to Pennsylvania. "
-                                                                                                                        "This is the generation the family oral tradition "
-                                                                                                                        "'came from England when he was 8' most likely refers to. "
-                                                                                                                        "Pennsylvania was a major destination for British "
-                                                                                                                        "industrial workers (coal, steel, oil). "
-                                                                                                                        "NEXT STEP: Search 1910 US Census Pennsylvania for "
-                                                                                                                        "William Spence (age ~2) in his parents' household "
-                                                                                                                        "to confirm father's name and birthplace.",
-                                                                                                                        gen=27, century=19, confidence="possible",
+                                                                                                                        "Joseph C. Spence",
+                                                                                                                        "born 1878, England — immigrated to America 1900",
+                                                                                                                        "CONFIRMED (family oral tradition). Hunter's paternal "
+                                                                                                                        "great-great-grandfather. Born 1878 in England; "
+                                                                                                                        "immigrated to America in 1900. Married Jeanne A. Meton "
+                                                                                                                        "(born 1883, France; immigrated 1898). Together had three "
+                                                                                                                        "children: Mary L. Spence, William Spence "
+                                                                                                                        "(Hunter's great-grandfather), and Joseph C. Spence Jr. "
+                                                                                                                        "Specific English county and parents' names unconfirmed; "
+                                                                                                                        "consistent with working-class English Spence origin. "
+                                                                                                                        "Next step: FreeBMD search for Joseph C. Spence born 1878.",
+                                                                                                                        gen=27, century=19, confidence="confirmed",
+                                                                                                                        id_="p124",
+                                                                                                                        spouse="Jeanne A. Spence (née Meton, born 1883, France — immigrated to America 1898)",
                                                                                                                         children=[
                                                                                                                             N(
+                                                                                                                                "Joseph C. Spence Jr.",
+                                                                                                                                "born 1904, Pennsylvania",
+                                                                                                                                "CONFIRMED (family oral tradition). Eldest child of "
+                                                                                                                                "Joseph C. Spence Sr. and Jeanne A. Meton/Spence. "
+                                                                                                                                "Sibling of Mary L. Spence and William Spence. "
+                                                                                                                                "Further details unknown.",
+                                                                                                                                gen=28, century=20, confidence="confirmed",
+                                                                                                                                id_="p127",
+                                                                                                                                children=[]
+                                                                                                                            ),
+                                                                                                                            N(
+                                                                                                                                "Mary L. Spence",
+                                                                                                                                "born 1906, Pennsylvania",
+                                                                                                                                "CONFIRMED (family oral tradition). Second child of "
+                                                                                                                                "Joseph C. Spence and Jeanne A. Meton/Spence. "
+                                                                                                                                "Sibling of Joseph C. Spence Jr. and William Spence. "
+                                                                                                                                "Further details unknown.",
+                                                                                                                                gen=28, century=20, confidence="confirmed",
+                                                                                                                                id_="p126",
+                                                                                                                                children=[]
+                                                                                                                            ),
+                                                                                                                            N(
                                                                                                                                 "William Spence",
-                                                                                                                                "born ~1908, Pennsylvania — died ?, Beaumont TX",
-                                                                                                                                "CONFIRMED (1950 US Federal Census, Beaumont TX). "
+                                                                                                                                "born 1908, Philadelphia, Pennsylvania — died ?, Beaumont TX",
+                                                                                                                                "CONFIRMED (1910 + 1950 US Federal Census). "
                                                                                                                                 "Hunter's paternal great-grandfather. "
-                                                                                                                                "1570 Roberts St, Beaumont, Jefferson Co. TX. "
+                                                                                                                                "Son of Joseph C. Spence (born 1878, England, "
+                                                                                                                                "immigrated 1900) and Jeanne A. Meton/Spence "
+                                                                                                                                "(born 1883, France, immigrated 1898). "
+                                                                                                                                "1570 Roberts St, Beaumont, Jefferson Co. TX by 1950. "
                                                                                                                                 "System Operator, Electrical Utility Co (Gulf States Utilities). "
-                                                                                                                                "Married Dovie A. (Byrd) Spence. "
-                                                                                                                                "Born Pennsylvania — migrated to Texas, likely following "
-                                                                                                                                "Spindletop oil-industry work. "
-                                                                                                                                "Parents unknown — search 1910/1920 PA Census to identify.",
+                                                                                                                                "Married Dovie A. (Byrd) Spence (~1912). "
+                                                                                                                                "Migration path: Pennsylvania → Beaumont TX oil industry.",
                                                                                                                                 gen=28, century=20, confidence="confirmed",
                                                                                                                                 id_="p125",
                                                                                                                                 spouse="Dovie A. (Byrd) Spence (~1912–?)",
@@ -367,7 +392,7 @@ SPENCE_TREE = N(
                                                                                                                                         ),
                                                                                                                                     ]
                                                                                                                                 )]
-                                                                                                                            )
+                                                                                                                            ),
                                                                                                                         ]
                                                                                                                     )]
                                                                                                                 )]
@@ -452,6 +477,16 @@ with open(multi_path, encoding="utf-8") as f:
     multi = json.load(f)
 
 secondary = multi.get("secondary_trees", [])
+# De-duplicate by exact label (keep first occurrence, discard duplicates from repeat runs)
+_seen = set()
+_deduped = []
+for _st in secondary:
+    _lbl = _st.get("label")
+    if _lbl not in _seen:
+        _seen.add(_lbl)
+        _deduped.append(_st)
+secondary = _deduped
+del _seen, _deduped, _st, _lbl
 
 
 def replace_tree(label_fragment, new_tree, new_label=None):
@@ -790,10 +825,264 @@ if early_mattingly:
         gen=3, century=16, confidence="probable",
         children=em_children
     )
-    # Add as a new secondary tree
+    # Replace if already present, else add
+    if not replace_tree("MATTINGLY ENGLISH COUSIN TREE", mattingly_extended):
+        add_tree(
+            "MATTINGLY ENGLISH COUSIN TREE — Catherine & John Mattingly (1550s, Berkshire/Hampshire)",
+            mattingly_extended
+        )
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# WESTERFIELD / TRIFON MATERNAL LINE
+# Source: Walls Doris GEDCOM, David A. Trifon family messages (April 2026)
+# ═══════════════════════════════════════════════════════════════════════════
+
+WESTERFIELD_TREE = N(
+    "Joel Hayden Westerfield",
+    "born Jun 1853, Ohio County, Kentucky; died Nov 22, 1910, Reynolds Station, Hancock County, Kentucky",
+    "Hunter's maternal great-great-great-grandfather. Farmer from Kentucky who migrated to Arkansas. "
+    "Source: Walls Doris GEDCOM (1st cousin 2x removed or half great-grandaunt, maternal side).",
+    gen=1, century=19, confidence="confirmed",
+    spouse="Amanda Jane Nelson (born Jun 1855, Kentucky; died Jan 19, 1928, Monette, Craighead County, Arkansas)",
+    children=[N(
+        "Jesse Lawrence Westerfield",
+        "born Jan 1, 1887, Kentucky; died Sep 29, 1951, Marianna, Lee County, Arkansas",
+        "Hunter's maternal great-great-grandfather. Son of Joel Westerfield and Amanda Nelson. "
+        "Married Bertie Jane Padgett (b.1888 AR). Had five children including "
+        "Iris June Westerfield (Hunter's maternal great-grandmother). "
+        "Source: Walls Doris GEDCOM.",
+        gen=2, century=19, confidence="confirmed",
+        spouse="Bertie Jane Padgett (born Mar 10, 1888, Arkansas; died Oct 6, 1964, Lee County, Arkansas)",
+        children=[
+            N(
+                "Cleofus Westerfield",
+                "born 1918; died 2003",
+                "Son of Jesse and Bertie Jane. Married Virginia Laverne Summar. "
+                "Brother of Iris June Westerfield. Source: Walls Doris GEDCOM.",
+                gen=3, century=20, confidence="confirmed"
+            ),
+            N(
+                "Iris June Westerfield",
+                "born Jun 1, 1919, Tuckerman, Arkansas; died Apr 13, 2003, Colt, Arkansas",
+                "Hunter's maternal great-grandmother. Daughter of Jesse Westerfield and Bertie Jane Padgett. "
+                "Married Harold 'Hal David' Ballentine (~1903, KS). Their son David took the surname Trifon "
+                "from a stepfather after Harold died ~1945. Also had children Carol Ward and Doris Walls. "
+                "Source: Walls Doris GEDCOM, David A. Trifon family messages.",
+                gen=3, century=20, confidence="confirmed",
+                spouse="Harold 'Hal David' Ballentine (~1903, Kansas; died ~1945)",
+                children=[
+                    N(
+                        "David A. Trifon",
+                        "born ~1940s, Arkansas area",
+                        "Hunter's maternal grandfather. Biological son of Harold Ballentine and Iris Westerfield. "
+                        "Took stepfather's surname 'Trifon' after Harold Ballentine died ~1945. "
+                        "Shared extensive family history documentation with Hunter in April 2026. "
+                        "Daughters: Charmaine Trifon and Rachel Trifon (Hunter's mother). "
+                        "Source: David A. Trifon personal communication.",
+                        gen=4, century=20, confidence="confirmed",
+                        children=[
+                            N(
+                                "Charmaine Trifon",
+                                "born ~1960s–1970s",
+                                "Daughter of David A. Trifon. Hunter's maternal aunt. "
+                                "Source: David A. Trifon family communication.",
+                                gen=5, century=20, confidence="confirmed"
+                            ),
+                            N(
+                                "Rachel Trifon",
+                                "born ~1960s–1970s",
+                                "Hunter's mother. Daughter of David A. Trifon and granddaughter of Iris Westerfield. "
+                                "Source: Hunter Spence (direct family knowledge).",
+                                gen=5, century=20, confidence="confirmed",
+                                children=[N(
+                                    "Hunter Spence",
+                                    "born ~2002–2003, Florida",
+                                    "User. Son of Rachel Trifon (maternal) and Dale William Spence Jr. (paternal). "
+                                    "Dual US/UK passport holder.",
+                                    gen=6, century=21, confidence="confirmed"
+                                )]
+                            ),
+                        ]
+                    ),
+                    N(
+                        "Carol Ward",
+                        "born ~1937",
+                        "Daughter of Iris Westerfield and Andrew Jackson Key "
+                        "(born Mar 28, 1914, Senatobia, Tate, Mississippi; died Jan 30, 1991, Alabama). "
+                        "Sister of David A. Trifon. Doris Walls listed in Carol Ward obituary. "
+                        "Source: Carol Ward obituary (Walls Doris GEDCOM).",
+                        gen=4, century=20, confidence="confirmed",
+                        spouse="Andrew Jackson Key (born Mar 28, 1914, Senatobia, Mississippi; died Jan 30, 1991, Alabama)"
+                    ),
+                    N(
+                        "Doris Walls",
+                        "born ~1930s–1940s",
+                        "Daughter of Iris Westerfield. Sister of David A. Trifon. "
+                        "DNA match to Hunter: 1st cousin 2x removed or half great-grandaunt (maternal side). "
+                        "Source: Walls Doris GEDCOM.",
+                        gen=4, century=20, confidence="confirmed"
+                    ),
+                ]
+            ),
+            N(
+                "Padgett Lee Westerfield",
+                "born 1921; died 2002",
+                "Son of Jesse and Bertie Jane. Named after mother's maiden name Padgett. "
+                "Owned a Chevrolet dealership — notable local businessman in Arkansas. "
+                "Source: Walls Doris GEDCOM.",
+                gen=3, century=20, confidence="confirmed",
+                is_notable=True
+            ),
+            N(
+                "Maxie Eugene Westerfield",
+                "born 1922; died 1956",
+                "Son of Jesse and Bertie Jane. Died at ~34. "
+                "Source: Walls Doris GEDCOM.",
+                gen=3, century=20, confidence="confirmed"
+            ),
+            N(
+                "Wayne Miller Westerfield",
+                "born 1927; died 1990",
+                "Son of Jesse and Bertie Jane Westerfield. "
+                "Source: Walls Doris GEDCOM.",
+                gen=3, century=20, confidence="confirmed"
+            ),
+        ]
+    )]
+)
+if not replace_tree("Westerfield/Trifon", WESTERFIELD_TREE):
     add_tree(
-        "MATTINGLY ENGLISH COUSIN TREE — Catherine & John Mattingly (1550s, Berkshire/Hampshire)",
-        mattingly_extended
+        "MATERNAL — Westerfield/Trifon line (Joel Westerfield 1853 KY → Iris 1919 AR → David Trifon → Rachel → Hunter)",
+        WESTERFIELD_TREE
+    )
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PADGETT ANCESTORS — Bertie Jane Padgett's lineage (Jesse Westerfield's wife)
+# Source: Frances Padgett GEDCOM, Walls Doris GEDCOM
+# ═══════════════════════════════════════════════════════════════════════════
+
+PADGETT_TREE = N(
+    "John J. Padgett (Pagett)",
+    "born 1808, Vernon, Jennings County, Indiana; died Aug 14, 1873, Independence County, Arkansas",
+    "Hunter's maternal great-great-great-great-grandfather (Padgett line). Born Indiana, died Arkansas — "
+    "early American migrant to the frontier South. "
+    "Source: Frances Padgett GEDCOM (3rd cousin 1x removed or half 2nd cousin 2x removed, maternal side).",
+    gen=1, century=19, confidence="confirmed",
+    spouse="Amanda Goad (born Jul 25, 1830, Graves County, Kentucky; died Feb 6, 1911, McCracken County, Kentucky)",
+    children=[N(
+        "William Miller Padgett",
+        "born Oct 5, 1862, Independence County, Arkansas; died Nov 15, 1950, Lee County, Arkansas",
+        "Hunter's maternal great-great-great-grandfather (Padgett line). "
+        "Son of John J. Padgett and Amanda Goad. Father of Bertie Jane Padgett "
+        "who married Jesse Lawrence Westerfield. Source: Frances Padgett GEDCOM, Walls Doris GEDCOM.",
+        gen=2, century=19, confidence="confirmed",
+        spouse="Frances Ward (born Jan 23, 1868, Strawberry, Lawrence County, Arkansas; "
+               "died Sep 11, 1945, Smithville, Lawrence County, Arkansas)",
+        children=[N(
+            "Bertie Jane Padgett",
+            "born Mar 10, 1888, Arkansas; died Oct 6, 1964, Lee County, Arkansas",
+            "Hunter's maternal great-great-grandmother (Padgett line). "
+            "Daughter of William Miller Padgett and Frances Ward. "
+            "Married Jesse Lawrence Westerfield (b.1887, KY). Together had five children "
+            "including Iris June Westerfield (Hunter's maternal great-grandmother). "
+            "Source: Walls Doris GEDCOM, Frances Padgett GEDCOM.",
+            gen=3, century=19, confidence="confirmed",
+            spouse="Jesse Lawrence Westerfield (born Jan 1, 1887, Kentucky — see Westerfield/Trifon tree)"
+        )]
+    )]
+)
+if not replace_tree("Padgett ancestors", PADGETT_TREE):
+    add_tree(
+        "MATERNAL — Padgett ancestors (John J. Padgett 1808 Indiana → William Miller Padgett 1862 AR → Bertie Jane Padgett 1888 AR)",
+        PADGETT_TREE
+    )
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# BALLENTINE ANCESTORS — Harold Ballentine's lineage (David Trifon's father)
+# Source: M.P. GEDCOM (1st cousin 2x removed, maternal side), Linda Coleman GEDCOM
+# ═══════════════════════════════════════════════════════════════════════════
+
+BALLENTINE_TREE = N(
+    "John Ballentine",
+    "born ~1770–1800, likely Virginia or North Carolina",
+    "Earliest confirmed Ballentine ancestor in Hunter's maternal line. Married Betty Ducatt. "
+    "Source: M.P. GEDCOM (1st cousin 2x removed or half great-grandaunt, maternal side).",
+    gen=1, century=18, confidence="probable",
+    spouse="Betty Ducatt",
+    children=[N(
+        "David Ballentine",
+        "born ~1799, Virginia / North Carolina / Scotland (birth location varies in records)",
+        "Son of John Ballentine and Betty Ducatt. Married Susan Nee. "
+        "Next generation born Virginia. Source: M.P. GEDCOM.",
+        gen=2, century=18, confidence="probable",
+        spouse="Susan Nee",
+        children=[N(
+            "John Wallace Ballentine",
+            "born ~1826, Virginia",
+            "Son of David Ballentine and Susan Nee. Married Elizabeth Rebecca Barker. "
+            "Family moved south — son David Wyle born in Ozark, Franklin County, Arkansas. "
+            "Source: M.P. GEDCOM.",
+            gen=3, century=19, confidence="probable",
+            spouse="Elizabeth Rebecca Barker (born 1829, Tennessee; died 1881)",
+            children=[N(
+                "David Wyle Ballentine",
+                "born Jun 18, 1856, Ozark, Franklin County, Arkansas; died Apr 16, 1933, Oden, Montgomery County, Arkansas",
+                "Son of John Wallace Ballentine and Elizabeth Rebecca Barker. "
+                "Married Sallie Culbertson. Father of Mary Ethel Lee Ballentine (confirmed in GEDCOMs) "
+                "and likely father of Harold Ballentine (David Trifon's biological father). "
+                "Lived entire life in Arkansas. Source: M.P. GEDCOM.",
+                gen=4, century=19, confidence="confirmed",
+                spouse="Sallie Culbertson (born Nov 10, 1864, Alabama; died Sep 20, 1945, Marianna, Arkansas)",
+                children=[
+                    N(
+                        "Mary Ethel Lee Ballentine",
+                        "born Jun 8, 1884, Chismsville, Logan County, Arkansas; died Feb 19, 1961, Marianna, Arkansas",
+                        "Daughter of David Wyle Ballentine and Sallie Culbertson. "
+                        "Confirmed in multiple cousin GEDCOMs (M.P. GEDCOM, Linda Coleman GEDCOM). "
+                        "Likely sister or aunt of Harold Ballentine (David Trifon's biological father). "
+                        "Source: M.P. GEDCOM.",
+                        gen=5, century=19, confidence="confirmed"
+                    ),
+                    N(
+                        "Harold 'Hal David' Ballentine",
+                        "born ~1903, Kansas (estimated); died ~1945",
+                        "David A. Trifon's biological father. Married Iris June Westerfield (b.1919, Tuckerman AR). "
+                        "Likely son of David Wyle Ballentine and Sallie Culbertson — same Arkansas Ballentine family. "
+                        "After his death ~1945, son David took the surname of his stepfather (Trifon). "
+                        "Source: David A. Trifon family communication, Walls Doris GEDCOM.",
+                        gen=5, century=20, confidence="speculative",
+                        spouse="Iris June Westerfield (born Jun 1, 1919, Tuckerman, Arkansas — see Westerfield/Trifon tree)",
+                        children=[
+                            N(
+                                "Wallace 'Wally' Ballentine",
+                                "born 1930; died 2017",
+                                "Son of Iris Westerfield and Harold Ballentine. Half-sibling of David A. Trifon. "
+                                "Source: David A. Trifon family communication.",
+                                gen=6, century=20, confidence="confirmed",
+                                is_notable=True
+                            ),
+                            N(
+                                "David A. Trifon",
+                                "born ~1940s, Arkansas area",
+                                "Son of Iris Westerfield and Harold Ballentine. "
+                                "Took stepfather's surname 'Trifon' after Harold died ~1945. "
+                                "Hunter's maternal grandfather. See Westerfield/Trifon tree for full descendants.",
+                                gen=6, century=20, confidence="confirmed"
+                            ),
+                        ]
+                    ),
+                ]
+            )]
+        )]
+    )]
+)
+if not replace_tree("Ballentine ancestors", BALLENTINE_TREE):
+    add_tree(
+        "MATERNAL — Ballentine ancestors (John Ballentine ~1800 VA → David Wyle Ballentine 1856 Ozark AR → Harold Ballentine ~1903 → David Trifon)",
+        BALLENTINE_TREE
     )
 
 
