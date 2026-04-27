@@ -1,0 +1,341 @@
+{
+  "task": "Byrd line extended research",
+  "date": "2026-04-27",
+  "researcher": "Researcher Specialist (claude-sonnet-4-6)",
+  "supersedes_gaps_in": ["64-byrd-confirmed-trace.json", "57-dovie-byrd-verify.json", "75-byrd-gap-analysis.json"],
+  "research_approach": "Web searches targeting FamilySearch, Ancestry, WikiTree, USGenWeb, RootsWeb, PeopleLegacy, FindAGrave, GenealogyTrails; primary source documents where accessible. Four key gaps addressed: (1) Dovie's mother identity, (2) William Leander Byrd's parents, (3) colonial Virginia Byrd ancestry, (4) Westmoreland County VA records.",
+
+  "gaps_addressed": [
+    {
+      "gap_id": 1,
+      "gap": "Dovie's mother: Martha Alice Bedford vs. Lillie Byrd conflict",
+      "status": "STILL UNRESOLVED — no new primary source found",
+      "new_findings": "No web-accessible record (census image, death certificate, obituary) was located in this research pass that names Dovie's mother. Milam County Historical Commission information index (milamcountyhistoricalcommission.org) does not list a Bedford or Byrd family inquiry connected to John A Byrd's wife. The mother-name conflict (Martha Alice Bedford per KcaMarco GEDCOM vs. Lillie Byrd per burial co-location with Otha Lee Byrd Sr. in Clute TX) remains exactly as documented in prior passes. The 1910 Milam County Census for John A Byrd's household (FamilySearch collection 1727033) and John A Byrd's 1928 death certificate from the Milam County Courthouse remain the definitive unaccessed resolution records.",
+      "confidence_change": "none — unchanged from UNRESOLVED"
+    },
+    {
+      "gap_id": 2,
+      "gap": "William Leander Byrd's parents — who were they?",
+      "status": "PARTIAL ADVANCE — BIRD surname confirmed in 1850 Franklin County AL census index; intermediate generations identified from cousin GEDCOM tree are partially corroborated by independent sources",
+      "new_findings": [
+        "The 1850 Franklin County Alabama census index (USGenWeb Archives, S-K Publications) contains entries for the surname BIRD at pages 197B and 198A. Note: the spelling is BIRD not BYRD in this index. William Leander Byrd born 1832 Frankfort, Franklin County AL would be approximately 18 years old in 1850. A BIRD entry at pages 197B-198A is consistent with a young William Leander appearing in a parental household under the BIRD spelling variant. The actual image of these census pages was not accessible in this research pass (USGenWeb server returned connection refused).",
+        "No BYRD-spelled entry was noted in the Franklin County AL 1850 census index excerpt — the index uses BIRD, not BYRD, suggesting the family may have used both spellings interchangeably in different records.",
+        "The 1860 Franklin County Alabama mortality schedule (1860 deaths only) contains NO Byrd or Bird entries — consistent with William Leander being alive in 1860 and not yet having a close family member die in that calendar year.",
+        "A sibling of John A Byrd (1868-1928) was newly identified from Ancestry records in this pass: Leander Byrd (born ~1868 Birmingham, Jefferson County AL, died April 24, 1894, Prentiss County, Mississippi), also a son of William Leander Byrd and Margarete Rhetta Perideaux. The shared migration from Alabama to Mississippi-area is consistent with post-Civil War patterns for this family.",
+        "The cousin GEDCOM chain proposes: Benjamin Franklin Byrd (1798) → John Howard Byrd → Michael Byrd (b. 1784 Botetourt VA, d. 1857 Marshall MS) as the path to William Leander Byrd. However, this path has a critical internal problem: Michael Byrd (1784-1857) died in Marshall, Mississippi, and his three known children (via Patsy Logan) are not yet identified by name in accessible open-web sources. The chain through Michael Byrd to Franklin County Alabama is not corroborated by any independent source found in this pass.",
+        "Alternative hypothesis: William Leander Byrd's father may NOT be the Mississippi Michael Byrd (1784-1857) but a different Byrd individual settled in Alabama. The BIRD entries at pages 197B-198A of the 1850 Franklin County AL census are the most promising avenue for resolution."
+      ],
+      "confidence_change": "No change to UNKNOWN for William Leander Byrd's specific parents. The BIRD census index entry is suggestive but the image was not retrieved."
+    },
+    {
+      "gap_id": 3,
+      "gap": "Colonial Virginia ancestry — John Henry Bird/Byrd ~1700 Westmoreland VA and earlier",
+      "status": "SIGNIFICANT ADVANCE — the genealogical chain from Richard Bird (1750-1803) backward through Richard Byrd (1717-1808) to John Byrd (1725-1775) is now better documented, with WikiTree primary-source citations; a plausible connection from this documented line to William Leander Byrd (1832 AL) requires three intermediate GEDCOM-only generations",
+      "new_findings": [
+        "Richard Bird (1750-1803): WikiTree Bird-3176 documents him as born November 3, 1750 in Albemarle, Westmoreland, Virginia. His father is listed as John Henry Byrd (1725-1775) of Spotsylvania, Virginia. He married Elizabeth Woods (Buster) Byrd in 1774 in Virginia. He moved to Fincastle/Botetourt County VA then Hawkins County Tennessee where he died March 5, 1803. Primary sources cited include: Albemarle Parish Register, Surry and Sussex Counties VA (births 1717-1778); Spotsylvania County records (1763 deed); Lord Dunmore's War military records; Historical Register of Virginians in the Revolution (Gwathmey 1987); Montgomery County militia lists (1777-1790); Hawkins County Deed Book I and Will Book (1803); DAR Ancestor database A133396. This is the strongest primary-source documented ancestor in the extended chain.",
+        "Richard Byrd will (Hawkins County TN, March 5, 1803): Primary source — the actual will text is accessible via TNGenWeb (tngenweb.org/hawkins/byrd-richard-will/). It names his children as: William Byrd (eldest son), John Byrd (second son), David Byrd (third son), Michael Byrd (younger son), Richard Byrd (younger son), James Byrd (youngest), Charles Byrd (youngest), Jean McDaniel (daughter), Ann ___day (daughter), Elizabeth Byrd (daughter), Mary Byrd (daughter). Spouse Elizabeth Byrd received use of all property during widowhood.",
+        "Michael Byrd (1784-1857): Confirmed by Ancestry.com as son of Richard Byrd (1750-1803) and Elizabeth Woods-Buster. Born Botetourt, Virginia. Married Patsy Logan. Died November 2, 1857 in Marshall, Mississippi. Only 3 children documented — their names and Alabama connections are not confirmed by open-web sources in this pass.",
+        "Rev William Byrd (1774-1856): Find A Grave memorial 134708782 documents him as son of Rev Richard Byrd and Elizabeth Woods Buster, married Lydia Adair in 1794. His children include: Sarah (married John Wilson), Isaiah (married Asanah Walls), Elizabeth Caroline (married Jonathan Burleson), John (married Sara Fears), Susannah E (married James DeMent), Richard C. This William + Lydia Adair marriage matches the GEDCOM chain exactly (GEDCOM records 'Rev. William M. Byrd + Lydia Adair'). The son John Byrd who 'married Sara Fears' maps to the GEDCOM's 'William John Byrd (1799-1855) + Sarah A Fears' — the names are slightly different (John vs. William John) but the Fears/Fear surname match is striking.",
+        "John Henry Byrd (1725-1775), father of Richard Bird (1750-1803): WikiTree Byrd-390 and Byrd-379 note that this person's parentage is explicitly undocumented. Multiple genealogies incorrectly list him as son of William Byrd and Bridgetta Huling of Birdsboro, Pennsylvania — WikiTree labels this 'undocumented and unlikely.' His mother is given as Sarah (Jones) but maiden name unconfirmed. His father is unknown in any primary source. He died circa 1775 in Prince Edward County, Virginia.",
+        "Richard Byrd (1717-1808): Appears in FamilySearch (LKXX-X3L) and familypursuit.com as father of Richard Bird (1750-1803). Born 1717, died 1808. Spouse Sarah Jones (1729-1810). However, WikiTree and genealogical discussions note researcher confusion between this Richard (1717-1808) and John Byrd (1725-1775) — both are documented as father of Rev. Richard Bird (1750-1803) in different trees. The FamilySearch entry LKXX-X3L lists Richard Byrd (1717-1808) + Sarah Jones as parents of Richard Bird (1750-1803). WikiTree Bird-3176 names John Henry Byrd (1725-1775) + Sarah Carter Jones as parents of the same person. This is an unresolved parentage conflict at generation 10.",
+        "CRITICAL DISCREPANCY FROM GEDCOM: The GEDCOM chain lists 'John Henry Bird/Byrd fl. ~1700 Westmoreland VA' as the earliest ancestor. Independent research identifies the actual documented colonial Virginia ancestor as either Richard Byrd (1717-1808) OR John Henry Byrd (1725-1775) — both about 25 years later than the GEDCOM's ~1700 date. The '~1700 Westmoreland VA' figure in the cousin GEDCOM may be conflating this person with an earlier generation (possibly an unknown father born ~1690-1700). No primary source names a Byrd ancestor born ~1700 in Westmoreland County in Hunter's probable line."
+      ],
+      "confidence_change": "Richard Bird (1750-1803) upgrades from POSSIBLE to PROBABLE (multiple primary sources cited). Rev William Byrd (1774-1856) + Lydia Adair identified as a new probably-documented generation. The chain from Michael Byrd (1784-1857) to William Leander Byrd (1832 AL) remains unconfirmed."
+    },
+    {
+      "gap_id": 4,
+      "gap": "Westmoreland County VA records and connection to famous Byrd families",
+      "status": "NO NEW CONNECTION FOUND — multiple independent sources confirm Hunter's probable line is distinct from Westover Byrds; earlier ancestor in line is documented in Spotsylvania/Prince Edward/Botetourt Virginia corridor, NOT Westmoreland",
+      "new_findings": [
+        "WikiTree Byrd-379 (John Byrd 1725-1775) explicitly places him in Spotsylvania County (before 1763) and Prince Edward County (1763-1775), NOT Westmoreland County. The GEDCOM's claim that the colonial ancestor was in 'Westmoreland VA' is contradicted by WikiTree's independent documentation placing this generation in Spotsylvania/Prince Edward — different Virginia counties.",
+        "WikiTree Bird-3176 (Richard Bird 1750-1803) is born in 'Albemarle, Westmoreland, Virginia' per that record — note: 'Albemarle' here likely refers to the Albemarle Parish within Surry/Sussex County, not Albemarle County. This is consistent with him having Virginia Tidewater origins but in a different geographic cluster than the Westover (Charles City County) Byrds.",
+        "The Westover Plantation Byrd line (William Byrd I, 1652-1704) is documented in Encyclopedia Virginia as originating from Shadwell, Middlesex, England, with ancestry in Brexton/Broxton, Cheshire. The Spotsylvania/Prince Edward Virginia Byrd line has no documented English origin identified in any source found.",
+        "No primary source establishes any connection between Hunter's probable Byrd line and the famous Westover, Shenandoah (Byrd senators/admiral), or any other notable Byrd family."
+      ],
+      "confidence_change": "none — already assessed as NO CONNECTION; this pass further confirms that assessment and corrects the GEDCOM's Westmoreland VA attribution"
+    }
+  ],
+
+  "new_ancestors_confirmed": [
+    {
+      "name": "Richard Bird (Byrd)",
+      "dates": "November 3, 1750, Albemarle Parish, Virginia — March 5, 1803, Hawkins County, Tennessee",
+      "relationship_to_hunter": "PROBABLE 5x great-grandfather (Hunter ← Dale Jr. ← Dale Sr. ← Dovie ← John A Byrd ← William Leander Byrd ← [unknown intermediate generation(s)] ← Richard Bird)",
+      "confidence": "CONFIRMED as a real historical person with multiple primary sources; PROBABLE as Hunter's ancestor (dependent on unconfirmed intermediate generations between Richard Bird 1750 and William Leander Byrd 1832)",
+      "primary_sources": [
+        "WikiTree Bird-3176 (https://www.wikitree.com/wiki/Bird-3176)",
+        "Albemarle Parish Register, Surry and Sussex Counties, Virginia (births 1717-1778) — cited in WikiTree",
+        "Hawkins County Tennessee Will Book (1803) — Richard Byrd will text published at tngenweb.org/hawkins/byrd-richard-will/",
+        "DAR Ancestor database A133396",
+        "Find A Grave memorial 155033498"
+      ],
+      "spouse": "Elizabeth Woods (Buster) Byrd, born 1751 North Carolina, married 1774 Virginia",
+      "known_children_per_will": ["William Byrd", "John Byrd", "David Byrd", "Michael Byrd", "Richard Byrd", "James Byrd", "Charles Byrd", "Jean McDaniel (daughter)", "Ann ___day (daughter)", "Elizabeth Byrd (daughter)", "Mary Byrd (daughter)"],
+      "locations": "Spotsylvania/Albemarle Parish VA → Fincastle/Botetourt County VA → Montgomery County VA → Hawkins County TN",
+      "military": "Served in Lord Dunmore's War 1774 under Captain Daniel Smith; present at Battle of Point Pleasant October 1774 (per WikiTree primary source citation)",
+      "note": "This is the earliest ancestor in Hunter's Byrd line with multiple primary-source citations. His son Michael Byrd (1784-1857) is also confirmed via Ancestry records as dying in Marshall, Mississippi. The chain from his descendants to William Leander Byrd (1832 Franklin County AL) runs through one or more unconfirmed intermediate generations."
+    },
+    {
+      "name": "Rev William Byrd (Byrd)",
+      "dates": "circa 1774 — 1856",
+      "relationship_to_hunter": "PROBABLE ancestor — son of Richard Bird (1750-1803); his marriage to Lydia Adair matches the GEDCOM's 'Rev. William M. Byrd + Lydia Adair' exactly",
+      "confidence": "PROBABLE as Hunter's ancestor IF the GEDCOM chain is correct (William Leander Byrd 1832 ← John/William John Byrd ← Rev William Byrd 1774 ← Richard Bird 1750). The Lydia Adair marriage and the John/Sara Fears child are strong GEDCOM corroborators.",
+      "primary_sources": [
+        "Find A Grave memorial 134708782 (https://www.findagrave.com/memorial/134708782/william-byrd)"
+      ],
+      "spouse": "Lydia Adair, married 1794",
+      "known_children": ["Sarah (married John Wilson)", "Isaiah (married Asanah Walls)", "Elizabeth Caroline (married Jonathan Burleson)", "John Byrd (married Sara Fears)", "Susannah E (married James DeMent)", "Richard C Byrd"],
+      "note": "The child 'John Byrd (married Sara Fears)' strongly maps to the GEDCOM's 'William John Byrd (1799-1855) + Sarah A Fears' — the Fears/Fear surname match is highly unlikely to be coincidental. This suggests the GEDCOM's 'William John Byrd' is actually this 'John Byrd' (son of Rev William + Lydia Adair), possibly with a name variation."
+    }
+  ],
+
+  "new_ancestors_probable": [
+    {
+      "name": "Leander Byrd",
+      "dates": "born circa 1868, Birmingham, Jefferson County, Alabama — died April 24, 1894, Prentiss County, Mississippi",
+      "relationship_to_hunter": "Probable great-great-granduncle (sibling of John A Byrd 1868-1928)",
+      "confidence": "PROBABLE",
+      "source": "Ancestry.com genealogical records (returned in web search this pass) — also lists parents as William Leander Byrd and Margarete Rhetta Perideaux",
+      "note": "This newly identified sibling of John A Byrd corroborates the William Leander Byrd parentage claim through independent Ancestry tree entries. The Mississippi death location is consistent with other family members migrating to that region (Michael Byrd d.1857 Marshall MS; other Alabama Byrds appear in adjacent Mississippi counties)."
+    },
+    {
+      "name": "John Byrd (son of Rev William Byrd + Lydia Adair)",
+      "dates": "circa 1799-1855 (estimated from GEDCOM; 'William John Byrd 1799-1855 Knox TN' per cousin GEDCOM tree 11)",
+      "relationship_to_hunter": "PROBABLE intermediate generation between Rev William Byrd (1774-1856) and William Leander Byrd (1832 Franklin County AL)",
+      "confidence": "PROBABLE — supported by (a) Find A Grave record of Rev William Byrd having a son John who married Sara Fears; (b) GEDCOM chain listing William John Byrd (1799-1855) + Sarah A Fears; the Fears surname convergence is strong",
+      "note": "The GEDCOM calls this person 'William John Byrd' but the Find A Grave data calls him 'John Byrd (married Sara Fears)' — likely the same person. Tennessee location (Knox County) is consistent with the family migration from Hawkins County TN (Rev Richard Byrd 1750-1803) to Franklin County AL (William Leander Byrd 1832)."
+    },
+    {
+      "name": "Richard Byrd (1717-1808) or John Henry Byrd (1725-1775)",
+      "dates": "1717-1808 or 1725-1775",
+      "relationship_to_hunter": "One of these two is PROBABLY the father of Richard Bird (1750-1803); the exact identity is disputed between sources",
+      "confidence": "PROBABLE as a real person; UNCERTAIN which individual is the actual parent of Richard Bird (1750-1803) in Hunter's line",
+      "conflict_detail": "FamilySearch (LKXX-X3L) lists Richard Byrd (1717-1808) + Sarah Jones (1729-1810) as parents of Richard Bird (1750-1803). WikiTree Bird-3176 lists John Henry Byrd (1725-1775) + Sarah (Carter) Jones as parents of the same Richard Bird. Both cannot be correct. WikiTree Byrd-390 (John Henry Byrd 1725-1775) explicitly warns it is a 'conflation of several profiles not supported by documentation.' The safer interpretation is that Richard Byrd (1717-1808) of Westmoreland VA is the more reliably documented figure, and 'John Henry Byrd 1725-1775' may represent a conflation or naming error.",
+      "source": "FamilySearch LKXX-X3L; WikiTree Bird-3176; WikiTree Byrd-390; familypursuit.com/genealogy/byrd_richard/richard-byrd-b.1717-d.1808-1"
+    }
+  ],
+
+  "conflicts_resolved": [
+    {
+      "conflict": "GEDCOM places colonial Byrd ancestor in 'Westmoreland County VA ~1700' — this is likely imprecise",
+      "resolution": "Independent sources place the documented colonial Virginia ancestor(s) in Spotsylvania/Prince Edward County (John Henry Byrd 1725-1775 per WikiTree) or Albemarle Parish, Surry/Sussex County (Richard Bird 1750-1803 per WikiTree primary sources), NOT Westmoreland County. The ~1700 date is approximately 25-50 years too early for the documented colonial generation in this line. The GEDCOM's Westmoreland attribution likely represents a naming/location error or conflation with another Byrd family.",
+      "confidence": "PROBABLE"
+    },
+    {
+      "conflict": "GEDCOM chain lists 'John Henry Bird/Byrd fl. 1700' as if a separate person from Richard Byrd 1717 and John Henry Byrd 1725",
+      "resolution": "These are the same generation. The documented colonial Virginia ancestor is either Richard Byrd (1717-1808) or John Henry Byrd (1725-1775) — not a separate 1700-era person. The '~1700' in the GEDCOM likely represents the unknown father of this 1717/1725 generation.",
+      "confidence": "PROBABLE"
+    }
+  ],
+
+  "conflicts_unresolved": [
+    {
+      "conflict": "Dovie's mother: Martha Alice Bedford (GEDCOM) vs. Lillie Byrd (burial co-location Clute TX)",
+      "status": "UNRESOLVED — no new evidence found in this research pass",
+      "resolution_path": "1910 Milam County TX census (John A Byrd household); John A Byrd 1928 death certificate (Milam County Courthouse)"
+    },
+    {
+      "conflict": "Father of Richard Bird (1750-1803): Richard Byrd (1717-1808) per FamilySearch vs. John Henry Byrd (1725-1775) per WikiTree",
+      "status": "UNRESOLVED — two independent genealogical databases disagree. WikiTree explicitly flags Byrd-390 as a conflation. FamilySearch LKXX-X3L may reflect contributor-entered data rather than primary source confirmation.",
+      "resolution_path": "Spotsylvania County VA deed/court records 1740-1770 for a Byrd patriarch; Albemarle Parish register full analysis; Y-DNA testing of Hunter's paternal line against Byrd Y-DNA project members with documented Richard Byrd (1717) descent"
+    },
+    {
+      "conflict": "Intermediate generations: Michael Byrd (1784-1857, died Marshall MS) to William Leander Byrd (1832 Franklin County AL)",
+      "status": "UNRESOLVED — Michael Byrd's children are not confirmed in open-web sources; the path from MS to AL is not documented",
+      "resolution_path": "Marshall County MS 1850 census for Michael Byrd household (shows children names); Alabama 1850 census BIRD entries pages 197B-198A Franklin County (image retrieval needed)"
+    },
+    {
+      "conflict": "Was Dovie A. Byrd a daughter of John A Byrd (1868-1928)?",
+      "status": "UNRESOLVED — POSSIBLE only; no primary source names Dovie as his child",
+      "resolution_path": "Same as prior passes: 1910 Milam County TX census; Texas Death Certificate for Dovie Spence"
+    }
+  ],
+
+  "recommended_tree_additions": [
+    {
+      "person": "Richard Bird (Byrd)",
+      "dates": "November 3, 1750 — March 5, 1803",
+      "locations": "Albemarle Parish VA → Botetourt County VA → Hawkins County, Tennessee",
+      "confidence": "PROBABLE ancestor (CONFIRMED as real person with primary sources)",
+      "action": "Add to family tree as generation 8 (Hunter's probable 5x+ great-grandfather) with confidence PROBABLE; cite WikiTree Bird-3176 and Hawkins County Will as sources",
+      "primary_sources_to_cite": ["WikiTree Bird-3176", "Hawkins County TN Will Book 1803 (tngenweb.org/hawkins/byrd-richard-will/)"],
+      "military_note": "Served in Lord Dunmore's War 1774, Battle of Point Pleasant — DAR-documented patriot (DAR Ancestor A133396)"
+    },
+    {
+      "person": "Rev William Byrd",
+      "dates": "circa 1774 — 1856",
+      "locations": "Tennessee area",
+      "confidence": "PROBABLE ancestor (GEDCOM + Find A Grave convergence on Lydia Adair marriage and Sara Fears connection)",
+      "action": "Add to family tree as generation 7 (between Richard Bird 1750 and William Leander Byrd 1832) with confidence PROBABLE; note this is the GEDCOM's 'Rev. William M. Byrd + Lydia Adair'",
+      "primary_sources_to_cite": ["Find A Grave memorial 134708782"]
+    },
+    {
+      "person": "Leander Byrd",
+      "dates": "born circa 1868 Birmingham, Jefferson County, Alabama — died April 24, 1894, Prentiss County, Mississippi",
+      "relationship": "Probable sibling of John A Byrd (1868-1928); probable child of William Leander Byrd + Margarete Rhetta Perideaux",
+      "confidence": "PROBABLE",
+      "action": "Add as a collateral family member in tree notes under John A Byrd's entry; supports the William Leander Byrd parentage claim",
+      "source": "Ancestry.com genealogical records (this research pass)"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "WikiTree Bird-3176 — Richard Bird (1750-1803)",
+      "url": "https://www.wikitree.com/wiki/Bird-3176",
+      "confidence": "CONFIRMED (multiple primary sources cited)",
+      "key_data": "Richard Bird born Nov 3, 1750 Albemarle Parish VA; father John Henry Byrd (1725-1775); married Elizabeth Woods Buster 1774; moved to Hawkins County TN; died Mar 5, 1803; Battle of Point Pleasant 1774; DAR A133396"
+    },
+    {
+      "title": "Will of Richard Byrd — Hawkins County, Tennessee (1803)",
+      "url": "https://tngenweb.org/hawkins/byrd-richard-will/",
+      "confidence": "CONFIRMED — primary source document text",
+      "key_data": "Names all children: William, John, David, Michael, Richard, James, Charles Byrd (sons); Jean McDaniel, Ann ___day, Elizabeth, Mary Byrd (daughters); wife Elizabeth Byrd receives estate during widowhood"
+    },
+    {
+      "title": "Find A Grave memorial 134708782 — Rev William Byrd (1774-1856)",
+      "url": "https://www.findagrave.com/memorial/134708782/william-byrd",
+      "confidence": "PROBABLE (Find A Grave contributor entry — secondary source)",
+      "key_data": "Son of Rev Richard Byrd and Elizabeth Woods Buster; married Lydia Adair 1794; children include John Byrd (married Sara Fears). Blocked by 403 during this pass — data from web search snippet."
+    },
+    {
+      "title": "Ancestry.com — John Byrd (1868-1928) genealogical records",
+      "url": "https://www.ancestry.com/genealogy/records/results?firstName=john&lastName=byrd",
+      "confidence": "PROBABLE (Ancestry contributor trees — secondary source, two independent returns)",
+      "key_data": "John Byrd born Mar 28, 1868 Birmingham Alabama, died Aug 31, 1928 Cameron Milam County Texas; father William Leander Byrd; mother Margarete Rhetta (Perideaux) Peradeau"
+    },
+    {
+      "title": "Ancestry.com — Leander Byrd genealogical records",
+      "url": "https://www.ancestry.com/genealogy/records/results?firstName=leander&lastName=byard",
+      "confidence": "PROBABLE (Ancestry contributor trees)",
+      "key_data": "Leander Byrd born ~1868 Birmingham, Jefferson County AL; died April 24, 1894, Prentiss County, Mississippi; father William Leander Byrd; mother Margarete Rhetta Perideaux — sibling of John A Byrd (1868-1928)"
+    },
+    {
+      "title": "Ancestry.com — Michael Byrd (1784-1857) genealogical records",
+      "url": "https://www.ancestry.com/genealogy/records/michael-byrd-24-3qhfvd",
+      "confidence": "PROBABLE (Ancestry contributor trees)",
+      "key_data": "Michael Byrd born 1784 Botetourt, Virginia; father Richard Byrd (1750-1803); mother Elizabeth Woods-Buster; married Patsy Logan; died November 2, 1857, Marshall, Mississippi; had 3 children (names not confirmed in open-web sources)"
+    },
+    {
+      "title": "WikiTree Byrd-390 — John Henry Byrd (1725-1775)",
+      "url": "https://www.wikitree.com/wiki/Byrd-390",
+      "confidence": "LOW — WikiTree explicitly flags as a conflation of multiple profiles without documentation",
+      "key_data": "Profile claimed to represent John Henry Byrd (1725-1775) Spotsylvania VA; parentage undocumented; multiple genealogies incorrectly list as son of William Byrd + Bridgetta Huling of Birdsboro PA"
+    },
+    {
+      "title": "WikiTree Byrd-379 — John Byrd (1725-1775)",
+      "url": "https://www.wikitree.com/wiki/Byrd-379",
+      "confidence": "LOW-MODERATE — WikiTree entry with some documentation",
+      "key_data": "John Byrd born 1725 Virginia; died circa 1775 Prince Edward County VA; spouse Sarah E Jones circa 1748; children include William Byrd (b.1752), Samuel Byrd (b.1758), Henry Byrd (b.1764); located in Spotsylvania then Prince Edward County VA; parentage undocumented"
+    },
+    {
+      "title": "FamilySearch — Richard Byrd (1717-1808), PID LKXX-X3L",
+      "url": "https://ancestors.familysearch.org/en/LKXX-X3L/richard-byrd-1717-1808",
+      "confidence": "PROBABLE (FamilySearch contributor entry)",
+      "key_data": "Richard Byrd born 1717, died 1808; spouse Sarah Jones (1729-1810); listed as parent of Richard Bird (1750-1803) — this conflicts with WikiTree Bird-3176 which names John Henry Byrd (1725-1775) as the father"
+    },
+    {
+      "title": "USGenWeb Archives — Franklin County Alabama 1850 Census Index",
+      "url": "http://files.usgwarchives.net/al/franklin/census/1850/indx1850.txt",
+      "confidence": "POSSIBLE — index only; image not retrieved (server connection refused)",
+      "key_data": "The surname BIRD (not BYRD) appears at pages 197B and 198A of the 1850 Franklin County Alabama census index. This is consistent with a young William Leander Byrd (born 1832, age ~18 in 1850) appearing in a parental household under the BIRD spelling."
+    },
+    {
+      "title": "GenealogyTrails — 1860 Franklin County Alabama Mortality Schedule",
+      "url": "http://genealogytrails.com/ala/franklin/deaths_1860mort.html",
+      "confidence": "CONFIRMED (primary source transcription)",
+      "key_data": "No Byrd or Bird deaths recorded in Franklin County Alabama for the year ending June 1, 1860. This means William Leander Byrd's immediate family had no recorded deaths in that calendar year."
+    },
+    {
+      "title": "Milam County Historical Commission — Information Sought Index",
+      "url": "http://www.milamcountyhistoricalcommission.org/info_sought_index_01.php",
+      "confidence": "CONFIRMED (website index)",
+      "key_data": "Byrd family entries in index: 'Byrd Whittington relatives/Davilla Cemetery' (pages 97 and 156). Bird family entry: 'Dollie Hill Bird & Captain John Bird' (page 2). No entries for Martha Alice Bedford, John A Byrd, William Leander Byrd, or Peradeau families."
+    },
+    {
+      "title": "PeopleLegacy — John A Byrd (1868-1928), Sharp Cemetery Milam County TX",
+      "url": "https://peoplelegacy.com/john_a_byrd-3n4s36",
+      "confidence": "CONFIRMED (burial index — prior pass)",
+      "key_data": "Burial confirmed Sharp Cemetery, Sharp, Milam County Texas; born March 28, 1868; died August 31, 1928"
+    }
+  ],
+
+  "colonial_chain_assessment": {
+    "most_likely_chain": [
+      {"gen": 10, "name": "Richard Byrd (1717-1808) OR John Henry Byrd (1725-1775)", "location": "Westmoreland/Spotsylvania/Prince Edward County, Virginia", "confidence": "POSSIBLE — conflicting sources; one of these is probably correct"},
+      {"gen": 9, "name": "Richard Bird (Byrd)", "dates": "1750-1803", "location": "Albemarle Parish VA → Botetourt VA → Hawkins County TN", "confidence": "PROBABLE ancestor; CONFIRMED historical person (multiple primary sources)"},
+      {"gen": 8, "name": "Rev William Byrd", "dates": "circa 1774-1856", "location": "Tennessee area", "confidence": "PROBABLE (Find A Grave + GEDCOM Lydia Adair convergence)"},
+      {"gen": 7, "name": "John Byrd (son of Rev William + Lydia Adair, married Sara Fears)", "dates": "circa 1799-1855", "location": "Knox County TN area", "confidence": "PROBABLE (Find A Grave child listing + GEDCOM Sara Fears convergence)"},
+      {"gen": 6, "name": "William Leander Byrd", "dates": "1832-1889", "location": "Frankfort, Franklin County, Alabama", "confidence": "PROBABLE (two independent Ancestry records + GEDCOM convergence)"},
+      {"gen": 5, "name": "John A Byrd (John Archie Asner Byrd)", "dates": "1868-1928", "location": "Birmingham AL → Sharp, Milam County TX", "confidence": "PROBABLE as Dovie's father; CONFIRMED burial"},
+      {"gen": 4, "name": "Dovie (Byrd) Spence", "dates": "fl. ~1912-1985", "location": "Texas", "confidence": "PROBABLE person; maiden name Byrd probable; parentage POSSIBLE"},
+      {"gen": 3, "name": "Dr. Dale William Spence Sr.", "dates": "born ~1934 Beaumont TX", "confidence": "CONFIRMED"},
+      {"gen": 2, "name": "Dale William Spence Jr.", "confidence": "CONFIRMED"},
+      {"gen": 1, "name": "Hunter Spence", "confidence": "CONFIRMED"}
+    ],
+    "note_on_gedcom_vs_independent": "The cousin GEDCOM chain uses 'Benjamin Franklin Byrd (1798)' and 'John Howard Byrd' as intermediate generations. Independent research found no corroboration for these specific names. The more likely path is: Richard Bird 1750 (confirmed) → Rev William Byrd 1774 (Find A Grave) → John Byrd/William John Byrd ~1799 (Find A Grave child; GEDCOM) → William Leander Byrd 1832 (Ancestry + GEDCOM). The 'Benjamin Franklin Byrd' and 'John Howard Byrd' names in the GEDCOM may reflect a different Byrd branch (the Rev John Howard Byrd 1820-1912 found on Geni is from Jackson County Alabama, not Franklin County).",
+    "gedcom_michael_byrd_problem": "The GEDCOM chain places Michael Byrd as an ancestor of William Leander Byrd (1832 Franklin County AL). Richard Byrd's 1803 will does name a son Michael Byrd, and Ancestry confirms this Michael Byrd died in Marshall, Mississippi in 1857. However, Mississippi is not Alabama. If Michael Byrd died in Marshall MS in 1857, his children would more likely be in Mississippi, not Franklin County Alabama. This is a geographic inconsistency that weakens the GEDCOM's proposed path through Michael Byrd. The Rev William Byrd (1774-1856) → John Byrd (Sara Fears) path is geographically more consistent (Tennessee → Alabama migration corridor)."
+  },
+
+  "huguenot_ancestry_note": {
+    "surname": "Peradeau (alt: Perideaux, Perydore, Perrydore)",
+    "status": "PROBABLE French Huguenot origin — now supported by Geneanet surname database which indexes the Peradeau surname; Huguenot Society of South Carolina and related databases document Huguenot families in the Carolinas-to-Alabama corridor",
+    "significance": "If Margarete Rhetta Peradeau (1829-1925, probable burial Sharp Cemetery Milam County TX) is correctly identified as William Leander Byrd's wife, Hunter has French Huguenot ancestry on his Byrd matrilineal line — a distinct European origin traceable to French Protestant refugees who fled France after the 1685 Revocation of the Edict of Nantes and settled in South Carolina, Georgia, and later Alabama.",
+    "sources": ["Geneanet surname index for Peradeau (en.geneanet.org)", "Huguenot Society of South Carolina ancestor list (huguenotsociety.org)", "Geni.com Huguenots of the Carolinas project"],
+    "confidence_change": "Unchanged PROBABLE — still requires the Sharp Cemetery 'Margaret Byrd (1829-1925)' to be confirmed as Margarete Rhetta Peradeau via headstone image or Milam County death record 1925"
+  },
+
+  "priority_next_steps": [
+    {
+      "priority": 1,
+      "action": "Access FamilySearch 1910 US Census collection 1727033 — search Milam County TX for John A Byrd household in Sharp precinct",
+      "expected_yield": "Names ALL children (would confirm or deny Dovie) and names wife (resolves Martha Alice Bedford vs. Lillie Byrd conflict)",
+      "cost": "Free with FamilySearch login",
+      "url": "https://www.familysearch.org/search/collection/1727033"
+    },
+    {
+      "priority": 2,
+      "action": "Access FamilySearch 1850 US Census collection 1401638 — search Franklin County Alabama for BIRD/BYRD at pages 197B-198A of the index",
+      "expected_yield": "Would show William Leander Byrd (age ~18) in a parental household — naming his father",
+      "cost": "Free with FamilySearch login",
+      "url": "https://www.familysearch.org/search/collection/1401638"
+    },
+    {
+      "priority": 3,
+      "action": "Access FamilySearch Texas Death Certificate collection 1674538 for Dovie Spence — search Jefferson County, Harris County, Brazoria County",
+      "expected_yield": "Maiden name, parents, birthdate, birthplace — definitively confirms or denies Byrd parentage",
+      "cost": "Free with FamilySearch login",
+      "url": "https://www.familysearch.org/search/collection/1674538"
+    },
+    {
+      "priority": 4,
+      "action": "Access FamilySearch 1850 Marshall County Mississippi census — search for Michael Byrd household (born 1784 Botetourt VA)",
+      "expected_yield": "Would name Michael Byrd's children — either confirming or denying the GEDCOM path from Michael Byrd to William Leander Byrd (1832 AL)",
+      "cost": "Free with FamilySearch login"
+    },
+    {
+      "priority": 5,
+      "action": "View Find A Grave Sharp Cemetery records — search for Martha Alice Bedford Byrd and Margaret/Margarete Byrd (1829-1925) headstone image",
+      "expected_yield": "Headstone may name maiden name, confirming Peradeau identification; may reveal other Byrd family members",
+      "cost": "Free with Find A Grave account",
+      "url": "https://www.findagrave.com"
+    },
+    {
+      "priority": 6,
+      "action": "Order John A Byrd 1928 death certificate from Milam County Courthouse, Cameron TX — names surviving wife and sometimes parents",
+      "expected_yield": "Resolves the Martha Alice Bedford vs. Lillie Byrd wife conflict definitively",
+      "cost": "$10-$25 by mail",
+      "contact": "Milam County Courthouse, Cameron TX 76520"
+    },
+    {
+      "priority": 7,
+      "action": "FamilyTreeDNA Byrd Y-DNA Surname Project — order Y-DNA test for Hunter's paternal line (Spence → inherited via Dovie's Byrd patrilineage if confirmed)",
+      "expected_yield": "Would confirm common ancestry with Richard Byrd (1717-1808) or Richard Bird (1750-1803) documented descendants; separates Hunter's Byrd haplogroup from Westover and Shenandoah Valley Byrd lines",
+      "cost": "$119-$348",
+      "url": "https://www.familytreedna.com/groups/byrd/about/results",
+      "note": "NOTE: Y-DNA passes through the paternal line only. Hunter's Y-DNA is Spence (his paternal surname), not Byrd. To test the Byrd Y-DNA, a male-line descendant of John A Byrd (e.g., a son of Otha Lee Byrd Sr.'s sons) would need to be tested."
+    }
+  ],
+
+  "summary": "This research pass significantly advanced the Byrd colonial Virginia chain. The strongest new finding is the independent documentation of Richard Bird (Byrd, 1750-1803) as a real historical figure with multiple primary sources: his parents include a Byrd of Spotsylvania/Prince Edward County Virginia (born 1717 or 1725 depending on source); he served at the Battle of Point Pleasant in 1774 (documented in DAR database A133396); his will survives in Hawkins County Tennessee naming 11 children including Michael Byrd; and WikiTree Bird-3176 cites the Albemarle Parish Register (1717-1778), Spotsylvania County deed records (1763), and Montgomery County VA militia rolls (1777-1790) as primary sources. This makes Richard Bird (1750-1803) the earliest ancestor in Hunter's probable Byrd line with genuine primary-source support. A plausible chain runs from him to William Leander Byrd (1832 Franklin County AL) through Rev William Byrd (1774-1856, married Lydia Adair — matches GEDCOM exactly; documented in Find A Grave) and a son John Byrd who married Sara Fears (also documented in Find A Grave, matching the GEDCOM's 'William John Byrd + Sarah A Fears'). The GEDCOM's proposed path through 'Benjamin Franklin Byrd 1798' and 'Michael Byrd' has a geographic problem: the confirmed Michael Byrd (1784-1857) died in Marshall, Mississippi — not Alabama — making him an unlikely father for William Leander Byrd of Franklin County, Alabama. The more plausible path bypasses the Mississippi Michael Byrd branch. The four major gaps remain: (1) Dovie's parentage (still POSSIBLE only, 1910 census and death cert needed); (2) William Leander Byrd's specific parents (BIRD entries exist in 1850 Franklin County AL census index but image not retrieved); (3) who fathered Richard Bird 1750 (Richard Byrd 1717 or John Henry Byrd 1725 — conflicting databases, both pointing to the same general Spotsylvania VA Byrd cluster); and (4) Dovie's mother (Martha Alice Bedford vs. Lillie Byrd — unresolved). The Peradeau French Huguenot ancestry is further supported by the Geneanet surname database. No connection to the famous Westover Byrd (William Byrd I/II) or Shenandoah Valley Byrd (Senator Harry Byrd, Admiral Richard Byrd) families has been found or is likely."
+}

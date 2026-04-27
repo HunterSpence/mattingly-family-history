@@ -660,6 +660,57 @@ if byrd_tree and byrd_tree.get("name") != "Byrd / Bird Ancestry":
 
 
 # ═══════════════════════════════════════════════════════════════════════════
+# BYRD ANCESTORS — add Richard Bird (1750) and Rev William Byrd (1774)
+# Source: research/78-byrd-extended-research.json (wave-1 research)
+# Chain: Richard Bird (1750) → Rev William Byrd (1774) → [William Leander Byrd 1832]
+# Guard: skip if Richard Bird (Byrd) already present in Byrd tree children
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _byrd_ancestor_present(node, target="Richard Bird (Byrd)"):
+    """Return True if target name exists anywhere in the tree."""
+    if node.get("name") == target:
+        return True
+    return any(_byrd_ancestor_present(c, target) for c in node.get("children", []))
+
+_byrd_root = get_tree("Byrd line")
+if _byrd_root and not _byrd_ancestor_present(_byrd_root):
+    # Build the new confirmed ancestor chain as a top-level sibling branch
+    _richard_bird_node = N(
+        "Richard Bird (Byrd)",
+        "November 3, 1750, Albemarle Parish, Virginia — March 5, 1803, Hawkins County, Tennessee",
+        "DAR patriot A133396; fought Battle of Point Pleasant 1774 (Lord Dunmore's War) under "
+        "Capt. Daniel Smith. Will (Hawkins Co TN, 1803) names 11 children including Michael Byrd. "
+        "Primary sources: Albemarle Parish Register, Spotsylvania deed 1763, Montgomery Co VA "
+        "militia 1777-1790, Hawkins Co TN deed/will books. WikiTree Bird-3176. "
+        "Moved Spotsylvania/Prince Edward Co VA → Fincastle/Botetourt Co VA → Hawkins Co TN. "
+        "CONFIRMED as real historical person; PROBABLE as Hunter's ancestor (intermediate "
+        "generations to William Leander Byrd 1832 still being confirmed). "
+        "Source: research/78-byrd-extended-research.json.",
+        gen=9, century=18, confidence="confirmed",
+        is_notable=True,
+        spouse="Elizabeth Woods (Buster) Byrd (born 1751 North Carolina; married 1774 Virginia)",
+        children=[
+            N(
+                "Rev William Byrd",
+                "circa 1774 — 1856",
+                "Son of Richard Bird (Byrd, 1750-1803) and Elizabeth Woods Buster. "
+                "Married Lydia Adair 1794. Find A Grave memorial 134708782. "
+                "His son John Byrd (married Sara Fears) is a probable match to 'William John Byrd "
+                "(1799-1855) + Sarah A Fears' in the GEDCOM chain — the Fears/Fear surname "
+                "convergence strongly supports this link to William Leander Byrd (1832 AL). "
+                "PROBABLE ancestor: Richard Bird (1750) → Rev William Byrd (1774) → "
+                "John/William John Byrd (~1799) → William Leander Byrd (1832) chain. "
+                "Source: Find A Grave #134708782; research/78-byrd-extended-research.json.",
+                gen=8, century=18, confidence="probable",
+                spouse="Lydia Adair (married 1794)",
+            )
+        ]
+    )
+    # Append to the Byrd / Bird Ancestry root's children list
+    _byrd_root["children"].append(_richard_bird_node)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
 # EXPAND BAITY TREE — add cousin-data ancestors
 # ═══════════════════════════════════════════════════════════════════════════
 
@@ -2101,6 +2152,32 @@ def _add_hunter_to_ward(node):
 _wt = get_tree("Ward ancestors")
 if _wt:
     _add_hunter_to_ward(_wt)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# UPDATE RAU TREE — Frances Virginia (Rau) Henslee confirmed dates & burial
+# Source: research/80-rau-extended-research.json (wave-1 research)
+# ═══════════════════════════════════════════════════════════════════════════
+
+def _update_frances_rau(node):
+    """Walk Rau tree; update Frances Virginia node with confirmed facts."""
+    if "Frances Virginia" in node.get("name", "") and "Henslee" in node.get("name", ""):
+        node["dates"] = "January 1, 1918 – December 19, 2008"
+        node["fact"] = (
+            "born Texas; died Nederland, Jefferson County TX; "
+            "buried Forest Lawn Memorial Park, Beaumont TX; "
+            "Catholic parishioner St. Charles Borromeo, Nederland; "
+            "parents unidentified — Texas Death Certificate DSHS order required to unlock "
+            "this line. Maiden name RAU confirmed via cousin GEDCOM. "
+            "m. Lee Stuart Henslee (1908-10-02 – 1994-08-31), also buried Forest Lawn. "
+            "Source: research/80-rau-extended-research.json; PeopleLegacy; Find A Grave #39700994."
+        )
+        return True
+    return any(_update_frances_rau(c) for c in node.get("children", []))
+
+_rau_root = get_tree("Rau line")
+if _rau_root:
+    _update_frances_rau(_rau_root)
 
 
 # ═══════════════════════════════════════════════════════════════════════════

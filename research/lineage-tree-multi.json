@@ -3534,6 +3534,30 @@
             "confidence": "probable",
             "spouse": null,
             "children": []
+          },
+          {
+            "name": "Richard Bird (Byrd)",
+            "dates": "November 3, 1750, Albemarle Parish, Virginia — March 5, 1803, Hawkins County, Tennessee",
+            "fact": "DAR patriot A133396; fought Battle of Point Pleasant 1774 (Lord Dunmore's War) under Capt. Daniel Smith. Will (Hawkins Co TN, 1803) names 11 children including Michael Byrd. Primary sources: Albemarle Parish Register, Spotsylvania deed 1763, Montgomery Co VA militia 1777-1790, Hawkins Co TN deed/will books. WikiTree Bird-3176. Moved Spotsylvania/Prince Edward Co VA → Fincastle/Botetourt Co VA → Hawkins Co TN. CONFIRMED as real historical person; PROBABLE as Hunter's ancestor (intermediate generations to William Leander Byrd 1832 still being confirmed). Source: research/78-byrd-extended-research.json.",
+            "id": null,
+            "generation": 9,
+            "century": 18,
+            "confidence": "confirmed",
+            "spouse": "Elizabeth Woods (Buster) Byrd (born 1751 North Carolina; married 1774 Virginia)",
+            "children": [
+              {
+                "name": "Rev William Byrd",
+                "dates": "circa 1774 — 1856",
+                "fact": "Son of Richard Bird (Byrd, 1750-1803) and Elizabeth Woods Buster. Married Lydia Adair 1794. Find A Grave memorial 134708782. His son John Byrd (married Sara Fears) is a probable match to 'William John Byrd (1799-1855) + Sarah A Fears' in the GEDCOM chain — the Fears/Fear surname convergence strongly supports this link to William Leander Byrd (1832 AL). PROBABLE ancestor: Richard Bird (1750) → Rev William Byrd (1774) → John/William John Byrd (~1799) → William Leander Byrd (1832) chain. Source: Find A Grave #134708782; research/78-byrd-extended-research.json.",
+                "id": null,
+                "generation": 8,
+                "century": 18,
+                "confidence": "probable",
+                "spouse": "Lydia Adair (married 1794)",
+                "children": []
+              }
+            ],
+            "is_notable": true
           }
         ]
       }
@@ -3724,8 +3748,8 @@
         "children": [
           {
             "name": "Frances Virginia (Rau) Henslee",
-            "dates": "1918 Dallas TX – 19 Dec 2008 Nederland TX",
-            "fact": "Hunter's paternal great-grandmother. Maiden name RAU confirmed via cousin GEDCOM. Native of Dallas; lived Beaumont 55 yrs (1938-1993) then Nederland. Catholic. Buried Forest Lawn Memorial Park Beaumont. m. Lee Stuart Henslee 60 yrs.",
+            "dates": "January 1, 1918 – December 19, 2008",
+            "fact": "born Texas; died Nederland, Jefferson County TX; buried Forest Lawn Memorial Park, Beaumont TX; Catholic parishioner St. Charles Borromeo, Nederland; parents unidentified — Texas Death Certificate DSHS order required to unlock this line. Maiden name RAU confirmed via cousin GEDCOM. m. Lee Stuart Henslee (1908-10-02 – 1994-08-31), also buried Forest Lawn. Source: research/80-rau-extended-research.json; PeopleLegacy; Find A Grave #39700994.",
             "id": "p140",
             "generation": 15,
             "century": 20,

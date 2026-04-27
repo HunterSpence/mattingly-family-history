@@ -1,0 +1,298 @@
+{
+  "task": "Rau line extended research — Frances Rau Henslee identity and ancestry",
+  "date": "2026-04-27",
+  "researcher": "Genealogy Research Agent (claude-sonnet-4-6)",
+  "subject": "Frances Virginia Henslee, née Rau (1918-01-01 – 2008-12-19) — Hunter Spence's paternal great-grandmother",
+
+  "confidence_tiers": {
+    "CONFIRMED": "Supported by a cited primary source (death record, burial record, contemporary publication)",
+    "PROBABLE": "Strong inference from 2+ corroborating secondary sources, or primary source with minor ambiguity",
+    "POSSIBLE": "Plausible from one secondary source or logical inference",
+    "UNVERIFIED": "Speculative; no independent corroboration found"
+  },
+
+  "gaps_addressed": [
+    "Identity of Frances Virginia Henslee (née Rau) — confirmed from burial records and prior research",
+    "Parents of Frances Rau — NOT resolved; no primary source found naming parents",
+    "Rau family Texas origins — partial context established; no direct ancestor of Frances identified",
+    "Lee Stuart Henslee marriage record — not located; context clarified"
+  ],
+
+  "frances_virginia_rau_confirmed_facts": {
+    "full_name": "Frances Virginia Henslee (née Rau)",
+    "birth_date": "January 1, 1918",
+    "birth_place": "Texas (county not confirmed; likely Jefferson County or Cherokee County based on family residence patterns)",
+    "death_date": "December 19, 2008",
+    "death_age": 90,
+    "death_locality": "Nederland, Jefferson County, Texas",
+    "burial_place": "Forest Lawn Memorial Park and Funeral Home, 4955 Pine St, Beaumont, Jefferson County, Texas",
+    "spouse": "Lee Stuart Henslee (1908-10-02 – 1994-08-31), also buried Forest Lawn",
+    "church_affiliation": "St. Charles Borromeo Catholic Church, Nederland, Texas (established 1923)",
+    "relationship_to_hunter": "Paternal great-grandmother (mother of Alice Marie Henslee Spence)",
+    "confidence": "CONFIRMED",
+    "primary_sources": [
+      "PeopleLegacy — Frances Henslee (https://peoplelegacy.com/frances_henslee-3j7a3f): birth 1918-01-01, death 2008-12-19, burial Forest Lawn, spouse Lee S. Henslee",
+      "Find a Grave memorial #39700994 — Frances Henslee",
+      "AncientFaces directory entry — Frances Henslee"
+    ],
+    "notes": "Maiden name 'Rau' established from prior research (file 42-spence-henslee-expanded.json). No accessible obituary found that names her parents. Texas death certificates for 2008 decedents are obtainable from Texas DSHS Vital Statistics and would name her parents — this is the highest-priority research action."
+  },
+
+  "parents_of_frances_rau": {
+    "status": "UNVERIFIED — no primary or secondary source found naming her parents",
+    "research_conducted": [
+      "Searched Legacy.com, Dignity Memorial, EchoVita, NewspaperObituaries.net for Frances Henslee obituary — no match found",
+      "Searched Jefferson County Local History obituary index — page unavailable (404)",
+      "Searched Jefferson County, Cherokee County, and Harrison County Rau families in Texas",
+      "Searched FamilySearch, WikiTree, Geni, MyHeritage for Rau family trees in east Texas",
+      "Searched for Rau surname in 1918 Texas birth records — no indexed online result",
+      "Checked St. Charles Borromeo Catholic Church history — no Rau family listed in founding parish records (church established 1923; 1918 Nederland city directory lists no Rau family)"
+    ],
+    "inference_notes": "Frances born Jan 1, 1918 in Texas. Her father (Frances's father, Hunter's great-great-grandfather) would have been born roughly 1880-1900 in Texas or Germany. The Rau surname in Texas has multiple distinct lineages: (1) Central Texas German Lutheran cluster (Wiedeville/Austin/Washington County area), (2) San Antonio/Bexar County Rau family (William Charles Rau Sr., b. 1872 TX), (3) Harrison County/Marshall TX cluster (Frank Joseph Rau Sr., b. 1876 Bavaria), (4) Houston area Rau (William Charles Rau 1890-1977). None has been directly connected to Frances without a primary source.",
+    "highest_probability_research_paths": [
+      "Texas Death Certificate for Frances Virginia Henslee (died 2008-12-19, Jefferson County) — DSHS Vital Statistics, Austin TX, fee ~$20 — this document legally names both parents",
+      "Texas Birth Certificate for Frances Virginia Rau, born Jan 1, 1918, Texas — file with Texas DSHS or county clerk of birth county",
+      "1920 US Census: search for 'Rau' household in Jefferson, Cherokee, or Orange County TX with 2-year-old daughter Frances — this would identify father's name and birthplace",
+      "1930 US Census: search for 'Rau' household in east Texas with 12-year-old daughter Frances",
+      "St. Charles Borromeo Parish records, Nederland TX: baptism/marriage records 1922-1957 at Diocese of Beaumont or Catholic Archives of Texas (PO Box 13124, Austin TX 78711; cat@onr.com; 512-476-6296)"
+    ]
+  },
+
+  "rau_surname_context": {
+    "origin": "German surname. Derived from Middle High German 'rûch/rūch/rouch' meaning 'rough', 'shaggy', or 'hairy' — likely a nickname for a rough or bearded person. First found in records in regions of Saxony (13th century). The name is common in Württemberg, Baden, Bavaria, and Hesse.",
+    "american_distribution": "The Rau surname appears widely in 19th-century America among German immigrant communities, particularly in Pennsylvania (1754 George Rau from Palatinate), Illinois, Missouri, Ohio, and Texas. German-Texas Rau families documented in: Fayette County (Austin County area), Bexar County, Harrison County, and east Texas oil country (Jefferson County).",
+    "texas_rau_families_documented": [
+      {
+        "cluster": "Central Texas Lutheran — Wiedeville (Washington/Austin County area)",
+        "key_individual": "Fritz Rau Sr. — father of Theodore Rau (born 1916 Wiedeville TX), who married Anna Herrmann 1938",
+        "religion": "Lutheran (Immanuel Lutheran Church, Wiedeville)",
+        "relation_to_frances": "UNLIKELY — wrong religion (Lutheran vs. Catholic), wrong geography, wrong time frame",
+        "source": "Theodore Rau obituary, Memorial Oaks Chapel, Oct 3 2003 (https://www.memorialoakschapel.com/obituaries/theodore-rau)"
+      },
+      {
+        "cluster": "San Antonio / Bexar County — William Charles Rau Sr. line",
+        "key_individual": "William Charles Rau Sr. (born Dec 31, 1872 Texas, died May 15, 1968 San Antonio, Bexar County TX)",
+        "wife": "Amelia Agnes Junemann (born 1878 Texas) — married 1897 Texas",
+        "known_children": ["Richard Rau", "Lawrence Collier Rau", "4 others (unnamed in sources)"],
+        "relation_to_frances": "POSSIBLE — has 6 children, born 1897+, so could have a daughter Frances born 1918. San Antonio to Beaumont is ~4 hrs. Junemann is a German-Texas name (La Grange area). However, no Catholic connection confirmed; no link established.",
+        "source": "MyHeritage — William Charles Rau Sr. profile"
+      },
+      {
+        "cluster": "Harrison County / Marshall TX — Frank Joseph Rau Sr. line",
+        "key_individual": "Frank Joseph Rau Sr. (born Wüstenberg, Wegscheid, Passau, Bavaria; settled Marshall TX; died Feb 2, 1953)",
+        "wife": "Rose Spalt (born 1887 Germany)",
+        "known_children": ["Frank Joseph Rau Jr. (born Aug 12, 1910 Marshall TX, died 1990 Milwaukee WI)", "Gerhart John Rau (born 1913 Westboro WI)", "Louis T. Rau (born 1926)", "Benno Anthony Rau (born 1930 Westboro WI)"],
+        "relation_to_frances": "UNLIKELY — this family moved to Wisconsin; no daughter Frances identified; born in Bavaria not matching Texas Catholic pattern",
+        "source": "WikiTree Rau-562 — Frank Joseph Rau Jr. profile"
+      },
+      {
+        "cluster": "Houston area — William Charles Rau (1890-1977)",
+        "key_individual": "William Charles Rau (born ~1890 Texas, died 1977, lived Houston TX 77023)",
+        "wife": "Leo Belle Cushing (born 1893 Texas)",
+        "known_children": ["Wilma Mearle Eades (born Rau)", "one other (unnamed)"],
+        "relation_to_frances": "POSSIBLE geographically (Houston to Beaumont close). Born 1890 — could have had daughter Frances 1918. No confirmation.",
+        "source": "MyHeritage — William Charles Rau family"
+      },
+      {
+        "cluster": "Marshall TX / WikiTree — Johann Christoph Rau",
+        "key_individual": "Johann Christoph Rau (born Nov 10, 1827 Möhringen, Stuttgart, Württemberg; WikiTree Rau-1104)",
+        "death_note": "WikiTree shows death in Möhringen; one earlier search hit suggested Marshall TX — this appears to be a data error in the search engine; the WikiTree profile itself shows death in Germany",
+        "relation_to_frances": "NOT CONNECTED — this individual died in Germany, not Texas; the Marshall TX reference was a search engine artifact"
+      }
+    ],
+    "german_origin_probability": "HIGH — Rau is a characteristically German surname. Given the Catholic church affiliation at St. Charles Borromeo and the German surname, the Rau family was almost certainly Catholic Germans or German-Americans. The German-Texas Catholic wave (1840s-1880s) settled primarily in: New Braunfels, Fredericksburg, Austin/Fayette County, and later east Texas via the oil industry (1901 Spindletop onward).",
+    "württemberg_connection": "POSSIBLE — multiple documented Rau families in Württemberg (Möhringen near Stuttgart; Kirchberg an der Murr; Heidenheim). The 1840s German Texas immigrants commonly came from Württemberg and Baden via the Adelsverein society. This matches the Rau surname distribution."
+  },
+
+  "new_ancestors_confirmed": [],
+
+  "new_ancestors_probable": [],
+
+  "new_ancestors_possible": [
+    {
+      "note": "Frances Virginia Rau's father — unidentified male Rau, born approximately 1880-1900 in Texas or Germany, Catholic, settled in east Texas by 1918. No specific candidate identified from accessible free sources.",
+      "confidence": "POSSIBLE (existence inferred; identity unknown)"
+    }
+  ],
+
+  "conflicts_resolved": [
+    {
+      "conflict": "The 1943 Loyola University master's thesis by 'Frances Virginia Rau' was briefly flagged as a possible match",
+      "resolution": "NOT the same person. The thesis VITA states she received a Chicago Normal School teacher's certificate in 1922 (when Hunter's Frances would have been 4 years old) and a Ph.B. from Loyola University Chicago in 1938. She was a Chicago public school teacher. Completely different individual with the same name.",
+      "source": "https://ecommons.luc.edu/cgi/viewcontent.cgi?article=1333&context=luc_theses (thesis VITA section)"
+    }
+  ],
+
+  "conflicts_unresolved": [
+    {
+      "conflict": "Frances's birth county in Texas is listed as 'Texas' in all accessible records — no county specified",
+      "note": "The most plausible counties are Jefferson (where she died/lived), Cherokee (where Alice was born in 1936 in Rusk), or possibly Orange/Hardin County. Cannot resolve without primary vital records."
+    }
+  ],
+
+  "recommended_tree_additions": [],
+
+  "recommended_research_actions": [
+    {
+      "priority": 1,
+      "action": "Order Texas Death Certificate for Frances Virginia Henslee",
+      "details": "Died December 19, 2008, in Nederland, Jefferson County TX. Order from Texas DSHS Vital Statistics Unit (PO Box 12040, Austin TX 78711-2040; phone 512-776-7111). Fee: ~$20. This document is legally required to name the parents of the deceased. Will give: father's full name, father's birthplace, mother's full maiden name, mother's birthplace. This single document will break open the entire Rau line.",
+      "estimated_time": "2-4 weeks by mail",
+      "cost": "~$20",
+      "confidence_gain": "Would immediately move parents from UNVERIFIED to CONFIRMED"
+    },
+    {
+      "priority": 2,
+      "action": "Search 1920 US Census for Rau household in east Texas with infant Frances",
+      "details": "Frances was born Jan 1, 1918. In the 1920 census (enumerated Jan-April 1920) she would appear as a 2-year-old daughter in her father's household. Search Jefferson County (Beaumont/Nederland), Cherokee County (Rusk), Orange County, and Hardin County TX on FamilySearch.org (free) or Ancestry.com. Search surname RAU in those counties.",
+      "estimated_time": "1-2 hours online",
+      "cost": "Free (FamilySearch) or Ancestry subscription",
+      "confidence_gain": "Would identify father's name, birthplace, occupation, and household composition"
+    },
+    {
+      "priority": 3,
+      "action": "Search 1930 US Census for Rau household with 12-year-old Frances",
+      "details": "Frances would appear as a 12-year-old daughter (born Jan 1, 1918). Search same east Texas counties on FamilySearch (free) or Ancestry. This is free online via FamilySearch.",
+      "estimated_time": "1-2 hours online",
+      "cost": "Free (FamilySearch)",
+      "confidence_gain": "Corroborates father identity from 1920 census"
+    },
+    {
+      "priority": 4,
+      "action": "Search St. Charles Borromeo Parish records, Nederland TX",
+      "details": "Parish established 1923. Frances would have been confirmed and possibly married there. Catholic Archives of Texas: PO Box 13124, Austin TX 78711-3124; phone 512-476-6296; email cat@onr.com. Also check Diocese of Beaumont (dioceseofbmt.org). Marriage records would name bride's parents.",
+      "estimated_time": "Variable",
+      "cost": "Small fee likely",
+      "confidence_gain": "Marriage record would name Frances's parents; baptism records would confirm parents if she was baptized there after 1923"
+    },
+    {
+      "priority": 5,
+      "action": "Check Beaumont Enterprise newspaper obituary archives for Frances Henslee (Dec 2008)",
+      "details": "The Beaumont Enterprise is the paper of record for Jefferson County. Obituaries published circa Dec 19-23, 2008 would likely list Frances's survivors and parents-in-law context. Tyrrell Historical Library, Beaumont TX has newspaper archives; also GenealogyBank.com has historical Texas newspaper index.",
+      "estimated_time": "1-2 hours (online or mail request)",
+      "cost": "Free to small fee",
+      "confidence_gain": "Obituary may name siblings of Frances, or mention her Rau family background"
+    }
+  ],
+
+  "rau_surname_german_origin": {
+    "etymology": "Middle High German 'rûch/rūch/rouch' = rough, shaggy. Likely a physical nickname for a rough or bearded man. The name Rau (also spelled Rauhe, Rau, sometimes anglicized as 'Rough' or 'Rowe') is common in Bavaria, Baden-Württemberg, and Hesse. Multiple distinct Rau families exist in Texas, primarily from the 1840s-1880s German immigration wave (Adelsverein period).",
+    "likely_german_origin_regions": [
+      "Württemberg (Stuttgart area — particularly Möhringen, Kirchberg an der Murr, Heidenheim)",
+      "Bavaria (Passau, Wüstenberg area — confirmed for Harrison County TX Rau family)",
+      "Baden",
+      "Hesse-Darmstadt (Nieder-Ohmen area — Volga German branch, probably not relevant for Texas Catholic)",
+      "Rhineland-Palatinate (Rettert area — Cooper County MO branch, probably not Texas connection)"
+    ],
+    "american_immigration_pattern": "German Catholic families with surname Rau typically arrived in Texas via: (1) Adelsverein colonization ship to Galveston/Indianola 1844-1847, settling in New Braunfels or Fayette County area; (2) direct immigration through Galveston 1848-1890, settling in central Texas or urban centers; (3) late immigration (1890-1910) to east Texas oil country (Jefferson/Orange/Hardin County) seeking industrial employment.",
+    "haplogroup_inference": "German Rau families in the Württemberg/Baden cluster would likely carry R1b-U106 (R1b-S21) Y-haplogroup, characteristic of southwestern German populations. Cannot confirm without DNA test."
+  },
+
+  "sources": [
+    {
+      "id": 1,
+      "label": "PeopleLegacy — Frances Henslee memorial",
+      "url": "https://peoplelegacy.com/frances_henslee-3j7a3f",
+      "reliability": "HIGH",
+      "data_extracted": "Birth Jan 1 1918 Texas; death Dec 19 2008; burial Forest Lawn Memorial Park Beaumont TX; spouse Lee S. Henslee"
+    },
+    {
+      "id": 2,
+      "label": "Find a Grave memorial #39700994 — Frances Henslee",
+      "url": "https://www.findagrave.com/memorial/39700994",
+      "reliability": "HIGH",
+      "data_extracted": "Burial confirmation; access blocked by 403 during this session — data from prior research session"
+    },
+    {
+      "id": 3,
+      "label": "Theodore Rau obituary — Memorial Oaks Chapel, Oct 3 2003",
+      "url": "https://www.memorialoakschapel.com/obituaries/theodore-rau",
+      "reliability": "HIGH (primary obituary)",
+      "data_extracted": "Theodore Rau (born Sep 17 1916 Wiedeville TX, Lutheran); father Fritz Rau Sr., mother Louise Kalkhake Rau. NOT related to Frances."
+    },
+    {
+      "id": 4,
+      "label": "WikiTree Rau-562 — Frank Joseph Rau Jr.",
+      "url": "https://www.wikitree.com/wiki/Rau-562",
+      "reliability": "MEDIUM",
+      "data_extracted": "Frank Joseph Rau Jr. born Aug 12 1910 Marshall TX, died Jun 10 1990 Milwaukee WI; father Frank Joseph Rau Sr. born Wüstenberg Bavaria; mother Rose Spalt born Germany. NOT related to Frances."
+    },
+    {
+      "id": 5,
+      "label": "MyHeritage — William Charles Rau Sr. profile",
+      "url": "https://www.myheritage.com/names/william_rau",
+      "reliability": "MEDIUM (secondary aggregate)",
+      "data_extracted": "William Charles Rau Sr. born Dec 31 1872 Texas, died May 15 1968 San Antonio TX; married Amelia Agnes Junemann 1897 TX; 6 children including Richard Rau and Lawrence Collier Rau. POSSIBLE ancestor of Frances — unconfirmed."
+    },
+    {
+      "id": 6,
+      "label": "MyHeritage — William Charles Rau (1890-1977) profile",
+      "url": "https://www.myheritage.com/names/william_rau",
+      "reliability": "MEDIUM (secondary aggregate)",
+      "data_extracted": "William Charles Rau born ~1890 TX, died 1977, lived Houston TX; married Leo Belle Cushing (born 1893 TX); 2 children. POSSIBLE — no Frances daughter confirmed."
+    },
+    {
+      "id": 7,
+      "label": "St. Charles Borromeo Catholic Church history — W.T. Block",
+      "url": "http://www.wtblock.com/saint.htm",
+      "reliability": "HIGH (local historical source)",
+      "data_extracted": "St. Charles Borromeo Parish established 1923 in Nederland TX. 1918 Nederland city directory lists predominantly French Acadian surnames — no Rau listed. First confirmed German Catholic in Nederland: Mrs. Kathrena Wagner (arrived 1902)."
+    },
+    {
+      "id": 8,
+      "label": "Nederland history — Texas State Historical Association",
+      "url": "https://tshaonline.org/handbook/entries/nederland-tx",
+      "reliability": "HIGH",
+      "data_extracted": "Nederland founded by Dutch immigrants 1897; oil industry drove German Catholic immigration post-1901 Spindletop. Many former Louisiana Acadian residents arrived 1920s."
+    },
+    {
+      "id": 9,
+      "label": "Loyola University Chicago — Frances Virginia Rau thesis VITA",
+      "url": "https://ecommons.luc.edu/cgi/viewcontent.cgi?article=1333&context=luc_theses",
+      "reliability": "HIGH (primary document)",
+      "data_extracted": "A different Frances Virginia Rau — Chicago teacher, Chicago Normal School certificate 1922, Ph.B. Loyola 1938. NOT the same as Frances Virginia Rau (1918-2008) of Texas."
+    },
+    {
+      "id": 10,
+      "label": "Jefferson County, Texas Genealogy — FamilySearch",
+      "url": "https://www.familysearch.org/en/wiki/Jefferson_County,_Texas_Genealogy",
+      "reliability": "HIGH",
+      "data_extracted": "Birth records from 1903, marriage records from 1836, death records from 1903. St. Anthony Catholic Church registers 1853-1957 and St. Joseph's 1905-1957 available."
+    },
+    {
+      "id": 11,
+      "label": "Texas DSHS Vital Statistics — death records access",
+      "url": "https://www.dshs.texas.gov/vital-statistics/death-records",
+      "reliability": "HIGH (government resource)",
+      "data_extracted": "Frances Henslee 2008 death certificate obtainable from DSHS. Certificate names decedent's parents."
+    },
+    {
+      "id": 12,
+      "label": "Rau surname etymology — YourRoots, WikiTree, Volga German Institute",
+      "url": "https://yourroots.com/genealogy/rau/",
+      "reliability": "MEDIUM",
+      "data_extracted": "Rau: Middle High German rûch/rūch/rouch = rough/hairy. First appears in Saxony 13th century. Common in Bavaria, Baden-Württemberg, Hesse-Darmstadt."
+    }
+  ],
+
+  "session_notes": {
+    "total_searches_conducted": 25,
+    "key_negative_findings": [
+      "No obituary for Frances Henslee accessible online naming her parents",
+      "No 1918 Texas birth record for Frances Rau indexed in free online databases",
+      "No Rau family in 1918 Nederland city directory",
+      "St. Charles Borromeo church (est. 1923) records not online-accessible",
+      "The Loyola Chicago 'Frances Virginia Rau' is a different person (Chicago teacher, born earlier)",
+      "WikiTree's 1,384 Rau profiles do not include a confirmed Texas Catholic Frances Rau born 1918",
+      "Find a Grave for Frances Henslee (memorial #39700994) returned 403 error — content blocked"
+    ],
+    "key_positive_findings": [
+      "Confirmed Frances Virginia Henslee (née Rau) facts: Jan 1 1918 Texas, died Dec 19 2008 Nederland TX, buried Forest Lawn Beaumont",
+      "Identified multiple Texas Rau families as possible-but-unconfirmed ancestors",
+      "Established Rau as a distinctly German surname, consistent with Catholic Texas-German pattern",
+      "Identified the definitive research action: Texas Death Certificate (2008) will name her parents",
+      "Ruled out several false leads (Loyola thesis author, Harrison County Rau who moved to Wisconsin, Wiedeville Lutheran Rau family)",
+      "Established St. Charles Borromeo parish records as a targeted Catholic archive source"
+    ]
+  }
+}
