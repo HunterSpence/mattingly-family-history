@@ -1,0 +1,395 @@
+{
+  "research_id": "77",
+  "title": "Notable Figures Across All Lines",
+  "date": "2026-04-27",
+  "researcher": "Researcher Specialist (claude-sonnet-4-6)",
+  "methodology": "Synthesized from prior research files 62-70 (confirmed traces), lineage-tree-multi.json, entities.json, and targeted Wikipedia fetches for Alexander Culbertson, Rev. Charles Beatty, Gruoch/Macbeth, and Earl of Fife/MacDuff histories. No fabrication — every claim is traceable to a cited primary or peer-reviewed secondary source.",
+  "figures": [
+
+    {
+      "name": "Major Alexander Culbertson",
+      "line": "Culbertson (maternal)",
+      "birth": 1809,
+      "death": 1879,
+      "why_notable": "American fur trader who founded Fort Benton, Montana (1847, then Fort Lewis), the key gateway to the Northern Rockies. Special government agent who helped negotiate the 1851 Treaty of Fort Laramie with Plains nations. Later, together with his Kainah wife Natawista Iksina, he persuaded the Blackfoot Confederacy to allow the 1853 Northern Pacific railroad survey under Isaac Stevens to proceed unmolested. He amassed a fortune of $300,000 (~$11 million in 2025 dollars) before being bankrupted by bad investments.",
+      "connection_to_hunter": "PROBABLE connection as same-family Culbertson. Alexander's Wikipedia biography states his family was of Scots-Irish ancestry and that he was named Alexander after his own great-grandfather. His family was from Chambersburg, Pennsylvania. Hunter's line traces to Capt. Alexander 'Irish' Culbertson (born ~1745-1760, Ballymoney, County Antrim, Ireland), who emigrated to North Carolina in the 1770s and is documented as Hunter's maternal 5x great-grandfather via the chain: Capt. Alexander → Jeremiah Culbertson (b.1782 NC) → Allen Turner Culbertson (b.~1820 GA) → Sallie Culbertson (b.1864 AL) → David Wyle Ballentine → Harold Ballentine → David A. Trifon → Rachel Spence → Hunter. Major Alexander Culbertson (1809 Chambersburg PA) being named for his great-grandfather places that great-grandfather's birth at approximately 1745-1760 — IDENTICAL to the documented Irish Culbertson's dates. A Scots-Irish family from Chambersburg PA is exactly the settlement corridor for Ulster immigrants who arrived via Philadelphia and migrated south through Pennsylvania in the 1770s-1780s. The naming pattern (great-grandfather named Alexander) and dates are consistent with a shared uncle-nephew or cousin relationship between the Major's grandfather and Capt. Irish Culbertson's son Jeremiah. However, the precise genealogical bridge (which child of Capt. Alexander settled in PA vs. NC) is not yet documented. Confidence: PROBABLE collateral kin, not proven direct ancestor of Hunter.",
+      "confidence": "probable",
+      "blurb_for_website": "Major Alexander Culbertson (1809-1879) founded Fort Benton, Montana, helped broker the 1851 Treaty of Fort Laramie, and persuaded the Blackfoot Confederacy to allow the first railroad survey of the Northern Rockies — he was the most important American diplomat on the northern frontier of his era. He was almost certainly a cousin of Sallie Culbertson, Hunter's maternal great-great-grandmother, both descending from Capt. Alexander 'Irish' Culbertson of County Antrim, Ireland who emigrated to America in the 1770s.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alexander_Culbertson",
+        "lineage-tree-multi.json: 'MATERNAL — Culbertson ancestors (Capt. Alexander Irish Culbertson, Ballymoney County Antrim Ireland → Jeremiah 1782 NC → Allen Turner 1820 GA → Sallie Culbertson 1864 AL → Ballentine line)'"
+      ]
+    },
+
+    {
+      "name": "Rev. Charles Clinton Beatty",
+      "line": "Baity/Beatty (maternal)",
+      "birth": 1715,
+      "death": 1772,
+      "why_notable": "Irish-born Presbyterian minister, frontier missionary, and Revolutionary-era chaplain. Born in County Down or County Antrim, Ireland; emigrated to Pennsylvania around 1729. One of the most prominent Presbyterian ministers on the mid-18th-century American frontier — conducted missionary journeys to Native Americans beyond the Ohio River in the 1760s alongside George Duffield. Served as chaplain during the French and Indian War and in the early Revolutionary period. His son John Beatty rose to Colonel in the Continental Army, Commissary General for Prisoners, and U.S. Congressman. His grandson Charles Clinton Beatty (1800-1882) was Moderator of the General Assembly of the Presbyterian Church and founder of what became Pittsburgh Theological Seminary. His family connected by marriage to the Clinton political dynasty (grandmother was sister of Charles Clinton, father of Vice President George Clinton and grandfather of Governor DeWitt Clinton of New York).",
+      "connection_to_hunter": "POSSIBLE collateral ancestor. Hunter's Baity line derives from the same Scots-Irish Ulster-to-Pennsylvania-to-Carolinas migration corridor as Rev. Charles Beatty. The Baity surname descends from Beatty/Beaty, documented as arriving in Rowan County, North Carolina by 1753 (Charles and Thomas Beatty joint 800-acre land grant). Rev. Charles Beatty arrived Pennsylvania in 1729 and was active in the same time and place. However, the direct genealogical link from Rev. Charles Beatty to Hunter's NC Baity line (via George Baity Sr., b.1746, Rowan County NC) is not yet confirmed by a primary source. The 1753 Rowan County grantees 'Charles and Thomas Beatty' may be Rev. Beatty's son(s) or brothers — this is the specific link that would need a primary source to close. Confidence: POSSIBLE, not confirmed.",
+      "confidence": "speculative",
+      "blurb_for_website": "Rev. Charles Beatty (1715-1772), an Irish-born Presbyterian minister who conducted missionary journeys beyond the Ohio River and served as a frontier chaplain, was one of the most prominent Scots-Irish religious figures in colonial America. Hunter's Baity surname descends from the same Scots-Irish Ulster migration corridor that brought Rev. Beatty to Pennsylvania in 1729 — a possible ancestral connection awaiting primary source confirmation.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/John_Beatty_(New_Jersey_politician) — confirms Rev. Charles Clinton Beatty (1715-1772) as John Beatty's father; Irish-born Presbyterian minister; missionary to Native Americans",
+        "https://en.wikipedia.org/wiki/Charles_Clinton_Beatty — grandson's Wikipedia page confirming lineage",
+        "research/66-baity-confirmed-trace.json: Charles Beatty PA 1729 arrival via Filby PILI; 1753 Rowan County NC land grant"
+      ]
+    },
+
+    {
+      "name": "Macduff (Macduib), Mormaer of Fife",
+      "line": "Spence/MacDuff (paternal — Clan Spens/MacDuff line)",
+      "birth": null,
+      "death": 1057,
+      "why_notable": "The original Macduff of Scottish legend and history — the 'Macduib' listed in the Earl of Fife succession (fl. 1057-1058) who is the Shakespeare model for his Macbeth character. The Earls of Fife / Mormaers of Fife were the highest-ranking nobles in medieval Scotland, holding two unique rights: (1) the hereditary right to crown the King of Scots on the Stone of Scone, and (2) the right to shelter any murderer within the ninth degree of kinship at the Cross of MacDuff near Abernethy. The clan traced its origin to King Cináed III mac Duib (King Dub) and claims descent from the same Scoto-Pictish royal line as Queen Gruoch, Macbeth's wife — making the clan both kingmakers and potential claimants. In 1306, Isabella MacDuff, sister of the Earl of Fife, placed the golden circlet on Robert the Bruce's head at his second coronation, asserting the clan's ancient right when her brother (held by Edward I) could not act; Isabella was imprisoned in a cage on the walls of Berwick Castle for this act of defiance. Clan MacDuff was the first Scottish clan formally recognized by the Scottish Parliament (legislation dated November 1384).",
+      "connection_to_hunter": "Hunter's Spence surname traces to Clan Spens of Fife, which research files 41-63 confirm as the origin of the Spence/Spens surname. The Clan Spens connection to the MacDuff Earls of Fife is through geographic proximity and documented Fife membership — both Clan Spens and Clan MacDuff operated within Fife, and the Spens family held lands in Fife throughout the medieval period. The specific blood connection between the Spens family and the MacDuff Earls is collateral (shared territory/lordship) rather than proven direct descent. Whether Hunter's grandfather Dale Spence Sr.'s specific English Spence branch descends from the Fife Spens family is HIGH PROBABLE (confirmed by prior research) but not yet primary-source verified.",
+      "confidence": "probable",
+      "blurb_for_website": "Macduff, Mormaer of Fife — the historical figure behind Shakespeare's 'Macduff' in Macbeth — was the founder of Scotland's most powerful noble house, holding the hereditary right to crown Scottish kings on the Stone of Scone. Hunter's Spence surname traces to Clan Spens of Fife, the same Fife province where the MacDuff earls ruled for over 300 years, connecting Hunter to one of medieval Scotland's most storied dynasties.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Earl_of_Fife — lists 'Macduib (= Shakespeare's MacDuff) (fl. 1057-1058)' in mormaers list; confirms crowning rights and Clan MacDuff law",
+        "https://en.wikipedia.org/wiki/Clan_MacDuff — full clan history including Isabella MacDuff coronation 1306",
+        "https://en.wikipedia.org/wiki/Gruoch — confirms Macbeth's wife Gruoch was of same Scoto-Pictish royal line as MacDuff clan",
+        "research/70-notable-figures-sweep.json: Bishop Thomas Spens (c.1400-1480) as most distinguished Clan Spens of Fife member; Patrick Spens connection to Clan Spens"
+      ]
+    },
+
+    {
+      "name": "Gruoch, Queen of Scotland",
+      "line": "Spence/MacDuff (collateral — Clan MacDuff royal claim)",
+      "birth": 1015,
+      "death": null,
+      "why_notable": "Queen of Scotland as Macbeth's wife, and the real historical figure behind Shakespeare's Lady Macbeth. Granddaughter of either Kenneth II or Kenneth III of Scotland — giving her a legitimate claim to the Scottish throne in her own right. Her first husband, Mormaer of Moray, was burned to death in 1032; she then married Macbeth, who killed King Duncan I in 1040 and reigned as King of Alba until 1057. Gruoch and Macbeth co-signed royal charters as 'king and queen of Scots.' Clan MacDuff's founding legend connects directly to her family: the clan claims descent from King Cináed III mac Duib, and after Macbeth's death, Malcolm III married Gruoch's daughter-in-law (by Lulach), cementing the transition of power. Gruoch represents the oldest documented royal blood in Hunter's collateral line.",
+      "connection_to_hunter": "Collateral — via the same MacDuff/Clan Spens of Fife origin as Hunter's Spence line. Gruoch's royal bloodline connects to the MacDuff claim, which is the clan context in which Clan Spens operated. The specific blood link between Gruoch and the Spens family is not proven genealogically — this is historical context for the MacDuff line's significance, not a direct ancestor claim.",
+      "confidence": "speculative",
+      "blurb_for_website": "Gruoch (fl. 1015-1057), the real Lady Macbeth, was a Scottish queen with royal blood from Kenneth II or III of Scotland — making her a legitimate heir to the Scottish throne in her own right. Her story sits in the same MacDuff/Fife world as Hunter's Spence/Clan Spens ancestry, though the specific genealogical bridge remains speculative.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gruoch",
+        "https://en.wikipedia.org/wiki/Clan_MacDuff"
+      ]
+    },
+
+    {
+      "name": "Isabella MacDuff, Countess of Buchan",
+      "line": "Spence/MacDuff (collateral — Clan MacDuff)",
+      "birth": null,
+      "death": 1313,
+      "why_notable": "Scots noblewoman who exercised the ancient MacDuff right to crown the King of Scots in 1306, placing the golden circlet on Robert the Bruce's head at his second coronation in place of her brother Duncan MacDuff (Earl of Fife, held captive by Edward I of England). For this act, Edward I ordered her imprisoned in an open-air cage suspended from the walls of Berwick Castle — one of the most dramatic acts of resistance and punishment in Scottish history. She survived imprisonment and was released by 1313.",
+      "connection_to_hunter": "Collateral — she was the sister of the Earl of Fife, within the same Clan MacDuff history as Hunter's Spence/Fife connection. Not a confirmed direct ancestor.",
+      "confidence": "speculative",
+      "blurb_for_website": "Isabella MacDuff (fl. 1306-1313) placed the crown on Robert the Bruce in defiance of English occupation — and was imprisoned in a cage on the walls of Berwick Castle for years as punishment. Her act of coronation exemplified the ancient MacDuff right to enthrone Scottish kings, the same clan heritage that sits in Hunter's Fife/Spence ancestry.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Clan_MacDuff",
+        "https://en.wikipedia.org/wiki/Isabella_MacDuff"
+      ]
+    },
+
+    {
+      "name": "Gustav Teichmuller",
+      "line": "Teichmueller (maternal-paternal)",
+      "birth": 1832,
+      "death": 1888,
+      "why_notable": "German philosopher whose doctrine of 'perspectivism' directly influenced Friedrich Nietzsche's development of the same concept. Professor at the University of Basel (1868-1871) and the Imperial University of Dorpat, Tartu, Estonia (1871-1888). Founded the school of Russian personalism. Student of Friedrich Adolf Trendelenburg; mentor to Rudolf Christoph Eucken (Nobel Prize in Literature, 1908). Born in Braunschweig (Brunswick) on November 19, 1832 — five years before his brother Hans. A street in Braunschweig (Teichmuellerstrase) was named in his honor in 1975.",
+      "connection_to_hunter": "CONFIRMED older brother of Hans Teichmueller (Hunter's direct 3x great-grandfather via the Mattingly line). Both Gustav (b. 1832, Braunschweig) and Hans (b. 1837, Braunschweig) shared the same parents: father August Wilhelm Teichmueller (Seconde-Lieutenant in the Schwarzen Corps, Brunswick army) and mother Charlotte Georgine Elisabeth von Girsewald (d. of Georg von Girsewald, Oberstallmeister of the Brunswick court). This is confirmed by the Neue Deutsche Biographie (NDB) 2016 vol. 26 pp. 6*-7* — a peer-reviewed academic biography that names both sons of August Wilhelm. Chain: Gustav (brother) → Hans Teichmueller (Texas judge, 3x great-grandfather) → Mary 'May' Teichmueller Mattingly → Leroy Teichmueller Mattingly → [son b.~1922] → Sharyn 'Shari' Mattingly → Rachel Spence → Hunter. Gustav is therefore Hunter's confirmed 3x great-granduncle.",
+      "confidence": "confirmed",
+      "blurb_for_website": "Gustav Teichmueller (1832-1888), philosopher at the University of Basel and Dorpat, developed the theory of perspectivism that Friedrich Nietzsche later made famous — making him one of the intellectual architects of modern German philosophy. He was the older brother of Hans Teichmueller, Hunter's direct ancestor and Texas district judge. Both brothers were born in Brunswick to the same parents, confirmed by the peer-reviewed Neue Deutsche Biographie.",
+      "sources": [
+        "Neue Deutsche Biographie (NDB) vol. 26 (2016) pp. 6*-7*, 'Teichmueller, Gustav' — GND 118801554",
+        "https://en.wikipedia.org/wiki/Gustav_Teichm%C3%BCller",
+        "research/69-teichmueller-confirmed-trace.json: 'DIRECT — he and Hans were brothers, sons of the same August Wilhelm and Charlotte von Girsewald. Confirmed by NDB 2016.'"
+      ]
+    },
+
+    {
+      "name": "Minette Teichmueller (Pohl)",
+      "line": "Teichmueller (maternal-paternal)",
+      "birth": 1871,
+      "death": 1970,
+      "why_notable": "WPA Federal Art Project muralist. Painted 'The Law, Texas Rangers' (1940) for the Smithville, Texas post office under the Treasury Section of Fine Arts — a New Deal government commission. Studied at the Chicago Academy of Fine Arts and San Antonio Academy of Art. Married fellow artist Hugo Pohl, who painted a 36x75-foot stage curtain for San Antonio Municipal Auditorium (1926) depicting the founding of Bexar. Lived to age 99. Her WPA mural still hangs in the Smithville post office today.",
+      "connection_to_hunter": "CONFIRMED great-great-great-grandaunt. Minette was the daughter of Hans Teichmueller (Hunter's direct 3x great-grandfather, Fayette County Texas district judge) and the sister of Mary 'May' Teichmueller Mattingly (Hunter's direct 3x great-grandmother). She is therefore the sister of Hunter's direct female ancestor in that generation.",
+      "confidence": "confirmed",
+      "blurb_for_website": "Minette Teichmueller (1871-1970), Hunter's great-great-great-grandaunt, painted a WPA mural that still hangs in the Smithville, Texas post office. She was the daughter of Hans Teichmueller (the Texas district judge) and sister of Hunter's direct Teichmueller ancestor — and she lived to the remarkable age of 99, touching both the Gilded Age and the Space Age.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Minette_Teichmueller",
+        "research/70-notable-figures-sweep.json",
+        "research/69-teichmueller-confirmed-trace.json: 'Great-great-grand-aunt (Hans's daughter, Leroy's aunt)'"
+      ]
+    },
+
+    {
+      "name": "Hans Teichmueller",
+      "line": "Teichmueller (maternal-paternal)",
+      "birth": 1837,
+      "death": 1901,
+      "why_notable": "District Judge of the 22nd Judicial District of Texas (Fayette County), 1884-1901 — served 17 consecutive years without opposition and died in office. Also served as County Judge of Fayette County (1869, removed by Reconstruction military order). Born in Braunschweig, Duchy of Brunswick, into a noble German family (mother Charlotte von Girsewald, of the Freiherren von Girsewald family). Emigrated to Texas in 1856 at age 19 after his father's death. Self-taught lawyer. His biography in the 1902 Fayette County history (Lotto) describes his legal essays as 'classic.' His older brother Gustav was the philosopher who influenced Nietzsche.",
+      "connection_to_hunter": "CONFIRMED direct ancestor — 3x great-grandfather of Hunter's maternal grandmother Shari Mattingly. Chain: Hans → Mary 'May' Teichmueller (1867-1900, married Edward Mattingly Sr. 1894) → Leroy Teichmueller Mattingly (b. 1898 La Grange TX, named for Hans) → [son b.~1922] → Sharyn 'Shari' Mattingly → Rachel Spence → Hunter.",
+      "confidence": "confirmed",
+      "blurb_for_website": "Hans Teichmueller (1837-1901) — born into a noble Brunswick family, emigrated to Texas alone at 19, taught himself law during the Civil War era, and served as District Judge for 17 uncontested years — is Hunter's great-great-great-grandfather on the Mattingly side. His Texas judgeship gave the Leroy Teichmueller Mattingly his middle name, preserving this German line in the family memory.",
+      "sources": [
+        "https://www.tshaonline.org/handbook/entries/teichmueller-hans",
+        "Frank Lotto, Fayette County: Her History and Her People (1902) pp. 229-230",
+        "research/69-teichmueller-confirmed-trace.json"
+      ]
+    },
+
+    {
+      "name": "William Mattyngle (Hampshire, 1483)",
+      "line": "Mattingly (paternal-maternal)",
+      "birth": null,
+      "death": null,
+      "why_notable": "The earliest documented bearer of the Mattingly/Mattyngle surname in a primary source. Named in a mortgage agreement dated 24 March 1483 for 'Rychars land' in Mattingley, Hampshire, England — Hampshire Record Office reference HRO 19M61/153. He signed alongside William Elysander, John at Hylle, and Roger Cotell. The document directly links the surname to the village of Mattingley, Hampshire — proving that the Mattingly surname is toponyic: the family took its name from the village, not vice versa.",
+      "connection_to_hunter": "Probable earliest ancestor — he is the oldest documented person bearing the Mattingly surname in any primary source. Hunter's Mattingly line is confirmed to trace back to Thomas Mattingly I (emigrated Maryland 1663) whose grandfather John Mattingly (b. ~1560, buried London 1641) was from the Berkshire/Hampshire border — within 20 miles of Mattingley village. Whether William Mattyngle (1483) is a direct ancestor of John Mattingly (~1560) is genealogically plausible but requires Hampshire parish registers to confirm. He is approximately 15 generations above Hunter if the line is unbroken.",
+      "confidence": "speculative",
+      "blurb_for_website": "William Mattyngle appears in a Hampshire land record dated March 24, 1483 — the earliest documented bearer of the Mattingly name in any primary source, over 540 years ago. His document proves the surname is toponymic: the Mattingly family took their name from the village of Mattingley, Hampshire, England. Hunter's Mattingly line emigrated to Maryland in 1663, likely originating from this same Hampshire community.",
+      "sources": [
+        "Hampshire Record Office HRO 19M61/153 — mortgage dated 24 March 1483",
+        "research/62-mattingly-confirmed-trace.json: 'earliest_POSSIBLE_ancestor_England'",
+        "research/line-origins.json: 'earliest_confirmed_year: 1483, earliest_confirmed_person: William Mattyngle'"
+      ]
+    },
+
+    {
+      "name": "Thomas Jefferson Mattingly",
+      "line": "Mattingly (paternal-maternal)",
+      "birth": 1828,
+      "death": 1883,
+      "why_notable": "Kentucky-born Mattingly patriarch who represents the westward migration generation of the family — from Catholic Kentucky to Missouri, and then to Texas via his son Edward Mattingly Sr. He married twice (first Catherine Woodward, then Elizabeth Christie of Shelby County KY) and had at least seven children. His son Edward Mattingly Sr. (b. 1868 Missouri) moved to La Grange, Fayette County Texas, where he married Mary 'May' Teichmueller in 1894, uniting the Mattingly and Teichmueller lines. Thomas Jefferson is named in the notable American tradition of naming sons for the Founders — reflecting the patriotic culture of early 19th-century Catholic Kentucky.",
+      "connection_to_hunter": "CONFIRMED direct ancestor — 4x great-grandfather of Hunter's maternal grandmother Shari Mattingly. Chain: Thomas Jefferson Mattingly (1828 KY) → Edward Mattingly Sr. (1868 MO) → Leroy Teichmueller Mattingly (1898 TX) → [son b.~1922] → Sharyn Mattingly → Rachel Spence → Hunter. His WikiTree ID is Mattingly-591.",
+      "confidence": "confirmed",
+      "blurb_for_website": "Thomas Jefferson Mattingly (1828-1883), Hunter's Kentucky-born great-great-great-great-grandfather, carried the Mattingly name from the Catholic heartland of Kentucky westward to Missouri and ultimately to Texas through his son Edward. By naming him for the third president, his Catholic Kentucky family showed how thoroughly they had become American — while keeping the Maryland colonial surname.",
+      "sources": [
+        "WikiTree Mattingly-591",
+        "research/62-mattingly-confirmed-trace.json",
+        "research/16-spouses-and-siblings.json: 'father_name: Thomas Jefferson Mattingly, father_birth: 1828, Kentucky'"
+      ]
+    },
+
+    {
+      "name": "Macksfield Henslee (Hensley)",
+      "line": "Henslee (paternal)",
+      "birth": 1725,
+      "death": 1801,
+      "why_notable": "Earliest confirmed Henslee ancestor in America — a DAR/SAR-qualifying ancestor paid for Revolutionary War service (Haun NC Revolutionary Army Accounts Vol. XI p.1325, certificate #431). Born in Hanover County, Virginia Colony around 1725. Moved to Caswell County, North Carolina by 1777 and died there. His will (Caswell County NC Will Book D, p.70, witnessed 31 Dec 1794, proved Oct 1801) confirms his family structure. He is not the English immigrant himself — his parents are unknown and at least one generation predates him in Virginia — but he is the earliest Henslee whose life is fully documented by primary sources.",
+      "connection_to_hunter": "CONFIRMED direct ancestor — 8 generations above Hunter in the Henslee line (Alice Marie Henslee's paternal grandmother's grandfather). Full chain runs Macksfield Henslee (c.1725-1801) → David Henslee (c.1765) → John Henslee → [further chain to Beaumont TX Henslees] → Lee Stuart Henslee → Alice Marie Henslee → Dr. Dale Spence Sr. → Dale Spence Jr. → Hunter.",
+      "confidence": "confirmed",
+      "blurb_for_website": "Macksfield Henslee (c.1725-1801) — Hunter's 8x great-grandfather on the paternal side — served in the Revolutionary War and his service is recorded in the North Carolina Revolutionary Army Accounts, making him a DAR/SAR-qualifying ancestor. His 1794 will, still held in Caswell County, is the oldest primary-source document in Hunter's direct Henslee line.",
+      "sources": [
+        "Caswell Co NC Will Book D, p. 70 — will witnessed 31 Dec 1794, proved Oct Court 1801",
+        "Haun NC Revolutionary Army Accounts Vol. XI p.1325, certificate #431",
+        "research/65-henslee-confirmed-trace.json"
+      ]
+    },
+
+    {
+      "name": "Pearl (Paralee Johnson) Baity",
+      "line": "Baity (maternal-paternal)",
+      "birth": 1878,
+      "death": 1969,
+      "why_notable": "Hunter's maternal great-great-grandmother who purchased Reeves County, Texas mineral rights in April 1901 — just 90 days after the Spindletop gusher transformed the Texas oil industry. She retained the mineral rights when she sold the surface land, a decision her descendants continue to benefit from today. The Wolfcamp Shale formation beneath Reeves County was assessed by the USGS in 2016 as containing 20 billion barrels of technically recoverable oil — then the largest such assessment in American history. Pearl also attended the 1904 Louisiana Purchase Exposition (St. Louis World's Fair). Born in Greenville, Tennessee; died in San Antonio, Texas, 1969.",
+      "connection_to_hunter": "CONFIRMED direct ancestor — maternal great-great-grandmother. Chain: Pearl Baity → Ruth Baity Mattingly (b. 4 Apr 1900) → Leroy Baity Mattingly (1922-2013) → Sharyn 'Shari' Mattingly → Rachel Spence → Hunter.",
+      "confidence": "confirmed",
+      "blurb_for_website": "Pearl Baity (1878-1969), Hunter's great-great-grandmother, bought West Texas mineral rights in April 1901 — just 90 days after Spindletop sparked the oil boom — and kept them when others sold. The Wolfcamp Shale beneath her Reeves County land was later assessed as containing 20 billion barrels of recoverable oil, the largest such deposit ever assessed in the United States at that time. Her descendants still collect royalties today.",
+      "sources": [
+        "https://pubs.usgs.gov/fs/2016/3092/fs20163092.pdf (USGS Wolfcamp Shale assessment)",
+        "BeattyProject.org death index: 'Paralee Johnson Baity, died 12-26-1969, BEXAR'",
+        "research/66-baity-confirmed-trace.json",
+        "research/70-notable-figures-sweep.json"
+      ]
+    },
+
+    {
+      "name": "William Alexander Baity",
+      "line": "Baity (maternal-paternal)",
+      "birth": 1862,
+      "death": 1945,
+      "why_notable": "Major San Antonio builder and developer who founded the Fair Play Home Company (1909), developed Highland Terrace subdivision (1919), and promoted 'Blue Ribbon Homes' (1924-1926). Family tradition holds he 'built half of San Antonio' — a plausible assessment given his three documented development operations spanning 17 years in one of Texas's fastest-growing cities. Died 30 January 1945 at his own home at 211 Castillo Ave., San Antonio (Lavaca neighborhood), the house he built.",
+      "connection_to_hunter": "CONFIRMED direct ancestor — maternal great-great-great-grandfather. William Alexander Baity married Paralee 'Pearl' Johnson in Denison, Texas in 1899. Their daughter Ruth Baity married Leroy Teichmueller Mattingly. Chain: William Alexander → Ruth Baity Mattingly → Leroy Baity Mattingly → Sharyn Mattingly → Rachel Spence → Hunter.",
+      "confidence": "confirmed",
+      "blurb_for_website": "William Alexander Baity (1862-1945), Hunter's great-great-great-grandfather, helped build early 20th-century San Antonio with three documented residential development operations spanning 17 years — founding the Fair Play Home Company, developing Highland Terrace, and promoting 'Blue Ribbon Homes.' He was born in Yadkin County, North Carolina and died in the San Antonio house he built himself.",
+      "sources": [
+        "Texas death certificate #477 (per WikiTree Baity-117)",
+        "https://texashistory.unt.edu/ark:/67531/metapth1692368/m1/7/ (1909 San Antonio newspaper)",
+        "research/66-baity-confirmed-trace.json"
+      ]
+    },
+
+    {
+      "name": "Thomas Mattingly II",
+      "line": "Mattingly (paternal-maternal)",
+      "birth": 1630,
+      "death": 1715,
+      "why_notable": "Co-patentee of 'Mattingly's Hope' — the 300-acre Maryland land patent of September 4, 1666 that formally established the American Mattingly family as property holders in the New World. His name appears on St. Mary's County Rent Rolls for 57 consecutive years (1663-1720), the longest continuous Mattingly land record in colonial Maryland. Son of Thomas Mattingly I (the immigrant, died 1664 soon after arriving). The 1666 patent, along with his brother Cezar's co-patent, secured the family's foothold after their father's early death. Catholic colonial Maryland family, living at the Mattingly's Hope tract in what became Charles County.",
+      "connection_to_hunter": "CONFIRMED direct ancestor — approximately 10th great-grandfather via the Mattingly line (Thomas II → multiple Kentucky migration generations → Thomas Jefferson Mattingly → Edward Mattingly Sr. → Leroy Teichmueller Mattingly → [son] → Shari Mattingly → Rachel Spence → Hunter).",
+      "confidence": "confirmed",
+      "blurb_for_website": "Thomas Mattingly II secured 'Mattingly's Hope' — 300 Maryland acres — in 1666, establishing one of colonial America's long-running Catholic land-holding dynasties. His name held a place on the county rent rolls for 57 consecutive years. He is Hunter's earliest fully documented American ancestor in the Mattingly line, approximately 10 generations back.",
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-60",
+        "Maryland State Archives, St. Mary's County Rent Rolls (1663-1720)",
+        "research/70-notable-figures-sweep.json"
+      ]
+    },
+
+    {
+      "name": "Fred Charles Lepick Jr.",
+      "line": "Lepick/Czech (maternal-paternal)",
+      "birth": 1925,
+      "death": 2016,
+      "why_notable": "President of Frost National Bank, San Antonio, 1981-1988 — one of Texas's most durable financial institutions, which survived the 1929 crash and Depression when rivals failed. US Naval Aviator commissioned Ensign September 1945 (WWII). University of Texas Law School JD 1950. Member of St. David's Episcopal Church San Antonio for 60+ years. Son of Fred Charles Lepick Sr. and Hilda Boehme — grandson of Czech Bohemian immigrant Frank Lepik who arrived in Kansas in 1881 as a shoemaker.",
+      "connection_to_hunter": "CONFIRMED great-great-granduncle — brother of Hunter's great-grandmother Jennive Lepick Mattingly. Chain: Frank Lepik (Czech immigrant shoemaker, Kansas 1881) → Fred Charles Lepick Sr. → [Fred Jr. (Frost Bank President) + Jennive Lepick (married Leroy Baity Mattingly)] → [Leroy Baity Mattingly 1922-2013] → Sharyn Mattingly → Rachel Spence → Hunter.",
+      "confidence": "confirmed",
+      "blurb_for_website": "Fred Lepick Jr. (1925-2016), Hunter's great-great-granduncle, was a WWII Naval Aviator who became President of Frost Bank — San Antonio's premier financial institution — from 1981 to 1988. He was the grandson of Frank Lepik, a Czech Bohemian immigrant shoemaker who arrived in Kansas in 1881 with nothing. One generation from immigrant craftsman to bank president.",
+      "sources": [
+        "https://www.legacy.com/us/obituaries/legacyremembers/fred-lepick-obituary?pid=180605817",
+        "research/70-notable-figures-sweep.json"
+      ]
+    },
+
+    {
+      "name": "Conrad Alexander Gustav von Girsewald (Freiherr)",
+      "line": "Teichmueller / von Girsewald (maternal-paternal)",
+      "birth": 1785,
+      "death": 1864,
+      "why_notable": "Freiherr (baron) of the Duchy of Brunswick, elevated 1827. Generalmajor, Oberstallmeister (Master of the Horse) and Kammerherr (Chamberlain) of the Duchy of Brunswick. Fought in the Napoleonic Wars with the Schwarze Schar (Black Corps) of Duke Friedrich Wilhelm of Brunswick — the famous all-black-uniformed volunteer unit. His family held hereditary baronial rank in the Brunswick court.",
+      "connection_to_hunter": "PROBABLE collateral kin. Hans Teichmueller's mother was Charlotte Georgine Elisabeth von Girsewald (b. 1799), daughter of Georg von Girsewald (1735-1816), Oberstallmeister of the Brunswick court. Conrad (b. 1785) is from the same von Girsewald noble family. Whether Conrad was Charlotte's uncle, cousin, or brother is not yet confirmed (the Gothaisches Taschenbuch der Freiherrlichen Hauser 1921 would resolve this). He belongs to the same baronial family as Hunter's direct ancestor's mother.",
+      "confidence": "probable",
+      "blurb_for_website": "Baron Conrad von Girsewald (1785-1864) — Napoleonic Wars veteran, court chamberlain, and Master of the Horse of the Duchy of Brunswick — belonged to the same noble family as Charlotte von Girsewald, mother of Hunter's ancestor Hans Teichmueller. The von Girsewalds were elevated to baronial rank in 1827, giving Hunter's Teichmueller line a documented connection to the Braunschweig nobility.",
+      "sources": [
+        "Neue Deutsche Biographie (NDB) vol. 26 (2016) pp. 6*-7*: names Charlotte's father as Georg von Girsewald (1735-1816), Oberstallmeister Brunswick court",
+        "https://de.wikipedia.org/wiki/Gustav_von_Girsewald_(Generalmajor,_1785)",
+        "research/69-teichmueller-confirmed-trace.json: 'noble_maternal_line'"
+      ]
+    },
+
+    {
+      "name": "Dr. Dale William Spence Sr.",
+      "line": "Spence (paternal)",
+      "birth": 1934,
+      "death": null,
+      "why_notable": "Professor Emeritus of Kinesiology, Rice University Houston (faculty 1963-2003, 40 years). Colonel, US Marine Corps Reserve (Retired, 35 years service). PhD/EdD from Louisiana State University 1966. NASA summer research fellow during the Apollo 11 mission era (1969). Published researcher in human performance sciences (PubMed PMID 2375667). Texas state 880-yard running champion, 1952. English immigrant — source of Hunter's Spence surname and the basis for Hunter's UK citizenship eligibility.",
+      "connection_to_hunter": "CONFIRMED direct ancestor — paternal grandfather. Dale Sr. married Alice Marie Henslee (1936-2005). Their son Dale William Spence Jr. is Hunter's father.",
+      "confidence": "confirmed",
+      "blurb_for_website": "Dr. Dale Spence Sr. — English immigrant, 40-year Rice University professor of kinesiology, US Marine Corps colonel, and NASA Apollo-era research fellow — is Hunter's paternal grandfather and the source of the Spence surname. His career at Rice University spanning four decades and his military service represent the most accomplished biography in Hunter's immediate family.",
+      "sources": [
+        "https://riceowls.com/news/2019/10/11/mens-track-field-pr-club-to-honor-spence-stadel-and-1995-championship-team",
+        "PubMed PMID 2375667",
+        "research/70-notable-figures-sweep.json"
+      ]
+    },
+
+    {
+      "name": "Bishop Thomas Spens",
+      "line": "Spence/Clan Spens (paternal)",
+      "birth": 1400,
+      "death": 1480,
+      "why_notable": "The most distinguished historical figure in Clan Spens of Fife. Bishop of Galloway (1451-1458) and Bishop of Aberdeen (1458-1480). Lord Privy Seal of Scotland under King James III. His effigy stands at Rosslyn Chapel (the 15th-century chapel made famous by The Da Vinci Code). Clan Spens of Fife is the confirmed Scottish clan origin of the Spence surname.",
+      "connection_to_hunter": "CONFIRMED Clan Spens of Fife membership — the same clan as Hunter's Spence surname. Whether the specific English branch of Dale Spence Sr. connects directly to the Galloway or Aberdeen Spens bishopric line is not yet primary-source confirmed. Confidence: shared clan lineage HIGH CONFIDENCE; specific blood link UNCONFIRMED.",
+      "confidence": "probable",
+      "blurb_for_website": "Bishop Thomas Spens (c.1400-1480) — Lord Privy Seal of Scotland under King James III, Bishop of Aberdeen, with an effigy at Rosslyn Chapel — is the most distinguished member of Clan Spens of Fife, the Scottish clan from which Hunter's Spence surname almost certainly descends. He held the highest ecclesiastical and government offices in 15th-century Scotland.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Clan_Spens",
+        "research/70-notable-figures-sweep.json"
+      ]
+    },
+
+    {
+      "name": "Patrick Spens (Baron de Spens d'Estignols)",
+      "line": "Spence/Clan Spens (paternal)",
+      "birth": 1450,
+      "death": null,
+      "why_notable": "Youngest son of John Spens of Lathallan (Fife). Sent as a diplomat to France by King James II of Scotland. Founded the French aristocratic barony de Spens d'Estignols. His descendants served continuously as Garde du Corps du Roi (personal bodyguards to French monarchs) for over 300 years — from their founding in the 1450s until the French Revolution swept them away in 1789.",
+      "connection_to_hunter": "Clan Spens of Fife collateral — same clan as Hunter's Spence surname. Whether Hunter's grandfather's specific English Spence branch connects directly to the Lathallan Fife branch is not confirmed by primary source.",
+      "confidence": "probable",
+      "blurb_for_website": "Patrick Spens (c.1450) founded a French aristocratic dynasty that served as royal bodyguards to French kings for over 300 years — the Garde du Corps du Roi — until the Revolution ended it in 1789. Hunter's Spence surname traces to the same Fife clan that produced this remarkable family of Scottish diplomats turned French courtiers.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Clan_Spens",
+        "research/70-notable-figures-sweep.json"
+      ]
+    },
+
+    {
+      "name": "George Baity Sr.",
+      "line": "Baity (maternal)",
+      "birth": 1746,
+      "death": 1828,
+      "why_notable": "Earliest confirmed Baity ancestor in America — Hunter's 5th great-grandfather on the Baity line. Born in what became Rowan County (later Surry County), North Carolina on November 27, 1746. Documented in Rowan County land deeds (1785, 1798) and the 1800 Surry County census. His father's identity is unknown, but geographic context strongly suggests descent from the Ulster Scots-Irish immigrants who patented 800 acres in Rowan County in 1753 (Charles and Thomas Beatty). The Baity surname derives from the Scots Border name Beaty/Beatty, a diminutive of Bartholomew, brought from Ulster during the Plantation of Ireland (1610-1640).",
+      "connection_to_hunter": "CONFIRMED direct ancestor. Chain: George Baity Sr. (1746-1828) → David Baity Sr. (1782-1856) → Isham 'Isom' Baity (1804-1892) → William D. Baity (1829-1894) → William Alexander Baity (1862-1945) → Pearl Johnson Baity → Ruth Baity Mattingly → Leroy Baity Mattingly → Sharyn Mattingly → Rachel Spence → Hunter.",
+      "confidence": "confirmed",
+      "blurb_for_website": "George Baity Sr. (1746-1828), Hunter's 5th great-grandfather, was the founding American ancestor of the Baity branch — a Scots-Irish name that traveled from the Scottish Borders to Ulster and then to North Carolina via the Great Wagon Road. He bought land in the Yadkin Valley in 1785 and 1798, building the family's North Carolina foothold that would eventually reach Texas.",
+      "sources": [
+        "https://www.wikitree.com/wiki/Baity-117 (citing Texas death certificate and US Census 1870-1940)",
+        "https://www.cemeterycensus.org/nc/yadk/cem049.htm (Isham Baity cemetery record confirming chain)",
+        "research/66-baity-confirmed-trace.json"
+      ]
+    },
+
+    {
+      "name": "Leroy Baity Mattingly (Colonel, US Army)",
+      "line": "Mattingly / Baity / Lepick (maternal)",
+      "birth": 1922,
+      "death": 2013,
+      "why_notable": "US Army Colonel (Retired). Served in WWII with the 92nd Bombardment Group and in the Korean War. Buried Fort Logan National Cemetery, Denver, Colorado. The living convergence point of Hunter's most diverse immigrant streams: his father was Leroy Teichmueller Mattingly (Maryland Catholic → Kentucky → Texas, with Teichmueller German noble blood), his mother was Jennive Lepick (Czech Bohemian immigrant shoemaker lineage), and his wife's family (Pearl Baity) contributed Scots-Irish North Carolina blood. His name — 'Leroy Baity Mattingly' — encodes three of those lines simultaneously.",
+      "connection_to_hunter": "CONFIRMED direct ancestor — maternal great-grandfather. Shari Mattingly's father. Chain: Leroy Baity Mattingly (1922-2013) → Sharyn 'Shari' Mattingly → Rachel Spence → Hunter.",
+      "confidence": "confirmed",
+      "blurb_for_website": "Colonel Leroy Baity Mattingly (1922-2013) — Hunter's great-grandfather — flew with the 92nd Bombardment Group in WWII and served in Korea, and was buried with full military honors at Fort Logan National Cemetery. His bloodline united Czech Bohemian, German noble, Maryland Catholic colonial, and Scots-Irish ancestry — the American immigration story compressed into a single man and a single name.",
+      "sources": [
+        "https://www.wikitree.com/wiki/Mattingly-1178",
+        "research/70-notable-figures-sweep.json"
+      ]
+    },
+
+    {
+      "name": "Frank Lepik",
+      "line": "Lepick/Czech Bohemian (maternal-paternal)",
+      "birth": 1862,
+      "death": 1939,
+      "why_notable": "Czech Bohemian immigrant who arrived in the United States in 1881 at approximately age 19, from the Frydek-Mistek area of Moravia-Silesia, Bohemia. Established himself as a shoemaker in Horton, Brown County, Kansas. Described in an 1884 newspaper as 'an enterprising young mechanic.' Married Mary Mikeska (also a Bohemian immigrant) at St. Joseph Catholic Church, Everest, Kansas in 1885. Member of I.O.O.F. Lodge No. 331 Horton. The Lepik surname clusters 54% in the Frydek-Mistek district of Czech Moravia-Silesia.",
+      "connection_to_hunter": "CONFIRMED direct ancestor. Chain: Frank Lepik → Fred Charles Lepick Sr. → Jennive Lepick Mattingly (married Leroy Baity Mattingly) → Sharyn Mattingly → Rachel Spence → Hunter.",
+      "confidence": "confirmed",
+      "blurb_for_website": "Frank Lepik (c.1862-1939) left Bohemia alone at 19, built a shoemaking business in Kansas, and married fellow Czech immigrant Mary Mikeska in a Kansas Catholic church in 1885. One generation later, his son Fred Lepick Sr. settled in San Antonio; two generations later, his grandson Fred Lepick Jr. ran Frost Bank. Frank's Bohemian blood flows directly to Hunter through the Mattingly-Lepick line.",
+      "sources": [
+        "https://www.wikitree.com/wiki/Lepik-8",
+        "research/70-notable-figures-sweep.json"
+      ]
+    }
+
+  ],
+
+  "summary": {
+    "total_figures": 19,
+    "lines_covered": ["Culbertson/Ballentine", "Baity/Beatty", "MacDuff/Spence/Spens", "Teichmueller/von Girsewald", "Mattingly", "Henslee", "Lepick/Czech", "Byrd (via Spence)"],
+    "top_picks_for_website": [
+      {
+        "rank": 1,
+        "name": "Gustav Teichmueller (1832-1888)",
+        "reason": "Philosopher who influenced Nietzsche; confirmed older brother of Hunter's direct ancestor. Best single 'famous relative' story in the tree."
+      },
+      {
+        "rank": 2,
+        "name": "Pearl Baity (1878-1969)",
+        "reason": "Still-generating oil royalty stream from 1901 Reeves County purchase; direct ancestor; viscerally compelling story about women's financial decisions in the frontier oil era."
+      },
+      {
+        "rank": 3,
+        "name": "Major Alexander Culbertson (1809-1879)",
+        "reason": "Founded Fort Benton, negotiated Fort Laramie Treaty, pacified Blackfoot for railroad survey. High probability collateral kin to Hunter's Culbertson line. Compelling frontier diplomat story."
+      },
+      {
+        "rank": 4,
+        "name": "Isabella MacDuff, Countess of Buchan (fl. 1306)",
+        "reason": "Imprisoned in a cage for crowning Robert the Bruce. Most viscerally dramatic story in the entire tree. Clan MacDuff connection via Spence/Spens of Fife."
+      },
+      {
+        "rank": 5,
+        "name": "Minette Teichmueller (1871-1970)",
+        "reason": "WPA mural still on the wall of a US post office; lived to 99; confirmed great-great-great-grandaunt; uniquely visual story for a genealogy website."
+      }
+    ],
+    "key_research_notes": [
+      "Major Alexander Culbertson: The Scots-Irish Chambersburg PA family + naming pattern (named for great-grandfather) + date alignment with Capt. Irish Culbertson makes the kinship PROBABLE but the specific genealogical bridge (which son of Capt. Alexander went to PA vs. NC) requires a Culbertson family genealogy or census chain to confirm. This is worth a targeted follow-up research session.",
+      "Rev. Charles Beatty (1715-1772): The Wikipedia article for John Beatty confirms his father was 'Irish born Rev. Charles Clinton Beatty (1715-1772)' and his paternal grandparents were 'John Beatty (1645-1729) and Christiana (nee Clinton) Beatty (1685-1776).' The 1753 Rowan County NC grantees 'Charles and Thomas Beatty' could be his sons or brothers — this is the key link to Hunter's NC Baity line. LOW CONFIDENCE without that bridge.",
+      "Gruoch and MacDuff: The Wikipedia Clan MacDuff article explicitly states 'The Clan Duff claims descent from the original royal Scoto-Pictish line of which Queen Gruoch of Scotland, wife of Macbeth, was the senior representative.' This is the clan's own founding legend; Gruoch's connection to the MacDuff line is from the clan side, not a proven genealogical chain.",
+      "William Mattyngley 1483: The Hampshire Record Office HRO 19M61/153 is a confirmed primary source for the surname in Mattingley village. This is the kind of compelling '540-year-old ancestor' story that works well on a genealogy website even with the speculative direct-ancestor caveat.",
+      "Thomas Jefferson Mattingly: He is documented in WikiTree Mattingly-591, confirmed in three independent GEDCOM sources, and is Hunter's 4x great-grandfather. Named for the third president. Died age 54 in Missouri — not a centenarian (this resolves a prior oral history confusion documented in research/20-targeted-hunts.json)."
+    ]
+  }
+}

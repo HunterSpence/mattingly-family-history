@@ -1,0 +1,207 @@
+{
+  "research_id": "74",
+  "title": "Pohl Line Research",
+  "date": "2026-04-27",
+  "researcher": "Claude Sonnet 4.6 (Researcher specialist)",
+  "sources_consulted": [
+    "Wikipedia: Minette Teichmueller — https://en.wikipedia.org/wiki/Minette_Teichmueller (raw wikitext retrieved)",
+    "TSHA Handbook of Texas: Pohl, Hugo D. — https://www.tshaonline.org/handbook/entries/pohl-hugo-d (full text retrieved)",
+    "Wikipedia: Panna Maria, Texas — https://en.wikipedia.org/wiki/Panna_Maria,_Texas (raw wikitext retrieved)",
+    "Prior research file 03-pohl-monette-art.md (session 2026-04-24)",
+    "Prior research file 11-teichmueller-german.md",
+    "Prior research file 69-teichmueller-confirmed-trace.json",
+    "Prior research file 68-boehme-confirmed-trace.json",
+    "Prior research file 45-boehme-province-deep.md",
+    "GEDCOM merge data: 55-gedcom-merge.json — Chance Mattingly-1st Cousin 1x removed GEDCOM",
+    "Cousin merged people data: 61-cousin-merged-people.json"
+  ],
+  "hugo_pohl": {
+    "born": "1878-03-11",
+    "born_place": "Detroit, Michigan, USA",
+    "died": "1960-07-20",
+    "died_place": "San Antonio, Texas, USA",
+    "birth_name": "Hugo David Pohl",
+    "parents": {
+      "status": "NOT FOUND in accessible records",
+      "notes": "No census records or genealogy database entries were accessible for Hugo Pohl's parentage. His birth year of 1878 in Detroit would place his parents in the 1880 US Census (Michigan). He is NOT listed as a native Texan, NOT born in Germany — he is a second-generation or third-generation American of likely German immigrant stock given the Detroit German community context.",
+      "likely_origin": "Detroit had a large German immigrant community in the 1870s-1880s. Hugo's teacher Julius Theodore Melchers (himself German-born, Soest, Westphalia) was part of this community. The Pohl surname is common across Germany and German-speaking regions (Bavaria, Saxony, Silesia, Prussia). Without census access, Hugo's parents remain UNVERIFIED.",
+      "what_is_known": "He studied under Julius Theodore Melchers in Detroit, then Joseph W. Gies at the Detroit Museum of Art, then Jean Paul Laurens at the Academie Julien in Paris. This sequence (Detroit art school -> French academic training) was standard for prosperous German-American families in the 1890s-1900s."
+    },
+    "career": {
+      "specialization": "Mural decoration, historical painting, landscape, portraits of Native Americans and missions",
+      "major_works": [
+        "Stage curtain: San Antonio Municipal Auditorium, 36x75 ft mural 'Founding of San Antonio' depicting 1718 founding and Alamo defenders — completed 1926, destroyed in 1979 fire",
+        "29 Texas mission paintings (1926-1927)",
+        "'Portrait of Mayor Bryan Callaghan', San Antonio",
+        "International Harvester Company murals, Chicago (1908-1910, 18 months to complete)"
+      ],
+      "institutions": [
+        "President and Director, San Antonio Academy of Art (from early 1920s)",
+        "Director, Art League, Washington DC (early 1920s, before San Antonio)",
+        "Art Editor, Naylor's Epic Century (January 1938)"
+      ],
+      "teaching": "His pupils included Pal Fried (Hungarian painter) and 'many artists who later became well known in Texas' (TSHA)",
+      "key_dates": "Moved to San Antonio in early 1920s after traveling the Southwest from 1919; established permanent studio and career there"
+    },
+    "sources": [
+      "TSHA Handbook of Texas — Caroline Remy, 'Pohl, Hugo D.' (1976, updated 2019): https://www.tshaonline.org/handbook/entries/pohl-hugo-d",
+      "Wikipedia: Minette Teichmueller — confirms birth 1878, death 1960, marriage to Minette",
+      "Frances Battaile Fisk, 'A History of Texas Artists and Sculptors' (Abilene 1928)",
+      "Cecilia Steinfeldt, 'Art for History's Sake' (Witte Museum / Dolph Briscoe Center)"
+    ]
+  },
+  "minette_teichmueller_connection": {
+    "full_name": "Minette Teichmueller Pohl",
+    "also_known_as": "Monette Pohl",
+    "born": "1871-01-27",
+    "born_place": "La Grange, Fayette County, Texas",
+    "died": "1970-08-28",
+    "died_place": "Nacogdoches, Texas",
+    "age_at_death": 99,
+    "father": "Hans Teichmüller (1837-1901), District Judge, La Grange TX, born Brunswick Germany",
+    "mother": "Augusta Dorthea Elizabeth Kellner (1843-1915)",
+    "siblings": [
+      "Louisa Teichmueller (abt 1862 - abt 1870) — died in childhood",
+      "Mary 'May' Teichmueller Mattingly (1867-1900) — HUNTER'S DIRECT ANCESTOR (great-great-grandmother via Leroy Teichmueller Mattingly)",
+      "Anna E. Teichmueller (1874-1961) — never married, lived with Minette"
+    ],
+    "marriages": [
+      "First husband: E.R. (Earl P.) Richardson — married 22 January 1913",
+      "Second husband: Hugo Pohl (1878-1960) — married date not found in accessible records; she appears as 'Minette Teichmueller Pohl' and 'Mrs. Hugo Pohl' in art records"
+    ],
+    "artistic_career": "Professional muralist; WPA Federal Art Project artist. Studied at Chicago Academy of Fine Arts and San Antonio Academy of Art. In 1940 completed oil-on-canvas mural 'The Law, Texas Rangers' for Smithville, Texas post office, commissioned by Works Progress Administration / Treasury Section of Fine Arts.",
+    "connection_to_hunter": {
+      "relationship": "Minette Teichmueller was the SISTER of Mary 'May' Teichmueller Mattingly (Hunter's great-great-grandmother). Minette is therefore Hunter's great-great-great-aunt (collateral, not direct ancestor).",
+      "chain": "Hans Teichmueller → Mary 'May' Teichmueller → Leroy Teichmueller Mattingly (b.1898) → [unnamed son] → Shari Mattingly → Hunter Spence",
+      "same_family": "Minette and Mary were daughters of the same father (Hans) and mother (Augusta Kellner). Hugo Pohl married INTO the Teichmüller family via Minette — not via Mary's line.",
+      "is_direct_ancestor": false,
+      "is_collateral": true,
+      "confidence": "CONFIRMED — documented in multiple prior research sessions with primary sources (Lotto 1902, Wikipedia, WikiTree)"
+    }
+  },
+  "pohl_texas_connection": {
+    "hugo_pohl_not_texas_german": "Hugo Pohl was born in Detroit, Michigan. He was NOT part of the 19th-century Texas German immigrant wave. He arrived in Texas in the early 1920s as an established adult artist. He is connected to Texas only through his marriage to Minette Teichmueller and his San Antonio career.",
+    "pohl_surname_in_texas": {
+      "no_direct_ancestor_found": "No person with the surname Pohl appears in Hunter's confirmed direct ancestry lines (Spence, Mattingly, Teichmueller, Boehme, Lepick, Baity, Frost, Byrd, Henslee).",
+      "collateral_pohl": "The name 'Pohl' enters the extended family only through Hugo Pohl's marriage to Minette Teichmueller — making him a great-great-uncle by marriage (collateral).",
+      "pohl_surname_in_german_texas": "The Pohl surname is documented in Texas German communities but no Pohl family was found in Lavaca County, New Braunfels, or the Czech-German belt among Hunter's direct or close collateral relatives. The GEDCOM data from cousin lines does not contain any Pohl family in the direct immigrant-community cluster (Shiner/Lavaca, Comal/New Braunfels, Fayette/La Grange)."
+    }
+  },
+  "pohlsdorf_silesia": {
+    "historical_name": "Pohlsdorf",
+    "current_name": "Polnica",
+    "location": "Village in Kreis (County) Habelschwert, Province of Silesia, Kingdom of Prussia — now Bystrzyca Klodzka County, Lower Silesian Voivodeship, Poland",
+    "region": "The Glatz/Kladsko Basin area of Lower Silesia (southeastern Sudeten mountains). Habelschwert = modern Bystrzyca Klodzka. This is NOT the same Silesia as where the Texas Polish settlement of Panna Maria originates (Upper Silesia, Karnes County, 1854).",
+    "etymology_note": "The name 'Pohlsdorf' derives from 'Pohl' (a German toponym meaning 'pool/pond' or sometimes a personal name) + 'dorf' (village). It is NOT a village named for the Pohl family; it is a place name that predates any specific family connection.",
+    "does_it_appear_in_hunters_tree": "YES — but only in a collateral cousin line, not Hunter's direct ancestry.",
+    "pohlsdorf_in_gedcom": {
+      "source": "Chance Mattingly GEDCOM (1st cousin 1x removed - maternal side)",
+      "person": "Maria Ender",
+      "born": "1867-10-20",
+      "born_place": "Pohlsdorf, Kreis Habelschwert, Schlesien, Germany",
+      "died": "1945-05-30",
+      "died_place": "New Braunfels, Comal County, Texas",
+      "married": "Heinrich 'Henry' Brinkoetter (born 1855, Hortontown, Comal County, Texas; died 1891, Geronimo, Guadalupe County, Texas)",
+      "child": "Lydia Brinkoetter (born 1888, Barbarosa, Texas; died 1977, San Marcos, Hays County, Texas)",
+      "relationship_to_hunter": "Maria Ender (from Pohlsdorf) is a collateral ancestor in Chance Mattingly's line — a 1st cousin 1x removed of Hunter's grandfather on the maternal Mattingly side. She is NOT in Hunter's direct lineage.",
+      "significance": "Maria Ender is the ONLY documented person from Pohlsdorf, Kreis Habelschwert in the entire family tree. She arrived in Texas (the Comal County / New Braunfels area) sometime between 1867 and 1888. The Brinkoetter family she married into was Texas-born (Henry was born in Hortontown, Comal County), suggesting an established German-Texan community. The Ender family's immigration story is undocumented in accessible records.",
+      "settlement_pattern": "New Braunfels (Comal County) was founded in 1845 by the Adelsverein and became the primary German settlement hub in central Texas. Maria Ender's destination there fits the chain migration pattern — Silesian families joining established German Texas communities."
+    },
+    "habelschwert_county_context": "Kreis Habelschwert was a rural county in the Glatz Basin (County of Glatz / Grafschaft Glatz), a mountainous border region where German Catholic farmers predominated. It was different from the industrialized Upper Silesia (coal and iron belt) that produced Panna Maria's settlers. Habelschwert itself (modern Bystrzyca Klodzka) is a small market town in what is now southwestern Poland, about 90 km southwest of Wroclaw. The region was heavily depopulated of ethnic Germans after 1945.",
+    "pohl_surname_and_pohlsdorf": "There is NO documented connection between the Pohl surname (Hugo Pohl's family name) and the place name Pohlsdorf. The village name predates any Pohl genealogical connection. The coincidence of 'Pohl' appearing as both an artist's surname and a village in Silesia is geographically and genealogically unrelated based on all available evidence."
+  },
+  "connection_to_hunter": "NONE (direct ancestry) / COLLATERAL (extended family) — Hugo Pohl and Minette Teichmueller are NOT direct ancestors of Hunter Spence. Minette Teichmueller was the sister of Hunter's great-great-grandmother Mary 'May' Teichmueller Mattingly. Hugo Pohl married Minette and is therefore Hunter's great-great-uncle by marriage — a notable figure in Hunter's extended family tree but not in the direct line. The place 'Pohlsdorf, Kreis Habelschwert, Schlesien' appears only in a collateral cousin GEDCOM line (Maria Ender, who married into the Brinkoetter family in Comal County TX) — also not in Hunter's direct descent. No person with the surname Pohl is a direct ancestor of Hunter Spence.",
+  "notable_family_facts": {
+    "hunter_great_great_aunt": "Minette Teichmueller Pohl (1871-1970) was a professionally exhibited WPA muralist who lived to age 99. Her Wikipedia article at https://en.wikipedia.org/wiki/Minette_Teichmueller documents her career.",
+    "hunter_great_great_uncle_by_marriage": "Hugo Pohl (1878-1960) was a significant Texas painter — president of the San Antonio Academy of Art, painted the stage curtain at the San Antonio Municipal Auditorium (destroyed 1979), and painted 29 Texas mission paintings. His work is held in the Witte Museum collection and Texas A&M Memorial Student Center.",
+    "silesian_cousin_line": "The family has a Silesian branch via Maria Ender (born Pohlsdorf, Habelschwert 1867, died New Braunfels TX 1945) who married Henry Brinkoetter — this is in Chance Mattingly's cousin GEDCOM but connects to Hunter's tree through the shared Mattingly ancestry.",
+    "teichmueller_family_la_grange": "Hunter's direct Teichmueller line runs through Hans Teichmüller (Brunswick, Germany 1837 → La Grange TX 1856-1901) → Mary Teichmueller → Leroy Teichmueller Mattingly → [unnamed son] → Shari Mattingly → Hunter. Minette was Hans's third child, Mary was his second."
+  },
+  "recommended_tree_nodes": [
+    {
+      "node_type": "COLLATERAL — notable extended family",
+      "label": "Minette Teichmueller Pohl",
+      "born": "1871-01-27",
+      "born_place": "La Grange, Fayette County, TX",
+      "died": "1970-08-28",
+      "died_place": "Nacogdoches, TX",
+      "relationship_to_hunter": "Great-great-aunt (sister of Hunter's great-great-grandmother Mary Teichmueller Mattingly)",
+      "add_to_tree": true,
+      "display_note": "WPA muralist, married artist Hugo Pohl; lived to age 99; Wikipedia: https://en.wikipedia.org/wiki/Minette_Teichmueller"
+    },
+    {
+      "node_type": "COLLATERAL BY MARRIAGE — notable extended family",
+      "label": "Hugo David Pohl",
+      "born": "1878-03-11",
+      "born_place": "Detroit, Michigan",
+      "died": "1960-07-20",
+      "died_place": "San Antonio, Texas",
+      "relationship_to_hunter": "Great-great-uncle by marriage (husband of Minette Teichmueller)",
+      "add_to_tree": true,
+      "display_note": "Texas painter; president San Antonio Academy of Art; TSHA: https://www.tshaonline.org/handbook/entries/pohl-hugo-d"
+    },
+    {
+      "node_type": "COUSIN LINE — collateral immigrant from Silesia",
+      "label": "Maria Ender Brinkoetter",
+      "born": "1867-10-20",
+      "born_place": "Pohlsdorf, Kreis Habelschwert, Schlesien, Germany",
+      "died": "1945-05-30",
+      "died_place": "New Braunfels, Comal County, Texas",
+      "relationship_to_hunter": "Collateral ancestor in Chance Mattingly's cousin line (not in Hunter's direct descent)",
+      "add_to_tree": "OPTIONAL — only if Chance Mattingly's extended cousin tree is included",
+      "display_note": "Only known family connection to Kreis Habelschwert, Lower Silesia; married Henry Brinkoetter (Texas-born German)"
+    }
+  ],
+  "next_steps": [
+    {
+      "priority": "HIGH",
+      "action": "FindAGrave search: 'Minette Teichmueller Pohl' in La Grange Cemetery, La Grange TX (PeopleLegacy confirms burial there)",
+      "why": "Would confirm FindAGrave memorial ID and potentially surface photos or linked family members"
+    },
+    {
+      "priority": "HIGH",
+      "action": "FindAGrave search: 'Hugo Pohl' in San Antonio, TX (d. 1960) — cemetery not yet identified",
+      "why": "Would establish burial location and might surface birth year as 1877 vs 1878 (one source says 1877)"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Search 1880 US Census (Michigan, Wayne County / Detroit) for Hugo Pohl household — would name his father and establish German/other European origin",
+      "how": "FamilySearch collection 'United States Census, 1880' — search surname Pohl, Wayne County Michigan, child born ~1878",
+      "why": "Would resolve whether Hugo Pohl's parents were German immigrants and from which region"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Search for Maria Ender immigration record — would identify when and how she came from Pohlsdorf to Texas",
+      "how": "Hamburg emigration lists (1867-1890 era) at https://www.ancestry.com/search/collections/1068/ or Ancestry / FamilySearch Hamburg lists — search surname Ender, birthplace Habelschwert/Pohlsdorf/Silesia",
+      "why": "Would establish the Silesian immigration pathway and potentially identify Ender family members still in Germany"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "Witte Museum Archives (San Antonio): Request Hugo Pohl file — the TSHA cites 'Files, Witte Museum, San Antonio'",
+      "contact": "Witte Museum, 3801 Broadway, San Antonio TX 78209",
+      "why": "Would contain biographical data, photos, and potentially family information not digitized"
+    },
+    {
+      "priority": "LOW",
+      "action": "Texas Marriage Records: Search for Minette Teichmueller + E.R. Richardson (January 22, 1913, likely Bexar or Fayette County) and Minette Richardson/Teichmueller + Hugo Pohl (date unknown, likely 1920s-1930s San Antonio)",
+      "why": "Would establish marriage dates and potentially Hugo Pohl's residence address at time of marriage"
+    },
+    {
+      "priority": "LOW",
+      "action": "Vintage Texas Paintings gallery (vintagetexaspaintings.com) has separate pages for both Hugo Pohl and Minette Teichmueller — check for biographical notes not in Wikipedia",
+      "url": "https://www.vintagetexaspaintings.com/artists/287-minette-teichmueller-mrs-hugo-pohl-paintings",
+      "why": "Art dealer pages sometimes contain family details sourced from collector research"
+    },
+    {
+      "priority": "LOW",
+      "action": "Search Kreis Habelschwert church records (Catholic parish registers, now held in Polish diocesan archives in Wroclaw) for Ender family baptisms — would confirm Maria Ender's parents",
+      "repository": "Archiwum Archidiecezjalne we Wroclawiu (Archdiocese of Wroclaw Archives); also Matricula Online portal for digitized Silesian Catholic registers"
+    }
+  ],
+  "disambiguation_notes": {
+    "pohl_surname_vs_pohlsdorf": "The Pohl surname (Hugo's family name) and the village Pohlsdorf in Silesia are UNRELATED. The village name is a toponym meaning 'pool-village' or derived from a medieval personal name; it is not named after the Pohl family. The coincidence in the research brief is a naming overlap, not a genealogical connection.",
+    "minette_teichmueller_vs_hunters_teichmueller_line": "Minette was Hans Teichmueller's THIRD child. Hunter descends from Mary 'May' Teichmueller (Hans's SECOND child). Both were daughters of the same Hans Teichmueller (Brunswick 1837 → La Grange TX 1856). Minette is therefore in Hunter's tree as a collateral aunt, not a direct ancestor.",
+    "silesian_pohl_community": "There is NO documented Texas German community specifically labeled 'Pohl' or centered on the Pohl surname. The Silesian Texas settlement of Panna Maria (1854, Karnes County) was Upper Silesian and Polish-speaking — a completely different population from the Habelschwert/Pohlsdorf area (Lower Silesia, German-Catholic).",
+    "hugo_pohl_birth_year": "The TSHA entry (by Caroline Remy, 1976) states 1878. David Dike Fine Art gallery gives 1877. Wikipedia (Minette Teichmueller article) and all other art market sources give 1878. The 1878 date is preferred."
+  }
+}

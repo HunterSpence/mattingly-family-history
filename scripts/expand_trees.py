@@ -1,7 +1,7 @@
 """
 expand_trees.py — Rebuild lineage-tree-multi.json with fully expanded trees.
 
-Priority 1: Spence — Scottish MacDuff ancestry from Duff (967 AD) through
+Priority 1: Spence — John 'Dispensator' (1161 AD, Scotland) through
             confirmed Spens chain (1161–1480) → NE England → Beaumont TX → Hunter
 Priority 2: Byrd  — Fan out with 30 cousin-data people
 Priority 3: Baity — Expand with cousin data
@@ -45,57 +45,11 @@ def N(name, dates, fact, gen, century, confidence, id_=None, spouse=None, childr
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-# SPENCE TREE  — 967 AD → Hunter  (27 generations, ~55 nodes)
+# SPENCE TREE  — John 'Dispensator' 1161 AD → Hunter  (25 generations, ~49 nodes)
 # Source: research/63-spence-confirmed-trace.json + research/39-dale-spence-sr.json
 # ═══════════════════════════════════════════════════════════════════════════
 
 SPENCE_TREE = N(
-    "Duff (Dubh), King of Scotland",
-    "died 967 AD, Scotland",
-    "Ancestor of Clan MacDuff — the founding king of the MacDuff dynasty. "
-    "Spence/Spens is a formally documented sept of Clan MacDuff per Electric Scotland, "
-    "tartans.com, and Wikipedia. All three sources explicitly list 'Spence' and 'Spens' "
-    "in the MacDuff sept roster. Dale Sr. showed Hunter a coat of arms consistent with "
-    "MacDuff heraldry (lion rampant, Or field).",
-    gen=1, century=10, confidence="probable",
-    children=[N(
-        "Macduff I, Mormaer of Fife",
-        "~1000 AD, Kingdom of Fife, Scotland",
-        "First Mormaer (Earl) of Fife — the MacDuff clan's hereditary title. "
-        "The Mormaers of Fife had the privilege of crowning Scottish kings at Scone. "
-        "Fife was the historical heartland of Clan Spens (Wormiston, Crail, Lathallan).",
-        gen=2, century=11, confidence="probable",
-        children=[N(
-            "Constantine MacDuff, 1st Earl of Fife",
-            "~1057 AD, Fife, Scotland",
-            "First to bear the formal title 'Earl of Fife' under King Macbeth's successor. "
-            "Supported Malcolm III Canmore in regaining the Scottish throne. "
-            "The Earldom of Fife was inherited by the MacDuff line for over 200 years.",
-            gen=3, century=11, confidence="probable",
-            children=[N(
-                "Gillemichael MacDuff, 2nd Earl of Fife",
-                "~1095, Fife, Scotland",
-                "Held the Earldom during the reigns of Malcolm III and Donald III. "
-                "The MacDuff earls maintained their ancient Pictish privileges over Fife "
-                "throughout the Norman reorganisation of Scotland.",
-                gen=4, century=11, confidence="probable",
-                children=[N(
-                    "Constantine MacDuff, 3rd Earl of Fife",
-                    "~1130, Fife, Scotland",
-                    "Earl during the reign of David I, who modernised Scotland on Norman lines. "
-                    "The Fife earldom anchored the MacDuff clan in the eastern Lowlands — "
-                    "the same territory where Clan Spens would later hold Wormiston and Crail.",
-                    gen=5, century=12, confidence="probable",
-                    children=[N(
-                        "Duncan MacDuff, 4th Earl of Fife",
-                        "~1154, Fife, Scotland — died 1154",
-                        "Earl during the reign of King David I. "
-                        "Traditional clan genealogy connects Jean le Despencier (~1161) "
-                        "to this line via marriage to a daughter of the Earl — establishing "
-                        "the kinship that made Spens a MacDuff sept. This link is clan tradition "
-                        "but consistently cited by Clan Spens sources (clanspens.xyz).",
-                        gen=6, century=12, confidence="possible",
-                        children=[N(
                             "John 'Dispensator' (le Despencier)",
                             "c. 1161–1171, Scotland",
                             "EARLIEST CONFIRMED SPENS ANCESTOR. "
@@ -104,7 +58,7 @@ SPENCE_TREE = N(
                             "medieval Scottish records. 'Dispensator' means steward/dispenser "
                             "(Latin), anglicised to 'Spens/Spence' over subsequent generations. "
                             "His descendants adopted the surname Spens from this occupational title.",
-                            gen=7, century=12, confidence="confirmed",
+                            gen=1, century=12, confidence="confirmed",
                             children=[N(
                                 "Roger 'Dispensator'",
                                 "1202–1222, Moray, Scotland",
@@ -445,12 +399,6 @@ SPENCE_TREE = N(
                                     )]
                                 )]
                             )]
-                        )]
-                    )]
-                )]
-            )]
-        )]
-    )]
 )
 
 # Fix N() calls that passed is_notable as kwarg (not in signature — add it post-build)
@@ -512,11 +460,11 @@ def add_tree(label, tree):
 replaced = replace_tree(
     "Spence line",
     SPENCE_TREE,
-    "PATERNAL — Spence line (Clan MacDuff sept, Scotland 967 AD → NE England → Beaumont TX → Hunter)"
+    "PATERNAL — Spence line (John 'Dispensator' 1161 AD, Scotland → NE England → Beaumont TX → Hunter)"
 )
 if not replaced:
     add_tree(
-        "PATERNAL — Spence line (Clan MacDuff sept, Scotland 967 AD → NE England → Beaumont TX → Hunter)",
+        "PATERNAL — Spence line (John 'Dispensator' 1161 AD, Scotland → NE England → Beaumont TX → Hunter)",
         SPENCE_TREE
     )
 

@@ -1,0 +1,472 @@
+{
+  "research_id": "75",
+  "title": "Byrd Line Gap Analysis and Notable Figures",
+  "date": "2026-04-27",
+  "researcher": "Researcher Specialist (claude-sonnet-4-6)",
+  "supersedes": ["57-dovie-byrd-verify.json", "64-byrd-confirmed-trace.json"],
+  "sources_consulted": [
+    "research/57-dovie-byrd-verify.json (prior research pass)",
+    "research/64-byrd-confirmed-trace.json (prior research pass — primary source for this synthesis)",
+    "research/70-notable-figures-sweep.json (notable figures baseline)",
+    "lineage-tree-multi.json trees 1, 11, 12 (Byrd cousin GEDCOMs)",
+    "Wikipedia — Harry F. Byrd Sr. (Governor/Senator Virginia 1887-1966)",
+    "Wikipedia — Richard Evelyn Byrd Sr. (Speaker Virginia House of Delegates 1860-1925)",
+    "Wikipedia — Richard E. Byrd Jr. (Admiral, Antarctic explorer 1888-1957)",
+    "Wikipedia — William Byrd I (1652-1704, Westover Plantation)",
+    "PeopleLegacy burial index — John A Byrd, Sharp Cemetery, Milam County TX",
+    "PeopleLegacy burial index — multiple Sharp Cemetery and Clute TX Byrd entries"
+  ],
+
+  "dovie_byrd": {
+    "birth_est": "circa 1905-1915, likely Milam County, Texas",
+    "birth_est_basis": "Backward calculation: Dale William Spence Sr. born circa 1934-1935 (confirmed from Beaumont HS 1952 championship records); if Dovie is his mother she would have been born approximately 1905-1920. John A Byrd was born 1868, making him 37-52 at Dovie's probable birth — plausible for a mid-career child. The task prompt states ~1912, which is consistent.",
+    "death_est": "circa 1960-1985, probably Jefferson County (Beaumont) or Houston area, Texas",
+    "parents_confirmed": null,
+    "parents_probable": {
+      "father": {
+        "name": "John A Byrd (GEDCOM: John Archie Asner Byrd)",
+        "dates": "March 28, 1868 Birmingham, Alabama — August 31, 1928 Sharp, Milam County, Texas",
+        "confidence": "POSSIBLE — family tradition + 4-GEDCOM convergence, no primary source names Dovie as his child",
+        "source": "KcaMarco GEDCOM (4-tree convergence); PeopleLegacy burial record peoplelegacy.com/john_a_byrd-3n4s36"
+      },
+      "mother": {
+        "name": "Martha Alice Bedford (per GEDCOM) OR Lillie Byrd (per burial co-location — UNRESOLVED CONFLICT)",
+        "confidence": "POSSIBLE / UNRESOLVED",
+        "conflict_detail": "KcaMarco GEDCOM names Martha Alice Bedford as John A Byrd's wife. PeopleLegacy shows Lillie Byrd (1877-1948) buried at same Clute cemetery as probable son Otha Lee Byrd Sr. (1902-1989) — the two names do not match. John A Byrd may have had two wives, GEDCOM may be wrong, or Lillie is a sister/collateral figure. See 64-byrd-confirmed-trace.json for full analysis.",
+        "resolution": "UNRESOLVED — 1910 Milam County census listing John A Byrd's household would resolve this immediately"
+      }
+    },
+    "siblings_possible": [
+      {
+        "name": "William Luther Byrd",
+        "dates": "1888-1930",
+        "basis": "Buried Sharp Cemetery, Milam County TX — same as father; 20-year age gap consistent with sibling",
+        "confidence": "POSSIBLE (co-burial only)"
+      },
+      {
+        "name": "James Lee Byrd",
+        "dates": "1892-1950",
+        "basis": "Buried Sharp Cemetery, Milam County TX; 24-year age gap consistent",
+        "confidence": "POSSIBLE (co-burial only)"
+      },
+      {
+        "name": "Otha Lee Byrd Sr.",
+        "dates": "1902-1989",
+        "basis": "Buried Restwood Memorial Park, Clute, Brazoria County TX; confirmed in KcaMarco GEDCOM as John A Byrd's son; age gap consistent (Dovie likely 1905-1915, Otha 1902-1989)",
+        "confidence": "PROBABLE (GEDCOM + burial record)"
+      }
+    ],
+    "maiden_name_confidence": "PROBABLE — family tradition; no primary source document found in open-web research naming Dovie's maiden name",
+    "notes": "Dovie A. Byrd married William Spence (born 1908 Philadelphia PA, son of Joseph C. Spence). Their son Dr. Dale William Spence Sr. was born circa 1934-1935 in Beaumont, Jefferson County, Texas (confirmed public records). No Texas death certificate, marriage record, or census entry for Dovie has been located in open-web sources. Her Texas death certificate (estimated death 1960-1985) is the single highest-priority document remaining."
+  },
+
+  "john_archie_asner_byrd": {
+    "born": "March 28, 1868",
+    "birthplace": "Birmingham, Alabama (per Ancestry genealogical records — PROBABLE); some sources list birthplace as Texas — small discrepancy, exact date consistent",
+    "died": "August 31, 1928",
+    "burial": "Sharp Cemetery, Sharp, Milam County, Texas",
+    "burial_source": "PeopleLegacy burial index (CONFIRMED — peoplelegacy.com/john_a_byrd-3n4s36)",
+    "parents": {
+      "father": {
+        "name": "William Leander Byrd",
+        "dates": "1832 Frankfort, Franklin County, Alabama — 1889",
+        "confidence": "PROBABLE",
+        "source": "Ancestry genealogical records (two independent search returns); KcaMarco 4-GEDCOM convergence; cousin GEDCOM tree 11 (lineage-tree-multi.json) names him explicitly as father of John A Byrd"
+      },
+      "mother": {
+        "name": "Margarete Rhetta Peradeau (alt. spellings: Perideaux, Perydore, Perrydore, Peradeau)",
+        "dates": "circa 1829-1925",
+        "confidence": "PROBABLE",
+        "source": "Two independent Ancestry records; cousin GEDCOM tree 11; Margaret Byrd (1829-1925) buried at Sharp Cemetery is PROBABLE identification of this person",
+        "huguenot_note": "Peradeau/Perideaux is a documented French Huguenot surname. Huguenot families fleeing France after the 1685 Revocation of the Edict of Nantes settled heavily in South Carolina, Georgia, and Alabama. This would give Hunter a distinct French Huguenot ancestry strand on the Byrd matrilineal line."
+      }
+    },
+    "siblings_probable": [
+      {
+        "name": "Richard Lecurgis Byrd",
+        "dates": "1860-1939",
+        "location": "Franklin, Alabama; later Texas (Maxdale TX per Find A Grave)",
+        "confidence": "PROBABLE (cousin GEDCOM tree 12)"
+      }
+    ],
+    "spouse": {
+      "name": "Martha Alice Bedford (per GEDCOM) — POSSIBLE; Lillie Byrd (1877-1948) — UNRESOLVED conflict",
+      "confidence": "POSSIBLE / UNRESOLVED"
+    },
+    "known_probable_children": [
+      {"name": "William Luther Byrd", "dates": "1888-1930", "burial": "Sharp Cemetery", "confidence": "POSSIBLE"},
+      {"name": "James Lee Byrd", "dates": "1892-1950", "burial": "Sharp Cemetery", "confidence": "POSSIBLE"},
+      {"name": "Otha Lee Byrd Sr.", "dates": "1902-1989", "burial": "Restwood Memorial Park, Clute TX", "confidence": "PROBABLE"},
+      {"name": "Dovie (Byrd) Spence", "dates": "fl. 1905-1985", "confidence": "POSSIBLE — family tradition only"}
+    ],
+    "research": {
+      "migration_narrative": "John A Byrd was born in Birmingham, Alabama in 1868 — the same year Birmingham was founded as an industrial city. His father William Leander Byrd (1832 Franklin County AL) was a Confederate Army private, consistent with Alabama residency during the Civil War. The family migration from Alabama to Milam County, Texas appears to have occurred circa 1885-1900, part of the documented post-Reconstruction Alabama-to-Texas corridor. Milam County (Sharp community) attracted cotton farmers and small ranchers from the Deep South. John A Byrd died at Sharp in 1928, aged 60. His probable son Otha Lee Byrd Sr. (1902-1989) and probable wife Lillie Byrd (1877-1948) both ended up in Clute, Brazoria County — consistent with the post-1901 Spindletop oil-boom migration from Central Texas to the Gulf Coast industrial corridor (Beaumont, Brazoria Co). Dovie's probable move to Beaumont (Jefferson County) follows the same documented pattern.",
+      "full_name_note": "The middle names 'Archie Asner' appear only in the KcaMarco GEDCOM. The burial index and PeopleLegacy record only 'John A Byrd' — no expansion of the middle initial. The full form 'John Archie Asner Byrd' is unconfirmed by any primary source.",
+      "open_questions": [
+        "No primary source (census, birth record, death record, marriage record) has been located that confirms Dovie as John A Byrd's daughter",
+        "The 1910 US Census for Milam County TX would list all children in the John A Byrd household by name and age",
+        "John A Byrd's death certificate (August 31, 1928, Milam County) would name his wife — resolving the Martha Alice Bedford vs. Lillie Byrd conflict"
+      ]
+    }
+  },
+
+  "extended_byrd_chain": {
+    "summary": "The cousin GEDCOM (tree 11 in lineage-tree-multi.json) extends the chain back to colonial Virginia as follows. All entries from generation 6 and earlier are rated PROBABLE based on GEDCOM convergence; none have been confirmed by primary source in any prior research pass.",
+    "chain_from_tree_11": [
+      {
+        "generation": 6,
+        "name": "William Leander Byrd",
+        "dates": "1832-1889",
+        "location": "Frankfort, Franklin County, Alabama",
+        "confidence": "PROBABLE",
+        "spouse": "Margaret Rhetta Peradeau"
+      },
+      {
+        "generation": 7,
+        "name": "William John Byrd",
+        "dates": "1799-1855",
+        "location": "Knox, Tennessee, United States",
+        "confidence": "POSSIBLE (cousin GEDCOM tree 11 only)",
+        "spouse": "Sarah A Fears"
+      },
+      {
+        "generation": 8,
+        "name": "William BYRD",
+        "dates": "1775-1856",
+        "location": "Fincastle, Botetourt, Virginia",
+        "confidence": "POSSIBLE (cousin GEDCOM tree 11 only)",
+        "spouse": "Lydia Adair"
+      },
+      {
+        "generation": 9,
+        "name": "Rev. Richard Byrd",
+        "dates": "1750-1803",
+        "location": "Louisa / Spotsylvania County, Virginia",
+        "confidence": "POSSIBLE (cousin GEDCOM tree 11 only)",
+        "spouse": "Elizabeth Woods-Buster"
+      },
+      {
+        "generation": 10,
+        "name": "Richard Byrd",
+        "dates": "1717-1808",
+        "location": "Westmoreland, Virginia",
+        "confidence": "POSSIBLE (cousin GEDCOM tree 11 only — this is a cousin branch, not confirmed as Hunter's direct paternal line ancestor)",
+        "spouse": "Sarah Jane Jones",
+        "important_note": "Richard Byrd (1717-1808) of Westmoreland VA is confirmed as a real historical person in WikiTree, FamilySearch, and Geni. However, he appears in cousin GEDCOM tree 11 — a COLLATERAL branch, not Hunter's direct paternal Byrd line (tree 1). The connection between Richard Byrd 1717 and William Leander Byrd 1832 runs through William John Byrd 1799 (Knox TN) and William BYRD 1775 (Botetourt VA). None of these intermediate generations have been confirmed by primary source."
+      }
+    ]
+  },
+
+  "notable_byrd_connections": [
+    {
+      "name": "Richard Byrd (1717-1808) — Westmoreland, Virginia",
+      "claim_to_fame": "Colonial Virginia planter. Documented in WikiTree, FamilySearch, and Geni as a real historical figure. His son Rev. Richard Byrd (1750-1803) moved to Hawkins County, Tennessee. This is the earliest plausibly-connected ancestor in Hunter's cousin GEDCOM tree 11.",
+      "relation_to_hunter": "POSSIBLE collateral ancestor via cousin GEDCOM tree 11 — the genealogical bridge from this Richard Byrd to Hunter's direct line (William Leander Byrd 1832) runs through three unconfirmed intermediate generations",
+      "confidence": "POSSIBLE",
+      "connection_to_westover_byrds": "NOT connected to the famous Westover plantation Byrds. The WikiTree Byrd project and prior research (64-byrd-confirmed-trace.json) confirm that Richard Byrd 1717-1808 of Westmoreland VA is a DISTINCT family from the Westover Byrds of Charles City County. His ancestor William Byrd born circa 1695 is NOT William Byrd II of Westover (born 1674).",
+      "include_on_site": false
+    },
+    {
+      "name": "William Byrd I (1652-1704) — Westover Plantation, Charles City County, Virginia",
+      "claim_to_fame": "English-born Virginia colonist. Born in Shadwell, Middlesex, England; father John Bird was a goldsmith with ancestral roots in Brexton/Broxton, Cheshire. Immigrated to Virginia 1669. Inherited Stegge's landholdings; became one of colonial Virginia's wealthiest merchants and planters. Member Virginia Governor's Council 1685-1704. Some of his landholdings became the site of modern Richmond, Virginia.",
+      "relation_to_hunter": "NO confirmed connection. The Westover Byrds are a Charles City County (Tidewater) family; Hunter's probable Byrd ancestors trace through the Spotsylvania/Piedmont VA and Alabama corridor — geographically and genealogically distinct. Multiple genealogists, the WikiTree Byrd project, and FamilyTreeDNA Byrd Y-DNA project all confirm that multiple independent Byrd families existed in colonial Virginia. Without Y-DNA testing of Hunter's paternal line, no Westover connection can be claimed.",
+      "confidence": "NO connection confirmed",
+      "include_on_site": false
+    },
+    {
+      "name": "William Byrd II (1674-1744) — Westover Plantation",
+      "claim_to_fame": "American planter, diarist, surveyor. Founded Richmond, Virginia (1737). Fellow of the Royal Society of London. Authored the Westover Manuscripts and diaries that are primary sources for colonial Virginia history. One of the wealthiest and most documented colonists in British America.",
+      "relation_to_hunter": "NO confirmed connection — same Westover branch as William Byrd I, geographically and genealogically distinct from Hunter's probable Byrd line.",
+      "confidence": "NO connection confirmed",
+      "include_on_site": false
+    },
+    {
+      "name": "Richard E. Byrd Jr. (1888-1957) — Admiral, Antarctic Explorer",
+      "claim_to_fame": "US Navy Rear Admiral and pioneering polar aviator. First person claimed to fly over the South Pole (1929) and the North Pole (1926, though disputed). Led multiple Antarctic expeditions including Operation Highjump (1946-1947) and Operation Deep Freeze (1955-1956). Medal of Honor recipient. Discovered Mount Sidley, the largest dormant volcano in Antarctica. Born in Winchester, Virginia.",
+      "family_origin": "Father: Richard Evelyn Byrd Sr. (1860-1925), Speaker of the Virginia House of Delegates, born in Austin, Travis County, Texas. Grandfather: Richard E. Byrd (1801-1872), politician in Frederick County, Virginia. Great-grandfather: Thomas Taylor Byrd. Great-great-grandfather: William Byrd who served in the British Army during the American Revolution then moved to northwestern Virginia (Shenandoah Valley). This is a Frederick County/Shenandoah Valley Byrd family — completely distinct from both the Westover Byrds (Charles City County) and Hunter's probable Alabama/Milam County Texas Byrds.",
+      "relation_to_hunter": "NO confirmed connection. Admiral Byrd's paternal line traces to the Shenandoah Valley (Frederick/Winchester VA) — a third geographically distinct Virginia Byrd family, separate from both the Westover Byrds and Hunter's probable Spotsylvania/Alabama Byrd ancestors.",
+      "confidence": "NO connection confirmed",
+      "include_on_site": false,
+      "note": "Harry F. Byrd Sr. (Governor/Senator 1887-1966) was Richard E. Byrd Jr.'s BROTHER — same father (Richard Evelyn Byrd Sr.). Both Harry the politician and Richard the explorer share the same Shenandoah Valley Byrd ancestry, distinct from Hunter's line."
+    },
+    {
+      "name": "Harry F. Byrd Sr. (1887-1966) — Virginia Governor and US Senator",
+      "claim_to_fame": "Virginia Governor 1926-1930; US Senator 1933-1965 (longest-serving Virginia senator). Led the Byrd Organization, the Democratic Party machine that dominated Virginia politics for decades. Newspaper publisher (Winchester Star). Led 'Massive Resistance' to school desegregation after Brown v. Board of Education.",
+      "family_origin": "Father Richard Evelyn Byrd Sr. (1860-1925) was Speaker of the Virginia House of Delegates, born in Austin, Texas (family returned to Virginia post-Civil War). Grandfather Richard E. Byrd (1801-1872) was a Frederick County VA politician who owned enslaved people in 1860. Great-great-grandfather William Byrd served in the British Army in the Revolution and settled in northwestern Virginia. This is a Shenandoah Valley / Frederick County VA family.",
+      "relation_to_hunter": "NO confirmed connection — same Shenandoah Valley family as Admiral Richard E. Byrd Jr. (they were brothers). Completely separate from Hunter's probable Spotsylvania/Alabama/Texas Byrd line.",
+      "confidence": "NO connection confirmed",
+      "include_on_site": false
+    },
+    {
+      "name": "Harry F. Byrd Jr. (1914-2013) — US Senator Virginia",
+      "claim_to_fame": "US Senator from Virginia 1965-1983, succeeding his father Harry Byrd Sr. Ran as Independent after the decline of the Byrd Organization. Same Shenandoah Valley Byrd family as his father.",
+      "relation_to_hunter": "NO confirmed connection — same distinct Shenandoah Valley family",
+      "confidence": "NO connection confirmed",
+      "include_on_site": false
+    },
+    {
+      "name": "John A Byrd (1868-1928) — Sharp Cemetery, Milam County, Texas",
+      "claim_to_fame": "Pioneer settler of Sharp, Milam County, Texas. Probable father of Dovie Byrd (Hunter's paternal great-grandmother). Part of the post-Reconstruction Alabama-to-Texas migration wave that settled Milam County's farming communities in the 1890s.",
+      "relation_to_hunter": "POSSIBLE paternal great-great-grandfather (Hunter ← Dale Jr. ← Dale Sr. ← Dovie ← John A Byrd)",
+      "confidence": "PROBABLE as Dovie's father (family tradition + GEDCOM); CONFIRMED burial at Sharp Cemetery",
+      "include_on_site": true
+    },
+    {
+      "name": "William Leander Byrd (1832-1889) — Frankfort, Franklin County, Alabama",
+      "claim_to_fame": "Earliest Byrd ancestor with multi-source corroboration in Hunter's probable direct line. Confederate Army private. Father of John A Byrd (1868) per two independent Ancestry genealogical records and cousin GEDCOM convergence. Married Margarete Rhetta Peradeau — a French Huguenot surname.",
+      "relation_to_hunter": "PROBABLE 3x great-grandfather",
+      "confidence": "PROBABLE",
+      "include_on_site": true
+    },
+    {
+      "name": "Margarete Rhetta Peradeau (circa 1829-1925) — Sharp Cemetery, Milam County, Texas",
+      "claim_to_fame": "French Huguenot ancestry. Wife of William Leander Byrd. If the identification of 'Margaret Byrd (1829-1925)' buried at Sharp Cemetery with Margarete Rhetta Peradeau is correct, she lived to approximately 96 years of age — migrating from Alabama to Texas after her son John A Byrd settled there. The Peradeau/Perideaux surname is documented in the French Huguenot diaspora communities of South Carolina, Georgia, and Alabama.",
+      "relation_to_hunter": "PROBABLE 4x great-grandmother",
+      "confidence": "PROBABLE for the person; POSSIBLE for the Sharp Cemetery identification",
+      "include_on_site": true
+    }
+  ],
+
+  "three_virginia_byrd_families": {
+    "summary": "There are at least THREE distinct and documented Byrd/Bird family lines in colonial Virginia. Hunter's probable line connects to the Spotsylvania/Piedmont branch. All three are genealogically and geographically separate.",
+    "family_1_westover": {
+      "name": "Westover Plantation Byrds — Charles City County, Virginia",
+      "patriarch": "William Byrd I (1652-1704), born Shadwell, Middlesex, England; father John Bird, goldsmith, Cheshire ancestry",
+      "descendants_include": "William Byrd II (1674-1744), William Byrd III (1728-1777)",
+      "geographic_base": "Tidewater Virginia — Charles City County / James River corridor",
+      "connection_to_hunter": "NONE confirmed"
+    },
+    "family_2_shenandoah": {
+      "name": "Shenandoah Valley / Frederick County Byrds — Winchester, Virginia",
+      "patriarch": "Unknown William Byrd who served in British Army, settled northwestern Virginia post-Revolution",
+      "descendants_include": "Richard E. Byrd (1801-1872), Richard Evelyn Byrd Sr. (1860-1925), Harry F. Byrd Sr. (1887-1966, Governor/Senator), Admiral Richard E. Byrd Jr. (1888-1957, Antarctic explorer), Harry F. Byrd Jr. (1914-2013, Senator)",
+      "geographic_base": "Shenandoah Valley — Frederick/Clarke County, Winchester area",
+      "connection_to_hunter": "NONE confirmed"
+    },
+    "family_3_spotsylvania_alabama": {
+      "name": "Spotsylvania / Piedmont Virginia Byrds — Hunter's probable line",
+      "patriarch_colonial": "Richard Byrd (1717-1808) of Westmoreland, Virginia (POSSIBLE ancestor via cousin GEDCOM tree 11 — not primary-source confirmed)",
+      "patriarch_confirmed": "William Leander Byrd (1832-1889) of Frankfort, Franklin County, Alabama (PROBABLE earliest confirmed ancestor)",
+      "geographic_base": "Spotsylvania/Westmoreland/Piedmont VA → Botetourt VA → Knox TN → Franklin County AL → Birmingham AL → Milam County TX → Gulf Coast TX",
+      "connection_to_hunter": "Hunter's PROBABLE direct paternal Byrd line"
+    }
+  },
+
+  "gaps": [
+    {
+      "rank": 1,
+      "gap": "Dovie A. Byrd as confirmed daughter of John A Byrd",
+      "status": "POSSIBLE — family tradition + GEDCOM; no primary source confirms",
+      "impact": "Closing this gap would confirm the entire chain from Hunter to generation 5 (John A Byrd). Currently the most critical unresolved link.",
+      "resolution_records": [
+        "1910 US Census, Milam County TX — John A Byrd household (FamilySearch collection 1727033, free with login)",
+        "1920 US Census — search Jefferson County TX for Dovie in a Spence or Byrd household",
+        "Texas Death Certificate for Dovie Spence — names maiden name + parents (FamilySearch collection 1674538; Texas DSHS ~$20)"
+      ]
+    },
+    {
+      "rank": 2,
+      "gap": "Dovie's mother — Martha Alice Bedford vs. Lillie Byrd conflict",
+      "status": "UNRESOLVED — two incompatible secondary sources",
+      "impact": "Affects whether the Peradeau French Huguenot ancestry comes through Dovie's paternal or maternal line",
+      "resolution_records": [
+        "John A Byrd death certificate (August 31, 1928, Milam County TX) — would name his surviving wife",
+        "1910 Milam County census — names wife of John A Byrd",
+        "Otha Lee Byrd Sr. obituary (died 1989, Clute TX) — would name his parents"
+      ]
+    },
+    {
+      "rank": 3,
+      "gap": "William Leander Byrd's parents — pre-1832 generation",
+      "status": "UNKNOWN — no record found in any prior research pass",
+      "impact": "Would push the confirmed chain back to approximately 1800 and potentially link to Virginia colonial records",
+      "resolution_records": [
+        "1850 or 1860 Franklin County Alabama census — search for William Leander Byrd as a young man or child in a parental household",
+        "Alabama Confederate Army pension records — W.L. Byrd listed as CSA Private; pension applications contain birth/parent info",
+        "Franklin County AL land records and probate — may identify his father by surname cluster"
+      ]
+    },
+    {
+      "rank": 4,
+      "gap": "Dovie's full birth record — exact birthdate, birthplace, birth certificate",
+      "status": "NOT FOUND in open-web sources",
+      "impact": "Would confirm the birth year (~1912 per task context), birthplace (Milam County TX assumed), and parents on the certificate",
+      "resolution_records": [
+        "Texas birth certificates 1903-1939 (FamilySearch, free with login)",
+        "Texas State Archives vital records (some pre-1926 records available)"
+      ]
+    },
+    {
+      "rank": 5,
+      "gap": "Confirmation of the cousin GEDCOM chain (Richard Byrd 1717 Westmoreland → Rev. Richard Byrd 1750 → William BYRD 1775 Botetourt → William John Byrd 1799 Knox TN → William Leander Byrd 1832 AL)",
+      "status": "POSSIBLE — based on single cousin GEDCOM tree 11; no intermediate generation confirmed by primary source",
+      "impact": "Would push confirmed ancestry from 1832 back to colonial Virginia (~1717) and potentially identify English immigrant origin",
+      "resolution_records": [
+        "Y-DNA testing of Hunter's paternal line vs. Byrd Y-DNA Surname Project (FamilyTreeDNA) — fastest path; would confirm or deny common ancestry with documented Richard Byrd 1717 descendants",
+        "1820-1850 Knox County Tennessee census records — search for William John Byrd household",
+        "1850 Botetourt County Virginia census — search for William BYRD household with William John as a child",
+        "Botetourt County VA deed and probate records — William BYRD + Lydia Adair"
+      ]
+    },
+    {
+      "rank": 6,
+      "gap": "Dovie's marriage record to William Spence",
+      "status": "NOT FOUND in open-web sources",
+      "impact": "Would confirm maiden name Byrd, exact marriage date, county",
+      "resolution_records": [
+        "Texas marriage records (pre-1966 require county courthouse or FamilySearch)",
+        "Jefferson County TX marriage index circa 1925-1940",
+        "GenLookups Texas marriage index (covers limited date ranges)"
+      ]
+    }
+  ],
+
+  "confidence_assessment": {
+    "overall": "PROBABLE for generations 4-6 (Dovie → John A Byrd → William Leander Byrd); POSSIBLE for generations 7-10 (William John Byrd → Richard Byrd 1717 colonial VA); NOT CONFIRMED for any Westover or Shenandoah Valley notable Byrd connection",
+    "generation_by_generation": [
+      {"gen": 1, "person": "Hunter Spence", "confidence": "CONFIRMED"},
+      {"gen": 2, "person": "Dale William Spence Jr.", "confidence": "CONFIRMED"},
+      {"gen": 3, "person": "Dr. Dale William Spence Sr.", "confidence": "CONFIRMED (multiple public records)"},
+      {"gen": 4, "person": "Dovie (Byrd) Spence", "confidence": "PROBABLE (person confirmed exists; maiden name Byrd per family tradition — no primary source)"},
+      {"gen": 5, "person": "John A Byrd (1868-1928)", "confidence": "PROBABLE as Dovie's father; CONFIRMED burial Sharp Cemetery"},
+      {"gen": 6, "person": "William Leander Byrd (1832-1889)", "confidence": "PROBABLE (two independent Ancestry records + cousin GEDCOM convergence)"},
+      {"gen": 7, "person": "William John Byrd (1799-1855)", "confidence": "POSSIBLE (cousin GEDCOM tree 11 only)"},
+      {"gen": 8, "person": "William BYRD (1775-1856)", "confidence": "POSSIBLE (cousin GEDCOM tree 11 only)"},
+      {"gen": 9, "person": "Rev. Richard Byrd (1750-1803)", "confidence": "POSSIBLE (cousin GEDCOM tree 11 only)"},
+      {"gen": 10, "person": "Richard Byrd (1717-1808) of Westmoreland VA", "confidence": "POSSIBLE — cousin GEDCOM collateral branch only; NOT confirmed as Hunter's direct ancestor"}
+    ],
+    "famous_byrd_connections_verdict": "NONE CONFIRMED. Hunter's probable Byrd line is geographically and genealogically distinct from: (1) the Westover Plantation Byrds (William Byrd I/II — Charles City County VA, Cheshire England origin); (2) the Shenandoah Valley Byrds (Harry F. Byrd Sr./Jr., Admiral Richard E. Byrd Jr. — Frederick County/Winchester VA). These are three documented, separate Virginia Byrd families. Without Y-DNA testing of Hunter's Spence paternal line against the Byrd Y-DNA Surname Project at FamilyTreeDNA, no famous Byrd connection can be honestly claimed."
+  },
+
+  "recommended_sources": [
+    {
+      "priority": 1,
+      "source": "FamilySearch — 1910 US Census, Milam County, Texas",
+      "collection_id": "1727033",
+      "url": "https://www.familysearch.org/search/collection/1727033",
+      "target": "John A Byrd household in Sharp, Milam County TX",
+      "expected_yield": "Names ALL children and wife — would confirm or deny Dovie as daughter; resolve mother-name conflict",
+      "cost": "Free with FamilySearch login",
+      "impact": "HIGH — single record could close gaps 1, 2, and 4 simultaneously"
+    },
+    {
+      "priority": 2,
+      "source": "Texas Death Certificate for Dovie Spence",
+      "collection_id": "FamilySearch collection 1674538",
+      "url": "https://www.familysearch.org/search/collection/1674538",
+      "target": "Dovie Spence, estimated death 1960-1985, Jefferson County or Houston area TX",
+      "expected_yield": "Maiden name, parents' names and birthplaces, birth date and location",
+      "cost": "Free (FamilySearch) to $20 (Texas DSHS direct order)",
+      "impact": "VERY HIGH — definitively confirms or denies Byrd parentage"
+    },
+    {
+      "priority": 3,
+      "source": "FamilySearch — 1920 US Census",
+      "url": "https://www.familysearch.org",
+      "target": "Dovie (Byrd or Spence) in Jefferson County TX; OR John A Byrd household in Milam County TX",
+      "expected_yield": "If married, shows Dovie in Spence household; if not, in parental household with siblings",
+      "cost": "Free with FamilySearch login",
+      "impact": "HIGH"
+    },
+    {
+      "priority": 4,
+      "source": "Find A Grave — Sharp Cemetery, Milam County, Texas",
+      "url": "https://www.findagrave.com",
+      "target": "Martha Alice Bedford Byrd; Margarete Rhetta Peradeau Byrd (Margaret Byrd 1829-1925); additional Byrd family members",
+      "expected_yield": "Headstone images may show maiden names, spouse links, or additional family members",
+      "cost": "Free with account",
+      "impact": "MEDIUM-HIGH — could resolve mother-name conflict and confirm Peradeau identification"
+    },
+    {
+      "priority": 5,
+      "source": "Alabama Confederate Army Pension Records / Service Records",
+      "url": "https://ancestry.com or https://fold3.com",
+      "target": "William Leander Byrd, Franklin County Alabama, CSA Private",
+      "expected_yield": "Pension applications often contain birthdate, birthplace, parents' names, marriage record",
+      "cost": "Ancestry subscription or Fold3 subscription",
+      "impact": "HIGH — would push confirmed ancestry from generation 6 to generation 7"
+    },
+    {
+      "priority": 6,
+      "source": "FamilyTreeDNA Byrd Y-DNA Surname Project",
+      "url": "https://www.familytreedna.com/public/byrd",
+      "target": "Y-DNA test for Hunter's paternal line; compare haplogroup against Byrd project members with documented Virginia colonial ancestry",
+      "expected_yield": "Would confirm or deny common ancestry with Richard Byrd 1717-1808 and/or other Byrd lines; would definitively separate Hunter's Byrd haplogroup from the Westover/Shenandoah families",
+      "cost": "$119-$348 depending on test depth",
+      "impact": "HIGHEST — answers the entire Virginia colonial and famous-family question in one test"
+    },
+    {
+      "priority": 7,
+      "source": "1850-1860 Franklin County Alabama Census",
+      "url": "https://www.familysearch.org",
+      "target": "William Leander Byrd household or as a child in a parental Byrd household",
+      "expected_yield": "Would identify William Leander's parents; push chain to generation 7 by primary source",
+      "cost": "Free with FamilySearch login",
+      "impact": "HIGH"
+    },
+    {
+      "priority": 8,
+      "source": "KcaMarco GEDCOM contributor — contact via Ancestry or FamilySearch messaging",
+      "target": "Ask directly whether Dovie is listed as a child of John A Byrd in their private records",
+      "expected_yield": "May have primary source documents already compiled; may confirm Dovie's birth certificate or census entry",
+      "cost": "Free",
+      "impact": "MEDIUM — crowdsourced; quality depends on their sources"
+    },
+    {
+      "priority": 9,
+      "source": "Milam County Texas Historical Commission / County Courthouse",
+      "url": "https://www.milamcounty.net",
+      "target": "John A Byrd death certificate (August 31, 1928); marriage records for John A Byrd to Martha Alice Bedford",
+      "expected_yield": "Death certificate names surviving spouse and sometimes parents; marriage record confirms wife's name",
+      "cost": "$5-$25 per record",
+      "impact": "HIGH — resolves mother-name conflict definitively"
+    }
+  ],
+
+  "next_steps": [
+    {
+      "step": 1,
+      "action": "Search FamilySearch 1910 Census (collection 1727033) for John A Byrd household in Milam County, Texas — this single record closes the two highest-priority gaps simultaneously",
+      "time_required": "15-30 minutes",
+      "cost": "Free"
+    },
+    {
+      "step": 2,
+      "action": "Search FamilySearch Texas Death Certificates (collection 1674538) for Dovie Spence — try Jefferson County (Beaumont), Harris County (Houston), and Brazoria County",
+      "time_required": "30 minutes",
+      "cost": "Free"
+    },
+    {
+      "step": 3,
+      "action": "Pull John A Byrd's 1928 death certificate from Milam County Courthouse — resolves wife-name conflict and may name parents",
+      "time_required": "1-2 days (mail request)",
+      "cost": "$10-$25"
+    },
+    {
+      "step": 4,
+      "action": "Search Find A Grave for Sharp Cemetery (Milam County TX) — look for Martha Alice Bedford Byrd, Margarete Rhetta Peradeau, and any additional family members not yet recorded",
+      "time_required": "30 minutes",
+      "cost": "Free"
+    },
+    {
+      "step": 5,
+      "action": "If FamilySearch census fails: order Y-DNA test (FamilyTreeDNA) for Hunter's paternal line and compare against Byrd Surname Project — this is the only method that can definitively confirm or deny colonial Virginia Byrd ancestry",
+      "time_required": "6-8 weeks for results",
+      "cost": "$119-$348"
+    },
+    {
+      "step": 6,
+      "action": "Search 1850-1860 Franklin County Alabama census for a Byrd household containing William Leander Byrd (~1832) as a child — would identify his parents and push the chain back to approximately 1800",
+      "time_required": "30 minutes",
+      "cost": "Free (FamilySearch)"
+    },
+    {
+      "step": 7,
+      "action": "Contact the Otha Lee Byrd Sr. (1902-1989) descendants — if confirmed as Dovie's brother, they would have family knowledge, photographs, and potentially Dovie's birth/marriage records",
+      "time_required": "Variable",
+      "cost": "Free"
+    }
+  ],
+
+  "summary_narrative": "Hunter's Byrd line runs through his paternal great-grandmother Dovie A. Byrd (born circa 1905-1915, estimated birth year ~1912 per family), who married William Spence. Their son Dr. Dale William Spence Sr. is confirmed in public records (Beaumont HS 1952, Rice University, LSU EdD 1966). Dovie's maiden name Byrd comes from family tradition and GEDCOM convergence; no primary source has been found naming her parents. Her probable father John A Byrd (1868-1928) is confirmed buried at Sharp Cemetery, Milam County, Texas. His parents — William Leander Byrd (born 1832 Frankfort, Franklin County, Alabama) and Margarete Rhetta Peradeau (a documented French Huguenot surname) — are supported by multiple independent genealogical records and are rated PROBABLE. The cousin GEDCOM extends this chain back to Richard Byrd (1717-1808) of Westmoreland, Virginia through four additional POSSIBLE-confidence generations. Hunter's Byrd line is geographically and genealogically DISTINCT from the three most famous Byrd families in American history: the Westover Plantation Byrds (William Byrd I/II — Charles City County VA, Cheshire England origin), the Shenandoah Valley political/explorer Byrds (Harry F. Byrd Sr./Jr. — Senators; Admiral Richard E. Byrd Jr. — Antarctic explorer; all Frederick County/Winchester VA), and the Westover branch. The French Huguenot Peradeau ancestry on the Byrd grandmother's side is the most historically distinctive element currently documented in Hunter's Byrd line. Y-DNA testing of Hunter's paternal line remains the most efficient single step to resolve the Virginia colonial connection question."
+}
