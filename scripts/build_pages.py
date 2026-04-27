@@ -45,7 +45,7 @@ SURNAMES = [
     {
         "id": "spence",
         "title": "The Spence Line",
-        "subtitle": "Scotland (Clan MacDuff sept) → Beaumont, Texas → Hunter (the line he carries his surname from)",
+        "subtitle": "John 'Dispensator' 1161 Scotland → Fife gentry → NE England → Beaumont TX → Hunter (the line he carries his surname from)",
         "tree_label_substring": "PATERNAL — Spence",
         "summary": (
             "Hunter's surname comes from this line — a still-unnamed English immigrant from "
@@ -207,6 +207,118 @@ SURNAMES = [
             "Virginia/North Carolina), the earliest confirmed Ballentine ancestor."
         ),
         "branch_match": ["westerfield", "trifon", "ballentine", "padgett"],
+    },
+    {
+        "id": "ballentine",
+        "title": "The Ballentine Line",
+        "subtitle": "Virginia/North Carolina ~1800 → Franklin County Arkansas → David Trifon → Rachel → Hunter",
+        "tree_label_substring": "Ballentine ancestors",
+        "summary": (
+            "Hunter's maternal grandfather David A. Trifon was the biological son of "
+            "<strong>Harold 'Hal David' Ballentine</strong> and Iris June Westerfield. Harold died "
+            "around 1945 and David took the Trifon surname from his stepfather. The Ballentine "
+            "line runs back through <strong>David Wyle Ballentine</strong> (born 1856, Ozark, "
+            "Franklin County, Arkansas) and <strong>John Wallace Ballentine</strong> (born July 23, "
+            "1826, North Carolina — died February 11, 1863, Tennessee) to the earliest confirmed "
+            "ancestor <strong>John Ballentine</strong> (~1800, Virginia/North Carolina), who married "
+            "Sallie Culbertson. The Ozark Arkansas branch of the Ballentines were Civil War era "
+            "settlers — John Wallace Ballentine died in Tennessee during the war, aged 36. "
+            "His son David Wyle grew up in post-Reconstruction Arkansas."
+        ),
+        "branch_match": ["ballentine"],
+    },
+    {
+        "id": "culbertson",
+        "title": "The Culbertson Line",
+        "subtitle": "County Antrim, Ireland → Burke County NC → Greene County GA → Alabama → Sallie Culbertson → Hunter",
+        "tree_label_substring": "Culbertson ancestors",
+        "summary": (
+            "The Culbertson line enters Hunter's tree through <strong>Sallie Culbertson</strong> "
+            "(born 1864, Alabama), who married into the Ballentine family. Her grandfather was "
+            "<strong>Capt. Alexander 'Irish' Culbertson</strong> — a documented immigrant from "
+            "<strong>County Antrim, Ireland</strong> (Scots-Irish Presbyterian stock, 🇮🇪) — one of "
+            "Hunter's confirmed first European immigrant ancestors. The line descends: Capt. Alexander "
+            "→ <strong>Jeremiah Culbertson</strong> (1782, Burke County, North Carolina) → "
+            "<strong>Allen Turner Culbertson</strong> (1820, Greene County, Georgia) and Laura Houston "
+            "→ Sallie Culbertson. The Ulster Plantation era (1610s) placed Scots-Irish settlers in "
+            "County Antrim; the Culbertsons followed the Great Wagon Road south through the Carolinas "
+            "into Georgia and Alabama."
+        ),
+        "branch_match": ["culbertson"],
+    },
+    {
+        "id": "padgett",
+        "title": "The Padgett Line",
+        "subtitle": "Virginia 1785 → Indiana → Arkansas → Bertie Jane Padgett → Westerfield → Hunter",
+        "tree_label_substring": "Padgett ancestors",
+        "summary": (
+            "The Padgett line enters Hunter's tree through <strong>Bertie Jane Padgett</strong> "
+            "(1888–1964), who married Jesse Lawrence Westerfield. Bertie's father was "
+            "<strong>William Miller Padgett</strong>, whose own father <strong>John J. Padgett</strong> "
+            "came from Indiana to settle in Arkansas. The earliest confirmed ancestor is "
+            "<strong>William Riley Padgett</strong> (born 1785, Virginia), who married Anne Casey. "
+            "William Riley's son <strong>Thomas Padgett</strong> (born c. 1812, Indiana) continued "
+            "the westward migration that would eventually bring the family to Arkansas by the "
+            "mid-1800s. Bertie Jane's daughter Iris June Westerfield (1919–2003) married Harold "
+            "Ballentine, and their son became David Trifon — Hunter's maternal grandfather."
+        ),
+        "branch_match": ["padgett"],
+    },
+    {
+        "id": "goad",
+        "title": "The Goad Line",
+        "subtitle": "Richmond County VA 1700 → Bedford VA → Graves County KY → Amanda Goad → Padgett → Hunter",
+        "tree_label_substring": "Goad ancestors",
+        "summary": (
+            "The Goad line runs through <strong>Amanda Goad</strong> (born 1830, Graves County, "
+            "Kentucky), who married William Riley Padgett Jr., connecting the Goad ancestry to "
+            "Hunter's Padgett line. The documented chain begins with "
+            "<strong>John Goad Sr.</strong> (~1700, North Farnham Parish, Richmond County, Virginia) "
+            "and Hannah Ann Isham, running through <strong>John Goad Jr.</strong> (1729) and "
+            "Margaret Chiles → <strong>Thomas Goad</strong> (1770, Bedford County, Virginia) and "
+            "Salley Tower → <strong>Caleb Goad</strong> (1792, Virginia) and Elizabeth Dodson → "
+            "Amanda Goad. The Virginia Goad family were part of the 18th-century frontier settlement "
+            "of the piedmont and western counties, moving steadily southwest from the Northern "
+            "Neck through Bedford County and into Kentucky."
+        ),
+        "branch_match": ["goad"],
+    },
+    {
+        "id": "ward",
+        "title": "The Ward Line",
+        "subtitle": "Chowan County NC 1748 → Darlington SC → Pendleton SC → Lawrence County AR → Frances Ward → Hunter",
+        "tree_label_substring": "Ward ancestors",
+        "summary": (
+            "The Ward line enters Hunter's tree through <strong>Frances Ward</strong> (born 1868, "
+            "Strawberry, Lawrence County, Arkansas), whose parents were "
+            "<strong>Joseph Ward</strong> (born 1833, Tennessee) and Jane Carolina Raney. "
+            "The documented chain goes back to <strong>John Ward</strong> (born 1748, Chowan "
+            "County, North Carolina) and Catherine Ward → "
+            "<strong>Thomas S. Ward</strong> (born 1760, Darlington District, South Carolina) "
+            "and Nancy Crompton → <strong>John Robert Ward</strong> (born 1804, Pendleton, "
+            "South Carolina) and Rebecca Winn → Joseph Ward → Frances Ward. The family "
+            "followed a classic Scots-Irish migration corridor: colonial North Carolina → "
+            "South Carolina upcountry → Tennessee → Arkansas, arriving in the Ozark "
+            "region by the mid-1800s."
+        ),
+        "branch_match": ["ward"],
+    },
+    {
+        "id": "rau",
+        "title": "The Rau Line",
+        "subtitle": "Frances Rau Henslee → Lee Stuart Henslee → Alice Marie Henslee → Dale Sr → Hunter",
+        "tree_label_substring": "PATERNAL — Rau",
+        "summary": (
+            "The Rau line enters Hunter's paternal tree through <strong>Frances Henslee</strong> "
+            "(née Rau), who married Lee Stuart Henslee in Dallas around 1948. Their daughter "
+            "<strong>Alice Marie Henslee</strong> (1936, Rusk, Texas — 2005, Beaumont) married "
+            "Dr. Dale William Spence Sr. and became Hunter's paternal grandmother. The Rau "
+            "family were Texas German settlers — part of the waves of German immigration "
+            "into central and east Texas in the 19th century. Frances and Lee spent 55 years "
+            "in Beaumont as practising Catholics at St. Charles Borromeo before retiring "
+            "to Nederland, Texas in 1993. Both are buried at Forest Lawn Memorial Park, Beaumont."
+        ),
+        "branch_match": ["rau"],
     },
 ]
 
