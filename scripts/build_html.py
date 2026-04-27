@@ -852,8 +852,8 @@ details.entity-card .entity-body {
 #lineage-tree-svg {
   display: block;
   width: 100%;
-  height: auto;
-  min-height: 720px;
+  height: min(82vh, 780px);
+  min-height: 560px;
   cursor: grab;
   position: relative;
   z-index: 1;
@@ -1681,7 +1681,7 @@ p.entity-bio {
 .secondary-tree-svg {
   display: block;
   width: 100%;
-  height: min(68vh, 680px);
+  height: min(72vh, 680px);
   min-height: 430px;
   position: relative;
   z-index: 1;
@@ -3798,26 +3798,45 @@ def render_lineage_tree_js():
 // generation-spine labels, animated entry, zoom+pan.
 // ────────────────────────────────────────────────────────────────
 
-const lineageData = JSON.parse(document.getElementById('lineage-tree-data').textContent);
+// ── Cycle detection — break any circular references before D3 sees the data ──
+// Walks the tree and removes any children that have already appeared in the
+// current ancestor path (detected by name+dates fingerprint).
+function breakCycles(node, seen) {
+  seen = seen || new Set();
+  const key = (node.name || '') + '|' + (node.dates || '');
+  if (seen.has(key)) {
+    // Circular — return a stub leaf
+    return { name: node.name, dates: node.dates, fact: '(ancestor — circular reference removed)', confidence: 'unverified', children: [] };
+  }
+  const nextSeen = new Set(seen);
+  nextSeen.add(key);
+  const cleaned = Object.assign({}, node);
+  if (Array.isArray(cleaned.children) && cleaned.children.length) {
+    cleaned.children = cleaned.children.map(c => breakCycles(c, nextSeen));
+  }
+  return cleaned;
+}
 
-// Canvas dimensions — wider cards for portrait integration
-const W = 3600;
-const H = 3200;
-const NW = 220;   // node width — compact so more nodes fit
-const NH = 76;    // node height — compact so the tree breathes vertically
+const lineageData = breakCycles(JSON.parse(document.getElementById('lineage-tree-data').textContent));
+
+// Node card dimensions
+const NW = 220;   // node width
+const NH = 76;    // node height
 const SPINE = 68; // left margin for generation labels
-const M = { top: 56, right: 36, bottom: 72, left: SPINE + 12 };
+const M = { top: 56, right: 56, bottom: 72, left: SPINE + 24 };
+
+// Node spacing — guaranteed minimum gap between cards regardless of tree size
+const NODE_DX = NW + 32;  // horizontal: card width + 32px gap between siblings
+const NODE_DY = NH + 56;  // vertical: card height + 56px gap between levels
 
 // Portrait layout constants
 const PORT_R = 26;   // portrait circle radius
 const PORT_X = -NW/2 + PORT_R + 8;  // portrait center x (left side of card)
 const TEXT_X_PORT = PORT_X + PORT_R + 8;  // text start x when portrait present
 
+// SVG element — no viewBox/preserveAspectRatio; D3 zoom handles all panning
 const svg = d3.select("#lineage-tree-svg")
-  .attr("viewBox", `0 0 ${W} ${H}`)
-  .attr("preserveAspectRatio", "xMidYMid meet")
-  .attr("width", "100%")
-  .attr("height", "1040");
+  .attr("width", "100%");
 
 // ── Defs: gradients, filters ────────────────────────────────────
 const defs = svg.append("defs");
@@ -3962,14 +3981,32 @@ function confidenceDash(c) {
 // ── Tree layout ─────────────────────────────────────────────────
 const root = d3.hierarchy(lineageData);
 const treeLayout = d3.tree()
-  .size([W - M.left - M.right, H - M.top - M.bottom])
-  .separation((a, b) => a.parent === b.parent ? 1.15 : 1.5);
+  .nodeSize([NODE_DX, NODE_DY]);
 treeLayout(root);
+
+// Compute actual tree bounds from node positions
+let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+root.each(d => {
+  if (d.x - NW/2 < minX) minX = d.x - NW/2;
+  if (d.x + NW/2 > maxX) maxX = d.x + NW/2;
+  if (d.y - NH/2 < minY) minY = d.y - NH/2;
+  if (d.y + NH/2 > maxY) maxY = d.y + NH/2;
+});
+
+// Canvas dimensions — sized to fit the actual tree
+const W = maxX - minX + M.left + M.right;
+const H = maxY - minY + M.top + M.bottom;
+
+// Center the tree horizontally within the canvas
+const offsetX = M.left - minX;
+const offsetY = M.top - minY;
+
+// No viewBox — the CSS height defines the visible window, D3 zoom handles panning
 
 // Main transform group
 const g = svg.append("g")
   .attr("class", "tree-root")
-  .attr("transform", `translate(${M.left},${M.top})`);
+  .attr("transform", `translate(${offsetX},${offsetY})`);
 
 // ── Generation spine — left margin labels ────────────────────────
 // Map from depth → first y-position seen for that generation
@@ -3980,7 +4017,7 @@ root.each(d => {
 
 const spineG = svg.append("g")
   .attr("class", "gen-spine")
-  .attr("transform", `translate(${M.left},${M.top})`);
+  .attr("transform", `translate(${offsetX},${offsetY})`);
 
 // Horizontal separator lines — dark gold rules
 root.each(d => {
@@ -3988,7 +4025,7 @@ root.each(d => {
   const y = genYmap.get(d.depth);
   // faint gold rule at each generation band
   spineG.append("line")
-    .attr("x1", -M.left + SPINE).attr("x2", W - M.left - M.right)
+    .attr("x1", minX - offsetX + SPINE).attr("x2", maxX - minX + M.right)
     .attr("y1", y).attr("y2", y)
     .attr("stroke", "#d4a458")
     .attr("stroke-width", 0.4)
@@ -4006,7 +4043,7 @@ root.each(d => {
 genYlabel.forEach((y, depth) => {
   // Generation spine labels — gold italic serif on dark
   spineG.append("text")
-    .attr("x", -M.left + SPINE - 8)
+    .attr("x", minX - offsetX + SPINE - 8)
     .attr("y", y + 4)
     .attr("text-anchor", "end")
     .attr("font-family", "'Cormorant Garamond', Georgia, serif")
@@ -4416,35 +4453,42 @@ function truncate(s, n) {
 }
 
 // ── Zoom & Pan ───────────────────────────────────────────────────
+// The tree group starts translated by (offsetX, offsetY) in SVG coords.
+// D3 zoom applies an additional transform on top of that.
 const zoomBehavior = d3.zoom()
-  .scaleExtent([0.3, 4])
+  .scaleExtent([0.05, 6])
   .on("zoom", event => {
-    g.attr("transform",
-      `translate(${M.left + event.transform.x},${M.top + event.transform.y}) scale(${event.transform.k})`);
-    spineG.attr("transform",
-      `translate(${M.left + event.transform.x},${M.top + event.transform.y}) scale(${event.transform.k})`);
+    const t = event.transform;
+    g.attr("transform", `translate(${offsetX * t.k + t.x},${offsetY * t.k + t.y}) scale(${t.k})`);
+    spineG.attr("transform", `translate(${offsetX * t.k + t.x},${offsetY * t.k + t.y}) scale(${t.k})`);
   });
 
 svg.call(zoomBehavior)
-   .on("dblclick.zoom", null); // disable dblclick zoom (annoying on text)
+   .on("dblclick.zoom", null);
 
 window.treeZoomIn    = () => svg.transition().duration(280).call(zoomBehavior.scaleBy, 1.35);
 window.treeZoomOut   = () => svg.transition().duration(280).call(zoomBehavior.scaleBy, 1/1.35);
 window.treeZoomReset = () => svg.transition().duration(420).call(zoomBehavior.transform, d3.zoomIdentity);
 
 // ── Auto-fit on load ─────────────────────────────────────────────
-// Compute fit-scale in VIEWBOX coordinates (the SVG's preserveAspectRatio
-// already handles the viewBox→screen mapping; the zoom transform multiplies
-// on top of that, so we need to think in viewBox units here).
+// Computes scale/translate so the tree fills the SVG container width
+// at the maximum readable scale. Tall trees start at root (top).
 function autoFitTree() {
-  const bbox = g.node().getBBox();
-  const padding = 40;
-  const scaleX = (W - 2 * padding) / bbox.width;
-  const scaleY = (H - 2 * padding) / bbox.height;
-  const scale = Math.min(scaleX, scaleY, 1.0);  // never zoom in past 1.0
-  // Center the tree inside the viewBox
-  const tx = (W - bbox.width * scale) / 2 - bbox.x * scale - M.left;
-  const ty = (H - bbox.height * scale) / 2 - bbox.y * scale - M.top;
+  const svgEl = svg.node();
+  const rect = svgEl.getBoundingClientRect();
+  const dispW = (rect.width  > 10 ? rect.width  : svgEl.clientWidth)  || 1100;
+  const dispH = (rect.height > 10 ? rect.height : svgEl.clientHeight) || 680;
+  // Always fit by width — show the root at the top, user scrolls/pans down.
+  // Never zoom past 1:1 (don't stretch small trees).
+  const scaleByWidth = dispW / W;
+  // For wide-and-short trees (width > height): also fit height so tree is fully visible
+  const scaleByHeight = dispH / H;
+  const scale = W >= H
+    ? Math.min(scaleByWidth, scaleByHeight, 1.0)   // wide tree — show whole thing
+    : Math.min(scaleByWidth, 1.0);                 // tall tree — fit width, pan down
+  // Center horizontally; small top margin so root node isn't clipped
+  const tx = (dispW - W * scale) / 2;
+  const ty = 16;
   svg.call(zoomBehavior.transform,
     d3.zoomIdentity.translate(tx, ty).scale(scale));
 }
@@ -4460,13 +4504,30 @@ def render_secondary_trees_js():
 // Renders every non-primary lineage from research/lineage-tree-multi.json
 // as an interactive SVG tree card with its own zoom controls.
 
+// ── Cycle detection (shared) ──────────────────────────────────────
+function breakCycles(node, seen) {
+  seen = seen || new Set();
+  const key = (node.name || '') + '|' + (node.dates || '');
+  if (seen.has(key)) {
+    return { name: node.name, dates: node.dates, fact: '(ancestor — circular reference removed)', confidence: 'unverified', children: [] };
+  }
+  const nextSeen = new Set(seen);
+  nextSeen.add(key);
+  const cleaned = Object.assign({}, node);
+  if (Array.isArray(cleaned.children) && cleaned.children.length) {
+    cleaned.children = cleaned.children.map(c => breakCycles(c, nextSeen));
+  }
+  return cleaned;
+}
+
 (function renderSecondaryLineageTrees() {
   const dataEl = document.getElementById('secondary-lineage-data');
   if (!dataEl || typeof d3 === 'undefined') return;
 
   let familyLines = [];
   try {
-    familyLines = JSON.parse(dataEl.textContent || '[]');
+    const raw = JSON.parse(dataEl.textContent || '[]');
+    familyLines = raw.map(line => line.tree ? Object.assign({}, line, { tree: breakCycles(line.tree) }) : line);
   } catch (err) {
     console.warn('Could not parse secondary lineage data', err);
     return;
@@ -4601,38 +4662,47 @@ def render_secondary_trees_js():
     svg.selectAll('*').remove();
 
     const root = d3.hierarchy(line.tree);
-    const leaves = Math.max(root.leaves().length, 2);
-    const levels = Math.max(root.height + 1, 2);
-    const W = Math.max(900, leaves * 255 + 160);
-    const H = Math.max(520, levels * 152 + 120);
     const margin = { top: 56, right: 56, bottom: 70, left: 84 };
     const prefix = `secondary-line-${index}`;
 
-    svg.attr('viewBox', `0 0 ${W} ${H}`)
-      .attr('preserveAspectRatio', 'xMidYMid meet')
-      .attr('width', '100%');
+    // Use nodeSize for guaranteed non-overlapping layout
+    const treeLayout = d3.tree()
+      .nodeSize([CARD_W + 32, CARD_H + 56]);
+    treeLayout(root);
+
+    // Compute actual bounds
+    let mnX = Infinity, mxX = -Infinity, mnY = Infinity, mxY = -Infinity;
+    root.each(d => {
+      if (d.x - CARD_W/2 < mnX) mnX = d.x - CARD_W/2;
+      if (d.x + CARD_W/2 > mxX) mxX = d.x + CARD_W/2;
+      if (d.y - CARD_H/2 < mnY) mnY = d.y - CARD_H/2;
+      if (d.y + CARD_H/2 > mxY) mxY = d.y + CARD_H/2;
+    });
+    const W = mxX - mnX + margin.left + margin.right;
+    const H = mxY - mnY + margin.top + margin.bottom;
+    const offX = margin.left - mnX;
+    const offY = margin.top - mnY;
+
+    // No viewBox — D3 zoom handles all viewport navigation
+    svg.attr('width', '100%');
 
     const defs = appendDefs(svg, prefix);
-    const treeLayout = d3.tree()
-      .size([W - margin.left - margin.right, H - margin.top - margin.bottom])
-      .separation((a, b) => a.parent === b.parent ? 1.18 : 1.55);
-    treeLayout(root);
 
     const g = svg.append('g')
       .attr('class', 'secondary-tree-root')
-      .attr('transform', `translate(${margin.left},${margin.top})`);
+      .attr('transform', `translate(${offX},${offY})`);
 
     const bandG = svg.append('g')
       .attr('class', 'secondary-tree-bands')
-      .attr('transform', `translate(${margin.left},${margin.top})`);
+      .attr('transform', `translate(${offX},${offY})`);
     const depthY = new Map();
     root.each(d => {
       if (!depthY.has(d.depth)) depthY.set(d.depth, d.y);
     });
     depthY.forEach((y, depth) => {
       bandG.append('line')
-        .attr('x1', -margin.left + 48)
-        .attr('x2', W - margin.left - margin.right)
+        .attr('x1', mnX - offX + 48)
+        .attr('x2', mxX - mnX + margin.right)
         .attr('y1', y)
         .attr('y2', y)
         .attr('stroke', '#d4a458')
@@ -4640,7 +4710,7 @@ def render_secondary_trees_js():
         .attr('stroke-dasharray', '3,8')
         .attr('opacity', 0.22);
       bandG.append('text')
-        .attr('x', -margin.left + 42)
+        .attr('x', mnX - offX + 42)
         .attr('y', y + 4)
         .attr('text-anchor', 'end')
         .attr('font-family', "'Cormorant Garamond', Georgia, serif")
@@ -4862,24 +4932,27 @@ def render_secondary_trees_js():
     });
 
     const zoomBehavior = d3.zoom()
-      .scaleExtent([0.35, 4])
+      .scaleExtent([0.05, 6])
       .on('zoom', event => {
-        g.attr('transform',
-          `translate(${margin.left + event.transform.x},${margin.top + event.transform.y}) scale(${event.transform.k})`);
-        bandG.attr('transform',
-          `translate(${margin.left + event.transform.x},${margin.top + event.transform.y}) scale(${event.transform.k})`);
+        const t = event.transform;
+        g.attr('transform', `translate(${offX * t.k + t.x},${offY * t.k + t.y}) scale(${t.k})`);
+        bandG.attr('transform', `translate(${offX * t.k + t.x},${offY * t.k + t.y}) scale(${t.k})`);
       });
 
     svg.call(zoomBehavior).on('dblclick.zoom', null);
 
     function fit() {
-      const bbox = g.node().getBBox();
-      const padding = 44;
-      const scaleX = (W - 2 * padding) / Math.max(bbox.width, 1);
-      const scaleY = (H - 2 * padding) / Math.max(bbox.height, 1);
-      const scale = Math.min(scaleX, scaleY, 1);
-      const tx = (W - bbox.width * scale) / 2 - bbox.x * scale - margin.left;
-      const ty = (H - bbox.height * scale) / 2 - bbox.y * scale - margin.top;
+      const svgEl = svg.node();
+      const rect = svgEl.getBoundingClientRect();
+      const dispW = (rect.width  > 10 ? rect.width  : svgEl.clientWidth)  || 900;
+      const dispH = (rect.height > 10 ? rect.height : svgEl.clientHeight) || 520;
+      const scaleByWidth  = dispW / W;
+      const scaleByHeight = dispH / H;
+      const scale = W >= H
+        ? Math.min(scaleByWidth, scaleByHeight, 1.0)
+        : Math.min(scaleByWidth, 1.0);
+      const tx = (dispW - W * scale) / 2;
+      const ty = 12;
       svg.transition().duration(260).call(
         zoomBehavior.transform,
         d3.zoomIdentity.translate(tx, ty).scale(scale)
