@@ -1470,14 +1470,12 @@ p.entity-bio {
 .tree-node text { user-select: none; pointer-events: none; }
 
 .tree-node .node-card {
-  transition: filter 0.2s, transform 0.2s;
-  transform-origin: center;
+  transition: filter 0.2s;
 }
 
 .tree-node:hover .node-card {
-  /* Gold halo on dark — the node illuminates */
-  filter: drop-shadow(0 0 8px rgba(212, 164, 88, 0.35)) drop-shadow(0 4px 16px rgba(0,0,0,0.6));
-  transform: scale(1.025);
+  /* Gold halo on dark — filter only (no scale: SVG scale shifts hit-area causing hover flicker) */
+  filter: drop-shadow(0 0 10px rgba(212, 164, 88, 0.55)) drop-shadow(0 4px 18px rgba(0,0,0,0.7));
 }
 
 .tree-node:focus-within .node-card,
@@ -3311,15 +3309,13 @@ nodeGroups.filter(d => d.data.siblings && d.data.siblings.length > 0)
       .text("Siblings: " + d.data.siblings.map(s => `${s.name} (${s.dates})`).join(", "));
   });
 
-// ── Hover: gold glow + scale ─────────────────────────────────────
+// ── Hover: gold glow only (no scale — SVG scale shifts hit-area causing flicker) ──
 nodeGroups.on("mouseenter", function(event, d) {
   d3.select(this).select(".node-card")
-    .style("filter", "url(#node-shadow)")
-    .attr("transform", "scale(1.04)");
+    .style("filter", "url(#node-shadow)");
 }).on("mouseleave", function() {
   d3.select(this).select(".node-card")
-    .style("filter", null)
-    .attr("transform", null);
+    .style("filter", null);
 });
 
 // ── Utility ─────────────────────────────────────────────────────

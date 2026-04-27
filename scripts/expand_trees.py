@@ -22,7 +22,7 @@ WS = Path(r"C:\Users\hspen\.openclaw\workspace\family-history")
 # ── Helper ─────────────────────────────────────────────────────────────────
 
 def N(name, dates, fact, gen, century, confidence, id_=None, spouse=None, children=None,
-      is_notable=False):
+      is_notable=False, is_immigrant=False, country_flag=None):
     """Build a tree node."""
     n = {
         "name": name,
@@ -37,6 +37,10 @@ def N(name, dates, fact, gen, century, confidence, id_=None, spouse=None, childr
     }
     if is_notable:
         n["is_notable"] = True
+    if is_immigrant:
+        n["immigrant_to_america"] = True
+    if country_flag:
+        n["country_flag"] = country_flag
     return n
 
 
@@ -291,6 +295,7 @@ SPENCE_TREE = N(
                                                                                                                         "Next step: FreeBMD search for Joseph C. Spence born 1878.",
                                                                                                                         gen=27, century=19, confidence="confirmed",
                                                                                                                         id_="p124",
+                                                                                                                        is_immigrant=True, country_flag="🇬🇧",
                                                                                                                         spouse="Jeanne A. Spence (née Meton, born 1883, France — immigrated to America 1898)",
                                                                                                                         children=[
                                                                                                                             N(
@@ -529,7 +534,7 @@ def get_tree(label_fragment):
 
 
 henslee_tree = get_tree("Henslee line")
-if henslee_tree:
+if henslee_tree and henslee_tree.get("name") != "William Hensley (Henslee)":
     extended_henslee = N(
         "William Hensley (Henslee)",
         "c. 1695–1750, Goochland County, Virginia",
@@ -607,7 +612,7 @@ colonial_byrd_branch = N(
 )
 
 byrd_tree = get_tree("Byrd line")
-if byrd_tree:
+if byrd_tree and byrd_tree.get("name") != "Byrd / Bird Ancestry":
     # Add the colonial VA branch as a sibling/cousin branch to John Henry Bird
     existing_children = byrd_tree.get("children", [])
     expanded_byrd = N(
@@ -647,7 +652,7 @@ baity_cousins = [p for p in cousin_data if "baity" in (p.get("surname") or "").l
 baity_cousins_sorted = sorted(baity_cousins, key=lambda p: p.get("birth_year") or 9999)
 
 baity_tree = get_tree("Baity")
-if baity_tree:
+if baity_tree and baity_tree.get("name") != "Charles Beatty (Baity / Beaty)":
     extended_baity = N(
         "Charles Beatty (Baity / Beaty)",
         "c. 1700, Scotland/Ireland – c. 1760, Pennsylvania",
@@ -657,6 +662,7 @@ if baity_tree:
         "The Beatty → Baity → Baty spelling variants are all documented in colonial NC records. "
         "Source: 66-baity-confirmed-trace.json.",
         gen=3, century=18, confidence="possible",
+        is_immigrant=True, country_flag="🇬🇧",
         children=[
             N(
                 "George Baity / Batee / Baty",
@@ -706,7 +712,7 @@ if baity_tree:
 # ═══════════════════════════════════════════════════════════════════════════
 
 teich_tree = get_tree("Teichmüller")
-if teich_tree:
+if teich_tree and teich_tree.get("name") != "Hans / Johann Teichmüller":
     current_root = teich_tree
     aug_node = N(
         "August Wilhelm Teichmüller",
@@ -759,7 +765,7 @@ if teich_tree:
 # ═══════════════════════════════════════════════════════════════════════════
 
 lepick_tree = get_tree("Lepi")
-if lepick_tree:
+if lepick_tree and lepick_tree.get("name") != "Lepík family, Frýdek-Místek district":
     czech_root = N(
         "Lepík family, Frýdek-Místek district",
         "~1800–1860, Moravian-Silesian Region, Czech Republic",
@@ -780,7 +786,7 @@ if lepick_tree:
 # ═══════════════════════════════════════════════════════════════════════════
 
 boehme_tree = get_tree("Boehme")
-if boehme_tree:
+if boehme_tree and boehme_tree.get("name") != "Böhme family, Prussian Silesia (Schlesien)":
     silesian_root = N(
         "Böhme family, Prussian Silesia (Schlesien)",
         "~1800–1855, Breslau region, Prussian Silesia",
@@ -792,6 +798,7 @@ if boehme_tree:
         "1855 and 1862; Indianola's 1875 hurricane destroyed most passenger manifests. "
         "Source: 68-boehme-confirmed-trace.json.",
         gen=3, century=19, confidence="probable",
+        is_immigrant=True, country_flag="🇩🇪",
         children=[boehme_tree]
     )
     replace_tree("Boehme", silesian_root)
@@ -1179,7 +1186,7 @@ CULBERTSON_TREE = N(
     "Irish Protestant immigrant from Ballymoney, County Antrim. Known in family records as 'the Irish Culbertson.' "
     "Settled in North Carolina after emigrating. Source: Culbertson family genealogy, web research.",
     gen=1, century=18, confidence="probable",
-    is_notable=True,
+    is_notable=True, is_immigrant=True, country_flag="🇮🇪",
     children=[N(
         "Jeremiah Culbertson",
         "born 1782, Burke County, North Carolina",
