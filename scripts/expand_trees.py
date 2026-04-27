@@ -309,8 +309,10 @@ SPENCE_TREE = N(
                                                                                                                                             "~1967, USA — living",
                                                                                                                                             "PROBABLE (Spokeo 'Dale W Spence Jr., Age ~59' with "
                                                                                                                                             "Hunter Spence as relative). Hunter's father. "
-                                                                                                                                            "Son of Dr. Dale William Spence Sr. and Alice Marie Henslee.",
+                                                                                                                                            "Son of Dr. Dale William Spence Sr. and Alice Marie Henslee. "
+                                                                                                                                            "Married and divorced Rachel Trifon.",
                                                                                                                                             gen=30, century=20, confidence="probable",
+                                                                                                                                            spouse="Rachel Trifon (m. ~1990s, div.)",
                                                                                                                                             children=[
                                                                                                                                                 N(
                                                                                                                                                     "Hunter Spence",
@@ -582,8 +584,10 @@ def _add_hunter_to_henslee(node):
             children=[N(
                 "Dale William Spence Jr.",
                 "~1967, USA — living",
-                "Hunter's father. Son of Dr. Dale William Spence Sr. and Alice Marie Henslee.",
+                "Hunter's father. Son of Dr. Dale William Spence Sr. and Alice Marie Henslee. "
+                "Married and divorced Rachel Trifon.",
                 gen=31, century=20, confidence="probable",
+                spouse="Rachel Trifon (m. ~1990s, div.)",
                 children=[N(
                     "Hunter Spence",
                     "living, USA",
@@ -843,18 +847,18 @@ EXTENDED_BAITY = N(
                                                         spouse="Jennive Imogene Lepick (b.1923-d.2008; see Lepik tree)",
                                                         children=[
                                                             N(
-                                                                "Sharyn 'Shari' Mattingly Spence",
+                                                                "Sharyn 'Shari' Mattingly Trifon",
                                                                 "born 1947, USA — living",
-                                                                "CONFIRMED. Hunter's paternal grandmother (maternal side). "
+                                                                "CONFIRMED. Hunter's maternal grandmother. "
                                                                 "Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. "
-                                                                "Married into the Spence family. "
+                                                                "Married David A. Trifon. "
                                                                 "Recorded oral history for this family history project in 2025.",
                                                                 gen=11, century=20, confidence="confirmed",
                                                                 children=[
                                                                     N(
-                                                                        "Rachel Spence",
+                                                                        "Rachel Trifon",
                                                                         "living, USA",
-                                                                        "Hunter's mother. Daughter of Shari Mattingly Spence. "
+                                                                        "Hunter's mother. Daughter of Shari Mattingly Trifon. "
                                                                         "See Spence/Westerfield trees for maternal grandfather David Trifon's line.",
                                                                         gen=12, century=20, confidence="confirmed",
                                                                         id_="p999",
@@ -961,21 +965,21 @@ def _add_hunter_to_teich(node):
             "born 1922, San Antonio, Texas",
             "CONFIRMED. Son of Leroy Teichmueller Mattingly (b.1898) and Ruth Baity. "
             "Married Jennive Imogene Lepick (b.1923, d.2008). "
-            "Father of Sharyn 'Shari' Mattingly Spence (b.1947). "
+            "Father of Sharyn 'Shari' Mattingly Trifon (b.1947). "
             "Source: 76-baity-to-hunter.json; Shari Mattingly oral history.",
             gen=10, century=20, confidence="confirmed",
             spouse="Jennive Imogene Lepick (b.1923-d.2008; see Lepik tree)",
             children=[N(
-                "Sharyn 'Shari' Mattingly Spence",
+                "Sharyn 'Shari' Mattingly Trifon",
                 "born 1947, USA — living",
-                "CONFIRMED. Hunter's paternal grandmother (maternal side). "
+                "CONFIRMED. Hunter's maternal grandmother. "
                 "Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. "
                 "Recorded oral history for this project in 2025.",
                 gen=11, century=20, confidence="confirmed",
                 children=[N(
-                    "Rachel Spence",
+                    "Rachel Trifon",
                     "living, USA",
-                    "Hunter's mother. Daughter of Shari Mattingly Spence. "
+                    "Hunter's mother. Daughter of Shari Mattingly Trifon. "
                     "This line reaches Hunter via Teichmüller → May → Leroy Teichmueller → Leroy Baity → Shari → Rachel.",
                     gen=12, century=20, confidence="confirmed",
                     id_="p999",
@@ -1032,21 +1036,21 @@ def _add_hunter_to_lepik(node):
             "born 1922, San Antonio, Texas",
             "CONFIRMED. Son of Leroy Teichmueller Mattingly and Ruth Baity. "
             "Married Jennive Imogene Lepick (b.1923, d.2008). "
-            "Father of Sharyn 'Shari' Mattingly Spence (b.1947). "
+            "Father of Sharyn 'Shari' Mattingly Trifon (b.1947). "
             "Source: 76-baity-to-hunter.json; Shari Mattingly oral history.",
             gen=6, century=20, confidence="confirmed",
             spouse="Jennive Imogene Lepick (married ~1944)",
             children=[N(
-                "Sharyn 'Shari' Mattingly Spence",
+                "Sharyn 'Shari' Mattingly Trifon",
                 "born 1947, USA — living",
-                "CONFIRMED. Hunter's paternal grandmother (maternal side). "
+                "CONFIRMED. Hunter's maternal grandmother. "
                 "Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. "
                 "Recorded oral history for this project in 2025.",
                 gen=7, century=20, confidence="confirmed",
                 children=[N(
-                    "Rachel Spence",
+                    "Rachel Trifon",
                     "living, USA",
-                    "Hunter's mother. Daughter of Shari Mattingly Spence. "
+                    "Hunter's mother. Daughter of Shari Mattingly Trifon. "
                     "This line reaches Hunter via Lepik → Fred Lepick → Jennive → Leroy Baity → Shari → Rachel.",
                     gen=8, century=20, confidence="confirmed",
                     id_="p999",
@@ -1116,21 +1120,21 @@ def _add_hunter_to_boehme(node):
                 "born 1923 — died 2008",
                 "CONFIRMED. Daughter of Fred Charles Lepick Sr. and Hilda Boehme. "
                 "Married Leroy Baity Mattingly (b.1922, San Antonio TX). "
-                "Mother of Sharyn 'Shari' Mattingly Spence. "
+                "Mother of Sharyn 'Shari' Mattingly Trifon. "
                 "Source: Shari Mattingly oral history.",
                 gen=6, century=20, confidence="confirmed",
                 spouse="Leroy Baity Mattingly (b.1922, San Antonio TX)",
                 children=[N(
-                    "Sharyn 'Shari' Mattingly Spence",
+                    "Sharyn 'Shari' Mattingly Trifon",
                     "born 1947, USA — living",
-                    "CONFIRMED. Hunter's paternal grandmother (maternal side). "
+                    "CONFIRMED. Hunter's maternal grandmother. "
                     "Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. "
                     "Recorded oral history for this project in 2025.",
                     gen=7, century=20, confidence="confirmed",
                     children=[N(
-                        "Rachel Spence",
+                        "Rachel Trifon",
                         "living, USA",
-                        "Hunter's mother. Daughter of Shari Mattingly Spence. "
+                        "Hunter's mother. Daughter of Shari Mattingly Trifon. "
                         "This line reaches Hunter via Boehme → Hilda → Fred Lepick → Jennive → Leroy Baity → Shari → Rachel.",
                         gen=8, century=20, confidence="confirmed",
                         id_="p999",
@@ -1372,7 +1376,7 @@ WESTERFIELD_TREE = N(
                                                 gen=8, century=20, confidence="confirmed"
                                             ),
                                             N(
-                                                "Rachel Spence",
+                                                "Rachel Trifon",
                                                 "living, USA",
                                                 "Hunter's mother. Daughter of David A. Trifon. "
                                                 "Source: Hunter Spence (direct family knowledge).",
@@ -1381,7 +1385,7 @@ WESTERFIELD_TREE = N(
                                                 children=[N(
                                                     "Hunter Spence",
                                                     "living, USA",
-                                                    "Subject of this family history. Son of Rachel Spence (maternal) and Dale William Spence Jr. (paternal). "
+                                                    "Subject of this family history. Son of Rachel Trifon (maternal) and Dale William Spence Jr. (paternal). "
                                                     "Dual US/UK passport holder. "
                                                     "This line reaches Hunter via Westerfield → Iris → David Trifon → Rachel → Hunter.",
                                                     gen=9, century=21, confidence="confirmed",
@@ -1601,7 +1605,7 @@ def _add_hunter_to_padgett(node):
                     "Took stepfather's surname Trifon after Harold died ~1945.",
                     gen=7, century=20, confidence="confirmed",
                     children=[N(
-                        "Rachel Spence",
+                        "Rachel Trifon",
                         "living, USA",
                         "Hunter's mother. Daughter of David A. Trifon. "
                         "This line reaches Hunter via Padgett → Bertie Jane → Jesse → Iris → David Trifon → Rachel.",
@@ -1754,7 +1758,7 @@ def _add_hunter_to_ballentine(node):
     """Find David A. Trifon with no children, add Rachel → Hunter chain."""
     if "David A. Trifon" in node.get("name", "") and not node.get("children"):
         node["children"] = [N(
-            "Rachel Spence",
+            "Rachel Trifon",
             "living, USA",
             "Hunter's mother. Daughter of David A. Trifon. "
             "This line reaches Hunter via Ballentine → Harold → David Trifon → Rachel.",
@@ -1874,7 +1878,7 @@ def _add_hunter_to_culbertson(node):
                     "Hunter's maternal grandfather. Took stepfather's surname Trifon.",
                     gen=7, century=20, confidence="confirmed",
                     children=[N(
-                        "Rachel Spence",
+                        "Rachel Trifon",
                         "living, USA",
                         "Hunter's mother. Daughter of David A. Trifon. "
                         "This line reaches Hunter via Culbertson → Sallie → David Wyle → Harold → David Trifon → Rachel.",
@@ -2048,7 +2052,7 @@ def _add_hunter_to_goad(node):
                             "Hunter's maternal grandfather.",
                             gen=10, century=20, confidence="confirmed",
                             children=[N(
-                                "Rachel Spence",
+                                "Rachel Trifon",
                                 "living, USA",
                                 "Hunter's mother. This line reaches Hunter via Goad → Amanda → Padgett → Bertie Jane → Westerfield → Iris → Trifon → Rachel.",
                                 gen=11, century=20, confidence="confirmed",
@@ -2205,7 +2209,7 @@ def _add_hunter_to_ward(node):
                         "Hunter's maternal grandfather.",
                         gen=9, century=20, confidence="confirmed",
                         children=[N(
-                            "Rachel Spence",
+                            "Rachel Trifon",
                             "living, USA",
                             "Hunter's mother. This line reaches Hunter via Ward → Frances → William Miller Padgett → Bertie Jane → Westerfield → Iris → David Trifon → Rachel.",
                             gen=10, century=20, confidence="confirmed",

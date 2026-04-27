@@ -1395,12 +1395,12 @@
                                                                                                   {
                                                                                                     "name": "Dale William Spence Jr.",
                                                                                                     "dates": "~1967, USA — living",
-                                                                                                    "fact": "PROBABLE (Spokeo 'Dale W Spence Jr., Age ~59' with Hunter Spence as relative). Hunter's father. Son of Dr. Dale William Spence Sr. and Alice Marie Henslee.",
+                                                                                                    "fact": "PROBABLE (Spokeo 'Dale W Spence Jr., Age ~59' with Hunter Spence as relative). Hunter's father. Son of Dr. Dale William Spence Sr. and Alice Marie Henslee. Married and divorced Rachel Trifon.",
                                                                                                     "id": null,
                                                                                                     "generation": 30,
                                                                                                     "century": 20,
                                                                                                     "confidence": "probable",
-                                                                                                    "spouse": null,
+                                                                                                    "spouse": "Rachel Trifon (m. ~1990s, div.)",
                                                                                                     "children": [
                                                                                                       {
                                                                                                         "name": "Hunter Spence",
@@ -4277,9 +4277,9 @@
                                             "spouse": "Jennive Imogene Lepick (b.1923-d.2008; see Lepik tree)",
                                             "children": [
                                               {
-                                                "name": "Sharyn 'Shari' Mattingly Spence",
+                                                "name": "Sharyn 'Shari' Mattingly Trifon",
                                                 "dates": "born 1947, USA — living",
-                                                "fact": "CONFIRMED. Hunter's paternal grandmother (maternal side). Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. Married into the Spence family. Recorded oral history for this family history project in 2025.",
+                                                "fact": "CONFIRMED. Hunter's maternal grandmother. Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. Married David A. Trifon. Recorded oral history for this family history project in 2025.",
                                                 "id": null,
                                                 "generation": 11,
                                                 "century": 20,
@@ -4287,9 +4287,9 @@
                                                 "spouse": null,
                                                 "children": [
                                                   {
-                                                    "name": "Rachel Spence",
+                                                    "name": "Rachel Trifon",
                                                     "dates": "living, USA",
-                                                    "fact": "Hunter's mother. Daughter of Shari Mattingly Spence. See Spence/Westerfield trees for maternal grandfather David Trifon's line.",
+                                                    "fact": "Hunter's mother. Daughter of Shari Mattingly Trifon. See Spence/Westerfield trees for maternal grandfather David Trifon's line.",
                                                     "id": "p999",
                                                     "generation": 12,
                                                     "century": 20,
@@ -5329,7 +5329,7 @@
                                                             "children": []
                                                           },
                                                           {
-                                                            "name": "Rachel Spence",
+                                                            "name": "Rachel Trifon",
                                                             "dates": "living, USA",
                                                             "fact": "Hunter's mother. Daughter of David A. Trifon. Source: Hunter Spence (direct family knowledge).",
                                                             "id": "p999",
@@ -5341,7 +5341,7 @@
                                                               {
                                                                 "name": "Hunter Spence",
                                                                 "dates": "living, USA",
-                                                                "fact": "Subject of this family history. Son of Rachel Spence (maternal) and Dale William Spence Jr. (paternal). Dual US/UK passport holder. This line reaches Hunter via Westerfield → Iris → David Trifon → Rachel → Hunter.",
+                                                                "fact": "Subject of this family history. Son of Rachel Trifon (maternal) and Dale William Spence Jr. (paternal). Dual US/UK passport holder. This line reaches Hunter via Westerfield → Iris → David Trifon → Rachel → Hunter.",
                                                                 "id": "p001",
                                                                 "generation": 9,
                                                                 "century": 21,
@@ -5576,7 +5576,7 @@
                                             "spouse": null,
                                             "children": [
                                               {
-                                                "name": "Rachel Spence",
+                                                "name": "Rachel Trifon",
                                                 "dates": "living, USA",
                                                 "fact": "Hunter's mother. Daughter of David A. Trifon. This line reaches Hunter via Padgett → Bertie Jane → Jesse → Iris → David Trifon → Rachel.",
                                                 "id": "p999",
@@ -5726,7 +5726,7 @@
                                 "spouse": null,
                                 "children": [
                                   {
-                                    "name": "Rachel Spence",
+                                    "name": "Rachel Trifon",
                                     "dates": "living, USA",
                                     "fact": "Hunter's mother. Daughter of David A. Trifon. This line reaches Hunter via Ballentine → Harold → David Trifon → Rachel.",
                                     "id": "p999",
@@ -5858,7 +5858,7 @@
                                         "spouse": null,
                                         "children": [
                                           {
-                                            "name": "Rachel Spence",
+                                            "name": "Rachel Trifon",
                                             "dates": "living, USA",
                                             "fact": "Hunter's mother. Daughter of David A. Trifon. This line reaches Hunter via Culbertson → Sallie → David Wyle → Harold → David Trifon → Rachel.",
                                             "id": "p999",
@@ -6036,7 +6036,7 @@
                                                         "spouse": null,
                                                         "children": [
                                                           {
-                                                            "name": "Rachel Spence",
+                                                            "name": "Rachel Trifon",
                                                             "dates": "living, USA",
                                                             "fact": "Hunter's mother. This line reaches Hunter via Goad → Amanda → Padgett → Bertie Jane → Westerfield → Iris → Trifon → Rachel.",
                                                             "id": "p999",
@@ -6210,7 +6210,7 @@
                                                     "spouse": null,
                                                     "children": [
                                                       {
-                                                        "name": "Rachel Spence",
+                                                        "name": "Rachel Trifon",
                                                         "dates": "living, USA",
                                                         "fact": "Hunter's mother. This line reaches Hunter via Ward → Frances → William Miller Padgett → Bertie Jane → Westerfield → Iris → David Trifon → Rachel.",
                                                         "id": "p999",
