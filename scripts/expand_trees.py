@@ -509,6 +509,45 @@ if henslee_tree and henslee_tree.get("name") != "William Hensley (Henslee)":
     )
     replace_tree("Henslee line", extended_henslee)
 
+# Add descendant chain to Hunter on Henslee tree (runs every time to ensure Alice → Hunter)
+def _add_hunter_to_henslee(node):
+    """Walk tree; when we find Alice Marie Henslee Spence with no children, add descent to Hunter."""
+    if "Alice Marie Henslee" in node.get("name", "") and not node.get("children"):
+        node["children"] = [N(
+            "Dr. Dale William Spence Sr.",
+            "~1934–1936 Beaumont TX — living (~age 92, Houston TX)",
+            "CONFIRMED. Hunter's paternal grandfather. Married Alice Marie Henslee. "
+            "BS Rice Univ. 1956; EdD LSU 1966; Rice University faculty 1963–2003; "
+            "USMCR Colonel. See Spence tree for full details.",
+            gen=30, century=20, confidence="confirmed",
+            is_notable=True,
+            spouse="Alice Marie (Henslee) Spence (1936 Rusk TX – 2005 Beaumont)",
+            children=[N(
+                "Dale William Spence Jr.",
+                "~1967, USA — living",
+                "Hunter's father. Son of Dr. Dale William Spence Sr. and Alice Marie Henslee.",
+                gen=31, century=20, confidence="probable",
+                children=[N(
+                    "Hunter Spence",
+                    "living, USA",
+                    "Subject of this family history. This line reaches Hunter via "
+                    "the Henslee paternal grandmother (Alice Marie Henslee married Dr. Dale Sr.).",
+                    gen=32, century=21, confidence="confirmed",
+                    id_="p001",
+                    children=[]
+                )]
+            )]
+        )]
+        return True
+    for c in node.get("children", []):
+        if _add_hunter_to_henslee(c):
+            return True
+    return False
+
+_ht = get_tree("Henslee line")
+if _ht:
+    _add_hunter_to_henslee(_ht)
+
 
 # ═══════════════════════════════════════════════════════════════════════════
 # EXPAND BYRD TREE — add 30 cousin-data people as extended branches
@@ -599,60 +638,130 @@ baity_cousins = [p for p in cousin_data if "baity" in (p.get("surname") or "").l
                  or "beaty" in (p.get("surname") or "").lower()]
 baity_cousins_sorted = sorted(baity_cousins, key=lambda p: p.get("birth_year") or 9999)
 
-baity_tree = get_tree("Baity")
-if baity_tree and baity_tree.get("name") != "Charles Beatty (Baity / Beaty)":
-    extended_baity = N(
-        "Charles Beatty (Baity / Beaty)",
-        "c. 1700, Scotland/Ireland – c. 1760, Pennsylvania",
-        "POSSIBLE. Charles Beatty appears in Filby's PILI immigrant index as a Scots-Irish "
-        "immigrant to Philadelphia c. 1729 — consistent with the Ulster Plantation migration "
-        "corridor (Border Scots → Ulster ~1610 → Pennsylvania ~1720s). "
-        "The Beatty → Baity → Baty spelling variants are all documented in colonial NC records. "
-        "Source: 66-baity-confirmed-trace.json.",
-        gen=3, century=18, confidence="possible",
-        is_immigrant=True, country_flag="🇬🇧",
-        children=[
-            N(
-                "George Baity / Batee / Baty",
-                "adult by 1774, Rowan / Surry County, NC",
-                "CONFIRMED. Earliest verified Baity ancestor — appears in Rowan/Surry County "
-                "NC court records by 1774 (adult, i.e. born by ~1753). "
-                "Surry County records include land grants and estate records for Baity families. "
-                "Source: 66-baity-confirmed-trace.json.",
-                gen=4, century=18, confidence="confirmed",
-                children=[
-                    N(
-                        "David Isom Baity",
-                        "1782, Rowan, NC – ?",
-                        "PROBABLE. Son of George Baity, Rowan Co NC. "
-                        "Confirmed in cousin GEDCOM (61-cousin-merged-people.json).",
-                        gen=5, century=18, confidence="probable",
-                        children=[
-                            N(
-                                "Isom 'Isham' Baity",
-                                "1804, Surry / Yadkin, NC – ?",
-                                "PROBABLE. Son of David Isom Baity. Surry/Yadkin NC area. "
-                                "Confirmed via cousin GEDCOM; parents David Isom Baity + Sarah Hendricks.",
-                                gen=6, century=19, confidence="probable",
-                                spouse="Nancy Plowman",
-                                children=[
-                                    N(
-                                        "William D. Baity",
-                                        "1829, Surry County, NC – ?",
-                                        "PROBABLE. Son of Isom Baity + Nancy Plowman. "
-                                        "Surry County NC. Confirmed in cousin GEDCOM.",
-                                        gen=7, century=19, confidence="probable",
-                                        children=baity_tree.get("children", [])
-                                    )
-                                ]
-                            )
-                        ]
-                    )
-                ]
-            )
-        ]
-    )
-    replace_tree("Baity", extended_baity)
+# ── BAITY TREE — defined fully from scratch (no children= from JSON to prevent recursion) ──
+# Chain: Charles Beatty → George Baity → David Isom → Isom → William D. Baity
+#        → William Alexander Baity → Ruth Baity Mattingly → Leroy Teichmueller Mattingly
+#        → Leroy Baity Mattingly → Shari Mattingly → Rachel → Hunter
+EXTENDED_BAITY = N(
+    "Charles Beatty (Baity / Beaty)",
+    "c. 1700, Scotland/Ireland – c. 1760, Pennsylvania",
+    "POSSIBLE. Charles Beatty appears in Filby's PILI immigrant index as a Scots-Irish "
+    "immigrant to Philadelphia c. 1729 — consistent with the Ulster Plantation migration "
+    "corridor (Border Scots → Ulster ~1610 → Pennsylvania ~1720s). "
+    "The Beatty → Baity → Baty spelling variants are all documented in colonial NC records. "
+    "Source: 66-baity-confirmed-trace.json.",
+    gen=3, century=18, confidence="possible",
+    is_immigrant=True, country_flag="🇬🇧",
+    children=[
+        N(
+            "George Baity / Batee / Baty",
+            "adult by 1774, Rowan / Surry County, NC",
+            "CONFIRMED. Earliest verified Baity ancestor — appears in Rowan/Surry County "
+            "NC court records by 1774 (adult, i.e. born by ~1753). "
+            "Surry County records include land grants and estate records for Baity families. "
+            "Source: 66-baity-confirmed-trace.json.",
+            gen=4, century=18, confidence="confirmed",
+            children=[
+                N(
+                    "David Isom Baity",
+                    "1782, Rowan, NC – ?",
+                    "PROBABLE. Son of George Baity, Rowan Co NC. "
+                    "Confirmed in cousin GEDCOM (61-cousin-merged-people.json).",
+                    gen=5, century=18, confidence="probable",
+                    children=[
+                        N(
+                            "Isom 'Isham' Baity",
+                            "1804, Surry / Yadkin, NC – ?",
+                            "PROBABLE. Son of David Isom Baity. Surry/Yadkin NC area. "
+                            "Confirmed via cousin GEDCOM; parents David Isom Baity + Sarah Hendricks.",
+                            gen=6, century=19, confidence="probable",
+                            spouse="Nancy Plowman",
+                            children=[
+                                N(
+                                    "William D. Baity",
+                                    "1829, Surry County, NC – ?",
+                                    "PROBABLE. Son of Isom Baity + Nancy Plowman. "
+                                    "Surry County NC. Confirmed in cousin GEDCOM. "
+                                    "Source: 66-baity-confirmed-trace.json.",
+                                    gen=7, century=19, confidence="probable",
+                                    children=[
+                                        N(
+                                            "William Alexander Baity",
+                                            "~1855, North Carolina / Texas",
+                                            "PROBABLE. Son of William D. Baity. "
+                                            "Father of Ruth Baity (b.1900) who married Leroy Teichmueller Mattingly. "
+                                            "Known as W. A. Baity + Paralee Baity. "
+                                            "Source: 66-baity-confirmed-trace.json; 76-baity-to-hunter.json.",
+                                            gen=8, century=19, confidence="probable",
+                                            spouse="Paralee (surname unknown)",
+                                            children=[
+                                                N(
+                                                    "Ruth Baity Mattingly",
+                                                    "born ~1900, North Carolina / Texas",
+                                                    "PROBABLE. Daughter of W. A. Baity. "
+                                                    "Married Leroy Teichmueller Mattingly (b.1898, son of May Teichmüller). "
+                                                    "Together had Leroy Baity Mattingly (b.1922, San Antonio TX). "
+                                                    "Source: 76-baity-to-hunter.json.",
+                                                    gen=9, century=20, confidence="probable",
+                                                    spouse="Leroy Teichmueller Mattingly (b.1898, son of May Teichmüller — see Teichmüller tree)",
+                                                    children=[
+                                                        N(
+                                                            "Leroy Baity Mattingly",
+                                                            "born 1922, San Antonio, Texas",
+                                                            "CONFIRMED. Son of Leroy Teichmueller Mattingly and Ruth Baity. "
+                                                            "Married Jennive Imogene Lepick (b.1923, daughter of Fred Lepick and Hilda Boehme). "
+                                                            "Father of Sharyn 'Shari' Mattingly. "
+                                                            "Source: 76-baity-to-hunter.json; Shari Mattingly oral history.",
+                                                            gen=10, century=20, confidence="confirmed",
+                                                            spouse="Jennive Imogene Lepick (b.1923-d.2008; see Lepik tree)",
+                                                            children=[
+                                                                N(
+                                                                    "Sharyn 'Shari' Mattingly Spence",
+                                                                    "born 1947, USA — living",
+                                                                    "CONFIRMED. Hunter's paternal grandmother (maternal side). "
+                                                                    "Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. "
+                                                                    "Married into the Spence family. "
+                                                                    "Recorded oral history for this family history project in 2025.",
+                                                                    gen=11, century=20, confidence="confirmed",
+                                                                    children=[
+                                                                        N(
+                                                                            "Rachel Spence",
+                                                                            "living, USA",
+                                                                            "Hunter's mother. Daughter of Shari Mattingly Spence. "
+                                                                            "See Spence/Westerfield trees for maternal grandfather David Trifon's line.",
+                                                                            gen=12, century=20, confidence="confirmed",
+                                                                            id_="p999",
+                                                                            children=[N(
+                                                                                "Hunter Spence",
+                                                                                "living, USA",
+                                                                                "Subject of this family history. "
+                                                                                "This line reaches Hunter via the Baity → Mattingly → Shari → Rachel path.",
+                                                                                gen=13, century=21, confidence="confirmed",
+                                                                                id_="p001",
+                                                                                children=[]
+                                                                            )]
+                                                                        )
+                                                                    ]
+                                                                )
+                                                            ]
+                                                        )
+                                                    ]
+                                                )
+                                            ]
+                                        )
+                                    ]
+                                )
+                            ]
+                        )
+                    ]
+                )
+            ]
+        )
+    ]
+)
+# Always replace — prevents the old recursive JSON children from being carried over
+replace_tree("Baity / Beatty", EXTENDED_BAITY)
+replace_tree("Baity", EXTENDED_BAITY)  # catches both label variants
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -707,6 +816,56 @@ if teich_tree and teich_tree.get("name") != "Hans / Johann Teichmüller":
     )
     replace_tree("Teichmüller", full_teich)
 
+# Add descendant chain: Leroy Teichmueller Mattingly → Leroy Baity Mattingly → Shari → Rachel → Hunter
+def _add_hunter_to_teich(node):
+    """Find Leroy Teichmueller Mattingly with no children, add descent chain to Hunter."""
+    name = node.get("name", "")
+    if "Leroy Teichmueller Mattingly" in name and not node.get("children"):
+        node["children"] = [N(
+            "Leroy Baity Mattingly",
+            "born 1922, San Antonio, Texas",
+            "CONFIRMED. Son of Leroy Teichmueller Mattingly (b.1898) and Ruth Baity. "
+            "Married Jennive Imogene Lepick (b.1923, d.2008). "
+            "Father of Sharyn 'Shari' Mattingly Spence (b.1947). "
+            "Source: 76-baity-to-hunter.json; Shari Mattingly oral history.",
+            gen=10, century=20, confidence="confirmed",
+            spouse="Jennive Imogene Lepick (b.1923-d.2008; see Lepik tree)",
+            children=[N(
+                "Sharyn 'Shari' Mattingly Spence",
+                "born 1947, USA — living",
+                "CONFIRMED. Hunter's paternal grandmother (maternal side). "
+                "Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. "
+                "Recorded oral history for this project in 2025.",
+                gen=11, century=20, confidence="confirmed",
+                children=[N(
+                    "Rachel Spence",
+                    "living, USA",
+                    "Hunter's mother. Daughter of Shari Mattingly Spence. "
+                    "This line reaches Hunter via Teichmüller → May → Leroy Teichmueller → Leroy Baity → Shari → Rachel.",
+                    gen=12, century=20, confidence="confirmed",
+                    id_="p999",
+                    children=[N(
+                        "Hunter Spence",
+                        "living, USA",
+                        "Subject of this family history. "
+                        "This line reaches Hunter via the Teichmüller → Mattingly → Shari → Rachel path.",
+                        gen=13, century=21, confidence="confirmed",
+                        id_="p001",
+                        children=[]
+                    )]
+                )]
+            )]
+        )]
+        return True
+    for c in node.get("children", []):
+        if _add_hunter_to_teich(c):
+            return True
+    return False
+
+_tt = get_tree("Teichmüller")
+if _tt:
+    _add_hunter_to_teich(_tt)
+
 
 # ═══════════════════════════════════════════════════════════════════════════
 # EXPAND LEPICK TREE — add Czech ancestors
@@ -727,6 +886,56 @@ if lepick_tree and lepick_tree.get("name") != "Lepík family, Frýdek-Místek di
         children=[lepick_tree]
     )
     replace_tree("Lepi", czech_root)
+
+# Add descendant chain: Jennive Imogene Lepick Mattingly → Leroy Baity Mattingly → Shari → Rachel → Hunter
+def _add_hunter_to_lepik(node):
+    """Find Jennive Imogene Lepick Mattingly with no children, add descent chain to Hunter."""
+    name = node.get("name", "")
+    if "Jennive" in name and "Lepick" in name and not node.get("children"):
+        node["children"] = [N(
+            "Leroy Baity Mattingly",
+            "born 1922, San Antonio, Texas",
+            "CONFIRMED. Son of Leroy Teichmueller Mattingly and Ruth Baity. "
+            "Married Jennive Imogene Lepick (b.1923, d.2008). "
+            "Father of Sharyn 'Shari' Mattingly Spence (b.1947). "
+            "Source: 76-baity-to-hunter.json; Shari Mattingly oral history.",
+            gen=6, century=20, confidence="confirmed",
+            spouse="Jennive Imogene Lepick (married ~1944)",
+            children=[N(
+                "Sharyn 'Shari' Mattingly Spence",
+                "born 1947, USA — living",
+                "CONFIRMED. Hunter's paternal grandmother (maternal side). "
+                "Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. "
+                "Recorded oral history for this project in 2025.",
+                gen=7, century=20, confidence="confirmed",
+                children=[N(
+                    "Rachel Spence",
+                    "living, USA",
+                    "Hunter's mother. Daughter of Shari Mattingly Spence. "
+                    "This line reaches Hunter via Lepik → Fred Lepick → Jennive → Leroy Baity → Shari → Rachel.",
+                    gen=8, century=20, confidence="confirmed",
+                    id_="p999",
+                    children=[N(
+                        "Hunter Spence",
+                        "living, USA",
+                        "Subject of this family history. "
+                        "This line reaches Hunter via the Czech Lepík → Lepick → Mattingly → Shari → Rachel path.",
+                        gen=9, century=21, confidence="confirmed",
+                        id_="p001",
+                        children=[]
+                    )]
+                )]
+            )]
+        )]
+        return True
+    for c in node.get("children", []):
+        if _add_hunter_to_lepik(c):
+            return True
+    return False
+
+_lt = get_tree("Lepi")
+if _lt:
+    _add_hunter_to_lepik(_lt)
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -750,6 +959,65 @@ if boehme_tree and boehme_tree.get("name") != "Böhme family, Prussian Silesia (
         children=[boehme_tree]
     )
     replace_tree("Boehme", silesian_root)
+
+# Add descendant chain: Hilda Boehme → Fred Lepick Sr. → Jennive → Leroy Baity Mattingly → Shari → Rachel → Hunter
+def _add_hunter_to_boehme(node):
+    """Find Hilda Boehme with no children, add descent chain to Hunter."""
+    name = node.get("name", "")
+    if "Hilda Boehme" in name and not node.get("children"):
+        node["children"] = [N(
+            "Fred Charles Lepick Sr.",
+            "~1895–1960, Texas",
+            "PROBABLE. Son-in-law of Herman F. Boehme and Minna Macker — married Hilda Boehme. "
+            "Father of Jennive Imogene Lepick (b.1923). See Lepik tree for full Lepick ancestry. "
+            "Source: 68-boehme-confirmed-trace.json.",
+            gen=5, century=20, confidence="probable",
+            spouse="Hilda Boehme",
+            children=[N(
+                "Jennive Imogene Lepick Mattingly",
+                "born 1923 — died 2008",
+                "CONFIRMED. Daughter of Fred Charles Lepick Sr. and Hilda Boehme. "
+                "Married Leroy Baity Mattingly (b.1922, San Antonio TX). "
+                "Mother of Sharyn 'Shari' Mattingly Spence. "
+                "Source: Shari Mattingly oral history.",
+                gen=6, century=20, confidence="confirmed",
+                spouse="Leroy Baity Mattingly (b.1922, San Antonio TX)",
+                children=[N(
+                    "Sharyn 'Shari' Mattingly Spence",
+                    "born 1947, USA — living",
+                    "CONFIRMED. Hunter's paternal grandmother (maternal side). "
+                    "Daughter of Leroy Baity Mattingly and Jennive Imogene Lepick. "
+                    "Recorded oral history for this project in 2025.",
+                    gen=7, century=20, confidence="confirmed",
+                    children=[N(
+                        "Rachel Spence",
+                        "living, USA",
+                        "Hunter's mother. Daughter of Shari Mattingly Spence. "
+                        "This line reaches Hunter via Boehme → Hilda → Fred Lepick → Jennive → Leroy Baity → Shari → Rachel.",
+                        gen=8, century=20, confidence="confirmed",
+                        id_="p999",
+                        children=[N(
+                            "Hunter Spence",
+                            "living, USA",
+                            "Subject of this family history. "
+                            "This line reaches Hunter via the Prussian Boehme → Lepick → Mattingly → Shari → Rachel path.",
+                            gen=9, century=21, confidence="confirmed",
+                            id_="p001",
+                            children=[]
+                        )]
+                    )]
+                )]
+            )]
+        )]
+        return True
+    for c in node.get("children", []):
+        if _add_hunter_to_boehme(c):
+            return True
+    return False
+
+_bt = get_tree("Boehme")
+if _bt:
+    _add_hunter_to_boehme(_bt)
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -882,17 +1150,21 @@ WESTERFIELD_TREE = N(
                                                 gen=8, century=20, confidence="confirmed"
                                             ),
                                             N(
-                                                "Rachel Trifon",
-                                                "born ~1960s–1970s",
+                                                "Rachel Spence",
+                                                "living, USA",
                                                 "Hunter's mother. Daughter of David A. Trifon. "
                                                 "Source: Hunter Spence (direct family knowledge).",
                                                 gen=8, century=20, confidence="confirmed",
+                                                id_="p999",
                                                 children=[N(
                                                     "Hunter Spence",
-                                                    "born ~2002–2003, Florida",
-                                                    "User. Son of Rachel Trifon (maternal) and Dale William Spence Jr. (paternal). "
-                                                    "Dual US/UK passport holder.",
-                                                    gen=9, century=21, confidence="confirmed"
+                                                    "living, USA",
+                                                    "Subject of this family history. Son of Rachel Spence (maternal) and Dale William Spence Jr. (paternal). "
+                                                    "Dual US/UK passport holder. "
+                                                    "This line reaches Hunter via Westerfield → Iris → David Trifon → Rachel → Hunter.",
+                                                    gen=9, century=21, confidence="confirmed",
+                                                    id_="p001",
+                                                    children=[]
                                                 )]
                                             ),
                                         ]
@@ -1024,6 +1296,59 @@ _padgett_label = "MATERNAL — Padgett ancestors (William Riley Padgett 1785 VA 
 if not replace_tree("Padgett ancestors", PADGETT_TREE, new_label=_padgett_label):
     add_tree(_padgett_label, PADGETT_TREE)
 
+# Descent chain: Bertie Jane Padgett → Jesse Westerfield → Iris Westerfield → David Trifon → Rachel → Hunter
+def _add_hunter_to_padgett(node):
+    """Find Bertie Jane Padgett with no children, add descent chain to Hunter."""
+    if "Bertie Jane Padgett" in node.get("name", "") and not node.get("children"):
+        node["children"] = [N(
+            "Jesse Lawrence Westerfield",
+            "born Jan 1, 1887, Kentucky; died Sep 29, 1951, Marianna, Lee County, Arkansas",
+            "Hunter's maternal great-great-grandfather. Married Bertie Jane Padgett. "
+            "See Westerfield/Trifon tree for full descendants.",
+            gen=5, century=19, confidence="confirmed",
+            spouse="Bertie Jane Padgett (born Mar 10, 1888, Arkansas)",
+            children=[N(
+                "Iris June Westerfield",
+                "born Jun 1, 1919, Tuckerman, Arkansas; died Apr 13, 2003, Colt, Arkansas",
+                "Hunter's maternal great-grandmother. Daughter of Jesse and Bertie Jane. "
+                "Had children with Harold Ballentine: David A. Trifon (Hunter's maternal grandfather).",
+                gen=6, century=20, confidence="confirmed",
+                children=[N(
+                    "David A. Trifon",
+                    "born ~1940s, Arkansas area",
+                    "Hunter's maternal grandfather. Biological son of Harold Ballentine and Iris Westerfield. "
+                    "Took stepfather's surname Trifon after Harold died ~1945.",
+                    gen=7, century=20, confidence="confirmed",
+                    children=[N(
+                        "Rachel Spence",
+                        "living, USA",
+                        "Hunter's mother. Daughter of David A. Trifon. "
+                        "This line reaches Hunter via Padgett → Bertie Jane → Jesse → Iris → David Trifon → Rachel.",
+                        gen=8, century=20, confidence="confirmed",
+                        id_="p999",
+                        children=[N(
+                            "Hunter Spence",
+                            "living, USA",
+                            "Subject of this family history. "
+                            "This line reaches Hunter via the Padgett → Westerfield → Trifon → Rachel path.",
+                            gen=9, century=21, confidence="confirmed",
+                            id_="p001",
+                            children=[]
+                        )]
+                    )]
+                )]
+            )]
+        )]
+        return True
+    for c in node.get("children", []):
+        if _add_hunter_to_padgett(c):
+            return True
+    return False
+
+_pt = get_tree("Padgett ancestors")
+if _pt:
+    _add_hunter_to_padgett(_pt)
+
 
 # ═══════════════════════════════════════════════════════════════════════════
 # BALLENTINE ANCESTORS — Harold Ballentine's lineage (David Trifon's father)
@@ -1121,6 +1446,37 @@ _ballentine_label = "MATERNAL — Ballentine ancestors (John Ballentine ~1800 VA
 if not replace_tree("Ballentine ancestors", BALLENTINE_TREE, new_label=_ballentine_label):
     add_tree(_ballentine_label, BALLENTINE_TREE)
 
+# Descent chain: David A. Trifon → Rachel → Hunter (for Ballentine tree)
+def _add_hunter_to_ballentine(node):
+    """Find David A. Trifon with no children, add Rachel → Hunter chain."""
+    if "David A. Trifon" in node.get("name", "") and not node.get("children"):
+        node["children"] = [N(
+            "Rachel Spence",
+            "living, USA",
+            "Hunter's mother. Daughter of David A. Trifon. "
+            "This line reaches Hunter via Ballentine → Harold → David Trifon → Rachel.",
+            gen=7, century=20, confidence="confirmed",
+            id_="p999",
+            children=[N(
+                "Hunter Spence",
+                "living, USA",
+                "Subject of this family history. "
+                "This line reaches Hunter via the Ballentine → Harold Ballentine → David Trifon → Rachel → Hunter path.",
+                gen=8, century=21, confidence="confirmed",
+                id_="p001",
+                children=[]
+            )]
+        )]
+        return True
+    for c in node.get("children", []):
+        if _add_hunter_to_ballentine(c):
+            return True
+    return False
+
+_bat = get_tree("Ballentine ancestors")
+if _bat:
+    _add_hunter_to_ballentine(_bat)
+
 
 # ═══════════════════════════════════════════════════════════════════════════
 # CULBERTSON ANCESTORS — Sallie Culbertson's lineage (Irish immigrant origin)
@@ -1167,6 +1523,58 @@ if not replace_tree("Culbertson ancestors", CULBERTSON_TREE):
         "MATERNAL — Culbertson ancestors (Capt. Alexander 'Irish' Culbertson, Ballymoney County Antrim Ireland → Jeremiah 1782 NC → Allen Turner 1820 GA → Sallie Culbertson 1864 AL → Ballentine line)",
         CULBERTSON_TREE
     )
+
+# Descent chain: Sallie Culbertson → David Wyle Ballentine → Harold → David Trifon → Rachel → Hunter
+def _add_hunter_to_culbertson(node):
+    """Find Sallie Culbertson with no children, add descent chain to Hunter."""
+    if "Sallie Culbertson" in node.get("name", "") and not node.get("children"):
+        node["children"] = [N(
+            "David Wyle Ballentine",
+            "born Jun 18, 1856, Ozark, Franklin County, Arkansas; died Apr 16, 1933, Oden, Arkansas",
+            "Husband of Sallie Culbertson. Father of Harold Ballentine. "
+            "See Ballentine tree for full details.",
+            gen=5, century=19, confidence="confirmed",
+            spouse="Sallie Culbertson (born Nov 10, 1864, Alabama)",
+            children=[N(
+                "Harold 'Hal David' Ballentine",
+                "born ~1903, Arkansas; died ~1945",
+                "David A. Trifon's biological father. Married Iris June Westerfield. "
+                "After his death, son David took stepfather's surname Trifon.",
+                gen=6, century=20, confidence="probable",
+                children=[N(
+                    "David A. Trifon",
+                    "born ~1940s, Arkansas area",
+                    "Hunter's maternal grandfather. Took stepfather's surname Trifon.",
+                    gen=7, century=20, confidence="confirmed",
+                    children=[N(
+                        "Rachel Spence",
+                        "living, USA",
+                        "Hunter's mother. Daughter of David A. Trifon. "
+                        "This line reaches Hunter via Culbertson → Sallie → David Wyle → Harold → David Trifon → Rachel.",
+                        gen=8, century=20, confidence="confirmed",
+                        id_="p999",
+                        children=[N(
+                            "Hunter Spence",
+                            "living, USA",
+                            "Subject of this family history. "
+                            "This line reaches Hunter via the Irish Culbertson → Ballentine → Trifon → Rachel → Hunter path.",
+                            gen=9, century=21, confidence="confirmed",
+                            id_="p001",
+                            children=[]
+                        )]
+                    )]
+                )]
+            )]
+        )]
+        return True
+    for c in node.get("children", []):
+        if _add_hunter_to_culbertson(c):
+            return True
+    return False
+
+_ct = get_tree("Culbertson ancestors")
+if _ct:
+    _add_hunter_to_culbertson(_ct)
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -1222,6 +1630,68 @@ if not replace_tree("Goad ancestors", GOAD_TREE):
         "MATERNAL — Goad ancestors (John Goad 1700 North Farnham Parish VA → John Jr. 1729 VA → Thomas 1770 Bedford VA → Caleb Goad 1792 VA → Amanda Goad 1830 Graves KY)",
         GOAD_TREE
     )
+
+# Descent chain: Amanda Goad → John J. Padgett → William Miller Padgett → Bertie Jane → Jesse Westerfield → Iris → David Trifon → Rachel → Hunter
+def _add_hunter_to_goad(node):
+    """Find Amanda Goad with no children, add descent chain to Hunter."""
+    if "Amanda Goad" in node.get("name", "") and not node.get("children"):
+        node["children"] = [N(
+            "John J. Padgett (Pagett)",
+            "born 1808, Vernon, Jennings County, Indiana; died Aug 14, 1873, Independence County, Arkansas",
+            "Husband of Amanda Goad. Hunter's maternal 4x great-grandfather. "
+            "See Padgett tree for full details.",
+            gen=6, century=19, confidence="confirmed",
+            spouse="Amanda Goad (born Jul 25, 1830, Graves County, Kentucky)",
+            children=[N(
+                "William Miller Padgett",
+                "born Oct 5, 1862, Independence County, Arkansas; died Nov 15, 1950, Lee County, Arkansas",
+                "Son of John J. Padgett and Amanda Goad.",
+                gen=7, century=19, confidence="confirmed",
+                children=[N(
+                    "Bertie Jane Padgett",
+                    "born Mar 10, 1888, Arkansas; died Oct 6, 1964, Lee County, Arkansas",
+                    "Daughter of William Miller Padgett and Frances Ward. Married Jesse Westerfield.",
+                    gen=8, century=19, confidence="confirmed",
+                    children=[N(
+                        "Iris June Westerfield",
+                        "born Jun 1, 1919, Tuckerman, Arkansas; died Apr 13, 2003, Colt, Arkansas",
+                        "Hunter's maternal great-grandmother. Daughter of Jesse and Bertie Jane Padgett.",
+                        gen=9, century=20, confidence="confirmed",
+                        children=[N(
+                            "David A. Trifon",
+                            "born ~1940s, Arkansas area",
+                            "Hunter's maternal grandfather.",
+                            gen=10, century=20, confidence="confirmed",
+                            children=[N(
+                                "Rachel Spence",
+                                "living, USA",
+                                "Hunter's mother. This line reaches Hunter via Goad → Amanda → Padgett → Bertie Jane → Westerfield → Iris → Trifon → Rachel.",
+                                gen=11, century=20, confidence="confirmed",
+                                id_="p999",
+                                children=[N(
+                                    "Hunter Spence",
+                                    "living, USA",
+                                    "Subject of this family history. "
+                                    "This line reaches Hunter via the Virginia Goad → Padgett → Westerfield → Trifon → Rachel → Hunter path.",
+                                    gen=12, century=21, confidence="confirmed",
+                                    id_="p001",
+                                    children=[]
+                                )]
+                            )]
+                        )]
+                    )]
+                )]
+            )]
+        )]
+        return True
+    for c in node.get("children", []):
+        if _add_hunter_to_goad(c):
+            return True
+    return False
+
+_gt = get_tree("Goad ancestors")
+if _gt:
+    _add_hunter_to_goad(_gt)
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -1281,6 +1751,63 @@ if not replace_tree("Ward ancestors", WARD_TREE):
         "MATERNAL — Ward ancestors (John Ward 1748 Chowan NC → Thomas 1760 Darlington SC → John Robert 1804 Pendleton SC → Joseph 1833 TN → Frances Ward 1868 Strawberry AR)",
         WARD_TREE
     )
+
+# Descent chain: Frances Ward → William Miller Padgett → Bertie Jane → Jesse Westerfield → Iris → David Trifon → Rachel → Hunter
+def _add_hunter_to_ward(node):
+    """Find Frances Ward with no children, add descent chain to Hunter."""
+    if "Frances Ward" in node.get("name", "") and not node.get("children"):
+        node["children"] = [N(
+            "William Miller Padgett",
+            "born Oct 5, 1862, Independence County, Arkansas; died Nov 15, 1950, Lee County, Arkansas",
+            "Husband of Frances Ward. Son of John J. Padgett and Amanda Goad. "
+            "Father of Bertie Jane Padgett who married Jesse Westerfield. "
+            "See Padgett tree for full details.",
+            gen=6, century=19, confidence="confirmed",
+            spouse="Frances Ward (born Jan 23, 1868, Strawberry, Lawrence County, Arkansas)",
+            children=[N(
+                "Bertie Jane Padgett",
+                "born Mar 10, 1888, Arkansas; died Oct 6, 1964, Lee County, Arkansas",
+                "Daughter of William Miller Padgett and Frances Ward. Married Jesse Westerfield.",
+                gen=7, century=19, confidence="confirmed",
+                children=[N(
+                    "Iris June Westerfield",
+                    "born Jun 1, 1919, Tuckerman, Arkansas; died Apr 13, 2003, Colt, Arkansas",
+                    "Hunter's maternal great-grandmother. Daughter of Jesse and Bertie Jane Padgett.",
+                    gen=8, century=20, confidence="confirmed",
+                    children=[N(
+                        "David A. Trifon",
+                        "born ~1940s, Arkansas area",
+                        "Hunter's maternal grandfather.",
+                        gen=9, century=20, confidence="confirmed",
+                        children=[N(
+                            "Rachel Spence",
+                            "living, USA",
+                            "Hunter's mother. This line reaches Hunter via Ward → Frances → William Miller Padgett → Bertie Jane → Westerfield → Iris → David Trifon → Rachel.",
+                            gen=10, century=20, confidence="confirmed",
+                            id_="p999",
+                            children=[N(
+                                "Hunter Spence",
+                                "living, USA",
+                                "Subject of this family history. "
+                                "This line reaches Hunter via the NC/SC Ward → Padgett → Westerfield → Trifon → Rachel → Hunter path.",
+                                gen=11, century=21, confidence="confirmed",
+                                id_="p001",
+                                children=[]
+                            )]
+                        )]
+                    )]
+                )]
+            )]
+        )]
+        return True
+    for c in node.get("children", []):
+        if _add_hunter_to_ward(c):
+            return True
+    return False
+
+_wt = get_tree("Ward ancestors")
+if _wt:
+    _add_hunter_to_ward(_wt)
 
 
 # ═══════════════════════════════════════════════════════════════════════════
