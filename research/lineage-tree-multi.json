@@ -1139,7 +1139,7 @@
   },
   "secondary_trees": [
     {
-      "label": "PATERNAL — Spence line (John 'Dispensator' 1161 AD, Scotland → NE England → Beaumont TX → Hunter)",
+      "label": "PATERNAL — Spence line (Clan Spens surname heritage — direct link to Hunter UNCONFIRMED pending Joseph C. Spence Sr. birth cert)",
       "tree": {
         "name": "John 'Dispensator' (le Despencier)",
         "dates": "c. 1161–1171, Scotland",
@@ -1343,11 +1343,11 @@
                                                                                       {
                                                                                         "name": "Joseph C. Spence",
                                                                                         "dates": "born 1878, England — immigrated to America 1900",
-                                                                                        "fact": "CONFIRMED (family oral tradition). Hunter's paternal great-great-grandfather. Born 1878 in England; immigrated to America in 1900. Married Jeanne A. Meton (born 1883, France; immigrated 1898). Together had three children: Mary L. Spence, William Spence (Hunter's great-grandfather), and Joseph C. Spence Jr. Specific English county and parents' names unconfirmed; consistent with working-class English Spence origin. Next step: FreeBMD search for Joseph C. Spence born 1878.",
+                                                                                        "fact": "POSSIBLE. Hunter's paternal great-great-grandfather. Born ~1878 in England (most likely Co. Durham or North Yorkshire based on surname density); immigrated ~1900. Married Jeanne A. Meton (born 1883, France; immigrated 1898). Had three children: Mary L. Spence, William Spence (Hunter's great-grandfather), and Joseph C. Spence Jr. NOTE: family oral tradition only — parents' names and exact birthplace unconfirmed. UNLOCK: FreeBMD births search (free) + GRO birth cert (~£11) will name his parents and confirm county.",
                                                                                         "id": "p124",
                                                                                         "generation": 27,
                                                                                         "century": 19,
-                                                                                        "confidence": "confirmed",
+                                                                                        "confidence": "possible",
                                                                                         "spouse": "Jeanne A. Spence (née Meton, born 1883, France — immigrated to America 1898)",
                                                                                         "children": [
                                                                                           {

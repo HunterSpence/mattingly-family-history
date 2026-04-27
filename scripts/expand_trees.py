@@ -238,16 +238,17 @@ SPENCE_TREE = N(
                                                                                                                     children=[N(
                                                                                                                         "Joseph C. Spence",
                                                                                                                         "born 1878, England — immigrated to America 1900",
-                                                                                                                        "CONFIRMED (family oral tradition). Hunter's paternal "
-                                                                                                                        "great-great-grandfather. Born 1878 in England; "
-                                                                                                                        "immigrated to America in 1900. Married Jeanne A. Meton "
-                                                                                                                        "(born 1883, France; immigrated 1898). Together had three "
-                                                                                                                        "children: Mary L. Spence, William Spence "
+                                                                                                                        "POSSIBLE. Hunter's paternal great-great-grandfather. "
+                                                                                                                        "Born ~1878 in England (most likely Co. Durham or North "
+                                                                                                                        "Yorkshire based on surname density); immigrated ~1900. "
+                                                                                                                        "Married Jeanne A. Meton (born 1883, France; immigrated "
+                                                                                                                        "1898). Had three children: Mary L. Spence, William Spence "
                                                                                                                         "(Hunter's great-grandfather), and Joseph C. Spence Jr. "
-                                                                                                                        "Specific English county and parents' names unconfirmed; "
-                                                                                                                        "consistent with working-class English Spence origin. "
-                                                                                                                        "Next step: FreeBMD search for Joseph C. Spence born 1878.",
-                                                                                                                        gen=27, century=19, confidence="confirmed",
+                                                                                                                        "NOTE: family oral tradition only — parents' names and "
+                                                                                                                        "exact birthplace unconfirmed. UNLOCK: FreeBMD births "
+                                                                                                                        "search (free) + GRO birth cert (~£11) will name his "
+                                                                                                                        "parents and confirm county.",
+                                                                                                                        gen=27, century=19, confidence="possible",
                                                                                                                         id_="p124",
                                                                                                                         is_immigrant=True, country_flag="🇬🇧",
                                                                                                                         spouse="Jeanne A. Spence (née Meton, born 1883, France — immigrated to America 1898)",
@@ -489,11 +490,11 @@ def add_tree(label, tree):
 replaced = replace_tree(
     "Spence line",
     SPENCE_TREE,
-    "PATERNAL — Spence line (John 'Dispensator' 1161 AD, Scotland → NE England → Beaumont TX → Hunter)"
+    "PATERNAL — Spence line (Clan Spens surname heritage — direct link to Hunter UNCONFIRMED pending Joseph C. Spence Sr. birth cert)"
 )
 if not replaced:
     add_tree(
-        "PATERNAL — Spence line (John 'Dispensator' 1161 AD, Scotland → NE England → Beaumont TX → Hunter)",
+        "PATERNAL — Spence line (Clan Spens surname heritage — direct link to Hunter UNCONFIRMED pending Joseph C. Spence Sr. birth cert)",
         SPENCE_TREE
     )
 
