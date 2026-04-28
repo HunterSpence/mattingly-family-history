@@ -210,22 +210,24 @@ SPENCE_TREE = N(
                                                                                                         "workers in the industrial north.",
                                                                                                         gen=23, century=18, confidence="possible",
                                                                                                         children=[N(
-                                                                                                            "NE England Spence",
-                                                                                                            "c. 1720–1760, NE England",
-                                                                                                            "POSSIBLE. Fourth NE England generation. "
-                                                                                                            "County Durham and Northumberland were rapidly "
-                                                                                                            "industrialising — collieries, iron works, and "
-                                                                                                            "textile mills drew workers including Spence families.",
-                                                                                                            gen=24, century=18, confidence="possible",
+                                                                                                            "Ralph Spence",
+                                                                                                            "born ~1795, Yorkshire, England",
+                                                                                                            "CONFIRMED (FamilySearch christening record, Gilling West, Yorkshire). "
+                                                                                                            "Father of Christopher Spence (christened 19 December 1824, Gilling West, Yorkshire). "
+                                                                                                            "Wife: Ann (maiden name unknown — marriage record search pending).",
+                                                                                                            gen=24, century=19, confidence="confirmed",
+                                                                                                            spouse="Ann (born ~1795, England — maiden name unknown; "
+                                                                                                                   "mother of Christopher Spence, b. 1824, Gilling West, Yorkshire)",
                                                                                                             children=[N(
                                                                                                                 "Christopher Spence",
                                                                                                                 "born ~1823, Yorkshire, England",
-                                                                                                                "CONFIRMED (1851 England Census, HO107, piece 2389/30, Tanfield, Durham). "
+                                                                                                                "CONFIRMED (1851 England Census, HO107, piece 2389/30, Tanfield, Durham; "
+                                                                                                                "christening 19 December 1824, Gilling West, Yorkshire). "
+                                                                                                                "Son of Ralph Spence and Ann (maiden name unknown). "
                                                                                                                 "Married Jane Thirkell, 16 August 1846, Auckland St Andrew, Durham. "
                                                                                                                 "Occupation: Groom. Residence 1851: Tanfield, Durham. "
                                                                                                                 "Children: William Spence (b. ~1848, Towlaw, Durham), "
-                                                                                                                "John Spence (b. ~1849, Towlaw, Durham). "
-                                                                                                                "Birthplace Yorkshire confirmed; parents unknown — research ongoing.",
+                                                                                                                "John Spence (b. ~1849, Towlaw, Durham).",
                                                                                                                 gen=25, century=19, confidence="confirmed",
                                                                                                                 spouse="Jane Thirkell (born ~1822, Auckland, Durham — "
                                                                                                                        "married 16 August 1846, Auckland St Andrew, Durham; "
