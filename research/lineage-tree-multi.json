@@ -1139,7 +1139,7 @@
   },
   "secondary_trees": [
     {
-      "label": "PATERNAL — Spence line (Clan Spens surname heritage — direct link to Hunter UNCONFIRMED pending Joseph C. Spence Sr. birth cert)",
+      "label": "PATERNAL — Spence line (CONFIRMED: Joseph Christopher Spence b. 1878 Startforth, Yorkshire → Philadelphia 1900; father: William Spence, Gamekeeper, Bishop Auckland, Durham)",
       "tree": {
         "name": "John 'Dispensator' (le Despencier)",
         "dates": "c. 1161–1171, Scotland",
@@ -1331,23 +1331,23 @@
                                                                                 "spouse": null,
                                                                                 "children": [
                                                                                   {
-                                                                                    "name": "NE England Spence",
-                                                                                    "dates": "c. 1800–1840, NE England",
-                                                                                    "fact": "POSSIBLE. Victorian-era NE England Spence — likely working class, possibly a colliery worker or labourer in the Durham/Yorkshire coal belt. Census records from 1841–1881 in NE England contain many Spence households.",
+                                                                                    "name": "William Spence",
+                                                                                    "dates": "born ~1847, Bishop Auckland, County Durham, England",
+                                                                                    "fact": "CONFIRMED (1881 UK Census, RG11, piece 4871/72, Bedale, North Riding, Yorkshire). Occupation: Gamekeeper. Born Bishop Auckland, County Durham. Married Mary Spence (née ?, born ~1845, Startforth, Yorkshire). Children: Hannah J. Spence (born ~1875, Startforth), Joseph Christopher Spence (born 1878, Startforth — emigrated USA 1900), James Spence (born ~1881, Startforth). Family resided Bedale, North Riding, Yorkshire at 1881 census.",
                                                                                     "id": null,
                                                                                     "generation": 26,
                                                                                     "century": 19,
-                                                                                    "confidence": "possible",
-                                                                                    "spouse": null,
+                                                                                    "confidence": "confirmed",
+                                                                                    "spouse": "Mary Spence (née ?, born ~1845, Startforth, Yorkshire — Gamekeeper's wife; 1881 census Bedale, Yorkshire, RG11 piece 4871/72)",
                                                                                     "children": [
                                                                                       {
-                                                                                        "name": "Joseph C. Spence",
-                                                                                        "dates": "born 1876, England — immigrated to America ~1900",
-                                                                                        "fact": "POSSIBLE. Hunter's paternal great-great-grandfather. Born 1876 in England (most likely Co. Durham or North Yorkshire based on surname density); immigrated ~1900. Married Jeanne A. Meton (born 1883, France; immigrated 1898). Had three children: Mary L. Spence, William Spence (Hunter's great-grandfather), and Joseph C. Spence Jr. NOTE: family oral tradition only — parents' names and exact birthplace unconfirmed. UNLOCK: FreeBMD births search (free) + GRO birth cert (~£11) will name his parents and confirm county.",
+                                                                                        "name": "Joseph Christopher Spence",
+                                                                                        "dates": "born 1878, Startforth, Yorkshire, England — emigrated USA 1900",
+                                                                                        "fact": "CONFIRMED (1881 UK Census age 3, Startforth, Yorkshire; 1910 US Census Philadelphia Ward 41 Emerson St, immigration year 1900, naturalized citizen; 1914 RMS Campania return voyage Liverpool→New York Apr 4–13). Hunter's paternal great-great-grandfather. Son of William Spence (Gamekeeper, b. ~1847 Bishop Auckland, Durham) and Mary Spence (b. ~1845, Startforth, Yorkshire). Siblings: Hannah J. Spence (b. ~1875) and James Spence (b. ~1881). Emigrated to USA 1900. Naturalized US citizen by 1910. Occupation in USA: Butler (Philadelphia Ward 41, 1910 census). Married Jeanne A. Meton (born 1883, France; immigrated 1898). Children: Joseph C. Spence Jr. (b. 1904), Mary L. Spence (b. 1906), William Spence (b. 1908, Philadelphia — Hunter's great-grandfather). 1914: return visit to England, sailed back on RMS Campania (Cunard Line).",
                                                                                         "id": "p124",
                                                                                         "generation": 27,
                                                                                         "century": 19,
-                                                                                        "confidence": "possible",
+                                                                                        "confidence": "confirmed",
                                                                                         "spouse": "Jeanne A. Spence (née Meton, born 1883, France — immigrated to America 1898)",
                                                                                         "children": [
                                                                                           {
