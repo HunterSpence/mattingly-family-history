@@ -1301,19 +1301,19 @@
                                                                     "spouse": null,
                                                                     "children": [
                                                                       {
-                                                                        "name": "NE England Spence",
-                                                                        "dates": "c. 1680–1720, NE England",
-                                                                        "fact": "POSSIBLE. Third generation in north-east England. The Spence family was likely labouring or trade class by this period — miners, weavers, or farm workers in the industrial north.",
+                                                                        "name": "Christopher Spence",
+                                                                        "dates": "born ~1730–1740, Gilling, Yorkshire, England",
+                                                                        "fact": "CONFIRMED (via daughter Alice Spence christening record: 28 December 1760, Gilling, Yorkshire; FamilySearch England Births and Christenings, 1538–1975). Father of Alice Spence (b. 1760, Gilling) and thus maternal grandfather of Ralph Spence (b. 1786). Ralph carries the Spence surname through Alice — Ralph's paternal line is unrecorded (illegitimate birth). Children likely christened at Gilling, Yorkshire.",
                                                                         "id": null,
                                                                         "generation": 23,
                                                                         "century": 18,
-                                                                        "confidence": "possible",
-                                                                        "spouse": null,
+                                                                        "confidence": "confirmed",
+                                                                        "spouse": "Dinah (surname unknown; wife of Christopher Spence, Gilling, Yorkshire; mother of Alice Spence b. 1760)",
                                                                         "children": [
                                                                           {
                                                                             "name": "Ralph Spence",
                                                                             "dates": "born 7 May 1786, Gilling, Yorkshire, England",
-                                                                            "fact": "CONFIRMED (FamilySearch christening record: 7 May 1786, Gilling, Yorkshire; mother Alice Spence). Father of Christopher Spence (christened 19 December 1824, Gilling West, Yorkshire). Wife: Ann (maiden name unknown — marriage record pending). Children all christened Gilling West, Yorkshire: Dinah, Thomas, Grace, George, John, Frances, Christopher, Ralph Jr., Isabella.",
+                                                                            "fact": "CONFIRMED (FamilySearch christening record: 7 May 1786, Gilling, Yorkshire). Mother: Alice Spence (christened 28 December 1760, Gilling, Yorkshire; daughter of Christopher Spence + Dinah). Paternal line unrecorded — illegitimate birth; father unknown. Wife: Ann (maiden name unknown — marriage record pending). Children all christened Gilling West, Yorkshire: Dinah, Thomas, Grace, George, John, Frances, Christopher, Ralph Jr., Isabella.",
                                                                             "id": null,
                                                                             "generation": 24,
                                                                             "century": 19,
