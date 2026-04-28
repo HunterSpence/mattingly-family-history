@@ -219,16 +219,17 @@ SPENCE_TREE = N(
                                                                                                             gen=24, century=18, confidence="possible",
                                                                                                             children=[N(
                                                                                                                 "Christopher Spence",
-                                                                                                                "born ~1820, County Durham, England",
-                                                                                                                "CONFIRMED (FamilySearch marriage record ark:/61903/1-1-N-VPQ-7PG). "
+                                                                                                                "born ~1823, Yorkshire, England",
+                                                                                                                "CONFIRMED (1851 England Census, HO107, piece 2389/30, Tanfield, Durham). "
                                                                                                                 "Married Jane Thirkell, 16 August 1846, Auckland St Andrew, Durham. "
-                                                                                                                "Son William christened 17 January 1847 at same parish. "
-                                                                                                                "Likely died ~1849 (absent from 1851 Durham census). "
-                                                                                                                "Parents unknown — further research needed.",
+                                                                                                                "Occupation: Groom. Residence 1851: Tanfield, Durham. "
+                                                                                                                "Children: William Spence (b. ~1848, Towlaw, Durham), "
+                                                                                                                "John Spence (b. ~1849, Towlaw, Durham). "
+                                                                                                                "Birthplace Yorkshire confirmed; parents unknown — research ongoing.",
                                                                                                                 gen=25, century=19, confidence="confirmed",
-                                                                                                                spouse="Jane Thirkell (born ~1822, County Durham, England — "
+                                                                                                                spouse="Jane Thirkell (born ~1822, Auckland, Durham — "
                                                                                                                        "married 16 August 1846, Auckland St Andrew, Durham; "
-                                                                                                                       "mother of William Spence, b. 1847, Bishop Auckland)",
+                                                                                                                       "1851 census Tanfield, Durham, HO107 piece 2389/30)",
                                                                                                                 children=[N(
                                                                                                                     "William Spence",
                                                                                                                     "born 1847, Bishop Auckland, County Durham, England",
