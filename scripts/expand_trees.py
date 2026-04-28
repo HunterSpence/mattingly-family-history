@@ -211,14 +211,69 @@ SPENCE_TREE = N(
                                                                                                         gen=23, century=18, confidence="possible",
                                                                                                         children=[N(
                                                                                                             "Ralph Spence",
-                                                                                                            "born ~1795, Yorkshire, England",
-                                                                                                            "CONFIRMED (FamilySearch christening record, Gilling West, Yorkshire). "
+                                                                                                            "born 7 May 1786, Gilling, Yorkshire, England",
+                                                                                                            "CONFIRMED (FamilySearch christening record: 7 May 1786, Gilling, Yorkshire; mother Alice Spence). "
                                                                                                             "Father of Christopher Spence (christened 19 December 1824, Gilling West, Yorkshire). "
-                                                                                                            "Wife: Ann (maiden name unknown — marriage record search pending).",
+                                                                                                            "Wife: Ann (maiden name unknown — marriage record pending). "
+                                                                                                            "Children all christened Gilling West, Yorkshire: Dinah, Thomas, Grace, George, John, Frances, Christopher, Ralph Jr., Isabella.",
                                                                                                             gen=24, century=19, confidence="confirmed",
-                                                                                                            spouse="Ann (born ~1795, England — maiden name unknown; "
-                                                                                                                   "mother of Christopher Spence, b. 1824, Gilling West, Yorkshire)",
+                                                                                                            spouse="Ann (born ~1790, England — maiden name unknown; "
+                                                                                                                   "mother of at least 9 children including Christopher Spence, b. 1824, Gilling West, Yorkshire)",
                                                                                                             children=[N(
+                                                                                                                "Dinah Spence",
+                                                                                                                "born ~1811, Gilling West, Yorkshire, England",
+                                                                                                                "Daughter of Ralph Spence and Ann. "
+                                                                                                                "Sister of Christopher Spence. "
+                                                                                                                "Christened at Gilling West, Yorkshire (FamilySearch England Births and Christenings, 1538-1975).",
+                                                                                                                gen=25, century=19, confidence="confirmed",
+                                                                                                                children=[]
+                                                                                                            ),
+                                                                                                            N(
+                                                                                                                "Thomas Spence",
+                                                                                                                "born ~1813, Gilling West, Yorkshire, England",
+                                                                                                                "Son of Ralph Spence and Ann. "
+                                                                                                                "Brother of Christopher Spence. "
+                                                                                                                "Christened at Gilling West, Yorkshire (FamilySearch England Births and Christenings, 1538-1975).",
+                                                                                                                gen=25, century=19, confidence="confirmed",
+                                                                                                                children=[]
+                                                                                                            ),
+                                                                                                            N(
+                                                                                                                "Grace Spence",
+                                                                                                                "born ~1815, Gilling West, Yorkshire, England",
+                                                                                                                "Daughter of Ralph Spence and Ann. "
+                                                                                                                "Sister of Christopher Spence. "
+                                                                                                                "Christened at Gilling West, Yorkshire (FamilySearch England Births and Christenings, 1538-1975).",
+                                                                                                                gen=25, century=19, confidence="confirmed",
+                                                                                                                children=[]
+                                                                                                            ),
+                                                                                                            N(
+                                                                                                                "George Spence",
+                                                                                                                "born ~1817, Gilling West, Yorkshire, England",
+                                                                                                                "Son of Ralph Spence and Ann. "
+                                                                                                                "Brother of Christopher Spence. "
+                                                                                                                "Christened at Gilling West, Yorkshire (FamilySearch England Births and Christenings, 1538-1975).",
+                                                                                                                gen=25, century=19, confidence="confirmed",
+                                                                                                                children=[]
+                                                                                                            ),
+                                                                                                            N(
+                                                                                                                "John Spence",
+                                                                                                                "born ~1820, Gilling West, Yorkshire, England",
+                                                                                                                "Son of Ralph Spence and Ann. "
+                                                                                                                "Brother of Christopher Spence. "
+                                                                                                                "Christened at Gilling West, Yorkshire (FamilySearch England Births and Christenings, 1538-1975).",
+                                                                                                                gen=25, century=19, confidence="confirmed",
+                                                                                                                children=[]
+                                                                                                            ),
+                                                                                                            N(
+                                                                                                                "Frances Spence",
+                                                                                                                "born ~1822, Gilling West, Yorkshire, England",
+                                                                                                                "Daughter of Ralph Spence and Ann. "
+                                                                                                                "Sister of Christopher Spence. "
+                                                                                                                "Christened at Gilling West, Yorkshire (FamilySearch England Births and Christenings, 1538-1975).",
+                                                                                                                gen=25, century=19, confidence="confirmed",
+                                                                                                                children=[]
+                                                                                                            ),
+                                                                                                            N(
                                                                                                                 "Christopher Spence",
                                                                                                                 "born ~1823, Yorkshire, England",
                                                                                                                 "CONFIRMED (1851 England Census, HO107, piece 2389/30, Tanfield, Durham; "
@@ -401,6 +456,24 @@ SPENCE_TREE = N(
                                                                                                                     children=[]
                                                                                                                 )
                                                                                                             ]
+                                                                                                        ),
+                                                                                                            N(
+                                                                                                                "Ralph Spence Jr.",
+                                                                                                                "born ~1827, Gilling West, Yorkshire, England",
+                                                                                                                "Son of Ralph Spence and Ann. "
+                                                                                                                "Younger brother of Christopher Spence. "
+                                                                                                                "Christened at Gilling West, Yorkshire (FamilySearch England Births and Christenings, 1538-1975).",
+                                                                                                                gen=25, century=19, confidence="confirmed",
+                                                                                                                children=[]
+                                                                                                            ),
+                                                                                                            N(
+                                                                                                                "Isabella Spence",
+                                                                                                                "born ~1829, Gilling West, Yorkshire, England",
+                                                                                                                "Daughter of Ralph Spence and Ann. "
+                                                                                                                "Younger sister of Christopher Spence. "
+                                                                                                                "Christened at Gilling West, Yorkshire (FamilySearch England Births and Christenings, 1538-1975).",
+                                                                                                                gen=25, century=19, confidence="confirmed",
+                                                                                                                children=[]
                                                                                                         )]
                                                                                                         )]
                                                                                                     )]
