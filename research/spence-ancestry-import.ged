@@ -1,0 +1,302 @@
+0 HEAD
+1 SOUR Clawrence Genealogy Research
+2 VERS 1.0
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 NOTE Spence family line — confirmed records only. Sources: FamilySearch England Births and Christenings 1538-1975; England Marriages 1538-1973; 1851/1881 England Census.
+
+0 @I001@ INDI
+1 NAME Christopher /Spence/
+1 SEX M
+1 BIRT
+2 DATE ABT 1735
+2 PLAC Gilling, Yorkshire, England
+1 NOTE Confirmed as father of Alice Spence via her christening record 28 Dec 1760 Gilling. Ralph Spence's maternal grandfather.
+1 FAMS @F001@
+
+0 @I002@ INDI
+1 NAME Dinah //
+1 SEX F
+1 BIRT
+2 DATE ABT 1735
+2 PLAC Yorkshire, England
+1 NOTE Maiden name unknown. Wife of Christopher Spence, Gilling, Yorkshire. Mother of Alice Spence (b. 1760). Confirmed via Alice's christening record listing parents as Chrisr. Spence and Dinah.
+1 FAMS @F001@
+
+0 @I003@ INDI
+1 NAME Alice /Spence/
+1 SEX F
+1 BIRT
+2 DATE 28 DEC 1760
+2 PLAC Gilling, Yorkshire, England
+1 NOTE Confirmed christening record: FamilySearch England Births and Christenings 1538-1975. Parents: Christopher Spence and Dinah. Mother of Ralph Spence (b. 1786, illegitimate — father unrecorded). Never confirmed to have married; father of Ralph unknown.
+1 FAMC @F001@
+1 FAMS @F002@
+
+0 @I004@ INDI
+1 NAME Ralph /Spence/
+1 SEX M
+1 BIRT
+2 DATE 7 MAY 1786
+2 PLAC Gilling, Yorkshire, England
+1 NOTE Confirmed christening record: FamilySearch England Births and Christenings 1538-1975. Mother: Alice Spence. Father unrecorded (illegitimate birth). Spence surname carried through mother's line. Married Ann (maiden name unknown). All children christened Gilling West, Yorkshire.
+1 FAMC @F002@
+1 FAMS @F003@
+
+0 @I005@ INDI
+1 NAME Ann //
+1 SEX F
+1 BIRT
+2 DATE ABT 1790
+2 PLAC England
+1 NOTE Maiden name unknown. Wife of Ralph Spence. Mother of at least 9 children, all christened Gilling West, Yorkshire. Marriage record pending.
+1 FAMS @F003@
+
+0 @I006@ INDI
+1 NAME Dinah /Spence/
+1 SEX F
+1 BIRT
+2 DATE ABT 1811
+2 PLAC Gilling West, Yorkshire, England
+1 NOTE Daughter of Ralph Spence and Ann. Christened Gilling West, Yorkshire. Named after maternal great-grandmother Dinah (wife of Christopher Spence).
+1 FAMC @F003@
+
+0 @I007@ INDI
+1 NAME Thomas /Spence/
+1 SEX M
+1 BIRT
+2 DATE ABT 1813
+2 PLAC Gilling West, Yorkshire, England
+1 NOTE Son of Ralph Spence and Ann. Christened Gilling West, Yorkshire.
+1 FAMC @F003@
+
+0 @I008@ INDI
+1 NAME Grace /Spence/
+1 SEX F
+1 BIRT
+2 DATE ABT 1815
+2 PLAC Gilling West, Yorkshire, England
+1 NOTE Daughter of Ralph Spence and Ann. Christened Gilling West, Yorkshire.
+1 FAMC @F003@
+
+0 @I009@ INDI
+1 NAME George /Spence/
+1 SEX M
+1 BIRT
+2 DATE ABT 1817
+2 PLAC Gilling West, Yorkshire, England
+1 NOTE Son of Ralph Spence and Ann. Christened Gilling West, Yorkshire.
+1 FAMC @F003@
+
+0 @I010@ INDI
+1 NAME John /Spence/
+1 SEX M
+1 BIRT
+2 DATE ABT 1820
+2 PLAC Gilling West, Yorkshire, England
+1 NOTE Son of Ralph Spence and Ann. Christened Gilling West, Yorkshire.
+1 FAMC @F003@
+
+0 @I011@ INDI
+1 NAME Frances /Spence/
+1 SEX F
+1 BIRT
+2 DATE ABT 1822
+2 PLAC Gilling West, Yorkshire, England
+1 NOTE Daughter of Ralph Spence and Ann. Christened Gilling West, Yorkshire.
+1 FAMC @F003@
+
+0 @I012@ INDI
+1 NAME Christopher /Spence/
+1 SEX M
+1 BIRT
+2 DATE 19 DEC 1824
+2 PLAC Gilling West, Yorkshire, England
+1 NOTE Confirmed christening record: FamilySearch England Births and Christenings 1538-1975. Son of Ralph Spence and Ann. Confirmed 1851 England Census (HO107, piece 2389/30, Tanfield, Durham — age 28, occupation Groom). Married Jane Thirkell 16 August 1846, Auckland St Andrew, Durham.
+1 FAMC @F003@
+1 FAMS @F004@
+
+0 @I013@ INDI
+1 NAME Ralph /Spence/
+1 SEX M
+1 BIRT
+2 DATE ABT 1827
+2 PLAC Gilling West, Yorkshire, England
+1 NOTE Son of Ralph Spence and Ann. Christened Gilling West, Yorkshire. Known as Ralph Jr. to distinguish from father.
+1 FAMC @F003@
+
+0 @I014@ INDI
+1 NAME Isabella /Spence/
+1 SEX F
+1 BIRT
+2 DATE ABT 1829
+2 PLAC Gilling West, Yorkshire, England
+1 NOTE Daughter of Ralph Spence and Ann. Christened Gilling West, Yorkshire.
+1 FAMC @F003@
+
+0 @I015@ INDI
+1 NAME Jane /Thirkell/
+1 SEX F
+1 BIRT
+2 DATE ABT 1822
+2 PLAC Auckland, Durham, England
+1 NOTE Confirmed maiden name Thirkell. Married Christopher Spence 16 August 1846, Auckland St Andrew, Durham. Confirmed 1851 England Census (Tanfield, Durham, HO107 piece 2389/30) as wife of Christopher Spence.
+1 FAMS @F004@
+
+0 @I016@ INDI
+1 NAME William /Spence/
+1 SEX M
+1 BIRT
+2 DATE 1847
+2 PLAC Bishop Auckland, County Durham, England
+1 NOTE Confirmed christening Auckland St Andrew, Durham 1847. Son of Christopher Spence and Jane Thirkell (married 16 Aug 1846). Confirmed 1881 UK Census (RG11, piece 4871/72, Bedale, North Riding, Yorkshire — occupation Gamekeeper). Married Mary Bowron 12 August 1871, Tanfield, Durham.
+1 FAMC @F004@
+1 FAMS @F005@
+
+0 @I017@ INDI
+1 NAME John /Spence/
+1 SEX M
+1 BIRT
+2 DATE ABT 1849
+2 PLAC Towlaw, Durham, England
+1 NOTE Son of Christopher Spence and Jane Thirkell. Confirmed 1851 England Census (HO107, piece 2389/30, Tanfield, Durham).
+1 FAMC @F004@
+
+0 @I018@ INDI
+1 NAME Mary /Bowron/
+1 SEX F
+1 BIRT
+2 DATE 1845
+2 PLAC Startforth, Yorkshire, England
+1 NOTE Maiden name Bowron confirmed via 1871 marriage record. Married William Spence 12 August 1871, Tanfield, Durham. Confirmed 1881 UK Census (Bedale, Yorkshire, RG11 piece 4871/72) as Gamekeeper's wife.
+1 FAMS @F005@
+
+0 @I019@ INDI
+1 NAME Hannah J. /Spence/
+1 SEX F
+1 BIRT
+2 DATE ABT 1875
+2 PLAC Startforth, Yorkshire, England
+1 NOTE Daughter of William Spence and Mary Bowron. Confirmed 1881 UK Census (RG11, piece 4871/72, Bedale, Yorkshire).
+1 FAMC @F005@
+
+0 @I020@ INDI
+1 NAME Joseph Christopher /Spence/
+1 SEX M
+1 BIRT
+2 DATE 1878
+2 PLAC Startforth, Yorkshire, England
+1 IMMI
+2 DATE 1900
+2 PLAC United States of America
+1 NOTE Confirmed 1881 UK Census (age 3, Startforth, Yorkshire, RG11 piece 4871/72). Emigrated USA 1900. Confirmed 1910 US Census (Philadelphia Ward 41, Emerson St — occupation Butler, naturalized citizen). Sailed return voyage RMS Campania Liverpool to New York 4-13 April 1914. Son of William Spence (Gamekeeper, b. 1847) and Mary Bowron (b. 1845 Startforth). Hunter's paternal great-great-grandfather.
+1 FAMC @F005@
+1 FAMS @F006@
+
+0 @I021@ INDI
+1 NAME James /Spence/
+1 SEX M
+1 BIRT
+2 DATE ABT 1881
+2 PLAC Startforth, Yorkshire, England
+1 NOTE Son of William Spence and Mary Bowron. Confirmed 1881 UK Census (RG11, piece 4871/72, Bedale, Yorkshire).
+1 FAMC @F005@
+
+0 @I022@ INDI
+1 NAME Jeanne A. /Meton/
+1 SEX F
+1 BIRT
+2 DATE 1883
+2 PLAC France
+1 IMMI
+2 DATE 1898
+2 PLAC United States of America
+1 NOTE Born France 1883. Immigrated to America 1898. Married Joseph Christopher Spence. Confirmed 1910 US Census Philadelphia.
+1 FAMS @F006@
+
+0 @I023@ INDI
+1 NAME Joseph C. /Spence/
+1 SEX M
+1 BIRT
+2 DATE 1904
+2 PLAC Pennsylvania, USA
+1 NOTE Son of Joseph Christopher Spence and Jeanne A. Meton.
+1 FAMC @F006@
+
+0 @I024@ INDI
+1 NAME Mary L. /Spence/
+1 SEX F
+1 BIRT
+2 DATE 1906
+2 PLAC Pennsylvania, USA
+1 NOTE Daughter of Joseph Christopher Spence and Jeanne A. Meton.
+1 FAMC @F006@
+
+0 @I025@ INDI
+1 NAME William /Spence/
+1 SEX M
+1 BIRT
+2 DATE 1908
+2 PLAC Philadelphia, Pennsylvania, USA
+1 NOTE Son of Joseph Christopher Spence and Jeanne A. Meton. Hunter's paternal great-grandfather.
+1 FAMC @F006@
+
+0 @F001@ FAM
+1 HUSB @I001@
+1 WIFE @I002@
+1 MARR
+2 PLAC Gilling, Yorkshire, England
+1 CHIL @I003@
+1 NOTE Christopher Spence + Dinah. Confirmed as parents of Alice Spence via her christening record 28 Dec 1760 Gilling.
+
+0 @F002@ FAM
+1 WIFE @I003@
+1 CHIL @I004@
+1 NOTE Alice Spence (b. 1760 Gilling) is Ralph's mother. Father unrecorded — illegitimate birth. Alice never confirmed to have married.
+
+0 @F003@ FAM
+1 HUSB @I004@
+1 WIFE @I005@
+1 CHIL @I006@
+1 CHIL @I007@
+1 CHIL @I008@
+1 CHIL @I009@
+1 CHIL @I010@
+1 CHIL @I011@
+1 CHIL @I012@
+1 CHIL @I013@
+1 CHIL @I014@
+1 NOTE Ralph Spence + Ann. All children christened Gilling West, Yorkshire. Marriage record pending — Ann's maiden name unknown.
+
+0 @F004@ FAM
+1 HUSB @I012@
+1 WIFE @I015@
+1 MARR
+2 DATE 16 AUG 1846
+2 PLAC Auckland St Andrew, Durham, England
+1 CHIL @I016@
+1 CHIL @I017@
+1 NOTE Christopher Spence married Jane Thirkell 16 August 1846. Confirmed FamilySearch marriage record ark:/61903/1-1-N-VPQ-7PG.
+
+0 @F005@ FAM
+1 HUSB @I016@
+1 WIFE @I018@
+1 MARR
+2 DATE 12 AUG 1871
+2 PLAC Tanfield, Durham, England
+1 CHIL @I019@
+1 CHIL @I020@
+1 CHIL @I021@
+1 NOTE William Spence married Mary Bowron 12 August 1871 Tanfield Durham. Confirmed marriage record.
+
+0 @F006@ FAM
+1 HUSB @I020@
+1 WIFE @I022@
+1 CHIL @I023@
+1 CHIL @I024@
+1 CHIL @I025@
+1 NOTE Joseph Christopher Spence + Jeanne A. Meton. Confirmed 1910 US Census Philadelphia.
+
+0 TRLR
