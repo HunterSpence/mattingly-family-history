@@ -1456,8 +1456,41 @@
                                                                                         ],
                                                                                         "immigrant_to_america": true,
                                                                                         "country_flag": "🇬🇧"
+                                                                                      },
+                                                                                      {
+                                                                                        "name": "Hannah J. Spence",
+                                                                                        "dates": "born ~1875, Startforth, Yorkshire, England",
+                                                                                        "fact": "Daughter of William Spence (Gamekeeper) and Mary Bowron. Sibling of Joseph Christopher Spence and James Spence. Confirmed via 1881 UK Census (RG11, piece 4871/72, Bedale, Yorkshire).",
+                                                                                        "id": null,
+                                                                                        "generation": 27,
+                                                                                        "century": 19,
+                                                                                        "confidence": "confirmed",
+                                                                                        "spouse": null,
+                                                                                        "children": []
+                                                                                      },
+                                                                                      {
+                                                                                        "name": "James Spence",
+                                                                                        "dates": "born ~1881, Startforth, Yorkshire, England",
+                                                                                        "fact": "Son of William Spence (Gamekeeper) and Mary Bowron. Sibling of Joseph Christopher Spence and Hannah J. Spence. Confirmed via 1881 UK Census (RG11, piece 4871/72, Bedale, Yorkshire).",
+                                                                                        "id": null,
+                                                                                        "generation": 27,
+                                                                                        "century": 19,
+                                                                                        "confidence": "confirmed",
+                                                                                        "spouse": null,
+                                                                                        "children": []
                                                                                       }
                                                                                     ]
+                                                                                  },
+                                                                                  {
+                                                                                    "name": "John Spence",
+                                                                                    "dates": "born ~1849, Towlaw, Durham, England",
+                                                                                    "fact": "Son of Christopher Spence and Jane Thirkell. Sibling of William Spence. Confirmed via 1851 England Census (HO107, piece 2389/30, Tanfield, Durham).",
+                                                                                    "id": null,
+                                                                                    "generation": 26,
+                                                                                    "century": 19,
+                                                                                    "confidence": "confirmed",
+                                                                                    "spouse": null,
+                                                                                    "children": []
                                                                                   }
                                                                                 ]
                                                                               }

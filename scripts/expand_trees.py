@@ -370,9 +370,38 @@ SPENCE_TREE = N(
                                                                                                                                 )]
                                                                                                                             ),
                                                                                                                         ]
-                                                                                                                    )]
-                                                                                                                )]
-                                                                                                            )]
+                                                                                                                    ),
+                                                                                                                    N(
+                                                                                                                        "Hannah J. Spence",
+                                                                                                                        "born ~1875, Startforth, Yorkshire, England",
+                                                                                                                        "Daughter of William Spence (Gamekeeper) and Mary Bowron. "
+                                                                                                                        "Sibling of Joseph Christopher Spence and James Spence. "
+                                                                                                                        "Confirmed via 1881 UK Census (RG11, piece 4871/72, Bedale, Yorkshire).",
+                                                                                                                        gen=27, century=19, confidence="confirmed",
+                                                                                                                        children=[]
+                                                                                                                    ),
+                                                                                                                    N(
+                                                                                                                        "James Spence",
+                                                                                                                        "born ~1881, Startforth, Yorkshire, England",
+                                                                                                                        "Son of William Spence (Gamekeeper) and Mary Bowron. "
+                                                                                                                        "Sibling of Joseph Christopher Spence and Hannah J. Spence. "
+                                                                                                                        "Confirmed via 1881 UK Census (RG11, piece 4871/72, Bedale, Yorkshire).",
+                                                                                                                        gen=27, century=19, confidence="confirmed",
+                                                                                                                        children=[]
+                                                                                                                    )
+                                                                                                                    ]
+                                                                                                                ),
+                                                                                                                N(
+                                                                                                                    "John Spence",
+                                                                                                                    "born ~1849, Towlaw, Durham, England",
+                                                                                                                    "Son of Christopher Spence and Jane Thirkell. "
+                                                                                                                    "Sibling of William Spence. "
+                                                                                                                    "Confirmed via 1851 England Census (HO107, piece 2389/30, Tanfield, Durham).",
+                                                                                                                    gen=26, century=19, confidence="confirmed",
+                                                                                                                    children=[]
+                                                                                                                )
+                                                                                                            ]
+                                                                                                        )]
                                                                                                         )]
                                                                                                     )]
                                                                                                 )]
