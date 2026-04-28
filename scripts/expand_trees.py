@@ -236,13 +236,13 @@ SPENCE_TREE = N(
                                                                                                                     "1847 christening Auckland St Andrew, Durham). "
                                                                                                                     "Son of Christopher Spence and Jane Thirkell (married 16 Aug 1846, Auckland St Andrew). "
                                                                                                                     "Occupation: Gamekeeper. "
-                                                                                                                    "Married Mary Spence (née ?, born 1845, Startforth, Yorkshire). "
+                                                                                                                    "Married Mary Bowron, 12 August 1871, Tanfield, Durham, England. "
                                                                                                                     "Children: Hannah J. Spence (born ~1875, Startforth), Joseph Christopher Spence "
                                                                                                                     "(born 1878, Startforth — emigrated USA 1900), James Spence (born ~1881, Startforth). "
                                                                                                                     "Family resided Bedale, North Riding, Yorkshire at 1881 census.",
                                                                                                                     gen=26, century=19, confidence="confirmed",
-                                                                                                                    spouse="Mary Spence (née ?, born 1845, Startforth, Yorkshire — Gamekeeper's wife; "
-                                                                                                                           "1881 census Bedale, Yorkshire, RG11 piece 4871/72)",
+                                                                                                                    spouse="Mary Bowron (born 1845, Startforth, Yorkshire — married 12 August 1871, "
+                                                                                                                           "Tanfield, Durham; Gamekeeper's wife; 1881 census Bedale, Yorkshire, RG11 piece 4871/72)",
                                                                                                                     children=[N(
                                                                                                                         "Joseph Christopher Spence",
                                                                                                                         "born 1878, Startforth, Yorkshire, England — emigrated USA 1900",
@@ -251,7 +251,7 @@ SPENCE_TREE = N(
                                                                                                                         "return voyage Liverpool→New York Apr 4–13). "
                                                                                                                         "Hunter's paternal great-great-grandfather. "
                                                                                                                         "Son of William Spence (Gamekeeper, b. 1847 Bishop Auckland, Durham) "
-                                                                                                                        "and Mary Spence (née ?, b. 1845, Startforth, Yorkshire). "
+                                                                                                                        "and Mary Bowron (b. 1845, Startforth, Yorkshire). "
                                                                                                                         "Siblings: Hannah J. Spence (b. ~1875) and James Spence (b. ~1881). "
                                                                                                                         "Emigrated to USA 1900. Naturalized US citizen by 1910. "
                                                                                                                         "Occupation in USA: Butler (Philadelphia Ward 41, 1910 census). "
